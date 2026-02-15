@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import HeroBriefing from '../components/home/HeroBriefing.astro';
+import ProfileCardGrid from '../components/home/ProfileCardGrid.astro';
+import MediaPanorama from '../components/home/MediaPanorama.astro';
+import VotesRecents from '../components/home/VotesRecents.astro';
+import DossiersSection from '../components/home/DossiersSection.astro';
+import DashboardRepublique from '../components/home/DashboardRepublique.astro';
+---
+
+<BaseLayout title="Aujourd'hui" description="Citoyens.ai — L'information sur l'information. Plateforme citoyenne indépendante de suivi de la vie publique française.">
+  <Header />
+  <main>
+    <HeroBriefing />
+    <ProfileCardGrid />
+    <MediaPanorama />
+    <VotesRecents />
+    <DossiersSection />
+    <DashboardRepublique />
+  </main>
+  <Footer />
+</BaseLayout>

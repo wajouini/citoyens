@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+
+const allVotes = await getCollection('votes');
+const recentVotes = allVotes.slice(0, 4);
+---
+
+<section class="max-w-[1280px] mx-auto px-6">
+  <div class="flex items-center gap-3 mt-10 mb-6">
+    <h2 class="font-display text-2xl font-black whitespace-nowrap">Assemblée nationale</h2>
+    <div class="flex-1 h-0.5 bg-noir"></div>
+    <span class="font-mono text-xs text-gris-clair whitespace-nowrap">Votes & travaux en cours</span>
+  </div>
+
+  <div class="bg-blanc border border-gris-chaud rounded-lg p-6 mb-10 animate-fade-in-up">
+    <div class="flex justify-between items-center mb-5">
+      <h3 class="font-display text-xl font-bold">Derniers scrutins publics</h3>
+      <div class="flex items-center gap-1.5 font-mono text-[11px] uppercase text-rouge-rep bg-red-50 px-2.5 py-1 rounded">
+        <span class="w-1.5 h-1.5 bg-rouge-rep rounded-full animate-pulse-dot"></span>
+        Session en cours
+      </div>
+    </div>
+
+    {recentVotes.map(vote => {
+      const total = vote.data.pour + vote.data.contre + vote.data.abstentions;
+      const pourPct = Math.round((vote.data.pour / total) * 100);
+      const contrePct = Math.round((vote.data.contre / total) * 100);
+      const abstPct = 100 - pourPct - contrePct;
+      const isAdopte = vote.data.resultat === 'adopte';
+
+      return (
+        <div class="grid grid-cols-1 md:grid-cols-[1fr_200px_140px] gap-4 items-center py-3.5 border-b border-gris-chaud last:border-0">
+          <div>
+            <div class="font-semibold text-sm leading-snug">{vote.data.intitule}</div>
+            <div class="text-xs text-gris-clair mt-0.5">
+              Séance du {vote.data.date} · Scrutin public n°{vote.data.scrutin_id}
+            </div>
+          </div>
+          <div class="flex h-6 rounded overflow-hidden gap-0.5">
+            <div class="bg-vert flex items-center justify-center text-[11px] font-semibold text-white" style={`width:${pourPct}%`}>
+              {vote.data.pour}
+            </div>
+            <div class="bg-rouge-doux flex items-center justify-center text-[11px] font-semibold text-white" style={`width:${contrePct}%`}>
+              {vote.data.contre}
+            </div>
+            <div class="bg-gris-clair flex items-center justify-center text-[11px] font-semibold text-white" style={`width:${abstPct}%`}>
+              {vote.data.abstentions}
+            </div>
+          </div>
+          <div class={`text-center font-mono text-xs font-medium px-2.5 py-1 rounded ${isAdopte ? 'bg-green-50 text-vert' : 'bg-red-50 text-rouge-doux'}`}>
+            {isAdopte ? '✓ Adopté' : '✗ Rejeté'}
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</section>

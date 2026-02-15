@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+---
+
+<BaseLayout title="Mentions légales" description="Mentions légales du site Citoyens.ai.">
+  <Header />
+
+  <main class="max-w-[800px] mx-auto px-6 py-12">
+    <h1 class="font-display text-4xl font-black mb-8">Mentions légales</h1>
+
+    <div class="space-y-6 text-[15px] text-gris-texte leading-relaxed">
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Éditeur</h2>
+        <p>
+          Citoyens.ai est édité par l'association Citoyens.ai, association loi 1901.<br />
+          Siège social : Paris, France.<br />
+          Contact : contact@citoyens.ai
+        </p>
+      </section>
+
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Hébergement</h2>
+        <p>
+          Ce site est hébergé par Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis.
+        </p>
+      </section>
+
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Propriété intellectuelle</h2>
+        <p>
+          Le code source de Citoyens.ai est publié sous licence open source. Les données affichées proviennent de sources publiques institutionnelles (Assemblée nationale, Sénat, HATVP, INSEE, Arcom) et sont soumises à leurs licences respectives.
+        </p>
+      </section>
+
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Protection des données personnelles</h2>
+        <p>
+          Citoyens.ai ne collecte aucune donnée personnelle de ses visiteurs. Aucun cookie de tracking, aucun outil d'analyse tiers. Les données des personnalités publiques affichées sur ce site sont des données publiques, collectées depuis des sources institutionnelles ouvertes conformément au RGPD et à la loi Informatique et Libertés.
+        </p>
+      </section>
+
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Droit de réponse</h2>
+        <p>
+          Conformément à la loi du 29 juillet 1881, toute personne nommée ou désignée sur ce site dispose d'un droit de réponse. Les demandes peuvent être adressées à contact@citoyens.ai.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

@@ -1,0 +1,108 @@
+---
+import { getInitials } from '../../utils/format';
+import { getCoherenceColor, roleLabels } from '../../utils/colors';
+
+interface Props {
+  slug: string;
+  nom: string;
+  prenom: string;
+  nom_complet: string;
+  role: string;
+  parti?: { nom: string; sigle: string; couleur?: string };
+  circonscription?: string;
+  departement?: string;
+  bio_courte: string;
+  taux_participation?: number | null;
+  score_coherence?: number | null;
+  questions_ecrites?: number;
+  propositions_loi?: number;
+  delay?: number;
+}
+
+const {
+  slug, nom, prenom, nom_complet, role, parti,
+  circonscription, departement, taux_participation,
+  score_coherence, questions_ecrites = 0, propositions_loi = 0,
+  delay = 0,
+} = Astro.props;
+
+const initials = getInitials(prenom, nom);
+const roleLabel = roleLabels[role] || role;
+
+const borderTopColor = {
+  depute: 'before:bg-bleu-rep',
+  senateur: 'before:bg-rouge-rep',
+  journaliste: 'before:bg-orange',
+  editorialiste: 'before:bg-orange',
+  ministre: 'before:bg-bleu-rep',
+}[role] || 'before:bg-gris-clair';
+
+const avatarStyle = {
+  depute: 'bg-bleu-clair text-bleu-rep',
+  senateur: 'bg-red-50 text-rouge-rep',
+  journaliste: 'bg-orange-50 text-orange',
+  editorialiste: 'bg-orange-50 text-orange',
+  ministre: 'bg-bleu-clair text-bleu-rep',
+}[role] || 'bg-gris-chaud text-gris-texte';
+
+// Stats differ by role
+const isParliamentarian = role === 'depute' || role === 'senateur';
+const stat1 = isParliamentarian
+  ? { value: taux_participation != null ? `${taux_participation}%` : '—', label: 'Présence' }
+  : { value: String(questions_ecrites + propositions_loi), label: 'Articles' };
+const stat2 = isParliamentarian
+  ? { value: String(questions_ecrites), label: 'Questions' }
+  : { value: '—', label: 'Sujets clés' };
+
+const coherenceLabel = isParliamentarian ? 'Cohérence discours/votes' : 'Registre dominant';
+const coherenceValue = score_coherence != null ? `${score_coherence}%` : 'Factuel';
+const coherenceWidth = score_coherence != null ? score_coherence : 85;
+const coherenceColor = score_coherence != null ? getCoherenceColor(score_coherence) : '#18753C';
+---
+
+<a
+  href={`/fiche/${slug}`}
+  class:list={[
+    'block bg-blanc border border-gris-chaud rounded-lg p-5 transition-all duration-300 cursor-pointer',
+    'relative overflow-hidden no-underline text-noir',
+    'hover:-translate-y-1 hover:shadow-lg hover:border-bleu-rep',
+    'before:content-[""] before:absolute before:top-0 before:left-0 before:right-0 before:h-[3px]',
+    borderTopColor,
+    'animate-fade-in-up',
+    delay > 0 && `delay-${delay}00`,
+  ]}
+>
+  <!-- Header -->
+  <div class="flex items-center gap-3 mb-3.5">
+    <div class={`w-12 h-12 rounded-full flex items-center justify-center font-display text-lg font-bold shrink-0 ${avatarStyle}`}>
+      {initials}
+    </div>
+    <div>
+      <div class="font-bold text-[15px] leading-tight">{nom_complet}</div>
+      <div class="text-xs text-gris-clair">
+        {roleLabel}{parti ? ` · ${parti.sigle}` : ''}{circonscription ? ` · ${circonscription}` : ''}
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="grid grid-cols-2 gap-2 mb-3">
+    <div class="bg-creme rounded p-2 text-center">
+      <div class="font-mono text-lg font-medium text-noir">{stat1.value}</div>
+      <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-0.5">{stat1.label}</div>
+    </div>
+    <div class="bg-creme rounded p-2 text-center">
+      <div class="font-mono text-lg font-medium text-noir">{stat2.value}</div>
+      <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-0.5">{stat2.label}</div>
+    </div>
+  </div>
+
+  <!-- Coherence -->
+  <div class="flex justify-between text-[10px] uppercase tracking-wider mt-2.5">
+    <span class="text-gris-texte">{coherenceLabel}</span>
+    <span class="font-bold" style={`color: ${coherenceColor}`}>{coherenceValue}</span>
+  </div>
+  <div class="h-1 bg-gris-chaud rounded-full overflow-hidden mt-1">
+    <div class="h-full rounded-full transition-all duration-1000" style={`width: ${coherenceWidth}%; background: ${coherenceColor}`}></div>
+  </div>
+</a>

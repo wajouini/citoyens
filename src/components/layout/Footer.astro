@@ -1,0 +1,82 @@
+---
+const explorerLinks = [
+  { label: 'Le briefing du jour', href: '/' },
+  { label: 'Fiches députés', href: '/fiche' },
+  { label: 'Fiches sénateurs', href: '/fiche' },
+  { label: 'Fiches journalistes', href: '/fiche' },
+  { label: 'Médias', href: '/media' },
+  { label: 'Dossiers de fond', href: '/dossiers' },
+];
+
+const transparenceLinks = [
+  { label: 'Notre charte', href: '/a-propos' },
+  { label: 'Méthodologie IA', href: '/a-propos' },
+  { label: 'Code source (GitHub)', href: '#' },
+  { label: 'Financement', href: '/a-propos' },
+  { label: 'Équipe & gouvernance', href: '/a-propos' },
+];
+
+const participerLinks = [
+  { label: 'Faire un don', href: '#' },
+  { label: 'Contribuer (dev)', href: '#' },
+  { label: 'Signaler une erreur', href: '#' },
+  { label: 'Newsletter', href: '#' },
+  { label: 'Contact presse', href: '#' },
+];
+---
+
+<footer class="bg-noir text-white pt-12 pb-6 mt-16">
+  <div class="max-w-[1280px] mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
+      <!-- Brand -->
+      <div>
+        <span class="font-display text-[28px] font-black">
+          citoyens<span class="text-bleu-clair">.ai</span>
+        </span>
+        <p class="text-sm text-white/50 leading-relaxed mt-3 max-w-xs">
+          Initiative citoyenne indépendante. Aucune publicité, aucun financement partisan. Code source ouvert. L'IA au service de la transparence démocratique.
+        </p>
+      </div>
+
+      <!-- Explorer -->
+      <div>
+        <h4 class="text-[11px] uppercase tracking-[2px] text-white/40 mb-4">Explorer</h4>
+        {explorerLinks.map(link => (
+          <a href={link.href} class="block text-white/70 no-underline text-sm py-1 hover:text-white transition-colors">
+            {link.label}
+          </a>
+        ))}
+      </div>
+
+      <!-- Transparence -->
+      <div>
+        <h4 class="text-[11px] uppercase tracking-[2px] text-white/40 mb-4">Transparence</h4>
+        {transparenceLinks.map(link => (
+          <a href={link.href} class="block text-white/70 no-underline text-sm py-1 hover:text-white transition-colors">
+            {link.label}
+          </a>
+        ))}
+      </div>
+
+      <!-- Participer -->
+      <div>
+        <h4 class="text-[11px] uppercase tracking-[2px] text-white/40 mb-4">Participer</h4>
+        {participerLinks.map(link => (
+          <a href={link.href} class="block text-white/70 no-underline text-sm py-1 hover:text-white transition-colors">
+            {link.label}
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="border-t border-white/10 pt-5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/30">
+      <span>© 2026 Citoyens.ai · Association loi 1901 · Données : data.assemblee-nationale.fr, data.senat.fr, Arcom, HATVP</span>
+      <div class="flex gap-3">
+        <span class="px-2 py-0.5 border border-white/15 rounded font-mono text-[10px]">Open Source</span>
+        <span class="px-2 py-0.5 border border-white/15 rounded font-mono text-[10px]">RGPD</span>
+        <span class="px-2 py-0.5 border border-white/15 rounded font-mono text-[10px]">Zéro pub</span>
+      </div>
+    </div>
+  </div>
+</footer>

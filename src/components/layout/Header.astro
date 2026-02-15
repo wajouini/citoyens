@@ -1,0 +1,61 @@
+---
+const navItems = [
+  { label: "Aujourd'hui", href: '/', active: true },
+  { label: 'Fiches', href: '/fiche' },
+  { label: 'Assemblée', href: '/assemblee' },
+  { label: 'Médias', href: '/media' },
+  { label: 'Dossiers', href: '/dossiers' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<!-- Top Bar -->
+<div class="bg-bleu-rep text-white py-1.5 text-[11px] tracking-wider uppercase font-medium">
+  <div class="max-w-[1280px] mx-auto px-6 flex justify-between items-center">
+    <span class="opacity-70">Initiative citoyenne indépendante · Code source ouvert · Zéro publicité</span>
+    <span class="flex items-center gap-1.5">
+      <span class="w-1.5 h-1.5 bg-rouge-rep rounded-full animate-pulse-dot"></span>
+      Assemblée nationale en session
+    </span>
+  </div>
+</div>
+
+<!-- Main Header -->
+<header class="bg-blanc border-b-[3px] border-noir py-5 sticky top-0 z-50">
+  <div class="max-w-[1280px] mx-auto px-6 flex justify-between items-center">
+    <div class="flex items-center">
+      <a href="/" class="flex items-baseline gap-1 no-underline text-noir">
+        <span class="font-display text-[32px] font-black tracking-tighter">citoyens</span>
+        <span class="font-mono text-sm font-medium text-bleu-rep bg-bleu-clair px-1.5 py-0.5 rounded">
+          .ai
+        </span>
+      </a>
+      <span class="text-[11px] uppercase tracking-[2px] text-gris-clair ml-4 border-l border-gris-chaud pl-4 hidden md:inline">
+        L'information sur l'information
+      </span>
+    </div>
+
+    <nav class="hidden lg:flex items-center gap-1.5">
+      {navItems.map(item => (
+        <a
+          href={item.href}
+          class:list={[
+            'text-[13px] font-semibold no-underline px-3 py-1.5 rounded transition-colors uppercase tracking-wider',
+            currentPath === item.href
+              ? 'bg-bleu-rep text-white'
+              : 'text-gris-texte hover:bg-creme hover:text-noir',
+          ]}
+        >
+          {item.label}
+        </a>
+      ))}
+      <button class="w-9 h-9 border border-gris-chaud rounded-full flex items-center justify-center ml-2 hover:border-bleu-rep transition-colors cursor-pointer bg-transparent">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>

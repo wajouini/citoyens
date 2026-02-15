@@ -1,0 +1,42 @@
+---
+import { getCollection } from 'astro:content';
+import ProfileCard from './ProfileCard.astro';
+
+const allPersonnes = await getCollection('personnes');
+// Show first 4 as "trending" profiles
+const trending = allPersonnes.slice(0, 4);
+const totalDeputes = allPersonnes.filter(p => p.data.role === 'depute').length;
+const totalSenateurs = allPersonnes.filter(p => p.data.role === 'senateur').length;
+const totalJournalistes = allPersonnes.filter(p => p.data.role === 'journaliste' || p.data.role === 'editorialiste').length;
+---
+
+<section class="max-w-[1280px] mx-auto px-6">
+  <div class="flex items-center gap-3 mt-10 mb-6">
+    <h2 class="font-display text-2xl font-black whitespace-nowrap">Fiches en tendance</h2>
+    <div class="flex-1 h-0.5 bg-noir"></div>
+    <span class="font-mono text-xs text-gris-clair whitespace-nowrap">
+      {totalDeputes} députés · {totalSenateurs} sénateurs · {totalJournalistes} journalistes
+    </span>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+    {trending.map((p, i) => (
+      <ProfileCard
+        slug={p.data.slug}
+        nom={p.data.nom}
+        prenom={p.data.prenom}
+        nom_complet={p.data.nom_complet}
+        role={p.data.role}
+        parti={p.data.parti}
+        circonscription={p.data.circonscription}
+        departement={p.data.departement}
+        bio_courte={p.data.bio_courte}
+        taux_participation={p.data.taux_participation}
+        score_coherence={p.data.score_coherence}
+        questions_ecrites={p.data.questions_ecrites}
+        propositions_loi={p.data.propositions_loi}
+        delay={i + 1}
+      />
+    ))}
+  </div>
+</section>

@@ -1,0 +1,149 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import { formatDateShort } from '../../utils/format';
+
+const allMedias = await getCollection('medias');
+const videos = allMedias.filter(m => m.data.type === 'youtube');
+const articles = allMedias.filter(m => m.data.type === 'article');
+const featured = allMedias.filter(m => m.data.featured);
+
+function getYouTubeId(url: string): string | null {
+  const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&]+)/);
+  return match?.[1] || null;
+}
+---
+
+<BaseLayout title="Médias" description="Vidéos, articles et podcasts sélectionnés par l'équipe éditoriale de Citoyens.ai.">
+  <Header />
+
+  <main class="max-w-[1280px] mx-auto px-6 py-8">
+    <div class="flex items-center gap-3 mb-8">
+      <h1 class="font-display text-3xl font-black whitespace-nowrap">Médias</h1>
+      <div class="flex-1 h-0.5 bg-noir"></div>
+      <span class="font-mono text-xs text-gris-clair whitespace-nowrap">
+        Sélection éditoriale · {allMedias.length} contenus
+      </span>
+    </div>
+
+    <!-- Featured -->
+    {featured.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-[11px] uppercase tracking-[2px] text-bleu-rep font-mono mb-4">
+          &bull; À la une
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {featured.map(media => {
+            const ytId = media.data.type === 'youtube' ? getYouTubeId(media.data.url) : null;
+            return (
+              <div class="bg-blanc border border-gris-chaud rounded-lg overflow-hidden hover:shadow-md transition-shadow">
+                {ytId && (
+                  <div class="aspect-video bg-noir">
+                    <iframe
+                      src={`https://www.youtube-nocookie.com/embed/${ytId}`}
+                      title={media.data.titre}
+                      class="w-full h-full"
+                      loading="lazy"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                )}
+                <div class="p-4">
+                  <div class="flex items-center gap-2 mb-2">
+                    <span class="text-[10px] font-semibold uppercase tracking-wider text-bleu-rep bg-bleu-clair px-1.5 py-0.5 rounded">
+                      {media.data.source}
+                    </span>
+                    <span class="text-xs text-gris-clair">{formatDateShort(media.data.date)}</span>
+                  </div>
+                  <h3 class="font-semibold text-[15px] leading-snug mb-1.5">{media.data.titre}</h3>
+                  {media.data.description && (
+                    <p class="text-sm text-gris-texte leading-relaxed">{media.data.description}</p>
+                  )}
+                  {media.data.tags.length > 0 && (
+                    <div class="flex gap-1.5 mt-3 flex-wrap">
+                      {media.data.tags.map((tag: string) => (
+                        <span class="text-[10px] bg-creme px-1.5 py-0.5 rounded text-gris-texte">{tag}</span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
+    <!-- All Videos -->
+    {videos.length > 0 && (
+      <section class="mb-10">
+        <div class="flex items-center gap-3 mb-6">
+          <h2 class="font-display text-xl font-bold whitespace-nowrap">Vidéos</h2>
+          <div class="flex-1 h-px bg-gris-chaud"></div>
+          <span class="font-mono text-xs text-gris-clair">{videos.length} vidéos</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {videos.map(media => {
+            const ytId = getYouTubeId(media.data.url);
+            return (
+              <div class="bg-blanc border border-gris-chaud rounded-lg overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all cursor-pointer">
+                {ytId && (
+                  <div class="aspect-video bg-noir relative group">
+                    <img
+                      src={`https://img.youtube.com/vi/${ytId}/mqdefault.jpg`}
+                      alt={media.data.titre}
+                      class="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                    <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                      <div class="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
+                        <svg class="w-5 h-5 text-noir ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                <div class="p-4">
+                  <div class="flex items-center gap-2 mb-1.5">
+                    <span class="text-[10px] font-semibold uppercase tracking-wider text-gris-texte">{media.data.source}</span>
+                    <span class="text-[10px] text-gris-clair">{formatDateShort(media.data.date)}</span>
+                  </div>
+                  <h3 class="font-semibold text-sm leading-snug">{media.data.titre}</h3>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
+    <!-- Articles -->
+    {articles.length > 0 && (
+      <section class="mb-10">
+        <div class="flex items-center gap-3 mb-6">
+          <h2 class="font-display text-xl font-bold whitespace-nowrap">Articles</h2>
+          <div class="flex-1 h-px bg-gris-chaud"></div>
+          <span class="font-mono text-xs text-gris-clair">{articles.length} articles</span>
+        </div>
+        <div class="space-y-3">
+          {articles.map(media => (
+            <a href={media.data.url} target="_blank" rel="noopener" class="block bg-blanc border border-gris-chaud rounded-lg p-4 hover:shadow-md hover:border-bleu-rep transition-all no-underline text-noir">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-[10px] font-semibold uppercase tracking-wider text-orange bg-orange-50 px-1.5 py-0.5 rounded">{media.data.source}</span>
+                <span class="text-xs text-gris-clair">{formatDateShort(media.data.date)}</span>
+              </div>
+              <h3 class="font-semibold text-[15px] leading-snug mb-1">{media.data.titre}</h3>
+              {media.data.description && (
+                <p class="text-sm text-gris-texte">{media.data.description}</p>
+              )}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </main>
+
+  <Footer />
+</BaseLayout>

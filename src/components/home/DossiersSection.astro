@@ -1,0 +1,60 @@
+---
+const dossiersData = [
+  {
+    icone: '🏥',
+    titre: 'Réforme de l\'hôpital public',
+    description: 'Du rapport Claris aux débats en hémicycle. Tous les acteurs, tous les votes, toutes les couvertures.',
+    progression: 65,
+    etape: 'Commission → Hémicycle',
+  },
+  {
+    icone: '🎓',
+    titre: 'Budget Éducation nationale 2026',
+    description: '63,6 Mds€ votés. Où va l\'argent ? Comparaison avec les 10 dernières années.',
+    progression: 100,
+    etape: 'Promulgué',
+  },
+  {
+    icone: '⚖️',
+    titre: 'Justice fiscale : qui paie quoi ?',
+    description: 'Taux effectifs par décile de revenus, niches fiscales, optimisation : les chiffres réels.',
+    progression: 40,
+    etape: 'Enquête en cours',
+  },
+  {
+    icone: '🛡️',
+    titre: 'Loi de programmation militaire 2024-2030',
+    description: '413 Mds€ sur 7 ans. Suivi de l\'exécution budgétaire année par année.',
+    progression: 30,
+    etape: 'An 2/7 d\'exécution',
+  },
+];
+---
+
+<section class="max-w-[1280px] mx-auto px-6">
+  <div class="flex items-center gap-3 mt-10 mb-6">
+    <h2 class="font-display text-2xl font-black whitespace-nowrap">Dossiers de fond</h2>
+    <div class="flex-1 h-0.5 bg-noir"></div>
+    <span class="font-mono text-xs text-gris-clair whitespace-nowrap">Suivi dans la durée</span>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+    {dossiersData.map((d, i) => (
+      <div class={`bg-blanc border border-gris-chaud rounded-lg p-6 flex gap-5 transition-all duration-300 cursor-pointer hover:-translate-y-0.5 hover:shadow-md animate-fade-in-up delay-${i + 1}00`}>
+        <div class="w-12 h-12 bg-bleu-clair rounded-lg flex items-center justify-center text-[22px] shrink-0">
+          {d.icone}
+        </div>
+        <div class="flex-1">
+          <h3 class="font-display text-[17px] font-bold mb-1.5">{d.titre}</h3>
+          <p class="text-[13px] text-gris-texte leading-relaxed mb-2.5">{d.description}</p>
+          <div class="flex items-center gap-2">
+            <div class="flex-1 h-[3px] bg-gris-chaud rounded-full">
+              <div class="h-full bg-bleu-rep rounded-full" style={`width:${d.progression}%`}></div>
+            </div>
+            <span class="font-mono text-[11px] text-gris-clair whitespace-nowrap">{d.etape}</span>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
