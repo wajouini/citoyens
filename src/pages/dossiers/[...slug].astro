@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
@@ -15,7 +15,6 @@ export async function getStaticPaths() {
 }
 
 const { dossier } = Astro.props;
-const { Content } = await render(dossier);
 
 const statutLabels: Record<string, string> = {
   en_cours: 'En cours',
@@ -52,6 +51,9 @@ const acteurs = dossier.data.acteurs_cles || [];
 const chronologie = dossier.data.chronologie || [];
 const argumentsPour = dossier.data.arguments_pour || [];
 const argumentsContre = dossier.data.arguments_contre || [];
+const contexte = dossier.data.contexte || '';
+const enjeux = dossier.data.enjeux || [];
+const chiffres = dossier.data.chiffres || [];
 
 const chronoStyles: Record<string, { dot: string; line: string; text: string; bg: string }> = {
   passe: { dot: 'bg-bleu-rep', line: 'bg-bleu-rep', text: 'text-noir', bg: '' },
@@ -113,20 +115,64 @@ const passedCount = chronologie.filter((c: { statut: string }) => c.statut === '
     <div class="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-6">
       <!-- Main Content -->
       <div class="space-y-6">
-        <!-- Article body (contexte, enjeux, chiffres — from MDX) -->
-        <article class="bg-blanc border border-gris-chaud rounded-lg p-6 sm:p-8 prose prose-neutral max-w-none
-          prose-headings:font-display prose-headings:font-bold
-          prose-h2:text-xl prose-h2:mt-8 prose-h2:mb-4 prose-h2:pb-2 prose-h2:border-b prose-h2:border-gris-chaud
-          prose-h3:text-base prose-h3:mt-6 prose-h3:mb-2
-          prose-p:text-[15px] prose-p:leading-relaxed prose-p:text-gris-texte
-          prose-li:text-[15px] prose-li:text-gris-texte
-          prose-strong:text-noir
-          prose-a:text-bleu-rep prose-a:no-underline hover:prose-a:underline
-          prose-hr:border-gris-chaud prose-hr:my-6
-          prose-table:text-[13px] prose-th:text-left prose-th:font-semibold prose-th:text-noir prose-th:pb-2 prose-th:border-b-2 prose-th:border-gris-chaud
-          prose-td:py-2 prose-td:border-b prose-td:border-gris-chaud prose-td:text-gris-texte">
-          <Content />
-        </article>
+        <!-- Contexte -->
+        {contexte && (
+          <div class="bg-blanc border border-gris-chaud rounded-xl p-6 sm:p-8">
+            <h2 class="font-display text-lg font-bold text-noir mb-4 flex items-center gap-2">
+              <span class="w-8 h-8 bg-bleu-clair rounded-lg flex items-center justify-center text-sm">📋</span>
+              De quoi parle ce texte ?
+            </h2>
+            <div class="space-y-3">
+              {contexte.split('\n\n').map((paragraph: string) => (
+                <p class="text-[15px] leading-relaxed text-gris-texte" set:html={paragraph.replace(/\*\*(.*?)\*\*/g, '<strong class="text-noir font-semibold">$1</strong>')} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Enjeux clés -->
+        {enjeux.length > 0 && (
+          <div class="bg-blanc border border-gris-chaud rounded-xl p-6 sm:p-8">
+            <h2 class="font-display text-lg font-bold text-noir mb-5 flex items-center gap-2">
+              <span class="w-8 h-8 bg-orange/10 rounded-lg flex items-center justify-center text-sm">⚡</span>
+              Les enjeux clés
+            </h2>
+            <div class="space-y-4">
+              {enjeux.map((e: { titre: string; description: string }, i: number) => (
+                <div class="bg-creme/50 border border-gris-chaud/50 rounded-lg p-4 sm:p-5">
+                  <div class="flex items-start gap-3">
+                    <span class="font-mono text-xs font-bold text-bleu-rep bg-bleu-clair w-6 h-6 rounded-md flex items-center justify-center shrink-0 mt-0.5">
+                      {i + 1}
+                    </span>
+                    <div class="flex-1 min-w-0">
+                      <h3 class="font-display font-bold text-[15px] text-noir mb-2">{e.titre}</h3>
+                      <p class="text-[13px] leading-relaxed text-gris-texte" set:html={e.description.replace(/\*\*(.*?)\*\*/g, '<strong class="text-noir font-semibold">$1</strong>')} />
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Chiffres clés -->
+        {chiffres.length > 0 && (
+          <div class="bg-blanc border border-gris-chaud rounded-xl p-6 sm:p-8">
+            <h2 class="font-display text-lg font-bold text-noir mb-5 flex items-center gap-2">
+              <span class="w-8 h-8 bg-vert/10 rounded-lg flex items-center justify-center text-sm">📊</span>
+              Ce que disent les chiffres
+            </h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {chiffres.map((c: { indicateur: string; valeur: string; source: string }) => (
+                <div class="bg-creme/50 border border-gris-chaud/50 rounded-lg p-3.5 text-center">
+                  <div class="font-display font-black text-lg text-bleu-rep leading-tight mb-1">{c.valeur}</div>
+                  <div class="text-[11px] text-noir font-medium leading-snug mb-1.5">{c.indicateur}</div>
+                  <div class="text-[9px] text-gris-clair uppercase tracking-wider">{c.source}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         <!-- Arguments Pour / Contre -->
         {(argumentsPour.length > 0 || argumentsContre.length > 0) && (
