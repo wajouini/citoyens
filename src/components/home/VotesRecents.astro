@@ -32,33 +32,44 @@ const recentVotes = [...allVotes]
       const isAdopte = vote.data.resultat === 'adopte';
 
       return (
-        <div class="grid grid-cols-1 md:grid-cols-[1fr_200px_140px] gap-4 items-center py-3.5 border-b border-gris-chaud last:border-0">
-          <div>
-            <div class="font-semibold text-sm leading-snug">{vote.data.intitule}</div>
-            <div class="text-xs text-gris-clair mt-0.5">
-              {formatDateShort(vote.data.date)} · Scrutin n°{vote.data.scrutin_id}
+        <div class="py-4 border-b border-gris-chaud last:border-0">
+          <div class="grid grid-cols-1 md:grid-cols-[1fr_200px_140px] gap-4 items-center">
+            <div>
+              <div class="font-semibold text-sm leading-snug">{vote.data.intitule}</div>
+              <div class="text-xs text-gris-clair mt-0.5">
+                {formatDateShort(vote.data.date)} · Scrutin n°{vote.data.scrutin_id}
+              </div>
+            </div>
+            <div class="flex h-6 rounded overflow-hidden gap-0.5">
+              {pourPct > 0 && (
+                <div class="bg-vert flex items-center justify-center text-[11px] font-semibold text-white" style={`width:${pourPct}%`}>
+                  {vote.data.pour}
+                </div>
+              )}
+              {contrePct > 0 && (
+                <div class="bg-rouge-doux flex items-center justify-center text-[11px] font-semibold text-white" style={`width:${contrePct}%`}>
+                  {vote.data.contre}
+                </div>
+              )}
+              {abstPct > 0 && (
+                <div class="bg-gris-clair flex items-center justify-center text-[11px] font-semibold text-white" style={`width:${abstPct}%`}>
+                  {vote.data.abstentions}
+                </div>
+              )}
+            </div>
+            <div class={`text-center font-mono text-xs font-medium px-2.5 py-1 rounded ${isAdopte ? 'bg-green-50 text-vert' : 'bg-red-50 text-rouge-doux'}`}>
+              {isAdopte ? '✓ Adopté' : '✗ Rejeté'}
             </div>
           </div>
-          <div class="flex h-6 rounded overflow-hidden gap-0.5">
-            {pourPct > 0 && (
-              <div class="bg-vert flex items-center justify-center text-[11px] font-semibold text-white" style={`width:${pourPct}%`}>
-                {vote.data.pour}
-              </div>
-            )}
-            {contrePct > 0 && (
-              <div class="bg-rouge-doux flex items-center justify-center text-[11px] font-semibold text-white" style={`width:${contrePct}%`}>
-                {vote.data.contre}
-              </div>
-            )}
-            {abstPct > 0 && (
-              <div class="bg-gris-clair flex items-center justify-center text-[11px] font-semibold text-white" style={`width:${abstPct}%`}>
-                {vote.data.abstentions}
-              </div>
-            )}
-          </div>
-          <div class={`text-center font-mono text-xs font-medium px-2.5 py-1 rounded ${isAdopte ? 'bg-green-50 text-vert' : 'bg-red-50 text-rouge-doux'}`}>
-            {isAdopte ? '✓ Adopté' : '✗ Rejeté'}
-          </div>
+          {vote.data.resume && (
+            <p class="text-[13px] text-gris-texte mt-2 leading-relaxed">{vote.data.resume}</p>
+          )}
+          {vote.data.lien_source && (
+            <a href={vote.data.lien_source} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-[11px] text-bleu-rep no-underline hover:underline mt-1.5 font-medium">
+              <span>Voir le scrutin sur assemblee-nationale.fr</span>
+              <span>↗</span>
+            </a>
+          )}
         </div>
       );
     })}

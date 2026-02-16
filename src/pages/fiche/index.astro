@@ -17,13 +17,30 @@ for (const p of allPersonnes) {
 
 // Sort groups by size
 const sortedGroups = [...groups.entries()].sort((a, b) => b[1].length - a[1].length);
+
+// Full group names
+const groupNames: Record<string, string> = {
+  RN: 'Rassemblement National',
+  EPR: 'Ensemble pour la République',
+  'LFI-NFP': 'La France insoumise — NFP',
+  SOC: 'Socialistes et apparentés',
+  DR: 'Droite Républicaine',
+  ECOS: 'Écologiste et Social',
+  DEM: 'Les Démocrates',
+  HOR: 'Horizons et apparentés',
+  LIOT: 'Libertés, Indépendants, Outre-mer et Territoires',
+  UDDPLR: 'Union des droites pour la République',
+  GDR: 'Gauche Démocrate et Républicaine',
+  NI: 'Non inscrits',
+};
 ---
 
-<BaseLayout title="Tous les députés" description="Les 577 députés de l'Assemblée nationale — 17e législature. Profils, participation, groupes parlementaires.">
+<BaseLayout title="Tous les députés — Assemblée nationale" description="Les 577 députés de l'Assemblée nationale, 17e législature. Photos, participation aux scrutins, groupes parlementaires.">
   <Header />
 
   <main class="max-w-[1280px] mx-auto px-6 py-8">
-    <div class="flex items-center gap-3 mb-8">
+    <!-- Header -->
+    <div class="flex items-center gap-3 mb-6">
       <h1 class="font-display text-3xl font-black whitespace-nowrap">Députés</h1>
       <div class="flex-1 h-0.5 bg-noir"></div>
       <span class="font-mono text-xs text-gris-clair whitespace-nowrap">
@@ -31,58 +48,131 @@ const sortedGroups = [...groups.entries()].sort((a, b) => b[1].length - a[1].len
       </span>
     </div>
 
-    <!-- Groups summary -->
-    <div class="flex flex-wrap gap-2 mb-8">
-      {sortedGroups.map(([g, members]) => {
-        const color = getPartiColor(g);
-        return (
-          <a
-            href={`#${g}`}
-            class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-blanc border border-gris-chaud rounded-full text-sm no-underline text-noir hover:border-bleu-rep transition-colors"
-          >
-            <span class="w-2.5 h-2.5 rounded-full shrink-0" style={`background: ${color}`}></span>
-            <span class="font-semibold">{g}</span>
-            <span class="text-gris-clair font-mono text-xs">{members.length}</span>
-          </a>
-        );
-      })}
+    <!-- Hemicycle summary bar -->
+    <div class="bg-blanc border border-gris-chaud rounded-lg p-5 mb-8">
+      <div class="flex h-8 rounded-lg overflow-hidden gap-0.5 mb-4">
+        {sortedGroups.map(([g, members]) => {
+          const color = getPartiColor(g);
+          const pct = (members.length / allPersonnes.length) * 100;
+          return (
+            <a
+              href={`#${g}`}
+              class="flex items-center justify-center text-white text-[10px] font-bold no-underline hover:opacity-80 transition-opacity"
+              style={`width:${pct}%; background:${color}; min-width: ${pct > 3 ? '0' : '16'}px`}
+              title={`${groupNames[g] || g} — ${members.length} députés`}
+            >
+              {pct > 4 ? g : ''}
+            </a>
+          );
+        })}
+      </div>
+      <div class="flex flex-wrap gap-x-4 gap-y-1.5">
+        {sortedGroups.map(([g, members]) => {
+          const color = getPartiColor(g);
+          return (
+            <a
+              href={`#${g}`}
+              class="inline-flex items-center gap-1.5 text-xs no-underline text-gris-texte hover:text-noir transition-colors"
+            >
+              <span class="w-2.5 h-2.5 rounded-full shrink-0" style={`background: ${color}`}></span>
+              <span>{g}</span>
+              <span class="font-mono text-gris-clair">{members.length}</span>
+            </a>
+          );
+        })}
+      </div>
+      <p class="text-[11px] text-gris-clair mt-3">Majorité absolue : 289 sièges. Aucun groupe ne la détient.</p>
     </div>
 
     <!-- Deputies by group -->
     {sortedGroups.map(([g, members]) => {
       const color = getPartiColor(g);
+      const fullName = groupNames[g] || g;
       const sorted = [...members].sort((a, b) => a.data.nom.localeCompare(b.data.nom, 'fr'));
+      // Average participation for the group
+      const participations = members.filter(m => m.data.taux_participation != null).map(m => m.data.taux_participation!);
+      const avgParticipation = participations.length > 0 ? Math.round(participations.reduce((a, b) => a + b, 0) / participations.length) : null;
+
       return (
-        <section id={g} class="mb-10">
-          <div class="flex items-center gap-3 mb-4">
-            <span class="w-3 h-3 rounded-full" style={`background: ${color}`}></span>
-            <h2 class="font-display text-xl font-bold">{g}</h2>
-            <span class="font-mono text-xs text-gris-clair">{members.length} députés</span>
-            <div class="flex-1 h-px bg-gris-chaud"></div>
+        <section id={g} class="mb-12">
+          <!-- Group header -->
+          <div class="flex items-start gap-4 mb-5">
+            <div class="w-1 self-stretch rounded-full shrink-0" style={`background: ${color}`}></div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-baseline gap-3 flex-wrap">
+                <h2 class="font-display text-xl font-bold">{fullName}</h2>
+                <span class="font-mono text-sm font-semibold px-2 py-0.5 rounded" style={`background: ${color}15; color: ${color}`}>{g}</span>
+              </div>
+              <div class="flex items-center gap-4 mt-1 text-xs text-gris-clair">
+                <span class="font-mono">{members.length} députés</span>
+                {avgParticipation != null && (
+                  <span>Participation moy. : <strong class="text-noir">{avgParticipation}%</strong></span>
+                )}
+                <span>{Math.round((members.length / allPersonnes.length) * 100)}% des sièges</span>
+              </div>
+            </div>
           </div>
 
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
-            {sorted.map(p => (
-              <a
-                href={`/fiche/${p.data.slug}`}
-                class="flex items-center gap-2.5 p-2.5 bg-blanc border border-gris-chaud rounded hover:border-bleu-rep hover:shadow-sm transition-all no-underline text-noir"
-              >
-                <div
-                  class="w-8 h-8 rounded-full flex items-center justify-center font-display text-xs font-bold shrink-0"
-                  style={`background: ${color}20; color: ${color}`}
+          <!-- Deputy cards grid -->
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+            {sorted.map(p => {
+              const participation = p.data.taux_participation;
+              return (
+                <a
+                  href={`/fiche/${p.data.slug}`}
+                  class="group bg-blanc border border-gris-chaud rounded-lg overflow-hidden hover:border-bleu-rep hover:shadow-md transition-all no-underline text-noir"
                 >
-                  {p.data.prenom.charAt(0)}{p.data.nom.charAt(0)}
-                </div>
-                <div class="min-w-0">
-                  <div class="text-sm font-semibold truncate">{p.data.nom_complet}</div>
-                  <div class="text-[11px] text-gris-clair truncate">{p.data.departement || ''}{p.data.taux_participation != null ? ` · ${Math.round(p.data.taux_participation)}%` : ''}</div>
-                </div>
-              </a>
-            ))}
+                  <!-- Photo -->
+                  <div class="aspect-square bg-creme relative overflow-hidden">
+                    {p.data.photo_url ? (
+                      <img
+                        src={p.data.photo_url}
+                        alt={p.data.nom_complet}
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        loading="lazy"
+                      />
+                    ) : (
+                      <div
+                        class="w-full h-full flex items-center justify-center font-display text-3xl font-bold"
+                        style={`background: ${color}12; color: ${color}`}
+                      >
+                        {p.data.prenom.charAt(0)}{p.data.nom.charAt(0)}
+                      </div>
+                    )}
+                    <!-- Participation badge -->
+                    {participation != null && (
+                      <div class="absolute bottom-1.5 right-1.5 bg-blanc/90 backdrop-blur-sm rounded px-1.5 py-0.5 font-mono text-[10px] font-bold text-noir shadow-sm">
+                        {Math.round(participation)}%
+                      </div>
+                    )}
+                  </div>
+                  <!-- Info -->
+                  <div class="p-2.5">
+                    <div class="font-semibold text-[13px] leading-tight truncate">{p.data.nom_complet}</div>
+                    <div class="text-[11px] text-gris-clair mt-0.5 truncate">{p.data.departement || ''}</div>
+                    <!-- Participation bar -->
+                    {participation != null && (
+                      <div class="h-1 bg-gris-chaud rounded-full overflow-hidden mt-2">
+                        <div
+                          class="h-full rounded-full"
+                          style={`width: ${Math.min(participation, 100)}%; background: ${color}`}
+                        ></div>
+                      </div>
+                    )}
+                  </div>
+                </a>
+              );
+            })}
           </div>
         </section>
       );
     })}
+
+    <!-- Source -->
+    <div class="text-center text-xs text-gris-clair py-6 border-t border-gris-chaud mt-4">
+      Données : <a href="https://www.data.gouv.fr/fr/datasets/deputes-actifs-de-lassemblee-nationale-informations-et-statistiques/" target="_blank" rel="noopener" class="text-bleu-rep no-underline hover:underline">data.gouv.fr</a>
+      · Photos : <a href="https://www.assemblee-nationale.fr" target="_blank" rel="noopener" class="text-bleu-rep no-underline hover:underline">assemblee-nationale.fr</a>
+    </div>
   </main>
 
   <Footer />

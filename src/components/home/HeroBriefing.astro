@@ -1,8 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
+import { formatDateShort } from '../../utils/format';
 
 const allVotes = await getCollection('votes');
 const allPersonnes = await getCollection('personnes');
+const allMedias = await getCollection('medias');
 
 // Sort votes by date descending
 const recentVotes = [...allVotes]
@@ -21,37 +23,63 @@ for (const p of allPersonnes) {
 const topGroups = [...groups.entries()]
   .sort((a, b) => b[1] - a[1])
   .slice(0, 5);
+
+// Average participation
+const participations = allPersonnes.filter(p => p.data.taux_participation != null).map(p => p.data.taux_participation!);
+const avgParticipation = participations.length > 0 ? Math.round(participations.reduce((a, b) => a + b, 0) / participations.length) : null;
 ---
 
 <section class="py-10 border-b border-gris-chaud">
   <div class="max-w-[1280px] mx-auto px-6">
-    <div class="font-mono text-[11px] uppercase tracking-[2px] text-bleu-rep mb-2">● L'Assemblée en bref</div>
-    <div class="font-display text-[15px] italic text-gris-clair mb-6">17e législature · {totalDeputes} députés</div>
+    <div class="font-mono text-[11px] uppercase tracking-[2px] text-bleu-rep mb-2">&bull; L'Assembl&eacute;e en bref</div>
+    <div class="font-display text-[15px] italic text-gris-clair mb-6">17e l&eacute;gislature &middot; {totalDeputes} d&eacute;put&eacute;s</div>
 
     <div class="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-8">
       <!-- Main: site introduction + last votes -->
       <div class="lg:border-r lg:border-gris-chaud lg:pr-8 animate-fade-in-up">
         <h1 class="font-display text-4xl font-black leading-tight mb-4 tracking-tight">
-          Suivez l'activité parlementaire en toute transparence
+          Suivez l'activit&eacute; parlementaire en toute transparence
         </h1>
 
         <p class="text-[17px] leading-relaxed text-gris-texte mb-5">
-          Citoyens.ai rassemble les données publiques de l'Assemblée nationale pour les rendre accessibles : profils des {totalDeputes} députés, votes en séance, dossiers législatifs et contenus pédagogiques.
+          Citoyens.ai rassemble les donn&eacute;es publiques de l'Assembl&eacute;e nationale pour les rendre accessibles&nbsp;: profils des {totalDeputes} d&eacute;put&eacute;s, votes en s&eacute;ance, dossiers l&eacute;gislatifs et contenus p&eacute;dagogiques.
         </p>
 
-        <!-- Last 3 votes -->
-        <div class="bg-blanc border border-gris-chaud rounded-lg p-4">
-          <h4 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3">Derniers scrutins publics</h4>
-          <div class="flex flex-col gap-2">
+        <!-- Last 3 votes with details -->
+        <div class="bg-blanc border border-gris-chaud rounded-lg p-5">
+          <div class="flex justify-between items-center mb-4">
+            <h4 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair">Derniers scrutins publics</h4>
+            <a href="#votes" class="text-[11px] text-bleu-rep no-underline hover:underline font-medium">Voir tous &rarr;</a>
+          </div>
+          <div class="flex flex-col gap-0">
             {recentVotes.map(vote => {
               const isAdopte = vote.data.resultat === 'adopte';
+              const total = vote.data.pour + vote.data.contre + vote.data.abstentions;
+              const pourPct = total > 0 ? Math.round((vote.data.pour / total) * 100) : 0;
               return (
-                <div class="flex items-center gap-2.5 text-[13px]">
-                  <span class={`w-2 h-2 rounded-full shrink-0 ${isAdopte ? 'bg-vert' : 'bg-rouge-doux'}`}></span>
-                  <span class="font-semibold text-noir flex-1 min-w-0 truncate">{vote.data.intitule}</span>
-                  <span class={`text-xs font-mono shrink-0 ${isAdopte ? 'text-vert' : 'text-rouge-doux'}`}>
-                    {isAdopte ? 'Adopté' : 'Rejeté'}
-                  </span>
+                <div class="py-3 border-b border-gris-chaud last:border-0">
+                  <div class="flex items-start gap-2.5">
+                    <span class={`mt-1.5 w-2 h-2 rounded-full shrink-0 ${isAdopte ? 'bg-vert' : 'bg-rouge-doux'}`}></span>
+                    <div class="flex-1 min-w-0">
+                      <div class="flex items-center gap-2">
+                        <span class="font-semibold text-[13px] text-noir leading-snug">{vote.data.intitule}</span>
+                        <span class={`shrink-0 text-[10px] font-mono font-semibold px-1.5 py-0.5 rounded ${isAdopte ? 'bg-green-50 text-vert' : 'bg-red-50 text-rouge-doux'}`}>
+                          {isAdopte ? 'Adopt\u00e9' : 'Rejet\u00e9'}
+                        </span>
+                      </div>
+                      <div class="text-[11px] text-gris-clair mt-0.5">
+                        {formatDateShort(vote.data.date)} &middot; {vote.data.pour} pour, {vote.data.contre} contre, {vote.data.abstentions} abs.
+                      </div>
+                      {vote.data.resume && (
+                        <p class="text-[12px] text-gris-texte mt-1 leading-relaxed line-clamp-2">{vote.data.resume}</p>
+                      )}
+                      {vote.data.lien_source && (
+                        <a href={vote.data.lien_source} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-[10px] text-bleu-rep no-underline hover:underline mt-1 font-medium">
+                          <span>Source &rarr; assemblee-nationale.fr</span>
+                        </a>
+                      )}
+                    </div>
+                  </div>
                 </div>
               );
             })}
@@ -62,14 +90,14 @@ const topGroups = [...groups.entries()]
       <!-- Sidebar: key numbers -->
       <div class="animate-fade-in-up delay-200">
         <h3 class="font-display text-lg font-bold mb-4 pb-2 border-b-2 border-noir">
-          Chiffres clés
+          Chiffres cl&eacute;s
         </h3>
 
         <div class="grid grid-cols-2 gap-3 mb-5">
-          <div class="bg-blanc border border-gris-chaud rounded-lg p-3 text-center">
+          <a href="/fiche" class="bg-blanc border border-gris-chaud rounded-lg p-3 text-center no-underline hover:border-bleu-rep hover:shadow-sm transition-all">
             <div class="font-mono text-2xl font-medium text-bleu-rep">{totalDeputes}</div>
-            <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Députés</div>
-          </div>
+            <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">D&eacute;put&eacute;s</div>
+          </a>
           <div class="bg-blanc border border-gris-chaud rounded-lg p-3 text-center">
             <div class="font-mono text-2xl font-medium text-bleu-rep">{groups.size}</div>
             <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Groupes</div>
@@ -79,18 +107,25 @@ const topGroups = [...groups.entries()]
             <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Scrutins</div>
           </div>
           <div class="bg-blanc border border-gris-chaud rounded-lg p-3 text-center">
-            <div class="font-mono text-2xl font-medium text-bleu-rep">8</div>
-            <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Vidéos</div>
+            <div class="font-mono text-2xl font-medium text-bleu-rep">{avgParticipation != null ? `${avgParticipation}%` : '—'}</div>
+            <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Participation moy.</div>
           </div>
         </div>
 
         <h4 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3">Principaux groupes</h4>
-        {topGroups.map(([g, count]) => (
-          <div class="flex justify-between items-center py-1.5 border-b border-gris-chaud last:border-0 text-sm">
-            <span class="font-semibold">{g}</span>
-            <span class="font-mono text-gris-clair">{count} députés</span>
-          </div>
-        ))}
+        {topGroups.map(([g, count]) => {
+          const pct = Math.round((count / totalDeputes) * 100);
+          return (
+            <a href={`/fiche#${g}`} class="flex justify-between items-center py-1.5 border-b border-gris-chaud last:border-0 text-sm no-underline text-noir hover:text-bleu-rep transition-colors">
+              <span class="font-semibold">{g}</span>
+              <span class="font-mono text-gris-clair">{count} <span class="text-[10px]">({pct}%)</span></span>
+            </a>
+          );
+        })}
+
+        <a href="/fiche" class="block mt-4 text-center text-xs text-bleu-rep font-medium no-underline hover:underline">
+          Voir les {totalDeputes} d&eacute;put&eacute;s &rarr;
+        </a>
       </div>
     </div>
   </div>

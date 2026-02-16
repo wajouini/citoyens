@@ -33,10 +33,27 @@ const votePositionLabels: Record<string, string> = {
   abstention: 'Abstention',
   absent: 'Absent',
 };
+
+// Format birth date in French
+function formatBirthDate(dateStr: string): string {
+  const d = new Date(dateStr);
+  const months = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+  return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
+}
+
+// Format date prise de fonction
+function formatPriseFonction(dateStr: string): string {
+  const d = new Date(dateStr);
+  const months = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+  return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
+}
+
+// Determine gender from bio_courte
+const isFeminine = personne.bio_courte.startsWith('Députée');
 ---
 
 <BaseLayout
-  title={personne.nom_complet}
+  title={`${personne.nom_complet} — ${roleLabel}`}
   description={personne.bio_courte}
 >
   <Header />
@@ -51,134 +68,166 @@ const votePositionLabels: Record<string, string> = {
       <span class="text-noir">{personne.nom_complet}</span>
     </nav>
 
-    <div class="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-8">
-      <!-- Sidebar -->
-      <aside>
-        <!-- Identity Card -->
-        <div class="bg-blanc border border-gris-chaud rounded-lg p-6 mb-4">
-          <div class="flex flex-col items-center text-center mb-4">
-            <div
-              class="w-20 h-20 rounded-full flex items-center justify-center font-display text-2xl font-bold mb-3"
-              style={`background: ${partiColor}20; color: ${partiColor}`}
-            >
-              {initials}
-            </div>
-            <h1 class="font-display text-2xl font-black">{personne.nom_complet}</h1>
-            <div class="text-sm text-gris-texte mt-1">
-              {roleLabel}
-              {personne.parti && (
-                <span class="inline-flex items-center gap-1 ml-1">
-                  &middot;
-                  <span
-                    class="inline-block w-2.5 h-2.5 rounded-full"
-                    style={`background: ${partiColor}`}
-                  ></span>
-                  {personne.parti.nom}
-                </span>
-              )}
-            </div>
-            {personne.circonscription && (
-              <div class="text-xs text-gris-clair mt-1">
-                {personne.circonscription}
+    <!-- Hero banner -->
+    <div class="bg-blanc border border-gris-chaud rounded-xl overflow-hidden mb-6">
+      <div class="h-2 w-full" style={`background: ${partiColor}`}></div>
+      <div class="p-6 sm:p-8">
+        <div class="flex flex-col sm:flex-row items-start gap-6">
+          <!-- Photo -->
+          <div class="shrink-0">
+            {personne.photo_url ? (
+              <img
+                src={personne.photo_url}
+                alt={personne.nom_complet}
+                class="w-32 h-32 sm:w-40 sm:h-40 rounded-xl object-cover shadow-md"
+                loading="eager"
+              />
+            ) : (
+              <div
+                class="w-32 h-32 sm:w-40 sm:h-40 rounded-xl flex items-center justify-center font-display text-4xl font-bold shadow-md"
+                style={`background: ${partiColor}15; color: ${partiColor}`}
+              >
+                {initials}
               </div>
             )}
           </div>
 
-          <p class="text-sm text-gris-texte leading-relaxed border-t border-gris-chaud pt-4">
-            {personne.bio_courte}
-          </p>
+          <!-- Identity -->
+          <div class="flex-1 min-w-0">
+            <h1 class="font-display text-3xl sm:text-4xl font-black leading-tight mb-2">{personne.nom_complet}</h1>
 
-          {personne.lien_fiche_an && (
-            <a
-              href={personne.lien_fiche_an}
-              target="_blank"
-              rel="noopener"
-              class="block mt-3 text-xs text-bleu-rep hover:underline no-underline"
-            >
-              → Fiche officielle sur assemblee-nationale.fr
-            </a>
-          )}
-        </div>
+            <div class="flex flex-wrap items-center gap-2 mb-3">
+              <span class="inline-flex items-center gap-1.5 text-sm font-medium px-2.5 py-1 rounded-full" style={`background: ${partiColor}12; color: ${partiColor}`}>
+                <span class="w-2.5 h-2.5 rounded-full" style={`background: ${partiColor}`}></span>
+                {personne.parti?.nom || roleLabel}
+              </span>
+              {personne.parti?.sigle && (
+                <span class="text-xs font-mono font-semibold px-2 py-0.5 rounded bg-creme text-gris-texte">{personne.parti.sigle}</span>
+              )}
+            </div>
 
-        <!-- Key Stats (parliamentarians only) -->
-        {isParliamentarian && (
-          <div class="bg-blanc border border-gris-chaud rounded-lg p-6 mb-4">
-            <h3 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3">Chiffres clés</h3>
-            <div class="grid grid-cols-2 gap-3">
-              <div class="text-center">
-                <div class="font-mono text-2xl font-medium text-bleu-rep">
-                  {personne.taux_participation != null ? `${Math.round(personne.taux_participation)}%` : '—'}
-                </div>
-                <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Participation</div>
-              </div>
-              <div class="text-center">
-                <div class="font-mono text-2xl font-medium text-bleu-rep">
-                  {personne.score_loyaute != null ? `${Math.round(personne.score_loyaute)}%` : '—'}
-                </div>
-                <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Loyauté</div>
-              </div>
-              <div class="text-center">
-                <div class="font-mono text-2xl font-medium text-bleu-rep">{personne.questions_ecrites}</div>
-                <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Questions</div>
-              </div>
-              <div class="text-center">
-                <div class="font-mono text-2xl font-medium text-bleu-rep">{personne.propositions_loi}</div>
-                <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Prop. de loi</div>
-              </div>
+            <p class="text-[15px] text-gris-texte leading-relaxed mb-3">{personne.bio_courte}</p>
+
+            <!-- Quick info chips -->
+            <div class="flex flex-wrap gap-2 text-xs text-gris-texte">
+              {personne.circonscription && (
+                <span class="inline-flex items-center gap-1 bg-creme px-2.5 py-1 rounded-full">
+                  📍 {personne.circonscription}
+                </span>
+              )}
+              {personne.age && personne.date_naissance && (
+                <span class="inline-flex items-center gap-1 bg-creme px-2.5 py-1 rounded-full">
+                  📅 {personne.age} ans — né{isFeminine ? 'e' : ''} le {formatBirthDate(personne.date_naissance)}
+                </span>
+              )}
+              {personne.profession && (
+                <span class="inline-flex items-center gap-1 bg-creme px-2.5 py-1 rounded-full">
+                  💼 {personne.profession}
+                </span>
+              )}
+              {personne.nb_mandats && personne.nb_mandats > 1 && (
+                <span class="inline-flex items-center gap-1 bg-creme px-2.5 py-1 rounded-full">
+                  🏛 {personne.nb_mandats}e mandat
+                </span>
+              )}
+              {personne.date_prise_fonction && (
+                <span class="inline-flex items-center gap-1 bg-creme px-2.5 py-1 rounded-full">
+                  ⏱ En fonction depuis le {formatPriseFonction(personne.date_prise_fonction)}
+                </span>
+              )}
+            </div>
+
+            <!-- Contact & links -->
+            <div class="flex flex-wrap items-center gap-3 mt-4">
+              {personne.email && (
+                <a href={`mailto:${personne.email}`} class="inline-flex items-center gap-1.5 text-xs text-bleu-rep bg-bleu-rep/5 px-3 py-1.5 rounded-full no-underline hover:bg-bleu-rep/10 transition-colors font-medium">
+                  ✉ {personne.email}
+                </a>
+              )}
+              {personne.twitter && (
+                <a href={`https://x.com/${personne.twitter.replace('@', '')}`} target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs text-noir bg-creme px-3 py-1.5 rounded-full no-underline hover:bg-gris-chaud transition-colors font-medium">
+                  𝕏 @{personne.twitter.replace('@', '')}
+                </a>
+              )}
+              {personne.lien_fiche_an && (
+                <a href={personne.lien_fiche_an} target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs text-bleu-rep bg-bleu-rep/5 px-3 py-1.5 rounded-full no-underline hover:bg-bleu-rep/10 transition-colors font-medium">
+                  Fiche AN ↗
+                </a>
+              )}
             </div>
           </div>
-        )}
+        </div>
+      </div>
+    </div>
 
-        <!-- Commissions -->
-        {personne.commissions.length > 0 && (
-          <div class="bg-blanc border border-gris-chaud rounded-lg p-6 mb-4">
-            <h3 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3">Commissions</h3>
-            <ul class="text-sm space-y-1.5 list-none p-0 m-0">
-              {personne.commissions.map((c: string) => (
-                <li class="flex items-start gap-2">
-                  <span class="text-bleu-rep mt-0.5">&bull;</span>
-                  {c}
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-
-        <!-- Condamnations -->
-        {personne.condamnations.length > 0 && (
-          <div class="bg-blanc border border-rouge-doux/30 rounded-lg p-6 mb-4">
-            <h3 class="text-[11px] uppercase tracking-[1.5px] text-rouge-doux mb-3">Condamnations & mises en examen</h3>
-            <ul class="text-sm space-y-1.5 text-gris-texte list-none p-0 m-0">
-              {personne.condamnations.map((c: string) => (
-                <li class="flex items-start gap-2">
-                  <span class="text-rouge-doux mt-0.5">&#x26A0;</span>
-                  {c}
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-      </aside>
-
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-6">
       <!-- Main Content -->
-      <div>
+      <div class="space-y-6">
+        <!-- Key Stats (parliamentarians only) -->
+        {isParliamentarian && (
+          <div class="bg-blanc border border-gris-chaud rounded-lg p-6">
+            <h2 class="font-display text-lg font-bold mb-4 flex items-center gap-2">
+              📊 Activité parlementaire
+            </h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <div class="text-center" title="Pourcentage de scrutins publics auxquels ce député a participé (voté pour, contre ou abstention)">
+                <div class="font-mono text-3xl font-bold text-bleu-rep">
+                  {personne.taux_participation != null ? `${Math.round(personne.taux_participation)}%` : '—'}
+                </div>
+                <div class="text-[11px] uppercase tracking-wider text-gris-clair mt-1">Participation</div>
+                {personne.taux_participation != null && (
+                  <div class="h-1.5 bg-gris-chaud rounded-full overflow-hidden mt-2 mx-auto max-w-[80px]">
+                    <div class="h-full rounded-full" style={`width: ${Math.min(personne.taux_participation, 100)}%; background: ${partiColor}`}></div>
+                  </div>
+                )}
+              </div>
+              <div class="text-center" title="Pourcentage de votes conformes à la position de son groupe parlementaire">
+                <div class="font-mono text-3xl font-bold text-bleu-rep">
+                  {personne.score_loyaute != null ? `${Math.round(personne.score_loyaute)}%` : '—'}
+                </div>
+                <div class="text-[11px] uppercase tracking-wider text-gris-clair mt-1">Avec son groupe</div>
+                {personne.score_loyaute != null && (
+                  <div class="h-1.5 bg-gris-chaud rounded-full overflow-hidden mt-2 mx-auto max-w-[80px]">
+                    <div class="h-full rounded-full" style={`width: ${Math.min(personne.score_loyaute, 100)}%; background: ${partiColor}`}></div>
+                  </div>
+                )}
+              </div>
+              <div class="text-center">
+                <div class="font-mono text-3xl font-bold text-bleu-rep">{personne.questions_ecrites}</div>
+                <div class="text-[11px] uppercase tracking-wider text-gris-clair mt-1">Questions</div>
+              </div>
+              <div class="text-center">
+                <div class="font-mono text-3xl font-bold text-bleu-rep">{personne.propositions_loi}</div>
+                <div class="text-[11px] uppercase tracking-wider text-gris-clair mt-1">Prop. de loi</div>
+              </div>
+            </div>
+            <p class="text-[10px] text-gris-clair mt-4 leading-relaxed border-t border-gris-chaud pt-3">
+              Participation = % de scrutins publics votés. Votes avec son groupe = % de conformité aux consignes du groupe. Source : <a href="https://www.data.gouv.fr/fr/datasets/deputes-actifs-de-lassemblee-nationale-informations-et-statistiques/" target="_blank" rel="noopener" class="text-bleu-rep hover:underline no-underline">data.gouv.fr</a>.
+            </p>
+          </div>
+        )}
+
         <!-- Bio longue -->
         {personne.bio_longue && (
-          <section class="bg-blanc border border-gris-chaud rounded-lg p-6 mb-4">
-            <h2 class="font-display text-xl font-bold mb-3 pb-2 border-b border-gris-chaud">Biographie</h2>
+          <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+            <h2 class="font-display text-lg font-bold mb-3 flex items-center gap-2">
+              👤 Biographie
+            </h2>
             <p class="text-[15px] text-gris-texte leading-relaxed">{personne.bio_longue}</p>
           </section>
         )}
 
         <!-- Parcours -->
         {personne.parcours.length > 0 && (
-          <section class="bg-blanc border border-gris-chaud rounded-lg p-6 mb-4">
-            <h2 class="font-display text-xl font-bold mb-4 pb-2 border-b border-gris-chaud">Parcours</h2>
+          <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+            <h2 class="font-display text-lg font-bold mb-4 flex items-center gap-2">
+              📚 Parcours
+            </h2>
             <div class="relative pl-6">
-              <div class="absolute left-2 top-1 bottom-1 w-0.5 bg-gris-chaud"></div>
+              <div class="absolute left-2 top-1 bottom-1 w-0.5" style={`background: ${partiColor}30`}></div>
               {personne.parcours.map((entry: { periode: string; fonction: string }) => (
                 <div class="relative mb-4 last:mb-0">
-                  <div class="absolute -left-[18px] top-1 w-3 h-3 rounded-full border-2 border-bleu-rep bg-blanc"></div>
+                  <div class="absolute -left-[18px] top-1 w-3 h-3 rounded-full border-2 bg-blanc" style={`border-color: ${partiColor}`}></div>
                   <div class="font-mono text-xs text-gris-clair mb-0.5">{entry.periode}</div>
                   <div class="text-sm font-medium">{entry.fonction}</div>
                 </div>
@@ -189,8 +238,10 @@ const votePositionLabels: Record<string, string> = {
 
         <!-- Votes récents -->
         {personne.votes_recents.length > 0 && (
-          <section class="bg-blanc border border-gris-chaud rounded-lg p-6 mb-4">
-            <h2 class="font-display text-xl font-bold mb-4 pb-2 border-b border-gris-chaud">Votes récents</h2>
+          <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+            <h2 class="font-display text-lg font-bold mb-4 flex items-center gap-2">
+              🗳 Votes récents
+            </h2>
             <div class="space-y-0">
               {personne.votes_recents.map((vote: { date: string; intitule: string; position: string }) => (
                 <div class="flex items-center gap-3 py-3 border-b border-gris-chaud last:border-0">
@@ -209,8 +260,10 @@ const votePositionLabels: Record<string, string> = {
 
         <!-- Apparitions média -->
         {personne.apparitions_media.length > 0 && (
-          <section class="bg-blanc border border-gris-chaud rounded-lg p-6 mb-4">
-            <h2 class="font-display text-xl font-bold mb-4 pb-2 border-b border-gris-chaud">Apparitions média</h2>
+          <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+            <h2 class="font-display text-lg font-bold mb-4 flex items-center gap-2">
+              🎬 Apparitions média
+            </h2>
             <div class="space-y-0">
               {personne.apparitions_media.map((app: { date: string; media: string; titre?: string; url?: string }) => (
                 <div class="flex items-center gap-3 py-3 border-b border-gris-chaud last:border-0">
@@ -226,15 +279,107 @@ const votePositionLabels: Record<string, string> = {
             </div>
           </section>
         )}
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="space-y-6">
+        <!-- Commissions -->
+        {personne.commissions.length > 0 && (
+          <div class="bg-blanc border border-gris-chaud rounded-lg p-5">
+            <h3 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3 flex items-center gap-1.5">
+              ⚙ Commissions permanentes
+            </h3>
+            <ul class="text-sm space-y-2 list-none p-0 m-0">
+              {personne.commissions.map((c: string) => (
+                <li class="flex items-start gap-2 py-1.5 border-b border-gris-chaud/50 last:border-0">
+                  <span class="w-1.5 h-1.5 rounded-full shrink-0 mt-1.5" style={`background: ${partiColor}`}></span>
+                  <span class="text-gris-texte">{c}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <!-- Info card -->
+        <div class="bg-blanc border border-gris-chaud rounded-lg p-5">
+          <h3 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3">Informations</h3>
+          <dl class="text-sm space-y-2.5">
+            {personne.departement && (
+              <div class="flex justify-between gap-2">
+                <dt class="text-gris-clair">Département</dt>
+                <dd class="text-noir font-medium text-right">{personne.departement}</dd>
+              </div>
+            )}
+            {personne.circonscription && (
+              <div class="flex justify-between gap-2">
+                <dt class="text-gris-clair">Circonscription</dt>
+                <dd class="text-noir font-medium text-right">{personne.circonscription}</dd>
+              </div>
+            )}
+            {personne.groupe_parlementaire && (
+              <div class="flex justify-between gap-2">
+                <dt class="text-gris-clair">Groupe</dt>
+                <dd class="font-medium text-right" style={`color: ${partiColor}`}>{personne.parti?.nom || personne.groupe_parlementaire}</dd>
+              </div>
+            )}
+            {personne.profession && (
+              <div class="flex justify-between gap-2">
+                <dt class="text-gris-clair">Profession</dt>
+                <dd class="text-noir font-medium text-right">{personne.profession}</dd>
+              </div>
+            )}
+            {personne.age && (
+              <div class="flex justify-between gap-2">
+                <dt class="text-gris-clair">Âge</dt>
+                <dd class="text-noir font-medium">{personne.age} ans</dd>
+              </div>
+            )}
+            {personne.date_naissance && (
+              <div class="flex justify-between gap-2">
+                <dt class="text-gris-clair">Né{isFeminine ? 'e' : ''} le</dt>
+                <dd class="text-noir font-medium">{formatBirthDate(personne.date_naissance)}</dd>
+              </div>
+            )}
+            {personne.nb_mandats && (
+              <div class="flex justify-between gap-2">
+                <dt class="text-gris-clair">Mandats</dt>
+                <dd class="text-noir font-medium">{personne.nb_mandats} mandat{personne.nb_mandats > 1 ? 's' : ''}</dd>
+              </div>
+            )}
+            {personne.date_prise_fonction && (
+              <div class="flex justify-between gap-2">
+                <dt class="text-gris-clair">En fonction depuis</dt>
+                <dd class="text-noir font-medium text-right">{formatPriseFonction(personne.date_prise_fonction)}</dd>
+              </div>
+            )}
+          </dl>
+        </div>
+
+        <!-- Condamnations -->
+        {personne.condamnations.length > 0 && (
+          <div class="bg-blanc border border-rouge-doux/30 rounded-lg p-5">
+            <h3 class="text-[11px] uppercase tracking-[1.5px] text-rouge-doux mb-3">⚠ Condamnations & mises en examen</h3>
+            <ul class="text-sm space-y-1.5 text-gris-texte list-none p-0 m-0">
+              {personne.condamnations.map((c: string) => (
+                <li class="flex items-start gap-2">
+                  <span class="text-rouge-doux mt-0.5">⚠</span>
+                  {c}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         <!-- Source notice -->
-        <div class="bg-creme rounded-lg p-4 text-xs text-gris-clair">
+        <div class="bg-creme rounded-lg p-4 text-xs text-gris-clair leading-relaxed">
+          <p class="mb-1.5 font-semibold text-gris-texte">Sources</p>
           <p>
-            Données issues de <a href="https://www.data.gouv.fr/fr/datasets/deputes-actifs-de-lassemblee-nationale-informations-et-statistiques/" target="_blank" rel="noopener" class="text-bleu-rep hover:underline">data.gouv.fr</a> et de l'<a href="https://www.assemblee-nationale.fr" target="_blank" rel="noopener" class="text-bleu-rep hover:underline">Assemblée nationale</a>.
-            Dernière mise à jour automatique du jeu de données source.
+            Données issues de <a href="https://www.data.gouv.fr/fr/datasets/deputes-actifs-de-lassemblee-nationale-informations-et-statistiques/" target="_blank" rel="noopener" class="text-bleu-rep hover:underline no-underline">data.gouv.fr</a>,
+            <a href="https://data.assemblee-nationale.fr" target="_blank" rel="noopener" class="text-bleu-rep hover:underline no-underline">data.assemblee-nationale.fr</a> et de
+            l'<a href="https://www.assemblee-nationale.fr" target="_blank" rel="noopener" class="text-bleu-rep hover:underline no-underline">Assemblée nationale</a>.
           </p>
         </div>
-      </div>
+      </aside>
     </div>
   </main>
 

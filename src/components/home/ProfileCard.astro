@@ -53,12 +53,28 @@ const avatarBg = parti?.couleur || '#6B7280';
 >
   <!-- Header -->
   <div class="flex items-center gap-3 mb-3.5">
-    <div
-      class="w-12 h-12 rounded-full flex items-center justify-center font-display text-lg font-bold shrink-0"
-      style={`background: ${avatarBg}20; color: ${avatarBg}`}
-    >
-      {initials}
-    </div>
+    {photo_url ? (
+      <img
+        src={photo_url}
+        alt={nom_complet}
+        class="w-12 h-12 rounded-full object-cover shrink-0"
+        loading="lazy"
+        onerror={`this.style.display='none';this.nextElementSibling.style.display='flex'`}
+      />
+      <div
+        class="w-12 h-12 rounded-full items-center justify-center font-display text-lg font-bold shrink-0 hidden"
+        style={`background: ${avatarBg}20; color: ${avatarBg}`}
+      >
+        {initials}
+      </div>
+    ) : (
+      <div
+        class="w-12 h-12 rounded-full flex items-center justify-center font-display text-lg font-bold shrink-0"
+        style={`background: ${avatarBg}20; color: ${avatarBg}`}
+      >
+        {initials}
+      </div>
+    )}
     <div>
       <div class="font-bold text-[15px] leading-tight">{nom_complet}</div>
       <div class="text-xs text-gris-clair">
@@ -79,7 +95,7 @@ const avatarBg = parti?.couleur || '#6B7280';
       <div class="font-mono text-lg font-medium text-noir">
         {score_loyaute != null ? `${Math.round(score_loyaute)}%` : '—'}
       </div>
-      <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-0.5">Loyauté</div>
+      <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-0.5">Avec son groupe</div>
     </div>
   </div>
 
