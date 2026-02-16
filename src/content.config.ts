@@ -98,6 +98,22 @@ const dossiers = defineCollection({
     progression: z.number().default(0),
     icone: z.string().default('📄'),
     etape_label: z.string().default('En cours'),
+    date_maj: z.string().optional(),
+    positions: z.array(z.object({
+      groupe: z.string(),
+      position: z.enum(['pour', 'contre', 'mitige', 'abstention']),
+      resume: z.string(),
+    })).default([]),
+    sources: z.array(z.object({
+      titre: z.string(),
+      url: z.string(),
+      type: z.enum(['officiel', 'presse', 'analyse']).default('presse'),
+    })).default([]),
+    acteurs_cles: z.array(z.object({
+      nom: z.string(),
+      role: z.string(),
+      slug: z.string().optional(),
+    })).default([]),
   }),
 });
 
