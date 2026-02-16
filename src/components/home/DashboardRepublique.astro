@@ -6,16 +6,16 @@ import { statsRepublique } from '../../data/stats-republique';
   <div class="flex items-center gap-3 mt-10 mb-6">
     <h2 class="font-display text-2xl font-black whitespace-nowrap">Le tableau de bord de la République</h2>
     <div class="flex-1 h-0.5 bg-noir"></div>
-    <span class="font-mono text-xs text-gris-clair whitespace-nowrap">Données publiques, mises à jour en continu</span>
+    <span class="font-mono text-xs text-gris-clair whitespace-nowrap">Données publiques</span>
   </div>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
-    {statsRepublique.map((stat, i) => (
-      <div class={`bg-blanc border border-gris-chaud rounded-lg p-5 text-center animate-fade-in-up delay-${i + 1}00`}>
-        <div class="text-[11px] uppercase tracking-wider text-gris-clair mb-2">{stat.theme}</div>
-        <div class="font-mono text-[32px] font-medium text-bleu-rep leading-none mb-1">{stat.valeur}</div>
-        <div class="text-[13px] text-gris-texte mb-2">{stat.description}</div>
-        <div class={`font-mono text-xs ${stat.direction === 'down' ? 'text-rouge-doux' : stat.direction === 'up' ? 'text-vert' : 'text-gris-clair'}`}>
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 mb-10">
+    {statsRepublique.map((stat) => (
+      <div class="bg-blanc border border-gris-chaud rounded-lg p-4 text-center">
+        <div class="text-[10px] uppercase tracking-wider text-gris-clair mb-1.5">{stat.theme}</div>
+        <div class="font-mono text-[28px] font-medium text-bleu-rep leading-none mb-1">{stat.valeur}</div>
+        <div class="text-[11px] text-gris-texte mb-1.5">{stat.description}</div>
+        <div class={`font-mono text-[10px] ${stat.direction === 'down' ? 'text-rouge-doux' : stat.direction === 'up' ? 'text-vert' : 'text-gris-clair'}`}>
           {stat.tendance}
         </div>
       </div>

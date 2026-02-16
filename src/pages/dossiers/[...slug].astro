@@ -215,6 +215,77 @@ const passedCount = chronologie.filter((c: { statut: string }) => c.statut === '
             )}
           </div>
         )}
+
+        <!-- Section Agir -->
+        <div class="bg-blanc border border-gris-chaud rounded-xl p-6 sm:p-8">
+          <h2 class="font-display text-lg font-bold text-noir mb-4 flex items-center gap-2">
+            <span class="w-8 h-8 bg-rouge-rep/10 rounded-lg flex items-center justify-center text-sm">✊</span>
+            Agir
+          </h2>
+          <p class="text-[13px] text-gris-texte leading-relaxed mb-5">
+            Ce dossier vous concerne ? Faites entendre votre voix auprès de vos représentants ou partagez ces informations.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+            <!-- Écrire à mon député -->
+            <a
+              href={`/fiche`}
+              class="flex items-center gap-3 p-4 rounded-lg border border-bleu-rep/20 bg-bleu-clair no-underline hover:border-bleu-rep hover:shadow-sm transition-all group"
+            >
+              <span class="w-10 h-10 bg-bleu-rep rounded-lg flex items-center justify-center text-blanc text-lg shrink-0">✉</span>
+              <div>
+                <div class="font-display font-bold text-[14px] text-bleu-rep group-hover:underline">Écrire à mon député</div>
+                <div class="text-[11px] text-gris-texte">Trouvez votre élu et contactez-le</div>
+              </div>
+            </a>
+
+            <!-- Consulter la source officielle -->
+            {sources.length > 0 && sources.find((s: { type: string }) => s.type === 'officiel') && (
+              <a
+                href={sources.find((s: { type: string }) => s.type === 'officiel')!.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-3 p-4 rounded-lg border border-gris-chaud bg-blanc no-underline hover:border-bleu-rep hover:shadow-sm transition-all group"
+              >
+                <span class="w-10 h-10 bg-creme rounded-lg flex items-center justify-center text-lg shrink-0">🏛</span>
+                <div>
+                  <div class="font-display font-bold text-[14px] text-noir group-hover:text-bleu-rep">Lire le texte officiel</div>
+                  <div class="text-[11px] text-gris-texte">assemblee-nationale.fr</div>
+                </div>
+              </a>
+            )}
+          </div>
+
+          <!-- Boutons de partage -->
+          <div class="flex items-center gap-2 pt-4 border-t border-gris-chaud">
+            <span class="text-[11px] text-gris-clair uppercase tracking-wider mr-2">Partager</span>
+            <a
+              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(dossier.data.titre + ' — Les faits, les chiffres, les arguments.')}&url=${encodeURIComponent('https://citoyens.ai/dossiers/' + dossier.id)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center justify-center w-8 h-8 rounded-full bg-noir text-blanc text-xs no-underline hover:bg-bleu-rep transition-colors"
+              title="Partager sur X"
+            >
+              𝕏
+            </a>
+            <a
+              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://citoyens.ai/dossiers/' + dossier.id)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center justify-center w-8 h-8 rounded-full bg-[#1877F2] text-blanc text-xs font-bold no-underline hover:opacity-80 transition-opacity"
+              title="Partager sur Facebook"
+            >
+              f
+            </a>
+            <button
+              onclick={`navigator.clipboard.writeText('https://citoyens.ai/dossiers/${dossier.id}');this.textContent='✓';setTimeout(()=>this.textContent='🔗',1500)`}
+              class="flex items-center justify-center w-8 h-8 rounded-full bg-gris-chaud text-noir text-xs cursor-pointer hover:bg-gris-clair/30 transition-colors border-0"
+              title="Copier le lien"
+            >
+              🔗
+            </button>
+          </div>
+        </div>
       </div>
 
       <!-- Sidebar -->

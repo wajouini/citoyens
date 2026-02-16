@@ -1,131 +1,132 @@
 ---
 import { getCollection } from 'astro:content';
-import { formatDateShort } from '../../utils/format';
+import uneData from '../../data/une.json';
 
-const allVotes = await getCollection('votes');
-const allPersonnes = await getCollection('personnes');
-const allMedias = await getCollection('medias');
+const allDossiers = await getCollection('dossiers');
+const allDecodages = await getCollection('decodages');
 
-// Sort votes by date descending
-const recentVotes = [...allVotes]
-  .sort((a, b) => b.data.date.localeCompare(a.data.date))
-  .slice(0, 3);
+const categorieBadge: Record<string, string> = {
+  'Budget': 'bg-orange/10 text-orange border-orange/20',
+  'Santé': 'bg-green-50 text-vert border-vert/20',
+  'Immigration': 'bg-blue-50 text-bleu-rep border-bleu-rep/20',
+  'Décryptage': 'bg-purple-50 text-purple-700 border-purple-200',
+  'Vote': 'bg-bleu-clair text-bleu-rep border-bleu-rep/20',
+  'Gouvernement': 'bg-red-50 text-rouge-doux border-rouge-doux/20',
+  'Europe': 'bg-blue-50 text-bleu-rep border-bleu-rep/20',
+};
 
-const totalDeputes = allPersonnes.length;
-const totalVotes = allVotes.length;
-
-// Count groups
-const groups = new Map<string, number>();
-for (const p of allPersonnes) {
-  const g = p.data.groupe_parlementaire || 'NI';
-  groups.set(g, (groups.get(g) || 0) + 1);
-}
-const topGroups = [...groups.entries()]
-  .sort((a, b) => b[1] - a[1])
-  .slice(0, 5);
-
-// Average participation
-const participations = allPersonnes.filter(p => p.data.taux_participation != null).map(p => p.data.taux_participation!);
-const avgParticipation = participations.length > 0 ? Math.round(participations.reduce((a, b) => a + b, 0) / participations.length) : null;
+const formatDate = (dateStr: string) => {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+};
 ---
 
-<section class="py-10 border-b border-gris-chaud">
+<section class="py-8 border-b border-gris-chaud">
   <div class="max-w-[1280px] mx-auto px-6">
-    <div class="font-mono text-[11px] uppercase tracking-[2px] text-bleu-rep mb-2">&bull; L'Assembl&eacute;e en bref</div>
-    <div class="font-display text-[15px] italic text-gris-clair mb-6">17e l&eacute;gislature &middot; {totalDeputes} d&eacute;put&eacute;s</div>
+    <!-- Date line -->
+    <div class="flex items-center gap-3 mb-6">
+      <div class="font-mono text-[11px] uppercase tracking-[2px] text-bleu-rep">&bull; Cette semaine en politique</div>
+      <div class="flex-1 h-px bg-gris-chaud"></div>
+      <div class="font-mono text-[11px] text-gris-clair">{formatDate(uneData.date)}</div>
+    </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-8">
-      <!-- Main: site introduction + last votes -->
-      <div class="lg:border-r lg:border-gris-chaud lg:pr-8 animate-fade-in-up">
-        <h1 class="font-display text-4xl font-black leading-tight mb-4 tracking-tight">
-          Suivez l'activit&eacute; parlementaire en toute transparence
-        </h1>
-
-        <p class="text-[17px] leading-relaxed text-gris-texte mb-5">
-          Citoyens.ai rassemble les donn&eacute;es publiques de l'Assembl&eacute;e nationale pour les rendre accessibles&nbsp;: profils des {totalDeputes} d&eacute;put&eacute;s, votes en s&eacute;ance, dossiers l&eacute;gislatifs et contenus p&eacute;dagogiques.
-        </p>
-
-        <!-- Last 3 votes with details -->
-        <div class="bg-blanc border border-gris-chaud rounded-lg p-5">
-          <div class="flex justify-between items-center mb-4">
-            <h4 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair">Derniers scrutins publics</h4>
-            <a href="#votes" class="text-[11px] text-bleu-rep no-underline hover:underline font-medium">Voir tous &rarr;</a>
+      <!-- Main column: À la Une + fil d'actu -->
+      <div class="lg:border-r lg:border-gris-chaud lg:pr-8">
+        <!-- À LA UNE -->
+        <div class="mb-8">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-rouge-rep bg-red-50 px-2 py-0.5 rounded">À la Une</span>
+            <span class={`text-[9px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full border ${categorieBadge[uneData.categorie] || 'bg-gray-100 text-gris-clair border-gris-chaud'}`}>
+              {uneData.categorie}
+            </span>
           </div>
+          <a href={uneData.lien} class="no-underline group">
+            <h1 class="font-display text-3xl md:text-[38px] font-black leading-[1.15] mb-4 tracking-tight text-noir group-hover:text-bleu-rep transition-colors">
+              {uneData.titre_une}
+            </h1>
+          </a>
+          <p class="text-[17px] leading-relaxed text-gris-texte mb-4 max-w-[640px]">
+            {uneData.accroche}
+          </p>
+          <a href={uneData.lien} class="inline-flex items-center gap-1.5 text-[13px] font-semibold text-bleu-rep no-underline hover:underline">
+            Lire le dossier complet &rarr;
+          </a>
+        </div>
+
+        <!-- FIL D'ACTU -->
+        <div>
+          <h3 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-4 pb-2 border-b border-gris-chaud">Fil de la semaine</h3>
           <div class="flex flex-col gap-0">
-            {recentVotes.map(vote => {
-              const isAdopte = vote.data.resultat === 'adopte';
-              const total = vote.data.pour + vote.data.contre + vote.data.abstentions;
-              const pourPct = total > 0 ? Math.round((vote.data.pour / total) * 100) : 0;
-              return (
-                <div class="py-3 border-b border-gris-chaud last:border-0">
-                  <div class="flex items-start gap-2.5">
-                    <span class={`mt-1.5 w-2 h-2 rounded-full shrink-0 ${isAdopte ? 'bg-vert' : 'bg-rouge-doux'}`}></span>
-                    <div class="flex-1 min-w-0">
-                      <div class="flex items-center gap-2">
-                        <span class="font-semibold text-[13px] text-noir leading-snug">{vote.data.intitule}</span>
-                        <span class={`shrink-0 text-[10px] font-mono font-semibold px-1.5 py-0.5 rounded ${isAdopte ? 'bg-green-50 text-vert' : 'bg-red-50 text-rouge-doux'}`}>
-                          {isAdopte ? 'Adopt\u00e9' : 'Rejet\u00e9'}
-                        </span>
-                      </div>
-                      <div class="text-[11px] text-gris-clair mt-0.5">
-                        {formatDateShort(vote.data.date)} &middot; {vote.data.pour} pour, {vote.data.contre} contre, {vote.data.abstentions} abs.
-                      </div>
-                      {vote.data.resume && (
-                        <p class="text-[12px] text-gris-texte mt-1 leading-relaxed line-clamp-2">{vote.data.resume}</p>
-                      )}
-                      {vote.data.lien_source && (
-                        <a href={vote.data.lien_source} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-[10px] text-bleu-rep no-underline hover:underline mt-1 font-medium">
-                          <span>Source &rarr; assemblee-nationale.fr</span>
-                        </a>
-                      )}
-                    </div>
+            {uneData.faits_semaine.map((fait: any, i: number) => (
+              <a href={fait.lien || '#'} class="group py-3.5 border-b border-gris-chaud last:border-0 no-underline flex gap-3 items-start">
+                <span class="mt-1 font-mono text-[11px] text-gris-clair shrink-0 w-4 text-right">{i + 1}</span>
+                <div class="flex-1">
+                  <div class="flex items-center gap-2 mb-1">
+                    <span class={`text-[9px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded-full border ${categorieBadge[fait.categorie] || 'bg-gray-100 text-gris-clair border-gris-chaud'}`}>
+                      {fait.categorie}
+                    </span>
                   </div>
+                  <h4 class="font-display text-[15px] font-bold text-noir leading-snug group-hover:text-bleu-rep transition-colors">
+                    {fait.titre}
+                  </h4>
+                  <p class="text-[12px] text-gris-texte leading-relaxed mt-0.5 line-clamp-2">{fait.resume}</p>
                 </div>
-              );
-            })}
+              </a>
+            ))}
           </div>
         </div>
       </div>
 
-      <!-- Sidebar: key numbers -->
-      <div class="animate-fade-in-up delay-200">
-        <h3 class="font-display text-lg font-bold mb-4 pb-2 border-b-2 border-noir">
-          Chiffres cl&eacute;s
-        </h3>
-
-        <div class="grid grid-cols-2 gap-3 mb-5">
-          <a href="/fiche" class="bg-blanc border border-gris-chaud rounded-lg p-3 text-center no-underline hover:border-bleu-rep hover:shadow-sm transition-all">
-            <div class="font-mono text-2xl font-medium text-bleu-rep">{totalDeputes}</div>
-            <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">D&eacute;put&eacute;s</div>
-          </a>
-          <div class="bg-blanc border border-gris-chaud rounded-lg p-3 text-center">
-            <div class="font-mono text-2xl font-medium text-bleu-rep">{groups.size}</div>
-            <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Groupes</div>
-          </div>
-          <div class="bg-blanc border border-gris-chaud rounded-lg p-3 text-center">
-            <div class="font-mono text-2xl font-medium text-bleu-rep">{totalVotes}</div>
-            <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Scrutins</div>
-          </div>
-          <div class="bg-blanc border border-gris-chaud rounded-lg p-3 text-center">
-            <div class="font-mono text-2xl font-medium text-bleu-rep">{avgParticipation != null ? `${avgParticipation}%` : '—'}</div>
-            <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Participation moy.</div>
-          </div>
+      <!-- Sidebar -->
+      <div>
+        <!-- Chiffre de la semaine -->
+        <div class="bg-noir text-white rounded-xl p-5 mb-6">
+          <div class="font-mono text-[10px] uppercase tracking-[2px] text-white/50 mb-2">Le chiffre</div>
+          <div class="font-mono text-[42px] font-bold leading-none mb-2 text-white">{uneData.chiffre_semaine.valeur}</div>
+          <p class="text-[13px] leading-relaxed text-white/80 mb-2">{uneData.chiffre_semaine.contexte}</p>
+          <div class="text-[10px] text-white/40 font-mono">Source : {uneData.chiffre_semaine.source}</div>
         </div>
 
-        <h4 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3">Principaux groupes</h4>
-        {topGroups.map(([g, count]) => {
-          const pct = Math.round((count / totalDeputes) * 100);
-          return (
-            <a href={`/fiche#${g}`} class="flex justify-between items-center py-1.5 border-b border-gris-chaud last:border-0 text-sm no-underline text-noir hover:text-bleu-rep transition-colors">
-              <span class="font-semibold">{g}</span>
-              <span class="font-mono text-gris-clair">{count} <span class="text-[10px]">({pct}%)</span></span>
-            </a>
-          );
-        })}
+        <!-- Dossiers en cours -->
+        <div class="mb-6">
+          <h3 class="font-display text-lg font-bold mb-3 pb-2 border-b-2 border-noir">Dossiers en cours</h3>
+          <div class="flex flex-col gap-2.5">
+            {allDossiers.map(d => (
+              <a href={`/dossiers/${d.id}`} class="flex items-center gap-3 p-2.5 rounded-lg border border-gris-chaud bg-blanc no-underline hover:border-bleu-rep hover:shadow-sm transition-all group">
+                <span class="text-xl shrink-0">{d.data.icone}</span>
+                <div class="flex-1 min-w-0">
+                  <div class="font-display text-[13px] font-bold text-noir group-hover:text-bleu-rep transition-colors leading-snug truncate">{d.data.titre}</div>
+                  <div class="flex items-center gap-2 mt-1">
+                    <div class="flex-1 h-[3px] bg-gris-chaud rounded-full">
+                      <div class="h-full bg-bleu-rep rounded-full" style={`width:${d.data.progression}%`}></div>
+                    </div>
+                    <span class="font-mono text-[9px] text-gris-clair whitespace-nowrap">{d.data.etape_label}</span>
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+          <a href="/dossiers" class="block mt-3 text-center text-[11px] text-bleu-rep font-medium no-underline hover:underline">
+            Voir tous les dossiers &rarr;
+          </a>
+        </div>
 
-        <a href="/fiche" class="block mt-4 text-center text-xs text-bleu-rep font-medium no-underline hover:underline">
-          Voir les {totalDeputes} d&eacute;put&eacute;s &rarr;
-        </a>
+        <!-- Décryptages -->
+        <div>
+          <h3 class="font-display text-lg font-bold mb-3 pb-2 border-b-2 border-noir">Décryptages</h3>
+          <div class="flex flex-col gap-2">
+            {allDecodages.map(d => (
+              <a href={`/decodage/${d.id}`} class="flex items-center gap-2 py-2 border-b border-gris-chaud last:border-0 no-underline group">
+                <span class="text-base shrink-0">{d.data.icone}</span>
+                <span class="font-display text-[13px] font-semibold text-noir group-hover:text-bleu-rep transition-colors leading-snug line-clamp-1">{d.data.question}</span>
+              </a>
+            ))}
+          </div>
+          <a href="/decodage" class="block mt-3 text-center text-[11px] text-bleu-rep font-medium no-underline hover:underline">
+            Tous les décryptages &rarr;
+          </a>
+        </div>
       </div>
     </div>
   </div>

@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+const decodages = await getCollection('decodages');
+
+const categorieLabels: Record<string, string> = {
+  economie: 'Économie',
+  immigration: 'Immigration',
+  institutions: 'Institutions',
+  social: 'Social',
+  environnement: 'Environnement',
+  securite: 'Sécurité',
+};
+
+const categorieColors: Record<string, string> = {
+  economie: 'bg-orange/10 text-orange border-orange/20',
+  immigration: 'bg-blue-50 text-bleu-rep border-bleu-rep/20',
+  institutions: 'bg-bleu-clair text-bleu-rep border-bleu-rep/20',
+  social: 'bg-green-50 text-vert border-vert/20',
+  environnement: 'bg-green-50 text-vert border-vert/20',
+  securite: 'bg-red-50 text-rouge-doux border-rouge-doux/20',
+};
+---
+
+<BaseLayout title="Décryptages" description="Les polémiques politiques décryptées : chiffres sourcés, arguments des deux camps, idées reçues corrigées.">
+  <Header />
+
+  <main class="max-w-[1280px] mx-auto px-6 py-8">
+    <!-- Header -->
+    <div class="mb-8">
+      <div class="flex items-center gap-3 mb-4">
+        <h1 class="font-display text-3xl font-black">Décryptages</h1>
+        <div class="flex-1 h-0.5 bg-noir"></div>
+        <span class="font-mono text-xs text-gris-clair">{decodages.length} sujets</span>
+      </div>
+      <p class="text-[15px] text-gris-texte leading-relaxed max-w-[700px]">
+        Les grandes questions politiques expliquées avec des chiffres sourcés, les arguments de chaque camp, et les idées reçues corrigées. Pas d'opinion, juste les faits pour vous forger la vôtre.
+      </p>
+    </div>
+
+    <!-- Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {decodages.map(dec => {
+        const catColor = categorieColors[dec.data.categorie] || 'bg-gray-100 text-gris-clair border-gris-chaud';
+        return (
+          <a href={`/decodage/${dec.id}`} class="bg-blanc border border-gris-chaud rounded-xl overflow-hidden hover:shadow-md transition-all no-underline group">
+            <div class="h-1.5 bg-gradient-to-r from-bleu-rep to-rouge-rep"></div>
+            <div class="p-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="text-2xl">{dec.data.icone}</span>
+                <span class={`text-[9px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full border ${catColor}`}>
+                  {categorieLabels[dec.data.categorie] || dec.data.categorie}
+                </span>
+              </div>
+              <h2 class="font-display text-[17px] font-bold text-noir leading-snug mb-2 group-hover:text-bleu-rep transition-colors">
+                {dec.data.question}
+              </h2>
+              <p class="text-[12px] text-gris-texte leading-relaxed line-clamp-3 mb-3">
+                {dec.data.reponse_courte}
+              </p>
+              <div class="flex items-center gap-3 text-[10px] text-gris-clair">
+                <span>📊 {dec.data.chiffres.length} chiffres</span>
+                <span>💡 {dec.data.idees_recues.length} idées reçues</span>
+                {dec.data.positions.length > 0 && <span>🏛 {dec.data.positions.length} groupes</span>}
+              </div>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

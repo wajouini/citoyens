@@ -1,10 +1,10 @@
 ---
 const navItems = [
   { label: 'Accueil', href: '/' },
+  { label: 'Décryptages', href: '/decodage' },
+  { label: 'Dossiers', href: '/dossiers' },
   { label: 'Députés', href: '/fiche' },
   { label: 'Comprendre', href: '/comprendre' },
-  { label: 'Médias', href: '/media' },
-  { label: 'Dossiers', href: '/dossiers' },
 ];
 
 const currentPath = Astro.url.pathname;
@@ -29,7 +29,7 @@ const currentPath = Astro.url.pathname;
         </span>
       </a>
       <span class="text-[11px] uppercase tracking-[2px] text-gris-clair ml-4 border-l border-gris-chaud pl-4 hidden md:inline">
-        L'information sur l'information
+        Le journal citoyen de la politique
       </span>
     </div>
 

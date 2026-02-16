@@ -134,4 +134,41 @@ const dossiers = defineCollection({
   }),
 });
 
-export const collections = { personnes, votes, medias, dossiers };
+const decodages = defineCollection({
+  loader: glob({ pattern: '**/*.mdx', base: './src/content/decodages' }),
+  schema: z.object({
+    question: z.string(),
+    reponse_courte: z.string(),
+    categorie: z.enum(['economie', 'immigration', 'institutions', 'social', 'environnement', 'securite']),
+    icone: z.string().default('🔍'),
+    date_maj: z.string().optional(),
+    chiffres: z.array(z.object({
+      indicateur: z.string(),
+      valeur: z.string(),
+      source: z.string(),
+    })).default([]),
+    arguments: z.array(z.object({
+      camp: z.string(),
+      argument: z.string(),
+      source: z.string().optional(),
+    })).default([]),
+    idees_recues: z.array(z.object({
+      affirmation: z.string(),
+      realite: z.string(),
+      source: z.string().optional(),
+    })).default([]),
+    positions: z.array(z.object({
+      groupe: z.string(),
+      position: z.enum(['pour', 'contre', 'mitige', 'abstention']),
+      resume: z.string(),
+    })).default([]),
+    sources: z.array(z.object({
+      titre: z.string(),
+      url: z.string(),
+      type: z.enum(['officiel', 'presse', 'analyse']).default('presse'),
+    })).default([]),
+    dossiers_lies: z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { personnes, votes, medias, dossiers, decodages };

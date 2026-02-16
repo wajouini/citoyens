@@ -1,0 +1,274 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import { formatDateShort } from '../../utils/format';
+import { getPartiColor } from '../../utils/colors';
+
+export async function getStaticPaths() {
+  const decodages = await getCollection('decodages');
+  return decodages.map(d => ({
+    params: { slug: d.id },
+    props: { decodage: d },
+  }));
+}
+
+const { decodage } = Astro.props;
+const d = decodage.data;
+
+const categorieLabels: Record<string, string> = {
+  economie: 'Économie',
+  immigration: 'Immigration',
+  institutions: 'Institutions',
+  social: 'Social',
+  environnement: 'Environnement',
+  securite: 'Sécurité',
+};
+
+const categorieColors: Record<string, string> = {
+  economie: 'bg-orange/10 text-orange',
+  immigration: 'bg-blue-50 text-bleu-rep',
+  institutions: 'bg-bleu-clair text-bleu-rep',
+  social: 'bg-green-50 text-vert',
+  environnement: 'bg-green-50 text-vert',
+  securite: 'bg-red-50 text-rouge-doux',
+};
+
+const positionColors: Record<string, { bg: string; text: string; label: string }> = {
+  pour: { bg: 'bg-green-50', text: 'text-vert', label: 'Pour' },
+  contre: { bg: 'bg-red-50', text: 'text-rouge-doux', label: 'Contre' },
+  mitige: { bg: 'bg-orange-50', text: 'text-orange', label: 'Mitigé' },
+  abstention: { bg: 'bg-gray-100', text: 'text-gris-clair', label: 'Abstention' },
+};
+
+const sourceIcons: Record<string, string> = {
+  officiel: '🏛',
+  presse: '📰',
+  analyse: '🔍',
+};
+
+// Group arguments by camp
+const campMap = new Map<string, { camp: string; args: typeof d.arguments }>();
+d.arguments.forEach(a => {
+  if (!campMap.has(a.camp)) campMap.set(a.camp, { camp: a.camp, args: [] });
+  campMap.get(a.camp)!.args.push(a);
+});
+const camps = Array.from(campMap.values());
+
+// Get linked dossiers
+const allDossiers = await getCollection('dossiers');
+const linkedDossiers = allDossiers.filter(dos => d.dossiers_lies.includes(dos.id));
+---
+
+<BaseLayout title={d.question} description={d.reponse_courte}>
+  <Header />
+
+  <main class="max-w-[1280px] mx-auto px-6 py-8">
+    <!-- Breadcrumbs -->
+    <nav class="text-xs text-gris-clair mb-6">
+      <a href="/" class="hover:text-noir no-underline text-gris-clair">Accueil</a>
+      <span class="mx-1.5">&rsaquo;</span>
+      <a href="/decodage" class="hover:text-noir no-underline text-gris-clair">Décryptages</a>
+      <span class="mx-1.5">&rsaquo;</span>
+      <span class="text-noir">{d.question}</span>
+    </nav>
+
+    <!-- Hero -->
+    <div class="bg-blanc border border-gris-chaud rounded-xl overflow-hidden mb-6">
+      <div class="h-2 bg-gradient-to-r from-bleu-rep to-rouge-rep"></div>
+      <div class="p-6 sm:p-8">
+        <div class="flex items-start gap-4 mb-4">
+          <div class="w-16 h-16 bg-creme rounded-xl flex items-center justify-center text-[32px] shrink-0">
+            {d.icone}
+          </div>
+          <div class="flex-1">
+            <span class={`inline-block text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full mb-2 ${categorieColors[d.categorie] || 'bg-gray-100 text-gris-clair'}`}>
+              {categorieLabels[d.categorie] || d.categorie}
+            </span>
+            <h1 class="font-display text-2xl sm:text-3xl font-black leading-tight mb-3">{d.question}</h1>
+          </div>
+        </div>
+
+        <!-- En bref -->
+        <div class="bg-bleu-clair/50 border-l-4 border-bleu-rep rounded-r-lg px-5 py-4">
+          <span class="text-[10px] uppercase tracking-wider font-semibold text-bleu-rep block mb-1">En bref</span>
+          <p class="text-[15px] leading-relaxed text-noir font-medium" set:html={d.reponse_courte.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')} />
+        </div>
+
+        {d.date_maj && (
+          <div class="mt-3 text-[10px] text-gris-clair text-right">Mis à jour le {formatDateShort(d.date_maj)}</div>
+        )}
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-6">
+      <!-- Main Content -->
+      <div class="space-y-6">
+        <!-- Chiffres clés -->
+        {d.chiffres.length > 0 && (
+          <div class="bg-blanc border border-gris-chaud rounded-xl p-6 sm:p-8">
+            <h2 class="font-display text-lg font-bold text-noir mb-5 flex items-center gap-2">
+              <span class="w-8 h-8 bg-vert/10 rounded-lg flex items-center justify-center text-sm">📊</span>
+              Ce que disent les chiffres
+            </h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {d.chiffres.map((c: { indicateur: string; valeur: string; source: string }) => (
+                <div class="bg-creme/50 border border-gris-chaud/50 rounded-lg p-3.5 text-center">
+                  <div class="font-display font-black text-lg text-bleu-rep leading-tight mb-1">{c.valeur}</div>
+                  <div class="text-[11px] text-noir font-medium leading-snug mb-1.5">{c.indicateur}</div>
+                  <div class="text-[9px] text-gris-clair uppercase tracking-wider">{c.source}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Arguments par camp -->
+        {camps.length > 0 && (
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {camps.map((camp, idx) => {
+              const isFirst = idx === 0;
+              const color = isFirst ? 'vert' : 'rouge-doux';
+              const icon = isFirst ? '✓' : '✗';
+              return (
+                <div class="bg-blanc border border-gris-chaud rounded-xl overflow-hidden">
+                  <div class={`bg-${color}/10 border-b border-${color}/20 px-5 py-3 flex items-center gap-2`}>
+                    <span class={`w-6 h-6 bg-${color} rounded-full flex items-center justify-center text-blanc text-xs font-bold`}>{icon}</span>
+                    <h3 class={`text-sm font-bold text-${color}`}>{camp.camp}</h3>
+                    <span class={`ml-auto font-mono text-[11px] text-${color}/70`}>{camp.args.length}</span>
+                  </div>
+                  <ul class="p-5 space-y-3">
+                    {camp.args.map((a: { argument: string; source?: string }) => (
+                      <li class="flex gap-2.5 text-[13px] leading-relaxed text-gris-texte">
+                        <span class={`text-${color} shrink-0 mt-0.5 text-xs`}>▸</span>
+                        <span>
+                          {a.argument}
+                          {a.source && <span class="text-[10px] text-gris-clair ml-1">({a.source})</span>}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
+        )}
+
+        <!-- Idées reçues -->
+        {d.idees_recues.length > 0 && (
+          <div class="bg-blanc border border-gris-chaud rounded-xl p-6 sm:p-8">
+            <h2 class="font-display text-lg font-bold text-noir mb-5 flex items-center gap-2">
+              <span class="w-8 h-8 bg-orange/10 rounded-lg flex items-center justify-center text-sm">💡</span>
+              Idées reçues
+            </h2>
+            <div class="space-y-4">
+              {d.idees_recues.map((ir: { affirmation: string; realite: string; source?: string }) => (
+                <div class="border border-gris-chaud/50 rounded-lg overflow-hidden">
+                  <div class="bg-rouge-doux/5 px-4 py-2.5 flex items-start gap-2">
+                    <span class="text-rouge-doux text-sm mt-0.5">✗</span>
+                    <p class="text-[13px] font-medium text-noir italic">« {ir.affirmation} »</p>
+                  </div>
+                  <div class="bg-vert/5 px-4 py-2.5 flex items-start gap-2">
+                    <span class="text-vert text-sm mt-0.5">→</span>
+                    <div>
+                      <p class="text-[13px] text-gris-texte leading-relaxed">{ir.realite}</p>
+                      {ir.source && <span class="text-[10px] text-gris-clair">Source : {ir.source}</span>}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Dossiers liés -->
+        {linkedDossiers.length > 0 && (
+          <div class="bg-blanc border border-gris-chaud rounded-xl p-6">
+            <h2 class="font-display text-sm font-bold text-noir mb-3 flex items-center gap-2">
+              📂 Dossiers législatifs liés
+            </h2>
+            <div class="space-y-2">
+              {linkedDossiers.map(dos => (
+                <a href={`/dossiers/${dos.id}`} class="flex items-center gap-3 p-3 rounded-lg border border-gris-chaud/50 hover:bg-creme no-underline transition-colors group">
+                  <span class="text-xl">{dos.data.icone}</span>
+                  <div class="flex-1 min-w-0">
+                    <div class="text-sm font-semibold text-bleu-rep group-hover:underline">{dos.data.titre}</div>
+                    <div class="text-[11px] text-gris-clair">{dos.data.etape_label} · {dos.data.progression}%</div>
+                  </div>
+                  <span class="text-gris-clair text-xs">→</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="space-y-6">
+        <!-- Positions des groupes -->
+        {d.positions.length > 0 && (
+          <div class="bg-blanc border border-gris-chaud rounded-lg p-5">
+            <h3 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-4 flex items-center gap-1.5">
+              🏛 Qui dit quoi ?
+            </h3>
+            <div class="space-y-3">
+              {d.positions.map((p: { groupe: string; position: string; resume: string }) => {
+                const pc = positionColors[p.position] || positionColors.mitige;
+                const groupColor = getPartiColor(p.groupe);
+                return (
+                  <div class="border-b border-gris-chaud/50 pb-3 last:border-0 last:pb-0">
+                    <div class="flex items-center gap-2 mb-1">
+                      <span class="w-2.5 h-2.5 rounded-full shrink-0" style={`background: ${groupColor}`}></span>
+                      <span class="font-semibold text-sm">{p.groupe}</span>
+                      <span class={`text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded ${pc.bg} ${pc.text} ml-auto`}>
+                        {pc.label}
+                      </span>
+                    </div>
+                    <p class="text-[12px] text-gris-texte leading-relaxed ml-[18px]">{p.resume}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        <!-- Sources -->
+        {d.sources.length > 0 && (
+          <div class="bg-blanc border border-gris-chaud rounded-lg p-5">
+            <h3 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3 flex items-center gap-1.5">
+              📎 Sources
+            </h3>
+            <div class="space-y-2">
+              {d.sources.map((s: { titre: string; url: string; type: string }) => (
+                <a
+                  href={s.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex items-start gap-2 text-sm no-underline hover:bg-creme rounded-md px-2 py-1.5 -mx-2 transition-colors group"
+                >
+                  <span class="shrink-0 mt-0.5">{sourceIcons[s.type] || '📄'}</span>
+                  <div class="flex-1 min-w-0">
+                    <div class="text-bleu-rep font-medium group-hover:underline leading-snug">{s.titre}</div>
+                    <div class="text-[10px] text-gris-clair capitalize">{s.type}</div>
+                  </div>
+                  <span class="text-gris-clair text-xs shrink-0">↗</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Note -->
+        <div class="bg-creme rounded-lg p-4 text-xs text-gris-clair leading-relaxed">
+          <p class="font-semibold text-gris-texte mb-1">⚠ Note de transparence</p>
+          <p>
+            Ce décryptage présente les arguments des deux camps de manière factuelle et sourcée. Citoyens.ai ne prend pas position. Consultez les sources pour vous forger votre propre opinion.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
