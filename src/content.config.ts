@@ -99,6 +99,13 @@ const dossiers = defineCollection({
     icone: z.string().default('📄'),
     etape_label: z.string().default('En cours'),
     date_maj: z.string().optional(),
+    chronologie: z.array(z.object({
+      date: z.string(),
+      evenement: z.string(),
+      statut: z.enum(['passe', 'en_cours', 'prevu']).default('passe'),
+    })).default([]),
+    arguments_pour: z.array(z.string()).default([]),
+    arguments_contre: z.array(z.string()).default([]),
     positions: z.array(z.object({
       groupe: z.string(),
       position: z.enum(['pour', 'contre', 'mitige', 'abstention']),

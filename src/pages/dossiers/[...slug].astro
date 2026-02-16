@@ -49,6 +49,15 @@ const sourceIcons: Record<string, string> = {
 const positions = dossier.data.positions || [];
 const sources = dossier.data.sources || [];
 const acteurs = dossier.data.acteurs_cles || [];
+const chronologie = dossier.data.chronologie || [];
+const argumentsPour = dossier.data.arguments_pour || [];
+const argumentsContre = dossier.data.arguments_contre || [];
+
+const chronoStyles: Record<string, { dot: string; line: string; text: string; bg: string }> = {
+  passe: { dot: 'bg-bleu-rep', line: 'bg-bleu-rep', text: 'text-noir', bg: '' },
+  en_cours: { dot: 'bg-bleu-rep ring-4 ring-blue-100', line: 'bg-gris-chaud', text: 'text-bleu-rep font-semibold', bg: 'bg-blue-50' },
+  prevu: { dot: 'bg-gris-chaud', line: 'bg-gris-chaud', text: 'text-gris-clair', bg: '' },
+};
 ---
 
 <BaseLayout title={dossier.data.titre} description={dossier.data.description}>
@@ -96,6 +105,93 @@ const acteurs = dossier.data.acteurs_cles || [];
         </div>
       </div>
     </div>
+
+    <!-- Chronologie timeline -->
+    {chronologie.length > 0 && (
+      <div class="bg-blanc border border-gris-chaud rounded-xl p-6 sm:p-8 mb-6">
+        <h2 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-6 flex items-center gap-1.5">
+          📅 Chronologie du texte
+        </h2>
+        <div class="relative">
+          {chronologie.map((c: { date: string; evenement: string; statut: string }, i: number) => {
+            const style = chronoStyles[c.statut] || chronoStyles.prevu;
+            const isLast = i === chronologie.length - 1;
+            return (
+              <div class="flex gap-4 relative">
+                {/* Vertical line */}
+                {!isLast && (
+                  <div class={`absolute left-[11px] top-[24px] bottom-0 w-[2px] ${style.line}`} />
+                )}
+                {/* Dot */}
+                <div class="relative shrink-0 mt-1">
+                  <div class={`w-[22px] h-[22px] rounded-full border-2 border-blanc ${style.dot}`} />
+                </div>
+                {/* Content */}
+                <div class={`flex-1 pb-6 ${isLast ? 'pb-0' : ''}`}>
+                  <div class={`rounded-lg px-3 py-2 ${style.bg}`}>
+                    <span class="font-mono text-[11px] text-gris-clair block mb-0.5">{c.date}</span>
+                    <span class={`text-sm leading-snug ${style.text}`}>{c.evenement}</span>
+                    {c.statut === 'en_cours' && (
+                      <span class="inline-flex items-center gap-1 ml-2 text-[10px] font-semibold text-bleu-rep bg-blue-100 px-1.5 py-0.5 rounded-full align-middle">
+                        <span class="w-1.5 h-1.5 bg-bleu-rep rounded-full animate-pulse" />
+                        En cours
+                      </span>
+                    )}
+                    {c.statut === 'prevu' && (
+                      <span class="inline-flex ml-2 text-[10px] text-gris-clair bg-gray-100 px-1.5 py-0.5 rounded-full align-middle">
+                        À venir
+                      </span>
+                    )}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    )}
+
+    <!-- Arguments Pour / Contre -->
+    {(argumentsPour.length > 0 || argumentsContre.length > 0) && (
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+        {/* Pour */}
+        {argumentsPour.length > 0 && (
+          <div class="bg-blanc border border-gris-chaud rounded-xl overflow-hidden">
+            <div class="bg-vert/10 border-b border-vert/20 px-5 py-3 flex items-center gap-2">
+              <span class="w-6 h-6 bg-vert rounded-full flex items-center justify-center text-blanc text-xs font-bold">✓</span>
+              <h3 class="text-sm font-bold text-vert">Arguments pour</h3>
+              <span class="ml-auto font-mono text-[11px] text-vert/70">{argumentsPour.length}</span>
+            </div>
+            <ul class="p-5 space-y-3">
+              {argumentsPour.map((arg: string) => (
+                <li class="flex gap-2.5 text-[13px] leading-relaxed text-gris-texte">
+                  <span class="text-vert shrink-0 mt-0.5 text-xs">▸</span>
+                  <span>{arg}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {/* Contre */}
+        {argumentsContre.length > 0 && (
+          <div class="bg-blanc border border-gris-chaud rounded-xl overflow-hidden">
+            <div class="bg-rouge-doux/10 border-b border-rouge-doux/20 px-5 py-3 flex items-center gap-2">
+              <span class="w-6 h-6 bg-rouge-doux rounded-full flex items-center justify-center text-blanc text-xs font-bold">✗</span>
+              <h3 class="text-sm font-bold text-rouge-doux">Arguments contre</h3>
+              <span class="ml-auto font-mono text-[11px] text-rouge-doux/70">{argumentsContre.length}</span>
+            </div>
+            <ul class="p-5 space-y-3">
+              {argumentsContre.map((arg: string) => (
+                <li class="flex gap-2.5 text-[13px] leading-relaxed text-gris-texte">
+                  <span class="text-rouge-doux shrink-0 mt-0.5 text-xs">▸</span>
+                  <span>{arg}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    )}
 
     <div class="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-6">
       <!-- Main Content -->
