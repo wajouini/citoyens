@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+const pages = [
+  { icone: '🏛️', titre: "L'Assemblée nationale", description: '577 députés, commissions, parcours d\'une loi : le fonctionnement de la chambre basse du Parlement français.', href: '/comprendre/assemblee-nationale' },
+  { icone: '⚡', titre: 'Le 49.3 expliqué', description: 'L\'article 49 alinéa 3 de la Constitution : un outil controversé pour faire passer une loi sans vote.', href: '/comprendre/49-3' },
+  { icone: '🗳️', titre: 'La motion de censure', description: 'Comment l\'Assemblée peut renverser le gouvernement. Historique et mécanismes constitutionnels.', href: '/comprendre/motion-de-censure' },
+  { icone: '📜', titre: 'La navette parlementaire', description: 'PJL, PPL, commission, hémicycle, CMP : le parcours complet d\'un texte de loi en France.', href: '/comprendre/navette-parlementaire' },
+  { icone: '🔍', titre: 'La HATVP', description: 'La Haute Autorité pour la transparence de la vie publique : déclarations de patrimoine, d\'intérêts et déontologie.', href: '/comprendre/hatvp' },
+  { icone: '👥', titre: 'Les groupes parlementaires', description: 'EPR, RN, LFI-NFP, SOC... Qui sont les groupes de la 17e législature et comment fonctionnent-ils ?', href: '/comprendre/groupes-parlementaires' },
+];
+---
+
+<BaseLayout title="Comprendre la politique" description="Guides pédagogiques pour comprendre le fonctionnement des institutions françaises : Assemblée nationale, 49.3, motion de censure, navette parlementaire.">
+  <Header />
+
+  <main class="max-w-[1280px] mx-auto px-6 py-8">
+    <div class="flex items-center gap-3 mb-4">
+      <h1 class="font-display text-3xl font-black whitespace-nowrap">Comprendre</h1>
+      <div class="flex-1 h-0.5 bg-noir"></div>
+    </div>
+    <p class="text-[17px] text-gris-texte leading-relaxed mb-8 max-w-[700px]">
+      Des guides clairs et sourcés pour comprendre le fonctionnement des institutions françaises.
+      Contenus intemporels, mis à jour lors des évolutions législatives.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {pages.map(item => (
+        <a
+          href={item.href}
+          class="bg-blanc border border-gris-chaud rounded-lg p-6 flex flex-col gap-3 transition-all duration-300 cursor-pointer hover:-translate-y-0.5 hover:shadow-md hover:border-bleu-rep no-underline text-noir"
+        >
+          <div class="w-12 h-12 bg-bleu-clair rounded-lg flex items-center justify-center text-[24px]">
+            {item.icone}
+          </div>
+          <h2 class="font-display text-lg font-bold">{item.titre}</h2>
+          <p class="text-[13px] text-gris-texte leading-relaxed">{item.description}</p>
+        </a>
+      ))}
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

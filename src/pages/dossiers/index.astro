@@ -1,0 +1,74 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+const allDossiers = await getCollection('dossiers');
+
+const statutLabels: Record<string, string> = {
+  en_cours: 'En cours',
+  adopte: 'Adopté',
+  rejete: 'Rejeté',
+  en_commission: 'En commission',
+  promulgue: 'Promulgué',
+};
+
+const statutColors: Record<string, string> = {
+  en_cours: 'bg-blue-50 text-bleu-rep',
+  adopte: 'bg-green-50 text-vert',
+  rejete: 'bg-red-50 text-rouge-doux',
+  en_commission: 'bg-orange-50 text-orange',
+  promulgue: 'bg-green-50 text-vert',
+};
+---
+
+<BaseLayout title="Dossiers législatifs" description="Suivi des grands dossiers législatifs en cours à l'Assemblée nationale.">
+  <Header />
+
+  <main class="max-w-[1280px] mx-auto px-6 py-8">
+    <div class="flex items-center gap-3 mb-8">
+      <h1 class="font-display text-3xl font-black whitespace-nowrap">Dossiers législatifs</h1>
+      <div class="flex-1 h-0.5 bg-noir"></div>
+      <span class="font-mono text-xs text-gris-clair whitespace-nowrap">
+        {allDossiers.length} dossiers
+      </span>
+    </div>
+
+    {allDossiers.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {allDossiers.map(d => (
+          <a
+            href={`/dossiers/${d.id}`}
+            class="bg-blanc border border-gris-chaud rounded-lg p-6 flex gap-5 transition-all duration-300 cursor-pointer hover:-translate-y-0.5 hover:shadow-md hover:border-bleu-rep no-underline text-noir"
+          >
+            <div class="w-12 h-12 bg-bleu-clair rounded-lg flex items-center justify-center text-[22px] shrink-0">
+              {d.data.icone}
+            </div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2 mb-1.5">
+                <h2 class="font-display text-[17px] font-bold">{d.data.titre}</h2>
+                <span class={`text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded ${statutColors[d.data.statut] || 'bg-gray-50 text-gris-clair'}`}>
+                  {statutLabels[d.data.statut] || d.data.statut}
+                </span>
+              </div>
+              <p class="text-[13px] text-gris-texte leading-relaxed mb-2.5">{d.data.description}</p>
+              <div class="flex items-center gap-2">
+                <div class="flex-1 h-[3px] bg-gris-chaud rounded-full">
+                  <div class="h-full bg-bleu-rep rounded-full" style={`width:${d.data.progression}%`}></div>
+                </div>
+                <span class="font-mono text-[11px] text-gris-clair whitespace-nowrap">{d.data.etape_label}</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <div class="bg-blanc border border-gris-chaud rounded-lg p-12 text-center">
+        <p class="text-gris-texte">Les dossiers de fond arrivent bientôt.</p>
+      </div>
+    )}
+  </main>
+
+  <Footer />
+</BaseLayout>

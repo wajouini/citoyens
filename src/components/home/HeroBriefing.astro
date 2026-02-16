@@ -1,103 +1,94 @@
 ---
-import { formatDateLong } from '../../utils/format';
+import { getCollection } from 'astro:content';
 
-const today = formatDateLong(new Date().toISOString());
+const allVotes = await getCollection('votes');
+const allPersonnes = await getCollection('personnes');
 
-const mediaCoverages = [
-  { outlet: 'Le Monde', angle: 'Analyse budgétaire, avis d\'économistes', tone: 'factual' as const },
-  { outlet: 'Le Figaro', angle: 'Éditorial sur l\'efficience nécessaire', tone: 'editorial' as const },
-  { outlet: 'Mediapart', angle: 'Enquête sur les liens avec le privé', tone: 'critical' as const },
-  { outlet: 'France Info', angle: 'Témoignages de soignants, terrain', tone: 'factual' as const },
-  { outlet: 'CNews', angle: 'Débat plateau sur l\'immigration et l\'hôpital', tone: 'editorial' as const },
-];
+// Sort votes by date descending
+const recentVotes = [...allVotes]
+  .sort((a, b) => b.data.date.localeCompare(a.data.date))
+  .slice(0, 3);
 
-const toneColors = {
-  factual: 'bg-vert',
-  editorial: 'bg-orange',
-  critical: 'bg-rouge-doux',
-};
+const totalDeputes = allPersonnes.length;
+const totalVotes = allVotes.length;
 
-const alerts = [
-  {
-    type: 'vote' as const,
-    title: 'Amendement sur le temps de travail des internes — rejeté 234 contre 198',
-    meta: 'Assemblée nationale · Hier 22h40',
-  },
-  {
-    type: 'loi' as const,
-    title: 'Loi de programmation militaire : passage en commission des Finances mardi',
-    meta: 'Sénat · Commission prévue 14h30',
-  },
-  {
-    type: 'media' as const,
-    title: 'Arcom : mise en demeure de C8 pour manquement à l\'obligation de pluralisme',
-    meta: 'Publié ce matin · 3 médias couvrent',
-  },
-  {
-    type: 'vote' as const,
-    title: 'Nouveau rapporteur pour le budget de l\'Éducation nationale nommé',
-    meta: 'Assemblée nationale · Hier',
-  },
-];
-
-const alertTypeStyles = {
-  vote: 'text-bleu-rep',
-  loi: 'text-rouge-rep',
-  media: 'text-orange',
-};
+// Count groups
+const groups = new Map<string, number>();
+for (const p of allPersonnes) {
+  const g = p.data.groupe_parlementaire || 'NI';
+  groups.set(g, (groups.get(g) || 0) + 1);
+}
+const topGroups = [...groups.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 5);
 ---
 
 <section class="py-10 border-b border-gris-chaud">
   <div class="max-w-[1280px] mx-auto px-6">
-    <div class="font-mono text-[11px] uppercase tracking-[2px] text-bleu-rep mb-2">● Le briefing du jour</div>
-    <div class="font-display text-[15px] italic text-gris-clair mb-6">{today}</div>
+    <div class="font-mono text-[11px] uppercase tracking-[2px] text-bleu-rep mb-2">● L'Assemblée en bref</div>
+    <div class="font-display text-[15px] italic text-gris-clair mb-6">17e législature · {totalDeputes} députés</div>
 
     <div class="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-8">
-      <!-- Main Story -->
+      <!-- Main: site introduction + last votes -->
       <div class="lg:border-r lg:border-gris-chaud lg:pr-8 animate-fade-in-up">
-        <div class="flex gap-2 flex-wrap mb-4">
-          <span class="text-[11px] font-semibold px-2 py-0.5 rounded bg-blue-50 text-blue-800 uppercase tracking-wider">Le Monde</span>
-          <span class="text-[11px] font-semibold px-2 py-0.5 rounded bg-orange-50 text-orange-800 uppercase tracking-wider">Le Figaro</span>
-          <span class="text-[11px] font-semibold px-2 py-0.5 rounded bg-red-50 text-red-800 uppercase tracking-wider">Mediapart</span>
-          <span class="text-[11px] font-semibold px-2 py-0.5 rounded bg-green-50 text-green-800 uppercase tracking-wider">France Info</span>
-          <span class="text-[11px] font-semibold px-2 py-0.5 rounded bg-orange-50 text-orange-800 uppercase tracking-wider">CNews</span>
-        </div>
-
         <h1 class="font-display text-4xl font-black leading-tight mb-4 tracking-tight">
-          Réforme de l'hôpital public : cinq couvertures, cinq récits différents
+          Suivez l'activité parlementaire en toute transparence
         </h1>
 
         <p class="text-[17px] leading-relaxed text-gris-texte mb-5">
-          Le projet de loi sur la restructuration hospitalière arrive en commission mardi. Notre analyse croisée de 14 médias révèle des cadrages radicalement différents — du « sauvetage nécessaire » à la « casse du service public ». Voici les faits, les angles, et ce que chacun omet.
+          Citoyens.ai rassemble les données publiques de l'Assemblée nationale pour les rendre accessibles : profils des {totalDeputes} députés, votes en séance, dossiers législatifs et contenus pédagogiques.
         </p>
 
-        <!-- Coverage Bar -->
+        <!-- Last 3 votes -->
         <div class="bg-blanc border border-gris-chaud rounded-lg p-4">
-          <h4 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3">Panorama des couvertures</h4>
+          <h4 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3">Derniers scrutins publics</h4>
           <div class="flex flex-col gap-2">
-            {mediaCoverages.map(item => (
-              <div class="flex items-center gap-2.5 text-[13px]">
-                <span class={`w-2 h-2 rounded-full shrink-0 ${toneColors[item.tone]}`}></span>
-                <span class="font-semibold min-w-[100px] text-noir">{item.outlet}</span>
-                <span class="text-gris-texte italic">{item.angle}</span>
-              </div>
-            ))}
+            {recentVotes.map(vote => {
+              const isAdopte = vote.data.resultat === 'adopte';
+              return (
+                <div class="flex items-center gap-2.5 text-[13px]">
+                  <span class={`w-2 h-2 rounded-full shrink-0 ${isAdopte ? 'bg-vert' : 'bg-rouge-doux'}`}></span>
+                  <span class="font-semibold text-noir flex-1 min-w-0 truncate">{vote.data.intitule}</span>
+                  <span class={`text-xs font-mono shrink-0 ${isAdopte ? 'text-vert' : 'text-rouge-doux'}`}>
+                    {isAdopte ? 'Adopté' : 'Rejeté'}
+                  </span>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
 
-      <!-- Sidebar Alerts -->
+      <!-- Sidebar: key numbers -->
       <div class="animate-fade-in-up delay-200">
         <h3 class="font-display text-lg font-bold mb-4 pb-2 border-b-2 border-noir">
-          Alertes du jour
+          Chiffres clés
         </h3>
-        {alerts.map(alert => (
-          <div class="py-3 border-b border-gris-chaud last:border-0">
-            <div class={`font-mono text-[10px] uppercase tracking-wider mb-1 ${alertTypeStyles[alert.type]}`}>
-              {alert.type}
-            </div>
-            <h4 class="text-sm font-semibold leading-snug mb-1">{alert.title}</h4>
-            <div class="text-xs text-gris-clair">{alert.meta}</div>
+
+        <div class="grid grid-cols-2 gap-3 mb-5">
+          <div class="bg-blanc border border-gris-chaud rounded-lg p-3 text-center">
+            <div class="font-mono text-2xl font-medium text-bleu-rep">{totalDeputes}</div>
+            <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Députés</div>
+          </div>
+          <div class="bg-blanc border border-gris-chaud rounded-lg p-3 text-center">
+            <div class="font-mono text-2xl font-medium text-bleu-rep">{groups.size}</div>
+            <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Groupes</div>
+          </div>
+          <div class="bg-blanc border border-gris-chaud rounded-lg p-3 text-center">
+            <div class="font-mono text-2xl font-medium text-bleu-rep">{totalVotes}</div>
+            <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Scrutins</div>
+          </div>
+          <div class="bg-blanc border border-gris-chaud rounded-lg p-3 text-center">
+            <div class="font-mono text-2xl font-medium text-bleu-rep">8</div>
+            <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Vidéos</div>
+          </div>
+        </div>
+
+        <h4 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3">Principaux groupes</h4>
+        {topGroups.map(([g, count]) => (
+          <div class="flex justify-between items-center py-1.5 border-b border-gris-chaud last:border-0 text-sm">
+            <span class="font-semibold">{g}</span>
+            <span class="font-mono text-gris-clair">{count} députés</span>
           </div>
         ))}
       </div>

@@ -1,16 +1,28 @@
+// Party/group colors for the 17th legislature
 export const partiColors: Record<string, string> = {
+  // 17th legislature groups
+  'EPR': '#000091',
+  'RN': '#0D378A',
+  'LFI-NFP': '#CC2443',
+  'SOC': '#FF8080',
+  'DR': '#0066CC',
+  'DEM': '#FF9900',
+  'HOR': '#00B0F0',
+  'ECOS': '#00C000',
+  'LIOT': '#8B6914',
+  'GDR': '#C41E3A',
+  'UDDPLR': '#1B3F8B',
+  'NI': '#999999',
+  // Legacy / alternative names
   'Renaissance': '#000091',
   'RE': '#000091',
   'LFI': '#CC2443',
-  'RN': '#0D378A',
   'LR': '#0066CC',
   'PS': '#FF8080',
   'EELV': '#00C000',
   'PCF': '#DD0000',
   'MoDem': '#FF9900',
   'Horizons': '#00B0F0',
-  'LIOT': '#8B6914',
-  'GDR': '#C41E3A',
   'Non inscrit': '#999999',
 };
 
@@ -33,9 +45,3 @@ export const roleLabels: Record<string, string> = {
   editorialiste: 'Éditorialiste',
   ministre: 'Ministre',
 };
-
-export function getCoherenceColor(score: number): string {
-  if (score >= 70) return '#18753C';
-  if (score >= 50) return '#D4760A';
-  return '#C9191E';
-}

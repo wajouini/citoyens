@@ -1,0 +1,197 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+const groupes = [
+  { sigle: 'RN', nom: 'Rassemblement National', deputes: 122, couleur: '#1A2744' },
+  { sigle: 'EPR', nom: 'Ensemble pour la Republique', deputes: 92, couleur: '#7B51AB' },
+  { sigle: 'LFI-NFP', nom: 'La France insoumise — Nouveau Front populaire', deputes: 71, couleur: '#CC2443' },
+  { sigle: 'SOC', nom: 'Socialistes et apparentes', deputes: 69, couleur: '#FF8080' },
+  { sigle: 'DR', nom: 'Droite Republicaine', deputes: 49, couleur: '#0066CC' },
+  { sigle: 'ECOS', nom: 'Ecologiste et Social', deputes: 38, couleur: '#00C000' },
+  { sigle: 'DEM', nom: 'Les Democrates', deputes: 36, couleur: '#FF9900' },
+  { sigle: 'HOR', nom: 'Horizons et apparentes', deputes: 34, couleur: '#0098D4' },
+  { sigle: 'LIOT', nom: 'Libertes, Independants, Outre-mer et Territoires', deputes: 22, couleur: '#AACCEE' },
+  { sigle: 'UDR', nom: 'A Droite !', deputes: 17, couleur: '#8040C0' },
+  { sigle: 'GDR', nom: 'Gauche Democratique et Republicaine', deputes: 17, couleur: '#DD0000' },
+  { sigle: 'NI', nom: 'Non-inscrits', deputes: 10, couleur: '#999999' },
+];
+
+const totalDeputes = groupes.reduce((sum, g) => sum + g.deputes, 0);
+---
+
+<BaseLayout title="Les groupes parlementaires de la 17e legislature" description="Les groupes parlementaires de l'Assemblee nationale : RN, EPR, LFI-NFP, SOC, DR, ECOS, DEM, HOR, LIOT, UDR, GDR et non-inscrits.">
+  <Header />
+
+  <main class="max-w-[800px] mx-auto px-6 py-12">
+    <!-- Breadcrumbs -->
+    <nav class="text-sm text-gris-clair mb-6">
+      <a href="/" class="hover:text-bleu-rep no-underline text-gris-clair">Accueil</a>
+      <span class="mx-2">/</span>
+      <a href="/comprendre" class="hover:text-bleu-rep no-underline text-gris-clair">Comprendre</a>
+      <span class="mx-2">/</span>
+      <span class="text-noir font-medium">Groupes parlementaires</span>
+    </nav>
+
+    <h1 class="font-display text-4xl font-black mb-8 text-noir">Les groupes parlementaires de la 17e legislature</h1>
+
+    <div class="space-y-6 text-[15px] text-gris-texte leading-relaxed">
+
+      <!-- Qu'est-ce qu'un groupe -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Qu'est-ce qu'un groupe parlementaire ?</h2>
+        <p class="mb-3">
+          Un groupe parlementaire est une reunion de deputes partageant des affinites politiques. Les groupes structurent la vie de l'Assemblee nationale : ils organisent le travail legislatif, repartissent le temps de parole et participent a la designation des membres des commissions.
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Un depute ne peut appartenir qu'a un seul groupe</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> L'adhesion a un groupe est volontaire : un depute peut rejoindre un groupe, le quitter ou rester non-inscrit</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Les deputes « apparentes » a un groupe en partagent l'orientation politique sans en etre membres a part entiere</li>
+        </ul>
+      </section>
+
+      <!-- Seuil de 15 deputes -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Le seuil de 15 deputes</h2>
+        <p class="mb-3">
+          Pour constituer un groupe parlementaire, un minimum de 15 deputes est requis. Ce seuil est fixe par le Reglement de l'Assemblee nationale (article 19).
+        </p>
+        <div class="bg-bleu-clair rounded-lg p-4">
+          <h3 class="font-semibold text-noir text-sm mb-2">Pourquoi ce seuil ?</h3>
+          <p class="text-sm mb-2">Le seuil de 15 deputes a ete abaisse en 2009 (il etait de 20 auparavant). Il vise a trouver un equilibre entre :</p>
+          <ul class="space-y-1 list-none p-0 m-0 text-sm">
+            <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> La representation de la diversite politique a l'Assemblee</li>
+            <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> La necessite d'eviter un emiettement excessif qui rendrait le travail legislatif impraticable</li>
+          </ul>
+        </div>
+        <p class="mt-3">
+          Les deputes qui n'atteignent pas le seuil de 15 ou qui ne souhaitent rejoindre aucun groupe sont dits « non-inscrits ». Ils disposent de moins de droits proceduraux que les membres de groupes constitues.
+        </p>
+      </section>
+
+      <!-- Les groupes actuels -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Les groupes de la 17e legislature</h2>
+        <p class="mb-3">
+          La 17e legislature (depuis juillet 2024) est marquee par une Assemblee tres fragmentee, sans majorite absolue (289 sieges) pour aucun bloc politique. Voici la composition des groupes :
+        </p>
+        <div class="space-y-2">
+          {groupes.map(groupe => (
+            <div class="flex items-center gap-3 py-2 border-b border-gris-chaud last:border-b-0">
+              <div class="w-3 h-3 rounded-full shrink-0" style={`background-color: ${groupe.couleur}`}></div>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-baseline gap-2">
+                  <span class="font-mono text-xs font-bold text-noir bg-creme px-1.5 py-0.5 rounded">{groupe.sigle}</span>
+                  <span class="text-sm text-noir font-medium truncate">{groupe.nom}</span>
+                </div>
+              </div>
+              <div class="text-right shrink-0">
+                <span class="font-mono text-sm font-bold text-bleu-rep">{groupe.deputes}</span>
+                <span class="text-xs text-gris-clair ml-1">deputes</span>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div class="bg-creme rounded-lg p-3 mt-4 flex justify-between items-center">
+          <span class="text-sm font-semibold text-noir">Total</span>
+          <span class="font-mono text-sm font-bold text-bleu-rep">{totalDeputes} deputes</span>
+        </div>
+        <p class="mt-3 text-xs text-gris-clair">
+          Effectifs indicatifs, susceptibles d'evoluer au cours de la legislature en fonction des recompositions politiques.
+        </p>
+      </section>
+
+      <!-- La fragmentation -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Une Assemblee sans majorite absolue</h2>
+        <p class="mb-3">
+          La 17e legislature, issue des elections legislatives anticipees de juin-juillet 2024, se distingue par l'absence de majorite absolue pour tout camp politique. Trois grands blocs se degagent :
+        </p>
+        <div class="space-y-3">
+          <div class="border-l-2 pl-4" style="border-color: #CC2443">
+            <div class="font-semibold text-noir text-sm">Nouveau Front populaire (gauche)</div>
+            <p class="text-sm mt-1">LFI-NFP + SOC + ECOS + GDR : environ 195 deputes. Premiere force en nombre de sieges cumulee, mais loin des 289 necessaires.</p>
+          </div>
+          <div class="border-l-2 pl-4" style="border-color: #7B51AB">
+            <div class="font-semibold text-noir text-sm">Bloc central / presidentiel</div>
+            <p class="text-sm mt-1">EPR + DEM + HOR : environ 162 deputes. La coalition qui soutenait Emmanuel Macron depuis 2017 a perdu sa majorite relative.</p>
+          </div>
+          <div class="border-l-2 pl-4" style="border-color: #1A2744">
+            <div class="font-semibold text-noir text-sm">Rassemblement national</div>
+            <p class="text-sm mt-1">RN : 122 deputes. Plus grand groupe individuel de l'Assemblee.</p>
+          </div>
+        </div>
+        <p class="mt-3">
+          Cette configuration sans majorite rend la formation de coalitions indispensable pour gouverner et voter les lois, ce qui explique les tensions frequentes et le recours au 49.3.
+        </p>
+      </section>
+
+      <!-- Role des groupes -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Le role des groupes dans le fonctionnement de l'Assemblee</h2>
+        <p class="mb-3">
+          Les groupes parlementaires jouent un role structurant majeur :
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Temps de parole</strong> : le temps de parole en seance publique est reparti entre les groupes a la proportionnelle de leurs effectifs, avec un minimum garanti pour chaque groupe</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Commissions</strong> : les sieges en commission sont repartis proportionnellement aux effectifs des groupes. Les presidents de commission sont generalement issus des groupes les plus importants</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Conference des presidents</strong> : les presidents de groupe participent a la Conference des presidents, qui fixe l'ordre du jour des travaux</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Questions au gouvernement</strong> : le nombre de questions posees par chaque groupe est proportionnel a ses effectifs</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Niches parlementaires</strong> : chaque groupe dispose d'une journee par session pour inscrire a l'ordre du jour les textes de son choix (article 48 de la Constitution)</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Motion de censure</strong> : le depot d'une motion de censure necessite la signature de 58 deputes (1/10e), ce qui implique generalement la coordination entre groupes</li>
+        </ul>
+      </section>
+
+      <!-- Groupe d'opposition et groupe minoritaire -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Groupes d'opposition et groupes minoritaires</h2>
+        <p class="mb-3">
+          Depuis la revision constitutionnelle de 2008, la Constitution reconnait explicitement l'opposition et lui confere des droits specifiques :
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="bg-creme rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Groupes d'opposition</h3>
+            <p class="text-sm">Groupes qui se declarent opposes au gouvernement. Ils beneficient d'un temps de parole renforce et de la presidence de certaines commissions (ex. : la commission des Finances est traditionnellement presides par un membre de l'opposition).</p>
+          </div>
+          <div class="bg-creme rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Groupes minoritaires</h3>
+            <p class="text-sm">Groupes qui ne se declarent ni dans la majorite ni dans l'opposition. Ce statut intermediaire, apparu avec les configurations politiques complexes des dernieres legislatures, offre certains droits specifiques.</p>
+          </div>
+        </div>
+        <p class="mt-3 text-sm">
+          La Constitution (article 51-1) precise que le reglement de chaque assemblee determine les droits des groupes d'opposition et des groupes minoritaires.
+        </p>
+      </section>
+
+      <!-- Historique -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Evolution historique</h2>
+        <p class="mb-3">
+          La composition des groupes parlementaires a considerablement evolue depuis le debut de la Ve Republique :
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>1958-1981</strong> : domination de la droite gaulliste (UNR, UDR, RPR) et centriste</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>1981-2002</strong> : alternances gauche-droite avec des groupes PS et RPR dominants</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>2017</strong> : emergence de La Republique en Marche (devenue Renaissance), bouleversement du bipartisme</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>2022</strong> : premiere Assemblee sans majorite absolue depuis 1988, montee du RN</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>2024</strong> : fragmentation record avec trois blocs et aucune majorite, 11 groupes constitues</li>
+        </ul>
+      </section>
+
+      <!-- Sources -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Sources</h2>
+        <ul class="space-y-1.5 list-none p-0 m-0 text-sm">
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Assemblee nationale, les groupes politiques — assemblee-nationale.fr/dyn/les-groupes-politiques</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Reglement de l'Assemblee nationale, articles 19 a 23 — assemblee-nationale.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Constitution du 4 octobre 1958, articles 48 et 51-1 — legifrance.gouv.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Vie publique — vie-publique.fr/fiches/groupes-parlementaires</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

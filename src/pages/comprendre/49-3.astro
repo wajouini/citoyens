@@ -1,0 +1,179 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+---
+
+<BaseLayout title="Le 49.3 : l'article qui fait debat" description="Comprendre l'article 49 alinea 3 de la Constitution : conditions d'utilisation, historique et debats autour de ce mecanisme parlementaire.">
+  <Header />
+
+  <main class="max-w-[800px] mx-auto px-6 py-12">
+    <!-- Breadcrumbs -->
+    <nav class="text-sm text-gris-clair mb-6">
+      <a href="/" class="hover:text-bleu-rep no-underline text-gris-clair">Accueil</a>
+      <span class="mx-2">/</span>
+      <a href="/comprendre" class="hover:text-bleu-rep no-underline text-gris-clair">Comprendre</a>
+      <span class="mx-2">/</span>
+      <span class="text-noir font-medium">Le 49.3</span>
+    </nav>
+
+    <h1 class="font-display text-4xl font-black mb-8 text-noir">Le 49.3 : l'article qui fait debat</h1>
+
+    <div class="space-y-6 text-[15px] text-gris-texte leading-relaxed">
+
+      <!-- Que dit l'article -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Que dit l'article 49 alinea 3 ?</h2>
+        <p class="mb-3">
+          L'article 49 alinea 3 de la Constitution du 4 octobre 1958 permet au Premier ministre d'engager la responsabilite du gouvernement devant l'Assemblee nationale sur le vote d'un texte de loi.
+        </p>
+        <div class="bg-bleu-clair rounded-lg p-4 mb-3">
+          <h3 class="font-semibold text-noir text-sm mb-2">Le mecanisme en pratique</h3>
+          <p class="text-sm">
+            Lorsque le Premier ministre engage le 49.3, le texte est considere comme adopte sans vote, sauf si une motion de censure est deposee dans les 24 heures suivantes et adoptee a la majorite absolue des deputes (289 voix).
+          </p>
+        </div>
+        <p>
+          Cet article est l'un des outils du « parlementarisme rationalise » voulu par les constituants de 1958 pour assurer la stabilite gouvernementale. Il est issu de la volonte du general de Gaulle et de Michel Debre de donner a l'executif les moyens de gouverner face a un Parlement fragmente.
+        </p>
+      </section>
+
+      <!-- Conditions d'utilisation -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Conditions d'utilisation</h2>
+        <p class="mb-3">
+          Depuis la revision constitutionnelle du 23 juillet 2008, l'utilisation du 49.3 est encadree par des regles plus strictes qu'auparavant :
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Projets de loi de finances (PLF) et projets de loi de financement de la securite sociale (PLFSS)</strong> : le 49.3 peut etre utilise sans limitation sur ces textes budgetaires</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Autres textes legislatifs</strong> : le Premier ministre ne peut engager le 49.3 que sur un seul texte par session parlementaire (hors PLF/PLFSS)</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Deliberation en Conseil des ministres</strong> : le Premier ministre doit au prealable obtenir l'accord du Conseil des ministres avant de recourir au 49.3</li>
+        </ul>
+        <div class="bg-creme rounded-lg p-4 mt-3">
+          <p class="text-sm"><strong>Avant 2008</strong> : le 49.3 pouvait etre utilise de maniere illimitee sur tout type de texte. La revision de 2008, adoptee par le Congres a Versailles, a restreint son usage pour reequilibrer les pouvoirs entre l'executif et le legislatif.</p>
+        </div>
+      </section>
+
+      <!-- Le deroulement concret -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Le deroulement concret</h2>
+        <div class="space-y-3">
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">1</span>
+            <div><strong>Annonce</strong> : le Premier ministre annonce en seance l'engagement de la responsabilite du gouvernement sur le texte en discussion</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">2</span>
+            <div><strong>Delai de 24 heures</strong> : les deputes disposent de 24 heures pour deposer une motion de censure, signee par au moins un dixieme des membres de l'Assemblee (58 deputes)</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">3</span>
+            <div><strong>Sans motion</strong> : si aucune motion n'est deposee, le texte est considere comme adopte</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">4</span>
+            <div><strong>Avec motion</strong> : si une motion de censure est deposee, un delai de 48 heures est observe avant le vote. Elle doit recueillir 289 voix (majorite absolue) pour etre adoptee</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">5</span>
+            <div><strong>Consequence</strong> : si la motion est rejetee, le texte est adopte. Si elle est votee, le gouvernement est renverse et le texte est rejete</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Historique -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Historique : un usage variable selon les epoques</h2>
+        <p class="mb-3">
+          Depuis 1958, l'article 49.3 a ete utilise plus de 100 fois. Son usage a fortement varie selon les configurations politiques et les Premiers ministres.
+        </p>
+        <div class="space-y-3">
+          <div class="border-l-2 border-bleu-rep pl-4">
+            <div class="font-semibold text-noir text-sm">Michel Rocard (1988-1991)</div>
+            <p class="text-sm mt-1">Record d'utilisation avec 28 recours au 49.3, du fait d'une majorite relative a l'Assemblee.</p>
+          </div>
+          <div class="border-l-2 border-bleu-rep pl-4">
+            <div class="font-semibold text-noir text-sm">Elisabeth Borne (2022-2024)</div>
+            <p class="text-sm mt-1">23 recours au 49.3, dans le contexte d'une Assemblee sans majorite absolue pour la coalition presidentielle. Notamment utilise sur la reforme des retraites en mars 2023.</p>
+          </div>
+          <div class="border-l-2 border-bleu-rep pl-4">
+            <div class="font-semibold text-noir text-sm">Dominique de Villepin (2005-2007)</div>
+            <p class="text-sm mt-1">Usage sur le contrat premiere embauche (CPE) en 2006, qui avait provoque d'importantes manifestations.</p>
+          </div>
+          <div class="border-l-2 border-bleu-rep pl-4">
+            <div class="font-semibold text-noir text-sm">Manuel Valls (2014-2016)</div>
+            <p class="text-sm mt-1">6 recours, dont la loi Macron (2015) et la loi Travail (2016), qui avaient suscite de vifs debats.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- L'unique censure reussie -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">L'unique censure reussie apres un 49.3</h2>
+        <p class="mb-3">
+          Sur les dizaines de motions de censure deposees en reaction a un 49.3, une seule a abouti dans l'histoire de la Ve Republique :
+        </p>
+        <div class="bg-bleu-clair rounded-lg p-4">
+          <div class="font-semibold text-noir">4 decembre 2024 — Gouvernement Barnier</div>
+          <p class="text-sm mt-2">
+            Apres l'engagement du 49.3 par Michel Barnier sur le projet de loi de financement de la securite sociale, une motion de censure deposee par le Nouveau Front populaire et soutenue par le Rassemblement national a ete adoptee avec 331 voix — bien au-dela des 289 requises. Il s'agissait de la premiere motion de censure adoptee depuis celle de 1962 contre le gouvernement Pompidou.
+          </p>
+        </div>
+      </section>
+
+      <!-- Les critiques -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Les critiques et defenses du mecanisme</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="bg-creme rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Arguments en faveur</h3>
+            <ul class="space-y-1.5 list-none p-0 m-0 text-sm">
+              <li class="flex gap-2"><span class="text-vert">&bull;</span> Garantit la stabilite gouvernementale</li>
+              <li class="flex gap-2"><span class="text-vert">&bull;</span> Permet d'eviter les blocages budgetaires</li>
+              <li class="flex gap-2"><span class="text-vert">&bull;</span> Responsabilise l'opposition : si elle n'est pas prete a censurer, le texte passe</li>
+              <li class="flex gap-2"><span class="text-vert">&bull;</span> Outil de gestion des majorites relatives</li>
+            </ul>
+          </div>
+          <div class="bg-creme rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Arguments contre</h3>
+            <ul class="space-y-1.5 list-none p-0 m-0 text-sm">
+              <li class="flex gap-2"><span class="text-rouge-doux">&bull;</span> Contourne le vote des representants du peuple</li>
+              <li class="flex gap-2"><span class="text-rouge-doux">&bull;</span> Considere comme un « deni de democratie » par ses detracteurs</li>
+              <li class="flex gap-2"><span class="text-rouge-doux">&bull;</span> Utilisation repetee perçue comme un abus</li>
+              <li class="flex gap-2"><span class="text-rouge-doux">&bull;</span> Fragilise la legitimite des lois adoptees</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Article 49 complet -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">L'article 49 de la Constitution dans son integralite</h2>
+        <p class="mb-3">
+          L'article 49 contient 4 alineas qui organisent les rapports de confiance entre le gouvernement et l'Assemblee nationale :
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0 text-sm">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Alinea 1</strong> : le Premier ministre peut engager la responsabilite du gouvernement sur son programme ou une declaration de politique generale (question de confiance)</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Alinea 2</strong> : l'Assemblee peut mettre en cause la responsabilite du gouvernement par une motion de censure spontanee</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Alinea 3</strong> : le Premier ministre peut engager la responsabilite du gouvernement sur un texte de loi (le « 49.3 »)</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Alinea 4</strong> : le Premier ministre a la faculte de demander au Senat l'approbation d'une declaration de politique generale</li>
+        </ul>
+      </section>
+
+      <!-- Sources -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Sources</h2>
+        <ul class="space-y-1.5 list-none p-0 m-0 text-sm">
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Constitution du 4 octobre 1958, article 49 — legifrance.gouv.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Loi constitutionnelle du 23 juillet 2008 de modernisation des institutions — legifrance.gouv.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Assemblee nationale, fiche de synthese n°46 : L'engagement de responsabilite sur un texte — assemblee-nationale.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Vie publique — vie-publique.fr/fiches/le-49-3</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Conseil constitutionnel — conseil-constitutionnel.fr</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

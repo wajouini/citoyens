@@ -1,0 +1,202 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+---
+
+<BaseLayout title="La navette parlementaire : comment nait une loi" description="Le parcours complet d'une loi en France : projet de loi, proposition de loi, commissions, navette entre Assemblee et Senat, CMP et procedures accelerees.">
+  <Header />
+
+  <main class="max-w-[800px] mx-auto px-6 py-12">
+    <!-- Breadcrumbs -->
+    <nav class="text-sm text-gris-clair mb-6">
+      <a href="/" class="hover:text-bleu-rep no-underline text-gris-clair">Accueil</a>
+      <span class="mx-2">/</span>
+      <a href="/comprendre" class="hover:text-bleu-rep no-underline text-gris-clair">Comprendre</a>
+      <span class="mx-2">/</span>
+      <span class="text-noir font-medium">Navette parlementaire</span>
+    </nav>
+
+    <h1 class="font-display text-4xl font-black mb-8 text-noir">La navette parlementaire : comment nait une loi</h1>
+
+    <div class="space-y-6 text-[15px] text-gris-texte leading-relaxed">
+
+      <!-- PJL vs PPL -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">PJL vs PPL : qui a l'initiative ?</h2>
+        <p class="mb-3">
+          En France, l'initiative de la loi est partagee entre le gouvernement et les parlementaires, conformement a l'article 39 de la Constitution.
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="bg-bleu-clair rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Projet de loi (PJL)</h3>
+            <ul class="space-y-1.5 list-none p-0 m-0 text-sm">
+              <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Initiative du gouvernement (Premier ministre)</li>
+              <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Delibere en Conseil des ministres</li>
+              <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Soumis obligatoirement a l'avis du Conseil d'Etat</li>
+              <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Accompagne d'une etude d'impact depuis 2009</li>
+              <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Depose en premier sur le bureau de l'une ou l'autre chambre</li>
+            </ul>
+          </div>
+          <div class="bg-bleu-clair rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Proposition de loi (PPL)</h3>
+            <ul class="space-y-1.5 list-none p-0 m-0 text-sm">
+              <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Initiative d'un ou plusieurs parlementaires</li>
+              <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Deposee devant la chambre a laquelle appartient son auteur</li>
+              <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Pas d'avis du Conseil d'Etat obligatoire</li>
+              <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Ne doit pas creer ou aggraver une charge publique (article 40)</li>
+              <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Inscrite a l'ordre du jour selon les regles de la Conference des presidents</li>
+            </ul>
+          </div>
+        </div>
+        <p class="mt-3 text-sm">
+          En pratique, les projets de loi du gouvernement representent la majorite des textes adoptes. Les PLF et PLFSS sont toujours deposes en premier devant l'Assemblee nationale.
+        </p>
+      </section>
+
+      <!-- Les etapes -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Les etapes de la navette parlementaire</h2>
+        <p class="mb-3">
+          Un texte de loi fait des « navettes » entre l'Assemblee nationale et le Senat jusqu'a ce que les deux chambres adoptent un texte identique. C'est le bicamerisme francais.
+        </p>
+        <div class="space-y-3">
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">1</span>
+            <div><strong>Depot du texte</strong> : le PJL ou la PPL est depose sur le bureau de la premiere chambre saisie</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">2</span>
+            <div><strong>Examen en commission</strong> : la commission competente designe un rapporteur, auditionne, examine le texte article par article et peut l'amender</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">3</span>
+            <div><strong>Premiere lecture — 1re chambre</strong> : debat en seance publique, examen des amendements, vote sur l'ensemble du texte</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">4</span>
+            <div><strong>Premiere lecture — 2e chambre</strong> : le texte adopte (ou modifie) est transmis a l'autre chambre, qui suit le meme processus (commission puis seance)</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">5</span>
+            <div><strong>Deuxieme lecture</strong> : si le texte a ete modifie, il retourne a la premiere chambre. Seuls les articles encore en discussion sont examines</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">6</span>
+            <div><strong>Lectures suivantes</strong> : la navette continue tant que les deux chambres ne sont pas d'accord sur un texte identique</div>
+          </div>
+        </div>
+        <div class="bg-creme rounded-lg p-4 mt-3">
+          <p class="text-sm"><strong>Accord en termes identiques</strong> : une loi ne peut etre definitivement adoptee que lorsque l'Assemblee nationale et le Senat ont vote le meme texte, mot pour mot, article par article.</p>
+        </div>
+      </section>
+
+      <!-- La CMP -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">La commission mixte paritaire (CMP)</h2>
+        <p class="mb-3">
+          Si apres deux lectures dans chaque chambre (ou une seule en cas de procedure acceleree), le desaccord persiste, le Premier ministre ou les presidents des deux assemblees (pour les PPL) peuvent convoquer une commission mixte paritaire.
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Composition</strong> : 7 deputes et 7 senateurs, choisis a la proportionnelle des groupes</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Mission</strong> : proposer un texte de compromis sur les articles restant en discussion</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Succes</strong> : si la CMP aboutit a un accord, le texte de compromis est soumis aux deux chambres pour adoption</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Echec</strong> : si la CMP n'aboutit pas ou si le texte est rejete par l'une des chambres, le gouvernement peut donner le dernier mot a l'Assemblee nationale</li>
+        </ul>
+        <p class="mt-3 text-sm">
+          En pratique, la grande majorite des CMP aboutissent a un accord. Le taux de reussite des CMP est superieur a 50 %.
+        </p>
+      </section>
+
+      <!-- Le dernier mot de l'AN -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Le dernier mot de l'Assemblee nationale</h2>
+        <p class="mb-3">
+          L'article 45 de la Constitution donne a l'Assemblee nationale une suprematie sur le Senat dans le processus legislatif :
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Apres l'echec de la CMP (ou le rejet du texte de compromis), le gouvernement peut demander a l'Assemblee de statuer definitivement</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> L'Assemblee peut reprendre le texte de la CMP ou le dernier texte qu'elle a vote, modifie le cas echeant par des amendements du Senat</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Cette preeminence est justifiee par le fait que l'Assemblee est elue au suffrage universel direct, contrairement au Senat elu au suffrage indirect</li>
+        </ul>
+        <div class="bg-bleu-clair rounded-lg p-4 mt-3">
+          <p class="text-sm"><strong>Exception</strong> : pour les lois organiques relatives au Senat et les lois constitutionnelles, le Senat dispose d'un droit de veto. L'Assemblee ne peut pas avoir le dernier mot.</p>
+        </div>
+      </section>
+
+      <!-- Procedures accelerees -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Les procedures accelerees</h2>
+        <p class="mb-3">
+          Plusieurs mecanismes permettent d'accelerer le processus legislatif :
+        </p>
+        <div class="space-y-3">
+          <div class="border-l-2 border-orange pl-4">
+            <div class="font-semibold text-noir text-sm">Procedure acceleree (ex-procedure d'urgence)</div>
+            <p class="text-sm mt-1">Le gouvernement ou la Conference des presidents peut decider que la CMP est reunie apres une seule lecture dans chaque chambre (au lieu de deux). Depuis la revision de 2008, c'est devenu la norme pour de nombreux textes.</p>
+          </div>
+          <div class="border-l-2 border-orange pl-4">
+            <div class="font-semibold text-noir text-sm">Vote bloque (article 44 alinea 3)</div>
+            <p class="text-sm mt-1">Le gouvernement peut demander a l'Assemblee de se prononcer par un seul vote sur tout ou partie du texte, en ne retenant que les amendements qu'il a acceptes.</p>
+          </div>
+          <div class="border-l-2 border-orange pl-4">
+            <div class="font-semibold text-noir text-sm">Temps legisle</div>
+            <p class="text-sm mt-1">Le temps de parole global en seance peut etre limite par la Conference des presidents, repartissant un quota d'heures entre les groupes parlementaires.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Les delais en pratique -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Les delais constitutionnels</h2>
+        <p class="mb-3">
+          La Constitution prevoit des delais minimaux pour garantir un examen serieux des textes :
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="bg-creme rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Premiere chambre saisie</h3>
+            <ul class="space-y-1 list-none p-0 m-0 text-sm">
+              <li>PJL : 6 semaines minimum entre le depot et la seance</li>
+              <li>PPL : 6 semaines minimum</li>
+            </ul>
+          </div>
+          <div class="bg-creme rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Seconde chambre saisie</h3>
+            <ul class="space-y-1 list-none p-0 m-0 text-sm">
+              <li>4 semaines minimum apres la transmission</li>
+              <li>Procedure acceleree : pas de delai minimum</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cas particulier : lois de finances -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Cas particulier : les lois de finances</h2>
+        <p class="mb-3">
+          Les projets de loi de finances (PLF) et les projets de loi de financement de la securite sociale (PLFSS) suivent une procedure specifique avec des delais contraints, definis par les articles 47 et 47-1 de la Constitution :
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>PLF</strong> : l'Assemblee dispose de 40 jours en premiere lecture, puis le Senat de 20 jours. Delai total : 70 jours. Passe ce delai, le gouvernement peut prendre des ordonnances</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>PLFSS</strong> : l'Assemblee dispose de 20 jours, puis le Senat de 15 jours. Delai total : 50 jours</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Ces textes sont toujours deposes en premier devant l'Assemblee nationale</li>
+        </ul>
+      </section>
+
+      <!-- Sources -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Sources</h2>
+        <ul class="space-y-1.5 list-none p-0 m-0 text-sm">
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Constitution du 4 octobre 1958, articles 39 a 47-1 — legifrance.gouv.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Assemblee nationale, fiche de synthese n°32 : La procedure legislative — assemblee-nationale.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Senat, le parcours d'une loi — senat.fr/role/parcours-loi.html</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Vie publique, les etapes de la fabrication d'une loi — vie-publique.fr/fiches/fabrication-loi</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Loi organique relative aux lois de finances (LOLF) du 1er aout 2001 — legifrance.gouv.fr</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

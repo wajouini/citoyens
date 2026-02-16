@@ -1,61 +1,66 @@
 ---
-const panoramaItems = [
+// Replaced: was hardcoded media comparisons. Now shows educational "Comprendre" section.
+const comprendrePages = [
   {
-    title: 'Budget de la Défense 2027',
-    summary: 'Le PLF prévoit une hausse de 3,2 Mds€. Les médias divergent sur l\'interprétation.',
-    sources: [
-      { name: 'Les Échos', framing: '« Effort historique »' },
-      { name: 'L\'Humanité', framing: '« Au détriment du social »' },
-      { name: 'Le Monde', framing: 'Analyse comparée OTAN' },
-      { name: 'RFI', framing: 'Contexte géopolitique' },
-    ],
+    icone: '🏛️',
+    titre: "L'Assemblée nationale",
+    description: '577 députés, commissions, parcours d\'une loi : le fonctionnement de la chambre basse.',
+    href: '/comprendre/assemblee-nationale',
   },
   {
-    title: 'Éducation : résultats PISA 2025',
-    summary: 'La France recule encore de 3 places. Qui est responsable ? Les réponses varient.',
-    sources: [
-      { name: 'Le Figaro', framing: '« Échec du pédagogisme »' },
-      { name: 'Libération', framing: '« Manque de moyens »' },
-      { name: 'France Inter', framing: 'Parole aux enseignants' },
-      { name: 'Le Point', framing: 'Comparaison internationale' },
-    ],
+    icone: '⚡',
+    titre: 'Le 49.3 expliqué',
+    description: 'L\'article 49 alinéa 3 de la Constitution : un outil controversé pour faire passer une loi sans vote.',
+    href: '/comprendre/49-3',
   },
   {
-    title: 'Fiscalité des multinationales',
-    summary: 'Le taux minimum mondial de 15% entre en vigueur. Quel impact réel ?',
-    sources: [
-      { name: 'Les Échos', framing: 'Impact sur l\'attractivité' },
-      { name: 'Mediapart', framing: '« Encore insuffisant »' },
-      { name: 'La Tribune', framing: 'Réactions des entreprises' },
-      { name: 'Alternatives Éco.', framing: 'Analyse recettes réelles' },
-    ],
+    icone: '🗳️',
+    titre: 'Motion de censure',
+    description: 'Comment l\'Assemblée peut renverser le gouvernement. Historique et mécanismes.',
+    href: '/comprendre/motion-de-censure',
+  },
+  {
+    icone: '📜',
+    titre: 'La navette parlementaire',
+    description: 'PJL, PPL, commission, hémicycle, CMP : le parcours complet d\'un texte de loi.',
+    href: '/comprendre/navette-parlementaire',
+  },
+  {
+    icone: '🔍',
+    titre: 'La HATVP',
+    description: 'La Haute Autorité pour la transparence : déclarations de patrimoine, d\'intérêts et déontologie.',
+    href: '/comprendre/hatvp',
+  },
+  {
+    icone: '👥',
+    titre: 'Les groupes parlementaires',
+    description: 'EPR, RN, LFI-NFP, SOC... Qui sont les groupes de la 17e législature ?',
+    href: '/comprendre/groupes-parlementaires',
   },
 ];
 ---
 
 <section class="max-w-[1280px] mx-auto px-6">
   <div class="flex items-center gap-3 mt-10 mb-6">
-    <h2 class="font-display text-2xl font-black whitespace-nowrap">Panorama des couvertures</h2>
+    <h2 class="font-display text-2xl font-black whitespace-nowrap">Comprendre la politique</h2>
     <div class="flex-1 h-0.5 bg-noir"></div>
-    <span class="font-mono text-xs text-gris-clair whitespace-nowrap">Même sujet, regards croisés</span>
+    <span class="font-mono text-xs text-gris-clair whitespace-nowrap">Guides pédagogiques</span>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
-    {panoramaItems.map((item, i) => (
-      <div class={`bg-blanc border border-gris-chaud rounded-lg overflow-hidden transition-all duration-300 cursor-pointer hover:-translate-y-0.5 hover:shadow-md animate-fade-in-up delay-${i + 1}00`}>
-        <div class="p-5 pb-4 border-b border-gris-chaud">
-          <h3 class="font-display text-lg font-bold leading-snug mb-1.5">{item.title}</h3>
-          <p class="text-[13px] text-gris-texte leading-relaxed">{item.summary}</p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+    {comprendrePages.map((item, i) => (
+      <a
+        href={item.href}
+        class={`bg-blanc border border-gris-chaud rounded-lg p-5 flex gap-4 transition-all duration-300 cursor-pointer hover:-translate-y-0.5 hover:shadow-md hover:border-bleu-rep no-underline text-noir animate-fade-in-up delay-${(i % 3) + 1}00`}
+      >
+        <div class="w-10 h-10 bg-bleu-clair rounded-lg flex items-center justify-center text-xl shrink-0">
+          {item.icone}
         </div>
-        <div class="px-5 py-3 flex flex-col gap-1.5">
-          {item.sources.map(src => (
-            <div class="flex justify-between items-center text-xs py-1">
-              <span class="font-semibold">{src.name}</span>
-              <span class="italic text-gris-clair text-right max-w-[55%]">{src.framing}</span>
-            </div>
-          ))}
+        <div>
+          <h3 class="font-display text-[15px] font-bold mb-1">{item.titre}</h3>
+          <p class="text-[13px] text-gris-texte leading-relaxed">{item.description}</p>
         </div>
-      </div>
+      </a>
     ))}
   </div>
 </section>

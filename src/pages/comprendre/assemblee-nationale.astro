@@ -1,0 +1,191 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+---
+
+<BaseLayout title="L'Assemblee nationale : fonctionnement et role" description="Comprendre le fonctionnement de l'Assemblee nationale : 577 deputes, commissions permanentes, seance publique et parcours legislatif.">
+  <Header />
+
+  <main class="max-w-[800px] mx-auto px-6 py-12">
+    <!-- Breadcrumbs -->
+    <nav class="text-sm text-gris-clair mb-6">
+      <a href="/" class="hover:text-bleu-rep no-underline text-gris-clair">Accueil</a>
+      <span class="mx-2">/</span>
+      <a href="/comprendre" class="hover:text-bleu-rep no-underline text-gris-clair">Comprendre</a>
+      <span class="mx-2">/</span>
+      <span class="text-noir font-medium">L'Assemblee nationale</span>
+    </nav>
+
+    <h1 class="font-display text-4xl font-black mb-8 text-noir">L'Assemblee nationale : fonctionnement et role</h1>
+
+    <div class="space-y-6 text-[15px] text-gris-texte leading-relaxed">
+
+      <!-- Role et missions -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Role et missions</h2>
+        <p class="mb-3">
+          L'Assemblee nationale est la chambre basse du Parlement francais, avec le Senat. Elle siege au Palais Bourbon, a Paris. Ses missions fondamentales sont definies par la Constitution de la Ve Republique du 4 octobre 1958.
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Voter la loi</strong> : examiner, amender et adopter les projets et propositions de loi</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Controler le gouvernement</strong> : questions au gouvernement, commissions d'enquete, missions d'information</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Evaluer les politiques publiques</strong> : depuis la revision constitutionnelle de 2008, cette mission est inscrite a l'article 24 de la Constitution</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Voter le budget</strong> : examiner et adopter chaque annee le projet de loi de finances (PLF) et le projet de loi de financement de la securite sociale (PLFSS)</li>
+        </ul>
+      </section>
+
+      <!-- 577 deputes -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">577 deputes elus au suffrage universel direct</h2>
+        <p class="mb-3">
+          L'Assemblee nationale est composee de 577 deputes, chacun elu dans une circonscription legislative au scrutin uninominal majoritaire a deux tours.
+        </p>
+        <div class="bg-bleu-clair rounded-lg p-4 mb-3">
+          <h3 class="font-semibold text-noir text-sm mb-2">Le mode de scrutin</h3>
+          <ul class="space-y-1.5 list-none p-0 m-0 text-sm">
+            <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Premier tour</strong> : pour etre elu, un candidat doit obtenir la majorite absolue des suffrages exprimes et un nombre de voix egal a au moins 25 % des electeurs inscrits</li>
+            <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Second tour</strong> : peuvent se maintenir les candidats ayant obtenu au moins 12,5 % des voix des electeurs inscrits. Le candidat en tete est elu a la majorite relative</li>
+          </ul>
+        </div>
+        <p>
+          Le mandat de depute dure 5 ans (une legislature), sauf dissolution de l'Assemblee par le President de la Republique (article 12 de la Constitution). La derniere dissolution a eu lieu le 9 juin 2024.
+        </p>
+      </section>
+
+      <!-- Commissions permanentes -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Les 8 commissions permanentes</h2>
+        <p class="mb-3">
+          L'article 43 de la Constitution limite a 8 le nombre de commissions permanentes. Chaque depute siege dans l'une d'entre elles. Elles examinent les textes de loi avant leur passage en seance publique.
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div class="bg-creme rounded p-3">
+            <div class="text-sm font-semibold text-noir">Affaires culturelles et education</div>
+          </div>
+          <div class="bg-creme rounded p-3">
+            <div class="text-sm font-semibold text-noir">Affaires economiques</div>
+          </div>
+          <div class="bg-creme rounded p-3">
+            <div class="text-sm font-semibold text-noir">Affaires etrangeres</div>
+          </div>
+          <div class="bg-creme rounded p-3">
+            <div class="text-sm font-semibold text-noir">Affaires sociales</div>
+          </div>
+          <div class="bg-creme rounded p-3">
+            <div class="text-sm font-semibold text-noir">Defense nationale et forces armees</div>
+          </div>
+          <div class="bg-creme rounded p-3">
+            <div class="text-sm font-semibold text-noir">Developpement durable</div>
+          </div>
+          <div class="bg-creme rounded p-3">
+            <div class="text-sm font-semibold text-noir">Finances</div>
+          </div>
+          <div class="bg-creme rounded p-3">
+            <div class="text-sm font-semibold text-noir">Lois</div>
+          </div>
+        </div>
+        <p class="mt-3 text-sm">
+          En complement, l'Assemblee peut creer des commissions speciales pour l'examen d'un texte particulier, ainsi que des commissions d'enquete pour des investigations sur un sujet precis.
+        </p>
+      </section>
+
+      <!-- La seance publique -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">La seance publique</h2>
+        <p class="mb-3">
+          L'hemicycle est le lieu ou se deroulent les debats publics. Les deputes y examinent les textes de loi, posent des questions au gouvernement et votent.
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Questions au gouvernement (QAG)</strong> : chaque mardi et mercredi apres-midi, les deputes interrogent les ministres en direct. Ces seances sont retransmises sur LCP</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Discussion des textes</strong> : chaque article et amendement est debattu puis vote</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Vote solennel</strong> : les scrutins publics sont enregistres nominativement. Chaque depute vote pour, contre ou s'abstient</li>
+        </ul>
+        <p class="mt-3">
+          L'ordre du jour est fixe par la Conference des presidents, composee du President de l'Assemblee, des vice-presidents, des presidents de commission et des presidents de groupe.
+        </p>
+      </section>
+
+      <!-- Le President de l'Assemblee nationale -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Le President de l'Assemblee nationale</h2>
+        <p class="mb-3">
+          Le President de l'Assemblee nationale est la quatrieme personnalite de l'Etat dans l'ordre protocolaire. Il dirige les debats, veille au respect du reglement et represente l'institution.
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Il est elu par les deputes au debut de chaque legislature</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Il nomme 3 des 9 membres du Conseil constitutionnel</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Il doit etre consulte par le President de la Republique avant toute dissolution</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Il peut saisir le Conseil constitutionnel sur la conformite d'une loi</li>
+        </ul>
+      </section>
+
+      <!-- Le parcours d'une loi -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Le parcours d'une loi a l'Assemblee</h2>
+        <p class="mb-3">
+          Avant d'etre vote en seance publique, un texte de loi suit un parcours structure :
+        </p>
+        <div class="space-y-3">
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">1</span>
+            <div><strong>Depot du texte</strong> : le gouvernement depose un projet de loi (PJL) ou un depute depose une proposition de loi (PPL)</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">2</span>
+            <div><strong>Examen en commission</strong> : la commission competente designe un rapporteur, auditionne des experts et examine le texte article par article</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">3</span>
+            <div><strong>Debat en seance publique</strong> : discussion generale, examen des articles et amendements dans l'hemicycle</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">4</span>
+            <div><strong>Vote sur l'ensemble</strong> : les deputes votent sur le texte dans sa globalite</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">5</span>
+            <div><strong>Transmission au Senat</strong> : le texte adopte est envoye au Senat pour examen (navette parlementaire)</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Chiffres cles -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Chiffres cles</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-4">
+          <div class="text-center">
+            <div class="font-mono text-2xl font-bold text-bleu-rep">577</div>
+            <div class="text-xs text-gris-clair mt-1">deputes</div>
+          </div>
+          <div class="text-center">
+            <div class="font-mono text-2xl font-bold text-bleu-rep">8</div>
+            <div class="text-xs text-gris-clair mt-1">commissions permanentes</div>
+          </div>
+          <div class="text-center">
+            <div class="font-mono text-2xl font-bold text-bleu-rep">5 ans</div>
+            <div class="text-xs text-gris-clair mt-1">duree d'une legislature</div>
+          </div>
+          <div class="text-center">
+            <div class="font-mono text-2xl font-bold text-bleu-rep">289</div>
+            <div class="text-xs text-gris-clair mt-1">majorite absolue</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sources -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Sources</h2>
+        <ul class="space-y-1.5 list-none p-0 m-0 text-sm">
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Constitution de la Ve Republique, articles 24 a 51 — legifrance.gouv.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Assemblee nationale — assemblee-nationale.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Reglement de l'Assemblee nationale — assemblee-nationale.fr/connaissance/reglement.asp</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Vie publique — vie-publique.fr/fiches/assemblee-nationale</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

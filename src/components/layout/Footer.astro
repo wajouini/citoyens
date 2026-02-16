@@ -1,27 +1,24 @@
 ---
 const explorerLinks = [
-  { label: 'Le briefing du jour', href: '/' },
-  { label: 'Fiches députés', href: '/fiche' },
-  { label: 'Fiches sénateurs', href: '/fiche' },
-  { label: 'Fiches journalistes', href: '/fiche' },
+  { label: 'Tous les députés', href: '/fiche' },
+  { label: 'Scrutins récents', href: '/#votes' },
   { label: 'Médias', href: '/media' },
   { label: 'Dossiers de fond', href: '/dossiers' },
 ];
 
-const transparenceLinks = [
-  { label: 'Notre charte', href: '/a-propos' },
-  { label: 'Méthodologie IA', href: '/a-propos' },
-  { label: 'Code source (GitHub)', href: '#' },
-  { label: 'Financement', href: '/a-propos' },
-  { label: 'Équipe & gouvernance', href: '/a-propos' },
+const comprendreLinks = [
+  { label: "L'Assemblée nationale", href: '/comprendre/assemblee-nationale' },
+  { label: 'Le 49.3 expliqué', href: '/comprendre/49-3' },
+  { label: 'Motion de censure', href: '/comprendre/motion-de-censure' },
+  { label: 'Navette parlementaire', href: '/comprendre/navette-parlementaire' },
+  { label: 'La HATVP', href: '/comprendre/hatvp' },
+  { label: 'Groupes parlementaires', href: '/comprendre/groupes-parlementaires' },
 ];
 
-const participerLinks = [
-  { label: 'Faire un don', href: '#' },
-  { label: 'Contribuer (dev)', href: '#' },
-  { label: 'Signaler une erreur', href: '#' },
-  { label: 'Newsletter', href: '#' },
-  { label: 'Contact presse', href: '#' },
+const aProposLinks = [
+  { label: 'À propos', href: '/a-propos' },
+  { label: 'Mentions légales', href: '/mentions-legales' },
+  { label: 'Code source (GitHub)', href: 'https://github.com/boredgeeksociety/citoyens' },
 ];
 ---
 
@@ -48,21 +45,21 @@ const participerLinks = [
         ))}
       </div>
 
-      <!-- Transparence -->
+      <!-- Comprendre -->
       <div>
-        <h4 class="text-[11px] uppercase tracking-[2px] text-white/40 mb-4">Transparence</h4>
-        {transparenceLinks.map(link => (
+        <h4 class="text-[11px] uppercase tracking-[2px] text-white/40 mb-4">Comprendre</h4>
+        {comprendreLinks.map(link => (
           <a href={link.href} class="block text-white/70 no-underline text-sm py-1 hover:text-white transition-colors">
             {link.label}
           </a>
         ))}
       </div>
 
-      <!-- Participer -->
+      <!-- À propos -->
       <div>
-        <h4 class="text-[11px] uppercase tracking-[2px] text-white/40 mb-4">Participer</h4>
-        {participerLinks.map(link => (
-          <a href={link.href} class="block text-white/70 no-underline text-sm py-1 hover:text-white transition-colors">
+        <h4 class="text-[11px] uppercase tracking-[2px] text-white/40 mb-4">À propos</h4>
+        {aProposLinks.map(link => (
+          <a href={link.href} class="block text-white/70 no-underline text-sm py-1 hover:text-white transition-colors" target={link.href.startsWith('http') ? '_blank' : undefined} rel={link.href.startsWith('http') ? 'noopener' : undefined}>
             {link.label}
           </a>
         ))}
@@ -71,7 +68,7 @@ const participerLinks = [
 
     <!-- Bottom -->
     <div class="border-t border-white/10 pt-5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/30">
-      <span>© 2026 Citoyens.ai · Association loi 1901 · Données : data.assemblee-nationale.fr, data.senat.fr, Arcom, HATVP</span>
+      <span>© 2026 Citoyens.ai · Association loi 1901 · Données : data.gouv.fr, Assemblée nationale</span>
       <div class="flex gap-3">
         <span class="px-2 py-0.5 border border-white/15 rounded font-mono text-[10px]">Open Source</span>
         <span class="px-2 py-0.5 border border-white/15 rounded font-mono text-[10px]">RGPD</span>

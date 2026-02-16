@@ -1,0 +1,201 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+---
+
+<BaseLayout title="La motion de censure : renverser le gouvernement" description="Comprendre la motion de censure : base constitutionnelle, procedure, historique des motions celebres et la censure du gouvernement Barnier en 2024.">
+  <Header />
+
+  <main class="max-w-[800px] mx-auto px-6 py-12">
+    <!-- Breadcrumbs -->
+    <nav class="text-sm text-gris-clair mb-6">
+      <a href="/" class="hover:text-bleu-rep no-underline text-gris-clair">Accueil</a>
+      <span class="mx-2">/</span>
+      <a href="/comprendre" class="hover:text-bleu-rep no-underline text-gris-clair">Comprendre</a>
+      <span class="mx-2">/</span>
+      <span class="text-noir font-medium">Motion de censure</span>
+    </nav>
+
+    <h1 class="font-display text-4xl font-black mb-8 text-noir">La motion de censure : renverser le gouvernement</h1>
+
+    <div class="space-y-6 text-[15px] text-gris-texte leading-relaxed">
+
+      <!-- Base constitutionnelle -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Base constitutionnelle</h2>
+        <p class="mb-3">
+          La motion de censure est le mecanisme par lequel l'Assemblee nationale peut contraindre le gouvernement a demissionner. Elle est prevue par l'article 49 de la Constitution de la Ve Republique, qui distingue deux types de motions :
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="bg-bleu-clair rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Article 49 alinea 2</h3>
+            <p class="text-sm">La <strong>motion de censure spontanee</strong> : les deputes prennent l'initiative de mettre en cause la responsabilite du gouvernement, independamment de tout texte de loi.</p>
+          </div>
+          <div class="bg-bleu-clair rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Article 49 alinea 3</h3>
+            <p class="text-sm">La <strong>motion de censure provoquee</strong> : deposee en reaction a l'engagement de responsabilite du gouvernement sur un texte (le « 49.3 »). C'est la seule maniere de s'opposer a un 49.3.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Comment ca marche -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Comment ca marche</h2>
+        <div class="space-y-3">
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">1</span>
+            <div><strong>Depot</strong> : une motion de censure doit etre signee par au moins un dixieme des membres de l'Assemblee nationale, soit 58 deputes. Un depute ne peut signer que trois motions de censure spontanees par session ordinaire</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">2</span>
+            <div><strong>Delai de reflexion</strong> : un delai de 48 heures doit s'ecouler entre le depot de la motion et le vote. Ce delai vise a empecher les votes impulsifs et a permettre la reflexion</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">3</span>
+            <div><strong>Vote</strong> : seuls les deputes favorables a la motion se prononcent. Ne sont decomptes que les votes « pour ». L'abstention et l'absence equivalant a un soutien implicite au gouvernement</div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">4</span>
+            <div><strong>Majorite requise</strong> : la motion doit recueillir la majorite absolue des membres composant l'Assemblee, soit <strong>289 voix sur 577</strong></div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="font-mono text-xs font-bold bg-bleu-rep text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0 mt-0.5">5</span>
+            <div><strong>Consequence</strong> : si la motion est adoptee, le Premier ministre doit remettre la demission du gouvernement au President de la Republique</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pourquoi la majorite absolue -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Pourquoi la majorite absolue ?</h2>
+        <p class="mb-3">
+          Le choix de la majorite absolue (et non relative) est un mecanisme delibere de la Constitution de 1958 pour proteger la stabilite gouvernementale :
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Elle oblige les opposants au gouvernement a constituer une majorite positive, pas simplement un front du refus</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Le comptage des seules voix « pour » signifie que les absents et abstentionnistes sont comptes comme soutenant implicitement le gouvernement</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Cette regle est une lecon tiree de l'instabilite de la IVe Republique (1946-1958), ou les gouvernements etaient renverses avec facilite</li>
+        </ul>
+      </section>
+
+      <!-- Motions de censure celebres -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Les motions de censure celebres</h2>
+        <div class="space-y-4">
+          <div class="border-l-2 border-rouge-doux pl-4">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="font-mono text-xs bg-rouge-doux text-white px-2 py-0.5 rounded">ADOPTEE</span>
+              <span class="font-semibold text-noir text-sm">5 octobre 1962 — Gouvernement Pompidou</span>
+            </div>
+            <p class="text-sm">
+              Premiere et longtemps unique motion de censure adoptee sous la Ve Republique. Deposee en reaction a la decision du general de Gaulle d'organiser un referendum sur l'election du President au suffrage universel direct (modification de l'article 6 de la Constitution par referendum, sans passer par le Parlement). Adoptee a 280 voix. De Gaulle a dissous l'Assemblee en reponse.
+            </p>
+          </div>
+          <div class="border-l-2 border-gris-clair pl-4">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="font-mono text-xs bg-gris-clair text-white px-2 py-0.5 rounded">REJETEE</span>
+              <span class="font-semibold text-noir text-sm">20 mars 2023 — Gouvernement Borne</span>
+            </div>
+            <p class="text-sm">
+              Deux motions deposees apres l'engagement du 49.3 sur la reforme des retraites. La motion transpartisane du groupe LIOT a recueilli 278 voix, soit 11 voix de moins que les 289 requises. L'une des motions ayant recueilli le plus de voix sans aboutir.
+            </p>
+          </div>
+          <div class="border-l-2 border-rouge-doux pl-4">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="font-mono text-xs bg-rouge-doux text-white px-2 py-0.5 rounded">ADOPTEE</span>
+              <span class="font-semibold text-noir text-sm">4 decembre 2024 — Gouvernement Barnier</span>
+            </div>
+            <p class="text-sm">
+              Motion de censure deposee par le Nouveau Front populaire apres l'engagement du 49.3 par Michel Barnier sur le PLFSS 2025. Soutenue par le Rassemblement national, elle a ete adoptee avec 331 voix — la plus large majorite de censure de l'histoire de la Ve Republique. Michel Barnier est devenu le Premier ministre le plus brievement en fonction (3 mois).
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Statistiques -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Statistiques des motions de censure</h2>
+        <p class="mb-3">
+          Depuis 1958, les motions de censure ont ete un outil regulierement utilise par l'opposition, mais rarement avec succes :
+        </p>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-4">
+          <div class="text-center">
+            <div class="font-mono text-2xl font-bold text-bleu-rep">~60</div>
+            <div class="text-xs text-gris-clair mt-1">motions deposees depuis 1958</div>
+          </div>
+          <div class="text-center">
+            <div class="font-mono text-2xl font-bold text-rouge-doux">2</div>
+            <div class="text-xs text-gris-clair mt-1">motions adoptees</div>
+          </div>
+          <div class="text-center">
+            <div class="font-mono text-2xl font-bold text-bleu-rep">289</div>
+            <div class="text-xs text-gris-clair mt-1">voix requises (majorite absolue)</div>
+          </div>
+          <div class="text-center">
+            <div class="font-mono text-2xl font-bold text-bleu-rep">331</div>
+            <div class="text-xs text-gris-clair mt-1">voix le 4 dec. 2024 (record)</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Que se passe-t-il apres -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Que se passe-t-il apres une motion adoptee ?</h2>
+        <p class="mb-3">
+          Lorsqu'une motion de censure est adoptee, les consequences sont les suivantes :
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Le Premier ministre presente la demission de son gouvernement au President de la Republique</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Le gouvernement assure les affaires courantes jusqu'a la nomination d'un nouveau Premier ministre</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Le President de la Republique n'est pas tenu de dissoudre l'Assemblee : il peut nommer un nouveau Premier ministre</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Si la motion etait une reponse a un 49.3, le texte de loi concerne est egalement rejete</li>
+        </ul>
+        <div class="bg-creme rounded-lg p-4 mt-3">
+          <p class="text-sm"><strong>A noter</strong> : la Constitution ne prevoit pas l'obligation pour le President de nommer un Premier ministre issu de la majorite parlementaire. C'est une convention politique, pas une regle juridique.</p>
+        </div>
+      </section>
+
+      <!-- Difference avec la question de confiance -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Motion de censure vs question de confiance</h2>
+        <p class="mb-3">
+          Il ne faut pas confondre la motion de censure avec la question de confiance :
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="bg-creme rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Motion de censure (art. 49-2)</h3>
+            <ul class="space-y-1 list-none p-0 m-0 text-sm">
+              <li>Initiative des deputes</li>
+              <li>Objectif : renverser le gouvernement</li>
+              <li>Necessite 289 voix pour aboutir</li>
+            </ul>
+          </div>
+          <div class="bg-creme rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Question de confiance (art. 49-1)</h3>
+            <ul class="space-y-1 list-none p-0 m-0 text-sm">
+              <li>Initiative du Premier ministre</li>
+              <li>Objectif : obtenir le soutien de l'Assemblee</li>
+              <li>Majorite simple suffit</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sources -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Sources</h2>
+        <ul class="space-y-1.5 list-none p-0 m-0 text-sm">
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Constitution du 4 octobre 1958, article 49 — legifrance.gouv.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Assemblee nationale, fiche de synthese n°44 : La motion de censure — assemblee-nationale.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Assemblee nationale, liste des motions de censure — assemblee-nationale.fr/connaissance/motions-censure.asp</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Vie publique — vie-publique.fr/fiches/motion-de-censure</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Conseil constitutionnel — conseil-constitutionnel.fr/la-constitution/article-49</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

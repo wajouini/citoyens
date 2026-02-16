@@ -1,0 +1,89 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import { getPartiColor } from '../../utils/colors';
+
+const allPersonnes = await getCollection('personnes');
+
+// Group by groupe_parlementaire
+const groups = new Map<string, typeof allPersonnes>();
+for (const p of allPersonnes) {
+  const g = p.data.groupe_parlementaire || 'NI';
+  if (!groups.has(g)) groups.set(g, []);
+  groups.get(g)!.push(p);
+}
+
+// Sort groups by size
+const sortedGroups = [...groups.entries()].sort((a, b) => b[1].length - a[1].length);
+---
+
+<BaseLayout title="Tous les députés" description="Les 577 députés de l'Assemblée nationale — 17e législature. Profils, participation, groupes parlementaires.">
+  <Header />
+
+  <main class="max-w-[1280px] mx-auto px-6 py-8">
+    <div class="flex items-center gap-3 mb-8">
+      <h1 class="font-display text-3xl font-black whitespace-nowrap">Députés</h1>
+      <div class="flex-1 h-0.5 bg-noir"></div>
+      <span class="font-mono text-xs text-gris-clair whitespace-nowrap">
+        {allPersonnes.length} députés · 17e législature
+      </span>
+    </div>
+
+    <!-- Groups summary -->
+    <div class="flex flex-wrap gap-2 mb-8">
+      {sortedGroups.map(([g, members]) => {
+        const color = getPartiColor(g);
+        return (
+          <a
+            href={`#${g}`}
+            class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-blanc border border-gris-chaud rounded-full text-sm no-underline text-noir hover:border-bleu-rep transition-colors"
+          >
+            <span class="w-2.5 h-2.5 rounded-full shrink-0" style={`background: ${color}`}></span>
+            <span class="font-semibold">{g}</span>
+            <span class="text-gris-clair font-mono text-xs">{members.length}</span>
+          </a>
+        );
+      })}
+    </div>
+
+    <!-- Deputies by group -->
+    {sortedGroups.map(([g, members]) => {
+      const color = getPartiColor(g);
+      const sorted = [...members].sort((a, b) => a.data.nom.localeCompare(b.data.nom, 'fr'));
+      return (
+        <section id={g} class="mb-10">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-3 h-3 rounded-full" style={`background: ${color}`}></span>
+            <h2 class="font-display text-xl font-bold">{g}</h2>
+            <span class="font-mono text-xs text-gris-clair">{members.length} députés</span>
+            <div class="flex-1 h-px bg-gris-chaud"></div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+            {sorted.map(p => (
+              <a
+                href={`/fiche/${p.data.slug}`}
+                class="flex items-center gap-2.5 p-2.5 bg-blanc border border-gris-chaud rounded hover:border-bleu-rep hover:shadow-sm transition-all no-underline text-noir"
+              >
+                <div
+                  class="w-8 h-8 rounded-full flex items-center justify-center font-display text-xs font-bold shrink-0"
+                  style={`background: ${color}20; color: ${color}`}
+                >
+                  {p.data.prenom.charAt(0)}{p.data.nom.charAt(0)}
+                </div>
+                <div class="min-w-0">
+                  <div class="text-sm font-semibold truncate">{p.data.nom_complet}</div>
+                  <div class="text-[11px] text-gris-clair truncate">{p.data.departement || ''}{p.data.taux_participation != null ? ` · ${Math.round(p.data.taux_participation)}%` : ''}</div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      );
+    })}
+  </main>
+
+  <Footer />
+</BaseLayout>

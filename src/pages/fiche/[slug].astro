@@ -4,7 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
 import { getInitials, formatDateShort } from '../../utils/format';
-import { getCoherenceColor, roleLabels, getPartiColor } from '../../utils/colors';
+import { roleLabels, getPartiColor } from '../../utils/colors';
 
 export async function getStaticPaths() {
   const personnes = await getCollection('personnes');
@@ -46,7 +46,7 @@ const votePositionLabels: Record<string, string> = {
     <nav class="text-xs text-gris-clair mb-6">
       <a href="/" class="hover:text-noir no-underline text-gris-clair">Accueil</a>
       <span class="mx-1.5">&rsaquo;</span>
-      <a href="/" class="hover:text-noir no-underline text-gris-clair">Fiches</a>
+      <a href="/fiche" class="hover:text-noir no-underline text-gris-clair">Députés</a>
       <span class="mx-1.5">&rsaquo;</span>
       <span class="text-noir">{personne.nom_complet}</span>
     </nav>
@@ -79,7 +79,7 @@ const votePositionLabels: Record<string, string> = {
             </div>
             {personne.circonscription && (
               <div class="text-xs text-gris-clair mt-1">
-                {personne.circonscription}{personne.departement ? ` \u00B7 ${personne.departement}` : ''}
+                {personne.circonscription}
               </div>
             )}
           </div>
@@ -87,18 +87,35 @@ const votePositionLabels: Record<string, string> = {
           <p class="text-sm text-gris-texte leading-relaxed border-t border-gris-chaud pt-4">
             {personne.bio_courte}
           </p>
+
+          {personne.lien_fiche_an && (
+            <a
+              href={personne.lien_fiche_an}
+              target="_blank"
+              rel="noopener"
+              class="block mt-3 text-xs text-bleu-rep hover:underline no-underline"
+            >
+              → Fiche officielle sur assemblee-nationale.fr
+            </a>
+          )}
         </div>
 
         <!-- Key Stats (parliamentarians only) -->
         {isParliamentarian && (
           <div class="bg-blanc border border-gris-chaud rounded-lg p-6 mb-4">
-            <h3 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3">Chiffres cl&eacute;s</h3>
+            <h3 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-3">Chiffres clés</h3>
             <div class="grid grid-cols-2 gap-3">
               <div class="text-center">
                 <div class="font-mono text-2xl font-medium text-bleu-rep">
-                  {personne.taux_participation != null ? `${personne.taux_participation}%` : '\u2014'}
+                  {personne.taux_participation != null ? `${Math.round(personne.taux_participation)}%` : '—'}
                 </div>
-                <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Pr&eacute;sence</div>
+                <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Participation</div>
+              </div>
+              <div class="text-center">
+                <div class="font-mono text-2xl font-medium text-bleu-rep">
+                  {personne.score_loyaute != null ? `${Math.round(personne.score_loyaute)}%` : '—'}
+                </div>
+                <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Loyauté</div>
               </div>
               <div class="text-center">
                 <div class="font-mono text-2xl font-medium text-bleu-rep">{personne.questions_ecrites}</div>
@@ -108,14 +125,6 @@ const votePositionLabels: Record<string, string> = {
                 <div class="font-mono text-2xl font-medium text-bleu-rep">{personne.propositions_loi}</div>
                 <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Prop. de loi</div>
               </div>
-              {personne.score_coherence != null && (
-                <div class="text-center">
-                  <div class="font-mono text-2xl font-medium" style={`color: ${getCoherenceColor(personne.score_coherence)}`}>
-                    {personne.score_coherence}%
-                  </div>
-                  <div class="text-[10px] uppercase tracking-wider text-gris-clair mt-1">Coh&eacute;rence</div>
-                </div>
-              )}
             </div>
           </div>
         )}
@@ -142,7 +151,7 @@ const votePositionLabels: Record<string, string> = {
             <ul class="text-sm space-y-1.5 text-gris-texte list-none p-0 m-0">
               {personne.condamnations.map((c: string) => (
                 <li class="flex items-start gap-2">
-                  <span class="text-rouge-doux mt-0.5">&rlm;&#x26A0;</span>
+                  <span class="text-rouge-doux mt-0.5">&#x26A0;</span>
                   {c}
                 </li>
               ))}
@@ -181,7 +190,7 @@ const votePositionLabels: Record<string, string> = {
         <!-- Votes récents -->
         {personne.votes_recents.length > 0 && (
           <section class="bg-blanc border border-gris-chaud rounded-lg p-6 mb-4">
-            <h2 class="font-display text-xl font-bold mb-4 pb-2 border-b border-gris-chaud">Votes r&eacute;cents</h2>
+            <h2 class="font-display text-xl font-bold mb-4 pb-2 border-b border-gris-chaud">Votes récents</h2>
             <div class="space-y-0">
               {personne.votes_recents.map((vote: { date: string; intitule: string; position: string }) => (
                 <div class="flex items-center gap-3 py-3 border-b border-gris-chaud last:border-0">
@@ -198,34 +207,10 @@ const votePositionLabels: Record<string, string> = {
           </section>
         )}
 
-        <!-- Coherence Score -->
-        {personne.score_coherence != null && (
-          <section class="bg-blanc border border-gris-chaud rounded-lg p-6 mb-4">
-            <h2 class="font-display text-xl font-bold mb-3 pb-2 border-b border-gris-chaud">Coh&eacute;rence discours / votes</h2>
-            <div class="flex items-center gap-4 mb-3">
-              <div class="font-mono text-4xl font-bold" style={`color: ${getCoherenceColor(personne.score_coherence)}`}>
-                {personne.score_coherence}%
-              </div>
-              <div class="text-sm text-gris-texte">
-                Ce score mesure la correspondance entre les prises de position publiques et les votes effectifs en s&eacute;ance.
-              </div>
-            </div>
-            <div class="h-2 bg-gris-chaud rounded-full overflow-hidden">
-              <div
-                class="h-full rounded-full transition-all duration-1000"
-                style={`width: ${personne.score_coherence}%; background: ${getCoherenceColor(personne.score_coherence)}`}
-              ></div>
-            </div>
-            <p class="text-xs text-gris-clair mt-2 italic">
-              M&eacute;thodologie : analyse crois&eacute;e des d&eacute;clarations publiques (m&eacute;dias, r&eacute;seaux sociaux, h&eacute;micycle) et des votes nominatifs. Score calcul&eacute; sur les 12 derniers mois.
-            </p>
-          </section>
-        )}
-
         <!-- Apparitions média -->
         {personne.apparitions_media.length > 0 && (
           <section class="bg-blanc border border-gris-chaud rounded-lg p-6 mb-4">
-            <h2 class="font-display text-xl font-bold mb-4 pb-2 border-b border-gris-chaud">Apparitions m&eacute;dia</h2>
+            <h2 class="font-display text-xl font-bold mb-4 pb-2 border-b border-gris-chaud">Apparitions média</h2>
             <div class="space-y-0">
               {personne.apparitions_media.map((app: { date: string; media: string; titre?: string; url?: string }) => (
                 <div class="flex items-center gap-3 py-3 border-b border-gris-chaud last:border-0">
@@ -241,6 +226,14 @@ const votePositionLabels: Record<string, string> = {
             </div>
           </section>
         )}
+
+        <!-- Source notice -->
+        <div class="bg-creme rounded-lg p-4 text-xs text-gris-clair">
+          <p>
+            Données issues de <a href="https://www.data.gouv.fr/fr/datasets/deputes-actifs-de-lassemblee-nationale-informations-et-statistiques/" target="_blank" rel="noopener" class="text-bleu-rep hover:underline">data.gouv.fr</a> et de l'<a href="https://www.assemblee-nationale.fr" target="_blank" rel="noopener" class="text-bleu-rep hover:underline">Assemblée nationale</a>.
+            Dernière mise à jour automatique du jeu de données source.
+          </p>
+        </div>
       </div>
     </div>
   </main>

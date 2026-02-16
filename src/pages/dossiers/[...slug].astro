@@ -1,0 +1,64 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+export async function getStaticPaths() {
+  const dossiers = await getCollection('dossiers');
+  return dossiers.map(d => ({
+    params: { slug: d.id },
+    props: { dossier: d },
+  }));
+}
+
+const { dossier } = Astro.props;
+const { Content } = await render(dossier);
+
+const statutLabels: Record<string, string> = {
+  en_cours: 'En cours',
+  adopte: 'Adopté',
+  rejete: 'Rejeté',
+  en_commission: 'En commission',
+  promulgue: 'Promulgué',
+};
+---
+
+<BaseLayout title={dossier.data.titre} description={dossier.data.description}>
+  <Header />
+
+  <main class="max-w-[800px] mx-auto px-6 py-8">
+    <!-- Breadcrumbs -->
+    <nav class="text-xs text-gris-clair mb-6">
+      <a href="/" class="hover:text-noir no-underline text-gris-clair">Accueil</a>
+      <span class="mx-1.5">&rsaquo;</span>
+      <a href="/dossiers" class="hover:text-noir no-underline text-gris-clair">Dossiers</a>
+      <span class="mx-1.5">&rsaquo;</span>
+      <span class="text-noir">{dossier.data.titre}</span>
+    </nav>
+
+    <!-- Header -->
+    <div class="flex items-start gap-4 mb-6">
+      <div class="w-14 h-14 bg-bleu-clair rounded-lg flex items-center justify-center text-[28px] shrink-0">
+        {dossier.data.icone}
+      </div>
+      <div>
+        <h1 class="font-display text-3xl font-black">{dossier.data.titre}</h1>
+        <div class="flex items-center gap-3 mt-2">
+          <span class="font-mono text-xs text-gris-clair">{statutLabels[dossier.data.statut]}</span>
+          <div class="flex-1 max-w-[200px] h-[3px] bg-gris-chaud rounded-full">
+            <div class="h-full bg-bleu-rep rounded-full" style={`width:${dossier.data.progression}%`}></div>
+          </div>
+          <span class="font-mono text-[11px] text-gris-clair">{dossier.data.etape_label}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <article class="bg-blanc border border-gris-chaud rounded-lg p-8 prose prose-neutral max-w-none">
+      <Content />
+    </article>
+  </main>
+
+  <Footer />
+</BaseLayout>

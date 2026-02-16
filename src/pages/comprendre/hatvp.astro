@@ -1,0 +1,208 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+---
+
+<BaseLayout title="La HATVP : transparence de la vie publique" description="Comprendre la Haute Autorite pour la transparence de la vie publique : creation, missions, declarations de patrimoine et d'interets, pouvoirs de controle.">
+  <Header />
+
+  <main class="max-w-[800px] mx-auto px-6 py-12">
+    <!-- Breadcrumbs -->
+    <nav class="text-sm text-gris-clair mb-6">
+      <a href="/" class="hover:text-bleu-rep no-underline text-gris-clair">Accueil</a>
+      <span class="mx-2">/</span>
+      <a href="/comprendre" class="hover:text-bleu-rep no-underline text-gris-clair">Comprendre</a>
+      <span class="mx-2">/</span>
+      <span class="text-noir font-medium">La HATVP</span>
+    </nav>
+
+    <h1 class="font-display text-4xl font-black mb-8 text-noir">La HATVP : transparence de la vie publique</h1>
+
+    <div class="space-y-6 text-[15px] text-gris-texte leading-relaxed">
+
+      <!-- Creation -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Creation et contexte</h2>
+        <p class="mb-3">
+          La Haute Autorite pour la transparence de la vie publique (HATVP) a ete creee par les lois du 11 octobre 2013 relatives a la transparence de la vie publique. Elle est une autorite administrative independante (AAI).
+        </p>
+        <div class="bg-bleu-clair rounded-lg p-4 mb-3">
+          <h3 class="font-semibold text-noir text-sm mb-2">Le contexte de creation</h3>
+          <p class="text-sm">
+            La HATVP est nee dans le sillage de l'affaire Cahuzac (2013), du nom du ministre du Budget qui avait dissimule des comptes bancaires a l'etranger. Ce scandale a declenche une reforme majeure de la transparence des responsables publics. La HATVP a remplace la Commission pour la transparence financiere de la vie politique, qui existait depuis 1988.
+          </p>
+        </div>
+        <p>
+          Son siege est a Paris. Elle est presidee par un membre nomme par le President de la Republique, apres avis des commissions des lois de chaque assemblee. Le president actuel est Didier Migaud, qui a pris ses fonctions en janvier 2020 avant d'etre nomme ministre de la Justice en septembre 2024.
+        </p>
+      </section>
+
+      <!-- Missions -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Les missions de la HATVP</h2>
+        <p class="mb-3">
+          La HATVP assure cinq missions principales :
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Controle des declarations</strong> : recevoir, verifier et publier les declarations de patrimoine et d'interets des responsables publics</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Prevention des conflits d'interets</strong> : veiller a ce que les responsables publics n'utilisent pas leur fonction pour servir des interets prives</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Controle du pantouflage</strong> : examiner la compatibilite entre les fonctions publiques exercees et les activites privees envisagees par les anciens responsables publics</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Encadrement du lobbying</strong> : depuis la loi Sapin 2 (2016), la HATVP gere le repertoire des representants d'interets (lobbys) et controle le respect des obligations declaratives</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Conseil et accompagnement</strong> : repondre aux demandes d'avis des responsables publics sur les questions deontologiques</li>
+        </ul>
+      </section>
+
+      <!-- Qui declare -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Qui doit declarer ?</h2>
+        <p class="mb-3">
+          Environ 15 000 responsables publics sont soumis a des obligations declaratives aupres de la HATVP. Les assujettis comprennent :
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div class="bg-creme rounded p-3">
+            <div class="text-sm font-semibold text-noir mb-1">Responsables elus</div>
+            <ul class="text-sm space-y-1 list-none p-0 m-0">
+              <li>577 deputes</li>
+              <li>348 senateurs</li>
+              <li>79 deputes europeens francais</li>
+              <li>Presidents de region et de departement</li>
+              <li>Maires de communes de plus de 20 000 habitants</li>
+            </ul>
+          </div>
+          <div class="bg-creme rounded p-3">
+            <div class="text-sm font-semibold text-noir mb-1">Membres du gouvernement</div>
+            <ul class="text-sm space-y-1 list-none p-0 m-0">
+              <li>Premier ministre</li>
+              <li>Ministres et secretaires d'Etat</li>
+              <li>Membres des cabinets ministeriels</li>
+              <li>Collaborateurs du President de la Republique</li>
+            </ul>
+          </div>
+          <div class="bg-creme rounded p-3">
+            <div class="text-sm font-semibold text-noir mb-1">Hauts fonctionnaires</div>
+            <ul class="text-sm space-y-1 list-none p-0 m-0">
+              <li>Directeurs d'administration centrale</li>
+              <li>Ambassadeurs</li>
+              <li>Prefets</li>
+              <li>Recteurs d'academie</li>
+              <li>Membres d'autorites independantes</li>
+            </ul>
+          </div>
+          <div class="bg-creme rounded p-3">
+            <div class="text-sm font-semibold text-noir mb-1">Dirigeants d'organismes publics</div>
+            <ul class="text-sm space-y-1 list-none p-0 m-0">
+              <li>Dirigeants d'entreprises publiques</li>
+              <li>Dirigeants d'etablissements publics</li>
+              <li>Presidents de federation sportive</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Les declarations -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Quelles declarations ?</h2>
+        <p class="mb-3">
+          Les responsables publics doivent produire deux types de declarations :
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="bg-bleu-clair rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Declaration de patrimoine</h3>
+            <p class="text-sm">Recense l'ensemble des biens immobiliers, valeurs mobilieres, assurances-vie, comptes bancaires, vehicules, objets de valeur et dettes du declarant. Deux declarations sont obligatoires : une en debut de mandat ou fonction, une en fin.</p>
+          </div>
+          <div class="bg-bleu-clair rounded-lg p-4">
+            <h3 class="font-semibold text-noir text-sm mb-2">Declaration d'interets et d'activites</h3>
+            <p class="text-sm">Recense les activites professionnelles passees et presentes, les participations dans des organismes, les activites de conseil, les liens familiaux susceptibles de creer des conflits d'interets.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Comment consulter -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Comment consulter les declarations</h2>
+        <p class="mb-3">
+          La transparence est le principe fondateur de la HATVP. Les declarations sont consultables selon differentes modalites :
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>En ligne</strong> : les declarations d'interets et d'activites des parlementaires et ministres sont consultables sur le site hatvp.fr (rubrique « Consulter les declarations »)</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>En prefecture</strong> : les declarations de patrimoine des parlementaires sont consultables en prefecture par tout electeur inscrit sur les listes electorales</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>En open data</strong> : certaines donnees sont disponibles en format ouvert sur data.hatvp.fr</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Repertoire des representants d'interets</strong> : le registre des lobbys est consultable publiquement sur hatvp.fr</li>
+        </ul>
+      </section>
+
+      <!-- Les pouvoirs -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Les pouvoirs de la HATVP</h2>
+        <p class="mb-3">
+          La HATVP dispose de pouvoirs significatifs pour mener a bien ses missions :
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Droit de communication</strong> : elle peut demander des informations a l'administration fiscale, aux banques, aux notaires et a toute administration publique</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Injonction</strong> : elle peut enjoindre un responsable public de se conformer a ses obligations declaratives</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Saisine du procureur</strong> : elle peut transmettre au parquet les cas de declarations mensongeres, d'enrichissement illicite ou de conflits d'interets</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Avis sur le pantouflage</strong> : elle peut emettre un avis d'incompatibilite, de compatibilite avec reserves, ou de compatibilite pour les reconversions d'anciens responsables publics</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> <strong>Publication des avis</strong> : ses avis de non-conformite peuvent etre rendus publics</li>
+        </ul>
+      </section>
+
+      <!-- Le repertoire des lobbys -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Le repertoire des representants d'interets</h2>
+        <p class="mb-3">
+          Depuis la loi Sapin 2 du 9 decembre 2016, les representants d'interets (lobbys) doivent s'inscrire sur un repertoire tenu par la HATVP et declarer leurs activites d'influence :
+        </p>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Identite de l'organisation et de ses dirigeants</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Domaines d'activite et d'intervention</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Liste des actions de representation d'interets menees</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Montant des depenses consacrees au lobbying</li>
+          <li class="flex gap-2"><span class="text-bleu-rep font-bold">&bull;</span> Nombre de personnes employees pour ces activites</li>
+        </ul>
+        <p class="mt-3 text-sm">
+          En cas de manquement, la HATVP peut adresser des mises en demeure et saisir le juge penal. Le repertoire comptait plus de 2 800 entites inscrites en 2024.
+        </p>
+      </section>
+
+      <!-- Chiffres cles -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Chiffres cles</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-4">
+          <div class="text-center">
+            <div class="font-mono text-2xl font-bold text-bleu-rep">~15 000</div>
+            <div class="text-xs text-gris-clair mt-1">declarants</div>
+          </div>
+          <div class="text-center">
+            <div class="font-mono text-2xl font-bold text-bleu-rep">2013</div>
+            <div class="text-xs text-gris-clair mt-1">annee de creation</div>
+          </div>
+          <div class="text-center">
+            <div class="font-mono text-2xl font-bold text-bleu-rep">2 800+</div>
+            <div class="text-xs text-gris-clair mt-1">lobbys inscrits</div>
+          </div>
+          <div class="text-center">
+            <div class="font-mono text-2xl font-bold text-bleu-rep">~50</div>
+            <div class="text-xs text-gris-clair mt-1">agents permanents</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sources -->
+      <section class="bg-blanc border border-gris-chaud rounded-lg p-6">
+        <h2 class="font-display text-xl font-bold text-noir mb-3">Sources</h2>
+        <ul class="space-y-1.5 list-none p-0 m-0 text-sm">
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Loi n° 2013-907 du 11 octobre 2013 relative a la transparence de la vie publique — legifrance.gouv.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Loi n° 2016-1691 du 9 decembre 2016 (loi Sapin 2) — legifrance.gouv.fr</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> HATVP, rapports d'activite — hatvp.fr/rapports-activite</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> HATVP, consulter les declarations — hatvp.fr/consulter-les-declarations</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Repertoire des representants d'interets — hatvp.fr/le-repertoire</li>
+          <li class="flex gap-2"><span class="text-vert">&check;</span> Vie publique — vie-publique.fr/fiches/hatvp</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
