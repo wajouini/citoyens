@@ -113,11 +113,17 @@ const linkedDossiers = allDossiers.filter(dos => d.dossiers_lies.includes(dos.id
               Ce que disent les chiffres
             </h2>
             <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
-              {d.chiffres.map((c: { indicateur: string; valeur: string; source: string }) => (
+              {d.chiffres.map((c: { indicateur: string; valeur: string; source: string; source_url?: string }) => (
                 <div class="bg-creme/50 border border-gris-chaud/50 rounded-lg p-3.5 text-center">
                   <div class="font-display font-black text-lg text-bleu-rep leading-tight mb-1">{c.valeur}</div>
                   <div class="text-[11px] text-noir font-medium leading-snug mb-1.5">{c.indicateur}</div>
-                  <div class="text-[9px] text-gris-clair uppercase tracking-wider">{c.source}</div>
+                  {c.source_url ? (
+                    <a href={c.source_url} target="_blank" rel="noopener noreferrer" class="text-[9px] text-gris-clair uppercase tracking-wider no-underline hover:text-bleu-rep hover:underline transition-colors">
+                      {c.source} ↗
+                    </a>
+                  ) : (
+                    <div class="text-[9px] text-gris-clair uppercase tracking-wider">{c.source}</div>
+                  )}
                 </div>
               ))}
             </div>
@@ -139,12 +145,16 @@ const linkedDossiers = allDossiers.filter(dos => d.dossiers_lies.includes(dos.id
                     <span class={`ml-auto font-mono text-[11px] text-${color}/70`}>{camp.args.length}</span>
                   </div>
                   <ul class="p-5 space-y-3">
-                    {camp.args.map((a: { argument: string; source?: string }) => (
+                    {camp.args.map((a: { argument: string; source?: string; source_url?: string }) => (
                       <li class="flex gap-2.5 text-[13px] leading-relaxed text-gris-texte">
                         <span class={`text-${color} shrink-0 mt-0.5 text-xs`}>▸</span>
                         <span>
                           {a.argument}
-                          {a.source && <span class="text-[10px] text-gris-clair ml-1">({a.source})</span>}
+                          {a.source && a.source_url ? (
+                            <a href={a.source_url} target="_blank" rel="noopener noreferrer" class="text-[10px] text-gris-clair ml-1 no-underline hover:text-bleu-rep hover:underline transition-colors">({a.source} ↗)</a>
+                          ) : a.source ? (
+                            <span class="text-[10px] text-gris-clair ml-1">({a.source})</span>
+                          ) : null}
                         </span>
                       </li>
                     ))}
@@ -163,7 +173,7 @@ const linkedDossiers = allDossiers.filter(dos => d.dossiers_lies.includes(dos.id
               Idées reçues
             </h2>
             <div class="space-y-4">
-              {d.idees_recues.map((ir: { affirmation: string; realite: string; source?: string }) => (
+              {d.idees_recues.map((ir: { affirmation: string; realite: string; source?: string; source_url?: string }) => (
                 <div class="border border-gris-chaud/50 rounded-lg overflow-hidden">
                   <div class="bg-rouge-doux/5 px-4 py-2.5 flex items-start gap-2">
                     <span class="text-rouge-doux text-sm mt-0.5">✗</span>
@@ -173,7 +183,11 @@ const linkedDossiers = allDossiers.filter(dos => d.dossiers_lies.includes(dos.id
                     <span class="text-vert text-sm mt-0.5">→</span>
                     <div>
                       <p class="text-[13px] text-gris-texte leading-relaxed">{ir.realite}</p>
-                      {ir.source && <span class="text-[10px] text-gris-clair">Source : {ir.source}</span>}
+                      {ir.source && ir.source_url ? (
+                        <a href={ir.source_url} target="_blank" rel="noopener noreferrer" class="text-[10px] text-gris-clair no-underline hover:text-bleu-rep hover:underline transition-colors">Source : {ir.source} ↗</a>
+                      ) : ir.source ? (
+                        <span class="text-[10px] text-gris-clair">Source : {ir.source}</span>
+                      ) : null}
                     </div>
                   </div>
                 </div>

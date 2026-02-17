@@ -163,11 +163,17 @@ const passedCount = chronologie.filter((c: { statut: string }) => c.statut === '
               Ce que disent les chiffres
             </h2>
             <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
-              {chiffres.map((c: { indicateur: string; valeur: string; source: string }) => (
+              {chiffres.map((c: { indicateur: string; valeur: string; source: string; source_url?: string }) => (
                 <div class="bg-creme/50 border border-gris-chaud/50 rounded-lg p-3.5 text-center">
                   <div class="font-display font-black text-lg text-bleu-rep leading-tight mb-1">{c.valeur}</div>
                   <div class="text-[11px] text-noir font-medium leading-snug mb-1.5">{c.indicateur}</div>
-                  <div class="text-[9px] text-gris-clair uppercase tracking-wider">{c.source}</div>
+                  {c.source_url ? (
+                    <a href={c.source_url} target="_blank" rel="noopener noreferrer" class="text-[9px] text-gris-clair uppercase tracking-wider no-underline hover:text-bleu-rep hover:underline transition-colors">
+                      {c.source} ↗
+                    </a>
+                  ) : (
+                    <div class="text-[9px] text-gris-clair uppercase tracking-wider">{c.source}</div>
+                  )}
                 </div>
               ))}
             </div>

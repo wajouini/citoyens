@@ -18,6 +18,9 @@ import { statsRepublique } from '../../data/stats-republique';
         <div class={`font-mono text-[10px] ${stat.direction === 'down' ? 'text-rouge-doux' : stat.direction === 'up' ? 'text-vert' : 'text-gris-clair'}`}>
           {stat.tendance}
         </div>
+        <a href={stat.source_url} target="_blank" rel="noopener noreferrer" class="text-[9px] text-gris-clair uppercase tracking-wider no-underline hover:text-bleu-rep hover:underline transition-colors mt-1 inline-block">
+          {stat.source} ↗
+        </a>
       </div>
     ))}
   </div>

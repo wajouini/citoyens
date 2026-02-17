@@ -108,6 +108,7 @@ const dossiers = defineCollection({
       indicateur: z.string(),
       valeur: z.string(),
       source: z.string(),
+      source_url: z.string().optional(),
     })).default([]),
     chronologie: z.array(z.object({
       date: z.string(),
@@ -146,16 +147,19 @@ const decodages = defineCollection({
       indicateur: z.string(),
       valeur: z.string(),
       source: z.string(),
+      source_url: z.string().optional(),
     })).default([]),
     arguments: z.array(z.object({
       camp: z.string(),
       argument: z.string(),
       source: z.string().optional(),
+      source_url: z.string().optional(),
     })).default([]),
     idees_recues: z.array(z.object({
       affirmation: z.string(),
       realite: z.string(),
       source: z.string().optional(),
+      source_url: z.string().optional(),
     })).default([]),
     positions: z.array(z.object({
       groupe: z.string(),

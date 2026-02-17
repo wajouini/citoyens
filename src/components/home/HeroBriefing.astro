@@ -85,7 +85,7 @@ const formatDate = (dateStr: string) => {
           <div class="font-mono text-[10px] uppercase tracking-[2px] text-white/50 mb-2">Le chiffre</div>
           <div class="font-mono text-[42px] font-bold leading-none mb-2 text-white">{uneData.chiffre_semaine.valeur}</div>
           <p class="text-[13px] leading-relaxed text-white/80 mb-2">{uneData.chiffre_semaine.contexte}</p>
-          <div class="text-[10px] text-white/40 font-mono">Source : {uneData.chiffre_semaine.source}</div>
+          <a href={uneData.chiffre_semaine.source_url} target="_blank" rel="noopener noreferrer" class="text-[10px] text-white/40 font-mono no-underline hover:text-white/70 transition-colors">Source : {uneData.chiffre_semaine.source} ↗</a>
         </div>
 
         <!-- Dossiers en cours -->
