@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import MediaOwnerBadge from '../components/home/MediaOwnerBadge.astro';
+
+const filData = await import('../data/fil.json').then(m => m.default).catch(() => null);
+const items = filData?.items || [];
+
+const formatDate = (dateStr: string) => {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+};
+
+const rubriqueStyle: Record<string, { label: string; color: string; bg: string; dot: string }> = {
+  politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair', dot: 'bg-bleu-rep' },
+  economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10', dot: 'bg-orange' },
+  tech: { label: 'Tech', color: 'text-purple-700', bg: 'bg-purple-50', dot: 'bg-purple-600' },
+  science: { label: 'Science', color: 'text-vert', bg: 'bg-green-50', dot: 'bg-vert' },
+  societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50', dot: 'bg-rouge-doux' },
+  culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50', dot: 'bg-amber-600' },
+  international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50', dot: 'bg-sky-600' },
+  ia: { label: 'IA', color: 'text-indigo-700', bg: 'bg-indigo-50', dot: 'bg-indigo-600' },
+};
+---
+
+<BaseLayout title="Fil continu" description="Les dernières informations en temps réel, factuelles et sourcées — Citoyens.ai">
+  <Header />
+  <main>
+    {filData ? (
+      <div class="max-w-[760px] mx-auto px-4 md:px-5">
+        <!-- Header -->
+        <div class="flex items-center gap-3 mb-6 md:mb-8 pt-6 md:pt-8">
+          <div class="flex items-center gap-2">
+            <span class="relative flex h-2.5 w-2.5">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rouge-doux opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-rouge-doux"></span>
+            </span>
+            <span class="font-mono text-[10px] md:text-[11px] uppercase tracking-[2px] text-rouge-doux font-bold">Fil continu</span>
+          </div>
+          <div class="flex-1 h-px bg-gris-chaud"></div>
+          <div class="font-mono text-[10px] md:text-[11px] text-gris-clair">{filData.date && formatDate(filData.date)}</div>
+        </div>
+
+        <p class="text-[13px] text-gris-clair mb-8 font-mono">
+          Mises à jour factuelles tout au long de la journée. Zéro analyse, zéro opinion — uniquement les faits.
+        </p>
+
+        <!-- Timeline -->
+        <div class="relative">
+          <div class="absolute left-[52px] top-0 bottom-0 w-px bg-gris-chaud hidden md:block"></div>
+
+          {items.map((item: any, idx: number) => {
+            const style = rubriqueStyle[item.rubrique] || rubriqueStyle.politique;
+            return (
+              <div class={`flex gap-4 md:gap-6 py-4 ${idx < items.length - 1 ? 'border-b border-gris-chaud/50' : ''}`}>
+                <div class="shrink-0 w-[44px] md:w-[48px] text-right">
+                  <span class="font-mono text-[14px] md:text-[16px] font-bold text-noir">{item.heure}</span>
+                </div>
+
+                <div class="hidden md:flex items-start pt-1.5">
+                  <span class={`w-2.5 h-2.5 rounded-full ${style.dot} ring-2 ring-blanc relative z-10`}></span>
+                </div>
+
+                <div class="flex-1 min-w-0">
+                  <div class="flex items-center gap-2 mb-1">
+                    <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded ${style.bg} ${style.color}`}>
+                      {style.label}
+                    </span>
+                  </div>
+                  <p class="text-[15px] text-noir leading-relaxed mb-1.5">{item.texte}</p>
+                  <a href={item.source_url} target="_blank" rel="noopener noreferrer"
+                     class="inline-flex items-center gap-1.5 text-[11px] font-mono text-gris-clair no-underline hover:text-bleu-rep transition-colors">
+                    {item.groupe_media && <MediaOwnerBadge groupe_media={item.groupe_media} compact={true} />}
+                    {item.source} ↗
+                  </a>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Meta */}
+        {filData.meta && (
+          <div class="font-mono text-[9px] text-gris-clair text-center py-8 border-t border-gris-chaud mt-6">
+            Dernière mise à jour : {new Date(filData.genere_a).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })} · {filData.meta.nb_articles_analyses} articles analysés · {filData.meta.modele}
+          </div>
+        )}
+      </div>
+    ) : (
+      <div class="max-w-[760px] mx-auto px-4 md:px-5 py-20 text-center">
+        <p class="text-gris-clair text-[15px]">Le fil continu n'est pas encore disponible aujourd'hui.</p>
+        <a href="/" class="inline-block mt-4 text-bleu-rep no-underline hover:underline font-semibold">Voir l'édition du matin</a>
+      </div>
+    )}
+  </main>
+  <Footer />
+</BaseLayout>

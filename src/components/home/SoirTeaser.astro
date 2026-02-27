@@ -1,0 +1,44 @@
+---
+interface Props {
+  soirData: any;
+}
+
+const { soirData } = Astro.props;
+
+const analyse = soirData?.analyse_approfondie;
+const bilan = soirData?.bilan_journee;
+const soirDate = soirData?.date;
+---
+
+{soirData && (analyse || bilan) && (
+  <section class="mb-8">
+    <div class="flex items-center gap-2 mb-4">
+      <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir">🌙 Édition du soir</span>
+      <div class="flex-1 h-px bg-gris-chaud"></div>
+      {soirDate && (
+        <span class="font-mono text-[10px] text-gris-clair">
+          {new Date(soirDate + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' })}
+        </span>
+      )}
+    </div>
+
+    <a href="/soir" class="block rounded-xl border-2 border-noir bg-noir text-white p-5 no-underline hover:bg-noir/90 transition-colors group">
+      {analyse && (
+        <>
+          <div class="font-mono text-[9px] uppercase tracking-[2px] text-white/50 mb-2">Analyse approfondie</div>
+          <h3 class="font-display text-[20px] md:text-[24px] font-black leading-tight mb-2 group-hover:text-white/90">
+            {analyse.sujet}
+          </h3>
+        </>
+      )}
+      {bilan && (
+        <p class="text-[14px] text-white/70 leading-relaxed line-clamp-2 mb-3">
+          {bilan.resume?.slice(0, 200)}{bilan.resume?.length > 200 ? '…' : ''}
+        </p>
+      )}
+      <span class="font-mono text-[11px] font-bold text-white/50 group-hover:text-white/80 transition-colors">
+        Lire l'édition du soir →
+      </span>
+    </a>
+  </section>
+)}

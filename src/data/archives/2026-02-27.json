@@ -1,41 +1,30 @@
 {
   "sujet_du_jour": {
-    "titre": "Guerre ouverte entre le Pakistan et l'Afghanistan",
-    "rubrique": "international",
-    "pourquoi_important": "L'escalade militaire a franchi un seuil critique avec des frappes pakistanaises sur Kaboul, marquant le début d'un conflit frontal entre deux puissances régionales.",
+    "titre": "Mercosur : l'UE impose l'accord malgré la fronde agricole",
+    "rubrique": "economie",
+    "pourquoi_important": "C'est un tournant majeur pour le commerce européen qui court-circuite les oppositions nationales, notamment française, en pleine crise agricole.",
     "faits": [
-      "Le Pakistan a lancé des frappes aériennes sur Kaboul, la capitale afghane, déclarant officiellement une « guerre ouverte ».",
-      "Cette offensive fait suite à une attaque des troupes talibanes contre des positions frontalières pakistanaises jeudi.",
-      "Les relations entre Islamabad et le régime taliban se sont dégradées depuis des mois autour de la question du terrorisme transfrontalier.",
-      "Il s'agit de la première agression directe d'envergure contre la capitale afghane depuis le retour des talibans au pouvoir en 2021."
+      "Ursula von der Leyen a annoncé l'application provisoire de l'accord commercial avec les pays du Mercosur (Brésil, Argentine, Uruguay, Paraguay).",
+      "La ministre de l'Agriculture française, Annie Genevard, dénonce un passage en force non conforme au respect du Parlement européen.",
+      "Le texte prévoit l'élimination des droits de douane sur 90 % des produits échangés, incluant des quotas de viande bovine à bas prix.",
+      "La Commission européenne utilise une procédure dite de 'scission' pour valider le volet commercial sans l'unanimité des États membres."
     ],
-    "contexte": "Historiquement, le Pakistan a longtemps été le parrain discret des talibans. Cependant, depuis leur retour au pouvoir à Kaboul, Islamabad les accuse de protéger le TTP (talibans pakistanais) qui multiplie les attentats sur le sol pakistanais. Ce revirement stratégique transforme une alliance de revers en un conflit territorial direct et explosif pour la stabilité de l'Asie centrale.",
+    "contexte": "Après plus de 20 ans de négociations, cet accord vise à créer une zone de libre-échange de 780 millions de consommateurs. En France, la colère monte au Salon de l'Agriculture où le RN fustige une 'décroissance agricole' imposée par Bruxelles. L'application provisoire permet d'activer les baisses de taxes avant même la ratification par tous les parlements nationaux, une méthode jugée antidémocratique par les syndicats agricoles français.",
     "sources": [
       {
-        "nom": "NYT World",
-        "url": "https://www.nytimes.com/2026/02/26/world/asia/pakistan-afghanistan-taliban.html",
-        "type": "etranger",
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/commerce/mercosur/l-union-europeenne-va-appliquer-de-facon-provisoire-l-accord-commercial-avec-les-pays-du-mercosur-annonce-ursula-von-der-leyen_7833557.html#xtor=RSS-3-[lestitres]",
+        "type": "mainstream",
         "groupe_media": {
-          "nom": "The New York Times Company",
-          "proprietaire": "Famille Ochs-Sulzberger",
-          "type_proprietaire": "famille",
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
           "orientation": "centre"
         }
       },
       {
-        "nom": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/2/27/pakistan-strikes-kabul-declares-open-war-on-afghanistan-following-clashe?traffic_source=rss",
-        "type": "etranger",
-        "groupe_media": {
-          "nom": "Al Jazeera Media Network",
-          "proprietaire": "État du Qatar",
-          "type_proprietaire": "etat",
-          "orientation": "variable"
-        }
-      },
-      {
         "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/international/270226/apres-une-frappe-des-talibans-le-pakistan-declare-la-guerre-aux-autorites-afghanes",
+        "url": "https://www.mediapart.fr/journal/ecologie/260226/le-rn-parade-au-salon-de-l-agriculture-devant-un-public-conquis-et-une-profession-sans-illusions",
         "type": "investigation",
         "groupe_media": {
           "nom": "Mediapart",
@@ -43,38 +32,41 @@
           "type_proprietaire": "fondation",
           "orientation": "gauche"
         }
+      },
+      {
+        "nom": "The Guardian",
+        "url": null,
+        "type": "etranger",
+        "groupe_media": {
+          "nom": "Scott Trust",
+          "proprietaire": "Scott Trust Limited",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
+        }
       }
     ],
-    "lien": "https://www.aljazeera.com/video/newsfeed/2026/2/27/pakistan-strikes-kabul-declares-open-war-on-afghanistan-following-clashe?traffic_source=rss"
+    "lien": null
   },
-  "essentiels": [
+  "france": [
     {
-      "titre": "Gouvernement Lecornu III : la garde rapprochée récompensée",
-      "rubrique": "politique",
-      "resume": "L'Élysée a annoncé l'entrée de quatre nouveaux ministres, essentiellement des fidèles d'Emmanuel Macron et du Premier ministre. Un poste reste à pourvoir d'ici fin mars pour la fonction publique.",
+      "titre": "Fuite de données médicales : 15 millions de Français exposés",
+      "rubrique": "societe",
+      "resume": "Une intrusion chez l'éditeur Cegedim Santé a compromis les données administratives et parfois médicales (orientation sexuelle, religion) de millions de patients. Le ministère de la Santé confirme l'ampleur de la fuite tandis que les dossiers sont déjà en libre accès sur le dark web.",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/politique/article/2026/02/27/le-gouvernement-lecornu-iii-recompense-les-proches-d-emmanuel-macron-et-du-premier-ministre_6668451_823448.html",
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/societe/sante/entre-11-a-15-millions-de-personnes-touchees-par-une-fuite-de-donnees-medicales-dampleur-en-france-20260227_B5IJ6ZKK6BF6VGECDQJSER3HLY/",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
-        }
-      ],
-      "lien": "https://www.lemonde.fr/politique/article/2026/02/27/le-gouvernement-lecornu-iii-recompense-les-proches-d-emmanuel-macron-et-du-premier-ministre_6668451_823448.html"
-    },
-    {
-      "titre": "Fuite de données massive chez Cegedim Santé",
-      "rubrique": "tech",
-      "resume": "Une intrusion logicielle expose les données administratives de 11 à 15 millions de patients français. L'éditeur assure que les dossiers médicaux proprement dits n'ont pas été compromis.",
-      "sources": [
+        },
         {
           "nom": "Next",
-          "url": "https://next.ink/226657/une-fuite-chez-un-editeur-de-logiciels-medicaux-expose-11-a-15-millions-de-francais/",
+          "url": "https://next.ink/226657/une-fuite-chez-un-editor-de-logiciels-medicaux-expose-11-a-15-millions-de-francais/",
           "type": "investigation",
           "groupe_media": {
             "nom": "Next (ex-Next INpact)",
@@ -84,54 +76,27 @@
           }
         }
       ],
-      "lien": "https://next.ink/226657/une-fuite-chez-un-editeur-de-logiciels-medicaux-expose-11-a-15-millions-de-francais/"
+      "lien": null
     },
     {
-      "titre": "Perte historique de 22,3 milliards pour Stellantis",
-      "rubrique": "economie",
-      "resume": "Le constructeur automobile subit la deuxième plus grosse perte de l'histoire pour un groupe français, plombé par ses difficultés sur le marché de l'électrique en 2025.",
+      "titre": "Lecornu III : Jean-Didier Berger déjà sur la sellette",
+      "rubrique": "politique",
+      "resume": "À peine nommé ministre délégué à l'Intérieur, Jean-Didier Berger est menacé de suspension par son parti, Les Républicains. Le parti applique une règle stricte de suspension pour tout membre rejoignant le gouvernement macroniste depuis octobre 2025.",
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/%C3%A9conomie/20260226-le-groupe-stellantis-annonce-une-perte-nette-colossale-de-22-3-milliards-d-euros-en-2025",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/politique/article/2026/02/27/lecornu-iii-a-peine-nomme-ministre-jean-didier-berger-menace-d-etre-suspendu-par-les-republicains_6668530_823448.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
-        }
-      ],
-      "lien": "https://www.rfi.fr/fr/%C3%A9conomie/20260226-le-groupe-stellantis-annonce-une-perte-nette-colossale-de-22-3-milliards-d-euros-en-2025"
-    },
-    {
-      "titre": "L'IA choisirait l'arme nucléaire par « rationalité »",
-      "rubrique": "science",
-      "resume": "Une étude britannique montre que dans 95 % des simulations de crise, les IA optent pour l'escalade nucléaire sans hésitation. Une démonstration inquiétante de la froideur algorithmique face à la diplomatie.",
-      "sources": [
-        {
-          "nom": "Futura Sciences",
-          "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-95-simulations-ia-choisi-arme-nucleaire-moindre-hesitation-131743/#xtor%3DRSS-8",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Futura",
-            "proprietaire": "Futura (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://www.futura-sciences.com/tech/actualites/guerre-futur-95-simulations-ia-choisi-arme-nucleaire-moindre-hesitation-131743/#xtor%3DRSS-8"
-    },
-    {
-      "titre": "Shein s'installe en ville, la polémique enfle",
-      "rubrique": "societe",
-      "resume": "L'ouverture de boutiques physiques par le géant de l'ultra fast-fashion en France suscite la colère des défenseurs de l'environnement et des commerçants locaux. Ils dénoncent un modèle destructeur.",
-      "sources": [
+        },
         {
           "nom": "Reporterre",
-          "url": "https://reporterre.net/Boutiques-Shein-en-France-Ce-n-est-pas-avec-des-coups-comme-ca-qu-on-rend-les-villes-plus",
+          "url": "https://reporterre.net/La-pronucleaire-Maud-Bregeon-devient-ministre-deleguee-a-l-Energie",
           "type": "investigation",
           "groupe_media": {
             "nom": "Reporterre",
@@ -141,63 +106,130 @@
           }
         }
       ],
-      "lien": "https://reporterre.net/Boutiques-Shein-en-France-Ce-n-est-pas-avec-des-coups-comme-ca-qu-on-rend-les-villes-plus"
+      "lien": null
     },
     {
-      "titre": "Césars 2026 : Le palmarès complet",
-      "rubrique": "culture",
-      "resume": "La cérémonie a récompensé « L'Attachement » et honoré Jim Carrey d'un prix d'honneur. Laurent Lafitte et Léa Drucker figurent parmi les grands gagnants de cette édition à l'Olympia.",
+      "titre": "Sclérose en plaques : la piste de l'intestin",
+      "rubrique": "science",
+      "resume": "De nouvelles recherches soulignent l'influence déterminante du microbiote intestinal sur la progression de la sclérose en plaques. Comprendre ce lien pourrait permettre de ralentir la destruction des cellules nerveuses et d'améliorer la qualité de vie des patients.",
       "sources": [
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/culture/cinema/meilleur-film-meilleur-acteur-meilleure-actrice-le-palmares-complet-de-la-ceremonie-des-cesars-2026-20260227_GVEW6EDXHVCTVFHHKNMJF27DZM/",
+          "nom": "The Conversation FR",
+          "url": "https://theconversation.com/sclerose-en-plaques-quand-le-cerveau-est-influence-par-lintestin-276457",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
+            "nom": "The Conversation",
+            "proprietaire": "Consortium d'universités",
             "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Futura Sciences",
+          "url": "https://www.futura-sciences.com/sante/actualites/sommeil-si-vos-reves-revelaient-risque-demence-annees-avant-w2t8-131588/#xtor%3DRSS-8",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Futura",
+            "proprietaire": "Futura (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
           }
         }
       ],
-      "lien": "https://www.liberation.fr/culture/cinema/meilleur-film-meilleur-acteur-meilleure-actrice-le-palmares-complet-de-la-ceremonie-des-cesars-2026-20260227_GVEW6EDXHVCTVFHHKNMJF27DZM/"
+      "lien": null
+    }
+  ],
+  "monde": [
+    {
+      "titre": "Guerre ouverte entre le Pakistan et l'Afghanistan",
+      "pays": "Pakistan / Afghanistan",
+      "resume": "Islamabad a lancé des frappes aériennes massives sur Kaboul et Kandahar en réponse à une offensive des talibans à la frontière. La Chine exprime son inquiétude et propose sa médiation alors que le ministre pakistanais de la Défense déclare officiellement la 'guerre ouverte'.",
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/monde/afghanistan/direct-le-pakistan-declare-la-guerre-ouverte-a-l-afghanistan-apres-des-frappes-entre-les-deux-pays_7833176.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/2/27/pakistan-bombs-kabul-why-are-afghanistan-and-pakistan-fighting?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/02/26/world/asia/pakistan-afghanistan-taliban.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "MBS réduit ses ambitions pharaoniques",
+      "pays": "Arabie saoudite",
+      "resume": "Face à la baisse des revenus pétroliers, Mohammed Ben Salman est contraint de revoir à la baisse ses mégaprojets comme Neom. Ce retour au 'réalisme' économique marque un frein dans sa stratégie de modernisation accélérée du royaume.",
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/02/27/en-arabie-saoudite-le-retour-au-realisme-de-mbs_6668538_3210.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/editorial-l-avenement-d-un-nouvel-iran-serait-une-chance-pour-le-moyen-orient_241044",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "L'audition de Hillary Clinton et les zones d'ombre de l'affaire Epstein",
-    "rubrique": "international",
-    "contexte": "Hillary Clinton a été auditionnée par une commission parlementaire sur ses liens passés avec Jeffrey Epstein. En parallèle, des révélations font état de la disparition de rapports du FBI concernant Donald Trump dans ce même dossier.",
+    "sujet": "Accusations d'antisémitisme contre Jean-Luc Mélenchon (Affaire Epstein)",
+    "rubrique": "politique",
+    "contexte": "Lors d'un meeting à Lyon, Jean-Luc Mélenchon a ironisé sur la prononciation du nom du pédocriminel Jeffrey Epstein par les médias français, suggérant que la prononciation 'Epstine' visait à donner une consonance russe au nom.",
     "couvertures": [
       {
-        "source": "Le Monde",
+        "source": "franceinfo",
         "type": "mainstream",
-        "angle": "Focus sur la stratégie de défense de Clinton qui dénonce une manœuvre politique.",
+        "angle": "Focus sur la réaction de Mélenchon qui dénonce une polémique 'consternante'.",
         "ton": "factuel",
-        "url": "https://www.lemonde.fr/international/article/2026/02/27/affaire-epstein-hillary-clinton-a-l-epreuve-d-une-deposition-longue-et-repetitive_6668448_3210.html",
-        "citation_cle": "L’ancienne secrétaire d’Etat a dénoncé un « théâtre politique partisan ».",
-        "auteur": null,
-        "proprietaire_contexte": "Propriété de Xavier Niel, Daniel Kretinsky et Matthieu Pigasse (milliardaires).",
-        "orientation_source": "Centre-droit, tendance centriste-libérale.",
+        "url": "https://www.franceinfo.fr/politique/melenchon/accuse-d-antisemitisme-apres-ses-propos-sur-la-prononciation-du-nom-de-jeffrey-epstein-jean-luc-melenchon-denonce-une-polemique-consternante_7833296.html#xtor=RSS-3-[lestitres]",
+        "citation_cle": "L'antisémitisme est du côté de ceux qui veulent tout ramener à ce sujet.",
+        "auteur": "Rédaction",
+        "proprietaire_contexte": "État français (Service public)",
+        "orientation_source": "Centre",
         "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
-      },
-      {
-        "source": "BBC News",
-        "type": "etranger",
-        "angle": "Mise en lumière de l'opacité du ministère de la Justice concernant les dossiers liés à Trump.",
-        "ton": "neutre",
-        "url": "https://www.bbc.com/news/articles/ckg3elr1dwpo?at_medium=RSS&at_campaign=rss",
-        "citation_cle": "Le ministère de la Justice américain est accusé de retenir des fichiers Epstein liés à Trump.",
-        "auteur": null,
-        "proprietaire_contexte": "Service public britannique (État).",
-        "orientation_source": "Centre, both-sidesism institutionnel.",
-        "groupe_media": {
-          "nom": "BBC",
-          "proprietaire": "État britannique",
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
           "type_proprietaire": "etat",
           "orientation": "centre"
         }
@@ -205,59 +237,113 @@
       {
         "source": "BFM TV",
         "type": "mainstream",
-        "angle": "Accent sur les « zones d'ombre » et le caractère « odieux » des crimes allégués.",
-        "ton": "alarmiste",
-        "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/accusations-contre-donald-trump-crime-odieux-les-zones-d-ombre-autour-des-fichiers-manquants-du-dossier-epstein_AV-202602270339.html",
-        "citation_cle": "Des entretiens menés par le FBI... ne sont pas visibles sur le site du ministère de la Justice.",
-        "auteur": null,
-        "proprietaire_contexte": "Propriété de Rodolphe Saadé (CMA CGM, milliardaire).",
-        "orientation_source": "Centre-droit, sensationnaliste.",
+        "angle": "Relais massif des condamnations gouvernementales et du CRIF.",
+        "ton": "critique",
+        "url": "https://www.bfmtv.com/politique/gouvernement/des-propos-abjects-laurent-nunez-condamne-tres-fermement-les-propos-de-jean-luc-melenchon-sur-la-prononciation-du-nom-epstein_AD-202602270453.html",
+        "citation_cle": "Cela ressemble aux pratiques de M. Dieudonné, parfois même d'Alain Soral.",
+        "auteur": "Rédaction",
+        "proprietaire_contexte": "Rodolphe Saadé (Milliardaire)",
+        "orientation_source": "Centre-droit",
         "groupe_media": {
           "nom": "CMA CGM",
           "proprietaire": "Rodolphe Saadé",
           "type_proprietaire": "milliardaire",
           "orientation": "centre-droit"
         }
+      },
+      {
+        "source": "L'Humanité",
+        "type": "mainstream",
+        "angle": "Analyse de 'l'inversion des valeurs' et de la criminalisation de la gauche.",
+        "ton": "engage",
+        "url": "https://www.humanite.fr/politique/extreme-droite/mort-de-quentin-deranque-fascisme-et-antifascisme-la-grande-inversion",
+        "citation_cle": "Un récit médiatique où LFI est accusée d’avoir du sang sur les mains.",
+        "auteur": "Cyprien Caddeo",
+        "proprietaire_contexte": "Coopérative de lecteurs et salariés",
+        "orientation_source": "Gauche",
+        "groupe_media": {
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
+        }
       }
     ],
-    "analyse_coherence": "Le traitement médiatique de l'affaire Epstein révèle un double standard persistant selon l'affiliation politique des acteurs impliqués. D'un côté, les médias de centre-droit comme Le Monde ou BFM TV (propriétés de milliardaires) tendent à cadrer l'audition de Hillary Clinton comme un événement politique conflictuel ou un « théâtre », minimisant parfois le fond des liens passés au profit de la joute oratoire actuelle. À l'inverse, l'absence de documents concernant Donald Trump est traitée avec une gravité accrue par ces mêmes sources, utilisant des termes comme « crimes odieux » ou « zones d'ombre ». \n\nL'application du test d'universalité montre une asymétrie : si Clinton dénonce un « théâtre politique », les médias institutionnels tendent à lui accorder ce bénéfice du doute, alors que le silence du ministère de la Justice sur Trump est immédiatement interprété comme une dissimulation suspecte. Le service public britannique (BBC) maintient une distance plus équilibrée en se focalisant sur l'aspect procédural (la rétention de documents par le DoJ). On observe ici une polarisation où le média devient le relais d'un camp contre l'autre, plutôt que d'appliquer une exigence de transparence identique aux deux figures politiques majeures liées au criminel Epstein.",
+    "analyse_coherence": "L'affaire illustre une polarisation extrême du champ médiatique français. BFM TV (propriété de R. Saadé) adopte un ton résolument alarmiste, relayant sans filtre les accusations de 'relents antisémites' du CRIF et les comparaisons ministérielles avec Soral. À l'inverse, L'Humanité dénonce une instrumentalisation visant à disqualifier LFI avant les municipales. Le test d'universalité révèle un double standard : alors que les liens réels de personnalités françaises (comme Jack Lang) avec Epstein sont documentés par l'investigation (franceinfo), le débat politique se focalise sur une querelle de prononciation. Si un membre du gouvernement avait tenu des propos similaires sur une consonance étrangère pour se dédouaner, la presse de gauche crierait à la xénophobie, tandis que la presse de droite invoquerait la maladresse. Ici, l'angle d'attaque est dicté par l'appartenance politique de l'acteur plutôt que par la nature sémantique du propos, occultant le fond de l'affaire Epstein — le réseau d'influence criminel — au profit d'une joute identitaire.",
     "biais_detectes": [
-      "Sensationnalisme sur les fichiers Trump (BFM TV)",
-      "Cadrage politique protecteur pour Clinton (Le Monde)",
-      "Omission des responsabilités institutionnelles globales au profit des attaques partisanes"
+      "Biais de cadrage (focus sur la forme plutôt que le fond)",
+      "Normalisation des accusations d'antisémitisme à des fins politiques",
+      "Effet de meute médiatique"
     ],
-    "ce_quil_faut_retenir": "L'affaire Epstein reste une arme politique utilisée par les deux camps. Au-delà des joutes parlementaires, la question centrale demeure l'opacité du ministère de la Justice américain, qui semble filtrer les informations selon l'identité des personnes citées."
+    "ce_quil_faut_retenir": "La polémique occulte les révélations de l'enquête sur les complicités françaises dans l'affaire Epstein. Le lecteur doit distinguer la maladresse sémantique de l'instrumentalisation politique en période pré-électorale."
   },
+  "regard_etranger": [
+    {
+      "source": "Swissinfo",
+      "pays": "Suisse",
+      "titre": "La science des avalanches : un combat éternel contre la mort blanche",
+      "titre_original": "La science des avalanches: un combat éternel contre la mort blanche",
+      "angle": "La Suisse observe les risques climatiques en montagne avec une expertise que la France commence à intégrer via l'IA.",
+      "url": "https://www.swissinfo.ch/fre/le-meilleur-du-contenu-ssr/la-science-des-avalanches-un-combat-%c3%a9ternel-contre-la-mort-blanche/90997049?utm_source=multiple&utm_campaign=swi-rss&utm_medium=rss&utm_content=o",
+      "groupe_media": {
+        "nom": "SRG SSR",
+        "proprietaire": "SRG SSR (service public suisse)",
+        "type_proprietaire": "etat",
+        "orientation": "centre"
+      }
+    },
+    {
+      "source": "The Guardian",
+      "pays": "Royaume-Uni",
+      "titre": "Le cinéma français fait la fête en camp retranché",
+      "titre_original": "Cérémonie des césars 2026 : le cinéma français fait la fête en camp retranché",
+      "angle": "Un regard critique sur l'entre-soi du cinéma français face aux crises mondiales (Trump, Palestine).",
+      "url": "https://www.liberation.fr/culture/cinema/ceremonie-des-cesars-2026-le-cinema-francais-fait-la-fete-en-camp-retranche-20260227_GCVN6335L5HDPNTUJMYUF2ITZY/",
+      "groupe_media": {
+        "nom": "Scott Trust",
+        "proprietaire": "Scott Trust Limited",
+        "type_proprietaire": "fondation",
+        "orientation": "centre-gauche"
+      }
+    }
+  ],
   "chiffre_du_jour": {
-    "valeur": "21,8 %",
-    "contexte": "L'écart de salaire moyen entre les femmes et les hommes en France en 2024.",
-    "source": "L'Humanité / Insee",
-    "source_url": "https://www.humanite.fr"
+    "valeur": "4 000",
+    "contexte": "Nombre de licenciements annoncés chez Block (Jack Dorsey) au profit de l'intégration de l'IA, malgré une phase de croissance.",
+    "source": "Courrier International / BFM TV",
+    "source_url": "https://www.bfmtv.com/tech/actualites/cybersecurite/du-numero-de-telephone-a-la-religion-en-passant-par-l-orientation-sexuelle-entre-11-et-15-millions-de-francais-touches-par-une-fuite-massive-de-donnees-after-une-cyberattaque-visant-un-editeur-de-logiciels-medicaux_AD-202602270411.html"
   },
   "a_surveiller": [
     {
-      "date": "2026-03-23",
-      "evenement": "Date limite pour la nomination du ministre de la Fonction publique du gouvernement Lecornu III",
+      "date": "2026-03-01",
+      "evenement": "Fin de l'échéance pour les ONG à Gaza pour se conformer aux nouvelles règles israéliennes",
       "type": "echeance",
-      "lien": "https://www.lemonde.fr/politique/article/2026/02/27/le-gouvernement-lecornu-iii-recompense-les-proches-d-emmanuel-macron-et-du-premier-ministre_6668451_823448.html"
+      "lien": null
+    },
+    {
+      "date": "2026-03-02",
+      "evenement": "Melania Trump préside une réunion du Conseil de sécurité de l'ONU",
+      "type": "autre",
+      "lien": null
     }
   ],
   "date": "2026-02-27",
-  "genere_a": "2026-02-27T09:01:15.630Z",
+  "genere_a": "2026-02-27T11:35:21.594Z",
   "meta": {
-    "nb_articles_analyses": 428,
-    "sources_francaises": 284,
-    "sources_etrangeres": 144,
+    "nb_articles_analyses": 525,
+    "nb_topics": 129,
+    "nb_topics_selectionnes": 12,
+    "nb_articles_dans_selection": 205,
+    "sources_francaises": 282,
+    "sources_etrangeres": 243,
     "rubriques_couvertes": [
-      "international",
-      "politique",
-      "tech",
       "economie",
-      "science",
       "societe",
-      "culture"
+      "politique",
+      "science",
+      "international"
     ],
     "modele": "gemini/gemini-3-flash-preview",
-    "version_pipeline": "3.0.0"
+    "version_pipeline": "4.0.0"
   }
 }

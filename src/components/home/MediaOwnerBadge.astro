@@ -12,7 +12,8 @@ interface Props {
 
 const { groupe_media, orientation_source, compact = false } = Astro.props;
 
-if (!groupe_media && !orientation_source) return;
+// Temporarily hidden — affiliation badges disabled for now
+return;
 
 const typeStyles: Record<string, { bg: string; text: string; label: string }> = {
   milliardaire: { bg: 'bg-rouge-doux/10', text: 'text-rouge-doux', label: '💰' },

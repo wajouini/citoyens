@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* ─── Design Tokens (shared with main Astro site) ─── */
+@theme {
+  --color-bleu-rep: #000091;
+  --color-rouge-rep: #E1000F;
+  --color-blanc: #FFFFFF;
+  --color-creme: #F7F5F0;
+  --color-gris-chaud: #E8E4DD;
+  --color-gris-texte: #4A4A4A;
+  --color-gris-clair: #9A9A9A;
+  --color-noir: #1A1A1A;
+  --color-bleu-clair: #E8EDFF;
+  --color-vert: #18753C;
+  --color-orange: #D4760A;
+  --color-rouge-doux: #C9191E;
+
+  --font-display: var(--nf-display), 'Playfair Display', Georgia, serif;
+  --font-body: var(--nf-body), 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: var(--nf-mono), 'JetBrains Mono', ui-monospace, monospace;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-creme);
+  color: var(--color-noir);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

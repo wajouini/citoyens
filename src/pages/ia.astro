@@ -1,0 +1,338 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import SourceLinks from '../components/ui/SourceLinks.astro';
+import MediaOwnerBadge from '../components/home/MediaOwnerBadge.astro';
+
+const iaData = await import('../data/ia.json').then(m => m.default).catch(() => null);
+
+const faits = iaData?.faits_ia || [];
+const regardCroise = iaData?.regard_croise_ia;
+
+const decryptageModules = import.meta.glob('../data/decryptages/*.json', { eager: true });
+const iaDecryptages = Object.values(decryptageModules)
+  .map((m: any) => m.default)
+  .filter((d: any) => d?.rubrique === 'ia' || d?.rubrique === 'tech')
+  .sort((a: any, b: any) => (b.date || '').localeCompare(a.date || ''))
+  .slice(0, 3);
+
+const formatDate = (dateStr: string) => {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+};
+
+const tonBadge: Record<string, { label: string; cls: string }> = {
+  critique: { label: 'Critique', cls: 'bg-rouge-doux/10 text-rouge-doux' },
+  factuel: { label: 'Factuel', cls: 'bg-bleu-clair text-bleu-rep' },
+  alarmiste: { label: 'Alarmiste', cls: 'bg-orange/10 text-orange' },
+  complaisant: { label: 'Complaisant', cls: 'bg-amber-50 text-amber-700' },
+  neutre: { label: 'Neutre', cls: 'bg-gray-100 text-gris-texte' },
+  engage: { label: 'Engagé', cls: 'bg-purple-50 text-purple-700' },
+};
+
+const sourceTypeBg: Record<string, string> = {
+  investigation: 'border-l-orange',
+  mainstream: 'border-l-bleu-rep',
+  'fact-check': 'border-l-vert',
+  etranger: 'border-l-purple-600',
+  institutionnel: 'border-l-gris-clair',
+};
+
+const sousSection: Record<string, { label: string; icon: string; color: string; bg: string }> = {
+  annonces: { label: 'Annonces', icon: '📢', color: 'text-indigo-700', bg: 'bg-indigo-50' },
+  regulation: { label: 'Régulation', icon: '⚖️', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  recherche: { label: 'Recherche', icon: '🔬', color: 'text-vert', bg: 'bg-green-50' },
+  business: { label: 'Business', icon: '📊', color: 'text-orange', bg: 'bg-orange/10' },
+  societe: { label: 'Société', icon: '🏛', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+};
+
+// Separate the hero fact (most sources) from the rest
+const heroFait = regardCroise ? null : (faits.length > 0
+  ? faits.reduce((best: any, f: any) => (f.sources?.length || 0) > (best.sources?.length || 0) ? f : best, faits[0])
+  : null);
+const heroFaitIdx = heroFait ? faits.indexOf(heroFait) : -1;
+
+// Top stories: next 2-3 faits with most sources (excluding hero fait)
+const sortedByImpact = [...faits]
+  .filter((_: any, i: number) => i !== heroFaitIdx)
+  .sort((a: any, b: any) => (b.sources?.length || 0) - (a.sources?.length || 0));
+const topStories = sortedByImpact.slice(0, 3);
+const topStorySet = new Set(topStories);
+
+// Remaining faits for sub-sections (exclude hero + top stories)
+const remainingFaits = faits.filter((f: any) => f !== heroFait && !topStorySet.has(f));
+
+const sections = Object.entries(sousSection).map(([key, meta]) => ({
+  key,
+  ...meta,
+  items: remainingFaits.filter((f: any) => f.sous_section === key),
+})).filter(s => s.items.length > 0);
+
+const totalSources = faits.reduce((sum: number, f: any) => sum + (f.sources?.length || 0), 0);
+
+const jsonLd = faits.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Section IA & Tech — Citoyens.ai',
+  description: "L'actualité de l'intelligence artificielle vue sous l'angle citoyen",
+  datePublished: iaData?.date,
+  publisher: { '@type': 'Organization', name: 'Citoyens.ai' },
+} : undefined;
+---
+
+<BaseLayout title="IA & Tech — Intelligence artificielle" description="L'actualité IA vue sous l'angle citoyen : annonces, régulation, recherche, business, impact sociétal" jsonLd={jsonLd}>
+  <Header />
+  <main>
+    {iaData ? (
+      <div class="max-w-[760px] mx-auto px-4 md:px-5">
+
+        {/* ── HEADER ── */}
+        <div class="flex items-center gap-3 pt-6 md:pt-8 mb-6">
+          <div class="font-mono text-[10px] md:text-[11px] uppercase tracking-[2px] text-indigo-700 font-bold">IA & Tech</div>
+          <div class="flex-1 h-px bg-gris-chaud"></div>
+          <div class="font-mono text-[10px] md:text-[11px] text-gris-clair">{iaData.date && formatDate(iaData.date)}</div>
+        </div>
+
+        {/* ══════════════════════════════════════
+            HERO: Regard croisé IA (or top fait)
+            ══════════════════════════════════════ */}
+
+        {regardCroise ? (
+          <section class="mb-8">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-white bg-rouge-doux px-2 py-0.5 rounded">Regard croisé IA</span>
+            </div>
+
+            <h1 class="font-display text-[26px] md:text-[38px] font-black leading-[1.12] tracking-tight text-noir mb-3">
+              {regardCroise.sujet}
+            </h1>
+            <p class="text-[15px] md:text-[17px] leading-relaxed text-gris-texte mb-5">
+              {regardCroise.contexte}
+            </p>
+
+            {/* Key takeaway — prominent */}
+            <div class="border-2 border-noir rounded-xl p-5 mb-5 bg-blanc">
+              <h4 class="font-mono text-[9px] uppercase tracking-[2px] text-noir mb-2">Ce qu'il faut retenir</h4>
+              <p class="text-[16px] leading-relaxed text-noir font-medium">
+                {regardCroise.ce_quil_faut_retenir}
+              </p>
+            </div>
+
+            {/* Couvertures inline — open by default in hero position */}
+            {regardCroise.couvertures?.length > 0 && (
+              <div class="flex flex-col gap-3 mb-5">
+                {regardCroise.couvertures.map((c: any) => (
+                  <a href={c.url} target="_blank" rel="noopener noreferrer"
+                     class={`block p-3.5 rounded-lg border border-gris-chaud border-l-4 ${sourceTypeBg[c.type] || 'border-l-gris-clair'} bg-blanc no-underline hover:shadow-md transition-shadow group/card`}>
+                    <div class="flex items-center gap-2 mb-1 flex-wrap">
+                      <span class="font-mono text-[12px] font-bold text-noir">{c.source}</span>
+                      {tonBadge[c.ton] && (
+                        <span class={`text-[9px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded-full ${tonBadge[c.ton].cls}`}>
+                          {tonBadge[c.ton].label}
+                        </span>
+                      )}
+                      {c.groupe_media && <MediaOwnerBadge groupe_media={c.groupe_media} compact={true} />}
+                    </div>
+                    <p class="text-[14px] leading-snug text-noir font-semibold mb-1 group-hover/card:text-bleu-rep transition-colors">
+                      {c.angle}
+                    </p>
+                    {c.citation_cle && (
+                      <p class="text-[12px] text-gris-texte italic leading-relaxed mt-1.5 border-t border-gris-chaud/50 pt-1.5">
+                        « {c.citation_cle} »
+                      </p>
+                    )}
+                  </a>
+                ))}
+              </div>
+            )}
+
+            <details class="group mb-4">
+              <summary class="cursor-pointer font-mono text-[11px] font-bold uppercase tracking-wider text-bleu-rep hover:underline list-none flex items-center gap-1.5">
+                <span class="group-open:rotate-90 transition-transform">▸</span>
+                Analyse de cohérence
+              </summary>
+              <div class="mt-3 bg-bleu-clair rounded-xl p-4">
+                <p class="text-[14px] leading-relaxed text-noir">
+                  {regardCroise.analyse_coherence}
+                </p>
+                {regardCroise.biais_detectes?.length > 0 && (
+                  <div class="mt-3 pt-3 border-t border-bleu-rep/10">
+                    <h5 class="font-mono text-[9px] uppercase tracking-[2px] text-rouge-doux mb-1.5">Biais détectés</h5>
+                    <ul class="flex flex-col gap-1">
+                      {regardCroise.biais_detectes.map((b: string) => (
+                        <li class="flex items-start gap-1.5 text-[13px] text-gris-texte leading-snug">
+                          <span class="text-rouge-doux mt-0.5 shrink-0">•</span>
+                          <span>{b}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            </details>
+
+            <p class="font-mono text-[9px] text-gris-clair">
+              Analyse générée par IA · <a href="/methodologie" class="underline hover:text-bleu-rep">Notre méthodologie</a>
+            </p>
+          </section>
+        ) : heroFait && (
+          <section class="mb-8">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-white bg-indigo-700 px-2 py-0.5 rounded">A la une</span>
+              {sousSection[heroFait.sous_section] && (
+                <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${sousSection[heroFait.sous_section].bg} ${sousSection[heroFait.sous_section].color}`}>
+                  {sousSection[heroFait.sous_section].icon} {sousSection[heroFait.sous_section].label}
+                </span>
+              )}
+            </div>
+            <h1 class="font-display text-[26px] md:text-[38px] font-black leading-[1.12] tracking-tight text-noir mb-3">
+              {heroFait.titre}
+            </h1>
+            <p class="text-[15px] md:text-[17px] leading-relaxed text-gris-texte mb-4">
+              {heroFait.resume}
+            </p>
+            <div class="bg-indigo-50 border border-indigo-100 rounded-lg p-4 mb-4">
+              <div class="font-mono text-[9px] uppercase tracking-[2px] text-indigo-600 mb-1.5">Pourquoi ça compte</div>
+              <p class="text-[15px] text-noir leading-relaxed">{heroFait.pourquoi_ca_compte}</p>
+            </div>
+            <SourceLinks sources={heroFait.sources || []} />
+          </section>
+        )}
+
+        {/* ── DIVIDER ── */}
+        <div class="h-px bg-gris-chaud mb-8"></div>
+
+        {/* ══════════════════════════════════════
+            TOP STORIES (2-3 items, grid)
+            ══════════════════════════════════════ */}
+        {topStories.length > 0 && (
+          <section class="mb-8">
+            <div class="flex items-center gap-2 mb-5">
+              <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir">Les essentiels IA du jour</span>
+              <div class="flex-1 h-px bg-gris-chaud"></div>
+              <div class="flex flex-wrap gap-4 text-[10px] font-mono text-gris-texte">
+                <span><strong class="text-noir">{faits.length}</strong> actus</span>
+                <span><strong class="text-noir">{totalSources}</strong> sources</span>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-0">
+              {topStories.map((fait: any, idx: number) => {
+                const ss = sousSection[fait.sous_section];
+                return (
+                  <div class={`py-4 ${idx < topStories.length - 1 ? 'border-b border-gris-chaud' : ''}`}>
+                    <div class="flex items-center gap-2 mb-1.5">
+                      {ss && (
+                        <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded ${ss.bg} ${ss.color}`}>
+                          {ss.icon} {ss.label}
+                        </span>
+                      )}
+                    </div>
+                    <h3 class="font-display text-[18px] font-bold text-noir leading-snug mb-1.5">
+                      {fait.titre}
+                    </h3>
+                    <p class="text-[14px] text-gris-texte leading-relaxed mb-2">
+                      {fait.pourquoi_ca_compte}
+                    </p>
+                    <SourceLinks sources={fait.sources || []} compact={true} />
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        )}
+
+        {/* ── SECTION NAVIGATION PILLS ── */}
+        {sections.length > 1 && (
+          <>
+            <div class="h-px bg-gris-chaud mb-6"></div>
+            <div class="flex flex-wrap gap-2 mb-8">
+              {sections.map((s) => (
+                <a href={`#section-${s.key}`}
+                   class={`inline-flex items-center gap-1.5 text-[11px] font-mono font-semibold no-underline px-3 py-1.5 rounded-full border border-gris-chaud hover:shadow-sm transition-all ${s.bg} ${s.color}`}>
+                  <span>{s.icon}</span>
+                  <span>{s.label}</span>
+                  <span class="text-[10px] opacity-60">({s.items.length})</span>
+                </a>
+              ))}
+            </div>
+          </>
+        )}
+
+        {/* ══════════════════════════════════════
+            SUB-SECTIONS (remaining faits)
+            ══════════════════════════════════════ */}
+        {sections.map((section) => (
+          <section id={`section-${section.key}`} class="mb-10">
+            <div class="flex items-center gap-2 mb-5">
+              <span class={`font-mono text-[9px] font-bold uppercase tracking-[2px] px-2 py-0.5 rounded ${section.bg} ${section.color}`}>
+                {section.icon} {section.label}
+              </span>
+              <div class={`flex-1 h-px ${section.bg}`}></div>
+              <span class="font-mono text-[10px] text-gris-clair">{section.items.length} actu{section.items.length > 1 ? 's' : ''}</span>
+            </div>
+
+            <div class="flex flex-col gap-0">
+              {section.items.map((fait: any, idx: number) => (
+                <div class={`py-5 ${idx < section.items.length - 1 ? 'border-b border-gris-chaud' : ''}`}>
+                  <h3 class="font-display text-[18px] font-bold text-noir leading-snug mb-2">
+                    {fait.titre}
+                  </h3>
+                  <p class="text-[14px] text-gris-texte leading-relaxed mb-2.5">
+                    {fait.resume}
+                  </p>
+                  <div class="bg-indigo-50/60 border border-indigo-100 rounded-lg p-3 mb-3">
+                    <div class="font-mono text-[9px] uppercase tracking-[2px] text-indigo-600 mb-1">Pourquoi ça compte</div>
+                    <p class="text-[13px] text-noir leading-relaxed">{fait.pourquoi_ca_compte}</p>
+                  </div>
+                  <SourceLinks sources={fait.sources || []} />
+                </div>
+              ))}
+            </div>
+          </section>
+        ))}
+
+        {/* ── DÉCRYPTAGES IA ── */}
+        {iaDecryptages.length > 0 && (
+          <>
+            <div class="h-px bg-gris-chaud mb-8"></div>
+            <section class="mb-10">
+              <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir mb-5">Décryptages IA</h2>
+              <div class="flex flex-col gap-4">
+                {iaDecryptages.map((d: any) => (
+                  <a href={`/decryptage/${d.slug}`}
+                     class="block p-4 rounded-xl border border-gris-chaud bg-blanc no-underline hover:border-indigo-300 hover:shadow-sm transition-all group">
+                    <div class="flex items-center gap-2 mb-1.5">
+                      <span class="font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-indigo-50 text-indigo-700">Décryptage</span>
+                      <span class="font-mono text-[10px] text-gris-clair">{d.date}</span>
+                    </div>
+                    <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-1 group-hover:text-indigo-700 transition-colors">
+                      {d.titre}
+                    </h3>
+                    <p class="text-[13px] text-gris-texte leading-relaxed line-clamp-2">{d.sous_titre}</p>
+                  </a>
+                ))}
+              </div>
+            </section>
+          </>
+        )}
+
+        {/* ── META ── */}
+        {iaData.meta && (
+          <div class="font-mono text-[9px] text-gris-clair text-center pb-8 border-t border-gris-chaud pt-4">
+            {iaData.meta.nb_articles_ia} articles IA analysés
+            {iaData.meta.nb_topics_ia ? ` · ${iaData.meta.nb_topics_ia} topics identifiés` : ''}
+            · {iaData.meta.modele}
+          </div>
+        )}
+      </div>
+    ) : (
+      <div class="max-w-[760px] mx-auto px-4 md:px-5 py-20 text-center">
+        <p class="text-gris-clair text-[15px]">La section IA n'est pas encore disponible aujourd'hui.</p>
+        <a href="/" class="inline-block mt-4 text-bleu-rep no-underline hover:underline font-semibold">Voir l'édition du matin</a>
+      </div>
+    )}
+  </main>
+  <Footer />
+</BaseLayout>

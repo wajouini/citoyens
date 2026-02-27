@@ -1,0 +1,55 @@
+---
+import SourceLinks from '../ui/SourceLinks.astro';
+
+interface Props {
+  faits: any[];
+}
+
+const { faits } = Astro.props;
+
+const sousSectionMeta: Record<string, { label: string; icon: string }> = {
+  annonces: { label: 'Annonces', icon: '📢' },
+  regulation: { label: 'Régulation', icon: '⚖️' },
+  recherche: { label: 'Recherche', icon: '🔬' },
+  business: { label: 'Business', icon: '📊' },
+  societe: { label: 'Société', icon: '🏛' },
+};
+---
+
+<section class="mb-8">
+  <div class="flex items-center justify-between mb-4">
+    <div class="flex items-center gap-2">
+      <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-indigo-700">🤖 IA & Tech</span>
+      <div class="flex-1 h-px bg-indigo-200"></div>
+    </div>
+    <a href="/ia" class="font-mono text-[11px] text-bleu-rep no-underline hover:underline font-semibold shrink-0 ml-3">
+      {faits.length} actus → Section complète
+    </a>
+  </div>
+
+  <div class="flex flex-col gap-0">
+    {faits.slice(0, 5).map((fait: any, idx: number) => {
+      const ss = sousSectionMeta[fait.sous_section] || { label: fait.sous_section, icon: '' };
+      return (
+        <div class={`py-3.5 ${idx < Math.min(faits.length, 5) - 1 ? 'border-b border-gris-chaud' : ''}`}>
+          <div class="flex items-center gap-2 mb-1">
+            {fait.sous_section && (
+              <span class="font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-indigo-50 text-indigo-600">
+                {ss.icon} {ss.label}
+              </span>
+            )}
+          </div>
+          <h3 class="text-[15px] font-bold text-noir leading-snug mb-1">
+            {fait.titre}
+          </h3>
+          <p class="text-[13px] text-gris-texte leading-relaxed mb-1.5">
+            {fait.pourquoi_ca_compte}
+          </p>
+          {fait.sources?.length > 0 && (
+            <SourceLinks sources={fait.sources} compact={true} />
+          )}
+        </div>
+      );
+    })}
+  </div>
+</section>

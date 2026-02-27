@@ -56,14 +56,39 @@ const steps: Step[] = [
     critical: true,
   },
   {
+    name: 'Récupération des signaux (HN, Reddit, Wikipedia)',
+    command: 'npx tsx scripts/fetch-signals.ts',
+    critical: false,
+  },
+  {
     name: 'Récupération des scrutins AN',
     command: 'npx tsx scripts/fetch-votes.ts',
     critical: false,
   },
   {
+    name: 'Clustering thématique des articles',
+    command: 'npx tsx scripts/cluster-topics.ts',
+    critical: true,
+  },
+  {
     name: 'Génération de la Une',
     command: 'npx tsx scripts/generate-une.ts',
     critical: true,
+  },
+  {
+    name: 'Génération section IA/Tech',
+    command: 'npx tsx scripts/generate-ia.ts',
+    critical: false,
+  },
+  {
+    name: 'Génération fil continu',
+    command: 'npx tsx scripts/generate-fil.ts',
+    critical: false,
+  },
+  {
+    name: 'Génération sujets chauds',
+    command: 'npx tsx scripts/generate-sujets-chauds.ts',
+    critical: false,
   },
   {
     name: 'Build du site',

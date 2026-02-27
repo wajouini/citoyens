@@ -1,0 +1,37 @@
+---
+interface Props {
+  sujets: any[];
+}
+
+const { sujets } = Astro.props;
+
+const intensiteBadge: Record<string, { label: string; bg: string; text: string; dot: string }> = {
+  brulant: { label: '🔥 Brûlant', bg: 'bg-rouge-doux/10', text: 'text-rouge-doux', dot: 'bg-rouge-doux' },
+  intense: { label: '⚡ Intense', bg: 'bg-orange/10', text: 'text-orange', dot: 'bg-orange' },
+  en_montee: { label: '📈 En montée', bg: 'bg-amber-50', text: 'text-amber-700', dot: 'bg-amber-500' },
+};
+---
+
+{sujets.length > 0 && (
+  <div class="border-b border-gris-chaud bg-creme/80">
+    <div class="max-w-[760px] mx-auto px-4 py-3">
+      <div class="flex items-center gap-3 overflow-x-auto scrollbar-hide">
+        <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-noir shrink-0">Sujets chauds</span>
+        <div class="w-px h-4 bg-gris-chaud shrink-0"></div>
+        {sujets.map((s: any) => {
+          const badge = intensiteBadge[s.intensite] || intensiteBadge.en_montee;
+          return (
+            <a href={`/sujets-chauds#${s.slug}`}
+               class={`inline-flex items-center gap-1.5 shrink-0 px-3 py-1.5 rounded-full no-underline transition-all hover:shadow-sm ${badge.bg} group`}>
+              <span class={`w-1.5 h-1.5 rounded-full ${badge.dot} ${s.intensite === 'brulant' ? 'animate-pulse' : ''}`}></span>
+              <span class={`text-[12px] font-semibold ${badge.text} group-hover:underline`}>{s.titre}</span>
+            </a>
+          );
+        })}
+        <a href="/sujets-chauds" class="shrink-0 text-[11px] font-mono text-bleu-rep no-underline hover:underline">
+          Voir tout →
+        </a>
+      </div>
+    </div>
+  </div>
+)}

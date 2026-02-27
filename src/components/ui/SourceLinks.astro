@@ -1,0 +1,62 @@
+---
+/**
+ * SourceLinks — Prominent multi-source display component
+ *
+ * Shows each source as a clickable pill with:
+ * - Color-coded left border by type (investigation, mainstream, etranger, etc.)
+ * - Media ownership badge when available
+ * - Clear external link indicator
+ */
+import MediaOwnerBadge from '../home/MediaOwnerBadge.astro';
+
+interface Source {
+  nom: string;
+  url: string;
+  type?: string;
+  groupe_media?: {
+    nom: string;
+    proprietaire: string;
+    type_proprietaire: string;
+    orientation: string;
+  } | null;
+}
+
+interface Props {
+  sources: Source[];
+  compact?: boolean;
+}
+
+const { sources = [], compact = false } = Astro.props;
+
+if (sources.length === 0) return;
+
+const typeAccent: Record<string, { border: string; bg: string; text: string }> = {
+  investigation: { border: 'border-orange', bg: 'bg-orange/5', text: 'text-orange' },
+  mainstream: { border: 'border-bleu-rep/60', bg: 'bg-bleu-rep/5', text: 'text-bleu-rep' },
+  'fact-check': { border: 'border-vert', bg: 'bg-vert/5', text: 'text-vert' },
+  etranger: { border: 'border-purple-500', bg: 'bg-purple-500/5', text: 'text-purple-700' },
+  institutionnel: { border: 'border-gris-clair', bg: 'bg-gray-50', text: 'text-gris-texte' },
+};
+
+const defaultAccent = { border: 'border-gris-chaud', bg: 'bg-gray-50', text: 'text-gris-texte' };
+---
+
+<div class={`flex flex-wrap gap-2 ${compact ? '' : 'mt-2'}`}>
+  {sources.map((src) => {
+    const accent = typeAccent[src.type || ''] || defaultAccent;
+    return (
+      <a
+        href={src.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class={`inline-flex items-center gap-1.5 text-[11px] font-mono font-medium no-underline
+          border-l-[3px] ${accent.border} ${accent.bg}
+          rounded-r-md px-2.5 py-1.5
+          hover:shadow-sm hover:brightness-95 transition-all`}
+      >
+        <span class={`font-semibold ${accent.text}`}>{src.nom}</span>
+        <span class="text-gris-clair">↗</span>
+      </a>
+    );
+  })}
+</div>

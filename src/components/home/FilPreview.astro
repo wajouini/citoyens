@@ -1,0 +1,69 @@
+---
+import MediaOwnerBadge from './MediaOwnerBadge.astro';
+
+interface Props {
+  items: any[];
+  generatedAt?: string;
+}
+
+const { items, generatedAt } = Astro.props;
+
+const rubriqueStyle: Record<string, { label: string; color: string }> = {
+  politique: { label: 'Politique', color: 'text-bleu-rep' },
+  economie: { label: 'Économie', color: 'text-orange' },
+  tech: { label: 'Tech', color: 'text-purple-700' },
+  science: { label: 'Science', color: 'text-vert' },
+  societe: { label: 'Société', color: 'text-rouge-doux' },
+  culture: { label: 'Culture', color: 'text-amber-700' },
+  international: { label: 'International', color: 'text-sky-700' },
+  ia: { label: 'IA', color: 'text-indigo-700' },
+};
+---
+
+<section class="mb-8" id="fil-preview">
+  <div class="flex items-center justify-between mb-4">
+    <div class="flex items-center gap-2">
+      <span class="relative flex h-2 w-2">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-vert opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-2 w-2 bg-vert"></span>
+      </span>
+      <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir">Fil continu</span>
+    </div>
+    <div class="flex items-center gap-3">
+      {generatedAt && (
+        <span class="font-mono text-[10px] text-gris-clair" data-fil-timestamp={generatedAt}>
+          MAJ {new Date(generatedAt).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
+        </span>
+      )}
+      <a href="/fil" class="font-mono text-[11px] text-bleu-rep no-underline hover:underline font-semibold">
+        Voir tout →
+      </a>
+    </div>
+  </div>
+
+  <div class="flex flex-col gap-0 border border-gris-chaud rounded-lg overflow-hidden bg-blanc" id="fil-items">
+    {items.slice(0, 3).map((item: any) => {
+      const style = rubriqueStyle[item.rubrique] || rubriqueStyle.politique;
+      return (
+        <div class="flex gap-3 px-4 py-3 border-b border-gris-chaud last:border-0">
+          <div class="shrink-0 pt-0.5">
+            <span class="font-mono text-[12px] font-bold text-gris-clair">{item.heure}</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center gap-2 mb-0.5">
+              <span class={`font-mono text-[9px] font-bold uppercase tracking-wider ${style.color}`}>
+                {style.label}
+              </span>
+              <a href={item.source_url} target="_blank" rel="noopener noreferrer"
+                 class="font-mono text-[9px] text-gris-clair no-underline hover:text-bleu-rep transition-colors inline-flex items-center gap-1">
+                {item.groupe_media && <MediaOwnerBadge groupe_media={item.groupe_media} compact={true} />}
+                {item.source} ↗
+              </a>
+            </div>
+            <p class="text-[14px] text-noir leading-snug">{item.texte}</p>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</section>

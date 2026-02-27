@@ -32,10 +32,19 @@ const jsonLd = edition?.sujet_du_jour ? {
 } : undefined;
 
 const sujet = edition?.sujet_du_jour;
+const france = edition?.france || [];
+const monde = edition?.monde || [];
 const essentiels = edition?.essentiels || [];
+const hasFranceMonde = france.length > 0 || monde.length > 0;
 const regardCroise = edition?.regard_croise;
 const chiffre = edition?.chiffre_du_jour;
 const aSurveiller = edition?.a_surveiller || [];
+
+const paysEmoji: Record<string, string> = {
+  'Royaume-Uni': '🇬🇧', 'Allemagne': '🇩🇪', 'Etats-Unis': '🇺🇸', 'États-Unis': '🇺🇸',
+  'Espagne': '🇪🇸', 'Italie': '🇮🇹', 'Europe': '🇪🇺', 'Pakistan': '🇵🇰',
+  'Ukraine': '🇺🇦', 'Chine': '🇨🇳', 'Russie': '🇷🇺', 'Japon': '🇯🇵',
+};
 
 const formatDateLong = (dateStr: string) => {
   const d = new Date(dateStr + 'T00:00:00');
@@ -123,8 +132,54 @@ const sourceTypeBg: Record<string, string> = {
 
       <div class="h-px bg-gris-chaud mb-8"></div>
 
-      {/* ── ESSENTIELS ── */}
-      {essentiels.length > 0 && (
+      {/* ── FRANCE / MONDE or legacy ESSENTIELS ── */}
+      {hasFranceMonde ? (
+        <>
+          {france.length > 0 && (
+            <section class="mb-8">
+              <div class="flex items-center gap-2 mb-5">
+                <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-bleu-rep">🇫🇷 France</span>
+                <div class="flex-1 h-px bg-bleu-rep/20"></div>
+              </div>
+              <div class="flex flex-col gap-0">
+                {france.map((item: any) => {
+                  const style = rubriqueStyle[item.rubrique] || rubriqueStyle.politique;
+                  return (
+                    <div class="py-4 border-b border-gris-chaud last:border-0">
+                      <div class="flex items-center gap-2 mb-1.5">
+                        <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${style.bg} ${style.color}`}>{style.label}</span>
+                      </div>
+                      <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-1">{item.titre}</h3>
+                      <p class="text-[14px] text-gris-texte leading-relaxed">{item.resume}</p>
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+          {monde.length > 0 && (
+            <section class="mb-8">
+              <div class="flex items-center gap-2 mb-5">
+                <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-sky-700">🌍 Monde</span>
+                <div class="flex-1 h-px bg-sky-700/20"></div>
+              </div>
+              <div class="flex flex-col gap-0">
+                {monde.map((item: any) => (
+                  <div class="py-4 border-b border-gris-chaud last:border-0">
+                    <div class="flex items-center gap-2 mb-1.5">
+                      <span class="font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-sky-50 text-sky-700">
+                        {paysEmoji[item.pays] || '🌐'} {item.pays}
+                      </span>
+                    </div>
+                    <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-1">{item.titre}</h3>
+                    <p class="text-[14px] text-gris-texte leading-relaxed">{item.resume}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+        </>
+      ) : essentiels.length > 0 && (
         <section class="mb-10">
           <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir mb-5">Les essentiels</h2>
           <div class="flex flex-col gap-0">

@@ -4,14 +4,16 @@ import MediaOwnerBadge from './MediaOwnerBadge.astro';
 const uneData = await import('../../data/une.json').then(m => m.default).catch(() => null);
 
 const sujet = uneData?.sujet_du_jour;
+const france = uneData?.france || [];
+const monde = uneData?.monde || [];
 const essentiels = uneData?.essentiels || [];
 const regardCroise = uneData?.regard_croise;
+const regardEtranger = uneData?.regard_etranger || [];
 const chiffre = uneData?.chiffre_du_jour;
 const aSurveiller = uneData?.a_surveiller || [];
 const meta = uneData?.meta;
 
-// Backward compat: support old schema during transition
-const legacyFaits = !sujet && ((uneData as any)?.faits_du_jour || (uneData as any)?.faits_semaine);
+const hasFranceMonde = france.length > 0 || monde.length > 0;
 
 const formatDate = (dateStr: string) => {
   const d = new Date(dateStr + 'T00:00:00');
@@ -26,6 +28,7 @@ const rubriqueStyle: Record<string, { label: string; color: string; bg: string }
   societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50' },
   culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50' },
   international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50' },
+  ia: { label: 'IA', color: 'text-indigo-700', bg: 'bg-indigo-50' },
 };
 
 const tonBadge: Record<string, { label: string; cls: string }> = {
@@ -43,6 +46,16 @@ const sourceTypeBg: Record<string, string> = {
   'fact-check': 'border-l-vert',
   etranger: 'border-l-purple-600',
   institutionnel: 'border-l-gris-clair',
+};
+
+const paysEmoji: Record<string, string> = {
+  'Royaume-Uni': '🇬🇧', 'Allemagne': '🇩🇪', 'Etats-Unis': '🇺🇸', 'États-Unis': '🇺🇸',
+  'Espagne': '🇪🇸', 'Italie': '🇮🇹', 'Belgique': '🇧🇪', 'Suisse': '🇨🇭',
+  'Canada': '🇨🇦', 'Japon': '🇯🇵', 'Qatar': '🇶🇦', 'Europe': '🇪🇺',
+  'France': '🇫🇷', 'Brésil': '🇧🇷', 'Australie': '🇦🇺', 'Inde': '🇮🇳',
+  'Chine': '🇨🇳', 'Russie': '🇷🇺', 'Israël': '🇮🇱', 'Palestine': '🇵🇸',
+  'Turquie': '🇹🇷', 'Maroc': '🇲🇦', 'Algérie': '🇩🇿', 'Pakistan': '🇵🇰',
+  'Afghanistan': '🇦🇫', 'Ukraine': '🇺🇦', 'Corée du Sud': '🇰🇷',
 };
 ---
 
@@ -102,8 +115,103 @@ const sourceTypeBg: Record<string, string> = {
   {/* ── Divider ── */}
   <div class="h-px bg-gris-chaud mb-8"></div>
 
-  {/* ── 2. LES ESSENTIELS ── */}
-  {essentiels.length > 0 && (
+  {/* ── 2. FRANCE ── */}
+  {hasFranceMonde ? (
+    <>
+      {france.length > 0 && (
+        <section class="mb-8">
+          <div class="flex items-center gap-2 mb-5">
+            <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-bleu-rep">🇫🇷 France</span>
+            <div class="flex-1 h-px bg-bleu-rep/20"></div>
+          </div>
+          <div class="flex flex-col gap-0">
+            {france.map((item: any) => {
+              const style = rubriqueStyle[item.rubrique] || rubriqueStyle.politique;
+              return (
+                <div class="py-4 border-b border-gris-chaud last:border-0">
+                  <div class="flex items-center gap-2 mb-1.5">
+                    <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${style.bg} ${style.color}`}>
+                      {style.label}
+                    </span>
+                    {item.sources?.map((src: any) => (
+                      <a href={src.url} target="_blank" rel="noopener noreferrer"
+                         class="font-mono text-[9px] text-gris-clair no-underline hover:text-bleu-rep transition-colors">
+                        {src.nom} ↗
+                      </a>
+                    ))}
+                  </div>
+                  <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-1">
+                    {item.titre}
+                  </h3>
+                  <p class="text-[14px] text-gris-texte leading-relaxed">{item.resume}</p>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* ── 3. MONDE ── */}
+      {monde.length > 0 && (
+        <section class="mb-8">
+          <div class="flex items-center gap-2 mb-5">
+            <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-sky-700">🌍 Monde</span>
+            <div class="flex-1 h-px bg-sky-700/20"></div>
+          </div>
+          <div class="flex flex-col gap-0">
+            {monde.map((item: any) => {
+              return (
+                <div class="py-4 border-b border-gris-chaud last:border-0">
+                  <div class="flex items-center gap-2 mb-1.5">
+                    <span class="font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-sky-50 text-sky-700">
+                      {paysEmoji[item.pays] || '🌐'} {item.pays}
+                    </span>
+                    {item.sources?.map((src: any) => (
+                      <a href={src.url} target="_blank" rel="noopener noreferrer"
+                         class="font-mono text-[9px] text-gris-clair no-underline hover:text-bleu-rep transition-colors">
+                        {src.nom} ↗
+                      </a>
+                    ))}
+                  </div>
+                  <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-1">
+                    {item.titre}
+                  </h3>
+                  <p class="text-[14px] text-gris-texte leading-relaxed">{item.resume}</p>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* ── VU DE L'ÉTRANGER (compact) ── */}
+      {regardEtranger.length > 0 && (
+        <section class="mb-8">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-purple-700 bg-purple-50 px-2 py-0.5 rounded">Vu de l'étranger</span>
+            <span class="font-mono text-[9px] text-gris-clair">La France vue d'ailleurs</span>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {regardEtranger.map((r: any) => (
+              <a href={r.url} target="_blank" rel="noopener noreferrer"
+                 class="block p-3.5 rounded-lg border border-gris-chaud bg-blanc no-underline hover:border-purple-300 hover:shadow-sm transition-all group">
+                <div class="flex items-center gap-2 mb-1.5">
+                  <span class="text-base">{paysEmoji[r.pays] || '🌐'}</span>
+                  <span class="font-mono text-[11px] font-bold text-noir">{r.source}</span>
+                  {r.groupe_media && <MediaOwnerBadge groupe_media={r.groupe_media} compact={true} />}
+                </div>
+                <p class="text-[13px] font-semibold text-noir leading-snug mb-1 group-hover:text-purple-700 transition-colors">
+                  {r.titre}
+                </p>
+                <p class="text-[12px] text-gris-texte leading-relaxed line-clamp-2">{r.angle}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+    </>
+  ) : essentiels.length > 0 && (
+    /* Backward compat: old flat essentiels format */
     <section class="mb-10">
       <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir mb-5">Les essentiels</h2>
       <div class="flex flex-col gap-0">
@@ -136,7 +244,7 @@ const sourceTypeBg: Record<string, string> = {
   {/* ── Divider ── */}
   <div class="h-px bg-gris-chaud mb-8"></div>
 
-  {/* ── 3. REGARD CROISE ── */}
+  {/* ── 4. REGARD CROISE ── */}
   {regardCroise && (
     <section class="mb-10">
       <div class="flex items-center gap-2 mb-5">
@@ -227,7 +335,7 @@ const sourceTypeBg: Record<string, string> = {
     </section>
   )}
 
-  {/* ── 4. CHIFFRE + A SURVEILLER ── */}
+  {/* ── 5. CHIFFRE + A SURVEILLER ── */}
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
     {chiffre && (
       <div class="bg-noir text-white rounded-xl p-5">

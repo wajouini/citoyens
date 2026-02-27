@@ -607,6 +607,193 @@
     "medias": ["Slate FR"]
   },
   {
+    "id": "yahoo-aol",
+    "nom": "Yahoo (AOL / Oath)",
+    "proprietaires": [
+      { "nom": "Apollo Global Management", "type": "milliardaire", "fortune_source": "Private equity (rachat de Yahoo en 2021)" }
+    ],
+    "structure": "Propriété du fonds Apollo — TechCrunch fait partie du portefeuille Yahoo",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Couverture tech pro-startup, angle venture capital, propriété financière",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 2,
+      "antifascisme": 3,
+      "justice_sociale": 3
+    },
+    "axes_notes": {},
+    "medias": ["TechCrunch"]
+  },
+  {
+    "id": "vox-media",
+    "nom": "Vox Media",
+    "proprietaires": [
+      { "nom": "Vox Media Inc.", "type": "independant", "fortune_source": "Groupe média numérique américain, investisseurs multiples (NBCUniversal, etc.)" }
+    ],
+    "structure": "Groupe média numérique — propriété multiple, CEO Jim Bankoff",
+    "orientation": "centre-gauche",
+    "orientation_historique": "centre-gauche",
+    "derive_recente": "Couverture tech critique des Big Tech, angle sociétal, format accessible",
+    "axes": {
+      "colonialisme": 2,
+      "droit_international": 2,
+      "liberte_expression": 2,
+      "antifascisme": 2,
+      "justice_sociale": 2
+    },
+    "axes_notes": {},
+    "medias": ["The Verge"]
+  },
+  {
+    "id": "conde-nast",
+    "nom": "Condé Nast",
+    "proprietaires": [
+      { "nom": "Famille Newhouse (Advance Publications)", "type": "famille", "fortune_source": "Advance Publications, empire média familial" }
+    ],
+    "structure": "Propriété familiale Newhouse via Advance Publications — portefeuille incluant Wired, Ars Technica, Reddit (ex)",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Couverture tech de qualité, ton magazine, rigueur variable selon les titres",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 2,
+      "antifascisme": 2,
+      "justice_sociale": 3
+    },
+    "axes_notes": {},
+    "medias": ["Wired", "Ars Technica"]
+  },
+  {
+    "id": "mit",
+    "nom": "MIT (Massachusetts Institute of Technology)",
+    "proprietaires": [
+      { "nom": "MIT", "type": "fondation", "fortune_source": "Université de recherche, dotation universitaire" }
+    ],
+    "structure": "Publication rattachée au MIT — financement universitaire et abonnements",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Référence en couverture IA et technologies émergentes, rigueur académique",
+    "axes": {
+      "colonialisme": 2,
+      "droit_international": 2,
+      "liberte_expression": 1,
+      "antifascisme": 2,
+      "justice_sociale": 2
+    },
+    "axes_notes": {},
+    "medias": ["MIT Technology Review"]
+  },
+  {
+    "id": "venturebeat",
+    "nom": "VentureBeat",
+    "proprietaires": [
+      { "nom": "VentureBeat Inc.", "type": "independant", "fortune_source": "Média tech indépendant, financement publicité et événements" }
+    ],
+    "structure": "Média tech indépendant fondé par Matt Marshall",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Spécialisation IA enterprise, couverture dense des annonces et déploiements",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 2,
+      "antifascisme": 3,
+      "justice_sociale": 3
+    },
+    "axes_notes": {},
+    "medias": ["VentureBeat"]
+  },
+  {
+    "id": "the-register",
+    "nom": "The Register",
+    "proprietaires": [
+      { "nom": "Situation Publishing", "type": "independant", "fortune_source": "Groupe média tech britannique indépendant" }
+    ],
+    "structure": "Média tech britannique indépendant — ton sarcastique distinctif",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Stabilité, couverture critique de l'industrie IT, cloud et IA",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 1,
+      "antifascisme": 3,
+      "justice_sociale": 3
+    },
+    "axes_notes": {},
+    "medias": ["The Register"]
+  },
+  {
+    "id": "openai",
+    "nom": "OpenAI",
+    "proprietaires": [
+      { "nom": "OpenAI Inc. (for-profit transition)", "type": "independant", "fortune_source": "Investissements Microsoft, SoftBank, autres — valorisation ~150Md$" }
+    ],
+    "structure": "Ex-nonprofit en transition vers for-profit — gouvernance contestée, dépendance Microsoft",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Communication corporate, blog officiel = annonces produit et recherche, pas de journalisme",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 3,
+      "antifascisme": 3,
+      "justice_sociale": 3
+    },
+    "axes_notes": {
+      "liberte_expression": "Source primaire (communication d'entreprise), pas une source journalistique — à utiliser comme signal, pas comme référence"
+    },
+    "medias": ["OpenAI Blog"]
+  },
+  {
+    "id": "alphabet",
+    "nom": "Alphabet (Google)",
+    "proprietaires": [
+      { "nom": "Larry Page & Sergey Brin", "type": "milliardaire", "fortune_source": "Co-fondateurs Google, contrôle via actions classe B" }
+    ],
+    "structure": "Megacap tech — contrôle fondateurs via actions à droits de vote multiples",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Blog officiel Google AI — annonces recherche (Gemini, DeepMind), communication corporate",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 4,
+      "antifascisme": 3,
+      "justice_sociale": 3
+    },
+    "axes_notes": {
+      "liberte_expression": "Source primaire (communication d'entreprise) — signaux sur les annonces produit, pas de journalisme indépendant"
+    },
+    "medias": ["Google AI Blog"]
+  },
+  {
+    "id": "meta",
+    "nom": "Meta Platforms",
+    "proprietaires": [
+      { "nom": "Mark Zuckerberg", "type": "milliardaire", "fortune_source": "Fondateur et CEO, contrôle actionnarial total" }
+    ],
+    "structure": "Contrôle total du fondateur via actions classe B — aucun contre-pouvoir actionnarial",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Blog officiel Meta AI — annonces open-source (LLaMA), communication d'entreprise",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 4,
+      "antifascisme": 3,
+      "justice_sociale": 4
+    },
+    "axes_notes": {
+      "liberte_expression": "Source primaire (communication d'entreprise) — utile pour les annonces open-source, pas de journalisme",
+      "justice_sociale": "L'entreprise elle-même fait l'objet de nombreuses controverses (données personnelles, modération, impact sur la démocratie)"
+    },
+    "medias": ["Meta AI Blog"]
+  },
+  {
     "id": "reuters",
     "nom": "Thomson Reuters",
     "proprietaires": [

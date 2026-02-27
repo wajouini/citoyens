@@ -9,7 +9,11 @@ import { z } from 'zod';
 // ---------- Enums ----------
 
 export const RubriqueEnum = z.enum([
-  'politique', 'economie', 'tech', 'science', 'societe', 'culture', 'international',
+  'politique', 'economie', 'tech', 'science', 'societe', 'culture', 'international', 'ia',
+]);
+
+export const RubriqueFranceEnum = z.enum([
+  'politique', 'economie', 'tech', 'science', 'societe', 'culture',
 ]);
 
 export const SourceTypeEnum = z.enum([
@@ -48,14 +52,35 @@ const SujetDuJourSchema = z.object({
   lien: z.string().nullable(),
 });
 
-// ---------- Essentiels ----------
+// ---------- France / Monde (replaces flat essentiels) ----------
 
-const EssentielSchema = z.object({
+const EssentielFranceSchema = z.object({
   titre: z.string().min(10),
-  rubrique: RubriqueEnum,
+  rubrique: RubriqueFranceEnum,
   resume: z.string().min(20),
   sources: z.array(SourceRefSchema).min(1),
   lien: z.string().nullable(),
+});
+
+const EssentielMondeSchema = z.object({
+  titre: z.string().min(10),
+  pays: z.string(),
+  resume: z.string().min(20),
+  sources: z.array(SourceRefSchema).min(1),
+  lien: z.string().nullable(),
+});
+
+// ---------- Regard etranger (how foreign press covers France) ----------
+
+const RegardEtrangerItemSchema = z.object({
+  source: z.string(),
+  pays: z.string(),
+  titre: z.string(),
+  titre_original: z.string().optional(),
+  angle: z.string(),
+  url: z.string().url(),
+  date: z.string().optional(),
+  groupe_media: GroupeMediaRefSchema.optional().nullable(),
 });
 
 // ---------- Regard croise ----------
@@ -108,6 +133,9 @@ const ASurveillerSchema = z.object({
 
 const MetaSchema = z.object({
   nb_articles_analyses: z.number(),
+  nb_topics: z.number().optional(),
+  nb_topics_selectionnes: z.number().optional(),
+  nb_articles_dans_selection: z.number().optional(),
   sources_francaises: z.number(),
   sources_etrangeres: z.number(),
   rubriques_couvertes: z.array(z.string()).optional(),
@@ -122,8 +150,10 @@ export const UneSchema = z.object({
   genere_a: z.string(),
 
   sujet_du_jour: SujetDuJourSchema,
-  essentiels: z.array(EssentielSchema).min(3).max(8),
+  france: z.array(EssentielFranceSchema).min(2).max(5),
+  monde: z.array(EssentielMondeSchema).min(1).max(4),
   regard_croise: RegardCroiseSchema,
+  regard_etranger: z.array(RegardEtrangerItemSchema).default([]),
   chiffre_du_jour: ChiffreDuJourSchema,
   a_surveiller: z.array(ASurveillerSchema).default([]),
   meta: MetaSchema,
@@ -131,7 +161,9 @@ export const UneSchema = z.object({
 
 export type Une = z.infer<typeof UneSchema>;
 export type SujetDuJour = z.infer<typeof SujetDuJourSchema>;
-export type Essentiel = z.infer<typeof EssentielSchema>;
+export type EssentielFrance = z.infer<typeof EssentielFranceSchema>;
+export type EssentielMonde = z.infer<typeof EssentielMondeSchema>;
+export type RegardEtrangerItem = z.infer<typeof RegardEtrangerItemSchema>;
 export type RegardCroise = z.infer<typeof RegardCroiseSchema>;
 export type Couverture = z.infer<typeof CouvertureSchema>;
 export type GroupeMediaRef = z.infer<typeof GroupeMediaRefSchema>;
