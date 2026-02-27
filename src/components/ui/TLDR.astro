@@ -1,0 +1,29 @@
+---
+interface Props {
+  points: string[];
+  readingTime?: string;
+}
+
+const { points, readingTime } = Astro.props;
+---
+
+<div class="bg-bleu-clair/30 border-l-4 border-bleu-rep p-5 rounded-r-xl mb-8">
+  <div class="flex items-center justify-between mb-3">
+    <h3 class="font-display text-lg font-bold text-noir flex items-center gap-2">
+      <span class="text-xl">⚡</span> L'essentiel en 3 points
+    </h3>
+    {readingTime && (
+      <span class="font-mono text-[10px] uppercase tracking-wider text-gris-texte bg-blanc px-2 py-1 rounded-md border border-gris-chaud">
+        ⏱ {readingTime}
+      </span>
+    )}
+  </div>
+  <ul class="flex flex-col gap-2.5">
+    {points.map((point) => (
+      <li class="flex items-start gap-2.5 text-[15px] leading-relaxed text-noir">
+        <span class="text-bleu-rep font-bold mt-0.5">•</span>
+        <span>{point}</span>
+      </li>
+    ))}
+  </ul>
+</div>

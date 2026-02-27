@@ -27,6 +27,7 @@ const personnes = defineCollection({
     date_prise_fonction: z.string().optional(),
     bio_courte: z.string(),
     bio_longue: z.string().optional(),
+    tldr: z.array(z.string()).optional(),
     lien_fiche_an: z.string().optional(),
     parcours: z.array(z.object({
       periode: z.string(),
@@ -99,6 +100,7 @@ const dossiers = defineCollection({
     icone: z.string().default('📄'),
     etape_label: z.string().default('En cours'),
     date_maj: z.string().optional(),
+    tldr: z.array(z.string()).optional(),
     contexte: z.string().optional(),
     enjeux: z.array(z.object({
       titre: z.string(),

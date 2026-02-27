@@ -103,8 +103,10 @@ if (sujet) {
   {/* ── SUJETS CHAUDS BANNER ── */}
   <SujetsChaudsBanner sujets={sujetsActifs} />
 
-  <main>
-    <div class="max-w-[760px] mx-auto px-4 md:px-5">
+  <main class="max-w-[1280px] mx-auto px-4 md:px-6 py-6 md:py-10">
+    <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
+      {/* Colonne Principale */}
+      <div class="flex-1 lg:w-[65%] min-w-0">
 
       {/* ── DATE ── */}
       {uneData && (
@@ -117,7 +119,7 @@ if (sujet) {
 
       {/* ── 1. SUJET DU JOUR (hero) ── */}
       {sujet && (
-        <section class="mb-10">
+        <section class="mb-14">
           <div class="flex items-center gap-2 mb-3">
             <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-white bg-noir px-2 py-0.5 rounded">Sujet du jour</span>
             {rubriqueStyle[sujet.rubrique] && (
@@ -196,17 +198,12 @@ if (sujet) {
       {/* ── DIVIDER ── */}
       <div class="h-px bg-gris-chaud mb-8"></div>
 
-      {/* ── 2. FIL CONTINU PREVIEW ── */}
-      {filItems.length > 0 && (
-        <FilPreview items={filItems} generatedAt={filData?.genere_a} />
-      )}
-
       {/* ── 3. FRANCE ── */}
       {hasFranceMonde ? (
         <>
           {france.length > 0 && (
-            <section id="section-france" class="mb-8">
-              <div class="flex items-center gap-2 mb-5">
+            <section id="section-france" class="mb-12">
+              <div class="flex items-center gap-2 mb-6">
                 <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-bleu-rep">🇫🇷 France</span>
                 <div class="flex-1 h-px bg-bleu-rep/20"></div>
               </div>
@@ -236,8 +233,8 @@ if (sujet) {
 
           {/* ── 4. MONDE ── */}
           {monde.length > 0 && (
-            <section id="section-monde" class="mb-8">
-              <div class="flex items-center gap-2 mb-5">
+            <section id="section-monde" class="mb-12">
+              <div class="flex items-center gap-2 mb-6">
                 <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-sky-700">🌍 Monde</span>
                 <div class="flex-1 h-px bg-sky-700/20"></div>
               </div>
@@ -325,8 +322,8 @@ if (sujet) {
 
       {/* ── 6. REGARD CROISÉ ── */}
       {regardCroise && (
-        <section id="section-regard-croise" class="mb-10">
-          <div class="flex items-center gap-2 mb-5">
+        <section id="section-regard-croise" class="mb-14">
+          <div class="flex items-center gap-2 mb-6">
             <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-rouge-doux bg-red-50 px-2 py-0.5 rounded">Regard croisé</span>
             {rubriqueStyle[regardCroise.rubrique] && (
               <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${rubriqueStyle[regardCroise.rubrique].bg} ${rubriqueStyle[regardCroise.rubrique].color}`}>
@@ -411,7 +408,7 @@ if (sujet) {
       )}
 
       {/* ── 7. CHIFFRE + À SURVEILLER ── */}
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-14">
         {chiffre && (
           <div class="bg-noir text-white rounded-xl p-5">
             <div class="font-mono text-[9px] uppercase tracking-[2px] text-white/50 mb-2">Le chiffre du jour</div>
@@ -451,7 +448,17 @@ if (sujet) {
           {meta.nb_articles_analyses} articles analysés · {meta.sources_francaises} sources FR · {meta.sources_etrangeres} sources internationales · {meta.modele}
         </div>
       )}
-    </div>
+      </div> {/* End Main Column */}
+
+      {/* Colonne Latérale (Sidebar) */}
+      <aside class="w-full lg:w-[35%] xl:w-[30%] lg:sticky lg:top-24 self-start space-y-8">
+        {/* ── 2. FIL CONTINU PREVIEW ── */}
+        {filItems.length > 0 && (
+          <FilPreview items={filItems} generatedAt={filData?.genere_a} />
+        )}
+      </aside>
+
+    </div> {/* End Flex Container */}
   </main>
   <Footer />
 </BaseLayout>
@@ -482,7 +489,7 @@ if (sujet) {
       const res = await fetch('/data/fil.json');
       if (!res.ok) return;
       const data = await res.json();
-      const items = data?.items?.slice(0, 3);
+      const items = data?.items?.slice(0, 6);
       if (!items?.length) return;
 
       const container = document.getElementById('fil-items');

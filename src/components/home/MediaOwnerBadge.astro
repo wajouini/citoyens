@@ -12,9 +12,6 @@ interface Props {
 
 const { groupe_media, orientation_source, compact = false } = Astro.props;
 
-// Temporarily hidden — affiliation badges disabled for now
-return;
-
 const typeStyles: Record<string, { bg: string; text: string; label: string }> = {
   milliardaire: { bg: 'bg-rouge-doux/10', text: 'text-rouge-doux', label: '💰' },
   cooperative: { bg: 'bg-vert/10', text: 'text-vert', label: '🤝' },
@@ -43,17 +40,46 @@ const orientDot = orientationColors[orient] || 'bg-gray-300';
 ---
 
 {groupe_media ? (
-  <span class={`inline-flex items-center gap-1 ${style.bg} ${style.text} text-[9px] font-mono font-semibold px-1.5 py-0.5 rounded-full leading-tight`}>
-    <span class={`w-1.5 h-1.5 rounded-full ${orientDot} shrink-0`}></span>
-    {compact ? (
-      <span>{groupe_media.proprietaire}</span>
-    ) : (
-      <span>{groupe_media.nom} ({groupe_media.proprietaire})</span>
-    )}
-  </span>
+  <div class="relative inline-flex items-center group/badge">
+    <span class={`w-2.5 h-2.5 rounded-full ${orientDot} cursor-help border border-white shadow-sm ring-1 ring-black/5`}></span>
+    
+    {/* Tooltip */}
+    <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-1.5 opacity-0 group-hover/badge:opacity-100 pointer-events-none transition-opacity z-50 whitespace-nowrap">
+      <div class={`flex flex-col gap-0.5 px-2 py-1.5 rounded-lg shadow-lg text-[10px] font-mono leading-tight bg-white border border-gray-200`}>
+        <div class="flex items-center gap-1.5">
+          <span class="font-bold text-gray-700">Propriétaire:</span>
+          <span class={`${style.text} font-semibold flex items-center gap-0.5`}>
+            {style.label} {groupe_media.proprietaire}
+          </span>
+        </div>
+        <div class="flex items-center gap-1.5">
+          <span class="font-bold text-gray-700">Orientation:</span>
+          <span class="flex items-center gap-1">
+            <span class={`w-1.5 h-1.5 rounded-full ${orientDot}`}></span>
+            {groupe_media.orientation}
+          </span>
+        </div>
+      </div>
+      {/* Tooltip arrow */}
+      <div class="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-white border-b border-r border-gray-200 rotate-45"></div>
+    </div>
+  </div>
 ) : orient ? (
-  <span class="inline-flex items-center gap-1 bg-gray-100 text-gris-texte text-[9px] font-mono font-semibold px-1.5 py-0.5 rounded-full leading-tight">
-    <span class={`w-1.5 h-1.5 rounded-full ${orientDot} shrink-0`}></span>
-    <span>{orient}</span>
-  </span>
+  <div class="relative inline-flex items-center group/badge">
+    <span class={`w-2.5 h-2.5 rounded-full ${orientDot} cursor-help border border-white shadow-sm ring-1 ring-black/5`}></span>
+    
+    {/* Tooltip */}
+    <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-1.5 opacity-0 group-hover/badge:opacity-100 pointer-events-none transition-opacity z-50 whitespace-nowrap">
+      <div class="px-2 py-1.5 rounded-lg shadow-lg text-[10px] font-mono bg-white border border-gray-200">
+        <div class="flex items-center gap-1.5">
+          <span class="font-bold text-gray-700">Orientation:</span>
+          <span class="flex items-center gap-1">
+            <span class={`w-1.5 h-1.5 rounded-full ${orientDot}`}></span>
+            {orient}
+          </span>
+        </div>
+      </div>
+      <div class="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-white border-b border-r border-gray-200 rotate-45"></div>
+    </div>
+  </div>
 ) : null}
