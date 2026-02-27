@@ -17,9 +17,9 @@ const intensiteBadge: Record<string, { label: string; bg: string; text: string; 
     <div class="max-w-[1280px] mx-auto px-4 md:px-6">
       <div class="flex items-center justify-between mb-4">
         <h2 class="font-display text-xl md:text-2xl font-black text-noir flex items-center gap-2">
-          <span class="text-rouge-doux">🔥</span> En direct
+          <span class="text-rouge-doux">📡</span> Radar
         </h2>
-        <a href="/sujets-chauds" class="font-mono text-[11px] text-bleu-rep no-underline hover:underline font-semibold">
+        <a href="/radar" class="font-mono text-[11px] text-bleu-rep no-underline hover:underline font-semibold">
           Tous les sujets →
         </a>
       </div>
@@ -28,7 +28,7 @@ const intensiteBadge: Record<string, { label: string; bg: string; text: string; 
         {sujets.slice(0, 4).map((s: any) => {
           const badge = intensiteBadge[s.intensite] || intensiteBadge.en_montee;
           return (
-            <a href={`/sujets-chauds#${s.slug}`}
+            <a href={`/radar/${s.slug}`}
                class="flex flex-col p-4 bg-blanc border border-gris-chaud rounded-xl no-underline hover:border-bleu-rep hover:shadow-md transition-all group">
               <div class="flex items-center gap-2 mb-2">
                 <span class={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full ${badge.bg} text-[10px] font-mono font-bold uppercase tracking-wider`}>
@@ -36,7 +36,7 @@ const intensiteBadge: Record<string, { label: string; bg: string; text: string; 
                   <span class={badge.text}>{badge.label}</span>
                 </span>
                 <span class="text-[10px] text-gris-clair font-mono">
-                  {s.articles_lies?.length || 0} articles
+                  {s.sources?.length || 0} sources
                 </span>
               </div>
               <h3 class="font-display text-[16px] font-bold text-noir leading-snug group-hover:text-bleu-rep transition-colors">

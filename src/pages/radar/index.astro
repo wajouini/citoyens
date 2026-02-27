@@ -1,0 +1,154 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+const sujetsData = await import('../../data/sujets-chauds.json').then(m => m.default).catch(() => null);
+
+const sujetsActifs = sujetsData?.sujets_actifs || [];
+const sujetsRefroidis = sujetsData?.sujets_refroidis || [];
+
+const formatDate = (dateStr: string) => {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+};
+
+const formatDateShort = (dateStr: string) => {
+  try {
+    const d = new Date(dateStr + 'T00:00:00');
+    return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
+  } catch { return dateStr; }
+};
+
+const intensiteBadge: Record<string, { label: string; cls: string; icon: string; accent: string }> = {
+  brulant: { label: 'Brûlant', cls: 'bg-rouge-doux text-white', icon: '🔥', accent: 'border-rouge-doux' },
+  intense: { label: 'Intense', cls: 'bg-orange text-white', icon: '⚡', accent: 'border-orange' },
+  en_montee: { label: 'En montée', cls: 'bg-amber-500 text-white', icon: '📈', accent: 'border-amber-500' },
+};
+
+const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
+  politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+  economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10' },
+  tech: { label: 'Tech', color: 'text-purple-700', bg: 'bg-purple-50' },
+  science: { label: 'Science', color: 'text-vert', bg: 'bg-green-50' },
+  societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50' },
+  international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50' },
+  ia: { label: 'IA', color: 'text-indigo-700', bg: 'bg-indigo-50' },
+};
+
+const jsonLd = sujetsActifs.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Radar — Citoyens.ai',
+  description: 'Les sujets à suivre en ce moment, décryptés avec recul et transparence',
+  datePublished: sujetsData?.date,
+  publisher: { '@type': 'Organization', name: 'Citoyens.ai' },
+} : undefined;
+---
+
+<BaseLayout title="Radar — Les sujets à suivre" description="Les sujets qui bougent en ce moment, décryptés avec recul et transparence" jsonLd={jsonLd}>
+  <Header />
+  <main>
+    {sujetsData ? (
+      <div class="max-w-[900px] mx-auto px-4 md:px-6">
+
+        {/* Header */}
+        <div class="pt-8 md:pt-12 mb-10 md:mb-14">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="font-mono text-[11px] md:text-[12px] uppercase tracking-[2px] text-rouge-doux font-bold flex items-center gap-2">
+              <span class="text-xl">📡</span> Radar
+            </div>
+            <div class="flex-1 h-px bg-gris-chaud"></div>
+            <div class="font-mono text-[10px] md:text-[11px] text-gris-clair">{sujetsData.date && formatDate(sujetsData.date)}</div>
+          </div>
+          <p class="text-[16px] md:text-[18px] text-gris-texte leading-relaxed max-w-[640px]">
+            Les sujets qui bougent en ce moment. Pour chaque sujet : les faits, la chronologie, et l'analyse de la couverture médiatique.
+          </p>
+        </div>
+
+        {/* ── SUJETS ACTIFS ── */}
+        <div class="flex flex-col gap-6 mb-16">
+          {sujetsActifs.map((sujet: any) => {
+            const intensite = intensiteBadge[sujet.intensite] || intensiteBadge.intense;
+            const rubrique = rubriqueStyle[sujet.rubrique] || rubriqueStyle.politique;
+            const nbSources = (sujet.sources?.length || 0) + (sujet.couvertures?.length || 0);
+            return (
+              <a href={`/radar/${sujet.slug}`}
+                 class={`group block bg-blanc border border-gris-chaud border-l-4 ${intensite.accent} rounded-xl p-6 md:p-8 no-underline hover:shadow-lg hover:border-l-4 transition-all`}>
+
+                <div class="flex items-center gap-2 mb-3 flex-wrap">
+                  <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${intensite.cls}`}>
+                    {intensite.icon} {intensite.label}
+                  </span>
+                  <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${rubrique.bg} ${rubrique.color}`}>
+                    {rubrique.label}
+                  </span>
+                  <span class="font-mono text-[9px] text-gris-clair ml-auto">
+                    {nbSources} sources · depuis le {formatDateShort(sujet.premiere_apparition)}
+                  </span>
+                </div>
+
+                <h2 class="font-display text-[22px] md:text-[28px] font-black leading-tight text-noir mb-3 group-hover:text-bleu-rep transition-colors">
+                  {sujet.titre}
+                </h2>
+
+                <p class="text-[15px] leading-relaxed text-gris-texte mb-4 line-clamp-2">
+                  {sujet.resume}
+                </p>
+
+                <div class="flex items-center gap-4 text-[11px] font-mono text-gris-clair">
+                  {sujet.chronologie?.length > 0 && (
+                    <span>⏱ {sujet.chronologie.length} événement{sujet.chronologie.length > 1 ? 's' : ''}</span>
+                  )}
+                  {sujet.couvertures?.length > 0 && (
+                    <span>📰 {sujet.couvertures.length} couverture{sujet.couvertures.length > 1 ? 's' : ''} média</span>
+                  )}
+                  <span class="ml-auto font-semibold text-bleu-rep group-hover:translate-x-1 transition-transform">
+                    Lire le décryptage →
+                  </span>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+
+        {/* ── SUJETS REFROIDIS ── */}
+        {sujetsRefroidis.length > 0 && (
+          <section class="mb-12">
+            <div class="h-px bg-gris-chaud mb-10"></div>
+            <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair mb-6">
+              Retombés du radar
+            </h2>
+            <div class="flex flex-col gap-3">
+              {sujetsRefroidis.map((s: any) => (
+                <div class="py-4 border-b border-gris-chaud/50 last:border-0">
+                  <div class="flex items-center gap-3 mb-1">
+                    <span class="font-display text-[16px] font-bold text-gris-texte">{s.titre}</span>
+                    <span class="font-mono text-[10px] text-gris-clair ml-auto shrink-0">
+                      {formatDateShort(s.derniere_mise_a_jour)}
+                    </span>
+                  </div>
+                  <p class="text-[14px] text-gris-clair leading-relaxed">{s.statut}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* ── Meta ── */}
+        {sujetsData.meta && (
+          <div class="font-mono text-[10px] text-gris-clair text-center pb-10 border-t border-gris-chaud pt-6">
+            {sujetsData.meta.nb_articles_analyses} articles analysés · {sujetsData.meta.modele}
+          </div>
+        )}
+      </div>
+    ) : (
+      <div class="max-w-[760px] mx-auto px-4 md:px-5 py-24 text-center">
+        <p class="text-gris-clair text-[16px] mb-4">Aucun sujet sur le radar pour le moment.</p>
+        <a href="/" class="inline-block text-bleu-rep no-underline hover:underline font-semibold text-[15px]">Voir l'édition du matin</a>
+      </div>
+    )}
+  </main>
+  <Footer />
+</BaseLayout>

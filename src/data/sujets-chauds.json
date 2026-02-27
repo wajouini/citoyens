@@ -1,38 +1,64 @@
 {
   "date": "2026-02-27",
-  "genere_a": "2026-02-27T11:36:20.882Z",
+  "genere_a": "2026-02-27T15:26:24.925Z",
   "sujets_actifs": [
     {
       "titre": "Guerre ouverte entre le Pakistan et l'Afghanistan",
-      "slug": "guerre-pakistan-afghanistan-2026",
+      "slug": "guerre-ouverte-pakistan-afghanistan",
       "intensite": "brulant",
       "rubrique": "international",
-      "resume": "Le Pakistan a officiellement déclaré une « guerre ouverte » aux autorités talibanes d'Afghanistan ce vendredi 27 février. Cette escalade majeure fait suite à une offensive afghane à la frontière et a déclenché des bombardements pakistanais massifs, touchant notamment Kaboul et Kandahar. La Chine a immédiatement proposé sa médiation pour tenter d'instaurer un cessez-le-feu.",
+      "resume": "Le Pakistan a officiellement déclaré un état de « guerre ouverte » contre le régime Taliban en Afghanistan après avoir bombardé plusieurs grandes villes, dont la capitale Kaboul. Cette escalade militaire sans précédent fait suite à des mois de tensions frontalières et d'accusations mutuelles de terrorisme. Islamabad justifie ces frappes par la nécessité de neutraliser des groupes militants basés en territoire afghan.",
       "chronologie": [
         {
           "date": "2026-02-27",
-          "texte": "Islamabad déclare officiellement la guerre et bombarde plusieurs villes afghanes dont Kaboul.",
-          "source": "Mediapart"
+          "texte": "Le Pakistan bombarde Kaboul et d'autres villes majeures, déclarant officiellement l'état de guerre.",
+          "source": "The Guardian"
         },
         {
           "date": "2026-02-27",
-          "texte": "La Chine se pose en médiatrice et appelle à un cessez-le-feu immédiat.",
-          "source": "franceinfo"
+          "texte": "Le gouvernement pakistanais annonce une augmentation de 20% de ses dépenses militaires.",
+          "source": "BFM TV"
         },
         {
           "date": "2026-02-26",
-          "texte": "Des troupes afghanes attaquent des positions frontalières pakistanaises après des mois de tensions.",
+          "texte": "Des troupes afghanes attaquent des positions frontalières pakistanaises, déclenchant la riposte aérienne.",
           "source": "NYT World"
         }
       ],
       "couvertures": [
         {
-          "source": "The Guardian",
+          "source": "The New York Times",
           "type": "etranger",
-          "angle": "Focus sur l'épuisement de la patience pakistanaise face aux groupes militants hébergés en Afghanistan.",
+          "angle": "Analyse des causes profondes liées au soutien présumé des Talibans à des groupes militants.",
+          "ton": "factuel",
+          "url": "https://www.nytimes.com/2026/02/27/world/asia/afghanistan-pakistan-taliban-airstrikes.html",
+          "citation_cle": "La violence renouvelée découle des accusations du Pakistan selon lesquelles le gouvernement taliban abrite un groupe militant.",
+          "groupe_media": null
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Focus sur la puissance de feu du Pakistan, membre du club des puissances nucléaires.",
           "ton": "alarmiste",
-          "url": "https://www.theguardian.com/world/live/2026/feb/27/pakistan-afghanistan-taliban-war-cross-border-kabul-latest-news-updates",
-          "citation_cle": "Notre patience est désormais à bout.",
+          "url": "https://www.bfmtv.com/economie/entreprises/defense/il-fait-partie-des-9-puissances-nucleaires-et-son-armee-est-mieux-classee-que-celle-de-l-iran-ou-israel-le-pakistan-qui-lance-la-guerre-aux-talibans-a-augmente-ses-depenses-militaires-de-20-en-2025_AV-202602270577.html",
+          "citation_cle": "Le Pakistan lance la guerre aux talibans et a augmenté ses dépenses militaires de 20% en 2025.",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quelle sera l'ampleur de la riposte terrestre des Talibans ?",
+        "La Chine ou les États-Unis vont-ils intervenir diplomatiquement pour éviter un embrasement régional ?"
+      ],
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/feb/27/pakistan-declares-state-of-open-war-after-bombing-major-afghan-cities",
+          "type": "etranger",
           "groupe_media": {
             "nom": "Scott Trust",
             "proprietaire": "Scott Trust Limited",
@@ -41,28 +67,158 @@
           }
         },
         {
-          "source": "RFI",
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260227-tensions-pakistan-afghanistan-kaboul-veut-privil%C3%A9gier-le-dialogue",
           "type": "mainstream",
-          "angle": "Analyse géopolitique sur le risque nucléaire et la nature des affrontements frontaliers.",
-          "ton": "factuel",
-          "url": "https://www.rfi.fr/fr/asie-pacifique/20260227-les-pakistanais-n-utiliseront-pas-l-arme-nucl%C3%A9aire-contre-l-afghanistan-selon-le-g%C3%A9opolitologue-didier-chaudet",
-          "citation_cle": "Les Pakistanais n'utiliseront pas l'arme nucléaire contre l'Afghanistan.",
+          "groupe_media": null
+        }
+      ],
+      "premiere_apparition": "2026-02-26"
+    },
+    {
+      "titre": "Mercosur : Bruxelles passe en force malgré l'opposition française",
+      "slug": "mercosur-ue-force-opposition-france",
+      "intensite": "brulant",
+      "rubrique": "economie",
+      "resume": "Ursula von der Leyen a annoncé l'application provisoire de l'accord commercial entre l'UE et les pays du Mercosur, contournant ainsi le blocage de la France. Emmanuel Macron a vivement dénoncé un « choix unilatéral » et une « mauvaise surprise ». Cette décision provoque la colère immédiate des syndicats agricoles français qui parlent de déni de démocratie.",
+      "chronologie": [
+        {
+          "date": "2026-02-27",
+          "texte": "Ursula von der Leyen annonce l'application provisoire de l'accord sans attendre le vote final.",
+          "source": "franceinfo"
+        },
+        {
+          "date": "2026-02-27",
+          "texte": "Emmanuel Macron fustige une décision unilatérale de la Commission européenne.",
+          "source": "Le Monde"
+        },
+        {
+          "date": "2026-02-27",
+          "texte": "Les agriculteurs français annoncent de nouvelles actions de protestation.",
+          "source": "Le Monde"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Analyse de la rupture diplomatique entre Paris et la Commission européenne.",
+          "ton": "critique",
+          "url": "https://www.lemonde.fr/economie/article/2026/02/27/accord-ue-mercosur-emmanuel-macron-denonce-une-mauvaise-suprise-de-la-commission-europeenne-les-agriculteurs-condamnent-un-deni-de-democratie_6668583_3234.html",
+          "citation_cle": "La décision de la Commission d’appliquer de manière provisoire l’accord fait l’unanimité contre elle en France.",
           "groupe_media": {
-            "nom": "France Médias Monde",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Les Décodeurs",
+          "type": "fact-check",
+          "angle": "Explication pédagogique des étapes juridiques de l'application provisoire.",
+          "ton": "neutre",
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/02/27/accord-ue-mercosur-cinq-questions-pour-comprendre-ou-on-en-est_6661184_4355771.html",
+          "citation_cle": "Son entrée en vigueur définitive dépend encore du vote du Parlement européen.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "La France peut-elle encore juridiquement bloquer le traité au Parlement européen ?",
+        "Quelles seront les mesures de rétorsion des agriculteurs français dans les prochains jours ?"
+      ],
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/feb/27/russia-europe-nuclear-plant-iaea-southern-ukraine-latest-news-updates",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/economie/commerce/mercosur/l-union-europeenne-va-appliquer-de-facon-provisoire-l-accord-commercial-avec-les-pays-du-mercosur-annonce-ursula-von-der-leyen_7833557.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         }
       ],
+      "premiere_apparition": "2026-02-27"
+    },
+    {
+      "titre": "Cyberattaque Cegedim : 15 millions de dossiers médicaux piratés",
+      "slug": "cyberattaque-cegedim-sante-donnees-medicales",
+      "intensite": "intense",
+      "rubrique": "societe",
+      "resume": "Une faille massive dans le logiciel médical de la société Cegedim Santé a permis le vol des données personnelles et médicales de 15 millions de Français. Environ 1 500 comptes de médecins ont été compromis, exposant non seulement l'identité des patients mais aussi des commentaires cliniques confidentiels. Le parquet de Paris a ouvert une enquête.",
+      "chronologie": [
+        {
+          "date": "2026-02-27",
+          "texte": "Le parquet de Paris confirme l'ouverture d'une enquête confiée à la Brigade de lutte contre la cybercriminalité.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-02-27",
+          "texte": "La CNIL indique qu'elle ne peut pas encore confirmer officiellement le nombre total de victimes.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-02-26",
+          "texte": "Révélation de l'intrusion dans le logiciel utilisé par 1 500 médecins.",
+          "source": "franceinfo"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Libération",
+          "type": "mainstream",
+          "angle": "Focus sur les risques à long terme pour les patients dont les données sont désormais « dans la nature ».",
+          "ton": "alarmiste",
+          "url": "https://www.liberation.fr/societe/sante/fuite-massive-de-donnees-medicales-cela-aura-des-consequences-irremediables-20260227_5HHXXNKTDFATTKA3KZ4MHFL2MU/",
+          "citation_cle": "Cela aura des conséquences irrémédiables.",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "source": "L'Humanité",
+          "type": "mainstream",
+          "angle": "Mise en cause de la sécurité des prestataires privés de santé.",
+          "ton": "critique",
+          "url": "https://www.humanite.fr/societe/piratage-informatique/cyberattaque-dans-la-sante-une-enquete-ouverte-apres-le-piratage-des-donnees-administratives-de-15-millions-de-francais",
+          "citation_cle": "Le piratage des comptes de 1 500 médecins a fait fuiter les données de quinze millions de Français.",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        }
+      ],
       "ce_quon_ne_sait_pas": [
-        "Le bilan humain exact des frappes aériennes sur Kaboul et Kandahar.",
-        "La capacité réelle des Talibans à répondre à une armée conventionnelle sur le long terme."
+        "Les données ont-elles déjà été revendues sur le dark web ?",
+        "Y aura-t-il une action de groupe (class action) contre Cegedim pour défaut de sécurisation ?"
       ],
       "sources": [
         {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/monde/afghanistan/direct-le-pakistan-declare-la-guerre-ouverte-a-l-afghanistan-apres-des-frappes-entre-les-deux-pays_7833176.html",
+          "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/quinze-millions-de-patients-concernes-1-500-medecins-vises-une-enquete-ouverte-ce-que-l-on-sait-de-la-cyberattaque-qui-a-cible-un-logiciel-medical_7833611.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -72,13 +228,13 @@
           }
         },
         {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/02/27/world/asia/afghanistan-pakistan-taliban-airstrikes.html",
+          "nom": "The Register",
+          "url": "https://www.theregister.com/2026/02/27/manomano_breach/",
           "type": "etranger",
           "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
             "orientation": "centre"
           }
         }
@@ -86,219 +242,100 @@
       "premiere_apparition": "2026-02-26"
     },
     {
-      "titre": "Mercosur : L'UE impose l'accord malgré la fronde",
-      "slug": "accord-ue-mercosur-application-provisoire",
-      "intensite": "brulant",
-      "rubrique": "economie",
-      "resume": "Ursula von der Leyen a annoncé l'application provisoire de l'accord commercial entre l'UE et le Mercosur ce vendredi. Cette décision intervient malgré l'opposition farouche de la France et une saisine de la Cour de justice de l'UE par le Parlement européen. Bruxelles justifie cette urgence par la nécessité de ne pas affaiblir l'influence européenne après la ratification du traité par l'Uruguay et l'Argentine.",
+      "titre": "OpenAI : Levée de fonds historique de 110 milliards de dollars",
+      "slug": "openai-levee-fonds-record-amazon-nvidia",
+      "intensite": "en_montee",
+      "rubrique": "ia",
+      "resume": "OpenAI a pulvérisé les records avec un nouveau tour de table de 110 milliards de dollars, portant sa valorisation à 730 milliards. Amazon injecte à lui seul 50 milliards, suivi par Nvidia et Softbank (30 milliards chacun). Ces fonds colossaux visent à financer le développement de modèles d'IA toujours plus gourmands en ressources de calcul.",
       "chronologie": [
         {
           "date": "2026-02-27",
-          "texte": "Ursula von der Leyen annonce l'application provisoire immédiate du traité.",
-          "source": "Le Monde"
+          "texte": "OpenAI officialise la clôture de la levée de fonds avec Amazon, Nvidia et Softbank.",
+          "source": "Next"
         },
         {
           "date": "2026-02-27",
-          "texte": "La ministre française de l'Agriculture déplore une décision non conforme au respect du Parlement.",
-          "source": "franceinfo"
-        },
-        {
-          "date": "2026-02-26",
-          "texte": "L'Uruguay et l'Argentine ratifient officiellement l'accord commercial.",
-          "source": "BFM TV"
+          "texte": "La valorisation de l'entreprise est estimée à 730 milliards de dollars.",
+          "source": "TechCrunch"
         }
       ],
       "couvertures": [
         {
-          "source": "Politico EU",
+          "source": "TechCrunch",
           "type": "etranger",
-          "angle": "Souligne le caractère controversé de l'absence de bénédiction officielle du Parlement européen.",
-          "ton": "neutre",
-          "url": "https://www.politico.eu/article/brussels-implements-eu-mercosur-trade-deal/",
-          "citation_cle": "L'accord est controversé car il n'a pas encore été officiellement béni par le Parlement européen.",
+          "angle": "Analyse de l'impact sur le marché des capitaux privés et la domination d'OpenAI.",
+          "ton": "factuel",
+          "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
+          "citation_cle": "L'une des plus grandes levées de fonds privées de l'histoire.",
           "groupe_media": {
-            "nom": "Axel Springer / KKR",
-            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
             "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "orientation": "centre"
           }
         },
         {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Focus sur la réaction de colère du gouvernement français et des agriculteurs au Salon de l'Agriculture.",
-          "ton": "critique",
-          "url": "https://www.bfmtv.com/international/europe/video-une-decision-evidemment-que-je-regrette-annie-genevard-reagit-a-l-application-provisoire-de-l-accord-avec-le-mercosur_VN-202602270438.html",
-          "citation_cle": "C'est un signal politique, tout retard risque d'affaiblir notre influence.",
+          "source": "Next",
+          "type": "investigation",
+          "angle": "Focus sur le report de l'introduction en bourse (IPO) au profit de financements privés.",
+          "ton": "neutre",
+          "url": "https://next.ink/226743/openai-leve-110-milliards-de-dollars-aupres-damazon-softbank-et-nvidia/",
+          "citation_cle": "La bourse attendra : OpenAI a dévoilé vendredi les modalités d’un nouveau tour de table record.",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
           }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'impact juridique de la saisine de la Cour de justice de l'UE sur cette application provisoire.",
-        "L'ampleur de la riposte syndicale agricole en France dans les prochains jours."
+        "Quelles contreparties technologiques Amazon et Nvidia ont-ils obtenues ?",
+        "Cette concentration de capital va-t-elle attirer l'attention des autorités antitrust ?"
       ],
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/02/27/mercosur-l-union-europeenne-va-appliquer-l-accord-de-facon-provisoire-annonce-usurla-von-der-leyen_6668551_3234.html",
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/885958/openai-amazon-nvidia-softback-110-billion-investment",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/economie/entreprises/un-tour-de-table-qui-porte-la-valorisation-de-l-entreprise-a-730-milliards-de-dollars-open-ai-annonce-une-levee-de-fonds-record-de-110-milliards-de-dollars-dont-50-milliards-d-amazon_AD-202602270569.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         }
       ],
       "premiere_apparition": "2026-02-27"
-    },
-    {
-      "titre": "Affaire Epstein : Auditions de Bill et Hillary Clinton",
-      "slug": "affaire-epstein-auditions-clinton",
-      "intensite": "intense",
-      "rubrique": "international",
-      "resume": "L'affaire Jeffrey Epstein rebondit avec le témoignage de Bill Clinton devant une commission de la Chambre des représentants, au lendemain de celui de Hillary Clinton. Ces auditions portent sur les liens financiers et les déplacements du couple avec le financier. Parallèlement, Jean-Luc Mélenchon suscite une vive polémique en France pour ses propos sur la prononciation du nom 'Epstein'.",
-      "chronologie": [
-        {
-          "date": "2026-02-27",
-          "texte": "Bill Clinton témoigne devant la commission d'enquête parlementaire.",
-          "source": "The Guardian"
-        },
-        {
-          "date": "2026-02-27",
-          "texte": "Le ministre de l'Intérieur français Laurent Nuñez condamne les propos 'abjects' de Jean-Luc Mélenchon.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-02-26",
-          "texte": "Hillary Clinton qualifie les procédures de 'théâtre politique partisan' lors de sa déposition.",
-          "source": "The Guardian"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Enquête sur les liens d'Epstein avec des dirigeants africains et des contrats de sécurité en Côte d'Ivoire.",
-          "ton": "factuel",
-          "url": "https://www.aljazeera.com/news/2026/2/27/did-epstein-help-israel-push-for-a-security-deal-with-ivory-coast",
-          "citation_cle": "Les derniers fichiers révèlent l'étendue de ses relations avec certains dirigeants africains de premier plan.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Focus sur la polémique politique française entourant les propos de LFI.",
-          "ton": "engage",
-          "url": "https://www.bfmtv.com/politique/gouvernement/des-propos-abjects-laurent-nunez-condamne-tres-fermement-les-propos-de-jean-luc-melenchon-sur-la-prononciation-du-nom-epstein_AD-202602270453.html",
-          "citation_cle": "Je crois que Jean-Luc Mélenchon joue sur l'ambiguïté.",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Le contenu exact des nouveaux fichiers Epstein mentionnés dans les rapports récents.",
-        "Si des poursuites judiciaires directes découleront de ces auditions parlementaires."
-      ],
-      "sources": [
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/feb/27/bill-clinton-testimony-jeffrey-epstein-investigation",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-01-15"
-    },
-    {
-      "titre": "Fuite de données médicales : 15 millions de Français touchés",
-      "slug": "fuite-donnees-medicales-france-2026",
-      "intensite": "en_montee",
-      "rubrique": "societe",
-      "resume": "Une enquête de France 2 a révélé une faille massive exposant les données de santé de 11 à 15 millions de Français. Ces informations, incluant des pathologies précises, seraient en libre accès sur le web. Les autorités appellent à la vigilance alors que l'origine de la fuite reste à confirmer.",
-      "chronologie": [
-        {
-          "date": "2026-02-27",
-          "texte": "Libération confirme que les données sont en libre accès sur le net.",
-          "source": "Libération"
-        },
-        {
-          "date": "2026-02-26",
-          "texte": "Révélation de l'ampleur de la fuite par l'enquête 'Envoyé Spécial' de France 2.",
-          "source": "franceinfo"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Libération",
-          "type": "mainstream",
-          "angle": "Détails sur la nature des données compromises (identités, résultats d'examens).",
-          "ton": "alarmiste",
-          "url": "https://www.liberation.fr/societe/sante/entre-11-a-15-millions-de-personnes-touchees-par-une-fuite-de-donnees-medicales-dampleur-en-france-20260227_B5IJ6ZKK6BF6VGECDQJSER3HLY/",
-          "citation_cle": "Certaines données très précises sont en libre accès.",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'identité précise de l'organisme ou du prestataire responsable de la faille.",
-        "Si des demandes de rançon ont été formulées avant la mise en ligne."
-      ],
-      "sources": [
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/societe/sante/entre-11-a-15-millions-de-personnes-touchees-par-une-fuite-de-donnees-medicales-dampleur-en-france-20260227_B5IJ6ZKK6BF6VGECDQJSER3HLY/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-02-26"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Lecornu III : Jean-Didier Berger sur la sellette",
-      "slug": "lecornu-iii-berger-sellette",
+      "titre": "César 2026",
+      "slug": "cesar-2026-sacre-attachement",
       "derniere_mise_a_jour": "2026-02-27",
-      "statut": "Sujet stabilisé en attente de décisions gouvernementales officielles."
+      "statut": "La cérémonie est terminée, le palmarès est désormais figé."
     },
     {
-      "titre": "Bénéfice record pour la SNCF",
-      "slug": "benefice-record-sncf-2025",
+      "titre": "Bénéfices records de la SNCF",
+      "slug": "sncf-benefice-record-2025",
       "derniere_mise_a_jour": "2026-02-26",
-      "statut": "L'actualité financière a laissé place aux crises géopolitiques."
+      "statut": "L'annonce financière a été traitée et l'actualité se déplace vers les enjeux sociaux du printemps."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 525,
+    "nb_articles_analyses": 532,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

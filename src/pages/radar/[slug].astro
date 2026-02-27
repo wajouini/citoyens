@@ -1,0 +1,204 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import MediaOwnerBadge from '../../components/home/MediaOwnerBadge.astro';
+
+export async function getStaticPaths() {
+  const data = await import('../../data/sujets-chauds.json').then(m => m.default).catch(() => null);
+  const sujets = data?.sujets_actifs || [];
+  return sujets.map((s: any) => ({ params: { slug: s.slug }, props: { sujet: s, date: data?.date } }));
+}
+
+const { sujet, date } = Astro.props;
+
+const formatDate = (dateStr: string) => {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+};
+
+const formatDateShort = (dateStr: string) => {
+  try {
+    const d = new Date(dateStr + 'T00:00:00');
+    return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
+  } catch { return dateStr; }
+};
+
+const intensiteBadge: Record<string, { label: string; cls: string; icon: string }> = {
+  brulant: { label: 'Brûlant', cls: 'bg-rouge-doux text-white', icon: '🔥' },
+  intense: { label: 'Intense', cls: 'bg-orange text-white', icon: '⚡' },
+  en_montee: { label: 'En montée', cls: 'bg-amber-500 text-white', icon: '📈' },
+};
+
+const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
+  politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+  economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10' },
+  tech: { label: 'Tech', color: 'text-purple-700', bg: 'bg-purple-50' },
+  science: { label: 'Science', color: 'text-vert', bg: 'bg-green-50' },
+  societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50' },
+  international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50' },
+  ia: { label: 'IA', color: 'text-indigo-700', bg: 'bg-indigo-50' },
+};
+
+const tonBadge: Record<string, { label: string; cls: string }> = {
+  critique: { label: 'Critique', cls: 'bg-rouge-doux/10 text-rouge-doux' },
+  factuel: { label: 'Factuel', cls: 'bg-bleu-clair text-bleu-rep' },
+  alarmiste: { label: 'Alarmiste', cls: 'bg-orange/10 text-orange' },
+  complaisant: { label: 'Complaisant', cls: 'bg-amber-50 text-amber-700' },
+  neutre: { label: 'Neutre', cls: 'bg-gray-100 text-gris-texte' },
+  engage: { label: 'Engagé', cls: 'bg-purple-50 text-purple-700' },
+};
+
+const sourceTypeBg: Record<string, string> = {
+  investigation: 'border-l-orange',
+  mainstream: 'border-l-bleu-rep',
+  'fact-check': 'border-l-vert',
+  etranger: 'border-l-purple-600',
+  institutionnel: 'border-l-gris-clair',
+};
+
+const intensite = intensiteBadge[sujet.intensite] || intensiteBadge.intense;
+const rubrique = rubriqueStyle[sujet.rubrique] || rubriqueStyle.politique;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: sujet.titre,
+  description: sujet.resume,
+  datePublished: date,
+  publisher: { '@type': 'Organization', name: 'Citoyens.ai' },
+};
+---
+
+<BaseLayout title={`${sujet.titre} — Radar`} description={sujet.resume} jsonLd={jsonLd}>
+  <Header />
+  <main class="max-w-[760px] mx-auto px-4 md:px-6 pt-8 md:pt-12 pb-16">
+
+    {/* Breadcrumb */}
+    <nav class="flex items-center gap-2 mb-8 font-mono text-[11px] text-gris-clair">
+      <a href="/" class="no-underline hover:text-bleu-rep transition-colors">Accueil</a>
+      <span>›</span>
+      <a href="/radar" class="no-underline hover:text-bleu-rep transition-colors">Radar</a>
+      <span>›</span>
+      <span class="text-noir font-semibold truncate">{sujet.titre}</span>
+    </nav>
+
+    {/* Header */}
+    <div class="flex items-center gap-2 mb-5 flex-wrap">
+      <span class={`font-mono text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full ${intensite.cls}`}>
+        {intensite.icon} {intensite.label}
+      </span>
+      <span class={`font-mono text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full ${rubrique.bg} ${rubrique.color}`}>
+        {rubrique.label}
+      </span>
+      <span class="font-mono text-[10px] text-gris-clair ml-auto">
+        Suivi depuis le {formatDateShort(sujet.premiere_apparition)}
+      </span>
+    </div>
+
+    <h1 class="font-display text-[28px] md:text-[42px] font-black leading-[1.1] tracking-tight text-noir mb-6">
+      {sujet.titre}
+    </h1>
+
+    <p class="text-[17px] md:text-[19px] leading-relaxed text-gris-texte mb-10 max-w-[640px]">
+      {sujet.resume}
+    </p>
+
+    {/* ── CHRONOLOGIE ── */}
+    {sujet.chronologie?.length > 0 && (
+      <section class="mb-12">
+        <h2 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-6 flex items-center gap-2 font-bold">
+          <span class="text-base">⏱</span> Chronologie
+        </h2>
+        <div class="relative pl-5 border-l-2 border-gris-chaud/50 space-y-6">
+          {sujet.chronologie.map((evt: any) => (
+            <div class="relative">
+              <span class="absolute -left-[23px] top-1.5 w-3 h-3 rounded-full bg-blanc border-2 border-bleu-rep"></span>
+              <div class="flex items-baseline gap-2 mb-1.5">
+                <span class="font-mono text-[12px] font-bold text-bleu-rep shrink-0">{formatDateShort(evt.date)}</span>
+                {evt.source && <span class="font-mono text-[10px] text-gris-clair">via {evt.source}</span>}
+              </div>
+              <p class="text-[15px] text-noir leading-relaxed">{evt.texte}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* ── COUVERTURES MÉDIAS ── */}
+    {sujet.couvertures?.length > 0 && (
+      <section class="mb-12">
+        <h2 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-6 flex items-center gap-2 font-bold">
+          <span class="text-base">📰</span> Comment les médias en parlent
+        </h2>
+        <div class="flex flex-col gap-4">
+          {sujet.couvertures.map((c: any) => (
+            <a href={c.url} target="_blank" rel="noopener noreferrer"
+               class={`block p-5 rounded-xl border border-gris-chaud border-l-4 ${sourceTypeBg[c.type] || 'border-l-gris-clair'} bg-blanc no-underline hover:shadow-md transition-shadow group/card`}>
+              <div class="flex items-center gap-2 mb-2 flex-wrap">
+                <span class="font-mono text-[13px] font-bold text-noir">{c.source}</span>
+                {tonBadge[c.ton] && (
+                  <span class={`text-[9px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded-full ${tonBadge[c.ton].cls}`}>
+                    {tonBadge[c.ton].label}
+                  </span>
+                )}
+                {c.groupe_media && <MediaOwnerBadge groupe_media={c.groupe_media} compact={true} />}
+              </div>
+              <p class="text-[15px] leading-snug text-noir font-semibold mb-1.5 group-hover/card:text-bleu-rep transition-colors">
+                {c.angle}
+              </p>
+              {c.citation_cle && (
+                <p class="text-[13px] text-gris-texte italic leading-relaxed mt-2.5 border-t border-gris-chaud/50 pt-2.5">
+                  « {c.citation_cle} »
+                </p>
+              )}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* ── CE QU'ON NE SAIT PAS ENCORE ── */}
+    {sujet.ce_quon_ne_sait_pas?.length > 0 && (
+      <section class="mb-12">
+        <div class="bg-orange/5 border border-orange/20 rounded-xl p-6">
+          <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-orange mb-4 flex items-center gap-2">
+            <span>❓</span> Ce qu'on ne sait pas encore
+          </h2>
+          <ul class="flex flex-col gap-3">
+            {sujet.ce_quon_ne_sait_pas.map((q: string) => (
+              <li class="flex items-start gap-3 text-[15px] text-noir leading-relaxed">
+                <span class="text-orange mt-1 shrink-0 text-xs">▸</span>
+                <span>{q}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )}
+
+    {/* ── SOURCES ── */}
+    {sujet.sources?.length > 0 && (
+      <section class="mb-12 pt-8 border-t border-gris-chaud">
+        <h2 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-4 font-bold">Sources</h2>
+        <div class="flex flex-wrap gap-2">
+          {sujet.sources.map((src: any) => (
+            <a href={src.url} target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-1.5 text-[12px] font-mono font-medium text-gris-texte bg-creme no-underline hover:text-bleu-rep hover:bg-bleu-clair/30 transition-colors border border-gris-chaud rounded-full px-3 py-1.5">
+              {src.groupe_media && <MediaOwnerBadge groupe_media={src.groupe_media} compact={true} />}
+              {src.nom} ↗
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* ── Footer meta ── */}
+    <div class="font-mono text-[10px] text-gris-clair text-center pt-6 border-t border-gris-chaud">
+      Analyse générée par IA · <a href="/methodologie" class="underline hover:text-bleu-rep">Notre méthodologie</a>
+    </div>
+
+  </main>
+  <Footer />
+</BaseLayout>
