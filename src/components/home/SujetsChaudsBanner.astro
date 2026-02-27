@@ -5,32 +5,46 @@ interface Props {
 
 const { sujets } = Astro.props;
 
-const intensiteBadge: Record<string, { label: string; bg: string; text: string; dot: string }> = {
-  brulant: { label: '🔥 Brûlant', bg: 'bg-rouge-doux/10', text: 'text-rouge-doux', dot: 'bg-rouge-doux' },
-  intense: { label: '⚡ Intense', bg: 'bg-orange/10', text: 'text-orange', dot: 'bg-orange' },
-  en_montee: { label: '📈 En montée', bg: 'bg-amber-50', text: 'text-amber-700', dot: 'bg-amber-500' },
+const intensiteBadge: Record<string, { label: string; bg: string; text: string; dot: string; icon: string }> = {
+  brulant: { label: 'Brûlant', bg: 'bg-rouge-doux/10', text: 'text-rouge-doux', dot: 'bg-rouge-doux', icon: '🔥' },
+  intense: { label: 'Intense', bg: 'bg-orange/10', text: 'text-orange', dot: 'bg-orange', icon: '⚡' },
+  en_montee: { label: 'En montée', bg: 'bg-amber-50', text: 'text-amber-700', dot: 'bg-amber-500', icon: '📈' },
 };
 ---
 
 {sujets.length > 0 && (
-  <div class="border-b border-gris-chaud bg-creme/80">
-    <div class="max-w-[760px] mx-auto px-4 py-3">
-      <div class="flex items-center gap-3 overflow-x-auto scrollbar-hide">
-        <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-noir shrink-0">Sujets chauds</span>
-        <div class="w-px h-4 bg-gris-chaud shrink-0"></div>
-        {sujets.map((s: any) => {
+  <div class="border-b-[3px] border-noir bg-creme pb-8 pt-6">
+    <div class="max-w-[1280px] mx-auto px-4 md:px-6">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="font-display text-xl md:text-2xl font-black text-noir flex items-center gap-2">
+          <span class="text-rouge-doux">🔥</span> En direct
+        </h2>
+        <a href="/sujets-chauds" class="font-mono text-[11px] text-bleu-rep no-underline hover:underline font-semibold">
+          Tous les sujets →
+        </a>
+      </div>
+      
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {sujets.slice(0, 4).map((s: any) => {
           const badge = intensiteBadge[s.intensite] || intensiteBadge.en_montee;
           return (
             <a href={`/sujets-chauds#${s.slug}`}
-               class={`inline-flex items-center gap-1.5 shrink-0 px-3 py-1.5 rounded-full no-underline transition-all hover:shadow-sm ${badge.bg} group`}>
-              <span class={`w-1.5 h-1.5 rounded-full ${badge.dot} ${s.intensite === 'brulant' ? 'animate-pulse' : ''}`}></span>
-              <span class={`text-[12px] font-semibold ${badge.text} group-hover:underline`}>{s.titre}</span>
+               class="flex flex-col p-4 bg-blanc border border-gris-chaud rounded-xl no-underline hover:border-bleu-rep hover:shadow-md transition-all group">
+              <div class="flex items-center gap-2 mb-2">
+                <span class={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full ${badge.bg} text-[10px] font-mono font-bold uppercase tracking-wider`}>
+                  <span class={`w-1.5 h-1.5 rounded-full ${badge.dot} ${s.intensite === 'brulant' ? 'animate-pulse' : ''}`}></span>
+                  <span class={badge.text}>{badge.label}</span>
+                </span>
+                <span class="text-[10px] text-gris-clair font-mono">
+                  {s.articles_lies?.length || 0} articles
+                </span>
+              </div>
+              <h3 class="font-display text-[16px] font-bold text-noir leading-snug group-hover:text-bleu-rep transition-colors">
+                {s.titre}
+              </h3>
             </a>
           );
         })}
-        <a href="/sujets-chauds" class="shrink-0 text-[11px] font-mono text-bleu-rep no-underline hover:underline">
-          Voir tout →
-        </a>
       </div>
     </div>
   </div>
