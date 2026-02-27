@@ -44,15 +44,24 @@ const defaultAccent = { border: 'border-gris-chaud', bg: 'bg-gray-50', text: 'te
 <div class={`flex flex-wrap gap-2 ${compact ? '' : 'mt-2'}`}>
   {sources.map((src) => {
     const accent = typeAccent[src.type || ''] || defaultAccent;
+    const commonClasses = `inline-flex items-center gap-1.5 text-[11px] font-mono font-medium no-underline
+          border-l-[3px] ${accent.border} ${accent.bg}
+          rounded-r-md px-2.5 py-1.5`;
+
+    if (!src.url) {
+      return (
+        <span class={`${commonClasses} opacity-80 cursor-default`}>
+          <span class={`font-semibold ${accent.text}`}>{src.nom}</span>
+        </span>
+      );
+    }
+
     return (
       <a
         href={src.url}
         target="_blank"
         rel="noopener noreferrer"
-        class={`inline-flex items-center gap-1.5 text-[11px] font-mono font-medium no-underline
-          border-l-[3px] ${accent.border} ${accent.bg}
-          rounded-r-md px-2.5 py-1.5
-          hover:shadow-sm hover:brightness-95 transition-all`}
+        class={`${commonClasses} hover:shadow-sm hover:brightness-95 transition-all`}
       >
         <span class={`font-semibold ${accent.text}`}>{src.nom}</span>
         <span class="text-gris-clair">↗</span>
