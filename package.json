@@ -4,15 +4,29 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && npx pagefind --site dist",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "fetch:news": "tsx scripts/fetch-news.ts",
+    "fetch:votes": "tsx scripts/fetch-votes.ts",
+    "generate:une": "tsx scripts/generate-une.ts",
+    "daily": "tsx scripts/daily-pipeline.ts",
+    "daily:deploy": "tsx scripts/daily-pipeline.ts --deploy",
+    "generate:soir": "tsx scripts/generate-soir.ts",
+    "newsletter": "tsx scripts/send-newsletter.ts",
+    "alerts:deputes": "tsx scripts/send-deputy-alerts.ts",
+    "subscribers": "tsx scripts/manage-subscribers.ts",
+    "generate:decryptage": "tsx scripts/generate-decryptage.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/sitemap": "^3.7.0",
     "@tailwindcss/vite": "^4.1.18",
     "astro": "^5.17.1",
+    "pagefind": "^1.4.0",
+    "resend": "^6.9.2",
+    "rss-parser": "^3.13.0",
     "tailwindcss": "^4.1.18",
     "unzipper": "^0.12.3"
   },

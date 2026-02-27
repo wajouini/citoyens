@@ -1,0 +1,153 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+export async function getStaticPaths() {
+  const modules = import.meta.glob('../../data/decryptages/*.json', { eager: true });
+  const paths = [];
+
+  for (const [, mod] of Object.entries(modules)) {
+    const data = (mod as any).default;
+    if (data?.slug) {
+      paths.push({ params: { slug: data.slug }, props: { decryptage: data } });
+    }
+  }
+
+  return paths;
+}
+
+const { decryptage } = Astro.props;
+
+const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
+  politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+  economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10' },
+  tech: { label: 'Tech', color: 'text-purple-700', bg: 'bg-purple-50' },
+  science: { label: 'Science', color: 'text-vert', bg: 'bg-green-50' },
+  societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50' },
+  international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50' },
+};
+
+const style = rubriqueStyle[decryptage.rubrique] || rubriqueStyle.politique;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: decryptage.titre,
+  description: decryptage.sous_titre,
+  datePublished: decryptage.date,
+  publisher: { '@type': 'Organization', name: 'Citoyens.ai', url: 'https://citoyens.ai' },
+  mainEntityOfPage: `https://citoyens.ai/decryptage/${decryptage.slug}`,
+};
+---
+
+<BaseLayout title={decryptage.titre} description={decryptage.sous_titre} jsonLd={jsonLd}>
+  <Header />
+  <main>
+    <article class="max-w-[760px] mx-auto px-4 md:px-5 py-10">
+      <!-- Header -->
+      <div class="mb-8">
+        <div class="flex items-center gap-2 mb-3">
+          <a href="/decryptage" class="font-mono text-[11px] text-bleu-rep no-underline hover:underline">&larr; Décryptages</a>
+          <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${style.bg} ${style.color}`}>
+            {style.label}
+          </span>
+          <span class="font-mono text-[11px] text-gris-clair">
+            {new Date(decryptage.date + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
+          </span>
+        </div>
+        <h1 class="font-display text-[28px] md:text-[40px] font-black leading-[1.1] tracking-tight text-noir mb-3">
+          {decryptage.titre}
+        </h1>
+        <p class="text-[17px] font-semibold text-bleu-rep leading-snug">
+          {decryptage.sous_titre}
+        </p>
+      </div>
+
+      <div class="h-px bg-gris-chaud mb-8"></div>
+
+      <!-- Introduction -->
+      <div class="text-[16px] leading-[1.8] text-noir mb-10 whitespace-pre-line">
+        {decryptage.introduction}
+      </div>
+
+      <!-- TOC -->
+      {decryptage.sections?.length > 0 && (
+        <nav class="bg-creme rounded-xl p-4 mb-10">
+          <div class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair mb-2">Sommaire</div>
+          <ol class="flex flex-col gap-1.5">
+            {decryptage.sections.map((s: any, i: number) => (
+              <li>
+                <a href={`#section-${i}`} class="text-[14px] text-bleu-rep no-underline hover:underline font-medium">
+                  {i + 1}. {s.titre}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )}
+
+      <!-- Sections -->
+      {decryptage.sections?.map((section: any, i: number) => (
+        <section id={`section-${i}`} class="mb-10">
+          <h2 class="font-display text-[22px] md:text-[26px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">
+            {section.titre}
+          </h2>
+          <div class="text-[15px] leading-[1.8] text-noir whitespace-pre-line">
+            {section.contenu}
+          </div>
+        </section>
+      ))}
+
+      <!-- Chiffres cles -->
+      {decryptage.chiffres_cles?.length > 0 && (
+        <section class="mb-10">
+          <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Les chiffres clés</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {decryptage.chiffres_cles.map((c: any) => (
+              <div class="bg-noir text-white rounded-xl p-4">
+                <div class="font-mono text-[28px] font-bold leading-none mb-2">{c.valeur}</div>
+                <p class="text-[13px] text-white/80 leading-relaxed mb-1">{c.contexte}</p>
+                <span class="font-mono text-[10px] text-white/40">{c.source}</span>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Ce qu'il faut retenir -->
+      {decryptage.ce_quil_faut_retenir && (
+        <section class="mb-10">
+          <div class="border-2 border-noir rounded-xl p-5 bg-blanc">
+            <h3 class="font-mono text-[9px] uppercase tracking-[2px] text-noir mb-2">Ce qu'il faut retenir</h3>
+            <p class="text-[16px] leading-[1.7] text-noir font-medium whitespace-pre-line">
+              {decryptage.ce_quil_faut_retenir}
+            </p>
+          </div>
+        </section>
+      )}
+
+      <!-- Sources -->
+      {decryptage.sources?.length > 0 && (
+        <section class="mb-10">
+          <h3 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-3">Sources</h3>
+          <div class="flex flex-wrap gap-2">
+            {decryptage.sources.map((src: any) => (
+              <a href={src.url} target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 text-[11px] font-mono font-medium text-gris-texte no-underline hover:text-bleu-rep transition-colors border border-gris-chaud rounded-full px-2.5 py-1">
+                {src.nom} ↗
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Meta -->
+      <div class="font-mono text-[9px] text-gris-clair text-center pb-4 border-t border-gris-chaud pt-4">
+        Décryptage généré par IA à partir de {decryptage.meta?.nb_articles_source || '?'} articles · {decryptage.meta?.modele || 'N/A'} · <a href="/methodologie" class="underline hover:text-bleu-rep">Notre méthodologie</a>
+      </div>
+    </article>
+  </main>
+  <Footer />
+</BaseLayout>

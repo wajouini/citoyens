@@ -1,0 +1,133 @@
+---
+import uneData from '../../data/une.json';
+import MediaOwnerBadge from './MediaOwnerBadge.astro';
+
+const regardsCroises = (uneData as any).regards_croises || [];
+
+const tonBadge: Record<string, { label: string; class: string }> = {
+  'critique': { label: 'Critique', class: 'bg-rouge-doux/10 text-rouge-doux' },
+  'factuel': { label: 'Factuel', class: 'bg-bleu-clair text-bleu-rep' },
+  'alarmiste': { label: 'Alarmiste', class: 'bg-orange/10 text-orange' },
+  'complaisant': { label: 'Complaisant', class: 'bg-amber-50 text-amber-700' },
+  'neutre': { label: 'Neutre', class: 'bg-gray-100 text-gris-texte' },
+  'engage': { label: 'Engag\u00e9', class: 'bg-purple-50 text-purple-700' },
+};
+
+const sourceTypeColor: Record<string, string> = {
+  'investigation': 'border-l-orange',
+  'mainstream': 'border-l-bleu-rep',
+  'fact-check': 'border-l-vert',
+  'etranger': 'border-l-purple-600',
+  'institutionnel': 'border-l-gris-clair',
+};
+
+const sourceTypeBg: Record<string, string> = {
+  'investigation': 'bg-orange/5',
+  'mainstream': 'bg-bleu-clair/30',
+  'fact-check': 'bg-green-50/50',
+  'etranger': 'bg-purple-50/50',
+  'institutionnel': 'bg-gray-50',
+};
+---
+
+{regardsCroises.length > 0 && (
+  <section class="py-10 border-b border-gris-chaud">
+    <div class="max-w-[1280px] mx-auto px-6">
+      <!-- Section header -->
+      <div class="flex items-center gap-3 mb-8">
+        <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-rouge-doux bg-red-50 px-2 py-0.5 rounded">Regards crois&eacute;s</span>
+        <div class="flex-1 h-px bg-gris-chaud"></div>
+        <span class="font-mono text-[10px] text-gris-clair uppercase tracking-wider">Analyse multi-sources</span>
+      </div>
+
+      {regardsCroises.map((rc: any) => (
+        <article class="mb-10 last:mb-0">
+          <!-- Sujet + contexte -->
+          <div class="mb-6">
+            <h2 class="font-display text-2xl md:text-[30px] font-black leading-tight mb-3 tracking-tight text-noir">
+              {rc.sujet}
+            </h2>
+            <p class="text-[16px] leading-relaxed text-gris-texte max-w-[800px]">
+              {rc.contexte}
+            </p>
+          </div>
+
+          <!-- Couvertures (source cards) -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+            {rc.couvertures?.map((c: any) => (
+              <a href={c.url} target="_blank" rel="noopener noreferrer"
+                 class={`block p-4 rounded-lg border border-gris-chaud border-l-4 ${sourceTypeColor[c.type] || 'border-l-gris-clair'} ${sourceTypeBg[c.type] || 'bg-gray-50'} no-underline hover:shadow-md transition-shadow group`}>
+                <div class="flex items-center gap-2 mb-1.5 flex-wrap">
+                  <span class="font-mono text-[12px] font-bold text-noir">{c.source}</span>
+                  {tonBadge[c.ton] && (
+                    <span class={`text-[9px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded-full ${tonBadge[c.ton].class}`}>
+                      {tonBadge[c.ton].label}
+                    </span>
+                  )}
+                </div>
+                {(c.groupe_media || c.orientation_source) && (
+                  <div class="mb-2">
+                    <MediaOwnerBadge groupe_media={c.groupe_media} orientation_source={c.orientation_source} compact={true} />
+                  </div>
+                )}
+                {c.auteur && (
+                  <div class="font-mono text-[10px] text-gris-clair mb-1.5">
+                    ✍ {c.auteur}
+                  </div>
+                )}
+                <p class="text-[14px] leading-snug text-noir font-semibold mb-1 group-hover:text-bleu-rep transition-colors">
+                  {c.angle}
+                </p>
+                {c.proprietaire_contexte && (
+                  <p class="text-[11px] text-gris-texte leading-snug mb-1 font-mono">
+                    📋 {c.proprietaire_contexte}
+                  </p>
+                )}
+                {c.citation_cle && (
+                  <p class="text-[12px] text-gris-texte italic leading-relaxed mt-2 border-t border-gris-chaud pt-2">
+                    &laquo; {c.citation_cle} &raquo;
+                  </p>
+                )}
+              </a>
+            ))}
+          </div>
+
+          <!-- Analyse de coh&eacute;rence -->
+          <div class="bg-bleu-clair rounded-xl p-5 mb-4">
+            <h4 class="font-mono text-[10px] uppercase tracking-[2px] text-bleu-rep mb-3 flex items-center gap-1.5">
+              <span>&#128269;</span> Analyse de coh&eacute;rence
+            </h4>
+            <p class="text-[15px] leading-relaxed text-noir">
+              {rc.analyse_coherence}
+            </p>
+          </div>
+
+          <!-- Biais d&eacute;tect&eacute;s -->
+          {rc.biais_detectes?.length > 0 && (
+            <div class="mb-4">
+              <h4 class="font-mono text-[10px] uppercase tracking-[2px] text-rouge-doux mb-2">Biais d&eacute;tect&eacute;s</h4>
+              <ul class="flex flex-col gap-1.5">
+                {rc.biais_detectes.map((biais: string) => (
+                  <li class="flex items-start gap-2 text-[14px] text-gris-texte leading-snug">
+                    <span class="text-rouge-doux mt-0.5 shrink-0">&bull;</span>
+                    <span>{biais}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <!-- Verdict citoyens -->
+          <div class="border-2 border-noir rounded-xl p-5 bg-blanc">
+            <h4 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-2 flex items-center gap-1.5">
+              <span>&#9878;&#65039;</span> Verdict Citoyens.ai
+            </h4>
+            <p class="text-[15px] leading-relaxed text-noir font-medium">
+              {rc.verdict_citoyens}
+            </p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+)}

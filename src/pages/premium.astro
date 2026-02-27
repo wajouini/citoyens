@@ -1,0 +1,175 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+---
+
+<BaseLayout title="Premium" description="Soutenez Citoyens.ai et accédez aux archives complètes, aux décryptages longs et à l'édition du soir.">
+  <Header />
+  <main>
+    <div class="max-w-[900px] mx-auto px-4 md:px-5 py-10">
+      <div class="text-center mb-12">
+        <h1 class="font-display text-[32px] md:text-[44px] font-black tracking-tight text-noir mb-4">
+          Informé. En profondeur.
+        </h1>
+        <p class="text-[17px] text-gris-texte leading-relaxed max-w-[500px] mx-auto">
+          L'édition du matin reste gratuite. Le premium débloque la profondeur.
+        </p>
+      </div>
+
+      <!-- Pricing cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-12">
+        <!-- Free -->
+        <div class="border-2 border-gris-chaud rounded-xl p-6 flex flex-col">
+          <div class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair mb-2">Gratuit</div>
+          <div class="font-display text-[32px] font-black text-noir mb-1">0 €</div>
+          <div class="text-[13px] text-gris-clair mb-6">pour toujours</div>
+          <ul class="flex flex-col gap-2 mb-6 flex-1">
+            <li class="flex items-start gap-2 text-[14px] text-noir">
+              <span class="text-vert shrink-0 mt-0.5">✓</span>
+              <span>Édition du matin complète</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-noir">
+              <span class="text-vert shrink-0 mt-0.5">✓</span>
+              <span>Regard croisé quotidien</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-noir">
+              <span class="text-vert shrink-0 mt-0.5">✓</span>
+              <span>Newsletter quotidienne</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-noir">
+              <span class="text-vert shrink-0 mt-0.5">✓</span>
+              <span>Recherche full-text</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-gris-clair">
+              <span class="shrink-0 mt-0.5">—</span>
+              <span>Édition du soir</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-gris-clair">
+              <span class="shrink-0 mt-0.5">—</span>
+              <span>Archives (+ 7 jours)</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-gris-clair">
+              <span class="shrink-0 mt-0.5">—</span>
+              <span>Décryptages hebdo</span>
+            </li>
+          </ul>
+          <a href="/newsletter" class="block text-center border-2 border-noir text-noir font-bold text-[14px] no-underline py-3 px-6 rounded-lg hover:bg-creme transition-colors">
+            S'inscrire
+          </a>
+        </div>
+
+        <!-- Premium -->
+        <div class="border-2 border-bleu-rep rounded-xl p-6 flex flex-col relative bg-bleu-clair/30">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-bleu-rep text-white font-mono text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">
+            Recommandé
+          </div>
+          <div class="font-mono text-[10px] uppercase tracking-[2px] text-bleu-rep mb-2">Premium</div>
+          <div class="font-display text-[32px] font-black text-noir mb-1">5 €<span class="text-[16px] font-medium text-gris-texte">/mois</span></div>
+          <div class="text-[13px] text-gris-clair mb-6">ou 48 €/an (-20%)</div>
+          <ul class="flex flex-col gap-2 mb-6 flex-1">
+            <li class="flex items-start gap-2 text-[14px] text-noir">
+              <span class="text-vert shrink-0 mt-0.5">✓</span>
+              <span>Tout le gratuit</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-noir font-semibold">
+              <span class="text-bleu-rep shrink-0 mt-0.5">★</span>
+              <span>Édition du soir (analyse approfondie)</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-noir font-semibold">
+              <span class="text-bleu-rep shrink-0 mt-0.5">★</span>
+              <span>Archives complètes illimitées</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-noir font-semibold">
+              <span class="text-bleu-rep shrink-0 mt-0.5">★</span>
+              <span>Décryptages hebdomadaires</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-noir">
+              <span class="text-vert shrink-0 mt-0.5">✓</span>
+              <span>Alertes député·e personnalisées</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-noir">
+              <span class="text-vert shrink-0 mt-0.5">✓</span>
+              <span>Soutien direct au projet</span>
+            </li>
+          </ul>
+          <a href="#" class="block text-center bg-bleu-rep text-white font-bold text-[14px] no-underline py-3 px-6 rounded-lg hover:bg-bleu-rep/90 transition-colors">
+            Bientôt disponible
+          </a>
+        </div>
+
+        <!-- Citoyen -->
+        <div class="border-2 border-noir rounded-xl p-6 flex flex-col bg-noir text-white">
+          <div class="font-mono text-[10px] uppercase tracking-[2px] text-white/50 mb-2">Citoyen·ne engagé·e</div>
+          <div class="font-display text-[32px] font-black mb-1">10 €<span class="text-[16px] font-medium text-white/50">/mois</span></div>
+          <div class="text-[13px] text-white/40 mb-6">ou 96 €/an (-20%)</div>
+          <ul class="flex flex-col gap-2 mb-6 flex-1">
+            <li class="flex items-start gap-2 text-[14px]">
+              <span class="text-bleu-clair shrink-0 mt-0.5">✓</span>
+              <span>Tout le Premium</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] font-semibold">
+              <span class="text-bleu-clair shrink-0 mt-0.5">★</span>
+              <span>Nom dans la page Soutenir</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] font-semibold">
+              <span class="text-bleu-clair shrink-0 mt-0.5">★</span>
+              <span>Accès anticipé aux nouvelles fonctionnalités</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px]">
+              <span class="text-bleu-clair shrink-0 mt-0.5">✓</span>
+              <span>Soutien renforcé au projet</span>
+            </li>
+          </ul>
+          <a href="#" class="block text-center bg-white text-noir font-bold text-[14px] no-underline py-3 px-6 rounded-lg hover:bg-white/90 transition-colors">
+            Bientôt disponible
+          </a>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <div class="max-w-[600px] mx-auto">
+        <h2 class="font-display text-[22px] font-bold text-noir text-center mb-6">Questions fréquentes</h2>
+        <div class="flex flex-col gap-4">
+          <details class="border border-gris-chaud rounded-lg group">
+            <summary class="cursor-pointer px-4 py-3 font-semibold text-[15px] text-noir list-none flex justify-between items-center">
+              L'édition du matin restera-t-elle toujours gratuite ?
+              <span class="text-gris-clair group-open:rotate-180 transition-transform">▾</span>
+            </summary>
+            <div class="px-4 pb-3 text-[14px] text-gris-texte leading-relaxed">
+              Oui. L'édition du matin (sujet du jour + essentiels + regard croisé) est et restera gratuite. C'est notre engagement fondateur.
+            </div>
+          </details>
+          <details class="border border-gris-chaud rounded-lg group">
+            <summary class="cursor-pointer px-4 py-3 font-semibold text-[15px] text-noir list-none flex justify-between items-center">
+              Pourquoi un abonnement payant ?
+              <span class="text-gris-clair group-open:rotate-180 transition-transform">▾</span>
+            </summary>
+            <div class="px-4 pb-3 text-[14px] text-gris-texte leading-relaxed">
+              Les appels API aux modèles d'IA coûtent cher. L'abonnement finance les analyses approfondies (édition du soir, décryptages) et garantit notre indépendance — zéro pub, zéro mécène.
+            </div>
+          </details>
+          <details class="border border-gris-chaud rounded-lg group">
+            <summary class="cursor-pointer px-4 py-3 font-semibold text-[15px] text-noir list-none flex justify-between items-center">
+              Puis-je annuler à tout moment ?
+              <span class="text-gris-clair group-open:rotate-180 transition-transform">▾</span>
+            </summary>
+            <div class="px-4 pb-3 text-[14px] text-gris-texte leading-relaxed">
+              Oui, annulation en un clic, sans engagement. Vous gardez l'accès jusqu'à la fin de la période payée.
+            </div>
+          </details>
+          <details class="border border-gris-chaud rounded-lg group">
+            <summary class="cursor-pointer px-4 py-3 font-semibold text-[15px] text-noir list-none flex justify-between items-center">
+              Où va mon argent ?
+              <span class="text-gris-clair group-open:rotate-180 transition-transform">▾</span>
+            </summary>
+            <div class="px-4 pb-3 text-[14px] text-gris-texte leading-relaxed">
+              Transparence totale : API LLM (~30-50 €/mois), hébergement, domaine. Tout est détaillé sur notre <a href="/soutenir" class="text-bleu-rep no-underline hover:underline">page de transparence financière</a>.
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

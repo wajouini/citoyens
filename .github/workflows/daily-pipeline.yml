@@ -1,0 +1,91 @@
+name: Daily Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Pipeline action to run'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - fetch-only
+          - generate-only
+          - full
+          - full-deploy
+  schedule:
+    # Every day at 6:00 UTC (7:00 Paris winter, 8:00 Paris summer)
+    - cron: '0 6 * * *'
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run pipeline
+        env:
+          LLM_PROVIDER: ${{ secrets.LLM_PROVIDER || 'gemini' }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL || '' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NEWSLETTER_FROM: ${{ secrets.NEWSLETTER_FROM }}
+          NEWSLETTER_AUDIENCE_ID: ${{ secrets.NEWSLETTER_AUDIENCE_ID }}
+          ADMIN_URL: ${{ secrets.ADMIN_URL }}
+          ADMIN_API_KEY: ${{ secrets.ADMIN_API_KEY }}
+          PIPELINE_ACTION: ${{ github.event.inputs.action || 'full' }}
+        run: |
+          echo "Running pipeline action: $PIPELINE_ACTION"
+          npx tsx scripts/daily-pipeline.ts
+
+      - name: Commit and push changes
+        if: ${{ github.event.inputs.action == 'full-deploy' || github.event.inputs.action == 'full' || github.event_name == 'schedule' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "chore: update edition $(date +%Y-%m-%d)"
+          git push
+
+      - name: Trigger Vercel deploy
+        if: ${{ github.event.inputs.action == 'full-deploy' }}
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
+            curl -s -X POST "$VERCEL_DEPLOY_HOOK"
+            echo "Vercel deploy triggered"
+          else
+            echo "No VERCEL_DEPLOY_HOOK configured, skipping"
+          fi
+
+      - name: Report to admin
+        if: always()
+        env:
+          ADMIN_URL: ${{ secrets.ADMIN_URL }}
+          ADMIN_API_KEY: ${{ secrets.ADMIN_API_KEY }}
+        run: |
+          if [ -n "$ADMIN_URL" ]; then
+            echo "Reporting to admin at $ADMIN_URL"
+            # The pipeline script already reports via the webhook
+          else
+            echo "No ADMIN_URL configured, skipping report"
+          fi

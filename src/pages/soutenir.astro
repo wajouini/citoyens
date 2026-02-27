@@ -1,0 +1,126 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+---
+
+<BaseLayout title="Soutenir" description="Citoyens.ai est un projet indépendant financé uniquement par ses lecteurs. Voici comment fonctionne notre financement et comment nous soutenir.">
+  <Header />
+  <main>
+    <div class="max-w-[760px] mx-auto px-4 md:px-5 py-10">
+      <h1 class="font-display text-[32px] md:text-[40px] font-black tracking-tight text-noir mb-4">Soutenir Citoyens.ai</h1>
+      <p class="text-[17px] text-gris-texte leading-relaxed mb-10">
+        Citoyens.ai n'a pas de publicité, pas de mécène, pas d'actionnaire. Notre indépendance dépend de vous.
+      </p>
+
+      <!-- Why -->
+      <section class="mb-10">
+        <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Pourquoi soutenir ?</h2>
+        <div class="flex flex-col gap-4">
+          <div class="flex gap-3 items-start">
+            <span class="text-[20px] shrink-0">🏛</span>
+            <div>
+              <h3 class="text-[16px] font-bold text-noir mb-1">Zéro publicité, zéro dépendance</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">La pub influence le contenu. Nous refusons ce compromis. Votre soutien garantit notre liberté éditoriale.</p>
+            </div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="text-[20px] shrink-0">🔍</span>
+            <div>
+              <h3 class="text-[16px] font-bold text-noir mb-1">Transparence unique</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">Aucun autre média ne montre qui possède ses sources. Maintenir cette base de données demande du temps et de la rigueur.</p>
+            </div>
+          </div>
+          <div class="flex gap-3 items-start">
+            <span class="text-[20px] shrink-0">🤖</span>
+            <div>
+              <h3 class="text-[16px] font-bold text-noir mb-1">L'IA coûte cher</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">Les appels API aux modèles de langage, l'hébergement, et l'infrastructure ont un coût réel chaque jour.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How to support -->
+      <section class="mb-10">
+        <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Comment soutenir</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="border-2 border-noir rounded-xl p-5 flex flex-col">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-bleu-rep mb-2">Don ponctuel</div>
+            <h3 class="font-display text-[20px] font-bold text-noir mb-2">Un café ☕</h3>
+            <p class="text-[14px] text-gris-texte leading-relaxed mb-4 flex-1">Un don libre pour soutenir le projet. Chaque euro compte.</p>
+            <a href="#" class="inline-block text-center bg-bleu-rep text-white font-semibold text-[14px] no-underline py-3 px-6 rounded-lg hover:bg-bleu-rep/90 transition-colors">
+              Faire un don
+            </a>
+          </div>
+          <div class="border-2 border-bleu-rep rounded-xl p-5 flex flex-col bg-bleu-clair">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-bleu-rep mb-2">Don mensuel</div>
+            <h3 class="font-display text-[20px] font-bold text-noir mb-2">Citoyen·ne engagé·e</h3>
+            <p class="text-[14px] text-gris-texte leading-relaxed mb-4 flex-1">Un soutien régulier pour assurer la pérennité du projet. À partir de 2€/mois.</p>
+            <a href="#" class="inline-block text-center bg-bleu-rep text-white font-semibold text-[14px] no-underline py-3 px-6 rounded-lg hover:bg-bleu-rep/90 transition-colors">
+              Soutien mensuel
+            </a>
+          </div>
+        </div>
+        <p class="text-[12px] text-gris-clair mt-3 text-center">
+          Les liens de paiement seront activés prochainement. En attendant, contactez-nous à <a href="mailto:contact@citoyens.ai" class="text-bleu-rep no-underline hover:underline">contact@citoyens.ai</a>.
+        </p>
+      </section>
+
+      <!-- Transparency -->
+      <section class="mb-10">
+        <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Transparence financière</h2>
+        <p class="text-[15px] text-gris-texte leading-relaxed mb-4">
+          Nous publions nos comptes en toute transparence. Voici la répartition de nos coûts mensuels.
+        </p>
+        <div class="bg-creme rounded-xl p-5">
+          <div class="flex flex-col gap-3">
+            <div class="flex justify-between items-center py-2 border-b border-gris-chaud">
+              <span class="text-[14px] text-noir font-medium">API LLM (Claude/GPT)</span>
+              <span class="font-mono text-[14px] text-noir font-bold">~30-50 €</span>
+            </div>
+            <div class="flex justify-between items-center py-2 border-b border-gris-chaud">
+              <span class="text-[14px] text-noir font-medium">Hébergement (Vercel)</span>
+              <span class="font-mono text-[14px] text-noir font-bold">0 € (gratuit)</span>
+            </div>
+            <div class="flex justify-between items-center py-2 border-b border-gris-chaud">
+              <span class="text-[14px] text-noir font-medium">Newsletter (Resend)</span>
+              <span class="font-mono text-[14px] text-noir font-bold">0 € (tier gratuit)</span>
+            </div>
+            <div class="flex justify-between items-center py-2 border-b border-gris-chaud">
+              <span class="text-[14px] text-noir font-medium">Domaine</span>
+              <span class="font-mono text-[14px] text-noir font-bold">~15 €/an</span>
+            </div>
+            <div class="flex justify-between items-center py-2">
+              <span class="text-[14px] text-noir font-bold">Coût mensuel estimé</span>
+              <span class="font-mono text-[14px] text-bleu-rep font-bold">~35-55 €/mois</span>
+            </div>
+          </div>
+        </div>
+        <p class="text-[12px] text-gris-clair mt-3 text-center">
+          Ces chiffres seront mis à jour régulièrement. Tout le code est <a href="https://github.com/boredgeeksociety/citoyens" class="text-bleu-rep no-underline hover:underline">open source</a>.
+        </p>
+      </section>
+
+      <!-- Other ways -->
+      <section class="mb-10">
+        <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Autres façons d'aider</h2>
+        <div class="flex flex-col gap-3">
+          <div class="border border-gris-chaud rounded-lg p-4">
+            <h3 class="text-[15px] font-bold text-noir mb-1">Partagez</h3>
+            <p class="text-[14px] text-gris-texte">Envoyez l'édition du jour à quelqu'un. Le bouche-à-oreille est notre meilleur canal.</p>
+          </div>
+          <div class="border border-gris-chaud rounded-lg p-4">
+            <h3 class="text-[15px] font-bold text-noir mb-1">Contribuez au code</h3>
+            <p class="text-[14px] text-gris-texte">Le projet est open source. Les pull requests sont les bienvenues.</p>
+          </div>
+          <div class="border border-gris-chaud rounded-lg p-4">
+            <h3 class="text-[15px] font-bold text-noir mb-1">Signalez les erreurs</h3>
+            <p class="text-[14px] text-gris-texte">L'IA fait des erreurs. Aidez-nous à les corriger en nous écrivant.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

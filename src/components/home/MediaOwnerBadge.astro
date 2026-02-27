@@ -1,0 +1,58 @@
+---
+interface Props {
+  groupe_media?: {
+    nom: string;
+    proprietaire: string;
+    type_proprietaire: string;
+    orientation: string;
+  } | null;
+  orientation_source?: string | null;
+  compact?: boolean;
+}
+
+const { groupe_media, orientation_source, compact = false } = Astro.props;
+
+if (!groupe_media && !orientation_source) return;
+
+const typeStyles: Record<string, { bg: string; text: string; label: string }> = {
+  milliardaire: { bg: 'bg-rouge-doux/10', text: 'text-rouge-doux', label: '💰' },
+  cooperative: { bg: 'bg-vert/10', text: 'text-vert', label: '🤝' },
+  etat: { bg: 'bg-bleu-clair', text: 'text-bleu-rep', label: '🏛' },
+  fondation: { bg: 'bg-green-50', text: 'text-vert', label: '🛡' },
+  employes: { bg: 'bg-green-50', text: 'text-vert', label: '👥' },
+  independant: { bg: 'bg-green-50', text: 'text-vert', label: '✊' },
+  famille: { bg: 'bg-orange/10', text: 'text-orange', label: '👨‍👩‍👧' },
+};
+
+const orientationColors: Record<string, string> = {
+  'extreme-gauche': 'bg-red-700',
+  'gauche': 'bg-red-500',
+  'centre-gauche': 'bg-rose-400',
+  'centre': 'bg-gray-400',
+  'centre-droit': 'bg-blue-400',
+  'droite': 'bg-blue-600',
+  'extreme-droite': 'bg-blue-900',
+  'variable': 'bg-gray-300',
+};
+
+const tp = groupe_media?.type_proprietaire || '';
+const style = typeStyles[tp] || typeStyles['independant'];
+const orient = orientation_source || groupe_media?.orientation || '';
+const orientDot = orientationColors[orient] || 'bg-gray-300';
+---
+
+{groupe_media ? (
+  <span class={`inline-flex items-center gap-1 ${style.bg} ${style.text} text-[9px] font-mono font-semibold px-1.5 py-0.5 rounded-full leading-tight`}>
+    <span class={`w-1.5 h-1.5 rounded-full ${orientDot} shrink-0`}></span>
+    {compact ? (
+      <span>{groupe_media.proprietaire}</span>
+    ) : (
+      <span>{groupe_media.nom} ({groupe_media.proprietaire})</span>
+    )}
+  </span>
+) : orient ? (
+  <span class="inline-flex items-center gap-1 bg-gray-100 text-gris-texte text-[9px] font-mono font-semibold px-1.5 py-0.5 rounded-full leading-tight">
+    <span class={`w-1.5 h-1.5 rounded-full ${orientDot} shrink-0`}></span>
+    <span>{orient}</span>
+  </span>
+) : null}

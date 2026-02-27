@@ -1,0 +1,278 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import MediaOwnerBadge from '../components/home/MediaOwnerBadge.astro';
+
+const soirData = await import('../data/soir.json').then(m => m.default).catch(() => null);
+
+const bilan = soirData?.bilan_journee;
+const analyse = soirData?.analyse_approfondie;
+const regards = soirData?.regards_croises || [];
+
+const formatDate = (dateStr: string) => {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+};
+
+const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
+  politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+  economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10' },
+  tech: { label: 'Tech', color: 'text-purple-700', bg: 'bg-purple-50' },
+  science: { label: 'Science', color: 'text-vert', bg: 'bg-green-50' },
+  societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50' },
+  international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50' },
+};
+
+const tonBadge: Record<string, { label: string; cls: string }> = {
+  critique: { label: 'Critique', cls: 'bg-rouge-doux/10 text-rouge-doux' },
+  factuel: { label: 'Factuel', cls: 'bg-bleu-clair text-bleu-rep' },
+  alarmiste: { label: 'Alarmiste', cls: 'bg-orange/10 text-orange' },
+  complaisant: { label: 'Complaisant', cls: 'bg-amber-50 text-amber-700' },
+  neutre: { label: 'Neutre', cls: 'bg-gray-100 text-gris-texte' },
+  engage: { label: 'Engagé', cls: 'bg-purple-50 text-purple-700' },
+};
+
+const sourceTypeBg: Record<string, string> = {
+  investigation: 'border-l-orange',
+  mainstream: 'border-l-bleu-rep',
+  'fact-check': 'border-l-vert',
+  etranger: 'border-l-purple-600',
+  institutionnel: 'border-l-gris-clair',
+};
+
+const jsonLd = analyse ? {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: `Édition du soir — ${analyse.sujet}`,
+  datePublished: soirData?.date,
+  description: analyse.contexte_long?.slice(0, 200),
+  publisher: { '@type': 'Organization', name: 'Citoyens.ai' },
+} : undefined;
+---
+
+<BaseLayout title="Édition du soir" description={analyse ? `${analyse.sujet} — Analyse approfondie` : "L'analyse du soir par Citoyens.ai"} jsonLd={jsonLd}>
+  <Header />
+  <main>
+    {soirData ? (
+      <div class="max-w-[760px] mx-auto px-4 md:px-5">
+        <!-- Date -->
+        <div class="flex items-center gap-3 mb-6 md:mb-8 pt-6 md:pt-8">
+          <div class="font-mono text-[10px] md:text-[11px] uppercase tracking-[2px] text-rouge-doux font-bold">Édition du soir</div>
+          <div class="flex-1 h-px bg-gris-chaud"></div>
+          <div class="font-mono text-[10px] md:text-[11px] text-gris-clair">{soirData.date && formatDate(soirData.date)}</div>
+        </div>
+
+        {/* ── BILAN JOURNEE ── */}
+        {bilan && (
+          <section class="mb-10">
+            <div class="flex items-center gap-2 mb-4">
+              <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-white bg-noir px-2 py-0.5 rounded">Bilan de la journée</span>
+            </div>
+            <p class="text-[15px] md:text-[17px] leading-relaxed text-noir mb-4">{bilan.resume}</p>
+
+            {bilan.faits_marquants?.length > 0 && (
+              <ul class="flex flex-col gap-1.5 mb-4">
+                {bilan.faits_marquants.map((fait: string) => (
+                  <li class="flex items-start gap-2 text-[15px] text-noir leading-relaxed">
+                    <span class="text-bleu-rep mt-1 shrink-0 font-bold">•</span>
+                    <span>{fait}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+
+            {bilan.ce_qui_a_change && (
+              <div class="bg-bleu-clair rounded-xl p-4">
+                <div class="font-mono text-[9px] uppercase tracking-[2px] text-bleu-rep mb-1.5">Ce qui a changé depuis ce matin</div>
+                <p class="text-[14px] leading-relaxed text-noir">{bilan.ce_qui_a_change}</p>
+              </div>
+            )}
+          </section>
+        )}
+
+        <div class="h-px bg-gris-chaud mb-8"></div>
+
+        {/* ── ANALYSE APPROFONDIE ── */}
+        {analyse && (
+          <section class="mb-10">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-white bg-rouge-doux px-2 py-0.5 rounded">Analyse approfondie</span>
+              {rubriqueStyle[analyse.rubrique] && (
+                <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${rubriqueStyle[analyse.rubrique].bg} ${rubriqueStyle[analyse.rubrique].color}`}>
+                  {rubriqueStyle[analyse.rubrique].label}
+                </span>
+              )}
+            </div>
+
+            <h1 class="font-display text-[26px] md:text-[36px] font-black leading-[1.12] tracking-tight text-noir mb-4">
+              {analyse.sujet}
+            </h1>
+
+            <div class="text-[15px] leading-relaxed text-gris-texte mb-6 whitespace-pre-line">
+              {analyse.contexte_long}
+            </div>
+
+            {analyse.enjeux?.length > 0 && (
+              <div class="bg-orange/5 border border-orange/20 rounded-xl p-4 mb-6">
+                <h3 class="font-mono text-[9px] uppercase tracking-[2px] text-orange mb-2">Les enjeux</h3>
+                <ul class="flex flex-col gap-1.5">
+                  {analyse.enjeux.map((enjeu: string) => (
+                    <li class="flex items-start gap-2 text-[14px] text-noir leading-relaxed">
+                      <span class="text-orange mt-0.5 shrink-0 font-bold">→</span>
+                      <span>{enjeu}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {analyse.perspectives?.length > 0 && (
+              <div class="mb-6">
+                <h3 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-3">Perspectives</h3>
+                <div class="flex flex-col gap-3">
+                  {analyse.perspectives.map((p: any) => (
+                    <div class="border border-gris-chaud rounded-lg p-3.5 bg-blanc">
+                      <div class="flex items-center gap-2 mb-1.5">
+                        <span class="font-display text-[14px] font-bold text-noir">{p.acteur}</span>
+                        {p.source?.nom && (
+                          <a href={p.source.url} target="_blank" rel="noopener noreferrer"
+                             class="font-mono text-[9px] text-gris-clair no-underline hover:text-bleu-rep">
+                            via {p.source.nom} ↗
+                          </a>
+                        )}
+                      </div>
+                      <p class="text-[14px] text-gris-texte leading-relaxed">{p.position}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <div class="border-2 border-noir rounded-xl p-5 mb-4">
+              <h3 class="font-mono text-[9px] uppercase tracking-[2px] text-noir mb-2">Notre analyse</h3>
+              <div class="text-[15px] leading-relaxed text-noir whitespace-pre-line">{analyse.notre_analyse}</div>
+            </div>
+
+            {analyse.sources?.length > 0 && (
+              <div class="flex flex-wrap gap-2">
+                {analyse.sources.map((src: any) => (
+                  <a href={src.url} target="_blank" rel="noopener noreferrer"
+                     class="inline-flex items-center gap-1.5 text-[11px] font-mono font-medium text-gris-texte no-underline hover:text-bleu-rep transition-colors border border-gris-chaud rounded-full px-2.5 py-1">
+                    {src.groupe_media && <MediaOwnerBadge groupe_media={src.groupe_media} compact={true} />}
+                    {src.nom} ↗
+                  </a>
+                ))}
+              </div>
+            )}
+          </section>
+        )}
+
+        <div class="h-px bg-gris-chaud mb-8"></div>
+
+        {/* ── REGARDS CROISES ── */}
+        {regards.length > 0 && (
+          <section class="mb-10">
+            <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir mb-5">Regards croisés</h2>
+            {regards.map((rc: any, idx: number) => {
+              const style = rubriqueStyle[rc.rubrique] || rubriqueStyle.politique;
+              return (
+                <div class={`mb-8 ${idx < regards.length - 1 ? 'pb-8 border-b border-gris-chaud' : ''}`}>
+                  <div class="flex items-center gap-2 mb-3">
+                    <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-rouge-doux bg-red-50 px-2 py-0.5 rounded">Regard croisé {regards.length > 1 ? idx + 1 : ''}</span>
+                    <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${style.bg} ${style.color}`}>{style.label}</span>
+                  </div>
+
+                  <h3 class="font-display text-[22px] font-black leading-tight mb-3 text-noir">{rc.sujet}</h3>
+                  <p class="text-[15px] leading-relaxed text-gris-texte mb-4">{rc.contexte}</p>
+
+                  <div class="border-2 border-noir rounded-xl p-4 mb-4 bg-blanc">
+                    <h4 class="font-mono text-[9px] uppercase tracking-[2px] text-noir mb-1.5">Ce qu'il faut retenir</h4>
+                    <p class="text-[15px] leading-relaxed text-noir font-medium">{rc.ce_quil_faut_retenir}</p>
+                  </div>
+
+                  <div class="flex flex-col gap-3 mb-4">
+                    {rc.couvertures?.map((c: any) => (
+                      <a href={c.url} target="_blank" rel="noopener noreferrer"
+                         class={`block p-3.5 rounded-lg border border-gris-chaud border-l-4 ${sourceTypeBg[c.type] || 'border-l-gris-clair'} bg-blanc no-underline hover:shadow-md transition-shadow group`}>
+                        <div class="flex items-center gap-2 mb-1 flex-wrap">
+                          <span class="font-mono text-[12px] font-bold text-noir">{c.source}</span>
+                          {tonBadge[c.ton] && (
+                            <span class={`text-[9px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded-full ${tonBadge[c.ton].cls}`}>
+                              {tonBadge[c.ton].label}
+                            </span>
+                          )}
+                          {c.groupe_media && <MediaOwnerBadge groupe_media={c.groupe_media} compact={true} />}
+                        </div>
+                        <p class="text-[14px] leading-snug text-noir font-semibold mb-1 group-hover:text-bleu-rep transition-colors">{c.angle}</p>
+                        {c.citation_cle && (
+                          <p class="text-[12px] text-gris-texte italic leading-relaxed mt-1.5 border-t border-gris-chaud/50 pt-1.5">
+                            « {c.citation_cle} »
+                          </p>
+                        )}
+                      </a>
+                    ))}
+                  </div>
+
+                  <details class="group">
+                    <summary class="cursor-pointer font-mono text-[11px] font-bold uppercase tracking-wider text-bleu-rep hover:underline list-none flex items-center gap-1.5">
+                      <span class="group-open:rotate-90 transition-transform">▸</span>
+                      Analyse détaillée
+                    </summary>
+                    <div class="mt-3 bg-bleu-clair rounded-xl p-4">
+                      <p class="text-[14px] leading-relaxed text-noir">{rc.analyse_coherence}</p>
+                      {rc.doubles_standards?.length > 0 && (
+                        <div class="mt-3 pt-3 border-t border-bleu-rep/10">
+                          <h5 class="font-mono text-[9px] uppercase tracking-[2px] text-orange mb-1.5">Doubles standards détectés</h5>
+                          <ul class="flex flex-col gap-1">
+                            {rc.doubles_standards.map((ds: string) => (
+                              <li class="flex items-start gap-1.5 text-[13px] text-gris-texte leading-snug">
+                                <span class="text-orange mt-0.5 shrink-0">⚠</span>
+                                <span>{ds}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                      {rc.biais_detectes?.length > 0 && (
+                        <div class="mt-3 pt-3 border-t border-bleu-rep/10">
+                          <h5 class="font-mono text-[9px] uppercase tracking-[2px] text-rouge-doux mb-1.5">Biais détectés</h5>
+                          <ul class="flex flex-col gap-1">
+                            {rc.biais_detectes.map((b: string) => (
+                              <li class="flex items-start gap-1.5 text-[13px] text-gris-texte leading-snug">
+                                <span class="text-rouge-doux mt-0.5 shrink-0">•</span>
+                                <span>{b}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  </details>
+                </div>
+              );
+            })}
+
+            <p class="font-mono text-[9px] text-gris-clair mt-2">
+              Analyse générée par IA · <a href="/methodologie" class="underline hover:text-bleu-rep">Notre méthodologie</a>
+            </p>
+          </section>
+        )}
+
+        {/* ── Meta ── */}
+        {soirData.meta && (
+          <div class="font-mono text-[9px] text-gris-clair text-center pb-8 border-t border-gris-chaud pt-4">
+            {soirData.meta.nb_articles_analyses} articles analysés · {soirData.meta.modele}
+          </div>
+        )}
+      </div>
+    ) : (
+      <div class="max-w-[760px] mx-auto px-4 md:px-5 py-20 text-center">
+        <p class="text-gris-clair text-[15px]">L'édition du soir n'est pas encore disponible aujourd'hui.</p>
+        <a href="/" class="inline-block mt-4 text-bleu-rep no-underline hover:underline font-semibold">Voir l'édition du matin</a>
+      </div>
+    )}
+  </main>
+  <Footer />
+</BaseLayout>

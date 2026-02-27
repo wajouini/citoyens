@@ -1,0 +1,174 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+
+const rubriqueOptions = [
+  { id: 'politique', label: 'Politique', icon: '🏛' },
+  { id: 'economie', label: 'Économie', icon: '📊' },
+  { id: 'tech', label: 'Tech', icon: '💻' },
+  { id: 'science', label: 'Science', icon: '🔬' },
+  { id: 'societe', label: 'Société', icon: '👥' },
+  { id: 'culture', label: 'Culture', icon: '🎭' },
+  { id: 'international', label: 'International', icon: '🌍' },
+];
+---
+
+<BaseLayout title="Newsletter" description="Recevez l'essentiel de l'actu chaque matin en 5 minutes. Gratuit, sans pub, transparent sur les sources.">
+  <Header />
+  <main>
+    <div class="max-w-[600px] mx-auto px-4 md:px-5 py-10">
+      <!-- Hero -->
+      <div class="text-center mb-10">
+        <h1 class="font-display text-[32px] md:text-[40px] font-black tracking-tight text-noir mb-4">
+          5 minutes pour savoir
+        </h1>
+        <p class="text-[17px] text-gris-texte leading-relaxed mb-2">
+          L'essentiel de l'actu chaque matin dans votre boîte mail.
+        </p>
+        <p class="text-[14px] text-gris-clair">
+          Gratuit · Sans publicité · Transparent sur les sources
+        </p>
+      </div>
+
+      <!-- Signup form -->
+      <div class="border-2 border-noir rounded-xl p-6 mb-8 bg-blanc">
+        <form id="newsletter-form" class="flex flex-col gap-4">
+          <div>
+            <label for="email" class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-1.5 block">Adresse email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="vous@email.com"
+              class="w-full px-4 py-3 border-2 border-gris-chaud rounded-lg text-[15px] text-noir bg-blanc focus:border-bleu-rep focus:outline-none transition-colors"
+            />
+          </div>
+
+          <!-- Preferences -->
+          <div>
+            <label class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-2 block">Vos centres d'intérêt (optionnel)</label>
+            <div class="grid grid-cols-2 gap-2">
+              {rubriqueOptions.map(r => (
+                <label class="flex items-center gap-2 px-3 py-2 border border-gris-chaud rounded-lg cursor-pointer hover:bg-creme transition-colors has-[:checked]:border-bleu-rep has-[:checked]:bg-bleu-clair">
+                  <input type="checkbox" name="rubriques" value={r.id} class="accent-bleu-rep" />
+                  <span class="text-[14px] text-noir">{r.icon} {r.label}</span>
+                </label>
+              ))}
+            </div>
+            <p class="text-[11px] text-gris-clair mt-1">On vous enverra tout par défaut. Cochez pour personnaliser.</p>
+          </div>
+
+          <!-- Frequency -->
+          <div>
+            <label class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-2 block">Fréquence</label>
+            <div class="flex gap-3">
+              <label class="flex items-center gap-2 px-3 py-2 border border-gris-chaud rounded-lg cursor-pointer hover:bg-creme transition-colors has-[:checked]:border-bleu-rep has-[:checked]:bg-bleu-clair flex-1 justify-center">
+                <input type="radio" name="frequency" value="daily" checked class="accent-bleu-rep" />
+                <span class="text-[14px] text-noir">Quotidien</span>
+              </label>
+              <label class="flex items-center gap-2 px-3 py-2 border border-gris-chaud rounded-lg cursor-pointer hover:bg-creme transition-colors has-[:checked]:border-bleu-rep has-[:checked]:bg-bleu-clair flex-1 justify-center">
+                <input type="radio" name="frequency" value="weekly" class="accent-bleu-rep" />
+                <span class="text-[14px] text-noir">Hebdo</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Deputy alerts -->
+          <div>
+            <label for="depute" class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-1.5 block">Suivre un·e député·e (optionnel)</label>
+            <input
+              type="text"
+              id="depute"
+              name="depute"
+              placeholder="Nom du député·e ou code postal"
+              class="w-full px-4 py-3 border-2 border-gris-chaud rounded-lg text-[15px] text-noir bg-blanc focus:border-bleu-rep focus:outline-none transition-colors"
+            />
+            <p class="text-[11px] text-gris-clair mt-1">Recevez une alerte quand votre député·e vote. Bientôt disponible.</p>
+          </div>
+
+          <button
+            type="submit"
+            class="bg-bleu-rep text-white font-bold text-[15px] py-3.5 px-6 rounded-lg hover:bg-bleu-rep/90 transition-colors mt-2 cursor-pointer"
+          >
+            S'inscrire gratuitement
+          </button>
+        </form>
+
+        <div id="form-success" class="hidden text-center py-6">
+          <div class="text-[24px] mb-2">✓</div>
+          <p class="text-[17px] font-bold text-noir mb-1">Bienvenue !</p>
+          <p class="text-[14px] text-gris-texte">Vérifiez votre boîte mail pour confirmer votre inscription.</p>
+        </div>
+
+        <div id="form-error" class="hidden text-center py-4 text-rouge-doux text-[14px]"></div>
+      </div>
+
+      <!-- Selling points -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
+        <div class="text-center p-4">
+          <div class="font-mono text-[28px] font-bold text-bleu-rep mb-1">40+</div>
+          <div class="text-[13px] text-gris-texte">sources analysées</div>
+        </div>
+        <div class="text-center p-4">
+          <div class="font-mono text-[28px] font-bold text-bleu-rep mb-1">5 min</div>
+          <div class="text-[13px] text-gris-texte">de lecture</div>
+        </div>
+        <div class="text-center p-4">
+          <div class="font-mono text-[28px] font-bold text-bleu-rep mb-1">0 €</div>
+          <div class="text-[13px] text-gris-texte">toujours gratuit</div>
+        </div>
+      </div>
+
+      <!-- Privacy -->
+      <div class="text-center">
+        <p class="text-[12px] text-gris-clair">
+          Pas de spam. Désinscription en un clic. Vos données ne sont jamais vendues. <a href="/methodologie" class="text-bleu-rep no-underline hover:underline">Notre méthodologie</a>
+        </p>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>
+
+<script>
+  const form = document.getElementById('newsletter-form') as HTMLFormElement;
+  const success = document.getElementById('form-success');
+  const errorDiv = document.getElementById('form-error');
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    errorDiv?.classList.add('hidden');
+
+    const data = new FormData(form);
+    const email = data.get('email') as string;
+    const rubriques = data.getAll('rubriques') as string[];
+    const frequency = data.get('frequency') as string;
+    const depute = data.get('depute') as string;
+
+    try {
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, rubriques, frequency, depute }),
+      });
+
+      if (res.ok) {
+        form.classList.add('hidden');
+        success?.classList.remove('hidden');
+      } else {
+        const err = await res.json().catch(() => ({ message: 'Erreur inconnue' }));
+        if (errorDiv) {
+          errorDiv.textContent = err.message || 'Une erreur est survenue.';
+          errorDiv.classList.remove('hidden');
+        }
+      }
+    } catch {
+      if (errorDiv) {
+        errorDiv.textContent = "Impossible de contacter le serveur. L'inscription sera disponible très bientôt.";
+        errorDiv.classList.remove('hidden');
+      }
+    }
+  });
+</script>

@@ -1,0 +1,231 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import MediaOwnerBadge from '../../components/home/MediaOwnerBadge.astro';
+
+export async function getStaticPaths() {
+  const archiveModules = import.meta.glob('../../data/archives/*.json', { eager: true });
+  const paths = [];
+
+  for (const [path, mod] of Object.entries(archiveModules)) {
+    const match = path.match(/(\d{4}-\d{2}-\d{2})\.json$/);
+    if (match) {
+      paths.push({ params: { date: match[1] }, props: { edition: (mod as any).default } });
+    }
+  }
+
+  return paths;
+}
+
+const { date } = Astro.params;
+const { edition } = Astro.props;
+
+const jsonLd = edition?.sujet_du_jour ? {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: edition.sujet_du_jour.titre,
+  datePublished: date,
+  description: edition.sujet_du_jour.pourquoi_important,
+  publisher: { '@type': 'Organization', name: 'Citoyens.ai', url: 'https://citoyens.ai' },
+  mainEntityOfPage: `https://citoyens.ai/edition/${date}`,
+} : undefined;
+
+const sujet = edition?.sujet_du_jour;
+const essentiels = edition?.essentiels || [];
+const regardCroise = edition?.regard_croise;
+const chiffre = edition?.chiffre_du_jour;
+const aSurveiller = edition?.a_surveiller || [];
+
+const formatDateLong = (dateStr: string) => {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+};
+
+const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
+  politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+  economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10' },
+  tech: { label: 'Tech', color: 'text-purple-700', bg: 'bg-purple-50' },
+  science: { label: 'Science', color: 'text-vert', bg: 'bg-green-50' },
+  societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50' },
+  international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50' },
+};
+
+const tonBadge: Record<string, { label: string; cls: string }> = {
+  critique: { label: 'Critique', cls: 'bg-rouge-doux/10 text-rouge-doux' },
+  factuel: { label: 'Factuel', cls: 'bg-bleu-clair text-bleu-rep' },
+  alarmiste: { label: 'Alarmiste', cls: 'bg-orange/10 text-orange' },
+  complaisant: { label: 'Complaisant', cls: 'bg-amber-50 text-amber-700' },
+  neutre: { label: 'Neutre', cls: 'bg-gray-100 text-gris-texte' },
+  engage: { label: 'Engagé', cls: 'bg-purple-50 text-purple-700' },
+};
+
+const sourceTypeBg: Record<string, string> = {
+  investigation: 'border-l-orange',
+  mainstream: 'border-l-bleu-rep',
+  'fact-check': 'border-l-vert',
+  etranger: 'border-l-purple-600',
+  institutionnel: 'border-l-gris-clair',
+};
+---
+
+<BaseLayout title={`Édition du ${formatDateLong(date!)}`} description={sujet ? `${sujet.titre} — ${sujet.pourquoi_important}` : `Édition Citoyens.ai du ${date}`} jsonLd={jsonLd}>
+  <Header />
+  <main>
+    <div class="max-w-[760px] mx-auto px-5">
+      <!-- Date + back -->
+      <div class="flex items-center gap-3 mb-8 pt-8">
+        <a href="/edition" class="font-mono text-[11px] text-bleu-rep no-underline hover:underline">&larr; Archives</a>
+        <div class="flex-1 h-px bg-gris-chaud"></div>
+        <div class="font-mono text-[11px] text-gris-clair">{formatDateLong(date!)}</div>
+      </div>
+
+      {/* ── SUJET DU JOUR ── */}
+      {sujet && (
+        <section class="mb-10">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-white bg-noir px-2 py-0.5 rounded">Sujet du jour</span>
+            {rubriqueStyle[sujet.rubrique] && (
+              <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${rubriqueStyle[sujet.rubrique].bg} ${rubriqueStyle[sujet.rubrique].color}`}>
+                {rubriqueStyle[sujet.rubrique].label}
+              </span>
+            )}
+          </div>
+          <h1 class="font-display text-[32px] md:text-[40px] font-black leading-[1.12] tracking-tight text-noir mb-3">
+            {sujet.titre}
+          </h1>
+          <p class="text-[17px] font-semibold text-bleu-rep leading-snug mb-4">{sujet.pourquoi_important}</p>
+          {sujet.faits?.length > 0 && (
+            <ul class="flex flex-col gap-1.5 mb-4">
+              {sujet.faits.map((fait: string) => (
+                <li class="flex items-start gap-2 text-[15px] text-noir leading-relaxed">
+                  <span class="text-bleu-rep mt-1 shrink-0 font-bold">•</span>
+                  <span>{fait}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+          <p class="text-[15px] leading-relaxed text-gris-texte mb-4">{sujet.contexte}</p>
+          {sujet.sources?.length > 0 && (
+            <div class="flex flex-wrap gap-2">
+              {sujet.sources.map((src: any) => (
+                <a href={src.url} target="_blank" rel="noopener noreferrer"
+                   class="inline-flex items-center gap-1.5 text-[11px] font-mono font-medium text-gris-texte no-underline hover:text-bleu-rep transition-colors border border-gris-chaud rounded-full px-2.5 py-1">
+                  {src.groupe_media && <MediaOwnerBadge groupe_media={src.groupe_media} compact={true} />}
+                  {src.nom} ↗
+                </a>
+              ))}
+            </div>
+          )}
+        </section>
+      )}
+
+      <div class="h-px bg-gris-chaud mb-8"></div>
+
+      {/* ── ESSENTIELS ── */}
+      {essentiels.length > 0 && (
+        <section class="mb-10">
+          <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir mb-5">Les essentiels</h2>
+          <div class="flex flex-col gap-0">
+            {essentiels.map((item: any) => {
+              const style = rubriqueStyle[item.rubrique] || rubriqueStyle.politique;
+              return (
+                <div class="py-4 border-b border-gris-chaud last:border-0">
+                  <div class="flex items-center gap-2 mb-1.5">
+                    <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${style.bg} ${style.color}`}>
+                      {style.label}
+                    </span>
+                  </div>
+                  <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-1">{item.titre}</h3>
+                  <p class="text-[14px] text-gris-texte leading-relaxed">{item.resume}</p>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      <div class="h-px bg-gris-chaud mb-8"></div>
+
+      {/* ── REGARD CROISE ── */}
+      {regardCroise && (
+        <section class="mb-10">
+          <div class="flex items-center gap-2 mb-5">
+            <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-rouge-doux bg-red-50 px-2 py-0.5 rounded">Regard croisé</span>
+          </div>
+          <h2 class="font-display text-[24px] md:text-[28px] font-black leading-tight mb-3 text-noir">{regardCroise.sujet}</h2>
+          <p class="text-[15px] leading-relaxed text-gris-texte mb-5">{regardCroise.contexte}</p>
+
+          <div class="border-2 border-noir rounded-xl p-4 mb-5 bg-blanc">
+            <h4 class="font-mono text-[9px] uppercase tracking-[2px] text-noir mb-1.5">Ce qu'il faut retenir</h4>
+            <p class="text-[15px] leading-relaxed text-noir font-medium">
+              {regardCroise.ce_quil_faut_retenir || (regardCroise as any).verdict_citoyens}
+            </p>
+          </div>
+
+          {regardCroise.couvertures?.length > 0 && (
+            <div class="flex flex-col gap-3 mb-4">
+              {regardCroise.couvertures.map((c: any) => (
+                <a href={c.url} target="_blank" rel="noopener noreferrer"
+                   class={`block p-3.5 rounded-lg border border-gris-chaud border-l-4 ${sourceTypeBg[c.type] || 'border-l-gris-clair'} bg-blanc no-underline hover:shadow-md transition-shadow group`}>
+                  <div class="flex items-center gap-2 mb-1 flex-wrap">
+                    <span class="font-mono text-[12px] font-bold text-noir">{c.source}</span>
+                    {tonBadge[c.ton] && (
+                      <span class={`text-[9px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded-full ${tonBadge[c.ton].cls}`}>
+                        {tonBadge[c.ton].label}
+                      </span>
+                    )}
+                    {c.groupe_media && <MediaOwnerBadge groupe_media={c.groupe_media} compact={true} />}
+                  </div>
+                  <p class="text-[14px] leading-snug text-noir font-semibold mb-1 group-hover:text-bleu-rep transition-colors">{c.angle}</p>
+                  {c.citation_cle && (
+                    <p class="text-[12px] text-gris-texte italic leading-relaxed mt-1.5 border-t border-gris-chaud/50 pt-1.5">
+                      « {c.citation_cle} »
+                    </p>
+                  )}
+                </a>
+              ))}
+            </div>
+          )}
+
+          {regardCroise.analyse_coherence && (
+            <div class="bg-bleu-clair rounded-xl p-4">
+              <p class="text-[14px] leading-relaxed text-noir">{regardCroise.analyse_coherence}</p>
+            </div>
+          )}
+        </section>
+      )}
+
+      {/* ── CHIFFRE + A SURVEILLER ── */}
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+        {chiffre && (
+          <div class="bg-noir text-white rounded-xl p-5">
+            <div class="font-mono text-[9px] uppercase tracking-[2px] text-white/50 mb-2">Le chiffre du jour</div>
+            <div class="font-mono text-[38px] font-bold leading-none mb-2">{chiffre.valeur}</div>
+            <p class="text-[14px] leading-relaxed text-white/80 mb-2">{chiffre.contexte}</p>
+            <a href={chiffre.source_url} target="_blank" rel="noopener noreferrer" class="text-[10px] text-white/40 font-mono no-underline hover:text-white/70">
+              Source : {chiffre.source} ↗
+            </a>
+          </div>
+        )}
+        {aSurveiller.length > 0 && (
+          <div class="border border-orange/20 rounded-xl p-5 bg-orange/5">
+            <h3 class="font-mono text-[9px] uppercase tracking-[2px] text-orange mb-3 pb-2 border-b border-orange/20">À surveiller</h3>
+            <div class="flex flex-col gap-2">
+              {aSurveiller.map((evt: any) => (
+                <div class="flex gap-2 items-start">
+                  <span class="font-mono text-[10px] text-orange/60 shrink-0 mt-0.5">
+                    {new Date(evt.date + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })}
+                  </span>
+                  <span class="text-[13px] text-gris-texte leading-snug">{evt.evenement}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

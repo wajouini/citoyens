@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+const archiveModules = import.meta.glob('../../data/archives/*.json', { eager: true });
+
+interface ArchiveEntry {
+  date: string;
+  titre: string;
+  rubrique: string;
+  essentiels_count: number;
+}
+
+const archives: ArchiveEntry[] = [];
+
+for (const [path, mod] of Object.entries(archiveModules)) {
+  const data = (mod as any).default;
+  const match = path.match(/(\d{4}-\d{2}-\d{2})\.json$/);
+  if (match && data) {
+    archives.push({
+      date: match[1],
+      titre: data.sujet_du_jour?.titre || data.titre_une || 'Édition du jour',
+      rubrique: data.sujet_du_jour?.rubrique || data.categorie || 'politique',
+      essentiels_count: data.essentiels?.length || data.faits_du_jour?.length || 0,
+    });
+  }
+}
+
+archives.sort((a, b) => b.date.localeCompare(a.date));
+
+const formatDate = (dateStr: string) => {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+};
+
+const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
+  politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+  economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10' },
+  tech: { label: 'Tech', color: 'text-purple-700', bg: 'bg-purple-50' },
+  science: { label: 'Science', color: 'text-vert', bg: 'bg-green-50' },
+  societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50' },
+  international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50' },
+};
+---
+
+<BaseLayout title="Archives" description="Toutes les éditions passées de Citoyens.ai — politique, économie, tech, science, société, international.">
+  <Header />
+  <main>
+    <div class="max-w-[760px] mx-auto px-5 py-10">
+      <h1 class="font-display text-[32px] font-black tracking-tight text-noir mb-2">Archives</h1>
+      <p class="text-[15px] text-gris-texte mb-8">Toutes les éditions passées de Citoyens.ai.</p>
+
+      {archives.length === 0 ? (
+        <div class="text-center py-16">
+          <p class="text-gris-clair text-[15px]">Aucune archive disponible pour l'instant.</p>
+          <p class="text-gris-clair text-[13px] mt-2">Les éditions sont archivées automatiquement chaque jour.</p>
+        </div>
+      ) : (
+        <div class="flex flex-col gap-0">
+          {archives.map((entry) => {
+            const style = rubriqueStyle[entry.rubrique] || rubriqueStyle.politique;
+            return (
+              <a href={`/edition/${entry.date}`}
+                 class="flex items-center gap-4 py-4 border-b border-gris-chaud no-underline hover:bg-creme/50 transition-colors -mx-3 px-3 rounded">
+                <div class="font-mono text-[12px] text-gris-clair shrink-0 w-[100px]">
+                  {new Date(entry.date + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' })}
+                </div>
+                <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded shrink-0 ${style.bg} ${style.color}`}>
+                  {style.label}
+                </span>
+                <div class="flex-1 min-w-0">
+                  <span class="font-display text-[15px] font-bold text-noir leading-snug truncate block">{entry.titre}</span>
+                </div>
+                <span class="font-mono text-[10px] text-gris-clair shrink-0">{entry.essentiels_count} essentiels</span>
+              </a>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

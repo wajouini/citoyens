@@ -1,0 +1,100 @@
+---
+import uneData from '../../data/une.json';
+import feedsData from '../../data/feeds.json';
+import groupesData from '../../data/groupes-medias.json';
+import MediaOwnerBadge from './MediaOwnerBadge.astro';
+
+const regardEtranger = (uneData as any).regard_etranger || [];
+
+const feedByName = new Map((feedsData as any[]).map((f: any) => [f.nom, f]));
+const groupeById = new Map((groupesData as any[]).map((g: any) => [g.id, g]));
+
+function resolveOwnership(sourceName: string) {
+  const feed = feedByName.get(sourceName);
+  if (!feed?.groupe) return null;
+  const groupe = groupeById.get(feed.groupe);
+  if (!groupe) return null;
+  return {
+    nom: groupe.nom,
+    proprietaire: groupe.proprietaires.map((p: any) => p.nom).join(', '),
+    type_proprietaire: groupe.proprietaires[0]?.type || 'independant',
+    orientation: groupe.orientation,
+  };
+}
+
+const paysEmoji: Record<string, string> = {
+  'Royaume-Uni': '\uD83C\uDDEC\uD83C\uDDE7',
+  'Allemagne': '\uD83C\uDDE9\uD83C\uDDEA',
+  'Etats-Unis': '\uD83C\uDDFA\uD83C\uDDF8',
+  '\u00C9tats-Unis': '\uD83C\uDDFA\uD83C\uDDF8',
+  'Espagne': '\uD83C\uDDEA\uD83C\uDDF8',
+  'Italie': '\uD83C\uDDEE\uD83C\uDDF9',
+  'Belgique': '\uD83C\uDDE7\uD83C\uDDEA',
+  'Suisse': '\uD83C\uDDE8\uD83C\uDDED',
+  'Canada': '\uD83C\uDDE8\uD83C\uDDE6',
+  'Japon': '\uD83C\uDDEF\uD83C\uDDF5',
+  'Qatar': '\uD83C\uDDF6\uD83C\uDDE6',
+  'Europe': '\uD83C\uDDEA\uD83C\uDDFA',
+  'France': '\uD83C\uDDEB\uD83C\uDDF7',
+  'Br\u00e9sil': '\uD83C\uDDE7\uD83C\uDDF7',
+  'Australie': '\uD83C\uDDE6\uD83C\uDDFA',
+  'Inde': '\uD83C\uDDEE\uD83C\uDDF3',
+  'Chine': '\uD83C\uDDE8\uD83C\uDDF3',
+  'Russie': '\uD83C\uDDF7\uD83C\uDDFA',
+  'Isra\u00ebl': '\uD83C\uDDEE\uD83C\uDDF1',
+  'Palestine': '\uD83C\uDDF5\uD83C\uDDF8',
+  'Turquie': '\uD83C\uDDF9\uD83C\uDDF7',
+  'Maroc': '\uD83C\uDDF2\uD83C\uDDE6',
+  'Alg\u00e9rie': '\uD83C\uDDE9\uD83C\uDDFF',
+};
+
+const formatDateShort = (dateStr: string) => {
+  try {
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return '';
+    return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
+  } catch { return ''; }
+};
+---
+
+{regardEtranger.length > 0 && (
+  <section class="py-10 border-b border-gris-chaud">
+    <div class="max-w-[1280px] mx-auto px-6">
+      <!-- Section header -->
+      <div class="flex items-center gap-3 mb-6">
+        <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-bleu-rep bg-bleu-clair px-2 py-0.5 rounded">\uD83C\uDF0D Regard &eacute;tranger</span>
+        <div class="flex-1 h-px bg-gris-chaud"></div>
+        <span class="font-mono text-[10px] text-gris-clair uppercase tracking-wider">La France vue d'ailleurs</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {regardEtranger.map((r: any) => {
+          const ownership = resolveOwnership(r.source);
+          return (
+          <a href={r.url} target="_blank" rel="noopener noreferrer"
+             class="block p-4 rounded-xl border border-gris-chaud bg-blanc no-underline hover:border-bleu-rep hover:shadow-md transition-all group">
+            <div class="flex items-center gap-2 mb-1.5">
+              <span class="text-lg">{paysEmoji[r.pays] || '\uD83C\uDF10'}</span>
+              <div class="flex-1 min-w-0">
+                <div class="font-mono text-[12px] font-bold text-noir">{r.source}</div>
+                <div class="font-mono text-[10px] text-gris-clair">{r.pays}{formatDateShort(r.date) ? ` \u2022 ${formatDateShort(r.date)}` : ''}</div>
+              </div>
+            </div>
+            {ownership && (
+              <div class="mb-1.5">
+                <MediaOwnerBadge groupe_media={ownership} compact={true} />
+              </div>
+            )}
+            <h4 class="font-display text-[15px] font-bold text-noir leading-snug mb-1.5 group-hover:text-bleu-rep transition-colors">
+              {r.titre}
+            </h4>
+            {r.titre_original && r.titre_original !== r.titre && (
+              <p class="text-[11px] text-gris-clair italic mb-1.5 line-clamp-1">{r.titre_original}</p>
+            )}
+            <p class="text-[13px] text-gris-texte leading-relaxed line-clamp-3">{r.resume}</p>
+          </a>
+        );})}
+      </div>
+    </div>
+  </section>
+)}

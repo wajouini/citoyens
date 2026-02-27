@@ -5,6 +5,11 @@ import uneData from '../../data/une.json';
 const allDossiers = await getCollection('dossiers');
 const allDecodages = await getCollection('decodages');
 
+// Backward-compatible: support both old (faits_semaine) and new (faits_du_jour) schema
+const faits = (uneData as any).faits_du_jour || (uneData as any).faits_semaine || [];
+const chiffre = (uneData as any).chiffre_du_jour || (uneData as any).chiffre_semaine;
+const aSurveiller = (uneData as any).a_surveiller || [];
+
 const categorieBadge: Record<string, string> = {
   'Budget': 'bg-orange/10 text-orange border-orange/20',
   'Santé': 'bg-green-50 text-vert border-vert/20',
@@ -13,6 +18,21 @@ const categorieBadge: Record<string, string> = {
   'Vote': 'bg-bleu-clair text-bleu-rep border-bleu-rep/20',
   'Gouvernement': 'bg-red-50 text-rouge-doux border-rouge-doux/20',
   'Europe': 'bg-blue-50 text-bleu-rep border-bleu-rep/20',
+  'Social': 'bg-amber-50 text-amber-700 border-amber-200',
+  'Justice': 'bg-violet-50 text-violet-700 border-violet-200',
+  'Institutions': 'bg-bleu-clair text-bleu-rep border-bleu-rep/20',
+  'Sécurité': 'bg-red-50 text-rouge-doux border-rouge-doux/20',
+  'Environnement': 'bg-green-50 text-vert border-vert/20',
+  'Éducation': 'bg-sky-50 text-sky-700 border-sky-200',
+  'Enquête': 'bg-orange/10 text-orange border-orange/20',
+};
+
+const sourceTypeBadge: Record<string, string> = {
+  'investigation': 'bg-orange/10 text-orange',
+  'mainstream': 'bg-bleu-clair text-bleu-rep',
+  'fact-check': 'bg-green-50 text-vert',
+  'institutionnel': 'bg-gray-100 text-gris-texte',
+  'etranger': 'bg-purple-50 text-purple-700',
 };
 
 const formatDate = (dateStr: string) => {
@@ -25,7 +45,7 @@ const formatDate = (dateStr: string) => {
   <div class="max-w-[1280px] mx-auto px-6">
     <!-- Date line -->
     <div class="flex items-center gap-3 mb-6">
-      <div class="font-mono text-[11px] uppercase tracking-[2px] text-bleu-rep">&bull; Cette semaine en politique</div>
+      <div class="font-mono text-[11px] uppercase tracking-[2px] text-bleu-rep">&bull; Aujourd'hui en politique</div>
       <div class="flex-1 h-px bg-gris-chaud"></div>
       <div class="font-mono text-[11px] text-gris-clair">{formatDate(uneData.date)}</div>
     </div>
@@ -46,47 +66,93 @@ const formatDate = (dateStr: string) => {
               {uneData.titre_une}
             </h1>
           </a>
-          <p class="text-[17px] leading-relaxed text-gris-texte mb-4 max-w-[640px]">
+          <p class="text-[18px] leading-relaxed text-gris-texte mb-4 max-w-[640px]">
             {uneData.accroche}
           </p>
-          <a href={uneData.lien} class="inline-flex items-center gap-1.5 text-[13px] font-semibold text-bleu-rep no-underline hover:underline">
-            Lire le dossier complet &rarr;
-          </a>
+          {uneData.lien && uneData.lien !== '/' && (
+            <a href={uneData.lien} class="inline-flex items-center gap-1.5 text-[14px] font-semibold text-bleu-rep no-underline hover:underline">
+              Lire le dossier complet &rarr;
+            </a>
+          )}
         </div>
 
-        <!-- FIL D'ACTU -->
+        <!-- FIL DU JOUR -->
         <div>
-          <h3 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-4 pb-2 border-b border-gris-chaud">Fil de la semaine</h3>
+          <h3 class="text-[11px] uppercase tracking-[1.5px] text-gris-clair mb-4 pb-2 border-b border-gris-chaud">Fil du jour</h3>
           <div class="flex flex-col gap-0">
-            {uneData.faits_semaine.map((fait: any, i: number) => (
-              <a href={fait.lien || '#'} class="group py-3.5 border-b border-gris-chaud last:border-0 no-underline flex gap-3 items-start">
-                <span class="mt-1 font-mono text-[11px] text-gris-clair shrink-0 w-4 text-right">{i + 1}</span>
+            {faits.map((fait: any, i: number) => {
+              const firstSourceUrl = fait.sources?.[0]?.url;
+              const faitHref = fait.lien || firstSourceUrl || null;
+              return (
+              <div class="group py-4 border-b border-gris-chaud last:border-0 flex gap-3 items-start">
+                <span class="mt-1 font-mono text-[13px] text-gris-clair shrink-0 w-5 text-right">{i + 1}</span>
                 <div class="flex-1">
-                  <div class="flex items-center gap-2 mb-1">
-                    <span class={`text-[9px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded-full border ${categorieBadge[fait.categorie] || 'bg-gray-100 text-gris-clair border-gris-chaud'}`}>
+                  <div class="flex items-center gap-2 mb-1.5 flex-wrap">
+                    <span class={`text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full border ${categorieBadge[fait.categorie] || 'bg-gray-100 text-gris-clair border-gris-chaud'}`}>
                       {fait.categorie}
                     </span>
+                    {fait.sources?.map((src: any) => (
+                      src.url ? (
+                        <a href={src.url} target="_blank" rel="noopener noreferrer"
+                           class={`text-[9px] font-mono font-medium px-1.5 py-0.5 rounded no-underline hover:opacity-70 transition-opacity ${sourceTypeBadge[src.type] || 'bg-gray-100 text-gris-clair'}`}>
+                          {src.nom} ↗
+                        </a>
+                      ) : (
+                        <span class={`text-[9px] font-mono font-medium px-1.5 py-0.5 rounded ${sourceTypeBadge[src.type] || 'bg-gray-100 text-gris-clair'}`}>
+                          {src.nom}
+                        </span>
+                      )
+                    ))}
                   </div>
-                  <h4 class="font-display text-[15px] font-bold text-noir leading-snug group-hover:text-bleu-rep transition-colors">
-                    {fait.titre}
-                  </h4>
-                  <p class="text-[12px] text-gris-texte leading-relaxed mt-0.5 line-clamp-2">{fait.resume}</p>
+                  {faitHref ? (
+                    <a href={faitHref} target={fait.lien ? '_self' : '_blank'} rel="noopener noreferrer" class="no-underline">
+                      <h4 class="font-display text-[17px] font-bold text-noir leading-snug group-hover:text-bleu-rep transition-colors">
+                        {fait.titre}
+                      </h4>
+                    </a>
+                  ) : (
+                    <h4 class="font-display text-[17px] font-bold text-noir leading-snug">
+                      {fait.titre}
+                    </h4>
+                  )}
+                  <p class="text-[14px] text-gris-texte leading-relaxed mt-1 line-clamp-2">{fait.resume}</p>
                 </div>
-              </a>
-            ))}
+              </div>
+            );})}
           </div>
         </div>
       </div>
 
       <!-- Sidebar -->
       <div>
-        <!-- Chiffre de la semaine -->
-        <div class="bg-noir text-white rounded-xl p-5 mb-6">
-          <div class="font-mono text-[10px] uppercase tracking-[2px] text-white/50 mb-2">Le chiffre</div>
-          <div class="font-mono text-[42px] font-bold leading-none mb-2 text-white">{uneData.chiffre_semaine.valeur}</div>
-          <p class="text-[13px] leading-relaxed text-white/80 mb-2">{uneData.chiffre_semaine.contexte}</p>
-          <a href={uneData.chiffre_semaine.source_url} target="_blank" rel="noopener noreferrer" class="text-[10px] text-white/40 font-mono no-underline hover:text-white/70 transition-colors">Source : {uneData.chiffre_semaine.source} ↗</a>
-        </div>
+        <!-- Chiffre du jour -->
+        {chiffre && (
+          <div class="bg-noir text-white rounded-xl p-5 mb-6">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-white/50 mb-2">Le chiffre</div>
+            <div class="font-mono text-[42px] font-bold leading-none mb-2 text-white">{chiffre.valeur}</div>
+            <p class="text-[14px] leading-relaxed text-white/80 mb-2">{chiffre.contexte}</p>
+            <a href={chiffre.source_url} target="_blank" rel="noopener noreferrer" class="text-[11px] text-white/40 font-mono no-underline hover:text-white/70 transition-colors">Source : {chiffre.source} ↗</a>
+          </div>
+        )}
+
+        <!-- À surveiller -->
+        {aSurveiller.length > 0 && (
+          <div class="mb-6 border border-orange/20 rounded-xl p-4 bg-orange/5">
+            <h3 class="text-[11px] uppercase tracking-[1.5px] text-orange mb-3 pb-2 border-b border-orange/20 flex items-center gap-1.5">
+              <span>👁</span> À surveiller
+            </h3>
+            <div class="flex flex-col gap-2">
+              {aSurveiller.map((evt: any) => (
+                <div class="flex gap-2 items-start">
+                  <span class="font-mono text-[11px] text-orange/60 shrink-0 mt-0.5">
+                    {new Date(evt.date + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })}
+                  </span>
+                  <span class="text-[13px] text-gris-texte leading-snug">{evt.evenement}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         <!-- Dossiers en cours -->
         <div class="mb-6">

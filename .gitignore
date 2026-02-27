@@ -17,6 +17,9 @@ pnpm-debug.log*
 .env
 .env.production
 
+# pipeline intermediate files
+src/data/.pipeline/
+
 # macOS-specific files
 .DS_Store
 

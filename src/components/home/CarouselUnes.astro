@@ -1,0 +1,289 @@
+---
+/**
+ * Carousel of headlines from other media — shows what each outlet
+ * is leading with today, with ownership context for transparency.
+ */
+import feedsData from '../../data/feeds.json';
+import groupesData from '../../data/groupes-medias.json';
+
+interface RawArticle {
+  id: string;
+  titre: string;
+  description: string;
+  url: string;
+  source: string;
+  type: string;
+  pays: string;
+  date: string;
+  fiabilite: number;
+  auteur: string | null;
+  groupe: string | null;
+}
+
+let articles: RawArticle[] = [];
+try {
+  const rawModule = await import('../../data/.pipeline/raw-articles.json');
+  articles = rawModule.default as RawArticle[];
+} catch { /* pipeline hasn't run yet */ }
+
+const feedByName = new Map((feedsData as any[]).map((f: any) => [f.nom, f]));
+const groupeById = new Map((groupesData as any[]).map((g: any) => [g.id, g]));
+
+function resolveOwnership(sourceName: string) {
+  const feed = feedByName.get(sourceName);
+  if (!feed?.groupe) return null;
+  const groupe = groupeById.get(feed.groupe);
+  if (!groupe) return null;
+  return {
+    nom: groupe.nom,
+    proprietaire: groupe.proprietaires.map((p: any) => p.nom).join(', '),
+    type_proprietaire: groupe.proprietaires[0]?.type || 'independant',
+    orientation: groupe.orientation,
+  };
+}
+
+const sourceOrder = [
+  'Le Monde', 'Libération', 'L\'Humanité', 'BFM TV', 'franceinfo',
+  'Mediapart', 'Blast', 'StreetPress', 'Disclose', 'Basta!',
+  'France 24 FR', 'RFI',
+  'The Guardian', 'BBC Europe', 'Der Spiegel', 'Politico EU',
+  'Al Jazeera', 'NYT World', 'Courrier international',
+];
+
+interface HeadlineCard {
+  source: string;
+  titre: string;
+  description: string;
+  url: string;
+  type: string;
+  pays: string;
+  date: string;
+  auteur: string | null;
+  ownership: ReturnType<typeof resolveOwnership>;
+  orientation: string | null;
+  ligne_editoriale: string | null;
+}
+
+const headlines: HeadlineCard[] = [];
+const seen = new Set<string>();
+
+for (const sourceName of sourceOrder) {
+  if (seen.has(sourceName)) continue;
+  const article = articles.find(a => a.source === sourceName);
+  if (!article) continue;
+  seen.add(sourceName);
+
+  const feed = feedByName.get(sourceName);
+  headlines.push({
+    source: sourceName,
+    titre: article.titre,
+    description: article.description || '',
+    url: article.url,
+    type: article.type,
+    pays: article.pays || 'France',
+    date: article.date,
+    auteur: article.auteur,
+    ownership: resolveOwnership(sourceName),
+    orientation: feed?.orientation || null,
+    ligne_editoriale: feed?.ligne_editoriale || null,
+  });
+}
+
+for (const article of articles) {
+  if (seen.has(article.source)) continue;
+  if (article.type === 'institutionnel' || article.type === 'fact-check') continue;
+  seen.add(article.source);
+
+  const feed = feedByName.get(article.source);
+  headlines.push({
+    source: article.source,
+    titre: article.titre,
+    description: article.description || '',
+    url: article.url,
+    type: article.type,
+    pays: article.pays || 'France',
+    date: article.date,
+    auteur: article.auteur,
+    ownership: resolveOwnership(article.source),
+    orientation: feed?.orientation || null,
+    ligne_editoriale: feed?.ligne_editoriale || null,
+  });
+}
+
+const typeAccent: Record<string, string> = {
+  'investigation': 'border-t-orange',
+  'mainstream': 'border-t-bleu-rep',
+  'etranger': 'border-t-purple-600',
+};
+
+const typeLabels: Record<string, { label: string; cls: string }> = {
+  'investigation': { label: 'Investigation', cls: 'bg-orange/10 text-orange' },
+  'mainstream': { label: 'Mainstream', cls: 'bg-bleu-clair text-bleu-rep' },
+  'etranger': { label: 'Étranger', cls: 'bg-purple-50 text-purple-700' },
+};
+
+const ownerTypeIcons: Record<string, string> = {
+  milliardaire: '💰', etat: '🏛', fondation: '🛡', cooperative: '🤝',
+  employes: '👥', independant: '✊', famille: '👨‍👩‍👧',
+};
+
+const orientationLabels: Record<string, string> = {
+  'extreme-gauche': 'Extrême gauche', 'gauche': 'Gauche',
+  'centre-gauche': 'Centre-gauche', 'centre': 'Centre',
+  'centre-droit': 'Centre-droit', 'droite': 'Droite',
+  'extreme-droite': 'Extrême droite', 'variable': 'Variable',
+};
+
+const orientationDots: Record<string, string> = {
+  'extreme-gauche': 'bg-red-700', 'gauche': 'bg-red-500',
+  'centre-gauche': 'bg-rose-400', 'centre': 'bg-gray-400',
+  'centre-droit': 'bg-blue-400', 'droite': 'bg-blue-600',
+  'extreme-droite': 'bg-blue-900', 'variable': 'bg-gray-300',
+};
+
+function fmtDate(iso: string): string {
+  try {
+    const d = new Date(iso);
+    return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+  } catch { return ''; }
+}
+
+function truncate(text: string, max: number): string {
+  if (!text || text.length <= max) return text;
+  return text.slice(0, max).replace(/\s+\S*$/, '') + '…';
+}
+---
+
+{headlines.length > 0 && (
+  <section class="py-10 border-b border-gris-chaud bg-creme/50">
+    <div class="max-w-[1280px] mx-auto px-6">
+      <div class="flex items-center gap-3 mb-6">
+        <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir bg-gris-chaud/60 px-2 py-0.5 rounded">
+          Ce que titrent les autres
+        </span>
+        <div class="flex-1 h-px bg-gris-chaud"></div>
+        <span class="font-mono text-[10px] text-gris-clair uppercase tracking-wider">{headlines.length} sources</span>
+      </div>
+
+      <div class="carousel-track flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth" style="scrollbar-width: thin; scrollbar-color: #c4c0b6 transparent;">
+        {headlines.map((h) => {
+          const orient = h.orientation || h.ownership?.orientation || null;
+          const dotCls = orient ? (orientationDots[orient] || 'bg-gray-300') : null;
+          const orientLabel = orient ? (orientationLabels[orient] || orient) : null;
+          const ownerIcon = h.ownership ? (ownerTypeIcons[h.ownership.type_proprietaire] || '') : '';
+          const hasTooltip = h.ligne_editoriale || h.ownership;
+
+          const tooltipLines: string[] = [];
+          if (h.ownership) {
+            tooltipLines.push(`${ownerIcon} ${h.ownership.nom} — ${h.ownership.proprietaire}`);
+            if (orientLabel) tooltipLines.push(`Orientation : ${orientLabel}`);
+          }
+          if (h.ligne_editoriale) {
+            tooltipLines.push(h.ligne_editoriale);
+          }
+
+          return (
+            <div class="snap-start shrink-0 w-[300px] md:w-[340px] flex flex-col">
+              <a href={h.url} target="_blank" rel="noopener noreferrer"
+                 class={`flex-1 flex flex-col rounded-xl border border-gris-chaud border-t-4 ${typeAccent[h.type] || 'border-t-gris-clair'} bg-blanc p-5 no-underline hover:shadow-lg hover:border-bleu-rep/30 transition-all group`}>
+
+                {/* Source header with ⓘ tooltip */}
+                <div class="flex items-center gap-2 mb-3">
+                  {dotCls && <span class={`w-2 h-2 rounded-full ${dotCls} shrink-0`} />}
+                  <span class="font-mono text-[13px] font-black text-noir">{h.source}</span>
+                  {h.pays !== 'France' && (
+                    <span class="font-mono text-[9px] text-gris-clair">{h.pays}</span>
+                  )}
+                  {hasTooltip && (
+                    <span class="info-trigger relative ml-auto shrink-0 cursor-help">
+                      <span class="inline-flex items-center justify-center w-[18px] h-[18px] rounded-full bg-gris-chaud/50 text-gris-texte text-[10px] font-bold leading-none hover:bg-bleu-rep/10 hover:text-bleu-rep transition-colors">i</span>
+                      <span class="info-tooltip">
+                        {tooltipLines.map((line, i) => (
+                          <span class={i > 0 ? 'block mt-1' : 'block'}>{line}</span>
+                        ))}
+                      </span>
+                    </span>
+                  )}
+                </div>
+
+                {/* Headline */}
+                <h4 class="font-display text-[16px] font-bold text-noir leading-snug mb-2 group-hover:text-bleu-rep transition-colors line-clamp-3">
+                  {h.titre}
+                </h4>
+
+                {/* Article description */}
+                {h.description && (
+                  <p class="text-[13px] text-gris-texte leading-relaxed mb-3 line-clamp-3">
+                    {truncate(h.description, 180)}
+                  </p>
+                )}
+
+                {/* Footer: metadata */}
+                <div class="mt-auto pt-2.5 border-t border-gris-chaud/50 flex items-center gap-2 flex-wrap">
+                  {typeLabels[h.type] && (
+                    <span class={`font-mono text-[9px] font-bold uppercase px-1.5 py-0.5 rounded ${typeLabels[h.type].cls}`}>
+                      {typeLabels[h.type].label}
+                    </span>
+                  )}
+                  {h.auteur && (
+                    <span class="font-mono text-[10px] text-gris-clair truncate max-w-[140px]">✍ {h.auteur}</span>
+                  )}
+                  <span class="font-mono text-[10px] text-gris-clair ml-auto shrink-0">{fmtDate(h.date)}</span>
+                </div>
+              </a>
+            </div>
+          );
+        })}
+      </div>
+
+      <div class="flex justify-center mt-3 md:hidden">
+        <span class="font-mono text-[10px] text-gris-clair">← Glissez pour voir plus →</span>
+      </div>
+    </div>
+  </section>
+)}
+
+<style>
+  .carousel-track::-webkit-scrollbar {
+    height: 6px;
+  }
+  .carousel-track::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .carousel-track::-webkit-scrollbar-thumb {
+    background: #c4c0b6;
+    border-radius: 3px;
+  }
+
+  .info-trigger .info-tooltip {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: 6px;
+    width: 260px;
+    padding: 10px 12px;
+    background: #1a1a1a;
+    color: #f0ede8;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    line-height: 1.5;
+    border-radius: 8px;
+    z-index: 50;
+    pointer-events: none;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  }
+  .info-trigger .info-tooltip::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    right: 4px;
+    width: 8px;
+    height: 8px;
+    background: #1a1a1a;
+    transform: rotate(45deg);
+  }
+  .info-trigger:hover .info-tooltip {
+    display: block;
+  }
+</style>

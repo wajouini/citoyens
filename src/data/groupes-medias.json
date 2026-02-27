@@ -1,0 +1,631 @@
+[
+  {
+    "id": "groupe-le-monde",
+    "nom": "Groupe Le Monde",
+    "proprietaires": [
+      { "nom": "Xavier Niel", "type": "milliardaire", "fortune_source": "Free / Iliad" },
+      { "nom": "Daniel Kretinsky", "type": "milliardaire", "fortune_source": "EPH (énergie fossile tchèque)" },
+      { "nom": "Matthieu Pigasse", "type": "milliardaire", "fortune_source": "Lazard / banque d'affaires" }
+    ],
+    "structure": "SAS avec Société des rédacteurs (contre-pouvoir interne limité)",
+    "orientation": "centre-droit",
+    "orientation_historique": "centre-gauche",
+    "derive_recente": "Glissement progressif vers le centre-droit, normalisation des thématiques sécuritaires, complaisance accrue envers le pouvoir exécutif",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 2,
+      "antifascisme": 3,
+      "justice_sociale": 3
+    },
+    "axes_notes": {
+      "colonialisme": "Couverture variable — reconnaît des faits historiques mais minimise la Françafrique contemporaine",
+      "droit_international": "Double standard notable : critique la Russie en Ukraine mais traitement plus complaisant d'Israël à Gaza",
+      "antifascisme": "Alertes sur l'extrême-droite mais normalisation progressive du vocabulaire et des thèmes RN"
+    },
+    "medias": ["Le Monde", "Les Décodeurs", "Courrier international"]
+  },
+  {
+    "id": "groupe-cma-cgm",
+    "nom": "CMA CGM",
+    "proprietaires": [
+      { "nom": "Rodolphe Saadé", "type": "milliardaire", "fortune_source": "CMA CGM (transport maritime mondial)" }
+    ],
+    "structure": "Rachat d'Altice Media par CMA CGM en 2023 — contrôle actionnarial direct",
+    "orientation": "centre-droit",
+    "orientation_historique": "centre (sous Altice/Drahi)",
+    "derive_recente": "Ligne pro-business renforcée, couverture complaisante du monde des affaires, traitement sécuritaire de l'immigration",
+    "axes": {
+      "colonialisme": 4,
+      "droit_international": 4,
+      "liberte_expression": 3,
+      "antifascisme": 3,
+      "justice_sociale": 4
+    },
+    "axes_notes": {
+      "colonialisme": "Quasi-absence de traitement des sujets post-coloniaux",
+      "droit_international": "Alignement atlantiste, couverture asymétrique des conflits",
+      "justice_sociale": "Couverture des mouvements sociaux sous l'angle perturbation/économie, rarement sous l'angle des revendications"
+    },
+    "medias": ["BFM TV", "RMC", "BFM Business"]
+  },
+  {
+    "id": "liberation",
+    "nom": "Libération",
+    "proprietaires": [
+      { "nom": "Fonds de dotation", "type": "fondation", "fortune_source": "Structure à but non lucratif (depuis 2020, après sortie de Drahi)" }
+    ],
+    "structure": "Fonds de dotation pour la presse indépendante — indépendance capitalistique relative",
+    "orientation": "centre-gauche",
+    "orientation_historique": "gauche",
+    "derive_recente": "Évolution du gauche vers le centre-gauche libéral, perte du caractère militant originel",
+    "axes": {
+      "colonialisme": 2,
+      "droit_international": 2,
+      "liberte_expression": 2,
+      "antifascisme": 2,
+      "justice_sociale": 2
+    },
+    "axes_notes": {
+      "colonialisme": "Traitement globalement critique de l'héritage colonial, couverture régulière des sujets post-coloniaux",
+      "antifascisme": "Position claire contre l'extrême-droite, bien que parfois timorée face au RN mainstream"
+    },
+    "medias": ["Libération", "CheckNews"]
+  },
+  {
+    "id": "france-medias-monde",
+    "nom": "France Médias Monde",
+    "proprietaires": [
+      { "nom": "État français", "type": "etat", "fortune_source": "Service public audiovisuel extérieur" }
+    ],
+    "structure": "Société nationale de programme — service public sous tutelle du ministère de la Culture",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Pression gouvernementale croissante sur la ligne éditoriale, notamment sur les sujets internationaux sensibles",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 2,
+      "antifascisme": 2,
+      "justice_sociale": 2
+    },
+    "axes_notes": {
+      "colonialisme": "Couverture de la Françafrique mais auto-censure sur certains sujets sensibles liés à la politique étrangère",
+      "droit_international": "Alignement partiel sur la diplomatie française, double standard variable selon les conflits"
+    },
+    "medias": ["France 24 FR", "France 24 EN", "RFI"]
+  },
+  {
+    "id": "france-televisions",
+    "nom": "France Télévisions",
+    "proprietaires": [
+      { "nom": "État français", "type": "etat", "fortune_source": "Service public audiovisuel national" }
+    ],
+    "structure": "Société nationale de programme — nomination du président par l'Arcom",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Dépendance au pouvoir politique via le mode de nomination, autocensure sur certains sujets",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 2,
+      "antifascisme": 2,
+      "justice_sociale": 2
+    },
+    "axes_notes": {
+      "droit_international": "Reprend souvent la ligne diplomatique officielle, couverture variable des conflits"
+    },
+    "medias": ["franceinfo"]
+  },
+  {
+    "id": "lhumanite",
+    "nom": "L'Humanité",
+    "proprietaires": [
+      { "nom": "Société des lecteurs et salariés", "type": "cooperative", "fortune_source": "Financement participatif et coopératif" }
+    ],
+    "structure": "Coopérative de presse — historiquement liée au PCF, désormais indépendante",
+    "orientation": "gauche",
+    "orientation_historique": "extreme-gauche",
+    "derive_recente": "Stabilité éditoriale, positionnement social-démocrate de gauche avec ancrage historique communiste",
+    "axes": {
+      "colonialisme": 1,
+      "droit_international": 1,
+      "liberte_expression": 1,
+      "antifascisme": 1,
+      "justice_sociale": 1
+    },
+    "axes_notes": {
+      "colonialisme": "Critique constante et historique du colonialisme et du néo-colonialisme",
+      "droit_international": "Application universaliste du droit international, critique de tous les impérialismes",
+      "justice_sociale": "ADN du journal — couverture prioritaire des luttes sociales, syndicales et ouvrières"
+    },
+    "medias": ["L'Humanité"]
+  },
+  {
+    "id": "mediapart",
+    "nom": "Mediapart",
+    "proprietaires": [
+      { "nom": "Fonds pour une presse libre", "type": "fondation", "fortune_source": "Fonds de dotation à but non lucratif (depuis 2019)" }
+    ],
+    "structure": "Fonds de dotation — aucun actionnaire privé, financement 100% abonnements",
+    "orientation": "gauche",
+    "orientation_historique": "gauche",
+    "derive_recente": "Maintien d'une ligne d'investigation indépendante, élargissement aux sujets internationaux",
+    "axes": {
+      "colonialisme": 1,
+      "droit_international": 1,
+      "liberte_expression": 1,
+      "antifascisme": 1,
+      "justice_sociale": 1
+    },
+    "axes_notes": {
+      "colonialisme": "Enquêtes régulières sur la Françafrique, la colonisation, les violences post-coloniales",
+      "droit_international": "Application universaliste stricte — mêmes standards pour tous les acteurs étatiques",
+      "antifascisme": "Couverture approfondie de l'extrême-droite, de ses réseaux et de sa normalisation"
+    },
+    "medias": ["Mediapart"]
+  },
+  {
+    "id": "blast",
+    "nom": "Blast",
+    "proprietaires": [
+      { "nom": "Blast", "type": "independant", "fortune_source": "Financement participatif et dons" }
+    ],
+    "structure": "Média indépendant en ligne — pas d'actionnaire, financement par les lecteurs",
+    "orientation": "gauche",
+    "orientation_historique": "gauche",
+    "derive_recente": "Ligne stable, développement de l'investigation et des formats vidéo",
+    "axes": {
+      "colonialisme": 1,
+      "droit_international": 1,
+      "liberte_expression": 1,
+      "antifascisme": 1,
+      "justice_sociale": 1
+    },
+    "axes_notes": {
+      "droit_international": "Position universaliste, critique de tous les impérialismes",
+      "antifascisme": "Couverture active de l'extrême-droite et de ses relais"
+    },
+    "medias": ["Blast"]
+  },
+  {
+    "id": "streetpress",
+    "nom": "StreetPress",
+    "proprietaires": [
+      { "nom": "StreetPress", "type": "independant", "fortune_source": "Financement participatif, subventions presse" }
+    ],
+    "structure": "Média indépendant — spécialisé dans l'investigation sur l'extrême-droite",
+    "orientation": "gauche",
+    "orientation_historique": "gauche",
+    "derive_recente": "Renforcement de la spécialisation sur l'enquête extrême-droite et les mouvements sociaux",
+    "axes": {
+      "colonialisme": 1,
+      "droit_international": 1,
+      "liberte_expression": 1,
+      "antifascisme": 1,
+      "justice_sociale": 1
+    },
+    "axes_notes": {
+      "antifascisme": "Référence en matière d'enquête sur les réseaux d'extrême-droite en France"
+    },
+    "medias": ["StreetPress"]
+  },
+  {
+    "id": "disclose",
+    "nom": "Disclose",
+    "proprietaires": [
+      { "nom": "Association Disclose", "type": "fondation", "fortune_source": "ONG de journalisme d'investigation, dons et subventions" }
+    ],
+    "structure": "Association loi 1901 — financement par fondations et dons",
+    "orientation": "centre-gauche",
+    "orientation_historique": "centre-gauche",
+    "derive_recente": "Stabilité, élargissement des enquêtes aux sujets environnementaux et ventes d'armes",
+    "axes": {
+      "colonialisme": 1,
+      "droit_international": 1,
+      "liberte_expression": 1,
+      "antifascisme": 1,
+      "justice_sociale": 1
+    },
+    "axes_notes": {
+      "droit_international": "Enquêtes de référence sur les ventes d'armes françaises, violations du droit international humanitaire",
+      "colonialisme": "Couverture des conséquences de la politique étrangère française en Afrique et au Moyen-Orient"
+    },
+    "medias": ["Disclose"]
+  },
+  {
+    "id": "basta",
+    "nom": "Basta!",
+    "proprietaires": [
+      { "nom": "Association Basta!", "type": "independant", "fortune_source": "Financement participatif et subventions presse" }
+    ],
+    "structure": "Média associatif indépendant — financement par les lecteurs",
+    "orientation": "gauche",
+    "orientation_historique": "gauche",
+    "derive_recente": "Ligne stable, renforcement sur l'écologie sociale et les alternatives",
+    "axes": {
+      "colonialisme": 1,
+      "droit_international": 1,
+      "liberte_expression": 1,
+      "antifascisme": 1,
+      "justice_sociale": 1
+    },
+    "axes_notes": {
+      "justice_sociale": "Couverture prioritaire des mouvements sociaux, des alternatives économiques et de l'écologie"
+    },
+    "medias": ["Basta!"]
+  },
+  {
+    "id": "institutions-fr",
+    "nom": "Institutions françaises",
+    "proprietaires": [
+      { "nom": "État français", "type": "etat", "fortune_source": "Institutions de la République" }
+    ],
+    "structure": "Communication institutionnelle officielle — pas de ligne éditoriale au sens journalistique",
+    "orientation": "variable",
+    "orientation_historique": "variable",
+    "derive_recente": "Reflète la majorité politique en place",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 3,
+      "antifascisme": 3,
+      "justice_sociale": 3
+    },
+    "axes_notes": {
+      "colonialisme": "Communication officielle, dépend de la majorité en place"
+    },
+    "medias": ["Assemblée nationale", "Sénat", "Vie publique"]
+  },
+  {
+    "id": "scott-trust",
+    "nom": "Scott Trust",
+    "proprietaires": [
+      { "nom": "Scott Trust Limited", "type": "fondation", "fortune_source": "Fiducie à but non lucratif (Royaume-Uni)" }
+    ],
+    "structure": "Fiducie garantissant l'indépendance éditoriale — aucun actionnaire privé",
+    "orientation": "centre-gauche",
+    "orientation_historique": "centre-gauche",
+    "derive_recente": "Stabilité, couverture internationale de qualité, parfois alignement sur le consensus libéral anglo-saxon",
+    "axes": {
+      "colonialisme": 2,
+      "droit_international": 2,
+      "liberte_expression": 1,
+      "antifascisme": 1,
+      "justice_sociale": 2
+    },
+    "axes_notes": {
+      "colonialisme": "Couverture critique du colonialisme britannique, mais angle parfois occidentalo-centré",
+      "droit_international": "Globalement universaliste avec quelques angles morts sur le Moyen-Orient"
+    },
+    "medias": ["The Guardian"]
+  },
+  {
+    "id": "bbc",
+    "nom": "BBC",
+    "proprietaires": [
+      { "nom": "État britannique", "type": "etat", "fortune_source": "Redevance audiovisuelle (licence fee)" }
+    ],
+    "structure": "Service public britannique — charte royale, indépendance sous pression politique",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Pression croissante du gouvernement conservateur, autocensure sur certains sujets (Palestine, monarchie)",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 2,
+      "antifascisme": 2,
+      "justice_sociale": 3
+    },
+    "axes_notes": {
+      "colonialisme": "Traitement du colonialisme britannique en demi-teinte, culture du 'both sides'",
+      "droit_international": "Le 'both-sidesism' institutionnel crée des équivalences artificielles dans les conflits asymétriques"
+    },
+    "medias": ["BBC Europe"]
+  },
+  {
+    "id": "der-spiegel",
+    "nom": "Der Spiegel",
+    "proprietaires": [
+      { "nom": "Employés et famille Augstein", "type": "employes", "fortune_source": "50% détenu par les employés, 25% famille Augstein, 25% Gruner+Jahr" }
+    ],
+    "structure": "Actionnariat salarié majoritaire — forte indépendance éditoriale",
+    "orientation": "centre-gauche",
+    "orientation_historique": "centre-gauche",
+    "derive_recente": "Stabilité, investigation de référence en Allemagne, couverture européenne solide",
+    "axes": {
+      "colonialisme": 2,
+      "droit_international": 2,
+      "liberte_expression": 1,
+      "antifascisme": 1,
+      "justice_sociale": 2
+    },
+    "axes_notes": {
+      "antifascisme": "Couverture rigoureuse de l'AfD et de l'extrême-droite allemande et européenne"
+    },
+    "medias": ["Der Spiegel"]
+  },
+  {
+    "id": "axel-springer",
+    "nom": "Axel Springer / KKR",
+    "proprietaires": [
+      { "nom": "KKR (fonds d'investissement)", "type": "milliardaire", "fortune_source": "Private equity américain" },
+      { "nom": "Mathias Döpfner", "type": "milliardaire", "fortune_source": "PDG Axel Springer, actionnaire" }
+    ],
+    "structure": "Contrôle par le fonds KKR et le PDG Döpfner — pression pro-business et atlantiste",
+    "orientation": "centre-droit",
+    "orientation_historique": "droite",
+    "derive_recente": "Ligne pro-UE mais atlantiste, couverture favorable au monde des affaires et à la tech",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 4,
+      "liberte_expression": 3,
+      "antifascisme": 2,
+      "justice_sociale": 4
+    },
+    "axes_notes": {
+      "droit_international": "Ligne éditoriale fortement pro-atlantiste, soutien inconditionnel à Israël (politique historique d'Axel Springer)",
+      "justice_sociale": "Couverture pro-business, peu d'intérêt pour les mouvements sociaux"
+    },
+    "medias": ["Politico EU"]
+  },
+  {
+    "id": "al-jazeera",
+    "nom": "Al Jazeera Media Network",
+    "proprietaires": [
+      { "nom": "État du Qatar", "type": "etat", "fortune_source": "Financement étatique qatari" }
+    ],
+    "structure": "Média d'État financé par le Qatar — indépendance limitée sur les sujets touchant le Golfe",
+    "orientation": "variable",
+    "orientation_historique": "variable",
+    "derive_recente": "Couverture internationale de qualité, mais angles morts sur le Qatar et les monarchies du Golfe",
+    "axes": {
+      "colonialisme": 1,
+      "droit_international": 2,
+      "liberte_expression": 3,
+      "antifascisme": 2,
+      "justice_sociale": 2
+    },
+    "axes_notes": {
+      "colonialisme": "Couverture de référence sur les conséquences du colonialisme occidental, notamment au Moyen-Orient et en Afrique",
+      "droit_international": "Universaliste sur la Palestine et l'Irak mais silencieux sur les violations au Qatar et dans le Golfe",
+      "liberte_expression": "Paradoxe : excellent journalisme sur la liberté de la presse à l'étranger, silence sur les restrictions au Qatar"
+    },
+    "medias": ["Al Jazeera"]
+  },
+  {
+    "id": "nyt",
+    "nom": "The New York Times Company",
+    "proprietaires": [
+      { "nom": "Famille Ochs-Sulzberger", "type": "famille", "fortune_source": "Contrôle actionnarial familial via actions classe B" }
+    ],
+    "structure": "Contrôle familial via actions à droits de vote multiples — coté en bourse mais famille décisionnaire",
+    "orientation": "centre",
+    "orientation_historique": "centre-gauche",
+    "derive_recente": "Glissement vers le centre libéral, normalisation de discours conservateurs sur les questions identitaires et la liberté d'expression",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 3,
+      "antifascisme": 2,
+      "justice_sociale": 3
+    },
+    "axes_notes": {
+      "colonialisme": "Couverture de l'impérialisme américain en demi-teinte, traitement orienté sur les intérêts stratégiques US",
+      "droit_international": "Double standard notable : critique la Russie et la Chine mais traitement complaisant des alliés (Israël, Arabie saoudite)"
+    },
+    "medias": ["NYT World"]
+  },
+  {
+    "id": "swissinfo",
+    "nom": "SRG SSR",
+    "proprietaires": [
+      { "nom": "SRG SSR (service public suisse)", "type": "etat", "fortune_source": "Redevance audiovisuelle suisse" }
+    ],
+    "structure": "Service public suisse — indépendance élevée, tradition de neutralité",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Stabilité, couverture factuelle et équilibrée",
+    "axes": {
+      "colonialisme": 2,
+      "droit_international": 2,
+      "liberte_expression": 1,
+      "antifascisme": 2,
+      "justice_sociale": 2
+    },
+    "axes_notes": {
+      "droit_international": "Tradition de neutralité suisse, couverture généralement équilibrée des conflits internationaux"
+    },
+    "medias": ["Swissinfo"]
+  },
+  {
+    "id": "groupe-lvmh",
+    "nom": "Groupe Les Echos - Le Parisien (LVMH)",
+    "proprietaires": [
+      { "nom": "Bernard Arnault", "type": "milliardaire", "fortune_source": "LVMH (luxe, première fortune mondiale)" }
+    ],
+    "structure": "Propriété directe via LVMH — contrôle total du groupe de presse économique",
+    "orientation": "centre-droit",
+    "orientation_historique": "centre-droit",
+    "derive_recente": "Ligne pro-business assumée, couverture complaisante du luxe et des grandes fortunes",
+    "axes": {
+      "colonialisme": 4,
+      "droit_international": 3,
+      "liberte_expression": 3,
+      "antifascisme": 3,
+      "justice_sociale": 5
+    },
+    "axes_notes": {
+      "justice_sociale": "Couverture économique par le prisme des marchés et des entreprises, peu d'intérêt pour les inégalités ou les mouvements sociaux"
+    },
+    "medias": ["Les Echos"]
+  },
+  {
+    "id": "alternatives-eco",
+    "nom": "Alternatives Économiques",
+    "proprietaires": [
+      { "nom": "SCOP (coopérative de salariés)", "type": "cooperative", "fortune_source": "Coopérative de presse, financement par abonnements" }
+    ],
+    "structure": "SCOP — coopérative de salariés, indépendance éditoriale",
+    "orientation": "centre-gauche",
+    "orientation_historique": "centre-gauche",
+    "derive_recente": "Stabilité, pluralisme économique, attention croissante à l'écologie",
+    "axes": {
+      "colonialisme": 2,
+      "droit_international": 2,
+      "liberte_expression": 1,
+      "antifascisme": 2,
+      "justice_sociale": 1
+    },
+    "axes_notes": {
+      "justice_sociale": "ADN du média — économie sous l'angle social, inégalités, alternatives au modèle dominant"
+    },
+    "medias": ["Alternatives Économiques"]
+  },
+  {
+    "id": "humanoid",
+    "nom": "Humanoid",
+    "proprietaires": [
+      { "nom": "Humanoid (indépendant)", "type": "independant", "fortune_source": "Groupe média tech indépendant, financement par publicité et abonnements" }
+    ],
+    "structure": "Groupe média tech indépendant français",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Stabilité, couverture tech grand public",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 2,
+      "antifascisme": 3,
+      "justice_sociale": 3
+    },
+    "axes_notes": {},
+    "medias": ["Numerama"]
+  },
+  {
+    "id": "next-ink",
+    "nom": "Next (ex-Next INpact)",
+    "proprietaires": [
+      { "nom": "Équipe fondatrice", "type": "independant", "fortune_source": "Financement par abonnements premium, indépendant" }
+    ],
+    "structure": "Média indépendant — financement par les lecteurs, pas d'actionnaire extérieur",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Stabilité, spécialisation libertés numériques et droit du numérique",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 2,
+      "liberte_expression": 1,
+      "antifascisme": 3,
+      "justice_sociale": 2
+    },
+    "axes_notes": {
+      "liberte_expression": "Référence sur les libertés numériques, la surveillance, le droit d'auteur et la régulation tech"
+    },
+    "medias": ["Next"]
+  },
+  {
+    "id": "futura",
+    "nom": "Futura",
+    "proprietaires": [
+      { "nom": "Futura (indépendant)", "type": "independant", "fortune_source": "Publicité et partenariats, indépendant" }
+    ],
+    "structure": "Média de vulgarisation scientifique indépendant",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Stabilité, vulgarisation scientifique de qualité",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 2,
+      "antifascisme": 3,
+      "justice_sociale": 3
+    },
+    "axes_notes": {},
+    "medias": ["Futura Sciences"]
+  },
+  {
+    "id": "the-conversation",
+    "nom": "The Conversation",
+    "proprietaires": [
+      { "nom": "Consortium d'universités", "type": "fondation", "fortune_source": "Financement universitaire et philanthropique, licence Creative Commons" }
+    ],
+    "structure": "Plateforme universitaire à but non lucratif — articles écrits par des chercheurs, édités par des journalistes",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Stabilité, rigueur académique, expansion francophone",
+    "axes": {
+      "colonialisme": 2,
+      "droit_international": 2,
+      "liberte_expression": 1,
+      "antifascisme": 2,
+      "justice_sociale": 2
+    },
+    "axes_notes": {},
+    "medias": ["The Conversation FR"]
+  },
+  {
+    "id": "reporterre",
+    "nom": "Reporterre",
+    "proprietaires": [
+      { "nom": "Association La Pile", "type": "independant", "fortune_source": "Dons et financement participatif, sans publicité" }
+    ],
+    "structure": "Média associatif indépendant — aucune publicité, financement par les lecteurs",
+    "orientation": "gauche",
+    "orientation_historique": "gauche",
+    "derive_recente": "Stabilité, quotidien de l'écologie de référence",
+    "axes": {
+      "colonialisme": 1,
+      "droit_international": 1,
+      "liberte_expression": 1,
+      "antifascisme": 1,
+      "justice_sociale": 1
+    },
+    "axes_notes": {
+      "justice_sociale": "Couverture prioritaire de la justice climatique et sociale, alternatives écologiques"
+    },
+    "medias": ["Reporterre"]
+  },
+  {
+    "id": "slate-fr",
+    "nom": "Slate FR",
+    "proprietaires": [
+      { "nom": "Slate.fr (indépendant)", "type": "independant", "fortune_source": "Publicité et partenariats" }
+    ],
+    "structure": "Magazine en ligne indépendant, licence du Slate américain",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Stabilité, analyses sociétales et culturelles",
+    "axes": {
+      "colonialisme": 2,
+      "droit_international": 2,
+      "liberte_expression": 2,
+      "antifascisme": 2,
+      "justice_sociale": 2
+    },
+    "axes_notes": {},
+    "medias": ["Slate FR"]
+  },
+  {
+    "id": "reuters",
+    "nom": "Thomson Reuters",
+    "proprietaires": [
+      { "nom": "Thomson Reuters Corporation", "type": "famille", "fortune_source": "Famille Thomson (Canada), coté en bourse" }
+    ],
+    "structure": "Agence de presse mondiale — cotée en bourse, contrôle familial Thomson",
+    "orientation": "centre",
+    "orientation_historique": "centre",
+    "derive_recente": "Stabilité, référence mondiale pour l'information factuelle",
+    "axes": {
+      "colonialisme": 3,
+      "droit_international": 3,
+      "liberte_expression": 2,
+      "antifascisme": 3,
+      "justice_sociale": 3
+    },
+    "axes_notes": {
+      "droit_international": "Couverture factuelle mais biais occidentalo-centré dans la hiérarchie de l'information"
+    },
+    "medias": ["Reuters"]
+  }
+]

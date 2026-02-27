@@ -5,10 +5,13 @@ interface Props {
   title: string;
   description?: string;
   ogImage?: string;
+  jsonLd?: Record<string, any>;
 }
 
-const { title, description = "L'information sur l'information — Plateforme citoyenne indépendante de suivi de la vie publique française.", ogImage } = Astro.props;
-const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+const { title, description = "L'essentiel de l'actu en 5 minutes, avec la transparence sur les sources. Politique, économie, tech, science, société, international.", ogImage, jsonLd } = Astro.props;
+const siteUrl = Astro.site || new URL('https://citoyens.ai');
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl);
+const ogImageUrl = ogImage || new URL('/og-default.png', siteUrl).toString();
 ---
 
 <!DOCTYPE html>
@@ -28,13 +31,20 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
   <meta property="og:title" content={`${title} — Citoyens.ai`} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonicalUrl} />
-  {ogImage && <meta property="og:image" content={ogImage} />}
+  <meta property="og:image" content={ogImageUrl} />
   <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content="Citoyens.ai" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={`${title} — Citoyens.ai`} />
   <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImageUrl} />
+
+  {/* JSON-LD Structured Data */}
+  {jsonLd && (
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  )}
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />

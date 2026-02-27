@@ -1,17 +1,18 @@
 ---
 const navItems = [
-  { label: 'Accueil', href: '/' },
-  { label: 'Décryptages', href: '/decodage' },
+  { label: "Aujourd'hui", href: '/' },
+  { label: 'Ce soir', href: '/soir' },
+  { label: 'Archives', href: '/edition' },
+  { label: 'Politique', href: '/fiche' },
   { label: 'Dossiers', href: '/dossiers' },
-  { label: 'Députés', href: '/fiche' },
-  { label: 'Comprendre', href: '/comprendre' },
+  { label: 'Recherche', href: '/recherche' },
 ];
 
 const currentPath = Astro.url.pathname;
 ---
 
-<!-- Top Bar -->
-<div class="bg-bleu-rep text-white py-1.5 text-[11px] tracking-wider uppercase font-medium">
+<!-- Top Bar (hidden on mobile) -->
+<div class="bg-bleu-rep text-white py-1.5 text-[11px] tracking-wider uppercase font-medium hidden md:block">
   <div class="max-w-[1280px] mx-auto px-6 flex justify-between items-center">
     <span class="opacity-70">Initiative citoyenne indépendante · Code source ouvert · Zéro publicité</span>
     <span class="opacity-70">Données : data.gouv.fr · Assemblée nationale</span>
@@ -19,20 +20,21 @@ const currentPath = Astro.url.pathname;
 </div>
 
 <!-- Main Header -->
-<header class="bg-blanc border-b-[3px] border-noir py-5 sticky top-0 z-50">
-  <div class="max-w-[1280px] mx-auto px-6 flex justify-between items-center">
+<header class="bg-blanc border-b-[3px] border-noir py-3 md:py-5 sticky top-0 z-50">
+  <div class="max-w-[1280px] mx-auto px-4 md:px-6 flex justify-between items-center">
     <div class="flex items-center">
       <a href="/" class="flex items-baseline gap-1 no-underline text-noir">
-        <span class="font-display text-[32px] font-black tracking-tighter">citoyens</span>
-        <span class="font-mono text-sm font-medium text-bleu-rep bg-bleu-clair px-1.5 py-0.5 rounded">
+        <span class="font-display text-[24px] md:text-[32px] font-black tracking-tighter">citoyens</span>
+        <span class="font-mono text-xs md:text-sm font-medium text-bleu-rep bg-bleu-clair px-1.5 py-0.5 rounded">
           .ai
         </span>
       </a>
-      <span class="text-[11px] uppercase tracking-[2px] text-gris-clair ml-4 border-l border-gris-chaud pl-4 hidden md:inline">
-        Le journal citoyen de la politique
+      <span class="text-[11px] uppercase tracking-[2px] text-gris-clair ml-4 border-l border-gris-chaud pl-4 hidden lg:inline">
+        5 min pour savoir · Toutes les sources pour juger
       </span>
     </div>
 
+    <!-- Desktop nav -->
     <nav class="hidden lg:flex items-center gap-1.5">
       {navItems.map(item => (
         <a
@@ -48,5 +50,45 @@ const currentPath = Astro.url.pathname;
         </a>
       ))}
     </nav>
+
+    <!-- Mobile menu button -->
+    <button
+      id="mobile-menu-btn"
+      class="lg:hidden p-2 -mr-2 text-noir"
+      aria-label="Menu"
+      aria-expanded="false"
+    >
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
   </div>
+
+  <!-- Mobile nav -->
+  <nav id="mobile-menu" class="hidden lg:hidden border-t border-gris-chaud mt-3 pt-3 px-4">
+    <div class="flex flex-col gap-1">
+      {navItems.map(item => (
+        <a
+          href={item.href}
+          class:list={[
+            'text-[14px] font-semibold no-underline px-3 py-2.5 rounded transition-colors',
+            currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href))
+              ? 'bg-bleu-rep text-white'
+              : 'text-gris-texte hover:bg-creme hover:text-noir',
+          ]}
+        >
+          {item.label}
+        </a>
+      ))}
+    </div>
+  </nav>
 </header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  btn?.addEventListener('click', () => {
+    const open = menu?.classList.toggle('hidden') === false;
+    btn.setAttribute('aria-expanded', String(open));
+  });
+</script>

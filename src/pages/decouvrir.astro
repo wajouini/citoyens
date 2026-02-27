@@ -1,0 +1,163 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+
+const uneData = await import('../data/une.json').then(m => m.default).catch(() => null);
+const sujet = uneData?.sujet_du_jour;
+const essentiels = uneData?.essentiels || [];
+---
+
+<BaseLayout title="Découvrir" description="L'essentiel de l'actu en 5 minutes, avec la transparence sur les sources que personne d'autre n'offre. Gratuit, sans pub, open source.">
+  <Header />
+  <main>
+    <!-- Hero -->
+    <section class="bg-noir text-white py-16 md:py-24">
+      <div class="max-w-[760px] mx-auto px-4 md:px-5 text-center">
+        <h1 class="font-display text-[36px] md:text-[56px] font-black leading-[1.08] tracking-tight mb-6">
+          5 minutes pour savoir.<br/>
+          <span class="text-bleu-clair">Toutes les sources</span> pour juger.
+        </h1>
+        <p class="text-[18px] md:text-[20px] text-white/70 leading-relaxed max-w-[500px] mx-auto mb-8">
+          L'essentiel de l'actu chaque matin. Politique, économie, tech, science. Sans publicité, sans agenda. Avec la transparence sur les sources que personne d'autre n'offre.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-3 justify-center">
+          <a href="/" class="bg-bleu-rep text-white font-bold text-[15px] no-underline py-3.5 px-8 rounded-lg hover:bg-bleu-rep/80 transition-colors">
+            Lire l'édition du jour
+          </a>
+          <a href="/newsletter" class="bg-white text-noir font-bold text-[15px] no-underline py-3.5 px-8 rounded-lg hover:bg-white/90 transition-colors">
+            S'abonner gratuitement
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- What we do differently -->
+    <section class="py-16 bg-blanc">
+      <div class="max-w-[760px] mx-auto px-4 md:px-5">
+        <h2 class="font-display text-[28px] md:text-[32px] font-black text-noir text-center mb-10">Ce qu'on fait que les autres ne font pas</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="text-center">
+            <div class="w-14 h-14 bg-bleu-clair rounded-full flex items-center justify-center mx-auto mb-3">
+              <span class="text-[24px]">🔍</span>
+            </div>
+            <h3 class="font-display text-[17px] font-bold text-noir mb-2">Transparence des sources</h3>
+            <p class="text-[14px] text-gris-texte leading-relaxed">Chaque source affiche qui la possède, qui la finance, quelle est son orientation. Des infos factuelles, pas des opinions.</p>
+          </div>
+          <div class="text-center">
+            <div class="w-14 h-14 bg-red-50 rounded-full flex items-center justify-center mx-auto mb-3">
+              <span class="text-[24px]">⚖️</span>
+            </div>
+            <h3 class="font-display text-[17px] font-bold text-noir mb-2">Détection des biais</h3>
+            <p class="text-[14px] text-gris-texte leading-relaxed">Notre « regard croisé » compare comment différents médias traitent le même sujet. On détecte les doubles standards.</p>
+          </div>
+          <div class="text-center">
+            <div class="w-14 h-14 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-3">
+              <span class="text-[24px]">🤝</span>
+            </div>
+            <h3 class="font-display text-[17px] font-bold text-noir mb-2">Zéro agenda</h3>
+            <p class="text-[14px] text-gris-texte leading-relaxed">Pas de pub. Pas de mécène. Pas d'actionnaire. On critique les incohérences, pas les camps politiques.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preview of today's edition -->
+    {sujet && (
+      <section class="py-16 bg-creme">
+        <div class="max-w-[760px] mx-auto px-4 md:px-5">
+          <div class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair text-center mb-6">Aperçu de l'édition d'aujourd'hui</div>
+          <div class="border-2 border-noir rounded-xl p-6 bg-blanc">
+            <div class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-white bg-noir px-2 py-0.5 rounded inline-block mb-3">Sujet du jour</div>
+            <h3 class="font-display text-[22px] md:text-[28px] font-black text-noir leading-tight mb-3">{sujet.titre}</h3>
+            <p class="text-[15px] text-bleu-rep font-semibold mb-4">{sujet.pourquoi_important}</p>
+            {essentiels.length > 0 && (
+              <div class="border-t border-gris-chaud pt-4 mt-4">
+                <div class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair mb-2">+ {essentiels.length} essentiels</div>
+                <div class="flex flex-wrap gap-2">
+                  {essentiels.map((e: any) => (
+                    <span class="font-mono text-[10px] text-gris-texte bg-creme px-2 py-1 rounded">{e.titre?.slice(0, 40)}…</span>
+                  ))}
+                </div>
+              </div>
+            )}
+            <a href="/" class="inline-block mt-4 text-bleu-rep font-bold text-[14px] no-underline hover:underline">Lire l'édition complète →</a>
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- How it works -->
+    <section class="py-16 bg-blanc">
+      <div class="max-w-[760px] mx-auto px-4 md:px-5">
+        <h2 class="font-display text-[28px] font-black text-noir text-center mb-10">Comment ça marche</h2>
+        <div class="flex flex-col gap-6">
+          <div class="flex gap-4 items-start">
+            <span class="font-mono text-[13px] font-bold text-white bg-bleu-rep w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+            <div>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">40+ sources agrégées</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">Investigation, mainstream, fact-check, presse étrangère. Gauche, droite, centre. On ratisse large.</p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <span class="font-mono text-[13px] font-bold text-white bg-bleu-rep w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+            <div>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">L'IA sélectionne et résume</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">Le sujet le plus impactant du jour, les essentiels par rubrique, un regard croisé multi-sources.</p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <span class="font-mono text-[13px] font-bold text-white bg-bleu-rep w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+            <div>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Transparence injectée automatiquement</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">Les données de propriété des médias sont factuelles et maintenues manuellement. L'IA ne les invente pas.</p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <span class="font-mono text-[13px] font-bold text-white bg-bleu-rep w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+            <div>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Vous lisez, vous jugez</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">Chaque source est liée. On ne vous dit pas quoi penser. On vous donne les éléments pour décider.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Numbers -->
+    <section class="py-16 bg-noir text-white">
+      <div class="max-w-[760px] mx-auto px-4 md:px-5">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div>
+            <div class="font-mono text-[32px] font-bold text-bleu-clair">40+</div>
+            <div class="text-[13px] text-white/50 mt-1">sources</div>
+          </div>
+          <div>
+            <div class="font-mono text-[32px] font-bold text-bleu-clair">7</div>
+            <div class="text-[13px] text-white/50 mt-1">rubriques</div>
+          </div>
+          <div>
+            <div class="font-mono text-[32px] font-bold text-bleu-clair">5 min</div>
+            <div class="text-[13px] text-white/50 mt-1">de lecture</div>
+          </div>
+          <div>
+            <div class="font-mono text-[32px] font-bold text-bleu-clair">0 €</div>
+            <div class="text-[13px] text-white/50 mt-1">toujours</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 bg-blanc">
+      <div class="max-w-[500px] mx-auto px-4 md:px-5 text-center">
+        <h2 class="font-display text-[28px] font-black text-noir mb-4">Restez informé, honnêtement.</h2>
+        <p class="text-[15px] text-gris-texte mb-6">Recevez l'édition chaque matin. Gratuit, sans pub, désinscription en un clic.</p>
+        <a href="/newsletter" class="inline-block bg-bleu-rep text-white font-bold text-[15px] no-underline py-3.5 px-8 rounded-lg hover:bg-bleu-rep/90 transition-colors">
+          S'abonner gratuitement
+        </a>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</BaseLayout>

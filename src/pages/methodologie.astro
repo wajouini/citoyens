@@ -1,0 +1,155 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+---
+
+<BaseLayout title="Méthodologie" description="Comment Citoyens.ai produit son édition quotidienne : pipeline automatisé, intelligence artificielle, transparence sur les sources et les limites.">
+  <Header />
+  <main>
+    <div class="max-w-[760px] mx-auto px-4 md:px-5 py-10">
+      <h1 class="font-display text-[32px] md:text-[40px] font-black tracking-tight text-noir mb-4">Notre méthodologie</h1>
+      <p class="text-[17px] text-gris-texte leading-relaxed mb-10">
+        Citoyens.ai utilise l'intelligence artificielle pour produire une édition quotidienne. Voici exactement comment ça fonctionne, ce que ça fait bien, et ce que ça ne fait pas.
+      </p>
+
+      <!-- Pipeline -->
+      <section class="mb-10">
+        <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Le pipeline quotidien</h2>
+        <p class="text-[15px] text-gris-texte leading-relaxed mb-4">
+          Chaque matin, un pipeline automatisé s'exécute en 4 étapes :
+        </p>
+        <div class="flex flex-col gap-4">
+          <div class="flex gap-4 items-start">
+            <span class="font-mono text-[13px] font-bold text-bleu-rep bg-bleu-clair w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+            <div>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Collecte des flux RSS</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">
+                Nous agrégeons ~40 flux RSS couvrant la politique, l'économie, la tech, la science, la société et l'international. Sources françaises et étrangères, investigation et mainstream, gauche et droite. Les articles des dernières 24h sont collectés et dédupliqués.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <span class="font-mono text-[13px] font-bold text-bleu-rep bg-bleu-clair w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+            <div>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Sélection par IA (Passe 1)</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">
+                Un modèle de langage analyse tous les articles et sélectionne : le sujet le plus impactant du jour, un essentiel par rubrique, et un sujet pour le regard croisé (couvert par 3+ sources avec des angles différents).
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <span class="font-mono text-[13px] font-bold text-bleu-rep bg-bleu-clair w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+            <div>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Rédaction par IA (Passe 2)</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">
+                Le modèle rédige l'édition complète en format concis : titres, résumés factuels, analyse de cohérence des couvertures médiatiques. Les données d'actionnariat des médias sont injectées automatiquement (pas générées par l'IA).
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <span class="font-mono text-[13px] font-bold text-bleu-rep bg-bleu-clair w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+            <div>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Validation et publication</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">
+                La sortie est validée par un schéma strict (Zod). Les données d'actionnariat des médias sont fusionnées à partir de notre base de données factuelle. L'édition est publiée sur le site et archivée.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Principes -->
+      <section class="mb-10">
+        <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Principes éditoriaux</h2>
+        <div class="flex flex-col gap-4">
+          <div class="bg-bleu-clair rounded-xl p-4">
+            <h3 class="font-mono text-[10px] uppercase tracking-[2px] text-bleu-rep mb-2">Universalité des principes</h3>
+            <p class="text-[14px] text-noir leading-relaxed">
+              Les mêmes standards moraux et analytiques s'appliquent à toutes les situations. Si le colonialisme est condamné dans un contexte, il doit l'être dans tous. Si une agression territoriale est illégitime quelque part, elle l'est partout.
+            </p>
+          </div>
+          <div class="bg-bleu-clair rounded-xl p-4">
+            <h3 class="font-mono text-[10px] uppercase tracking-[2px] text-bleu-rep mb-2">Non-partisanerie absolue</h3>
+            <p class="text-[14px] text-noir leading-relaxed">
+              Citoyens.ai ne défend aucun camp politique. Nous critiquons uniquement les incohérences. Un média de gauche qui applique un double standard est traité avec la même rigueur qu'un média de droite.
+            </p>
+          </div>
+          <div class="bg-bleu-clair rounded-xl p-4">
+            <h3 class="font-mono text-[10px] uppercase tracking-[2px] text-bleu-rep mb-2">Transparence sur les sources</h3>
+            <p class="text-[14px] text-noir leading-relaxed">
+              Chaque source est identifiée avec son groupe propriétaire, son orientation politique, et son type de financement. Ces données sont factuelles et maintenues manuellement — elles ne sont pas générées par l'IA.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Limites -->
+      <section class="mb-10">
+        <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Limites et honnêteté</h2>
+        <div class="bg-orange/5 border border-orange/20 rounded-xl p-5">
+          <ul class="flex flex-col gap-3">
+            <li class="flex items-start gap-2 text-[14px] text-noir leading-relaxed">
+              <span class="text-orange mt-0.5 shrink-0 font-bold">1.</span>
+              <span><strong>L'IA peut se tromper.</strong> Les résumés et analyses sont générés par un modèle de langage. Ils peuvent contenir des erreurs factuelles, des raccourcis ou des interprétations incorrectes. Vérifiez toujours aux sources.</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-noir leading-relaxed">
+              <span class="text-orange mt-0.5 shrink-0 font-bold">2.</span>
+              <span><strong>Nous dépendons des flux RSS.</strong> Si un média ne publie pas via RSS ou si son flux est en panne, nous ne couvrons pas son contenu ce jour-là.</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-noir leading-relaxed">
+              <span class="text-orange mt-0.5 shrink-0 font-bold">3.</span>
+              <span><strong>La détection de biais est imparfaite.</strong> L'analyse de cohérence et la détection de doubles standards sont des exercices nuancés. L'IA fait de son mieux, mais n'est pas infaillible.</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-noir leading-relaxed">
+              <span class="text-orange mt-0.5 shrink-0 font-bold">4.</span>
+              <span><strong>Pas de relecture humaine systématique.</strong> Pour l'instant, les éditions sont publiées automatiquement. Nous travaillons à ajouter une vérification humaine.</span>
+            </li>
+            <li class="flex items-start gap-2 text-[14px] text-noir leading-relaxed">
+              <span class="text-orange mt-0.5 shrink-0 font-bold">5.</span>
+              <span><strong>Les données d'actionnariat sont manuelles.</strong> Nous les maintenons avec soin, mais elles peuvent être incomplètes ou obsolètes.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Stack technique -->
+      <section class="mb-10">
+        <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Stack technique</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div class="border border-gris-chaud rounded-lg p-3">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair mb-1">Site web</div>
+            <div class="text-[14px] text-noir font-semibold">Astro 5 (statique)</div>
+          </div>
+          <div class="border border-gris-chaud rounded-lg p-3">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair mb-1">IA</div>
+            <div class="text-[14px] text-noir font-semibold">Claude (Anthropic) par défaut</div>
+          </div>
+          <div class="border border-gris-chaud rounded-lg p-3">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair mb-1">Sources</div>
+            <div class="text-[14px] text-noir font-semibold">~40 flux RSS, 7 rubriques</div>
+          </div>
+          <div class="border border-gris-chaud rounded-lg p-3">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair mb-1">Validation</div>
+            <div class="text-[14px] text-noir font-semibold">Schémas Zod stricts</div>
+          </div>
+          <div class="border border-gris-chaud rounded-lg p-3">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair mb-1">Déploiement</div>
+            <div class="text-[14px] text-noir font-semibold">Vercel (statique)</div>
+          </div>
+          <div class="border border-gris-chaud rounded-lg p-3">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair mb-1">Code source</div>
+            <div class="text-[14px] text-noir font-semibold">Ouvert (GitHub)</div>
+          </div>
+        </div>
+      </section>
+
+      <div class="text-center pt-6 border-t border-gris-chaud">
+        <p class="text-[13px] text-gris-clair">
+          Une question sur notre méthodologie ? <a href="mailto:contact@citoyens.ai" class="text-bleu-rep no-underline hover:underline">contact@citoyens.ai</a>
+        </p>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

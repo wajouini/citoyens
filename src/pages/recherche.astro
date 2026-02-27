@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+---
+
+<BaseLayout title="Recherche" description="Recherchez dans toutes les éditions, analyses et dossiers de Citoyens.ai.">
+  <Header />
+  <main>
+    <div class="max-w-[760px] mx-auto px-4 md:px-5 py-10">
+      <h1 class="font-display text-[32px] font-black tracking-tight text-noir mb-2">Recherche</h1>
+      <p class="text-[15px] text-gris-texte mb-6">Trouvez un sujet, un nom, un fait dans toutes nos éditions.</p>
+
+      <div id="search-container" class="min-h-[300px]"></div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>
+
+<style is:global>
+  .pagefind-ui {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: #000091;
+    --pagefind-ui-text: #1A1A1A;
+    --pagefind-ui-background: #FFFFFF;
+    --pagefind-ui-border: #E8E4DD;
+    --pagefind-ui-tag: #E8EDFF;
+    --pagefind-ui-border-width: 2px;
+    --pagefind-ui-border-radius: 12px;
+    --pagefind-ui-image-border-radius: 8px;
+    --pagefind-ui-image-box-ratio: 16 / 9;
+    --pagefind-ui-font: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .pagefind-ui .pagefind-ui__search-input {
+    font-size: 16px;
+    padding: 12px 16px;
+  }
+
+  .pagefind-ui .pagefind-ui__result-link {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    color: #1A1A1A;
+  }
+
+  .pagefind-ui .pagefind-ui__result-link:hover {
+    color: #000091;
+  }
+
+  .pagefind-ui .pagefind-ui__result-excerpt {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #4A4A4A;
+  }
+
+  .pagefind-ui mark {
+    background: #E8EDFF;
+    color: #000091;
+    padding: 1px 3px;
+    border-radius: 3px;
+  }
+</style>
+
+<script is:inline>
+  window.addEventListener('DOMContentLoaded', function() {
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = '/pagefind/pagefind-ui.css';
+    document.head.appendChild(link);
+
+    var script = document.createElement('script');
+    script.src = '/pagefind/pagefind-ui.js';
+    script.onload = function() {
+      new window.PagefindUI({
+        element: '#search-container',
+        showSubResults: true,
+        showImages: false,
+        translations: {
+          placeholder: 'Rechercher un sujet, un nom, un fait…',
+          zero_results: 'Aucun résultat pour « [SEARCH_TERM] »',
+          many_results: '[COUNT] résultats',
+          one_result: '1 résultat',
+          searching: 'Recherche…',
+          load_more: 'Plus de résultats',
+        },
+      });
+    };
+    script.onerror = function() {
+      document.getElementById('search-container').innerHTML =
+        '<p style="color:#9A9A9A;text-align:center;padding:40px 0;">La recherche sera disponible après le prochain build du site.</p>';
+    };
+    document.body.appendChild(script);
+  });
+</script>
