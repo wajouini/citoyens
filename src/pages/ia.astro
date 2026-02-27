@@ -85,19 +85,30 @@ const jsonLd = faits.length > 0 ? {
   <Header />
   <main>
     {iaData ? (
-      <div class="max-w-[760px] mx-auto px-4 md:px-5">
+      <div class="max-w-[1024px] mx-auto px-4 md:px-6">
 
         {/* ── HEADER ── */}
-        <div class="flex items-center gap-3 pt-6 md:pt-8 mb-6">
-          <div class="font-mono text-[10px] md:text-[11px] uppercase tracking-[2px] text-indigo-700 font-bold">IA & Tech</div>
+        <div class="flex items-center gap-3 pt-8 md:pt-12 mb-8 md:mb-10">
+          <div class="font-mono text-[11px] md:text-[12px] uppercase tracking-[2px] text-indigo-700 font-bold flex items-center gap-2">
+            <span class="text-xl">🤖</span> IA & Tech
+          </div>
           <div class="flex-1 h-px bg-gris-chaud"></div>
           <div class="font-mono text-[10px] md:text-[11px] text-gris-clair">{iaData.date && formatDate(iaData.date)}</div>
+        </div>
+
+        <div class="max-w-[760px] mb-12">
+          <p class="text-[16px] md:text-[18px] text-gris-texte leading-relaxed font-medium">
+            L'actualité de l'intelligence artificielle vue sous l'angle citoyen. Annonces, régulation, recherche, et impact sur la société.
+          </p>
         </div>
 
         {/* ══════════════════════════════════════
             HERO: Regard croisé IA (or top fait)
             ══════════════════════════════════════ */}
 
+        <div class="grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-8 lg:gap-12">
+        <div class="space-y-10">
+        
         {regardCroise ? (
           <section class="mb-8">
             <div class="flex items-center gap-2 mb-3">
@@ -192,99 +203,53 @@ const jsonLd = faits.length > 0 ? {
             <p class="text-[15px] md:text-[17px] leading-relaxed text-gris-texte mb-4">
               {heroFait.resume}
             </p>
-            <div class="bg-indigo-50 border border-indigo-100 rounded-lg p-4 mb-4">
-              <div class="font-mono text-[9px] uppercase tracking-[2px] text-indigo-600 mb-1.5">Pourquoi ça compte</div>
-              <p class="text-[15px] text-noir leading-relaxed">{heroFait.pourquoi_ca_compte}</p>
+            <div class="bg-indigo-50/60 border border-indigo-100 rounded-xl p-5 mb-5">
+              <div class="font-mono text-[10px] uppercase tracking-[2px] text-indigo-600 mb-2 font-bold">Pourquoi ça compte</div>
+              <p class="text-[15px] text-noir leading-relaxed font-medium">{heroFait.pourquoi_ca_compte}</p>
             </div>
             <SourceLinks sources={heroFait.sources || []} />
           </section>
         )}
 
-        {/* ── DIVIDER ── */}
-        <div class="h-px bg-gris-chaud mb-8"></div>
-
-        {/* ══════════════════════════════════════
-            TOP STORIES (2-3 items, grid)
-            ══════════════════════════════════════ */}
-        {topStories.length > 0 && (
-          <section class="mb-8">
-            <div class="flex items-center gap-2 mb-5">
-              <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir">Les essentiels IA du jour</span>
-              <div class="flex-1 h-px bg-gris-chaud"></div>
-              <div class="flex flex-wrap gap-4 text-[10px] font-mono text-gris-texte">
-                <span><strong class="text-noir">{faits.length}</strong> actus</span>
-                <span><strong class="text-noir">{totalSources}</strong> sources</span>
-              </div>
-            </div>
-
-            <div class="flex flex-col gap-0">
-              {topStories.map((fait: any, idx: number) => {
-                const ss = sousSection[fait.sous_section];
-                return (
-                  <div class={`py-4 ${idx < topStories.length - 1 ? 'border-b border-gris-chaud' : ''}`}>
-                    <div class="flex items-center gap-2 mb-1.5">
-                      {ss && (
-                        <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded ${ss.bg} ${ss.color}`}>
-                          {ss.icon} {ss.label}
-                        </span>
-                      )}
-                    </div>
-                    <h3 class="font-display text-[18px] font-bold text-noir leading-snug mb-1.5">
-                      {fait.titre}
-                    </h3>
-                    <p class="text-[14px] text-gris-texte leading-relaxed mb-2">
-                      {fait.pourquoi_ca_compte}
-                    </p>
-                    <SourceLinks sources={fait.sources || []} compact={true} />
-                  </div>
-                );
-              })}
-            </div>
-          </section>
-        )}
-
         {/* ── SECTION NAVIGATION PILLS ── */}
         {sections.length > 1 && (
-          <>
-            <div class="h-px bg-gris-chaud mb-6"></div>
-            <div class="flex flex-wrap gap-2 mb-8">
-              {sections.map((s) => (
-                <a href={`#section-${s.key}`}
-                   class={`inline-flex items-center gap-1.5 text-[11px] font-mono font-semibold no-underline px-3 py-1.5 rounded-full border border-gris-chaud hover:shadow-sm transition-all ${s.bg} ${s.color}`}>
-                  <span>{s.icon}</span>
-                  <span>{s.label}</span>
-                  <span class="text-[10px] opacity-60">({s.items.length})</span>
-                </a>
-              ))}
-            </div>
-          </>
+          <div class="flex flex-wrap gap-2 mb-8 sticky top-[72px] bg-creme py-3 z-40 border-y border-gris-chaud">
+            {sections.map((s) => (
+              <a href={`#section-${s.key}`}
+                 class={`inline-flex items-center gap-1.5 text-[11px] font-mono font-semibold no-underline px-3 py-1.5 rounded-full border border-gris-chaud hover:shadow-sm transition-all ${s.bg} ${s.color}`}>
+                <span>{s.icon}</span>
+                <span>{s.label}</span>
+                <span class="text-[10px] opacity-60">({s.items.length})</span>
+              </a>
+            ))}
+          </div>
         )}
 
         {/* ══════════════════════════════════════
             SUB-SECTIONS (remaining faits)
             ══════════════════════════════════════ */}
         {sections.map((section) => (
-          <section id={`section-${section.key}`} class="mb-10">
-            <div class="flex items-center gap-2 mb-5">
-              <span class={`font-mono text-[9px] font-bold uppercase tracking-[2px] px-2 py-0.5 rounded ${section.bg} ${section.color}`}>
+          <section id={`section-${section.key}`} class="mb-14 scroll-mt-24">
+            <div class="flex items-center gap-2 mb-6">
+              <span class={`font-mono text-[10px] font-bold uppercase tracking-[2px] px-2 py-0.5 rounded ${section.bg} ${section.color}`}>
                 {section.icon} {section.label}
               </span>
-              <div class={`flex-1 h-px ${section.bg}`}></div>
+              <div class={`flex-1 h-px ${section.color} opacity-20`}></div>
               <span class="font-mono text-[10px] text-gris-clair">{section.items.length} actu{section.items.length > 1 ? 's' : ''}</span>
             </div>
 
-            <div class="flex flex-col gap-0">
+            <div class="flex flex-col gap-8">
               {section.items.map((fait: any, idx: number) => (
-                <div class={`py-5 ${idx < section.items.length - 1 ? 'border-b border-gris-chaud' : ''}`}>
-                  <h3 class="font-display text-[18px] font-bold text-noir leading-snug mb-2">
+                <div class={`pb-8 ${idx < section.items.length - 1 ? 'border-b border-gris-chaud' : ''}`}>
+                  <h3 class="font-display text-[20px] font-bold text-noir leading-snug mb-3">
                     {fait.titre}
                   </h3>
-                  <p class="text-[14px] text-gris-texte leading-relaxed mb-2.5">
+                  <p class="text-[15px] text-gris-texte leading-relaxed mb-4">
                     {fait.resume}
                   </p>
-                  <div class="bg-indigo-50/60 border border-indigo-100 rounded-lg p-3 mb-3">
-                    <div class="font-mono text-[9px] uppercase tracking-[2px] text-indigo-600 mb-1">Pourquoi ça compte</div>
-                    <p class="text-[13px] text-noir leading-relaxed">{fait.pourquoi_ca_compte}</p>
+                  <div class="bg-indigo-50/60 border border-indigo-100 rounded-xl p-4 mb-4">
+                    <div class="font-mono text-[10px] uppercase tracking-[2px] text-indigo-600 mb-1.5 font-bold">Pourquoi ça compte</div>
+                    <p class="text-[14px] text-noir leading-relaxed font-medium">{fait.pourquoi_ca_compte}</p>
                   </div>
                   <SourceLinks sources={fait.sources || []} />
                 </div>
@@ -293,44 +258,77 @@ const jsonLd = faits.length > 0 ? {
           </section>
         ))}
 
+        </div> {/* End Main Column */}
+
+        {/* Colonne Latérale (Sidebar) */}
+        <aside class="w-full lg:sticky lg:top-24 self-start space-y-8">
+          
+          {/* ══════════════════════════════════════
+              TOP STORIES (2-3 items, sidebar)
+              ══════════════════════════════════════ */}
+          {topStories.length > 0 && (
+            <div class="bg-blanc border border-gris-chaud rounded-xl p-5 shadow-sm">
+              <div class="flex items-center gap-2 mb-5">
+                <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir">🔥 À ne pas rater</span>
+              </div>
+
+              <div class="flex flex-col gap-4">
+                {topStories.map((fait: any, idx: number) => {
+                  const ss = sousSection[fait.sous_section];
+                  return (
+                    <div class={`pb-4 ${idx < topStories.length - 1 ? 'border-b border-gris-chaud' : ''}`}>
+                      <div class="flex items-center gap-2 mb-2">
+                        {ss && (
+                          <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded ${ss.bg} ${ss.color}`}>
+                            {ss.icon} {ss.label}
+                          </span>
+                        )}
+                      </div>
+                      <h3 class="font-display text-[15px] font-bold text-noir leading-snug mb-2 hover:text-indigo-700 transition-colors">
+                        <a href={`#section-${fait.sous_section}`} class="no-underline text-inherit">{fait.titre}</a>
+                      </h3>
+                      <SourceLinks sources={fait.sources || []} compact={true} />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
         {/* ── DÉCRYPTAGES IA ── */}
         {iaDecryptages.length > 0 && (
-          <>
-            <div class="h-px bg-gris-chaud mb-8"></div>
-            <section class="mb-10">
-              <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir mb-5">Décryptages IA</h2>
-              <div class="flex flex-col gap-4">
-                {iaDecryptages.map((d: any) => (
-                  <a href={`/decryptage/${d.slug}`}
-                     class="block p-4 rounded-xl border border-gris-chaud bg-blanc no-underline hover:border-indigo-300 hover:shadow-sm transition-all group">
-                    <div class="flex items-center gap-2 mb-1.5">
-                      <span class="font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-indigo-50 text-indigo-700">Décryptage</span>
-                      <span class="font-mono text-[10px] text-gris-clair">{d.date}</span>
-                    </div>
-                    <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-1 group-hover:text-indigo-700 transition-colors">
-                      {d.titre}
-                    </h3>
-                    <p class="text-[13px] text-gris-texte leading-relaxed line-clamp-2">{d.sous_titre}</p>
-                  </a>
-                ))}
-              </div>
-            </section>
-          </>
+          <div class="bg-indigo-50 border border-indigo-100 rounded-xl p-5">
+            <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-indigo-700 mb-4 flex items-center gap-2">
+              <span>🔍</span> Décryptages
+            </h2>
+            <div class="flex flex-col gap-3">
+              {iaDecryptages.map((d: any) => (
+                <a href={`/decryptage/${d.slug}`}
+                   class="block p-3 rounded-lg border border-indigo-100 bg-blanc no-underline hover:border-indigo-300 hover:shadow-sm transition-all group">
+                  <div class="font-mono text-[9px] text-gris-clair mb-1">{d.date}</div>
+                  <h3 class="font-display text-[14px] font-bold text-noir leading-snug mb-1 group-hover:text-indigo-700 transition-colors">
+                    {d.titre}
+                  </h3>
+                </a>
+              ))}
+            </div>
+          </div>
         )}
 
         {/* ── META ── */}
         {iaData.meta && (
-          <div class="font-mono text-[9px] text-gris-clair text-center pb-8 border-t border-gris-chaud pt-4">
-            {iaData.meta.nb_articles_ia} articles IA analysés
-            {iaData.meta.nb_topics_ia ? ` · ${iaData.meta.nb_topics_ia} topics identifiés` : ''}
-            · {iaData.meta.modele}
+          <div class="font-mono text-[9px] text-gris-clair text-center pb-8 pt-4">
+            {iaData.meta.nb_articles_ia} articles analysés
+            <br/>{iaData.meta.modele}
           </div>
         )}
+
+        </aside>
       </div>
     ) : (
-      <div class="max-w-[760px] mx-auto px-4 md:px-5 py-20 text-center">
-        <p class="text-gris-clair text-[15px]">La section IA n'est pas encore disponible aujourd'hui.</p>
-        <a href="/" class="inline-block mt-4 text-bleu-rep no-underline hover:underline font-semibold">Voir l'édition du matin</a>
+      <div class="max-w-[760px] mx-auto px-4 md:px-5 py-24 text-center">
+        <p class="text-gris-clair text-[16px] mb-4">La section IA n'est pas encore disponible aujourd'hui.</p>
+        <a href="/" class="inline-block text-bleu-rep no-underline hover:underline font-semibold text-[15px]">Voir l'édition du matin</a>
       </div>
     )}
   </main>
