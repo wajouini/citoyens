@@ -91,6 +91,11 @@ const steps: Step[] = [
     critical: false,
   },
   {
+    name: 'Contrôle qualité des données',
+    command: 'npx tsx scripts/sanity-check.ts',
+    critical: false,
+  },
+  {
     name: 'Build du site',
     command: 'npm run build',
     critical: true,
