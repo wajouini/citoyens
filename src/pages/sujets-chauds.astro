@@ -69,57 +69,68 @@ const jsonLd = sujetsActifs.length > 0 ? {
   <Header />
   <main>
     {sujetsData ? (
-      <div class="max-w-[760px] mx-auto px-4 md:px-5">
+      <div class="max-w-[1024px] mx-auto px-4 md:px-6">
         <!-- Header -->
-        <div class="flex items-center gap-3 mb-6 md:mb-8 pt-6 md:pt-8">
-          <div class="font-mono text-[10px] md:text-[11px] uppercase tracking-[2px] text-rouge-doux font-bold">Sujets chauds</div>
+        <div class="flex items-center gap-3 mb-8 md:mb-10 pt-8 md:pt-12">
+          <div class="font-mono text-[11px] md:text-[12px] uppercase tracking-[2px] text-rouge-doux font-bold flex items-center gap-2">
+            <span class="text-xl">🔥</span> Sujets chauds
+          </div>
           <div class="flex-1 h-px bg-gris-chaud"></div>
           <div class="font-mono text-[10px] md:text-[11px] text-gris-clair">{sujetsData.date && formatDate(sujetsData.date)}</div>
         </div>
 
-        <p class="text-[15px] text-gris-texte mb-8 leading-relaxed">
-          Les sujets dont tout le monde parle, traités avec le recul et la transparence Citoyens.ai.
-          Pour chaque sujet : les faits, la chronologie, et comment les médias le couvrent.
-        </p>
+        <div class="max-w-[760px] mb-12">
+          <p class="text-[16px] md:text-[18px] text-gris-texte leading-relaxed font-medium">
+            Les sujets dont tout le monde parle en ce moment, traités avec le recul et la transparence Citoyens.ai.
+            Pour chaque sujet : les faits, la chronologie, et l'analyse de la couverture médiatique.
+          </p>
+        </div>
 
         {/* ── SUJETS ACTIFS ── */}
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
         {sujetsActifs.map((sujet: any, idx: number) => {
           const intensite = intensiteBadge[sujet.intensite] || intensiteBadge.intense;
           const rubrique = rubriqueStyle[sujet.rubrique] || rubriqueStyle.politique;
           return (
-            <section class={`mb-10 ${idx < sujetsActifs.length - 1 ? 'pb-10 border-b-2 border-gris-chaud' : ''}`} id={sujet.slug}>
+            <section class="bg-blanc border border-gris-chaud rounded-xl p-6 md:p-8 hover:shadow-md transition-shadow relative overflow-hidden" id={sujet.slug}>
+              {/* Top Accent Line */}
+              <div class={`absolute top-0 left-0 right-0 h-1.5 ${intensite.cls.split(' ')[0]}`}></div>
+              
               {/* Badges */}
-              <div class="flex items-center gap-2 mb-3 flex-wrap">
-                <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${intensite.cls}`}>
+              <div class="flex items-center gap-2 mb-4 flex-wrap">
+                <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${intensite.cls}`}>
                   {intensite.icon} {intensite.label}
                 </span>
-                <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${rubrique.bg} ${rubrique.color}`}>
+                <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${rubrique.bg} ${rubrique.color}`}>
                   {rubrique.label}
                 </span>
-                <span class="font-mono text-[9px] text-gris-clair">
+                <span class="font-mono text-[9px] text-gris-clair ml-auto">
                   Depuis le {formatDateShort(sujet.premiere_apparition)}
                 </span>
               </div>
 
               {/* Titre */}
-              <h2 class="font-display text-[24px] md:text-[32px] font-black leading-[1.12] tracking-tight text-noir mb-3">
+              <h2 class="font-display text-[22px] md:text-[28px] font-black leading-tight text-noir mb-4">
                 {sujet.titre}
               </h2>
 
               {/* Résumé */}
-              <p class="text-[15px] md:text-[17px] leading-relaxed text-gris-texte mb-6">
+              <p class="text-[15px] leading-relaxed text-gris-texte mb-8">
                 {sujet.resume}
               </p>
 
+              <div class="space-y-8">
               {/* Chronologie */}
               {sujet.chronologie?.length > 0 && (
-                <div class="mb-6">
-                  <h3 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-3">Chronologie</h3>
-                  <div class="relative pl-4 border-l-2 border-gris-chaud">
+                <div>
+                  <h3 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-4 flex items-center gap-2">
+                    <span class="text-sm">⏱</span> Chronologie
+                  </h3>
+                  <div class="relative pl-4 border-l-2 border-gris-chaud/50 space-y-4">
                     {sujet.chronologie.map((evt: any) => (
-                      <div class="mb-3 last:mb-0 relative">
+                      <div class="relative">
                         <span class="absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-blanc border-2 border-bleu-rep"></span>
-                        <div class="flex items-baseline gap-2 mb-0.5">
+                        <div class="flex items-baseline gap-2 mb-1">
                           <span class="font-mono text-[11px] font-bold text-bleu-rep shrink-0">{formatDateShort(evt.date)}</span>
                           {evt.source && <span class="font-mono text-[9px] text-gris-clair">via {evt.source}</span>}
                         </div>
@@ -132,13 +143,15 @@ const jsonLd = sujetsActifs.length > 0 ? {
 
               {/* Couvertures médias */}
               {sujet.couvertures?.length > 0 && (
-                <div class="mb-6">
-                  <h3 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-3">Comment les médias en parlent</h3>
+                <div>
+                  <h3 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-4 flex items-center gap-2">
+                    <span class="text-sm">📰</span> Comment les médias en parlent
+                  </h3>
                   <div class="flex flex-col gap-3">
                     {sujet.couvertures.map((c: any) => (
                       <a href={c.url} target="_blank" rel="noopener noreferrer"
-                         class={`block p-3.5 rounded-lg border border-gris-chaud border-l-4 ${sourceTypeBg[c.type] || 'border-l-gris-clair'} bg-blanc no-underline hover:shadow-md transition-shadow group`}>
-                        <div class="flex items-center gap-2 mb-1 flex-wrap">
+                         class={`block p-4 rounded-lg border border-gris-chaud border-l-4 ${sourceTypeBg[c.type] || 'border-l-gris-clair'} bg-creme/30 no-underline hover:bg-blanc hover:shadow-sm transition-all group/card`}>
+                        <div class="flex items-center gap-2 mb-2 flex-wrap">
                           <span class="font-mono text-[12px] font-bold text-noir">{c.source}</span>
                           {tonBadge[c.ton] && (
                             <span class={`text-[9px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded-full ${tonBadge[c.ton].cls}`}>
@@ -147,11 +160,11 @@ const jsonLd = sujetsActifs.length > 0 ? {
                           )}
                           {c.groupe_media && <MediaOwnerBadge groupe_media={c.groupe_media} compact={true} />}
                         </div>
-                        <p class="text-[14px] leading-snug text-noir font-semibold mb-1 group-hover:text-bleu-rep transition-colors">
+                        <p class="text-[14px] leading-snug text-noir font-semibold mb-1 group-hover/card:text-bleu-rep transition-colors">
                           {c.angle}
                         </p>
                         {c.citation_cle && (
-                          <p class="text-[12px] text-gris-texte italic leading-relaxed mt-1.5 border-t border-gris-chaud/50 pt-1.5">
+                          <p class="text-[12px] text-gris-texte italic leading-relaxed mt-2 border-t border-gris-chaud/50 pt-2">
                             « {c.citation_cle} »
                           </p>
                         )}
@@ -163,12 +176,14 @@ const jsonLd = sujetsActifs.length > 0 ? {
 
               {/* Ce qu'on ne sait pas encore */}
               {sujet.ce_quon_ne_sait_pas?.length > 0 && (
-                <div class="bg-orange/5 border border-orange/20 rounded-xl p-4 mb-4">
-                  <h4 class="font-mono text-[9px] uppercase tracking-[2px] text-orange mb-2">Ce qu'on ne sait pas encore</h4>
-                  <ul class="flex flex-col gap-1.5">
+                <div class="bg-orange/5 border border-orange/20 rounded-xl p-5">
+                  <h4 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-orange mb-3 flex items-center gap-2">
+                    <span>❓</span> Ce qu'on ne sait pas encore
+                  </h4>
+                  <ul class="flex flex-col gap-2">
                     {sujet.ce_quon_ne_sait_pas.map((q: string) => (
-                      <li class="flex items-start gap-2 text-[14px] text-noir leading-relaxed">
-                        <span class="text-orange mt-0.5 shrink-0 font-bold">?</span>
+                      <li class="flex items-start gap-2.5 text-[14px] text-noir leading-relaxed">
+                        <span class="text-orange mt-1 shrink-0 text-xs">▸</span>
                         <span>{q}</span>
                       </li>
                     ))}
@@ -178,36 +193,40 @@ const jsonLd = sujetsActifs.length > 0 ? {
 
               {/* Sources */}
               {sujet.sources?.length > 0 && (
-                <div class="flex flex-wrap gap-2">
-                  {sujet.sources.map((src: any) => (
-                    <a href={src.url} target="_blank" rel="noopener noreferrer"
-                       class="inline-flex items-center gap-1.5 text-[11px] font-mono font-medium text-gris-texte no-underline hover:text-bleu-rep transition-colors border border-gris-chaud rounded-full px-2.5 py-1">
-                      {src.groupe_media && <MediaOwnerBadge groupe_media={src.groupe_media} compact={true} />}
-                      {src.nom} ↗
-                    </a>
-                  ))}
+                <div class="pt-6 border-t border-gris-chaud/50">
+                  <div class="flex flex-wrap gap-2">
+                    {sujet.sources.map((src: any) => (
+                      <a href={src.url} target="_blank" rel="noopener noreferrer"
+                         class="inline-flex items-center gap-1.5 text-[11px] font-mono font-medium text-gris-texte bg-creme no-underline hover:text-bleu-rep hover:bg-bleu-clair/30 transition-colors border border-gris-chaud rounded-full px-3 py-1.5">
+                        {src.groupe_media && <MediaOwnerBadge groupe_media={src.groupe_media} compact={true} />}
+                        {src.nom} ↗
+                      </a>
+                    ))}
+                  </div>
                 </div>
               )}
+              </div>
             </section>
           );
         })}
+        </div>
 
         {/* ── SUJETS REFROIDIS ── */}
         {sujetsRefroidis.length > 0 && (
           <>
-            <div class="h-px bg-gris-chaud mb-8"></div>
-            <section class="mb-10">
-              <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair mb-4">Sujets refroidis</h2>
-              <div class="flex flex-col gap-2">
+            <div class="h-px bg-gris-chaud mb-12"></div>
+            <section class="mb-12 max-w-[760px] mx-auto">
+              <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair mb-6">Sujets refroidis</h2>
+              <div class="flex flex-col gap-3">
                 {sujetsRefroidis.map((s: any) => (
-                  <div class="py-3 border-b border-gris-chaud/50 last:border-0">
-                    <div class="flex items-center gap-2">
-                      <span class="font-display text-[15px] font-bold text-gris-texte">{s.titre}</span>
-                      <span class="font-mono text-[9px] text-gris-clair">
+                  <div class="py-4 border-b border-gris-chaud/50 last:border-0 hover:bg-creme/50 rounded-lg px-2 -mx-2 transition-colors">
+                    <div class="flex items-center gap-3 mb-1">
+                      <span class="font-display text-[16px] font-bold text-gris-texte">{s.titre}</span>
+                      <span class="font-mono text-[10px] text-gris-clair ml-auto">
                         Dernière MAJ : {formatDateShort(s.derniere_mise_a_jour)}
                       </span>
                     </div>
-                    <p class="text-[13px] text-gris-clair leading-relaxed">{s.statut}</p>
+                    <p class="text-[14px] text-gris-clair leading-relaxed">{s.statut}</p>
                   </div>
                 ))}
               </div>
@@ -217,15 +236,15 @@ const jsonLd = sujetsActifs.length > 0 ? {
 
         {/* ── Meta ── */}
         {sujetsData.meta && (
-          <div class="font-mono text-[9px] text-gris-clair text-center pb-8 border-t border-gris-chaud pt-4">
+          <div class="font-mono text-[10px] text-gris-clair text-center pb-10 border-t border-gris-chaud pt-6 max-w-[760px] mx-auto">
             {sujetsData.meta.nb_articles_analyses} articles analysés · {sujetsData.meta.modele}
           </div>
         )}
       </div>
     ) : (
-      <div class="max-w-[760px] mx-auto px-4 md:px-5 py-20 text-center">
-        <p class="text-gris-clair text-[15px]">Aucun sujet chaud pour le moment.</p>
-        <a href="/" class="inline-block mt-4 text-bleu-rep no-underline hover:underline font-semibold">Voir l'édition du matin</a>
+      <div class="max-w-[760px] mx-auto px-4 md:px-5 py-24 text-center">
+        <p class="text-gris-clair text-[16px] mb-4">Aucun sujet chaud pour le moment.</p>
+        <a href="/" class="inline-block text-bleu-rep no-underline hover:underline font-semibold text-[15px]">Voir l'édition du matin</a>
       </div>
     )}
   </main>
