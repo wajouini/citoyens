@@ -8,12 +8,9 @@ import {
   resetUserPassword,
   deleteUser,
   initializeDefaultAdmin,
-  type PublicUser,
-  type UserRole,
 } from '@/lib/users';
+import type { PublicUser, UserRole } from '@/lib/user-types';
 import { logAudit } from '@/lib/audit';
-
-export type { PublicUser, UserRole };
 
 export async function loadUsers(): Promise<PublicUser[]> {
   await initializeDefaultAdmin();

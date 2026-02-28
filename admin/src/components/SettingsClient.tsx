@@ -7,9 +7,8 @@ import {
   updateNotificationConfig,
   updateScheduleConfig,
   testSlackNotification,
-  type NotificationConfig,
-  type ScheduleConfig,
 } from '@/actions/notifications';
+import type { NotificationConfig, ScheduleConfig } from '@/lib/notification-types';
 
 type SettingsData = { provider: string; model: string; hasAnthropicKey: boolean; hasOpenaiKey: boolean; hasGeminiKey: boolean; hasOpenrouterKey: boolean };
 

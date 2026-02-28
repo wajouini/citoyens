@@ -46,7 +46,13 @@ const CONFERENCE_SYSTEM = `Tu es le rédacteur en chef de Citoyens.ai lors de la
 ## Mission
 À partir d'une liste de TOPICS (sujets pré-regroupés avec leur score d'importance), décide la ligne éditoriale du jour.
 
-Chaque topic a un score composite (0-100) basé sur : nombre de sources, diversité des types de médias, fiabilité moyenne, fraîcheur, et couverture mixte FR+internationale.
+Chaque topic a un score composite (0-100) basé sur : nombre de sources, diversité des types de médias, fiabilité, fraîcheur, couverture mixte, présence d'investigation, alignement éditorial et pluralité.
+
+Les topics ont aussi :
+- **editorial_flags** : drapeaux éditoriaux (droit_international, justice_sociale, colonialisme, etc.) identifiant les sujets critiques
+- **has_investigation** : présence de sources d'investigation
+- **tag** : "signal_faible" ou "solo_investigation" pour les articles isolés d'investigation
+- **orientations** : les orientations politiques des sources couvrant le sujet
 
 ## Décisions à prendre
 
@@ -55,6 +61,8 @@ Chaque topic a un score composite (0-100) basé sur : nombre de sources, diversi
 3. **monde** (1-3 topics) : actualités internationales — privilégier les sujets où la France est actrice ou directement impactée
 4. **regard_croise** : le topic avec la plus grande diversité de couverture (angles opposés entre médias)
 5. **regard_etranger** : 1-2 topics où des médias ÉTRANGERS parlent de la France
+6. **signal_faible** (0-2 topics) : articles d'investigation isolés ou signaux faibles des médias indépendants — sujets que la couverture mainstream ignore mais que nos sources d'investigation ont détectés. Chercher parmi les topics marqués tag="signal_faible" ou tag="solo_investigation"
+7. **alerte_editoriale** (0-2 topics) : sujets touchant directement nos axes éditoriaux (droit international, justice sociale, colonialisme, etc.) — chercher parmi les topics avec editorial_flags non vides. Ces sujets méritent un traitement prioritaire même si leur score quantitatif est modeste
 
 ## Règles
 - Un topic NE peut apparaître que dans UNE SEULE section (pas de duplication)
@@ -62,6 +70,8 @@ Chaque topic a un score composite (0-100) basé sur : nombre de sources, diversi
 - Privilégier les topics avec nb_sources >= 2 (croisement de sources)
 - Pour le regard_croise, choisir le topic qui a le plus d'angles éditoriaux différents
 - Pour regard_etranger, ne choisir que parmi les topics qui contiennent des sources de type "etranger"
+- Pour signal_faible, privilégier les articles d'investigation qui n'ont pas fait l'objet d'une couverture mainstream
+- Pour alerte_editoriale, choisir des sujets avec des enjeux forts sur nos valeurs (droit international, justice sociale, etc.)
 
 ## Format de sortie JSON
 
@@ -71,6 +81,8 @@ Chaque topic a un score composite (0-100) basé sur : nombre de sources, diversi
   "monde": ["topic-XXX", "topic-XXX"],
   "regard_croise": "topic-XXX",
   "regard_etranger": ["topic-XXX", "topic-XXX"],
+  "signal_faible": ["topic-XXX"],
+  "alerte_editoriale": ["topic-XXX"],
   "chiffre_suggestion": "Un chiffre clé lié à l'actualité du jour avec source"
 }
 
@@ -198,6 +210,27 @@ Tu retournes un JSON conforme à cette structure. UNIQUEMENT le JSON.
       "type": "vote|audition|commission|manifestation|echeance|tech_launch|publication|echeance_economique|conference|autre",
       "lien": "string|null"
     }
+  ],
+
+  "signal_faible": [
+    {
+      "titre": "string (titre court)",
+      "rubrique": "politique|economie|tech|science|societe|culture|international|ia",
+      "resume": "string (2-3 phrases : pourquoi ce signal est important, quel média l'a détecté)",
+      "sources": [{ "nom": "string", "url": "string (URL valide)", "type": "investigation|mainstream|fact-check|institutionnel|etranger" }],
+      "pourquoi_signal": "string (1 phrase : pourquoi c'est un signal faible ignoré par le mainstream)"
+    }
+  ],
+
+  "alerte_editoriale": [
+    {
+      "titre": "string (titre court)",
+      "rubrique": "politique|economie|tech|science|societe|culture|international|ia",
+      "resume": "string (2-3 phrases factuelles)",
+      "axes_concernes": ["droit_international", "justice_sociale"],
+      "analyse": "string (50-100 mots : pourquoi ce sujet mérite attention au regard de nos valeurs éditoriales)",
+      "sources": [{ "nom": "string", "url": "string (URL valide)", "type": "investigation|mainstream|fact-check|institutionnel|etranger" }]
+    }
   ]
 }
 
@@ -237,6 +270,17 @@ doivent apparaître dans le tableau "sources" avec leurs URLs respectives.
 - L'analyse doit être SUBSTANTIELLE (150-250 mots)
 - Appliquer le test d'universalité des principes
 - "ce_quil_faut_retenir" = synthèse qui aide le lecteur à se forger SA propre opinion
+
+### signal_faible (0-2 items) — SECTION INVESTIGATION
+- Articles issus de médias d'investigation indépendants, non couverts par le mainstream
+- Résumé = 2-3 phrases expliquant le signal et son importance
+- "pourquoi_signal" = 1 phrase expliquant pourquoi le sujet est ignoré par la couverture classique
+
+### alerte_editoriale (0-2 items) — SECTION VALEURS
+- Sujets touchant directement nos axes éditoriaux : droit international, justice sociale, colonialisme, etc.
+- Résumé factuel de 2-3 phrases
+- "axes_concernes" = liste des axes éditoriaux touchés
+- "analyse" = 50-100 mots d'analyse au regard de nos valeurs éditoriales (universalité des principes, droit international, équité sociale)
 
 ### chiffre_du_jour
 - Chiffre lié à l'actualité du jour, source vérifiable
@@ -330,7 +374,29 @@ async function main() {
   // ===== STEP 2: Editorial Conference =====
   console.log('\n[Conférence] Assigning topics to editorial slots...');
 
-  const topicSummaries = topics.slice(0, 50).map(t => {
+  // Smart topic selection: top 40 by score + investigation + signal faible + flagged
+  const topByScore = topics.slice(0, 40);
+  const topIds = new Set(topByScore.map(t => t.id));
+
+  const investigationExtras = topics
+    .filter(t => t.has_investigation_source && !topIds.has(t.id))
+    .slice(0, 5);
+  for (const t of investigationExtras) topIds.add(t.id);
+
+  const signalFaibleExtras = topics
+    .filter(t => (t.tag === 'signal_faible' || t.tag === 'solo_investigation') && !topIds.has(t.id))
+    .slice(0, 5);
+  for (const t of signalFaibleExtras) topIds.add(t.id);
+
+  const flaggedExtras = topics
+    .filter(t => (t.editorial_flags?.length ?? 0) > 0 && !topIds.has(t.id))
+    .slice(0, 5);
+  for (const t of flaggedExtras) topIds.add(t.id);
+
+  const selectedTopics = [...topByScore, ...investigationExtras, ...signalFaibleExtras, ...flaggedExtras].slice(0, 55);
+  console.log(`  Selected ${selectedTopics.length} topics for conference (${topByScore.length} top + ${investigationExtras.length} investigation + ${signalFaibleExtras.length} signal_faible + ${flaggedExtras.length} flagged)`);
+
+  const topicSummaries = selectedTopics.map(t => {
     const sampleTitles = t.article_ids.slice(0, 3).map(id => {
       const a = articlesById.get(id);
       return a ? a.titre : '?';
@@ -346,6 +412,11 @@ async function main() {
       pays: t.pays_concernes,
       sources: t.sources.slice(0, 6),
       exemples_titres: sampleTitles,
+      // Editorial metadata
+      editorial_flags: t.editorial_flags || [],
+      has_investigation: t.has_investigation_source || false,
+      orientations: t.orientations || [],
+      tag: t.tag || null,
     };
   });
 
@@ -378,6 +449,8 @@ Décide la ligne éditoriale du jour. Choisis les topics pour chaque section.`;
       monde: intlTopics.slice(0, 2).map(t => t.id),
       regard_croise: topics.find(t => t.score.nb_sources >= 3)?.id || topics[1]?.id,
       regard_etranger: topics.filter(t => t.types.includes('etranger')).slice(0, 2).map(t => t.id),
+      signal_faible: topics.filter(t => t.tag === 'solo_investigation').slice(0, 1).map(t => t.id),
+      alerte_editoriale: topics.filter(t => (t.editorial_flags?.length ?? 0) > 0).slice(0, 1).map(t => t.id),
     };
   }
 
@@ -386,6 +459,8 @@ Décide la ligne éditoriale du jour. Choisis les topics pour chaque section.`;
   console.log(`  Monde: ${(editorialPlan.monde || []).length} topics`);
   console.log(`  Regard croisé: ${editorialPlan.regard_croise}`);
   console.log(`  Regard étranger: ${(editorialPlan.regard_etranger || []).length} topics`);
+  console.log(`  Signal faible: ${(editorialPlan.signal_faible || []).length} topics`);
+  console.log(`  Alerte éditoriale: ${(editorialPlan.alerte_editoriale || []).length} topics`);
 
   // ===== STEP 3: Content Generation =====
   console.log('\n[Rédaction] Generating editorial content from topic clusters...');
@@ -397,6 +472,8 @@ Décide la ligne éditoriale du jour. Choisis les topics pour chaque section.`;
     ...(editorialPlan.monde || []),
     editorialPlan.regard_croise,
     ...(editorialPlan.regard_etranger || []),
+    ...(editorialPlan.signal_faible || []),
+    ...(editorialPlan.alerte_editoriale || []),
   ].filter(Boolean));
 
   // Build full article content for each assigned topic
@@ -408,8 +485,17 @@ Décide la ligne éditoriale du jour. Choisis les topics pour chaque section.`;
       .map(id => articlesById.get(id))
       .filter(Boolean) as RawArticle[];
 
+    const flagsStr = (topic.editorial_flags || []).length > 0
+      ? ` | Flags: ${topic.editorial_flags.join(', ')}`
+      : '';
+    const tagStr = topic.tag ? ` | Tag: ${topic.tag}` : '';
+    const orientStr = (topic.orientations || []).length > 0
+      ? `\nOrientations: ${topic.orientations.join(', ')}`
+      : '';
+    const investStr = topic.has_investigation_source ? ' | Investigation: oui' : '';
+
     return `### Topic: ${topic.titre} [${topicId}]
-Score: ${topic.score.total}/100 | ${topic.score.nb_sources} sources | Types: ${topic.types.join(', ')}
+Score: ${topic.score.total}/100 | ${topic.score.nb_sources} sources | Types: ${topic.types.join(', ')}${flagsStr}${tagStr}${investStr}${orientStr}
 
 ${arts.map(a => {
       const auteurStr = a.auteur ? ` | Auteur: ${a.auteur}` : '';
@@ -466,6 +552,8 @@ ${arts.map(a => {
 - Monde : ${(editorialPlan.monde || []).map((id: string) => `"${resolveTitle(id)}"`).join(', ')}
 - Regard croisé : "${resolveTitle(editorialPlan.regard_croise)}"
 - Regard étranger : ${(editorialPlan.regard_etranger || []).map((id: string) => `"${resolveTitle(id)}"`).join(', ')}
+- Signal faible : ${(editorialPlan.signal_faible || []).map((id: string) => `"${resolveTitle(id)}"`).join(', ') || 'aucun'}
+- Alerte éditoriale : ${(editorialPlan.alerte_editoriale || []).map((id: string) => `"${resolveTitle(id)}"`).join(', ') || 'aucune'}
 - Chiffre suggéré : ${editorialPlan.chiffre_suggestion || 'à déterminer'}
 
 ## Contexte de propriété des médias
@@ -495,6 +583,14 @@ ${formatTopicArticles(editorialPlan.regard_croise)}
 
 ${(editorialPlan.regard_etranger || []).map((id: string) => formatTopicArticles(id)).join('\n\n')}
 
+## SIGNAL FAIBLE — Articles d'investigation isolés
+
+${(editorialPlan.signal_faible || []).map((id: string) => formatTopicArticles(id)).join('\n\n') || '(aucun signal faible sélectionné)'}
+
+## ALERTE ÉDITORIALE — Sujets critiques
+
+${(editorialPlan.alerte_editoriale || []).map((id: string) => formatTopicArticles(id)).join('\n\n') || '(aucune alerte éditoriale sélectionnée)'}
+
 ## Instructions
 Rédige l'édition complète du jour au format Smart Brevity.
 IMPORTANT : pour chaque sujet, cite TOUTES les sources disponibles (pas juste 1). Tu as accès à tous les articles de chaque topic — exploite cette richesse.
@@ -503,9 +599,12 @@ IMPORTANT : pour chaque sujet, cite TOUTES les sources disponibles (pas juste 1)
 - 1-3 infos Monde avec pays — cite les sources FR + étrangères
 - 2-3 items regard_etranger (presse étrangère sur la France)
 - 1 regard croisé SUBSTANTIEL avec analyse de cohérence (150-250 mots, 3+ couvertures)
+- 0-2 signal_faible : articles d'investigation isolés, avec "pourquoi_signal" expliquant pourquoi le mainstream l'ignore
+- 0-2 alerte_editoriale : sujets critiques sur nos axes (droit international, justice sociale, etc.), avec "axes_concernes" et "analyse" (50-100 mots)
 - 1 chiffre du jour
 - 0-4 événements à surveiller
-- Pour chaque couverture dans regard_croise, renseigne "auteur", "proprietaire_contexte" et "orientation_source"`;
+- Pour chaque couverture dans regard_croise, renseigne "auteur", "proprietaire_contexte" et "orientation_source"
+- Si aucun topic signal_faible ou alerte_editoriale n'a été sélectionné, retourne des tableaux vides pour ces sections`;
 
   const totalArticles = [...allAssignedArticleIds].length;
   console.log(`  Sending ${totalArticles} articles across ${assignedTopicIds.size} topics to LLM...`);
@@ -594,6 +693,8 @@ IMPORTANT : pour chaque sujet, cite TOUTES les sources disponibles (pas juste 1)
 
   if (!uneData.a_surveiller) uneData.a_surveiller = [];
   if (!uneData.regard_etranger) uneData.regard_etranger = [];
+  if (!uneData.signal_faible) uneData.signal_faible = [];
+  if (!uneData.alerte_editoriale) uneData.alerte_editoriale = [];
 
   // Validate with Zod
   const validation = UneSchema.safeParse(uneData);
@@ -628,6 +729,8 @@ IMPORTANT : pour chaque sujet, cite TOUTES les sources disponibles (pas juste 1)
   console.log(`  Monde : ${uneData.monde?.length || 0} items`);
   console.log(`  Regard croisé : ${uneData.regard_croise?.sujet || 'N/A'}`);
   console.log(`  Regard étranger : ${uneData.regard_etranger?.length || 0} items`);
+  console.log(`  Signal faible : ${uneData.signal_faible?.length || 0} items`);
+  console.log(`  Alerte éditoriale : ${uneData.alerte_editoriale?.length || 0} items`);
   console.log(`  Chiffre du jour : ${uneData.chiffre_du_jour?.valeur || 'N/A'}`);
   console.log(`  ${uneData.a_surveiller?.length || 0} événements à surveiller`);
   console.log(`  Rubriques : ${[...rubriques].join(', ')}`);

@@ -1,5 +1,5 @@
 import { cookies } from 'next/headers';
-import { createHash, timingSafeEqual } from 'crypto';
+import { createHash, timingSafeEqual, randomBytes } from 'crypto';
 
 const SESSION_COOKIE = 'admin_session';
 const SESSION_MAX_AGE = 60 * 60 * 24 * 7; // 7 days

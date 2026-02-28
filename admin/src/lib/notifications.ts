@@ -1,26 +1,14 @@
 import { readFile, writeFile, mkdir } from 'fs/promises';
 import { join } from 'path';
 
+// Re-export types from the browser-safe module
+export type { NotificationConfig, ScheduleConfig } from './notification-types';
+import type { NotificationConfig, ScheduleConfig } from './notification-types';
+
 const ROOT = process.cwd().replace(/\/admin$/, '');
 const PIPELINE = join(ROOT, 'src', 'data', '.pipeline');
 const NOTIF_CONFIG_PATH = join(PIPELINE, 'notifications.json');
 const SCHEDULE_PATH = join(PIPELINE, 'schedule.json');
-
-export interface NotificationConfig {
-  slackWebhookUrl: string | null;
-  emailTo: string | null;
-  notifyOnDraft: boolean;
-  notifyOnPublish: boolean;
-  notifyOnFailure: boolean;
-  notifyOnEdit: boolean;
-}
-
-export interface ScheduleConfig {
-  enabled: boolean;
-  publishTime: string; // HH:MM format
-  timezone: string;
-  lastScheduledPublish: string | null;
-}
 
 const DEFAULT_NOTIF_CONFIG: NotificationConfig = {
   slackWebhookUrl: null,

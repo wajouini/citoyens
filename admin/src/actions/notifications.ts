@@ -6,12 +6,9 @@ import {
   getScheduleConfig,
   saveScheduleConfig,
   sendSlackNotification,
-  type NotificationConfig,
-  type ScheduleConfig,
 } from '@/lib/notifications';
+import type { NotificationConfig, ScheduleConfig } from '@/lib/notification-types';
 import { logAudit } from '@/lib/audit';
-
-export type { NotificationConfig, ScheduleConfig };
 
 export async function loadNotificationConfig(): Promise<NotificationConfig> {
   return getNotificationConfig();

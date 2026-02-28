@@ -2,8 +2,8 @@
 
 import { useState, useTransition } from 'react';
 import { useRouter } from 'next/navigation';
-import { addUser, changeRole, toggleActive, resetPassword, removeUser, type PublicUser, type UserRole } from '@/actions/users';
-import { ROLE_LABELS, ROLE_PERMISSIONS } from '@/lib/users';
+import { addUser, changeRole, toggleActive, resetPassword, removeUser } from '@/actions/users';
+import { type PublicUser, type UserRole, ROLE_LABELS, ROLE_PERMISSIONS } from '@/lib/user-types';
 
 const roleBadgeColors: Record<UserRole, string> = {
   admin: 'bg-rouge-doux/10 text-rouge-doux',

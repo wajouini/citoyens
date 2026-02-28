@@ -129,6 +129,27 @@ const ASurveillerSchema = z.object({
   lien: z.string().nullable(),
 });
 
+// ---------- Signal faible ----------
+
+const SignalFaibleSchema = z.object({
+  titre: z.string().min(10),
+  rubrique: RubriqueEnum,
+  resume: z.string().min(20),
+  sources: z.array(SourceRefSchema).min(1),
+  pourquoi_signal: z.string().min(10),
+});
+
+// ---------- Alerte editoriale ----------
+
+const AlerteEditorialeSchema = z.object({
+  titre: z.string().min(10),
+  rubrique: RubriqueEnum,
+  resume: z.string().min(20),
+  axes_concernes: z.array(z.string()).min(1),
+  analyse: z.string().min(30),
+  sources: z.array(SourceRefSchema).min(1),
+});
+
 // ---------- Meta ----------
 
 const MetaSchema = z.object({
@@ -154,6 +175,8 @@ export const UneSchema = z.object({
   monde: z.array(EssentielMondeSchema).min(1).max(4),
   regard_croise: RegardCroiseSchema,
   regard_etranger: z.array(RegardEtrangerItemSchema).default([]),
+  signal_faible: z.array(SignalFaibleSchema).default([]),
+  alerte_editoriale: z.array(AlerteEditorialeSchema).default([]),
   chiffre_du_jour: ChiffreDuJourSchema,
   a_surveiller: z.array(ASurveillerSchema).default([]),
   meta: MetaSchema,
@@ -167,3 +190,5 @@ export type RegardEtrangerItem = z.infer<typeof RegardEtrangerItemSchema>;
 export type RegardCroise = z.infer<typeof RegardCroiseSchema>;
 export type Couverture = z.infer<typeof CouvertureSchema>;
 export type GroupeMediaRef = z.infer<typeof GroupeMediaRefSchema>;
+export type SignalFaible = z.infer<typeof SignalFaibleSchema>;
+export type AlerteEditoriale = z.infer<typeof AlerteEditorialeSchema>;

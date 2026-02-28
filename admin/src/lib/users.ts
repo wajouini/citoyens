@@ -2,23 +2,13 @@ import { readFile, writeFile, mkdir } from 'fs/promises';
 import { join } from 'path';
 import { createHash, randomBytes } from 'crypto';
 
+// Re-export types from the browser-safe module so existing server-side imports still work
+export type { UserRole, User, PublicUser } from './user-types';
+export { ROLE_LABELS, ROLE_PERMISSIONS } from './user-types';
+import type { UserRole, User, PublicUser } from './user-types';
+
 const ROOT = process.cwd().replace(/\/admin$/, '');
 const USERS_PATH = join(ROOT, 'src', 'data', '.pipeline', 'users.json');
-
-export type UserRole = 'admin' | 'editorialiste' | 'lecteur';
-
-export interface User {
-  id: string;
-  username: string;
-  displayName: string;
-  role: UserRole;
-  passwordHash: string;
-  createdAt: string;
-  lastLoginAt: string | null;
-  active: boolean;
-}
-
-export type PublicUser = Omit<User, 'passwordHash'>;
 
 function hashPassword(password: string): string {
   const salt = 'citoyens-user-v1';
@@ -134,14 +124,4 @@ export async function initializeDefaultAdmin(): Promise<void> {
   await createUser('admin', 'Administrateur', adminPassword, 'admin');
 }
 
-export const ROLE_LABELS: Record<UserRole, string> = {
-  admin: 'Administrateur',
-  editorialiste: 'Éditorialiste',
-  lecteur: 'Lecteur',
-};
-
-export const ROLE_PERMISSIONS: Record<UserRole, string[]> = {
-  admin: ['pipeline.run', 'edition.edit', 'edition.publish', 'sources.manage', 'users.manage', 'settings.view'],
-  editorialiste: ['edition.edit', 'edition.publish', 'sources.view'],
-  lecteur: ['edition.view', 'sources.view'],
-};
+// ROLE_LABELS and ROLE_PERMISSIONS are re-exported from ./user-types above
