@@ -10,5 +10,21 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  integrations: [mdx(), sitemap()],
+  integrations: [
+    mdx(),
+    sitemap({
+      serialize(item) {
+        if (item.url.includes('/guide/')) {
+          item.changefreq = 'weekly';
+          item.priority = 0.9;
+        } else if (item.url.includes('/eclairage/')) {
+          item.changefreq = 'daily';
+          item.priority = 0.8;
+        } else if (item.url.includes('/fiche/')) {
+          item.priority = 0.7;
+        }
+        return item;
+      },
+    }),
+  ],
 });

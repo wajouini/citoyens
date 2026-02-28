@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+const eclairageModules = import.meta.glob('../../data/eclairages/*.json', { eager: true });
+
+interface EclairageEntry {
+  slug: string;
+  titre: string;
+  meta_description: string;
+  rubrique: string;
+  mot_cle_principal: string;
+  date_publication: string;
+  date_modification: string;
+  sections_count: number;
+  faq_count: number;
+}
+
+const eclairages: EclairageEntry[] = [];
+
+for (const [, mod] of Object.entries(eclairageModules)) {
+  const data = (mod as any).default;
+  if (data?.slug && data?.titre) {
+    eclairages.push({
+      slug: data.slug,
+      titre: data.titre,
+      meta_description: data.meta_description || '',
+      rubrique: data.rubrique || 'politique',
+      mot_cle_principal: data.mot_cle_principal || '',
+      date_publication: data.date_publication || data.date || '',
+      date_modification: data.date_modification || data.date_publication || '',
+      sections_count: data.sections?.length || 0,
+      faq_count: data.faq?.length || 0,
+    });
+  }
+}
+
+eclairages.sort((a, b) => b.date_modification.localeCompare(a.date_modification));
+
+const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
+  politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+  economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10' },
+  tech: { label: 'Tech', color: 'text-purple-700', bg: 'bg-purple-50' },
+  science: { label: 'Science', color: 'text-vert', bg: 'bg-green-50' },
+  societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50' },
+  international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50' },
+  ia: { label: 'IA', color: 'text-purple-700', bg: 'bg-purple-50' },
+};
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Éclairages — Citoyens.ai',
+  description: 'Articles de synthèse SEO sur l\'actualité française — analyses sourcées et mises en perspective.',
+  url: 'https://citoyens.ai/eclairage/',
+  publisher: { '@type': 'Organization', name: 'Citoyens.ai' },
+};
+---
+
+<BaseLayout title="Éclairages" description="Articles de synthèse sur l'actualité française — analyses sourcées, chiffres clés et FAQ pour comprendre les sujets du moment." jsonLd={jsonLd}>
+  <Header />
+  <main>
+    <div class="max-w-[760px] mx-auto px-4 md:px-5 py-10">
+      <h1 class="font-display text-[32px] md:text-[40px] font-black tracking-tight text-noir mb-2">Éclairages</h1>
+      <p class="text-[15px] text-gris-texte mb-8">Synthèses sourcées sur les sujets d'actualité. Optimisées pour vous donner l'essentiel en quelques minutes.</p>
+
+      {eclairages.length === 0 ? (
+        <div class="text-center py-16">
+          <p class="text-gris-clair text-[15px]">Le premier éclairage sera publié bientôt.</p>
+          <p class="text-gris-clair text-[13px] mt-2">Chaque jour, nous publions des synthèses sur les sujets les plus recherchés.</p>
+        </div>
+      ) : (
+        <div class="flex flex-col gap-6">
+          {eclairages.map((e) => {
+            const s = rubriqueStyle[e.rubrique] || rubriqueStyle.politique;
+            const isUpdated = e.date_modification && e.date_modification !== e.date_publication;
+            return (
+              <a href={`/eclairage/${e.slug}`}
+                 class="block border-2 border-gris-chaud rounded-xl p-5 no-underline hover:border-bleu-rep hover:shadow-lg transition-all group">
+                <div class="flex items-center gap-2 mb-2">
+                  <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${s.bg} ${s.color}`}>
+                    {s.label}
+                  </span>
+                  <span class="font-mono text-[11px] text-gris-clair">
+                    {new Date(e.date_publication + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
+                  </span>
+                  {isUpdated && (
+                    <span class="font-mono text-[10px] text-vert">· Mis à jour</span>
+                  )}
+                </div>
+                <h2 class="font-display text-[20px] md:text-[24px] font-black text-noir leading-tight mb-2 group-hover:text-bleu-rep transition-colors">
+                  {e.titre}
+                </h2>
+                <p class="text-[14px] text-gris-texte leading-relaxed">{e.meta_description}</p>
+                <div class="mt-3 font-mono text-[10px] text-gris-clair">
+                  {e.sections_count} sections · {e.faq_count} FAQ · {e.mot_cle_principal}
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

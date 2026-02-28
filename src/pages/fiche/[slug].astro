@@ -51,11 +51,25 @@ function formatPriseFonction(dateStr: string): string {
 
 // Determine gender from bio_courte
 const isFeminine = personne.bio_courte.startsWith('Députée');
+
+// JSON-LD Person structured data
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: personne.nom_complet,
+  jobTitle: roleLabel,
+  ...(personne.parti?.nom && { memberOf: { '@type': 'Organization', name: personne.parti.nom } }),
+  ...(personne.photo_url && { image: personne.photo_url }),
+  ...(personne.email && { email: personne.email }),
+  ...(personne.twitter && { sameAs: [`https://twitter.com/${personne.twitter}`] }),
+  ...(personne.bio_courte && { description: personne.bio_courte }),
+};
 ---
 
 <BaseLayout
   title={`${personne.nom_complet} — ${roleLabel}`}
   description={personne.bio_courte}
+  jsonLd={jsonLd}
 >
   <Header />
 

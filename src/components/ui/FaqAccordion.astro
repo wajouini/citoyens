@@ -1,0 +1,25 @@
+---
+interface Props {
+  faq: { question: string; reponse: string }[];
+}
+const { faq } = Astro.props;
+---
+
+<section class="mb-10">
+  <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Questions fréquentes</h2>
+  <div class="space-y-2">
+    {faq.map((item) => (
+      <details class="group border border-gris-chaud rounded-xl overflow-hidden">
+        <summary class="p-4 cursor-pointer select-none list-none flex items-center gap-3 hover:bg-creme/50 transition-colors">
+          <span class="text-[15px] font-semibold text-noir flex-1">{item.question}</span>
+          <svg class="w-4 h-4 text-gris-clair transition-transform group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </summary>
+        <div class="px-4 pb-4 text-[15px] leading-[1.8] text-gris-texte">
+          {item.reponse}
+        </div>
+      </details>
+    ))}
+  </div>
+</section>

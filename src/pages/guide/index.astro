@@ -1,0 +1,113 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+const guideModules = import.meta.glob('../../data/guides/*.json', { eager: true });
+
+interface GuideEntry {
+  slug: string;
+  titre: string;
+  meta_description: string;
+  rubrique: string;
+  mot_cle_principal: string;
+  date_publication: string;
+  date_modification: string;
+  chapitres_count: number;
+  faq_count: number;
+  eclairages_count: number;
+}
+
+const guides: GuideEntry[] = [];
+
+for (const [, mod] of Object.entries(guideModules)) {
+  const data = (mod as any).default;
+  if (data?.slug && data?.titre) {
+    guides.push({
+      slug: data.slug,
+      titre: data.titre,
+      meta_description: data.meta_description || '',
+      rubrique: data.rubrique || 'politique',
+      mot_cle_principal: data.mot_cle_principal || '',
+      date_publication: data.date_publication || '',
+      date_modification: data.date_modification || data.date_publication || '',
+      chapitres_count: data.chapitres?.length || 0,
+      faq_count: data.faq?.length || 0,
+      eclairages_count: data.eclairages_lies?.length || 0,
+    });
+  }
+}
+
+guides.sort((a, b) => b.date_modification.localeCompare(a.date_modification));
+
+const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
+  politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+  economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10' },
+  tech: { label: 'Tech', color: 'text-purple-700', bg: 'bg-purple-50' },
+  science: { label: 'Science', color: 'text-vert', bg: 'bg-green-50' },
+  societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50' },
+  international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50' },
+  ia: { label: 'IA', color: 'text-purple-700', bg: 'bg-purple-50' },
+};
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Guides — Citoyens.ai',
+  description: 'Guides complets pour comprendre les grands sujets de l\'actualité française — contenus de fond, régulièrement mis à jour.',
+  url: 'https://citoyens.ai/guide/',
+  publisher: { '@type': 'Organization', name: 'Citoyens.ai' },
+};
+---
+
+<BaseLayout title="Guides" description="Guides complets pour comprendre les grands sujets de l'actualité française — contenus de fond, chiffres clés et FAQ." jsonLd={jsonLd}>
+  <Header />
+  <main>
+    <div class="max-w-[760px] mx-auto px-4 md:px-5 py-10">
+      <h1 class="font-display text-[32px] md:text-[40px] font-black tracking-tight text-noir mb-2">Guides</h1>
+      <p class="text-[15px] text-gris-texte mb-8">Contenus de fond pour comprendre les grands sujets. Mis à jour régulièrement avec les dernières informations.</p>
+
+      {guides.length === 0 ? (
+        <div class="text-center py-16">
+          <p class="text-gris-clair text-[15px]">Le premier guide sera publié bientôt.</p>
+          <p class="text-gris-clair text-[13px] mt-2">Chaque semaine, nous publions un guide complet sur un grand thème d'actualité.</p>
+        </div>
+      ) : (
+        <div class="flex flex-col gap-6">
+          {guides.map((g) => {
+            const s = rubriqueStyle[g.rubrique] || rubriqueStyle.politique;
+            const isUpdated = g.date_modification && g.date_modification !== g.date_publication;
+            return (
+              <a href={`/guide/${g.slug}`}
+                 class="block border-2 border-gris-chaud rounded-xl p-5 no-underline hover:border-bleu-rep hover:shadow-lg transition-all group">
+                <div class="flex items-center gap-2 mb-2">
+                  <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${s.bg} ${s.color}`}>
+                    {s.label}
+                  </span>
+                  <span class="font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-amber-50 text-amber-700">
+                    Guide
+                  </span>
+                  <span class="font-mono text-[11px] text-gris-clair">
+                    {new Date(g.date_publication + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
+                  </span>
+                  {isUpdated && (
+                    <span class="font-mono text-[10px] text-vert">· Mis à jour</span>
+                  )}
+                </div>
+                <h2 class="font-display text-[20px] md:text-[24px] font-black text-noir leading-tight mb-2 group-hover:text-bleu-rep transition-colors">
+                  {g.titre}
+                </h2>
+                <p class="text-[14px] text-gris-texte leading-relaxed">{g.meta_description}</p>
+                <div class="mt-3 font-mono text-[10px] text-gris-clair">
+                  {g.chapitres_count} chapitres · {g.faq_count} FAQ · {g.eclairages_count > 0 ? `${g.eclairages_count} éclairages liés` : g.mot_cle_principal}
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

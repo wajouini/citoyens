@@ -1,0 +1,284 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import FaqAccordion from '../../components/ui/FaqAccordion.astro';
+import RelatedContent from '../../components/ui/RelatedContent.astro';
+
+export async function getStaticPaths() {
+  const modules = import.meta.glob('../../data/guides/*.json', { eager: true });
+  const paths = [];
+
+  for (const [, mod] of Object.entries(modules)) {
+    const data = (mod as any).default;
+    if (data?.slug) {
+      paths.push({ params: { slug: data.slug }, props: { guide: data } });
+    }
+  }
+
+  return paths;
+}
+
+const { guide } = Astro.props;
+
+const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
+  politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+  economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10' },
+  tech: { label: 'Tech', color: 'text-purple-700', bg: 'bg-purple-50' },
+  science: { label: 'Science', color: 'text-vert', bg: 'bg-green-50' },
+  societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50' },
+  international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50' },
+  ia: { label: 'IA', color: 'text-purple-700', bg: 'bg-purple-50' },
+};
+
+const style = rubriqueStyle[guide.rubrique] || rubriqueStyle.politique;
+const isUpdated = guide.date_modification && guide.date_modification !== guide.date_publication;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article',
+      headline: guide.titre,
+      description: guide.meta_description,
+      datePublished: guide.date_publication,
+      dateModified: guide.date_modification || guide.date_publication,
+      author: { '@type': 'Organization', name: 'Citoyens.ai', url: 'https://citoyens.ai' },
+      publisher: { '@type': 'Organization', name: 'Citoyens.ai', url: 'https://citoyens.ai' },
+      mainEntityOfPage: `https://citoyens.ai/guide/${guide.slug}`,
+      keywords: [guide.mot_cle_principal, ...(guide.mots_cles_secondaires || [])].join(', '),
+      inLanguage: 'fr',
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: (guide.faq || []).map((f: any) => ({
+        '@type': 'Question',
+        name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: f.reponse },
+      })),
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://citoyens.ai/' },
+        { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://citoyens.ai/guide/' },
+        { '@type': 'ListItem', position: 3, name: guide.titre },
+      ],
+    },
+  ],
+};
+---
+
+<BaseLayout title={guide.titre} description={guide.meta_description} jsonLd={jsonLd}>
+  <Header />
+  <main>
+    <div class="max-w-[1100px] mx-auto px-4 md:px-5 py-10">
+      <!-- Breadcrumb -->
+      <nav class="flex items-center gap-1.5 mb-6 font-mono text-[11px] text-gris-clair">
+        <a href="/" class="no-underline hover:text-bleu-rep">Accueil</a>
+        <span>/</span>
+        <a href="/guide" class="no-underline hover:text-bleu-rep">Guides</a>
+        <span>/</span>
+        <span class="text-noir truncate max-w-[250px]">{guide.titre}</span>
+      </nav>
+
+      <div class="flex flex-col lg:flex-row gap-10">
+        <!-- Main content -->
+        <article class="flex-1 min-w-0">
+          <!-- Header -->
+          <div class="mb-8">
+            <div class="flex items-center gap-2 mb-3">
+              <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${style.bg} ${style.color}`}>
+                {style.label}
+              </span>
+              <span class="font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-amber-50 text-amber-700">
+                Guide
+              </span>
+              <span class="font-mono text-[11px] text-gris-clair">
+                {new Date(guide.date_publication + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
+              </span>
+              {isUpdated && (
+                <span class="font-mono text-[10px] text-vert">
+                  · Mis à jour le {new Date(guide.date_modification + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' })}
+                </span>
+              )}
+            </div>
+            <h1 class="font-display text-[28px] md:text-[40px] font-black leading-[1.1] tracking-tight text-noir mb-3">
+              {guide.titre}
+            </h1>
+            {guide.mot_cle_principal && (
+              <div class="font-mono text-[10px] text-gris-clair mt-2">
+                {guide.mot_cle_principal}
+              </div>
+            )}
+          </div>
+
+          <div class="h-px bg-gris-chaud mb-8"></div>
+
+          <!-- Introduction -->
+          <div class="text-[16px] leading-[1.8] text-noir mb-10 whitespace-pre-line">
+            {guide.introduction}
+          </div>
+
+          <!-- TOC -->
+          {guide.chapitres?.length > 0 && (
+            <nav class="bg-creme rounded-xl p-4 mb-10">
+              <div class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair mb-2">Sommaire</div>
+              <ol class="flex flex-col gap-1.5">
+                {guide.chapitres.map((ch: any, i: number) => (
+                  <li>
+                    <a href={`#${ch.slug_ancre}`} class="text-[14px] text-bleu-rep no-underline hover:underline font-medium">
+                      {i + 1}. {ch.titre}
+                    </a>
+                    {ch.sous_sections?.length > 0 && (
+                      <ul class="ml-4 mt-1 flex flex-col gap-0.5">
+                        {ch.sous_sections.map((ss: any) => (
+                          <li>
+                            <a href={`#${ch.slug_ancre}`} class="text-[13px] text-gris-texte no-underline hover:text-bleu-rep">
+                              {ss.titre}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
+
+          <!-- Chapitres -->
+          {guide.chapitres?.map((chapitre: any, i: number) => (
+            <section id={chapitre.slug_ancre} class="mb-12">
+              <h2 class="font-display text-[22px] md:text-[26px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">
+                {chapitre.titre}
+              </h2>
+              <div class="text-[15px] leading-[1.8] text-noir whitespace-pre-line mb-4">
+                {chapitre.contenu}
+              </div>
+              {chapitre.sous_sections?.map((ss: any) => (
+                <div class="ml-0 mb-6">
+                  <h3 class="font-display text-[18px] font-bold text-noir mb-2">
+                    {ss.titre}
+                  </h3>
+                  <div class="text-[15px] leading-[1.8] text-noir whitespace-pre-line">
+                    {ss.contenu}
+                  </div>
+                </div>
+              ))}
+            </section>
+          ))}
+
+          <!-- Chiffres clés -->
+          {guide.chiffres_cles?.length > 0 && (
+            <section class="mb-10">
+              <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Les chiffres clés</h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {guide.chiffres_cles.map((c: any) => (
+                  <div class="bg-noir text-white rounded-xl p-4">
+                    <div class="font-mono text-[28px] font-bold leading-none mb-2">{c.valeur}</div>
+                    <p class="text-[13px] text-white/80 leading-relaxed mb-1">{c.contexte}</p>
+                    <span class="font-mono text-[10px] text-white/40">
+                      {c.source_url ? (
+                        <a href={c.source_url} target="_blank" rel="noopener noreferrer" class="text-white/40 hover:text-white/60">{c.source} ↗</a>
+                      ) : c.source}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          <!-- FAQ -->
+          {guide.faq?.length > 0 && (
+            <FaqAccordion faq={guide.faq} />
+          )}
+
+          <!-- Conclusion -->
+          {guide.conclusion && (
+            <section class="mb-10">
+              <div class="border-2 border-noir rounded-xl p-5 bg-blanc">
+                <h3 class="font-mono text-[9px] uppercase tracking-[2px] text-noir mb-2">Conclusion</h3>
+                <div class="text-[16px] leading-[1.7] text-noir whitespace-pre-line">
+                  {guide.conclusion}
+                </div>
+              </div>
+            </section>
+          )}
+
+          <!-- Liens internes -->
+          {guide.liens_internes?.length > 0 && (
+            <RelatedContent liens={guide.liens_internes} />
+          )}
+
+          <!-- Sources -->
+          {guide.sources?.length > 0 && (
+            <section class="mb-10">
+              <h3 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-3">Sources</h3>
+              <div class="flex flex-wrap gap-2">
+                {guide.sources.map((src: any) => (
+                  <a href={src.url} target="_blank" rel="noopener noreferrer"
+                     class="inline-flex items-center gap-1 text-[11px] font-mono font-medium text-gris-texte no-underline hover:text-bleu-rep transition-colors border border-gris-chaud rounded-full px-2.5 py-1">
+                    {src.nom} ↗
+                  </a>
+                ))}
+              </div>
+            </section>
+          )}
+
+          <!-- Meta -->
+          <div class="font-mono text-[9px] text-gris-clair text-center pb-4 border-t border-gris-chaud pt-4">
+            Guide généré par IA · {guide.meta?.modele || 'N/A'} · <a href="/methodologie" class="underline hover:text-bleu-rep">Notre méthodologie</a>
+          </div>
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="lg:w-[280px] shrink-0">
+          <div class="lg:sticky lg:top-6 space-y-6">
+            <!-- Éclairages liés -->
+            {guide.eclairages_lies?.length > 0 && (
+              <div class="border border-gris-chaud rounded-xl p-4">
+                <h3 class="font-mono text-[9px] uppercase tracking-[2px] text-noir mb-3 font-bold">Éclairages liés</h3>
+                <div class="flex flex-col gap-2">
+                  {guide.eclairages_lies.map((slug: string) => (
+                    <a href={`/eclairage/${slug}`}
+                       class="text-[13px] text-bleu-rep no-underline hover:underline leading-snug">
+                      → {slug}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <!-- Lectures essentielles -->
+            {guide.lectures_essentielles?.length > 0 && (
+              <div class="border border-gris-chaud rounded-xl p-4">
+                <h3 class="font-mono text-[9px] uppercase tracking-[2px] text-noir mb-3 font-bold">Lectures essentielles</h3>
+                <div class="flex flex-col gap-2">
+                  {guide.lectures_essentielles.map((l: any) => (
+                    <a href={l.url}
+                       target={l.type === 'externe' ? '_blank' : undefined}
+                       rel={l.type === 'externe' ? 'noopener noreferrer' : undefined}
+                       class="text-[13px] text-bleu-rep no-underline hover:underline leading-snug">
+                      {l.titre} {l.type === 'externe' ? '↗' : '→'}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <!-- Dernière mise à jour -->
+            <div class="bg-creme rounded-xl p-4">
+              <div class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair mb-1">Dernière mise à jour</div>
+              <div class="text-[14px] text-noir font-medium">
+                {new Date((guide.date_modification || guide.date_publication) + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

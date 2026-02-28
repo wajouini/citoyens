@@ -91,6 +91,16 @@ const steps: Step[] = [
     critical: false,
   },
   {
+    name: 'Génération éclairages SEO',
+    command: 'npx tsx scripts/generate-eclairages.ts',
+    critical: false,
+  },
+  {
+    name: 'Mise à jour guides SEO',
+    command: 'npx tsx scripts/generate-guides.ts --if-needed',
+    critical: false,
+  },
+  {
     name: 'Contrôle qualité des données',
     command: 'npx tsx scripts/sanity-check.ts',
     critical: false,
@@ -229,7 +239,7 @@ async function main() {
     console.log(`${'─'.repeat(40)}`);
 
     try {
-      execSync('git add src/data/une.json src/data/votes.json', { stdio: 'inherit' });
+      execSync('git add src/data/une.json src/data/votes.json src/data/eclairages/ src/data/guides/', { stdio: 'inherit' });
       execSync(
         `git commit -m "daily: edition du ${today}" --author="Citoyens.ai Pipeline <pipeline@citoyens.ai>"`,
         { stdio: 'inherit' }

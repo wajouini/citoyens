@@ -1,0 +1,46 @@
+---
+interface LienInterne {
+  type: string;
+  slug: string;
+  titre: string;
+}
+
+interface Props {
+  liens: LienInterne[];
+}
+
+const { liens } = Astro.props;
+
+const typeConfig: Record<string, { label: string; path: string; color: string; bg: string }> = {
+  fiche: { label: 'Profil', path: 'fiche', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+  dossier: { label: 'Dossier', path: 'dossiers', color: 'text-vert', bg: 'bg-green-50' },
+  decodage: { label: 'Décodage', path: 'decodage', color: 'text-orange', bg: 'bg-orange/10' },
+  decryptage: { label: 'Décryptage', path: 'decryptage', color: 'text-purple-700', bg: 'bg-purple-50' },
+  eclairage: { label: 'Éclairage', path: 'eclairage', color: 'text-sky-700', bg: 'bg-sky-50' },
+  guide: { label: 'Guide', path: 'guide', color: 'text-amber-700', bg: 'bg-amber-50' },
+  radar: { label: 'Radar', path: 'radar', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  comprendre: { label: 'Comprendre', path: 'comprendre', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+};
+---
+
+{liens.length > 0 && (
+  <section class="mb-10">
+    <h2 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-4 font-bold">Pour aller plus loin</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+      {liens.map((l) => {
+        const cfg = typeConfig[l.type] || typeConfig.eclairage;
+        return (
+          <a href={`/${cfg.path}/${l.slug}`}
+             class="flex items-center gap-3 p-3 rounded-xl border border-gris-chaud hover:border-bleu-rep hover:bg-creme/50 transition-colors no-underline group">
+            <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded shrink-0 ${cfg.bg} ${cfg.color}`}>
+              {cfg.label}
+            </span>
+            <span class="text-[14px] text-noir group-hover:text-bleu-rep transition-colors line-clamp-1">
+              {l.titre}
+            </span>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+)}
