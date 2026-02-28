@@ -3,11 +3,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
 import MediaOwnerBadge from '../../components/home/MediaOwnerBadge.astro';
+import LinkedText from '../../components/ui/LinkedText.astro';
 
 export async function getStaticPaths() {
   const data = await import('../../data/sujets-chauds.json').then(m => m.default).catch(() => null);
-  const sujets = data?.sujets_actifs || [];
-  return sujets.map((s: any) => ({ params: { slug: s.slug }, props: { sujet: s, date: data?.date } }));
+  const actifs = data?.sujets_actifs || [];
+  const refroidis = (data?.sujets_refroidis || []).filter((s: any) => s.resume);
+  const allSujets = [...actifs, ...refroidis];
+  return allSujets.map((s: any) => ({ params: { slug: s.slug }, props: { sujet: s, date: data?.date } }));
 }
 
 const { sujet, date } = Astro.props;
@@ -22,12 +25,6 @@ const formatDateShort = (dateStr: string) => {
     const d = new Date(dateStr + 'T00:00:00');
     return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
   } catch { return dateStr; }
-};
-
-const intensiteBadge: Record<string, { label: string; cls: string; icon: string }> = {
-  brulant: { label: 'Brûlant', cls: 'bg-rouge-doux text-white', icon: '🔥' },
-  intense: { label: 'Intense', cls: 'bg-orange text-white', icon: '⚡' },
-  en_montee: { label: 'En montée', cls: 'bg-amber-500 text-white', icon: '📈' },
 };
 
 const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
@@ -58,7 +55,6 @@ const sourceTypeBg: Record<string, string> = {
   institutionnel: 'border-l-gris-clair',
 };
 
-const intensite = intensiteBadge[sujet.intensite] || intensiteBadge.intense;
 const rubrique = rubriqueStyle[sujet.rubrique] || rubriqueStyle.politique;
 
 const jsonLd = {
@@ -86,15 +82,14 @@ const jsonLd = {
 
     {/* Header */}
     <div class="flex items-center gap-2 mb-5 flex-wrap">
-      <span class={`font-mono text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full ${intensite.cls}`}>
-        {intensite.icon} {intensite.label}
-      </span>
       <span class={`font-mono text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full ${rubrique.bg} ${rubrique.color}`}>
         {rubrique.label}
       </span>
-      <span class="font-mono text-[10px] text-gris-clair ml-auto">
-        Suivi depuis le {formatDateShort(sujet.premiere_apparition)}
-      </span>
+      {(sujet.premiere_apparition || sujet.derniere_mise_a_jour) && (
+        <span class="font-mono text-[10px] text-gris-clair ml-auto">
+          Suivi depuis le {formatDateShort(sujet.premiere_apparition || sujet.derniere_mise_a_jour)}
+        </span>
+      )}
     </div>
 
     <h1 class="font-display text-[28px] md:text-[42px] font-black leading-[1.1] tracking-tight text-noir mb-6">
@@ -102,7 +97,7 @@ const jsonLd = {
     </h1>
 
     <p class="text-[17px] md:text-[19px] leading-relaxed text-gris-texte mb-10 max-w-[640px]">
-      {sujet.resume}
+      <LinkedText text={sujet.resume || ''} sources={sujet.sources} />
     </p>
 
     {/* ── CHRONOLOGIE ── */}

@@ -1,18 +1,26 @@
 ---
 interface Props {
   sujets: any[];
+  sujetsRefroidis?: any[];
 }
 
-const { sujets } = Astro.props;
+const { sujets, sujetsRefroidis = [] } = Astro.props;
 
-const intensiteBadge: Record<string, { label: string; bg: string; text: string; dot: string; icon: string }> = {
-  brulant: { label: 'Brûlant', bg: 'bg-rouge-doux/10', text: 'text-rouge-doux', dot: 'bg-rouge-doux', icon: '🔥' },
-  intense: { label: 'Intense', bg: 'bg-orange/10', text: 'text-orange', dot: 'bg-orange', icon: '⚡' },
-  en_montee: { label: 'En montée', bg: 'bg-amber-50', text: 'text-amber-700', dot: 'bg-amber-500', icon: '📈' },
+const allSujets = [...sujets, ...sujetsRefroidis.filter((s: any) => s.resume)];
+
+const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
+  politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
+  economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10' },
+  tech: { label: 'Tech', color: 'text-purple-700', bg: 'bg-purple-50' },
+  science: { label: 'Science', color: 'text-vert', bg: 'bg-green-50' },
+  societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50' },
+  international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50' },
+  ia: { label: 'IA', color: 'text-indigo-700', bg: 'bg-indigo-50' },
 };
 ---
 
-{sujets.length > 0 && (
+{allSujets.length > 0 && (
   <div class="border-b-[3px] border-noir bg-creme pb-8 pt-6">
     <div class="max-w-[1280px] mx-auto px-4 md:px-6">
       <div class="flex items-center justify-between mb-4">
@@ -25,15 +33,14 @@ const intensiteBadge: Record<string, { label: string; bg: string; text: string; 
       </div>
       
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {sujets.slice(0, 4).map((s: any) => {
-          const badge = intensiteBadge[s.intensite] || intensiteBadge.en_montee;
+        {allSujets.slice(0, 4).map((s: any) => {
+          const rub = rubriqueStyle[s.rubrique] || rubriqueStyle.politique;
           return (
             <a href={`/radar/${s.slug}`}
                class="flex flex-col p-4 bg-blanc border border-gris-chaud rounded-xl no-underline hover:border-bleu-rep hover:shadow-md transition-all group">
               <div class="flex items-center gap-2 mb-2">
-                <span class={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full ${badge.bg} text-[10px] font-mono font-bold uppercase tracking-wider`}>
-                  <span class={`w-1.5 h-1.5 rounded-full ${badge.dot} ${s.intensite === 'brulant' ? 'animate-pulse' : ''}`}></span>
-                  <span class={badge.text}>{badge.label}</span>
+                <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${rub.bg} ${rub.color}`}>
+                  {rub.label}
                 </span>
                 <span class="text-[10px] text-gris-clair font-mono">
                   {s.sources?.length || 0} sources

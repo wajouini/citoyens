@@ -70,54 +70,11 @@ function isInRssFeed(url: string, urlIndex: Set<string>): boolean {
   return false;
 }
 
-export async function validateEditionUrls(data: any, articles: RawArticle[]): Promise<UrlValidationResult> {
-  const urlIndex = buildUrlIndex(articles);
-  const result: UrlValidationResult = { total: 0, valid_rss: 0, valid_http: 0, removed: 0, details: [] };
+interface UrlRef { obj: any; field: string; label: string }
 
-  // Collect all URL references to check
-  interface UrlRef { obj: any; field: string; label: string }
-  const refs: UrlRef[] = [];
+async function validateRefs(refs: UrlRef[], urlIndex: Set<string>): Promise<UrlValidationResult> {
+  const result: UrlValidationResult = { total: refs.length, valid_rss: 0, valid_http: 0, removed: 0, details: [] };
 
-  if (data.sujet_du_jour) {
-    for (const s of data.sujet_du_jour.sources || []) {
-      if (s.url) refs.push({ obj: s, field: 'url', label: s.nom || '?' });
-    }
-  }
-
-  for (const e of data.essentiels || []) {
-    for (const s of e.sources || []) {
-      if (s.url) refs.push({ obj: s, field: 'url', label: s.nom || '?' });
-    }
-  }
-
-  if (data.regard_croise) {
-    for (const c of data.regard_croise.couvertures || []) {
-      if (c.url) refs.push({ obj: c, field: 'url', label: c.source || '?' });
-    }
-  }
-
-  for (const rc of data.regards_croises || []) {
-    for (const c of rc.couvertures || []) {
-      if (c.url) refs.push({ obj: c, field: 'url', label: c.source || '?' });
-    }
-  }
-
-  if (data.analyse_approfondie) {
-    for (const p of data.analyse_approfondie.perspectives || []) {
-      if (p.source?.url) refs.push({ obj: p.source, field: 'url', label: p.source.nom || '?' });
-    }
-    for (const s of data.analyse_approfondie.sources || []) {
-      if (s.url) refs.push({ obj: s, field: 'url', label: s.nom || '?' });
-    }
-  }
-
-  if (data.chiffre_du_jour?.source_url) {
-    refs.push({ obj: data.chiffre_du_jour, field: 'source_url', label: data.chiffre_du_jour.source || '?' });
-  }
-
-  result.total = refs.length;
-
-  // Phase 1: check against RSS feed
   const needsHttpCheck: UrlRef[] = [];
   for (const ref of refs) {
     const url = ref.obj[ref.field];
@@ -128,7 +85,6 @@ export async function validateEditionUrls(data: any, articles: RawArticle[]): Pr
     }
   }
 
-  // Phase 2: HTTP HEAD for URLs not in RSS (parallel, batched)
   if (needsHttpCheck.length > 0) {
     console.log(`  Checking ${needsHttpCheck.length} URL(s) not in RSS feed...`);
     const checks = await Promise.all(
@@ -151,4 +107,96 @@ export async function validateEditionUrls(data: any, articles: RawArticle[]): Pr
   }
 
   return result;
+}
+
+function collectSourceRefs(sources: any[]): UrlRef[] {
+  return (sources || []).filter((s: any) => s.url).map((s: any) => ({ obj: s, field: 'url', label: s.nom || s.source || '?' }));
+}
+
+function collectCouvertureRefs(couvertures: any[]): UrlRef[] {
+  return (couvertures || []).filter((c: any) => c.url).map((c: any) => ({ obj: c, field: 'url', label: c.source || '?' }));
+}
+
+export async function validateEditionUrls(data: any, articles: RawArticle[]): Promise<UrlValidationResult> {
+  const urlIndex = buildUrlIndex(articles);
+  const refs: UrlRef[] = [];
+
+  if (data.sujet_du_jour) {
+    refs.push(...collectSourceRefs(data.sujet_du_jour.sources));
+  }
+
+  for (const e of data.essentiels || []) {
+    refs.push(...collectSourceRefs(e.sources));
+  }
+
+  for (const item of data.france || []) {
+    refs.push(...collectSourceRefs(item.sources));
+  }
+
+  for (const item of data.monde || []) {
+    refs.push(...collectSourceRefs(item.sources));
+  }
+
+  if (data.regard_croise) {
+    refs.push(...collectCouvertureRefs(data.regard_croise.couvertures));
+  }
+
+  for (const rc of data.regards_croises || []) {
+    refs.push(...collectCouvertureRefs(rc.couvertures));
+  }
+
+  for (const re of data.regard_etranger || []) {
+    if (re.url) refs.push({ obj: re, field: 'url', label: re.source || '?' });
+  }
+
+  if (data.analyse_approfondie) {
+    for (const p of data.analyse_approfondie.perspectives || []) {
+      if (p.source?.url) refs.push({ obj: p.source, field: 'url', label: p.source.nom || '?' });
+    }
+    refs.push(...collectSourceRefs(data.analyse_approfondie.sources));
+  }
+
+  if (data.chiffre_du_jour?.source_url) {
+    refs.push({ obj: data.chiffre_du_jour, field: 'source_url', label: data.chiffre_du_jour.source || '?' });
+  }
+
+  return validateRefs(refs, urlIndex);
+}
+
+export async function validateIAUrls(data: any, articles: RawArticle[]): Promise<UrlValidationResult> {
+  const urlIndex = buildUrlIndex(articles);
+  const refs: UrlRef[] = [];
+
+  for (const fait of data.faits_ia || []) {
+    refs.push(...collectSourceRefs(fait.sources));
+  }
+
+  if (data.regard_croise_ia) {
+    refs.push(...collectCouvertureRefs(data.regard_croise_ia.couvertures));
+  }
+
+  return validateRefs(refs, urlIndex);
+}
+
+export async function validateFilUrls(data: any, articles: RawArticle[]): Promise<UrlValidationResult> {
+  const urlIndex = buildUrlIndex(articles);
+  const refs: UrlRef[] = [];
+
+  for (const item of data.items || []) {
+    if (item.source_url) refs.push({ obj: item, field: 'source_url', label: item.source || '?' });
+  }
+
+  return validateRefs(refs, urlIndex);
+}
+
+export async function validateSujetsChaudsUrls(data: any, articles: RawArticle[]): Promise<UrlValidationResult> {
+  const urlIndex = buildUrlIndex(articles);
+  const refs: UrlRef[] = [];
+
+  for (const sujet of [...(data.sujets_actifs || []), ...(data.sujets_refroidis || [])]) {
+    refs.push(...collectSourceRefs(sujet.sources));
+    refs.push(...collectCouvertureRefs(sujet.couvertures));
+  }
+
+  return validateRefs(refs, urlIndex);
 }

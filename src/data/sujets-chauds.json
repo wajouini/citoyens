@@ -1,47 +1,94 @@
 {
-  "date": "2026-02-27",
-  "genere_a": "2026-02-27T15:26:24.925Z",
+  "date": "2026-02-28",
+  "genere_a": "2026-02-28T12:38:52.032Z",
   "sujets_actifs": [
     {
-      "titre": "Guerre ouverte entre le Pakistan et l'Afghanistan",
-      "slug": "guerre-ouverte-pakistan-afghanistan",
-      "intensite": "brulant",
+      "titre": "Opération « Fureur épique » : Washington et Israël frappent l'Iran",
+      "slug": "frappes-iran-operation-fureur-epique-trump",
       "rubrique": "international",
-      "resume": "Le Pakistan a officiellement déclaré un état de « guerre ouverte » contre le régime Taliban en Afghanistan après avoir bombardé plusieurs grandes villes, dont la capitale Kaboul. Cette escalade militaire sans précédent fait suite à des mois de tensions frontalières et d'accusations mutuelles de terrorisme. Islamabad justifie ces frappes par la nécessité de neutraliser des groupes militants basés en territoire afghan.",
+      "resume": "Les États-Unis, sous l'impulsion de Donald Trump, et Israël ont lancé une offensive aérienne massive nommée « Fureur épique » contre l'Iran ce samedi 28 février. Visant des sites nucléaires, militaires et les quartiers du Guide Suprême à Téhéran, l'opération vise ouvertement un changement de régime. En riposte, l'Iran a lancé des salves de missiles contre Israël et des bases américaines au Qatar, à Bahreïn et aux Émirats Arabes Unis.",
       "chronologie": [
         {
-          "date": "2026-02-27",
-          "texte": "Le Pakistan bombarde Kaboul et d'autres villes majeures, déclarant officiellement l'état de guerre.",
-          "source": "The Guardian"
-        },
-        {
-          "date": "2026-02-27",
-          "texte": "Le gouvernement pakistanais annonce une augmentation de 20% de ses dépenses militaires.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-02-26",
-          "texte": "Des troupes afghanes attaquent des positions frontalières pakistanaises, déclenchant la riposte aérienne.",
+          "date": "2026-02-28",
+          "texte": "Donald Trump appelle le peuple iranien à « s'emparer du pouvoir » dans une vidéo de 8 minutes.",
           "source": "NYT World"
+        },
+        {
+          "date": "2026-02-28",
+          "texte": "L'Iran confirme des frappes de représailles contre la base navale américaine de la 5e Flotte à Bahreïn.",
+          "source": "BBC News"
+        },
+        {
+          "date": "2026-02-28",
+          "texte": "Explosions signalées à Téhéran, Ispahan et Tabriz ; l'espace aérien est fermé dans 8 pays de la région.",
+          "source": "Al Jazeera"
+        },
+        {
+          "date": "2026-02-28",
+          "texte": "Emmanuel Macron dénonce une escalade « dangereuse pour tous » et appelle à la négociation.",
+          "source": "Libération"
         }
       ],
       "couvertures": [
         {
-          "source": "The New York Times",
+          "source": "NYT World",
           "type": "etranger",
-          "angle": "Analyse des causes profondes liées au soutien présumé des Talibans à des groupes militants.",
+          "angle": "Souligne l'irresponsabilité de Trump qui engage les USA dans une guerre sans consultation du Congrès.",
+          "ton": "critique",
+          "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
+          "citation_cle": "Trump calls for overthrow of government as bombs fall on Tehran.",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "L'Humanité",
+          "type": "mainstream",
+          "angle": "Focus sur la violation du droit international et les conséquences humanitaires immédiates.",
+          "ton": "engage",
+          "url": "https://www.humanite.fr/-/-/le-declenchement-de-la-guerre-entre-les-etats-unis-israel-et-liran-emporte-de-graves-consequences-pour-la-paix-et-la-securite-internationale-selon-emmanuel-macron",
+          "citation_cle": "Le déclenchement de la guerre emporte de graves conséquences pour la paix internationale.",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Couverture en direct des frappes sur les bases américaines dans les pays du Golfe (Qatar, Bahreïn).",
           "ton": "factuel",
-          "url": "https://www.nytimes.com/2026/02/27/world/asia/afghanistan-pakistan-taliban-airstrikes.html",
-          "citation_cle": "La violence renouvelée découle des accusations du Pakistan selon lesquelles le gouvernement taliban abrite un groupe militant.",
+          "url": "https://www.aljazeera.com/news/2026/2/28/multiple-gulf-arab-states-that-host-us-assets-targeted-in-iran-retaliation",
+          "citation_cle": "Multiple Gulf Arab states that host US assets targeted in Iran retaliation.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quel est l'état réel de l'arsenal nucléaire iranien après ces premières vagues ?",
+        "La Chine va-t-elle intervenir si le détroit d'Ormuz est bloqué ?",
+        "Quel est le bilan humain exact à Téhéran et dans les bases du Golfe ?"
+      ],
+      "sources": [
+        {
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/moyen-orient/20260228-iran-israel-etats-unis-frappes-ce-que-l-on-sait-trump-teheran-khamenei",
+          "type": "Public",
           "groupe_media": null
         },
         {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Focus sur la puissance de feu du Pakistan, membre du club des puissances nucléaires.",
-          "ton": "alarmiste",
-          "url": "https://www.bfmtv.com/economie/entreprises/defense/il-fait-partie-des-9-puissances-nucleaires-et-son-armee-est-mieux-classee-que-celle-de-l-iran-ou-israel-le-pakistan-qui-lance-la-guerre-aux-talibans-a-augmente-ses-depenses-militaires-de-20-en-2025_AV-202602270577.html",
-          "citation_cle": "Le Pakistan lance la guerre aux talibans et a augmenté ses dépenses militaires de 20% en 2025.",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-donald-trump-annonce-des-operations-de-combat-majeures-contre-l-iran_VN-202602280212.html",
+          "type": "Privé",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -50,159 +97,47 @@
           }
         }
       ],
-      "ce_quon_ne_sait_pas": [
-        "Quelle sera l'ampleur de la riposte terrestre des Talibans ?",
-        "La Chine ou les États-Unis vont-ils intervenir diplomatiquement pour éviter un embrasement régional ?"
-      ],
-      "sources": [
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/feb/27/pakistan-declares-state-of-open-war-after-bombing-major-afghan-cities",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260227-tensions-pakistan-afghanistan-kaboul-veut-privil%C3%A9gier-le-dialogue",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "premiere_apparition": "2026-02-26"
+      "premiere_apparition": "2026-02-28"
     },
     {
-      "titre": "Mercosur : Bruxelles passe en force malgré l'opposition française",
-      "slug": "mercosur-ue-force-opposition-france",
-      "intensite": "brulant",
-      "rubrique": "economie",
-      "resume": "Ursula von der Leyen a annoncé l'application provisoire de l'accord commercial entre l'UE et les pays du Mercosur, contournant ainsi le blocage de la France. Emmanuel Macron a vivement dénoncé un « choix unilatéral » et une « mauvaise surprise ». Cette décision provoque la colère immédiate des syndicats agricoles français qui parlent de déni de démocratie.",
+      "titre": "Le Conseil d'État classe LFI à l'extrême gauche",
+      "slug": "lfi-classement-extreme-gauche-conseil-etat",
+      "rubrique": "politique",
+      "resume": "Le Conseil d'État a confirmé la classification de La France Insoumise dans le bloc de l'« extrême gauche » pour les prochaines élections municipales. Cette décision valide la grille du ministère de l'Intérieur, tandis que l'UDR est maintenu à l'« extrême droite ». LFI dénonce une manœuvre de diabolisation politique.",
       "chronologie": [
         {
-          "date": "2026-02-27",
-          "texte": "Ursula von der Leyen annonce l'application provisoire de l'accord sans attendre le vote final.",
-          "source": "franceinfo"
-        },
-        {
-          "date": "2026-02-27",
-          "texte": "Emmanuel Macron fustige une décision unilatérale de la Commission européenne.",
+          "date": "2026-02-28",
+          "texte": "Le Conseil d'État rejette le recours de LFI contre son étiquetage politique.",
           "source": "Le Monde"
         },
         {
-          "date": "2026-02-27",
-          "texte": "Les agriculteurs français annoncent de nouvelles actions de protestation.",
-          "source": "Le Monde"
+          "date": "2026-02-28",
+          "texte": "Débat tendu entre Nadège Abomangoli et Sabrina Sebaihi sur la diabolisation de la gauche.",
+          "source": "L'Humanité"
         }
       ],
       "couvertures": [
         {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse de la rupture diplomatique entre Paris et la Commission européenne.",
-          "ton": "critique",
-          "url": "https://www.lemonde.fr/economie/article/2026/02/27/accord-ue-mercosur-emmanuel-macron-denonce-une-mauvaise-suprise-de-la-commission-europeenne-les-agriculteurs-condamnent-un-deni-de-democratie_6668583_3234.html",
-          "citation_cle": "La décision de la Commission d’appliquer de manière provisoire l’accord fait l’unanimité contre elle en France.",
+          "angle": "Analyse juridique de la décision qui fige le paysage politique avant les municipales.",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/politique/article/2026/02/28/le-conseil-d-etat-confirme-la-classification-de-lfi-a-l-extreme-gauche_6668696_823448.html",
+          "citation_cle": "Le Conseil d’Etat confirme la classification de LFI à l’« extrême gauche ».",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "Les Décodeurs",
-          "type": "fact-check",
-          "angle": "Explication pédagogique des étapes juridiques de l'application provisoire.",
-          "ton": "neutre",
-          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/02/27/accord-ue-mercosur-cinq-questions-pour-comprendre-ou-on-en-est_6661184_4355771.html",
-          "citation_cle": "Son entrée en vigueur définitive dépend encore du vote du Parlement européen.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "La France peut-elle encore juridiquement bloquer le traité au Parlement européen ?",
-        "Quelles seront les mesures de rétorsion des agriculteurs français dans les prochains jours ?"
-      ],
-      "sources": [
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/feb/27/russia-europe-nuclear-plant-iaea-southern-ukraine-latest-news-updates",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/economie/commerce/mercosur/l-union-europeenne-va-appliquer-de-facon-provisoire-l-accord-commercial-avec-les-pays-du-mercosur-annonce-ursula-von-der-leyen_7833557.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-02-27"
-    },
-    {
-      "titre": "Cyberattaque Cegedim : 15 millions de dossiers médicaux piratés",
-      "slug": "cyberattaque-cegedim-sante-donnees-medicales",
-      "intensite": "intense",
-      "rubrique": "societe",
-      "resume": "Une faille massive dans le logiciel médical de la société Cegedim Santé a permis le vol des données personnelles et médicales de 15 millions de Français. Environ 1 500 comptes de médecins ont été compromis, exposant non seulement l'identité des patients mais aussi des commentaires cliniques confidentiels. Le parquet de Paris a ouvert une enquête.",
-      "chronologie": [
-        {
-          "date": "2026-02-27",
-          "texte": "Le parquet de Paris confirme l'ouverture d'une enquête confiée à la Brigade de lutte contre la cybercriminalité.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-02-27",
-          "texte": "La CNIL indique qu'elle ne peut pas encore confirmer officiellement le nombre total de victimes.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-02-26",
-          "texte": "Révélation de l'intrusion dans le logiciel utilisé par 1 500 médecins.",
-          "source": "franceinfo"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Libération",
-          "type": "mainstream",
-          "angle": "Focus sur les risques à long terme pour les patients dont les données sont désormais « dans la nature ».",
-          "ton": "alarmiste",
-          "url": "https://www.liberation.fr/societe/sante/fuite-massive-de-donnees-medicales-cela-aura-des-consequences-irremediables-20260227_5HHXXNKTDFATTKA3KZ4MHFL2MU/",
-          "citation_cle": "Cela aura des conséquences irrémédiables.",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
           }
         },
         {
           "source": "L'Humanité",
           "type": "mainstream",
-          "angle": "Mise en cause de la sécurité des prestataires privés de santé.",
-          "ton": "critique",
-          "url": "https://www.humanite.fr/societe/piratage-informatique/cyberattaque-dans-la-sante-une-enquete-ouverte-apres-le-piratage-des-donnees-administratives-de-15-millions-de-francais",
-          "citation_cle": "Le piratage des comptes de 1 500 médecins a fait fuiter les données de quinze millions de Français.",
+          "angle": "Dénonce une volonté de mettre sur un pied d'égalité la gauche radicale et l'extrême droite néofasciste.",
+          "ton": "engage",
+          "url": "https://www.humanite.fr/politique/extreme-droite/sortir-de-la-diabolisation-de-la-gauche-n-abomangoli-lfi-face-a-s-sebaihi-eelv-lhumatch",
+          "citation_cle": "Sortir de la diabolisation de la gauche.",
           "groupe_media": {
             "nom": "L'Humanité",
             "proprietaire": "Société des lecteurs et salariés",
@@ -212,130 +147,130 @@
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Les données ont-elles déjà été revendues sur le dark web ?",
-        "Y aura-t-il une action de groupe (class action) contre Cegedim pour défaut de sécurisation ?"
+        "Quel impact cet étiquetage aura-t-il sur les alliances de second tour aux municipales ?",
+        "Le Nouveau Front Populaire peut-il survivre à cette différenciation administrative ?"
       ],
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/quinze-millions-de-patients-concernes-1-500-medecins-vises-une-enquete-ouverte-ce-que-l-on-sait-de-la-cyberattaque-qui-a-cible-un-logiciel-medical_7833611.html",
-          "type": "mainstream",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr",
+          "type": "Privé",
           "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/2026/02/27/manomano_breach/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         }
       ],
-      "premiere_apparition": "2026-02-26"
+      "premiere_apparition": "2026-02-28"
     },
     {
-      "titre": "OpenAI : Levée de fonds historique de 110 milliards de dollars",
-      "slug": "openai-levee-fonds-record-amazon-nvidia",
-      "intensite": "en_montee",
-      "rubrique": "ia",
-      "resume": "OpenAI a pulvérisé les records avec un nouveau tour de table de 110 milliards de dollars, portant sa valorisation à 730 milliards. Amazon injecte à lui seul 50 milliards, suivi par Nvidia et Softbank (30 milliards chacun). Ces fonds colossaux visent à financer le développement de modèles d'IA toujours plus gourmands en ressources de calcul.",
+      "titre": "Tête de porc chez Christian Estrosi : enquête pour haine religieuse",
+      "slug": "estrosi-nice-tete-de-porc-enquete",
+      "rubrique": "societe",
+      "resume": "Une tête de porc accompagnée d'une affiche antisémite à l'effigie du maire de Nice, Christian Estrosi, a été découverte devant son domicile. Le parquet de Nice a ouvert une enquête pour menaces envers une personne dépositaire de l'autorité publique et provocation à la haine religieuse.",
       "chronologie": [
         {
-          "date": "2026-02-27",
-          "texte": "OpenAI officialise la clôture de la levée de fonds avec Amazon, Nvidia et Softbank.",
-          "source": "Next"
+          "date": "2026-02-28",
+          "texte": "Le parquet de Nice confirme l'ouverture d'une enquête pour provocation à la haine.",
+          "source": "franceinfo"
         },
         {
-          "date": "2026-02-27",
-          "texte": "La valorisation de l'entreprise est estimée à 730 milliards de dollars.",
-          "source": "TechCrunch"
+          "date": "2026-02-28",
+          "texte": "Découverte de la tête de porc et d'une étoile de David sur le portail du maire.",
+          "source": "BFM TV"
         }
       ],
       "couvertures": [
         {
-          "source": "TechCrunch",
-          "type": "etranger",
-          "angle": "Analyse de l'impact sur le marché des capitaux privés et la domination d'OpenAI.",
-          "ton": "factuel",
-          "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
-          "citation_cle": "L'une des plus grandes levées de fonds privées de l'histoire.",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "Next",
-          "type": "investigation",
-          "angle": "Focus sur le report de l'introduction en bourse (IPO) au profit de financements privés.",
-          "ton": "neutre",
-          "url": "https://next.ink/226743/openai-leve-110-milliards-de-dollars-aupres-damazon-softbank-et-nvidia/",
-          "citation_cle": "La bourse attendra : OpenAI a dévoilé vendredi les modalités d’un nouveau tour de table record.",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Quelles contreparties technologiques Amazon et Nvidia ont-ils obtenues ?",
-        "Cette concentration de capital va-t-elle attirer l'attention des autorités antitrust ?"
-      ],
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/885958/openai-amazon-nvidia-softback-110-billion-investment",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/economie/entreprises/un-tour-de-table-qui-porte-la-valorisation-de-l-entreprise-a-730-milliards-de-dollars-open-ai-annonce-une-levee-de-fonds-record-de-110-milliards-de-dollars-dont-50-milliards-d-amazon_AD-202602270569.html",
+          "source": "BFM TV",
           "type": "mainstream",
+          "angle": "Focus sur le caractère antisémite de l'acte et la protection des élus.",
+          "ton": "alarmiste",
+          "url": "https://www.bfmtv.com/cote-d-azur/une-tete-de-porc-accrochee-sur-le-portail-du-domicile-de-christian-estrosi-a-nice-une-enquete-ouverte-par-le-parquet_AN-202602280182.html",
+          "citation_cle": "Une affiche à l'effigie de Christian Estrosi sur laquelle figure une étoile de David.",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
+        },
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Rapport factuel sur les faits et les chefs d'accusation retenus par le parquet.",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/politique/article/2026/02/28/une-tete-de-porc-decouverte-sur-le-portail-du-domicile-du-maire-de-nice-christian-estrosi-une-enquete-ouverte_6668696_823448.html",
+          "citation_cle": "Une enquête a été ouverte pour menaces et outrage.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         }
       ],
-      "premiere_apparition": "2026-02-27"
+      "ce_quon_ne_sait_pas": [
+        "L'acte est-il lié à la mouvance néonazie locale mentionnée par la préfecture du Rhône ?",
+        "Y a-t-il des images de vidéosurveillance exploitables ?"
+      ],
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/nice/une-tete-de-cochon-et-une-affiche-antisemite-decouvertes-devant-le-domicile-de-christian-estrosi-a-nice_7836746.html",
+          "type": "Public",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-02-28"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "César 2026",
-      "slug": "cesar-2026-sacre-attachement",
-      "derniere_mise_a_jour": "2026-02-27",
-      "statut": "La cérémonie est terminée, le palmarès est désormais figé."
-    },
-    {
-      "titre": "Bénéfices records de la SNCF",
-      "slug": "sncf-benefice-record-2025",
-      "derniere_mise_a_jour": "2026-02-26",
-      "statut": "L'annonce financière a été traitée et l'actualité se déplace vers les enjeux sociaux du printemps."
+      "titre": "Guerre ouverte entre le Pakistan et l'Afghanistan",
+      "slug": "guerre-pakistan-afghanistan-frontiere",
+      "rubrique": "international",
+      "resume": "Après plusieurs jours d'affrontements intenses à la frontière, la situation semble se stabiliser au profit d'une guerre de positions, bien que les tensions restent vives.",
+      "chronologie": [
+        {
+          "date": "2026-02-26",
+          "texte": "Déclenchement des hostilités majeures à la frontière.",
+          "source": "France 24"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "RFI",
+          "type": "mainstream",
+          "angle": "Analyse des répercussions régionales du conflit.",
+          "ton": "factuel",
+          "url": "https://www.rfi.fr",
+          "citation_cle": "Une déstabilisation majeure de l'Asie centrale."
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quel est le nombre réel de victimes civiles dans les zones tribales ?"
+      ],
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr",
+          "type": "Public"
+        }
+      ],
+      "derniere_mise_a_jour": "2026-02-28",
+      "statut": "Le sujet est éclipsé par le conflit en Iran mais reste une zone de crise active."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 532,
+    "nb_articles_analyses": 490,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

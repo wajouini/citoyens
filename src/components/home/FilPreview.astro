@@ -4,9 +4,10 @@ import MediaOwnerBadge from './MediaOwnerBadge.astro';
 interface Props {
   items: any[];
   generatedAt?: string;
+  filDate?: string;
 }
 
-const { items, generatedAt } = Astro.props;
+const { items, generatedAt, filDate } = Astro.props;
 
 const rubriqueStyle: Record<string, { label: string; color: string }> = {
   politique: { label: 'Politique', color: 'text-bleu-rep' },
@@ -18,6 +19,10 @@ const rubriqueStyle: Record<string, { label: string; color: string }> = {
   international: { label: 'International', color: 'text-sky-700' },
   ia: { label: 'IA', color: 'text-indigo-700' },
 };
+
+const filDateFormatted = filDate
+  ? new Date(filDate + 'T00:00:00').toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' })
+  : null;
 ---
 
 <section class="mb-8" id="fil-preview">
@@ -40,6 +45,12 @@ const rubriqueStyle: Record<string, { label: string; color: string }> = {
       </a>
     </div>
   </div>
+
+  {filDate && (
+    <div class="hidden font-mono text-[10px] text-orange bg-orange/10 rounded-lg px-3 py-1.5 mb-3 text-center" id="fil-date-banner" data-fil-date={filDate}>
+      Édition du {filDateFormatted}
+    </div>
+  )}
 
   <div class="flex flex-col gap-0 border border-gris-chaud rounded-lg overflow-hidden bg-blanc" id="fil-items">
     {items.slice(0, 6).map((item: any) => {
@@ -67,3 +78,16 @@ const rubriqueStyle: Record<string, { label: string; color: string }> = {
     })}
   </div>
 </section>
+
+<script>
+  const banner = document.getElementById('fil-date-banner');
+  if (banner) {
+    const filDate = banner.getAttribute('data-fil-date');
+    if (filDate) {
+      const today = new Date().toISOString().slice(0, 10);
+      if (filDate !== today) {
+        banner.classList.remove('hidden');
+      }
+    }
+  }
+</script>

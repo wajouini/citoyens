@@ -1,0 +1,64 @@
+---
+interface Props {
+  text: string;
+  sources?: { nom: string; url?: string | null }[];
+}
+
+const { text, sources = [] } = Astro.props;
+
+const sourceMap = new Map<string, string>();
+for (const s of sources) {
+  if (s.url) sourceMap.set(s.nom.toLowerCase(), s.url);
+}
+
+// Split text on parenthetical citation groups like (RFI) or (BFM TV, Libération)
+const parts: { type: 'text' | 'linked' | 'unlinked'; value: string; url?: string }[] = [];
+const citationRegex = /\(([^)]+)\)/g;
+let lastIndex = 0;
+let match: RegExpExecArray | null;
+
+while ((match = citationRegex.exec(text)) !== null) {
+  if (match.index > lastIndex) {
+    parts.push({ type: 'text', value: text.slice(lastIndex, match.index) });
+  }
+
+  const inner = match[1];
+  const names = inner.split(/,\s*/);
+  const linkedNames: { name: string; url?: string }[] = names.map(name => {
+    const url = sourceMap.get(name.trim().toLowerCase());
+    return { name: name.trim(), url };
+  });
+
+  const hasAnyLink = linkedNames.some(n => n.url);
+  if (hasAnyLink) {
+    parts.push({ type: 'text', value: '(' });
+    linkedNames.forEach((n, i) => {
+      if (n.url) {
+        parts.push({ type: 'linked', value: n.name, url: n.url });
+      } else {
+        parts.push({ type: 'unlinked', value: n.name });
+      }
+      if (i < linkedNames.length - 1) {
+        parts.push({ type: 'text', value: ', ' });
+      }
+    });
+    parts.push({ type: 'text', value: ')' });
+  } else {
+    parts.push({ type: 'text', value: match[0] });
+  }
+
+  lastIndex = match.index + match[0].length;
+}
+
+if (lastIndex < text.length) {
+  parts.push({ type: 'text', value: text.slice(lastIndex) });
+}
+---
+
+<Fragment>
+  {parts.map(p =>
+    p.type === 'linked'
+      ? <a href={p.url} target="_blank" rel="noopener noreferrer" class="text-bleu-rep no-underline hover:underline font-medium">{p.value}</a>
+      : <Fragment>{p.value}</Fragment>
+  )}
+</Fragment>

@@ -8,6 +8,7 @@ import IAPreview from '../components/home/IAPreview.astro';
 import SoirTeaser from '../components/home/SoirTeaser.astro';
 import MediaOwnerBadge from '../components/home/MediaOwnerBadge.astro';
 import SourceLinks from '../components/ui/SourceLinks.astro';
+import LinkedText from '../components/ui/LinkedText.astro';
 
 const uneData = await import('../data/une.json').then(m => m.default).catch(() => null);
 const filData = await import('../data/fil.json').then(m => m.default).catch(() => null);
@@ -27,6 +28,7 @@ const meta = uneData?.meta;
 const hasFranceMonde = france.length > 0 || monde.length > 0;
 
 const sujetsActifs = sujetsChaudsData?.sujets_actifs || [];
+const sujetsRefroidis = sujetsChaudsData?.sujets_refroidis || [];
 const filItems = filData?.items || [];
 const faitsIA = iaData?.faits_ia || [];
 
@@ -101,7 +103,7 @@ if (sujet) {
   <Header />
 
   {/* ── EN DIRECT / SUJETS CHAUDS ── */}
-  <SujetsChaudsBanner sujets={sujetsActifs} />
+  <SujetsChaudsBanner sujets={sujetsActifs} sujetsRefroidis={sujetsRefroidis} />
 
   <main class="max-w-[1280px] mx-auto px-4 md:px-6 py-6 md:py-10">
     <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
@@ -139,60 +141,18 @@ if (sujet) {
               {sujet.faits.map((fait: string) => (
                 <li class="flex items-start gap-2 text-[15px] text-noir leading-relaxed">
                   <span class="text-bleu-rep mt-1 shrink-0 font-bold">•</span>
-                  <span>{fait}</span>
+                  <span><LinkedText text={fait} sources={sujet.sources} /></span>
                 </li>
               ))}
             </ul>
           )}
           <p class="text-[15px] leading-relaxed text-gris-texte mb-4">
-            {sujet.contexte}
+            <LinkedText text={sujet.contexte || ''} sources={sujet.sources} />
           </p>
           {sujet.sources?.length > 0 && (
             <SourceLinks sources={sujet.sources} />
           )}
         </section>
-      )}
-
-      {/* ── SOMMAIRE DE L'ÉDITION ── */}
-      {uneData && (
-        <nav class="grid grid-cols-2 md:grid-cols-4 gap-2.5 mb-8 border border-gris-chaud rounded-xl p-3 bg-blanc">
-          {france.length > 0 && (
-            <a href="#section-france" class="flex items-center gap-2 px-3 py-2.5 rounded-lg bg-bleu-clair/40 hover:bg-bleu-clair transition-colors no-underline group">
-              <span class="text-base">🇫🇷</span>
-              <div>
-                <div class="font-mono text-[10px] font-bold text-bleu-rep uppercase tracking-wider group-hover:underline">France</div>
-                <div class="text-[11px] text-gris-texte">{france.length} sujet{france.length > 1 ? 's' : ''}</div>
-              </div>
-            </a>
-          )}
-          {monde.length > 0 && (
-            <a href="#section-monde" class="flex items-center gap-2 px-3 py-2.5 rounded-lg bg-sky-50/60 hover:bg-sky-50 transition-colors no-underline group">
-              <span class="text-base">🌍</span>
-              <div>
-                <div class="font-mono text-[10px] font-bold text-sky-700 uppercase tracking-wider group-hover:underline">Monde</div>
-                <div class="text-[11px] text-gris-texte">{monde.length} sujet{monde.length > 1 ? 's' : ''}</div>
-              </div>
-            </a>
-          )}
-          {faitsIA.length > 0 && (
-            <a href="/ia" class="flex items-center gap-2 px-3 py-2.5 rounded-lg bg-indigo-50/60 hover:bg-indigo-50 transition-colors no-underline group">
-              <span class="text-base">🤖</span>
-              <div>
-                <div class="font-mono text-[10px] font-bold text-indigo-700 uppercase tracking-wider group-hover:underline">IA & Tech</div>
-                <div class="text-[11px] text-gris-texte">{faitsIA.length} actu{faitsIA.length > 1 ? 's' : ''}</div>
-              </div>
-            </a>
-          )}
-          {regardCroise && (
-            <a href="#section-regard-croise" class="flex items-center gap-2 px-3 py-2.5 rounded-lg bg-red-50/60 hover:bg-red-50 transition-colors no-underline group">
-              <span class="text-base">🔍</span>
-              <div>
-                <div class="font-mono text-[10px] font-bold text-rouge-doux uppercase tracking-wider group-hover:underline">Regard croisé</div>
-                <div class="text-[11px] text-gris-texte line-clamp-1">{regardCroise.sujet?.slice(0, 30)}{regardCroise.sujet?.length > 30 ? '...' : ''}</div>
-              </div>
-            </a>
-          )}
-        </nav>
       )}
 
       {/* ── DIVIDER ── */}
@@ -220,7 +180,7 @@ if (sujet) {
                       <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-1">
                         {item.titre}
                       </h3>
-                      <p class="text-[14px] text-gris-texte leading-relaxed mb-2">{item.resume}</p>
+                      <p class="text-[14px] text-gris-texte leading-relaxed mb-2"><LinkedText text={item.resume || ''} sources={item.sources} /></p>
                       {item.sources?.length > 0 && (
                         <SourceLinks sources={item.sources} compact={true} />
                       )}
@@ -249,7 +209,7 @@ if (sujet) {
                     <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-1">
                       {item.titre}
                     </h3>
-                    <p class="text-[14px] text-gris-texte leading-relaxed mb-2">{item.resume}</p>
+                    <p class="text-[14px] text-gris-texte leading-relaxed mb-2"><LinkedText text={item.resume || ''} sources={item.sources} /></p>
                     {item.sources?.length > 0 && (
                       <SourceLinks sources={item.sources} compact={true} />
                     )}
@@ -454,7 +414,7 @@ if (sujet) {
       <aside class="w-full lg:w-[35%] xl:w-[30%] lg:sticky lg:top-24 self-start space-y-8">
         {/* ── 2. FIL CONTINU PREVIEW ── */}
         {filItems.length > 0 && (
-          <FilPreview items={filItems} generatedAt={filData?.genere_a} />
+          <FilPreview items={filItems} generatedAt={filData?.genere_a} filDate={filData?.date} />
         )}
       </aside>
 

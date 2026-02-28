@@ -96,6 +96,11 @@ const steps: Step[] = [
     critical: false,
   },
   {
+    name: 'Vérification des citations inline',
+    command: 'npx tsx scripts/verify-citations.ts',
+    critical: false,
+  },
+  {
     name: 'Build du site',
     command: 'npm run build',
     critical: true,

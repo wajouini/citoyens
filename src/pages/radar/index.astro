@@ -6,7 +6,8 @@ import Footer from '../../components/layout/Footer.astro';
 const sujetsData = await import('../../data/sujets-chauds.json').then(m => m.default).catch(() => null);
 
 const sujetsActifs = sujetsData?.sujets_actifs || [];
-const sujetsRefroidis = sujetsData?.sujets_refroidis || [];
+const sujetsRefroidis = (sujetsData?.sujets_refroidis || []).filter((s: any) => s.resume);
+const allSujets = [...sujetsActifs, ...sujetsRefroidis];
 
 const formatDate = (dateStr: string) => {
   const d = new Date(dateStr + 'T00:00:00');
@@ -20,12 +21,6 @@ const formatDateShort = (dateStr: string) => {
   } catch { return dateStr; }
 };
 
-const intensiteBadge: Record<string, { label: string; cls: string; icon: string; accent: string }> = {
-  brulant: { label: 'Brûlant', cls: 'bg-rouge-doux text-white', icon: '🔥', accent: 'border-rouge-doux' },
-  intense: { label: 'Intense', cls: 'bg-orange text-white', icon: '⚡', accent: 'border-orange' },
-  en_montee: { label: 'En montée', cls: 'bg-amber-500 text-white', icon: '📈', accent: 'border-amber-500' },
-};
-
 const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
   politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair' },
   economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10' },
@@ -37,7 +32,7 @@ const rubriqueStyle: Record<string, { label: string; color: string; bg: string }
   ia: { label: 'IA', color: 'text-indigo-700', bg: 'bg-indigo-50' },
 };
 
-const jsonLd = sujetsActifs.length > 0 ? {
+const jsonLd = allSujets.length > 0 ? {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
   name: 'Radar — Citoyens.ai',
@@ -67,25 +62,22 @@ const jsonLd = sujetsActifs.length > 0 ? {
           </p>
         </div>
 
-        {/* ── SUJETS ACTIFS ── */}
+        {/* ── ALL SUJETS ── */}
         <div class="flex flex-col gap-6 mb-16">
-          {sujetsActifs.map((sujet: any) => {
-            const intensite = intensiteBadge[sujet.intensite] || intensiteBadge.intense;
+          {allSujets.map((sujet: any) => {
             const rubrique = rubriqueStyle[sujet.rubrique] || rubriqueStyle.politique;
             const nbSources = (sujet.sources?.length || 0) + (sujet.couvertures?.length || 0);
+            const dateRef = sujet.premiere_apparition || sujet.derniere_mise_a_jour;
             return (
               <a href={`/radar/${sujet.slug}`}
-                 class={`group block bg-blanc border border-gris-chaud border-l-4 ${intensite.accent} rounded-xl p-6 md:p-8 no-underline hover:shadow-lg hover:border-l-4 transition-all`}>
+                 class="group block bg-blanc border border-gris-chaud rounded-xl p-6 md:p-8 no-underline hover:shadow-lg transition-all">
 
                 <div class="flex items-center gap-2 mb-3 flex-wrap">
-                  <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${intensite.cls}`}>
-                    {intensite.icon} {intensite.label}
-                  </span>
                   <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${rubrique.bg} ${rubrique.color}`}>
                     {rubrique.label}
                   </span>
                   <span class="font-mono text-[9px] text-gris-clair ml-auto">
-                    {nbSources} sources · depuis le {formatDateShort(sujet.premiere_apparition)}
+                    {nbSources} sources{dateRef ? ` · depuis le ${formatDateShort(dateRef)}` : ''}
                   </span>
                 </div>
 
@@ -112,29 +104,6 @@ const jsonLd = sujetsActifs.length > 0 ? {
             );
           })}
         </div>
-
-        {/* ── SUJETS REFROIDIS ── */}
-        {sujetsRefroidis.length > 0 && (
-          <section class="mb-12">
-            <div class="h-px bg-gris-chaud mb-10"></div>
-            <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair mb-6">
-              Retombés du radar
-            </h2>
-            <div class="flex flex-col gap-3">
-              {sujetsRefroidis.map((s: any) => (
-                <div class="py-4 border-b border-gris-chaud/50 last:border-0">
-                  <div class="flex items-center gap-3 mb-1">
-                    <span class="font-display text-[16px] font-bold text-gris-texte">{s.titre}</span>
-                    <span class="font-mono text-[10px] text-gris-clair ml-auto shrink-0">
-                      {formatDateShort(s.derniere_mise_a_jour)}
-                    </span>
-                  </div>
-                  <p class="text-[14px] text-gris-clair leading-relaxed">{s.statut}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
 
         {/* ── Meta ── */}
         {sujetsData.meta && (

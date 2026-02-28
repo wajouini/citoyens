@@ -10,6 +10,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { FilSchema } from './schemas/fil.schema.js';
 import { resolveConfig, callLLMWithRetry } from './llm-client.js';
+import { validateFilUrls } from './validate-urls.js';
 import type { RawArticle } from './fetch-news.js';
 
 const PIPELINE_VERSION = '3.0.0';
@@ -54,6 +55,8 @@ Zéro analyse, zéro opinion — uniquement les faits.
 - Couvrir des rubriques variées
 - Ne pas répéter un même fait sous différents angles
 - Utiliser UNIQUEMENT les URLs fournies dans les articles
+- Le champ "source" de chaque item DOIT correspondre au nom exact du média dont provient l'URL dans "source_url"
+- N'invente JAMAIS une URL ou un nom de source
 - Retourne UNIQUEMENT le JSON`;
 
 function extractJson(text: string): string {
@@ -202,6 +205,14 @@ Génère 5-8 mises à jour factuelles pour le fil continu.`;
     for (const issue of validation.error.issues) {
       console.warn(`  - ${issue.path.join('.')}: ${issue.message}`);
     }
+  }
+
+  // Validate URLs against RSS feed
+  console.log('\n[fil] Validating URLs...');
+  const urlResult = await validateFilUrls(filData, articles);
+  console.log(`  URLs: ${urlResult.total} total, ${urlResult.valid_rss} RSS, ${urlResult.valid_http} HTTP, ${urlResult.removed} removed`);
+  if (urlResult.details.length > 0) {
+    for (const d of urlResult.details) console.log(`    ✗ ${d}`);
   }
 
   // Write

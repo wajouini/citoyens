@@ -17,6 +17,7 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { IASchema } from './schemas/ia.schema.js';
 import { resolveConfig, callLLMWithRetry } from './llm-client.js';
+import { validateIAUrls } from './validate-urls.js';
 import type { RawArticle } from './fetch-news.js';
 import type { TopicsData, Topic } from './cluster-topics.js';
 
@@ -77,6 +78,11 @@ Chaque fait doit être classé dans UNE sous-section :
 - Détecter les doubles standards dans la couverture de l'IA
 - MULTI-SOURCES : pour chaque fait, cite TOUTES les sources disponibles (2-3 minimum quand elles existent)
 - Utilise UNIQUEMENT les URLs fournies dans les articles
+
+### RÈGLE CRITIQUE SUR LES CITATIONS INLINE
+Quand tu cites une source entre parenthèses dans le texte (ex: "(TechCrunch)" ou "(Reuters, Wired)"),
+cette source DOIT être présente dans le tableau "sources" associé au fait avec son URL.
+Ne cite JAMAIS un nom de source dans le texte sans l'inclure dans le tableau sources.
 
 ## Format de sortie JSON
 
@@ -369,6 +375,14 @@ IMPORTANT : cite TOUTES les sources disponibles pour chaque sujet (pas juste 1 l
     for (const issue of validation.error.issues) {
       console.warn(`  - ${issue.path.join('.')}: ${issue.message}`);
     }
+  }
+
+  // Validate URLs against RSS feed
+  console.log('\n[ia] Validating URLs...');
+  const urlResult = await validateIAUrls(iaData, articles);
+  console.log(`  URLs: ${urlResult.total} total, ${urlResult.valid_rss} RSS, ${urlResult.valid_http} HTTP, ${urlResult.removed} removed`);
+  if (urlResult.details.length > 0) {
+    for (const d of urlResult.details) console.log(`    ✗ ${d}`);
   }
 
   // Write

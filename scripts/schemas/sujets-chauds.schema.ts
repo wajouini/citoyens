@@ -41,7 +41,7 @@ const CouvertureChaudSchema = z.object({
 const SujetChaudSchema = z.object({
   titre: z.string().min(10),
   slug: z.string().regex(/^[a-z0-9-]+$/),
-  intensite: IntensiteEnum,
+  intensite: IntensiteEnum.optional(),
   rubrique: RubriqueEnum,
   resume: z.string().min(30),
   chronologie: z.array(FaitChronoSchema).min(2).max(6),
@@ -54,6 +54,12 @@ const SujetChaudSchema = z.object({
 const SujetRefroidiSchema = z.object({
   titre: z.string(),
   slug: z.string(),
+  rubrique: RubriqueEnum.optional(),
+  resume: z.string().optional(),
+  chronologie: z.array(FaitChronoSchema).optional(),
+  couvertures: z.array(CouvertureChaudSchema).optional(),
+  ce_quon_ne_sait_pas: z.array(z.string()).optional(),
+  sources: z.array(SourceRefSchema).optional(),
   derniere_mise_a_jour: z.string(),
   statut: z.string(),
 });
