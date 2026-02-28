@@ -4,47 +4,67 @@ import type { NextRequest } from 'next/server';
 const PUBLIC_PATHS = ['/login', '/_next/', '/favicon'];
 const BEARER_AUTH_PATHS = ['/api/pipeline/report', '/api/feeds', '/api/health'];
 
-export function middleware(request: NextRequest) {
+/**
+ * Simple hash compatible with Edge Runtime (no Node crypto).
+ * Must produce the same output as auth.ts's generateSessionToken.
+ */
+async function computeExpectedToken(password: string): Promise<string> {
+  const salt = process.env.SESSION_SALT || 'citoyens-admin-default-salt';
+  const data = new TextEncoder().encode(`${salt}:${password}`);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  return hashHex.slice(0, 48);
+}
+
+export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  if (
-    PUBLIC_PATHS.some((p) => pathname === p || pathname.startsWith(p))
-  ) {
-    return NextResponse.next();
+  if (PUBLIC_PATHS.some((p) => pathname === p || pathname.startsWith(p))) {
+    return addSecurityHeaders(NextResponse.next());
   }
 
-  // Routes that authenticate via Bearer token — skip session check
+  // Bearer token routes
   if (BEARER_AUTH_PATHS.some((p) => pathname.startsWith(p))) {
-    return NextResponse.next();
+    const apiKey = process.env.ADMIN_API_KEY;
+    if (apiKey) {
+      const authHeader = request.headers.get('authorization');
+      const token = authHeader?.replace('Bearer ', '');
+      if (token && token !== apiKey) {
+        return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+      }
+    }
+    return addSecurityHeaders(NextResponse.next());
   }
 
-  // If ADMIN_PASSWORD is not set, skip auth
+  // If no password set, skip auth
   const adminPassword = process.env.ADMIN_PASSWORD;
   if (!adminPassword) {
-    return NextResponse.next();
+    return addSecurityHeaders(NextResponse.next());
   }
 
-  // Check session cookie
   const session = request.cookies.get('admin_session');
+  const expectedToken = await computeExpectedToken(adminPassword);
 
-  // Compute expected token (same logic as auth.ts)
-  let hash = 0;
-  const str = `citoyens-admin-${adminPassword}`;
-  for (let i = 0; i < str.length; i++) {
-    const char = str.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
-    hash |= 0;
-  }
-  const expectedToken = `s_${Math.abs(hash).toString(36)}`;
-
-  if (session?.value !== expectedToken) {
+  if (!session?.value || session.value !== expectedToken) {
     if (pathname.startsWith('/api/')) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
     return NextResponse.redirect(new URL('/login', request.url));
   }
 
-  return NextResponse.next();
+  return addSecurityHeaders(NextResponse.next());
+}
+
+function addSecurityHeaders(response: NextResponse): NextResponse {
+  response.headers.set('X-Content-Type-Options', 'nosniff');
+  response.headers.set('X-Frame-Options', 'DENY');
+  response.headers.set('X-XSS-Protection', '1; mode=block');
+  response.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin');
+  if (process.env.NODE_ENV === 'production') {
+    response.headers.set('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
+  }
+  return response;
 }
 
 export const config = {

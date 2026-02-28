@@ -1,48 +1,25 @@
 ---
+/**
+ * Static status page — minimal public dashboard.
+ * Full admin interface is at the Next.js app (npm run dev in /admin).
+ * This page shows a read-only summary for quick reference.
+ */
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import uneData from '../../data/une.json';
 
-// Load runs — gracefully handle missing file
 let runs: any[] = [];
 try {
   const runsModule = await import('../../data/.pipeline/runs.json');
   runs = Array.isArray(runsModule.default) ? runsModule.default : [];
 } catch { /* no runs yet */ }
 
-// Load raw articles count
-let rawArticles: any[] = [];
-try {
-  const rawModule = await import('../../data/.pipeline/raw-articles.json');
-  rawArticles = Array.isArray(rawModule.default) ? rawModule.default : [];
-} catch { /* no raw articles */ }
-
-// Compute KPIs
 const lastRun = runs.length > 0 ? runs[runs.length - 1] : null;
 const successRuns = runs.filter(r => r.status === 'success').length;
-const failedRuns = runs.filter(r => r.status === 'failed').length;
 const totalRuns = runs.length;
-const avgDuration = totalRuns > 0
-  ? (runs.reduce((s: number, r: any) => s + (r.duration_s || 0), 0) / totalRuns).toFixed(0)
-  : '—';
 const successRate = totalRuns > 0 ? Math.round((successRuns / totalRuns) * 100) : 0;
 
-// Une data
 const uneDate = (uneData as any).date || '—';
 const uneTitre = (uneData as any).titre_une || '—';
-const faitsCount = (uneData as any).faits_du_jour?.length || (uneData as any).faits_semaine?.length || 0;
-const regardsCroisesCount = (uneData as any).regards_croises?.length || 0;
-const regardEtrangerCount = (uneData as any).regard_etranger?.length || 0;
-const meta = (uneData as any).meta || null;
-
-// Raw articles breakdown
-const byType: Record<string, number> = {};
-for (const a of rawArticles) {
-  byType[a.type] = (byType[a.type] || 0) + 1;
-}
-const uniqueSources = new Set(rawArticles.map((a: any) => a.source)).size;
-
-// Recent runs (last 10, newest first)
-const recentRuns = [...runs].reverse().slice(0, 10);
 
 const formatDate = (iso: string) => {
   try {
@@ -52,270 +29,76 @@ const formatDate = (iso: string) => {
     });
   } catch { return iso; }
 };
+
+const ADMIN_URL = import.meta.env.PUBLIC_ADMIN_URL || 'http://localhost:3000';
 ---
 
-<BaseLayout title="Admin — Pipeline" description="Dashboard d'administration du pipeline Citoyens.ai">
-  <!-- Minimal admin header -->
+<BaseLayout title="Statut — Citoyens.ai" description="Statut du pipeline Citoyens.ai">
   <div class="bg-noir text-white py-2 text-[11px] tracking-wider uppercase font-medium">
     <div class="max-w-[1400px] mx-auto px-6 flex justify-between items-center">
       <div class="flex items-center gap-3">
         <a href="/" class="text-white no-underline font-display text-lg font-black">citoyens<span class="text-bleu-clair">.ai</span></a>
         <span class="opacity-40">|</span>
-        <span class="text-orange font-mono">Admin Pipeline</span>
+        <span class="text-orange font-mono">Statut Pipeline</span>
       </div>
       <div class="flex items-center gap-4">
-        <span class="opacity-60">Build : {new Date().toLocaleDateString('fr-FR')}</span>
+        <a href={ADMIN_URL} class="text-bleu-clair no-underline hover:underline font-mono text-[12px]">Ouvrir l'admin complet →</a>
         <a href="/" class="text-bleu-clair no-underline hover:underline">← Retour au site</a>
       </div>
     </div>
   </div>
 
   <main class="bg-creme min-h-screen">
-    <div class="max-w-[1400px] mx-auto px-6 py-8">
-
-      <!-- Page title -->
-      <div class="mb-8">
-        <h1 class="font-display text-[36px] font-black text-noir tracking-tight">Pipeline Dashboard</h1>
-        <p class="text-gris-texte text-[14px] mt-1">Suivi des exécutions, KPIs et état des données</p>
+    <div class="max-w-[800px] mx-auto px-6 py-12">
+      <div class="text-center mb-10">
+        <h1 class="font-display text-[28px] font-black text-noir tracking-tight">Statut du pipeline</h1>
+        <p class="text-gris-texte text-[14px] mt-2">
+          Vue publique en lecture seule · <a href={ADMIN_URL} class="text-bleu-rep no-underline hover:underline">Accéder à l'admin complet</a>
+        </p>
       </div>
 
-      <!-- ═══ KPI Cards ═══ -->
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-8">
-        <!-- Dernier run -->
-        <div class="bg-blanc rounded-xl border border-gris-chaud p-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+        <div class="bg-blanc rounded-xl border border-gris-chaud p-4 text-center">
           <div class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair mb-2">Dernier run</div>
           {lastRun ? (
-            <div class="flex items-center gap-2">
+            <div class="flex items-center justify-center gap-2">
               <span class={`w-2.5 h-2.5 rounded-full ${lastRun.status === 'success' ? 'bg-vert' : 'bg-rouge-doux'}`}></span>
-              <span class="font-mono text-[15px] font-bold text-noir">
-                {lastRun.status === 'success' ? 'OK' : 'FAIL'}
-              </span>
+              <span class="font-mono text-[15px] font-bold text-noir">{lastRun.status === 'success' ? 'OK' : 'FAIL'}</span>
             </div>
           ) : (
             <span class="font-mono text-[15px] text-gris-clair">Aucun</span>
           )}
-          {lastRun && (
-            <div class="font-mono text-[10px] text-gris-clair mt-1">{formatDate(lastRun.started_at)}</div>
-          )}
+          {lastRun && <div class="font-mono text-[10px] text-gris-clair mt-1">{formatDate(lastRun.started_at)}</div>}
         </div>
-
-        <!-- Total runs -->
-        <div class="bg-blanc rounded-xl border border-gris-chaud p-4">
+        <div class="bg-blanc rounded-xl border border-gris-chaud p-4 text-center">
           <div class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair mb-2">Total runs</div>
-          <div class="font-mono text-[28px] font-bold text-noir leading-none">{totalRuns}</div>
-          <div class="font-mono text-[10px] text-gris-clair mt-1">
-            <span class="text-vert">{successRuns}✓</span> · <span class="text-rouge-doux">{failedRuns}✗</span>
-          </div>
+          <div class="font-mono text-[22px] font-bold text-noir leading-none">{totalRuns}</div>
         </div>
-
-        <!-- Taux de succès -->
-        <div class="bg-blanc rounded-xl border border-gris-chaud p-4">
+        <div class="bg-blanc rounded-xl border border-gris-chaud p-4 text-center">
           <div class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair mb-2">Taux succès</div>
-          <div class={`font-mono text-[28px] font-bold leading-none ${successRate >= 80 ? 'text-vert' : successRate >= 50 ? 'text-orange' : 'text-rouge-doux'}`}>
+          <div class={`font-mono text-[22px] font-bold leading-none ${successRate >= 80 ? 'text-vert' : successRate >= 50 ? 'text-orange' : 'text-rouge-doux'}`}>
             {totalRuns > 0 ? `${successRate}%` : '—'}
           </div>
         </div>
-
-        <!-- Durée moyenne -->
-        <div class="bg-blanc rounded-xl border border-gris-chaud p-4">
-          <div class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair mb-2">Durée moy.</div>
-          <div class="font-mono text-[28px] font-bold text-noir leading-none">{avgDuration}<span class="text-[14px] text-gris-clair">s</span></div>
-        </div>
-
-        <!-- Articles RSS -->
-        <div class="bg-blanc rounded-xl border border-gris-chaud p-4">
-          <div class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair mb-2">Articles RSS</div>
-          <div class="font-mono text-[28px] font-bold text-bleu-rep leading-none">{rawArticles.length}</div>
-          <div class="font-mono text-[10px] text-gris-clair mt-1">{uniqueSources} sources</div>
-        </div>
-
-        <!-- Provider LLM -->
-        <div class="bg-blanc rounded-xl border border-gris-chaud p-4">
-          <div class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair mb-2">LLM</div>
-          <div class="font-mono text-[13px] font-bold text-noir leading-tight">
-            {meta?.modele || '—'}
-          </div>
+        <div class="bg-blanc rounded-xl border border-gris-chaud p-4 text-center">
+          <div class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair mb-2">Édition</div>
+          <div class="font-mono text-[13px] font-bold text-noir leading-tight">{uneDate}</div>
         </div>
       </div>
 
-      <!-- ═══ Two columns ═══ -->
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
-
-        <!-- Left col: Édition actuelle -->
-        <div class="lg:col-span-2">
-          <div class="bg-blanc rounded-xl border border-gris-chaud p-6">
-            <div class="flex items-center justify-between mb-4">
-              <h2 class="font-mono text-[10px] uppercase tracking-[2px] text-noir font-bold">Édition actuelle</h2>
-              <span class="font-mono text-[10px] bg-bleu-clair text-bleu-rep px-2 py-0.5 rounded">{uneDate}</span>
-            </div>
-
-            <h3 class="font-display text-xl font-bold text-noir mb-3">{uneTitre}</h3>
-
-            <div class="grid grid-cols-3 gap-3 mb-4">
-              <div class="bg-creme rounded-lg p-3 text-center">
-                <div class="font-mono text-[22px] font-bold text-noir">{faitsCount}</div>
-                <div class="font-mono text-[9px] uppercase tracking-wider text-gris-clair">Faits du jour</div>
-              </div>
-              <div class="bg-creme rounded-lg p-3 text-center">
-                <div class="font-mono text-[22px] font-bold text-noir">{regardsCroisesCount}</div>
-                <div class="font-mono text-[9px] uppercase tracking-wider text-gris-clair">Regards croisés</div>
-              </div>
-              <div class="bg-creme rounded-lg p-3 text-center">
-                <div class="font-mono text-[22px] font-bold text-noir">{regardEtrangerCount}</div>
-                <div class="font-mono text-[9px] uppercase tracking-wider text-gris-clair">Regard étranger</div>
-              </div>
-            </div>
-
-            {(uneData as any).chiffre_du_jour || (uneData as any).chiffre_semaine ? (
-              <div class="border-t border-gris-chaud pt-3">
-                <span class="font-mono text-[9px] uppercase tracking-wider text-gris-clair">Chiffre du jour</span>
-                <div class="flex items-baseline gap-2 mt-1">
-                  <span class="font-display text-2xl font-black text-bleu-rep">
-                    {((uneData as any).chiffre_du_jour || (uneData as any).chiffre_semaine)?.valeur}
-                  </span>
-                  <span class="text-[12px] text-gris-texte">
-                    {((uneData as any).chiffre_du_jour || (uneData as any).chiffre_semaine)?.source}
-                  </span>
-                </div>
-              </div>
-            ) : null}
-          </div>
+      {uneTitre !== '—' && (
+        <div class="bg-blanc rounded-xl border border-gris-chaud p-6 mb-8">
+          <div class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair mb-2">Dernière édition</div>
+          <h2 class="font-display text-xl font-bold text-noir">{uneTitre}</h2>
         </div>
+      )}
 
-        <!-- Right col: Articles par type -->
-        <div>
-          <div class="bg-blanc rounded-xl border border-gris-chaud p-6">
-            <h2 class="font-mono text-[10px] uppercase tracking-[2px] text-noir font-bold mb-4">Articles par type</h2>
-
-            {rawArticles.length > 0 ? (
-              <div class="space-y-3">
-                {Object.entries({
-                  'Investigation': { key: 'investigation', color: 'bg-orange' },
-                  'Mainstream': { key: 'mainstream', color: 'bg-bleu-rep' },
-                  'Fact-check': { key: 'fact-check', color: 'bg-vert' },
-                  'Étranger': { key: 'etranger', color: 'bg-purple-600' },
-                  'Institutionnel': { key: 'institutionnel', color: 'bg-gris-clair' },
-                }).map(([label, { key, color }]) => {
-                  const count = byType[key] || 0;
-                  const pct = rawArticles.length > 0 ? Math.round((count / rawArticles.length) * 100) : 0;
-                  return (
-                    <div>
-                      <div class="flex items-center justify-between mb-1">
-                        <span class="font-mono text-[11px] font-medium text-noir">{label}</span>
-                        <span class="font-mono text-[11px] text-gris-clair">{count} ({pct}%)</span>
-                      </div>
-                      <div class="h-2 bg-creme rounded-full overflow-hidden">
-                        <div class={`h-full rounded-full ${color}`} style={`width: ${pct}%`}></div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            ) : (
-              <p class="text-[13px] text-gris-clair italic">Aucun article — lance <code class="bg-creme px-1 rounded text-[11px]">npm run fetch:news</code></p>
-            )}
-          </div>
-        </div>
+      <div class="bg-bleu-rep rounded-xl p-6 text-center">
+        <p class="text-white/80 text-[14px] mb-3">Pour gérer le pipeline, modifier les sources et relire les éditions :</p>
+        <a href={ADMIN_URL} class="inline-block bg-white text-bleu-rep font-mono text-[14px] font-bold px-6 py-3 rounded-lg no-underline hover:opacity-90 transition-opacity">
+          Ouvrir l'admin complet
+        </a>
       </div>
-
-      <!-- ═══ Run History ═══ -->
-      <div class="bg-blanc rounded-xl border border-gris-chaud p-6">
-        <div class="flex items-center justify-between mb-4">
-          <h2 class="font-mono text-[10px] uppercase tracking-[2px] text-noir font-bold">Historique des runs</h2>
-          <span class="font-mono text-[10px] text-gris-clair">{totalRuns} run{totalRuns !== 1 ? 's' : ''} enregistré{totalRuns !== 1 ? 's' : ''}</span>
-        </div>
-
-        {recentRuns.length > 0 ? (
-          <div class="overflow-x-auto">
-            <table class="w-full text-[12px]">
-              <thead>
-                <tr class="border-b border-gris-chaud text-left">
-                  <th class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair pb-2 pr-3">Statut</th>
-                  <th class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair pb-2 pr-3">Date</th>
-                  <th class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair pb-2 pr-3">Durée</th>
-                  <th class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair pb-2 pr-3">Articles</th>
-                  <th class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair pb-2 pr-3">Feeds</th>
-                  <th class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair pb-2 pr-3">Modèle</th>
-                  <th class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair pb-2 pr-3">Étapes</th>
-                  <th class="font-mono text-[9px] uppercase tracking-[2px] text-gris-clair pb-2">Deploy</th>
-                </tr>
-              </thead>
-              <tbody>
-                {recentRuns.map((run: any) => (
-                  <tr class="border-b border-gris-chaud/50 hover:bg-creme/50 transition-colors">
-                    <td class="py-2.5 pr-3">
-                      <span class={`inline-flex items-center gap-1.5 font-mono text-[11px] font-bold ${run.status === 'success' ? 'text-vert' : 'text-rouge-doux'}`}>
-                        <span class={`w-2 h-2 rounded-full ${run.status === 'success' ? 'bg-vert' : 'bg-rouge-doux'}`}></span>
-                        {run.status === 'success' ? 'OK' : 'FAIL'}
-                      </span>
-                    </td>
-                    <td class="py-2.5 pr-3 font-mono text-noir">{formatDate(run.started_at)}</td>
-                    <td class="py-2.5 pr-3 font-mono text-gris-texte">{run.duration_s}s</td>
-                    <td class="py-2.5 pr-3 font-mono text-bleu-rep font-bold">{run.stats?.articles_fetched || '—'}</td>
-                    <td class="py-2.5 pr-3 font-mono text-gris-texte">{run.stats?.feeds_ok || '—'}/{run.stats?.feeds_total || 26}</td>
-                    <td class="py-2.5 pr-3 font-mono text-gris-texte text-[10px]">{run.stats?.model || '—'}</td>
-                    <td class="py-2.5 pr-3">
-                      <div class="flex gap-1">
-                        {run.steps?.map((s: any) => (
-                          <span
-                            class={`w-4 h-4 rounded text-[8px] font-bold flex items-center justify-center ${
-                              s.status === 'success' ? 'bg-vert/10 text-vert' :
-                              s.status === 'failed' ? 'bg-rouge-doux/10 text-rouge-doux' :
-                              'bg-gris-chaud text-gris-clair'
-                            }`}
-                            title={`${s.name}: ${s.status} (${s.duration_s}s)${s.error ? ' — ' + s.error : ''}`}
-                          >
-                            {s.status === 'success' ? '✓' : s.status === 'failed' ? '✗' : '–'}
-                          </span>
-                        ))}
-                      </div>
-                    </td>
-                    <td class="py-2.5">
-                      {run.deployed ? (
-                        <span class="font-mono text-[10px] text-vert bg-vert/10 px-1.5 py-0.5 rounded">Oui</span>
-                      ) : (
-                        <span class="font-mono text-[10px] text-gris-clair">Non</span>
-                      )}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        ) : (
-          <div class="text-center py-10">
-            <div class="text-[40px] mb-3 opacity-30">📊</div>
-            <p class="text-[14px] text-gris-texte mb-1">Aucun run enregistré</p>
-            <p class="text-[12px] text-gris-clair">
-              Lance <code class="bg-creme px-1.5 py-0.5 rounded font-mono text-[11px]">npm run daily</code> pour générer la première édition
-            </p>
-          </div>
-        )}
-      </div>
-
-      <!-- ═══ Quick Commands ═══ -->
-      <div class="mt-6 bg-noir rounded-xl p-6 text-white">
-        <h2 class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair mb-4">Commandes rapides</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
-          <div class="bg-white/5 rounded-lg p-3">
-            <div class="font-mono text-[11px] text-orange mb-1">Fetch RSS</div>
-            <code class="font-mono text-[12px] text-white/80">npm run fetch:news</code>
-          </div>
-          <div class="bg-white/5 rounded-lg p-3">
-            <div class="font-mono text-[11px] text-orange mb-1">Générer la Une</div>
-            <code class="font-mono text-[12px] text-white/80">npm run generate:une</code>
-          </div>
-          <div class="bg-white/5 rounded-lg p-3">
-            <div class="font-mono text-[11px] text-orange mb-1">Pipeline complet</div>
-            <code class="font-mono text-[12px] text-white/80">npm run daily</code>
-          </div>
-          <div class="bg-white/5 rounded-lg p-3">
-            <div class="font-mono text-[11px] text-orange mb-1">Pipeline + deploy</div>
-            <code class="font-mono text-[12px] text-white/80">npm run daily:deploy</code>
-          </div>
-        </div>
-      </div>
-
     </div>
   </main>
 </BaseLayout>

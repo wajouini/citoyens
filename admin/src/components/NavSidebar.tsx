@@ -7,9 +7,14 @@ import { logoutAction } from '@/actions/auth';
 
 const navItems = [
   { label: 'Dashboard', href: '/', icon: '📊' },
+  { label: 'Édition', href: '/edition', icon: '📰' },
+  { label: 'Historique', href: '/edition/history', icon: '📚' },
+  { label: 'Éditorial', href: '/editorial', icon: '🎯' },
+  { label: 'Espace Sémantique', href: '/clustering', icon: '🌌' },
+  { label: 'Prévisualisation', href: '/preview', icon: '👁' },
   { label: 'Sources', href: '/sources', icon: '📡' },
   { label: 'Runs', href: '/runs', icon: '⚡' },
-  { label: 'Édition', href: '/edition', icon: '📰' },
+  { label: 'Utilisateurs', href: '/users', icon: '👥' },
   { label: 'Settings', href: '/settings', icon: '⚙️' },
 ];
 
