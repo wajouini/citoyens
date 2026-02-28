@@ -1,28 +1,6 @@
 import type { Metadata } from 'next';
-import { Playfair_Display, Source_Sans_3, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 import { NavSidebar } from '@/components/NavSidebar';
-
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  weight: ['400', '700', '900'],
-  variable: '--nf-display',
-  display: 'swap',
-});
-
-const sourceSans = Source_Sans_3({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: '--nf-body',
-  display: 'swap',
-});
-
-const jetbrains = JetBrains_Mono({
-  subsets: ['latin'],
-  weight: ['400', '500'],
-  variable: '--nf-mono',
-  display: 'swap',
-});
 
 export const metadata: Metadata = {
   title: 'Admin — Citoyens.ai',
@@ -35,7 +13,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" className={`${playfair.variable} ${sourceSans.variable} ${jetbrains.variable}`} suppressHydrationWarning>
+    <html lang="fr" suppressHydrationWarning>
+      <head>
+        <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com"
+        />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@400;700;900&family=Source+Sans+3:wght@300;400;500;600;700&display=swap"
+        />
+      </head>
       <body className="antialiased">
         <div className="flex min-h-screen">
           <NavSidebar />

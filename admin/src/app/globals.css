@@ -15,9 +15,9 @@
   --color-orange: #D4760A;
   --color-rouge-doux: #C9191E;
 
-  --font-display: var(--nf-display), 'Playfair Display', Georgia, serif;
-  --font-body: var(--nf-body), 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-mono: var(--nf-mono), 'JetBrains Mono', ui-monospace, monospace;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 }
 
 body {
