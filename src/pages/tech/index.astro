@@ -1,26 +1,30 @@
 ---
 import { getCollection } from 'astro:content';
 import { validateFil } from '../../utils/validate-data';
+import { dedupBriefings, dedupArticles, pickFilItems } from '../../utils/section-data';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
 
 const allArticles = await getCollection('articles');
-const articles = allArticles
+const rawArticles = allArticles
   .filter(a => a.data.rubrique === 'tech')
   .sort((a, b) => b.data.date.localeCompare(a.data.date));
+const articles = dedupArticles(rawArticles);
 
 const hero = articles.find(a => a.data.estUne) ?? articles[0];
 const rest = articles.filter(a => a.id !== hero?.id);
 
 const iaData = await import('../../data/ia.json').then(m => m.default).catch(() => null);
-const faitsIA: any[] = iaData?.faits_ia ?? [];
+const allFaitsIA: any[] = iaData?.faits_ia ?? [];
+
+// Dédupliquer les faits IA déjà couverts par des articles MDX
+const coveredTitles = articles.map(a => a.data.titre);
+const faitsIA = dedupBriefings(allFaitsIA, coveredTitles);
 
 const filRaw = await import('../../data/fil.json').then(m => m.default).catch(() => null);
 const filData = validateFil(filRaw).data;
-const filItems = (filData?.items ?? []).filter((item: any) =>
-  ['tech', 'ia'].includes(item.rubrique)
-).slice(0, 8);
+const filItems = pickFilItems(filData?.items ?? [], ['tech', 'ia'], 8);
 
 const sousSection: Record<string, { label: string; color: string; bg: string }> = {
   annonces:  { label: 'Annonces',   color: 'text-indigo-700', bg: 'bg-indigo-50' },
@@ -167,12 +171,9 @@ const formatDateShort = (d: string) =>
 
         {/* Fil tech */}
         <div class="border border-gris-chaud rounded-xl overflow-hidden bg-blanc">
-          <div class="flex items-center justify-between px-4 py-3 border-b border-gris-chaud bg-purple-50">
-            <div class="flex items-center gap-2">
-              <span class="w-2 h-2 rounded-full bg-purple-600 animate-pulse"></span>
-              <span class="font-mono text-[11px] font-bold uppercase tracking-[2px] text-purple-700">Fil Tech & IA</span>
-            </div>
-            <a href="/fil" class="font-mono text-[10px] text-purple-700 hover:underline no-underline">Tout voir →</a>
+          <div class="px-4 py-3 border-b border-gris-chaud bg-purple-50 flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-purple-600 animate-pulse"></span>
+            <span class="font-mono text-[11px] font-bold uppercase tracking-[2px] text-purple-700">Fil Tech & IA</span>
           </div>
 
           {filItems.length > 0 ? (
@@ -190,7 +191,14 @@ const formatDateShort = (d: string) =>
                       {item.source} ↗
                     </a>
                   </div>
-                  <p class="text-[13px] text-noir leading-snug">{item.texte}</p>
+                  {item.url ? (
+                    <a href={item.url} target="_blank" rel="noopener noreferrer"
+                      class="text-[13px] text-noir leading-snug no-underline hover:text-purple-700 transition-colors block line-clamp-2">
+                      {item.titre ?? item.texte}
+                    </a>
+                  ) : (
+                    <p class="text-[13px] text-noir leading-snug line-clamp-2">{item.titre ?? item.texte}</p>
+                  )}
                 </div>
               ))}
             </div>
@@ -206,7 +214,7 @@ const formatDateShort = (d: string) =>
             Chaque article suit un template en trois parties : <strong>contexte</strong>, <strong>les faits</strong>, et <strong>pourquoi c'est important</strong>. Toutes les sources sont citées et accessibles.
           </p>
           <a href="/methodologie" class="font-mono text-[11px] text-purple-700 no-underline hover:underline">
-            Lire notre charte éditoriale →
+            Lire notre méthodologie →
           </a>
         </div>
 

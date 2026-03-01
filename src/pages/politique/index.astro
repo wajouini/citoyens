@@ -1,43 +1,68 @@
 ---
 import { getCollection } from 'astro:content';
 import { validateFil } from '../../utils/validate-data';
+import { dedupBriefings, dedupArticles, pickFilItems } from '../../utils/section-data';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
 
+// ── Articles MDX ───────────────────────────────────────────────────────────
 const allArticles = await getCollection('articles');
-const articles = allArticles
+const rawArticles = allArticles
   .filter(a => a.data.rubrique === 'politique')
   .sort((a, b) => b.data.date.localeCompare(a.data.date));
+const articles = dedupArticles(rawArticles);
 
 const hero = articles.find(a => a.data.estUne) ?? articles[0];
 const rest = articles.filter(a => a.id !== hero?.id);
 
-// Briefings from une.json
+// ── Données pipeline ────────────────────────────────────────────────────────
 const uneRaw = await import('../../data/une.json').then(m => m.default).catch(() => null);
-const uneFrance: any[] = uneRaw?.france ?? [];
-const uneMonde: any[] = uneRaw?.monde ?? [];
 const sujetsRaw = await import('../../data/sujets-chauds.json').then(m => m.default).catch(() => null);
-
-const politiqueBriefings = uneFrance.filter((item: any) =>
-  ['politique', 'international', 'societe'].includes(item.rubrique) && item.titre
-).slice(0, 6);
-
-const mondeBriefings = uneMonde.filter((item: any) => item.titre).slice(0, 4);
-
-const sujetsActifs: any[] = (sujetsRaw?.sujets_actifs ?? []).filter((s: any) =>
-  !['economie', 'tech', 'ia'].includes(s.rubrique)
-).slice(0, 4);
-
-// Fil sidebar
 const filRaw = await import('../../data/fil.json').then(m => m.default).catch(() => null);
 const filData = validateFil(filRaw).data;
-const filItems = (filData?.items ?? []).filter((item: any) =>
-  ['politique', 'international'].includes(item.rubrique)
-).slice(0, 8);
+
+// ── Déduplication ──────────────────────────────────────────────────────────
+// Tous les titres déjà couverts par des articles MDX
+const coveredTitles = articles.map(a => a.data.titre);
+
+// Candidats briefing : france politique/international + monde + sujets chauds
+const franceCandidates = [
+  ...(uneRaw?.france ?? []).filter((i: any) =>
+    ['politique', 'international', 'societe'].includes(i.rubrique) && i.titre
+  ),
+  // Ajouter sujet_du_jour s'il est politique
+  ...(uneRaw?.sujet_du_jour?.titre && !['economie','tech','ia'].includes(uneRaw?.sujet_du_jour?.rubrique)
+    ? [{ ...uneRaw.sujet_du_jour, resume: uneRaw.sujet_du_jour.pourquoi_important ?? uneRaw.sujet_du_jour.resume }]
+    : []
+  ),
+];
+const mondeCandidates = (uneRaw?.monde ?? []).filter((i: any) => i.titre);
+const sujetsCandidates = (sujetsRaw?.sujets_actifs ?? []).filter((s: any) =>
+  !['economie','tech','ia'].includes(s.rubrique) && s.titre
+);
+
+// Déduplication en cascade
+const briefingsFrance = dedupBriefings(franceCandidates, coveredTitles).slice(0, 5);
+const briefingsMonde = dedupBriefings(
+  mondeCandidates,
+  [...coveredTitles, ...briefingsFrance.map((b: any) => b.titre)]
+).slice(0, 3);
+const sujetsActifs = dedupBriefings(
+  sujetsCandidates,
+  [...coveredTitles, ...briefingsFrance.map((b: any) => b.titre), ...briefingsMonde.map((b: any) => b.titre)]
+).slice(0, 3);
+
+// ── Fil sidebar ─────────────────────────────────────────────────────────────
+const filItems = pickFilItems(
+  filData?.items ?? [],
+  ['politique', 'international', 'general'],
+  8,
+);
 
 const uneDate: string | undefined = uneRaw?.date as string | undefined;
 
+// ── Formatage dates ─────────────────────────────────────────────────────────
 const formatDate = (d: string) =>
   new Date(d + 'T00:00:00').toLocaleDateString('fr-FR', {
     day: 'numeric', month: 'long', year: 'numeric',
@@ -57,7 +82,6 @@ const formatDateShort = (d: string) =>
 
   <main class="max-w-[1280px] mx-auto px-4 md:px-6 py-8 md:py-12">
 
-    {/* Section header */}
     <div class="flex items-center gap-4 mb-10 pb-4 border-b-2 border-bleu-rep">
       <h1 class="font-display text-[32px] md:text-[40px] font-black text-noir tracking-tight">Politique</h1>
       <span class="font-mono text-[11px] uppercase tracking-[2px] text-bleu-rep bg-bleu-clair px-2.5 py-1 rounded">
@@ -67,10 +91,10 @@ const formatDateShort = (d: string) =>
 
     <div class="flex flex-col lg:flex-row gap-10 lg:gap-14">
 
-      {/* Main column */}
+      {/* ── Colonne principale ── */}
       <div class="flex-1 min-w-0 space-y-14">
 
-        {/* ── Articles de fond ── */}
+        {/* Articles de fond */}
         {articles.length > 0 && (
           <section>
             <div class="flex items-center gap-2 mb-6">
@@ -82,20 +106,14 @@ const formatDateShort = (d: string) =>
               <a href={`/article/${hero.id}`} class="block group no-underline mb-8">
                 <div class="border-l-4 border-bleu-rep pl-5">
                   <div class="flex items-center gap-2 mb-3">
-                    <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-bleu-rep bg-bleu-clair px-2 py-0.5 rounded">
-                      À la une
-                    </span>
+                    <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-bleu-rep bg-bleu-clair px-2 py-0.5 rounded">À la une</span>
                     <time class="font-mono text-[11px] text-gris-clair">{formatDate(hero.data.date)}</time>
                   </div>
                   <h2 class="font-display text-[26px] md:text-[32px] font-black text-noir leading-[1.1] tracking-tight mb-3 group-hover:text-bleu-rep transition-colors">
                     {hero.data.titre}
                   </h2>
-                  <p class="text-[16px] text-gris-texte leading-relaxed mb-4 max-w-[640px]">
-                    {hero.data.resume}
-                  </p>
-                  <span class="inline-flex items-center gap-1 font-mono text-[12px] text-bleu-rep font-semibold group-hover:underline">
-                    Lire l'article →
-                  </span>
+                  <p class="text-[16px] text-gris-texte leading-relaxed mb-4 max-w-[640px]">{hero.data.resume}</p>
+                  <span class="inline-flex items-center gap-1 font-mono text-[12px] text-bleu-rep font-semibold group-hover:underline">Lire l'article →</span>
                 </div>
               </a>
             )}
@@ -105,13 +123,9 @@ const formatDateShort = (d: string) =>
                 {rest.map(a => (
                   <a href={`/article/${a.id}`} class="block group no-underline p-5 rounded-xl border border-gris-chaud bg-blanc hover:border-bleu-rep/30 hover:shadow-md transition-all">
                     <time class="font-mono text-[10px] text-gris-clair block mb-2">{formatDateShort(a.data.date)}</time>
-                    <h3 class="font-display text-[18px] font-bold text-noir leading-snug mb-2 group-hover:text-bleu-rep transition-colors">
-                      {a.data.titre}
-                    </h3>
+                    <h3 class="font-display text-[18px] font-bold text-noir leading-snug mb-2 group-hover:text-bleu-rep transition-colors">{a.data.titre}</h3>
                     <p class="text-[13px] text-gris-texte leading-relaxed line-clamp-3">{a.data.resume}</p>
-                    <span class="inline-block mt-3 font-mono text-[11px] text-bleu-rep font-semibold group-hover:underline">
-                      Lire →
-                    </span>
+                    <span class="inline-block mt-3 font-mono text-[11px] text-bleu-rep font-semibold group-hover:underline">Lire →</span>
                   </a>
                 ))}
               </div>
@@ -119,32 +133,24 @@ const formatDateShort = (d: string) =>
           </section>
         )}
 
-        {/* ── Briefing du jour — France ── */}
-        {politiqueBriefings.length > 0 && (
+        {/* Briefing du jour — sujets non couverts par les articles */}
+        {briefingsFrance.length > 0 && (
           <section>
             <div class="flex items-center gap-3 mb-6">
               <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair">Briefing du jour</span>
               <div class="flex-1 h-px bg-gris-chaud"></div>
-              {uneDate && (
-                <time class="font-mono text-[10px] text-gris-clair shrink-0">{formatDate(uneDate)}</time>
-              )}
+              {uneDate && <time class="font-mono text-[10px] text-gris-clair shrink-0">{formatDate(uneDate)}</time>}
             </div>
             <div class="space-y-4">
-              {politiqueBriefings.map((item: any) => (
+              {briefingsFrance.map((item: any) => (
                 <div class="p-4 rounded-xl border border-gris-chaud bg-blanc">
-                  <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-2">
-                    {item.titre}
-                  </h3>
+                  <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-2">{item.titre}</h3>
                   <p class="text-[13px] text-gris-texte leading-relaxed mb-3">{item.resume}</p>
                   {item.sources?.length > 0 && (
                     <div class="flex flex-wrap gap-2">
                       {item.sources.slice(0, 4).map((s: any) => (
-                        <a
-                          href={s.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="inline-flex items-center gap-1 font-mono text-[10px] text-bleu-rep bg-bleu-clair px-2 py-0.5 rounded no-underline hover:underline"
-                        >
+                        <a href={s.url} target="_blank" rel="noopener noreferrer"
+                          class="inline-flex items-center gap-1 font-mono text-[10px] text-bleu-rep bg-bleu-clair px-2 py-0.5 rounded no-underline hover:underline">
                           {s.nom} ↗
                         </a>
                       ))}
@@ -156,28 +162,22 @@ const formatDateShort = (d: string) =>
           </section>
         )}
 
-        {/* ── Monde ── */}
-        {mondeBriefings.length > 0 && (
+        {/* International — sujets monde non redondants */}
+        {briefingsMonde.length > 0 && (
           <section>
             <div class="flex items-center gap-2 mb-6">
               <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair">International</span>
               <div class="flex-1 h-px bg-gris-chaud"></div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {mondeBriefings.map((item: any) => (
+              {briefingsMonde.map((item: any) => (
                 <div class="p-4 rounded-xl border border-gris-chaud bg-blanc">
-                  {item.pays && (
-                    <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-gris-clair block mb-1">{item.pays}</span>
-                  )}
+                  {item.pays && <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-gris-clair block mb-1">{item.pays}</span>}
                   <h3 class="font-display text-[16px] font-bold text-noir leading-snug mb-2">{item.titre}</h3>
                   <p class="text-[12px] text-gris-texte leading-relaxed mb-2">{item.resume}</p>
                   {item.sources?.[0] && (
-                    <a
-                      href={item.sources[0].url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="font-mono text-[10px] text-bleu-rep no-underline hover:underline"
-                    >
+                    <a href={item.sources[0].url} target="_blank" rel="noopener noreferrer"
+                      class="font-mono text-[10px] text-bleu-rep no-underline hover:underline">
                       {item.sources[0].nom} ↗
                     </a>
                   )}
@@ -187,21 +187,21 @@ const formatDateShort = (d: string) =>
           </section>
         )}
 
-        {/* ── Sujets chauds ── */}
+        {/* Sujets suivis — uniquement s'ils apportent qqch de nouveau */}
         {sujetsActifs.length > 0 && (
           <section>
             <div class="flex items-center gap-2 mb-6">
               <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair">Sujets suivis</span>
               <div class="flex-1 h-px bg-gris-chaud"></div>
             </div>
-            <div class="space-y-4">
+            <div class="space-y-3">
               {sujetsActifs.map((sujet: any) => (
                 <div class="p-4 rounded-xl border border-orange/30 bg-blanc">
                   <div class="flex items-center gap-2 mb-2">
                     <span class="w-1.5 h-1.5 rounded-full bg-orange animate-pulse"></span>
                     <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-orange">En cours</span>
                   </div>
-                  <h3 class="font-display text-[16px] font-bold text-noir leading-snug mb-2">{sujet.titre}</h3>
+                  <h3 class="font-display text-[15px] font-bold text-noir leading-snug mb-1">{sujet.titre}</h3>
                   <p class="text-[12px] text-gris-texte leading-relaxed">{sujet.resume}</p>
                 </div>
               ))}
@@ -209,58 +209,46 @@ const formatDateShort = (d: string) =>
           </section>
         )}
 
-        {articles.length === 0 && politiqueBriefings.length === 0 && (
-          <div class="py-20 text-center text-gris-clair font-mono text-[13px]">
-            Contenu en cours de génération…
-          </div>
+        {articles.length === 0 && briefingsFrance.length === 0 && (
+          <div class="py-20 text-center text-gris-clair font-mono text-[13px]">Contenu en cours de génération…</div>
         )}
 
       </div>
 
-      {/* Sidebar */}
+      {/* ── Sidebar ── */}
       <aside class="w-full lg:w-[300px] shrink-0 lg:sticky lg:top-24 self-start space-y-6">
 
-        {/* Fil politique */}
         <div class="border border-gris-chaud rounded-xl overflow-hidden bg-blanc">
-          <div class="flex items-center justify-between px-4 py-3 border-b border-gris-chaud bg-bleu-clair">
-            <div class="flex items-center gap-2">
-              <span class="w-2 h-2 rounded-full bg-bleu-rep animate-pulse"></span>
-              <span class="font-mono text-[11px] font-bold uppercase tracking-[2px] text-bleu-rep">Fil Politique</span>
-            </div>
+          <div class="px-4 py-3 border-b border-gris-chaud bg-bleu-clair flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-bleu-rep animate-pulse"></span>
+            <span class="font-mono text-[11px] font-bold uppercase tracking-[2px] text-bleu-rep">Fil Politique</span>
           </div>
-
-          {filItems.length > 0 ? (
-            <div class="divide-y divide-gris-chaud">
-              {filItems.map((item: any) => (
-                <div class="px-4 py-3">
-                  <div class="flex items-center gap-2 mb-1">
-                    <span class="font-mono text-[11px] font-bold text-gris-clair">{item.heure}</span>
-                    <span class="font-mono text-[9px] text-gris-clair">{item.source}</span>
-                  </div>
-                  {item.url ? (
-                    <a href={item.url} target="_blank" rel="noopener noreferrer" class="text-[13px] text-noir leading-snug no-underline hover:text-bleu-rep transition-colors block">
-                      {item.titre ?? item.texte}
-                    </a>
-                  ) : (
-                    <p class="text-[13px] text-noir leading-snug">{item.texte}</p>
-                  )}
+          <div class="divide-y divide-gris-chaud">
+            {filItems.map((item: any) => (
+              <div class="px-4 py-3">
+                <div class="flex items-center gap-2 mb-1">
+                  {item.heure && <span class="font-mono text-[10px] font-bold text-gris-clair">{item.heure}</span>}
+                  <span class="font-mono text-[9px] text-gris-clair truncate">{item.source}</span>
                 </div>
-              ))}
-            </div>
-          ) : (
-            <p class="px-4 py-6 text-[12px] text-gris-clair font-mono text-center">Fil en cours de mise à jour…</p>
-          )}
+                {item.url ? (
+                  <a href={item.url} target="_blank" rel="noopener noreferrer"
+                    class="text-[13px] text-noir leading-snug no-underline hover:text-bleu-rep transition-colors block line-clamp-2">
+                    {item.titre ?? item.texte}
+                  </a>
+                ) : (
+                  <p class="text-[13px] text-noir leading-snug line-clamp-2">{item.titre ?? item.texte}</p>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
 
-        {/* Méthodologie */}
         <div class="border border-gris-chaud rounded-xl p-4 bg-blanc">
           <h3 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir mb-2">Notre démarche</h3>
           <p class="text-[12px] text-gris-texte leading-relaxed mb-3">
-            Chaque article suit un template en trois parties : <strong>contexte</strong> (pourquoi ça arrive), <strong>les faits</strong> (ce que l'on sait avec certitude), et <strong>pourquoi c'est important</strong> (les enjeux pour les citoyens).
+            Chaque article suit un template en trois parties : <strong>contexte</strong>, <strong>les faits</strong>, et <strong>pourquoi c'est important</strong>. Toutes les sources sont citées.
           </p>
-          <a href="/methodologie" class="font-mono text-[11px] text-bleu-rep no-underline hover:underline">
-            Lire notre méthodologie →
-          </a>
+          <a href="/methodologie" class="font-mono text-[11px] text-bleu-rep no-underline hover:underline">Lire notre méthodologie →</a>
         </div>
 
       </aside>
