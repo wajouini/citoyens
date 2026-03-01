@@ -10,13 +10,15 @@
     "fetch:news": "tsx scripts/fetch-news.ts",
     "fetch:votes": "tsx scripts/fetch-votes.ts",
     "generate:une": "tsx scripts/generate-une.ts",
+    "fil:update": "tsx scripts/generate-fil-update.ts",
     "daily": "tsx scripts/daily-pipeline.ts",
     "daily:deploy": "tsx scripts/daily-pipeline.ts --deploy",
     "generate:soir": "tsx scripts/generate-soir.ts",
     "newsletter": "tsx scripts/send-newsletter.ts",
     "alerts:deputes": "tsx scripts/send-deputy-alerts.ts",
     "subscribers": "tsx scripts/manage-subscribers.ts",
-    "generate:decryptage": "tsx scripts/generate-decryptage.ts"
+    "generate:decryptage": "tsx scripts/generate-decryptage.ts",
+    "fil:rss": "tsx scripts/fetch-rss-fil.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",

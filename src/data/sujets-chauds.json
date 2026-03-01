@@ -1,42 +1,94 @@
 {
-  "date": "2026-02-28",
-  "genere_a": "2026-02-28T12:38:52.032Z",
+  "date": "2026-03-01",
+  "genere_a": "2026-03-01T11:51:59.975Z",
   "sujets_actifs": [
     {
-      "titre": "Opération « Fureur épique » : Washington et Israël frappent l'Iran",
-      "slug": "frappes-iran-operation-fureur-epique-trump",
+      "titre": "Guerre Totale contre l'Iran : Mort d'Ali Khamenei et Escalade Régionale",
+      "slug": "guerre-iran-mort-khamenei-escalade",
       "rubrique": "international",
-      "resume": "Les États-Unis, sous l'impulsion de Donald Trump, et Israël ont lancé une offensive aérienne massive nommée « Fureur épique » contre l'Iran ce samedi 28 février. Visant des sites nucléaires, militaires et les quartiers du Guide Suprême à Téhéran, l'opération vise ouvertement un changement de régime. En riposte, l'Iran a lancé des salves de missiles contre Israël et des bases américaines au Qatar, à Bahreïn et aux Émirats Arabes Unis.",
+      "resume": "L'opération militaire israélo-américaine « Furie Épique », lancée le 28 février, a abouti à la mort du Guide suprême Ali Khamenei, confirmée par Téhéran le 1er mars. En représailles, l'Iran a lancé des salves de missiles contre Israël et les bases américaines dans le Golfe, touchant Dubaï et le Qatar. Un triumvirat intérimaire a été nommé pour assurer la transition alors que Donald Trump menace d'une force « jamais vue auparavant ».",
       "chronologie": [
         {
-          "date": "2026-02-28",
-          "texte": "Donald Trump appelle le peuple iranien à « s'emparer du pouvoir » dans une vidéo de 8 minutes.",
+          "date": "2026-03-01",
+          "texte": "La télévision d'État iranienne confirme la mort d'Ali Khamenei et nomme un conseil de direction intérimaire.",
+          "source": "La Croix"
+        },
+        {
+          "date": "2026-03-01",
+          "texte": "L'Iran riposte en frappant des cibles aux Émirats Arabes Unis, au Qatar et au Bahreïn.",
           "source": "NYT World"
         },
         {
-          "date": "2026-02-28",
-          "texte": "L'Iran confirme des frappes de représailles contre la base navale américaine de la 5e Flotte à Bahreïn.",
-          "source": "BBC News"
+          "date": "2026-03-01",
+          "texte": "Huit morts au Pakistan lors de manifestations violentes devant le consulat américain de Karachi.",
+          "source": "L'Humanité"
         },
         {
           "date": "2026-02-28",
-          "texte": "Explosions signalées à Téhéran, Ispahan et Tabriz ; l'espace aérien est fermé dans 8 pays de la région.",
-          "source": "Al Jazeera"
-        },
-        {
-          "date": "2026-02-28",
-          "texte": "Emmanuel Macron dénonce une escalade « dangereuse pour tous » et appelle à la négociation.",
-          "source": "Libération"
+          "texte": "Lancement de l'opération « Furie Épique » par les forces israéliennes et américaines.",
+          "source": "L'Obs"
         }
       ],
       "couvertures": [
         {
-          "source": "NYT World",
+          "source": "Al Jazeera",
           "type": "etranger",
-          "angle": "Souligne l'irresponsabilité de Trump qui engage les USA dans une guerre sans consultation du Congrès.",
+          "angle": "Analyse les risques d'effondrement sécuritaire et économique pour les monarchies du Golfe qui servaient de havres de stabilité.",
+          "ton": "alarmiste",
+          "url": "https://www.aljazeera.com/opinions/2026/3/1/the-us-israeli-war-on-iran-could-rewrite-gulf-security-calculations?traffic_source=rss",
+          "citation_cle": "Un conflit prolongé est appelé à perturber le modèle de stabilité régionale et de prospérité économique poursuivi par le Golfe.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "source": "Libération",
+          "type": "mainstream",
+          "angle": "Focus sur les réactions politiques françaises et la satisfaction affichée par le gouvernement face à la chute du Guide.",
+          "ton": "factuel",
+          "url": "https://www.liberation.fr/international/moyen-orient/en-direct-frappes-en-iran-londe-de-choc-mondiale-apres-la-mort-dali-khamenei-20260301_IGZQBNSCIRGCJNCYY3OZOVDUV4/",
+          "citation_cle": "La France ne peut que «se satisfaire» de la mort de Khamenei, assure la porte-parole du gouvernement.",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "source": "L'Humanité",
+          "type": "mainstream",
+          "angle": "Dénonce les conséquences civiles et les violations du droit international, tout en relayant les condamnations de la Chine et de la Russie.",
           "ton": "critique",
-          "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
-          "citation_cle": "Trump calls for overthrow of government as bombs fall on Tehran.",
+          "url": "https://www.humanite.fr/-/-/poutine-adresse-ses-condoleances-a-liran-pour-lassassinat-dali-khamenei",
+          "citation_cle": "Le président russe a dénoncé une « violation cynique » de la morale et du droit international.",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Le régime des Mollahs va-t-il s'effondrer ou se radicaliser sous une direction militaire plus agressive ?",
+        "Quelle est l'étendue réelle des pertes civiles iraniennes après les frappes sur les zones urbaines ?",
+        "La France et l'UE vont-elles participer militairement ou se limiter à un soutien diplomatique ?"
+      ],
+      "sources": [
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/international/direct-iran-la-mort-du-guide-supreme-confirmee-teheran-riposte-suivez-notre-direct-20260301",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/03/01/world/middleeast/irans-attacks-on-persian-gulf-countries-crack-their-safe-haven-image.html",
+          "type": "etranger",
           "groupe_media": {
             "nom": "The New York Times Company",
             "proprietaire": "Famille Ochs-Sulzberger",
@@ -45,12 +97,9 @@
           }
         },
         {
-          "source": "L'Humanité",
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/-/-/huit-morts-au-pakistan-lors-de-manifestations-contre-les-attaques-etats-uniennes-et-israeliennes",
           "type": "mainstream",
-          "angle": "Focus sur la violation du droit international et les conséquences humanitaires immédiates.",
-          "ton": "engage",
-          "url": "https://www.humanite.fr/-/-/le-declenchement-de-la-guerre-entre-les-etats-unis-israel-et-liran-emporte-de-graves-consequences-pour-la-paix-et-la-securite-internationale-selon-emmanuel-macron",
-          "citation_cle": "Le déclenchement de la guerre emporte de graves conséquences pour la paix internationale.",
           "groupe_media": {
             "nom": "L'Humanité",
             "proprietaire": "Société des lecteurs et salariés",
@@ -59,218 +108,256 @@
           }
         },
         {
-          "source": "Al Jazeera",
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/monde/20260301.OBS112781/frappes-d-israel-et-des-etats-unis-contre-l-iran-furie-epique-est-elle-une-guerre-de-liberation.html",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/opinions/2026/3/1/the-us-israeli-war-on-iran-could-rewrite-gulf-security-calculations?traffic_source=rss",
           "type": "etranger",
-          "angle": "Couverture en direct des frappes sur les bases américaines dans les pays du Golfe (Qatar, Bahreïn).",
-          "ton": "factuel",
-          "url": "https://www.aljazeera.com/news/2026/2/28/multiple-gulf-arab-states-that-host-us-assets-targeted-in-iran-retaliation",
-          "citation_cle": "Multiple Gulf Arab states that host US assets targeted in Iran retaliation.",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
             "proprietaire": "État du Qatar",
             "type_proprietaire": "etat",
             "orientation": "variable"
           }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Quel est l'état réel de l'arsenal nucléaire iranien après ces premières vagues ?",
-        "La Chine va-t-elle intervenir si le détroit d'Ormuz est bloqué ?",
-        "Quel est le bilan humain exact à Téhéran et dans les bases du Golfe ?"
-      ],
-      "sources": [
-        {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/moyen-orient/20260228-iran-israel-etats-unis-frappes-ce-que-l-on-sait-trump-teheran-khamenei",
-          "type": "Public",
-          "groupe_media": null
         },
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-donald-trump-annonce-des-operations-de-combat-majeures-contre-l-iran_VN-202602280212.html",
-          "type": "Privé",
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/international/moyen-orient/en-direct-frappes-en-iran-londe-de-choc-mondiale-apres-la-mort-dali-khamenei-20260301_IGZQBNSCIRGCJNCYY3OZOVDUV4/",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         }
       ],
       "premiere_apparition": "2026-02-28"
     },
     {
-      "titre": "Le Conseil d'État classe LFI à l'extrême gauche",
-      "slug": "lfi-classement-extreme-gauche-conseil-etat",
-      "rubrique": "politique",
-      "resume": "Le Conseil d'État a confirmé la classification de La France Insoumise dans le bloc de l'« extrême gauche » pour les prochaines élections municipales. Cette décision valide la grille du ministère de l'Intérieur, tandis que l'UDR est maintenu à l'« extrême droite ». LFI dénonce une manœuvre de diabolisation politique.",
+      "titre": "OpenAI et l'Armée Américaine : Le Contrat de la Discorde",
+      "slug": "openai-department-of-war-military-ia",
+      "rubrique": "ia",
+      "resume": "OpenAI a officiellement signé un accord avec le Département de la Guerre des États-Unis pour déployer ses modèles sur les réseaux classifiés de l'armée. Ce virage stratégique, soutenu par l'administration Trump, marque l'éviction d'Anthropic (jugé comme un risque pour la chaîne d'approvisionnement) au profit de la firme de Sam Altman, suscitant un vif débat sur l'éthique de l'IA de défense.",
       "chronologie": [
         {
-          "date": "2026-02-28",
-          "texte": "Le Conseil d'État rejette le recours de LFI contre son étiquetage politique.",
-          "source": "Le Monde"
+          "date": "2026-03-01",
+          "texte": "L'accord suscite une polémique majeure sur HackerNews avec plus de 2500 points sur l'éthique militaire de l'IA.",
+          "source": "HackerNews"
         },
         {
           "date": "2026-02-28",
-          "texte": "Débat tendu entre Nadège Abomangoli et Sabrina Sebaihi sur la diabolisation de la gauche.",
-          "source": "L'Humanité"
+          "texte": "Donald Trump confirme l'éviction d'Anthropic au profit d'OpenAI pour les besoins de défense nationale.",
+          "source": "Citoyens.ai"
+        },
+        {
+          "date": "2026-02-28",
+          "texte": "OpenAI publie un communiqué sur son engagement avec le Département de la Guerre.",
+          "source": "HackerNews"
         }
       ],
       "couvertures": [
         {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Analyse juridique de la décision qui fige le paysage politique avant les municipales.",
-          "ton": "factuel",
-          "url": "https://www.lemonde.fr/politique/article/2026/02/28/le-conseil-d-etat-confirme-la-classification-de-lfi-a-l-extreme-gauche_6668696_823448.html",
-          "citation_cle": "Le Conseil d’Etat confirme la classification de LFI à l’« extrême gauche ».",
+          "source": "The Register",
+          "type": "etranger",
+          "angle": "Souligne les risques de sécurité liés à l'utilisation d'agents IA non restreints dans des environnements sensibles.",
+          "ton": "critique",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/01/nanoclaw_container_openclaw/",
+          "citation_cle": "Idéalement, vous ne devriez pas avoir à vous défendre contre votre propre agent IA.",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
           }
         },
         {
+          "source": "Numerama",
+          "type": "mainstream",
+          "angle": "Explique l'évolution vers l'Edge IA et son importance pour le traitement local des données militaires.",
+          "ton": "factuel",
+          "url": "https://www.numerama.com/tech/2188511-ledge-ia-cest-quoi-ca-encore.html",
+          "citation_cle": "Pour analyser les énormes volumes de données... on les traite désormais au plus près de la source.",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quelles sont les limites éthiques imposées par OpenAI sur l'utilisation létale de ses modèles ?",
+        "Comment Anthropic va-t-il réagir à sa désignation comme 'risque pour la chaîne d'approvisionnement' ?"
+      ],
+      "sources": [
+        {
+          "nom": "The Register",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/01/nanoclaw_container_openclaw/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/tech/2188511-ledge-ia-cest-quoi-ca-encore.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-02-28"
+    },
+    {
+      "titre": "Interception d'un pétrolier de la « flotte fantôme » russe",
+      "slug": "petrolier-flotte-fantome-russe-intercepte",
+      "rubrique": "international",
+      "resume": "Dans une opération conjointe rare, les forces spéciales belges et françaises ont intercepté un pétrolier en mer du Nord. Le navire est soupçonné de faire partie de la « flotte fantôme » utilisée par Moscou pour contourner les sanctions occidentales sur les exportations d'hydrocarbures. Parallèlement, un autre pétrolier lié à l'Iran a été pris pour cible dans le détroit d'Ormuz.",
+      "chronologie": [
+        {
+          "date": "2026-03-01",
+          "texte": "Un pétrolier pavillon des Palaos est attaqué près du détroit d'Ormuz.",
+          "source": "L'Humanité"
+        },
+        {
+          "date": "2026-03-01",
+          "texte": "Les forces belges confirment l'interception nocturne d'un navire russe en mer du Nord.",
+          "source": "L'Humanité"
+        },
+        {
+          "date": "2026-03-01",
+          "texte": "BFM TV rapporte qu'un pétrolier coule dans le détroit d'Ormuz suite aux tensions avec l'Iran.",
+          "source": "BFM TV"
+        }
+      ],
+      "couvertures": [
+        {
           "source": "L'Humanité",
           "type": "mainstream",
-          "angle": "Dénonce une volonté de mettre sur un pied d'égalité la gauche radicale et l'extrême droite néofasciste.",
-          "ton": "engage",
-          "url": "https://www.humanite.fr/politique/extreme-droite/sortir-de-la-diabolisation-de-la-gauche-n-abomangoli-lfi-face-a-s-sebaihi-eelv-lhumatch",
-          "citation_cle": "Sortir de la diabolisation de la gauche.",
+          "angle": "Analyse les méthodes de contournement des sanctions par la Russie et l'escalade maritime mondiale.",
+          "ton": "factuel",
+          "url": "https://www.humanite.fr/monde/guerre-en-ukraine/ce-que-lon-sait-apres-linterception-dun-petrolier-de-la-flotte-fantome-russe-par-la-belgique-et-la-france",
+          "citation_cle": "Un navire appartenant à la « flotte fantôme » utilisée par la Russie pour contourner les sanctions occidentales.",
           "groupe_media": {
             "nom": "L'Humanité",
             "proprietaire": "Société des lecteurs et salariés",
             "type_proprietaire": "cooperative",
             "orientation": "gauche"
           }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Quel impact cet étiquetage aura-t-il sur les alliances de second tour aux municipales ?",
-        "Le Nouveau Front Populaire peut-il survivre à cette différenciation administrative ?"
-      ],
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr",
-          "type": "Privé",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-02-28"
-    },
-    {
-      "titre": "Tête de porc chez Christian Estrosi : enquête pour haine religieuse",
-      "slug": "estrosi-nice-tete-de-porc-enquete",
-      "rubrique": "societe",
-      "resume": "Une tête de porc accompagnée d'une affiche antisémite à l'effigie du maire de Nice, Christian Estrosi, a été découverte devant son domicile. Le parquet de Nice a ouvert une enquête pour menaces envers une personne dépositaire de l'autorité publique et provocation à la haine religieuse.",
-      "chronologie": [
-        {
-          "date": "2026-02-28",
-          "texte": "Le parquet de Nice confirme l'ouverture d'une enquête pour provocation à la haine.",
-          "source": "franceinfo"
         },
         {
-          "date": "2026-02-28",
-          "texte": "Découverte de la tête de porc et d'une étoile de David sur le portail du maire.",
-          "source": "BFM TV"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "BFM TV",
+          "source": "France 24 FR",
           "type": "mainstream",
-          "angle": "Focus sur le caractère antisémite de l'acte et la protection des élus.",
+          "angle": "Focus sur les conséquences économiques mondiales d'un blocage du détroit d'Ormuz.",
           "ton": "alarmiste",
-          "url": "https://www.bfmtv.com/cote-d-azur/une-tete-de-porc-accrochee-sur-le-portail-du-domicile-de-christian-estrosi-a-nice-une-enquete-ouverte-par-le-parquet_AN-202602280182.html",
-          "citation_cle": "Une affiche à l'effigie de Christian Estrosi sur laquelle figure une étoile de David.",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260301-frappes-en-iran-le-d%C3%A9troit-d-ormuz-%C3%A0-l-arr%C3%AAt",
+          "citation_cle": "Le risque principal pour le marché pétrolier reste celui d’un blocage du détroit d’Ormuz.",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Rapport factuel sur les faits et les chefs d'accusation retenus par le parquet.",
-          "ton": "factuel",
-          "url": "https://www.lemonde.fr/politique/article/2026/02/28/une-tete-de-porc-decouverte-sur-le-portail-du-domicile-du-maire-de-nice-christian-estrosi-une-enquete-ouverte_6668696_823448.html",
-          "citation_cle": "Une enquête a été ouverte pour menaces et outrage.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'acte est-il lié à la mouvance néonazie locale mentionnée par la préfecture du Rhône ?",
-        "Y a-t-il des images de vidéosurveillance exploitables ?"
-      ],
-      "sources": [
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/nice/une-tete-de-cochon-et-une-affiche-antisemite-decouvertes-devant-le-domicile-de-christian-estrosi-a-nice_7836746.html",
-          "type": "Public",
-          "groupe_media": {
-            "nom": "France Télévisions",
+            "nom": "France Médias Monde",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         }
       ],
-      "premiere_apparition": "2026-02-28"
+      "ce_quon_ne_sait_pas": [
+        "Quelle sera la réponse diplomatique ou militaire de la Russie à cette interception ?",
+        "Le blocage du détroit d'Ormuz va-t-il provoquer un nouveau choc pétrolier mondial ?"
+      ],
+      "sources": [
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/monde/guerre-en-ukraine/ce-que-lon-sait-apres-linterception-dun-petrolier-de-la-flotte-fantome-russe-par-la-belgique-et-la-france",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260301-frappes-en-iran-le-d%C3%A9troit-d-ormuz-%C3%A0-l-arr%C3%AAt",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-un-petrolier-serait-en-train-de-couler-dans-le-detroit-d-ormuz-selon-les-medias-iraniens_VN-202603010224.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-03-01"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Guerre ouverte entre le Pakistan et l'Afghanistan",
-      "slug": "guerre-pakistan-afghanistan-frontiere",
+      "titre": "Guerre entre le Pakistan et l'Afghanistan",
+      "slug": "conflit-pakistan-afghanistan-frontiere",
       "rubrique": "international",
-      "resume": "Après plusieurs jours d'affrontements intenses à la frontière, la situation semble se stabiliser au profit d'une guerre de positions, bien que les tensions restent vives.",
+      "resume": "Les affrontements frontaliers meurtriers entre soldats afghans et pakistanais se poursuivent le long de la ligne Durand, bien que l'attention mondiale soit désormais captée par le conflit en Iran.",
       "chronologie": [
         {
-          "date": "2026-02-26",
-          "texte": "Déclenchement des hostilités majeures à la frontière.",
-          "source": "France 24"
+          "date": "2026-03-01",
+          "texte": "Nouveaux échanges de tirs signalés par des habitants de la zone frontalière.",
+          "source": "Ouest-France"
+        },
+        {
+          "date": "2026-02-27",
+          "texte": "Intensification des combats et échec des premières tentatives de médiation.",
+          "source": "RFI"
         }
       ],
       "couvertures": [
         {
-          "source": "RFI",
+          "source": "Ouest-France",
           "type": "mainstream",
-          "angle": "Analyse des répercussions régionales du conflit.",
+          "angle": "Reportage sur les civils déplacés par les combats à la frontière.",
           "ton": "factuel",
-          "url": "https://www.rfi.fr",
-          "citation_cle": "Une déstabilisation majeure de l'Asie centrale."
+          "url": "https://www.ouest-france.fr/monde/afghanistan/les-combats-meurtriers-continuent-entre-le-pakistan-et-lafghanistan-224f8038-155a-11f1-8725-6cea811c3c37",
+          "citation_cle": "Des soldats afghans et pakistanais se sont affrontés le long de la frontière commune."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Quel est le nombre réel de victimes civiles dans les zones tribales ?"
+        "L'implication possible de groupes terroristes tiers dans le déclenchement des hostilités."
       ],
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr",
-          "type": "Public"
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/monde/afghanistan/les-combats-meurtriers-continuent-entre-le-pakistan-et-lafghanistan-224f8038-155a-11f1-8725-6cea811c3c37",
+          "type": "mainstream"
         }
       ],
-      "derniere_mise_a_jour": "2026-02-28",
-      "statut": "Le sujet est éclipsé par le conflit en Iran mais reste une zone de crise active."
+      "derniere_mise_a_jour": "2026-03-01",
+      "statut": "Le conflit s'enlise dans une guerre d'usure frontalière éclipsée par la crise iranienne."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 490,
+    "nb_articles_analyses": 487,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

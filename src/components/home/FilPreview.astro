@@ -1,23 +1,23 @@
 ---
-import MediaOwnerBadge from './MediaOwnerBadge.astro';
-
 interface Props {
   items: any[];
   generatedAt?: string;
+  derniereMaj?: string;
   filDate?: string;
 }
 
-const { items, generatedAt, filDate } = Astro.props;
+const { items, generatedAt, derniereMaj, filDate } = Astro.props;
 
 const rubriqueStyle: Record<string, { label: string; color: string }> = {
-  politique: { label: 'Politique', color: 'text-bleu-rep' },
-  economie: { label: 'Économie', color: 'text-orange' },
-  tech: { label: 'Tech', color: 'text-purple-700' },
-  science: { label: 'Science', color: 'text-vert' },
-  societe: { label: 'Société', color: 'text-rouge-doux' },
-  culture: { label: 'Culture', color: 'text-amber-700' },
+  politique:     { label: 'Politique',     color: 'text-bleu-rep' },
+  economie:      { label: 'Économie',      color: 'text-orange' },
+  tech:          { label: 'Tech & IA',     color: 'text-purple-700' },
+  science:       { label: 'Science',       color: 'text-vert' },
+  societe:       { label: 'Société',       color: 'text-rouge-doux' },
+  culture:       { label: 'Culture',       color: 'text-amber-700' },
   international: { label: 'International', color: 'text-sky-700' },
-  ia: { label: 'IA', color: 'text-indigo-700' },
+  ia:            { label: 'IA',            color: 'text-indigo-700' },
+  general:       { label: 'Général',       color: 'text-gris-clair' },
 };
 
 const filDateFormatted = filDate
@@ -35,9 +35,13 @@ const filDateFormatted = filDate
       <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir">Fil continu</span>
     </div>
     <div class="flex items-center gap-3">
-      {generatedAt && (
-        <span class="font-mono text-[10px] text-gris-clair" data-fil-timestamp={generatedAt}>
-          MAJ {new Date(generatedAt).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
+      {(derniereMaj || generatedAt) && (
+        <span
+          class="font-mono text-[10px] text-gris-clair"
+          id="fil-preview-timestamp"
+          data-ts={derniereMaj || generatedAt}
+        >
+          MAJ {new Date(derniereMaj || generatedAt!).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
         </span>
       )}
       <a href="/fil" class="font-mono text-[11px] text-bleu-rep no-underline hover:underline font-semibold">
@@ -47,31 +51,51 @@ const filDateFormatted = filDate
   </div>
 
   {filDate && (
-    <div class="hidden font-mono text-[10px] text-orange bg-orange/10 rounded-lg px-3 py-1.5 mb-3 text-center" id="fil-date-banner" data-fil-date={filDate}>
+    <div
+      class="hidden font-mono text-[10px] text-orange bg-orange/10 rounded-lg px-3 py-1.5 mb-3 text-center"
+      id="fil-date-banner"
+      data-fil-date={filDate}
+    >
       Édition du {filDateFormatted}
     </div>
   )}
 
   <div class="flex flex-col gap-0 border border-gris-chaud rounded-lg overflow-hidden bg-blanc" id="fil-items">
     {items.slice(0, 6).map((item: any) => {
-      const style = rubriqueStyle[item.rubrique] || rubriqueStyle.politique;
+      const style = rubriqueStyle[item.rubrique] ?? rubriqueStyle.general;
+      const itemUrl = item.url || item.source_url;
+      const itemTitle = item.titre || item.texte;
       return (
         <div class="flex gap-3 px-4 py-3 border-b border-gris-chaud last:border-0">
           <div class="shrink-0 pt-0.5">
-            <span class="font-mono text-[12px] font-bold text-gris-clair">{item.heure}</span>
+            <span class="font-mono text-[11px] font-bold text-gris-clair">{item.heure}</span>
           </div>
           <div class="flex-1 min-w-0">
             <div class="flex items-center gap-2 mb-0.5">
               <span class={`font-mono text-[9px] font-bold uppercase tracking-wider ${style.color}`}>
                 {style.label}
               </span>
-              <a href={item.source_url} target="_blank" rel="noopener noreferrer"
-                 class="font-mono text-[9px] text-gris-clair no-underline hover:text-bleu-rep transition-colors inline-flex items-center gap-1">
-                {item.groupe_media && <MediaOwnerBadge groupe_media={item.groupe_media} compact={true} />}
+              <a
+                href={itemUrl || '#'}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="font-mono text-[9px] text-gris-clair no-underline hover:text-bleu-rep transition-colors"
+              >
                 {item.source} ↗
               </a>
             </div>
-            <p class="text-[14px] text-noir leading-snug">{item.texte}</p>
+            {itemUrl ? (
+              <a
+                href={itemUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block text-[13px] text-noir leading-snug no-underline hover:text-bleu-rep transition-colors line-clamp-2"
+              >
+                {itemTitle}
+              </a>
+            ) : (
+              <p class="text-[13px] text-noir leading-snug line-clamp-2">{itemTitle}</p>
+            )}
           </div>
         </div>
       );
@@ -80,14 +104,28 @@ const filDateFormatted = filDate
 </section>
 
 <script>
+  // Show stale-date banner if fil date isn't today
   const banner = document.getElementById('fil-date-banner');
   if (banner) {
     const filDate = banner.getAttribute('data-fil-date');
     if (filDate) {
       const today = new Date().toISOString().slice(0, 10);
-      if (filDate !== today) {
-        banner.classList.remove('hidden');
-      }
+      if (filDate !== today) banner.classList.remove('hidden');
     }
   }
+
+  // Update relative timestamp every minute
+  function updateTs() {
+    const el = document.getElementById('fil-preview-timestamp');
+    if (!el) return;
+    const ts = el.getAttribute('data-ts');
+    if (!ts) return;
+    const diff = Date.now() - new Date(ts).getTime();
+    const mins = Math.floor(diff / 60000);
+    if (mins < 1) el.textContent = "MAJ à l'instant";
+    else if (mins < 60) el.textContent = `MAJ il y a ${mins}min`;
+    else el.textContent = `MAJ il y a ${Math.floor(mins / 60)}h`;
+  }
+  updateTs();
+  setInterval(updateTs, 60_000);
 </script>

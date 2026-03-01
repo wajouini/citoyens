@@ -3,10 +3,10 @@ const navItems = [
   { label: "Aujourd'hui", href: '/' },
   { label: 'Ce soir', href: '/soir' },
   { label: 'Fil', href: '/fil' },
-  { label: 'Radar', href: '/radar' },
-  { label: 'IA', href: '/ia' },
+  { label: 'Politique', href: '/politique' },
+  { label: 'Économie', href: '/economie' },
+  { label: 'Tech & IA', href: '/tech' },
   { label: 'Archives', href: '/edition' },
-  { label: 'Recherche', href: '/recherche' },
 ];
 
 const currentPath = Astro.url.pathname;
@@ -15,7 +15,7 @@ const currentPath = Astro.url.pathname;
 <!-- Top Bar (hidden on mobile) -->
 <div class="bg-bleu-rep text-white py-1.5 text-[11px] tracking-wider uppercase font-medium hidden md:block">
   <div class="max-w-[1280px] mx-auto px-6 flex justify-between items-center">
-    <span class="opacity-70">Initiative citoyenne indépendante · Code source ouvert · Zéro publicité</span>
+    <span class="opacity-70">Initiative citoyenne indépendante · 5 min pour savoir · Toutes les sources pour juger</span>
     <span class="opacity-70">Données : data.gouv.fr · Assemblée nationale</span>
   </div>
 </div>
@@ -30,9 +30,6 @@ const currentPath = Astro.url.pathname;
           .ai
         </span>
       </a>
-      <span class="text-[11px] uppercase tracking-[2px] text-gris-clair ml-4 border-l border-gris-chaud pl-4 hidden lg:inline">
-        5 min pour savoir · Toutes les sources pour juger
-      </span>
     </div>
 
     <!-- Desktop nav -->

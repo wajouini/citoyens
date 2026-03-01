@@ -17,7 +17,7 @@ import Footer from '../components/layout/Footer.astro';
       <section class="mb-10">
         <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Le pipeline quotidien</h2>
         <p class="text-[15px] text-gris-texte leading-relaxed mb-4">
-          Chaque matin, un pipeline automatisé s'exécute en 4 étapes :
+          Chaque matin vers 7h, un pipeline automatisé s'exécute en plusieurs étapes. Le fil continu est ensuite mis à jour toutes les heures jusqu'à 23h.
         </p>
         <div class="flex flex-col gap-4">
           <div class="flex gap-4 items-start">
@@ -25,38 +25,107 @@ import Footer from '../components/layout/Footer.astro';
             <div>
               <h3 class="font-display text-[16px] font-bold text-noir mb-1">Collecte des flux RSS</h3>
               <p class="text-[14px] text-gris-texte leading-relaxed">
-                Nous agrégeons ~40 flux RSS couvrant la politique, l'économie, la tech, la science, la société et l'international. Sources françaises et étrangères, investigation et mainstream, gauche et droite. Les articles des dernières 24h sont collectés et dédupliqués.
+                73 flux RSS sont agrégés : politique, économie, tech, science, société, culture, international. Sources françaises et étrangères, investigation et mainstream, presse de gauche et de droite. Les articles des dernières 24h sont collectés et dédupliqués par URL.
               </p>
             </div>
           </div>
           <div class="flex gap-4 items-start">
             <span class="font-mono text-[13px] font-bold text-bleu-rep bg-bleu-clair w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
             <div>
-              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Sélection par IA (Passe 1)</h3>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Clustering thématique</h3>
               <p class="text-[14px] text-gris-texte leading-relaxed">
-                Un modèle de langage analyse tous les articles et sélectionne : le sujet le plus impactant du jour, un essentiel par rubrique, et un sujet pour le regard croisé (couvert par 3+ sources avec des angles différents).
+                Les articles sont regroupés par sujet (clustering). Un score est calculé pour chaque topic selon le nombre de sources distinctes, leur diversité (investigation, mainstream, étranger), et la présence d'articles d'investigation exclusifs.
               </p>
             </div>
           </div>
           <div class="flex gap-4 items-start">
             <span class="font-mono text-[13px] font-bold text-bleu-rep bg-bleu-clair w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
             <div>
-              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Rédaction par IA (Passe 2)</h3>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Conférence de rédaction IA (Passe 1)</h3>
               <p class="text-[14px] text-gris-texte leading-relaxed">
-                Le modèle rédige l'édition complète en format concis : titres, résumés factuels, analyse de cohérence des couvertures médiatiques. Les données d'actionnariat des médias sont injectées automatiquement (pas générées par l'IA).
+                Un modèle de langage joue le rôle de rédacteur en chef et affecte chaque topic à une section : sujet du jour, France, Monde, regard croisé, signal faible. La sélection est guidée par les scores et les flags éditoriaux.
               </p>
             </div>
           </div>
           <div class="flex gap-4 items-start">
             <span class="font-mono text-[13px] font-bold text-bleu-rep bg-bleu-clair w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
             <div>
-              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Validation et publication</h3>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Rédaction par IA (Passe 2)</h3>
               <p class="text-[14px] text-gris-texte leading-relaxed">
-                La sortie est validée par un schéma strict (Zod). Les données d'actionnariat des médias sont fusionnées à partir de notre base de données factuelle. L'édition est publiée sur le site et archivée.
+                Le modèle rédige l'édition complète en format Smart Brevity : titres, résumés factuels, analyse de cohérence des couvertures médiatiques, détection des doubles standards. Chaque affirmation doit obligatoirement citer une source issue des articles fournis.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <span class="font-mono text-[13px] font-bold text-bleu-rep bg-bleu-clair w-8 h-8 rounded-full flex items-center justify-center shrink-0">5</span>
+            <div>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Vérification et validation</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">
+                Trois passes automatiques : (a) <strong>validation structurelle Zod</strong> — le format JSON doit être conforme au schéma strict ; (b) <strong>vérification des URLs</strong> — chaque lien source est testé via HTTP HEAD et supprimé s'il renvoie une erreur ; (c) <strong>vérification des citations</strong> — toute citation inline doit figurer dans le tableau de sources, sinon elle est retirée.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <span class="font-mono text-[13px] font-bold text-bleu-rep bg-bleu-clair w-8 h-8 rounded-full flex items-center justify-center shrink-0">6</span>
+            <div>
+              <h3 class="font-display text-[16px] font-bold text-noir mb-1">Enrichissement et publication</h3>
+              <p class="text-[14px] text-gris-texte leading-relaxed">
+                Les données de propriété des médias (groupe, actionnaires, orientation) sont injectées depuis notre base de données factuelle — elles ne sont jamais générées par l'IA. L'édition est archivée et le site est reconstruit.
               </p>
             </div>
           </div>
         </div>
+      </section>
+
+      <!-- Fil continu -->
+      <section class="mb-10">
+        <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Le fil continu horaire</h2>
+        <p class="text-[15px] text-gris-texte leading-relaxed mb-4">
+          En complément de l'édition du matin, le <a href="/fil" class="text-bleu-rep no-underline hover:underline">fil continu</a> est mis à jour toutes les heures.
+        </p>
+        <div class="bg-bleu-clair rounded-xl p-5 flex flex-col gap-3">
+          <div class="flex items-start gap-3">
+            <span class="text-bleu-rep font-bold shrink-0">→</span>
+            <p class="text-[14px] text-noir leading-relaxed">Un fetch RSS ciblé récupère les articles publiés dans les 2 dernières heures depuis les flux prioritaires.</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-bleu-rep font-bold shrink-0">→</span>
+            <p class="text-[14px] text-noir leading-relaxed">Le modèle génère 3 à 5 nouvelles brèves factuelles, en évitant de répéter ce qui est déjà publié.</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-bleu-rep font-bold shrink-0">→</span>
+            <p class="text-[14px] text-noir leading-relaxed">Les nouvelles brèves sont prépendées au fil existant avec déduplication. Un timestamp "Dernière mise à jour" est affiché en temps réel.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Transparence médias -->
+      <section class="mb-10">
+        <h2 class="font-display text-[22px] font-bold text-noir mb-4 pb-2 border-b-2 border-noir">Transparence sur les médias</h2>
+        <p class="text-[15px] text-gris-texte leading-relaxed mb-4">
+          Pour chaque source citée, Citoyens.ai affiche systématiquement :
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-5">
+          <div class="border border-gris-chaud rounded-lg p-4">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-bleu-rep mb-2">Propriétaire</div>
+            <p class="text-[13px] text-gris-texte">Nom de l'actionnaire principal et type (milliardaire, fondation, État, coopérative, etc.)</p>
+          </div>
+          <div class="border border-gris-chaud rounded-lg p-4">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-bleu-rep mb-2">Orientation</div>
+            <p class="text-[13px] text-gris-texte">Positionnement éditorial déclaré ou constaté : centre, gauche, droite, investigation, institutionnel.</p>
+          </div>
+          <div class="border border-gris-chaud rounded-lg p-4">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-bleu-rep mb-2">Type de source</div>
+            <p class="text-[13px] text-gris-texte">Investigation, mainstream, fact-check, institutionnel, étranger. Chaque type a un code couleur distinct.</p>
+          </div>
+          <div class="border border-gris-chaud rounded-lg p-4">
+            <div class="font-mono text-[10px] uppercase tracking-[2px] text-bleu-rep mb-2">40+ groupes médias</div>
+            <p class="text-[13px] text-gris-texte">Base de données de 40 groupes médias avec leurs axes éditoriaux, maintenue manuellement par l'équipe.</p>
+          </div>
+        </div>
+        <p class="text-[13px] text-gris-clair leading-relaxed">
+          Ces données sont factuelles, maintenues manuellement, et ne sont jamais générées par l'IA. Elles sont mises à jour dès qu'un changement de propriétaire ou une dérive éditoriale est documenté.
+        </p>
       </section>
 
       <!-- Principes -->
@@ -127,7 +196,7 @@ import Footer from '../components/layout/Footer.astro';
           </div>
           <div class="border border-gris-chaud rounded-lg p-3">
             <div class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair mb-1">Sources</div>
-            <div class="text-[14px] text-noir font-semibold">~40 flux RSS, 7 rubriques</div>
+            <div class="text-[14px] text-noir font-semibold">73 flux RSS, 8 rubriques</div>
           </div>
           <div class="border border-gris-chaud rounded-lg p-3">
             <div class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair mb-1">Validation</div>

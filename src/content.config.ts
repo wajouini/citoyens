@@ -134,6 +134,7 @@ const dossiers = defineCollection({
       role: z.string(),
       slug: z.string().optional(),
     })).default([]),
+    mots_cles: z.array(z.string()).default([]),
   }),
 });
 
@@ -177,4 +178,21 @@ const decodages = defineCollection({
   }),
 });
 
-export const collections = { personnes, votes, medias, dossiers, decodages };
+const articles = defineCollection({
+  loader: glob({ pattern: '**/*.mdx', base: './src/content/articles' }),
+  schema: z.object({
+    titre: z.string(),
+    rubrique: z.enum(['politique', 'economie', 'tech']),
+    date: z.string(),
+    resume: z.string(),
+    estUne: z.boolean().default(false),
+    citation_cle: z.string().optional(),
+    points_cles: z.array(z.string()).optional(),
+    sources: z.array(z.object({
+      label: z.string(),
+      url: z.string(),
+    })),
+  }),
+});
+
+export const collections = { personnes, votes, medias, dossiers, decodages, articles };

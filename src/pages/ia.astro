@@ -184,7 +184,7 @@ const jsonLd = faits.length > 0 ? {
             </details>
 
             <p class="font-mono text-[9px] text-gris-clair">
-              Analyse générée par IA · <a href="/methodologie" class="underline hover:text-bleu-rep">Notre méthodologie</a>
+              <a href="/methodologie" class="underline hover:text-bleu-rep">Notre méthodologie</a>
             </p>
           </section>
         ) : heroFait && (
@@ -318,8 +318,7 @@ const jsonLd = faits.length > 0 ? {
         {/* ── META ── */}
         {iaData.meta && (
           <div class="font-mono text-[9px] text-gris-clair text-center pb-8 pt-4">
-            {iaData.meta.nb_articles_ia} articles analysés
-            <br/>{iaData.meta.modele}
+            {iaData.meta.nb_articles_ia} sources analysées
           </div>
         )}
 

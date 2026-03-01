@@ -3,8 +3,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
 import MediaOwnerBadge from '../components/home/MediaOwnerBadge.astro';
+import { validateSoir } from '../utils/validate-data';
 
-const soirData = await import('../data/soir.json').then(m => m.default).catch(() => null);
+const soirRaw = await import('../data/soir.json').then(m => m.default).catch(() => null);
+const soirData = validateSoir(soirRaw).data;
 
 const bilan = soirData?.bilan_journee;
 const analyse = soirData?.analyse_approfondie;
@@ -263,7 +265,7 @@ const jsonLd = analyse ? {
         {/* ── Meta ── */}
         {soirData.meta && (
           <div class="font-mono text-[9px] text-gris-clair text-center pb-8 border-t border-gris-chaud pt-4">
-            {soirData.meta.nb_articles_analyses} articles analysés · {soirData.meta.modele}
+            {soirData.meta.nb_articles_analyses} sources analysées
           </div>
         )}
       </div>

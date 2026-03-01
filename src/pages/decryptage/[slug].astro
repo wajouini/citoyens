@@ -145,7 +145,7 @@ const jsonLd = {
 
       <!-- Meta -->
       <div class="font-mono text-[9px] text-gris-clair text-center pb-4 border-t border-gris-chaud pt-4">
-        Décryptage généré par IA à partir de {decryptage.meta?.nb_articles_source || '?'} articles · {decryptage.meta?.modele || 'N/A'} · <a href="/methodologie" class="underline hover:text-bleu-rep">Notre méthodologie</a>
+        {decryptage.meta?.nb_articles_source ? `${decryptage.meta.nb_articles_source} sources analysées · ` : ''}<a href="/methodologie" class="underline hover:text-bleu-rep">Notre méthodologie</a>
       </div>
     </article>
   </main>

@@ -1,16 +1,109 @@
 {
-  "date": "2026-02-28",
-  "genere_a": "2026-02-28T12:38:22.231Z",
+  "date": "2026-03-01",
+  "genere_a": "2026-03-01T11:51:26.718Z",
   "faits_ia": [
     {
-      "titre": "Trump bannit Anthropic des agences fédérales américaines",
+      "titre": "OpenAI signe un contrat avec le Pentagone incluant des garde-fous techniques",
+      "sous_section": "annonces",
+      "resume": "Sam Altman a annoncé la signature d'un contrat de défense avec le département de la Guerre américain. Ce partenariat prévoit des limites strictes (« red lines ») et des protocoles de sécurité spécifiques pour le déploiement de l'IA dans des environnements classifiés, tout en cherchant à éviter les controverses éthiques rencontrées par ses concurrents.",
+      "pourquoi_ca_compte": "Cela marque une étape majeure dans l'intégration de l'IA générative au sein de l'appareil militaire, posant la question de la responsabilité algorithmique dans les conflits armés.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/02/28/openais-sam-altman-announces-pentagon-deal-with-technical-safeguards/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
+          "type": "institutionnel",
+          "groupe_media": {
+            "nom": "OpenAI",
+            "proprietaire": "OpenAI Inc. (for-profit transition)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://openai.com/index/our-agreement-with-the-department-of-war"
+    },
+    {
+      "titre": "L'administration Trump menace de bannir Anthropic des contrats fédéraux",
       "sous_section": "regulation",
-      "resume": "Le président Donald Trump a ordonné à toutes les administrations fédérales de cesser immédiatement l'usage des produits d'Anthropic . Cette décision fait suite au refus de la startup de lever ses restrictions éthiques pour permettre un usage militaire sans limites, notamment pour la surveillance de masse ou l'armement autonome.",
-      "pourquoi_ca_compte": "Cela marque une rupture majeure où l'État impose la primauté des besoins militaires sur les garde-fous éthiques privés, créant un précédent de 'liste noire' pour les entreprises d'IA jugées trop restrictives.",
+      "resume": "Le département de la Défense fait pression sur Anthropic pour qu'elle lève ses restrictions éthiques sur l'usage militaire de son IA Claude. Face au refus de la start-up de modifier sa charte de sécurité, le gouvernement américain envisage une interdiction pure et simple de ses outils pour les agences fédérales.",
+      "pourquoi_ca_compte": "Ce bras de fer illustre la tension croissante entre l'éthique des concepteurs d'IA et les exigences de souveraineté militaire des États.",
+      "sources": [
+        {
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/02/trump-moves-to-ban-anthropic-from-the-us-government/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://arstechnica.com/tech-policy/2026/02/trump-moves-to-ban-anthropic-from-the-us-government/"
+    },
+    {
+      "titre": "Désinformation massive sur X suite aux frappes contre l'Iran",
+      "sous_section": "societe",
+      "resume": "La plateforme X est submergée par des vidéos fausses ou obsolètes illustrant les récentes attaques israélo-américaines en Iran. Des comptes certifiés diffusent des images de conflits passés pour simuler l'ampleur des dégâts actuels, rendant la vérification des faits extrêmement complexe en temps réel.",
+      "pourquoi_ca_compte": "L'incapacité des plateformes à modérer les contenus générés ou détournés par l'IA en période de guerre fragilise le droit des citoyens à une information fiable.",
+      "sources": [
+        {
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/x-is-drowning-in-disinformation-following-us-and-israels-attack-on-iran/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump/false-and-outdated-videos-circulated-online-after-the-iran-strikes",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.wired.com/story/x-is-drowning-in-disinformation-following-us-and-israels-attack-on-iran/"
+    },
+    {
+      "titre": "L'Edge IA : vers une décentralisation du traitement des données",
+      "sous_section": "recherche",
+      "resume": "L'Edge IA émerge comme une solution pour traiter les données directement sur les appareils (voitures, électroménager) plutôt que dans le cloud. Cette approche permet de réduire la latence et d'améliorer la confidentialité en limitant les transferts de données vers des serveurs tiers.",
+      "pourquoi_ca_compte": "C'est un enjeu de souveraineté numérique et de protection de la vie privée : vos données personnelles restent dans l'objet plutôt que de circuler sur le réseau.",
       "sources": [
         {
           "nom": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2191051-anthropic-mis-dehors-par-trump-openai-prend-sa-place-avec-les-memes-garanties.html",
+          "url": "https://www.numerama.com/tech/2188511-ledge-ia-cest-quoi-ca-encore.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Humanoid",
@@ -18,21 +111,30 @@
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
-        },
+        }
+      ],
+      "lien": "https://www.numerama.com/tech/2188511-ledge-ia-cest-quoi-ca-encore.html"
+    },
+    {
+      "titre": "Investissements records dans les infrastructures physiques de l'IA",
+      "sous_section": "business",
+      "resume": "Les géants technologiques comme Meta, Microsoft et OpenAI engagent des milliards de dollars dans des centres de données et des infrastructures énergétiques. Parallèlement, les investisseurs se tournent vers les entreprises 'Halo' (Low Obsolescence jugées plus résilientes face aux bouleversements de l'IA.",
+      "pourquoi_ca_compte": "La concentration des ressources physiques (énergie, puces) entre les mains de quelques acteurs redessine la géopolitique économique mondiale.",
+      "sources": [
         {
-          "nom": "Next",
-          "url": "https://next.ink/226876/donald-trump-ordonne-a-toutes-les-administrations-us-de-rompre-avec-anthropic/",
-          "type": "investigation",
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
             "orientation": "centre"
           }
         },
         {
           "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/feb/27/trump-anthropic-ai-federal-agencies",
+          "url": "https://www.theguardian.com/business/2026/mar/01/investment-ai-resistant-halo-companies-uk-eu-markets-goldman-sachs",
           "type": "etranger",
           "groupe_media": {
             "nom": "Scott Trust",
@@ -40,258 +142,106 @@
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
-        },
+        }
+      ],
+      "lien": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/"
+    },
+    {
+      "titre": "Chine : des clones numériques de médecins pour assister les patients",
+      "sous_section": "societe",
+      "resume": "En Chine, des hôpitaux déploient des avatars numériques de médecins réels pour répondre aux questions des patients. Bien que ces clones ne puissent pas prescrire de médicaments, ils assurent un suivi constant et une présence psychologique automatisée.",
+      "pourquoi_ca_compte": "Cette automatisation du soin pose des questions éthiques fondamentales sur l'empathie et la déshumanisation de la relation médecin-patient.",
+      "sources": [
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/sciences-et-technologie/intelligence-artificielle/intelligence-artificielle-en-chine-des-patients-discutent-avec-le-clone-numerique-de-leur-medecin-28091224.php",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": "https://www.sudouest.fr/sciences-et-technologie/intelligence-artificielle/intelligence-artificielle-en-chine-des-patients-discutent-avec-le-clone-numerique-de-leur-medecin-28091224.php"
+    },
+    {
+      "titre": "Guerre psychologique : une application de prière piratée en Iran",
+      "sous_section": "regulation",
+      "resume": "Lors des frappes sur Téhéran, une application de prière populaire a été piratée pour envoyer des messages de reddition aux citoyens iraniens. Les notifications promettaient l'amnistie en échange de la cessation des hostilités.",
+      "pourquoi_ca_compte": "L'utilisation d'outils numériques civils à des fins de guerre psychologique franchit une nouvelle frontière dans les cyber-conflits.",
+      "sources": [
+        {
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/"
+    },
+    {
+      "titre": "Les armes imprimées en 3D perdent leur anonymat",
+      "sous_section": "recherche",
+      "resume": "Contrairement aux idées reçues, les avancées en chimie forensique permettent désormais de tracer les armes produites par impression 3D. Des chercheurs ont identifié des signatures uniques liées au processus d'impression et aux matériaux utilisés.",
+      "pourquoi_ca_compte": "Cette avancée scientifique est cruciale pour la lutte contre la prolifération d'armes indétectables et le contrôle des flux illégaux.",
+      "sources": [
+        {
+          "nom": "The Conversation FR",
+          "url": "https://theconversation.com/contrairement-aux-idees-recues-les-armes-imprimees-en-3d-ne-sont-pas-impossibles-a-retracer-277005",
+          "type": "institutionnel",
+          "groupe_media": {
+            "nom": "The Conversation",
+            "proprietaire": "Consortium d'universités",
+            "type_proprietaire": "fondation",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://theconversation.com/contrairement-aux-idees-recues-les-armes-imprimees-en-3d-ne-sont-pas-impossibles-a-retracer-277005"
+    },
+    {
+      "titre": "Anthropic : Claude grimpe dans l'App Store suite au conflit politique",
+      "sous_section": "business",
+      "resume": "L'application Claude d'Anthropic a atteint la deuxième place de l'App Store. Ce pic de popularité semble être une conséquence directe de la médiatisation de son bras de fer avec le Pentagone sur les questions d'éthique.",
+      "pourquoi_ca_compte": "Cela démontre que la posture éthique d'une entreprise technologique peut devenir un argument marketing puissant auprès du grand public.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/"
+    },
+    {
+      "titre": "Xiaomi lance un tracker Bluetooth concurrent de l'AirTag",
+      "sous_section": "annonces",
+      "resume": "Xiaomi a dévoilé le 'Xiaomi Tag' au Mobile World Congress. Ce tracker se distingue par un design permettant de l'attacher sans étui supplémentaire et une intégration avec les réseaux de localisation mondiaux.",
+      "pourquoi_ca_compte": "L'extension des réseaux de surveillance participative (crowdsourced tracking) pose des défis persistants en matière de harcèlement et de vie privée.",
+      "sources": [
         {
           "nom": "The Verge",
-          "url": "https://www.theverge.com/policy/886489/pentagon-anthropic-trump-dod",
-          "type": "etranger",
+          "url": "https://www.theverge.com/tech/884567/xiaomi-tag-tracker-apple-find-my-google-hub-bluetooth",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "Vox Media",
             "proprietaire": "Vox Media Inc.",
             "type_proprietaire": "independant",
             "orientation": "centre-gauche"
           }
-        }
-      ],
-      "lien": "https://next.ink/226876/donald-trump-ordonne-a-toutes-les-administrations-us-de-rompre-avec-anthropic/"
-    },
-    {
-      "titre": "OpenAI signe un accord majeur avec le Pentagone",
-      "sous_section": "business",
-      "resume": "Profitant de l'exclusion d'Anthropic, OpenAI a conclu un contrat pour intégrer ses modèles dans les réseaux classifiés du Département de la Défense. Sam Altman assure que la technologie ne sera pas utilisée pour la surveillance de masse ou les armes autonomes, malgré l'alignement étroit avec les besoins du Pentagone.",
-      "pourquoi_ca_compte": "L'intégration de modèles commerciaux dans les réseaux militaires les plus secrets renforce le complexe militaro-industriel numérique et pose la question de la souveraineté des décisions létales assistées par IA.",
-      "sources": [
-        {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/%C3%A9co-tech/20260228-le-pentagone-choisit-openai-apr%C3%A8s-s-%C3%AAtre-d%C3%A9barrass%C3%A9-d-anthropic",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/2/28/openai-strikes-deal-with-pentagon-to-use-tech-in-classified-network",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/feb/27/trump-anthropic-ai-federal-agencies",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.france24.com/fr/%C3%A9co-tech/20260228-le-pentagone-choisit-openai-apr%C3%A8s-s-%C3%AAtre-d%C3%A9barrass%C3%A9-d-anthropic"
-    },
-    {
-      "titre": "Levée de fonds record de 110 milliards de dollars pour OpenAI",
-      "sous_section": "business",
-      "resume": "OpenAI a finalisé un tour de table historique de 110 milliards de dollars auprès d'Amazon (50 Mds), Nvidia et SoftBank (30 Mds chacun). La valorisation de l'entreprise grimpe à 730 milliards de dollars, consolidant sa position de leader mondial de l'IA générative.",
-      "pourquoi_ca_compte": "Ce montant colossal montre une concentration extrême des capitaux autour d'un seul acteur, rendant la compétition quasi impossible pour les nouveaux entrants et les modèles open-source.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/226743/openai-leve-110-milliards-de-dollars-aupres-damazon-softbank-et-nvidia/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
         },
         {
           "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Register",
-          "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/27/amazon_nvidia_softbank_openai_megadeal/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://next.ink/226743/openai-leve-110-milliards-de-dollars-aupres-damazon-softbank-et-nvidia/"
-    },
-    {
-      "titre": "Fuite massive de données médicales : 15 millions de Français touchés",
-      "sous_section": "societe",
-      "resume": "Un piratage ciblant le logiciel de gestion médicale Cegedim Santé a exposé les données administratives et des commentaires de praticiens concernant 15 millions de patients. Le ministère de la Santé a confirmé la fuite, qui inclut des noms, adresses et numéros de téléphone.",
-      "pourquoi_ca_compte": "C'est une atteinte majeure à la vie privée et au secret médical, ouvrant la voie à des campagnes d'escroquerie ciblées et ultra-réalistes utilisant ces informations.",
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20260228-france-les-donn%C3%A9es-personnelles-de-15-millions-de-personnes-ont-%C3%A9t%C3%A9-pirat%C3%A9es",
+          "url": "https://techcrunch.com/2026/02/28/xiaomi-launches-17-ultra-smartphone-an-airtag-clone-and-an-ultra-slim-powerbank/",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/economie/economie-numerique/nouvelle-fuite-massive-de-donnees-medicales-un-materiau-de-qualite-pour-conduire-des-operations-descroquerie-20260227_R2VVPMIQVFCXJHR2P7FRHLDAFA/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "Futura Sciences",
-          "url": "https://www.futura-sciences.com/tech/actualites/cybersecurite-nom-adresse-telephone-notes-privees-votre-medecin-15-millions-francais-concernes-ce-vol-donnees-131802/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Futura",
-            "proprietaire": "Futura (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://www.liberation.fr/economie/economie-numerique/nouvelle-fuite-massive-de-donnees-medicales-un-materiau-de-qualite-pour-conduire-des-operations-descroquerie-20260227_R2VVPMIQVFCXJHR2P7FRHLDAFA/"
-    },
-    {
-      "titre": "TRISHNA : mission spatiale pour la gestion de l'eau",
-      "sous_section": "recherche",
-      "resume": "Le satellite franco-indien TRISHNA sera lancé pour surveiller le stress hydrique et la température de surface de la Terre. Cette mission du CNES et de l'ISRO vise à fournir des données précises pour l'agriculture et la gestion des ressources naturelles face au réchauffement climatique.",
-      "pourquoi_ca_compte": "L'IA et les données spatiales deviennent des outils vitaux pour l'adaptation citoyenne face à la raréfaction de l'eau et aux crises agricoles.",
-      "sources": [
-        {
-          "nom": "The Conversation",
-          "url": "https://theconversation.com/trishna-une-mission-spatiale-franco-indienne-pour-mieux-gerer-leau-sur-terre-272868",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": "https://theconversation.com/trishna-une-mission-spatiale-franco-indienne-pour-mieux-gerer-leau-sur-terre-272868"
-    },
-    {
-      "titre": "Burger King teste l'IA pour surveiller l'amabilité des employés",
-      "sous_section": "societe",
-      "resume": "La chaîne de restauration rapide teste dans 500 établissements des casques audio équipés d'IA. Outre la gestion des stocks, l'outil évalue en temps réel l'hospitalité et l'amabilité des salariés envers les clients.",
-      "pourquoi_ca_compte": "C'est un exemple frappant de 'management algorithmique' où le comportement humain est quantifié et jugé par une machine, augmentant la pression psychologique au travail.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/brief_article/burger-king-teste-un-chatbot-ia-qui-verifie-le-sens-de-lhospitalite-de-ses-employes/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://next.ink/brief_article/burger-king-teste-un-chatbot-ia-qui-verifie-le-sens-de-lhospitalite-de-ses-employes/"
-    },
-    {
-      "titre": "Block (ex-Square) licencie 40% de ses effectifs pour l'IA",
-      "sous_section": "business",
-      "resume": "La société de Jack Dorsey a annoncé le licenciement de près de la moitié de ses salariés. Le PDG justifie cette décision par un basculement total vers les outils d'IA pour automatiser les tâches internes et le développement produit.",
-      "pourquoi_ca_compte": "L'IA n'est plus seulement une promesse de productivité mais un moteur actif de restructuration massive de l'emploi dans la tech.",
-      "sources": [
-        {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/02/block-lays-off-40-of-workforce-as-it-goes-all-in-on-ai-tools/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://arstechnica.com/ai/2026/02/block-lays-off-40-of-workforce-as-it-goes-all-in-on-ai-tools/"
-    },
-    {
-      "titre": "OpenAI licencie un employé pour délit d'initié",
-      "sous_section": "business",
-      "resume": "Un employé d'OpenAI a été renvoyé pour avoir utilisé des informations confidentielles sur les marchés de prédiction . Il pariait sur les décisions internes de l'entreprise avant leur annonce officielle.",
-      "pourquoi_ca_compte": "Cela révèle les dérives éthiques au sein des géants de l'IA et l'influence croissante des marchés de prédiction sur la gouvernance des entreprises technologiques.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/02/27/openai-fires-employee-for-using-confidential-info-on-prediction markets/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Wired",
-          "url": "https://www.wired.com/story/openai-fires-employee-insider-trading-polymarket-kalshi/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://techcrunch.com/2026/02/27/openai-fires-employee-for-using-confidential-info-on-prediction-markets/"
-    },
-    {
-      "titre": "Coupure massive d'Internet en Iran lors des frappes",
-      "sous_section": "annonces",
-      "resume": "L'accès à Internet s'est effondré dans tout l'Iran ce samedi 28 février, coïncidant avec les frappes aériennes américano-israéliennes. Cette coupure totale vise à limiter la circulation d'informations sur l'étendue des dégâts et à empêcher l'organisation de mouvements populaires.",
-      "pourquoi_ca_compte": "L'infrastructure numérique est utilisée comme une arme de guerre et de contrôle social, privant les citoyens de tout contact avec l'extérieur en période de crise vitale.",
-      "sources": [
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2191077-iran-pourquoi-le-pays-a-soudainement-disparu-des-radars-internet.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://www.numerama.com/cyberguerre/2191077-iran-pourquoi-le-pays-a-soudainement-disparu-des-radars-internet.html"
-    },
-    {
-      "titre": "ChatGPT franchit le cap des 900 millions d'utilisateurs hebdomadaires",
-      "sous_section": "annonces",
-      "resume": "OpenAI a annoncé que son service ChatGPT a atteint une audience record de 900 millions d'utilisateurs actifs par semaine. Cette croissance exponentielle accompagne l'annonce de ses nouveaux financements.",
-      "pourquoi_ca_compte": "L'IA devient une interface de connaissance et de travail quasi universelle, posant des questions de monopole culturel et cognitif par une seule entreprise californienne.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/",
-          "type": "etranger",
           "groupe_media": {
             "nom": "Yahoo (AOL / Oath)",
             "proprietaire": "Apollo Global Management",
@@ -300,67 +250,67 @@
           }
         }
       ],
-      "lien": "https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users/"
+      "lien": "https://www.theverge.com/tech/884567/xiaomi-tag-tracker-apple-find-my-google-hub-bluetooth"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "Le conflit entre Anthropic et le Pentagone",
-    "contexte": "Anthropic a refusé de modifier ses clauses éthiques pour permettre un usage militaire de son IA Claude, provoquant son bannissement par Donald Trump et son remplacement immédiat par OpenAI.",
+    "sujet": "Le dilemme éthique de l'IA militaire : Anthropic vs OpenAI",
+    "contexte": "Dans un contexte de tensions géopolitiques mondiales, les deux leaders de l'IA générative adoptent des stratégies opposées face aux demandes du département de la Défense américain.",
     "couvertures": [
       {
-        "source": "Numerama",
+        "source": "TechCrunch",
         "type": "mainstream",
-        "angle": "Focus sur le remplacement stratégique par OpenAI.",
-        "ton": "factuel",
-        "url": "https://www.numerama.com/cyberguerre/2191051-anthropic-mis-dehors-par-trump-openai-prend-sa-place-avec-les-memes-garanties.html",
-        "citation_cle": "Donald Trump a ordonné l'exclusion immédiate d'Anthropic après le refus de l'entreprise de lever ses restrictions éthiques.",
+        "angle": "Analyse stratégique du 'piège' éthique dans lequel Anthropic s'est enfermé.",
+        "ton": "critique",
+        "url": "https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/",
+        "citation_cle": "En l'absence de règles, il n'y a pas grand-chose pour les protéger.",
         "groupe_media": {
-          "nom": "Humanoid",
-          "proprietaire": "Humanoid (indépendant)",
-          "type_proprietaire": "independant",
+          "nom": "Yahoo (AOL / Oath)",
+          "proprietaire": "Apollo Global Management",
+          "type_proprietaire": "milliardaire",
           "orientation": "centre"
         }
       },
       {
-        "source": "The Guardian",
-        "type": "etranger",
-        "angle": "Analyse de la tension entre éthique de l'IA et sécurité nationale.",
-        "ton": "critique",
-        "url": "https://www.theguardian.com/us-news/2026/feb/27/trump-anthropic-ai-federal-agencies",
-        "citation_cle": "OpenAI annonce un nouveau contrat avec le Pentagone, affirmant maintenir ses garde-fous malgré le conflit éthique au cœur du litige.",
-        "groupe_media": {
-          "nom": "Scott Trust",
-          "proprietaire": "Scott Trust Limited",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
-        }
-      },
-      {
-        "source": "Wired",
-        "type": "etranger",
-        "angle": "Réaction d'Anthropic face au label de 'risque pour la chaîne d'approvisionnement'.",
-        "ton": "neutre",
-        "url": "https://www.wired.com/story/anthropic-supply-chain-risk-shockwaves-silicon-valley/",
-        "citation_cle": "Anthropic affirme qu'il serait 'juridiquement infondé' pour le Pentagone de mettre sa technologie sur liste noire.",
+        "source": "Ars Technica",
+        "type": "mainstream",
+        "angle": "Focus sur la menace politique et les pressions du gouvernement Trump.",
+        "ton": "factuel",
+        "url": "https://arstechnica.com/tech-policy/2026/02/trump-moves-to-ban-anthropic-from-the-us-government/",
+        "citation_cle": "Le DoD a fait pression sur Anthropic pour qu'elle abandonne les restrictions sur l'utilisation de son IA par les militaires.",
         "groupe_media": {
           "nom": "Condé Nast",
           "proprietaire": "Famille Newhouse (Advance Publications)",
           "type_proprietaire": "famille",
           "orientation": "centre"
         }
+      },
+      {
+        "source": "OpenAI Blog",
+        "type": "institutionnel",
+        "angle": "Présentation du contrat comme un modèle de sécurité et de coopération patriotique.",
+        "ton": "neutre",
+        "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
+        "citation_cle": "Détails sur les lignes rouges de sécurité et les protections juridiques.",
+        "groupe_media": {
+          "nom": "OpenAI",
+          "proprietaire": "OpenAI Inc. (for-profit transition)",
+          "type_proprietaire": "independant",
+          "orientation": "centre"
+        }
       }
     ],
-    "analyse_coherence": "La couverture est globalement cohérente sur les faits : le refus d'Anthropic d'ouvrir son IA à l'armée a déclenché une réaction politique violente de l'administration Trump. Cependant, on observe un double standard dans l'analyse de la position d'OpenAI. Alors que les sources américaines (Wired, The Verge) soulignent l'aspect réglementaire et la notion de 'risque pour la chaîne d'approvisionnement', les sources européennes et internationales (The Guardian, Numerama) insistent davantage sur le dilemme éthique et la capitulation potentielle d'OpenAI devant les exigences militaires. La rapidité avec laquelle OpenAI a récupéré le contrat suggère une préparation en amont, un point souligné par Next mais peu exploré par les médias mainstream américains qui se concentrent sur la 'victoire' de l'efficacité militaire.",
+    "analyse_coherence": "La couverture médiatique révèle une fracture profonde dans l'industrie. Alors que les sources spécialisées comme TechCrunch et Ars Technica soulignent la vulnérabilité d'Anthropic face à l'appareil d'État, OpenAI tente de normaliser sa collaboration militaire via une communication institutionnelle axée sur les 'garde-fous'. On observe un double standard : Anthropic est punie pour sa prudence éthique par des menaces de bannissement, tandis qu'OpenAI est récompensée par des contrats massifs en promettant une auto-régulation technique. Les médias anglo-saxons pointent du doigt la fin de l'ère de l'innocence pour les laboratoires d'IA, désormais contraints de choisir entre leurs principes fondateurs et la survie économique sous pression étatique.",
     "biais_detectes": [
-      "Nationalisme technologique dans les sources US",
-      "Biais de 'Realpolitik' minimisant les risques de surveillance de masse chez OpenAI"
+      "Biais pro-souveraineté dans les demandes gouvernementales rapportées",
+      "Cadrage de la sécurité contre l'éthique comme un jeu à somme nulle"
     ],
-    "ce_quil_faut_retenir": "Le pouvoir politique américain a officiellement subordonné l'éthique de l'IA aux impératifs de défense, forçant les entreprises à choisir entre leurs principes et l'accès aux marchés publics."
+    "ce_quil_faut_retenir": "La neutralité des laboratoires d'IA est terminée. Le choix d'OpenAI de collaborer et celui d'Anthropic de résister définissent deux modèles de gouvernance technique qui influenceront la sécurité mondiale pour la décennie à venir."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 360,
-    "nb_topics_ia": 68,
+    "nb_articles_ia": 137,
+    "nb_topics_ia": 38,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }

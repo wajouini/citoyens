@@ -1,4 +1,5 @@
 ---
+import { validateUne, validateFil, validateSujetsChauds } from '../utils/validate-data';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
@@ -10,11 +11,15 @@ import MediaOwnerBadge from '../components/home/MediaOwnerBadge.astro';
 import SourceLinks from '../components/ui/SourceLinks.astro';
 import LinkedText from '../components/ui/LinkedText.astro';
 
-const uneData = await import('../data/une.json').then(m => m.default).catch(() => null);
-const filData = await import('../data/fil.json').then(m => m.default).catch(() => null);
+const uneRaw = await import('../data/une.json').then(m => m.default).catch(() => null);
+const filRaw = await import('../data/fil.json').then(m => m.default).catch(() => null);
 const iaData = await import('../data/ia.json').then(m => m.default).catch(() => null);
-const sujetsChaudsData = await import('../data/sujets-chauds.json').then(m => m.default).catch(() => null);
+const sujetsChaudsRaw = await import('../data/sujets-chauds.json').then(m => m.default).catch(() => null);
 const soirData = await import('../data/soir.json').then(m => m.default).catch(() => null);
+
+const uneData = validateUne(uneRaw).data;
+const filData = validateFil(filRaw).data;
+const sujetsChaudsData = validateSujetsChauds(sujetsChaudsRaw).data;
 
 const sujet = uneData?.sujet_du_jour;
 const france = uneData?.france || [];
@@ -176,6 +181,11 @@ if (sujet) {
                         <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${style.bg} ${style.color}`}>
                           {style.label}
                         </span>
+                        {item.sources?.length > 1 && (
+                          <span class="font-mono text-[9px] text-gris-clair bg-gris-chaud px-1.5 py-0.5 rounded">
+                            {item.sources.length} sources
+                          </span>
+                        )}
                       </div>
                       <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-1">
                         {item.titre}
@@ -362,7 +372,7 @@ if (sujet) {
           </details>
 
           <p class="font-mono text-[9px] text-gris-clair mt-2">
-            Analyse générée par IA • <a href="/methodologie" class="underline hover:text-bleu-rep">Notre méthodologie</a>
+            <a href="/methodologie" class="underline hover:text-bleu-rep">Notre méthodologie</a>
           </p>
         </section>
       )}
@@ -402,10 +412,23 @@ if (sujet) {
       {/* ── 8. ÉDITION DU SOIR TEASER ── */}
       <SoirTeaser soirData={soirData} />
 
-      {/* ── META ── */}
+      {/* ── BADGE DE CONFIANCE ── */}
       {meta && (
-        <div class="font-mono text-[9px] text-gris-clair text-center pb-8 border-t border-gris-chaud pt-4">
-          {meta.nb_articles_analyses} articles analysés · {meta.sources_francaises} sources FR · {meta.sources_etrangeres} sources internationales · {meta.modele}
+        <div class="flex flex-wrap items-center justify-center gap-3 pb-8 border-t border-gris-chaud pt-5 mt-2">
+          <div class="flex items-center gap-1.5 bg-vert/10 border border-vert/20 rounded-full px-3 py-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-vert"></span>
+            <span class="font-mono text-[10px] text-vert font-semibold">{meta.nb_articles_analyses} sources analysées</span>
+          </div>
+          <div class="flex items-center gap-1.5 bg-bleu-clair border border-bleu-rep/15 rounded-full px-3 py-1.5">
+            <span class="font-mono text-[10px] text-bleu-rep">{meta.sources_francaises} sources FR · {meta.sources_etrangeres} internationales</span>
+          </div>
+          {uneData?.genere_a && (
+            <div class="flex items-center gap-1.5 bg-gris-chaud/50 rounded-full px-3 py-1.5">
+              <span class="font-mono text-[10px] text-gris-clair">
+                Généré le {new Date(uneData.genere_a).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
+              </span>
+            </div>
+          )}
         </div>
       )}
       </div> {/* End Main Column */}
@@ -414,7 +437,7 @@ if (sujet) {
       <aside class="w-full lg:w-[35%] xl:w-[30%] lg:sticky lg:top-24 self-start space-y-8">
         {/* ── 2. FIL CONTINU PREVIEW ── */}
         {filItems.length > 0 && (
-          <FilPreview items={filItems} generatedAt={filData?.genere_a} filDate={filData?.date} />
+          <FilPreview items={filItems} generatedAt={filData?.genere_a} derniereMaj={(filData as any)?.derniere_maj} filDate={filData?.date} />
         )}
       </aside>
 
@@ -479,19 +502,24 @@ if (sujet) {
       container.innerHTML = items.map((item: any) => {
         const color = rubriqueColor[item.rubrique] || 'text-bleu-rep';
         const label = rubriqueLabel[item.rubrique] || item.rubrique;
+        const itemUrl = item.url || item.source_url;
+        const itemTitle = item.titre || item.texte;
+        const titleHtml = itemUrl
+          ? `<a href="${itemUrl}" target="_blank" rel="noopener noreferrer" class="block text-[13px] text-noir leading-snug no-underline hover:text-bleu-rep transition-colors line-clamp-2">${itemTitle}</a>`
+          : `<p class="text-[13px] text-noir leading-snug line-clamp-2">${itemTitle}</p>`;
         return `<div class="flex gap-3 px-4 py-3 border-b border-gris-chaud last:border-0">
           <div class="shrink-0 pt-0.5">
-            <span class="font-mono text-[12px] font-bold text-gris-clair">${item.heure}</span>
+            <span class="font-mono text-[11px] font-bold text-gris-clair">${item.heure}</span>
           </div>
           <div class="flex-1 min-w-0">
             <div class="flex items-center gap-2 mb-0.5">
               <span class="font-mono text-[9px] font-bold uppercase tracking-wider ${color}">${label}</span>
-              <a href="${item.source_url || '#'}" target="_blank" rel="noopener noreferrer"
+              <a href="${itemUrl || '#'}" target="_blank" rel="noopener noreferrer"
                  class="font-mono text-[9px] text-gris-clair no-underline hover:text-bleu-rep transition-colors">
                 ${item.source} ↗
               </a>
             </div>
-            <p class="text-[14px] text-noir leading-snug">${item.texte}</p>
+            ${titleHtml}
           </div>
         </div>`;
       }).join('');
@@ -506,5 +534,6 @@ if (sujet) {
     }
   }
 
-  setInterval(refreshFil, 5 * 60_000);
+  // Refresh every 15 minutes
+  setInterval(refreshFil, 15 * 60_000);
 </script>

@@ -2,10 +2,13 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
-import MediaOwnerBadge from '../components/home/MediaOwnerBadge.astro';
 
-const filData = await import('../data/fil.json').then(m => m.default).catch(() => null);
+import { validateFil } from '../utils/validate-data';
+const filRaw = await import('../data/fil.json').then(m => m.default).catch(() => null);
+const filData = validateFil(filRaw).data;
 const items = filData?.items || [];
+
+const isRss = filData?.source === 'rss';
 
 const formatDate = (dateStr: string) => {
   const d = new Date(dateStr + 'T00:00:00');
@@ -13,24 +16,36 @@ const formatDate = (dateStr: string) => {
 };
 
 const rubriqueStyle: Record<string, { label: string; color: string; bg: string; dot: string }> = {
-  politique: { label: 'Politique', color: 'text-bleu-rep', bg: 'bg-bleu-clair', dot: 'bg-bleu-rep' },
-  economie: { label: 'Économie', color: 'text-orange', bg: 'bg-orange/10', dot: 'bg-orange' },
-  tech: { label: 'Tech', color: 'text-purple-700', bg: 'bg-purple-50', dot: 'bg-purple-600' },
-  science: { label: 'Science', color: 'text-vert', bg: 'bg-green-50', dot: 'bg-vert' },
-  societe: { label: 'Société', color: 'text-rouge-doux', bg: 'bg-red-50', dot: 'bg-rouge-doux' },
-  culture: { label: 'Culture', color: 'text-amber-700', bg: 'bg-amber-50', dot: 'bg-amber-600' },
-  international: { label: 'International', color: 'text-sky-700', bg: 'bg-sky-50', dot: 'bg-sky-600' },
-  ia: { label: 'IA', color: 'text-indigo-700', bg: 'bg-indigo-50', dot: 'bg-indigo-600' },
+  politique:     { label: 'Politique',     color: 'text-bleu-rep',   bg: 'bg-bleu-clair',  dot: 'bg-bleu-rep' },
+  economie:      { label: 'Économie',      color: 'text-orange',     bg: 'bg-orange/10',   dot: 'bg-orange' },
+  tech:          { label: 'Tech & IA',     color: 'text-purple-700', bg: 'bg-purple-50',   dot: 'bg-purple-600' },
+  science:       { label: 'Science',       color: 'text-vert',       bg: 'bg-green-50',    dot: 'bg-vert' },
+  societe:       { label: 'Société',       color: 'text-rouge-doux', bg: 'bg-red-50',      dot: 'bg-rouge-doux' },
+  culture:       { label: 'Culture',       color: 'text-amber-700',  bg: 'bg-amber-50',    dot: 'bg-amber-600' },
+  international: { label: 'International', color: 'text-sky-700',    bg: 'bg-sky-50',      dot: 'bg-sky-600' },
+  ia:            { label: 'IA',            color: 'text-indigo-700', bg: 'bg-indigo-50',   dot: 'bg-indigo-600' },
+  general:       { label: 'Général',       color: 'text-gris-texte', bg: 'bg-gris-chaud',  dot: 'bg-gris-clair' },
+};
+
+const rubriqueHref: Record<string, string> = {
+  politique: '/politique',
+  economie:  '/economie',
+  tech:      '/tech',
+  ia:        '/tech',
 };
 ---
 
-<BaseLayout title="Fil continu" description="Les dernières informations en temps réel, factuelles et sourcées — Citoyens.ai">
+<BaseLayout
+  title="Fil continu — Citoyens.ai"
+  description="Toutes les dernières informations en direct depuis les sources RSS — mis à jour toutes les 15 minutes. Citoyens.ai"
+>
   <Header />
   <main>
     {filData ? (
       <div class="max-w-[760px] mx-auto px-4 md:px-5">
-        <!-- Header -->
-        <div class="flex items-center gap-3 mb-6 md:mb-8 pt-6 md:pt-8">
+
+        {/* Header */}
+        <div class="flex items-center gap-3 mb-4 md:mb-6 pt-6 md:pt-8">
           <div class="flex items-center gap-2">
             <span class="relative flex h-2.5 w-2.5">
               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rouge-doux opacity-75"></span>
@@ -39,23 +54,48 @@ const rubriqueStyle: Record<string, { label: string; color: string; bg: string; 
             <span class="font-mono text-[10px] md:text-[11px] uppercase tracking-[2px] text-rouge-doux font-bold">Fil continu</span>
           </div>
           <div class="flex-1 h-px bg-gris-chaud"></div>
-          <div class="font-mono text-[10px] md:text-[11px] text-gris-clair">{filData.date && formatDate(filData.date)}</div>
+          <time class="font-mono text-[10px] md:text-[11px] text-gris-clair">
+            {filData.date && formatDate(filData.date)}
+          </time>
+        </div>
+
+        <div class="flex items-center justify-between mb-6 md:mb-8">
+          <span class="font-mono text-[11px] text-gris-clair" id="fil-last-update" data-ts={filData.derniere_maj || filData.genere_a}>
+            Mis à jour à {new Date(filData.derniere_maj || filData.genere_a).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
+          </span>
+          <div class="flex items-center gap-2">
+            {isRss && (
+              <span class="font-mono text-[9px] font-bold text-vert bg-vert/10 px-2 py-0.5 rounded-full uppercase tracking-wider">
+                RSS · 15 min
+              </span>
+            )}
+            <span class="font-mono text-[9px] text-gris-clair bg-gris-chaud px-2 py-0.5 rounded-full">
+              {items.length} items
+            </span>
+          </div>
         </div>
 
         <p class="text-[13px] text-gris-clair mb-8 font-mono">
-          Mises à jour factuelles tout au long de la journée. Zéro analyse, zéro opinion — uniquement les faits.
+          {isRss
+            ? 'Flux RSS agrégé · Sources primaires · Aucun traitement IA · Mis à jour toutes les 15 minutes'
+            : 'Mises à jour factuelles tout au long de la journée. Zéro analyse, zéro opinion — uniquement les faits.'
+          }
         </p>
 
-        <!-- Timeline -->
-        <div class="relative">
+        {/* Timeline */}
+        <div class="relative" id="fil-items">
           <div class="absolute left-[52px] top-0 bottom-0 w-px bg-gris-chaud hidden md:block"></div>
 
           {items.map((item: any, idx: number) => {
-            const style = rubriqueStyle[item.rubrique] || rubriqueStyle.politique;
+            const style = rubriqueStyle[item.rubrique] || rubriqueStyle.general;
+            const secHref = rubriqueHref[item.rubrique];
+            const itemUrl = item.url || item.source_url;
+            const itemTitle = item.titre || item.texte;
+
             return (
               <div class={`flex gap-4 md:gap-6 py-4 ${idx < items.length - 1 ? 'border-b border-gris-chaud/50' : ''}`}>
                 <div class="shrink-0 w-[44px] md:w-[48px] text-right">
-                  <span class="font-mono text-[14px] md:text-[16px] font-bold text-noir">{item.heure}</span>
+                  <span class="font-mono text-[13px] md:text-[15px] font-bold text-noir">{item.heure}</span>
                 </div>
 
                 <div class="hidden md:flex items-start pt-1.5">
@@ -63,36 +103,149 @@ const rubriqueStyle: Record<string, { label: string; color: string; bg: string; 
                 </div>
 
                 <div class="flex-1 min-w-0">
-                  <div class="flex items-center gap-2 mb-1">
-                    <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded ${style.bg} ${style.color}`}>
-                      {style.label}
-                    </span>
+                  <div class="flex items-center gap-2 mb-1.5 flex-wrap">
+                    {secHref ? (
+                      <a
+                        href={secHref}
+                        class={`font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded no-underline ${style.bg} ${style.color} hover:opacity-80 transition-opacity`}
+                      >
+                        {style.label}
+                      </a>
+                    ) : (
+                      <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded ${style.bg} ${style.color}`}>
+                        {style.label}
+                      </span>
+                    )}
+                    {item.pays && item.pays !== 'France' && (
+                      <span class="font-mono text-[9px] text-gris-clair">{item.pays}</span>
+                    )}
                   </div>
-                  <p class="text-[15px] text-noir leading-relaxed mb-1.5">{item.texte}</p>
-                  <a href={item.source_url} target="_blank" rel="noopener noreferrer"
-                     class="inline-flex items-center gap-1.5 text-[11px] font-mono text-gris-clair no-underline hover:text-bleu-rep transition-colors">
-                    {item.groupe_media && <MediaOwnerBadge groupe_media={item.groupe_media} compact={true} />}
-                    {item.source} ↗
-                  </a>
+
+                  {itemUrl ? (
+                    <a
+                      href={itemUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="block text-[15px] font-semibold text-noir leading-snug mb-1.5 no-underline hover:text-bleu-rep transition-colors group"
+                    >
+                      {itemTitle}
+                      <span class="text-gris-clair text-[11px] ml-1 opacity-0 group-hover:opacity-100 transition-opacity">↗</span>
+                    </a>
+                  ) : (
+                    <p class="text-[15px] text-noir leading-snug mb-1.5">{itemTitle}</p>
+                  )}
+
+                  <span class="font-mono text-[11px] text-gris-clair">{item.source}</span>
                 </div>
               </div>
             );
           })}
         </div>
 
-        {/* Meta */}
-        {filData.meta && (
-          <div class="font-mono text-[9px] text-gris-clair text-center py-8 border-t border-gris-chaud mt-6">
-            Dernière mise à jour : {new Date(filData.genere_a).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })} · {filData.meta.nb_articles_analyses} articles analysés · {filData.meta.modele}
-          </div>
-        )}
+        {/* Footer */}
+        <div class="font-mono text-[9px] text-gris-clair text-center py-8 border-t border-gris-chaud mt-6 space-y-1">
+          <p>Fil RSS agrégé depuis {(filData as any).nb_items || items.length} sources · <a href="/methodologie" class="underline hover:text-bleu-rep">Méthodologie</a></p>
+          <p>Rafraîchissement automatique toutes les 15 minutes</p>
+        </div>
       </div>
     ) : (
       <div class="max-w-[760px] mx-auto px-4 md:px-5 py-20 text-center">
-        <p class="text-gris-clair text-[15px]">Le fil continu n'est pas encore disponible aujourd'hui.</p>
+        <p class="text-gris-clair text-[15px]">Le fil continu n'est pas encore disponible.</p>
         <a href="/" class="inline-block mt-4 text-bleu-rep no-underline hover:underline font-semibold">Voir l'édition du matin</a>
       </div>
     )}
   </main>
   <Footer />
 </BaseLayout>
+
+<script>
+  function relativeTime(isoStr: string): string {
+    const diff = Date.now() - new Date(isoStr).getTime();
+    const mins = Math.floor(diff / 60000);
+    if (mins < 1) return "à l'instant";
+    if (mins < 60) return `il y a ${mins}min`;
+    const hours = Math.floor(mins / 60);
+    if (hours < 24) return `il y a ${hours}h`;
+    return `il y a ${Math.floor(hours / 24)}j`;
+  }
+
+  function updateTimestamp() {
+    const el = document.getElementById('fil-last-update');
+    if (!el) return;
+    const ts = el.getAttribute('data-ts');
+    if (ts) el.textContent = `Mis à jour ${relativeTime(ts)}`;
+  }
+
+  updateTimestamp();
+  setInterval(updateTimestamp, 60_000);
+
+  const rubriqueStyle: Record<string, { label: string; color: string; bg: string; dot: string }> = {
+    politique:     { label: 'Politique',     color: 'text-bleu-rep',   bg: 'bg-bleu-clair',  dot: 'bg-bleu-rep' },
+    economie:      { label: 'Économie',      color: 'text-orange',     bg: 'bg-orange/10',   dot: 'bg-orange' },
+    tech:          { label: 'Tech & IA',     color: 'text-purple-700', bg: 'bg-purple-50',   dot: 'bg-purple-600' },
+    science:       { label: 'Science',       color: 'text-vert',       bg: 'bg-green-50',    dot: 'bg-vert' },
+    societe:       { label: 'Société',       color: 'text-rouge-doux', bg: 'bg-red-50',      dot: 'bg-rouge-doux' },
+    culture:       { label: 'Culture',       color: 'text-amber-700',  bg: 'bg-amber-50',    dot: 'bg-amber-600' },
+    international: { label: 'International', color: 'text-sky-700',    bg: 'bg-sky-50',      dot: 'bg-sky-600' },
+    ia:            { label: 'IA',            color: 'text-indigo-700', bg: 'bg-indigo-50',   dot: 'bg-indigo-600' },
+    general:       { label: 'Général',       color: 'text-gris-texte', bg: 'bg-gris-chaud',  dot: 'bg-gris-clair' },
+  };
+
+  const rubriqueHref: Record<string, string> = {
+    politique: '/politique',
+    economie:  '/economie',
+    tech:      '/tech',
+    ia:        '/tech',
+  };
+
+  async function refreshFil() {
+    try {
+      const res = await fetch('/data/fil.json?t=' + Date.now());
+      if (!res.ok) return;
+      const data = await res.json();
+      const items: any[] = data?.items ?? [];
+      if (!items.length) return;
+
+      const container = document.getElementById('fil-items');
+      if (!container) return;
+
+      container.innerHTML = items.map((item: any, idx: number) => {
+        const style = rubriqueStyle[item.rubrique] ?? rubriqueStyle.general;
+        const itemUrl = item.url || item.source_url;
+        const itemTitle = item.titre || item.texte;
+        const secHref = rubriqueHref[item.rubrique];
+        const rubriqueBadge = secHref
+          ? `<a href="${secHref}" class="font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded no-underline ${style.bg} ${style.color}">${style.label}</a>`
+          : `<span class="font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded ${style.bg} ${style.color}">${style.label}</span>`;
+        const titleHtml = itemUrl
+          ? `<a href="${itemUrl}" target="_blank" rel="noopener noreferrer" class="block text-[15px] font-semibold text-noir leading-snug mb-1.5 no-underline hover:text-bleu-rep transition-colors">${itemTitle} <span class="text-gris-clair text-[11px]">↗</span></a>`
+          : `<p class="text-[15px] text-noir leading-snug mb-1.5">${itemTitle}</p>`;
+        const isLast = idx === items.length - 1;
+        return `<div class="flex gap-4 md:gap-6 py-4 ${isLast ? '' : 'border-b border-gris-chaud/50'}">
+          <div class="shrink-0 w-[44px] md:w-[48px] text-right">
+            <span class="font-mono text-[13px] md:text-[15px] font-bold text-noir">${item.heure}</span>
+          </div>
+          <div class="hidden md:flex items-start pt-1.5">
+            <span class="w-2.5 h-2.5 rounded-full ${style.dot} ring-2 ring-blanc relative z-10"></span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center gap-2 mb-1.5">${rubriqueBadge}</div>
+            ${titleHtml}
+            <span class="font-mono text-[11px] text-gris-clair">${item.source}</span>
+          </div>
+        </div>`;
+      }).join('');
+
+      const tsEl = document.getElementById('fil-last-update');
+      if (tsEl && data.derniere_maj) {
+        tsEl.setAttribute('data-ts', data.derniere_maj);
+        tsEl.textContent = `Mis à jour ${relativeTime(data.derniere_maj)}`;
+      }
+    } catch {
+      // silently fail
+    }
+  }
+
+  // Refresh every 15 minutes
+  setInterval(refreshFil, 15 * 60_000);
+</script>

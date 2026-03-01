@@ -1,0 +1,162 @@
+---
+import { getCollection } from 'astro:content';
+import { validateFil } from '../../utils/validate-data';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+
+const allArticles = await getCollection('articles');
+const articles = allArticles
+  .filter(a => a.data.rubrique === 'economie')
+  .sort((a, b) => b.data.date.localeCompare(a.data.date));
+
+const hero = articles.find(a => a.data.estUne) ?? articles[0];
+const rest = articles.filter(a => a.id !== hero?.id);
+
+const filRaw = await import('../../data/fil.json').then(m => m.default).catch(() => null);
+const filData = validateFil(filRaw).data;
+const filItems = (filData?.items ?? []).filter((item: any) =>
+  item.rubrique === 'economie'
+).slice(0, 8);
+
+const formatDate = (d: string) =>
+  new Date(d + 'T00:00:00').toLocaleDateString('fr-FR', {
+    day: 'numeric', month: 'long', year: 'numeric',
+  });
+
+const formatDateShort = (d: string) =>
+  new Date(d + 'T00:00:00').toLocaleDateString('fr-FR', {
+    day: 'numeric', month: 'short',
+  });
+---
+
+<BaseLayout
+  title="Économie — Citoyens.ai"
+  description="Décryptage de l'actualité économique : budget, dette, emploi, industrie. Contexte, faits, enjeux — avec toutes les sources."
+>
+  <Header />
+
+  <main class="max-w-[1280px] mx-auto px-4 md:px-6 py-8 md:py-12">
+
+    {/* Section header */}
+    <div class="flex items-center gap-4 mb-10 pb-4 border-b-2 border-orange">
+      <h1 class="font-display text-[32px] md:text-[40px] font-black text-noir tracking-tight">Économie</h1>
+      <span class="font-mono text-[11px] uppercase tracking-[2px] text-orange bg-orange/10 px-2.5 py-1 rounded">
+        Analyse & décryptage
+      </span>
+    </div>
+
+    <div class="flex flex-col lg:flex-row gap-10 lg:gap-14">
+
+      {/* Main column */}
+      <div class="flex-1 min-w-0">
+
+        {/* Hero article */}
+        {hero && (
+          <a href={`/article/${hero.id}`} class="block group no-underline mb-12">
+            <div class="border-l-4 border-orange pl-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-orange bg-orange/10 px-2 py-0.5 rounded">
+                  À la une
+                </span>
+                <time class="font-mono text-[11px] text-gris-clair">{formatDate(hero.data.date)}</time>
+              </div>
+              <h2 class="font-display text-[26px] md:text-[34px] font-black text-noir leading-[1.1] tracking-tight mb-3 group-hover:text-orange transition-colors">
+                {hero.data.titre}
+              </h2>
+              <p class="text-[16px] text-gris-texte leading-relaxed mb-4 max-w-[640px]">
+                {hero.data.resume}
+              </p>
+              <span class="inline-flex items-center gap-1 font-mono text-[12px] text-orange font-semibold group-hover:underline">
+                Lire l'article →
+              </span>
+            </div>
+          </a>
+        )}
+
+        {/* Article grid */}
+        {rest.length > 0 && (
+          <div>
+            <div class="flex items-center gap-2 mb-6">
+              <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair">Autres analyses</span>
+              <div class="flex-1 h-px bg-gris-chaud"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {rest.map(a => (
+                <a href={`/article/${a.id}`} class="block group no-underline p-5 rounded-xl border border-gris-chaud bg-blanc hover:border-orange/30 hover:shadow-md transition-all">
+                  <time class="font-mono text-[10px] text-gris-clair block mb-2">{formatDateShort(a.data.date)}</time>
+                  <h3 class="font-display text-[18px] font-bold text-noir leading-snug mb-2 group-hover:text-orange transition-colors">
+                    {a.data.titre}
+                  </h3>
+                  <p class="text-[13px] text-gris-texte leading-relaxed line-clamp-3">{a.data.resume}</p>
+                  <span class="inline-block mt-3 font-mono text-[11px] text-orange font-semibold group-hover:underline">
+                    Lire →
+                  </span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {articles.length === 0 && (
+          <div class="py-20 text-center text-gris-clair font-mono text-[13px]">
+            Aucun article économique disponible pour l'instant.
+          </div>
+        )}
+
+      </div>
+
+      {/* Sidebar */}
+      <aside class="w-full lg:w-[300px] shrink-0 lg:sticky lg:top-24 self-start space-y-6">
+
+        {/* Fil économie */}
+        <div class="border border-gris-chaud rounded-xl overflow-hidden bg-blanc">
+          <div class="flex items-center justify-between px-4 py-3 border-b border-gris-chaud bg-orange/5">
+            <div class="flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-orange animate-pulse"></span>
+              <span class="font-mono text-[11px] font-bold uppercase tracking-[2px] text-orange">Fil Économie</span>
+            </div>
+            <a href="/fil" class="font-mono text-[10px] text-orange hover:underline no-underline">Tout voir →</a>
+          </div>
+
+          {filItems.length > 0 ? (
+            <div class="divide-y divide-gris-chaud">
+              {filItems.map((item: any) => (
+                <div class="px-4 py-3">
+                  <div class="flex items-center gap-2 mb-1">
+                    <span class="font-mono text-[11px] font-bold text-gris-clair">{item.heure}</span>
+                    <a
+                      href={item.source_url || '#'}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="font-mono text-[9px] text-gris-clair no-underline hover:text-orange transition-colors"
+                    >
+                      {item.source} ↗
+                    </a>
+                  </div>
+                  <p class="text-[13px] text-noir leading-snug">{item.texte}</p>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p class="px-4 py-6 text-[12px] text-gris-clair font-mono text-center">Fil en cours de mise à jour…</p>
+          )}
+        </div>
+
+        {/* Méthodologie */}
+        <div class="border border-gris-chaud rounded-xl p-4 bg-blanc">
+          <h3 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir mb-2">Notre démarche</h3>
+          <p class="text-[12px] text-gris-texte leading-relaxed mb-3">
+            Chaque article suit un template en trois parties : <strong>contexte</strong>, <strong>les faits</strong>, et <strong>pourquoi c'est important</strong>. Toutes les sources sont citées et accessibles.
+          </p>
+          <a href="/methodologie" class="font-mono text-[11px] text-orange no-underline hover:underline">
+            Lire notre charte éditoriale →
+          </a>
+        </div>
+
+      </aside>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

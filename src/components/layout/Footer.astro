@@ -1,18 +1,12 @@
 ---
-const explorerLinks = [
-  { label: 'Tous les députés', href: '/fiche' },
-  { label: 'Scrutins récents', href: '/#votes' },
-  { label: 'Médias', href: '/media' },
-  { label: 'Dossiers de fond', href: '/dossiers' },
-];
-
-const comprendreLinks = [
-  { label: "L'Assemblée nationale", href: '/comprendre/assemblee-nationale' },
-  { label: 'Le 49.3 expliqué', href: '/comprendre/49-3' },
-  { label: 'Motion de censure', href: '/comprendre/motion-de-censure' },
-  { label: 'Navette parlementaire', href: '/comprendre/navette-parlementaire' },
-  { label: 'La HATVP', href: '/comprendre/hatvp' },
-  { label: 'Groupes parlementaires', href: '/comprendre/groupes-parlementaires' },
+const editionsLinks = [
+  { label: "La Une du jour", href: '/' },
+  { label: 'Ce soir', href: '/soir' },
+  { label: 'Fil continu', href: '/fil' },
+  { label: 'Politique', href: '/politique' },
+  { label: 'Économie', href: '/economie' },
+  { label: 'Tech & IA', href: '/tech' },
+  { label: 'Archives', href: '/edition' },
 ];
 
 const aProposLinks = [
@@ -25,7 +19,7 @@ const aProposLinks = [
 
 <footer class="bg-noir text-white pt-12 pb-6 mt-16">
   <div class="max-w-[1280px] mx-auto px-6">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
       <!-- Brand -->
       <div>
         <span class="font-display text-[28px] font-black">
@@ -34,25 +28,12 @@ const aProposLinks = [
         <p class="text-sm text-white/50 leading-relaxed mt-3 max-w-xs">
           Initiative citoyenne indépendante. Aucune publicité, aucun financement partisan. Code source ouvert. L'IA au service de la transparence démocratique.
         </p>
-        <a href="/soutenir" class="inline-block mt-4 bg-bleu-rep text-white font-semibold text-[13px] no-underline py-2 px-4 rounded-lg hover:bg-bleu-rep/90 transition-colors">
-          Soutenir le projet
-        </a>
       </div>
 
-      <!-- Explorer -->
+      <!-- Éditions -->
       <div>
-        <h4 class="text-[11px] uppercase tracking-[2px] text-white/40 mb-4">Explorer</h4>
-        {explorerLinks.map(link => (
-          <a href={link.href} class="block text-white/70 no-underline text-sm py-1 hover:text-white transition-colors">
-            {link.label}
-          </a>
-        ))}
-      </div>
-
-      <!-- Comprendre -->
-      <div>
-        <h4 class="text-[11px] uppercase tracking-[2px] text-white/40 mb-4">Comprendre</h4>
-        {comprendreLinks.map(link => (
+        <h4 class="text-[11px] uppercase tracking-[2px] text-white/40 mb-4">Éditions</h4>
+        {editionsLinks.map(link => (
           <a href={link.href} class="block text-white/70 no-underline text-sm py-1 hover:text-white transition-colors">
             {link.label}
           </a>

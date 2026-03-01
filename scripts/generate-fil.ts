@@ -190,9 +190,11 @@ Génère 5-8 mises à jour factuelles pour le fil continu.`;
   const filData = {
     date: today,
     genere_a: new Date().toISOString(),
+    derniere_maj: new Date().toISOString(),
     items: dedupedItems,
     meta: {
       nb_articles_analyses: articles.length,
+      nb_mises_a_jour: 1,
       modele: `${config.provider}/${config.model}`,
       version_pipeline: PIPELINE_VERSION,
     },
