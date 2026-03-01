@@ -8,16 +8,69 @@ interface Props {
 
 const { items, generatedAt, derniereMaj, filDate } = Astro.props;
 
+/** Returns time label: "14:30" today, "Hier" yesterday, "28 fév" older */
+function formatItemHeure(isoDate: string | undefined, heure: string): string {
+  if (!isoDate) return heure;
+  const tz = 'Europe/Paris';
+  const d = new Date(isoDate);
+  if (isNaN(d.getTime())) return heure;
+  const itemDay  = d.toLocaleDateString('fr-FR', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' });
+  const now      = new Date();
+  const todayDay = now.toLocaleDateString('fr-FR', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' });
+  if (itemDay === todayDay) return heure;
+  const prev     = new Date(now); prev.setDate(prev.getDate() - 1);
+  const yestDay  = prev.toLocaleDateString('fr-FR', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' });
+  if (itemDay === yestDay) return `Hier ${heure}`;
+  return `${d.toLocaleDateString('fr-FR', { timeZone: tz, day: 'numeric', month: 'short' })} ${heure}`;
+}
+
 const rubriqueStyle: Record<string, { label: string; color: string }> = {
-  politique:     { label: 'Politique',     color: 'text-bleu-rep' },
-  economie:      { label: 'Économie',      color: 'text-orange' },
-  tech:          { label: 'Tech & IA',     color: 'text-purple-700' },
-  science:       { label: 'Science',       color: 'text-vert' },
-  societe:       { label: 'Société',       color: 'text-rouge-doux' },
-  culture:       { label: 'Culture',       color: 'text-amber-700' },
-  international: { label: 'International', color: 'text-sky-700' },
-  ia:            { label: 'IA',            color: 'text-indigo-700' },
-  general:       { label: 'Général',       color: 'text-gris-clair' },
+  // Politique
+  conflit:      { label: 'Conflit',      color: 'text-red-700' },
+  diplomatie:   { label: 'Diplomatie',   color: 'text-sky-700' },
+  elections:    { label: 'Élections',    color: 'text-bleu-rep' },
+  parlement:    { label: 'Parlement',    color: 'text-bleu-rep' },
+  gouvernement: { label: 'Gouvernement', color: 'text-bleu-rep' },
+  // Tech & IA
+  ia:           { label: 'IA',           color: 'text-indigo-700' },
+  spatial:      { label: 'Spatial',      color: 'text-violet-700' },
+  medecine:     { label: 'Médecine',     color: 'text-emerald-700' },
+  robotique:    { label: 'Robotique',    color: 'text-slate-700' },
+  electronique: { label: 'Électronique', color: 'text-blue-700' },
+  cybersec:     { label: 'Cybersec',     color: 'text-orange-700' },
+  science:      { label: 'Science',      color: 'text-vert' },
+  // Économie
+  macro:        { label: 'Macro',        color: 'text-orange' },
+  taxe:         { label: 'Taxe',         color: 'text-orange' },
+  industrie:    { label: 'Industrie',    color: 'text-amber-700' },
+  automobile:   { label: 'Automobile',   color: 'text-zinc-700' },
+  transport:    { label: 'Transport',    color: 'text-cyan-700' },
+  energie:      { label: 'Énergie',      color: 'text-yellow-700' },
+  immobilier:   { label: 'Immobilier',   color: 'text-stone-700' },
+  travail:        { label: 'Travail',        color: 'text-rouge-doux' },
+  salaire:        { label: 'Salaire',        color: 'text-rouge-doux' },
+  investissement: { label: 'Investissement', color: 'text-amber-700' },
+  ecologie:       { label: 'Écologie',       color: 'text-vert' },
+  // Tech (supplémentaires)
+  architecture: { label: 'Architecture', color: 'text-teal-700' },
+  // Société
+  justice:      { label: 'Justice',      color: 'text-purple-700' },
+  education:    { label: 'Éducation',    color: 'text-blue-700' },
+  sante:        { label: 'Santé',        color: 'text-teal-700' },
+  logement:     { label: 'Logement',     color: 'text-amber-700' },
+  droits:         { label: 'Droits',         color: 'text-rose-700' },
+  discrimination: { label: 'Discrimination', color: 'text-rose-800' },
+  faits:          { label: 'Faits divers',   color: 'text-zinc-600' },
+  // Autres
+  culture:      { label: 'Culture',      color: 'text-amber-700' },
+  sport:        { label: 'Sport',        color: 'text-lime-700' },
+  general:      { label: 'Général',      color: 'text-gris-clair' },
+  // Legacy fallbacks
+  politique:    { label: 'Politique',    color: 'text-bleu-rep' },
+  economie:     { label: 'Économie',     color: 'text-orange' },
+  tech:         { label: 'Tech',         color: 'text-purple-700' },
+  societe:      { label: 'Société',      color: 'text-rouge-doux' },
+  international:{ label: 'International',color: 'text-sky-700' },
 };
 
 const filDateFormatted = filDate
@@ -68,7 +121,7 @@ const filDateFormatted = filDate
       return (
         <div class="flex gap-3 px-4 py-3 border-b border-gris-chaud last:border-0">
           <div class="shrink-0 pt-0.5">
-            <span class="font-mono text-[11px] font-bold text-gris-clair">{item.heure}</span>
+            <span class="font-mono text-[11px] font-bold text-gris-clair">{formatItemHeure(item.isoDate, item.heure)}</span>
           </div>
           <div class="flex-1 min-w-0">
             <div class="flex items-center gap-2 mb-0.5">

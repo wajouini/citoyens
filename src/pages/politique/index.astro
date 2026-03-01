@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { validateFil } from '../../utils/validate-data';
-import { dedupBriefings, dedupArticles, pickFilItems } from '../../utils/section-data';
+import { dedupBriefings, dedupArticles, getTopicsForSection } from '../../utils/section-data';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
@@ -20,8 +19,6 @@ const rest = articles.filter(a => a.id !== hero?.id);
 // ── Données pipeline ────────────────────────────────────────────────────────
 const uneRaw = await import('../../data/une.json').then(m => m.default).catch(() => null);
 const sujetsRaw = await import('../../data/sujets-chauds.json').then(m => m.default).catch(() => null);
-const filRaw = await import('../../data/fil.json').then(m => m.default).catch(() => null);
-const filData = validateFil(filRaw).data;
 
 // ── Déduplication ──────────────────────────────────────────────────────────
 // Tous les titres déjà couverts par des articles MDX
@@ -54,14 +51,14 @@ const sujetsActifs = dedupBriefings(
   [...coveredTitles, ...briefingsFrance.map((b: any) => b.titre), ...briefingsMonde.map((b: any) => b.titre)]
 ).slice(0, 3);
 
-// ── Fil sidebar — politique + international, pas tech/economie/ia/culture ───
-const allFilItems = filData?.items ?? [];
-const filItems = pickFilItems(
-  allFilItems.filter((i: any) => !['tech', 'ia', 'economie', 'culture', 'science'].includes(i.rubrique)),
-  ['politique', 'international', 'societe', 'general'],
-  7,
+// ── Fil sidebar — topics importants politique/international ──────────────────
+const topicsData = await import('../../data/.pipeline/topics-tagged.json').then(m => m.default).catch(() =>
+  import('../../data/.pipeline/topics.json').then(m => m.default).catch(() => null)
 );
-const filDerniereMaj: string | undefined = (filData as any)?.derniere_maj ?? (filData as any)?.genere_a;
+const pipelineArticles = await import('../../data/.pipeline/raw-articles.json').then(m => m.default).catch(() => []);
+const filItems = topicsData
+  ? getTopicsForSection(topicsData, pipelineArticles, ['conflit', 'diplomatie', 'elections', 'parlement', 'gouvernement', 'justice', 'droits', 'discrimination', 'salaire'], 7)
+  : [];
 
 const uneDate: string | undefined = uneRaw?.date as string | undefined;
 
@@ -222,11 +219,10 @@ const formatDateShort = (d: string) =>
       <aside class="w-full lg:w-[300px] shrink-0 lg:sticky lg:top-24 self-start">
         <FilSidebar
           items={filItems}
-          label="Fil Politique"
+          label="Sujets du moment"
           accentColor="text-bleu-rep"
           dotColor="bg-bleu-rep"
           headerBg="bg-bleu-clair"
-          derniereMaj={filDerniereMaj}
         />
       </aside>
     </div>

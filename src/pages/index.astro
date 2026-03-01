@@ -453,37 +453,64 @@ if (sujet) {
       if (!container) return;
 
       const rubriqueColor: Record<string, string> = {
-        politique: 'text-bleu-rep',
-        economie: 'text-orange',
-        tech: 'text-purple-700',
-        science: 'text-vert',
-        societe: 'text-rouge-doux',
-        culture: 'text-amber-700',
-        international: 'text-sky-700',
-        ia: 'text-indigo-700',
+        // fine-grained tags
+        conflit: 'text-red-700', diplomatie: 'text-sky-700', elections: 'text-bleu-rep',
+        parlement: 'text-bleu-rep', gouvernement: 'text-bleu-rep',
+        ia: 'text-indigo-700', spatial: 'text-violet-700', medecine: 'text-emerald-700',
+        robotique: 'text-slate-700', electronique: 'text-blue-700', cybersec: 'text-orange-700',
+        architecture: 'text-teal-700', science: 'text-vert',
+        macro: 'text-orange', taxe: 'text-orange', industrie: 'text-amber-700',
+        automobile: 'text-zinc-700', transport: 'text-cyan-700', energie: 'text-yellow-700',
+        immobilier: 'text-stone-700', travail: 'text-rouge-doux', salaire: 'text-rouge-doux',
+        investissement: 'text-amber-700', ecologie: 'text-vert',
+        justice: 'text-purple-700', education: 'text-blue-700', sante: 'text-teal-700',
+        logement: 'text-amber-700', droits: 'text-rose-700', discrimination: 'text-rose-800',
+        faits: 'text-zinc-600', culture: 'text-amber-700', sport: 'text-lime-700', general: 'text-gris-clair',
+        // legacy
+        politique: 'text-bleu-rep', economie: 'text-orange', tech: 'text-purple-700',
+        societe: 'text-rouge-doux', international: 'text-sky-700',
       };
       const rubriqueLabel: Record<string, string> = {
-        politique: 'Politique',
-        economie: 'Économie',
-        tech: 'Tech',
-        science: 'Science',
-        societe: 'Société',
-        culture: 'Culture',
-        international: 'International',
-        ia: 'IA',
+        conflit: 'Conflit', diplomatie: 'Diplomatie', elections: 'Élections',
+        parlement: 'Parlement', gouvernement: 'Gouvernement',
+        ia: 'IA', spatial: 'Spatial', medecine: 'Médecine', robotique: 'Robotique',
+        electronique: 'Électronique', cybersec: 'Cybersec', architecture: 'Architecture', science: 'Science',
+        macro: 'Macro', taxe: 'Taxe', industrie: 'Industrie', automobile: 'Automobile',
+        transport: 'Transport', energie: 'Énergie', immobilier: 'Immobilier',
+        travail: 'Travail', salaire: 'Salaire', investissement: 'Investissement', ecologie: 'Écologie',
+        justice: 'Justice', education: 'Éducation', sante: 'Santé', logement: 'Logement',
+        droits: 'Droits', discrimination: 'Discrimination', faits: 'Faits divers',
+        culture: 'Culture', sport: 'Sport', general: 'Général',
+        // legacy
+        politique: 'Politique', economie: 'Économie', tech: 'Tech',
+        societe: 'Société', international: 'International',
       };
+
+      function formatItemHeure(isoDate: string, heure: string): string {
+        if (!isoDate) return heure;
+        const tz = 'Europe/Paris';
+        const d = new Date(isoDate);
+        if (isNaN(d.getTime())) return heure;
+        const fmt = (date: Date) => date.toLocaleDateString('fr-FR', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' });
+        const today = fmt(new Date());
+        if (fmt(d) === today) return heure;
+        const prev = new Date(); prev.setDate(prev.getDate() - 1);
+        if (fmt(d) === fmt(prev)) return `Hier ${heure}`;
+        return `${d.toLocaleDateString('fr-FR', { timeZone: tz, day: 'numeric', month: 'short' })} ${heure}`;
+      }
 
       container.innerHTML = items.map((item: any) => {
         const color = rubriqueColor[item.rubrique] || 'text-bleu-rep';
         const label = rubriqueLabel[item.rubrique] || item.rubrique;
         const itemUrl = item.url || item.source_url;
         const itemTitle = item.titre || item.texte;
+        const heureLabel = formatItemHeure(item.isoDate, item.heure);
         const titleHtml = itemUrl
           ? `<a href="${itemUrl}" target="_blank" rel="noopener noreferrer" class="block text-[13px] text-noir leading-snug no-underline hover:text-bleu-rep transition-colors line-clamp-2">${itemTitle}</a>`
           : `<p class="text-[13px] text-noir leading-snug line-clamp-2">${itemTitle}</p>`;
         return `<div class="flex gap-3 px-4 py-3 border-b border-gris-chaud last:border-0">
           <div class="shrink-0 pt-0.5">
-            <span class="font-mono text-[11px] font-bold text-gris-clair">${item.heure}</span>
+            <span class="font-mono text-[11px] font-bold text-gris-clair">${heureLabel}</span>
           </div>
           <div class="flex-1 min-w-0">
             <div class="flex items-center gap-2 mb-0.5">

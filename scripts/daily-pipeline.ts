@@ -71,6 +71,11 @@ const steps: Step[] = [
     critical: true,
   },
   {
+    name: 'Classification LLM des topics (Gemini)',
+    command: 'npx tsx scripts/classify-topics.ts',
+    critical: false,
+  },
+  {
     name: 'Génération de la Une',
     command: 'npx tsx scripts/generate-une.ts',
     critical: true,

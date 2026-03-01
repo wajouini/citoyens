@@ -19,7 +19,8 @@
     "subscribers": "tsx scripts/manage-subscribers.ts",
     "generate:decryptage": "tsx scripts/generate-decryptage.ts",
     "generate:articles": "tsx scripts/generate-articles.ts",
-    "fil:rss": "tsx scripts/fetch-rss-fil.ts"
+    "fil:rss": "tsx scripts/fetch-rss-fil.ts",
+    "classify:topics": "npx dotenv-cli -e .env -- tsx scripts/classify-topics.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",

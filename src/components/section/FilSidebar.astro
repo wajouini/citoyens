@@ -10,17 +10,60 @@ interface Props {
 
 const { items, label, accentColor, dotColor, headerBg, derniereMaj } = Astro.props;
 
+function formatItemHeure(isoDate: string | undefined, heure: string): string {
+  if (!isoDate) return heure;
+  const tz = 'Europe/Paris';
+  const d = new Date(isoDate);
+  if (isNaN(d.getTime())) return heure;
+  const fmt = (date: Date) => date.toLocaleDateString('fr-FR', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' });
+  const today = fmt(new Date());
+  if (fmt(d) === today) return heure;
+  const prev = new Date(); prev.setDate(prev.getDate() - 1);
+  if (fmt(d) === fmt(prev)) return `Hier ${heure}`;
+  return `${d.toLocaleDateString('fr-FR', { timeZone: tz, day: 'numeric', month: 'short' })} ${heure}`;
+}
+
 const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
-  politique:     { label: 'Politique',     color: 'text-bleu-rep',    bg: 'bg-bleu-clair' },
-  economie:      { label: 'Économie',      color: 'text-orange',      bg: 'bg-orange/10' },
-  tech:          { label: 'Tech & IA',     color: 'text-purple-700',  bg: 'bg-purple-50' },
-  science:       { label: 'Science',       color: 'text-vert',        bg: 'bg-green-50' },
-  societe:       { label: 'Société',       color: 'text-rouge-doux',  bg: 'bg-red-50' },
-  culture:       { label: 'Culture',       color: 'text-amber-700',   bg: 'bg-amber-50' },
-  international: { label: 'International', color: 'text-sky-700',     bg: 'bg-sky-50' },
-  ia:            { label: 'IA',            color: 'text-indigo-700',  bg: 'bg-indigo-50' },
-  general:       { label: 'Général',       color: 'text-gris-clair',  bg: 'bg-gris-chaud' },
-  social:        { label: 'Social',        color: 'text-orange',      bg: 'bg-orange/10' },
+  // Politique
+  conflit:      { label: 'Conflit',      color: 'text-red-700',      bg: 'bg-red-50' },
+  diplomatie:   { label: 'Diplomatie',   color: 'text-sky-700',      bg: 'bg-sky-50' },
+  elections:    { label: 'Élections',    color: 'text-bleu-rep',     bg: 'bg-bleu-clair' },
+  parlement:    { label: 'Parlement',    color: 'text-bleu-rep',     bg: 'bg-bleu-clair' },
+  gouvernement: { label: 'Gouvernement', color: 'text-bleu-rep',     bg: 'bg-bleu-clair' },
+  // Tech & IA
+  ia:           { label: 'IA',           color: 'text-indigo-700',   bg: 'bg-indigo-50' },
+  spatial:      { label: 'Spatial',      color: 'text-violet-700',   bg: 'bg-violet-50' },
+  medecine:     { label: 'Médecine',     color: 'text-emerald-700',  bg: 'bg-emerald-50' },
+  robotique:    { label: 'Robotique',    color: 'text-slate-700',    bg: 'bg-slate-100' },
+  electronique: { label: 'Électronique', color: 'text-blue-700',     bg: 'bg-blue-50' },
+  cybersec:     { label: 'Cybersec',     color: 'text-orange-700',   bg: 'bg-orange-50' },
+  science:      { label: 'Science',      color: 'text-vert',         bg: 'bg-green-50' },
+  // Économie
+  macro:        { label: 'Macro',        color: 'text-orange',       bg: 'bg-orange/10' },
+  taxe:         { label: 'Taxe',         color: 'text-orange',       bg: 'bg-orange/10' },
+  industrie:    { label: 'Industrie',    color: 'text-amber-700',    bg: 'bg-amber-50' },
+  automobile:   { label: 'Automobile',   color: 'text-zinc-700',     bg: 'bg-zinc-100' },
+  transport:    { label: 'Transport',    color: 'text-cyan-700',     bg: 'bg-cyan-50' },
+  energie:      { label: 'Énergie',      color: 'text-yellow-700',   bg: 'bg-yellow-50' },
+  immobilier:   { label: 'Immobilier',   color: 'text-stone-700',    bg: 'bg-stone-100' },
+  travail:        { label: 'Travail',        color: 'text-rouge-doux',   bg: 'bg-red-50' },
+  salaire:        { label: 'Salaire',        color: 'text-rouge-doux',   bg: 'bg-red-50' },
+  investissement: { label: 'Investissement', color: 'text-amber-700',    bg: 'bg-amber-50' },
+  ecologie:       { label: 'Écologie',       color: 'text-vert',         bg: 'bg-green-50' },
+  // Tech (supplémentaires)
+  architecture: { label: 'Architecture', color: 'text-teal-700',     bg: 'bg-teal-50' },
+  // Société
+  justice:      { label: 'Justice',      color: 'text-purple-700',   bg: 'bg-purple-50' },
+  education:    { label: 'Éducation',    color: 'text-blue-700',     bg: 'bg-blue-50' },
+  sante:        { label: 'Santé',        color: 'text-teal-700',     bg: 'bg-teal-50' },
+  logement:     { label: 'Logement',     color: 'text-amber-700',    bg: 'bg-amber-50' },
+  droits:         { label: 'Droits',         color: 'text-rose-700',     bg: 'bg-rose-50' },
+  discrimination: { label: 'Discrimination', color: 'text-rose-800',     bg: 'bg-rose-100' },
+  faits:          { label: 'Faits divers',   color: 'text-zinc-600',     bg: 'bg-zinc-100' },
+  // Autres
+  culture:      { label: 'Culture',      color: 'text-amber-700',    bg: 'bg-amber-50' },
+  sport:        { label: 'Sport',        color: 'text-lime-700',     bg: 'bg-lime-50' },
+  general:      { label: 'Général',      color: 'text-gris-clair',   bg: 'bg-gris-chaud' },
 };
 ---
 
@@ -46,7 +89,7 @@ const rubriqueStyle: Record<string, { label: string; color: string; bg: string }
         return (
           <div class="flex gap-3 px-4 py-3 border-b border-gris-chaud last:border-0">
             <div class="shrink-0 pt-0.5">
-              <span class="font-mono text-[10px] font-bold text-gris-clair">{item.heure}</span>
+              <span class="font-mono text-[10px] font-bold text-gris-clair">{formatItemHeure(item.isoDate, item.heure)}</span>
             </div>
             <div class="flex-1 min-w-0">
               <div class="flex items-center gap-1.5 mb-0.5 flex-wrap">
