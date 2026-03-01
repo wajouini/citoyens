@@ -25,7 +25,14 @@ const faitsIA = dedupBriefings(allFaitsIA, coveredTitles);
 
 const filRaw = await import('../../data/fil.json').then(m => m.default).catch(() => null);
 const filData = validateFil(filRaw).data;
-const filItems = pickFilItems(filData?.items ?? [], ['tech', 'ia'], 8);
+// ── Fil sidebar — tech + ia, pas politique/economie/culture ─────────────────
+const allFilItems = filData?.items ?? [];
+const filItems = pickFilItems(
+  allFilItems.filter((i: any) => !['politique', 'international', 'economie', 'culture', 'societe', 'social'].includes(i.rubrique)),
+  ['tech', 'ia', 'science', 'general'],
+  7,
+);
+const filDerniereMaj: string | undefined = (filData as any)?.derniere_maj ?? (filData as any)?.genere_a;
 
 const sousSection: Record<string, { label: string; color: string; bg: string }> = {
   annonces:  { label: 'Annonces',   color: 'text-indigo-700', bg: 'bg-indigo-50' },
@@ -175,6 +182,7 @@ const formatDateShort = (d: string) =>
           accentColor="text-purple-700"
           dotColor="bg-purple-600"
           headerBg="bg-purple-50"
+          derniereMaj={filDerniereMaj}
         />
       </aside>
     </div>

@@ -39,12 +39,14 @@ const sujetsActifs = dedupBriefings(
   [...coveredTitles, ...briefingsFrance.map((b: any) => b.titre)]
 ).slice(0, 3);
 
-// ── Fil sidebar ─────────────────────────────────────────────────────────────
+// ── Fil sidebar — économie + social, pas politique/tech/ia/culture ──────────
+const allFilItems = filData?.items ?? [];
 const filItems = pickFilItems(
-  filData?.items ?? [],
-  ['economie', 'social'],
-  8,
+  allFilItems.filter((i: any) => !['tech', 'ia', 'politique', 'international', 'culture', 'science'].includes(i.rubrique)),
+  ['economie', 'social', 'societe', 'general'],
+  7,
 );
+const filDerniereMaj: string | undefined = (filData as any)?.derniere_maj ?? (filData as any)?.genere_a;
 
 const uneDate: string | undefined = uneRaw?.date as string | undefined;
 
@@ -183,6 +185,7 @@ const formatDateShort = (d: string) =>
           accentColor="text-orange"
           dotColor="bg-orange"
           headerBg="bg-orange/5"
+          derniereMaj={filDerniereMaj}
         />
       </aside>
     </div>

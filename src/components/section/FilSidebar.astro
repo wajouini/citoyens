@@ -2,40 +2,79 @@
 interface Props {
   items: any[];
   label: string;
-  accentColor: string; // Tailwind color class for dot + text hover
-  dotColor: string;    // Tailwind bg class for the pulse dot
-  headerBg: string;   // Tailwind bg class for header
+  accentColor: string;
+  dotColor: string;
+  headerBg: string;
+  derniereMaj?: string;
 }
 
-const { items, label, accentColor, dotColor, headerBg } = Astro.props;
+const { items, label, accentColor, dotColor, headerBg, derniereMaj } = Astro.props;
+
+const rubriqueStyle: Record<string, { label: string; color: string; bg: string }> = {
+  politique:     { label: 'Politique',     color: 'text-bleu-rep',    bg: 'bg-bleu-clair' },
+  economie:      { label: 'Économie',      color: 'text-orange',      bg: 'bg-orange/10' },
+  tech:          { label: 'Tech & IA',     color: 'text-purple-700',  bg: 'bg-purple-50' },
+  science:       { label: 'Science',       color: 'text-vert',        bg: 'bg-green-50' },
+  societe:       { label: 'Société',       color: 'text-rouge-doux',  bg: 'bg-red-50' },
+  culture:       { label: 'Culture',       color: 'text-amber-700',   bg: 'bg-amber-50' },
+  international: { label: 'International', color: 'text-sky-700',     bg: 'bg-sky-50' },
+  ia:            { label: 'IA',            color: 'text-indigo-700',  bg: 'bg-indigo-50' },
+  general:       { label: 'Général',       color: 'text-gris-clair',  bg: 'bg-gris-chaud' },
+  social:        { label: 'Social',        color: 'text-orange',      bg: 'bg-orange/10' },
+};
 ---
 
 <div class="border border-gris-chaud rounded-xl overflow-hidden bg-blanc">
-  <div class={`px-4 py-3 border-b border-gris-chaud ${headerBg} flex items-center gap-2`}>
-    <span class={`w-2 h-2 rounded-full ${dotColor} animate-pulse`}></span>
-    <span class={`font-mono text-[11px] font-bold uppercase tracking-[2px] ${accentColor}`}>{label}</span>
+  <div class={`px-4 py-3 border-b border-gris-chaud ${headerBg} flex items-center justify-between`}>
+    <div class="flex items-center gap-2">
+      <span class={`w-2 h-2 rounded-full ${dotColor} animate-pulse`}></span>
+      <span class={`font-mono text-[11px] font-bold uppercase tracking-[2px] ${accentColor}`}>{label}</span>
+    </div>
+    {derniereMaj && (
+      <span class="font-mono text-[9px] text-gris-clair" id="fil-sidebar-ts" data-ts={derniereMaj}>
+        {new Date(derniereMaj).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
+      </span>
+    )}
   </div>
 
   {items.length > 0 ? (
-    <div class="divide-y divide-gris-chaud">
+    <div class="flex flex-col gap-0">
       {items.map((item: any) => {
-        const text = item.titre ?? item.texte;
+        const style = rubriqueStyle[item.rubrique] ?? rubriqueStyle.general;
         const href = item.url ?? item.source_url;
+        const title = item.titre ?? item.texte;
         return (
-          <div class="px-4 py-3 group">
-            {href ? (
-              <a
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                class={`text-[13px] font-medium text-noir leading-snug no-underline ${accentColor.replace('text-', 'hover:text-')} transition-colors block mb-1 line-clamp-2`}
-              >
-                {text}
-              </a>
-            ) : (
-              <p class="text-[13px] font-medium text-noir leading-snug mb-1 line-clamp-2">{text}</p>
-            )}
-            <span class="font-mono text-[10px] text-gris-clair">{item.source}</span>
+          <div class="flex gap-3 px-4 py-3 border-b border-gris-chaud last:border-0">
+            <div class="shrink-0 pt-0.5">
+              <span class="font-mono text-[10px] font-bold text-gris-clair">{item.heure}</span>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-1.5 mb-0.5 flex-wrap">
+                <span class={`font-mono text-[9px] font-bold uppercase tracking-wider ${style.color}`}>
+                  {style.label}
+                </span>
+                <a
+                  href={href || '#'}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-mono text-[9px] text-gris-clair no-underline hover:text-bleu-rep transition-colors"
+                >
+                  {item.source} ↗
+                </a>
+              </div>
+              {href ? (
+                <a
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="block text-[13px] text-noir leading-snug no-underline hover:text-bleu-rep transition-colors line-clamp-2"
+                >
+                  {title}
+                </a>
+              ) : (
+                <p class="text-[13px] text-noir leading-snug line-clamp-2">{title}</p>
+              )}
+            </div>
           </div>
         );
       })}
@@ -44,3 +83,19 @@ const { items, label, accentColor, dotColor, headerBg } = Astro.props;
     <p class="px-4 py-8 text-[12px] text-gris-clair font-mono text-center">Mise à jour en cours…</p>
   )}
 </div>
+
+<script>
+  function updateTs() {
+    const el = document.getElementById('fil-sidebar-ts');
+    if (!el) return;
+    const ts = el.getAttribute('data-ts');
+    if (!ts) return;
+    const diff = Date.now() - new Date(ts).getTime();
+    const mins = Math.floor(diff / 60000);
+    if (mins < 1) el.textContent = "à l'instant";
+    else if (mins < 60) el.textContent = `il y a ${mins}min`;
+    else el.textContent = `il y a ${Math.floor(mins / 60)}h`;
+  }
+  updateTs();
+  setInterval(updateTs, 60_000);
+</script>
