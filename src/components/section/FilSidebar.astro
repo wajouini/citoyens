@@ -1,0 +1,46 @@
+---
+interface Props {
+  items: any[];
+  label: string;
+  accentColor: string; // Tailwind color class for dot + text hover
+  dotColor: string;    // Tailwind bg class for the pulse dot
+  headerBg: string;   // Tailwind bg class for header
+}
+
+const { items, label, accentColor, dotColor, headerBg } = Astro.props;
+---
+
+<div class="border border-gris-chaud rounded-xl overflow-hidden bg-blanc">
+  <div class={`px-4 py-3 border-b border-gris-chaud ${headerBg} flex items-center gap-2`}>
+    <span class={`w-2 h-2 rounded-full ${dotColor} animate-pulse`}></span>
+    <span class={`font-mono text-[11px] font-bold uppercase tracking-[2px] ${accentColor}`}>{label}</span>
+  </div>
+
+  {items.length > 0 ? (
+    <div class="divide-y divide-gris-chaud">
+      {items.map((item: any) => {
+        const text = item.titre ?? item.texte;
+        const href = item.url ?? item.source_url;
+        return (
+          <div class="px-4 py-3 group">
+            {href ? (
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                class={`text-[13px] font-medium text-noir leading-snug no-underline ${accentColor.replace('text-', 'hover:text-')} transition-colors block mb-1 line-clamp-2`}
+              >
+                {text}
+              </a>
+            ) : (
+              <p class="text-[13px] font-medium text-noir leading-snug mb-1 line-clamp-2">{text}</p>
+            )}
+            <span class="font-mono text-[10px] text-gris-clair">{item.source}</span>
+          </div>
+        );
+      })}
+    </div>
+  ) : (
+    <p class="px-4 py-8 text-[12px] text-gris-clair font-mono text-center">Mise à jour en cours…</p>
+  )}
+</div>

@@ -111,18 +111,36 @@ export interface FilItem {
 }
 
 /**
- * Returns up to `limit` fil items for a section.
+ * Returns up to `limit` fil items for a section, ensuring source diversity.
  * First tries rubriques matching the section, then falls back to recents.
+ * Max 2 items per source to avoid repetition.
  */
 export function pickFilItems(
   allItems: FilItem[],
   rubriques: string[],
-  limit = 8,
+  limit = 6,
 ): FilItem[] {
+  function diversify(items: FilItem[], max: number): FilItem[] {
+    const sourceCounts = new Map<string, number>();
+    const result: FilItem[] = [];
+    for (const item of items) {
+      const src = item.source ?? 'unknown';
+      const count = sourceCounts.get(src) ?? 0;
+      if (count < 2) {
+        result.push(item);
+        sourceCounts.set(src, count + 1);
+      }
+      if (result.length >= max) break;
+    }
+    return result;
+  }
+
   const matched = allItems.filter(i => i.rubrique && rubriques.includes(i.rubrique));
-  if (matched.length >= 4) return matched.slice(0, limit);
+  const diversified = diversify(matched, limit);
+  if (diversified.length >= 4) return diversified;
+
   // fallback: fill from all items not already included
-  const matchedUrls = new Set(matched.map(i => i.url));
-  const extras = allItems.filter(i => !matchedUrls.has(i.url));
-  return [...matched, ...extras].slice(0, limit);
+  const usedUrls = new Set(diversified.map(i => i.url));
+  const extras = allItems.filter(i => !usedUrls.has(i.url));
+  return diversify([...diversified, ...extras], limit);
 }

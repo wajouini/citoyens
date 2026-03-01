@@ -5,6 +5,7 @@ import { dedupBriefings, dedupArticles, pickFilItems } from '../../utils/section
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
+import FilSidebar from '../../components/section/FilSidebar.astro';
 
 // ── Articles MDX ───────────────────────────────────────────────────────────
 const allArticles = await getCollection('articles');
@@ -175,41 +176,14 @@ const formatDateShort = (d: string) =>
       </div>
 
       {/* ── Sidebar ── */}
-      <aside class="w-full lg:w-[300px] shrink-0 lg:sticky lg:top-24 self-start space-y-6">
-
-        <div class="border border-gris-chaud rounded-xl overflow-hidden bg-blanc">
-          <div class="px-4 py-3 border-b border-gris-chaud bg-orange/5 flex items-center gap-2">
-            <span class="w-2 h-2 rounded-full bg-orange animate-pulse"></span>
-            <span class="font-mono text-[11px] font-bold uppercase tracking-[2px] text-orange">Fil Économie</span>
-          </div>
-          <div class="divide-y divide-gris-chaud">
-            {filItems.map((item: any) => (
-              <div class="px-4 py-3">
-                <div class="flex items-center gap-2 mb-1">
-                  {item.heure && <span class="font-mono text-[10px] font-bold text-gris-clair">{item.heure}</span>}
-                  <span class="font-mono text-[9px] text-gris-clair truncate">{item.source}</span>
-                </div>
-                {item.url ? (
-                  <a href={item.url} target="_blank" rel="noopener noreferrer"
-                    class="text-[13px] text-noir leading-snug no-underline hover:text-orange transition-colors block line-clamp-2">
-                    {item.titre ?? item.texte}
-                  </a>
-                ) : (
-                  <p class="text-[13px] text-noir leading-snug line-clamp-2">{item.titre ?? item.texte}</p>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div class="border border-gris-chaud rounded-xl p-4 bg-blanc">
-          <h3 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir mb-2">Notre démarche</h3>
-          <p class="text-[12px] text-gris-texte leading-relaxed mb-3">
-            Chaque article suit un template en trois parties : <strong>contexte</strong>, <strong>les faits</strong>, et <strong>pourquoi c'est important</strong>. Toutes les sources sont citées.
-          </p>
-          <a href="/methodologie" class="font-mono text-[11px] text-orange no-underline hover:underline">Lire notre méthodologie →</a>
-        </div>
-
+      <aside class="w-full lg:w-[300px] shrink-0 lg:sticky lg:top-24 self-start">
+        <FilSidebar
+          items={filItems}
+          label="Fil Économie"
+          accentColor="text-orange"
+          dotColor="bg-orange"
+          headerBg="bg-orange/5"
+        />
       </aside>
     </div>
   </main>
