@@ -96,9 +96,39 @@ const jsonLd = {
       {sujet.titre}
     </h1>
 
+    {/* ── TL;DR ── */}
+    {sujet.tldr?.length > 0 && (
+      <div class="bg-bleu-rep/5 border-l-4 border-bleu-rep rounded-r-xl px-5 py-4 mb-8">
+        <p class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-bleu-rep mb-3">En bref</p>
+        <ul class="flex flex-col gap-2">
+          {sujet.tldr.map((point: string) => (
+            <li class="flex items-start gap-2.5 text-[15px] text-noir leading-snug">
+              <span class="text-bleu-rep mt-1 shrink-0 font-bold text-[10px]">→</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    {/* ── RÉSUMÉ ── */}
     <p class="text-[17px] md:text-[19px] leading-relaxed text-gris-texte mb-10 max-w-[640px]">
       <LinkedText text={sujet.resume || ''} sources={sujet.sources} />
     </p>
+
+    {/* ── CONTEXTE HISTORIQUE ── */}
+    {sujet.contexte_historique && (
+      <section class="mb-12">
+        <div class="bg-creme border border-gris-chaud rounded-xl p-6">
+          <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-noir mb-4 flex items-center gap-2">
+            <span class="text-base">🕰</span> Le contexte qu'on oublie
+          </h2>
+          <p class="text-[15px] text-noir leading-relaxed">
+            {sujet.contexte_historique}
+          </p>
+        </div>
+      </section>
+    )}
 
     {/* ── CHRONOLOGIE ── */}
     {sujet.chronologie?.length > 0 && (
@@ -121,10 +151,46 @@ const jsonLd = {
       </section>
     )}
 
+    {/* ── IMPLICATIONS ── */}
+    {sujet.implications?.length > 0 && (
+      <section class="mb-12">
+        <h2 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-5 flex items-center gap-2 font-bold">
+          <span class="text-base">⚡</span> Ce que ça implique concrètement
+        </h2>
+        <ul class="flex flex-col gap-3">
+          {sujet.implications.map((impl: string) => (
+            <li class="flex items-start gap-3 text-[16px] text-noir leading-relaxed border-b border-gris-chaud/40 pb-3 last:border-0 last:pb-0">
+              <span class="text-bleu-rep mt-1 shrink-0 font-bold text-[10px]">→</span>
+              <span>{impl}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {/* ── CE QU'ON NE SAIT PAS ENCORE ── */}
+    {sujet.ce_quon_ne_sait_pas?.length > 0 && (
+      <section class="mb-12">
+        <div class="bg-orange/5 border-l-4 border-orange rounded-r-xl px-5 py-4">
+          <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-orange mb-4 flex items-center gap-2">
+            <span>❓</span> Ce qu'on ne sait pas encore
+          </h2>
+          <ul class="flex flex-col gap-3">
+            {sujet.ce_quon_ne_sait_pas.map((q: string) => (
+              <li class="flex items-start gap-3 text-[15px] text-noir leading-relaxed">
+                <span class="text-orange mt-1 shrink-0 text-xs font-bold">▸</span>
+                <span>{q}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )}
+
     {/* ── COUVERTURES MÉDIAS ── */}
     {sujet.couvertures?.length > 0 && (
-      <section class="mb-12">
-        <h2 class="font-mono text-[10px] uppercase tracking-[2px] text-noir mb-6 flex items-center gap-2 font-bold">
+      <section class="mb-12 pt-10 border-t border-gris-chaud">
+        <h2 class="font-mono text-[10px] uppercase tracking-[2px] text-gris-clair mb-6 flex items-center gap-2 font-bold">
           <span class="text-base">📰</span> Comment les médias en parlent
         </h2>
         <div class="flex flex-col gap-4">
@@ -150,25 +216,6 @@ const jsonLd = {
               )}
             </a>
           ))}
-        </div>
-      </section>
-    )}
-
-    {/* ── CE QU'ON NE SAIT PAS ENCORE ── */}
-    {sujet.ce_quon_ne_sait_pas?.length > 0 && (
-      <section class="mb-12">
-        <div class="bg-orange/5 border border-orange/20 rounded-xl p-6">
-          <h2 class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-orange mb-4 flex items-center gap-2">
-            <span>❓</span> Ce qu'on ne sait pas encore
-          </h2>
-          <ul class="flex flex-col gap-3">
-            {sujet.ce_quon_ne_sait_pas.map((q: string) => (
-              <li class="flex items-start gap-3 text-[15px] text-noir leading-relaxed">
-                <span class="text-orange mt-1 shrink-0 text-xs">▸</span>
-                <span>{q}</span>
-              </li>
-            ))}
-          </ul>
         </div>
       </section>
     )}

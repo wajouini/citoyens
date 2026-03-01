@@ -31,16 +31,15 @@ interface FeedMeta {
   ligne_editoriale: string | null;
 }
 
-const SYSTEM_PROMPT = `Tu es le rédacteur en chef de Citoyens.ai, responsable de la section "Radar".
+const SYSTEM_PROMPT = `Tu es un journaliste d'investigation expérimenté, rédacteur en chef de Citoyens.ai, section "Radar".
 
 ## Mission
-Identifier les 3-6 sujets que les gens suivent en ce moment : crises, polémiques, événements majeurs, tendances émergentes.
-Pour chaque sujet, donner les faits, la chronologie, et montrer comment les différents médias le couvrent.
+Identifier les 3-6 sujets que les gens suivent en ce moment et rédiger des analyses journalistiques denses, sourcées, sans remplissage.
+Tu sais croiser les sources, reconnaître les biais, et donner le contexte historique qui manque presque toujours au débat immédiat.
 
 ## Critères de sélection
 - Couvert par 3+ sources avec des angles différents
-- Forte intensité médiatique (beaucoup d'articles en peu de temps)
-- Polémique, crise, scandale, événement majeur
+- Forte intensité médiatique OU sujet important sous-couvert
 - Le genre de sujet dont les gens parlent au bureau ou en famille
 - Signaux de buzz : sujets tendance sur HackerNews, Reddit, Wikipedia (fournis séparément)
 
@@ -49,10 +48,20 @@ Pour chaque sujet, donner les faits, la chronologie, et montrer comment les diff
 {
   "sujets_actifs": [
     {
-      "titre": "string (titre court et clair)",
+      "titre": "string (titre factuel direct, pas de dramaturgie)",
       "slug": "string (URL-friendly: lettres minuscules, chiffres, tirets)",
       "rubrique": "politique|economie|tech|science|societe|culture|international|ia",
-      "resume": "string (3-4 phrases : quoi, qui, depuis quand)",
+      "tldr": [
+        "string (fait essentiel 1 — formulation directe, < 120 caractères)",
+        "string (fait essentiel 2)",
+        "string (fait essentiel 3 — optionnel)"
+      ],
+      "resume": "string (synthèse journalistique 4-6 phrases : quoi, qui, depuis quand, pourquoi c'est important — croiser au moins 2 sources, signaler les contradictions)",
+      "contexte_historique": "string (2-4 phrases : précédents historiques, comparaisons internationales, droit applicable, données chiffrées documentées — pas de rhétorique, uniquement des faits vérifiables avec source entre parenthèses)",
+      "implications": [
+        "string (conséquence concrète documentée 1)",
+        "string (conséquence concrète documentée 2)"
+      ],
       "chronologie": [
         { "date": "YYYY-MM-DD", "texte": "string (1 phrase factuelle)", "source": "string" }
       ],
@@ -60,13 +69,13 @@ Pour chaque sujet, donner les faits, la chronologie, et montrer comment les diff
         {
           "source": "string",
           "type": "investigation|mainstream|fact-check|etranger|institutionnel",
-          "angle": "string (1 phrase)",
+          "angle": "string (1 phrase — l'angle éditorial spécifique de ce média)",
           "ton": "critique|factuel|alarmiste|complaisant|neutre|engage",
           "url": "string (URL valide)",
           "citation_cle": "string"
         }
       ],
-      "ce_quon_ne_sait_pas": ["string (question ouverte)"],
+      "ce_quon_ne_sait_pas": ["string (question ouverte honnête)"],
       "sources": [{ "nom": "string", "url": "string (URL valide)", "type": "string" }],
       "premiere_apparition": "YYYY-MM-DD"
     }
@@ -99,21 +108,21 @@ Pour chaque sujet, donner les faits, la chronologie, et montrer comment les diff
 }
 
 ## Grille de lecture éditoriale
-Citoyens.ai n'est pas neutre sur les valeurs. Notre grille d'analyse privilégie :
-- Le respect du droit international et des résolutions de l'ONU
-- Le financement et la défense des services publics
-- L'équité sociale et la redistribution des richesses
-- La souveraineté alimentaire et la transition écologique
-- Les droits des travailleurs et la démocratie sociale
-
-Les faits sont rapportés sans déformation, mais l'analyse et le choix des angles sont informés par ces valeurs.
+Citoyens.ai applique une exigence journalistique claire :
+- Une affirmation seule n'est pas un fait : croiser les sources systématiquement
+- Appliquer les mêmes standards moraux et juridiques à tous — pas de double grille selon le camp
+- Le respect du droit international et des résolutions de l'ONU comme référence factuelle
+- L'équité sociale, les droits des travailleurs et la démocratie sociale comme grille d'analyse
+- Reconnaître les biais, y compris les nôtres — signaler quand l'analyse dépasse les faits
 
 ## Règles
 - 3-6 sujets actifs (pas de remplissage)
-- Les sujets refroidis doivent avoir le même niveau de détail que les actifs (resume, chronologie, couvertures, sources)
+- TL;DR : 2-3 bullets directs, formulés comme des faits — pas de titres ronflants
+- contexte_historique : OBLIGATOIRE pour tout sujet avec dimension politique, sociale ou internationale. Citer des précédents réels (pays, années, résultats). Si aucun précédent pertinent, omettre le champ.
+- implications : conséquences concrètes documentées, pas des spéculations
 - Chronologie : 3-5 faits datés, du plus récent au plus ancien
-- Couvertures : minimum 2 sources par sujet, avec transparence propriétaire
-- "Ce qu'on ne sait pas encore" : 2-3 questions ouvertes honnêtes
+- Couvertures : minimum 2 sources par sujet — signaler si un angle important est absent de la couverture médiatique
+- "Ce qu'on ne sait pas encore" : 2-3 questions ouvertes honnêtes, pas rhétoriques
 - Utilise UNIQUEMENT les URLs fournies dans les articles
 
 ### RÈGLE CRITIQUE SUR LES CITATIONS INLINE
@@ -315,14 +324,73 @@ Identifie les 2-4 sujets les plus chauds du moment et génère le contenu. Utili
     };
   };
 
+  // ── Sanity check & enrichment ──────────────────────────────────────────────
+  const articleUrlSet = new Set(articles.map((a: RawArticle) => a.url));
+  const articlesByTitle = new Map(articles.map((a: RawArticle) => [a.titre.toLowerCase().slice(0, 40), a]));
+
   for (const sujet of data.sujets_actifs || []) {
     if (!sujet.slug) sujet.slug = slugify(sujet.titre);
+
+    // ── Couvertures : fix missing URLs, remove unfixable ones ──
+    const fixedCouvertures: any[] = [];
     for (const c of sujet.couvertures || []) {
       c.groupe_media = enrichSource(c.source);
+
+      // If URL missing or not in RSS corpus, try to find a match by source name
+      if (!c.url || !articleUrlSet.has(c.url)) {
+        const fallback = articles.find((a: RawArticle) => a.source === c.source);
+        if (fallback) {
+          c.url = fallback.url;
+          console.warn(`  ⚠ [${sujet.titre.slice(0, 30)}] URL fixée pour ${c.source} → ${fallback.url.slice(0, 60)}`);
+        } else {
+          console.warn(`  ✗ [${sujet.titre.slice(0, 30)}] Couverture supprimée (URL invalide, source inconnue): ${c.source}`);
+          continue; // drop this coverage entry
+        }
+      }
+      fixedCouvertures.push(c);
     }
+    sujet.couvertures = fixedCouvertures;
+
+    // ── Coverage diversity check ──────────────────────────────────────────
+    // If a topic has only 1-2 sources covering it but 10+ articles exist, add more
+    const articlesForTopic = articles.filter((a: RawArticle) => {
+      const titleWords = sujet.titre.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(/\s+/).filter((w: string) => w.length > 4);
+      const articleTitle = a.titre.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      const matches = titleWords.filter((w: string) => articleTitle.includes(w)).length;
+      return matches >= 2;
+    });
+
+    if (articlesForTopic.length >= 5 && sujet.couvertures.length < 3) {
+      // Add extra sources from articles not yet in couvertures
+      const existingSources = new Set(sujet.couvertures.map((c: any) => c.source));
+      const extras = articlesForTopic
+        .filter((a: RawArticle) => !existingSources.has(a.source))
+        .slice(0, 3 - sujet.couvertures.length);
+
+      for (const extra of extras) {
+        sujet.couvertures.push({
+          source: extra.source,
+          type: (feedByName.get(extra.source) as any)?.type || 'mainstream',
+          angle: extra.titre,
+          ton: 'factuel',
+          url: extra.url,
+          citation_cle: extra.description?.slice(0, 120) || null,
+          groupe_media: enrichSource(extra.source),
+        });
+        console.warn(`  + [${sujet.titre.slice(0, 30)}] Couverture ajoutée: ${extra.source}`);
+      }
+    }
+
+    // ── Sources : fix missing URLs ──────────────────────────────────────────
     for (const s of sujet.sources || []) {
       s.groupe_media = enrichSource(s.nom);
+      if (!s.url || !articleUrlSet.has(s.url)) {
+        const fallback = articles.find((a: RawArticle) => a.source === s.nom);
+        if (fallback) s.url = fallback.url;
+      }
     }
+    // Drop sources with no valid URL
+    sujet.sources = (sujet.sources || []).filter((s: any) => s.url && s.url.startsWith('http'));
   }
 
   // Build final output

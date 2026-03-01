@@ -32,8 +32,8 @@ interface FeedMeta {
 const SYSTEM_PROMPT = `Tu es un journaliste factuel de Citoyens.ai, responsable du fil continu.
 
 ## Mission
-Produire des mises à jour factuelles courtes (1-2 phrases chacune) sur l'actualité du moment.
-Zéro analyse, zéro opinion — uniquement les faits.
+Produire des titres d'actu factuels et percutants sur l'actualité du moment.
+Zéro analyse, zéro opinion — uniquement les faits, formulés comme un titre de presse.
 
 ## Format de sortie JSON
 
@@ -41,7 +41,9 @@ Zéro analyse, zéro opinion — uniquement les faits.
   "items": [
     {
       "heure": "HH:MM",
-      "texte": "string (1-2 phrases factuelles, 200 caractères max)",
+      "titre": "string (titre factuel percutant, 100 caractères max)",
+      "resume": "string (1 phrase de contexte optionnelle, 150 caractères max)",
+      "url": "string (URL exacte de l'article)",
       "rubrique": "politique|economie|tech|science|societe|culture|international|ia",
       "source": "string (nom du média source)",
       "source_url": "string (URL exacte de l'article)"
@@ -51,11 +53,12 @@ Zéro analyse, zéro opinion — uniquement les faits.
 
 ## Règles
 - 5-8 items, triés du plus récent au plus ancien
-- Chaque item = 1-2 phrases FACTUELLES, pas d'opinion
+- Titre = formulation directe du fait, comme une Une de journal
+- Resume = phrase de contexte en plus si nécessaire (facultatif)
 - Couvrir des rubriques variées
 - Ne pas répéter un même fait sous différents angles
 - Utiliser UNIQUEMENT les URLs fournies dans les articles
-- Le champ "source" de chaque item DOIT correspondre au nom exact du média dont provient l'URL dans "source_url"
+- Le champ "source" DOIT correspondre au nom exact du média dont provient l'URL
 - N'invente JAMAIS une URL ou un nom de source
 - Retourne UNIQUEMENT le JSON`;
 
@@ -136,7 +139,7 @@ async function main() {
   }));
 
   const existingContext = existingItems.length > 0
-    ? `\n## Déjà publié (NE PAS RÉPÉTER)\n${existingItems.map(i => `- ${i.texte}`).join('\n')}`
+    ? `\n## Déjà publié (NE PAS RÉPÉTER)\n${existingItems.map(i => `- ${i.titre || i.texte}`).join('\n')}`
     : '';
 
   const userMessage = `Date : ${today}, Heure actuelle : ${currentHour}
@@ -177,13 +180,13 @@ Génère 5-8 mises à jour factuelles pour le fil continu.`;
     }
   }
 
-  // Merge with existing items (newest first), dedup by text similarity
+  // Merge with existing items (newest first), dedup by title similarity
   const mergedItems = [...(data.items || []), ...existingItems];
   const seen = new Set<string>();
   const dedupedItems = mergedItems.filter(item => {
-    const key = item.texte.slice(0, 50).toLowerCase();
-    if (seen.has(key)) return false;
-    seen.add(key);
+    const content = (item.titre || item.texte || '').slice(0, 50).toLowerCase();
+    if (seen.has(content)) return false;
+    seen.add(content);
     return true;
   }).slice(0, 20);
 

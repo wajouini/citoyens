@@ -42,6 +42,7 @@ interface FilItem {
   type: string;
   orientation: string;
   isoDate: string;
+  _fil?: boolean; // transient: LLM verdict on fil-worthiness, stripped before writing
 }
 
 const RUBRIQUES_CANON: Record<string, string> = {
@@ -111,23 +112,41 @@ function classifyByTitle(titre: string): string {
 
 // ── LLM classification ───────────────────────────────────────────────────────
 
-const FIL_CLASSIFY_SYSTEM = `Tu es un éditeur de presse français expert en classification thématique.
-Ta tâche : attribuer UN seul tag parmi la liste fournie à chaque titre d'article.
+const FIL_CLASSIFY_SYSTEM = `Tu es un éditeur de presse français expert en classification thématique et en sélection éditoriale.
+Ta tâche : pour chaque titre d'article, attribuer UN tag thématique ET décider si l'article mérite d'être dans le fil d'actualité en direct.
 
 RÈGLES STRICTES :
-1. Réponds UNIQUEMENT avec un tableau JSON valide : [{"id":"...","tag":"..."},...]
+1. Réponds UNIQUEMENT avec un tableau JSON valide : [{"id":"...","tag":"...","fil":true},...]
 2. Chaque tag doit être exactement l'un des codes de la liste — rien d'autre.
-3. Pas de texte avant ou après le JSON, pas de \`\`\`json.
-4. Privilégie le tag le plus PRÉCIS et SPÉCIFIQUE.
+3. "fil" est un booléen : true = article retenu dans le fil, false = écarté.
+4. Pas de texte avant ou après le JSON, pas de \`\`\`json.
+5. Privilégie le tag le plus PRÉCIS et SPÉCIFIQUE.
 
-DISTINCTION CRITIQUE conflit / diplomatie :
-- conflit  → l'article décrit des ACTES de guerre : frappes, attaques, morts au combat, explosions, opérations militaires, progression de troupes, tirs de missiles
-- diplomatie → l'article décrit des PAROLES ou RÉACTIONS : déclarations officielles, Trump dit qu'il va parler, négociations, réactions diplomatiques, positionnement politique, sanctions, même si la guerre est en arrière-plan
+─── CRITÈRES ÉDITORIAUX — fil: true ───────────────────────────────────────────
+Retenir (fil: true) si l'article rapporte un FAIT NOUVEAU avec conséquences tangibles :
+• Une décision prise : vote, loi adoptée/rejetée, accord signé, condamnation, nomination, démission
+• Un événement factuel majeur : frappe confirmée, crise ouverte, catastrophe, incident grave à portée nationale ou internationale
+• Un chiffre/donnée structurant : inflation, taux directeur, résultat d'élection, chiffres officiels publiés
+• Une action concrète d'un acteur majeur (gouvernement, banque centrale, tribunal, armée)
 
-TAXONOMIE (code → description) :
+─── CRITÈRES ÉDITORIAUX — fil: false ──────────────────────────────────────────
+Écarter (fil: false) si l'article est :
+• Une curiosité scientifique ou médicale sans portée immédiate ("patient bizarre", "découverte étonnante")
+• Un reportage ou témoignage humain (angle humain, récit local, portrait)
+• Un guide, conseil, ou article lifestyle ("meilleures alternatives à...", "comment choisir...")
+• Une opinion, analyse, éditorial ou "réaction à" sans fait nouveau propre
+• Un fait divers local sans portée nationale (accident de voiture, bagarre, trafic local)
+• Un article de campagne sans fait décisif (déclaration de positionnement, sondage ordinaire)
+• Un doublon d'un sujet déjà largement couvert (même événement, angle légèrement différent)
+
+─── DISTINCTION CRITIQUE conflit / diplomatie ──────────────────────────────────
+- conflit  → ACTES de guerre : frappes, attaques, morts au combat, explosions, opérations militaires
+- diplomatie → PAROLES ou RÉACTIONS : déclarations, négociations, sanctions, positionnements
+
+─── TAXONOMIE ──────────────────────────────────────────────────────────────────
 conflit: actes de guerre — frappes, attaques, morts militaires, opérations, batailles
 diplomatie: paroles et réactions — déclarations, négociations, sanctions, rencontres, positionnements
-elections: campagnes électorales, scrutins, sondages politiques
+elections: campagnes électorales, scrutins, résultats, sondages politiques
 parlement: assemblée nationale, sénat, votes de loi
 gouvernement: exécutif, conseil des ministres, partis politiques
 ia: intelligence artificielle, LLMs, OpenAI, régulation algo, deepfake
@@ -149,13 +168,13 @@ travail: emploi, chômage, syndicats, grèves, conditions de travail
 salaire: rémunérations, inégalités salariales, gender pay gap, écarts de revenus
 investissement: capital-risque, levées de fonds, fusions-acquisitions, financement
 ecologie: environnement, biodiversité, CO2, déforestation, pollution
-justice: procès, tribunaux, droit pénal, affaires judiciaires
+justice: procès, tribunaux, droit pénal, affaires judiciaires à portée nationale
 education: école, université, programmes scolaires, étudiants
 sante: système de santé, hôpitaux, assurance maladie, soins
 logement: HLM, loyers, accès au logement, expulsions
 droits: LGBTQ+, libertés civiles, laïcité, violences faites aux femmes
 discrimination: discriminations raciales, sexistes, religieuses, origines
-faits: faits divers, accidents graves, catastrophes naturelles
+faits: catastrophes naturelles majeures, accidents graves à portée nationale
 culture: cinéma, musique, livres, littérature, art, mode, jeux vidéo, séries, pop
 sport: toutes compétitions sportives — football, Premier League, Ligue 1, tennis, F1, rugby, NBA, cyclisme...
 general: ne rentre dans aucune catégorie précédente`;
@@ -195,15 +214,23 @@ async function classifyFilWithLLM(items: FilItem[], apiKey: string): Promise<voi
     try {
       const raw = await callLLMWithRetry(config, FIL_CLASSIFY_SYSTEM, userMsg, 2048);
       const clean = raw.trim().replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
-      const parsed = JSON.parse(clean) as Array<{ id: string; tag: string }>;
-      for (const { id, tag } of parsed) {
+      const parsed = JSON.parse(clean) as Array<{ id: string; tag: string; fil?: boolean }>;
+      let retained = 0;
+      let discarded = 0;
+      for (const { id, tag, fil } of parsed) {
         const idx = parseInt(id, 10) - i * 30;
-        if (idx >= 0 && idx < batch.length && VALID_FIL_TAGS.has(tag)) {
-          batch[idx].rubrique = tag;
+        if (idx >= 0 && idx < batch.length) {
+          if (VALID_FIL_TAGS.has(tag)) batch[idx].rubrique = tag;
+          // Apply fil verdict — undefined treated as true (safe default)
+          batch[idx]._fil = fil !== false;
+          if (fil === false) discarded++; else retained++;
         }
       }
+      console.log(`    Batch ${i + 1}: ${retained} retenus, ${discarded} écartés par l'éditeur LLM`);
     } catch (err: any) {
       console.warn(`  ⚠ LLM batch ${i + 1} failed, keeping regex tags: ${err.message}`);
+      // On failure, keep all items from this batch
+      for (const item of batch) { item._fil = true; }
     }
 
     if (i < batches.length - 1) await new Promise(r => setTimeout(r, 300));
@@ -212,9 +239,14 @@ async function classifyFilWithLLM(items: FilItem[], apiKey: string): Promise<voi
 
 // ── Feed fetching ─────────────────────────────────────────────────────────────
 
-const MAX_ITEMS_PER_FEED = 5;
-const MAX_TOTAL_ITEMS    = 80;
-const FETCH_TIMEOUT_MS   = 8_000;
+const MAX_ITEMS_PER_FEED   = 5;
+const MAX_TOTAL_ITEMS      = 40;  // pool avant filtre éditorial LLM
+const MAX_ITEMS_PER_SOURCE = 2;   // moins de domination par source
+const MAX_FIL_OUTPUT       = 20;  // cap final du fil après curation LLM
+const FETCH_TIMEOUT_MS     = 8_000;
+
+// Rubriques exclues du fil — sans intérêt éditorial pour un média civique
+const EXCLUDED_TAGS = new Set(['sport', 'faits', 'culture', 'general']);
 
 async function fetchFeedWithTimeout(parser: Parser, url: string): Promise<Parser.Output<Parser.Item>> {
   const controller = new AbortController();
@@ -240,6 +272,28 @@ function toHeure(dateStr: string | undefined): string {
 
 function getIso(item: Parser.Item): string {
   return item.isoDate ?? item.pubDate ?? new Date(0).toISOString();
+}
+
+/**
+ * Normalized key for same-event deduplication.
+ * Strips accents, punctuation, stopwords; sorts remaining content words.
+ * Two articles covering the exact same event will share a key even with different phrasing.
+ */
+function titleKey(titre: string): string {
+  const STOPWORDS = new Set([
+    'le', 'la', 'les', 'de', 'du', 'des', 'un', 'une', 'et', 'en', 'a', 'au', 'aux',
+    'est', 'se', 'sur', 'par', 'pour', 'dans', 'qui', 'que', 'ce', 'il', 'sa', 'son',
+    'ses', 'ou', 'si', 'ni', 'ne', 'pas', 'mais', 'or', 'car', 'avec', 'sans', 'sous',
+    'apres', 'avant', 'lors', 'quand', 'ya', 'its', 'the', 'of', 'to', 'in', 'for',
+  ]);
+  const words = titre
+    .toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter(w => w.length > 3 && !STOPWORDS.has(w));
+  // Use top-5 content words (sorted) as fingerprint
+  return words.sort().slice(0, 5).join('|');
 }
 
 async function main() {
@@ -308,8 +362,18 @@ async function main() {
     }
   }
 
+  // ── Filtre langue : français uniquement ──────────────────────────────────────
+  const frItems = allItems.filter(i => i.langue === 'fr');
+  const nonFrCount = allItems.length - frItems.length;
+  if (nonFrCount > 0) console.log(`  Filtré: ${nonFrCount} items exclus (langue non française)`);
+
+  // ── Filtre éditorial dur : exclure les rubriques sans valeur civique ──
+  const editorialItems = frItems.filter(i => !EXCLUDED_TAGS.has(i.rubrique));
+  const excludedCount = frItems.length - editorialItems.length;
+  if (excludedCount > 0) console.log(`  Filtré: ${excludedCount} items exclus (sport/faits/culture/general)`);
+
   // Sort fresh items by date descending
-  allItems.sort((a, b) => new Date(b.isoDate).getTime() - new Date(a.isoDate).getTime());
+  editorialItems.sort((a, b) => new Date(b.isoDate).getTime() - new Date(a.isoDate).getTime());
 
   // Merge with existing fil.json BEFORE classification so we only classify the final set
   const srcOutPath    = join(ROOT, 'src/data/fil.json');
@@ -317,28 +381,67 @@ async function main() {
   let existingItems: FilItem[] = [];
   try {
     const existing = JSON.parse(readFileSync(srcOutPath, 'utf-8'));
-    existingItems = existing.items ?? [];
+    // Re-filter existing items: langue française + rubriques valides
+    existingItems = (existing.items ?? []).filter(
+      (i: FilItem) => i.langue === 'fr' && !EXCLUDED_TAGS.has(i.rubrique),
+    );
   } catch { /* first run — no existing file */ }
 
   // Fresh items override existing ones with same URL, then pad with older items up to MAX
-  const freshUrls  = new Set(allItems.map(i => i.url));
+  const freshUrls  = new Set(editorialItems.map(i => i.url));
   const olderItems = existingItems.filter(i => !freshUrls.has(i.url));
-  const merged = [...allItems, ...olderItems]
+
+  const merged = [...editorialItems, ...olderItems]
     .sort((a, b) => new Date(b.isoDate).getTime() - new Date(a.isoDate).getTime())
     .slice(0, MAX_TOTAL_ITEMS);
 
-  const freshInMerged = merged.filter(i => freshUrls.has(i.url)).length;
-  const keptCount     = merged.length - freshInMerged;
-  console.log(`  Merged: ${freshInMerged} fresh + ${keptCount} kept = ${merged.length} total`);
+  // ── Déduplication événementielle : même sujet, sources différentes ──────────
+  const seenTitleKeys = new Set<string>();
+  const dedupedByEvent = merged.filter(i => {
+    const key = titleKey(i.titre);
+    if (!key || seenTitleKeys.has(key)) return false;
+    seenTitleKeys.add(key);
+    return true;
+  });
+  const dupCount = merged.length - dedupedByEvent.length;
+  if (dupCount > 0) console.log(`  Dédup: ${dupCount} doublons événementiels supprimés`);
 
-  // LLM classification on the final merged set — only fresh items need re-tagging
+  // ── Diversification sources : max MAX_ITEMS_PER_SOURCE par source ──
+  const sourceCount = new Map<string, number>();
+  const diversified = dedupedByEvent.filter(i => {
+    const n = sourceCount.get(i.source) ?? 0;
+    if (n >= MAX_ITEMS_PER_SOURCE) return false;
+    sourceCount.set(i.source, n + 1);
+    return true;
+  });
+
+  const freshInMerged = diversified.filter(i => freshUrls.has(i.url)).length;
+  const keptCount     = diversified.length - freshInMerged;
+  console.log(`  Merged: ${freshInMerged} fresh + ${keptCount} kept = ${diversified.length} total (${sourceCount.size} sources distinctes)`);
+
+  // LLM classification on the final set — only fresh items need re-tagging + fil verdict
   const geminiKey = process.env.GEMINI_API_KEY;
   if (geminiKey) {
-    const toClassify = merged.filter(i => freshUrls.has(i.url));
+    const toClassify = diversified.filter(i => freshUrls.has(i.url));
     await classifyFilWithLLM(toClassify, geminiKey);
   } else {
-    console.log('  (GEMINI_API_KEY absent — keeping regex classification)');
+    console.log('  (GEMINI_API_KEY absent — keeping regex classification, tous items retenus)');
+    // No LLM: retain all items (conservative)
+    for (const item of diversified) { item._fil = true; }
   }
+
+  // ── Filtre post-LLM : rubrique + verdict éditorial ───────────────────────────
+  const postLLM = diversified.filter(i => !EXCLUDED_TAGS.has(i.rubrique) && i._fil !== false);
+  const llmDiscarded = diversified.length - postLLM.length;
+  if (llmDiscarded > 0) {
+    console.log(`  Post-LLM: ${llmDiscarded} items écartés (reclassification + verdict éditorial)`);
+  }
+
+  // ── Cap final du fil ──────────────────────────────────────────────────────────
+  const finalItems = postLLM.slice(0, MAX_FIL_OUTPUT);
+
+  // Strip transient _fil field before writing
+  const cleanItems = finalItems.map(({ _fil: _removed, ...rest }) => rest);
 
   const now = new Date().toISOString();
   const output = {
@@ -346,8 +449,8 @@ async function main() {
     genere_a:     now,
     derniere_maj: now,
     source:       'rss',
-    nb_items:     merged.length,
-    items:        merged,
+    nb_items:     cleanItems.length,
+    items:        cleanItems,
   };
 
   // Write to public/ for live client-side refresh
@@ -357,7 +460,7 @@ async function main() {
   // Also write to src/data/ for Astro build-time import
   writeFileSync(srcOutPath, JSON.stringify(output, null, 2), 'utf-8');
 
-  console.log(`✓ ${merged.length} items written → fil.json`);
+  console.log(`✓ ${cleanItems.length} items written → fil.json`);
 }
 
 main().catch(err => {

@@ -1,42 +1,66 @@
 {
   "date": "2026-03-01",
-  "genere_a": "2026-03-01T11:51:59.975Z",
+  "genere_a": "2026-03-01T21:09:31.090Z",
   "sujets_actifs": [
     {
-      "titre": "Guerre Totale contre l'Iran : Mort d'Ali Khamenei et Escalade Régionale",
-      "slug": "guerre-iran-mort-khamenei-escalade",
+      "titre": "Mort d'Ali Khamenei et escalade militaire entre l'Iran, Israël et les États-Unis",
+      "slug": "mort-khamenei-escalade-iran-israel-usa",
       "rubrique": "international",
-      "resume": "L'opération militaire israélo-américaine « Furie Épique », lancée le 28 février, a abouti à la mort du Guide suprême Ali Khamenei, confirmée par Téhéran le 1er mars. En représailles, l'Iran a lancé des salves de missiles contre Israël et les bases américaines dans le Golfe, touchant Dubaï et le Qatar. Un triumvirat intérimaire a été nommé pour assurer la transition alors que Donald Trump menace d'une force « jamais vue auparavant ».",
+      "tldr": [
+        "Ali Khamenei tué par des frappes israélo-américaines le 28 février.",
+        "Riposte massive de l'Iran par missiles sur Israël et les bases US du Golfe.",
+        "Donald Trump annonce une opération militaire de « quatre semaines ou moins »."
+      ],
+      "resume": "L'assassinat du Guide suprême Ali Khamenei, au pouvoir depuis 1989, a déclenché un conflit ouvert au Moyen-Orient. Téhéran a riposté par des tirs de missiles balistiques touchant plusieurs villes israéliennes, dont Beit Shemesh (9 morts), et des bases américaines au Koweït et en Irak. Donald Trump, assumant l'offensive, parie sur un effondrement rapide du régime en quatre semaines, tandis que l'Iran organise sa succession et ferme le détroit d'Ormuz. Les alliés européens et arabes oscillent entre appels à la retenue et préparation d'évacuations massives face au risque de guerre régionale totale.",
+      "contexte_historique": "Ali Khamenei succéda à l'Ayatollah Khomeini en 1989, consolidant un régime théocratique malgré des vagues de contestations internes (2009, 2022). L'usage de la force directe par les États-Unis pour éliminer un chef d'État en exercice rappelle l'invasion de l'Irak en 2003, bien que le cadre juridique de l'« imminence de la menace » soit ici contesté par les démocrates au Congrès (NYT World).",
+      "implications": [
+        "Paralysie du commerce mondial d'hydrocarbures suite au blocage du détroit d'Ormuz.",
+        "Risque de radicalisation profonde de la population iranienne contre l'intervention étrangère."
+      ],
       "chronologie": [
         {
           "date": "2026-03-01",
-          "texte": "La télévision d'État iranienne confirme la mort d'Ali Khamenei et nomme un conseil de direction intérimaire.",
-          "source": "La Croix"
+          "texte": "Donald Trump fixe un horizon de 4 semaines pour l'opération militaire.",
+          "source": "BFM TV"
         },
         {
           "date": "2026-03-01",
-          "texte": "L'Iran riposte en frappant des cibles aux Émirats Arabes Unis, au Qatar et au Bahreïn.",
+          "texte": "Neuf morts signalés en Israël après des tirs de missiles iraniens sur Beit Shemesh.",
           "source": "NYT World"
         },
         {
           "date": "2026-03-01",
-          "texte": "Huit morts au Pakistan lors de manifestations violentes devant le consulat américain de Karachi.",
-          "source": "L'Humanité"
+          "texte": "L'Iran confirme le blocage de facto du détroit d'Ormuz.",
+          "source": "RFI"
         },
         {
           "date": "2026-02-28",
-          "texte": "Lancement de l'opération « Furie Épique » par les forces israéliennes et américaines.",
-          "source": "L'Obs"
+          "texte": "Mort d'Ali Khamenei confirmée suite à des frappes sur son complexe à Téhéran.",
+          "source": "Franceinfo"
         }
       ],
       "couvertures": [
         {
+          "source": "NYT World",
+          "type": "etranger",
+          "angle": "Analyse de la légalité de l'attaque sans approbation du Congrès.",
+          "ton": "neutre",
+          "url": "https://www.nytimes.com/2026/03/01/world/middleeast/democrats-question-trumps-urgency-to-attack-iran.html",
+          "citation_cle": "Les législateurs se demandent si les États-Unis faisaient face à une menace imminente.",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
           "source": "Al Jazeera",
           "type": "etranger",
-          "angle": "Analyse les risques d'effondrement sécuritaire et économique pour les monarchies du Golfe qui servaient de havres de stabilité.",
-          "ton": "alarmiste",
-          "url": "https://www.aljazeera.com/opinions/2026/3/1/the-us-israeli-war-on-iran-could-rewrite-gulf-security-calculations?traffic_source=rss",
-          "citation_cle": "Un conflit prolongé est appelé à perturber le modèle de stabilité régionale et de prospérité économique poursuivi par le Golfe.",
+          "angle": "Focus sur la résilience du régime et la succession rapide de Khamenei.",
+          "ton": "factuel",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/iranian-drone-strikes-us-military-facility-in-kuwait?traffic_source=rss",
+          "citation_cle": "Le processus constitutionnel est en cours alors que Téhéran pleure Khamenei.",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
             "proprietaire": "État du Qatar",
@@ -47,47 +71,37 @@
         {
           "source": "Libération",
           "type": "mainstream",
-          "angle": "Focus sur les réactions politiques françaises et la satisfaction affichée par le gouvernement face à la chute du Guide.",
-          "ton": "factuel",
-          "url": "https://www.liberation.fr/international/moyen-orient/en-direct-frappes-en-iran-londe-de-choc-mondiale-apres-la-mort-dali-khamenei-20260301_IGZQBNSCIRGCJNCYY3OZOVDUV4/",
-          "citation_cle": "La France ne peut que «se satisfaire» de la mort de Khamenei, assure la porte-parole du gouvernement.",
+          "angle": "Reportage sur les manifestations de joie des opposants iraniens à Paris.",
+          "ton": "engage",
+          "url": "https://www.liberation.fr/societe/on-se-rejouit-toujours-de-la-mort-dun-dictateur-a-paris-des-milliers-de-manifestants-contre-la-republique-islamique-diran-20260301_NWUM3VX7S5CCXO2MSRDUNW2MYA/",
+          "citation_cle": "On se réjouit toujours de la mort d’un dictateur.",
           "groupe_media": {
             "nom": "Libération",
             "proprietaire": "Fonds de dotation",
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
-        },
-        {
-          "source": "L'Humanité",
-          "type": "mainstream",
-          "angle": "Dénonce les conséquences civiles et les violations du droit international, tout en relayant les condamnations de la Chine et de la Russie.",
-          "ton": "critique",
-          "url": "https://www.humanite.fr/-/-/poutine-adresse-ses-condoleances-a-liran-pour-lassassinat-dali-khamenei",
-          "citation_cle": "Le président russe a dénoncé une « violation cynique » de la morale et du droit international.",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Le régime des Mollahs va-t-il s'effondrer ou se radicaliser sous une direction militaire plus agressive ?",
-        "Quelle est l'étendue réelle des pertes civiles iraniennes après les frappes sur les zones urbaines ?",
-        "La France et l'UE vont-elles participer militairement ou se limiter à un soutien diplomatique ?"
+        "L'identité exacte du successeur de Khamenei parmi les hauts dignitaires.",
+        "L'ampleur réelle des dommages subis par les capacités nucléaires iraniennes."
       ],
       "sources": [
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/international/direct-iran-la-mort-du-guide-supreme-confirmee-teheran-riposte-suivez-notre-direct-20260301",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/frappes-sur-l-iran-donald-trump-dit-prevoir-une-operation-de-quatre-semaines-ou-moins_AD-202603010368.html",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         },
         {
           "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/03/01/world/middleeast/irans-attacks-on-persian-gulf-countries-crack-their-safe-haven-image.html",
+          "url": "https://www.nytimes.com/2026/03/01/world/middleeast/9-killed-beit-shemesh-iranian-missiles.html",
           "type": "etranger",
           "groupe_media": {
             "nom": "The New York Times Company",
@@ -97,25 +111,25 @@
           }
         },
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/-/-/huit-morts-au-pakistan-lors-de-manifestations-contre-les-attaques-etats-uniennes-et-israeliennes",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/%C3%A9conomie/20260301-avec-le-blocage-du-d%C3%A9troit-d-ormuz-les-march%C3%A9s-redoutent-une-flamb%C3%A9e-du-prix-du-p%C3%A9trole",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/monde/20260301.OBS112781/frappes-d-israel-et-des-etats-unis-contre-l-iran-furie-epique-est-elle-une-guerre-de-liberation.html",
+          "nom": "Franceinfo",
+          "url": "https://www.franceinfo.fr/monde/iran/mort-d-ali-khamenei-au-c-ur-des-24-heures-qui-ont-fait-basculer-l-iran_7839041.html",
           "type": "mainstream",
           "groupe_media": null
         },
         {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/opinions/2026/3/1/the-us-israeli-war-on-iran-could-rewrite-gulf-security-calculations?traffic_source=rss",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/iranian-drone-strikes-us-military-facility-in-kuwait?traffic_source=rss",
           "type": "etranger",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
@@ -126,7 +140,7 @@
         },
         {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/international/moyen-orient/en-direct-frappes-en-iran-londe-de-choc-mondiale-apres-la-mort-dali-khamenei-20260301_IGZQBNSCIRGCJNCYY3OZOVDUV4/",
+          "url": "https://www.liberation.fr/societe/on-se-rejouit-toujours-de-la-mort-dun-dictateur-a-paris-des-milliers-de-manifestants-contre-la-republique-islamique-diran-20260301_NWUM3VX7S5CCXO2MSRDUNW2MYA/",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Libération",
@@ -139,225 +153,137 @@
       "premiere_apparition": "2026-02-28"
     },
     {
-      "titre": "OpenAI et l'Armée Américaine : Le Contrat de la Discorde",
-      "slug": "openai-department-of-war-military-ia",
-      "rubrique": "ia",
-      "resume": "OpenAI a officiellement signé un accord avec le Département de la Guerre des États-Unis pour déployer ses modèles sur les réseaux classifiés de l'armée. Ce virage stratégique, soutenu par l'administration Trump, marque l'éviction d'Anthropic (jugé comme un risque pour la chaîne d'approvisionnement) au profit de la firme de Sam Altman, suscitant un vif débat sur l'éthique de l'IA de défense.",
+      "titre": "Accusations d'antisémitisme contre Jean-Luc Mélenchon après ses propos sur Epstein et Glucksmann",
+      "slug": "melenchon-polemique-epstein-glucksmann",
+      "rubrique": "politique",
+      "tldr": [
+        "Mélenchon accusé d'antisémitisme pour sa prononciation du nom « Epstein ».",
+        "Plaisanterie sur le nom de Raphaël Glucksmann comparée aux dérapages de J-M Le Pen.",
+        "Le leader insoumis nie tout antisémitisme lors d'un meeting à Perpignan."
+      ],
+      "resume": "Jean-Luc Mélenchon est au cœur d'une vive polémique après des déclarations lors d'un meeting à Lyon, où il a insisté sur la prononciation du nom de Jeffrey Epstein avant d'ironiser sur celui de l'eurodéputé Raphaël Glucksmann. Ses détracteurs, dont Aurore Bergé et Carole Delga, y voient des « sifflets à ultrasons » antisémites. En déplacement à Perpignan ce dimanche, le leader de LFI s'est défendu en affirmant qu'Epstein « n'avait aucune religion » et a dénoncé une manœuvre politique visant à l'isoler avant les municipales.",
+      "contexte_historique": "La thématique de l'antisémitisme empoisonne les relations au sein de la gauche française depuis les attaques du 7 octobre 2023, provoquant l'implosion de la Nupes. Le parallèle fait par certains commentateurs avec les jeux de mots de Jean-Marie Le Pen (ex: « Durafour-crématoire » en 1988) marque une étape supplémentaire dans la fracture politique (Sud-Ouest).",
+      "implications": [
+        "Affaiblissement des chances d'alliances locales entre le PS et LFI pour les municipales.",
+        "Polarisation accrue du débat public autour de la figure de Mélenchon."
+      ],
       "chronologie": [
         {
           "date": "2026-03-01",
-          "texte": "L'accord suscite une polémique majeure sur HackerNews avec plus de 2500 points sur l'éthique militaire de l'IA.",
-          "source": "HackerNews"
+          "texte": "Mélenchon se défend à Perpignan : « Je ne suis pas antisémite ».",
+          "source": "Franceinfo"
         },
         {
-          "date": "2026-02-28",
-          "texte": "Donald Trump confirme l'éviction d'Anthropic au profit d'OpenAI pour les besoins de défense nationale.",
-          "source": "Citoyens.ai"
+          "date": "2026-03-01",
+          "texte": "Carole Delga (PS) estime qu'une alliance avec LFI serait un « déshonneur ».",
+          "source": "Reddit r/france"
         },
         {
-          "date": "2026-02-28",
-          "texte": "OpenAI publie un communiqué sur son engagement avec le Département de la Guerre.",
-          "source": "HackerNews"
+          "date": "2026-02-26",
+          "texte": "Début de la polémique suite au meeting de Lyon sur l'affaire Epstein.",
+          "source": "20 Minutes"
         }
       ],
       "couvertures": [
         {
-          "source": "The Register",
-          "type": "etranger",
-          "angle": "Souligne les risques de sécurité liés à l'utilisation d'agents IA non restreints dans des environnements sensibles.",
+          "source": "Sud-Ouest",
+          "type": "mainstream",
+          "angle": "Comparaison frontale entre les méthodes de Mélenchon et celles du fondateur du RN.",
           "ton": "critique",
-          "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/01/nanoclaw_container_openclaw/",
-          "citation_cle": "Idéalement, vous ne devriez pas avoir à vous défendre contre votre propre agent IA.",
+          "url": "https://www.sudouest.fr/politique/jean-luc-melenchon/ok-jean-marie-le-pen-jean-luc-melenchon-compare-au-fondateur-du-rn-apres-une-plaisanterie-sur-le-nom-de-raphael-glucksmann-28099703.php",
+          "citation_cle": "« OK Jean-Marie Le Pen » : Jean-Luc Mélenchon comparé au fondateur du RN.",
+          "groupe_media": null
+        },
+        {
+          "source": "Libération",
+          "type": "mainstream",
+          "angle": "Après les bombardements en Iran, des soldats américains tués et de nouvelles frappes contre Israël et les pays du Golfe",
+          "ton": "factuel",
+          "url": "https://www.liberation.fr/international/moyen-orient/apres-les-bombardements-en-iran-des-soldats-americains-tues-et-de-nouvelles-frappes-contre-israel-et-les-pays-du-golfe-20260301_HMRIUAZOJNH2PBMX4S3SVFCKAY/",
+          "citation_cle": "Alors que les frappes israéliennes et américaines se sont enchaînées tout le week-end et que Téhéran a lancé sa contre-a",
           "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         },
         {
-          "source": "Numerama",
+          "source": "20 Minutes",
           "type": "mainstream",
-          "angle": "Explique l'évolution vers l'Edge IA et son importance pour le traitement local des données militaires.",
+          "angle": "« Pas antisémite » Jean-Luc Mélenchon estime qu’Epstein « n’avait aucune religion » et « bute » sur le nom de Glucksmann",
           "ton": "factuel",
-          "url": "https://www.numerama.com/tech/2188511-ledge-ia-cest-quoi-ca-encore.html",
-          "citation_cle": "Pour analyser les énormes volumes de données... on les traite désormais au plus près de la source.",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
+          "url": "https://www.20minutes.fr/politique/4203943-20260301-jean-luc-melenchon-jeffrey-epstein-aucune-religion-defend-etre-antisemite?at_medium=display&at_campaign=149",
+          "citation_cle": "« Epstein » ou « Epstine », Jean-Luc Mélenchon n’a pas tranché. Il est revenu sur la polémique née jeudi à Lyon lors d’u",
+          "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Quelles sont les limites éthiques imposées par OpenAI sur l'utilisation létale de ses modèles ?",
-        "Comment Anthropic va-t-il réagir à sa désignation comme 'risque pour la chaîne d'approvisionnement' ?"
+        "L'impact réel de cette polémique sur les intentions de vote pour les candidats LFI.",
+        "La position officielle des autres cadres de LFI sur la plaisanterie visant Glucksmann."
       ],
       "sources": [
         {
-          "nom": "The Register",
-          "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/01/nanoclaw_container_openclaw/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/politique/jean-luc-melenchon/ok-jean-marie-le-pen-jean-luc-melenchon-compare-au-fondateur-du-rn-apres-une-plaisanterie-sur-le-nom-de-raphael-glucksmann-28099703.php",
+          "type": "mainstream",
+          "groupe_media": null
         },
         {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/tech/2188511-ledge-ia-cest-quoi-ca-encore.html",
+          "nom": "Franceinfo",
+          "url": "https://www.franceinfo.fr/politique/melenchon/jean-luc-melenchon-se-defend-d-etre-antisemite-apres-la-polemique-sur-sa-prononciation-du-nom-epstein-et-affirme-que-cet-homme-la-n-avait-aucune-religion_7839044.html",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
+          "groupe_media": null
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/politique/4203943-20260301-jean-luc-melenchon-jeffrey-epstein-aucune-religion-defend-etre-antisemite?at_medium=display&at_campaign=149",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
-      "premiere_apparition": "2026-02-28"
-    },
-    {
-      "titre": "Interception d'un pétrolier de la « flotte fantôme » russe",
-      "slug": "petrolier-flotte-fantome-russe-intercepte",
-      "rubrique": "international",
-      "resume": "Dans une opération conjointe rare, les forces spéciales belges et françaises ont intercepté un pétrolier en mer du Nord. Le navire est soupçonné de faire partie de la « flotte fantôme » utilisée par Moscou pour contourner les sanctions occidentales sur les exportations d'hydrocarbures. Parallèlement, un autre pétrolier lié à l'Iran a été pris pour cible dans le détroit d'Ormuz.",
-      "chronologie": [
-        {
-          "date": "2026-03-01",
-          "texte": "Un pétrolier pavillon des Palaos est attaqué près du détroit d'Ormuz.",
-          "source": "L'Humanité"
-        },
-        {
-          "date": "2026-03-01",
-          "texte": "Les forces belges confirment l'interception nocturne d'un navire russe en mer du Nord.",
-          "source": "L'Humanité"
-        },
-        {
-          "date": "2026-03-01",
-          "texte": "BFM TV rapporte qu'un pétrolier coule dans le détroit d'Ormuz suite aux tensions avec l'Iran.",
-          "source": "BFM TV"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "L'Humanité",
-          "type": "mainstream",
-          "angle": "Analyse les méthodes de contournement des sanctions par la Russie et l'escalade maritime mondiale.",
-          "ton": "factuel",
-          "url": "https://www.humanite.fr/monde/guerre-en-ukraine/ce-que-lon-sait-apres-linterception-dun-petrolier-de-la-flotte-fantome-russe-par-la-belgique-et-la-france",
-          "citation_cle": "Un navire appartenant à la « flotte fantôme » utilisée par la Russie pour contourner les sanctions occidentales.",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
-        },
-        {
-          "source": "France 24 FR",
-          "type": "mainstream",
-          "angle": "Focus sur les conséquences économiques mondiales d'un blocage du détroit d'Ormuz.",
-          "ton": "alarmiste",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260301-frappes-en-iran-le-d%C3%A9troit-d-ormuz-%C3%A0-l-arr%C3%AAt",
-          "citation_cle": "Le risque principal pour le marché pétrolier reste celui d’un blocage du détroit d’Ormuz.",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Quelle sera la réponse diplomatique ou militaire de la Russie à cette interception ?",
-        "Le blocage du détroit d'Ormuz va-t-il provoquer un nouveau choc pétrolier mondial ?"
-      ],
-      "sources": [
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/monde/guerre-en-ukraine/ce-que-lon-sait-apres-linterception-dun-petrolier-de-la-flotte-fantome-russe-par-la-belgique-et-la-france",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260301-frappes-en-iran-le-d%C3%A9troit-d-ormuz-%C3%A0-l-arr%C3%AAt",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-un-petrolier-serait-en-train-de-couler-dans-le-detroit-d-ormuz-selon-les-medias-iraniens_VN-202603010224.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-03-01"
+      "premiere_apparition": "2026-02-26"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Guerre entre le Pakistan et l'Afghanistan",
-      "slug": "conflit-pakistan-afghanistan-frontiere",
-      "rubrique": "international",
-      "resume": "Les affrontements frontaliers meurtriers entre soldats afghans et pakistanais se poursuivent le long de la ligne Durand, bien que l'attention mondiale soit désormais captée par le conflit en Iran.",
+      "titre": "OpenAI et le Département de la Guerre US",
+      "slug": "openai-departement-guerre-usa",
+      "rubrique": "tech",
+      "resume": "L'intégration d'OpenAI dans les réseaux classifiés de l'armée américaine est désormais actée. Le sujet se stabilise après l'éviction d'Anthropic, les discussions se déplaçant vers les implications éthiques à long terme.",
       "chronologie": [
         {
-          "date": "2026-03-01",
-          "texte": "Nouveaux échanges de tirs signalés par des habitants de la zone frontalière.",
-          "source": "Ouest-France"
-        },
-        {
-          "date": "2026-02-27",
-          "texte": "Intensification des combats et échec des premières tentatives de médiation.",
-          "source": "RFI"
+          "date": "2026-02-28",
+          "texte": "Confirmation de l'accord exclusif entre OpenAI et le Département de la Guerre.",
+          "source": "HackerNews"
         }
       ],
       "couvertures": [
         {
-          "source": "Ouest-France",
-          "type": "mainstream",
-          "angle": "Reportage sur les civils déplacés par les combats à la frontière.",
+          "source": "The Verge",
+          "type": "tech",
+          "angle": "Analyse technique de l'intégration sécurisée.",
           "ton": "factuel",
-          "url": "https://www.ouest-france.fr/monde/afghanistan/les-combats-meurtriers-continuent-entre-le-pakistan-et-lafghanistan-224f8038-155a-11f1-8725-6cea811c3c37",
-          "citation_cle": "Des soldats afghans et pakistanais se sont affrontés le long de la frontière commune."
+          "url": "https://www.theverge.com/tech/887220/sonos-play-leak",
+          "citation_cle": "L'accord avec le Département de la Guerre modifie la neutralité d'OpenAI."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'implication possible de groupes terroristes tiers dans le déclenchement des hostilités."
+        "Le montant exact du contrat pluriannuel."
       ],
       "sources": [
         {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/monde/afghanistan/les-combats-meurtriers-continuent-entre-le-pakistan-et-lafghanistan-224f8038-155a-11f1-8725-6cea811c3c37",
-          "type": "mainstream"
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/887220/sonos-play-leak",
+          "type": "tech"
         }
       ],
       "derniere_mise_a_jour": "2026-03-01",
-      "statut": "Le conflit s'enlise dans une guerre d'usure frontalière éclipsée par la crise iranienne."
+      "statut": "Sujet technique et institutionnel en phase de consolidation."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 487,
+    "nb_articles_analyses": 511,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

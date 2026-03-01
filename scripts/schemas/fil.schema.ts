@@ -15,12 +15,18 @@ const GroupeMediaRefSchema = z.object({
 
 const FilItemSchema = z.object({
   heure: z.string(),
-  texte: z.string().min(20),
+  titre: z.string().min(10),
+  resume: z.string().optional().nullable(),
+  url: z.string().url().optional().nullable(),
   rubrique: RubriqueEnum,
   source: z.string(),
-  source_url: z.string().url(),
+  source_url: z.string().url().optional().nullable(),
+  pays: z.string().optional().nullable(),
+  langue: z.string().optional().nullable(),
   source_type: SourceTypeEnum.optional(),
+  orientation: z.string().optional().nullable(),
   groupe_media: GroupeMediaRefSchema.optional().nullable(),
+  isoDate: z.string().optional(),
 });
 
 const MetaFilSchema = z.object({

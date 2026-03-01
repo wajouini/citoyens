@@ -60,10 +60,8 @@ export function validateFil(raw: unknown): ValidationResult<any> {
 
   if (d.items?.length > 0) {
     const first = d.items[0];
-    // Accept either AI-generated 'texte' or RSS-based 'titre' field
-    const hasContent = (typeof first.texte === 'string' && first.texte.length > 5)
-                    || (typeof first.titre === 'string' && first.titre.length > 5);
-    check(errors, hasContent, 'items[0].texte/titre', 'contenu du premier item invalide');
+    const hasContent = typeof first.titre === 'string' && first.titre.length > 5;
+    check(errors, hasContent, 'items[0].titre', 'titre du premier item invalide ou manquant');
     check(errors, typeof first.source === 'string', 'items[0].source', 'source du premier item manquante');
   }
 

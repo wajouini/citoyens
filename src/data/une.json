@@ -1,19 +1,52 @@
 {
   "sujet_du_jour": {
-    "titre": "Mort d'Ali Khamenei : l'Iran orphelin de son Guide après les frappes",
+    "titre": "Frappes américano-israéliennes sur l'Iran : Donald Trump assume l'offensive",
     "rubrique": "international",
-    "pourquoi_important": "Le décès du maître absolu de l'Iran depuis 1989 marque la fin d'une ère et plonge le Moyen-Orient dans une instabilité totale entre scènes de joie et appels à la vengeance.",
+    "pourquoi_important": "Cette attaque coordonnée marque une rupture historique avec la diplomatie traditionnelle et fait basculer le Moyen-Orient dans une guerre ouverte aux conséquences mondiales imprévisibles.",
     "faits": [
-      "Téhéran a officiellement confirmé la mort de l'ayatollah Ali Khamenei, tué lors d'une opération militaire conjointe des États-Unis et d'Israël samedi 28 février (Mediapart, France 24 FR).",
-      "L'armée israélienne revendique l'élimination de 40 hauts gradés iraniens lors de cette frappe initiale baptisée 'la tête du serpent' (BFM TV).",
-      "Un conseil de direction provisoire, incluant le président et le chef du pouvoir judiciaire, a été instauré pour assurer la transition jusqu'à de nouvelles élections (franceinfo).",
-      "En réaction, les Gardiens de la Révolution ont promis la 'plus féroce offensive de l'Histoire' et ont déjà ciblé plusieurs pays du Golfe (Courrier international, Libération)."
+      "Les États-Unis et Israël ont lancé samedi 28 février une offensive aérienne massive ciblant les hauts dirigeants et les infrastructures militaires à Téhéran (The Guardian, NYT World).",
+      "Donald Trump a revendiqué la destruction de neuf navires iraniens sur son réseau Truth Social, tandis que le Pentagone confirme les trois premiers décès de soldats américains (L'Humanité, NYT World).",
+      "Le guide suprême Ali Khamenei a été tué lors de ces frappes, une information confirmée par la télévision d'État iranienne après 24 heures d'incertitude (BBC News, franceinfo).",
+      "L'opération, nommée 'Fureur épique' par certains observateurs, divise la base électorale de Trump entre soutien belliciste et rejet des 'guerres sans fin' (RFI, L'Humanité)."
     ],
-    "contexte": "Ali Khamenei, doyen des chefs d'État de la région, exerçait un pouvoir absolu depuis la mort de Khomeyni. Son règne a été marqué par une confrontation permanente avec l'Occident, le développement du programme nucléaire et une répression féroce des mouvements de contestation interne. Cette élimination physique par des puissances étrangères constitue une violation inédite de la souveraineté nationale iranienne, ouvrant une phase d'incertitude sur la survie même du régime théocratique.",
+    "contexte": "Après avoir prôné le retrait des troupes américaines durant son premier mandat, Donald Trump opère une mue va-t-en-guerre radicale aux côtés de Benyamin Netanyahou. Cette intervention, menée sans l'aval du Congrès, soulève des questions juridiques majeures. Pour l'historien Justin Vaïsse, ce mépris du droit international constitue un risque systémique pour la stabilité mondiale, tandis que des experts militaires doutent que de simples bombardements puissent entraîner un changement de régime positif sans troupes au sol (Le Monde, Mediapart).",
     "sources": [
       {
+        "nom": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/feb/28/trump-attack-iran-opportunity",
+        "type": "etranger",
+        "groupe_media": {
+          "nom": "Scott Trust",
+          "proprietaire": "Scott Trust Limited",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
+        }
+      },
+      {
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/idees/article/2026/03/01/justin-vaisse-historien-trump-joue-un-veritable-coup-de-poker-en-pretendant-qu-il-pourra-renverser-un-regime-sanguinaire-sans-troupes-au-sol_6668933_3232.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
+      },
+      {
+        "nom": "L'Humanité",
+        "url": "https://www.humanite.fr/monde/donald-trump/damerica-first-a-fureur-epique-la-mue-va-t-en-guerre-de-donald-trump",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
+        }
+      },
+      {
         "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/international/010326/l-iran-confirme-la-mort-de-khamenei",
+        "url": "https://www.mediapart.fr/journal/international/010326/les-bombardements-n-entrainent-jamais-de-changement-de-regime-positif",
         "type": "investigation",
         "groupe_media": {
           "nom": "Mediapart",
@@ -23,46 +56,23 @@
         }
       },
       {
-        "nom": "France 24 FR",
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20260301-mort-du-guide-supr%C3%AAme-ali-khamenei-en-iran-un-jour-historique",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "France Médias Monde",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
-        }
-      },
-      {
-        "nom": "BFM TV",
-        "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-la-tete-du-serpent-a-ete-coupee-l-armee-israelienne-affirme-avoir-tue-40-hauts-grades-iraniens-dont-ali-khamenei-dans-sa-frappe-initiale_VN-202603010206.html",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "CMA CGM",
-          "proprietaire": "Rodolphe Saadé",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
-      },
-      {
-        "nom": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/apres-la-mort-du-guide-ali-khamenei-dans-les-frappes-israelo-americaines-le-processus-de-transition-en-iran-va-commencer-dimanche_7838420.html#xtor=RSS-3-[lestitres]",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "France Télévisions",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
-        }
-      },
-      {
-        "nom": "Courrier international",
-        "url": "https://www.courrierinternational.com/article/droits-humains-au-salvador-le-combat-d-une-mere-pour-faire-sortir-son-fils-de-la-megaprison-de-bukele_240282",
+        "nom": "NYT World",
+        "url": "https://www.nytimes.com/live/2026/03/01/world/iran-attack-khamenei-trump/heres-the-latest",
         "type": "etranger"
       },
       {
-        "nom": "Libération",
-        "url": "https://www.liberation.fr/international/moyen-orient/en-direct-frappes-en-iran-londe-de-choc-mondiale-apres-la-mort-dali-khamenei-20260301_IGZQBNSCIRGCJNCYY3OZOVDUV4/",
+        "nom": "BBC News",
+        "url": "https://www.bbc.com/news/articles/c363zkp1pgxo?at_medium=RSS&at_campaign=rss",
+        "type": "etranger"
+      },
+      {
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/iran/direct-guerre-au-moyen-orient-apres-la-mort-du-guide-ali-khamenei-donald-trump-menace-l-iran-d-une-riposte-sans-precedent-en-cas-de-represailles_7838399.html#xtor=RSS-3-[lestitres]",
+        "type": "mainstream"
+      },
+      {
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/%C3%A9conomie/20260301-avec-le-blocage-du-d%C3%A9troit-d-ormuz-les-march%C3%A9s-redoutent-une-flamb%C3%A9e-du-prix-du-p%C3%A9trole",
         "type": "mainstream"
       }
     ],
@@ -70,121 +80,13 @@
   },
   "france": [
     {
-      "titre": "Municipales 2026 : Bardella et Mélenchon se défient à Perpignan",
+      "titre": "Mélenchon à Perpignan : riposte et nouvelles polémiques",
       "rubrique": "politique",
-      "resume": "Jordan Bardella a lancé les hostilités en appelant la gauche 'modérée' à rompre avec LFI (20 Minutes, franceinfo). Jean-Luc Mélenchon est attendu ce dimanche dans la même ville pour une 'riposte antifasciste', tandis que Libération souligne que le RN tente de 'cornériser' ses adversaires après des faits divers récents.",
+      "resume": "En meeting à Perpignan, Jean-Luc Mélenchon s'est défendu de tout antisémitisme après ses propos sur Jeffrey Epstein, tout en ironisant sur le nom de Raphaël Glucksmann (franceinfo, Sud-Ouest). Cette stratégie de tension médiatique agace ses partenaires de gauche : Marine Tondelier pose désormais des conditions strictes sur le respect des institutions pour toute alliance future avec LFI (BFM TV, Sud-Ouest).",
       "sources": [
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/politique/4203901-20260228-municipales-2026-jordan-bardella-appelle-gauche-moderee-rompre-lfi?at_medium=display&at_campaign=149",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/politique/elections/a-perpignan-jordan-bardella-appelle-a-la-dissolution-des-groupes-dultragauche-et-oublie-ceux-dextreme-droite-20260228_VEQD3P4G6NGNZOYBW6DQF4R3LU/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Ce qui change au 1er mars : votre budget sous pression",
-      "rubrique": "economie",
-      "resume": "Entrée en vigueur de nouvelles taxes sur la carte grise et les petits colis hors UE, hausse du gaz, du tabac et du forfait hospitalier (L'Humanité, La Croix). Les mutuelles devraient répercuter l'augmentation des frais d'hospitalisation de 20 à 23 euros par jour (BFM TV).",
-      "sources": [
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/social-et-economie/pouvoir-dachat/nouvelle-taxe-sur-la-carte-grise-et-les-petits-colis-hausse-des-forfaits-hospitaliers-augmentation-du-prix-du-gaz-et-du-tabac-ce-qui-change-ce-1er-mars",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/economie/economie-social/social/de-20-a-23-euros-par-jour-les-frais-d-hospitalisation-augmentent-ce-dimanche-et-les-mutuelles-vont-sans-doute-repercuter-cette-hausse-sur-les-patients_AD-202603010185.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/international/direct-iran-la-mort-du-guide-supreme-confirmee-teheran-riposte-suivez-notre-direct-20260301",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "OM : Pablo Longoria écarté, Alban Juster prend la main",
-      "rubrique": "culture",
-      "resume": "Fin de cycle à Marseille où Pablo Longoria a été remplacé par Alban Juster à la présidence du directoire (RFI). Le bilan de l'Espagnol reste contrasté entre régularité en Ligue 1 et échecs répétés en Ligue des champions (franceinfo, Ouest-France).",
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/sports/20260228-pablo-longoria-derni%C3%A8re-victime-du-grand-m%C3%A9nage-%C3%A0-l-om-remplac%C3%A9-par-alban-juster-%C3%A0-la-pr%C3%A9sidence",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
         {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/sports/foot/om/pablo-longoria-ecarte-de-la-presidence-de-l-om-entre-instabilite-chronique-et-progression-cinq-annees-au-bilan-contraste_7831673.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/sport/football/olympique-de-marseille/om-trois-podiums-en-ligue-1-deceptions-en-ligue-des-champions-quel-est-le-bilan-de-pablo-longoria-avec-marseille-6706178e-154e-11f1-9747-d91830b32b05?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    }
-  ],
-  "monde": [
-    {
-      "titre": "Un pétrolier de la 'flotte fantôme' russe intercepté",
-      "pays": "Belgique/France",
-      "resume": "Les forces spéciales belges, épaulées par la marine française, ont arraisonné un navire soupçonné de contourner les sanctions contre Moscou en mer du Nord (L'Humanité, Sud-Ouest). Le navire a été escorté vers Zeebruges (franceinfo).",
-      "sources": [
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/monde/guerre-en-ukraine/ce-que-lon-sait-apres-linterception-dun-petrolier-de-la-flotte-fantome-russe-par-la-belgique-et-la-france",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/monde/europe/belgique/un-petrolier-de-la-flotte-fantome-russe-arraisonne-en-mer-du-nord-par-la-belgique-avec-l-aide-de-la-france_7838543.html#xtor=RSS-3-[lestitres]",
+          "url": "https://www.franceinfo.fr/politique/melenchon/jean-luc-melenchon-se-defend-d-etre-antisemite-after-la-polemique-sur-sa-prononciation-du-nom-epstein-et-affirme-que-cet-homme-la-n-avait-aucune-religion_7839044.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -195,17 +97,151 @@
         },
         {
           "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/environnement/pollution/pollution-marine/les-reseaux-sont-vetustes-et-fuyards-le-traitement-des-eaux-usees-degrade-les-milieux-aquatiques-en-guadeloupe-28091817.php",
+          "url": "https://www.sudouest.fr/politique/jean-luc-melenchon/ok-jean-marie-le-pen-jean-luc-melenchon-compare-au-fondateur-du-rn-apres-une-plaisanterie-sur-le-nom-de-raphael-glucksmann-28099703.php",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/politique/elections/municipales/on-aura-besoin-d-entendre-des-paroles-fortes-marine-tondelier-pose-des-conditions-pour-une-alliance-des-ecologistes-avec-lfi-au-second-tour-des-municipales_AD-202603010342.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Salon de l'agriculture : une fréquentation en chute libre",
+      "rubrique": "economie",
+      "resume": "L'édition 2026 s'achève sur un bilan morose avec 437 402 visiteurs, soit une baisse de 28 % par rapport à l'an dernier (franceinfo, Ouest-France). Cette désaffection s'explique principalement par l'absence des bovins, interdits de salon suite à une épidémie de dermatose nodulaire, mais aussi par une crise agricole persistante (Le Monde, France 24 FR).",
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/societe/salon-de-l-agriculture/la-frequentation-du-salon-de-l-agriculture-a-chute-de-pres-de-28-cette-annee-en-l-absence-des-bovins_7838933.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/economie/article/2026/03/01/sans-vaches-le-salon-de-l-agriculture-a-vu-sa-frequentation-baisser-de-pres-de-28_6668946_3234.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/sport/football/le-havre-ac/ligue-1-je-lai-vu-tirer-contre-liverpool-mory-diaw-devoile-les-secrets-de-son-penalty-arrete-face-au-psg-f6a617a2-15aa-11f1-8725-6cea811c3c37?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "type": "mainstream"
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/france/20260301-salon-de-l-agriculture-fr%C3%A9quentation-en-chute-libre-sur-fond-de-crise-et-d-absence-des-bovins",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Guerre ouverte entre le Pakistan et l'Afghanistan",
-      "pays": "Afghanistan/Pakistan",
-      "resume": "Kaboul affirme cibler l'aviation pakistanaise après des frappes aériennes d'Islamabad en riposte à une attaque frontalière (RFI, Le Monde). Le conflit a basculé en 'guerre ouverte' depuis jeudi (France 24 FR).",
+      "titre": "Ce qui change au 1er mars : fiscalité et prestations",
+      "rubrique": "societe",
+      "resume": "Entrée en vigueur ce dimanche d'une taxe de 2 euros sur les petits colis hors UE et d'une hausse du prix des cartes grises (La Croix, 20 Minutes). Côté social, le décalage de la majoration des allocations familiales de 14 à 18 ans provoque l'inquiétude des familles, représentant un manque à gagner potentiel de 900 euros par an (La Croix, franceinfo).",
       "sources": [
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/societe/4203711-20260301-comment-va-fonctionner-taxe-2-euros-petits-colis-vigueur-partir-1er-mars",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/economie/guerre-contre-l-iran-faut-il-craindre-un-nouveau-choc-petrolier-20260301",
+          "type": "mainstream"
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/economie/guerre-contre-l-iran-faut-il-craindre-un-nouveau-choc-petrolier-20260301",
+          "type": "mainstream"
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/monde/iran/direct-guerre-au-moyen-orient-apres-la-mort-du-guide-ali-khamenei-donald-trump-menace-l-iran-d-une-riposte-sans-precedent-en-cas-de-represailles_7838399.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    }
+  ],
+  "monde": [
+    {
+      "titre": "Interception d'un pétrolier russe en mer du Nord",
+      "pays": "Belgique",
+      "resume": "Les forces spéciales belges, appuyées par des hélicoptères français, ont arraisonné l'Ethera, un navire de la 'flotte fantôme' utilisé par Moscou pour contourner les sanctions (RFI, The Guardian). Le pétrolier a été escorté vers le port de Zeebruges pour saisie (franceinfo, L'Obs).",
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/europe/20260301-la-belgique-annonce-l-interception-d-un-navire-de-la-flotte-fant%C3%B4me-russe-en-mer-du-nord",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/mar/01/suspected-russian-shadow-fleet-tanker-seized-north-sea",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/monde/iran/direct-guerre-au-moyen-orient-apres-la-mort-du-guide-ali-khamenei-donald-trump-menace-l-iran-d-une-riposte-sans-precedent-en-cas-de-represailles_7838399.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream"
+        },
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/idees/20260301.OBS112783/judith-chemla-et-flora-souchier-sur-l-emprise-on-ne-peut-pas-croire-qu-il-y-a-des-gens-dont-le-but-est-d-en-aneantir-d-autres.html",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Guerre ouverte entre Kaboul et Islamabad",
+      "pays": "Afghanistan / Pakistan",
+      "resume": "Après des mois d'accrochages frontaliers, les deux pays sont entrés en conflit ouvert. Des explosions ont été entendues à Kaboul dimanche, le gouvernement taliban affirmant viser l'aviation pakistanaise en riposte aux bombardements d'Islamabad (Le Monde, RFI).",
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/03/01/entre-l-afghanistan-et-le-pakistan-les-affrontements-se-poursuivent-des-explosions-entendues-a-kaboul_6668949_3210.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
         {
           "nom": "RFI",
           "url": "https://www.rfi.fr/fr/moyen-orient/20260301-afghanistan-pakistan-poursuivent-guerre-ouverte-kaboul-aviation-talibans-kandahar",
@@ -216,40 +252,24 @@
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
-        },
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/03/01/tirs-dans-le-centre-de-kaboul-l-afghanistan-dit-cibler-l-aviation-pakistanaise_6668736_3210.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260301-frappes-en-iran-les-r%C3%A9actions-internationales",
-          "type": "mainstream"
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Répliques iraniennes contre les monarchies du Golfe",
+    "sujet": "Conséquences de la mort d'Ali Khamenei",
     "rubrique": "international",
-    "contexte": "Après l'assassinat de Khamenei, l'Iran a lancé des frappes massives contre les pays du Golfe abritant des bases américaines, faisant au moins deux morts aux Émirats et fermant de facto le détroit d'Ormuz.",
+    "contexte": "Le guide suprême iranien a été tué le 28 février par des frappes conjointes américano-israéliennes. Un triumvirat provisoire assure la transition dans un pays en état de choc.",
     "couvertures": [
       {
         "source": "Mediapart",
         "type": "investigation",
-        "angle": "Analyse du choix suicidaire du régime iranien face à la pression américaine.",
-        "ton": "critique",
-        "url": "https://www.mediapart.fr/journal/france/280226/plutot-que-de-capituler-sur-ses-fondements-le-regime-iranien-prefere-subir-la-guerre",
-        "citation_cle": "Plutôt que de capituler sur ses fondements, le régime iranien préfère subir la guerre.",
-        "auteur": "Jean-Pierre Perrin",
+        "angle": "La joie de la population face à l'angoisse de l'avenir et du chaos.",
+        "ton": "engage",
+        "url": "https://www.mediapart.fr/journal/international/010326/la-joie-teintee-d-angoisse-d-une-large-partie-du-peuple-iranien-apres-la-mort-du-guide-supreme",
+        "citation_cle": "Le contentement de voir Khamenei dans 'la poubelle de l’histoire' côtoie l’inquiétude sur la cohésion de la société.",
+        "auteur": "Mostafa Khalaji",
         "proprietaire_contexte": "Fonds pour une presse libre (Indépendant)",
         "orientation_source": "Gauche",
         "groupe_media": {
@@ -260,186 +280,186 @@
         }
       },
       {
-        "source": "Courrier international",
-        "type": "etranger",
-        "angle": "La fin de la neutralité affichée par les pétromonarchies face à l'agression.",
-        "ton": "factuel",
-        "url": "https://www.courrierinternational.com/article/escalade-des-frappes-visant-bahrein-dubai-oman-le-qatar-les-pays-du-golfe-rattrapes-par-la-guerre_241164",
-        "citation_cle": "Les pétromonarchies arabes avaient déclaré qu’elles n’autoriseraient pas l’utilisation des bases américaines... la donne a changé.",
-        "auteur": null,
-        "proprietaire_contexte": "Groupe Le Monde (Niel, Kretinsky, Pigasse)",
-        "orientation_source": "Centre-droit",
+        "source": "Libération",
+        "type": "mainstream",
+        "angle": "La fin d'un règne brutal de 36 ans et le saut dans l'inconnu politique.",
+        "ton": "critique",
+        "url": "https://www.liberation.fr/international/moyen-orient/mort-de-ali-khamenei-impitoyable-gardien-de-la-revolution-iranienne-20260228_YWCOT7YT4RA2ZOIHJKYRGKEPEE/",
+        "citation_cle": "Il laisse un pays ensanglanté, affaibli et économiquement exsangue.",
+        "auteur": "Pierre Alonso",
+        "proprietaire_contexte": "Fonds de dotation (Indépendant)",
+        "orientation_source": "Centre-gauche",
         "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
         }
       },
       {
-        "source": "L'Humanité",
-        "type": "mainstream",
-        "angle": "Focus sur l'extension géographique des frappes iraniennes à Oman.",
-        "ton": "alarmiste",
-        "url": "https://www.humanite.fr/-/-/oman-cible-a-son-tour-par-les-attaques-iraniennes",
-        "citation_cle": "L’Iran mène dimanche pour la deuxième journée consécutive des frappes sur les monarchies du Golfe.",
-        "auteur": null,
-        "proprietaire_contexte": "Coopérative (Lecteurs et salariés)",
-        "orientation_source": "Gauche",
+        "source": "NYT World",
+        "type": "etranger",
+        "angle": "Analyse géopolitique centrée sur l'affaiblissement du régime et le rôle des USA.",
+        "ton": "factuel",
+        "url": "https://www.nytimes.com/2026/03/01/world/europe/iran-regime-middle-east-khamenei.html",
+        "citation_cle": "Le choc régional pourrait être comparable à l'effondrement de l'Union soviétique.",
+        "auteur": "Steven Erlanger",
+        "proprietaire_contexte": "Famille Ochs-Sulzberger",
+        "orientation_source": "Centre",
         "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
-          "orientation": "gauche"
+          "nom": "The New York Times Company",
+          "proprietaire": "Famille Ochs-Sulzberger",
+          "type_proprietaire": "famille",
+          "orientation": "centre"
         }
       }
     ],
-    "analyse_coherence": "L'analyse croisée des sources révèle un traitement différencié de la légitimité des frappes. Alors que les médias mainstream (franceinfo, BFM TV) se concentrent sur le bilan humain et les perturbations économiques (fermeture d'Ormuz, annulation de 2000 vols selon Sud-Ouest), la presse d'investigation et étrangère souligne un double standard majeur. Mediapart et The Guardian (via des experts en droit international) pointent l'illégalité de l'agression initiale américano-israélienne, qualifiée de 'crime d'agression' par Matthew Duss dans Le Monde. \n\nLe test d'universalité des principes est ici frappant : si une telle opération d'assassinat ciblé d'un chef d'État avait été menée par l'Iran contre un dirigeant occidental, le discours médiatique serait unanimement celui de l'acte de guerre terroriste. Ici, une partie de la presse (notamment BFM TV sous contrôle de Rodolphe Saadé) adopte un ton presque triomphaliste ('La tête du serpent a été coupée'), occultant les conséquences humanitaires collatérales, comme la frappe signalée sur une école iranienne par la BBC. La cohérence éditoriale globale souffre d'un biais atlantiste où l'illégalité du recours à la force est minimisée au profit de 'l'opportunité' géopolitique (BBC).",
+    "analyse_coherence": "Le traitement médiatique de la mort d'Ali Khamenei révèle une convergence sur le bilan interne du Guide suprême — unanimement qualifié de brutal et répresseur — mais diverge radicalement sur la légitimité de l'action militaire. Alors que la presse anglo-saxonne (BBC se focalise sur l'efficacité tactique des frappes et le 'remodelage' régional, les médias de gauche français (Mediapart, L'Humanité) soulignent la violation flagrante du droit international. Le test d'universalité est ici flagrant : si une telle élimination ciblée d'un chef d'État avait été menée par une puissance non-occidentale, le discours sur la 'souveraineté violée' serait central. Ici, il est souvent relégué au second plan derrière la célébration de la chute d'un dictateur. On observe un double standard persistant : l'illégalité de l'agression territoriale est occultée par la nature détestable de la cible. L'analyse de Mediapart est la seule à véritablement croiser la joie légitime des Iraniens opprimés avec le danger démocratique que représente une 'libération' imposée par des bombes étrangères, rappelant les précédents désastreux de l'Irak ou de la Libye.",
     "biais_detectes": [
       "Biais atlantiste",
-      "Normalisation de l'assassinat politique",
-      "Minimisation des violations du droit international"
+      "Minimisation de la violation du droit international",
+      "Solutionnisme militaire"
     ],
-    "ce_quil_faut_retenir": "L'escalade est régionale et le droit international est le grand perdant de cette opération. L'Iran ne s'effondre pas mais exporte le conflit vers les alliés arabes de Washington."
+    "ce_quil_faut_retenir": "Si la disparition de Khamenei est une libération pour une partie du peuple iranien, le mode opératoire (frappes étrangères) fragilise la transition démocratique et risque de provoquer une radicalisation des Gardiens de la révolution."
   },
   "regard_etranger": [
     {
-      "source": "The Guardian",
-      "pays": "Royaume-Uni",
-      "titre": "Soutenir une agression illégale contre l'Iran est la pire chose que l'Australie puisse faire",
-      "titre_original": "Supporting ‘illegal aggression’ against Iran ‘the worst thing’ Australia could do",
-      "angle": "Critique virulente du suivisme des puissances moyennes face à la violation du droit international par les USA et Israël.",
-      "url": "https://www.theguardian.com/world/2026/mar/01/supporting-aggression-against-iran-the-worst-thing-australia-could-do-international-law-experts-say",
-      "groupe_media": {
-        "nom": "Scott Trust",
-        "proprietaire": "Scott Trust Limited",
-        "type_proprietaire": "fondation",
-        "orientation": "centre-gauche"
-      }
-    },
-    {
       "source": "Al Jazeera",
       "pays": "Qatar",
-      "titre": "Sous l'ombre de la guerre en Iran, Israël trouve un nouveau moyen de punir Gaza",
-      "titre_original": "Under the shadow of the Iran war, Israel finds another way to punish Gaza",
-      "angle": "Souligne comment le conflit iranien sert d'écran de fumée pour durcir le blocus de Gaza et fermer le passage de Rafah.",
-      "url": "https://www.aljazeera.com/opinions/2026/3/1/under-the-shadow-of-the-iran-war-israel-finds-another-way-to-punish-gaza",
+      "titre": "Le monde réagit à l'assassinat de Khamenei",
+      "titre_original": "World reacts to killing of Iran’s Khamenei by US, Israel forces",
+      "angle": "Focus sur les réactions du Sud global et les risques d'escalade régionale.",
+      "url": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces",
       "groupe_media": {
         "nom": "Al Jazeera Media Network",
         "proprietaire": "État du Qatar",
         "type_proprietaire": "etat",
         "orientation": "variable"
       }
+    },
+    {
+      "source": "The Guardian",
+      "pays": "Royaume-Uni",
+      "titre": "Le 'Pacificateur' Trump lance une guerre contre l'Iran",
+      "titre_original": "‘Peacemaker’ Trump starts a war with Iran",
+      "angle": "Ironie sur la rhétorique de Trump et analyse du changement de doctrine sécuritaire américain.",
+      "url": "https://www.theguardian.com/politics/audio/2026/mar/01/peacemaker-trump-starts-war-with-iran-podcast",
+      "groupe_media": {
+        "nom": "Scott Trust",
+        "proprietaire": "Scott Trust Limited",
+        "type_proprietaire": "fondation",
+        "orientation": "centre-gauche"
+      }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "34 000",
-    "contexte": "Le nombre de projectiles (bombes guidées, missiles, drones) lancés par la Russie sur l'Ukraine durant les trois mois d'hiver.",
-    "source": "Le Monde",
-    "source_url": "https://www.lemonde.fr/international/live/2026/03/01/en-direct-guerre-en-ukraine-la-russie-a-lance-plus-de-34-000-projectiles-sur-le-territoire-ukrainien-au-cours-des-trois-mois-d-hiver-affirme-volodymyr-zelensky_6668763_3210.html"
+    "valeur": "28%",
+    "contexte": "La chute de fréquentation du Salon de l'agriculture 2026 en l'absence des bovins.",
+    "source": "franceinfo",
+    "source_url": "https://www.franceinfo.fr/societe/salon-de-l-agriculture/la-frequentation-du-salon-de-l-agriculture-a-chute-de-pres-de-28-cette-annee-en-l-absence-des-bovins_7838933.html"
   },
   "a_surveiller": [
     {
-      "date": "2026-03-01",
-      "evenement": "Meeting de Jean-Luc Mélenchon à Perpignan en réponse au RN",
-      "type": "manifestation",
-      "lien": "https://www.20minutes.fr/politique/4203901-20260228-municipales-2026-jordan-bardella-appelle-gauche-moderee-rompre-lfi"
+      "date": "2026-03-02",
+      "evenement": "Ouverture du procès de l'ancien patron de la lutte anti-drogue François Thierry à Bordeaux",
+      "type": "audition",
+      "lien": "https://www.lemonde.fr/societe/article/2026/03/01/francois-thierry-l-ancien-patron-de-la-lutte-antidrogue-et-son-informateur-sofiane-hambli-juges-a-bordeaux_6668944_3224.html"
     },
     {
-      "date": "2026-03-01",
-      "evenement": "Coup d'envoi de l'Olympico OM-OL à 20h45",
-      "type": "autre",
-      "lien": "https://rmcsport.bfmtv.com/football/ligue-1/direct-om-ol-suivez-l-olympico-le-match-bouillant-entre-marseille-et-lyon-en-live_LS-202603010057.html"
+      "date": "2026-03-15",
+      "evenement": "Premier tour des élections municipales en France",
+      "type": "vote",
+      "lien": "https://www.20minutes.fr/politique/4203933-20260301-municipales-2026-dunkerque-rn-desinvestit-candidat-face-presence-action-francaise-liste"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Suspension des allocations chômage sur simple soupçon",
+      "titre": "Les CV gênants des colistiers de Rachida Dati",
       "rubrique": "politique",
-      "resume": "Les députés ont voté une mesure permettant de suspendre les allocations chômage en cas de simple 'suspicion' de fraude. La gauche dénonce une bascule vers une justice d'exception pour les plus précaires.",
+      "resume": "Une enquête révèle la présence sur les listes de Rachida Dati à Paris de profils mis en cause pour atteintes à la probité ou affichant des proximités avec l'ultra-droite et des mouvements anti-LGBTQIA+.",
       "sources": [
         {
           "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/politique/280226/les-deputes-votent-la-suspension-des-allocations-chomage-sur-la-base-d-un-soupcon-de-fraude-la-gauche-d",
+          "url": "https://www.mediapart.fr/journal/politique/010326/atteintes-la-probite-et-proximite-avec-l-extreme-droite-les-cv-genants-des-colistiers-de-rachida-dati-p",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce recul majeur du droit de la défense est passé inaperçu, éclipsé par l'actualité internationale et les préparatifs des municipales."
+      "pourquoi_signal": "Sujet occulté par les médias mainstream qui se focalisent sur le duel Dati/Hidalgo sans auditer la composition réelle des listes."
     },
     {
-      "titre": "Trois ans après la tragédie de Tempé, la Grèce réclame justice",
-      "rubrique": "societe",
-      "resume": "Des dizaines de milliers de Grecs manifestent contre la corruption et l'impunité, trois ans après la catastrophe ferroviaire qui a fait 57 morts.",
+      "titre": "Grèce : la colère trois ans après la tragédie de Tempé",
+      "rubrique": "international",
+      "resume": "Des dizaines de milliers de Grecs manifestent pour réclamer justice trois ans après la collision ferroviaire qui a fait 57 morts, dénonçant une corruption endémique dans les services publics.",
       "sources": [
         {
           "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/international/010326/trois-ans-after-la-pire-catastrophe-ferroviaire-de-son-histoire-la-grece-defile-pour-reclamer-justi",
+          "url": "https://www.mediapart.fr/journal/international/010326/trois-ans-apres-la-pire-catastrophe-ferroviaire-de-son-histoire-la-grece-defile-pour-reclamer-justi",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Une mobilisation citoyenne massive contre la corruption structurelle en Europe, ignorée par les JT français."
+      "pourquoi_signal": "Une actualité européenne majeure traitée uniquement sous l'angle du fait divers par la presse généraliste, ignorant les causes structurelles liées à l'austérité."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "L'impérialisme décomplexé et la mort du droit international",
+      "titre": "Violation du droit international en Iran",
       "rubrique": "international",
-      "resume": "L'assassinat d'Ali Khamenei par les USA et Israël est qualifié d''attaque impérialiste' par la presse turque et de 'crime d'agression' par des juristes internationaux.",
+      "resume": "L'attaque américano-israélienne est dénoncée par des juristes comme une violation flagrante de la Charte de l'ONU, les agresseurs ne se trouvant pas en situation d'autodéfense immédiate.",
       "axes_concernes": [
         "droit_international",
-        "colonialisme"
+        "imperialisme"
       ],
-      "analyse": "Cette opération consacre un 'droit international dérogatoire' pour les puissants. En frappant au cœur d'un État souverain sans mandat de l'ONU, les USA et Israël balaient les principes de la charte des Nations Unies. Notre ligne éditoriale souligne que si l'agression territoriale russe en Ukraine est condamnée, celle-ci doit l'être avec la même force. L'acceptation tacite de cet acte par les chancelleries occidentales crée un précédent dangereux pour la paix mondiale.",
+      "analyse": "L'assassinat d'un chef d'État sur son propre sol par des puissances étrangères sans déclaration de guerre préalable constitue un précédent dangereux. En ignorant les cadres multilatéraux, les États-Unis de Trump et l'Israël de Netanyahou valident la loi du plus fort, affaiblissant durablement l'ordre juridique mondial. Cette 'fureur épique' risque de plonger la région dans un chaos que même la chute d'un régime répressif ne saurait justifier moralement au regard du droit des peuples à disposer d'eux-mêmes.",
       "sources": [
         {
-          "nom": "Blast",
-          "url": "https://www.blast-info.fr/articles/2026/agression-militaire-en-iran-a-force-de-frapper-le-droit-cest-la-paix-meme-quon-tue-saL87XFYQV-XqZYjNDaRkw",
-          "type": "investigation"
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/monde/droit-international/guerre-en-iran-il-sagit-dune-violation-indeniable-et-claire-du-droit-international-estime-le-juriste-jan-fermon",
+          "type": "mainstream"
         },
         {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/vu-de-turquie-attaque-imperialiste-des-etats-unis-la-presse-turque-vent-debout-face-a-la-guerre-contre-l-iran_241167",
-          "type": "etranger"
+          "nom": "Politis",
+          "url": "https://www.politis.fr/api/proxy/?articleID=449674",
+          "type": "investigation"
         }
       ]
     },
     {
-      "titre": "Écologie et décolonialisme : l'urgence de déconstruire",
+      "titre": "La 'fascisation' lexicale et politique en France",
       "rubrique": "societe",
-      "resume": "Les militants décoloniaux pressent le mouvement écologiste de se libérer de ses biais racistes et de sa norme majoritaire blanche.",
+      "resume": "L'analyse de la couverture médiatique de la mort du militant Quentin Deranque révèle une minimisation systématique de l'appartenance de certains acteurs à des groupes néofascistes.",
       "axes_concernes": [
-        "justice_sociale",
-        "colonialisme"
+        "antifascisme",
+        "liberte_expression"
       ],
-      "analyse": "La transition écologique ne peut être juste si elle ignore les structures coloniales qui perdurent. Comme le souligne Reporterre, l'échelon communal est vital, mais Mediapart rappelle que l'écologie 'mainstream' doit intégrer le vécu des personnes racisées pour ne pas devenir un instrument de ségrégation verte. L'équité sociale est indissociable de la survie planétaire.",
+      "analyse": "Le glissement sémantique observé dans les médias mainstream (Le Monde, BFM TV) tend à normaliser des profils d'extrême droite radicale en évitant les termes 'néofasciste' ou 'ultra-droite'. Cette complaisance lexicale, couplée à la présence de candidats issus de groupuscules interdits sur les listes RN (Action Française), témoigne d'une porosité croissante entre la droite dite républicaine et les franges les plus violentes du nationalisme. Notre rédaction alerte sur ce processus de légitimation qui fragilise la démocratie sociale.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/ecologie/280226/les-militants-decoloniaux-pressent-le-mouvement-ecologiste-se-defaire-de-ses-biais-racistes",
+          "nom": "Arrêt sur images",
+          "url": "https://www.arretsurimages.net/articles/mort-de-quentin-deranque-le-neofascisme-qui-ne-dit-pas-son-nom",
           "type": "investigation"
         },
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Democratie-participative-communalisme-Comment-relancer-la-participation-citoyenne",
-          "type": "investigation"
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/politique/racisme-homophobie-complotisme-sur-les-listes-rn-aux-municipales-une-centaine-de-brebis-galeuses-recensees-20260301_CBKEHXNOCZHS3LQRS3RXDHQEEU/",
+          "type": "mainstream"
         }
       ]
     }
   ],
   "date": "2026-03-01",
-  "genere_a": "2026-03-01T11:50:57.050Z",
+  "genere_a": "2026-03-01T21:08:27.725Z",
   "meta": {
-    "nb_articles_analyses": 487,
-    "nb_topics": 102,
-    "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 108,
-    "sources_francaises": 325,
-    "sources_etrangeres": 162,
+    "nb_articles_analyses": 511,
+    "nb_topics": 104,
+    "nb_topics_selectionnes": 16,
+    "nb_articles_dans_selection": 116,
+    "sources_francaises": 343,
+    "sources_etrangeres": 168,
     "rubriques_couvertes": [
       "international",
       "politique",
       "economie",
-      "culture"
+      "societe"
     ],
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "4.0.0"
