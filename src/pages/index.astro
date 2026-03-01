@@ -26,7 +26,6 @@ const france = uneData?.france || [];
 const monde = uneData?.monde || [];
 const essentiels = uneData?.essentiels || [];
 const regardCroise = uneData?.regard_croise;
-const regardEtranger = uneData?.regard_etranger || [];
 const chiffre = uneData?.chiffre_du_jour;
 const aSurveiller = uneData?.a_surveiller || [];
 const meta = uneData?.meta;
@@ -229,31 +228,6 @@ if (sujet) {
             </section>
           )}
 
-          {/* ── VU DE L'ÉTRANGER ── */}
-          {regardEtranger.length > 0 && (
-            <section class="mb-8">
-              <div class="flex items-center gap-2 mb-4">
-                <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-purple-700 bg-purple-50 px-2 py-0.5 rounded">Vu de l'étranger</span>
-                <span class="font-mono text-[9px] text-gris-clair">La France vue d'ailleurs</span>
-              </div>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {regardEtranger.map((r: any) => (
-                  <a href={r.url} target="_blank" rel="noopener noreferrer"
-                     class="block p-3.5 rounded-lg border border-gris-chaud bg-blanc no-underline hover:border-purple-300 hover:shadow-sm transition-all group">
-                    <div class="flex items-center gap-2 mb-1.5">
-                      <span class="text-base">{paysEmoji[r.pays] || '🌐'}</span>
-                      <span class="font-mono text-[11px] font-bold text-noir">{r.source}</span>
-                      {r.groupe_media && <MediaOwnerBadge groupe_media={r.groupe_media} compact={true} />}
-                    </div>
-                    <p class="text-[13px] font-semibold text-noir leading-snug mb-1 group-hover:text-purple-700 transition-colors">
-                      {r.titre}
-                    </p>
-                    <p class="text-[12px] text-gris-texte leading-relaxed line-clamp-2">{r.angle}</p>
-                  </a>
-                ))}
-              </div>
-            </section>
-          )}
         </>
       ) : essentiels.length > 0 && (
         <section class="mb-10">
