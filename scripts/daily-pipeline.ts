@@ -103,6 +103,11 @@ const steps: Step[] = [
     critical: true,
   },
   {
+    name: 'Enrichissement Une (GPT + web search)',
+    command: 'npx tsx --env-file=.env scripts/generate-une-gpt.ts',
+    critical: false,
+  },
+  {
     name: 'Génération section IA/Tech',
     command: 'npx tsx --env-file=.env scripts/generate-ia.ts',
     critical: false,
@@ -263,7 +268,8 @@ async function main() {
     console.log(`${'─'.repeat(40)}`);
 
     try {
-      execSync('git add src/data/une.json src/data/votes.json src/data/ia.json src/data/sujets-chauds.json src/content/articles/', { stdio: 'inherit' });
+      execSync('git add src/data/une.json src/data/votes.json src/data/ia.json src/data/sujets-chauds.json src/data/fil.json src/content/articles/', { stdio: 'inherit' });
+      execSync('git add -f src/data/.pipeline/topics-tagged.json src/data/.pipeline/topics.json src/data/.pipeline/raw-articles.json', { stdio: 'inherit' });
       execSync(
         `git commit -m "daily: edition du ${today}" --author="Citoyens.ai Pipeline <pipeline@citoyens.ai>"`,
         { stdio: 'inherit' }
