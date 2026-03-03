@@ -17,8 +17,12 @@ pnpm-debug.log*
 .env
 .env.production
 
-# pipeline intermediate files
+# pipeline intermediate files (gros fichiers temporaires)
 src/data/.pipeline/
+# mais on commite les fichiers utilisés au build statique
+!src/data/.pipeline/topics-tagged.json
+!src/data/.pipeline/topics.json
+!src/data/.pipeline/raw-articles.json
 
 # macOS-specific files
 .DS_Store

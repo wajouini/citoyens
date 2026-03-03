@@ -1,0 +1,8252 @@
+{
+  "date": "2026-03-03",
+  "classifie_a": "2026-03-03T14:03:18.953Z",
+  "model": "gemini-3-flash-preview",
+  "nb_topics": 167,
+  "topics": [
+    {
+      "id": "topic-001",
+      "titre": "Instabilité interne et succession après la mort d'Ali Khamenei",
+      "article_ids": [
+        "c87edef2ef4a",
+        "2138a97a9242",
+        "1fcae24826bf",
+        "6c79dfe900b5",
+        "ffd0170a6f43",
+        "4a9262d18f7b",
+        "9af26f6f9cfe",
+        "f42afff7c01e",
+        "19d7e24362c3",
+        "38a507eda002",
+        "404d90598690",
+        "76372857023e",
+        "d09c51f08598",
+        "125e92e978e9",
+        "9c2940e25070"
+      ],
+      "sources": [
+        "La Croix",
+        "20 Minutes",
+        "Libération",
+        "Mediapart",
+        "Courrier international",
+        "France 24 FR",
+        "RFI",
+        "Sud-Ouest",
+        "Le Figaro",
+        "L'Humanité"
+      ],
+      "types": [
+        "mainstream",
+        "investigation",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 10,
+        "diversite_types": 3,
+        "fiabilite_moy": 4.1,
+        "fraicheur_h": 0.9,
+        "couverture_mixte": true,
+        "coherence": 0.91,
+        "investigation_bonus": 10,
+        "axes_alignment": 7.9,
+        "pluralite": 5,
+        "total": 94
+      },
+      "editorial_flags": [
+        "droits_humains",
+        "justice_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1.6,
+        "antifascisme": 1.8,
+        "justice_sociale": 1.8
+      },
+      "orientations": [
+        "centre",
+        "centre-gauche",
+        "gauche",
+        "droite"
+      ],
+      "has_investigation_source": true,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-002",
+      "titre": "Actualité judiciaire : Procès Samuel Paty et Tariq Ramadan",
+      "article_ids": [
+        "1f60a559273f",
+        "598fe9d4a411",
+        "571d1de3f8b3",
+        "05d05b7e71f8",
+        "f7b70ffb6637",
+        "4cc059227d1c",
+        "024ba20dc7ed",
+        "8be6727e952a",
+        "5134b43e542d",
+        "d58b09033c02",
+        "cd96a21d42f6",
+        "c2d5a5ab45e7"
+      ],
+      "sources": [
+        "20 Minutes",
+        "France 24 FR",
+        "La Croix",
+        "franceinfo",
+        "L'Obs",
+        "L'Humanité",
+        "Le Point",
+        "Blast",
+        "France 24 EN"
+      ],
+      "types": [
+        "mainstream",
+        "investigation",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "justice"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 9,
+        "diversite_types": 3,
+        "fiabilite_moy": 4.1,
+        "fraicheur_h": 0.5,
+        "couverture_mixte": true,
+        "coherence": 0.914,
+        "investigation_bonus": 10,
+        "axes_alignment": 8.3,
+        "pluralite": 5,
+        "total": 94
+      },
+      "editorial_flags": [
+        "laicite",
+        "justice_sociale",
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1.5,
+        "antifascisme": 1.5,
+        "justice_sociale": 1.5
+      },
+      "orientations": [
+        "centre",
+        "centre-gauche",
+        "gauche",
+        "centre-droit"
+      ],
+      "has_investigation_source": true,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-003",
+      "titre": "Réactions internationales et conséquences économiques du conflit en Iran",
+      "article_ids": [
+        "12e0345b69e3",
+        "748f9aabcde4",
+        "994a46a34e61",
+        "a978e62d33e7",
+        "dec5639753f5",
+        "61186e7d1c58",
+        "46deb87fcd58",
+        "588719bcce86",
+        "96d868485163",
+        "e49aabcb759b",
+        "f9fccddfdda3",
+        "c752a9393b8a",
+        "2e3b25dcc859",
+        "1688df4d2e04"
+      ],
+      "sources": [
+        "La Croix",
+        "franceinfo",
+        "Le Figaro",
+        "Libération",
+        "BFM TV",
+        "Blast",
+        "20 Minutes",
+        "Swissinfo",
+        "Sud-Ouest",
+        "Le Monde"
+      ],
+      "types": [
+        "mainstream",
+        "investigation",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France",
+        "Suisse"
+      ],
+      "score": {
+        "nb_sources": 10,
+        "diversite_types": 3,
+        "fiabilite_moy": 4.1,
+        "fraicheur_h": 0.3,
+        "couverture_mixte": true,
+        "coherence": 0.925,
+        "investigation_bonus": 10,
+        "axes_alignment": 6.8,
+        "pluralite": 5,
+        "total": 93
+      },
+      "editorial_flags": [
+        "equite_economique",
+        "imperialisme",
+        "droit_international"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 1.8,
+        "antifascisme": 2.2,
+        "justice_sociale": 2.3
+      },
+      "orientations": [
+        "centre",
+        "droite",
+        "centre-gauche",
+        "centre-droit",
+        "gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-004",
+      "titre": "Actualités environnementales et biodiversité",
+      "article_ids": [
+        "fbf7aad0d372",
+        "0d8a75791217",
+        "1556d12107b4",
+        "6129c5032588",
+        "80fa4c5490a3",
+        "fa678c43896d",
+        "d10e22e51692",
+        "50459f5de8eb",
+        "a3807ad9c245",
+        "2d3841b064ac",
+        "c646ec39a8dd",
+        "17c0d42fa78d"
+      ],
+      "sources": [
+        "Reporterre",
+        "La Croix",
+        "L'Obs",
+        "franceinfo",
+        "Médiacités",
+        "Rue89 Strasbourg",
+        "Futura Sciences",
+        "Sciences et Avenir",
+        "The Conversation FR",
+        "Blast",
+        "Courrier international"
+      ],
+      "types": [
+        "investigation",
+        "mainstream",
+        "etranger"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 11,
+        "diversite_types": 3,
+        "fiabilite_moy": 4.2,
+        "fraicheur_h": 0.5,
+        "couverture_mixte": true,
+        "coherence": 0.821,
+        "investigation_bonus": 10,
+        "axes_alignment": 7.6,
+        "pluralite": 5,
+        "total": 93
+      },
+      "editorial_flags": [
+        "ecologie_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.2,
+        "droit_international": 2.2,
+        "liberte_expression": 1.5,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "gauche",
+        "centre",
+        "centre-gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "ecologie"
+    },
+    {
+      "id": "topic-005",
+      "titre": "Actualités économiques et monde du travail",
+      "article_ids": [
+        "ec8f00f6ad34",
+        "0320efc8dfa1",
+        "28023bf04ff6",
+        "4c24d046ca36",
+        "6bf409463ed7",
+        "3f7b7b6cb7a4"
+      ],
+      "sources": [
+        "franceinfo",
+        "Le Figaro",
+        "Courrier international",
+        "Next",
+        "Le Monde",
+        "Le Point"
+      ],
+      "types": [
+        "mainstream",
+        "etranger",
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "travail"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 6,
+        "diversite_types": 3,
+        "fiabilite_moy": 4.5,
+        "fraicheur_h": 0.1,
+        "couverture_mixte": true,
+        "coherence": 0.828,
+        "investigation_bonus": 10,
+        "axes_alignment": 6.3,
+        "pluralite": 5,
+        "total": 93
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 2.7,
+        "liberte_expression": 1.7,
+        "antifascisme": 2.7,
+        "justice_sociale": 2.3
+      },
+      "orientations": [
+        "centre",
+        "droite",
+        "centre-droit"
+      ],
+      "has_investigation_source": true,
+      "tag": "travail"
+    },
+    {
+      "id": "topic-006",
+      "titre": "Impact politique de la guerre avec l'Iran pour Donald Trump",
+      "article_ids": [
+        "b38222c7a237",
+        "a131ee3ece30",
+        "d731166ee9c4",
+        "a90b549411c5",
+        "780a98341dbe",
+        "38a96ab424e9",
+        "526df2fbdd12",
+        "6ca08eb90771",
+        "82b8ec1391f8",
+        "ff0c8523de85",
+        "0322762b3bbc"
+      ],
+      "sources": [
+        "France 24 FR",
+        "The Conversation FR",
+        "Le Point",
+        "BFM TV",
+        "Le Figaro",
+        "Courrier international",
+        "CheckNews",
+        "L'Obs"
+      ],
+      "types": [
+        "mainstream",
+        "etranger",
+        "fact-check"
+      ],
+      "rubriques_detectees": [
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 8,
+        "diversite_types": 3,
+        "fiabilite_moy": 3.9,
+        "fraicheur_h": 0.2,
+        "couverture_mixte": true,
+        "coherence": 0.914,
+        "investigation_bonus": 10,
+        "axes_alignment": 6.2,
+        "pluralite": 5,
+        "total": 92
+      },
+      "editorial_flags": [
+        "droit_international",
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.8,
+        "droit_international": 2.8,
+        "liberte_expression": 2,
+        "antifascisme": 2.4,
+        "justice_sociale": 2.6
+      },
+      "orientations": [
+        "centre",
+        "centre-droit",
+        "droite",
+        "centre-gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "elections"
+    },
+    {
+      "id": "topic-007",
+      "titre": "Conséquences économiques mondiales du conflit avec l'Iran",
+      "article_ids": [
+        "2466a4a96587",
+        "aed5eb7ccc49",
+        "e087d80b866f",
+        "2783b2046d63",
+        "0500f6b0f603",
+        "a20786b30656",
+        "c9b82271b9af",
+        "f117cf56d2ac",
+        "1f5b2826f3bd",
+        "4d5daf9635d3",
+        "745982325eed",
+        "b2e233d71f4f",
+        "fea80ec55a44",
+        "8b69e54133de"
+      ],
+      "sources": [
+        "France 24 FR",
+        "BFM TV",
+        "BFM Business",
+        "La Croix",
+        "Le Figaro",
+        "Courrier international",
+        "Reporterre",
+        "franceinfo",
+        "Le Point",
+        "Mediapart"
+      ],
+      "types": [
+        "mainstream",
+        "etranger",
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 10,
+        "diversite_types": 3,
+        "fiabilite_moy": 3.9,
+        "fraicheur_h": 1,
+        "couverture_mixte": true,
+        "coherence": 0.905,
+        "investigation_bonus": 10,
+        "axes_alignment": 7,
+        "pluralite": 5,
+        "total": 92
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 1.8,
+        "antifascisme": 2,
+        "justice_sociale": 2.2
+      },
+      "orientations": [
+        "centre",
+        "centre-droit",
+        "droite",
+        "gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "macro"
+    },
+    {
+      "id": "topic-008",
+      "titre": "Nouvelle doctrine de dissuasion nucléaire française d'Emmanuel Macron",
+      "article_ids": [
+        "5299bbcdaf37",
+        "b76393293312",
+        "86ca689fd1e8",
+        "7130b2cdadfc",
+        "ad58a99ba8c5",
+        "84c9f578143a",
+        "a3c03d0e182c",
+        "3a53b9b4902f",
+        "347994c2d44a",
+        "fd56b0c121c0",
+        "2da4b55a10ee",
+        "d2b353931002",
+        "0fdaa0344586",
+        "862d8adcde25",
+        "6d2df61d725a"
+      ],
+      "sources": [
+        "Slate FR",
+        "RFI",
+        "franceinfo",
+        "Le Point",
+        "Numerama",
+        "Reporterre",
+        "La Croix",
+        "L'Obs",
+        "20 Minutes",
+        "The Guardian"
+      ],
+      "types": [
+        "mainstream",
+        "investigation",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "energie"
+      ],
+      "pays_concernes": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 10,
+        "diversite_types": 3,
+        "fiabilite_moy": 4.1,
+        "fraicheur_h": 4.1,
+        "couverture_mixte": true,
+        "coherence": 0.929,
+        "investigation_bonus": 10,
+        "axes_alignment": 7.4,
+        "pluralite": 5,
+        "total": 91
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2.3,
+        "droit_international": 2.3,
+        "liberte_expression": 1.7,
+        "antifascisme": 1.8,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre",
+        "centre-droit",
+        "gauche",
+        "centre-gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "gouvernement"
+    },
+    {
+      "id": "topic-009",
+      "titre": "Préparatifs et enjeux des élections municipales 2026",
+      "article_ids": [
+        "d49ed89315c2",
+        "bd23750007cb",
+        "9b401d470d48",
+        "d6098f754121",
+        "1a972f529def",
+        "dedf85f61063",
+        "98bee956719a",
+        "5046894d8a9a",
+        "295e06b53ac5",
+        "8386a836e767",
+        "10d1a7e22d5c",
+        "88fbbca0b39a",
+        "c25e851baf9a"
+      ],
+      "sources": [
+        "Les Décodeurs",
+        "20 Minutes",
+        "Slate FR",
+        "franceinfo",
+        "Libération",
+        "L'Obs",
+        "Ouest-France",
+        "The Conversation FR",
+        "Reporterre",
+        "Le Monde"
+      ],
+      "types": [
+        "fact-check",
+        "mainstream",
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "elections"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 10,
+        "diversite_types": 3,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 0.4,
+        "couverture_mixte": false,
+        "coherence": 0.895,
+        "investigation_bonus": 10,
+        "axes_alignment": 7.5,
+        "pluralite": 5,
+        "total": 89
+      },
+      "editorial_flags": [
+        "justice_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.2,
+        "droit_international": 2.2,
+        "liberte_expression": 1.7,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre-droit",
+        "centre",
+        "centre-gauche",
+        "gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "elections"
+    },
+    {
+      "id": "topic-010",
+      "titre": "Guerre en Iran et réactions internationales",
+      "article_ids": [
+        "66d18e601746",
+        "3fe13caa10d8",
+        "5419de73b010",
+        "0b776788c233",
+        "93f98db73d55",
+        "9f62a6f5d03f",
+        "dc76ead0869a",
+        "229a42573b4b"
+      ],
+      "sources": [
+        "Futura Sciences",
+        "L'Obs",
+        "Politis",
+        "La Croix",
+        "Le Point",
+        "Rue89 Strasbourg",
+        "Courrier international"
+      ],
+      "types": [
+        "mainstream",
+        "investigation",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 7,
+        "diversite_types": 3,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 4.8,
+        "couverture_mixte": true,
+        "coherence": 0.84,
+        "investigation_bonus": 10,
+        "axes_alignment": 5.5,
+        "pluralite": 5,
+        "total": 88
+      },
+      "editorial_flags": [
+        "droit_international",
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre",
+        "centre-gauche",
+        "gauche",
+        "centre-droit"
+      ],
+      "has_investigation_source": true,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-011",
+      "titre": "Cybercriminalité et protection des données numériques",
+      "article_ids": [
+        "d68bf679f2a0",
+        "62fb49c937c1",
+        "023a56f194c0",
+        "ba99cda4b8f3",
+        "50d5f5b9e34f",
+        "5cc1601bc1be",
+        "59654e2032ca",
+        "f02754f5f788"
+      ],
+      "sources": [
+        "La Croix",
+        "BFM TV",
+        "Sénat",
+        "Next",
+        "Numerama"
+      ],
+      "types": [
+        "mainstream",
+        "institutionnel",
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 3,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 0.2,
+        "couverture_mixte": false,
+        "coherence": 0.837,
+        "investigation_bonus": 10,
+        "axes_alignment": 5.2,
+        "pluralite": 5,
+        "total": 86
+      },
+      "editorial_flags": [
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 3.3,
+        "droit_international": 3,
+        "liberte_expression": 2.3,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre",
+        "centre-droit",
+        "variable"
+      ],
+      "has_investigation_source": true,
+      "tag": "cybersec"
+    },
+    {
+      "id": "topic-012",
+      "titre": "Enjeux et campagnes des élections municipales en France",
+      "article_ids": [
+        "d5a994c4ed36",
+        "d1c9eccc780f",
+        "9ffc343bd418",
+        "923385495af9",
+        "60fb0433b625",
+        "4b193dac2d46",
+        "338dd01f9dca",
+        "56cff2d1715f",
+        "5e14856f47b2",
+        "4c39cad003ea",
+        "6911013d5bbd",
+        "9d35453d5ffb",
+        "53d7c88eb2f7",
+        "3c41408ad938"
+      ],
+      "sources": [
+        "Basta!",
+        "Ouest-France",
+        "L'Obs",
+        "20 Minutes",
+        "Alternatives Économiques",
+        "BFM TV",
+        "Politis",
+        "franceinfo",
+        "StreetPress",
+        "Le Point",
+        "Mediapart",
+        "Médiacités"
+      ],
+      "types": [
+        "investigation",
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "elections"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 12,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.1,
+        "fraicheur_h": 0.3,
+        "couverture_mixte": false,
+        "coherence": 0.843,
+        "investigation_bonus": 10,
+        "axes_alignment": 8.1,
+        "pluralite": 5,
+        "total": 85
+      },
+      "editorial_flags": [
+        "justice_sociale",
+        "ecologie_sociale",
+        "antifascisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1.5,
+        "antifascisme": 1.7,
+        "justice_sociale": 1.7
+      },
+      "orientations": [
+        "gauche",
+        "centre",
+        "centre-gauche",
+        "centre-droit"
+      ],
+      "has_investigation_source": true,
+      "tag": "elections"
+    },
+    {
+      "id": "topic-013",
+      "titre": "Répercussions sécuritaires et géopolitiques mondiales de la guerre en Iran",
+      "article_ids": [
+        "ba6a55bc62da",
+        "0d4768cd8550",
+        "869a247ee497",
+        "d26f6916957c",
+        "089a88ef4f75",
+        "9547e1469c27",
+        "797de09d4c85",
+        "c33ef124a475",
+        "f16dc77e0913",
+        "4b897eeb0942",
+        "caa80fc89afb",
+        "ee0fdf0e69d2",
+        "b47f2cddf044",
+        "effb5fefe33d"
+      ],
+      "sources": [
+        "Le Figaro",
+        "franceinfo",
+        "Le Point",
+        "BFM TV",
+        "CheckNews",
+        "Libération",
+        "20 Minutes",
+        "The Conversation FR",
+        "L'Humanité",
+        "France 24 FR"
+      ],
+      "types": [
+        "mainstream",
+        "fact-check"
+      ],
+      "rubriques_detectees": [
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 10,
+        "diversite_types": 2,
+        "fiabilite_moy": 3.9,
+        "fraicheur_h": 0.2,
+        "couverture_mixte": false,
+        "coherence": 0.887,
+        "investigation_bonus": 10,
+        "axes_alignment": 7,
+        "pluralite": 5,
+        "total": 84
+      },
+      "editorial_flags": [
+        "droit_international",
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 1.8,
+        "antifascisme": 2,
+        "justice_sociale": 2.2
+      },
+      "orientations": [
+        "droite",
+        "centre",
+        "centre-droit",
+        "centre-gauche",
+        "gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-014",
+      "titre": "Impact du réchauffement climatique sur la biodiversité et l'environnement",
+      "article_ids": [
+        "1d0c24e90df9",
+        "df4d52be04f3",
+        "44be611ff2a3",
+        "b4e54c9cb7c1",
+        "a49f0ac4c5e6",
+        "682bac5be866",
+        "b0054d330bbe"
+      ],
+      "sources": [
+        "La Croix",
+        "Futura Sciences",
+        "Reporterre",
+        "Sciences et Avenir",
+        "Sud-Ouest"
+      ],
+      "types": [
+        "mainstream",
+        "investigation"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.5,
+        "couverture_mixte": false,
+        "coherence": 0.878,
+        "investigation_bonus": 10,
+        "axes_alignment": 7.8,
+        "pluralite": 3.3,
+        "total": 83
+      },
+      "editorial_flags": [
+        "ecologie_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1.5,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre",
+        "gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "ecologie"
+    },
+    {
+      "id": "topic-015",
+      "titre": "Usage militaire de l'IA par l'administration Trump",
+      "article_ids": [
+        "7637b4a65789",
+        "41e455239d36",
+        "156ff28d29ef"
+      ],
+      "sources": [
+        "Libération",
+        "Next",
+        "Courrier international"
+      ],
+      "types": [
+        "mainstream",
+        "investigation",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "conflit",
+        "tech"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 3,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 4,
+        "couverture_mixte": true,
+        "coherence": 0.915,
+        "investigation_bonus": 10,
+        "axes_alignment": 6.7,
+        "pluralite": 3.3,
+        "total": 82
+      },
+      "editorial_flags": [
+        "imperialisme",
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.7,
+        "droit_international": 2.3,
+        "liberte_expression": 1.7,
+        "antifascisme": 2.7,
+        "justice_sociale": 2.3
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre"
+      ],
+      "has_investigation_source": true,
+      "tag": "ia"
+    },
+    {
+      "id": "topic-016",
+      "titre": "Sécurité et souveraineté logicielle des smartphones",
+      "article_ids": [
+        "8f500ce7d8b2",
+        "d94df1ffd6ee",
+        "b8927b1b30f9",
+        "d49a08b4f869"
+      ],
+      "sources": [
+        "The Register",
+        "Next",
+        "Wired",
+        "Ars Technica"
+      ],
+      "types": [
+        "etranger",
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "France",
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 4,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.5,
+        "fraicheur_h": 2,
+        "couverture_mixte": true,
+        "coherence": 0.846,
+        "investigation_bonus": 10,
+        "axes_alignment": 6.3,
+        "pluralite": 1.7,
+        "total": 81
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 2.7,
+        "liberte_expression": 1.3,
+        "antifascisme": 2.7,
+        "justice_sociale": 2.7
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": true,
+      "tag": "electronique"
+    },
+    {
+      "id": "topic-017",
+      "titre": "Implications de la guerre en Iran sur les pays du Golfe",
+      "article_ids": [
+        "a189bedc3614",
+        "b29291d2d6d7",
+        "ee0301277187",
+        "ad7680bc1fae",
+        "41cbc3052d9b",
+        "4e38a3870f15",
+        "65cb02933d26",
+        "642b2d74d3a3",
+        "31ffe8d1da2a",
+        "a0474306cd24",
+        "39ec5735c69a",
+        "12458c4eb387",
+        "f70803033bf9"
+      ],
+      "sources": [
+        "L'Obs",
+        "Courrier international",
+        "20 Minutes",
+        "L'Humanité",
+        "Le Point",
+        "Le Figaro",
+        "La Croix"
+      ],
+      "types": [
+        "mainstream",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 7,
+        "diversite_types": 2,
+        "fiabilite_moy": 3.9,
+        "fraicheur_h": 1.2,
+        "couverture_mixte": true,
+        "coherence": 0.882,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.8,
+        "pluralite": 5,
+        "total": 79
+      },
+      "editorial_flags": [
+        "droit_international",
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1.5,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre",
+        "gauche",
+        "centre-droit",
+        "droite"
+      ],
+      "has_investigation_source": false,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-018",
+      "titre": "Conséquences géopolitiques et économiques du conflit iranien",
+      "article_ids": [
+        "db747bd3c04f",
+        "d31cac501bcd",
+        "7012530c7640",
+        "7ff53019c2eb",
+        "fd1563b428f4"
+      ],
+      "sources": [
+        "L'Humanité",
+        "The Conversation FR",
+        "Le Point",
+        "Courrier international",
+        "RFI"
+      ],
+      "types": [
+        "mainstream",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.2,
+        "fraicheur_h": 1.9,
+        "couverture_mixte": true,
+        "coherence": 0.852,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 5,
+        "total": 79
+      },
+      "editorial_flags": [
+        "equite_economique",
+        "ecologie_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.3,
+        "droit_international": 2.3,
+        "liberte_expression": 1.5,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "gauche",
+        "centre",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-019",
+      "titre": "Enjeux de l'enseignement privé et vie politique française",
+      "article_ids": [
+        "d077e49b8446",
+        "e1465ea562ed",
+        "943643ad2490",
+        "e0084d36d67d",
+        "960b16206cde",
+        "5d553dd436fc",
+        "8995706cfb75"
+      ],
+      "sources": [
+        "Libération",
+        "20 Minutes",
+        "La Croix",
+        "L'Obs",
+        "Médiacités",
+        "franceinfo"
+      ],
+      "types": [
+        "mainstream",
+        "investigation"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 6,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 5,
+        "couverture_mixte": false,
+        "coherence": 0.852,
+        "investigation_bonus": 10,
+        "axes_alignment": 7,
+        "pluralite": 3.3,
+        "total": 79
+      },
+      "editorial_flags": [
+        "justice_sociale",
+        "laicite"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre"
+      ],
+      "has_investigation_source": true,
+      "tag": "education"
+    },
+    {
+      "id": "topic-020",
+      "titre": "Impact du conflit au Moyen-Orient sur les transports et expatriés",
+      "article_ids": [
+        "934a63e65746",
+        "86bb38acb72c",
+        "ef05f2522d71",
+        "3f2f263aa864",
+        "49efe25a4c52",
+        "a1d06301b47f",
+        "ce07b7f46946"
+      ],
+      "sources": [
+        "France 24 FR",
+        "20 Minutes",
+        "Le Figaro",
+        "Le Point",
+        "Swissinfo"
+      ],
+      "types": [
+        "mainstream",
+        "etranger"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France",
+        "Suisse"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 2,
+        "fiabilite_moy": 3.9,
+        "fraicheur_h": 0.5,
+        "couverture_mixte": true,
+        "coherence": 0.863,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.3,
+        "pluralite": 5,
+        "total": 79
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 1.5,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre",
+        "droite",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "transport"
+    },
+    {
+      "id": "topic-021",
+      "titre": "Actualités sociales et dérives de gestion en France",
+      "article_ids": [
+        "e2a27b8f83a2",
+        "e4f9c2f556c4",
+        "922ad473ac0e",
+        "deedb01c3072"
+      ],
+      "sources": [
+        "Mediapart",
+        "BFM TV",
+        "Le Monde",
+        "La Croix"
+      ],
+      "types": [
+        "investigation",
+        "mainstream"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 4,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 1,
+        "couverture_mixte": false,
+        "coherence": 0.823,
+        "investigation_bonus": 10,
+        "axes_alignment": 6.3,
+        "pluralite": 5,
+        "total": 79
+      },
+      "editorial_flags": [
+        "justice_sociale",
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.7,
+        "droit_international": 2.7,
+        "liberte_expression": 2,
+        "antifascisme": 2.3,
+        "justice_sociale": 2.7
+      },
+      "orientations": [
+        "gauche",
+        "centre-droit",
+        "centre"
+      ],
+      "has_investigation_source": true,
+      "tag": "gouvernement"
+    },
+    {
+      "id": "topic-022",
+      "titre": "Attaques de drones contre des datacenters Amazon dans le Golfe",
+      "article_ids": [
+        "7f17137780f1",
+        "a0a695ddc4b2",
+        "6e65c7095f39"
+      ],
+      "sources": [
+        "Numerama",
+        "Next",
+        "The Register"
+      ],
+      "types": [
+        "mainstream",
+        "investigation",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 3,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 6.9,
+        "couverture_mixte": true,
+        "coherence": 0.893,
+        "investigation_bonus": 10,
+        "axes_alignment": 6.2,
+        "pluralite": 1.7,
+        "total": 77
+      },
+      "editorial_flags": [
+        "droit_international"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 2.7,
+        "liberte_expression": 1.3,
+        "antifascisme": 3,
+        "justice_sociale": 2.7
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": true,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-023",
+      "titre": "Actualités et santé de Donald Trump",
+      "article_ids": [
+        "8113864cbfe6",
+        "591e51dcb1d4",
+        "97ce2a37e6e2",
+        "84e400b7f21b",
+        "4a33e0e534a6"
+      ],
+      "sources": [
+        "franceinfo",
+        "20 Minutes",
+        "BFM TV",
+        "Courrier international",
+        "Le Figaro"
+      ],
+      "types": [
+        "mainstream",
+        "etranger"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 2,
+        "fiabilite_moy": 3.8,
+        "fraicheur_h": 0.2,
+        "couverture_mixte": true,
+        "coherence": 0.86,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.2,
+        "pluralite": 5,
+        "total": 77
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3.3,
+        "droit_international": 3.3,
+        "liberte_expression": 2.3,
+        "antifascisme": 2.7,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre",
+        "centre-droit",
+        "droite"
+      ],
+      "has_investigation_source": false,
+      "tag": "gouvernement"
+    },
+    {
+      "id": "topic-024",
+      "titre": "Affaire Epstein et auditions des époux Clinton",
+      "article_ids": [
+        "c89a8e4db58f",
+        "734f6a5e5e7c",
+        "bdd6f4e4d35f",
+        "598d9c7f1274",
+        "9ccc5368079b"
+      ],
+      "sources": [
+        "Le Monde",
+        "France 24 FR",
+        "BFM TV",
+        "Le Point",
+        "Al Jazeera"
+      ],
+      "types": [
+        "mainstream",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "justice",
+        "international"
+      ],
+      "pays_concernes": [
+        "France",
+        "Qatar"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1.6,
+        "couverture_mixte": true,
+        "coherence": 0.885,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.8,
+        "pluralite": 5,
+        "total": 77
+      },
+      "editorial_flags": [
+        "justice_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.8,
+        "droit_international": 3,
+        "liberte_expression": 2.5,
+        "antifascisme": 2.5,
+        "justice_sociale": 2.8
+      },
+      "orientations": [
+        "centre-droit",
+        "centre",
+        "variable"
+      ],
+      "has_investigation_source": false,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-025",
+      "titre": "Climat social et contestations politiques en France",
+      "article_ids": [
+        "5749ffe6969a",
+        "2ca68c298e20",
+        "7798dda49105",
+        "ecacd13c69cf",
+        "a0c0c6ec88c1",
+        "610e639c481f"
+      ],
+      "sources": [
+        "Le Point",
+        "The Conversation FR",
+        "Bondy Blog"
+      ],
+      "types": [
+        "mainstream",
+        "investigation"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 2,
+        "couverture_mixte": false,
+        "coherence": 0.827,
+        "investigation_bonus": 10,
+        "axes_alignment": 8,
+        "pluralite": 5,
+        "total": 76
+      },
+      "editorial_flags": [
+        "justice_sociale",
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre-droit",
+        "centre",
+        "gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "gouvernement"
+    },
+    {
+      "id": "topic-026",
+      "titre": "Racisme et corruption aux élections municipales",
+      "article_ids": [
+        "ef067295f313",
+        "aae0f012a35e",
+        "48d2921fea2a"
+      ],
+      "sources": [
+        "Politis",
+        "Mediapart",
+        "Libération"
+      ],
+      "types": [
+        "investigation",
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "politique",
+        "elections"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 3,
+        "couverture_mixte": false,
+        "coherence": 0.898,
+        "investigation_bonus": 10,
+        "axes_alignment": 8.8,
+        "pluralite": 3.3,
+        "total": 76
+      },
+      "editorial_flags": [
+        "justice_sociale",
+        "antifascisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 1.5,
+        "droit_international": 1.5,
+        "liberte_expression": 1.5,
+        "antifascisme": 1.5,
+        "justice_sociale": 1.5
+      },
+      "orientations": [
+        "gauche",
+        "centre-gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "elections"
+    },
+    {
+      "id": "topic-027",
+      "titre": "Recherche sur le vieillissement et la santé cognitive",
+      "article_ids": [
+        "66610b4b90c6",
+        "df20126f3007",
+        "9e0ff54fc796",
+        "c1cd06d4335f",
+        "dca45db19c45",
+        "28c1fb353bc8",
+        "e09364c4fd4d"
+      ],
+      "sources": [
+        "Futura Sciences",
+        "Sciences et Avenir",
+        "Le Point",
+        "Courrier international",
+        "La Croix"
+      ],
+      "types": [
+        "mainstream",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "science"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.3,
+        "couverture_mixte": true,
+        "coherence": 0.843,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 3.3,
+        "total": 76
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "medecine"
+    },
+    {
+      "id": "topic-028",
+      "titre": "Conflit en Iran et géopolitique américaine",
+      "article_ids": [
+        "3314b5a1861f",
+        "159dd305b107",
+        "53307fddf52b"
+      ],
+      "sources": [
+        "Mediapart",
+        "20 Minutes",
+        "Politis"
+      ],
+      "types": [
+        "investigation",
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "politique",
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1.9,
+        "couverture_mixte": false,
+        "coherence": 0.836,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 3.3,
+        "total": 76
+      },
+      "editorial_flags": [
+        "droit_international",
+        "imperialisme",
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 1,
+        "droit_international": 1,
+        "liberte_expression": 1,
+        "antifascisme": 1,
+        "justice_sociale": 1
+      },
+      "orientations": [
+        "gauche",
+        "centre"
+      ],
+      "has_investigation_source": true,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-029",
+      "titre": "Lancements produits Apple : iPhone 17e et iPad Air",
+      "article_ids": [
+        "83c0f07ef6e5",
+        "d74df1fac623",
+        "ef71afd44cbb",
+        "b2da68f1657f",
+        "1b1d56994795",
+        "9647958f6654",
+        "1e14e0dd3c7c"
+      ],
+      "sources": [
+        "Numerama",
+        "Next",
+        "Sciences et Avenir",
+        "Futura Sciences"
+      ],
+      "types": [
+        "mainstream",
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 4,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 4.3,
+        "couverture_mixte": false,
+        "coherence": 0.934,
+        "investigation_bonus": 10,
+        "axes_alignment": 6,
+        "pluralite": 1.7,
+        "total": 75
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 2.7,
+        "liberte_expression": 1.7,
+        "antifascisme": 3,
+        "justice_sociale": 2.7
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": true,
+      "tag": "electronique"
+    },
+    {
+      "id": "topic-030",
+      "titre": "Violences sexistes et sexuelles en Europe",
+      "article_ids": [
+        "8f02f4b24dc2",
+        "515b2b96c7a3",
+        "92c260bac8d6",
+        "50b88bd8b7a3",
+        "5423923be3a5"
+      ],
+      "sources": [
+        "Ouest-France",
+        "franceinfo",
+        "Le Monde",
+        "Reuters"
+      ],
+      "types": [
+        "mainstream",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "diplomatie"
+      ],
+      "pays_concernes": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 4,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.8,
+        "fraicheur_h": 0.4,
+        "couverture_mixte": true,
+        "coherence": 0.857,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.8,
+        "pluralite": 3.3,
+        "total": 75
+      },
+      "editorial_flags": [
+        "justice_sociale",
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2.7,
+        "justice_sociale": 2.7
+      },
+      "orientations": [
+        "centre",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "droits"
+    },
+    {
+      "id": "topic-031",
+      "titre": "Narcotrafic et violence des cartels au Mexique",
+      "article_ids": [
+        "888a9fc594a2",
+        "4a85dac1ebea",
+        "5f399b5f292d",
+        "db362e482dc9",
+        "fb8ff56ceac8"
+      ],
+      "sources": [
+        "France 24 FR",
+        "Le Point",
+        "La Croix",
+        "BBC News"
+      ],
+      "types": [
+        "mainstream",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 4,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.2,
+        "fraicheur_h": 0.7,
+        "couverture_mixte": true,
+        "coherence": 0.853,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.3,
+        "pluralite": 3.3,
+        "total": 73
+      },
+      "editorial_flags": [
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "centre",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-032",
+      "titre": "Guerre en Ukraine et actualités géopolitiques",
+      "article_ids": [
+        "fb582f8de1ff",
+        "c565eedc4813",
+        "55060861f1b4",
+        "25f3510530fd",
+        "4dc6c0caf47a",
+        "2ba5ac4840ce",
+        "5a319801880b",
+        "8a17d2c0a5f3"
+      ],
+      "sources": [
+        "20 Minutes",
+        "Le Monde",
+        "La Croix",
+        "franceinfo",
+        "Slate FR",
+        "L'Humanité",
+        "Le Point",
+        "Libération"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 8,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.1,
+        "fraicheur_h": 0.3,
+        "couverture_mixte": false,
+        "coherence": 0.858,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.4,
+        "pluralite": 5,
+        "total": 72
+      },
+      "editorial_flags": [
+        "droit_international"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.2,
+        "droit_international": 2.2,
+        "liberte_expression": 1.8,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre",
+        "centre-droit",
+        "gauche",
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-033",
+      "titre": "Frappes américaines contre l'Iran et diplomatie de Trump",
+      "article_ids": [
+        "7c564988add5",
+        "02bb5ff57bf1",
+        "481ff2a1989f",
+        "ac6da54c5536",
+        "a7fa97cb4e5c",
+        "783596c57981",
+        "b9fb0f9e83fb",
+        "c5064460fae2",
+        "1038a07c57aa",
+        "4f3fd604728e",
+        "893f5c0bb485",
+        "7a090e777a07",
+        "711cdfb77cf7"
+      ],
+      "sources": [
+        "Reuters",
+        "The Guardian",
+        "Politico EU",
+        "NYT World",
+        "Al Jazeera",
+        "TechCrunch"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "Europe",
+        "États-Unis",
+        "Qatar"
+      ],
+      "score": {
+        "nb_sources": 6,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.8,
+        "fraicheur_h": 0.5,
+        "couverture_mixte": false,
+        "coherence": 0.852,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.2,
+        "pluralite": 5,
+        "total": 72
+      },
+      "editorial_flags": [
+        "droit_international",
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.8,
+        "liberte_expression": 2.3,
+        "antifascisme": 2.2,
+        "justice_sociale": 2.8
+      },
+      "orientations": [
+        "centre",
+        "centre-gauche",
+        "centre-droit",
+        "variable"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-034",
+      "titre": "Réactions militaires européennes et dissuasion nucléaire française",
+      "article_ids": [
+        "9e14bd5e2b00",
+        "77980b3be300",
+        "4620bf3d0441",
+        "e8fc9ec579ae",
+        "2a3f7a757af4",
+        "ad4082bf8bbd",
+        "5da55536d224",
+        "f8463e912117",
+        "327fee0c4efc",
+        "f9e7a0cd0c6c",
+        "cea74d8900e1",
+        "723d8d4e524c"
+      ],
+      "sources": [
+        "Politico EU",
+        "France 24 EN",
+        "NYT World",
+        "BBC News",
+        "The Guardian"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Europe",
+        "France",
+        "États-Unis",
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.7,
+        "fraicheur_h": 0.5,
+        "couverture_mixte": false,
+        "coherence": 0.866,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.2,
+        "pluralite": 5,
+        "total": 72
+      },
+      "editorial_flags": [
+        "droit_international",
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.8,
+        "droit_international": 3,
+        "liberte_expression": 2.2,
+        "antifascisme": 1.8,
+        "justice_sociale": 2.8
+      },
+      "orientations": [
+        "centre-droit",
+        "centre",
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-035",
+      "titre": "Tensions et évacuations après les frappes américaines contre l'Iran",
+      "article_ids": [
+        "5980c396d0e5",
+        "1d5ed6deb2e8",
+        "5fbd6181c2f3",
+        "feaab6f7f190",
+        "33e9d068cedf",
+        "bc6cf2cea742",
+        "fcaa6b64cc25",
+        "2638b738ea2f",
+        "7871d2701831",
+        "4791efc25f94"
+      ],
+      "sources": [
+        "BBC News",
+        "Reuters",
+        "NYT World",
+        "The Guardian",
+        "Al Jazeera"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "États-Unis",
+        "Qatar"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.7,
+        "fraicheur_h": 0.4,
+        "couverture_mixte": false,
+        "coherence": 0.827,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.6,
+        "pluralite": 5,
+        "total": 72
+      },
+      "editorial_flags": [
+        "droit_international",
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.4,
+        "droit_international": 2.6,
+        "liberte_expression": 2.2,
+        "antifascisme": 2,
+        "justice_sociale": 2.6
+      },
+      "orientations": [
+        "centre",
+        "centre-gauche",
+        "variable"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-036",
+      "titre": "Frappes israéliennes sur Téhéran",
+      "article_ids": [
+        "c34e2837e145",
+        "c5ad13fae4de",
+        "2ef2aad9dff7",
+        "b58a4a1b5f3b",
+        "e144fcd51045",
+        "5ea75acaa682",
+        "ed6b659097ac",
+        "95ea729d78c2",
+        "2de6eeff9126",
+        "f78bb3cd9a1b",
+        "5deb5ef5d475",
+        "8625a5603099",
+        "1518b049d7ad",
+        "e209c4d3ac16",
+        "42fa9420fb15"
+      ],
+      "sources": [
+        "Le Figaro",
+        "La Croix",
+        "20 Minutes",
+        "France 24 FR",
+        "BFM TV",
+        "Le Monde",
+        "Libération",
+        "L'Humanité"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 8,
+        "diversite_types": 1,
+        "fiabilite_moy": 3.8,
+        "fraicheur_h": 0.1,
+        "couverture_mixte": false,
+        "coherence": 0.95,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.6,
+        "pluralite": 5,
+        "total": 71
+      },
+      "editorial_flags": [
+        "droit_international"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.6,
+        "droit_international": 2.6,
+        "liberte_expression": 2,
+        "antifascisme": 2.2,
+        "justice_sociale": 2.4
+      },
+      "orientations": [
+        "droite",
+        "centre",
+        "centre-droit",
+        "centre-gauche",
+        "gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-037",
+      "titre": "Escalade militaire et engagement des États-Unis contre l'Iran",
+      "article_ids": [
+        "7830f4c30116",
+        "4b2bb64648a4",
+        "17c70d4e80c0",
+        "69ffbc3fe4f1",
+        "25e7a7a87c18",
+        "dbe736553f36",
+        "e4b46e2b93a9",
+        "b0b16534b260",
+        "9fc852fea27f",
+        "aaea6e851221",
+        "21f10a428455",
+        "1e0b1155fd46",
+        "b4144b2c1e02",
+        "2dc934faac16"
+      ],
+      "sources": [
+        "NYT World",
+        "Reuters",
+        "BBC News",
+        "Al Jazeera",
+        "Wired"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "États-Unis",
+        "Royaume-Uni",
+        "Qatar"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.9,
+        "fraicheur_h": 0.4,
+        "couverture_mixte": false,
+        "coherence": 0.898,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.1,
+        "pluralite": 3.3,
+        "total": 71
+      },
+      "editorial_flags": [
+        "droit_international",
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.6,
+        "droit_international": 2.8,
+        "liberte_expression": 2.4,
+        "antifascisme": 2.2,
+        "justice_sociale": 2.8
+      },
+      "orientations": [
+        "centre",
+        "variable"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-038",
+      "titre": "Actualités de l'industrie automobile et technologique",
+      "article_ids": [
+        "bc18f245fad1",
+        "a5db1f86cd4e",
+        "cb754d1a2a2a",
+        "35151d58b4f7"
+      ],
+      "sources": [
+        "Next",
+        "Numerama",
+        "Sciences et Avenir"
+      ],
+      "types": [
+        "investigation",
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 3.8,
+        "couverture_mixte": false,
+        "coherence": 0.853,
+        "investigation_bonus": 10,
+        "axes_alignment": 6.3,
+        "pluralite": 1.7,
+        "total": 71
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 2.5,
+        "liberte_expression": 1.5,
+        "antifascisme": 3,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": true,
+      "tag": "automobile"
+    },
+    {
+      "id": "topic-039",
+      "titre": "Financement public de l'autoroute A69",
+      "article_ids": [
+        "c5280b2a3318",
+        "1920a4e2c2f5"
+      ],
+      "sources": [
+        "Reporterre",
+        "Médiacités"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "societe",
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1,
+        "couverture_mixte": false,
+        "coherence": 0.965,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 3.3,
+        "total": 71
+      },
+      "editorial_flags": [
+        "ecologie_sociale",
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 1,
+        "droit_international": 1,
+        "liberte_expression": 1,
+        "antifascisme": 1,
+        "justice_sociale": 1
+      },
+      "orientations": [
+        "gauche",
+        "centre-gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "transport"
+    },
+    {
+      "id": "topic-040",
+      "titre": "Rapatriement des Français et situation humanitaire au Liban",
+      "article_ids": [
+        "73f73bb9aeb1",
+        "2e56637f1755",
+        "8321572276e6",
+        "134a30e185ce",
+        "dbb90eadf13e",
+        "dcaca544183a",
+        "e998c852fcd0",
+        "05a6917c4fa7",
+        "f72e7cda3f89",
+        "be3c01bf1432",
+        "f4d3fa661a2b",
+        "f27a585b8655",
+        "38730c44b036"
+      ],
+      "sources": [
+        "franceinfo",
+        "Le Figaro",
+        "Sud-Ouest",
+        "Libération",
+        "BFM TV",
+        "France 24 FR",
+        "RFI"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 7,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.2,
+        "fraicheur_h": 0.7,
+        "couverture_mixte": false,
+        "coherence": 0.902,
+        "investigation_bonus": 0,
+        "axes_alignment": 6,
+        "pluralite": 5,
+        "total": 70
+      },
+      "editorial_flags": [
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2.3,
+        "antifascisme": 2.3,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "centre",
+        "droite",
+        "centre-gauche",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-041",
+      "titre": "Économie, inflation et enjeux énergétiques en Europe",
+      "article_ids": [
+        "3a9287104cc2",
+        "9cacfdf85d69",
+        "de6cbd9a5ca1",
+        "d245e74d5c9c",
+        "7c02acc8d22c",
+        "194d54822b45",
+        "b2f91462371a"
+      ],
+      "sources": [
+        "La Croix",
+        "L'Humanité",
+        "Le Point",
+        "BFM Business",
+        "Numerama",
+        "Alternatives Économiques"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "economie"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 6,
+        "diversite_types": 1,
+        "fiabilite_moy": 3.7,
+        "fraicheur_h": 0.7,
+        "couverture_mixte": false,
+        "coherence": 0.862,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.9,
+        "pluralite": 5,
+        "total": 70
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 1.8,
+        "antifascisme": 2.3,
+        "justice_sociale": 2.3
+      },
+      "orientations": [
+        "centre",
+        "gauche",
+        "centre-droit",
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "macro"
+    },
+    {
+      "id": "topic-042",
+      "titre": "Préparations et enjeux des grands tournois de football",
+      "article_ids": [
+        "dd6b71c0fad4",
+        "e2af151defec",
+        "53b5fa21490e",
+        "b16559229cf2",
+        "45f688c295fd"
+      ],
+      "sources": [
+        "RFI",
+        "La Croix",
+        "Le Monde",
+        "Futura Sciences",
+        "Le Figaro"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.2,
+        "fraicheur_h": 0.3,
+        "couverture_mixte": false,
+        "coherence": 0.856,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.8,
+        "pluralite": 5,
+        "total": 70
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2.7,
+        "justice_sociale": 2.7
+      },
+      "orientations": [
+        "centre",
+        "centre-droit",
+        "droite"
+      ],
+      "has_investigation_source": false,
+      "tag": "sport"
+    },
+    {
+      "id": "topic-043",
+      "titre": "Conséquences mondiales du réchauffement climatique et phénomènes météorologiques",
+      "article_ids": [
+        "b23e14ecf627",
+        "7cf73801e654",
+        "a540062591c6",
+        "8272a7c0748b",
+        "b487f0852bda",
+        "cb797653f6de",
+        "dd92a013dd84",
+        "e1cd2eabfa17",
+        "181d53e0d063",
+        "9ea422f49ed4"
+      ],
+      "sources": [
+        "Libération",
+        "Sud-Ouest",
+        "Futura Sciences",
+        "Sciences et Avenir",
+        "franceinfo",
+        "The Conversation FR",
+        "La Croix"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "science"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 7,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 1.6,
+        "couverture_mixte": false,
+        "coherence": 0.872,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.9,
+        "pluralite": 3.3,
+        "total": 69
+      },
+      "editorial_flags": [
+        "ecologie_sociale",
+        "justice_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 1.8,
+        "antifascisme": 2.3,
+        "justice_sociale": 2.3
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "ecologie"
+    },
+    {
+      "id": "topic-044",
+      "titre": "Conflit Israël-Hezbollah et implications régionales de la guerre en Iran",
+      "article_ids": [
+        "488aa10160bf",
+        "dcb58983525c",
+        "f0d9a1c53eb1",
+        "6c376a8c5676",
+        "ac3a23841d22",
+        "2467aea3021c",
+        "24b8f5e111e9"
+      ],
+      "sources": [
+        "Reuters",
+        "Al Jazeera",
+        "NYT World",
+        "BBC News",
+        "The Register"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "Qatar",
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.4,
+        "fraicheur_h": 0.3,
+        "couverture_mixte": false,
+        "coherence": 0.848,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.1,
+        "pluralite": 3.3,
+        "total": 69
+      },
+      "editorial_flags": [
+        "droit_international",
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.6,
+        "droit_international": 2.8,
+        "liberte_expression": 2.2,
+        "antifascisme": 2.4,
+        "justice_sociale": 2.8
+      },
+      "orientations": [
+        "centre",
+        "variable"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-045",
+      "titre": "Partenariats entre OpenAI, Anthropic et le Pentagone",
+      "article_ids": [
+        "ad73a0ed4cb4",
+        "fba0df134f0a",
+        "d284eeb31047",
+        "e74f68245af2",
+        "c0db4335e15a",
+        "4705d3f40989",
+        "c500709fb2d0",
+        "76c37b5e3b13",
+        "b9b71e13400e"
+      ],
+      "sources": [
+        "BBC News",
+        "MIT Technology Review",
+        "TechCrunch",
+        "The Verge",
+        "The Register"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 5,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 0.5,
+        "couverture_mixte": false,
+        "coherence": 0.852,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.6,
+        "pluralite": 3.3,
+        "total": 69
+      },
+      "editorial_flags": [
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.6,
+        "droit_international": 2.6,
+        "liberte_expression": 1.6,
+        "antifascisme": 2.4,
+        "justice_sociale": 2.6
+      },
+      "orientations": [
+        "centre",
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "ia"
+    },
+    {
+      "id": "topic-046",
+      "titre": "Frappes israélo-américaines sur l'Iran et tensions régionales",
+      "article_ids": [
+        "d0fea7e92573",
+        "da159b422e8f",
+        "5e070975f8a4",
+        "36c598a9648a",
+        "64b560fee67e",
+        "150172aeb402",
+        "bfc44eaefba8",
+        "c2621c8b608a",
+        "8128ec46eb46",
+        "2b1d8f640cf7",
+        "6de291daf616",
+        "5fe0ab0071a7",
+        "1e0ff0abbfa1",
+        "6792f0f2fd89"
+      ],
+      "sources": [
+        "Al Jazeera",
+        "NYT World",
+        "The Guardian",
+        "The Register"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Qatar",
+        "États-Unis",
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 4,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.4,
+        "fraicheur_h": 0.3,
+        "couverture_mixte": false,
+        "coherence": 0.887,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.9,
+        "pluralite": 5,
+        "total": 68
+      },
+      "editorial_flags": [
+        "droit_international",
+        "droits_humains",
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.3,
+        "droit_international": 2.5,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "variable",
+        "centre",
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-047",
+      "titre": "Attaques iraniennes dans le Golfe et tensions énergétiques",
+      "article_ids": [
+        "a255cdc73729",
+        "be683fb8e009",
+        "68400abf75ee",
+        "1165e7bfb56b",
+        "651169341275",
+        "af047c4d81da",
+        "f68300155489",
+        "a67196f0f4dc",
+        "105fd6aff678",
+        "32785092f983",
+        "d543cc6138f5",
+        "7aeb23b2b71e",
+        "9a0b38d801bf",
+        "e217cf8e7fdc",
+        "d917504c004c"
+      ],
+      "sources": [
+        "NYT World",
+        "Al Jazeera",
+        "BBC News",
+        "France 24 EN"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "États-Unis",
+        "Qatar",
+        "Royaume-Uni",
+        "France"
+      ],
+      "score": {
+        "nb_sources": 4,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.7,
+        "fraicheur_h": 0.1,
+        "couverture_mixte": false,
+        "coherence": 0.865,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.4,
+        "pluralite": 3.3,
+        "total": 67
+      },
+      "editorial_flags": [
+        "droit_international",
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.8,
+        "liberte_expression": 2.5,
+        "antifascisme": 2,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "centre",
+        "variable"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-048",
+      "titre": "Affaire Epstein et réseau Brunel",
+      "article_ids": [
+        "dd0a9b24a1f9",
+        "bcefe209e4e0"
+      ],
+      "sources": [
+        "Libération",
+        "Les Décodeurs"
+      ],
+      "types": [
+        "mainstream",
+        "fact-check"
+      ],
+      "rubriques_detectees": [
+        "justice"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.5,
+        "fraicheur_h": 8.5,
+        "couverture_mixte": false,
+        "coherence": 0.904,
+        "investigation_bonus": 10,
+        "axes_alignment": 6.5,
+        "pluralite": 3.3,
+        "total": 67
+      },
+      "editorial_flags": [
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 2,
+        "antifascisme": 2.5,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre-droit"
+      ],
+      "has_investigation_source": true,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-049",
+      "titre": "Exploitation minière et ressources stratégiques mondiales",
+      "article_ids": [
+        "7c0e30ad3d0c",
+        "f60b485bfe3b",
+        "a2d030e3d124",
+        "64d42d641ea7",
+        "9fe679239ebf"
+      ],
+      "sources": [
+        "Le Monde",
+        "France 24 FR",
+        "Sud-Ouest",
+        "L'Humanité"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 4,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.2,
+        "fraicheur_h": 1.2,
+        "couverture_mixte": false,
+        "coherence": 0.839,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.3,
+        "pluralite": 5,
+        "total": 67
+      },
+      "editorial_flags": [
+        "ecologie_sociale",
+        "colonialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.3,
+        "droit_international": 2.3,
+        "liberte_expression": 1.7,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre-droit",
+        "centre",
+        "gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "industrie"
+    },
+    {
+      "id": "topic-050",
+      "titre": "Activisme d'extrême droite et mobilisations antifascistes en France",
+      "article_ids": [
+        "714420072930",
+        "0f35701d47f6",
+        "d27f7bea7936",
+        "1feaf169ff88"
+      ],
+      "sources": [
+        "Politis",
+        "L'Obs",
+        "Rue89 Lyon"
+      ],
+      "types": [
+        "investigation",
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "societe"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1.5,
+        "couverture_mixte": false,
+        "coherence": 0.851,
+        "investigation_bonus": 10,
+        "axes_alignment": 0,
+        "pluralite": 3.3,
+        "total": 67
+      },
+      "editorial_flags": [
+        "antifascisme",
+        "droits_humains",
+        "justice_sociale"
+      ],
+      "axes_profile": {},
+      "orientations": [
+        "gauche",
+        "centre-gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "gouvernement"
+    },
+    {
+      "id": "topic-051",
+      "titre": "Décès du parrain de la mafia sicilienne Nitto Santapaola",
+      "article_ids": [
+        "c761d68da25a",
+        "da34dd2842ef"
+      ],
+      "sources": [
+        "The Guardian",
+        "20 Minutes"
+      ],
+      "types": [
+        "etranger",
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "international",
+        "justice"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1,
+        "couverture_mixte": true,
+        "coherence": 0.884,
+        "investigation_bonus": 0,
+        "axes_alignment": 8.5,
+        "pluralite": 3.3,
+        "total": 67
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1,
+        "antifascisme": 1,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-052",
+      "titre": "Tensions et crises humanitaires au Moyen-Orient",
+      "article_ids": [
+        "08065727dea4",
+        "a87addeeacc7",
+        "b4a532b85935"
+      ],
+      "sources": [
+        "Courrier international",
+        "L'Humanité"
+      ],
+      "types": [
+        "etranger",
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "international",
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.6,
+        "couverture_mixte": true,
+        "coherence": 0.834,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.8,
+        "pluralite": 3.3,
+        "total": 66
+      },
+      "editorial_flags": [
+        "droit_international",
+        "droits_humains",
+        "justice_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1.5,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre",
+        "gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-053",
+      "titre": "Éclipse totale de Lune du 3 mars 2026",
+      "article_ids": [
+        "b0a546f1348d",
+        "87262499b157",
+        "ec36244d151e",
+        "66a2f8e8689a"
+      ],
+      "sources": [
+        "Numerama",
+        "The Guardian"
+      ],
+      "types": [
+        "mainstream",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 2.5,
+        "couverture_mixte": true,
+        "coherence": 0.899,
+        "investigation_bonus": 0,
+        "axes_alignment": 7,
+        "pluralite": 3.3,
+        "total": 65
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 1.5,
+        "antifascisme": 2,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "centre",
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "science"
+    },
+    {
+      "id": "topic-054",
+      "titre": "Conflits armés et crises humanitaires internationales",
+      "article_ids": [
+        "261e59d2d363",
+        "0fc8e2c3551f",
+        "84f6559bf48c",
+        "c425466e23f6",
+        "b702bceb5555"
+      ],
+      "sources": [
+        "France 24 FR",
+        "L'Humanité",
+        "Le Monde"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "international",
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.2,
+        "fraicheur_h": 0.9,
+        "couverture_mixte": false,
+        "coherence": 0.892,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.3,
+        "pluralite": 5,
+        "total": 64
+      },
+      "editorial_flags": [
+        "droits_humains",
+        "droit_international"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.3,
+        "droit_international": 2.3,
+        "liberte_expression": 1.7,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre",
+        "gauche",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-055",
+      "titre": "Exploration spatiale et compétition pour la Lune",
+      "article_ids": [
+        "ccca3c899623",
+        "44eca663637f",
+        "1c88a7204020",
+        "ceb25b4c7cb1"
+      ],
+      "sources": [
+        "Slate FR",
+        "Futura Sciences",
+        "The Register"
+      ],
+      "types": [
+        "mainstream",
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "science"
+      ],
+      "pays_concernes": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 4.7,
+        "couverture_mixte": true,
+        "coherence": 0.852,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.3,
+        "pluralite": 1.7,
+        "total": 64
+      },
+      "editorial_flags": [
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.7,
+        "droit_international": 2.7,
+        "liberte_expression": 1.7,
+        "antifascisme": 2.7,
+        "justice_sociale": 2.7
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "spatial"
+    },
+    {
+      "id": "topic-056",
+      "titre": "Souveraineté et enjeux stratégiques de l'Union européenne",
+      "article_ids": [
+        "3f43f69fc6b9",
+        "8d12a0af0e68",
+        "696ddd334ef1",
+        "a28ad72dd232",
+        "41385f9296fc"
+      ],
+      "sources": [
+        "Reuters",
+        "Politico EU",
+        "NYT World",
+        "The Register"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "Europe",
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 4,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.8,
+        "fraicheur_h": 2.5,
+        "couverture_mixte": false,
+        "coherence": 0.846,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.4,
+        "pluralite": 3.3,
+        "total": 64
+      },
+      "editorial_flags": [
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3.3,
+        "liberte_expression": 2.3,
+        "antifascisme": 2.5,
+        "justice_sociale": 3.3
+      },
+      "orientations": [
+        "centre",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-057",
+      "titre": "Développement et économie des agents IA",
+      "article_ids": [
+        "d9621f0ba8d9",
+        "b025f31b7fdb",
+        "2adaadef9cf9",
+        "2aa74b2ee3f9",
+        "182b2041a002",
+        "ff0c9a1922b2",
+        "b547872ec200"
+      ],
+      "sources": [
+        "Wired",
+        "The Register",
+        "The Verge",
+        "TechCrunch"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "États-Unis",
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 4,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1.4,
+        "couverture_mixte": false,
+        "coherence": 0.831,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.3,
+        "pluralite": 3.3,
+        "total": 63
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.8,
+        "droit_international": 2.8,
+        "liberte_expression": 1.8,
+        "antifascisme": 2.5,
+        "justice_sociale": 2.8
+      },
+      "orientations": [
+        "centre",
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "ia"
+    },
+    {
+      "id": "topic-058",
+      "titre": "Incertitudes économiques mondiales et risques d'inflation",
+      "article_ids": [
+        "3cc7aa48361b",
+        "8fb1917509ff",
+        "ec40e3f92ffa",
+        "9fbacd9875b0",
+        "0aba692ab07b"
+      ],
+      "sources": [
+        "Reuters",
+        "The Guardian",
+        "NYT World"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 1.3,
+        "couverture_mixte": false,
+        "coherence": 0.843,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.5,
+        "pluralite": 3.3,
+        "total": 63
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.7,
+        "droit_international": 2.7,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2.7
+      },
+      "orientations": [
+        "centre",
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "macro"
+    },
+    {
+      "id": "topic-059",
+      "titre": "Sortie du jeu vidéo Resident Evil Requiem",
+      "article_ids": [
+        "484604bfdf67",
+        "f95487ace0b1",
+        "bf61072b036b"
+      ],
+      "sources": [
+        "Courrier international",
+        "Numerama"
+      ],
+      "types": [
+        "etranger",
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "tech",
+        "international"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.3,
+        "couverture_mixte": true,
+        "coherence": 0.911,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 63
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-060",
+      "titre": "Élections primaires aux États-Unis",
+      "article_ids": [
+        "7e713dfeb4eb",
+        "33280d965769",
+        "c02c6434dbcf",
+        "290a44c74c6a"
+      ],
+      "sources": [
+        "The Guardian",
+        "Reuters",
+        "BBC News"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 1,
+        "couverture_mixte": false,
+        "coherence": 0.867,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.7,
+        "pluralite": 3.3,
+        "total": 63
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2.7,
+        "droit_international": 2.7,
+        "liberte_expression": 1.7,
+        "antifascisme": 2,
+        "justice_sociale": 2.7
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "elections"
+    },
+    {
+      "id": "topic-061",
+      "titre": "Bien-être animal et conditions de vie en captivité",
+      "article_ids": [
+        "ef90d487c04e",
+        "f952d972acc6"
+      ],
+      "sources": [
+        "Courrier international",
+        "La Croix"
+      ],
+      "types": [
+        "etranger",
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.2,
+        "couverture_mixte": true,
+        "coherence": 0.838,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 62
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "ecologie"
+    },
+    {
+      "id": "topic-062",
+      "titre": "Attaque de drones contre l'ambassade américaine à Riyad",
+      "article_ids": [
+        "1b719b8bac96",
+        "e7d6104b57a0",
+        "43a4cd4e9e96"
+      ],
+      "sources": [
+        "Le Figaro",
+        "France 24 FR",
+        "franceinfo"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 3.5,
+        "couverture_mixte": false,
+        "coherence": 0.963,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.5,
+        "pluralite": 3.3,
+        "total": 61
+      },
+      "editorial_flags": [
+        "droit_international"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "droite",
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-063",
+      "titre": "Crises humanitaires et conflits en Afrique et au Liban",
+      "article_ids": [
+        "aa1462b5bd0a",
+        "0204b8208061",
+        "613de6222661",
+        "585a20ce4278",
+        "30cad36f63fc"
+      ],
+      "sources": [
+        "Le Monde",
+        "RFI",
+        "franceinfo"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.4,
+        "fraicheur_h": 1.1,
+        "couverture_mixte": false,
+        "coherence": 0.851,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.2,
+        "pluralite": 3.3,
+        "total": 61
+      },
+      "editorial_flags": [
+        "droits_humains",
+        "justice_sociale",
+        "ecologie_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2.3,
+        "justice_sociale": 2.3
+      },
+      "orientations": [
+        "centre-droit",
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-064",
+      "titre": "Documentaire sur les structures d'aide aux femmes victimes de violences",
+      "article_ids": [
+        "4f9e8c1f4421",
+        "286cc4699185"
+      ],
+      "sources": [
+        "Sud-Ouest",
+        "L'Humanité"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "culture",
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.6,
+        "couverture_mixte": false,
+        "coherence": 0.906,
+        "investigation_bonus": 0,
+        "axes_alignment": 10,
+        "pluralite": 3.3,
+        "total": 60
+      },
+      "editorial_flags": [
+        "justice_sociale",
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 1,
+        "droit_international": 1,
+        "liberte_expression": 1,
+        "antifascisme": 1,
+        "justice_sociale": 1
+      },
+      "orientations": [
+        "centre",
+        "gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "droits"
+    },
+    {
+      "id": "topic-065",
+      "titre": "Tensions géopolitiques et menaces militaires contre l'Iran",
+      "article_ids": [
+        "509249be6187",
+        "5537aee54540",
+        "7ac010739dc8",
+        "a28378e97e20",
+        "b6b9085711f3"
+      ],
+      "sources": [
+        "NYT World",
+        "Wired",
+        "BBC News"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "États-Unis",
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.8,
+        "fraicheur_h": 0.3,
+        "couverture_mixte": false,
+        "coherence": 0.839,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.8,
+        "pluralite": 1.7,
+        "total": 60
+      },
+      "editorial_flags": [
+        "droit_international",
+        "imperialisme",
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2.3,
+        "antifascisme": 2,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-066",
+      "titre": "Sortie du film Nino dans la nuit",
+      "article_ids": [
+        "97039ffc93af",
+        "4f611e1e3c5a"
+      ],
+      "sources": [
+        "L'Humanité",
+        "Le Point"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.4,
+        "couverture_mixte": false,
+        "coherence": 0.85,
+        "investigation_bonus": 0,
+        "axes_alignment": 10,
+        "pluralite": 3.3,
+        "total": 60
+      },
+      "editorial_flags": [
+        "justice_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 1,
+        "droit_international": 1,
+        "liberte_expression": 1,
+        "antifascisme": 1,
+        "justice_sociale": 1
+      },
+      "orientations": [
+        "gauche",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-067",
+      "titre": "Offensive israélienne au Liban et tensions régionales",
+      "article_ids": [
+        "0ee60c70ab9c",
+        "1adc8c7f0601",
+        "7b94b0e817e6"
+      ],
+      "sources": [
+        "Al Jazeera",
+        "NYT World"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Qatar",
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.7,
+        "fraicheur_h": 0.2,
+        "couverture_mixte": false,
+        "coherence": 0.934,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.5,
+        "pluralite": 3.3,
+        "total": 59
+      },
+      "editorial_flags": [
+        "droit_international",
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2.5,
+        "liberte_expression": 3,
+        "antifascisme": 2,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "variable",
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-068",
+      "titre": "Politique culturelle et représentation sociale en France",
+      "article_ids": [
+        "2ca6b54d91ed",
+        "fa4a909243ed",
+        "727641007b5f"
+      ],
+      "sources": [
+        "The Conversation FR",
+        "Politis"
+      ],
+      "types": [
+        "mainstream",
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "politique",
+        "science"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 21.9,
+        "couverture_mixte": false,
+        "coherence": 0.833,
+        "investigation_bonus": 10,
+        "axes_alignment": 8,
+        "pluralite": 3.3,
+        "total": 59
+      },
+      "editorial_flags": [
+        "justice_sociale",
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre",
+        "gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-069",
+      "titre": "Actualité politique et diplomatique au Royaume-Uni",
+      "article_ids": [
+        "01ba46f30216",
+        "522052ef6eef"
+      ],
+      "sources": [
+        "The Guardian",
+        "Politico EU"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "Europe"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 0.6,
+        "couverture_mixte": false,
+        "coherence": 0.842,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.5,
+        "pluralite": 3.3,
+        "total": 59
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 1.5,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-070",
+      "titre": "Enjeux politiques et locaux des data centers aux USA",
+      "article_ids": [
+        "3fa460316c3e",
+        "005ce76f2897"
+      ],
+      "sources": [
+        "The Guardian",
+        "Ars Technica"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international",
+        "tech"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 2,
+        "couverture_mixte": false,
+        "coherence": 0.86,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.3,
+        "pluralite": 3.3,
+        "total": 59
+      },
+      "editorial_flags": [
+        "ecologie_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 1.5,
+        "antifascisme": 1.5,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "gouvernement"
+    },
+    {
+      "id": "topic-071",
+      "titre": "Injonctions à la maternité et droits des femmes",
+      "article_ids": [
+        "4ec529427bc2",
+        "3bc2429d351b",
+        "b13607d550f8",
+        "34c6c88d3064"
+      ],
+      "sources": [
+        "Libération",
+        "La Croix",
+        "L'Obs"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 5.4,
+        "couverture_mixte": false,
+        "coherence": 0.871,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 3.3,
+        "total": 58
+      },
+      "editorial_flags": [
+        "justice_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "droits"
+    },
+    {
+      "id": "topic-072",
+      "titre": "Billetterie de la Coupe du monde 2026",
+      "article_ids": [
+        "c475b16e2cd4",
+        "2ef2e8244d68"
+      ],
+      "sources": [
+        "Reuters",
+        "Al Jazeera"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "Qatar"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.5,
+        "fraicheur_h": 1.5,
+        "couverture_mixte": false,
+        "coherence": 0.963,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.5,
+        "pluralite": 3.3,
+        "total": 58
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2.5,
+        "liberte_expression": 2.5,
+        "antifascisme": 2.5,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "centre",
+        "variable"
+      ],
+      "has_investigation_source": false,
+      "tag": "sport"
+    },
+    {
+      "id": "topic-073",
+      "titre": "Débats législatifs et sociétaux en France",
+      "article_ids": [
+        "9318fe6eec29",
+        "1445dc425b82",
+        "38af7d64d1e2"
+      ],
+      "sources": [
+        "La Croix",
+        "Sénat"
+      ],
+      "types": [
+        "mainstream",
+        "institutionnel"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 2,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 4,
+        "couverture_mixte": false,
+        "coherence": 0.846,
+        "investigation_bonus": 0,
+        "axes_alignment": 5,
+        "pluralite": 3.3,
+        "total": 57
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 3,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre",
+        "variable"
+      ],
+      "has_investigation_source": false,
+      "tag": "parlement"
+    },
+    {
+      "id": "topic-074",
+      "titre": "Prévisions économiques et plan de Rachel Reeves au Royaume-Uni",
+      "article_ids": [
+        "1ec1d952521f",
+        "9e624f490e64"
+      ],
+      "sources": [
+        "The Guardian"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 0.2,
+        "couverture_mixte": false,
+        "coherence": 0.96,
+        "investigation_bonus": 0,
+        "axes_alignment": 8.5,
+        "pluralite": 1.7,
+        "total": 57
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1,
+        "antifascisme": 1,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "macro"
+    },
+    {
+      "id": "topic-075",
+      "titre": "Agression d'infirmières à Sens et responsabilité pénale",
+      "article_ids": [
+        "023099a9a461",
+        "64e1fc930fbe"
+      ],
+      "sources": [
+        "franceinfo",
+        "Le Point"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "sante"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.5,
+        "fraicheur_h": 2.2,
+        "couverture_mixte": false,
+        "coherence": 0.881,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.5,
+        "pluralite": 3.3,
+        "total": 57
+      },
+      "editorial_flags": [
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-076",
+      "titre": "Mises à jour des produits Apple iPad et AirPods",
+      "article_ids": [
+        "7463e0eaaa41",
+        "c422af84f2b0",
+        "28966d4e7dff",
+        "d00ccd2ca4b4"
+      ],
+      "sources": [
+        "The Verge",
+        "TechCrunch",
+        "Ars Technica",
+        "Wired"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 4,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 16,
+        "couverture_mixte": false,
+        "coherence": 0.914,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.3,
+        "pluralite": 3.3,
+        "total": 56
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2.7,
+        "droit_international": 2.7,
+        "liberte_expression": 2,
+        "antifascisme": 2.3,
+        "justice_sociale": 2.7
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-077",
+      "titre": "Accusations d'antisémitisme et polémiques politiques",
+      "article_ids": [
+        "b0bed76963cf",
+        "70c88fa3a507"
+      ],
+      "sources": [
+        "L'Obs",
+        "Slate FR"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "gouvernement",
+        "societe"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 3.6,
+        "couverture_mixte": false,
+        "coherence": 0.901,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 3.3,
+        "total": 56
+      },
+      "editorial_flags": [
+        "justice_sociale",
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-078",
+      "titre": "Investissement de Victor Wembanyama dans le club de Nanterre",
+      "article_ids": [
+        "8d39ecdf3288",
+        "fdab2ea0d414"
+      ],
+      "sources": [
+        "Le Monde",
+        "20 Minutes"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.9,
+        "couverture_mixte": false,
+        "coherence": 0.983,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 3.3,
+        "total": 56
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre-droit",
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-079",
+      "titre": "Sanctions américaines contre le Rwanda (conflit en RDC)",
+      "article_ids": [
+        "44352a9778b3",
+        "bf3f8cd4805e"
+      ],
+      "sources": [
+        "BBC News",
+        "NYT World"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 3.5,
+        "couverture_mixte": false,
+        "coherence": 0.959,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.8,
+        "pluralite": 1.7,
+        "total": 56
+      },
+      "editorial_flags": [
+        "droit_international",
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2.5,
+        "antifascisme": 2,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-080",
+      "titre": "Stigmatisation du syndrome de Gilles de La Tourette",
+      "article_ids": [
+        "5c394f3f7a74",
+        "f2104a4734db"
+      ],
+      "sources": [
+        "Sud-Ouest",
+        "The Conversation FR"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "science"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.5,
+        "fraicheur_h": 4.4,
+        "couverture_mixte": false,
+        "coherence": 0.97,
+        "investigation_bonus": 0,
+        "axes_alignment": 8,
+        "pluralite": 1.7,
+        "total": 56
+      },
+      "editorial_flags": [
+        "justice_sociale",
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-081",
+      "titre": "Caractéristiques et positionnement du nouvel iPhone 17e",
+      "article_ids": [
+        "b294e2fa7163",
+        "e7ed469eb508",
+        "57d03f54ea67",
+        "3c813a12e36f"
+      ],
+      "sources": [
+        "The Verge",
+        "Ars Technica",
+        "TechCrunch",
+        "Wired"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 4,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.3,
+        "fraicheur_h": 17.3,
+        "couverture_mixte": false,
+        "coherence": 0.953,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.3,
+        "pluralite": 3.3,
+        "total": 55
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2.7,
+        "droit_international": 2.7,
+        "liberte_expression": 2,
+        "antifascisme": 2.3,
+        "justice_sociale": 2.7
+      },
+      "orientations": [
+        "centre-gauche",
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-082",
+      "titre": "Procès de l'affaire Elisa Pilarski",
+      "article_ids": [
+        "ebced6e285b1",
+        "7c3d17366f43"
+      ],
+      "sources": [
+        "franceinfo",
+        "Libération"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "justice"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.5,
+        "fraicheur_h": 7.4,
+        "couverture_mixte": false,
+        "coherence": 0.979,
+        "investigation_bonus": 0,
+        "axes_alignment": 7,
+        "pluralite": 3.3,
+        "total": 55
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre",
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-083",
+      "titre": "Sous-représentation des femmes dans les brevets européens",
+      "article_ids": [
+        "697af473e572",
+        "e3277c9f2023"
+      ],
+      "sources": [
+        "La Croix",
+        "franceinfo"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "droits"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.5,
+        "fraicheur_h": 4.3,
+        "couverture_mixte": false,
+        "coherence": 0.975,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.5,
+        "pluralite": 1.7,
+        "total": 55
+      },
+      "editorial_flags": [
+        "justice_sociale",
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-084",
+      "titre": "Faits divers et accidents en France",
+      "article_ids": [
+        "10c02377999f",
+        "ff6b8dcb931e",
+        "8411cf40e4be",
+        "bc8246e5aaab"
+      ],
+      "sources": [
+        "Ouest-France",
+        "BFM TV",
+        "20 Minutes"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 1,
+        "fiabilite_moy": 3.3,
+        "fraicheur_h": 0.1,
+        "couverture_mixte": false,
+        "coherence": 0.863,
+        "investigation_bonus": 0,
+        "axes_alignment": 3.5,
+        "pluralite": 3.3,
+        "total": 55
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 4,
+        "droit_international": 4,
+        "liberte_expression": 3,
+        "antifascisme": 3,
+        "justice_sociale": 4
+      },
+      "orientations": [
+        "centre",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-085",
+      "titre": "Défense israélienne et tensions avec le Hezbollah et l'Iran",
+      "article_ids": [
+        "fce54aff17b1",
+        "4b9274f962da"
+      ],
+      "sources": [
+        "Numerama",
+        "franceinfo"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "tech",
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.5,
+        "fraicheur_h": 3.5,
+        "couverture_mixte": false,
+        "coherence": 0.905,
+        "investigation_bonus": 0,
+        "axes_alignment": 6,
+        "pluralite": 1.7,
+        "total": 54
+      },
+      "editorial_flags": [
+        "droit_international"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2.5,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-086",
+      "titre": "Bulletins d'actualité générale du New York Times",
+      "article_ids": [
+        "d8eb67c918e0",
+        "5620571ea896"
+      ],
+      "sources": [
+        "NYT World"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 0.8,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 54
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 3,
+        "antifascisme": 2,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-087",
+      "titre": "Phénomènes et mécanismes des éclipses lunaires",
+      "article_ids": [
+        "26e9e9ed3910",
+        "7c656372efeb",
+        "589e70c746e2"
+      ],
+      "sources": [
+        "Numerama",
+        "BFM TV"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 3.7,
+        "fraicheur_h": 1.9,
+        "couverture_mixte": false,
+        "coherence": 0.94,
+        "investigation_bonus": 0,
+        "axes_alignment": 4.5,
+        "pluralite": 3.3,
+        "total": 53
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3.5,
+        "droit_international": 3.5,
+        "liberte_expression": 2.5,
+        "antifascisme": 3,
+        "justice_sociale": 3.5
+      },
+      "orientations": [
+        "centre",
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-088",
+      "titre": "Offres promotionnelles et bons plans high-tech",
+      "article_ids": [
+        "6fcba9eda02f",
+        "ab4e5530fe43",
+        "fb708138749d",
+        "e9ec0825d222"
+      ],
+      "sources": [
+        "Futura Sciences",
+        "Numerama"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "science"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1,
+        "couverture_mixte": false,
+        "coherence": 0.852,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 53
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-089",
+      "titre": "Sélection et offres commerciales high-tech",
+      "article_ids": [
+        "11dbc688c8fc",
+        "d4d37d0930d1",
+        "78d777e225ab",
+        "417ca0725e30",
+        "99c9af59e6fd",
+        "af403d5108cd",
+        "e79d2bb7c592",
+        "e884c08a0821",
+        "26e8f93b2830"
+      ],
+      "sources": [
+        "Numerama",
+        "Futura Sciences"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "science"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1,
+        "couverture_mixte": false,
+        "coherence": 0.836,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 53
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-090",
+      "titre": "Tensions militaires et frontalières entre le Pakistan et l'Afghanistan",
+      "article_ids": [
+        "197e93cd6121",
+        "a760203cfa13"
+      ],
+      "sources": [
+        "NYT World",
+        "Reuters"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "États-Unis",
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 7.2,
+        "couverture_mixte": false,
+        "coherence": 0.919,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 53
+      },
+      "editorial_flags": [
+        "droits_humains",
+        "droit_international"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2.5,
+        "antifascisme": 2.5,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-091",
+      "titre": "Rôle de la tech dans la politique migratoire américaine",
+      "article_ids": [
+        "076bc5d88f2f",
+        "318a427c769f"
+      ],
+      "sources": [
+        "Wired",
+        "TechCrunch"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 2.5,
+        "couverture_mixte": false,
+        "coherence": 0.864,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.8,
+        "pluralite": 1.7,
+        "total": 53
+      },
+      "editorial_flags": [
+        "droits_humains"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2.5,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-092",
+      "titre": "Enjeux économiques des filières agricoles en Afrique de l'Ouest",
+      "article_ids": [
+        "9188897cfc18",
+        "951fc2bcc828"
+      ],
+      "sources": [
+        "RFI",
+        "France 24 FR"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 3.1,
+        "couverture_mixte": false,
+        "coherence": 0.879,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.5,
+        "pluralite": 1.7,
+        "total": 53
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-093",
+      "titre": "Actualités politiques et sécuritaires en Australie",
+      "article_ids": [
+        "b6eaabe8e799",
+        "f832d335b5cc",
+        "4b4e19a57f59"
+      ],
+      "sources": [
+        "The Guardian"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 5.8,
+        "couverture_mixte": false,
+        "coherence": 0.84,
+        "investigation_bonus": 0,
+        "axes_alignment": 8.5,
+        "pluralite": 1.7,
+        "total": 52
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1,
+        "antifascisme": 1,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-094",
+      "titre": "Coupe du monde de cricket T20",
+      "article_ids": [
+        "e0feafc88ed0",
+        "545bf8fe65c2"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Qatar"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1,
+        "couverture_mixte": false,
+        "coherence": 0.888,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 1.7,
+        "total": 52
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 1,
+        "droit_international": 2,
+        "liberte_expression": 3,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "variable"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-095",
+      "titre": "Récompenses cinématographiques : Oscars et Césars",
+      "article_ids": [
+        "0a701daa697f",
+        "ffe06d9a2090"
+      ],
+      "sources": [
+        "franceinfo"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "education"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 2.8,
+        "couverture_mixte": false,
+        "coherence": 0.85,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.5,
+        "pluralite": 1.7,
+        "total": 52
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-096",
+      "titre": "Avancées et perspectives sur le cancer du sein",
+      "article_ids": [
+        "a1edf0dbedfc",
+        "5b7844e4a03a"
+      ],
+      "sources": [
+        "Futura Sciences",
+        "Sciences et Avenir"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "science"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 3.9,
+        "couverture_mixte": false,
+        "coherence": 0.898,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 52
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-097",
+      "titre": "Impact de la politique américaine sur l'Europe",
+      "article_ids": [
+        "09e58bbba894",
+        "2125fe2e6ff2"
+      ],
+      "sources": [
+        "NYT World",
+        "France 24 EN"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "États-Unis",
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.5,
+        "fraicheur_h": 8,
+        "couverture_mixte": false,
+        "coherence": 0.841,
+        "investigation_bonus": 0,
+        "axes_alignment": 6,
+        "pluralite": 1.7,
+        "total": 51
+      },
+      "editorial_flags": [
+        "imperialisme",
+        "droit_international"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2.5,
+        "antifascisme": 2,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-098",
+      "titre": "Fusions et acquisitions dans le secteur des médias et télécoms",
+      "article_ids": [
+        "89ad4d012314",
+        "f05a3b577865"
+      ],
+      "sources": [
+        "TechCrunch",
+        "Numerama"
+      ],
+      "types": [
+        "etranger",
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "États-Unis",
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 2,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 19.4,
+        "couverture_mixte": true,
+        "coherence": 0.869,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 50
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-099",
+      "titre": "Tests et promotions de matériel informatique",
+      "article_ids": [
+        "852f332bad10",
+        "ee124d0e6818"
+      ],
+      "sources": [
+        "Wired"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1.5,
+        "couverture_mixte": false,
+        "coherence": 0.842,
+        "investigation_bonus": 0,
+        "axes_alignment": 6,
+        "pluralite": 1.7,
+        "total": 50
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-100",
+      "titre": "Actualités politiques et fiscales en Suisse",
+      "article_ids": [
+        "8c40faf2a646",
+        "271ae6d44782"
+      ],
+      "sources": [
+        "Swissinfo"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Suisse"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 3.8,
+        "couverture_mixte": false,
+        "coherence": 0.878,
+        "investigation_bonus": 0,
+        "axes_alignment": 8,
+        "pluralite": 1.7,
+        "total": 50
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 2,
+        "droit_international": 2,
+        "liberte_expression": 1,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-101",
+      "titre": "Tensions diplomatiques entre Donald Trump et Keir Starmer",
+      "article_ids": [
+        "fe0176a3e1fc",
+        "bd56bcafbbe7"
+      ],
+      "sources": [
+        "Politico EU"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Europe"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 3.9,
+        "couverture_mixte": false,
+        "coherence": 0.861,
+        "investigation_bonus": 0,
+        "axes_alignment": 4.5,
+        "pluralite": 1.7,
+        "total": 50
+      },
+      "editorial_flags": [
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 4,
+        "liberte_expression": 3,
+        "antifascisme": 2,
+        "justice_sociale": 4
+      },
+      "orientations": [
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-102",
+      "titre": "État du marché locatif immobilier",
+      "article_ids": [
+        "0554db333775",
+        "3b9c1ff5179e",
+        "d942b26411f6"
+      ],
+      "sources": [
+        "BFM Business",
+        "BFM TV"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "economie"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 3,
+        "fraicheur_h": 0.6,
+        "couverture_mixte": false,
+        "coherence": 0.913,
+        "investigation_bonus": 0,
+        "axes_alignment": 3.5,
+        "pluralite": 1.7,
+        "total": 49
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 4,
+        "droit_international": 4,
+        "liberte_expression": 3,
+        "antifascisme": 3,
+        "justice_sociale": 4
+      },
+      "orientations": [
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "immobilier"
+    },
+    {
+      "id": "topic-103",
+      "titre": "Actualité politique et sécuritaire en Afrique subsaharienne",
+      "article_ids": [
+        "b09f0852bf7b",
+        "91c6be82acf1",
+        "61e4c9690667",
+        "8dd1b8115a3e",
+        "77622f044065",
+        "d468ab27312b",
+        "d379c96c0897"
+      ],
+      "sources": [
+        "RFI"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 3.2,
+        "couverture_mixte": false,
+        "coherence": 0.842,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.5,
+        "pluralite": 1.7,
+        "total": 49
+      },
+      "editorial_flags": [
+        "droits_humains",
+        "justice_sociale"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 2
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-104",
+      "titre": "Vie politique et pressions diplomatiques à Strasbourg",
+      "article_ids": [
+        "a00be00184ba",
+        "a06e602d4322",
+        "afdc6a0166ce"
+      ],
+      "sources": [
+        "Rue89 Strasbourg"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "societe"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 9,
+        "couverture_mixte": false,
+        "coherence": 0.876,
+        "investigation_bonus": 10,
+        "axes_alignment": 0,
+        "pluralite": 1.7,
+        "total": 49
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [
+        "centre-gauche"
+      ],
+      "has_investigation_source": true,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-105",
+      "titre": "Vulnérabilités et cyberattaques sur les navigateurs et services cloud",
+      "article_ids": [
+        "0b87ddef7e33",
+        "613305044cc7"
+      ],
+      "sources": [
+        "The Register"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 2.4,
+        "couverture_mixte": false,
+        "coherence": 0.831,
+        "investigation_bonus": 0,
+        "axes_alignment": 6,
+        "pluralite": 1.7,
+        "total": 49
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 1,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "cybersec"
+    },
+    {
+      "id": "topic-106",
+      "titre": "Interdiction de la chasse au lagopède en France",
+      "article_ids": [
+        "4cf1e71051f7",
+        "d8a9e862c511"
+      ],
+      "sources": [
+        "La Croix",
+        "20 Minutes"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 3.5,
+        "fraicheur_h": 0.4,
+        "couverture_mixte": false,
+        "coherence": 0.963,
+        "investigation_bonus": 0,
+        "axes_alignment": 0,
+        "pluralite": 1.7,
+        "total": 48
+      },
+      "editorial_flags": [
+        "ecologie_sociale"
+      ],
+      "axes_profile": {},
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "ecologie"
+    },
+    {
+      "id": "topic-107",
+      "titre": "Interventions d'Ursula von der Leyen sur l'emploi et l'économie",
+      "article_ids": [
+        "67d7f0f13112",
+        "c2ca5a9dd714"
+      ],
+      "sources": [
+        "Europa EU"
+      ],
+      "types": [
+        "institutionnel"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Europe"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 0.7,
+        "couverture_mixte": false,
+        "coherence": 0.906,
+        "investigation_bonus": 0,
+        "axes_alignment": 0,
+        "pluralite": 1.7,
+        "total": 48
+      },
+      "editorial_flags": [
+        "equite_economique",
+        "justice_sociale"
+      ],
+      "axes_profile": {},
+      "orientations": [
+        "variable"
+      ],
+      "has_investigation_source": false,
+      "tag": "travail"
+    },
+    {
+      "id": "topic-108",
+      "titre": "Décès du dessinateur Clément Oubrerie",
+      "article_ids": [
+        "6de71d7fce86",
+        "e3e7ca22b9a8",
+        "d823df0d7cae"
+      ],
+      "sources": [
+        "20 Minutes",
+        "L'Obs",
+        "La Croix"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "culture"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 3,
+        "diversite_types": 1,
+        "fiabilite_moy": 3.7,
+        "fraicheur_h": 12,
+        "couverture_mixte": false,
+        "coherence": 0.979,
+        "investigation_bonus": 0,
+        "axes_alignment": 0,
+        "pluralite": 3.3,
+        "total": 47
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [
+        "centre",
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-109",
+      "titre": "Rapprochement diplomatique et énergétique entre le Canada et l'Inde",
+      "article_ids": [
+        "12a21cd61add",
+        "abedd998c2c3"
+      ],
+      "sources": [
+        "NYT World",
+        "BBC News"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "États-Unis",
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 17.7,
+        "couverture_mixte": false,
+        "coherence": 0.921,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.8,
+        "pluralite": 1.7,
+        "total": 47
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2.5,
+        "antifascisme": 2,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-110",
+      "titre": "Évolutions et pratiques des réseaux sociaux",
+      "article_ids": [
+        "8f900125f5c5",
+        "914f5190dfdc",
+        "35f999834582",
+        "822246e4edd7"
+      ],
+      "sources": [
+        "TechCrunch",
+        "The Verge"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 15.6,
+        "couverture_mixte": false,
+        "coherence": 0.844,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.5,
+        "pluralite": 3.3,
+        "total": 47
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 2,
+        "antifascisme": 2.5,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "centre",
+        "centre-gauche"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-111",
+      "titre": "Actualité du livre et Salon du livre de Paris",
+      "article_ids": [
+        "a897989b281a",
+        "c64e621693e7"
+      ],
+      "sources": [
+        "La Croix",
+        "Sud-Ouest"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "culture"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 2.5,
+        "couverture_mixte": false,
+        "coherence": 0.854,
+        "investigation_bonus": 0,
+        "axes_alignment": 0,
+        "pluralite": 1.7,
+        "total": 47
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {},
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-112",
+      "titre": "Actualité des productions et jeux vidéo Sony",
+      "article_ids": [
+        "fc468b0dce52",
+        "5f7b5211c0fb"
+      ],
+      "sources": [
+        "Numerama"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 4.5,
+        "couverture_mixte": false,
+        "coherence": 0.853,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 47
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-113",
+      "titre": "Relance de la croissance et consommation en Chine",
+      "article_ids": [
+        "6bc6f3f3624e",
+        "623d4e8fe581"
+      ],
+      "sources": [
+        "Reuters"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 10,
+        "couverture_mixte": false,
+        "coherence": 0.885,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 47
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "macro"
+    },
+    {
+      "id": "topic-114",
+      "titre": "Impact de la politique de Trump sur Cuba",
+      "article_ids": [
+        "b5c74455223e",
+        "e2f4eadd6978"
+      ],
+      "sources": [
+        "NYT World"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 10.4,
+        "couverture_mixte": false,
+        "coherence": 0.915,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 47
+      },
+      "editorial_flags": [
+        "imperialisme",
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 3,
+        "antifascisme": 2,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-115",
+      "titre": "Lancement de la collection Celio Women",
+      "article_ids": [
+        "48379fd2cc98",
+        "f1984dde8d51"
+      ],
+      "sources": [
+        "Sud-Ouest",
+        "20 Minutes"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "culture"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 3.5,
+        "fraicheur_h": 3.5,
+        "couverture_mixte": false,
+        "coherence": 0.92,
+        "investigation_bonus": 0,
+        "axes_alignment": 0,
+        "pluralite": 1.7,
+        "total": 46
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-116",
+      "titre": "Émissions BFM Entreprise du 3 mars",
+      "article_ids": [
+        "07577b020d2e",
+        "a724e167c8dc"
+      ],
+      "sources": [
+        "BFM Business"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "economie"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 3,
+        "fraicheur_h": 2,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 3.5,
+        "pluralite": 1.7,
+        "total": 45
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 4,
+        "droit_international": 4,
+        "liberte_expression": 3,
+        "antifascisme": 3,
+        "justice_sociale": 4
+      },
+      "orientations": [
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "industrie"
+    },
+    {
+      "id": "topic-117",
+      "titre": "Impact du conflit avec l'Iran sur les transports et la logistique",
+      "article_ids": [
+        "00bd8267793f",
+        "70c5bcd4c265",
+        "b459b1a88ea7"
+      ],
+      "sources": [
+        "The Register",
+        "Wired"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni",
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 15.1,
+        "couverture_mixte": false,
+        "coherence": 0.845,
+        "investigation_bonus": 0,
+        "axes_alignment": 6,
+        "pluralite": 1.7,
+        "total": 45
+      },
+      "editorial_flags": [
+        "droit_international",
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 1.5,
+        "antifascisme": 2.5,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "transport"
+    },
+    {
+      "id": "topic-118",
+      "titre": "Communications institutionnelles de l'Union européenne",
+      "article_ids": [
+        "23e8e68cfa05",
+        "73bc0ec2e83e"
+      ],
+      "sources": [
+        "Europa EU"
+      ],
+      "types": [
+        "institutionnel"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Europe"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 3.2,
+        "couverture_mixte": false,
+        "coherence": 0.843,
+        "investigation_bonus": 0,
+        "axes_alignment": 0,
+        "pluralite": 1.7,
+        "total": 45
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [
+        "variable"
+      ],
+      "has_investigation_source": false,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-119",
+      "titre": "Offres promotionnelles et codes de réduction",
+      "article_ids": [
+        "10b389aa5a2c",
+        "9f3a5aacb8ed"
+      ],
+      "sources": [
+        "Wired"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 8,
+        "couverture_mixte": false,
+        "coherence": 0.842,
+        "investigation_bonus": 0,
+        "axes_alignment": 6,
+        "pluralite": 1.7,
+        "total": 45
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 2,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-120",
+      "titre": "Actualités financières et placements BFM Business",
+      "article_ids": [
+        "a8ff23c05176",
+        "47d738e40fdd",
+        "6ea5caeeffdd",
+        "d625a21f9c4a",
+        "2d007f12c135",
+        "c715356ef22d",
+        "0ecd6b5bbb20",
+        "63d4937ad4e6",
+        "24ef9ef879db",
+        "dbb2d1829f78",
+        "10fe4120cd41",
+        "f47ab06eace6"
+      ],
+      "sources": [
+        "BFM Business"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "economie"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 3,
+        "fraicheur_h": 2.8,
+        "couverture_mixte": false,
+        "coherence": 0.905,
+        "investigation_bonus": 0,
+        "axes_alignment": 3.5,
+        "pluralite": 1.7,
+        "total": 44
+      },
+      "editorial_flags": [
+        "equite_economique"
+      ],
+      "axes_profile": {
+        "colonialisme": 4,
+        "droit_international": 4,
+        "liberte_expression": 3,
+        "antifascisme": 3,
+        "justice_sociale": 4
+      },
+      "orientations": [
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "investissement"
+    },
+    {
+      "id": "topic-121",
+      "titre": "Reconstitution 3D de l'australopithèque Little Foot",
+      "article_ids": [
+        "61c5fc4fb02a",
+        "734e7b3d5328"
+      ],
+      "sources": [
+        "The Conversation FR",
+        "Futura Sciences"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "science"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 2,
+        "diversite_types": 1,
+        "fiabilite_moy": 4.5,
+        "fraicheur_h": 22,
+        "couverture_mixte": false,
+        "coherence": 0.964,
+        "investigation_bonus": 0,
+        "axes_alignment": 6.8,
+        "pluralite": 1.7,
+        "total": 44
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 2.5,
+        "droit_international": 2.5,
+        "liberte_expression": 1.5,
+        "antifascisme": 2.5,
+        "justice_sociale": 2.5
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "science"
+    },
+    {
+      "id": "topic-122",
+      "titre": "Réflexions religieuses et morales sur la guerre et la paix",
+      "article_ids": [
+        "faaa7139141c",
+        "7a30c72c08d2",
+        "b7cf70ea0c4d"
+      ],
+      "sources": [
+        "La Croix"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "conflit"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 3,
+        "couverture_mixte": false,
+        "coherence": 0.863,
+        "investigation_bonus": 0,
+        "axes_alignment": 0,
+        "pluralite": 1.7,
+        "total": 43
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "general"
+    },
+    {
+      "id": "topic-123",
+      "titre": "Expansion internationale de la SNCF en Europe",
+      "article_ids": [
+        "808d9da250b9",
+        "ce56b11f4454"
+      ],
+      "sources": [
+        "BFM Business"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "economie"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 3,
+        "fraicheur_h": 3.4,
+        "couverture_mixte": false,
+        "coherence": 0.849,
+        "investigation_bonus": 0,
+        "axes_alignment": 3.5,
+        "pluralite": 1.7,
+        "total": 43
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 4,
+        "droit_international": 4,
+        "liberte_expression": 3,
+        "antifascisme": 3,
+        "justice_sociale": 4
+      },
+      "orientations": [
+        "centre-droit"
+      ],
+      "has_investigation_source": false,
+      "tag": "transport"
+    },
+    {
+      "id": "topic-124",
+      "titre": "Géopolitique et infrastructures mondiales des semi-conducteurs et de l'IA",
+      "article_ids": [
+        "d64064eaf928",
+        "771662354d3e"
+      ],
+      "sources": [
+        "The Register"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 11.2,
+        "couverture_mixte": false,
+        "coherence": 0.84,
+        "investigation_bonus": 0,
+        "axes_alignment": 6,
+        "pluralite": 1.7,
+        "total": 43
+      },
+      "editorial_flags": [
+        "imperialisme"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 1,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "ia"
+    },
+    {
+      "id": "topic-125",
+      "titre": "Cyberattaques et cybersécurité liées au conflit israélo-iranien",
+      "article_ids": [
+        "eaec3f1b9caf",
+        "b2cc9d2871b6"
+      ],
+      "sources": [
+        "The Register"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 17.8,
+        "couverture_mixte": false,
+        "coherence": 0.851,
+        "investigation_bonus": 0,
+        "axes_alignment": 6,
+        "pluralite": 1.7,
+        "total": 39
+      },
+      "editorial_flags": [
+        "droit_international"
+      ],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 1,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "cybersec"
+    },
+    {
+      "id": "topic-126",
+      "titre": "Archéologie et mystères de l'Antiquité",
+      "article_ids": [
+        "ba2eaa8b5040",
+        "f3ffc844be0d"
+      ],
+      "sources": [
+        "Futura Sciences"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "science"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 18,
+        "couverture_mixte": false,
+        "coherence": 0.87,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 39
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "science"
+    },
+    {
+      "id": "topic-127",
+      "titre": "Sorties de séries sur les plateformes de streaming",
+      "article_ids": [
+        "be91fa3e05c8",
+        "62d96cddac60"
+      ],
+      "sources": [
+        "Numerama"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 22.3,
+        "couverture_mixte": false,
+        "coherence": 0.865,
+        "investigation_bonus": 0,
+        "axes_alignment": 5.5,
+        "pluralite": 1.7,
+        "total": 36
+      },
+      "editorial_flags": [],
+      "axes_profile": {
+        "colonialisme": 3,
+        "droit_international": 3,
+        "liberte_expression": 2,
+        "antifascisme": 3,
+        "justice_sociale": 3
+      },
+      "orientations": [
+        "centre"
+      ],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-128",
+      "titre": "Lunettes connectées : des scènes d’intimité envoyées aux sous-traitants kényans ",
+      "article_ids": [
+        "6273432a767c"
+      ],
+      "sources": [
+        "Next"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 0.6,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "electronique"
+    },
+    {
+      "id": "topic-129",
+      "titre": "« Notre-Dame-des-élections » : le gros chèque de la Région pour la cathédrale du",
+      "article_ids": [
+        "f163119cb67b"
+      ],
+      "sources": [
+        "Médiacités"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 4.6,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "gouvernement"
+    },
+    {
+      "id": "topic-130",
+      "titre": "☕️ [Linux] sudo-rs affiche maintenant des * par défaut quand on tape son mot de ",
+      "article_ids": [
+        "b3a1ba48be4a"
+      ],
+      "sources": [
+        "Next"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 23.8,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "cybersec"
+    },
+    {
+      "id": "topic-131",
+      "titre": "D’où vient le mythe de la camionnette blanche ?",
+      "article_ids": [
+        "9c88c23fafbd"
+      ],
+      "sources": [
+        "Les Décodeurs"
+      ],
+      "types": [
+        "fact-check"
+      ],
+      "rubriques_detectees": [
+        "generaliste"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 52.5,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "faits"
+    },
+    {
+      "id": "topic-132",
+      "titre": "En Iran, au milieu des bombes, une école de jeunes filles réduite en poussière",
+      "article_ids": [
+        "1236bbbccb90"
+      ],
+      "sources": [
+        "Politis"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 19.4,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-133",
+      "titre": "«Israël est devenu un État citadelle impérialiste»",
+      "article_ids": [
+        "494b159391c3"
+      ],
+      "sources": [
+        "Mediapart"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 19.4,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-134",
+      "titre": "Apologie du terrorisme: un responsable CGT du Nord finalement relaxé",
+      "article_ids": [
+        "bfb270bed322"
+      ],
+      "sources": [
+        "Mediapart"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 2.1,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-135",
+      "titre": "Les fraudes commises au préjudice de l’UE atteignent un niveau inédit",
+      "article_ids": [
+        "2e62596870bf"
+      ],
+      "sources": [
+        "Les Décodeurs"
+      ],
+      "types": [
+        "fact-check"
+      ],
+      "rubriques_detectees": [
+        "generaliste"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 33,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-136",
+      "titre": "129 journalistes tués en 2025, dont les deux-tiers par Israël",
+      "article_ids": [
+        "457f5ced2da6"
+      ],
+      "sources": [
+        "Politis"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 3.6,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-137",
+      "titre": "Budget 2026 : les petites économies scandaleuses du gouvernement",
+      "article_ids": [
+        "6b5c48200429"
+      ],
+      "sources": [
+        "Politis"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 2,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "gouvernement"
+    },
+    {
+      "id": "topic-138",
+      "titre": "Arts et métiers de Lille : des conseils de discipline ravivent les tensions entr",
+      "article_ids": [
+        "bf9c945d1adc"
+      ],
+      "sources": [
+        "Médiacités"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 21.2,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "education"
+    },
+    {
+      "id": "topic-139",
+      "titre": "Les Ryzen 400 AI d’AMD débarquent sur socket AM5, avec un NPU de 50 TOPS",
+      "article_ids": [
+        "8ca8d2a78150"
+      ],
+      "sources": [
+        "Next"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 22.6,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "electronique"
+    },
+    {
+      "id": "topic-140",
+      "titre": "Entrepôt géant Green Dock : le permis de construire refusé par la ville de Genne",
+      "article_ids": [
+        "2fa47e970c10"
+      ],
+      "sources": [
+        "Reporterre"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "societe"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 23.4,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "architecture"
+    },
+    {
+      "id": "topic-141",
+      "titre": "☕️ Le CPU Intel Xeon 6+ (Clearwater Forest) avec 288 E-cores Darkmont arrivera c",
+      "article_ids": [
+        "720d9b40512a"
+      ],
+      "sources": [
+        "Next"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 22.2,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "electronique"
+    },
+    {
+      "id": "topic-142",
+      "titre": "« Allah n’est pas obligé », l’enfance tuée",
+      "article_ids": [
+        "f3f9b3ccc187"
+      ],
+      "sources": [
+        "Politis"
+      ],
+      "types": [
+        "investigation"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 2,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 10,
+        "axes_alignment": 10,
+        "pluralite": 0,
+        "total": 35
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": true,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-143",
+      "titre": "Sarah Everard’s mother pays tribute to ‘loving’ daughter on fifth anniversary of",
+      "article_ids": [
+        "448b0b76da68"
+      ],
+      "sources": [
+        "The Guardian"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 0.3,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-144",
+      "titre": "Relaxe de Jean-Paul Delescaut, le secrétaire général de l’UD CGT 59 poursuivi po",
+      "article_ids": [
+        "65458d066b56"
+      ],
+      "sources": [
+        "L'Humanité"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.4,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-145",
+      "titre": "« A Fidai film » de Kamal Aljafari : comment se réapproprier les images de l’occ",
+      "article_ids": [
+        "3fb6b746183d"
+      ],
+      "sources": [
+        "L'Humanité"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.5,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-146",
+      "titre": "Minnesota launches investigation that could bring charges against US immigration",
+      "article_ids": [
+        "c11599b22617"
+      ],
+      "sources": [
+        "The Guardian"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 0.5,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-147",
+      "titre": "Ofcom urged to clarify if Palestine Action content should still be removed onlin",
+      "article_ids": [
+        "e4873037f84e"
+      ],
+      "sources": [
+        "The Guardian"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 1.5,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "droits"
+    },
+    {
+      "id": "topic-148",
+      "titre": "James Talarico, la foi des démocrates face à Trump",
+      "article_ids": [
+        "03aa86e48c2e"
+      ],
+      "sources": [
+        "Libération"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "generaliste"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1.5,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "elections"
+    },
+    {
+      "id": "topic-149",
+      "titre": "« DTF St. Louis » : un thriller sophistiqué qui rappelle les livres de Patricia ",
+      "article_ids": [
+        "91d53682f2b1"
+      ],
+      "sources": [
+        "L'Obs"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "culture"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 4.6,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-150",
+      "titre": "Police improperly granted Kelly Wilkinson’s estranged husband bail days before h",
+      "article_ids": [
+        "e7c8d4f6537b"
+      ],
+      "sources": [
+        "The Guardian"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 6.5,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-151",
+      "titre": "Nepal’s gen-Z election: can popular former rapper Balen topple a veteran politic",
+      "article_ids": [
+        "21dbc4c16a75"
+      ],
+      "sources": [
+        "The Guardian"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 7.2,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "elections"
+    },
+    {
+      "id": "topic-152",
+      "titre": "Ferries emit ‘more sulphur pollution than cars’ in several EU capitals",
+      "article_ids": [
+        "75c8c1a53972"
+      ],
+      "sources": [
+        "The Guardian"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 15,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "ecologie"
+    },
+    {
+      "id": "topic-153",
+      "titre": "Judge adjourns Paris trial of Islam scholar accused of raping three women",
+      "article_ids": [
+        "5363e22a752a"
+      ],
+      "sources": [
+        "The Guardian"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 19.9,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "justice"
+    },
+    {
+      "id": "topic-154",
+      "titre": "Donut Lab’s solid-state battery can handle the (extreme) heat, test says",
+      "article_ids": [
+        "690738b6ace9"
+      ],
+      "sources": [
+        "The Verge"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 20,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "energie"
+    },
+    {
+      "id": "topic-155",
+      "titre": "Le Bloc-notes de Jérôme Garcin : les passions communes de Chantal Thomas et Char",
+      "article_ids": [
+        "dcb32285854c"
+      ],
+      "sources": [
+        "L'Obs"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "generaliste"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 20,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-156",
+      "titre": "Here&#8217;s the upgrade to my favorite phone camera of last year",
+      "article_ids": [
+        "0f041ebe9460"
+      ],
+      "sources": [
+        "The Verge"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "tech"
+      ],
+      "pays_concernes": [
+        "États-Unis"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 20.5,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "electronique"
+    },
+    {
+      "id": "topic-157",
+      "titre": "Moussa Maaskri, le rôle d’une vie dans la série « Un prophète »",
+      "article_ids": [
+        "b8e8ca53844e"
+      ],
+      "sources": [
+        "L'Obs"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "culture"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 21,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-158",
+      "titre": "« Le Nom sur le mur » : une impeccable leçon d’histoire",
+      "article_ids": [
+        "5aafec6ca782"
+      ],
+      "sources": [
+        "L'Obs"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "generaliste"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 21.3,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-159",
+      "titre": "L’agence de l’UE pour l’asile alerte sur les conditions d’accueil d’un flux de r",
+      "article_ids": [
+        "2e990d7eb9a0"
+      ],
+      "sources": [
+        "L'Humanité"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.7,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "diplomatie"
+    },
+    {
+      "id": "topic-160",
+      "titre": "Inégalités femmes-hommes : chez les cadres aussi, l’écart salarial persiste",
+      "article_ids": [
+        "3e092a467bdf"
+      ],
+      "sources": [
+        "Libération"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "droits"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.4,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "salaire"
+    },
+    {
+      "id": "topic-161",
+      "titre": "L'IA, cet obscur objet du dialogue social",
+      "article_ids": [
+        "bc73bf42eb10"
+      ],
+      "sources": [
+        "Alternatives Économiques"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "economie"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 10,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "ia"
+    },
+    {
+      "id": "topic-162",
+      "titre": "More generals purged as delegates gather for China’s Two Sessions event",
+      "article_ids": [
+        "5682f7521f7f"
+      ],
+      "sources": [
+        "The Guardian"
+      ],
+      "types": [
+        "etranger"
+      ],
+      "rubriques_detectees": [
+        "international"
+      ],
+      "pays_concernes": [
+        "Royaume-Uni"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 5,
+        "fraicheur_h": 2.9,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "gouvernement"
+    },
+    {
+      "id": "topic-163",
+      "titre": "Des Rafales ont mené des « opérations de sécurisation du ciel » aux Émirats arab",
+      "article_ids": [
+        "23cd1a7e1009"
+      ],
+      "sources": [
+        "L'Humanité"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1.1,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "conflit"
+    },
+    {
+      "id": "topic-164",
+      "titre": "«Une dégradation alarmante et inédite de la situation» : en France, la montée de",
+      "article_ids": [
+        "5243806c19aa"
+      ],
+      "sources": [
+        "Libération"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "generaliste"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 1.8,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "discrimination"
+    },
+    {
+      "id": "topic-165",
+      "titre": "L’Alliance de la presse dénonce les atteintes à la liberté de la presse",
+      "article_ids": [
+        "3a47e3491f0e"
+      ],
+      "sources": [
+        "L'Humanité"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.4,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "droits"
+    },
+    {
+      "id": "topic-166",
+      "titre": "« Au cœur de nos terres » sur France 3 : la condition paysanne conjuguée au fémi",
+      "article_ids": [
+        "5d5854e0367c"
+      ],
+      "sources": [
+        "L'Humanité"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "politique"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 0.5,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "culture"
+    },
+    {
+      "id": "topic-167",
+      "titre": "Les sulfureux alliés de Sarah Knafo au Parlement européen : pronazis, antisémite",
+      "article_ids": [
+        "c9540522b1ca"
+      ],
+      "sources": [
+        "L'Obs"
+      ],
+      "types": [
+        "mainstream"
+      ],
+      "rubriques_detectees": [
+        "generaliste"
+      ],
+      "pays_concernes": [
+        "France"
+      ],
+      "score": {
+        "nb_sources": 1,
+        "diversite_types": 1,
+        "fiabilite_moy": 4,
+        "fraicheur_h": 18.8,
+        "couverture_mixte": false,
+        "coherence": 1,
+        "investigation_bonus": 0,
+        "axes_alignment": 7.5,
+        "pluralite": 0,
+        "total": 25
+      },
+      "editorial_flags": [],
+      "axes_profile": {},
+      "orientations": [],
+      "has_investigation_source": false,
+      "tag": "parlement"
+    }
+  ]
+}
