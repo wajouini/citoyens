@@ -1,10 +1,21 @@
 ---
 import { getCollection } from 'astro:content';
-import { dedupBriefings, dedupArticles, getTopicsForSection } from '../../utils/section-data';
+import {
+  dedupBriefings,
+  dedupArticles,
+  getTopicsForSection,
+  isRegardCroiseForSection,
+  getSujetsForSection,
+  getDossiersForBriefing,
+} from '../../utils/section-data';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
 import FilSidebar from '../../components/section/FilSidebar.astro';
+
+// ── Données pipeline ────────────────────────────────────────────────────────
+const uneRaw    = await import('../../data/une.json').then(m => m.default).catch(() => null);
+const sujetsRaw = await import('../../data/sujets-chauds.json').then(m => m.default).catch(() => null);
 
 // ── Articles MDX ───────────────────────────────────────────────────────────
 const allArticles = await getCollection('articles');
@@ -13,30 +24,52 @@ const rawArticles = allArticles
   .sort((a, b) => b.data.date.localeCompare(a.data.date));
 const articles = dedupArticles(rawArticles);
 
-const hero = articles.find(a => a.data.estUne) ?? articles[0];
-const rest = articles.filter(a => a.id !== hero?.id);
+// ── Dossiers (pour matching avec briefings) ─────────────────────────────────
+const allDossiers = await getCollection('dossiers').catch(() => []);
 
-// ── Données pipeline ────────────────────────────────────────────────────────
-const uneRaw = await import('../../data/une.json').then(m => m.default).catch(() => null);
-const sujetsRaw = await import('../../data/sujets-chauds.json').then(m => m.default).catch(() => null);
+// ── Sujet du jour — si c'est de l'économie/social ─────────────────────────
+const eco_rubriques = ['economie', 'social', 'travail', 'industrie', 'macro', 'budget', 'energie', 'ecologie', 'taxe'];
+const sujetsduJour = uneRaw?.sujet_du_jour?.rubrique
+  && eco_rubriques.includes(uneRaw.sujet_du_jour.rubrique)
+  ? uneRaw.sujet_du_jour
+  : null;
 
-// ── Déduplication ──────────────────────────────────────────────────────────
-const coveredTitles = articles.map(a => a.data.titre);
+// ── Regard croisé — si c'est de l'économie ─────────────────────────────────
+const regardCroise = uneRaw?.regard_croise && isRegardCroiseForSection(uneRaw.regard_croise, 'economie')
+  ? uneRaw.regard_croise
+  : null;
 
-const franceCandidates = (uneRaw?.france ?? []).filter((i: any) =>
-  ['economie', 'social', 'societe'].includes(i.rubrique) && i.titre
-);
-const sujetsCandidates = (sujetsRaw?.sujets_actifs ?? []).filter((s: any) =>
-  s.rubrique === 'economie' && s.titre
-);
+// ── Déduplication en cascade ────────────────────────────────────────────────
+const coveredTitles = [
+  ...articles.map(a => a.data.titre),
+  ...(sujetsduJour ? [sujetsduJour.titre] : []),
+];
 
-const briefingsFrance = dedupBriefings(franceCandidates, coveredTitles).slice(0, 5);
-const sujetsActifs = dedupBriefings(
-  sujetsCandidates,
-  [...coveredTitles, ...briefingsFrance.map((b: any) => b.titre)]
-).slice(0, 3);
+// Les items monde n'ont pas de champ rubrique — détection par mots-clés dans le titre
+const ECO_MONDE_KEYWORDS = ['pétrole', 'petrole', 'gaz', 'énergie', 'energie',
+  'commerce', 'marché', 'marche', 'sanctions', 'croissance', 'dollar', 'yuan', 'bourse'];
 
-// ── Fil sidebar — topics importants économie/société ────────────────────────
+const franceCandidates = [
+  ...(uneRaw?.france ?? []).filter((i: any) =>
+    eco_rubriques.includes(i.rubrique) && i.titre
+  ),
+  // Items monde avec angle économique (détectés par titre car pas de rubrique)
+  ...(uneRaw?.monde ?? []).filter((i: any) =>
+    i.titre && ECO_MONDE_KEYWORDS.some(kw => i.titre.toLowerCase().includes(kw))
+  ),
+].filter((i: any) => !sujetsduJour || !i.titre?.includes(sujetsduJour.titre?.slice(0, 30)));
+
+const briefings = dedupBriefings(franceCandidates, coveredTitles).slice(0, 5);
+
+// Si pas de sujet du jour éco, promouvoir le premier briefing en hero
+const heroItem = sujetsduJour ?? (briefings.length > 0 ? briefings[0] : null);
+const heroIsPromotion = !sujetsduJour && heroItem !== null;
+const displayedBriefings = heroIsPromotion ? briefings.slice(1) : briefings;
+
+// ── Sujets radar ────────────────────────────────────────────────────────────
+const radarSujets = getSujetsForSection(sujetsRaw ?? {}, 'economie', 3);
+
+// ── Fil sidebar ─────────────────────────────────────────────────────────────
 const topicsData = await import('../../data/.pipeline/topics-tagged.json').then(m => m.default).catch(() =>
   import('../../data/.pipeline/topics.json').then(m => m.default).catch(() => null)
 );
@@ -56,6 +89,15 @@ const formatDateShort = (d: string) =>
   new Date(d + 'T00:00:00').toLocaleDateString('fr-FR', {
     day: 'numeric', month: 'short',
   });
+
+const tonColors: Record<string, string> = {
+  critique: 'text-rouge-doux bg-red-50',
+  alarmiste: 'text-rouge-doux bg-red-50',
+  complaisant: 'text-orange bg-orange/10',
+  factuel: 'text-vert bg-green-50',
+  neutre: 'text-gris-clair bg-gris-chaud',
+  engage: 'text-orange bg-orange/10',
+};
 ---
 
 <BaseLayout
@@ -71,6 +113,9 @@ const formatDateShort = (d: string) =>
       <span class="font-mono text-[11px] uppercase tracking-[2px] text-orange bg-orange/10 px-2.5 py-1 rounded">
         Analyse & décryptage
       </span>
+      {uneDate && (
+        <time class="ml-auto font-mono text-[11px] text-gris-clair">{formatDate(uneDate)}</time>
+      )}
     </div>
 
     <div class="flex flex-col lg:flex-row gap-10 lg:gap-14">
@@ -78,7 +123,180 @@ const formatDateShort = (d: string) =>
       {/* ── Colonne principale ── */}
       <div class="flex-1 min-w-0 space-y-14">
 
-        {/* Articles de fond */}
+        {/* ── 1. AUJOURD'HUI ─────────────────────────────────────────────── */}
+        {(heroItem || regardCroise) && (
+          <section>
+            <div class="flex items-center gap-2 mb-8">
+              <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-orange">Aujourd'hui</span>
+              <div class="flex-1 h-px bg-orange/20"></div>
+            </div>
+
+            {/* Sujet du jour — ou premier briefing promu en hero */}
+            {heroItem && (
+              <div class="mb-8 p-6 rounded-2xl border-l-4 border-orange bg-orange/5">
+                <div class="flex items-center gap-2 mb-3">
+                  <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-orange bg-orange/10 px-2 py-0.5 rounded">
+                    {heroIsPromotion ? 'Ce matin' : 'Sujet du jour'}
+                  </span>
+                  {heroItem.rubrique && (
+                    <span class="font-mono text-[10px] text-gris-clair uppercase tracking-wider">{heroItem.rubrique}</span>
+                  )}
+                </div>
+                <h2 class="font-display text-[22px] md:text-[28px] font-black text-noir leading-tight mb-2">
+                  {heroItem.titre}
+                </h2>
+                {(heroItem.pourquoi_important ?? heroItem.resume) && (
+                  <p class="text-[14px] text-orange font-semibold leading-snug mb-4 border-l-2 border-orange/30 pl-3">
+                    {heroItem.pourquoi_important ?? heroItem.resume}
+                  </p>
+                )}
+                {heroItem.faits?.length > 0 && (
+                  <ul class="space-y-1.5 mb-4">
+                    {heroItem.faits.map((fait: string) => (
+                      <li class="flex items-start gap-2 text-[13px] text-gris-texte leading-snug">
+                        <span class="text-orange mt-0.5 shrink-0">▸</span>
+                        <span>{fait}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {heroItem.sources?.length > 0 && (
+                  <div class="flex flex-wrap gap-2">
+                    {heroItem.sources.slice(0, 4).map((s: any) => (
+                      s.url && (
+                        <a href={s.url} target="_blank" rel="noopener noreferrer"
+                          class="inline-flex items-center gap-1 font-mono text-[10px] text-orange bg-blanc border border-orange/20 px-2.5 py-1 rounded-full no-underline hover:border-orange transition-colors">
+                          {s.nom} ↗
+                        </a>
+                      )
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Briefings du jour */}
+            {displayedBriefings.length > 0 && (
+              <div class="space-y-3 mb-8">
+                {displayedBriefings.map((item: any) => {
+                  const dossierLie = getDossiersForBriefing(item.titre, allDossiers)[0];
+                  return (
+                    <div class="p-4 rounded-xl border border-gris-chaud bg-blanc hover:border-orange/20 transition-colors">
+                      <div class="flex items-start justify-between gap-3 mb-2">
+                        <h3 class="font-display text-[16px] font-bold text-noir leading-snug">{item.titre}</h3>
+                        {dossierLie && (
+                          <a href={`/dossiers/${dossierLie.slug}`}
+                            class="shrink-0 inline-flex items-center gap-1 font-mono text-[9px] text-orange bg-orange/10 px-2 py-0.5 rounded no-underline hover:underline whitespace-nowrap">
+                            {dossierLie.icone} Dossier
+                          </a>
+                        )}
+                      </div>
+                      <p class="text-[13px] text-gris-texte leading-relaxed mb-3">{item.resume}</p>
+                      {item.sources?.length > 0 && (
+                        <div class="flex flex-wrap gap-1.5">
+                          {item.sources.slice(0, 4).map((s: any) => (
+                            s.url && (
+                              <a href={s.url} target="_blank" rel="noopener noreferrer"
+                                class="inline-flex items-center gap-1 font-mono text-[10px] text-orange bg-orange/10 px-2 py-0.5 rounded no-underline hover:underline">
+                                {s.nom} ↗
+                              </a>
+                            )
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+
+            {/* Regard croisé */}
+            {regardCroise && (
+              <div class="p-5 rounded-2xl border border-orange/30 bg-orange/5">
+                <div class="flex items-center gap-2 mb-4">
+                  <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-orange bg-orange/10 px-2.5 py-1 rounded">Regard croisé</span>
+                  {regardCroise.rubrique && (
+                    <span class="font-mono text-[10px] text-gris-clair uppercase tracking-wider">{regardCroise.rubrique}</span>
+                  )}
+                </div>
+                <h3 class="font-display text-[18px] font-bold text-noir leading-snug mb-2">{regardCroise.sujet}</h3>
+                {regardCroise.contexte && (
+                  <p class="text-[13px] text-gris-texte leading-relaxed mb-4">{regardCroise.contexte}</p>
+                )}
+                {regardCroise.couvertures?.length > 0 && (
+                  <div class="space-y-2 mb-4">
+                    {regardCroise.couvertures.slice(0, 3).map((c: any) => (
+                      <div class="flex items-start gap-3 p-3 rounded-lg bg-blanc border border-gris-chaud">
+                        <div class="flex-1 min-w-0">
+                          <div class="flex items-center gap-2 mb-1">
+                            <span class="font-mono text-[11px] font-semibold text-noir">{c.source}</span>
+                            {c.ton && (
+                              <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded ${tonColors[c.ton] ?? 'text-gris-clair bg-gris-chaud'}`}>
+                                {c.ton}
+                              </span>
+                            )}
+                          </div>
+                          <p class="text-[12px] text-gris-texte leading-snug">{c.angle}</p>
+                        </div>
+                        {c.url && (
+                          <a href={c.url} target="_blank" rel="noopener noreferrer"
+                            class="shrink-0 font-mono text-[10px] text-orange no-underline hover:underline">↗</a>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {regardCroise.ce_quil_faut_retenir && (
+                  <p class="text-[13px] text-gris-texte leading-relaxed border-t border-orange/20 pt-3">
+                    <span class="font-semibold text-orange">Ce qu'il faut retenir — </span>
+                    {regardCroise.ce_quil_faut_retenir}
+                  </p>
+                )}
+              </div>
+            )}
+          </section>
+        )}
+
+        {/* ── 2. SUJETS SUIVIS (Radar) ─────────────────────────────────────── */}
+        {radarSujets.length > 0 && (
+          <section>
+            <div class="flex items-center gap-2 mb-6">
+              <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair">Sujets suivis</span>
+              <div class="flex-1 h-px bg-gris-chaud"></div>
+              <a href="/radar" class="font-mono text-[10px] text-orange no-underline hover:underline shrink-0">Voir tous →</a>
+            </div>
+            <div class="space-y-4">
+              {radarSujets.map((sujet: any) => (
+                <div class="p-4 rounded-xl border border-orange/20 bg-blanc hover:border-orange/40 transition-colors">
+                  <div class="flex items-start justify-between gap-3 mb-2">
+                    <div class="flex items-center gap-2">
+                      <span class="w-1.5 h-1.5 rounded-full bg-orange animate-pulse shrink-0 mt-1.5"></span>
+                      <h3 class="font-display text-[15px] font-bold text-noir leading-snug">{sujet.titre}</h3>
+                    </div>
+                    {sujet.slug && (
+                      <a href={`/radar/${sujet.slug}`}
+                        class="shrink-0 font-mono text-[10px] text-orange no-underline hover:underline whitespace-nowrap">
+                        Décryptage →
+                      </a>
+                    )}
+                  </div>
+                  {sujet.tldr?.length > 0 && (
+                    <ul class="space-y-1 mt-2">
+                      {sujet.tldr.slice(0, 2).map((point: string) => (
+                        <li class="flex items-start gap-2 text-[12px] text-gris-texte leading-snug">
+                          <span class="text-orange/50 shrink-0">·</span>
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* ── 3. ANALYSES DE FOND ──────────────────────────────────────────── */}
         {articles.length > 0 && (
           <section>
             <div class="flex items-center gap-2 mb-6">
@@ -86,29 +304,29 @@ const formatDateShort = (d: string) =>
               <div class="flex-1 h-px bg-gris-chaud"></div>
             </div>
 
-            {hero && (
-              <a href={`/article/${hero.id}`} class="block group no-underline mb-8">
+            {articles[0] && (
+              <a href={`/article/${articles[0].id}`} class="block group no-underline mb-6">
                 <div class="border-l-4 border-orange pl-5">
-                  <div class="flex items-center gap-2 mb-3">
-                    <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-orange bg-orange/10 px-2 py-0.5 rounded">À la une</span>
-                    <time class="font-mono text-[11px] text-gris-clair">{formatDate(hero.data.date)}</time>
+                  <div class="flex items-center gap-2 mb-2">
+                    <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-orange bg-orange/10 px-2 py-0.5 rounded">Analyse</span>
+                    <time class="font-mono text-[11px] text-gris-clair">{formatDate(articles[0].data.date)}</time>
                   </div>
-                  <h2 class="font-display text-[26px] md:text-[32px] font-black text-noir leading-[1.1] tracking-tight mb-3 group-hover:text-orange transition-colors">
-                    {hero.data.titre}
+                  <h2 class="font-display text-[22px] md:text-[28px] font-black text-noir leading-tight mb-2 group-hover:text-orange transition-colors">
+                    {articles[0].data.titre}
                   </h2>
-                  <p class="text-[16px] text-gris-texte leading-relaxed mb-4 max-w-[640px]">{hero.data.resume}</p>
-                  <span class="inline-flex items-center gap-1 font-mono text-[12px] text-orange font-semibold group-hover:underline">Lire l'article →</span>
+                  <p class="text-[14px] text-gris-texte leading-relaxed mb-3 max-w-[600px]">{articles[0].data.resume}</p>
+                  <span class="inline-flex items-center gap-1 font-mono text-[12px] text-orange font-semibold group-hover:underline">Lire l'analyse →</span>
                 </div>
               </a>
             )}
 
-            {rest.length > 0 && (
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                {rest.map(a => (
-                  <a href={`/article/${a.id}`} class="block group no-underline p-5 rounded-xl border border-gris-chaud bg-blanc hover:border-orange/30 hover:shadow-md transition-all">
-                    <time class="font-mono text-[10px] text-gris-clair block mb-2">{formatDateShort(a.data.date)}</time>
-                    <h3 class="font-display text-[18px] font-bold text-noir leading-snug mb-2 group-hover:text-orange transition-colors">{a.data.titre}</h3>
-                    <p class="text-[13px] text-gris-texte leading-relaxed line-clamp-3">{a.data.resume}</p>
+            {articles.slice(1).length > 0 && (
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {articles.slice(1).map(a => (
+                  <a href={`/article/${a.id}`} class="block group no-underline p-4 rounded-xl border border-gris-chaud bg-blanc hover:border-orange/30 hover:shadow-sm transition-all">
+                    <time class="font-mono text-[10px] text-gris-clair block mb-1.5">{formatDateShort(a.data.date)}</time>
+                    <h3 class="font-display text-[16px] font-bold text-noir leading-snug mb-2 group-hover:text-orange transition-colors">{a.data.titre}</h3>
+                    <p class="text-[12px] text-gris-texte leading-relaxed line-clamp-3">{a.data.resume}</p>
                     <span class="inline-block mt-3 font-mono text-[11px] text-orange font-semibold group-hover:underline">Lire →</span>
                   </a>
                 ))}
@@ -117,58 +335,8 @@ const formatDateShort = (d: string) =>
           </section>
         )}
 
-        {/* Briefing du jour — sujets économiques non couverts */}
-        {briefingsFrance.length > 0 && (
-          <section>
-            <div class="flex items-center gap-3 mb-6">
-              <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair">Briefing du jour</span>
-              <div class="flex-1 h-px bg-gris-chaud"></div>
-              {uneDate && <time class="font-mono text-[10px] text-gris-clair shrink-0">{formatDate(uneDate)}</time>}
-            </div>
-            <div class="space-y-4">
-              {briefingsFrance.map((item: any) => (
-                <div class="p-4 rounded-xl border border-gris-chaud bg-blanc">
-                  <h3 class="font-display text-[17px] font-bold text-noir leading-snug mb-2">{item.titre}</h3>
-                  <p class="text-[13px] text-gris-texte leading-relaxed mb-3">{item.resume}</p>
-                  {item.sources?.length > 0 && (
-                    <div class="flex flex-wrap gap-2">
-                      {item.sources.slice(0, 4).map((s: any) => (
-                        <a href={s.url} target="_blank" rel="noopener noreferrer"
-                          class="inline-flex items-center gap-1 font-mono text-[10px] text-orange bg-orange/10 px-2 py-0.5 rounded no-underline hover:underline">
-                          {s.nom} ↗
-                        </a>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Sujets suivis */}
-        {sujetsActifs.length > 0 && (
-          <section>
-            <div class="flex items-center gap-2 mb-6">
-              <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair">Sujets suivis</span>
-              <div class="flex-1 h-px bg-gris-chaud"></div>
-            </div>
-            <div class="space-y-3">
-              {sujetsActifs.map((sujet: any) => (
-                <div class="p-4 rounded-xl border border-orange/30 bg-blanc">
-                  <div class="flex items-center gap-2 mb-2">
-                    <span class="w-1.5 h-1.5 rounded-full bg-orange animate-pulse"></span>
-                    <span class="font-mono text-[9px] font-bold uppercase tracking-[2px] text-orange">En cours</span>
-                  </div>
-                  <h3 class="font-display text-[15px] font-bold text-noir leading-snug mb-1">{sujet.titre}</h3>
-                  <p class="text-[12px] text-gris-texte leading-relaxed">{sujet.resume}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {articles.length === 0 && briefingsFrance.length === 0 && (
+        {/* État vide */}
+        {!heroItem && !regardCroise && radarSujets.length === 0 && articles.length === 0 && (
           <div class="py-20 text-center text-gris-clair font-mono text-[13px]">Contenu en cours de génération…</div>
         )}
 
@@ -182,6 +350,8 @@ const formatDateShort = (d: string) =>
           accentColor="text-orange"
           dotColor="bg-orange"
           headerBg="bg-orange/5"
+          rubriques={['macro', 'taxe', 'industrie', 'automobile', 'transport', 'energie', 'immobilier', 'travail', 'salaire', 'investissement', 'ecologie']}
+          sectionId="economie"
         />
       </aside>
     </div>

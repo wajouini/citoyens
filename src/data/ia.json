@@ -1,171 +1,140 @@
 {
-  "date": "2026-03-01",
-  "genere_a": "2026-03-01T21:08:51.626Z",
+  "date": "2026-03-03",
+  "genere_a": "2026-03-03T13:43:01.199Z",
   "faits_ia": [
     {
-      "titre": "OpenAI et Anthropic : tensions et révélations sur les contrats avec le Pentagone",
+      "titre": "L'Australie envisage d'interdire les chatbots IA aux moins de 16 ans",
       "sous_section": "regulation",
-      "resume": "OpenAI a apporté des précisions sur son accord avec le département de la Défense américain, le PDG Sam Altman admettant que le processus a été « précipité ». Parallèlement, Anthropic traverse une phase de tensions internes et externes suite à ses propres négociations avec l'armée, bien que son application Claude ait paradoxalement grimpé en tête de l'App Store durant cette période de controverse.",
-      "pourquoi_ca_compte": "Cela pose la question de la neutralité des outils d'IA civile et de l'alignement éthique des entreprises face aux besoins militaires de défense.",
+      "resume": "Après avoir restreint l'accès aux réseaux sociaux, le régulateur australien étudie une interdiction similaire pour les agents conversationnels d'IA. Cette mesure viserait à imposer une vérification d'âge stricte via les magasins d'applications pour protéger les mineurs des contenus potentiellement inappropriés ou manipulateurs.",
+      "pourquoi_ca_compte": "Cela marque une étape inédite dans la régulation de l'IA générative comme outil de communication, posant la question de l'accès des jeunes à l'information et aux outils de productivité modernes.",
       "sources": [
         {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/",
-          "type": "etranger",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/apres-les-réseaux-sociaux-l-australie-etudie-l-idee-d-interdire-l-acces-aux-chatbots-ia-aux-adolescents-de-moins-de-16-ans_AV-202603030502.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/01/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "L'expansion planétaire des data centers face au défi énergétique",
-      "sous_section": "societe",
-      "resume": "La multiplication des centres de données pour répondre aux besoins massifs de l'IA générative s'accélère partout dans le monde. Cette croissance pose des problèmes majeurs de consommation d'énergie et de ressources en eau, transformant la géographie industrielle mondiale.",
-      "pourquoi_ca_compte": "L'impact environnemental de l'IA devient un enjeu de souveraineté et de responsabilité écologique pour les citoyens.",
-      "sources": [
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/grand-format/infographie-data-centers-une-expansion-planetaire_240978",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         }
       ],
-      "lien": null
+      "lien": "https://www.bfmtv.com/tech/intelligence-artificielle/apres-les-réseaux-sociaux-l-australie-etudie-l-idee-d-interdire-l-acces-aux-chatbots-ia-aux-adolescents-de-moins-de-16-ans_AV-202603030502.html"
     },
     {
-      "titre": "L'Edge IA : décentraliser l'intelligence pour plus de rapidité",
-      "sous_section": "annonces",
-      "resume": "Le concept d'Edge IA émerge pour traiter les données directement sur les appareils (voitures, électroménager, téléphones) plutôt que dans le cloud. Cette approche vise à réduire la latence et à mieux gérer les volumes de données générés par les capteurs du quotidien.",
-      "pourquoi_ca_compte": "Une IA locale peut offrir une meilleure protection de la vie privée puisque les données ne quittent pas l'appareil.",
-      "sources": [
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/tech/2188511-ledge-ia-cest-quoi-ca-encore.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Le secteur SaaS face à la menace de la « SaaSpocalypse »",
-      "sous_section": "business",
-      "resume": "Le marché du logiciel en tant que service (SaaS) subit une remise en question profonde. Les investisseurs délaissent les modèles traditionnels au profit d'entreprises capables d'intégrer nativement l'IA, craignant que l'IA générative ne rende obsolètes de nombreux outils logiciels actuels.",
-      "pourquoi_ca_compte": "Cette mutation économique redéfinit les compétences nécessaires dans le secteur de la tech et l'offre d'outils pour les entreprises.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/01/saas-in-saas-out-heres-whats-driving-the-saaspocalypse/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Register",
-          "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/01/saaspocalypse_opinion/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/01/investors-spill-what-they-arent-looking-for-anymore-in-ai-saas-companies/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Escroqueries crypto : des méthodes de plus en plus sophistiquées",
-      "sous_section": "societe",
-      "resume": "Des témoignages révèlent l'efficacité redoutable des faux conseillers en cryptomonnaies utilisant l'ingénierie sociale. Parallèlement, des hackers liés à la Corée du Nord utilisent désormais la blockchain Ethereum pour dissimuler des programmes malveillants (méthode « EtherHiding »).",
-      "pourquoi_ca_compte": "La sécurité des actifs numériques des citoyens est menacée par des acteurs étatiques et des réseaux criminels utilisant des technologies de pointe.",
-      "sources": [
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2185705-comment-jai-transfere-mes-bitcoins-a-des-escrocs-pendant-que-je-preparais-une-puree-de-pommes-de-terre.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Futura Sciences",
-          "url": "https://www.futura-sciences.com/tech/actualites/cybersecurite-blockchain-nest-plus-sure-ce-piratage-venu-coree-nord-inquiete-k2m6-131599/#xtor%3DRSS-8",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Futura",
-            "proprietaire": "Futura (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Honor dévoile son « Robot Phone » et un pliable ultra-résistant",
-      "sous_section": "annonces",
-      "resume": "Au MWC 2026, Honor a présenté un prototype de smartphone doté d'un bras robotisé capable de bouger la caméra et de réagir à la musique. La marque a également lancé le Magic V6, premier pliable certifié IP69 doté d'une batterie haute densité de 6 600 mAh.",
-      "pourquoi_ca_compte": "L'intégration de la robotique miniature dans les objets personnels marque une nouvelle étape de l'interaction homme-machine.",
+      "titre": "La Cour suprême des USA refuse le copyright pour les œuvres générées par IA",
+      "sous_section": "regulation",
+      "resume": "La Cour suprême des États-Unis a décliné l'examen d'un appel déposé par Stephen Thaler, confirmant ainsi que l'art généré par intelligence artificielle sans intervention humaine significative ne peut bénéficier d'un copyright. Cette décision fait suite à une longue bataille judiciaire sur la reconnaissance de l'IA comme 'auteur'.",
+      "pourquoi_ca_compte": "Cette décision protège le domaine public et clarifie les droits des créateurs humains face à l'automatisation, tout en complexifiant le modèle économique des studios de création purement algorithmiques.",
       "sources": [
         {
           "nom": "The Verge",
-          "url": "https://www.theverge.com/gadgets/887140/honor-robot-phone-mwc-release-date-specs",
+          "url": "https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright"
+    },
+    {
+      "titre": "L'armée américaine utilise l'IA Claude pour des opérations militaires en Iran",
+      "sous_section": "societe",
+      "resume": "Malgré les réticences initiales d'Anthropic, l'administration Trump a utilisé l'IA Claude pour coordonner des frappes contre l'Iran. OpenAI a également modifié ses conditions d'utilisation pour autoriser certains usages militaires, tout en interdisant formellement l'espionnage des citoyens américains.",
+      "pourquoi_ca_compte": "C'est un tournant majeur dans l'éthique de la Silicon Valley : les frontières entre outils civils et infrastructures de guerre nationale deviennent poreuses, posant des risques de dérives non contrôlées par les développeurs originaux.",
+      "sources": [
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/economie/economie-numerique/anthropic-ladministration-trump-a-utilise-lia-claude-pour-attaquer-liran-apres-avoir-dit-quelle-ne-sen-servirait-plus-20260303_XMJZI3NW7VC27OJXBFI7AR7BOI/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c3rz1nd0egro?at_medium=RSS&at_campaign=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/02/openai-anthropic-department-of-defense-war-hegseth-ai-companies-work-with-us-government/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.liberation.fr/economie/economie-numerique/anthropic-ladministration-trump-a-utilise-lia-claude-pour-attaquer-liran-apres-avoir-dit-quelle-ne-sen-servirait-plus-20260303_XMJZI3NW7VC27OJXBFI7AR7BOI/"
+    },
+    {
+      "titre": "Apple lance l'iPhone 17e avec des capacités IA renforcées",
+      "sous_section": "annonces",
+      "resume": "Apple a dévoilé l'iPhone 17e, un modèle d'entrée de gamme à 719€ (599$) doté de la puce A19 et de 256 Go de stockage. L'accent est mis sur l'intégration native d'Apple Intelligence pour démocratiser ses outils génératifs.",
+      "pourquoi_ca_compte": "Apple tente de verrouiller le marché milieu de gamme en rendant ses outils d'IA accessibles sans le surcoût des modèles Pro, forçant ses concurrents à s'aligner sur le stockage et la puissance de calcul.",
+      "sources": [
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/tech/2191441-apple-devoile-liphone-17e-avec-un-stockage-double-pour-le-meme-prix-enfin-parfait.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Next",
+          "url": "https://next.ink/227055/apple-lance-son-iphone-17e-a-partir-de-719-euros/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/02/apples-bakes-in-ai-smarts-into-its-new-599-iphone-17e/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.numerama.com/tech/2191441-apple-devoile-liphone-17e-avec-un-stockage-double-pour-le-meme-prix-enfin-parfait.html"
+    },
+    {
+      "titre": "Google Home intègre Gemini pour décrire les flux vidéo en direct",
+      "sous_section": "annonces",
+      "resume": "Google a annoncé une mise à jour majeure de son écosystème smart home permettant à l'IA Gemini d'analyser en temps réel ce que voient les caméras de sécurité. L'outil peut désormais répondre à des questions complexes sur des événements en cours dans le domicile.",
+      "pourquoi_ca_compte": "Cela transforme la surveillance passive en analyse proactive, mais soulève des inquiétudes majeures sur la vie privée puisque l'IA doit traiter les flux vidéo domestiques de manière continue.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/888008/big-google-home-update-lets-gemini-describe-live-camera-feeds",
           "type": "etranger",
           "groupe_media": {
             "nom": "Vox Media",
@@ -173,72 +142,123 @@
             "type_proprietaire": "independant",
             "orientation": "centre-gauche"
           }
-        },
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/01/honor-says-its-robot-phone-with-moving-camera-can-dance-to-music/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/01/honor-launches-its-new-slim-foldable-magic-v6-with-a-6600-mah-battery/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
         }
       ],
-      "lien": null
+      "lien": "https://www.theverge.com/tech/888008/big-google-home-update-lets-gemini-describe-live-camera-feeds"
     },
     {
-      "titre": "L'IA bouscule les marchés : l'émergence des actions « Halo »",
+      "titre": "Microsoft envisage de facturer les 'agents IA' comme des employés",
       "sous_section": "business",
-      "resume": "Face à l'incertitude liée aux bouleversements de l'IA, les investisseurs se tournent vers les entreprises dites « Halo » (Low Obsolescence. Ce sont des sociétés possédant des actifs physiques lourds, jugées résistantes à l'automatisation par l'IA.",
-      "pourquoi_ca_compte": "La structure même de l'économie boursière se réorganise en fonction de la capacité de l'IA à remplacer ou non certaines activités humaines.",
+      "resume": "Selon des rumeurs persistantes, Microsoft préparerait une nouvelle licence 'E7' pour Microsoft 365. L'idée est de faire payer les entreprises pour chaque agent IA autonome utilisé, sur le même modèle qu'une licence pour un collaborateur humain.",
+      "pourquoi_ca_compte": "C'est une redéfinition du travail salarié : si un agent numérique est facturé comme un humain, cela valide économiquement le remplacement des postes administratifs par l'automatisation.",
       "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/business/2026/mar/01/investment-ai-resistant-halo-companies-uk-eu-markets-goldman-sachs",
+          "nom": "The Register",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/03/microsoft_365_e7_rumors/",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
           }
         }
       ],
-      "lien": null
+      "lien": "https://go.theregister.com/feed/www.theregister.com/2026/03/03/microsoft_365_e7_rumors/"
     },
     {
-      "titre": "La désinformation par l'IA et les réseaux sociaux après les frappes en Iran",
-      "sous_section": "societe",
-      "resume": "La plateforme X (anciennement Twitter) est critiquée pour la circulation massive de vidéos obsolètes ou générées/manipulées suite aux frappes militaires en Iran. Les experts alertent sur la difficulté croissante de distinguer le vrai du faux en temps de conflit.",
-      "pourquoi_ca_compte": "La désinformation en temps réel peut influencer l'opinion publique et les décisions politiques internationales.",
+      "titre": "Motorola s'allie à GrapheneOS pour un smartphone ultra-sécurisé",
+      "sous_section": "business",
+      "resume": "Motorola a annoncé un partenariat avec GrapheneOS pour proposer une version d'Android sans les services Google, axée sur la protection absolue des données. Ce projet vise à offrir une alternative grand public aux téléphones 'durcis' utilisés par les journalistes ou dissidents.",
+      "pourquoi_ca_compte": "C'est une reconnaissance par un grand constructeur de la demande croissante pour une déconnexion des écosystèmes de surveillance publicitaire des Big Tech.",
       "sources": [
         {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump/false-and-outdated-videos-circulated-online-after-the-iran-strikes",
-          "type": "etranger",
+          "nom": "Next",
+          "url": "https://next.ink/227163/motorola-sassocie-a-grapheneos-pour-renforcer-la-securite-de-ses-futurs-smartphones/",
+          "type": "investigation",
           "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
             "orientation": "centre"
           }
         },
         {
-          "nom": "Wired",
-          "url": "https://www.wired.com/story/x-is-drowning-in-disinformation-following-us-and-israels-attack-on-iran/",
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/tech/2191739-android-sans-google-motorola-sallie-a-grapheneos-pour-la-vie-privee-sur-smartphone.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Register",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/02/motorola_grapheneos/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://next.ink/227163/motorola-sassocie-a-grapheneos-pour-renforcer-la-securite-de-ses-futurs-smartphones/"
+    },
+    {
+      "titre": "L'IA utilisée pour frauder les remboursements sur Vinted",
+      "sous_section": "societe",
+      "resume": "Une nouvelle vague d'arnaques touche la plateforme Vinted : des fraudeurs utilisent l'IA générative pour créer de fausses preuves de colis endommagés ou d'articles non conformes afin d'obtenir des remboursements indus, dupant les systèmes de vérification visuelle.",
+      "pourquoi_ca_compte": "Cela démontre comment l'IA démocratise la cybercriminalité, rendant la confiance entre particuliers sur les plateformes de seconde main de plus en plus fragile.",
+      "sources": [
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2191617-arnaque-vinted-comment-fonctionne-l-arnarque-au-rembourserment-par-ia.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.numerama.com/cyberguerre/2191617-arnaque-vinted-comment-fonctionne-l-arnarque-au-rembourserment-par-ia.html"
+    },
+    {
+      "titre": "L'iPad Air passe à la puce M4 pour doper ses fonctions IA",
+      "sous_section": "annonces",
+      "resume": "Apple a mis à jour l'iPad Air avec la puce M4 et une augmentation significative de la RAM (12 Go). Cette montée en puissance est spécifiquement justifiée par les besoins de calcul locaux pour les modèles de langage embarqués.",
+      "pourquoi_ca_compte": "L'industrie du matériel informatique est désormais entièrement dictée par l'IA : les cycles de renouvellement s'accélèrent pour supporter des algorithmes toujours plus gourmands.",
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/brief_article/lipad-air-passe-a-la-puce-m4-toujours-a-partir-de-669-euros/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/02/apple-speeds-up-the-ipad-air-with-an-m4-upgrade-starting-at-599/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/03/apple-keeps-the-ipad-air-fresh-with-m4-chip-upgrade-and-12gb-of-ram/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Condé Nast",
@@ -248,104 +268,113 @@
           }
         }
       ],
-      "lien": null
+      "lien": "https://next.ink/brief_article/lipad-air-passe-a-la-puce-m4-toujours-a-partir-de-669-euros/"
     },
     {
-      "titre": "Lego lance sa « Smart Brick » intégrant un ordinateur miniature",
-      "sous_section": "annonces",
-      "resume": "Lego a introduit une brique intelligente équipée d'un microphone, de la technologie NFC et d'un processeur miniature. Ce module permet de créer des expériences interactives avec de nouveaux sets Star Wars, transformant le jouet traditionnel en objet connecté complexe.",
-      "pourquoi_ca_compte": "L'entrée de l'informatique embarquée dans les jeux d'éveil pose la question de l'éducation numérique des plus jeunes.",
+      "titre": "350 experts alertent sur les dangers de la vérification d'âge en ligne",
+      "sous_section": "recherche",
+      "resume": "Dans une lettre ouverte, 371 chercheurs internationaux s'opposent à la généralisation des systèmes de vérification d'âge. Ils pointent les risques massifs pour la vie privée et la cybersécurité, arguant que ces bases de données d'identité deviendront des cibles prioritaires pour les hackers.",
+      "pourquoi_ca_compte": "Le débat oppose la protection des mineurs à la fin de l'anonymat en ligne, un pilier de la liberté d'expression dans de nombreuses démocraties.",
       "sources": [
         {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/gadgets/886014/lego-smart-brick-star-wars-set-price-availability-release-date-buy",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Paris spéculatifs sur la guerre : Polymarket explose ses records",
-      "sous_section": "societe",
-      "resume": "Plus de 500 millions de dollars ont été échangés sur la plateforme de paris décentralisée Polymarket concernant les frappes en Iran. Des comptes ont réalisé des profits millionnaires en pariant sur la date exacte des attaques, soulevant des questions éthiques sur la monétisation des conflits.",
-      "pourquoi_ca_compte": "L'émergence de marchés de prédiction basés sur la blockchain crée des incitations financières liées à des événements tragiques.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/01/polymarket-saw-529m-traded-on-bets-tied-to-bombing-of-iran/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/societe/verification-d-age-en-ligne-pourquoi-plus-de-350-experts-en-cybersecurite-sonnent-lalerte-20260302",
+          "type": "mainstream",
+          "groupe_media": null
         },
         {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/887210/kalshi-void-bets-khamenei-death",
-          "type": "etranger",
+          "nom": "Next",
+          "url": "https://next.ink/226930/des-chercheurs-alertent-sur-les-dangers-de-la-generalisation-de-la-verification-dage/",
+          "type": "investigation",
           "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
             "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
+            "orientation": "centre"
           }
         }
       ],
-      "lien": null
+      "lien": "https://next.ink/226930/des-chercheurs-alertent-sur-les-dangers-de-la-generalisation-de-la-verification-dage/"
+    },
+    {
+      "titre": "Qualcomm et Nvidia préparent une '6G native pour l'IA'",
+      "sous_section": "recherche",
+      "resume": "Au Mobile World Congress, les géants des puces ont présenté les prémices de la 6G. Contrairement aux générations précédentes, cette norme intégrerait l'IA au cœur de la gestion du spectre et du signal pour optimiser les communications en temps réel.",
+      "pourquoi_ca_compte": "La 6G pourrait rendre l'IA omniprésente et invisible, mais renforce la dépendance des infrastructures critiques envers quelques fournisseurs de technologies propriétaires.",
+      "sources": [
+        {
+          "nom": "The Register",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/02/qualcomm_nvidia_ai_native_6g/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://go.theregister.com/feed/www.theregister.com/2026/03/02/qualcomm_nvidia_ai_native_6g/"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "La collaboration entre les géants de l'IA et le secteur militaire",
-    "contexte": "Début mars 2026, OpenAI et Anthropic sont sous le feu des projecteurs suite à des accords ou des négociations tendues avec le Pentagone pour l'utilisation de leurs modèles de langage dans des contextes de défense.",
+    "sujet": "L'implication des entreprises d'IA dans le conflit avec l'Iran",
+    "contexte": "Suite aux frappes américaines en Iran, il a été révélé que les outils d'OpenAI et d'Anthropic ont été utilisés par le département de la Défense, malgré des politiques d'utilisation initialement restrictives.",
     "couvertures": [
+      {
+        "source": "Libération",
+        "type": "mainstream",
+        "angle": "Critique de la trahison des engagements éthiques d'Anthropic sous la pression de Trump.",
+        "ton": "critique",
+        "url": "https://www.liberation.fr/economie/economie-numerique/anthropic-ladministration-trump-a-utilise-lia-claude-pour-attaquer-liran-apres-avoir-dit-quelle-ne-sen-servirait-plus-20260303_XMJZI3NW7VC27OJXBFI7AR7BOI/",
+        "citation_cle": "L’administration Trump a utilisé l’IA Claude pour attaquer l’Iran, après avoir dit qu’elle ne s’en servirait plus.",
+        "groupe_media": {
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
+        }
+      },
+      {
+        "source": "BBC News",
+        "type": "etranger",
+        "angle": "Focus sur le changement de règles d'OpenAI pour encadrer légalement l'usage militaire.",
+        "ton": "factuel",
+        "url": "https://www.bbc.com/news/articles/c3rz1nd0egro?at_medium=RSS&at_campaign=rss",
+        "citation_cle": "OpenAI changes deal with US military after backlash.",
+        "groupe_media": {
+          "nom": "BBC",
+          "proprietaire": "État britannique",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
+      },
       {
         "source": "TechCrunch",
         "type": "etranger",
-        "angle": "Impact business et réputationnel des accords avec la Défense",
-        "ton": "critique",
-        "url": "https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/",
-        "citation_cle": "« By CEO Sam Altman’s own admission, OpenAI’s deal with the Department of Defense was “definitely rushed,” and “the optics don’t look good.” »",
+        "angle": "Analyse structurelle sur l'impréparation des startups d'IA à devenir des infrastructures de sécurité nationale.",
+        "ton": "neutre",
+        "url": "https://techcrunch.com/2026/03/02/openai-anthropic-department-of-defense-war-hegseth-ai-companies-work-with-us-government/",
+        "citation_cle": "No one has a good plan for how AI companies should work with the government.",
         "groupe_media": {
           "nom": "Yahoo (AOL / Oath)",
           "proprietaire": "Apollo Global Management",
           "type_proprietaire": "milliardaire",
           "orientation": "centre"
         }
-      },
-      {
-        "source": "Wired",
-        "type": "etranger",
-        "angle": "Conséquences de la militarisation sur la désinformation",
-        "ton": "alarmiste",
-        "url": "https://www.wired.com/story/x-is-drowning-in-disinformation-following-us-and-israels-attack-on-iran/",
-        "citation_cle": "« X Is Drowning in Disinformation Following US and Israeli Attack on Iran »",
-        "groupe_media": {
-          "nom": "Condé Nast",
-          "proprietaire": "Famille Newhouse (Advance Publications)",
-          "type_proprietaire": "famille",
-          "orientation": "centre"
-        }
       }
     ],
-    "analyse_coherence": "La couverture médiatique met en lumière une tension majeure entre les promesses initiales de 'sécurité' et 'd'éthique' des laboratoires d'IA et la réalité pragmatique des contrats gouvernementaux. TechCrunch souligne l'amateurisme apparent ou la précipitation d'OpenAI dans sa communication, tandis que Wired montre que l'infrastructure technologique actuelle (réseaux sociaux) échoue à contenir les effets de bord de ces tensions géopolitiques. On observe une cohérence sur le constat d'un 'flou artistique' entourant ces collaborations : les entreprises semblent dépassées par la rapidité avec laquelle leurs outils sont intégrés dans des enjeux de guerre réelle.",
+    "analyse_coherence": "La couverture médiatique révèle un consensus sur le fait que la neutralité des entreprises d'IA est terminée. Libération adopte un ton très critique, soulignant la contradiction entre les promesses de 'sécurité' d'Anthropic et son utilisation sur le champ de bataille. À l'inverse, les sources anglo-saxonnes comme la BBC ou TechCrunch traitent le sujet sous l'angle de la 'realpolitik' industrielle : les startups de la Silicon Valley sont désormais des acteurs de l'armement. On note un double standard : alors que l'espionnage des citoyens américains est présenté comme une ligne rouge franchie par OpenAI, l'utilisation de ces mêmes technologies pour des frappes létales à l'étranger est traitée comme une évolution inévitable du business model des Big Tech.",
     "biais_detectes": [
-      "Focalisation sur l'aspect 'optique' et communicationnel plutôt que sur les détails techniques des contrats militaires.",
-      "Opposition binaire entre 'éthique' et 'militaire' sans explorer les nuances de la défense cybernétique."
+      "Biais de souveraineté (priorité à la protection des citoyens US vs usage militaire externe)",
+      "Normalisation de la militarisation de la tech civile"
     ],
-    "ce_quil_faut_retenir": "L'IA sort définitivement du cadre de la productivité de bureau pour devenir un actif stratégique militaire, malgré les réticences éthiques affichées par ses créateurs à l'origine."
+    "ce_quil_faut_retenir": "Les garde-fous éthiques des entreprises d'IA ne résistent pas aux impératifs de défense nationale. Les citoyens doivent désormais considérer les outils d'IA générative non plus comme de simples services de productivité, mais comme des composants du complexe militaro-industriel."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 103,
-    "nb_topics_ia": 30,
+    "nb_articles_ia": 253,
+    "nb_topics_ia": 54,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }

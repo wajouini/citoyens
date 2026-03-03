@@ -8,6 +8,9 @@
  * - inferRubrique: semantic rubrique from topic title (fixes "generaliste" → proper rubrique)
  * - getTopicsForSection: returns important topics filtered by section, formatted as FilItems
  * - pickFilItems: returns relevant fil items with fallback to recents (homepage)
+ * - getDossiersForBriefing: finds dossiers legislatifs whose keywords match a briefing title
+ * - getSujetsForSection: returns radar sujets matching a section's rubriques
+ * - isRegardCroiseForSection: checks if a regard croisé belongs to a section
  */
 
 export function normalizeTitle(title: string): string {
@@ -281,6 +284,85 @@ export function getTopicsForSection(
     })
     .filter((item): item is FilItem => item !== null);
 }
+
+// ─── Section-aware regard croisé ────────────────────────────────────────────
+
+const POLITIQUE_RUBRIQUES = new Set(['politique', 'international', 'justice', 'elections', 'gouvernement', 'parlement', 'diplomatie', 'conflit']);
+const ECONOMIE_RUBRIQUES  = new Set(['economie', 'social', 'travail', 'industrie', 'macro', 'budget', 'entreprise', 'energie', 'ecologie', 'taxe']);
+const TECH_RUBRIQUES      = new Set(['tech', 'ia', 'science', 'numerique', 'cybersec', 'spatial', 'medecine']);
+
+/**
+ * Returns true if the regard croisé belongs to a given section.
+ */
+export function isRegardCroiseForSection(regard: { rubrique?: string }, section: 'politique' | 'economie' | 'tech'): boolean {
+  const rubrique = regard?.rubrique?.toLowerCase() ?? '';
+  if (section === 'politique') return POLITIQUE_RUBRIQUES.has(rubrique);
+  if (section === 'economie') return ECONOMIE_RUBRIQUES.has(rubrique);
+  if (section === 'tech')     return TECH_RUBRIQUES.has(rubrique);
+  return false;
+}
+
+// ─── Radar sujets for section ────────────────────────────────────────────────
+
+/**
+ * Returns sujets actifs from sujets-chauds.json that match a section's rubriques.
+ * Each sujet includes its TL;DR bullets for rich display.
+ */
+export function getSujetsForSection(
+  sujetsChauds: { sujets_actifs?: any[]; sujets_refroidis?: any[] },
+  section: 'politique' | 'economie' | 'tech',
+  limit = 3,
+): any[] {
+  const rubriquesSet = section === 'politique' ? POLITIQUE_RUBRIQUES
+    : section === 'economie' ? ECONOMIE_RUBRIQUES
+    : TECH_RUBRIQUES;
+
+  return (sujetsChauds.sujets_actifs ?? [])
+    .filter(s => rubriquesSet.has((s.rubrique ?? '').toLowerCase()))
+    .slice(0, limit);
+}
+
+// ─── Dossiers matching ───────────────────────────────────────────────────────
+
+/**
+ * Finds dossiers whose mots_cles overlap with words in the briefing title.
+ * Used to surface a "Dossier lié" badge on section page briefings.
+ *
+ * @param titre   - The briefing title to match against
+ * @param dossiers - Array of dossier entries from Astro's getCollection('dossiers')
+ * @returns Matching dossiers (slug + titre + icone)
+ */
+export function getDossiersForBriefing(
+  titre: string,
+  dossiers: Array<{ id: string; data: { titre: string; icone?: string; mots_cles?: string[] } }>,
+): Array<{ slug: string; titre: string; icone: string }> {
+  const titleWords = keywords(titre);
+  if (titleWords.size === 0) return [];
+
+  return dossiers
+    .filter(d => {
+      const motsCles: string[] = d.data.mots_cles ?? [];
+      if (motsCles.length === 0) return false;
+      // Check if any mot_clé has a keyword overlap with the briefing title
+      return motsCles.some(mc => {
+        const mcWords = keywords(mc);
+        for (const w of mcWords) {
+          if (titleWords.has(w)) return true;
+        }
+        // Also try the full mot_clé as a substring of the normalized title
+        const normalizedTitle = normalizeTitle(titre);
+        const normalizedMc = normalizeTitle(mc);
+        return normalizedTitle.includes(normalizedMc) || normalizedMc.includes(normalizedTitle.split(' ')[0] ?? '');
+      });
+    })
+    .map(d => ({
+      slug: d.id,
+      titre: d.data.titre,
+      icone: d.data.icone ?? '📁',
+    }));
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
 
 /**
  * Returns up to `limit` fil items for a section, ensuring source diversity.

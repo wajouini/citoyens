@@ -1,28 +1,54 @@
 ---
 import { getCollection } from 'astro:content';
-import { dedupBriefings, dedupArticles, getTopicsForSection } from '../../utils/section-data';
+import {
+  dedupBriefings,
+  dedupArticles,
+  getTopicsForSection,
+  getSujetsForSection,
+  getDossiersForBriefing,
+} from '../../utils/section-data';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
 import FilSidebar from '../../components/section/FilSidebar.astro';
 
+// ── Données pipeline ────────────────────────────────────────────────────────
+const uneRaw    = await import('../../data/une.json').then(m => m.default).catch(() => null);
+const iaData    = await import('../../data/ia.json').then(m => m.default).catch(() => null);
+const sujetsRaw = await import('../../data/sujets-chauds.json').then(m => m.default).catch(() => null);
+
+// ── Articles MDX ───────────────────────────────────────────────────────────
 const allArticles = await getCollection('articles');
 const rawArticles = allArticles
   .filter(a => a.data.rubrique === 'tech')
   .sort((a, b) => b.data.date.localeCompare(a.data.date));
 const articles = dedupArticles(rawArticles);
 
-const hero = articles.find(a => a.data.estUne) ?? articles[0];
-const rest = articles.filter(a => a.id !== hero?.id);
+// ── Dossiers (pour matching avec briefings) ─────────────────────────────────
+const allDossiers = await getCollection('dossiers').catch(() => []);
 
-const iaData = await import('../../data/ia.json').then(m => m.default).catch(() => null);
+// ── Sujet du jour — si c'est tech/IA ───────────────────────────────────────
+const tech_rubriques = ['tech', 'ia', 'science', 'numerique', 'cybersec', 'spatial', 'medecine'];
+const sujetDuJour = uneRaw?.sujet_du_jour?.rubrique
+  && tech_rubriques.includes(uneRaw.sujet_du_jour.rubrique)
+  ? uneRaw.sujet_du_jour
+  : null;
+
+// ── Regard croisé IA — depuis ia.json ──────────────────────────────────────
+const regardCroiseIA = iaData?.regard_croise_ia ?? null;
+
+// ── Faits IA briefing ───────────────────────────────────────────────────────
 const allFaitsIA: any[] = iaData?.faits_ia ?? [];
+const coveredTitles = [
+  ...articles.map(a => a.data.titre),
+  ...(sujetDuJour ? [sujetDuJour.titre] : []),
+];
+const faitsIA = dedupBriefings(allFaitsIA, coveredTitles).slice(0, 6);
 
-// Dédupliquer les faits IA déjà couverts par des articles MDX
-const coveredTitles = articles.map(a => a.data.titre);
-const faitsIA = dedupBriefings(allFaitsIA, coveredTitles);
+// ── Sujets radar (avec TL;DR) ──────────────────────────────────────────────
+const radarSujets = getSujetsForSection(sujetsRaw ?? {}, 'tech', 3);
 
-// ── Fil sidebar — topics importants tech/science ─────────────────────────────
+// ── Fil sidebar ─────────────────────────────────────────────────────────────
 const topicsData = await import('../../data/.pipeline/topics-tagged.json').then(m => m.default).catch(() =>
   import('../../data/.pipeline/topics.json').then(m => m.default).catch(() => null)
 );
@@ -31,13 +57,7 @@ const filItems = topicsData
   ? getTopicsForSection(topicsData, pipelineArticles, ['ia', 'spatial', 'medecine', 'robotique', 'automobile', 'transport', 'energie', 'electronique', 'cybersec', 'architecture', 'science'], 7)
   : [];
 
-const sousSection: Record<string, { label: string; color: string; bg: string }> = {
-  annonces:  { label: 'Annonces',   color: 'text-indigo-700', bg: 'bg-indigo-50' },
-  regulation:{ label: 'Régulation', color: 'text-rouge-doux', bg: 'bg-red-50' },
-  recherche: { label: 'Recherche',  color: 'text-vert',       bg: 'bg-green-50' },
-  business:  { label: 'Business',   color: 'text-orange',     bg: 'bg-orange/10' },
-  societe:   { label: 'Société',    color: 'text-purple-700', bg: 'bg-purple-50' },
-};
+const uneDate: string | undefined = uneRaw?.date as string | undefined;
 
 const formatDate = (d: string) =>
   new Date(d + 'T00:00:00').toLocaleDateString('fr-FR', {
@@ -48,6 +68,23 @@ const formatDateShort = (d: string) =>
   new Date(d + 'T00:00:00').toLocaleDateString('fr-FR', {
     day: 'numeric', month: 'short',
   });
+
+const sousSection: Record<string, { label: string; color: string; bg: string }> = {
+  annonces:   { label: 'Annonces',   color: 'text-indigo-700', bg: 'bg-indigo-50' },
+  regulation: { label: 'Régulation', color: 'text-rouge-doux', bg: 'bg-red-50' },
+  recherche:  { label: 'Recherche',  color: 'text-vert',       bg: 'bg-green-50' },
+  business:   { label: 'Business',   color: 'text-orange',     bg: 'bg-orange/10' },
+  societe:    { label: 'Société',    color: 'text-purple-700', bg: 'bg-purple-50' },
+};
+
+const tonColors: Record<string, string> = {
+  critique:   'text-rouge-doux bg-red-50',
+  alarmiste:  'text-rouge-doux bg-red-50',
+  complaisant:'text-orange bg-orange/10',
+  factuel:    'text-vert bg-green-50',
+  neutre:     'text-gris-clair bg-gris-chaud',
+  engage:     'text-bleu-rep bg-bleu-clair',
+};
 ---
 
 <BaseLayout
@@ -58,120 +95,259 @@ const formatDateShort = (d: string) =>
 
   <main class="max-w-[1280px] mx-auto px-4 md:px-6 py-8 md:py-12">
 
-    {/* Section header */}
     <div class="flex items-center gap-4 mb-10 pb-4 border-b-2 border-purple-600">
       <h1 class="font-display text-[32px] md:text-[40px] font-black text-noir tracking-tight">Tech & IA</h1>
       <span class="font-mono text-[11px] uppercase tracking-[2px] text-purple-700 bg-purple-50 px-2.5 py-1 rounded">
         Analyse & décryptage
       </span>
+      {uneDate && (
+        <time class="ml-auto font-mono text-[11px] text-gris-clair">{formatDate(uneDate)}</time>
+      )}
     </div>
 
     <div class="flex flex-col lg:flex-row gap-10 lg:gap-14">
 
-      {/* Main column */}
-      <div class="flex-1 min-w-0">
+      {/* ── Colonne principale ── */}
+      <div class="flex-1 min-w-0 space-y-14">
 
-        {/* Hero article */}
-        {hero && (
-          <a href={`/article/${hero.id}`} class="block group no-underline mb-12">
-            <div class="border-l-4 border-purple-600 pl-5">
-              <div class="flex items-center gap-2 mb-3">
-                <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-purple-700 bg-purple-50 px-2 py-0.5 rounded">
-                  À la une
-                </span>
-                <time class="font-mono text-[11px] text-gris-clair">{formatDate(hero.data.date)}</time>
+        {/* ── 1. AUJOURD'HUI ─────────────────────────────────────────────── */}
+        {(sujetDuJour || faitsIA.length > 0 || regardCroiseIA) && (
+          <section>
+            <div class="flex items-center gap-2 mb-8">
+              <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-purple-700">Aujourd'hui</span>
+              <div class="flex-1 h-px bg-purple-200"></div>
+            </div>
+
+            {/* Sujet du jour tech */}
+            {sujetDuJour && (
+              <div class="mb-8 p-6 rounded-2xl border-l-4 border-purple-600 bg-purple-50/50">
+                <div class="flex items-center gap-2 mb-3">
+                  <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-purple-700 bg-purple-100 px-2 py-0.5 rounded">Sujet du jour</span>
+                  {sujetDuJour.rubrique && (
+                    <span class="font-mono text-[10px] text-gris-clair uppercase tracking-wider">{sujetDuJour.rubrique}</span>
+                  )}
+                </div>
+                <h2 class="font-display text-[22px] md:text-[28px] font-black text-noir leading-tight mb-2">
+                  {sujetDuJour.titre}
+                </h2>
+                {sujetDuJour.pourquoi_important && (
+                  <p class="text-[14px] text-purple-700 font-semibold leading-snug mb-4 border-l-2 border-purple-400/50 pl-3">
+                    {sujetDuJour.pourquoi_important}
+                  </p>
+                )}
+                {sujetDuJour.faits?.length > 0 && (
+                  <ul class="space-y-1.5 mb-4">
+                    {sujetDuJour.faits.map((fait: string) => (
+                      <li class="flex items-start gap-2 text-[13px] text-gris-texte leading-snug">
+                        <span class="text-purple-600 mt-0.5 shrink-0">▸</span>
+                        <span>{fait}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {sujetDuJour.sources?.length > 0 && (
+                  <div class="flex flex-wrap gap-2">
+                    {sujetDuJour.sources.slice(0, 4).map((s: any) => (
+                      s.url && (
+                        <a href={s.url} target="_blank" rel="noopener noreferrer"
+                          class="inline-flex items-center gap-1 font-mono text-[10px] text-purple-700 bg-blanc border border-purple-200 px-2.5 py-1 rounded-full no-underline hover:border-purple-400 transition-colors">
+                          {s.nom} ↗
+                        </a>
+                      )
+                    ))}
+                  </div>
+                )}
               </div>
-              <h2 class="font-display text-[26px] md:text-[34px] font-black text-noir leading-[1.1] tracking-tight mb-3 group-hover:text-purple-700 transition-colors">
-                {hero.data.titre}
-              </h2>
-              <p class="text-[16px] text-gris-texte leading-relaxed mb-4 max-w-[640px]">
-                {hero.data.resume}
-              </p>
-              <span class="inline-flex items-center gap-1 font-mono text-[12px] text-purple-700 font-semibold group-hover:underline">
-                Lire l'article →
-              </span>
-            </div>
-          </a>
+            )}
+
+            {/* Faits IA briefing */}
+            {faitsIA.length > 0 && (
+              <div class="mb-8">
+                <div class="flex items-center gap-2 mb-4">
+                  <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded">Briefing IA</span>
+                  <div class="flex-1 h-px bg-indigo-100"></div>
+                </div>
+                <div class="space-y-3">
+                  {faitsIA.map((fait: any) => {
+                    const ss = sousSection[fait.sous_section] ?? sousSection.annonces;
+                    const dossierLie = getDossiersForBriefing(fait.titre ?? '', allDossiers)[0];
+                    return (
+                      <div class="p-4 rounded-xl border border-gris-chaud bg-blanc hover:border-purple-200 transition-colors">
+                        <div class="flex items-start justify-between gap-3 mb-2">
+                          <div class="flex items-center gap-2">
+                            <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${ss.bg} ${ss.color}`}>
+                              {ss.label}
+                            </span>
+                          </div>
+                          {dossierLie && (
+                            <a href={`/dossiers/${dossierLie.slug}`}
+                              class="shrink-0 inline-flex items-center gap-1 font-mono text-[9px] text-purple-700 bg-purple-50 px-2 py-0.5 rounded no-underline hover:underline whitespace-nowrap">
+                              {dossierLie.icone} Dossier
+                            </a>
+                          )}
+                        </div>
+                        <h3 class="font-display text-[16px] font-bold text-noir leading-snug mb-1">
+                          {fait.titre}
+                        </h3>
+                        <p class="text-[13px] text-gris-texte leading-relaxed mb-2">{fait.resume}</p>
+                        {fait.pourquoi_ca_compte && (
+                          <p class="text-[12px] text-purple-700 font-semibold leading-snug border-l-2 border-purple-300/50 pl-2 mb-2">
+                            {fait.pourquoi_ca_compte}
+                          </p>
+                        )}
+                        {fait.lien && (
+                          <a
+                            href={fait.lien}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="font-mono text-[11px] text-indigo-700 no-underline hover:underline"
+                          >
+                            Source ↗
+                          </a>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Regard croisé IA */}
+            {regardCroiseIA && (
+              <div class="p-5 rounded-2xl border border-orange/30 bg-orange/5">
+                <div class="flex items-center gap-2 mb-4">
+                  <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-orange bg-orange/10 px-2.5 py-1 rounded">Regard croisé IA</span>
+                  {regardCroiseIA.rubrique && (
+                    <span class="font-mono text-[10px] text-gris-clair uppercase tracking-wider">{regardCroiseIA.rubrique}</span>
+                  )}
+                </div>
+                <h3 class="font-display text-[18px] font-bold text-noir leading-snug mb-2">
+                  {regardCroiseIA.sujet ?? regardCroiseIA.titre}
+                </h3>
+                {regardCroiseIA.contexte && (
+                  <p class="text-[13px] text-gris-texte leading-relaxed mb-4">{regardCroiseIA.contexte}</p>
+                )}
+                {regardCroiseIA.couvertures?.length > 0 && (
+                  <div class="space-y-2 mb-4">
+                    {regardCroiseIA.couvertures.slice(0, 3).map((c: any) => (
+                      <div class="flex items-start gap-3 p-3 rounded-lg bg-blanc border border-gris-chaud">
+                        <div class="flex-1 min-w-0">
+                          <div class="flex items-center gap-2 mb-1">
+                            <span class="font-mono text-[11px] font-semibold text-noir">{c.source}</span>
+                            {c.ton && (
+                              <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded ${tonColors[c.ton] ?? 'text-gris-clair bg-gris-chaud'}`}>
+                                {c.ton}
+                              </span>
+                            )}
+                          </div>
+                          <p class="text-[12px] text-gris-texte leading-snug">{c.angle}</p>
+                        </div>
+                        {c.url && (
+                          <a href={c.url} target="_blank" rel="noopener noreferrer"
+                            class="shrink-0 font-mono text-[10px] text-purple-700 no-underline hover:underline">↗</a>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {regardCroiseIA.ce_quil_faut_retenir && (
+                  <p class="text-[13px] text-gris-texte leading-relaxed border-t border-orange/20 pt-3">
+                    <span class="font-semibold text-orange">Ce qu'il faut retenir — </span>
+                    {regardCroiseIA.ce_quil_faut_retenir}
+                  </p>
+                )}
+              </div>
+            )}
+          </section>
         )}
 
-        {/* Other articles */}
-        {rest.length > 0 && (
-          <div class="mb-12">
+        {/* ── 2. SUJETS SUIVIS (Radar) ─────────────────────────────────────── */}
+        {radarSujets.length > 0 && (
+          <section>
             <div class="flex items-center gap-2 mb-6">
-              <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair">Autres analyses</span>
+              <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair">Sujets suivis</span>
               <div class="flex-1 h-px bg-gris-chaud"></div>
+              <a href="/radar" class="font-mono text-[10px] text-purple-700 no-underline hover:underline shrink-0">Voir tous →</a>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {rest.map(a => (
-                <a href={`/article/${a.id}`} class="block group no-underline p-5 rounded-xl border border-gris-chaud bg-blanc hover:border-purple-300 hover:shadow-md transition-all">
-                  <time class="font-mono text-[10px] text-gris-clair block mb-2">{formatDateShort(a.data.date)}</time>
-                  <h3 class="font-display text-[18px] font-bold text-noir leading-snug mb-2 group-hover:text-purple-700 transition-colors">
-                    {a.data.titre}
-                  </h3>
-                  <p class="text-[13px] text-gris-texte leading-relaxed line-clamp-3">{a.data.resume}</p>
-                  <span class="inline-block mt-3 font-mono text-[11px] text-purple-700 font-semibold group-hover:underline">
-                    Lire →
-                  </span>
-                </a>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* IA Briefing section */}
-        {faitsIA.length > 0 && (
-          <div>
-            <div class="flex items-center gap-3 mb-6">
-              <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded">
-                Briefing IA du jour
-              </span>
-              <div class="flex-1 h-px bg-indigo-100"></div>
-            </div>
-            <div class="flex flex-col gap-4">
-              {faitsIA.map((fait: any) => {
-                const ss = sousSection[fait.sous_section] ?? sousSection.annonces;
-                return (
-                  <div class="p-4 rounded-xl border border-gris-chaud bg-blanc hover:border-indigo-200 transition-colors">
-                    <div class="flex items-center gap-2 mb-2">
-                      <span class={`font-mono text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${ss.bg} ${ss.color}`}>
-                        {ss.label}
-                      </span>
+            <div class="space-y-4">
+              {radarSujets.map((sujet: any) => (
+                <div class="p-4 rounded-xl border border-purple-200 bg-blanc hover:border-purple-400 transition-colors">
+                  <div class="flex items-start justify-between gap-3 mb-2">
+                    <div class="flex items-center gap-2">
+                      <span class="w-1.5 h-1.5 rounded-full bg-purple-600 animate-pulse shrink-0 mt-1.5"></span>
+                      <h3 class="font-display text-[15px] font-bold text-noir leading-snug">{sujet.titre}</h3>
                     </div>
-                    <h3 class="font-display text-[16px] font-bold text-noir leading-snug mb-1">
-                      {fait.titre}
-                    </h3>
-                    <p class="text-[13px] text-gris-texte leading-relaxed mb-2">{fait.resume}</p>
-                    {fait.pourquoi_ca_compte && (
-                      <p class="text-[12px] text-bleu-rep font-semibold leading-snug border-l-2 border-bleu-rep/30 pl-2 mb-2">
-                        {fait.pourquoi_ca_compte}
-                      </p>
-                    )}
-                    {fait.lien && (
-                      <a
-                        href={fait.lien}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="font-mono text-[11px] text-indigo-700 no-underline hover:underline"
-                      >
-                        Source principale ↗
+                    {sujet.slug && (
+                      <a href={`/radar/${sujet.slug}`}
+                        class="shrink-0 font-mono text-[10px] text-purple-700 no-underline hover:underline whitespace-nowrap">
+                        Décryptage →
                       </a>
                     )}
                   </div>
-                );
-              })}
+                  {sujet.tldr?.length > 0 && (
+                    <ul class="space-y-1 mt-2">
+                      {sujet.tldr.slice(0, 2).map((point: string) => (
+                        <li class="flex items-start gap-2 text-[12px] text-gris-texte leading-snug">
+                          <span class="text-purple-400 shrink-0">·</span>
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
             </div>
-          </div>
+          </section>
         )}
 
-        {articles.length === 0 && faitsIA.length === 0 && (
-          <div class="py-20 text-center text-gris-clair font-mono text-[13px]">
-            Aucun article tech disponible pour l'instant.
-          </div>
+        {/* ── 3. ANALYSES DE FOND ──────────────────────────────────────────── */}
+        {articles.length > 0 && (
+          <section>
+            <div class="flex items-center gap-2 mb-6">
+              <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-gris-clair">Analyses de fond</span>
+              <div class="flex-1 h-px bg-gris-chaud"></div>
+            </div>
+
+            {/* Hero */}
+            {articles[0] && (
+              <a href={`/article/${articles[0].id}`} class="block group no-underline mb-6">
+                <div class="border-l-4 border-purple-600 pl-5">
+                  <div class="flex items-center gap-2 mb-2">
+                    <span class="font-mono text-[10px] font-bold uppercase tracking-[2px] text-purple-700 bg-purple-50 px-2 py-0.5 rounded">Analyse</span>
+                    <time class="font-mono text-[11px] text-gris-clair">{formatDate(articles[0].data.date)}</time>
+                  </div>
+                  <h2 class="font-display text-[22px] md:text-[28px] font-black text-noir leading-tight mb-2 group-hover:text-purple-700 transition-colors">
+                    {articles[0].data.titre}
+                  </h2>
+                  <p class="text-[14px] text-gris-texte leading-relaxed mb-3 max-w-[600px]">{articles[0].data.resume}</p>
+                  <span class="inline-flex items-center gap-1 font-mono text-[12px] text-purple-700 font-semibold group-hover:underline">Lire l'analyse →</span>
+                </div>
+              </a>
+            )}
+
+            {articles.slice(1).length > 0 && (
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {articles.slice(1).map(a => (
+                  <a href={`/article/${a.id}`} class="block group no-underline p-4 rounded-xl border border-gris-chaud bg-blanc hover:border-purple-300 hover:shadow-sm transition-all">
+                    <time class="font-mono text-[10px] text-gris-clair block mb-1.5">{formatDateShort(a.data.date)}</time>
+                    <h3 class="font-display text-[16px] font-bold text-noir leading-snug mb-2 group-hover:text-purple-700 transition-colors">{a.data.titre}</h3>
+                    <p class="text-[12px] text-gris-texte leading-relaxed line-clamp-3">{a.data.resume}</p>
+                    <span class="inline-block mt-3 font-mono text-[11px] text-purple-700 font-semibold group-hover:underline">Lire →</span>
+                  </a>
+                ))}
+              </div>
+            )}
+          </section>
+        )}
+
+        {/* État vide */}
+        {!sujetDuJour && faitsIA.length === 0 && articles.length === 0 && (
+          <div class="py-20 text-center text-gris-clair font-mono text-[13px]">Contenu en cours de génération…</div>
         )}
 
       </div>
 
-      {/* Sidebar */}
+      {/* ── Sidebar ── */}
       <aside class="w-full lg:w-[300px] shrink-0 lg:sticky lg:top-24 self-start">
         <FilSidebar
           items={filItems}
@@ -179,6 +355,8 @@ const formatDateShort = (d: string) =>
           accentColor="text-purple-700"
           dotColor="bg-purple-600"
           headerBg="bg-purple-50"
+          rubriques={['ia', 'spatial', 'medecine', 'robotique', 'electronique', 'cybersec', 'architecture', 'science']}
+          sectionId="tech"
         />
       </aside>
     </div>

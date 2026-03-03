@@ -1637,23 +1637,28 @@ Règles :
     topics[i].id = `topic-${String(i + 1).padStart(3, '0')}`;
   }
 
-  // 7. t-SNE Projection for admin viz
+  // 7. t-SNE Projection for admin viz (non-critical, best-effort)
   console.log(`[cluster] Running t-SNE projection for 2D visualization...`);
-  const tsneStart = Date.now();
-  const tsneModel = new TSNE({
-    dim: 2,
-    perplexity: Math.min(30, Math.floor(n / 3)),
-    earlyExaggeration: 4.0,
-    learningRate: 100.0,
-    nIter: 500,
-    metric: 'euclidean'
-  });
+  let coords: number[][] = articles.map(() => [0, 0]);
+  try {
+    const tsneStart = Date.now();
+    const tsneModel = new TSNE({
+      dim: 2,
+      perplexity: Math.min(30, Math.floor(n / 3)),
+      earlyExaggeration: 4.0,
+      learningRate: 100.0,
+      nIter: 500,
+      metric: 'euclidean'
+    });
 
-  tsneModel.init({ data: embeddings, type: 'dense' });
-  tsneModel.run();
-  const coords = tsneModel.getOutputScaled();
-  const tsneTime = ((Date.now() - tsneStart) / 1000).toFixed(1);
-  console.log(`✓ t-SNE projection done in ${tsneTime}s`);
+    tsneModel.init({ data: embeddings, type: 'dense' });
+    tsneModel.run();
+    coords = tsneModel.getOutputScaled();
+    const tsneTime = ((Date.now() - tsneStart) / 1000).toFixed(1);
+    console.log(`✓ t-SNE projection done in ${tsneTime}s`);
+  } catch (tsneErr) {
+    console.warn(`⚠ t-SNE skipped (viz only): ${(tsneErr as Error).message}`);
+  }
 
   // Map article to topic for viz
   const articleToTopic = new Map<string, { id: string; titre: string; coherence: number }>();

@@ -14,11 +14,20 @@ import { execSync } from 'node:child_process';
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 
 const shouldDeploy = process.argv.includes('--deploy');
+const mergeSujets = process.argv.includes('--merge-sujets');
+function parseBackfill(): number | undefined {
+  const idx = process.argv.indexOf('--backfill');
+  if (idx === -1 || !process.argv[idx + 1]) return undefined;
+  const n = parseInt(process.argv[idx + 1], 10);
+  return Number.isNaN(n) || n < 1 ? undefined : Math.min(n, 30);
+}
+const backfillDays = parseBackfill();
 
 interface Step {
   name: string;
   command: string;
   critical: boolean;
+  timeout_ms?: number;
 }
 
 interface StepResult {
@@ -52,57 +61,77 @@ interface RunLog {
 const steps: Step[] = [
   {
     name: 'Récupération des flux RSS',
-    command: 'npx tsx scripts/fetch-news.ts',
+    command: backfillDays
+      ? `npx tsx --env-file=.env scripts/fetch-news.ts --days ${backfillDays}`
+      : 'npx tsx --env-file=.env scripts/fetch-news.ts',
     critical: true,
   },
   {
     name: 'Récupération des signaux (HN, Reddit, Wikipedia)',
-    command: 'npx tsx scripts/fetch-signals.ts',
+    command: 'npx tsx --env-file=.env scripts/fetch-signals.ts',
     critical: false,
   },
   {
     name: 'Récupération des scrutins AN',
-    command: 'npx tsx scripts/fetch-votes.ts',
+    command: 'npx tsx --env-file=.env scripts/fetch-votes.ts',
     critical: false,
   },
   {
     name: 'Clustering thématique des articles',
-    command: 'npx tsx scripts/cluster-topics.ts',
+    command: 'npx tsx --env-file=.env scripts/cluster-topics.ts',
     critical: true,
+    timeout_ms: 600000, // t-SNE peut prendre ~45s, LLM batches ~3min total
   },
   {
     name: 'Classification LLM des topics (Gemini)',
-    command: 'npx tsx scripts/classify-topics.ts',
+    command: 'npx tsx --env-file=.env scripts/classify-topics.ts',
+    critical: false,
+  },
+  {
+    name: 'Enrichissement full-text des articles',
+    command: 'npx tsx --env-file=.env scripts/enrich-articles.ts',
+    critical: false,
+  },
+  {
+    name: 'Contexte continu inter-runs',
+    command: 'npx tsx --env-file=.env scripts/build-context.ts',
     critical: false,
   },
   {
     name: 'Génération de la Une',
-    command: 'npx tsx scripts/generate-une.ts',
+    command: 'npx tsx --env-file=.env scripts/generate-une.ts',
     critical: true,
   },
   {
     name: 'Génération section IA/Tech',
-    command: 'npx tsx scripts/generate-ia.ts',
+    command: 'npx tsx --env-file=.env scripts/generate-ia.ts',
     critical: false,
   },
   {
     name: 'Génération fil continu',
-    command: 'npx tsx scripts/generate-fil.ts',
+    command: 'npx tsx --env-file=.env scripts/generate-fil.ts',
     critical: false,
   },
   {
     name: 'Génération sujets chauds',
-    command: 'npx tsx scripts/generate-sujets-chauds.ts',
+    command: mergeSujets
+      ? 'npx tsx --env-file=.env scripts/generate-sujets-chauds.ts --merge'
+      : 'npx tsx --env-file=.env scripts/generate-sujets-chauds.ts',
+    critical: false,
+  },
+  {
+    name: 'Génération d\'articles éditoriaux (MDX)',
+    command: 'npx tsx --env-file=.env scripts/generate-articles.ts --limit 3',
     critical: false,
   },
   {
     name: 'Contrôle qualité des données',
-    command: 'npx tsx scripts/sanity-check.ts',
+    command: 'npx tsx --env-file=.env scripts/sanity-check.ts',
     critical: false,
   },
   {
     name: 'Vérification des citations inline',
-    command: 'npx tsx scripts/verify-citations.ts',
+    command: 'npx tsx --env-file=.env scripts/verify-citations.ts',
     critical: false,
   },
   {
@@ -112,12 +141,12 @@ const steps: Step[] = [
   },
   {
     name: 'Envoi newsletter',
-    command: 'npx tsx scripts/send-newsletter.ts',
+    command: 'npx tsx --env-file=.env scripts/send-newsletter.ts',
     critical: false,
   },
   {
     name: 'Alertes députés',
-    command: 'npx tsx scripts/send-deputy-alerts.ts',
+    command: 'npx tsx --env-file=.env scripts/send-deputy-alerts.ts',
     critical: false,
   },
 ];
@@ -202,7 +231,7 @@ async function main() {
         stdio: 'inherit',
         cwd: process.cwd(),
         env: { ...process.env },
-        timeout: 180000,
+        timeout: step.timeout_ms ?? 180000,
       });
       const duration = (Date.now() - stepStart) / 1000;
       stepResults.push({ name: step.name, status: 'success', duration_s: +duration.toFixed(1) });
@@ -234,7 +263,7 @@ async function main() {
     console.log(`${'─'.repeat(40)}`);
 
     try {
-      execSync('git add src/data/une.json src/data/votes.json', { stdio: 'inherit' });
+      execSync('git add src/data/une.json src/data/votes.json src/data/ia.json src/data/sujets-chauds.json src/content/articles/', { stdio: 'inherit' });
       execSync(
         `git commit -m "daily: edition du ${today}" --author="Citoyens.ai Pipeline <pipeline@citoyens.ai>"`,
         { stdio: 'inherit' }

@@ -7,6 +7,7 @@ import TLDR from '../../components/ui/TLDR.astro';
 import { formatDateShort } from '../../utils/format';
 import { getPartiColor } from '../../utils/colors';
 import { getArticlesLies } from '../../utils/dossier-articles';
+import { normalizeTitle } from '../../utils/section-data';
 
 export async function getStaticPaths() {
   const dossiers = await getCollection('dossiers');
@@ -19,6 +20,29 @@ export async function getStaticPaths() {
 const { dossier } = Astro.props;
 
 const articlesLies = await getArticlesLies(dossier.data.mots_cles || [], 6);
+
+// ── Sujets chauds liés à ce dossier ─────────────────────────────────────────
+const sujetsChaudsRaw = await import('../../data/sujets-chauds.json').then(m => m.default).catch(() => null);
+
+function motsClesOverlap(motsCles: string[], sujetTitre: string): boolean {
+  const normSujet = normalizeTitle(sujetTitre);
+  return (motsCles || []).some(mc => {
+    const normMc = normalizeTitle(mc);
+    // mot-clé appears in sujet title OR sujet title contains part of mot-clé (≥5 chars)
+    if (normSujet.includes(normMc)) return true;
+    if (normMc.length >= 5 && normMc.includes(normSujet.split(' ')[0] ?? '')) return false;
+    // Word-level overlap: at least one word ≥4 chars from mot-clé found in sujet title
+    const mcWords = normMc.split(' ').filter(w => w.length >= 4);
+    return mcWords.some(w => normSujet.includes(w));
+  });
+}
+
+const sujetsLies: any[] = sujetsChaudsRaw
+  ? ([
+      ...(sujetsChaudsRaw.sujets_actifs ?? []),
+      ...(sujetsChaudsRaw.sujets_refroidis ?? []).slice(0, 3),
+    ] as any[]).filter(s => motsClesOverlap(dossier.data.mots_cles || [], s.titre ?? ''))
+  : [];
 
 const statutLabels: Record<string, string> = {
   en_cours: 'En cours',
@@ -122,6 +146,69 @@ const passedCount = chronologie.filter((c: { statut: string }) => c.statut === '
         <!-- TLDR -->
         {dossier.data.tldr && dossier.data.tldr.length > 0 && (
           <TLDR points={dossier.data.tldr} readingTime="45 sec" />
+        )}
+
+        <!-- Sujets chauds liés -->
+        {sujetsLies.length > 0 && (
+          <div class="bg-blanc border border-orange/30 rounded-xl overflow-hidden">
+            <div class="px-5 py-3.5 bg-orange/5 border-b border-orange/20 flex items-center gap-3">
+              <span class="relative flex h-2 w-2">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rouge-doux opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2 w-2 bg-rouge-doux"></span>
+              </span>
+              <h2 class="font-mono text-[11px] uppercase tracking-[1.5px] text-orange font-bold flex-1">Actualité liée en direct</h2>
+              <span class="font-mono text-[10px] text-gris-clair">Suivi radar automatique</span>
+            </div>
+            <div class="divide-y divide-gris-chaud/50">
+              {sujetsLies.map((sujet: any) => (
+                <div class="p-5">
+                  <div class="flex items-start justify-between gap-3 mb-3">
+                    <div>
+                      <div class="flex items-center gap-2 mb-1">
+                        {sujet.rubrique && (
+                          <span class="font-mono text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-orange/10 text-orange">
+                            {sujet.rubrique}
+                          </span>
+                        )}
+                        {(sujetsChaudsRaw?.sujets_actifs ?? []).includes(sujet) && (
+                          <span class="font-mono text-[9px] text-vert bg-green-50 px-1.5 py-0.5 rounded font-bold uppercase tracking-wider">
+                            Actif
+                          </span>
+                        )}
+                      </div>
+                      <h3 class="font-display text-[15px] font-bold text-noir leading-snug">{sujet.titre}</h3>
+                    </div>
+                    {sujet.slug && (
+                      <a href={`/radar/${sujet.slug}`}
+                        class="shrink-0 font-mono text-[10px] text-bleu-rep no-underline hover:underline whitespace-nowrap">
+                        Radar →
+                      </a>
+                    )}
+                  </div>
+                  {sujet.tldr?.length > 0 && (
+                    <ul class="space-y-1 mb-3">
+                      {sujet.tldr.slice(0, 2).map((point: string) => (
+                        <li class="flex items-start gap-2 text-[12px] text-gris-texte leading-snug">
+                          <span class="text-orange/60 shrink-0">▸</span>
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  {sujet.chronologie?.length > 0 && (
+                    <div class="mt-2 border-l-2 border-orange/20 pl-3 space-y-1.5">
+                      {sujet.chronologie.slice(-2).map((c: any) => (
+                        <div>
+                          <span class="font-mono text-[9px] text-gris-clair">{c.date} — </span>
+                          <span class="text-[12px] text-gris-texte">{c.evenement}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
         )}
 
         <!-- Contexte -->

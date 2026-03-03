@@ -232,15 +232,27 @@ ${body.trim()}
 
 // ─── Main ────────────────────────────────────────────────────────────────────
 
+function parseLimit(): number {
+  const idx = process.argv.indexOf('--limit');
+  if (idx !== -1 && process.argv[idx + 1]) {
+    const n = parseInt(process.argv[idx + 1], 10);
+    if (!Number.isNaN(n) && n > 0) return n;
+  }
+  return Infinity;
+}
+
 async function main() {
   const config = resolveConfig();
-  console.log(`\n📰 generate-articles — provider: ${config.provider} / ${config.model}`);
+  const maxArticles = parseLimit();
+  console.log(`\n📰 generate-articles — provider: ${config.provider} / ${config.model}${isFinite(maxArticles) ? ` (limite: ${maxArticles})` : ''}`);
 
   const existingSlugs = getExistingSlugs();
   const inputs = collectInputs();
   const today = new Date().toISOString().slice(0, 10);
 
-  const toGenerate = inputs.filter(i => !existingSlugs.has(i.slug));
+  const toGenerate = inputs
+    .filter(i => !existingSlugs.has(i.slug))
+    .slice(0, maxArticles);
 
   console.log(`\nArticles existants : ${existingSlugs.size}`);
   console.log(`Nouveaux à générer : ${toGenerate.length} (sur ${inputs.length} inputs)\n`);

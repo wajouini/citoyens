@@ -1,107 +1,94 @@
 {
-  "date": "2026-03-01",
-  "genere_a": "2026-03-01T21:09:31.090Z",
+  "date": "2026-03-03",
+  "genere_a": "2026-03-03T13:43:38.348Z",
   "sujets_actifs": [
     {
-      "titre": "Mort d'Ali Khamenei et escalade militaire entre l'Iran, Israël et les États-Unis",
-      "slug": "mort-khamenei-escalade-iran-israel-usa",
+      "titre": "Offensive américano-israélienne en Iran et embrasement du Golfe",
+      "slug": "guerre-iran-offensive-usa-israel-golfe",
       "rubrique": "international",
       "tldr": [
-        "Ali Khamenei tué par des frappes israélo-américaines le 28 février.",
-        "Riposte massive de l'Iran par missiles sur Israël et les bases US du Golfe.",
-        "Donald Trump annonce une opération militaire de « quatre semaines ou moins »."
+        "Frappes massives sur Téhéran et Beyrouth au 4e jour de l'offensive.",
+        "L'Iran riposte par des drones sur l'ambassade US à Riyad et bloque le détroit d'Ormuz.",
+        "Bilan provisoire de 555 à 700 civils tués selon les sources humanitaires."
       ],
-      "resume": "L'assassinat du Guide suprême Ali Khamenei, au pouvoir depuis 1989, a déclenché un conflit ouvert au Moyen-Orient. Téhéran a riposté par des tirs de missiles balistiques touchant plusieurs villes israéliennes, dont Beit Shemesh (9 morts), et des bases américaines au Koweït et en Irak. Donald Trump, assumant l'offensive, parie sur un effondrement rapide du régime en quatre semaines, tandis que l'Iran organise sa succession et ferme le détroit d'Ormuz. Les alliés européens et arabes oscillent entre appels à la retenue et préparation d'évacuations massives face au risque de guerre régionale totale.",
-      "contexte_historique": "Ali Khamenei succéda à l'Ayatollah Khomeini en 1989, consolidant un régime théocratique malgré des vagues de contestations internes (2009, 2022). L'usage de la force directe par les États-Unis pour éliminer un chef d'État en exercice rappelle l'invasion de l'Irak en 2003, bien que le cadre juridique de l'« imminence de la menace » soit ici contesté par les démocrates au Congrès (NYT World).",
+      "resume": "L'offensive déclenchée par les États-Unis et Israël contre l'Iran entre dans une phase critique avec des bombardements simultanés sur Téhéran et les bastions du Hezbollah au Liban. Donald Trump affirme qu'il est « trop tard » pour négocier, tandis que l'armée israélienne revendique l'élimination d'un haut commandant iranien dans la capitale. En représailles, l'Iran a frappé l'ambassade américaine à Riyad avec des drones et interdit toute exportation alimentaire pour sécuriser ses stocks. Le conflit provoque un chaos logistique mondial : le détroit d'Ormuz est fermé, bloquant des milliers de croisiéristes, et les principaux hubs aériens (Dubaï,  sont paralysés (France 24, Le Monde, .",
+      "contexte_historique": "Cette escalade fait suite à la mort du Guide suprême Ali Khamenei le 1er mars 2026, ouvrant une période d'instabilité interne. Elle marque la fin de la politique de 'pression maximale' pour une confrontation militaire directe, rappelant l'invasion de l'Irak en 2003 mais avec une complexité régionale accrue due aux capacités de missiles balistiques de Téhéran (Le Monde, Al Jazeera).",
       "implications": [
-        "Paralysie du commerce mondial d'hydrocarbures suite au blocage du détroit d'Ormuz.",
-        "Risque de radicalisation profonde de la population iranienne contre l'intervention étrangère."
+        "Risque de famine en Somalie et déstabilisation énergétique en Europe suite à la flambée des prix du gaz et du pétrole.",
+        "Menace de flux de réfugiés d'une ampleur sans précédent vers l'UE (90 millions d'habitants en Iran)."
       ],
       "chronologie": [
         {
-          "date": "2026-03-01",
-          "texte": "Donald Trump fixe un horizon de 4 semaines pour l'opération militaire.",
-          "source": "BFM TV"
+          "date": "2026-03-03",
+          "texte": "L'armée israélienne annonce la création d'une « zone tampon » au Sud-Liban.",
+          "source": "Le Monde"
         },
         {
-          "date": "2026-03-01",
-          "texte": "Neuf morts signalés en Israël après des tirs de missiles iraniens sur Beit Shemesh.",
+          "date": "2026-03-03",
+          "texte": "Deux drones frappent l'ambassade des États-Unis à Riyad.",
           "source": "NYT World"
         },
         {
-          "date": "2026-03-01",
-          "texte": "L'Iran confirme le blocage de facto du détroit d'Ormuz.",
-          "source": "RFI"
+          "date": "2026-03-02",
+          "texte": "Israël lance des opérations au sol contre le Hezbollah au Liban.",
+          "source": "NYT World"
         },
         {
           "date": "2026-02-28",
-          "texte": "Mort d'Ali Khamenei confirmée suite à des frappes sur son complexe à Téhéran.",
-          "source": "Franceinfo"
+          "texte": "Début des frappes aériennes massives US-Israël sur les sites nucléaires et militaires iraniens.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
+          "source": "L'Humanité",
+          "type": "mainstream",
+          "angle": "Dénonciation d'une 'guerre illégale' et d'une 'entreprise impérialiste' soutenue par la France via des Rafale aux EAU.",
+          "ton": "critique",
+          "url": "https://www.humanite.fr/-/-/liran-interdit-les-exportations-de-nourriture",
+          "citation_cle": "La France trahit une fois de plus les principes qu'elle a si souvent portés.",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        },
+        {
           "source": "NYT World",
           "type": "etranger",
-          "angle": "Analyse de la légalité de l'attaque sans approbation du Congrès.",
-          "ton": "neutre",
-          "url": "https://www.nytimes.com/2026/03/01/world/middleeast/democrats-question-trumps-urgency-to-attack-iran.html",
-          "citation_cle": "Les législateurs se demandent si les États-Unis faisaient face à une menace imminente.",
+          "angle": "Focus sur l'impact humanitaire à Téhéran et la paralysie des marchés financiers mondiaux.",
+          "ton": "factuel",
+          "url": "https://www.nytimes.com/live/2026/03/03/world/iran-war-israel-lebanon-trump",
+          "citation_cle": "Stocks and bonds slumped as investors retrenched from the uncertain effects.",
           "groupe_media": {
             "nom": "The New York Times Company",
             "proprietaire": "Famille Ochs-Sulzberger",
             "type_proprietaire": "famille",
             "orientation": "centre"
           }
-        },
-        {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Focus sur la résilience du régime et la succession rapide de Khamenei.",
-          "ton": "factuel",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/iranian-drone-strikes-us-military-facility-in-kuwait?traffic_source=rss",
-          "citation_cle": "Le processus constitutionnel est en cours alors que Téhéran pleure Khamenei.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "source": "Libération",
-          "type": "mainstream",
-          "angle": "Reportage sur les manifestations de joie des opposants iraniens à Paris.",
-          "ton": "engage",
-          "url": "https://www.liberation.fr/societe/on-se-rejouit-toujours-de-la-mort-dun-dictateur-a-paris-des-milliers-de-manifestants-contre-la-republique-islamique-diran-20260301_NWUM3VX7S5CCXO2MSRDUNW2MYA/",
-          "citation_cle": "On se réjouit toujours de la mort d’un dictateur.",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'identité exacte du successeur de Khamenei parmi les hauts dignitaires.",
-        "L'ampleur réelle des dommages subis par les capacités nucléaires iraniennes."
+        "L'étendue réelle des dégâts sur les capacités nucléaires iraniennes.",
+        "La position finale de la Chine et de la Russie face à cette intervention directe.",
+        "L'existence ou non d'une opposition interne organisée prête à prendre le pouvoir à Téhéran."
       ],
       "sources": [
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/frappes-sur-l-iran-donald-trump-dit-prevoir-une-operation-de-quatre-semaines-ou-moins_AD-202603010368.html",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/live/2026/03/03/en-direct-iran-explosions-puissantes-entendues-a-teheran-l-armee-israelienne-annonce-qu-elle-cree-une-zone-tampon-au-liban_6668663_3210.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         },
         {
           "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/03/01/world/middleeast/9-killed-beit-shemesh-iranian-missiles.html",
+          "url": "https://www.nytimes.com/live/2026/03/03/world/iran-war-israel-lebanon-trump",
           "type": "etranger",
           "groupe_media": {
             "nom": "The New York Times Company",
@@ -111,8 +98,19 @@
           }
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/%C3%A9conomie/20260301-avec-le-blocage-du-d%C3%A9troit-d-ormuz-les-march%C3%A9s-redoutent-une-flamb%C3%A9e-du-prix-du-p%C3%A9trole",
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/-/-/liran-interdit-les-exportations-de-nourriture",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260303-le-conflit-au-moyen-orient-chamboule-le-trafic-a%C3%A9rien-d%C3%A9tours-vols-annul%C3%A9s-a%C3%A9roports-vis%C3%A9s",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -122,168 +120,212 @@
           }
         },
         {
-          "nom": "Franceinfo",
-          "url": "https://www.franceinfo.fr/monde/iran/mort-d-ali-khamenei-au-c-ur-des-24-heures-qui-ont-fait-basculer-l-iran_7839041.html",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/iranian-drone-strikes-us-military-facility-in-kuwait?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/societe/on-se-rejouit-toujours-de-la-mort-dun-dictateur-a-paris-des-milliers-de-manifestants-contre-la-republique-islamique-diran-20260301_NWUM3VX7S5CCXO2MSRDUNW2MYA/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260303-guerre-au-moyen-orient-le-pari-politique-risqu%C3%A9-de-donald-trump",
+          "type": "mainstream"
         }
       ],
       "premiere_apparition": "2026-02-28"
     },
     {
-      "titre": "Accusations d'antisémitisme contre Jean-Luc Mélenchon après ses propos sur Epstein et Glucksmann",
-      "slug": "melenchon-polemique-epstein-glucksmann",
-      "rubrique": "politique",
+      "titre": "Assassinat de Samuel Paty : verdict définitif en appel",
+      "slug": "proces-samuel-paty-appel-verdict",
+      "rubrique": "societe",
       "tldr": [
-        "Mélenchon accusé d'antisémitisme pour sa prononciation du nom « Epstein ».",
-        "Plaisanterie sur le nom de Raphaël Glucksmann comparée aux dérapages de J-M Le Pen.",
-        "Le leader insoumis nie tout antisémitisme lors d'un meeting à Perpignan."
+        "15 ans de réclusion confirmés pour Abdelhakim Sefrioui.",
+        "Peines allégées pour trois autres accusés (6 à 15 ans).",
+        "Sefrioui annonce un pourvoi en cassation."
       ],
-      "resume": "Jean-Luc Mélenchon est au cœur d'une vive polémique après des déclarations lors d'un meeting à Lyon, où il a insisté sur la prononciation du nom de Jeffrey Epstein avant d'ironiser sur celui de l'eurodéputé Raphaël Glucksmann. Ses détracteurs, dont Aurore Bergé et Carole Delga, y voient des « sifflets à ultrasons » antisémites. En déplacement à Perpignan ce dimanche, le leader de LFI s'est défendu en affirmant qu'Epstein « n'avait aucune religion » et a dénoncé une manœuvre politique visant à l'isoler avant les municipales.",
-      "contexte_historique": "La thématique de l'antisémitisme empoisonne les relations au sein de la gauche française depuis les attaques du 7 octobre 2023, provoquant l'implosion de la Nupes. Le parallèle fait par certains commentateurs avec les jeux de mots de Jean-Marie Le Pen (ex: « Durafour-crématoire » en 1988) marque une étape supplémentaire dans la fracture politique (Sud-Ouest).",
+      "resume": "La cour d'assises spéciale de Paris a rendu son délibéré en appel concernant l'assassinat de Samuel Paty. Si la culpabilité des quatre accusés est confirmée pour leur rôle dans l'engrenage numérique et idéologique ayant mené au crime, trois d'entre eux bénéficient d'une réduction de peine par rapport au premier ressort. Seul le prédicateur Abdelhakim Sefrioui voit sa condamnation à 15 ans maintenue, la cour estimant son rôle de provocateur central dans la désignation de la cible (L'Humanité, France 24).",
+      "contexte_historique": "Samuel Paty a été assassiné le 16 octobre 2020. Ce procès en appel est une étape majeure pour définir la responsabilité pénale des complices indirects et des instigateurs de campagnes de haine en ligne en droit français (Loi Avia, jurisprudence sur la complicité par instigation).",
       "implications": [
-        "Affaiblissement des chances d'alliances locales entre le PS et LFI pour les municipales.",
-        "Polarisation accrue du débat public autour de la figure de Mélenchon."
+        "Clarification juridique sur la responsabilité des acteurs numériques dans les crimes terroristes.",
+        "Persistance de la menace sécuritaire liée à la 'complosphère' islamiste."
       ],
       "chronologie": [
         {
-          "date": "2026-03-01",
-          "texte": "Mélenchon se défend à Perpignan : « Je ne suis pas antisémite ».",
-          "source": "Franceinfo"
+          "date": "2026-03-03",
+          "texte": "Rendu du verdict en appel à Paris.",
+          "source": "France 24 FR"
         },
         {
-          "date": "2026-03-01",
-          "texte": "Carole Delga (PS) estime qu'une alliance avec LFI serait un « déshonneur ».",
-          "source": "Reddit r/france"
+          "date": "2026-01-26",
+          "texte": "Ouverture du procès en appel.",
+          "source": "L'Humanité"
         },
         {
-          "date": "2026-02-26",
-          "texte": "Début de la polémique suite au meeting de Lyon sur l'affaire Epstein.",
-          "source": "20 Minutes"
+          "date": "2020-10-16",
+          "texte": "Assassinat de Samuel Paty à Conflans-Sainte-Honorine.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
-          "source": "Sud-Ouest",
+          "source": "France 24 FR",
           "type": "mainstream",
-          "angle": "Comparaison frontale entre les méthodes de Mélenchon et celles du fondateur du RN.",
-          "ton": "critique",
-          "url": "https://www.sudouest.fr/politique/jean-luc-melenchon/ok-jean-marie-le-pen-jean-luc-melenchon-compare-au-fondateur-du-rn-apres-une-plaisanterie-sur-le-nom-de-raphael-glucksmann-28099703.php",
-          "citation_cle": "« OK Jean-Marie Le Pen » : Jean-Luc Mélenchon comparé au fondateur du RN.",
-          "groupe_media": null
-        },
-        {
-          "source": "Libération",
-          "type": "mainstream",
-          "angle": "Après les bombardements en Iran, des soldats américains tués et de nouvelles frappes contre Israël et les pays du Golfe",
+          "angle": "Focus sur l'engrenage fatal et la confirmation de la responsabilité des accusés.",
           "ton": "factuel",
-          "url": "https://www.liberation.fr/international/moyen-orient/apres-les-bombardements-en-iran-des-soldats-americains-tues-et-de-nouvelles-frappes-contre-israel-et-les-pays-du-golfe-20260301_HMRIUAZOJNH2PBMX4S3SVFCKAY/",
-          "citation_cle": "Alors que les frappes israéliennes et américaines se sont enchaînées tout le week-end et que Téhéran a lancé sa contre-a",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260303-proc%C3%A8s-en-appel-de-l-assassinat-de-samuel-paty-six-%C3%A0-quinze-ans-de-prisons-pour-deux-accus%C3%A9s",
+          "citation_cle": "Des peines de six ans à quinze années pour leur rôle dans l'engrenage.",
           "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
-          "source": "20 Minutes",
+          "source": "L'Humanité",
           "type": "mainstream",
-          "angle": "« Pas antisémite » Jean-Luc Mélenchon estime qu’Epstein « n’avait aucune religion » et « bute » sur le nom de Glucksmann",
-          "ton": "factuel",
-          "url": "https://www.20minutes.fr/politique/4203943-20260301-jean-luc-melenchon-jeffrey-epstein-aucune-religion-defend-etre-antisemite?at_medium=display&at_campaign=149",
-          "citation_cle": "« Epstein » ou « Epstine », Jean-Luc Mélenchon n’a pas tranché. Il est revenu sur la polémique née jeudi à Lyon lors d’u",
-          "groupe_media": null
+          "angle": "Analyse des nuances de peines et de la réaction de défense de Sefrioui.",
+          "ton": "neutre",
+          "url": "https://www.humanite.fr/societe/samuel-paty/au-proces-en-appel-de-lassassinat-de-samuel-paty-des-peines-allegees-sauf-pour-le-predicateur-salafiste-abdelhakim-sefrioui",
+          "citation_cle": "Un seul, Abdelhakim Sefrioui, a annoncé se pourvoir en cassation.",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'impact réel de cette polémique sur les intentions de vote pour les candidats LFI.",
-        "La position officielle des autres cadres de LFI sur la plaisanterie visant Glucksmann."
+        "L'issue du pourvoi en cassation d'Abdelhakim Sefrioui.",
+        "L'impact à long terme de ce verdict sur la modération des contenus haineux par les plateformes."
       ],
       "sources": [
         {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/politique/jean-luc-melenchon/ok-jean-marie-le-pen-jean-luc-melenchon-compare-au-fondateur-du-rn-apres-une-plaisanterie-sur-le-nom-de-raphael-glucksmann-28099703.php",
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260303-proc%C3%A8s-en-appel-de-l-assassinat-de-samuel-paty-six-%C3%A0-quinze-ans-de-prisons-pour-deux-accus%C3%A9s",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         },
         {
-          "nom": "Franceinfo",
-          "url": "https://www.franceinfo.fr/politique/melenchon/jean-luc-melenchon-se-defend-d-etre-antisemite-apres-la-polemique-sur-sa-prononciation-du-nom-epstein-et-affirme-que-cet-homme-la-n-avait-aucune-religion_7839044.html",
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/societe/samuel-paty/au-proces-en-appel-de-lassassinat-de-samuel-paty-des-peines-allegees-sauf-pour-le-predicateur-salafiste-abdelhakim-sefrioui",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
         },
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/politique/4203943-20260301-jean-luc-melenchon-jeffrey-epstein-aucune-religion-defend-etre-antisemite?at_medium=display&at_campaign=149",
-          "type": "mainstream",
-          "groupe_media": null
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260303-guerre-au-moyen-orient-le-pari-politique-risqu%C3%A9-de-donald-trump",
+          "type": "mainstream"
         }
       ],
-      "premiere_apparition": "2026-02-26"
+      "premiere_apparition": "2020-10-16"
+    },
+    {
+      "titre": "Sécurité mobile : Motorola officialise son partenariat avec GrapheneOS",
+      "slug": "motorola-grapheneos-partenariat-securite",
+      "rubrique": "tech",
+      "tldr": [
+        "Motorola intègre officiellement GrapheneOS sur ses modèles haut de gamme.",
+        "Fin de l'installation manuelle complexe pour les utilisateurs soucieux de leur vie privée.",
+        "Focus sur la sécurité matérielle et la désactivation des services Google."
+      ],
+      "resume": "Longtemps réservé aux utilisateurs techniques sur Google Pixel, le système d'exploitation ultra-sécurisé GrapheneOS devient 'officiel' via un partenariat avec Motorola. Cette annonce marque un tournant pour la protection des données personnelles, offrant une alternative robuste aux systèmes Android classiques tout en bénéficiant du support matériel d'un grand constructeur. Le buzz sur HackerNews souligne l'importance de cette étape pour la souveraineté numérique individuelle (Reddit.",
+      "contexte_historique": "GrapheneOS est né de la volonté de durcir Android contre l'exploitation de failles 0-day et le tracking publicitaire. Jusqu'ici, il nécessitait un déverrouillage du bootloader, une opération risquée pour le grand public. Motorola suit ici la trace de marques comme NitroKey (Next, HackerNews).",
+      "implications": [
+        "Accessibilité accrue des outils de haute sécurité pour les journalistes et dissidents.",
+        "Pression sur Google et Apple concernant la collecte de données télémétriques."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-03-03",
+          "texte": "Annonce officielle du partenariat Motorola-GrapheneOS.",
+          "source": "HackerNews"
+        },
+        {
+          "date": "2026-03-02",
+          "texte": "Fuite des premiers modèles compatibles sur les forums spécialisés.",
+          "source": "Reddit"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Next",
+          "type": "investigation",
+          "angle": "Analyse de la fin du 'bricolage' pour la sécurité mobile.",
+          "ton": "factuel",
+          "url": "https://next.ink/227179/lunettes-connectees-des-scenes-dintimite-envoyees-aux-sous-traitants-kenyans-de-meta/",
+          "citation_cle": "La sécurité de GrapheneOS devient enfin officielle.",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Le prix premium éventuel de ces versions sécurisées.",
+        "La liste complète des pays où ces modèles seront commercialisés."
+      ],
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/227179/lunettes-connectees-des-scenes-dintimite-envoyees-aux-sous-traitants-kenyans-de-meta/",
+          "type": "independant",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-03-03"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "OpenAI et le Département de la Guerre US",
-      "slug": "openai-departement-guerre-usa",
-      "rubrique": "tech",
-      "resume": "L'intégration d'OpenAI dans les réseaux classifiés de l'armée américaine est désormais actée. Le sujet se stabilise après l'éviction d'Anthropic, les discussions se déplaçant vers les implications éthiques à long terme.",
+      "titre": "Procès de Christophe Ellul (Affaire Elisa Pilarski)",
+      "slug": "proces-ellul-pilarski",
+      "rubrique": "societe",
+      "resume": "Le procès suit son cours technique après l'ouverture. L'attention médiatique s'est déplacée vers les conflits internationaux majeurs.",
       "chronologie": [
         {
-          "date": "2026-02-28",
-          "texte": "Confirmation de l'accord exclusif entre OpenAI et le Département de la Guerre.",
-          "source": "HackerNews"
+          "date": "2026-03-02",
+          "texte": "Audition des experts vétérinaires sur le comportement du chien Curtis.",
+          "source": "BFM TV"
         }
       ],
       "couvertures": [
         {
-          "source": "The Verge",
-          "type": "tech",
-          "angle": "Analyse technique de l'intégration sécurisée.",
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Suivi des débats sur la responsabilité du propriétaire.",
           "ton": "factuel",
-          "url": "https://www.theverge.com/tech/887220/sonos-play-leak",
-          "citation_cle": "L'accord avec le Département de la Guerre modifie la neutralité d'OpenAI."
+          "url": "https://www.bfmtv.com",
+          "citation_cle": "L'enjeu reste la détermination de l'origine des morsures."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Le montant exact du contrat pluriannuel."
+        "La date précise du délibéré final."
       ],
       "sources": [
         {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/887220/sonos-play-leak",
-          "type": "tech"
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com",
+          "type": "milliardaire"
         }
       ],
-      "derniere_mise_a_jour": "2026-03-01",
-      "statut": "Sujet technique et institutionnel en phase de consolidation."
+      "derniere_mise_a_jour": "2026-03-03",
+      "statut": "En phase d'audition des experts."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 511,
+    "nb_articles_analyses": 840,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
