@@ -1,51 +1,72 @@
 {
   "sujet_du_jour": {
-    "titre": "Escalade en Iran : Trump lance l'opération « Epic Fury »",
+    "titre": "Iran : Mojtaba Khamenei désigné successeur de son père",
     "rubrique": "international",
-    "pourquoi_important": "C'est une rupture majeure du droit international qui risque d'embraser tout le Moyen-Orient par une agression militaire directe sans mandat de l'ONU.",
+    "pourquoi_important": "La désignation du fils d'Ali Khamenei verrouille le pouvoir religieux et sécuritaire en pleine période de conflit ouvert avec Israël et les États-Unis.",
     "faits": [
-      "Le 1er mars 2026, Donald Trump a autorisé l'opération militaire 'Epic Fury' visant les capacités nucléaires, balistiques et navales de l'Iran .",
-      "Le Secrétaire général de l'ONU, António Guterres, alerte sur un risque d'escalade incontrôlable et ne confirme pas les rumeurs sur la mort de dirigeants iraniens (United Nations).",
-      "Washington durcit parallèlement le blocus économique en instaurant un mécanisme de droits de douane punitifs pour tout pays commerçant avec Téhéran .",
-      "L'administration Trump justifie ces frappes conjointes avec Israël par une 'menace nucléaire imminente', bien que non documentée par les instances internationales."
+      "L'Assemblée des experts a officiellement élu Mojtaba Khamenei comme troisième Guide suprême de la République islamique le 8 mars 2026 (Press TV, Associated Press).",
+      "Cette succession intervient après la mort d'Ali Khamenei, tué le 28 février lors de frappes israélo-américaines sur Téhéran (France 24, BFM TV).",
+      "Les Gardiens de la Révolution (IRGC) ont immédiatement prêté allégeance au nouveau dirigeant, signalant une continuité de la ligne dure .",
+      "Israël a déjà prévenu que le nouveau Guide suprême serait considéré comme une cible militaire (L'Obs, Libération)."
     ],
-    "contexte": "Cette intervention marque le retour d'une politique de 'paix par la force' agressive, ignorant les cadres multilatéraux. Alors que Mediapart souligne que la libération du peuple iranien est absente des priorités américaines, L'Obs dénonce un arbitraire présidentiel qui bafoue le droit international. Cette démonstration de force semble également être un message de dissuasion envoyé à Pékin.",
+    "contexte": "Âgé de 56 ans, Mojtaba Khamenei était déjà une figure de l'ombre extrêmement influente, contrôlant une partie de l'appareil sécuritaire et financier du pays. Sa nomination rompt avec le principe révolutionnaire initial qui rejetait la transmission héréditaire du pouvoir, soulignant l'urgence de stabilité pour le régime face à l'offensive militaire alliée. Le choix de ce partisan de la ligne dure suggère que Téhéran ne compte pas infléchir sa position diplomatique ou militaire (Courrier international).",
     "sources": [
       {
-        "nom": "The White House",
-        "url": "https://www.whitehouse.gov/articles/2026/03/peace-through-strength-president-trump-launches-operation-epic-fury-to-crush-iranian-regime-end-nuclear-threat/",
+        "nom": "Press TV",
+        "url": "https://www.presstv.ir/Detail/2026/03/08/765137/Ayatollah-Seyyed-Mojtaba-Khamenei-elected-new-Leader-of-the-Islamic-Revolution",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "United Nations",
-        "url": "https://www.un.org/sg/en/content/sg/statements/2026-02-28/secretary-generals-remarks-the-security-council-meeting-the-situation-the-middle-east-delivered",
-        "type": "institutionnel",
+        "nom": "Associated Press",
+        "url": "https://apnews.com/article/f0b20dbffaea9351ae1e54183ffe53ff",
+        "type": "mainstream",
         "groupe_media": null
       },
       {
-        "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/international/030326/la-liberation-du-peuple-iranien-reste-tres-loin-des-priorites-de-l-administration-trump",
-        "type": "investigation",
+        "nom": "France 24",
+        "url": "https://www.france24.com/fr/asie-pacifique/20260308-qui-est-mojtaba-khamenei-le-nouveau-guide-supr%C3%AAme-iranien",
+        "type": "mainstream",
+        "groupe_media": null
+      },
+      {
+        "nom": "Libération",
+        "url": "https://www.liberation.fr/international/moyen-orient/en-iran-mojtaba-khamenei-lelu-qui-pourrait-devenir-guide-supreme-a-la-place-de-son-pere-20260304_FJPXGOIS3VBPNJBE76ZQJPB2DQ/",
+        "type": "mainstream",
         "groupe_media": {
-          "nom": "Mediapart",
-          "proprietaire": "Fonds pour une presse libre",
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
           "type_proprietaire": "fondation",
-          "orientation": "gauche"
+          "orientation": "centre-gauche"
         }
+      },
+      {
+        "nom": "Courrier international",
+        "url": "https://www.courrierinternational.com/article/moyenne-orient-l-iran-defie-trump-en-nommant-le-fils-de-khamenei-comme-nouveau-guide-supreme_241464",
+        "type": "etranger"
+      },
+      {
+        "nom": "BFM TV",
+        "url": "https://www.bfmtv.com/international/moyen-orient/direct-guerre-en-iran-et-au-moyen-orient-de-nouvelles-frappes-sur-toute-la-region-emmanuel-macron-attendu-a-chypre_LN-202603090083.html",
+        "type": "mainstream"
+      },
+      {
+        "nom": "L'Obs",
+        "url": "https://www.nouvelobs.com/monde/20260308.OBS113005/l-iran-annonce-avoir-choisi-un-successeur-au-guide-supreme-ali-khamenei.html",
+        "type": "mainstream"
       }
     ],
-    "lien": null
+    "lien": "https://www.france24.com/fr/asie-pacifique/20260308-qui-est-mojtaba-khamenei-le-nouveau-guide-supr%C3%AAme-iranien"
   },
   "france": [
     {
-      "titre": "L'Unédic replonge dans le rouge en 2026",
+      "titre": "Carburants : 500 contrôles contre les hausses abusives",
       "rubrique": "economie",
-      "resume": "L'organisme prévoit un déficit de 2,1 milliards d'euros pour 2026, portant la dette à 61,5 milliards. Les partenaires sociaux dénoncent les ponctions financières répétées de l'État (estimées à 12 milliards sur 3 ans) qui empêchent le désendettement du régime (Sud-Ouest, Le Monde, La Croix).",
+      "resume": "Le Premier ministre Sébastien Lecornu a lancé un plan d'urgence de la DGCCRF pour surveiller les prix à la pompe du 9 au 11 mars, craignant que le conflit au Moyen-Orient ne serve de prétexte à des marges injustifiées (Le Monde, L'Humanité). L'exécutif mobilise l'équivalent d'un semestre de contrôles en trois jours pour protéger le pouvoir d'achat (Libération, Sud-Ouest).",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/politique/article/2026/03/03/les-partenaires-sociaux-preoccupes-de-la-degradation-des-comptes-de-l-unedic_6669401_823448.html",
+          "url": "https://www.lemonde.fr/economie/article/2026/03/08/carburants-sebastien-lecornu-annonce-un-plan-exceptionnel-de-500-controles-entre-lundi-et-mercredi-dans-les-stations-service_6670022_3234.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -55,27 +76,51 @@
           }
         },
         {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/economie/social/assurance-chomage-l-unedic-prevoit-un-deficit-en-2026-et-appelle-l-etat-a-cesser-les-ponctions-28124192.php",
-          "type": "mainstream",
-          "groupe_media": null
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/politique/elections-municipales/municipales-2026-a-nimes-vincent-bouget-et-la-gauche-opposent-le-peuple-comme-solution-a-la-droite-en-fin-de-regne",
+          "type": "mainstream"
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/a-vif/guerre-en-iran-il-faut-transferer-l-islam-de-la-place-publique-au-cour-du-croyant-20260303",
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/international/moyen-orient/en-iran-mojtaba-khamenei-lelu-qui-pourrait-devenir-guide-supreme-a-la-place-de-son-pere-20260304_FJPXGOIS3VBPNJBE76ZQJPB2DQ/",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/redaction/ephemeride/video-le-saviez-vous-en-1923-le-couturier-andre-courreges-naissait-a-pau-28162098.php",
           "type": "mainstream"
         }
       ],
-      "lien": null
+      "lien": "https://www.lemonde.fr/economie/article/2026/03/08/carburants-sebastien-lecornu-annonce-un-plan-exceptionnel-de-500-controles-entre-lundi-et-mercredi-dans-les-stations-service_6670022_3234.html"
     },
     {
-      "titre": "Cyberattaque massive : 1,5 million de photos d'élèves volées",
-      "rubrique": "societe",
-      "resume": "L'UNSS a été victime d'un piratage d'ampleur. Les données personnelles et photos d'identité de plus de 1,5 million de collégiens et lycéens ont été mises en vente sur le darknet par le groupe DumpSec (franceinfo, 20 Minutes). L'organisme assure avoir désactivé les liens d'accès (La Croix).",
+      "titre": "L'Europe traque la « flotte fantôme » russe",
+      "rubrique": "international",
+      "resume": "Un cargo soupçonné d'appartenir à la flotte secrète de Moscou a été arraisonné en Suède, transportant potentiellement des céréales ukrainiennes volées (BFM TV). Ces navires vieillissants sous faux pavillons sont au cœur d'une bataille juridique européenne pour faire respecter les sanctions internationales (La Croix).",
+      "sources": [
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/moyen-orient/direct-guerre-en-iran-et-au-moyen-orient-de-nouvelles-frappes-sur-toute-la-region-emmanuel-macron-attendu-a-chypre_LN-202603090083.html",
+          "type": "mainstream"
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/economie/hausse-des-prix-du-carburant-pourquoi-le-gazole-augmente-plus-vite-que-l-essence-20260308",
+          "type": "mainstream"
+        }
+      ],
+      "lien": "https://www.la-croix.com/international/bataille-contre-les-navires-fantomes-l-europe-traque-la-flotte-secrete-de-vladimir-poutine-20260308"
+    }
+  ],
+  "monde": [
+    {
+      "titre": "Explosion à l'ambassade des États-Unis à Oslo",
+      "pays": "Norvège",
+      "resume": "Une déflagration a visé la représentation diplomatique américaine dans la nuit de samedi à dimanche, causant des dégâts mineurs (franceinfo). La police norvégienne n'exclut pas la piste terroriste dans un contexte de tensions globales (L'Humanité, 20 Minutes).",
       "sources": [
         {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/plus-d-un-million-de-photographies-de-mineurs-mises-en-ligne-sur-le-darknet-apres-la-cyberattaque-du-site-de-l-unss_7842995.html#xtor=RSS-3-[lestitres]",
+          "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/une-explosion-vise-l-ambassade-des-etats-unis-en-norvege-la-police-evoque-un-possible-motif-terroriste_7853939.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -85,186 +130,96 @@
           }
         },
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/faits_divers/4204245-20260302-unss-pirate-plus-million-photos-enfants-balancees-darkweb?at_medium=display&at_campaign=149",
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/monde/20260308.OBS113017/explosion-a-l-ambassade-des-etats-unis-en-norvege-ce-que-l-on-sait-sur-un-possible-acte-terroriste.html",
           "type": "mainstream",
           "groupe_media": null
         },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/a-vif/guerre-en-iran-il-faut-transferer-l-islam-de-la-place-publique-au-cour-du-croyant-20260303",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Paris : le privé en passe de scolariser 50% des collégiens",
-      "rubrique": "societe",
-      "resume": "Selon l'Institut des politiques publiques, la part de l'enseignement privé à Paris pourrait atteindre 50% d'ici 2035 (Libération). Ce basculement est accéléré par le déclin démographique qui vide les classes du public, menaçant la mixité sociale (La Croix, 20 Minutes).",
-      "sources": [
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/societe/education/a-paris-la-moitie-des-collegiens-pourraient-etre-scolarises-dans-le-prive-en-2035-20260303_EYLJR2YFDJB5RD4KCNQIKBRJI4/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/education-la-part-du-prive-pourrait-atteindre-50-a-paris-d-ici-2035-20260303",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/economie/4204377-20260303-travailler-1er-mai-syndicats-salaries-implorent-deputes-ceder?at_medium=display&at_campaign=149",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Grève illimitée des coiffeuses exploitées à Paris",
-      "rubrique": "societe",
-      "resume": "Des salariées du boulevard de Strasbourg occupent leur salon pour dénoncer des salaires impayés et des pratiques de racket (L'Humanité). Ce mouvement de travailleuses souvent sans-papiers met en lumière une surexploitation systémique dans le secteur (franceinfo).",
-      "sources": [
         {
           "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/social-et-economie/cgt/patron-voleur-on-veut-notre-argent-en-greve-illimitee-des-coiffeuses-du-boulevard-de-strasbourg-a-paris-occupent-leur-salon",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/reportage-c-etait-impensable-qu-une-chose-comme-ca-arrive-a-dubai-de-nombreux-touristes-tentent-de-fuir-l-emirat-en-passant-par-oman_7842992.html#xtor=RSS-3-[lestitres]",
+          "url": "https://www.humanite.fr/politique/elections-municipales/municipales-2026-a-nimes-vincent-bouget-et-la-gauche-opposent-le-peuple-comme-solution-a-la-droite-en-fin-de-regne",
           "type": "mainstream"
-        }
-      ],
-      "lien": null
-    }
-  ],
-  "monde": [
-    {
-      "titre": "Moscou attaque l'UE pour récupérer ses 210 milliards",
-      "pays": "Russie / UE",
-      "resume": "La Banque centrale russe a lancé un recours devant la justice européenne contre le gel de ses avoirs (L'Obs). Ce bras de fer juridique intervient alors que Bruxelles envisage d'utiliser ces fonds pour la reconstruction de l'Ukraine (Sud-Ouest, BFM Business).",
-      "sources": [
-        {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/monde/20260303.OBS112844/avoirs-geles-la-banque-centrale-russe-lance-un-recours-en-justice-contre-l-ue.html",
-          "type": "mainstream",
-          "groupe_media": null
         },
         {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/international/elle-veut-recuperer-ses-210-milliards-d-euros-geles-par-bruxelles-la-banque-centrale-russe-lance-un-recours-contre-l-union-europeenne_AD-202603030671.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/economie/social/assurance-chomage-l-unedic-prevoit-un-deficit-en-2026-et-appelle-l-etat-a-cesser-les-ponctions-28124192.php",
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/monde/etats-unis/4205231-20260309-etats-unis-maison-rihanna-visee-presence-plusieurs-tirs-los-angeles?at_medium=display&at_campaign=149",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "L'adhésion de l'Ukraine divise les capitales européennes",
-      "pays": "Ukraine / UE",
-      "resume": "Malgré la pression de Kiev pour une procédure 'fast-track', plusieurs gouvernements européens freinent par peur d'ouvrir une 'boîte de Pandore' institutionnelle (Reuters). Paris insiste pour que le calendrier ne soit dicté ni par Washington ni par Moscou (Politico).",
+      "titre": "La gauche de Gustavo Petro s'impose au Congrès",
+      "pays": "Colombie",
+      "resume": "La coalition Pacte Historique confirme sa position de première force politique lors des législatives, consolidant le mandat du président Petro (Ouest-France). Ce scrutin valide l'ancrage social de la gauche avant la prochaine présidentielle (France 24).",
       "sources": [
         {
-          "nom": "Politico EU",
-          "url": "https://www.politico.eu/article/us-russia-europe-enlargement-timeline-france-minister-benjamin-haddad/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Axel Springer / KKR",
-            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/am%C3%A9riques/20260309-legislatives-colombie-gauche-impose-principale-force-gustavo-petro-congres-elections",
+          "type": "mainstream",
+          "groupe_media": null
         },
         {
-          "nom": "Reuters",
-          "url": "https://www.reuters.com/world/european-capitals-push-back-ukraine-seeks-fast-track-eu-membership-2026-03-03/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Thomson Reuters",
-            "proprietaire": "Thomson Reuters Corporation",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Politico EU",
-          "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-update-droht-ein-flachenbrand-im-nahen-osten-mit-peter-neumann/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "type": "etranger"
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/monde/colombie/legislatives-en-colombie-la-gauche-simpose-comme-la-principale-force-au-congres-2a6b1c8a-1b6a-11f1-9fa1-ca7616976f61",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Pressions chinoises sur la culture à Strasbourg",
-    "rubrique": "culture",
-    "contexte": "Le consulat général de Chine à Strasbourg a exigé la déprogrammation d'un spectacle sur Taïwan au théâtre Le Maillon, provoquant une levée de boucliers des élus locaux.",
+    "sujet": "Évolution de la doctrine militaire israélienne au Moyen-Orient",
+    "rubrique": "international",
+    "contexte": "Depuis le 7 octobre, l'armée israélienne a multiplié les interventions directes, notamment en Iran et au Liban, marquant une rupture historique avec sa stratégie habituelle.",
     "couvertures": [
-      {
-        "source": "Rue89 Strasbourg",
-        "type": "investigation",
-        "angle": "Focus sur l'ingérence diplomatique directe auprès du théâtre et de la Ville.",
-        "ton": "critique",
-        "url": "https://www.rue89strasbourg.com/strasbourg-pression-consulat-chinois-piece-taiwan-381490",
-        "citation_cle": "Le consulat général de Chine à Strasbourg n'apprécie pas du tout la programmation d'un spectacle sur Taïwan.",
-        "auteur": "Guillaume Krempp",
-        "proprietaire_contexte": "Indépendant",
-        "orientation_source": "Gauche locale",
-        "groupe_media": null
-      },
       {
         "source": "Le Figaro",
         "type": "mainstream",
-        "angle": "Défense de la liberté de création artistique face à une puissance étrangère.",
-        "ton": "factuel",
-        "url": "https://www.lefigaro.fr/theatre/la-chine-fait-pression-sur-la-mairie-de-strasbourg-en-demandant-la-deprogrammation-d-une-piece-de-theatre-20260303",
-        "citation_cle": "La liberté de création et artistique est protégée en France.",
+        "angle": "Célébration d'Israël comme puissance hégémonique régionale.",
+        "ton": "complaisant",
+        "url": "https://www.lefigaro.fr/international/israel-emerge-comme-la-premiere-puissance-de-la-region-en-iran-et-au-liban-israel-rebat-les-cartes-du-moyen-orient-20260308",
+        "citation_cle": "Israël émerge comme la première puissance de la région.",
         "auteur": null,
-        "proprietaire_contexte": "Groupe Dassault",
-        "orientation_source": "Droite",
+        "proprietaire_contexte": "Groupe Dassault (armement)",
+        "orientation_source": "Droite conservatrice",
         "groupe_media": null
+      },
+      {
+        "source": "Libération",
+        "type": "mainstream",
+        "angle": "Analyse du tournant doctrinal vers la recherche d'une 'victoire décisive' malgré les incertitudes.",
+        "ton": "critique",
+        "url": "https://www.liberation.fr/international/moyen-orient/la-guerre-contre-liran-consequence-dun-tournant-de-la-doctrine-militaire-israelienne-20260308_J424VQOESVB43AAG2U33A2HFII/",
+        "citation_cle": "Israël rompt avec sa stratégie de gestion ponctuelle des conflits.",
+        "auteur": "Eléonore Weil",
+        "proprietaire_contexte": "Fonds de dotation indépendant",
+        "orientation_source": "Centre-gauche",
+        "groupe_media": {
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
+        }
       }
     ],
-    "analyse_coherence": "L'unanimité médiatique sur ce sujet souligne la gravité de la violation de la liberté d'expression. Rue89 Strasbourg et Le Figaro convergent sur les faits : une tentative explicite de censure par le consulat chinois. On note toutefois que Le Figaro, propriété du groupe Dassault (industriel de défense), adopte ici une posture de défense de la souveraineté culturelle française, tandis que Rue89 met l'accent sur les coulisses de la pression diplomatique. Il est rare de voir une telle convergence entre une presse d'investigation locale et un grand quotidien national, signe que l'ingérence chinoise dépasse les clivages politiques habituels. L'analyse révèle un double standard potentiel : la Chine applique ses normes de censure territoriale à l'intérieur des frontières européennes, testant la résilience des institutions démocratiques locales.",
+    "analyse_coherence": "Le traitement médiatique de l'expansion militaire israélienne révèle un clivage profond. D'un côté, Le Figaro (propriété du groupe Dassault, lié à l'armement) adopte un ton quasi-triomphaliste, présentant Israël comme une puissance hégémonique naturelle qui « rebat les cartes ». L'angle occulte quasi-totalement les violations du droit international dénoncées par les instances onusiennes. À l'inverse, Libération et L'Humanité s'inquiètent d'une rupture doctrinale qui privilégie la force brute à la diplomatie, pointant le risque de divergences majeures avec l'allié américain et l'instabilité chronique générée par cette quête de « victoire totale ». On observe ici un double standard flagrant : alors que les agressions territoriales russes sont systématiquement condamnées comme illégitimes, l'offensive israélienne est parfois présentée comme une mutation stratégique nécessaire, voire positive, par une partie de la presse mainstream française. L'analyse de cohérence suggère que la proximité des propriétaires de médias avec les industries de défense ou les intérêts diplomatiques de l'État influence directement la qualification des actes militaires au Moyen-Orient.",
     "biais_detectes": [
-      "Impérialisme culturel",
-      "Ingérence diplomatique"
+      "Normalisation de l'agression militaire",
+      "Double standard sur le droit international",
+      "Influence des intérêts industriels"
     ],
-    "ce_quil_faut_retenir": "La mairie de Strasbourg a maintenu la programmation, réaffirmant que la liberté artistique n'est pas négociable face aux pressions étrangères."
+    "ce_quil_faut_retenir": "Le basculement d'Israël vers une guerre totale est perçu soit comme un succès stratégique, soit comme une dérive dangereuse, selon l'alignement politique et financier des médias."
   },
   "regard_etranger": [
     {
       "source": "The Guardian",
       "pays": "Royaume-Uni",
-      "titre": "Les ferries polluent plus que les voitures dans les capitales de l'UE",
-      "titre_original": "Ferries emit ‘more sulphur pollution than cars’ in several EU capitals",
-      "angle": "Une analyse environnementale montrant que les ports comme Marseille ou Helsinki sont asphyxiés par les émissions de soufre des navires.",
-      "url": "https://www.theguardian.com/environment/2026/mar/02/ferries-emissions-sulphur-pollution-cars-eu-capitals",
+      "titre": "Un crocodile sur un terrain de football australien",
+      "titre_original": "A saltwater crocodile on the AFL oval",
+      "angle": "Stupeur face aux inondations records en Australie qui poussent les prédateurs dans les zones urbaines.",
+      "url": "https://www.theguardian.com/environment/2026/mar/09/boil-water-and-look-out-for-crocodiles-nt-residents-evacuate-as-unusually-wet-week-brings-more-flooding",
       "groupe_media": {
         "nom": "Scott Trust",
         "proprietaire": "Scott Trust Limited",
@@ -273,122 +228,98 @@
       }
     },
     {
-      "source": "BBC News",
-      "pays": "Royaume-Uni",
-      "titre": "Pourquoi les dirigeants européens peinent à parler d'une seule voix sur l'Iran",
-      "titre_original": "Why Europe's leaders have struggled to speak as one on Iran",
-      "angle": "Un constat de l'impuissance diplomatique européenne face à l'unilatéralisme américain.",
-      "url": "https://www.bbc.com/news/articles/cn8z5zvlz5yo?at_medium=RSS&at_campaign=rss",
+      "source": "Swissinfo",
+      "pays": "Suisse",
+      "titre": "L'argent liquide entre dans la Constitution suisse",
+      "titre_original": "En Suisse, l’argent liquide entre dans la Constitution",
+      "angle": "Analyse d'un vote historique garantissant la survie des espèces sonnantes et trébuchantes face au tout-numérique.",
+      "url": "https://www.swissinfo.ch/fre/politique-suisse/en-suisse-largent-liquide-entre-dans-la-constitution/91058972",
       "groupe_media": {
-        "nom": "BBC",
-        "proprietaire": "État britannique",
+        "nom": "SRG SSR",
+        "proprietaire": "SRG SSR (service public suisse)",
         "type_proprietaire": "etat",
         "orientation": "centre"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "1,5 million",
-    "contexte": "Nombre de photos et données d'élèves français dérobées à l'UNSS et mises en vente sur le darknet.",
-    "source": "Sud-Ouest",
-    "source_url": "https://www.sudouest.fr/economie/cybersecurite/cyberattaque-contre-l-unss-plus-de-1-5-million-de-donnees-et-photos-d-eleves-francais-sur-le-darknet-28123174.php"
+    "valeur": "34 millions d'euros",
+    "contexte": "Coût annuel estimé de la gratuité des transports pour la métropole de Montpellier en 2024, selon la Cour des comptes.",
+    "source": "Cour des comptes",
+    "source_url": "https://www.ccomptes.fr/fr/publications/la-contribution-des-usagers-au-financement-des-transports-collectifs-urbains-le-cas-de"
   },
   "a_surveiller": [
     {
       "date": "2026-03-15",
       "evenement": "Premier tour des élections municipales en France",
       "type": "vote",
-      "lien": "https://www.service-public.gouv.fr/particuliers/actualites/A18438"
+      "lien": "https://www.lepoint.fr/politique/elections-municipales-ce-que-la-loi-autorise-et-interdit-S2G3RGV3PJC3NJVRL4FMMADFAQ/"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Violences policières : les enquêtes opaques du Rhône",
+      "titre": "Calais : la gauche de rupture contre la « chasse aux pauvres »",
       "rubrique": "societe",
-      "resume": "Une enquête de Blast révèle que les parquets confient de plus en plus de plaintes visant des policiers à des « cellules déontologie » locales plutôt qu'à l'IGPN, posant un grave problème d'indépendance.",
+      "resume": "À Calais, une liste unissant LFI et Les Écologistes défie la maire sortante Natacha Bouchart. Leur programme dénonce la brutalisation de l'accueil des exilés et les arrêtés interdisant les distributions de repas (Blast).",
       "sources": [
         {
           "nom": "Blast",
-          "url": "https://www.blast-info.fr/articles/2026/violences-policieres-les-enquetes-baclees-de-la-cellule-deontologie-du-rhone-5upGjbwwQKKMkxKDGVZw8w",
+          "url": "https://www.blast-info.fr/articles/2026/municipales-a-calais-une-gauche-de-rupture-contre-la-chasse-aux-pauvres-0OgDGsajRQqejZGectI-7A",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce glissement vers des enquêtes 'entre collègues' au niveau local est un recul démocratique majeur passé sous les radars du débat national."
+      "pourquoi_signal": "Le sujet est largement ignoré par les médias nationaux qui se focalisent sur les enjeux sécuritaires, occultant la structuration d'une alternative sociale locale."
     },
     {
-      "titre": "RN : la porosité numérique avec le terrorisme d'extrême droite",
-      "rubrique": "politique",
-      "resume": "StreetPress révèle que des candidats RN aux municipales suivent le compte privé de Logan Nisin, condamné pour terrorisme en 2021. L'accès à un compte privé nécessite une validation mutuelle.",
+      "titre": "Transports gratuits : un bilan contrasté à Montpellier",
+      "rubrique": "economie",
+      "resume": "Alors que la gratuité séduit les programmes électoraux, la Cour des comptes relève que 39% des nouveaux trajets à Montpellier remplacent la marche plutôt que la voiture, posant la question de l'efficacité écologique réelle (Mediapart).",
       "sources": [
         {
-          "nom": "StreetPress",
-          "url": "https://www.streetpress.com/sujet/1772466123-pourquoi-candidats-militants-rassemblement-national-municipales-suivent-compte-prive-terroriste-extreme-droite-logan-nisin-reseaux-sociaux",
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/politique/080326/gratuite-des-transports-montpellier-un-premier-bilan-qui-divise",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Cela contredit la stratégie de 'dédiabolisation' et montre la persistance de liens avec la frange violente de l'ultradroite."
+      "pourquoi_signal": "Ce rapport pointe une contradiction entre l'affichage politique de la gratuité et ses résultats concrets sur le report modal, un tabou dans de nombreuses mairies."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Haine raciste : les candidats aux municipales sous le feu",
-      "rubrique": "politique",
-      "resume": "Plusieurs candidats racisés témoignent d'une déferlante de haine, de menaces de mort et de vandalisme visant à les exclure du débat démocratique.",
-      "axes_concernes": [
-        "antifascisme",
-        "justice_sociale",
-        "droits_humains"
-      ],
-      "analyse": "Cette violence décomplexée, documentée par Mediapart et Politis, constitue une menace directe pour l'équité électorale. Quand le racisme devient un outil de dissuasion politique, c'est le principe même d'universalité des droits qui s'effondre. Le silence ou la passivité des institutions face à ces attaques systémiques est une alerte majeure pour la démocratie sociale.",
-      "sources": [
-        {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/030326/j-ai-failli-tout-abandonner-une-deferlante-raciste-s-abat-sur-les-municipales",
-          "type": "investigation"
-        },
-        {
-          "nom": "Politis",
-          "url": "https://www.politis.fr/api/proxy/?articleID=450267",
-          "type": "investigation"
-        }
-      ]
-    },
-    {
-      "titre": "Cuba : réformes d'urgence face au blocus Trump",
-      "rubrique": "economie",
-      "resume": "Le président Díaz-Canel accélère l'ouverture au secteur privé pour contrer l'étranglement économique américain qui provoque une crise humanitaire sur l'île.",
+      "titre": "Villepin propose un mécanisme 'Tu détruis, tu répares'",
+      "rubrique": "international",
+      "resume": "L'ex-Premier ministre propose que l'ONU impose aux États menant des guerres illégales de financer intégralement la reconstruction des pays dévastés.",
       "axes_concernes": [
         "droit_international",
         "imperialisme"
       ],
-      "analyse": "L'application extraterritoriale des sanctions américaines contre Cuba bafoue le droit international. L'Humanité et le NYT s'accordent sur l'urgence sociale. Nous alertons sur le fait que la 'stratégie d'étranglement' punit avant tout la population civile, entravant la souveraineté alimentaire et le développement de services publics essentiels.",
+      "analyse": "Cette proposition est cruciale car elle applique le principe de responsabilité universelle. Elle souligne que les interventions occidentales ou alliées (Irak, Libye, Gaza) ne devraient pas bénéficier d'une impunité financière. C'est une remise en cause directe de l'asymétrie du droit international actuel où seuls les vaincus ou les puissances non-occidentales sont tenus de rendre des comptes.",
       "sources": [
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/monde/amerique-latine/serie-de-reformes-autonomie-municipale-comment-cuba-sadapte-a-la-strategie-detranglement-des-etats-unis",
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/monde/israel/4205075-20260308-tout-pays-engage-intervention-illegale-doit-payer-prix-reconstruction-villepin",
           "type": "mainstream"
         },
         {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/03/02/world/americas/cuba-economy-change-communism.html",
-          "type": "etranger"
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/politique/tu-detruis-tu-repares-villepin-plaide-pour-un-mecanisme-onusien-de-reparation-en-cas-de-guerre-illegale-28190094.php",
+          "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-03-03",
-  "genere_a": "2026-03-03T17:30:21.962Z",
+  "date": "2026-03-09",
+  "genere_a": "2026-03-09T05:35:00.959Z",
   "meta": {
-    "nb_articles_analyses": 837,
-    "nb_topics": 217,
-    "nb_topics_selectionnes": 14,
-    "nb_articles_dans_selection": 31,
-    "sources_francaises": 554,
-    "sources_etrangeres": 283,
+    "nb_articles_analyses": 596,
+    "nb_topics": 147,
+    "nb_topics_selectionnes": 16,
+    "nb_articles_dans_selection": 44,
+    "sources_francaises": 404,
+    "sources_etrangeres": 192,
     "rubriques_couvertes": [
       "international",
-      "economie",
-      "societe"
+      "economie"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"

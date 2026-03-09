@@ -1,17 +1,32 @@
 {
-  "date": "2026-03-03",
-  "genere_a": "2026-03-03T17:31:04.572Z",
+  "date": "2026-03-09",
+  "genere_a": "2026-03-09T05:35:40.521Z",
   "faits_ia": [
     {
-      "titre": "OpenAI autorise l'usage militaire de ses outils malgré les critiques",
+      "titre": "Lancement de « La Plume IA » pour les municipales 2026",
+      "sous_section": "annonces",
+      "resume": "Un entrepreneur charentais a développé « La Plume IA », une solution d'intelligence artificielle conçue pour assister les candidats aux élections municipales de 2026. L'outil vise à automatiser certaines tâches de campagne pour réduire l'écart de moyens entre les petites listes et les grandes structures politiques (Sud-Ouest).",
+      "pourquoi_ca_compte": "Cela pose la question de l'équité démocratique : l'IA peut-elle réellement niveler le terrain de jeu ou risque-t-elle de déshumaniser le débat local ?",
+      "sources": [
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/charente-maritime/aytre/municipales-2026-ce-n-est-pas-une-baguette-magique-un-charentais-maritime-a-cree-une-solution-ia-pour-assister-les-candidats-28164483.php",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": "https://www.sudouest.fr/charente-maritime/aytre/municipales-2026-ce-n-est-pas-une-baguette-magique-un-charentais-maritime-a-cree-une-solution-ia-pour-assister-les-candidats-28164483.php"
+    },
+    {
+      "titre": "L'Australie impose la vérification d'âge pour la pornographie",
       "sous_section": "regulation",
-      "resume": "OpenAI a conclu un accord permettant au Pentagone d'utiliser ses technologies dans des environnements classifiés. Sam Altman a précisé que le groupe interdirait l'usage de ses systèmes pour espionner les citoyens américains, tentant ainsi de répondre aux critiques sur les risques de surveillance (BBC News, MIT Technology Review).",
-      "pourquoi_ca_compte": "Ce tournant marque la fin du tabou de l'IA générative 'civile' et pose des questions éthiques majeures sur la participation des entreprises de la Silicon Valley à l'appareil de défense.",
+      "resume": "Le gouvernement australien a mis en place de nouvelles lois obligeant les sites pornographiques comme Pornhub à vérifier l'âge des utilisateurs sous peine d'amendes millionnaires (BBC News). En réaction, les distributeurs bloquent l'accès au pays tandis que les téléchargements de VPN explosent (Reuters).",
+      "pourquoi_ca_compte": "Cette mesure illustre le conflit entre la protection des mineurs et le droit à la vie privée anonyme sur internet.",
       "sources": [
         {
           "nom": "BBC News",
-          "url": "https://www.bbc.com/news/articles/c3rz1nd0egro?at_medium=RSS&at_campaign=rss",
-          "type": "mainstream",
+          "url": "https://www.bbc.com/news/articles/cwy92qpv424o?at_medium=RSS&at_campaign=rss",
+          "type": "etranger",
           "groupe_media": {
             "nom": "BBC",
             "proprietaire": "État britannique",
@@ -20,274 +35,219 @@
           }
         },
         {
-          "nom": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/",
+          "nom": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/vpns-up-porn-websites-down-australia-brings-new-online-age-restrictions-2026-03-09/",
           "type": "etranger",
           "groupe_media": {
-            "nom": "MIT (Massachusetts Institute of Technology)",
-            "proprietaire": "MIT",
-            "type_proprietaire": "fondation",
+            "nom": "Thomson Reuters",
+            "proprietaire": "Thomson Reuters Corporation",
+            "type_proprietaire": "famille",
             "orientation": "centre"
           }
         }
       ],
-      "lien": null
+      "lien": "https://www.bbc.com/news/articles/cwy92qpv424o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "titre": "Fuite massive de données de mineurs suite à une cyberattaque contre l'UNSS",
-      "sous_section": "societe",
-      "resume": "Plus de 1,5 million de photographies et de données personnelles d'élèves français, issues de la fédération du sport scolaire (UNSS), ont été mises en vente sur le darknet par le groupe DumpSec (franceinfo, La Croix). L'attaque, survenue initialement en novembre, expose des informations sensibles de collégiens et lycéens (Sud-Ouest, 20 Minutes).",
-      "pourquoi_ca_compte": "C'est une faille de sécurité majeure touchant la protection de l'enfance et la responsabilité des institutions publiques dans la gestion des données biométriques et d'identité.",
+      "titre": "Trump conditionne toute loi à une réforme de l'ID électeur",
+      "sous_section": "regulation",
+      "resume": "Le président américain Donald Trump a déclaré qu'il ne signerait aucune législation tant que le Congrès n'aurait pas adopté une loi stricte sur l'identification des électeurs (Reuters). Les critiques craignent que cette mesure technocratique ne serve à l'exclusion électorale (Al Jazeera).",
+      "pourquoi_ca_compte": "L'usage des technologies d'identification dans le vote touche au cœur de l'accès universel aux droits civiques.",
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/plus-d-un-million-de-photographies-de-mineurs-mises-en-ligne-sur-le-darknet-apres-la-cyberattaque-du-site-de-l-unss_7842995.html#xtor=RSS-3-[lestitres]",
+          "nom": "Reuters",
+          "url": "https://www.reuters.com/world/us/trump-says-will-not-sign-other-legislation-until-voter-act-bill-is-passed-by-2026-03-08/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Thomson Reuters",
+            "proprietaire": "Thomson Reuters Corporation",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/8/trump-pledges-to-block-legislation-until-us-voter-id-law-passes?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        }
+      ],
+      "lien": "https://www.reuters.com/world/us/trump-says-will-not-sign-other-legislation-until-voter-act-bill-is-passed-by-2026-03-08/"
+    },
+    {
+      "titre": "La justice US annule le démantèlement de Voice of America",
+      "sous_section": "regulation",
+      "resume": "Un tribunal fédéral a jugé illégale la réorganisation de l'agence supervisant les médias publics américains par l'administration Trump (RFI). La juge a annulé les licenciements massifs effectués par Kari Lake, nommée sans confirmation du Sénat (The Guardian).",
+      "pourquoi_ca_compte": "C'est un rappel de l'importance de l'indépendance des médias publics face aux pressions politiques directes sur leur gouvernance.",
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260308-%C3%A9tats-unis-la-justice-d%C3%A9savoue-l-administration-trump-sur-le-d%C3%A9mant%C3%A8lement-de-voice-of-america",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Télévisions",
+            "nom": "France Médias Monde",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/cybercriminalite-les-photos-et-donnees-personnelles-de-plus-de-15-million-d-eleves-en-vente-sur-le-darknet-20260302",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/economie/cybersecurite/cyberattaque-contre-l-unss-plus-de-1-5-million-de-donnees-et-photos-d-eleves-francais-sur-le-darknet-28123174.php",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/faits_divers/4204245-20260302-unss-pirate-plus-million-photos-enfants-balancees-darkweb?at_medium=display&at_campaign=149",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Apple lance les puces M5 Pro et Max pour l'IA locale",
-      "sous_section": "annonces",
-      "resume": "Apple a dévoilé ses nouveaux MacBook Pro équipés des puces M5 Pro et M5 Max, dotées de « super-cœurs » CPU (Next). Ces processeurs sont spécifiquement conçus pour traiter des tâches d'intelligence artificielle lourdes directement sur la machine, sans passer par le cloud (Numerama).",
-      "pourquoi_ca_compte": "L'accélération du matériel pour l'IA locale renforce la confidentialité des données, mais impose un renouvellement coûteux des équipements pour les professionnels.",
-      "sources": [
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/tech/2172929-apple-devoile-les-macbook-pro-et-les-puces-m5-pro-et-m5-max-des-monstres-de-puissance-concus-pour-lia-en-local.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Next",
-          "url": "https://next.ink/227340/apple-renouvelle-ses-macbook-pro-et-air-puces-m5-pro-et-max-avec-des-super-coeurs-cpu/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Désertion de ChatGPT : les utilisateurs migrent vers Claude",
-      "sous_section": "business",
-      "resume": "Suite à l'annonce du partenariat entre OpenAI et le Pentagone, les désinstallations de l'application ChatGPT ont bondi de 295 % (TechCrunch). Parallèlement, le concurrent Claude voit ses téléchargements augmenter, les utilisateurs cherchant des alternatives perçues comme plus éthiques (TechCrunch).",
-      "pourquoi_ca_compte": "Cela démontre que les choix politiques et éthiques des entreprises d'IA ont un impact direct et immédiat sur leur base d'utilisateurs et leur valeur de marché.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/mar/08/kari-lake-us-media-agency-voice-of-america",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Motorola s'allie à GrapheneOS pour des smartphones ultra-sécurisés",
-      "sous_section": "annonces",
-      "resume": "Motorola a annoncé un partenariat avec GrapheneOS pour intégrer nativement ce système d'exploitation axé sur la vie privée dans ses futurs appareils à l'horizon 2027 (The Register). L'objectif est de proposer une alternative sécurisée et dégooglisée au grand public (Next).",
-      "pourquoi_ca_compte": "C'est une étape vers la démocratisation de la souveraineté numérique pour les citoyens souhaitant échapper à la surveillance publicitaire systématique.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/227163/motorola-sassocie-a-grapheneos-pour-renforcer-la-securite-de-ses-futurs-smartphones/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Register",
-          "url": "https://go.theregister.com/feed/www.theregister.com/2026/03/02/motorola_grapheneos/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Google Chrome accélère son rythme de mise à jour",
-      "sous_section": "annonces",
-      "resume": "À partir de septembre, Google Chrome passera à un cycle de mise à jour toutes les deux semaines, contre quatre actuellement (The Verge). Ce changement vise à répondre plus rapidement à la concurrence et aux enjeux de sécurité (TechCrunch).",
-      "pourquoi_ca_compte": "Un rythme plus soutenu peut améliorer la sécurité mais augmente le risque d'instabilité logicielle pour les utilisateurs et les entreprises.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/03/amid-new-competition-chrome-speeds-up-its-release-schedule/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/888001/google-accelerates-chrome-releases-cutting-cycle-in-half",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
         }
       ],
-      "lien": null
+      "lien": "https://www.rfi.fr/fr/am%C3%A9riques/20260308-%C3%A9tats-unis-la-justice-d%C3%A9savoue-l-administration-trump-sur-le-d%C3%A9mant%C3%A8lement-de-voice-of-america"
     },
     {
-      "titre": "Cyberattaques automatisées : le bot Hackerbot-claw cible GitHub",
+      "titre": "Roumanie : les communes peuvent désormais bannir les jeux d'argent",
+      "sous_section": "regulation",
+      "resume": "Un décret d'urgence permet désormais aux maires roumains d'interdire les salles de paris et les machines à sous dans leurs villes (The Guardian). Neuf villes prévoient déjà une interdiction totale pour lutter contre l'addiction numérique et physique.",
+      "pourquoi_ca_compte": "Le numérique et le physique convergent ici pour protéger la santé publique contre les algorithmes de jeu prédateurs.",
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/society/2026/mar/09/romania-gambling-decree-allowing-betting-shop-slot-machine-bans",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theguardian.com/society/2026/mar/09/romania-gambling-decree-allowing-betting-shop-slot-machine-bans"
+    },
+    {
+      "titre": "L'OSINT révèle l'ampleur des frappes sur l'école de Minab",
       "sous_section": "recherche",
-      "resume": "Un nouveau bot automatisé, baptisé Hackerbot-claw, a réussi à compromettre des dépôts sur GitHub en exploitant les GitHub Actions (Next). Il a notamment piraté le scanner de sécurité Trivy pour diffuser une extension malveillante.",
-      "pourquoi_ca_compte": "L'automatisation des cyberattaques par des bots rend la protection des infrastructures de développement de plus en plus complexe pour les petites organisations.",
+      "resume": "L'analyse d'images satellites confirme que le bombardement d'une école en Iran a également touché un complexe militaire adjacent et une clinique (CheckNews). Ces données contredisent ou précisent les rapports officiels initiaux sur la zone ciblée par les frappes américaines.",
+      "pourquoi_ca_compte": "L'usage citoyen de l'imagerie satellite devient un contre-pouvoir essentiel pour documenter les conflits en temps réel.",
       "sources": [
         {
-          "nom": "Next",
-          "url": "https://next.ink/227265/hackerbot-claw-un-bot-exploite-github-actions-et-vide-le-depot-de-trivy/",
-          "type": "investigation",
+          "nom": "CheckNews",
+          "url": "https://www.liberation.fr/checknews/bombardement-de-lecole-de-minab-en-iran-ce-que-les-images-satellites-nous-apprennent-20260305_ZMYWRFXCNZBYRFLZSTOKWBAG3A/",
+          "type": "fact-check",
           "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         }
       ],
-      "lien": null
+      "lien": "https://www.liberation.fr/checknews/bombardement-de-lecole-de-minab-en-iran-ce-que-les-images-satellites-nous-apprennent-20260305_ZMYWRFXCNZBYRFLZSTOKWBAG3A/"
     },
     {
-      "titre": "Logiciels libres et mairies : un enjeu pour les municipales 2026",
-      "sous_section": "societe",
-      "resume": "À l'approche des élections municipales, le débat sur la souveraineté numérique locale s'intensifie. Des experts soulignent que le passage aux logiciels libres dans les administrations est possible mais nécessite une volonté politique forte (Next).",
-      "pourquoi_ca_compte": "Le choix des infrastructures numériques communales influence directement l'indépendance technologique des services publics vis-à-vis des géants de la tech.",
+      "titre": "Les Data Centers, nouveaux piliers du marché immobilier",
+      "sous_section": "business",
+      "resume": "Au salon MIPIM de Cannes, les data centers sont devenus la cible privilégiée des investisseurs immobiliers mondiaux (Le Monde). Malgré la crise du secteur, ces infrastructures technologiques portées par l'explosion de l'IA garantissent des rendements stables (BFM TV).",
+      "pourquoi_ca_compte": "La matérialité de l'IA (bâtiments, énergie) redessine l'aménagement du territoire et les flux financiers mondiaux.",
       "sources": [
         {
-          "nom": "Next",
-          "url": "https://next.ink/226555/municipales-passer-aux-logiciels-libres-cest-faisable-on-la-fait-mais/",
-          "type": "investigation",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/economie/article/2026/03/08/au-salon-international-de-l-immobilier-le-secteur-misait-sur-une-reprise-avant-la-guerre-au-moyen-orient_6670021_3234.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Manifestation à Londres contre l'expansion de l'IA",
-      "sous_section": "societe",
-      "resume": "Une marche citoyenne a été organisée à Londres pour protester contre l'omniprésence de l'intelligence artificielle dans la vie quotidienne et ses impacts sur l'emploi (Politis).",
-      "pourquoi_ca_compte": "Ce mouvement illustre une résistance sociale croissante face à une automatisation perçue comme subie plutôt que choisie.",
-      "sources": [
-        {
-          "nom": "Politis",
-          "url": "https://www.politis.fr/api/proxy/?articleID=450367",
-          "type": "investigation",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Le racisme en ligne pollue la campagne des municipales",
-      "sous_section": "societe",
-      "resume": "Plusieurs candidats aux élections municipales de 2026 dénoncent une déferlante de haine raciste sur les réseaux sociaux (Mediapart). Ces attaques ciblées visent à décourager la participation politique des personnes racisées (Politis).",
-      "pourquoi_ca_compte": "La modération défaillante des plateformes tech menace directement l'équité démocratique et la sécurité des citoyens engagés.",
-      "sources": [
-        {
-          "nom": "Politis",
-          "url": "https://www.politis.fr/api/proxy/?articleID=450267",
-          "type": "investigation",
-          "groupe_media": null
         },
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/030326/j-ai-failli-tout-abandonner-une-deferlante-raciste-s-abat-sur-les-municipales",
-          "type": "investigation",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/immobilier/nous-avons-ete-pris-de-court-le-28-fevrier-le-mipim-la-grand-messe-de-l-immobilier-mondial-s-ouvre-a-cannes-en-pleine-guerre-au-moyen-orient-mais-son-directeur-croit-a-un-rebond-du-secteur-en-2026_AV-202603090053.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Mediapart",
-            "proprietaire": "Fonds pour une presse libre",
-            "type_proprietaire": "fondation",
-            "orientation": "gauche"
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         }
       ],
-      "lien": null
+      "lien": "https://www.lemonde.fr/economie/article/2026/03/08/au-salon-international-de-l-immobilier-le-secteur-misait-sur-une-reprise-avant-la-guerre-au-moyen-orient_6670021_3234.html"
+    },
+    {
+      "titre": "L'IA redessine les règles des campagnes municipales",
+      "sous_section": "societe",
+      "resume": "L'intelligence artificielle bouscule les stratégies électorales pour 2026, forçant les autorités à s'adapter à une véritable « forêt vierge » technologique (Sud-Ouest). Les candidats utilisent l'IA pour le ciblage et la rédaction, changeant la nature du lien direct avec l'électeur.",
+      "pourquoi_ca_compte": "Le risque de manipulation de l'opinion à l'échelle locale est décuplé par l'absence de régulation spécifique sur l'IA électorale.",
+      "sources": [
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/elections/municipales/municipales-comment-l-intelligence-artificielle-bouscule-la-campagne-et-les-candidats-28066149.php",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": "https://www.sudouest.fr/elections/municipales/municipales-comment-l-intelligence-artificielle-bouscule-la-campagne-et-les-candidats-28066149.php"
+    },
+    {
+      "titre": "Le Royaume-Uni lance un service d'alerte numérique sur l'extrémisme",
+      "sous_section": "societe",
+      "resume": "Le gouvernement britannique va mettre en place un nouveau service de signalement pour le personnel universitaire afin de lutter contre l'extrémisme (The Guardian). Le régulateur aura également le pouvoir de fermer des associations jugées extrémistes.",
+      "pourquoi_ca_compte": "Cette mesure renforce la surveillance numérique dans les institutions éducatives, posant des questions sur la liberté académique.",
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/society/2026/mar/09/labour-to-set-up-new-extremism-whistleblowing-service-for-university-staff",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theguardian.com/society/2026/mar/09/labour-to-set-up-new-extremism-whistleblowing-service-for-university-staff"
+    },
+    {
+      "titre": "Suspension des traitements hormonaux pour mineurs par le NHS",
+      "sous_section": "societe",
+      "resume": "Le service de santé britannique (NHS) suspend les nouveaux référencements pour les traitements hormonaux chez les moins de 18 ans (The Guardian). Une revue approfondie a conclu que les preuves scientifiques ne soutenaient pas l'utilisation de ces traitements pour les 16-17 ans.",
+      "pourquoi_ca_compte": "Ce débat souligne la difficulté de légiférer sur des technologies médicales en évolution rapide touchant à l'identité des mineurs.",
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/society/2026/mar/09/nhs-england-pauses-new-referrals-masculinising-feminising-hormone-treatment-under-18s",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theguardian.com/society/2026/mar/09/nhs-england-pauses-new-referrals-masculinising-feminising-hormone-treatment-under-18s"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "Le virage militaire d'OpenAI et ses conséquences sur la confiance des usagers",
-    "contexte": "En février et mars 2026, OpenAI a officiellement acté sa collaboration avec le Pentagone pour des usages classifiés, rompant avec sa politique initiale de neutralité civile.",
+    "sujet": "Restrictions d'accès au contenu pour adultes en Australie",
+    "contexte": "L'Australie déploie une législation stricte de vérification d'âge pour les sites pornographiques, entraînant des réactions techniques massives.",
     "couvertures": [
       {
         "source": "BBC News",
-        "type": "mainstream",
-        "angle": "Sécurité et garanties",
+        "type": "État britannique",
+        "angle": "Légal et normatif",
         "ton": "factuel",
-        "url": "https://www.bbc.com/news/articles/c3rz1nd0egro?at_medium=RSS&at_campaign=rss",
-        "citation_cle": "Le groupe interdirait l'usage de ses systèmes pour espionner les Américains.",
+        "url": "https://www.bbc.com/news/articles/cwy92qpv424o?at_medium=RSS&at_campaign=rss",
+        "citation_cle": "Les sites doivent vérifier l'âge de tous les utilisateurs ou risquer des amendes d'un million de dollars.",
         "groupe_media": {
           "nom": "BBC",
           "proprietaire": "État britannique",
@@ -296,45 +256,31 @@
         }
       },
       {
-        "source": "MIT Technology Review",
-        "type": "institutionnel",
-        "angle": "Analyse structurelle et concurrence",
-        "ton": "critique",
-        "url": "https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/",
-        "citation_cle": "Le compromis d'OpenAI avec le Pentagone est ce qu'Anthropic redoutait.",
-        "groupe_media": {
-          "nom": "MIT (Massachusetts Institute of Technology)",
-          "proprietaire": "MIT",
-          "type_proprietaire": "fondation",
-          "orientation": "centre"
-        }
-      },
-      {
-        "source": "TechCrunch",
-        "type": "mainstream",
-        "angle": "Réaction du marché et des utilisateurs",
+        "source": "Reuters",
+        "type": "Famille Thomson-Reuters",
+        "angle": "Impact technologique et comportemental",
         "ton": "neutre",
-        "url": "https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/",
-        "citation_cle": "Les désinstallations de ChatGPT ont bondi de 295% après l'annonce de l'accord avec le DoD.",
+        "url": "https://www.reuters.com/world/asia-pacific/vpns-up-porn-websites-down-australia-brings-new-online-age-restrictions-2026-03-09/",
+        "citation_cle": "Les VPN figuraient parmi les applications les plus téléchargées en Australie alors que les distributeurs bloquent les utilisateurs.",
         "groupe_media": {
-          "nom": "Yahoo (AOL / Oath)",
-          "proprietaire": "Apollo Global Management",
-          "type_proprietaire": "milliardaire",
+          "nom": "Thomson Reuters",
+          "proprietaire": "Thomson Reuters Corporation",
+          "type_proprietaire": "famille",
           "orientation": "centre"
         }
       }
     ],
-    "analyse_coherence": "La couverture médiatique de cet événement révèle une tension entre les assurances de l'entreprise et la perception du public. Alors que la BBC se fait le relais des garde-fous promis par Sam Altman (non-espionnage des citoyens), le MIT Technology Review replace cette décision dans une guerre de doctrine entre OpenAI et ses concurrents comme Anthropic, soulignant une rupture éthique profonde. TechCrunch apporte une dimension empirique cruciale : la réaction des utilisateurs n'est pas seulement rhétorique, elle est massivement punitive. La chute brutale des téléchargements indique que la dimension 'éthique' est devenue un critère de choix technologique pour le grand public, au-delà de la simple performance technique.",
+    "analyse_coherence": "La couverture est cohérente sur les faits : la loi est entrée en vigueur et les sanctions sont lourdes. Cependant, Reuters se concentre sur le 'contournement' technique (VPN) et la réaction de l'industrie (blocage), là où la BBC reste sur une description institutionnelle de la loi. On observe un double standard potentiel : la protection des mineurs est mise en avant par les autorités, mais les sources tech soulignent que cela pousse les citoyens vers des outils d'anonymisation (VPN) qui peuvent être utilisés à d'autres fins, créant un effet de bord non anticipé par le législateur.",
     "biais_detectes": [
-      "Focalisation sur le marché américain (BBC, TechCrunch)",
-      "Biais pro-innovation tempéré par l'éthique (MIT)"
+      "Biais de légalisme (BBC) privilégiant la règle sur l'usage",
+      "Biais technocentré (Reuters) se focalisant sur le contournement par le VPN"
     ],
-    "ce_quil_faut_retenir": "L'IA n'est plus un outil neutre ; son intégration dans l'appareil militaire provoque une migration massive des utilisateurs vers des alternatives perçues comme plus protectrices des droits citoyens."
+    "ce_quil_faut_retenir": "La régulation du web par l'identité réelle se heurte à la culture technologique du contournement (VPN), transformant une mesure de protection en un défi de souveraineté numérique."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 193,
-    "nb_topics_ia": 60,
+    "nb_articles_ia": 120,
+    "nb_topics_ia": 39,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
