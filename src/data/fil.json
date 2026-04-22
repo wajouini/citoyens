@@ -1,8 +1,104 @@
 {
-  "date": "2026-04-21",
-  "genere_a": "2026-04-21T15:30:18.536Z",
-  "derniere_maj": "2026-04-21T15:30:18.536Z",
+  "date": "2026-04-22",
+  "genere_a": "2026-04-22T10:30:18.575Z",
+  "derniere_maj": "2026-04-22T10:30:18.575Z",
   "items": [
+    {
+      "heure": "12:15",
+      "titre": "Moyen-Orient : l’Iran affirme avoir saisi deux navires dans le détroit d’Ormuz",
+      "resume": "Les Gardiens de la Révolution ont annoncé l'interception de deux cargos alors que le blocus maritime se durcit malgré la trêve.",
+      "url": "https://www.lefigaro.fr/international/en-direct-guerre-moyen-orient-iran-etats-unis-israel-liban-pakistan-negociations-pourparlers-cessez-le-feu-donald-trump-benyamin-netanyahou-detroit-ormuz-20260422",
+      "rubrique": "international",
+      "source": "Le Figaro",
+      "source_url": "https://www.lefigaro.fr/international/en-direct-guerre-moyen-orient-iran-etats-unis-israel-liban-pakistan-negociations-pourparlers-cessez-le-feu-donald-trump-benyamin-netanyahou-detroit-ormuz-20260422",
+      "source_type": "mainstream",
+      "isoDate": "2026-04-22T10:15:00.000Z",
+      "is_flash": true
+    },
+    {
+      "heure": "11:50",
+      "titre": "Ukraine : l'UE tente de débloquer un prêt de 90 milliards d'euros à Kiev",
+      "resume": "Les États membres se réunissent ce mercredi pour lever le veto hongrois qui bloque ce financement depuis plusieurs mois.",
+      "url": "https://www.sudouest.fr/international/europe/guerre-en-ukraine-l-union-europeenne-espere-debloquer-un-pret-de-90-milliards-d-euros-a-kiev-28782543.php",
+      "rubrique": "international",
+      "source": "Sud-Ouest",
+      "source_url": "https://www.sudouest.fr/international/europe/guerre-en-ukraine-l-union-europeenne-espere-debloquer-un-pret-de-90-milliards-d-euros-a-kiev-28782543.php",
+      "source_type": "mainstream",
+      "isoDate": "2026-04-22T09:50:00.000Z",
+      "is_flash": true
+    },
+    {
+      "heure": "11:20",
+      "titre": "Cybersécurité : le hacker «HexDex» arrêté et placé en garde à vue en Vendée",
+      "resume": "Le jeune homme de 22 ans est soupçonné d'avoir mené des cyberattaques massives contre des fédérations sportives.",
+      "url": "https://www.lefigaro.fr/faits-divers/cybersecurite-un-hacker-soupconne-d-attaques-massives-a-ete-interpelle-en-vendee-20260422",
+      "rubrique": "tech",
+      "source": "Le Figaro",
+      "source_url": "https://www.lefigaro.fr/faits-divers/cybersecurite-un-hacker-soupconne-d-attaques-massives-a-ete-interpelle-en-vendee-20260422",
+      "source_type": "mainstream",
+      "isoDate": "2026-04-22T09:20:00.000Z",
+      "is_flash": true
+    },
+    {
+      "heure": "10:45",
+      "titre": "Carburants : le gouvernement annonce une aide de 180 millions d'euros pour mai",
+      "resume": "Le dispositif cible les travailleurs modestes parcourant plus de 8 000 km par an pour faire face à la hausse des prix.",
+      "url": "https://www.franceinfo.fr/economie/automobile/essence/carburants-le-montant-des-aides-annoncees-mardi-par-le-premier-ministre-est-evalue-a-180-millions-d-euros_7956467.html#xtor=RSS-3-[lestitres]",
+      "rubrique": "economie",
+      "source": "franceinfo",
+      "source_url": "https://www.franceinfo.fr/economie/automobile/essence/carburants-le-montant-des-aides-annoncees-mardi-par-le-premier-ministre-est-evalue-a-180-millions-d-euros_7956467.html#xtor=RSS-3-[lestitres]",
+      "groupe_media": {
+        "nom": "France Télévisions",
+        "proprietaire": "État français",
+        "type_proprietaire": "etat",
+        "orientation": "centre"
+      },
+      "source_type": "mainstream",
+      "isoDate": "2026-04-22T08:45:00.000Z",
+      "is_flash": true
+    },
+    {
+      "heure": "10:10",
+      "titre": "Archéologie : un fragment de « L’Iliade » d’Homère découvert dans une momie",
+      "resume": "Ce manuscrit vieux de 1 600 ans a été retrouvé lors de fouilles au sud du Caire, à l'intérieur d'une momie de l'époque romaine.",
+      "url": "https://www.sudouest.fr/culture/histoire/decouverte-exceptionnelle-d-un-fragment-de-l-iliade-d-homere-place-a-l-interieur-d-une-momie-egyptienne-28782661.php",
+      "rubrique": "science",
+      "source": "Sud-Ouest",
+      "source_url": "https://www.sudouest.fr/culture/histoire/decouverte-exceptionnelle-d-un-fragment-de-l-iliade-d-homere-place-a-l-interieur-d-une-momie-egyptienne-28782661.php",
+      "source_type": "mainstream",
+      "isoDate": "2026-04-22T08:10:00.000Z",
+      "is_flash": true
+    },
+    {
+      "heure": "09:30",
+      "titre": "IA : Meta va enregistrer l'activité clavier et souris de ses salariés",
+      "resume": "L'entreprise impose ce suivi obligatoire pour collecter des données d'entraînement destinées à ses futurs modèles d'IA.",
+      "url": "https://www.bfmtv.com/tech/actualites/reseaux-sociaux/pour-pallier-le-manque-de-donnees-et-entrainer-ses-modeles-d-ia-meta-va-enregistrer-les-actions-de-ses-salaries-sur-leur-souris-et-clavier-il-n-est-pas-possible-de-s-y-soustraire_AV-202604220396.html",
+      "rubrique": "ia",
+      "source": "BFM TV",
+      "source_url": "https://www.bfmtv.com/tech/actualites/reseaux-sociaux/pour-pallier-le-manque-de-donnees-et-entrainer-ses-modeles-d-ia-meta-va-enregistrer-les-actions-de-ses-salaries-sur-leur-souris-et-clavier-il-n-est-pas-possible-de-s-y-soustraire_AV-202604220396.html",
+      "groupe_media": {
+        "nom": "CMA CGM",
+        "proprietaire": "Rodolphe Saadé",
+        "type_proprietaire": "milliardaire",
+        "orientation": "centre-droit"
+      },
+      "source_type": "mainstream",
+      "isoDate": "2026-04-22T07:30:00.000Z",
+      "is_flash": true
+    },
+    {
+      "heure": "08:50",
+      "titre": "ONU : ouverture des auditions pour désigner le prochain Secrétaire général",
+      "resume": "Quatre candidats sont en lice pour succéder à Antonio Guterres et passent leur « grand oral » à partir d'aujourd'hui.",
+      "url": "https://www.ouest-france.fr/monde/organismes-internationaux/onu/un-grand-oral-pour-le-prochain-secretaire-general-de-lonu-1f6a02c4-3d61-11f1-9f14-5006fd1ed889?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "rubrique": "international",
+      "source": "Ouest-France",
+      "source_url": "https://www.ouest-france.fr/monde/organismes-internationaux/onu/un-grand-oral-pour-le-prochain-secretaire-general-de-lonu-1f6a02c4-3d61-11f1-9f14-5006fd1ed889?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+      "source_type": "mainstream",
+      "isoDate": "2026-04-22T06:50:00.000Z",
+      "is_flash": true
+    },
     {
       "heure": "17:30",
       "titre": "Carburants : Sébastien Lecornu doit annoncer des mesures face à la hausse des prix",
@@ -872,118 +968,10 @@
       "source_type": "etranger",
       "isoDate": "2026-04-17T10:15:00.000Z",
       "is_flash": true
-    },
-    {
-      "heure": "11:50",
-      "titre": "Crise chez Grasset : Emmanuel Macron défend le « pluralisme éditorial »",
-      "resume": "En visite au Festival du livre de Paris, le président a réagi au départ d'Olivier Nora et à la fronde de nombreux auteurs de la maison d'édition.",
-      "url": "https://www.lefigaro.fr/politique/seisme-chez-grasset-after-le-depart-d-olivier-nora-emmanuel-macron-juge-tres-important-de-defendre-le-pluralisme-editorial-20260417",
-      "rubrique": "societe",
-      "source": "Le Figaro",
-      "source_url": null,
-      "source_type": "mainstream",
-      "isoDate": "2026-04-17T09:50:00.000Z",
-      "is_flash": false
-    },
-    {
-      "heure": "11:20",
-      "titre": "Électromobilité : l'État vise 22 000 bornes de recharge sur les autoroutes d'ici 2035",
-      "resume": "Le gouvernement prévoit de quintupler le nombre actuel de bornes pour couvrir la quasi-totalité des aires de repos et de service.",
-      "url": "https://www.bfmtv.com/economie/entreprises/transports/passer-de-4-500-a-22-000-le-gouvernement-veut-mettre-des-bornes-de-recharge-pour-voitures-electriques-sur-presque-toutes-les-aires-de-repos-et-de-service-d-ici-2035_AD-202604170485.html",
-      "rubrique": "economie",
-      "source": "BFM TV",
-      "source_url": "https://www.bfmtv.com/economie/entreprises/transports/passer-de-4-500-a-22-000-le-gouvernement-veut-mettre-des-bornes-de-recharge-pour-voitures-electriques-sur-presque-toutes-les-aires-de-repos-et-de-service-d-ici-2035_AD-202604170485.html",
-      "groupe_media": {
-        "nom": "CMA CGM",
-        "proprietaire": "Rodolphe Saadé",
-        "type_proprietaire": "milliardaire",
-        "orientation": "centre-droit"
-      },
-      "source_type": "mainstream",
-      "isoDate": "2026-04-17T09:20:00.000Z",
-      "is_flash": true
-    },
-    {
-      "heure": "10:45",
-      "titre": "Mondial 2026 : la FIFA impose des pauses fraîcheur pour toutes les rencontres",
-      "resume": "Le règlement prévoit désormais des arrêts de jeu systématiques pour l'hydratation des joueurs, indépendamment de la température extérieure.",
-      "url": "https://www.rfi.fr/fr/sports/20260417-mondial-2026-la-pause-fra%C3%AEcheur-impos%C3%A9e-pour-toutes-les-rencontres",
-      "rubrique": "international",
-      "source": "RFI",
-      "source_url": "https://www.rfi.fr/fr/sports/20260417-mondial-2026-la-pause-fra%C3%AEcheur-impos%C3%A9e-pour-toutes-les-rencontres",
-      "groupe_media": {
-        "nom": "France Médias Monde",
-        "proprietaire": "État français",
-        "type_proprietaire": "etat",
-        "orientation": "centre"
-      },
-      "source_type": "mainstream",
-      "isoDate": "2026-04-17T08:45:00.000Z",
-      "is_flash": true
-    },
-    {
-      "heure": "09:30",
-      "titre": "Santé : un spray nasal expérimental contre le déclin cognitif lié à Alzheimer",
-      "resume": "Des chercheurs américains ont développé un dispositif capable de réduire l'inflammation cérébrale et de freiner la perte des fonctions cognitives.",
-      "url": "https://www.futura-sciences.com/sante/actualites/maladie-alzheimer-demence-simple-spray-nasal-serait-capable-freiner-voire-inverser-declin-cognitif-133788/#xtor%3DRSS-8",
-      "rubrique": "science",
-      "source": "Futura Sciences",
-      "source_url": "https://www.futura-sciences.com/sante/actualites/maladie-alzheimer-demence-simple-spray-nasal-serait-capable-freiner-voire-inverser-declin-cognitif-133788/#xtor%3DRSS-8",
-      "groupe_media": {
-        "nom": "Futura",
-        "proprietaire": "Futura (indépendant)",
-        "type_proprietaire": "independant",
-        "orientation": "centre"
-      },
-      "source_type": "mainstream",
-      "isoDate": "2026-04-17T07:30:00.000Z",
-      "is_flash": true
-    },
-    {
-      "heure": "08:15",
-      "titre": "La France maintient sa place de première destination muséale mondiale en 2025",
-      "resume": "Le classement annuel de « The Art Newspaper » confirme la domination des musées français en termes de fréquentation internationale.",
-      "url": "https://www.ouest-france.fr/tourisme/le-palmares-des-musees-les-plus-frequentes-au-monde-en-2025-la-france-toujours-en-tete-2d4e5fce-39a7-11f1-87fb-8dfff40b3b13?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "rubrique": "culture",
-      "source": "Ouest-France",
-      "source_url": "https://www.ouest-france.fr/tourisme/le-palmares-des-musees-les-plus-frequentes-au-monde-en-2025-la-france-toujours-en-tete-2d4e5fce-39a7-11f1-87fb-8dfff40b3b13?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-      "source_type": "mainstream",
-      "isoDate": "2026-04-17T06:15:00.000Z",
-      "is_flash": true
-    },
-    {
-      "heure": "17:30",
-      "titre": "Moyen-Orient : le président libanais refuse tout contact direct avec Benyamin Nétanyahou",
-      "resume": "Joseph Aoun a décliné la proposition de Donald Trump malgré les efforts américains pour négocier un cessez-le-feu.",
-      "url": "https://www.lemonde.fr/international/live/2026/04/16/en-direct-guerre-en-iran-et-au-liban-le-president-du-liban-joseph-aoun-refuse-de-s-entretenir-avec-benyamin-netanyahou_6679867_3210.html",
-      "rubrique": "international",
-      "source": "Le Monde",
-      "source_url": "https://www.lemonde.fr/international/live/2026/04/16/en-direct-guerre-en-iran-et-au-liban-le-president-du-liban-joseph-aoun-refuse-de-s-entretenir-avec-benyamin-netanyahou_6679867_3210.html",
-      "groupe_media": {
-        "nom": "Groupe Le Monde",
-        "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-        "type_proprietaire": "milliardaire",
-        "orientation": "centre-droit"
-      },
-      "source_type": "mainstream",
-      "isoDate": "2026-04-16T15:30:00.000Z",
-      "is_flash": true
-    },
-    {
-      "heure": "17:15",
-      "titre": "Loi « Philippine » : l'Assemblée nationale s'apprête à voter l'allongement de la rétention",
-      "resume": "Le texte prévoit d'étendre la durée de rétention des étrangers sous OQTF jugés dangereux, avec un vote prévu le 5 mai.",
-      "url": "https://www.lefigaro.fr/politique/loi-philippine-a-l-assemblee-l-allongement-de-la-retention-des-etrangers-sous-oqtf-juges-dangereux-bientot-actee-20260416",
-      "rubrique": "politique",
-      "source": "Le Figaro",
-      "source_url": "https://www.lefigaro.fr/politique/loi-philippine-a-l-assemblee-l-allongement-de-la-retention-des-etrangers-sous-oqtf-juges-dangereux-bientot-actee-20260416",
-      "source_type": "mainstream",
-      "isoDate": "2026-04-16T15:15:00.000Z",
-      "is_flash": true
     }
   ],
   "meta": {
-    "nb_articles_analyses": 745,
+    "nb_articles_analyses": 805,
     "nb_mises_a_jour": 1,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
