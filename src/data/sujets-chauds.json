@@ -1,47 +1,103 @@
 {
-  "date": "2026-03-09",
-  "genere_a": "2026-03-09T05:36:24.714Z",
+  "date": "2026-05-24",
+  "genere_a": "2026-05-24T06:47:07.332Z",
   "sujets_actifs": [
     {
-      "titre": "Mojtaba Khamenei désigné nouveau Guide suprême d'Iran",
-      "slug": "mojtaba-khamenei-nouveau-guide-supreme-iran",
+      "titre": "Donald Trump annonce un accord de paix imminent entre les États-Unis et l'Iran",
+      "slug": "accord-paix-usa-iran-trump-2026",
       "rubrique": "international",
       "tldr": [
-        "Mojtaba Khamenei succède à son père Ali Khamenei, tué le 28 février.",
-        "Désignation par l'Assemblée des experts dans un contexte de guerre ouverte.",
-        "Donald Trump qualifie ce choix d'« inacceptable », menaçant d'une escalade."
+        "Accord « largement négocié » selon Trump pour mettre fin au conflit débuté en 2026.",
+        "Négociations sur la réouverture du détroit d'Ormuz et le transfert d'uranium enrichi.",
+        "Contradictions : Téhéran dément tout abandon du contrôle du détroit d'Ormuz."
       ],
-      "resume": "L'Assemblée des experts iraniens a officiellement désigné Mojtaba Khamenei, 56 ans, comme nouveau Guide suprême de la République islamique. Cette nomination intervient dix jours après la mort de son père, Ali Khamenei, lors de l'offensive initiale menée par les États-Unis et Israël. Considéré comme un ultra-conservateur proche des Gardiens de la révolution, Mojtaba Khamenei prend la tête d'un pays dont les infrastructures militaires sont pilonnées quotidiennement. Si le régime cherche ainsi à assurer sa survie par la continuité dynastique, l'opposition craint un durcissement de la répression interne, tandis que Washington et Tel-Aviv y voient une provocation justifiant la poursuite de l'opération « Epic Fury ».",
-      "contexte_historique": "C'est la première fois depuis la révolution de 1979 que le pouvoir suprême devient héréditaire en Iran, rompant avec le principe de sélection religieuse théorique (Le Monde). Historiquement, Mojtaba Khamenei gérait déjà l'appareil sécuritaire de son père depuis les manifestations de 2009, réprimées dans le sang (NYT World).",
+      "resume": "Le président américain Donald Trump a annoncé le 23 mai 2026 qu'un accord de paix avec l'Iran était en voie de finalisation après des mois d'hostilités armées. Les discussions, médiées par le Pakistan, porteraient sur la réouverture du détroit d'Ormuz, vital pour le commerce pétrolier mondial, et sur l'engagement de l'Iran à remettre son uranium enrichi (NYT World, The Guardian). Cependant, des signaux contradictoires émergent : alors que Washington évoque une percée majeure, les médias officiels iraniens affirment que le contrôle du détroit restera sous souveraineté de Téhéran (BFM TV). Benjamin Netanyahu a également été consulté séparément par Trump, soulignant la complexité régionale de ce pacte qui exclurait pour l'instant le volet nucléaire global selon certaines sources iraniennes.",
+      "contexte_historique": "Le détroit d'Ormuz est un point de passage stratégique où transite 20% de la consommation mondiale de pétrole liquide. Les tensions y sont récurrentes depuis la révolution iranienne de 1979, mais ont atteint un paroxysme en mars 2026 avec l'opération américaine « Epic Fury » faisant suite à des frappes iraniennes sur des infrastructures gazière qataries (Archives Citoyens.ai).",
       "implications": [
-        "Consolidation du pouvoir des Gardiens de la révolution sur l'appareil d'État.",
-        "Risque accru d'une riposte iranienne directe contre Israël pour légitimer le nouveau Guide."
+        "Baisse attendue des cours mondiaux du pétrole et du carburant à la pompe si le détroit est effectivement rouvert.",
+        "Risque de fronde interne aux États-Unis parmi les partisans de la ligne dure de Trump opposés à toute concession envers Téhéran."
       ],
       "chronologie": [
         {
-          "date": "2026-03-09",
-          "texte": "L'armée idéologique iranienne déclare son allégeance à Mojtaba Khamenei.",
-          "source": "Le Figaro"
+          "date": "2026-05-24",
+          "texte": "Le Pakistan confirme espérer accueillir une session finale de négociations « très bientôt ».",
+          "source": "France 24 FR"
         },
         {
-          "date": "2026-03-08",
-          "texte": "L'Assemblée des experts annonce officiellement la nomination du nouveau Guide.",
+          "date": "2026-05-23",
+          "texte": "Trump annonce sur Truth Social que l'accord est « largement négocié ».",
           "source": "Courrier international"
         },
         {
-          "date": "2026-02-28",
-          "texte": "Ali Khamenei est tué lors de frappes aériennes massives sur Téhéran.",
-          "source": "Le Monde"
+          "date": "2026-03-19",
+          "texte": "Escalade majeure : l'Iran frappe le gaz qatarien, entraînant une riposte américaine.",
+          "source": "Archives Citoyens.ai"
+        },
+        {
+          "date": "2026-03-03",
+          "texte": "Lancement de l'opération « Epic Fury » par l'administration Trump.",
+          "source": "Archives Citoyens.ai"
         }
       ],
       "couvertures": [
         {
-          "source": "The Guardian",
+          "source": "Al Jazeera",
           "type": "etranger",
-          "angle": "Souligne que ce choix dynastique risque de provoquer une escalade majeure avec Donald Trump.",
-          "ton": "alarmiste",
-          "url": "https://www.theguardian.com/world/2026/mar/08/ali-khameneis-son-mojtaba-chosen-as-irans-new-supreme-leader",
-          "citation_cle": "Donald Trump a déjà qualifié Mojtaba Khamenei de choix inacceptable.",
+          "angle": "Focus sur les détails techniques de la position iranienne et les garanties de souveraineté demandées par Téhéran.",
+          "ton": "factuel",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/iranian-sources-lay-out-iran-us-deal-details?traffic_source=rss",
+          "citation_cle": "Les sources iraniennes précisent que le dossier nucléaire n'est pas inclus dans ce cadre initial.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "source": "The New York Times",
+          "type": "etranger",
+          "angle": "Analyse du scepticisme des officiels américains face aux annonces précipitées de Trump.",
+          "ton": "critique",
+          "url": "https://www.nytimes.com/2026/05/23/world/middleeast/iran-peace-deal-trump-proposal.html",
+          "citation_cle": "Beaucoup de questions, peu de détails dans la dernière proposition de paix.",
+          "groupe_media": null
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Guerre au Moyen-Orient: Donald Trump s'est entretenu séparément avec Benjamin Netanyahu au sujet d’un potentiel accord avec l’Iran",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-au-moyen-orient-donald-trump-s-est-entretenu-separement-avec-benjamin-netanyahu-au-sujet-d-un-potentiel-accord-avec-l-iran_VN-202605240058.html",
+          "citation_cle": "L'Iran et les États-Unis ont évoqué ce samedi 23 mai une accélération des négociations pour mettre fin à la guerre. Selo",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "L'Iran acceptera-t-il réellement de céder son stock d'uranium enrichi ?",
+        "Israël soutiendra-t-il un accord qui ne démantèle pas les capacités nucléaires iraniennes ?"
+      ],
+      "sources": [
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/05/23/world/middleeast/iran-peace-deal-trump-proposal.html",
+          "type": "presse internationale",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/may/23/trump-ceasefire-iran-strait-of-hormuz",
+          "type": "presse internationale",
           "groupe_media": {
             "nom": "Scott Trust",
             "proprietaire": "Scott Trust Limited",
@@ -50,76 +106,278 @@
           }
         },
         {
-          "source": "NYT World",
-          "type": "etranger",
-          "angle": "Analyse la célébration de cette nomination par l'establishment sécuritaire iranien.",
-          "ton": "factuel",
-          "url": "https://www.nytimes.com/2026/03/08/world/middleeast/iran-mojtaba-khamenei-supreme-leader-reactions.html",
-          "citation_cle": "Les opposants craignent que le nouveau guide ne règne d'une main de fer comme son père.",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/replay-emissions/bfm-grand-soir/video-ormuz-rouvert-les-medias-iraniens-dementent-23-05_VN-202605230400.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/moyen-orient/20260524-en-direct-moyen-orient-iran-donald-trump-etats-unis-negociations-accord-detroit-dormuz-pakistan",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/geopolitique-trump-assure-qu-un-accord-avec-l-iran-est-en-voie-de-finalisation_244349",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/iranian-sources-lay-out-iran-us-deal-details?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-03-01"
+    },
+    {
+      "titre": "Fusillade à la Maison Blanche : un tireur abattu par le Secret Service",
+      "slug": "fusillade-maison-blanche-mai-2026",
+      "rubrique": "international",
+      "tldr": [
+        "Un homme a ouvert le feu sur un poste de sécurité le 23 mai au soir.",
+        "Le suspect, connu des services, est décédé ; un passant a été blessé.",
+        "Donald Trump était présent dans le bâtiment au moment des faits."
+      ],
+      "resume": "Une fusillade a éclaté aux abords immédiats de la Maison Blanche le samedi 23 mai 2026, provoquant un confinement immédiat du complexe présidentiel. Un individu d'une vingtaine d'années a ouvert le feu sur des agents du Secret Service avant d'être mortellement blessé par des tirs de riposte (RFI, BBC News). Le suspect, qui souffrait de troubles mentaux documentés, était déjà connu des autorités (Le Figaro). Donald Trump se trouvait à l'intérieur de la résidence au moment de l'attaque. Un passant a également été blessé lors de l'échange de tirs mais ses jours ne sont pas en danger.",
+      "contexte_historique": "Il s'agit de la quatrième faille de sécurité majeure ou tentative d'assassinat présumée visant Donald Trump depuis son retour au pouvoir en janvier 2025 (BFM TV). La sécurité autour du 1600 Pennsylvania Avenue a été drastiquement renforcée depuis 2024 après plusieurs intrusions sur la pelouse nord.",
+      "implications": [
+        "Durcissement probable des périmètres de sécurité dans le centre de Washington D.C.",
+        "Débat renouvelé sur la prise en charge des individus instables connus des services de renseignement."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-05-24",
+          "texte": "Le FBI identifie le tireur comme un individu souffrant de délires mystiques.",
+          "source": "Le Figaro"
+        },
+        {
+          "date": "2026-05-23",
+          "texte": "Échange de tirs à 18h30 heure locale devant un point de contrôle du Secret Service.",
+          "source": "France 24 FR"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "BBC News",
+          "type": "etranger",
+          "angle": "Récit factuel de l'incident et focus sur les protocoles du Secret Service.",
+          "ton": "neutre",
+          "url": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "Le suspect s'est approché d'un poste de contrôle et a ouvert le feu sans sommation.",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
           "source": "Le Figaro",
           "type": "mainstream",
-          "angle": "EN DIRECT - Guerre au Moyen-Orient : Téhéran lance ses premiers missiles vers Israël après l’élection du nouveau guide suprême, nouveaux combats au Liban",
+          "angle": "Focus sur le profil psychologique du tireur et ses antécédents.",
           "ton": "factuel",
-          "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-des-combats-en-cours-au-liban-apres-l-atterrissage-de-forces-israeliennes-20260309",
-          "citation_cle": "L’armée idéologique de la République islamique d’Iran a déclaré, dans la nuit de dimanche à lundi, son allégeance à son ",
+          "url": "https://www.lefigaro.fr/international/en-direct-des-tirs-aux-abords-de-la-maison-blanche-sement-la-panique-a-washington-20260524",
+          "citation_cle": "Le tireur disait se prendre pour Jésus Christ et était connu des services secrets.",
           "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "La capacité réelle du nouveau Guide à maintenir l'unité des différentes factions du régime sous les bombes.",
-        "La position de la Chine et de la Russie face à ce changement de leadership en pleine guerre."
-      ],
-      "sources": [
+        },
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/live/2026/03/09/en-direct-guerre-au-moyen-orient-mojtaba-khamenei-designe-guide-supreme-de-nouvelles-frappes-en-iran-en-israel-au-liban-et-a-travers-le-golfe_6669855_3210.html",
+          "source": "BFM TV",
           "type": "mainstream",
+          "angle": "États-Unis: coups de feu près de la Maison Blanche, le tireur abattu, un passant blessé",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-etats-unis-coups-de-feu-pres-de-la-maison-blanche-le-tireur-abattu-un-passant-blesse_VN-202605240056.html",
+          "citation_cle": "Le président américain Donald Trump a déjà été visé par trois tentatives d'assassinat présumées au cours des deux derniè",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
-        },
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Comment l'individu a-t-il pu s'approcher aussi près avec une arme malgré le dispositif actuel ?",
+        "Y a-t-il eu une défaillance dans le suivi psychiatrique du suspect par les services fédéraux ?"
+      ],
+      "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/mar/08/ali-khameneis-son-mojtaba-chosen-as-irans-new-supreme-leader",
-          "type": "etranger",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260524-%C3%A9tats-unis-%C3%A0-washington-des-coups-de-feu-entendus-proche-de-la-maison-blanche",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/03/08/world/middleeast/iran-mojtaba-khamenei-supreme-leader-reactions.html",
+          "nom": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
           "type": "etranger",
           "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
           "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-des-combats-en-cours-au-liban-apres-l-atterrissage-de-forces-israeliennes-20260309",
+          "url": "https://www.lefigaro.fr/international/en-direct-des-tirs-aux-abords-de-la-maison-blanche-sement-la-panique-a-washington-20260524",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/am%C3%A9riques/20260524-un-tireur-abattu-apr%C3%A8s-avoir-ouvert-le-feu-sur-des-agents-du-secret-service-%C3%A0-la-maison-blanche",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/economie/video-hausse-des-prix-du-carburant-le-cirque-arlette-grusse-subit-les-consequences-du-conflit-au-moyen-orient_VN-202605240059.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-05-23"
+    },
+    {
+      "titre": "Festival de Cannes 2026 : Cristian Mungiu sacré pour la deuxième fois",
+      "slug": "palme-or-cannes-2026-mungiu",
+      "rubrique": "culture",
+      "tldr": [
+        "Le réalisateur roumain remporte la Palme d'or pour son film « Fjord ».",
+        "Un palmarès jugé très politique et tourné vers l'Europe de l'Est.",
+        "Virginie Efira récompensée par le prix d'interprétation féminine."
+      ],
+      "resume": "Le 79e Festival de Cannes s'est clôturé le 23 mai 2026 par le sacre du Roumain Cristian Mungiu, qui décroche sa deuxième Palme d'or pour « Fjord », un film explorant les tensions morales et sociales contemporaines (Le Monde, L'Obs). Le jury, présidé par Park Chan-wook, a rendu un palmarès marqué par une forte tonalité politique, récompensant également le Russe Kirill Serebrennikov (Grand Prix pour « Minotaure ») dans un contexte de tensions géopolitiques persistantes. La France est à l'honneur avec le prix d'interprétation féminine décerné à Virginie Efira (BFM TV).",
+      "contexte_historique": "Cristian Mungiu avait déjà remporté la Palme d'or en 2007 pour « 4 mois, 3 semaines, 2 jours ». Ce doublé le fait entrer dans le cercle très fermé des cinéastes multi-palmés (Francis Ford Coppola, Ken Loach, les frères Dardenne). Le festival 2026 s'est tenu sous une surveillance accrue en raison des conflits internationaux.",
+      "implications": [
+        "Confirmation de la domination du cinéma d'auteur d'Europe de l'Est dans les circuits de festivals internationaux.",
+        "Relance de la fréquentation des salles pour les films exigeants après une année 2025 difficile."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-05-23",
+          "texte": "Cérémonie de clôture et annonce du palmarès par Park Chan-wook.",
+          "source": "Le Monde"
+        },
+        {
+          "date": "2026-05-13",
+          "texte": "Ouverture du 79e Festival de Cannes.",
+          "source": "BFM TV"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "L'Obs",
+          "type": "mainstream",
+          "angle": "Analyse d'un palmarès « complètement à l'Est » et éminemment politique.",
+          "ton": "engagé",
+          "url": "https://www.nouvelobs.com/cinema/20260524.OBS115190/festival-de-cannes-2026-une-seconde-palme-pour-cristian-mungiu-et-un-palmares-completement-a-l-est.html",
+          "citation_cle": "Si le palmarès n’est pas franchement celui dont on rêvait, il a le mérite de la cohérence.",
+          "groupe_media": null
+        },
+        {
+          "source": "Courrier international",
+          "type": "etranger",
+          "angle": "Revue de presse étrangère soulignant le caractère « eurocentré » des choix du jury.",
+          "ton": "neutre",
+          "url": "https://www.courrierinternational.com/article/cinema-cannes-fjord-du-roumain-cristian-mungiu-palme-d-or-d-un-palmares-engage-et-eurocentre_244351",
+          "citation_cle": "Un palmarès engagé qui ne fait pas l'unanimité dans la presse mondiale.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Festival de Cannes : Cristian Mungiu remporte la Palme d’or pour « Fjord » lors d’une cérémonie de clôture assombrie par l’état du monde",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/culture/article/2026/05/24/festival-de-cannes-cristian-mungiu-remporte-la-palme-d-or-pour-fjord-lors-d-une-ceremonie-de-cloture-assombrie-par-l-etat-du-monde_6692821_3246.html",
+          "citation_cle": "Le jury, présidé par le Coréen Park Chan-wook, a récompensé, samedi 23 mai, le cinéaste roumain, qui reçoit la Palme d’o",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quel sera l'accueil du public pour un film décrit comme « sans compromis avec la complexité du monde » ?",
+        "Comment les autorités russes réagiront-elles au Grand Prix décerné à l'exilé Serebrennikov ?"
+      ],
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/culture/article/2026/05/24/festival-de-cannes-cristian-mungiu-remporte-la-palme-d-or-pour-fjord-lors-d-une-ceremonie-de-cloture-assombrie-par-l-etat-du-monde_6692821_3246.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/culture/cinema-series/video-cristian-mungiu-virginie-efira-decouvrez-le-palmares-du-festival-de-cannes-2026_VN-202605230404.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/cinema/20260524.OBS115190/festival-de-cannes-2026-une-seconde-palme-pour-cristian-mungiu-et-un-palmares-completement-a-l-est.html",
           "type": "mainstream",
           "groupe_media": null
         },
         {
           "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/moyenne-orient-l-iran-defie-trump-en-nommant-le-fils-de-khamenei-comme-nouveau-guide-supreme_241464",
+          "url": "https://www.courrierinternational.com/article/cinema-cannes-fjord-du-roumain-cristian-mungiu-palme-d-or-d-un-palmares-engage-et-eurocentre_244351",
           "type": "etranger",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -129,264 +387,48 @@
           }
         }
       ],
-      "premiere_apparition": "2026-03-01"
-    },
-    {
-      "titre": "Flambée historique des cours du pétrole au-dessus de 115 dollars",
-      "slug": "flambee-petrole-guerre-iran-115-dollars",
-      "rubrique": "economie",
-      "tldr": [
-        "Le baril de pétrole dépasse les 115$ (+25% en une séance).",
-        "Blocage persistant du détroit d'Ormuz par les forces iraniennes.",
-        "Donald Trump minimise l'impact, évoquant un 'petit prix à payer'."
-      ],
-      "resume": "La poursuite du conflit en Iran et l'incertitude politique liée à la succession d'Ali Khamenei ont provoqué un choc pétrolier mondial ce lundi. Le prix du baril a bondi de 25% pour dépasser les 115 dollars, un niveau inédit depuis l'invasion de l'Ukraine en 2022. Les marchés réagissent principalement au blocage du détroit d'Ormuz, point de passage de 20% de la consommation mondiale de brut. En France, le prix du gazole frôle les 2 euros à la pompe, provoquant des tensions sociales immédiates. Si les démocrates américains s'alarment des conséquences économiques, l'administration Trump maintient que l'anéantissement du régime iranien prime sur la stabilité des marchés.",
-      "contexte_historique": "Le précédent record récent datait de l'été 2022 (120 dollars) suite aux sanctions contre la Russie (France 24 FR). Historiquement, chaque crise majeure dans le détroit d'Ormuz (1980-1988, 2019) a entraîné une volatilité extrême des prix de l'énergie.",
-      "implications": [
-        "Risque de récession mondiale si les prix se maintiennent au-dessus de 100$ durablement.",
-        "Accélération de l'inflation sur les produits de grande consommation par répercussion des coûts de transport."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-03-09",
-          "texte": "Le baril atteint 115 dollars à l'ouverture des bourses asiatiques.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-03-08",
-          "texte": "Donald Trump affirme que la hausse est un 'petit prix à payer'.",
-          "source": "The Guardian"
-        },
-        {
-          "date": "2026-03-01",
-          "texte": "L'Iran menace de fermer totalement le détroit d'Ormuz.",
-          "source": "RFI"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "France 24 FR",
-          "type": "mainstream",
-          "angle": "Met en perspective la hausse actuelle avec le pic de 2022 après l'invasion de l'Ukraine.",
-          "ton": "factuel",
-          "url": "https://www.france24.com/fr/%C3%A9co-tech/20260309-flamb%C3%A9e-historique-du-p%C3%A9trole-la-guerre-au-moyen-orient-fait-s-envoler-les-cours-de-30",
-          "citation_cle": "Le prix du baril a atteint les 120 dollars lundi [en séance], son plus haut niveau depuis l'été 2022.",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "NYT World",
-          "type": "etranger",
-          "angle": "Analyse l'impact politique aux États-Unis à l'approche des élections de mi-mandat.",
-          "ton": "neutre",
-          "url": "https://www.nytimes.com/2026/03/08/world/middleeast/democrats-republicans-trump-oil-prices-midterms.html",
-          "citation_cle": "Les démocrates saisissent l'envolée des prix pour mettre les républicains sur la défensive.",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Envolée historique du pétrole ce lundi qui dépasse les 115 dollars (+25%) tandis que les bourses asiatiques dévissent",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/economie/entreprises/energie/envolee-historique-du-petrole-ce-lundi-qui-depasse-les-115-dollars-tandis-que-les-bourses-asiatiques-devissent_AD-202603090081.html",
-          "citation_cle": "UIne flambée sans précédent provoquée par la prolongation du conflit au Moyen-Orient et le blocage persistant du détroit",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "La durée réelle du blocage du détroit d'Ormuz par les mines et drones iraniens.",
-        "L'éventuelle décision de l'OPEP+ d'augmenter massivement la production pour compenser les pertes."
-      ],
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/economie/entreprises/energie/envolee-historique-du-petrole-ce-lundi-qui-depasse-les-115-dollars-tandis-que-les-bourses-asiatiques-devissent_AD-202603090081.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/%C3%A9co-tech/20260309-flamb%C3%A9e-historique-du-p%C3%A9trole-la-guerre-au-moyen-orient-fait-s-envoler-les-cours-de-30",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/business/2026/mar/09/iran-war-drives-oil-price-above-100-a-barrel-for-first-time-since-2022",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/03/08/world/middleeast/democrats-republicans-trump-oil-prices-midterms.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/europe/20260309-guerre-en-iran-la-france-et-l-europe-face-%C3%A0-une-menace-hybride-de-la-r%C3%A9publique-islamique",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-03-01"
-    },
-    {
-      "titre": "La gauche de Gustavo Petro s'impose aux législatives en Colombie",
-      "slug": "legislatives-colombie-victoire-gauche-petro",
-      "rubrique": "international",
-      "tldr": [
-        "La coalition 'Pacte Historique' devient la première force au Congrès.",
-        "Scrutin considéré comme un test majeur avant la présidentielle.",
-        "Participation élevée malgré un climat de polarisation extrême."
-      ],
-      "resume": "La coalition de gauche menée par le président Gustavo Petro a remporté les élections législatives de dimanche en Colombie. Selon les résultats préliminaires, le Pacte Historique s'impose comme la force dominante au Congrès, devançant l'opposition de droite. Ce résultat valide la politique de réformes sociales et environnementales engagée par Petro depuis 2022, malgré une opposition farouche des milieux économiques traditionnels. Cette victoire au Congrès est perçue comme un tremplin décisif pour la gauche en vue de l'élection présidentielle à venir, dans un pays historiquement dominé par les élites conservatrices et libérales.",
-      "contexte_historique": "La Colombie a connu un tournant historique en 2022 avec l'élection du premier président de gauche de son histoire (France 24 FR). Depuis, le pays tente de mettre en œuvre les accords de paix de 2016 tout en gérant une transition énergétique contestée par le secteur minier.",
-      "implications": [
-        "Capacité accrue pour le gouvernement de faire voter ses réformes sur la santé et les retraites.",
-        "Affaiblissement des partis traditionnels de droite (Centre Démocratique)."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-03-09",
-          "texte": "Confirmation de la victoire de la gauche avec une majorité relative au Congrès.",
-          "source": "Ouest-France"
-        },
-        {
-          "date": "2026-03-08",
-          "texte": "Ouverture des bureaux de vote sous haute surveillance sécuritaire.",
-          "source": "France 24 FR"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "France 24 FR",
-          "type": "mainstream",
-          "angle": "Analyse le scrutin comme un baromètre de la popularité de Gustavo Petro.",
-          "ton": "factuel",
-          "url": "https://www.france24.com/fr/am%C3%A9riques/20260309-legislatives-colombie-gauche-impose-principale-force-gustavo-petro-congres-elections",
-          "citation_cle": "La coalition Pacte historique devrait être l'une des principales forces au Congrès.",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "Ouest-France",
-          "type": "mainstream",
-          "angle": "Souligne la domination de la gauche face à l'opposition de droite.",
-          "ton": "neutre",
-          "url": "https://www.ouest-france.fr/monde/colombie/legislatives-en-colombie-la-gauche-simpose-comme-la-principale-force-au-congres-2a6b1c8a-1b6a-11f1-9fa1-ca7616976f61?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "citation_cle": "La gauche de Gustavo Petro s'impose comme la principale force au Congrès.",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "La capacité de Petro à former une coalition majoritaire stable avec les partis centristes.",
-        "L'impact de ce résultat sur le processus de paix avec les derniers groupes rebelles."
-      ],
-      "sources": [
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/am%C3%A9riques/20260309-legislatives-colombie-gauche-impose-principale-force-gustavo-petro-congres-elections",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/monde/colombie/legislatives-en-colombie-la-gauche-simpose-comme-la-principale-force-au-congres-2a6b1c8a-1b6a-11f1-9fa1-ca7616976f61?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "premiere_apparition": "2026-03-08"
+      "premiere_apparition": "2026-05-13"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "L'Unédic prévoit un déficit de 2,1 milliards d'euros pour 2026",
-      "slug": "unedic-deficit-2-1-milliards-2026",
-      "rubrique": "economie",
-      "resume": "Les prévisions de déficit sont désormais intégrées par les marchés et le débat politique s'est déplacé vers les mesures de rigueur budgétaire globale.",
+      "titre": "Premier tour des municipales 2026",
+      "slug": "municipales-2026-premier-tour",
+      "rubrique": "politique",
+      "resume": "Les résultats du premier tour sont désormais stabilisés. L'attention se porte sur les alliances de second tour, notamment à Marseille et Lyon.",
       "chronologie": [
         {
-          "date": "2026-03-03",
-          "texte": "L'Unédic publie ses prévisions alarmantes pour l'exercice 2026.",
-          "source": "Alternatives Économiques"
+          "date": "2026-03-16",
+          "texte": "Poussée historique du RN et de LFI confirmée dans les grandes agglomérations.",
+          "source": "Archives Citoyens.ai"
         }
       ],
       "couvertures": [
         {
-          "source": "Alternatives Économiques",
+          "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse structurelle des causes du déficit.",
-          "ton": "critique",
-          "url": "https://www.alternatives-economiques.fr/malgre-le-retour-du-chomage-quelques-eclaircies-dans-le-ciel-gris-de-lemp/00117756",
-          "citation_cle": "Depuis un an, le chômage est orienté à la hausse."
+          "angle": "Analyse de la recomposition urbaine.",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr",
+          "citation_cle": "Une fragmentation inédite du paysage politique local."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'ampleur exacte des coupes budgétaires qui seront décidées cet été."
+        "L'issue des triangulaires dans les villes clés."
       ],
       "sources": [
         {
-          "nom": "Alternatives Économiques",
-          "url": "https://www.alternatives-economiques.fr/malgre-le-retour-du-chomage-quelques-eclaircies-dans-le-ciel-gris-de-lemp/00117756",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr",
           "type": "mainstream"
         }
       ],
-      "derniere_mise_a_jour": "2026-03-09",
-      "statut": "Le sujet reste un enjeu de fond mais n'occupe plus le devant de la scène médiatique immédiate."
+      "derniere_mise_a_jour": "2026-05-24",
+      "statut": "Sujet en attente du second tour."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 596,
+    "nb_articles_analyses": 567,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

@@ -1,126 +1,92 @@
 {
   "sujet_du_jour": {
-    "titre": "Iran : Mojtaba Khamenei désigné successeur de son père",
-    "rubrique": "international",
-    "pourquoi_important": "La désignation du fils d'Ali Khamenei verrouille le pouvoir religieux et sécuritaire en pleine période de conflit ouvert avec Israël et les États-Unis.",
+    "titre": "Festival de Cannes 2026 : Le sacre politique de Cristian Mungiu",
+    "rubrique": "culture",
+    "pourquoi_important": "Le palmarès consacre un cinéma engagé face aux fractures sociétales et aux tensions industrielles incarnées par la polémique Bolloré.",
     "faits": [
-      "L'Assemblée des experts a officiellement élu Mojtaba Khamenei comme troisième Guide suprême de la République islamique le 8 mars 2026 (Press TV, Associated Press).",
-      "Cette succession intervient après la mort d'Ali Khamenei, tué le 28 février lors de frappes israélo-américaines sur Téhéran (France 24, BFM TV).",
-      "Les Gardiens de la Révolution (IRGC) ont immédiatement prêté allégeance au nouveau dirigeant, signalant une continuité de la ligne dure .",
-      "Israël a déjà prévenu que le nouveau Guide suprême serait considéré comme une cible militaire (L'Obs, Libération)."
+      "Le réalisateur roumain Cristian Mungiu remporte sa deuxième Palme d'or pour 'Fjord', une fable morale sur le conflit entre une famille évangélique et les services sociaux norvégiens (RFI, La Croix).",
+      "Le Grand Prix a été décerné au Russe Andreï Zviaguintsev pour 'Minotaure', un réquisitoire anti-guerre puissant (France 24 FR, Le Figaro).",
+      "La cérémonie a été marquée par des allusions à la 'liste noire' de Canal+ suite à la tribune 'Zapper Bolloré', évoquée par la présentatrice Eye Haïdara et le cinéaste Emmanuel Marre (Le Monde)."
     ],
-    "contexte": "Âgé de 56 ans, Mojtaba Khamenei était déjà une figure de l'ombre extrêmement influente, contrôlant une partie de l'appareil sécuritaire et financier du pays. Sa nomination rompt avec le principe révolutionnaire initial qui rejetait la transmission héréditaire du pouvoir, soulignant l'urgence de stabilité pour le régime face à l'offensive militaire alliée. Le choix de ce partisan de la ligne dure suggère que Téhéran ne compte pas infléchir sa position diplomatique ou militaire (Courrier international).",
+    "contexte": "Cette 79e édition s'achève dans une atmosphère de haute tension pour le cinéma français. Alors que le jury présidé par Park Chan-wook a privilégié des œuvres eurocentrées et politiques, l'industrie est secouée par les menaces de désinvestissement du groupe Canal+, premier financeur du secteur, envers les artistes critiques de son actionnaire Vincent Bolloré (Courrier international, Sud-Ouest).",
     "sources": [
       {
-        "nom": "Press TV",
-        "url": "https://www.presstv.ir/Detail/2026/03/08/765137/Ayatollah-Seyyed-Mojtaba-Khamenei-elected-new-Leader-of-the-Islamic-Revolution",
-        "type": "institutionnel",
-        "groupe_media": null
-      },
-      {
-        "nom": "Associated Press",
-        "url": "https://apnews.com/article/f0b20dbffaea9351ae1e54183ffe53ff",
-        "type": "mainstream",
-        "groupe_media": null
-      },
-      {
-        "nom": "France 24",
-        "url": "https://www.france24.com/fr/asie-pacifique/20260308-qui-est-mojtaba-khamenei-le-nouveau-guide-supr%C3%AAme-iranien",
-        "type": "mainstream",
-        "groupe_media": null
-      },
-      {
-        "nom": "Libération",
-        "url": "https://www.liberation.fr/international/moyen-orient/en-iran-mojtaba-khamenei-lelu-qui-pourrait-devenir-guide-supreme-a-la-place-de-son-pere-20260304_FJPXGOIS3VBPNJBE76ZQJPB2DQ/",
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/culture/article/2026/05/24/festival-de-cannes-cristian-mungiu-remporte-la-palme-d-or-pour-fjord-lors-d-une-ceremonie-de-cloture-assombrie-par-l-etat-du-monde_6692821_3246.html",
         "type": "mainstream",
         "groupe_media": {
-          "nom": "Libération",
-          "proprietaire": "Fonds de dotation",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
+      },
+      {
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/culture/20260523-cannes-2026-cristian-mungiu-remporte-la-palme-d-or-avec-fjord-sur-la-question-sensible-de-la-religion",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
+      },
+      {
+        "nom": "France 24 FR",
+        "url": "https://www.france24.com/fr/culture/20260523-festival-de-cannes-2026-la-palme-d-or-pour-fjord-de-cristian-mungiu-bollor%C3%A9-en-fond-de-sc%C3%A8ne",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
         }
       },
       {
         "nom": "Courrier international",
-        "url": "https://www.courrierinternational.com/article/moyenne-orient-l-iran-defie-trump-en-nommant-le-fils-de-khamenei-comme-nouveau-guide-supreme_241464",
-        "type": "etranger"
+        "url": "https://www.courrierinternational.com/article/cinema-cannes-fjord-du-roumain-cristian-mungiu-palme-d-or-d-un-palmares-engage-et-eurocentre_244351",
+        "type": "etranger",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
       },
       {
-        "nom": "BFM TV",
-        "url": "https://www.bfmtv.com/international/moyen-orient/direct-guerre-en-iran-et-au-moyen-orient-de-nouvelles-frappes-sur-toute-la-region-emmanuel-macron-attendu-a-chypre_LN-202603090083.html",
+        "nom": "Sud-Ouest",
+        "url": "https://www.sudouest.fr/archives/jouez-avec-l-oeil-des-archives-devinez-la-legende-de-nos-photos-29042773.php",
         "type": "mainstream"
       },
       {
-        "nom": "L'Obs",
-        "url": "https://www.nouvelobs.com/monde/20260308.OBS113005/l-iran-annonce-avoir-choisi-un-successeur-au-guide-supreme-ali-khamenei.html",
+        "nom": "La Croix",
+        "url": "https://www.la-croix.com/culture/festival-de-cannes-2026-cristian-mungiu-remporte-une-deuxieme-palme-d-or-pour-fjord-20260523",
+        "type": "mainstream"
+      },
+      {
+        "nom": "Le Figaro",
+        "url": "https://www.lefigaro.fr/international/ukraine-intenses-bombardements-russes-sur-kiev-au-moins-un-mort-20260524",
         "type": "mainstream"
       }
     ],
-    "lien": "https://www.france24.com/fr/asie-pacifique/20260308-qui-est-mojtaba-khamenei-le-nouveau-guide-supr%C3%AAme-iranien"
+    "lien": null
   },
   "france": [
     {
-      "titre": "Carburants : 500 contrôles contre les hausses abusives",
-      "rubrique": "economie",
-      "resume": "Le Premier ministre Sébastien Lecornu a lancé un plan d'urgence de la DGCCRF pour surveiller les prix à la pompe du 9 au 11 mars, craignant que le conflit au Moyen-Orient ne serve de prétexte à des marges injustifiées (Le Monde, L'Humanité). L'exécutif mobilise l'équivalent d'un semestre de contrôles en trois jours pour protéger le pouvoir d'achat (Libération, Sud-Ouest).",
+      "titre": "Pédocriminalité à Paris : deux animateurs écroués",
+      "rubrique": "societe",
+      "resume": "Deux hommes de 44 et 52 ans, exerçant dans le périscolaire du 7e arrondissement, sont mis en examen pour des violences sexuelles sur une vingtaine d'enfants (La Croix, franceinfo). L'enquête, qui s'étend sur plusieurs établissements dont l'école Saint-Dominique, s'inscrit dans une série de scandales touchant l'animation parisienne (RFI, Mediapart).",
       "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/03/08/carburants-sebastien-lecornu-annonce-un-plan-exceptionnel-de-500-controles-entre-lundi-et-mercredi-dans-les-stations-service_6670022_3234.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/politique/elections-municipales/municipales-2026-a-nimes-vincent-bouget-et-la-gauche-opposent-le-peuple-comme-solution-a-la-droite-en-fin-de-regne",
-          "type": "mainstream"
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/international/moyen-orient/en-iran-mojtaba-khamenei-lelu-qui-pourrait-devenir-guide-supreme-a-la-place-de-son-pere-20260304_FJPXGOIS3VBPNJBE76ZQJPB2DQ/",
-          "type": "mainstream"
-        },
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/redaction/ephemeride/video-le-saviez-vous-en-1923-le-couturier-andre-courreges-naissait-a-pau-28162098.php",
-          "type": "mainstream"
-        }
-      ],
-      "lien": "https://www.lemonde.fr/economie/article/2026/03/08/carburants-sebastien-lecornu-annonce-un-plan-exceptionnel-de-500-controles-entre-lundi-et-mercredi-dans-les-stations-service_6670022_3234.html"
-    },
-    {
-      "titre": "L'Europe traque la « flotte fantôme » russe",
-      "rubrique": "international",
-      "resume": "Un cargo soupçonné d'appartenir à la flotte secrète de Moscou a été arraisonné en Suède, transportant potentiellement des céréales ukrainiennes volées (BFM TV). Ces navires vieillissants sous faux pavillons sont au cœur d'une bataille juridique européenne pour faire respecter les sanctions internationales (La Croix).",
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/moyen-orient/direct-guerre-en-iran-et-au-moyen-orient-de-nouvelles-frappes-sur-toute-la-region-emmanuel-macron-attendu-a-chypre_LN-202603090083.html",
-          "type": "mainstream"
-        },
         {
           "nom": "La Croix",
-          "url": "https://www.la-croix.com/economie/hausse-des-prix-du-carburant-pourquoi-le-gazole-augmente-plus-vite-que-l-essence-20260308",
-          "type": "mainstream"
-        }
-      ],
-      "lien": "https://www.la-croix.com/international/bataille-contre-les-navires-fantomes-l-europe-traque-la-flotte-secrete-de-vladimir-poutine-20260308"
-    }
-  ],
-  "monde": [
-    {
-      "titre": "Explosion à l'ambassade des États-Unis à Oslo",
-      "pays": "Norvège",
-      "resume": "Une déflagration a visé la représentation diplomatique américaine dans la nuit de samedi à dimanche, causant des dégâts mineurs (franceinfo). La police norvégienne n'exclut pas la piste terroriste dans un contexte de tensions globales (L'Humanité, 20 Minutes).",
-      "sources": [
+          "url": "https://www.la-croix.com/societe/periscolaire-a-paris-deux-animateurs-ecroues-pour-violences-sexuelles-sur-une-vingtaine-d-enfants-20260523",
+          "type": "mainstream",
+          "groupe_media": null
+        },
         {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/une-explosion-vise-l-ambassade-des-etats-unis-en-norvege-la-police-evoque-un-possible-motif-terroriste_7853939.html",
+          "url": "https://www.franceinfo.fr/societe/education/violences-dans-le-periscolaire/violences-dans-le-periscolaire-a-paris-deux-animateurs-mis-en-examen-pour-des-faits-a-caractere-sexuel-et-places-en-detention-provisoire_8022545.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -130,71 +96,155 @@
           }
         },
         {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/monde/20260308.OBS113017/explosion-a-l-ambassade-des-etats-unis-en-norvege-ce-que-l-on-sait-sur-un-possible-acte-terroriste.html",
-          "type": "mainstream",
-          "groupe_media": null
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/europe/20260524-%C3%A0-chypre-des-l%C3%A9gislatives-sous-le-signe-de-la-fragmentation-politique-et-de-la-perc%C3%A9e-de-l-extr%C3%AAme-droite",
+          "type": "mainstream"
         },
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/politique/elections-municipales/municipales-2026-a-nimes-vincent-bouget-et-la-gauche-opposent-le-peuple-comme-solution-a-la-droite-en-fin-de-regne",
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/ecologie/230526/projet-de-loi-d-urgence-agricole-des-attaques-sans-precedent-sur-l-eau",
+          "type": "investigation"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Canicule précoce : le Finistère en vigilance jaune",
+      "rubrique": "science",
+      "resume": "Pour la première fois depuis la création du dispositif en 2004, une vigilance canicule est activée en France dès le mois de mai (Le Monde). Des records sont attendus en Bretagne avec 33°C prévus à Quimper, confirmant l'intensité exceptionnelle du dôme de chaleur actuel (franceinfo, 20 Minutes).",
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/live/2026/05/24/en-direct-guerre-en-ukraine-kiev-a-nouveau-visee-par-une-attaque-massive-russe-dans-la-nuit-de-samedi-a-dimanche_6693162_3210.html",
+          "type": "mainstream"
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/coupe-du-monde/coupe-du-monde-2026-l-iran-aura-finalement-son-camp-de-base-au-mexique-au-lieu-des-etats-unis_8023721.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream"
         },
         {
           "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/monde/etats-unis/4205231-20260309-etats-unis-maison-rihanna-visee-presence-plusieurs-tirs-los-angeles?at_medium=display&at_campaign=149",
+          "url": "https://www.20minutes.fr/monde/ukraine/4225119-20260524-guerre-ukraine-russie-bombarde-massivement-kiev-nuit-missiles-drones?at_medium=display&at_campaign=149",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "La gauche de Gustavo Petro s'impose au Congrès",
-      "pays": "Colombie",
-      "resume": "La coalition Pacte Historique confirme sa position de première force politique lors des législatives, consolidant le mandat du président Petro (Ouest-France). Ce scrutin valide l'ancrage social de la gauche avant la prochaine présidentielle (France 24).",
+      "titre": "Justice : 25 ans de réclusion pour Guillaume Bucci",
+      "rubrique": "societe",
+      "resume": "La cour d'assises de Digne-les-Bains a condamné l'accusé pour des viols et actes de barbarie commis pendant sept ans sur son ex-compagne (Libération). Bien que lourde, la peine reste inférieure à la perpétuité requise par l'avocate générale (franceinfo, 20 Minutes).",
       "sources": [
         {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/am%C3%A9riques/20260309-legislatives-colombie-gauche-impose-principale-force-gustavo-petro-congres-elections",
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/societe/police-justice/guillaume-bucci-condamne-a-25-ans-de-reclusion-pour-avoir-viole-torture-et-prostitue-son-ex-compagne-laetitia-r-pendant-plus-de-sept-ans-20260523_KT4X3F5555HVNCKF2K6NL4Y2AI/",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
         },
         {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/monde/colombie/legislatives-en-colombie-la-gauche-simpose-comme-la-principale-force-au-congres-2a6b1c8a-1b6a-11f1-9fa1-ca7616976f61",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/societe/harcelement-sexuel/au-proces-de-digne-guillaume-bucci-condamne-a-25-ans-de-reclusion-et-echappe-a-la-reclusion-criminelle-a-perpetuite_8023403.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/monde/ukraine/4225119-20260524-guerre-ukraine-russie-bombarde-massivement-kiev-nuit-missiles-drones?at_medium=display&at_campaign=149",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    }
+  ],
+  "monde": [
+    {
+      "titre": "Trump annonce un accord imminent avec l'Iran",
+      "pays": "États-Unis / Iran",
+      "resume": "Donald Trump affirme qu'un accord pour mettre fin aux hostilités est 'largement négocié', incluant la réouverture du détroit d'Ormuz (BFM TV). Si le président américain affiche son optimisme après des échanges avec Nétanyahou et les pays du Golfe, Téhéran insisterait pour garder le contrôle du détroit (Courrier international, Libération).",
+      "sources": [
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-au-moyen-orient-donald-trump-affirme-qu-un-accord-avec-l-iran-a-ete-largement-negocie_VN-202605230397.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/geopolitique-trump-assure-qu-un-accord-avec-l-iran-est-en-voie-de-finalisation_244349",
+          "type": "etranger"
+        },
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/culture/cinema/cannes-2026-cristian-mungiu-palme-nord-dun-palmares-un-peu-a-louest-20260523_RUL3ETOM2BH7NDRTTHJSZEQBKM/",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Serbie : Mobilisation massive contre la corruption",
+      "pays": "Serbie",
+      "resume": "Des dizaines de milliers de personnes ont manifesté à Belgrade pour réclamer des élections anticipées (RFI). Le mouvement, porté par les étudiants, dénonce l'impunité du régime de Vucic suite à l'effondrement meurtrier de la gare de Novi Sad (Sud-Ouest).",
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/europe/20260524-%C3%A0-chypre-des-l%C3%A9gislatives-sous-le-signe-de-la-fragmentation-politique-et-de-la-perc%C3%A9e-de-l-extr%C3%AAme-droite",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/archives/jouez-avec-l-oeil-des-archives-devinez-la-legende-de-nos-photos-29042773.php",
+          "type": "mainstream"
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Évolution de la doctrine militaire israélienne au Moyen-Orient",
-    "rubrique": "international",
-    "contexte": "Depuis le 7 octobre, l'armée israélienne a multiplié les interventions directes, notamment en Iran et au Liban, marquant une rupture historique avec sa stratégie habituelle.",
+    "sujet": "Projet de loi d'urgence agricole : entre protectionnisme et dérégulation environnementale",
+    "rubrique": "economie",
+    "contexte": "L'Assemblée nationale débat d'un texte d'urgence censé répondre à la crise agricole. Un amendement LFI visant à interdire les importations ne respectant pas les normes françaises suscite une vive controverse.",
     "couvertures": [
       {
-        "source": "Le Figaro",
-        "type": "mainstream",
-        "angle": "Célébration d'Israël comme puissance hégémonique régionale.",
-        "ton": "complaisant",
-        "url": "https://www.lefigaro.fr/international/israel-emerge-comme-la-premiere-puissance-de-la-region-en-iran-et-au-liban-israel-rebat-les-cartes-du-moyen-orient-20260308",
-        "citation_cle": "Israël émerge comme la première puissance de la région.",
-        "auteur": null,
-        "proprietaire_contexte": "Groupe Dassault (armement)",
-        "orientation_source": "Droite conservatrice",
-        "groupe_media": null
+        "source": "Mediapart",
+        "type": "investigation",
+        "angle": "Dénonciation des reculs environnementaux massifs, notamment sur la gestion de l'eau.",
+        "ton": "critique",
+        "url": "https://www.mediapart.fr/journal/ecologie/230526/projet-de-loi-d-urgence-agricole-des-attaques-sans-precedent-sur-l-eau",
+        "auteur": "Lucie Delaporte",
+        "proprietaire_contexte": "Propriété du Fonds pour une presse libre (indépendant).",
+        "orientation_source": "Gauche radicale / Investigation",
+        "groupe_media": {
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
+          "orientation": "gauche"
+        }
       },
       {
         "source": "Libération",
         "type": "mainstream",
-        "angle": "Analyse du tournant doctrinal vers la recherche d'une 'victoire décisive' malgré les incertitudes.",
-        "ton": "critique",
-        "url": "https://www.liberation.fr/international/moyen-orient/la-guerre-contre-liran-consequence-dun-tournant-de-la-doctrine-militaire-israelienne-20260308_J424VQOESVB43AAG2U33A2HFII/",
-        "citation_cle": "Israël rompt avec sa stratégie de gestion ponctuelle des conflits.",
-        "auteur": "Eléonore Weil",
-        "proprietaire_contexte": "Fonds de dotation indépendant",
+        "angle": "Analyse factuelle des risques de pénurie en supermarché liés aux clauses de réciprocité.",
+        "ton": "factuel",
+        "url": "https://www.liberation.fr/checknews/loi-durgence-agricole-une-des-mesures-votees-a-lassemblee-privera-t-elle-les-consommateurs-francais-de-riz-de-cafe-ou-de-chocolat-20260523_L65ERJ5FTFGATFCUTQ4H4IAFBQ/",
+        "auteur": "Elsa de La Roche Saint-André",
+        "proprietaire_contexte": "Fonds de dotation (indépendant).",
         "orientation_source": "Centre-gauche",
         "groupe_media": {
           "nom": "Libération",
@@ -204,124 +254,134 @@
         }
       }
     ],
-    "analyse_coherence": "Le traitement médiatique de l'expansion militaire israélienne révèle un clivage profond. D'un côté, Le Figaro (propriété du groupe Dassault, lié à l'armement) adopte un ton quasi-triomphaliste, présentant Israël comme une puissance hégémonique naturelle qui « rebat les cartes ». L'angle occulte quasi-totalement les violations du droit international dénoncées par les instances onusiennes. À l'inverse, Libération et L'Humanité s'inquiètent d'une rupture doctrinale qui privilégie la force brute à la diplomatie, pointant le risque de divergences majeures avec l'allié américain et l'instabilité chronique générée par cette quête de « victoire totale ». On observe ici un double standard flagrant : alors que les agressions territoriales russes sont systématiquement condamnées comme illégitimes, l'offensive israélienne est parfois présentée comme une mutation stratégique nécessaire, voire positive, par une partie de la presse mainstream française. L'analyse de cohérence suggère que la proximité des propriétaires de médias avec les industries de défense ou les intérêts diplomatiques de l'État influence directement la qualification des actes militaires au Moyen-Orient.",
+    "analyse_coherence": "Le traitement médiatique du projet de loi agricole révèle une déconnexion profonde entre les enjeux productivistes et les impératifs écologiques. Tandis que Mediapart (via Rue89 Strasbourg) se focalise sur le démantèlement des protections environnementales — signalant des 'attaques sans précédent sur l'eau' — la presse mainstream comme Libération se concentre sur les conséquences immédiates pour le consommateur urbain (risque de rayons vides). On observe ici un double standard analytique : la souveraineté alimentaire est présentée soit comme une menace pour le pouvoir d'achat (angle libéral), soit comme un prétexte à la régression écologique (angle environnemental). Le débat sur la juste rémunération des agriculteurs, pourtant moteur de la crise, est ici éclipsé par la polémique technique sur la légalité internationale des clauses de réciprocité. Le silence relatif des médias détenus par des milliardaires (Le Monde, Le Figaro) sur les détails de la dérégulation de l'eau suggère une complaisance envers les intérêts de l'agro-industrie, au détriment d'une analyse des services publics environnementaux.",
     "biais_detectes": [
-      "Normalisation de l'agression militaire",
-      "Double standard sur le droit international",
-      "Influence des intérêts industriels"
+      "Biais consumériste (Libération)",
+      "Biais environnementaliste (Mediapart)",
+      "Invisibilisation des enjeux de justice sociale paysanne"
     ],
-    "ce_quil_faut_retenir": "Le basculement d'Israël vers une guerre totale est perçu soit comme un succès stratégique, soit comme une dérive dangereuse, selon l'alignement politique et financier des médias."
+    "ce_quil_faut_retenir": "La loi agricole sacrifie les normes environnementales sur l'autel de la productivité, tout en introduisant des mesures protectionnistes dont la légalité et l'impact sur les prix divisent les experts."
   },
   "regard_etranger": [
     {
-      "source": "The Guardian",
-      "pays": "Royaume-Uni",
-      "titre": "Un crocodile sur un terrain de football australien",
-      "titre_original": "A saltwater crocodile on the AFL oval",
-      "angle": "Stupeur face aux inondations records en Australie qui poussent les prédateurs dans les zones urbaines.",
-      "url": "https://www.theguardian.com/environment/2026/mar/09/boil-water-and-look-out-for-crocodiles-nt-residents-evacuate-as-unusually-wet-week-brings-more-flooding",
+      "source": "Politico EU",
+      "pays": "Belgique",
+      "titre": "La France réduit les contrôles à Douvres face au chaos des retards",
+      "titre_original": "France scales down border checks at Dover port amid chaotic delays",
+      "angle": "Critique de la mise en œuvre technique du nouveau système d'entrée/sortie de l'UE par la police française.",
+      "url": "https://www.politico.eu/article/francw-border-police-reduce-border-checks-dover-uk-ees-delays/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "groupe_media": {
-        "nom": "Scott Trust",
-        "proprietaire": "Scott Trust Limited",
-        "type_proprietaire": "fondation",
-        "orientation": "centre-gauche"
-      }
-    },
-    {
-      "source": "Swissinfo",
-      "pays": "Suisse",
-      "titre": "L'argent liquide entre dans la Constitution suisse",
-      "titre_original": "En Suisse, l’argent liquide entre dans la Constitution",
-      "angle": "Analyse d'un vote historique garantissant la survie des espèces sonnantes et trébuchantes face au tout-numérique.",
-      "url": "https://www.swissinfo.ch/fre/politique-suisse/en-suisse-largent-liquide-entre-dans-la-constitution/91058972",
-      "groupe_media": {
-        "nom": "SRG SSR",
-        "proprietaire": "SRG SSR (service public suisse)",
-        "type_proprietaire": "etat",
-        "orientation": "centre"
+        "nom": "Axel Springer / KKR",
+        "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+        "type_proprietaire": "milliardaire",
+        "orientation": "centre-droit"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "34 millions d'euros",
-    "contexte": "Coût annuel estimé de la gratuité des transports pour la métropole de Montpellier en 2024, selon la Cour des comptes.",
-    "source": "Cour des comptes",
-    "source_url": "https://www.ccomptes.fr/fr/publications/la-contribution-des-usagers-au-financement-des-transports-collectifs-urbains-le-cas-de"
+    "valeur": "204",
+    "contexte": "Nombre de décès suspectés liés à l'épidémie d'Ebola en République démocratique du Congo, qui menace désormais dix pays voisins.",
+    "source": "Le Monde / Africa CDC",
+    "source_url": "https://www.lemonde.fr/afrique/article/2026/05/24/ebola-avec-plus-de-200-morts-suspectes-en-rdc-l-epidemie-s-etend-et-menace-d-autres-pays_6692953_3212.html"
   },
   "a_surveiller": [
     {
-      "date": "2026-03-15",
-      "evenement": "Premier tour des élections municipales en France",
-      "type": "vote",
-      "lien": "https://www.lepoint.fr/politique/elections-municipales-ce-que-la-loi-autorise-et-interdit-S2G3RGV3PJC3NJVRL4FMMADFAQ/"
+      "date": "2026-05-25",
+      "evenement": "Ouverture du tableau principal de Roland-Garros (sans Arthur Fils)",
+      "type": "autre",
+      "lien": "https://www.franceinfo.fr/roland-garros/roland-garros-2026-le-numero-1-francais-arthur-fils-annonce-son-forfait-a-la-veille-du-debut-du-tournoi_8023409.html#xtor=RSS-3-[lestitres]"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Calais : la gauche de rupture contre la « chasse aux pauvres »",
+      "titre": "PFAS : des habitantes de Saint-Louis attaquent l'État",
       "rubrique": "societe",
-      "resume": "À Calais, une liste unissant LFI et Les Écologistes défie la maire sortante Natacha Bouchart. Leur programme dénonce la brutalisation de l'accueil des exilés et les arrêtés interdisant les distributions de repas (Blast).",
+      "resume": "Des associations alsaciennes ont déposé une plainte pénale contre l’aéroport de Bâle-Mulhouse pour pollution de l'eau potable aux polluants éternels (PFAS).",
       "sources": [
         {
-          "nom": "Blast",
-          "url": "https://www.blast-info.fr/articles/2026/municipales-a-calais-une-gauche-de-rupture-contre-la-chasse-aux-pauvres-0OgDGsajRQqejZGectI-7A",
+          "nom": "Rue89 Strasbourg",
+          "url": "https://www.rue89strasbourg.com/saint-louis-pfas-poursuite-etat-justice-388690",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Le sujet est largement ignoré par les médias nationaux qui se focalisent sur les enjeux sécuritaires, occultant la structuration d'une alternative sociale locale."
+      "pourquoi_signal": "Le sujet de la responsabilité pénale de l'État dans les scandales sanitaires locaux est souvent occulté par la presse nationale au profit de débats législatifs généraux."
     },
     {
-      "titre": "Transports gratuits : un bilan contrasté à Montpellier",
-      "rubrique": "economie",
-      "resume": "Alors que la gratuité séduit les programmes électoraux, la Cour des comptes relève que 39% des nouveaux trajets à Montpellier remplacent la marche plutôt que la voiture, posant la question de l'efficacité écologique réelle (Mediapart).",
+      "titre": "Fuite de données massive chez Almerys",
+      "rubrique": "tech",
+      "resume": "L'assureur Alan alerte ses clients d'une fuite chez son prestataire de tiers-payant, exposant les numéros de sécurité sociale de milliers d'adhérents.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/politique/080326/gratuite-des-transports-montpellier-un-premier-bilan-qui-divise",
+          "nom": "Next",
+          "url": "https://next.ink/238995/alan-alerte-sur-une-fuite-de-donnees-chez-almerys-son-prestataire-de-tiers-payant/",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce rapport pointe une contradiction entre l'affichage politique de la gratuité et ses résultats concrets sur le report modal, un tabou dans de nombreuses mairies."
+      "pourquoi_signal": "Cette vulnérabilité critique des infrastructures de santé numérique est traitée comme un incident technique isolé plutôt que comme une faille systémique du tiers-payant."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Villepin propose un mécanisme 'Tu détruis, tu répares'",
+      "titre": "Tortures sur la flottille pour Gaza : le silence complice ?",
       "rubrique": "international",
-      "resume": "L'ex-Premier ministre propose que l'ONU impose aux États menant des guerres illégales de financer intégralement la reconstruction des pays dévastés.",
+      "resume": "Des militants français de retour de détention en Israël décrivent des scènes de torture, d'humiliations sexuelles et d'usage de tasers par les forces israéliennes.",
       "axes_concernes": [
         "droit_international",
-        "imperialisme"
+        "droits_humains"
       ],
-      "analyse": "Cette proposition est cruciale car elle applique le principe de responsabilité universelle. Elle souligne que les interventions occidentales ou alliées (Irak, Libye, Gaza) ne devraient pas bénéficier d'une impunité financière. C'est une remise en cause directe de l'asymétrie du droit international actuel où seuls les vaincus ou les puissances non-occidentales sont tenus de rendre des comptes.",
+      "analyse": "Le contraste entre la violence subie par des citoyens européens et la timidité des réactions diplomatiques souligne un double standard flagrant. Si ces actes étaient commis par un État non-allié, l'indignation serait totale. Nous soulignons l'importance de documenter ces violations du droit international, alors que les témoins affirment que leur calvaire n'est qu'une fraction de celui des prisonniers palestiniens.",
       "sources": [
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/monde/israel/4205075-20260308-tout-pays-engage-intervention-illegale-doit-payer-prix-reconstruction-villepin",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/05/24/flottille-pour-gaza-nos-gouvernements-detournent-le-regard-lorsqu-il-s-agit-des-palestiniens-mais-quand-c-est-nous-ils-ouvrent-les-yeux_6692887_3210.html",
           "type": "mainstream"
         },
         {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/politique/tu-detruis-tu-repares-villepin-plaide-pour-un-mecanisme-onusien-de-reparation-en-cas-de-guerre-illegale-28190094.php",
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/international/moyen-orient/on-a-ete-affames-violentes-deshabilles-des-militants-de-la-flottille-pour-gaza-racontent-le-calvaire-vecu-en-israel-20260522_RGZJVK6WFRASNK42AVRYFVPKPA/",
+          "type": "mainstream"
+        }
+      ]
+    },
+    {
+      "titre": "Canal+ : La discrimination comme arme industrielle",
+      "rubrique": "economie",
+      "resume": "La LDH et la CGT assignent Canal+ en justice après les menaces de Maxime Saada de ne plus travailler avec les signataires de la tribune anti-Bolloré.",
+      "axes_concernes": [
+        "liberte_expression",
+        "justice_sociale"
+      ],
+      "analyse": "L'utilisation de la puissance financière d'un média pour museler la critique politique est une atteinte directe à la démocratie sociale. En érigeant une 'liste noire', la direction de Canal+ viole le droit du travail et la liberté d'opinion. Cette affaire illustre le danger de la concentration des médias entre les mains de milliardaires utilisant leurs actifs pour imposer une hégémonie idéologique.",
+      "sources": [
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/culture/tribune-anti-bollore-canal-assigne-en-justice-pour-discrimination-20260523",
+          "type": "mainstream"
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/economie/vincent-bollore/canal-assigne-en-justice-pour-discrimination-envers-les-signataires-de-la-tribune-anti-bollore-avec-qui-le-groupe-affirme-ne-plus-vouloir-travailler_8023007.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-03-09",
-  "genere_a": "2026-03-09T05:35:00.959Z",
+  "date": "2026-05-24",
+  "genere_a": "2026-05-24T05:08:49.164Z",
   "meta": {
-    "nb_articles_analyses": 596,
-    "nb_topics": 147,
+    "nb_articles_analyses": 567,
+    "nb_topics": 151,
     "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 44,
-    "sources_francaises": 404,
-    "sources_etrangeres": 192,
+    "nb_articles_dans_selection": 60,
+    "sources_francaises": 391,
+    "sources_etrangeres": 176,
     "rubriques_couvertes": [
-      "international",
-      "economie"
+      "culture",
+      "societe",
+      "science",
+      "international"
     ],
-    "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
-    "version_pipeline": "4.1.0-gpt-search"
+    "modele": "gemini/gemini-3-flash-preview",
+    "version_pipeline": "4.0.0"
   }
 }
