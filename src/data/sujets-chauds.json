@@ -1,52 +1,61 @@
 {
-  "date": "2026-05-24",
-  "genere_a": "2026-05-24T06:47:07.332Z",
+  "date": "2026-06-18",
+  "genere_a": "2026-06-18T05:51:41.572Z",
   "sujets_actifs": [
     {
-      "titre": "Donald Trump annonce un accord de paix imminent entre les États-Unis et l'Iran",
-      "slug": "accord-paix-usa-iran-trump-2026",
+      "titre": "Signature d'un protocole d'accord historique entre les États-Unis et l'Iran à Versailles",
+      "slug": "accord-paix-usa-iran-versailles-2026",
       "rubrique": "international",
       "tldr": [
-        "Accord « largement négocié » selon Trump pour mettre fin au conflit débuté en 2026.",
-        "Négociations sur la réouverture du détroit d'Ormuz et le transfert d'uranium enrichi.",
-        "Contradictions : Téhéran dément tout abandon du contrôle du détroit d'Ormuz."
+        "Donald Trump et Massoud Pezeshkian signent un protocole d'accord pour mettre fin au conflit débuté en février.",
+        "Le texte prévoit la dilution de l'uranium enrichi iranien contre la levée des sanctions américaines.",
+        "Réouverture immédiate du détroit d'Ormuz pour le trafic maritime pétrolier mondial."
       ],
-      "resume": "Le président américain Donald Trump a annoncé le 23 mai 2026 qu'un accord de paix avec l'Iran était en voie de finalisation après des mois d'hostilités armées. Les discussions, médiées par le Pakistan, porteraient sur la réouverture du détroit d'Ormuz, vital pour le commerce pétrolier mondial, et sur l'engagement de l'Iran à remettre son uranium enrichi (NYT World, The Guardian). Cependant, des signaux contradictoires émergent : alors que Washington évoque une percée majeure, les médias officiels iraniens affirment que le contrôle du détroit restera sous souveraineté de Téhéran (BFM TV). Benjamin Netanyahu a également été consulté séparément par Trump, soulignant la complexité régionale de ce pacte qui exclurait pour l'instant le volet nucléaire global selon certaines sources iraniennes.",
-      "contexte_historique": "Le détroit d'Ormuz est un point de passage stratégique où transite 20% de la consommation mondiale de pétrole liquide. Les tensions y sont récurrentes depuis la révolution iranienne de 1979, mais ont atteint un paroxysme en mars 2026 avec l'opération américaine « Epic Fury » faisant suite à des frappes iraniennes sur des infrastructures gazière qataries (Archives Citoyens.ai).",
+      "resume": "Invité par Emmanuel Macron au château de Versailles, Donald Trump a officialisé un protocole d'accord avec son homologue iranien Massoud Pezeshkian (signé à distance) pour mettre fin aux hostilités déclenchées le 28 février 2026. Ce texte prévoit une période de 60 jours pour finaliser un accord global sur le nucléaire, incluant un plan de reconstruction de 300 milliards de dollars pour l'Iran. Si Téhéran revendique une « victoire totale » actant l'échec de la politique de pression américaine, Washington présente cet accord comme une nécessité pragmatique pour stabiliser l'économie mondiale. Les marchés ont réagi immédiatement avec une chute des prix du pétrole et un rallye boursier en Asie.",
+      "contexte_historique": "Ce rapprochement intervient après l'échec de l'accord JCPoA de 2015, dont Donald Trump s'était retiré en 2018. Les tensions avaient atteint un paroxysme en mars 2026 avec des frappes iraniennes sur des installations gazières qatariennes (Citoyens.ai). La médiation française à Versailles rappelle les tentatives de 2019 lors du G7 de Biarritz pour instaurer un dialogue direct.",
       "implications": [
-        "Baisse attendue des cours mondiaux du pétrole et du carburant à la pompe si le détroit est effectivement rouvert.",
-        "Risque de fronde interne aux États-Unis parmi les partisans de la ligne dure de Trump opposés à toute concession envers Téhéran."
+        "Baisse durable attendue des prix de l'énergie et du carburant suite à la sécurisation du détroit d'Ormuz.",
+        "Fracture politique aux États-Unis : des sénateurs républicains dénoncent une 'reculade majeure' face à Téhéran."
       ],
       "chronologie": [
         {
-          "date": "2026-05-24",
-          "texte": "Le Pakistan confirme espérer accueillir une session finale de négociations « très bientôt ».",
-          "source": "France 24 FR"
+          "date": "2026-06-17",
+          "texte": "Donald Trump signe électroniquement l'accord depuis le château de Versailles.",
+          "source": "Le Figaro"
         },
         {
-          "date": "2026-05-23",
-          "texte": "Trump annonce sur Truth Social que l'accord est « largement négocié ».",
-          "source": "Courrier international"
+          "date": "2026-06-15",
+          "texte": "Annonce préliminaire d'un consensus sur la dilution des stocks d'uranium.",
+          "source": "Citoyens.ai"
         },
         {
-          "date": "2026-03-19",
-          "texte": "Escalade majeure : l'Iran frappe le gaz qatarien, entraînant une riposte américaine.",
-          "source": "Archives Citoyens.ai"
-        },
-        {
-          "date": "2026-03-03",
-          "texte": "Lancement de l'opération « Epic Fury » par l'administration Trump.",
-          "source": "Archives Citoyens.ai"
+          "date": "2026-02-28",
+          "texte": "Déclenchement du conflit ouvert entre les deux puissances.",
+          "source": "La Croix"
         }
       ],
       "couvertures": [
         {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Analyse des concessions américaines qualifiées de 'reculades majeures' malgré la fin des hostilités.",
+          "ton": "critique",
+          "url": "https://www.lemonde.fr/international/article/2026/06/18/pour-les-etats-unis-la-fin-de-la-guerre-signee-avec-l-iran-se-fait-au-prix-de-reculades-majeures_6704485_3210.html",
+          "citation_cle": "Le protocole d’accord doit conclure les hostilités et permettre une réouverture du détroit d’Ormuz.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
           "source": "Al Jazeera",
           "type": "etranger",
-          "angle": "Focus sur les détails techniques de la position iranienne et les garanties de souveraineté demandées par Téhéran.",
+          "angle": "Focus sur la réaction positive des marchés financiers et l'opposition interne chez les Républicains.",
           "ton": "factuel",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/iranian-sources-lay-out-iran-us-deal-details?traffic_source=rss",
-          "citation_cle": "Les sources iraniennes précisent que le dossier nucléaire n'est pas inclus dans ce cadre initial.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/18/us-must-force-israel-to-change-its-policy-on-lebanon?traffic_source=rss",
+          "citation_cle": "Brent crude drops as much as 1.6 percent.",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
             "proprietaire": "État du Qatar",
@@ -55,21 +64,12 @@
           }
         },
         {
-          "source": "The New York Times",
-          "type": "etranger",
-          "angle": "Analyse du scepticisme des officiels américains face aux annonces précipitées de Trump.",
-          "ton": "critique",
-          "url": "https://www.nytimes.com/2026/05/23/world/middleeast/iran-peace-deal-trump-proposal.html",
-          "citation_cle": "Beaucoup de questions, peu de détails dans la dernière proposition de paix.",
-          "groupe_media": null
-        },
-        {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "Guerre au Moyen-Orient: Donald Trump s'est entretenu séparément avec Benjamin Netanyahu au sujet d’un potentiel accord avec l’Iran",
+          "angle": "Guerre au Moyen-Orient: que prévoit le protocole d'accord entre les États-Unis et l'Iran?",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-au-moyen-orient-donald-trump-s-est-entretenu-separement-avec-benjamin-netanyahu-au-sujet-d-un-potentiel-accord-avec-l-iran_VN-202605240058.html",
-          "citation_cle": "L'Iran et les États-Unis ont évoqué ce samedi 23 mai une accélération des négociations pour mettre fin à la guerre. Selo",
+          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-guerre-au-moyen-orient-que-prevoit-le-protocole-d-accord-entre-les-etats-unis-et-l-iran_VN-202606180124.html",
+          "citation_cle": "Répondant à l'invitation d'Emmanuel Macron, Donald Trump est venu passer la soirée au château de Versailles, ce mercredi",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -79,58 +79,14 @@
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'Iran acceptera-t-il réellement de céder son stock d'uranium enrichi ?",
-        "Israël soutiendra-t-il un accord qui ne démantèle pas les capacités nucléaires iraniennes ?"
+        "Le montant exact et les modalités du versement des 300 milliards de dollars pour la reconstruction.",
+        "La réaction officielle d'Israël qui continue de bombarder le Liban malgré l'annonce de cet accord."
       ],
       "sources": [
         {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/05/23/world/middleeast/iran-peace-deal-trump-proposal.html",
-          "type": "presse internationale",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/may/23/trump-ceasefire-iran-strait-of-hormuz",
-          "type": "presse internationale",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/replay-emissions/bfm-grand-soir/video-ormuz-rouvert-les-medias-iraniens-dementent-23-05_VN-202605230400.html",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/06/18/pour-les-etats-unis-la-fin-de-la-guerre-signee-avec-l-iran-se-fait-au-prix-de-reculades-majeures_6704485_3210.html",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/moyen-orient/20260524-en-direct-moyen-orient-iran-donald-trump-etats-unis-negociations-accord-detroit-dormuz-pakistan",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/geopolitique-trump-assure-qu-un-accord-avec-l-iran-est-en-voie-de-finalisation_244349",
-          "type": "etranger",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -140,7 +96,7 @@
         },
         {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/24/iranian-sources-lay-out-iran-us-deal-details?traffic_source=rss",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/18/us-must-force-israel-to-change-its-policy-on-lebanon?traffic_source=rss",
           "type": "etranger",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
@@ -148,68 +104,90 @@
             "type_proprietaire": "etat",
             "orientation": "variable"
           }
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-donald-trump-a-signe-l-accord-avec-l-iran-au-chateau-de-versailles-20260618",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/les-etats-unis-et-l-iran-devoilent-le-texte-de-leur-accord-a-deux-jours-de-la-signature-prevue-20260617",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
-      "premiere_apparition": "2026-03-01"
+      "premiere_apparition": "2026-05-24"
     },
     {
-      "titre": "Fusillade à la Maison Blanche : un tireur abattu par le Secret Service",
-      "slug": "fusillade-maison-blanche-mai-2026",
-      "rubrique": "international",
+      "titre": "Vague de chaleur intense en France : alerte sur les risques sanitaires et les inégalités sociales",
+      "slug": "canicule-france-juin-2026-inegalites-sante",
+      "rubrique": "societe",
       "tldr": [
-        "Un homme a ouvert le feu sur un poste de sécurité le 23 mai au soir.",
-        "Le suspect, connu des services, est décédé ; un passant a été blessé.",
-        "Donald Trump était présent dans le bâtiment au moment des faits."
+        "29 départements en alerte orange avec des températures approchant les 40°C.",
+        "Le rapport d'Oxfam révèle que les femmes ont 65% de risques en plus de mourir d'un AVC lié à la chaleur.",
+        "43% des logements français manquent de protections solaires adéquates."
       ],
-      "resume": "Une fusillade a éclaté aux abords immédiats de la Maison Blanche le samedi 23 mai 2026, provoquant un confinement immédiat du complexe présidentiel. Un individu d'une vingtaine d'années a ouvert le feu sur des agents du Secret Service avant d'être mortellement blessé par des tirs de riposte (RFI, BBC News). Le suspect, qui souffrait de troubles mentaux documentés, était déjà connu des autorités (Le Figaro). Donald Trump se trouvait à l'intérieur de la résidence au moment de l'attaque. Un passant a également été blessé lors de l'échange de tirs mais ses jours ne sont pas en danger.",
-      "contexte_historique": "Il s'agit de la quatrième faille de sécurité majeure ou tentative d'assassinat présumée visant Donald Trump depuis son retour au pouvoir en janvier 2025 (BFM TV). La sécurité autour du 1600 Pennsylvania Avenue a été drastiquement renforcée depuis 2024 après plusieurs intrusions sur la pelouse nord.",
+      "resume": "Une nouvelle canicule précoce frappe la France, avec des pointes attendues à 40°C dans le bassin parisien et le centre-est. Au-delà de l'aléa météorologique, le débat se déplace sur le terrain social et sanitaire. Oxfam France et la Fondation pour le Logement dénoncent une 'inaction coupable' du gouvernement face aux 'logements bouilloires', touchant prioritairement les quartiers populaires. Les données médicales soulignent une vulnérabilité accrue des femmes face aux pathologies cardiovasculaires exacerbées par la chaleur. Le gouvernement est accusé de privilégier des mesures d'adaptation de court terme plutôt que des réformes structurelles de l'habitat.",
+      "contexte_historique": "Depuis la canicule historique de 2003 (15 000 morts), la France a instauré un Plan National Canicule. Cependant, la répétition des épisodes (5 000 morts par an en moyenne selon franceinfo) montre les limites des infrastructures actuelles face au dérèglement climatique.",
       "implications": [
-        "Durcissement probable des périmètres de sécurité dans le centre de Washington D.C.",
-        "Débat renouvelé sur la prise en charge des individus instables connus des services de renseignement."
+        "Saturation prévisible des services d'urgence durant le week-end de la Fête de la musique.",
+        "Pression accrue pour rendre obligatoires les dispositifs de protection solaire (volets, stores) dans le Code de la construction."
       ],
       "chronologie": [
         {
-          "date": "2026-05-24",
-          "texte": "Le FBI identifie le tireur comme un individu souffrant de délires mystiques.",
+          "date": "2026-06-18",
+          "texte": "Publication du rapport Oxfam sur les conséquences sanitaires sexuées de la chaleur.",
+          "source": "L'Humanité"
+        },
+        {
+          "date": "2026-06-17",
+          "texte": "Mise en alerte orange de 29 départements par La Chaîne Météo.",
           "source": "Le Figaro"
         },
         {
-          "date": "2026-05-23",
-          "texte": "Échange de tirs à 18h30 heure locale devant un point de contrôle du Secret Service.",
-          "source": "France 24 FR"
+          "date": "2026-06-15",
+          "texte": "Début de la remontée des températures sur l'Hexagone.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Récit factuel de l'incident et focus sur les protocoles du Secret Service.",
-          "ton": "neutre",
-          "url": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Le suspect s'est approché d'un poste de contrôle et a ouvert le feu sans sommation.",
+          "source": "L'Humanité",
+          "type": "mainstream",
+          "angle": "Analyse de la canicule comme un facteur d'injustice sociale et de genre, basée sur le rapport Oxfam.",
+          "ton": "engagé",
+          "url": "https://www.humanite.fr/societe/canicule/plus-mortelles-pour-les-femmes-naissances-prematurees-inegalites-sociales-oxfam-detaille-les-consequences-de-la-canicule",
+          "citation_cle": "La chaleur tue chaque année plus de 5 000 personnes en France.",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "source": "franceinfo",
+          "type": "mainstream",
+          "angle": "Focus sur l'inadaptation des politiques publiques de logement face aux 'logements bouilloires'.",
+          "ton": "factuel",
+          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/la-chaleur-tue-chaque-annee-plus-de-5-000-personnes-en-france-selon-une-etude-d-oxfam_8066633.html#xtor=RSS-3-[lestitres]",
+          "citation_cle": "Les deux tiers des Français ont des difficultés à supporter la chaleur dans leur logement.",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
-          "source": "Le Figaro",
-          "type": "mainstream",
-          "angle": "Focus sur le profil psychologique du tireur et ses antécédents.",
-          "ton": "factuel",
-          "url": "https://www.lefigaro.fr/international/en-direct-des-tirs-aux-abords-de-la-maison-blanche-sement-la-panique-a-washington-20260524",
-          "citation_cle": "Le tireur disait se prendre pour Jésus Christ et était connu des services secrets.",
-          "groupe_media": null
-        },
-        {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "États-Unis: coups de feu près de la Maison Blanche, le tireur abattu, un passant blessé",
+          "angle": "AVC, infarctus...avec la chaleur, les risques augmentent pour la santé",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-etats-unis-coups-de-feu-pres-de-la-maison-blanche-le-tireur-abattu-un-passant-blesse_VN-202605240056.html",
-          "citation_cle": "Le président américain Donald Trump a déjà été visé par trois tentatives d'assassinat présumées au cours des deux derniè",
+          "url": "https://www.bfmtv.com/sante/video-avc-infarctus-avec-la-chaleur-les-risques-augmentent-pour-la-sante_VN-202606180118.html",
+          "citation_cle": "D'après un rapport d'OXFAM, la chaleur augmente de 7% le risque de décès par infarctus – dont les femmes meurent deux fo",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -219,52 +197,41 @@
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Comment l'individu a-t-il pu s'approcher aussi près avec une arme malgré le dispositif actuel ?",
-        "Y a-t-il eu une défaillance dans le suivi psychiatrique du suspect par les services fédéraux ?"
+        "Le maintien ou l'annulation massive des rassemblements extérieurs pour la Fête de la musique dimanche.",
+        "L'impact réel de la chaleur sur les épreuves du Baccalauréat en cours."
       ],
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260524-%C3%A9tats-unis-%C3%A0-washington-des-coups-de-feu-entendus-proche-de-la-maison-blanche",
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/societe/canicule/plus-mortelles-pour-les-femmes-naissances-prematurees-inegalites-sociales-oxfam-detaille-les-consequences-de-la-canicule",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
           }
         },
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
-          "type": "etranger",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/la-chaleur-tue-chaque-annee-plus-de-5-000-personnes-en-france-selon-une-etude-d-oxfam_8066633.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
           "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/en-direct-des-tirs-aux-abords-de-la-maison-blanche-sement-la-panique-a-washington-20260524",
+          "url": "https://www.lefigaro.fr/meteo/en-direct-nouvelle-vague-de-chaleur-les-temperatures-vont-grimper-et-approcher-les-400c-en-fin-de-semaine-20260617",
           "type": "mainstream",
           "groupe_media": null
         },
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/am%C3%A9riques/20260524-un-tireur-abattu-apr%C3%A8s-avoir-ouvert-le-feu-sur-des-agents-du-secret-service-%C3%A0-la-maison-blanche",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/economie/video-hausse-des-prix-du-carburant-le-cirque-arlette-grusse-subit-les-consequences-du-conflit-au-moyen-orient_VN-202605240059.html",
+          "url": "https://www.bfmtv.com/immobilier/ils-permettent-de-reduire-de-4-a-5-c-la-temperature-interieure-pendant-l-ete-mais-sont-facultatifs-en-france-43-des-logements-n-ont-pas-de-volets-ou-de-stores-sur-les-fenetres-exposees-au-soleil_AV-202606180081.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -274,161 +241,48 @@
           }
         }
       ],
-      "premiere_apparition": "2026-05-23"
-    },
-    {
-      "titre": "Festival de Cannes 2026 : Cristian Mungiu sacré pour la deuxième fois",
-      "slug": "palme-or-cannes-2026-mungiu",
-      "rubrique": "culture",
-      "tldr": [
-        "Le réalisateur roumain remporte la Palme d'or pour son film « Fjord ».",
-        "Un palmarès jugé très politique et tourné vers l'Europe de l'Est.",
-        "Virginie Efira récompensée par le prix d'interprétation féminine."
-      ],
-      "resume": "Le 79e Festival de Cannes s'est clôturé le 23 mai 2026 par le sacre du Roumain Cristian Mungiu, qui décroche sa deuxième Palme d'or pour « Fjord », un film explorant les tensions morales et sociales contemporaines (Le Monde, L'Obs). Le jury, présidé par Park Chan-wook, a rendu un palmarès marqué par une forte tonalité politique, récompensant également le Russe Kirill Serebrennikov (Grand Prix pour « Minotaure ») dans un contexte de tensions géopolitiques persistantes. La France est à l'honneur avec le prix d'interprétation féminine décerné à Virginie Efira (BFM TV).",
-      "contexte_historique": "Cristian Mungiu avait déjà remporté la Palme d'or en 2007 pour « 4 mois, 3 semaines, 2 jours ». Ce doublé le fait entrer dans le cercle très fermé des cinéastes multi-palmés (Francis Ford Coppola, Ken Loach, les frères Dardenne). Le festival 2026 s'est tenu sous une surveillance accrue en raison des conflits internationaux.",
-      "implications": [
-        "Confirmation de la domination du cinéma d'auteur d'Europe de l'Est dans les circuits de festivals internationaux.",
-        "Relance de la fréquentation des salles pour les films exigeants après une année 2025 difficile."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-05-23",
-          "texte": "Cérémonie de clôture et annonce du palmarès par Park Chan-wook.",
-          "source": "Le Monde"
-        },
-        {
-          "date": "2026-05-13",
-          "texte": "Ouverture du 79e Festival de Cannes.",
-          "source": "BFM TV"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "L'Obs",
-          "type": "mainstream",
-          "angle": "Analyse d'un palmarès « complètement à l'Est » et éminemment politique.",
-          "ton": "engagé",
-          "url": "https://www.nouvelobs.com/cinema/20260524.OBS115190/festival-de-cannes-2026-une-seconde-palme-pour-cristian-mungiu-et-un-palmares-completement-a-l-est.html",
-          "citation_cle": "Si le palmarès n’est pas franchement celui dont on rêvait, il a le mérite de la cohérence.",
-          "groupe_media": null
-        },
-        {
-          "source": "Courrier international",
-          "type": "etranger",
-          "angle": "Revue de presse étrangère soulignant le caractère « eurocentré » des choix du jury.",
-          "ton": "neutre",
-          "url": "https://www.courrierinternational.com/article/cinema-cannes-fjord-du-roumain-cristian-mungiu-palme-d-or-d-un-palmares-engage-et-eurocentre_244351",
-          "citation_cle": "Un palmarès engagé qui ne fait pas l'unanimité dans la presse mondiale.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Festival de Cannes : Cristian Mungiu remporte la Palme d’or pour « Fjord » lors d’une cérémonie de clôture assombrie par l’état du monde",
-          "ton": "factuel",
-          "url": "https://www.lemonde.fr/culture/article/2026/05/24/festival-de-cannes-cristian-mungiu-remporte-la-palme-d-or-pour-fjord-lors-d-une-ceremonie-de-cloture-assombrie-par-l-etat-du-monde_6692821_3246.html",
-          "citation_cle": "Le jury, présidé par le Coréen Park Chan-wook, a récompensé, samedi 23 mai, le cinéaste roumain, qui reçoit la Palme d’o",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Quel sera l'accueil du public pour un film décrit comme « sans compromis avec la complexité du monde » ?",
-        "Comment les autorités russes réagiront-elles au Grand Prix décerné à l'exilé Serebrennikov ?"
-      ],
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/culture/article/2026/05/24/festival-de-cannes-cristian-mungiu-remporte-la-palme-d-or-pour-fjord-lors-d-une-ceremonie-de-cloture-assombrie-par-l-etat-du-monde_6692821_3246.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/culture/cinema-series/video-cristian-mungiu-virginie-efira-decouvrez-le-palmares-du-festival-de-cannes-2026_VN-202605230404.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/cinema/20260524.OBS115190/festival-de-cannes-2026-une-seconde-palme-pour-cristian-mungiu-et-un-palmares-completement-a-l-est.html",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/cinema-cannes-fjord-du-roumain-cristian-mungiu-palme-d-or-d-un-palmares-engage-et-eurocentre_244351",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-05-13"
+      "premiere_apparition": "2026-06-15"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Premier tour des municipales 2026",
-      "slug": "municipales-2026-premier-tour",
-      "rubrique": "politique",
-      "resume": "Les résultats du premier tour sont désormais stabilisés. L'attention se porte sur les alliances de second tour, notamment à Marseille et Lyon.",
+      "titre": "Festival de Cannes 2026 : Cristian Mungiu sacré pour la deuxième fois",
+      "slug": "festival-cannes-2026-mungiu-palme-or",
+      "rubrique": "culture",
+      "resume": "Le festival s'est achevé sur le sacre de Cristian Mungiu. L'actualité cinématographique laisse désormais place aux bilans et aux sorties en salles.",
       "chronologie": [
         {
-          "date": "2026-03-16",
-          "texte": "Poussée historique du RN et de LFI confirmée dans les grandes agglomérations.",
-          "source": "Archives Citoyens.ai"
+          "date": "2026-05-24",
+          "texte": "Remise de la Palme d'Or à Cristian Mungiu.",
+          "source": "Le Monde"
         }
       ],
       "couvertures": [
         {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse de la recomposition urbaine.",
-          "ton": "factuel",
-          "url": "https://www.lemonde.fr",
-          "citation_cle": "Une fragmentation inédite du paysage politique local."
+          "angle": "Analyse du palmarès jugé politique et exigeant.",
+          "ton": "neutre",
+          "url": "https://www.lemonde.fr/sport/article/2026/06/18/coupe-du-monde-2026-une-seduisante-equipe-d-angleterre-idealement-lancee-dans-le-tournoi_6704471_3242.html",
+          "citation_cle": "Le sacre politique de Cristian Mungiu."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'issue des triangulaires dans les villes clés."
+        "L'accueil du public pour les films primés lors de leur sortie nationale."
       ],
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr",
+          "url": "https://www.lemonde.fr/sport/article/2026/06/18/coupe-du-monde-2026-une-seduisante-equipe-d-angleterre-idealement-lancee-dans-le-tournoi_6704471_3242.html",
           "type": "mainstream"
         }
       ],
-      "derniere_mise_a_jour": "2026-05-24",
-      "statut": "Sujet en attente du second tour."
+      "derniere_mise_a_jour": "2026-06-18",
+      "statut": "Sujet clos après la clôture de la quinzaine et la remise des prix."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 567,
+    "nb_articles_analyses": 766,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

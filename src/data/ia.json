@@ -1,37 +1,16 @@
 {
-  "date": "2026-05-24",
-  "genere_a": "2026-05-24T06:29:44.728Z",
+  "date": "2026-06-18",
+  "genere_a": "2026-06-18T05:34:11.120Z",
   "faits_ia": [
     {
-      "titre": "Léon XIV publie « Magnifica humanitas », encyclique sur l'IA",
-      "sous_section": "societe",
-      "resume": "Le pape Léon XIV s'apprête à publier sa première encyclique, intitulée « Magnifica humanitas », consacrée aux enjeux de l'intelligence artificielle. Fait exceptionnel, le souverain pontife présentera lui-même le texte ce lundi 25 mai, rompant avec la tradition du Vatican pour souligner l'urgence éthique du sujet.",
-      "pourquoi_ca_compte": "Cela marque l'entrée formelle de l'autorité morale de l'Église dans le débat sur l'IA, soulignant les risques pour la dignité humaine et la nécessité d'un cadre éthique universel.",
-      "sources": [
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/religion/magnifica-humanitas-quand-le-pape-vient-presenter-lui-meme-son-encyclique-20260522",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/religion/quiz-magnifica-humanitas-de-leon-xiv-testez-vos-connaissances-sur-les-encycliques-20260523",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": "https://www.la-croix.com/religion/magnifica-humanitas-quand-le-pape-vient-presenter-lui-meme-son-encyclique-20260522"
-    },
-    {
-      "titre": "Débat sur l'impact réel de l'IA sur l'emploi",
-      "sous_section": "recherche",
-      "resume": "De nouvelles analyses, notamment une étude de la Harvard Data Science Review, remettent en cause les prévisions alarmistes de destruction massive d'emplois par l'IA. Les chercheurs soulignent que l'élasticité-prix et la complexité des tâches humaines sont souvent ignorées dans les modèles de prédiction actuels.",
-      "pourquoi_ca_compte": "Comprendre que l'IA ne remplace pas mécaniquement l'humain permet de mieux orienter les politiques de formation et d'éviter une panique sociale injustifiée.",
+      "titre": "Snap dévoile ses lunettes de réalité augmentée pour le grand public",
+      "sous_section": "annonces",
+      "resume": "Snap a présenté ses nouvelles lunettes connectées 'Spectacles', décrites comme un ordinateur portatif conçu pour le monde réel. L'entreprise ambitionne de remplacer les smartphones par cette interface de réalité augmentée (AR) intégrée directement à la vision de l'utilisateur.",
+      "pourquoi_ca_compte": "Cela marque une étape vers l'informatique ambiante, posant des questions sur la captation permanente de données et la transformation de nos interactions sociales par des interfaces superposées au réel.",
       "sources": [
         {
           "nom": "Futura Sciences",
-          "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-voici-variable-economique-decide-vraiment-si-ia-va-creer-detruire-emplois-k2m6-134574/#xtor%3DRSS-8",
+          "url": "https://www.futura-sciences.com/tech/actualites/lunette-connectee-snap-annonce-apres-smartphone-lunettes-sont-elles-futur-flop-annonce-135433/#xtor%3DRSS-8",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Futura",
@@ -41,28 +20,28 @@
           }
         },
         {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/emploi/les-employes-de-bank-n-ont-pas-disparu-avec-l-arrivee-des-distributeurs-de-billets-ces-2-chercheurs-veulent-en-finir-avec-les-previsions-alarmistes-des-destructions-d-emplois-par-l-ia_AN-202605230167.html",
-          "type": "mainstream",
+          "nom": "Next",
+          "url": "https://next.ink/242769/snap-lance-ses-premieres-lunettes-de-realite-augmentee-pour-le-grand-public/",
+          "type": "investigation",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
           }
         }
       ],
-      "lien": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-voici-variable-economique-decide-vraiment-si-ia-va-creer-detruire-emplois-k2m6-134574/#xtor%3DRSS-8"
+      "lien": "https://next.ink/242769/snap-lance-ses-premieres-lunettes-de-realite-augmentee-pour-le-grand-public/"
     },
     {
-      "titre": "SpaceX : Succès en demi-teinte pour le Starship V3",
-      "sous_section": "annonces",
-      "resume": "SpaceX a réalisé le 12ème vol d'essai de son Starship V3, la fusée la plus puissante jamais construite. Bien que le vol soit considéré comme globalement réussi, des dysfonctionnements moteurs ont été signalés, montrant que la mise en orbite basse terrestre nécessite encore des ajustements techniques.",
-      "pourquoi_ca_compte": "Le succès de Starship est crucial pour les futures missions lunaires et martiennes, mais aussi pour le déploiement massif de satellites de communication de nouvelle génération.",
+      "titre": "Anthropic frappé par des restrictions d'exportation américaines",
+      "sous_section": "regulation",
+      "resume": "L'administration américaine a ordonné à Anthropic de suspendre l'accès à ses modèles Claude pour les ressortissants étrangers et certains partenaires comme SK Telecom. Cette décision, liée à des soupçons de liens avec la Chine, a forcé l'entreprise à mettre temporairement ses modèles les plus avancés hors ligne.",
+      "pourquoi_ca_compte": "Cette mesure illustre la politisation croissante des infrastructures d'IA et l'usage des contrôles d'exportation comme arme diplomatique, impactant directement la collaboration scientifique internationale.",
       "sources": [
         {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight/",
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Condé Nast",
@@ -72,28 +51,74 @@
           }
         },
         {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/sciences/2259469-nouveau-succes-pour-le-starship-v3-de-spacex-non-sans-quelques-bemols.html",
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls"
+    },
+    {
+      "titre": "Macron et le G7 plaident pour une régulation mondiale de l'IA",
+      "sous_section": "regulation",
+      "resume": "Lors du sommet du G7, Emmanuel Macron a réitéré l'importance d'un cadre de régulation international pour l'intelligence artificielle. Les discussions ont porté sur l'équilibre entre innovation technologique et protection des droits fondamentaux, avec la participation de ministres et de dirigeants industriels comme ceux de L'Oréal.",
+      "pourquoi_ca_compte": "La régulation de l'IA devient un enjeu de souveraineté numérique pour l'Europe face aux géants américains et chinois.",
+      "sources": [
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/la-grande-interview/g7-macron-plaide-pour-une-regulation-de-l-ia-17-06_EN-202606170899.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/la-grande-interview/g7-macron-plaide-pour-une-regulation-de-l-ia-17-06_EN-202606170899.html"
+    },
+    {
+      "titre": "Gabriel Attal propose un plan de 200 milliards pour l'IA en France",
+      "sous_section": "business",
+      "resume": "Dans le cadre de sa campagne, Gabriel Attal a annoncé le projet 'France 2040', visant à investir 200 milliards d'euros pour faire de la France le leader européen de l'IA et de l'innovation d'ici dix ans.",
+      "pourquoi_ca_compte": "Ce montant massif souligne l'importance stratégique de l'IA dans l'économie future et la volonté politique de ne pas dépendre des puissances technologiques étrangères.",
+      "sources": [
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/sciences-et-technologie/intelligence-artificielle/intelligence-artificielle-gabriel-attal-veut-un-plan-france-2040-pour-l-ia-et-l-innovation-de-200-milliards-d-euros-29538017.php",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Next",
+          "url": "https://next.ink/242605/la-promesse-dune-ia-pour-tous-au-service-du-bien-commun-a-du-plomb-dans-laile/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
         }
       ],
-      "lien": "https://www.numerama.com/sciences/2259469-nouveau-succes-pour-le-starship-v3-de-spacex-non-sans-quelques-bemols.html"
+      "lien": "https://www.sudouest.fr/sciences-et-technologie/intelligence-artificielle/intelligence-artificielle-gabriel-attal-veut-un-plan-france-2040-pour-l-ia-et-l-innovation-de-200-milliards-d-euros-29538017.php"
     },
     {
-      "titre": "Synapse Medicine et l'IA médicale sur BFM Business",
-      "sous_section": "business",
-      "resume": "Louis Létinier, cofondateur de Synapse Medicine, a présenté les avancées de sa plateforme d'intelligence médicale lors de l'émission Check-up Santé. L'entreprise se concentre sur l'aide à la prescription et la sécurité médicamenteuse via des algorithmes d'IA.",
-      "pourquoi_ca_compte": "L'intégration de l'IA dans le parcours de soin direct pose des questions de responsabilité médicale et de fiabilité des algorithmes face à la santé humaine.",
+      "titre": "L'IA 'Consumer Twins' de Kantar simule les comportements d'achat",
+      "sous_section": "annonces",
+      "resume": "Kantar a lancé une plateforme de jumeaux numériques de consommation qui utilise l'IA pour simuler les réactions et comportements des acheteurs. Cette technologie permet aux marques de tester des stratégies marketing sans avoir recours à des panels humains réels.",
+      "pourquoi_ca_compte": "Cela transforme radicalement les études de marché, mais soulève des questions sur la manipulation algorithmique des désirs des consommateurs.",
       "sources": [
         {
           "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/check-up-sante/video-check-up-sante-samedi-23-mai_VN-202605230248.html",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/morning-retail-consumer-twins-l-ia-marketing-de-kantar-18-06_EN-202606180122.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -103,8 +128,8 @@
           }
         },
         {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/check-up-sante/l-integrale-de-check-up-sante-du-samedi-23-mai_EN-202605230245.html",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/commerce-2-0/video-morning-retail-consumer-twins-l-ia-marketing-de-kantar-par-eva-jacquot-18-06_VN-202606180117.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -114,169 +139,110 @@
           }
         }
       ],
-      "lien": "https://www.bfmtv.com/economie/replay-emissions/check-up-sante/l-integrale-de-check-up-sante-du-samedi-23-mai_EN-202605230245.html"
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/morning-retail-consumer-twins-l-ia-marketing-de-kantar-18-06_EN-202606180122.html"
     },
     {
-      "titre": "La France bannit Itamar Ben-Gvir pour intimidation numérique",
-      "sous_section": "regulation",
-      "resume": "Le ministre israélien Itamar Ben-Gvir est interdit de territoire français après la diffusion d'une vidéo montrant des militants européens, dont des Français, humiliés et agenouillés. Jean-Noël Barrot a dénoncé l'utilisation de ces images comme outil d'intimidation publique.",
-      "pourquoi_ca_compte": "Cette décision illustre la réponse diplomatique face à la mise en scène médiatique et numérique de violences exercées sur des citoyens, créant un précédent sur la responsabilité des officiels étrangers.",
+      "titre": "Tesco quitte VMware face à la hausse des prix imposée par Broadcom",
+      "sous_section": "business",
+      "resume": "Le géant britannique des supermarchés Tesco migre 40 000 serveurs hors des solutions VMware après une augmentation de tarif estimée à 175 % par Broadcom. Tesco dénonce une 'conduite abusive' de la part du fournisseur.",
+      "pourquoi_ca_compte": "C'est un signal fort pour les entreprises sur les risques de dépendance technologique (vendor lock-in) face à des politiques tarifaires agressives.",
       "sources": [
         {
-          "nom": "Politico EU",
-          "url": "https://www.politico.eu/article/france-bans-israeli-minister-ben-gvir-from-entry/",
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Axel Springer / KKR",
-            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/monde/proche-orient/israel-palestine/la-france-interdit-l-acces-a-son-territoire-au-ministre-israelien-itamar-ben-gvir-apres-sa-video-devant-des-militants-de-la-flottille-pour-gaza_8023295.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
             "orientation": "centre"
           }
         },
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/international/moyen-orient/critique-pour-avoir-humilie-des-militants-de-la-flottille-pour-gaza-itamar-ben-gvir-interdit-de-territoire-francais-20260523_WMTLDC2SJZHGXPLLGCHNACOO5Q/",
-          "type": "mainstream",
+          "nom": "The Register",
+          "url": "https://www.theregister.com/virtualization/2026/06/17/tesco-is-sprinting-to-quit-vmware-and-broadcom-despite-rapid-migration-risks/5256133",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
           }
         }
       ],
-      "lien": "https://www.franceinfo.fr/monde/proche-orient/israel-palestine/la-france-interdit-l-acces-a-son-territoire-au-ministre-israelien-itamar-ben-gvir-apres-sa-video-devant-des-militants-de-la-flottille-pour-gaza_8023295.html"
+      "lien": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/"
     },
     {
-      "titre": "Loi d'urgence agricole : tension sur les données de l'eau",
-      "sous_section": "regulation",
-      "resume": "Le volet 'eau' du projet de loi d'urgence agricole, adopté le 22 mai, suscite de vives critiques. Il vise à sécuriser l'accès à l'eau pour les irrigants au détriment des zones humides, s'appuyant sur des modèles de gestion contestés par les écologistes.",
-      "pourquoi_ca_compte": "La gestion algorithmique et législative des ressources naturelles devient un point de friction majeur entre souveraineté alimentaire et préservation de l'écosystème.",
+      "titre": "Les journalistes français manifestent contre l'usage abusif de l'IA",
+      "sous_section": "societe",
+      "resume": "Une manifestation s'est tenue à Paris ce 18 juin à l'appel de l'intersyndicale de la presse. Les salariés dénoncent les suppressions de postes et l'intégration de l'IA générative dans les rédactions sans encadrement éthique ni protection de l'emploi.",
+      "pourquoi_ca_compte": "Ce mouvement social pose la question de la survie d'une information humaine et de qualité face à l'automatisation de la production de contenus.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/ecologie/230526/projet-de-loi-d-urgence-agricole-des-attaques-sans-precedent-sur-l-eau",
-          "type": "investigation",
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/medias/crise-de-la-presse/suppressions-de-postes-en-cascade-precarite-du-metier-usage-abusif-de-lia-la-presse-francaise-en-souffrance-se-mobilise",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Mediapart",
-            "proprietaire": "Fonds pour une presse libre",
-            "type_proprietaire": "fondation",
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
             "orientation": "gauche"
           }
         },
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/checknews/loi-durgence-agricole-une-des-mesures-votees-a-lassemblee-privera-t-elle-les-consommateurs-francais-de-riz-de-cafe-ou-de-chocolat-20260523_L65ERJ5FTFGATFCUTQ4H4IAFBQ/",
-          "type": "mainstream",
+          "nom": "Basta!",
+          "url": "https://basta.media/Suppressions-emplois-encadrement-IA-concentration-des-medias-pourquoi-la-presse-se-met-en-greve",
+          "type": "investigation",
           "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "Basta!",
+            "proprietaire": "Association Basta!",
+            "type_proprietaire": "independant",
+            "orientation": "gauche"
           }
         }
       ],
-      "lien": "https://www.mediapart.fr/journal/ecologie/230526/projet-de-loi-d-urgence-agricole-des-attaques-sans-precedent-sur-l-eau"
+      "lien": "https://www.humanite.fr/medias/crise-de-la-presse/suppressions-de-postes-en-cascade-precarite-du-metier-usage-abusif-de-lia-la-presse-francaise-en-souffrance-se-mobilise"
     },
     {
-      "titre": "Vigilance canicule inédite détectée par Météo-France",
-      "sous_section": "recherche",
-      "resume": "Pour la première fois depuis la création du dispositif en 2004, une vigilance jaune canicule est activée en mai, concernant le Finistère. Les modèles prévoient des records de température à Brest et Quimper (jusqu'à 33°C).",
-      "pourquoi_ca_compte": "L'accélération des phénomènes extrêmes valide les modèles climatiques les plus pessimistes et impose une adaptation technologique rapide des infrastructures urbaines.",
+      "titre": "Apple pourrait augmenter les prix des iPhone à cause des coûts de l'IA",
+      "sous_section": "business",
+      "resume": "Tim Cook a averti que les coûts élevés de la RAM, exacerbés par les besoins en calcul de l'IA, sont 'insoutenables'. Apple prévoit des augmentations de prix pour ses futurs modèles afin de compenser ces dépenses matérielles.",
+      "pourquoi_ca_compte": "L'IA n'a pas seulement un coût logiciel mais impacte l'accessibilité financière du matériel grand public.",
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/le-finistere-place-en-vigilance-jaune-canicule-une-premiere-pour-un-departement-francais-des-mai_8023598.html",
-          "type": "mainstream",
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/17/ai-is-hurting-apple-in-more-ways-than-one-it-may-force-iphone-price-increases/",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
             "orientation": "centre"
           }
         },
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/planete/article/2026/05/23/le-finistere-en-vigilance-jaune-canicule-une-premiere-pour-un-mois-de-mai-en-france_6692776_3244.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/societe/4225095-20260523-meteo-finistere-place-vigilance-jaune-canicule",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/le-finistere-place-en-vigilance-jaune-canicule-une-premiere-pour-un-departement-francais-des-mai_8023598.html"
-    },
-    {
-      "titre": "Ebola en RDC : la technologie face aux barrières culturelles",
-      "sous_section": "societe",
-      "resume": "Une nouvelle souche du virus Ebola se propage en République démocratique du Congo. Les autorités sanitaires alertent sur la saturation des centres de soin et la difficulté d'imposer des protocoles sanitaires face aux normes culturelles de deuil.",
-      "pourquoi_ca_compte": "L'échec de la réponse sanitaire malgré les outils de suivi montre les limites de la technologie face aux réalités sociales et aux coupes budgétaires de l'aide internationale.",
-      "sources": [
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/23/violence-and-overcrowding-hampers-ebola-response-in-drc",
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/951948/apple-tim-cook-price-increases-ram",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/may/23/ebola-virus-spread-drc-democratic-republic-of-congo",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
             "orientation": "centre-gauche"
           }
         }
       ],
-      "lien": "https://www.theguardian.com/world/2026/may/23/ebola-virus-spread-drc-democratic-republic-of-congo"
+      "lien": "https://techcrunch.com/2026/06/17/ai-is-hurting-apple-in-more-ways-than-one-it-may-force-iphone-price-increases/"
     },
     {
-      "titre": "Négociations USA-Iran : Trump évoque un accord proche",
-      "sous_section": "regulation",
-      "resume": "Donald Trump a affirmé sur Truth Social qu'un accord avec l'Iran pour mettre fin aux hostilités se rapprochait. Les discussions incluraient la réouverture du détroit d'Ormuz, mais excluraient toujours le volet nucléaire.",
-      "pourquoi_ca_compte": "La diplomatie par les réseaux sociaux et la gestion des flux énergétiques mondiaux restent les leviers principaux de la stabilité économique internationale.",
+      "titre": "Modering : une nouvelle IA dédiée à la modération de contenus",
+      "sous_section": "annonces",
+      "resume": "La startup Modering a présenté une IA verticale spécialisée exclusivement dans la modération automatique. Contrairement aux modèles généralistes, elle est optimisée pour détecter les contenus haineux et illicites avec une précision accrue.",
+      "pourquoi_ca_compte": "L'automatisation de la modération est cruciale pour la sécurité en ligne, mais elle comporte des risques de censure algorithmique.",
       "sources": [
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-au-moyen-orient-un-accord-pourrait-etre-annonce-dans-les-prochains-jours-selon-l-iran_VN-202605240046.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-au-moyen-orient-le-nucleaire-toujours-exclu-de-l-accord-possible-entre-les-etats-unis-et-l-iran_VN-202605240055.html",
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/le-pitch/video-le-pitch-modering-une-ia-pour-moderer-les-contenus-18-06_VN-202606180110.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -286,89 +252,73 @@
           }
         }
       ],
-      "lien": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-au-moyen-orient-un-accord-pourrait-etre-annonce-dans-les-prochains-jours-selon-l-iran_VN-202605240046.html"
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/le-pitch/video-le-pitch-modering-une-ia-pour-moderer-les-contenus-18-06_VN-202606180110.html"
     },
     {
-      "titre": "Le Louvre-Lens va exposer la Coupe de France de football",
-      "sous_section": "societe",
-      "resume": "Suite à la victoire historique du RC Lens en Coupe de France, le trophée sera exposé au musée du Louvre-Lens le 22 mai. Cette initiative mêle ferveur populaire et institution culturelle de haut niveau.",
-      "pourquoi_ca_compte": "L'utilisation d'un musée national pour célébrer un succès sportif local montre une volonté de décloisonner la culture et de renforcer l'identité régionale.",
+      "titre": "ASML défend la souveraineté technologique européenne",
+      "sous_section": "business",
+      "resume": "Le PDG d'ASML, Christophe Fouquet, a souligné le rôle central de son entreprise dans la production mondiale de semi-conducteurs et a plaidé pour une stratégie européenne plus cohérente afin de maintenir son avance technologique.",
+      "pourquoi_ca_compte": "Sans les machines d'ASML, aucune IA avancée ne peut être produite, plaçant l'Europe au cœur d'une bataille géopolitique majeure.",
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/lens/passion-solidarite-groupe-lens-a-fete-ses-heros-apres-la-victoire-en-coupe-de-france-une-foule-immense-reunie-pour-un-jour-historique-3356005.html",
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-christophe-fouquet-asml-asml-le-geant-discret-des-semi-conducteurs-17-06_VN-202606170931.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/coupe-de-france-a-bollaert-la-folie-des-grands-soirs-meme-sans-les-joueurs-20260522",
-          "type": "mainstream",
-          "groupe_media": null
         }
       ],
-      "lien": "https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/lens/passion-solidarite-groupe-lens-a-fete-ses-heros-apres-la-victoire-en-coupe-de-france-une-foule-immense-reunie-pour-un-jour-historique-3356005.html"
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-christophe-fouquet-asml-asml-le-geant-discret-des-semi-conducteurs-17-06_VN-202606170931.html"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "L'impact de l'intelligence artificielle sur l'emploi et l'économie",
-    "contexte": "Alors que les craintes de licenciements massifs liés à l'IA générative persistent, des chercheurs et experts économiques publient des études nuançant ces prévisions en introduisant des variables comme l'élasticité-prix et l'évolution historique des technologies.",
+    "sujet": "L'opinion publique américaine face à la rapidité du développement de l'IA",
+    "contexte": "Une étude de Pew Research révèle un décalage profond entre l'enthousiasme de la Silicon Valley et les inquiétudes des citoyens américains concernant l'intelligence artificielle.",
     "couvertures": [
       {
-        "source": "Futura Sciences",
-        "type": "independant",
-        "angle": "Analyse de la variable économique 'élasticité-prix'",
+        "source": "The Verge",
+        "type": "etranger",
+        "angle": "Vitesse de développement",
         "ton": "factuel",
-        "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-voici-variable-economique-decide-vraiment-si-ia-va-creer-detruire-emplois-k2m6-134574/#xtor%3DRSS-8",
-        "citation_cle": "Derrière chaque prédiction sur l'emploi se cache un angle mort économique majeur : personne ne mesure l'élasticité-prix.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
+        "citation_cle": "63 % des Américains pensent que la technologie progresse trop rapidement.",
         "groupe_media": {
-          "nom": "Futura",
-          "proprietaire": "Futura (indépendant)",
+          "nom": "Vox Media",
+          "proprietaire": "Vox Media Inc.",
           "type_proprietaire": "independant",
+          "orientation": "centre-gauche"
+        }
+      },
+      {
+        "source": "TechCrunch",
+        "type": "etranger",
+        "angle": "Impact sociétal",
+        "ton": "critique",
+        "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
+        "citation_cle": "Seulement 16 % des Américains pensent que l'IA aura un impact positif sur la société.",
+        "groupe_media": {
+          "nom": "Yahoo (AOL / Oath)",
+          "proprietaire": "Apollo Global Management",
+          "type_proprietaire": "milliardaire",
           "orientation": "centre"
         }
-      },
-      {
-        "source": "BFM Business",
-        "type": "mainstream",
-        "angle": "Comparaison historique avec les distributeurs de billets",
-        "ton": "neutre",
-        "url": "https://www.bfmtv.com/economie/emploi/les-employes-de-bank-n-ont-pas-disparu-avec-l-arrivee-des-distributeurs-de-billets-ces-2-chercheurs-veulent-en-finir-avec-les-previsions-alarmistes-des-destructions-d-emplois-par-l-ia_AN-202605230167.html",
-        "citation_cle": "Les analyses qui prévoient le remplacement de 50%, 38%, ou 5% des emplois à cause de l'IA sont alarmistes et hasardeuses.",
-        "groupe_media": {
-          "nom": "CMA CGM",
-          "proprietaire": "Rodolphe Saadé",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
-      },
-      {
-        "source": "La Croix",
-        "type": "mainstream",
-        "angle": "Perspective morale et éthique via l'encyclique papale",
-        "ton": "engagé",
-        "url": "https://www.la-croix.com/religion/magnifica-humanitas-quand-le-pape-vient-presenter-lui-meme-son-encyclique-20260522",
-        "citation_cle": "Léon XIV rompt avec l’usage pour présenter lui-même son encyclique consacrée à l’intelligence artificielle.",
-        "groupe_media": null
       }
     ],
-    "analyse_coherence": "On observe une convergence entre les sources techniques (Futura) et économiques (BFM Business) pour déconstruire le mythe du 'grand remplacement' par l'IA. Futura apporte une profondeur académique en expliquant pourquoi les modèles actuels sont incomplets (oubli de l'élasticité-prix), tandis que BFM Business utilise une analogie historique rassurante (le cas des banques et des distributeurs). Parallèlement, La Croix déplace le débat sur le terrain éthique : si l'IA ne détruit pas nécessairement l'emploi, elle transforme radicalement l'humanité, ce qui justifie l'intervention du Vatican. L'absence de couverture alarmiste ce jour suggère un basculement vers une analyse plus mature et moins sensationnaliste de la technologie.",
+    "analyse_coherence": "Les deux sources s'accordent sur un constat alarmant : malgré une adoption croissante des chatbots (49 % des sondés), la méfiance envers l'IA s'intensifie. The Verge met l'accent sur le sentiment de dépassement face à la vélocité technologique, tandis que TechCrunch souligne le pessimisme quant aux bénéfices sociétaux réels. Cette divergence entre usage (croissant) et confiance (faible) suggère que l'adoption est subie plus que choisie. Les médias notent également que Wall Street reste sourd à ces inquiétudes, créant une bulle de déconnexion entre les investisseurs et les citoyens.",
     "biais_detectes": [
-      "Optimisme technologique latent dans les sources économiques",
-      "Focalisation sur l'Occident dans les exemples (secteur bancaire)",
-      "Biais institutionnel (mise en avant de la parole papale sans contradiction)"
+      "Focalisation sur l'opinion américaine uniquement",
+      "Opposition binaire entre Wall Street et le citoyen moyen"
     ],
-    "ce_quil_faut_retenir": "L'IA est désormais traitée comme un outil économique complexe plutôt que comme une menace apocalyptique, nécessitant à la fois une rigueur mathématique dans les prévisions et un cadre moral pour son déploiement."
+    "ce_quil_faut_retenir": "L'acceptabilité sociale de l'IA est au plus bas, malgré son intégration forcée dans les outils du quotidien."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 191,
-    "nb_topics_ia": 61,
+    "nb_articles_ia": 198,
+    "nb_topics_ia": 73,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
