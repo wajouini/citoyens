@@ -1,99 +1,98 @@
 {
   "sujet_du_jour": {
-    "titre": "France 2030 : Le gouvernement accusé d'avoir truqué des aides pour Ineos",
-    "rubrique": "economie",
-    "pourquoi_important": "Cette affaire révèle un possible détournement de fonds publics destinés à la transition écologique vers l'un des plus grands pollueurs industriels du pays.",
+    "titre": "Séismes au Venezuela : le bilan s'alourdit à 1 450 morts",
+    "rubrique": "international",
+    "pourquoi_important": "Une double secousse majeure a frappé le cœur du Venezuela, déclenchant une crise humanitaire aiguë et une mobilisation internationale massive.",
     "faits": [
-      "Une enquête de Disclose affirme que Matignon et Bercy ont exercé des pressions pour rendre le pétrochimiste Ineos éligible à plus de 300 millions d'euros d'aides de l'Ademe.",
-      "Le projet 'Ineos Naptachimie' a été officiellement retenu par la Direction générale des Entreprises (DGE) pour un soutien de 297 millions d'euros .",
-      "Le cahier des charges initial de l'appel d'offres excluait pourtant les projets liés à la production et consommation d'hydrogène .",
-      "Ineos a déjà revendiqué ce soutien pour son site de Lavéra, avec un objectif de réduction de 331 000 tonnes de CO2 par an ."
+      "Au moins 1 430 morts confirmés par l'ONU et jusqu'à 1 450 selon les derniers bilans locaux, avec plus de 3 200 blessés.",
+      "Deux séismes successifs de magnitude 7,2 et 7,5 ont frappé le 24 juin à seulement 39 secondes d'intervalle.",
+      "44 équipes internationales (USAR) et plus de 2 200 spécialistes sont déployés pour retrouver des survivants parmi les 50 000 disparus estimés.",
+      "L'aide humanitaire s'organise malgré les tensions géopolitiques, avec l'envoi de 4 tonnes de matériel médical par l'OMS depuis le Panama."
     ],
-    "contexte": "Dans le cadre du plan France 2030, l'Ademe est censée financer la décarbonation de l'industrie. L'enquête de Disclose suggère une 'mise au pas' de l'agence par le pouvoir politique au profit de multinationales polluantes, alors même qu'un projet de loi prévoit le démantèlement de l'institution. Cette situation pose la question de l'intégrité de la planification écologique française.",
+    "contexte": "Le 24 juin 2026, le nord du Venezuela a été dévasté par une séquence sismique exceptionnelle. L'épicentre a particulièrement touché La Guaira et la région de Caracas, provoquant l'effondrement de 189 immeubles. Alors que les communautés vénézuéliennes de Colombie et du Pérou se mobilisent, les secours doivent opérer dans un pays aux infrastructures déjà fragilisées par une crise économique profonde.",
     "sources": [
       {
-        "nom": "Disclose",
-        "url": "https://disclose.ngo/fr/article/le-gouvernement-detourne-les-aides-de-lademe-pour-financer-lun-des-plus-gros-pollueurs-de-france",
-        "type": "investigation",
+        "nom": "ONU Genève",
+        "url": "https://www.ungeneva.org/en/news-media/news/2026/06/120113/venezuela-earthquakes-international-rescue-teams-join-search",
+        "type": "institutionnel",
+        "groupe_media": null
+      },
+      {
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/planete/article/2026/06/28/seisme-au-venezuela-le-bilan-s-alourdit-a-1-450-morts_6716592_3244.html",
+        "type": "mainstream",
         "groupe_media": {
-          "nom": "Disclose",
-          "proprietaire": "Association Disclose",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       },
       {
-        "nom": "Direction générale des Entreprises",
-        "url": "https://www.entreprises.gouv.fr/la-dge/actualites/sept-projets-laureats-de-lappel-doffres-grands-projets-industriels-de",
-        "type": "institutionnel",
-        "groupe_media": null
+        "nom": "L'Humanité",
+        "url": "https://www.humanite.fr/monde/venezuela/seismes-au-venezuela-un-bilan-provisoire-effroyable-avec-au-moins-1430-morts-et-50-000-disparus",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
+        }
       },
       {
-        "nom": "ADEME",
-        "url": "https://agirpourlatransition.ademe.fr/sites/default/files/AO%20GPID%202024%20-%20Cahier%20des%20charges%20-%202025.pdf",
-        "type": "institutionnel",
-        "groupe_media": null
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260629-s%C3%A9ismes-au-venezuela-les-communaut%C3%A9s-v%C3%A9n%C3%A9zu%C3%A9liennes-en-am%C3%A9rique-latine-se-mobilisent",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
       }
     ],
-    "lien": "https://disclose.ngo/fr/article/le-gouvernement-detourne-les-aides-de-lademe-pour-financer-lun-des-plus-gros-pollueurs-de-france"
+    "lien": "https://www.ifrc.org/press-release/venezuela-red-cross-responds-needs-emerge-aftermath-powerful-back-back-earthquakes"
   },
   "france": [
     {
-      "titre": "Affaire Lyhanna : l'autopsie confirme le viol de l'enfant",
+      "titre": "Crash d'un avion de parachutisme : 11 morts près de Nancy",
       "rubrique": "societe",
-      "resume": "Les analyses médico-légales pratiquées sur le corps de Lyhanna, 11 ans, retrouvée morte dans le Gers, révèlent qu'elle a été bâillonnée et violée. Le profil biologique du principal suspect, Jérôme Barella, a été identifié sur la victime (BFM TV, Libération, Le Figaro).",
+      "resume": "Un avion civil effectuant un baptême de parachutisme s'est écrasé dimanche à Tomblaine peu après le décollage. Les 11 occupants (un pilote, cinq instructeurs et cinq élèves) sont décédés ; le parquet de Paris a ouvert une enquête pour déterminer les causes de cette chute brutale (BFM TV, franceinfo, Le Figaro).",
       "sources": [
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/police-justice/info-bfmtv-mort-de-lyhanna-l-enfant-a-ete-baillonnee-avec-du-scotch-son-corps-porte-des-traces-d-ecchymoses_AN-202606181002.html",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/accident/crash-d-un-avion-pres-de-nancy/un-bapteme-de-parachutisme-une-chute-a-pic-aucun-survivant-ce-que-l-on-sait-du-crash-d-un-avion-civil-qui-a-fait-onze-morts-pres-de-nancy_8083847.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/societe/police-justice/affaire-lyhanna-lautopsie-revele-que-lenfant-a-ete-victime-dun-viol-20260618_FSNPZUAFHFG7BKEWTON2HLNEFI/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
           "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/faits-divers/meurtre-de-lyhanna-l-autopsie-revele-que-la-collegienne-a-ete-violee-20260618",
+          "url": "https://www.lefigaro.fr/actualite-france/accident-d-avion-pres-de-nancy-videos-trajectoire-seront-scrutes-pendant-l-enquete-20260628",
           "type": "mainstream",
           "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Néonicotinoïdes : le Sénat vote le retour de l'acétamipride",
-      "rubrique": "politique",
-      "resume": "En commission sénatoriale, des élus LR ont fait adopter un amendement réintroduisant l'acétamipride et le flupyradifurone, des insecticides tueurs d'abeilles. Le sénateur Pierre Cuypers est pointé du doigt par Les Décodeurs pour ses liens non mentionnés avec le lobby de la betterave (Reporterre, Le Monde).",
-      "sources": [
-        {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Acetamipride-Laurent-Duplomb-fait-adopter-le-retour-de-l-insecticide-controverse",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Reporterre",
-            "proprietaire": "Association La Pile",
-            "type_proprietaire": "independant",
-            "orientation": "gauche"
-          }
         },
         {
-          "nom": "Les Décodeurs",
-          "url": "https://www.lemonde.fr/planete/article/2026/06/17/la-double-casquette-de-pierre-cuypers-betteravier-et-senateur-qui-pousse-depuis-des-annees-en-faveur-des-neonicotinoides_6704241_3244.html",
-          "type": "fact-check",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-liban-le-chef-du-parlement-allie-au-hezbollah-affirme-que-l-accord-avec-israel-ne-sera-pas-adopte_VN-202606290092.html",
+          "type": "mainstream"
+        }
+      ],
+      "lien": "https://apnews.com/article/2554c6bc5bd2e6e804ba2056959ed87b"
+    },
+    {
+      "titre": "Justice : fronde des avocats contre la réforme criminelle",
+      "rubrique": "politique",
+      "resume": "Le Conseil national des barreaux appelle à une journée « justice morte » ce lundi pour protester contre le projet de loi sur la justice criminelle porté par Gérald Darmanin. Les avocats dénoncent une dégradation des garanties fondamentales au profit d'une efficacité de façade, tandis que le ministre peine à convaincre l'Assemblée (Le Monde, L'Humanité).",
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/societe/article/2026/06/29/gerald-darmanin-plus-seul-que-jamais-face-a-la-double-fronde-des-avocats-et-des-magistrats-et-en-difficulte-pour-faire-adopter-son-projet-de-loi_6716693_3224.html",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -102,33 +101,38 @@
           }
         },
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/06/19/royaume-uni-le-travailliste-andy-burnham-rival-de-keir-starmer-elu-depute_6704904_3210.html",
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/politique/agriculture/angelique-thiallier-agricultrice-et-vice-presidente-du-modef-les-promesses-du-rn-au-monde-rural-sont-tres-dangereuses",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Formation du privé : l'emprise de l'Église dénoncée",
+      "titre": "Fin des APL pour les étudiants extra-européens",
       "rubrique": "societe",
-      "resume": "La Cour des comptes critique l'organisme Formiris, financé par l'argent public mais sous contrôle étroit de l'enseignement catholique. Les magistrats demandent d'exclure l'enseignement confessionnel de la gouvernance pour garantir l'indépendance de la formation des maîtres (La Croix, Libération).",
+      "resume": "À compter du 1er juillet, les étudiants non-européens et non-boursiers ne percevront plus les aides personnalisées au logement (APL). Cette mesure issue de la loi de finances 2026 exempte toutefois les apprentis et les étudiants salariés (franceinfo, BFM Business).",
       "sources": [
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/enseignement-prive-la-formation-des-enseignants-scrutee-par-la-cour-des-comptes-20260618",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/societe/education/la-cour-des-comptes-denonce-lemprise-de-lenseignement-catholique-sur-la-formation-des-enseignants-du-prive-20260618_T6CAPBNBERG37J27ROWZAA6CMI/",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/economie/budget/les-etudiants-non-europeens-non-boursiers-seront-prives-d-apl-a-partir-du-1er-juillet_8083700.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/economie-social/social/a-partir-du-1er-juillet-les-etudiants-extra-europeens-et-non-boursiers-ne-toucheront-plus-les-apl_AD-202606280234.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         }
       ],
@@ -137,13 +141,38 @@
   ],
   "monde": [
     {
-      "titre": "Andy Burnham élu député : un défi pour Keir Starmer",
-      "pays": "Royaume-Uni",
-      "resume": "Le maire du Grand Manchester, Andy Burnham, a remporté une élection partielle, marquant son retour au Parlement. Surnommé le 'Roi du Nord', il est perçu comme le principal rival interne du Premier ministre Keir Starmer au sein du Labour (Le Monde, Le Figaro, RFI).",
+      "titre": "Trêve fragile entre Téhéran et Washington",
+      "pays": "Iran / USA",
+      "resume": "Malgré des échanges de frappes récents autour du détroit d'Ormuz, l'Iran et les États-Unis ont accepté de suspendre leurs attaques. Une rencontre diplomatique cruciale est prévue ce mardi au Qatar pour tenter de sauver le cessez-le-feu (Le Figaro, 20 Minutes, Ouest-France).",
+      "sources": [
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-teheran-et-washington-acceptent-de-suspendre-leurs-attaques-et-de-se-rencontrer-mardi-au-qatar-20260629",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/monde/proche-orient/guerre-au-moyen-orient-suspension-mutuelle-des-attaques-possible-rencontre-au-qatar-les-dernieres-infos-28621608-7369-11f1-a0e7-4fa27dc4c816",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/monde/ukraine/4231753-20260629-direct-guerre-ukraine-poutine-attend-reprendre-negociations-ukraine-etats-unis?at_medium=display&at_campaign=149",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Démission du bras droit de Javier Milei",
+      "pays": "Argentine",
+      "resume": "Manuel Adorni, chef de cabinet et fidèle du président ultralibéral, a démissionné suite à des révélations sur son train de vie et des accusations d'évasion fiscale. Ce départ marque un coup dur pour l'exécutif argentin (Le Monde, RFI).",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/06/19/royaume-uni-le-travailliste-andy-burnham-rival-de-keir-starmer-elu-depute_6704904_3210.html",
+          "url": "https://www.lemonde.fr/international/article/2026/06/28/en-argentine-le-chef-de-cabinet-et-fidele-de-javier-milei-demissionne_6716593_3210.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -153,108 +182,71 @@
           }
         },
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/andy-burnham-le-roi-du-nord-qui-veut-conquerir-downing-street-20260619",
-          "type": "mainstream"
-        },
-        {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/europe/20260619-au-royaume-uni-le-travailliste-andy-burnham-%C3%A9lu-d%C3%A9put%C3%A9-avec-downing-street-dans-le-viseur",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "L'Ukraine frappe Moscou et ses raffineries",
-      "pays": "Russie",
-      "resume": "Kiev a lancé sa plus vaste attaque de drones contre la capitale russe depuis deux ans, touchant une raffinerie majeure et perturbant les aéroports. Moscou menace de 'frappes massives' en représailles (L'Humanité, France 24, franceinfo).",
-      "sources": [
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/monde/guerre-en-ukraine/guerre-en-ukraine-moscou-en-flamme-apres-une-importante-attaque-de-drone",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260628-argentine-le-bras-droit-de-javier-milei-contraint-%C3%A0-la-d%C3%A9mission-apr%C3%A8s-un-scandale-de-corruption",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
-        },
-        {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260618-attaque-de-drones-sur-moscou-une-raffinerie-de-la-capitale-russe-touch%C3%A9e",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/coupe-du-monde/directs/direct-coupe-du-monde-2026-le-bresil-en-quete-d-une-premiere-victoire-face-a-haiti-les-etats-unis-visent-la-tete-du-groupe-c-contre-l-australie_8067656.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream"
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Régulation de CNews par l'Arcom et la CEDH",
-    "rubrique": "societe",
-    "contexte": "La Cour européenne des droits de l'homme a validé une mise en demeure de l'Arcom contre CNews suite à la diffusion de propos erronés non contredits durant la pandémie.",
+    "sujet": "Élections provinciales en Nouvelle-Calédonie",
+    "rubrique": "politique",
+    "contexte": "Deux ans après les émeutes de 2024, la Nouvelle-Calédonie a voté pour renouveler ses assemblées provinciales. Le scrutin s'est déroulé dans un calme relatif mais avec une participation en baisse.",
     "couvertures": [
       {
-        "source": "La Croix",
+        "source": "RFI",
         "type": "mainstream",
-        "angle": "Focus sur la validation juridique par la CEDH de la décision du régulateur français.",
+        "angle": "Analyse de la géographie politique : domination loyaliste au Sud mais blocage au Congrès.",
         "ton": "factuel",
-        "url": "https://www.la-croix.com/culture/cnews-la-cour-europeenne-des-droits-de-l-homme-conforte-la-mise-en-demeure-de-larcom-20260618",
-        "citation_cle": "La CEDH confirme la décision de l’Autorité de régulation.",
-        "auteur": "Julie Sarfati",
-        "proprietaire_contexte": "Groupe Bayard",
+        "url": "https://www.rfi.fr/fr/france/20260628-%C3%A9lections-en-nouvelle-cal%C3%A9donie-les-non-ind%C3%A9pendantistes-ressortent-en-t%C3%AAte-dans-le-sud-mais-sans-majorit%C3%A9-au-congr%C3%A8s",
+        "citation_cle": "L'Éveil océanien devra à nouveau y jouer un rôle d'arbitre.",
+        "auteur": "RFI",
+        "proprietaire_contexte": "État français",
         "orientation_source": "Centre",
-        "groupe_media": null
+        "groupe_media": {
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
       },
       {
-        "source": "CheckNews (Libération)",
-        "type": "fact-check",
-        "angle": "Analyse détaillée des manquements au pluralisme et à l'honnêteté de l'information reprochés à la chaîne.",
-        "ton": "critique",
-        "url": "https://www.liberation.fr/checknews/cnews-et-le-pluralisme-ce-que-larcom-reproche-reellement-a-la-chaine-dinformation-de-vincent-bollore-20260617_7ZTK2F2C6JGLFG3GUGSYIJEV5M/",
-        "citation_cle": "L’autorité de régulation de l’audiovisuel a rendu un avis sévère contre la chaîne ultraconservatrice.",
-        "auteur": "Sacha Laudrin Laroche",
-        "proprietaire_contexte": "Fonds de dotation (indépendant)",
-        "orientation_source": "Centre-gauche",
+        "source": "Sud-Ouest",
+        "type": "mainstream",
+        "angle": "Zoom sur la victoire de la liste de Sonia Backès en province Sud.",
+        "ton": "neutre",
+        "url": "https://www.sudouest.fr/france/outre-mer/nouvelle-caledonie/elections-provinciales-en-nouvelle-caledonie-les-non-independantistes-en-tete-sans-majorite-absolue-au-congres-29702696.php",
+        "citation_cle": "La liste menée par Sonia Backès a largement remporté la province Sud face aux indépendantistes.",
+        "auteur": null,
+        "proprietaire_contexte": "Groupe Sud-Ouest",
+        "orientation_source": "Centre",
         "groupe_media": null
       }
     ],
-    "analyse_coherence": "La couverture médiatique de la régulation de CNews illustre une tension croissante entre liberté d'expression et responsabilité éditoriale. Tandis que les médias mainstream comme La Croix s'en tiennent à la dimension procédurale et juridique (validation par la CEDH), les médias d'investigation ou de fact-checking comme CheckNews soulignent la dimension systémique du problème : le non-respect délibéré du pluralisme. On observe un contraste marqué entre la défense par la chaîne d'une 'liberté d'expression' absolue et le rappel par les institutions européennes que cette liberté comporte des devoirs, notamment celui de ne pas diffuser de fausses informations sans contradiction. L'enjeu dépasse le simple cadre technique pour toucher à la fonction démocratique des médias d'information continue.",
+    "analyse_coherence": "Le traitement médiatique des élections calédoniennes révèle une persistance des clivages coloniaux dans l'analyse institutionnelle. Tandis que la presse nationale (RFI, Sud-Ouest) se concentre sur l'arithmétique électorale et la victoire des 'loyalistes' dans le Sud, elle occulte partiellement le fait que ces derniers échouent à obtenir une majorité au Congrès, l'organe délibérant du territoire. Cette lecture 'sud-centrée' minimise le poids politique des provinces Nord et des Îles, majoritairement indépendantistes. On observe un double standard dans l'usage des termes : la presse française utilise volontiers 'loyalistes' (connotation positive de fidélité à la République), là où la presse internationale (France 24 EN) préfère 'anti-independence parties', plus neutre. La baisse de participation, pourtant signal faible d'un désengagement ou d'une lassitude démocratique après les violences de 2024, est mentionnée mais peu analysée comme un échec du processus de dialogue. Enfin, la dépendance du futur politique au parti 'L’Éveil océanien' montre que le binarisme imposé par Paris ne correspond plus à la réalité sociologique du territoire.",
     "biais_detectes": [
-      "Cadrage institutionnel dominant",
-      "Opposition entre liberté d'expression et régulation"
+      "Cadrage loyaliste dominant",
+      "Invisibilisation des dynamiques hors Province Sud",
+      "Minimisation du recul de la participation"
     ],
-    "ce_quil_faut_retenir": "La CEDH établit qu'une mise en demeure pour défaut de contradiction n'est pas une atteinte disproportionnée à la liberté d'expression, renforçant le rôle de l'Arcom."
+    "ce_quil_faut_retenir": "Les urnes confirment une fracture géographique totale : le Sud reste loyaliste, le Nord et les Îles indépendantistes. Sans majorité claire au Congrès, la Nouvelle-Calédonie reste dans une impasse politique où un petit parti tiers détient les clés de la gouvernance."
   },
   "regard_etranger": [
     {
       "source": "The Guardian",
       "pays": "Royaume-Uni",
-      "titre": "L'armée américaine tue trois personnes lors d'une frappe de bateau dans le Pacifique",
-      "titre_original": "US military kills three people in boat strike in Pacific Ocean",
-      "angle": "Le média britannique souligne le bilan humain lourd (211 morts) de la campagne de l'administration Trump contre les 'narcoterroristes'.",
-      "url": "https://www.theguardian.com/us-news/2026/jun/18/us-military-boat-strike-pacific-ocean",
-      "groupe_media": {
-        "nom": "Scott Trust",
-        "proprietaire": "Scott Trust Limited",
-        "type_proprietaire": "fondation",
-        "orientation": "centre-gauche"
-      }
-    },
-    {
-      "source": "The Guardian",
-      "pays": "Royaume-Uni",
-      "titre": "Colère face aux chants « Renvoyez-les » des eurodéputés de droite",
-      "titre_original": "Anger at ‘send them back’ chants by rightwing MEPs after EU migration law vote",
-      "angle": "Une vision critique de la dérive xénophobe au sein du Parlement européen après le vote du pacte migration.",
-      "url": "https://www.theguardian.com/world/2026/jun/18/anger-send-them-back-chants-rightwing-meps-eu-migration-law-vote",
+      "titre": "Un avion de parachutisme s'écrase près de Nancy, 11 morts",
+      "titre_original": "French skydiving plane crashes near Nancy, killing all 11 onboard",
+      "angle": "Factuel et précis sur le bilan humain, soulignant la soudaineté de la chute.",
+      "url": "https://www.theguardian.com/world/2026/jun/28/french-skydiving-plane-crashes-near-nancy-killing-all-11-on-board-says-prefect",
       "groupe_media": {
         "nom": "Scott Trust",
         "proprietaire": "Scott Trust Limited",
@@ -264,79 +256,108 @@
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "123 000 dollars",
-    "contexte": "Amende infligée au cerveau du plus grand trafic de cornes de rhinocéros au monde en Afrique du Sud.",
-    "source": "RFI",
-    "source_url": "https://www.rfi.fr/fr/afrique"
+    "valeur": "78%",
+    "contexte": "Part des cours d'eau français surveillés ayant connu au moins un dépassement des seuils de risque pour des micropolluants entre 2022 et 2024.",
+    "source": "Médiacités / Naïades",
+    "source_url": "https://www.mediacites.fr/la-fabrique/national/2026/06/29/methodologie-comment-avons-nous-cartographie-la-pollution-des-cours-deau-francais/"
   },
   "a_surveiller": [
     {
-      "date": "2026-06-24",
-      "evenement": "Vote à l'Assemblée nationale sur la loi contre la fast-fashion",
+      "date": "2026-06-30",
+      "evenement": "Examen du projet de loi sur la justice criminelle à l'Assemblée nationale",
       "type": "vote",
-      "lien": "https://www.franceinfo.fr/economie/commerce/les-parlementaires-trouvent-un-accord-sur-la-loi-anti-fast-fashion-ouvrant-la-voie-a-l-adoption-definitive-du-texte_8067542.html"
+      "lien": null
     },
     {
-      "date": "2026-06-29",
-      "evenement": "Vote final au Sénat sur la régulation de la fast-fashion",
-      "type": "vote",
+      "date": "2026-06-30",
+      "evenement": "Manifestations anti-immigration prévues à Durban (Afrique du Sud)",
+      "type": "manifestation",
+      "lien": null
+    },
+    {
+      "date": "2026-07-01",
+      "evenement": "Évacuation annoncée du bidonville des jardins de Stains",
+      "type": "autre",
       "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Mort d'Idir à Lyon-Corbas : la thèse du suicide contestée",
+      "titre": "Les saisonniers agricoles, sacrifiés des pesticides",
       "rubrique": "societe",
-      "resume": "Six ans après la mort d'Idir Mederess au 'mitard' de Lyon-Corbas, sa famille dénonce des incohérences dans l'enquête et demande sa réouverture face à un risque de non-lieu imminent.",
+      "resume": "Une enquête de Mediapart révèle l'invisibilité des travailleurs saisonniers face aux risques chimiques. Bien que surexposés lors des traitements, leur précarité empêche tout suivi médical sérieux et la reconnaissance de leurs cancers comme maladies professionnelles.",
       "sources": [
         {
-          "nom": "Rue89 Lyon",
-          "url": "https://www.rue89lyon.fr/2026/06/19/six-ans-apres-mort-didir-mitard-combat-proches-pour-faire-rouvrir-enquete/",
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/economie-et-social/280626/les-saisonniers-exposes-aux-pesticides-grands-absents-du-debat-public",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce sujet met en lumière l'opacité persistante des décès en quartier disciplinaire, souvent classés sans suite malgré les doutes des familles."
+      "pourquoi_signal": "Ce sujet est ignoré par les médias mainstream qui se focalisent sur la santé des agriculteurs propriétaires, oubliant la main-d'œuvre mobile et souvent étrangère."
+    },
+    {
+      "titre": "Expulsion imminente à Stains : 1 500 personnes menacées",
+      "rubrique": "societe",
+      "resume": "Le plus grand bidonville de France, situé dans les jardins ouvriers de Stains, doit être démantelé le 1er juillet. Entre 1 300 et 1 500 personnes vivent dans l'angoisse d'une mise à la rue sans solution de relogement pérenne.",
+      "sources": [
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/280626/ici-la-vie-etait-facile-malgre-l-extreme-precarite-l-angoisse-des-habitants-du-plus-grand-bidonville-de-fr",
+          "type": "investigation"
+        }
+      ],
+      "pourquoi_signal": "La destruction de ce lieu de vie historique est traitée comme un simple fait divers administratif par les autorités locales, occultant l'ampleur du drame social."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Sommet d'Accra : l'Afrique exige des réparations pour l'esclavage",
-      "rubrique": "international",
-      "resume": "Dirigeants africains et diasporas se réunissent au Ghana pour transformer la résolution de l'ONU sur l'esclavage en actions concrètes de réparation.",
+      "titre": "Rivières françaises : l'échec de la lutte contre la pollution",
+      "rubrique": "science",
+      "resume": "Une cartographie inédite montre que 1 700 rivières sont contaminées par des micropolluants. La France va rater ses objectifs européens de 2027.",
       "axes_concernes": [
-        "colonialisme",
         "justice_sociale",
         "droit_international"
       ],
-      "analyse": "Ce sommet marque un tournant : le passage d'une reconnaissance symbolique à une exigence de justice matérielle. Le silence relatif des médias occidentaux sur ce processus de coordination panafricaine souligne le décalage entre les aspirations du Sud global et l'agenda du Nord.",
+      "analyse": "Cette enquête révèle une faillite des politiques publiques environnementales. Le non-respect des directives européennes sur l'eau constitue une violation des droits des citoyens à un environnement sain. L'opacité des données, enfin levée par ce travail d'investigation, souligne l'urgence d'un financement massif des agences de l'eau.",
+      "sources": [
+        {
+          "nom": "Médiacités",
+          "url": "https://www.mediacites.fr/enquete/national/2026/06/29/1700-rivieres-sous-pression-la-carte-inedite-de-la-pollution-chimique-des-cours-deau-en-france/",
+          "type": "investigation"
+        }
+      ]
+    },
+    {
+      "titre": "Ouganda : l'armée musèle la presse indépendante",
+      "rubrique": "international",
+      "resume": "Le général Muhoozi Kainerugaba a ordonné la fermeture de NTV et du Daily Monitor à Kampala. Les rédactions sont assiégées par les soldats.",
+      "axes_concernes": [
+        "liberte_expression",
+        "antifascisme"
+      ],
+      "analyse": "L'utilisation de l'armée pour fermer des médias est une étape grave vers une dictature dynastique. Le silence relatif de la diplomatie internationale sur cette répression en Ouganda illustre un double standard flagrant par rapport à d'autres zones de conflit.",
       "sources": [
         {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20260619-esclavage-%C3%A0-accra-l-afrique-et-sa-diaspora-tentent-de-parler-d-une-seule-voix-sur-la-question-des-r%C3%A9parations",
+          "url": "https://www.rfi.fr/fr/afrique/20260628-ouganda-l-arm%C3%A9e-ordonne-la-fermeture-de-plusieurs-m%C3%A9dias-ind%C3%A9pendants-qui-affirment-%C3%AAtre-assi%C3%A9g%C3%A9s",
           "type": "mainstream"
-        },
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/geopolitique-au-ghana-un-sommet-international-pour-faire-avancer-les-reparations-liees-a-l-esclavage_245389",
-          "type": "etranger"
         }
       ]
     }
   ],
-  "date": "2026-06-19",
-  "genere_a": "2026-06-19T04:35:33.608Z",
+  "date": "2026-06-29",
+  "genere_a": "2026-06-29T05:29:21.762Z",
   "meta": {
-    "nb_articles_analyses": 754,
-    "nb_topics": 197,
-    "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 42,
-    "sources_francaises": 506,
-    "sources_etrangeres": 248,
+    "nb_articles_analyses": 545,
+    "nb_topics": 152,
+    "nb_topics_selectionnes": 15,
+    "nb_articles_dans_selection": 37,
+    "sources_francaises": 385,
+    "sources_etrangeres": 160,
     "rubriques_couvertes": [
-      "economie",
+      "international",
       "societe",
-      "politique",
-      "international"
+      "politique"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"
