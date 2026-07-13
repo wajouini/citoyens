@@ -1,295 +1,75 @@
 {
-  "date": "2026-06-29",
-  "genere_a": "2026-06-29T05:30:11.217Z",
+  "date": "2026-07-13",
+  "genere_a": "2026-07-13T06:29:37.625Z",
   "sujets_actifs": [
     {
-      "titre": "Tensions et suspension des frappes entre les États-Unis et l'Iran dans le détroit d'Ormuz",
-      "slug": "tensions-usa-iran-detroit-ormuz-suspension-attaques",
+      "titre": "Escalade militaire directe entre les États-Unis et l'Iran",
+      "slug": "escalade-militaire-usa-iran-detroit-ormuz",
       "rubrique": "international",
       "tldr": [
-        "Washington et Téhéran annoncent une suspension mutuelle des attaques après quatre jours d'escalade.",
-        "Le contrôle du détroit d'Ormuz reste le point de friction majeur malgré le protocole du 17 juin.",
-        "Une rencontre diplomatique de crise est prévue mardi au Qatar pour sauver le cessez-le-feu."
+        "Frappes américaines massives sur des dizaines de cibles en Iran pour la deuxième journée consécutive.",
+        "Riposte de Téhéran via des drones et missiles contre des bases américaines en Jordanie, au Bahreïn et au Koweït.",
+        "Le prix du baril de Brent bondit de 4 % suite aux menaces sur le détroit d'Ormuz."
       ],
-      "resume": "Après une reprise brutale des hostilités ayant menacé le protocole d'accord signé le 17 juin, les États-Unis et l'Iran ont convenu d'une suspension immédiate de leurs frappes mutuelles (RFI, Le Figaro). Les tensions s'étaient cristallisées autour du détroit d'Ormuz, zone stratégique où les deux pays s'accusent de violations répétées du cessez-le-feu. Si un porte-conteneurs français a pu transiter sans encombre, le trafic maritime global reste sous haute surveillance (BFM TV). Les belligérants prévoient désormais de se retrouver au Qatar ce mardi pour tenter de stabiliser ce processus de paix fragile, alors que le Guide suprême Khamenei fait face à des dissensions internes sur la validation du protocole .",
-      "contexte_historique": "Le détroit d'Ormuz voit passer environ 20% de la consommation mondiale de pétrole. Historiquement, Téhéran utilise la menace de fermeture du détroit comme levier diplomatique, notamment lors de la 'guerre des pétroliers' (1980-1988) durant le conflit Iran-Irak (Le Figaro).",
+      "resume": "La trêve fragile observée en juin a volé en éclats : les États-Unis ont lancé une nouvelle vague de bombardements contre des infrastructures militaires iraniennes, visant à briser le contrôle de Téhéran sur le détroit d'Ormuz (Al Jazeera, RFI). En réponse, les Gardiens de la révolution ont frappé plusieurs bases alliées de Washington dans le Golfe, affirmant que la diplomatie est désormais « futile » (The Guardian). L'armée koweïtienne a confirmé avoir engagé des cibles aériennes sur son territoire. Cette confrontation directe marque un tournant, s'éloignant de la guerre par procuration habituelle pour un conflit frontal risquant de paralyser le transit pétrolier mondial.",
+      "contexte_historique": "Le détroit d'Ormuz est le point de passage de 20 % de la consommation mondiale de pétrole. Les tensions y sont chroniques depuis la révolution de 1979, avec un précédent majeur lors de la « guerre des pétroliers » (1980-1988) où les États-Unis étaient intervenus pour protéger les navires koweïtiens (Source: ONU/Archives historiques).",
       "implications": [
-        "Volatilité immédiate des prix du pétrole brut (Brent) sur les marchés mondiaux.",
-        "Risque de déstabilisation du gouvernement libanais, dont le chef du Parlement rejette l'accord-cadre signé parallèlement avec Israël."
+        "Risque de rupture d'approvisionnement énergétique mondial et envolée durable des prix du carburant.",
+        "Déstabilisation sécuritaire immédiate des monarchies du Golfe (Bahreïn, Koweït) accueillant des troupes américaines."
       ],
       "chronologie": [
         {
-          "date": "2026-06-29",
-          "texte": "Annonce d'une rencontre diplomatique prévue mardi au Qatar.",
-          "source": "Le Figaro"
+          "date": "2026-07-13",
+          "texte": "Nouvelle salve de frappes américaines et ripostes iraniennes sur les bases du Golfe.",
+          "source": "Sud-Ouest"
         },
         {
-          "date": "2026-06-28",
-          "texte": "Accord sur une suspension mutuelle des frappes après des échanges de tirs nocturnes.",
-          "source": "RFI"
+          "date": "2026-07-12",
+          "texte": "Téhéran jure de venger les premières frappes et suspend tout dialogue diplomatique.",
+          "source": "La Croix"
         },
         {
-          "date": "2026-06-17",
-          "texte": "Signature du protocole d'accord initial entre Washington et Téhéran.",
-          "source": "Le Figaro"
+          "date": "2026-06-18",
+          "texte": "Signature d'un protocole d'accord historique qui semblait pourtant apaiser le conflit.",
+          "source": "Citoyens.ai Radar"
         }
       ],
       "couvertures": [
         {
-          "source": "Le Figaro",
-          "type": "mainstream",
-          "angle": "Focus sur la fragilité du cessez-le-feu et l'enjeu du contrôle maritime à Ormuz.",
-          "ton": "factuel",
-          "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-teheran-et-washington-acceptent-de-suspendre-leurs-attaques-et-de-se-rencontrer-mardi-au-qatar-20260629",
-          "citation_cle": "Les deux pays ont échangé des frappes ces derniers jours en s’accusant mutuellement de violer leur cessez-le-feu.",
-          "groupe_media": null
+          "source": "The Guardian",
+          "type": "etranger",
+          "angle": "Focus sur l'échec total de la diplomatie et le risque d'embrasement régional incontrôlé.",
+          "ton": "alarmiste",
+          "url": "https://www.theguardian.com/world/2026/jul/13/us-iran-war-missile-strikes-news-attacks-strait-of-hormuz",
+          "citation_cle": "La diplomatie a prouvé qu'elle était futile.",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
         },
         {
           "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Analyse de l'impact économique sur les prix de l'énergie.",
-          "ton": "neutre",
-          "url": "https://www.aljazeera.com/economy/2026/6/29/oil-prices-rise-as-us-iranian-strikes-threaten-strait-of-hormuz-reopening?traffic_source=rss",
-          "citation_cle": "Brent crude edges up as tit-for-tat strikes imperial return to normality.",
+          "type": "mainstream",
+          "angle": "Analyse de l'impact économique immédiat sur les marchés pétroliers mondiaux.",
+          "ton": "factuel",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/deadly-bangkok-pub-blaze-revives-concerns-over-fire-safety-lapses?traffic_source=rss",
+          "citation_cle": "Le Brent grimpe de plus de 4 % alors que Washington et Téhéran s'affrontent.",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
             "proprietaire": "État du Qatar",
             "type_proprietaire": "etat",
             "orientation": "variable"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Détroit d'Ormuz: les États-Unis annoncent une suspension mutuelle des attaques avec l'Iran",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-detroit-d-ormuz-les-etats-unis-annoncent-une-suspension-mutuelle-des-attaques-avec-l-iran_VN-202606290088.html",
-          "citation_cle": "Les Etats-Unis et l'Iran vont suspendre mutuellement leurs attaques et prévoient de poursuivre leurs pourparlers malgré ",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "La capacité de l'Iran à contenir ses éléments radicaux opposés à l'accord.",
-        "Les détails précis de la zone de sécurité maritime discutée pour le détroit."
-      ],
-      "sources": [
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-teheran-et-washington-acceptent-de-suspendre-leurs-attaques-et-de-se-rencontrer-mardi-au-qatar-20260629",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/moyen-orient/20260629-en-direct-moyen-orient-les-%C3%A9tats-unis-et-l-iran-annoncent-une-suspension-mutuelle-des-attaques",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/6/29/oil-prices-rise-as-us-iranian-strikes-threaten-strait-of-hormuz-reopening?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-c-est-une-drole-de-situation-un-navire-francais-passe-le-detroit-d-ormuz-le-commandant-temoigne_VN-202606290085.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-06-15"
-    },
-    {
-      "titre": "Bilan de la canicule historique en France : 1 000 décès et crise des services publics",
-      "slug": "bilan-canicule-juin-2026-surmortalite-france",
-      "rubrique": "societe",
-      "tldr": [
-        "Environ 1 000 décès supplémentaires enregistrés par Santé publique France durant l'épisode.",
-        "Le gouvernement convoque une réunion de crise à Matignon face à la menace d'une nouvelle vague.",
-        "Hécatombe dans les élevages intensifs avec un million de poulets tués par la chaleur."
-      ],
-      "resume": "Bien que les températures soient redevenues respirables ce dimanche 28 juin, le bilan humain et social de la canicule de juin 2026 s'avère lourd. Santé publique France estime à 1 000 le nombre de décès supplémentaires, avec une hausse marquée des morts à domicile (Le Monde, BFM TV). Les services de pompes funèbres sont saturés dans plusieurs régions. Sur le plan agricole, le secteur avicole est dévasté avec un million de bêtes perdues (L'Humanité). Sébastien Lecornu a convoqué une réunion de crise ce lundi pour anticiper un possible second pic de chaleur dès la semaine prochaine, alors que les hôpitaux restent sous une pression extrême.",
-      "contexte_historique": "Cet épisode rappelle la canicule de 2003 (15 000 morts en France), mais se distingue par sa précocité en juin et son intensité géographique avec 72 départements en vigilance rouge au plus fort de la crise (Ouest-France).",
-      "implications": [
-        "Révision probable des protocoles de transport et d'hébergement pour les épreuves du Brevet 2026.",
-        "Pression accrue sur le gouvernement pour accélérer les plans d'adaptation climatique des bâtiments publics."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-06-29",
-          "texte": "Réunion de crise à Matignon présidée par Sébastien Lecornu.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-06-28",
-          "texte": "Fin de la vigilance rouge et premières estimations de surmortalité.",
-          "source": "Le Monde"
-        },
-        {
-          "date": "2026-06-25",
-          "texte": "Pic de l'alerte avec 72 départements placés en vigilance rouge.",
-          "source": "Ouest-France"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Analyse de la surmortalité et de la faillite relative de la prise en charge à domicile.",
-          "ton": "critique",
-          "url": "https://www.lemonde.fr/sante/article/2026/06/29/canicule-les-premiers-bilans-revelent-une-surmortalite-et-notamment-une-hausse-des-deces-a-domicile_6716697_1651302.html",
-          "citation_cle": "Médecins et infirmiers mobilisés sur le terrain continuent d’être sous forte pression.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "L'Humanité",
-          "type": "mainstream",
-          "angle": "Focus sur le désastre écologique et animal dans les élevages intensifs.",
-          "ton": "engagé",
-          "url": "https://www.humanite.fr/politique/agriculture/angelique-thiallier-agricultrice-et-vice-presidente-du-modef-les-promesses-du-rn-au-monde-rural-sont-tres-dangereuses",
-          "citation_cle": "Un million de poulets tués : la canicule provoque une hécatombe.",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
-        },
-        {
-          "source": "Ouest-France",
-          "type": "mainstream",
-          "angle": "France - Suède. Volée de Zlatan, 12 victoires des Bleus… Le bilan des confrontations avant le 16e de finale du Mondial",
-          "ton": "factuel",
-          "url": "https://www.ouest-france.fr/sport/coupe-du-monde/france-suede-volee-de-zlatan-12-victoires-des-bleus-le-bilan-des-confrontations-avant-le-16e-de-finale-du-mondial-cf3c9950-71ff-11f1-a0e7-4fa27dc4c816?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "citation_cle": "Ce mardi 30 juin, la France affronte la Suède en 16es de finale de la Coupe du monde 2026. Si les deux sélections se son",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Le chiffre définitif de la surmortalité, qui ne sera connu qu'après consolidation des données de l'Insee.",
-        "L'efficacité réelle des 'îlots de fraîcheur' urbains mis en place par les municipalités."
-      ],
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/sante/article/2026/06/29/canicule-les-premiers-bilans-revelent-une-surmortalite-et-notamment-une-hausse-des-deces-a-domicile_6716697_1651302.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-ebastien-lecornu-convoque-une-nouvelle-reunion-de-crise-en-prevision-d-un-nouvel-episode-caniculaire_VN-202606290064.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/sport/football/fc-lorient/fc-lorient-lheure-de-la-reprise-pour-les-merlus-version-alexandre-dujeux-dd076bf6-709b-11f1-b8a9-4a6626afbf8d?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "premiere_apparition": "2026-06-15"
-    },
-    {
-      "titre": "Séismes au Venezuela : le bilan grimpe à 1 450 morts et la colère monte",
-      "slug": "seismes-venezuela-bilan-colere-sociale",
-      "rubrique": "international",
-      "tldr": [
-        "Le bilan officiel atteint 1 450 morts et des dizaines de milliers de disparus.",
-        "La gestion de la crise par la présidente Delcy Rodriguez est vivement critiquée par la population.",
-        "Les communautés vénézuéliennes de l'étranger se mobilisent face à l'inaction étatique perçue."
-      ],
-      "resume": "Le Venezuela traverse une catastrophe humanitaire majeure suite au double séisme du 24 juin. Le bilan provisoire de 1 450 morts est jugé sous-estimé par les observateurs locaux alors que les secours peinent à atteindre les zones reculées (RFI). Dans les décombres, la frustration se transforme en colère politique contre le gouvernement de Delcy Rodriguez, accusé de mauvaise gestion des stocks d'urgence et de lenteur dans le déploiement de l'armée (BBC News, Al Jazeera). Il s'agit du premier test de grande ampleur pour la présidente depuis son arrivée au pouvoir, révélant les failles persistantes des infrastructures du pays.",
-      "contexte_historique": "Le Venezuela est situé sur une zone de faille active (Bocono). Le dernier séisme majeur à Caracas en 1967 avait fait 236 morts. La crise actuelle est aggravée par l'état de délabrement des services publics après une décennie de crise économique (Al Jazeera).",
-      "implications": [
-        "Risque d'instabilité politique majeure si les aides internationales sont perçues comme détournées.",
-        "Nouvelle vague migratoire potentielle vers les pays voisins si la reconstruction tarde."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-06-29",
-          "texte": "Mobilisation des diasporas vénézuéliennes en Amérique latine pour envoyer de l'aide.",
-          "source": "RFI"
-        },
-        {
-          "date": "2026-06-24",
-          "texte": "Double séisme majeur frappant le nord du pays.",
-          "source": "Al Jazeera"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Analyse politique de la fragilité du pouvoir face à la catastrophe.",
-          "ton": "factuel",
-          "url": "https://www.aljazeera.com/economy/2026/6/29/oil-prices-rise-as-us-iranian-strikes-threaten-strait-of-hormuz-reopening?traffic_source=rss",
-          "citation_cle": "The seismic disaster has stirred public anger against government mismanagement.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Reportage de terrain sur le sentiment d'abandon des survivants.",
-          "ton": "neutre",
-          "url": "https://www.bbc.co.uk/news/videos/cj4glezz1jvo?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Residents in quake-affected areas have expressed anger over the state's efforts.",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
           }
         },
         {
           "source": "RFI",
           "type": "mainstream",
-          "angle": "Séismes au Venezuela: les communautés vénézuéliennes en Amérique latine se mobilisent",
+          "angle": "EN DIRECT - Moyen-Orient: les États-Unis bombardent à nouveau l'Iran, qui réplique en visant des bases du Golfe",
           "ton": "factuel",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260629-s%C3%A9ismes-au-venezuela-les-communaut%C3%A9s-v%C3%A9n%C3%A9zu%C3%A9liennes-en-am%C3%A9rique-latine-se-mobilisent",
-          "citation_cle": "Le bilan du double séisme survenu mercredi 24 juin au Venezuela ne cesse de s'alourdir. Il fait désormais état de 1 450 ",
+          "url": "https://www.rfi.fr/fr/moyen-orient/20260713-en-direct-moyen-orient-les-%C3%A9tats-unis-bombardent-%C3%A0-nouveau-l-iran-qui-r%C3%A9plique-en-visant-des-bases-du-golfe",
+          "citation_cle": "Les Américains et Iraniens ont poursuivi leurs attaques mutuelles lundi 13 juillet. Les États-Unis ont annoncé avoir bom",
           "groupe_media": {
             "nom": "France Médias Monde",
             "proprietaire": "État français",
@@ -299,25 +79,25 @@
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'ampleur réelle des dégâts dans les zones rurales non couvertes par les réseaux de communication.",
-        "Le montant total de l'aide internationale qui sera effectivement débloqué sans conditions politiques."
+        "L'ampleur réelle des dégâts sur le sol iranien suite aux bombardements américains.",
+        "La position de la Chine, principal client du pétrole iranien, face à ce blocage."
       ],
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260629-s%C3%A9ismes-au-venezuela-les-communaut%C3%A9s-v%C3%A9n%C3%A9zu%C3%A9liennes-en-am%C3%A9rique-latine-se-mobilisent",
-          "type": "mainstream",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/13/us-iran-war-missile-strikes-news-attacks-strait-of-hormuz",
+          "type": "journal",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         },
         {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/6/29/oil-prices-rise-as-us-iranian-strikes-threaten-strait-of-hormuz-reopening?traffic_source=rss",
-          "type": "etranger",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/deadly-bangkok-pub-blaze-revives-concerns-over-fire-safety-lapses?traffic_source=rss",
+          "type": "media",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
             "proprietaire": "État du Qatar",
@@ -326,9 +106,247 @@
           }
         },
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cj4glezz1jvo?at_medium=RSS&at_campaign=rss",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/moyen-orient/20260713-en-direct-moyen-orient-les-%C3%A9tats-unis-bombardent-%C3%A0-nouveau-l-iran-qui-r%C3%A9plique-en-visant-des-bases-du-golfe",
+          "type": "radio",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/international/moyen-orient/direct-guerre-au-moyen-orient-les-etats-unis-bombardent-encore-l-iran-teheran-riposte-en-visant-les-pays-du-golfe-suivez-les-dernieres-infos-ce-lundi-13-juillet-29913880.php",
+          "type": "journal",
+          "groupe_media": null
+        }
+      ],
+      "premiere_apparition": "2026-06-15"
+    },
+    {
+      "titre": "Incendie historique en forêt de Fontainebleau sous canicule extrême",
+      "slug": "incendie-fontainebleau-canicule-juillet-2026",
+      "rubrique": "societe",
+      "tldr": [
+        "800 hectares ravagés par un feu « exceptionnel » à 60 km de Paris.",
+        "37 départements maintenus en vigilance rouge canicule, touchant 26 millions de Français.",
+        "Trafic SNCF et autoroutier (A6) fortement perturbé vers le Sud."
+      ],
+      "resume": "Un incendie d'une violence inédite pour la région parisienne ravage la forêt de Fontainebleau depuis dimanche soir, favorisé par une sécheresse critique et des températures dépassant les 40°C (France 24, Le Figaro). Le ministre de l'Intérieur a dépêché des Canadairs habituellement stationnés dans le Sud, une première historique pour l'Île-de-France (BBC News). Parallèlement, la canicule sature les services publics : 139 noyades accidentelles ont été recensées depuis juin, tandis que les infrastructures de transport (subissent des fermetures préventives ou liées aux fumées (BFM TV.",
+      "contexte_historique": "La forêt de Fontainebleau n'avait pas connu de sinistre de cette ampleur depuis des décennies. En France, le record de surfaces brûlées reste l'été 2022 avec 72 000 hectares, mais le déplacement de l'aléa vers le Nord confirme les projections du GIEC sur l'extension des zones à risque incendie (Météo-France, 2023).",
+      "implications": [
+        "Saturation des capacités de secours nationales obligées de diviser les moyens aériens entre le front sud et le bassin parisien.",
+        "Perturbations majeures des départs en vacances et des chaînes logistiques sur l'axe Paris-Lyon-Marseille."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-07-13",
+          "texte": "Le feu de Fontainebleau a parcouru 800 hectares ; l'autoroute A6 reste partiellement fermée.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-07-12",
+          "texte": "Météo-France place 37 départements en vigilance rouge, un record pour un mois de juillet.",
+          "source": "Le Figaro"
+        },
+        {
+          "date": "2026-07-12",
+          "texte": "Déploiement inédit d'avions bombardiers d'eau en région parisienne.",
+          "source": "BBC News"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "France 24 FR",
+          "type": "mainstream",
+          "angle": "Focus sur l'ampleur exceptionnelle du sinistre et les moyens de lutte hors-normes.",
+          "ton": "factuel",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260713-des-moyens-exceptionnels-mis-en-place-pour-lutter-contre-l-incendie-dans-la-for%C3%AAt-de-fontainebleau",
+          "citation_cle": "Quelque 800 hectares ont été parcourus par les flammes peu après minuit.",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "BBC News",
           "type": "etranger",
+          "angle": "Analyse du changement géographique des incendies en Europe, touchant désormais les capitales du Nord.",
+          "ton": "neutre",
+          "url": "https://www.bbc.co.uk/news/articles/cevlr112pmgo?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "C'est la première fois que des avions sont envoyés du sud pour traiter des feux en région parisienne.",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "Le Figaro",
+          "type": "mainstream",
+          "angle": "Canicule : au moins 800 hectares parcourus par les flammes en forêt de Fontainebleau",
+          "ton": "factuel",
+          "url": "https://www.lefigaro.fr/meteo/en-direct-canicule-37-departements-en-vigilance-rouge-ce-dimache-20260712",
+          "citation_cle": "37 départements maintenus en vigilance rouge ce lundi. D’après un calcul de l’AFP à partir des données de population ann",
+          "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "L'origine exacte du départ de feu à Noisy-sur-École (accidentelle ou criminelle).",
+        "Le bilan définitif de la surmortalité liée à cette vague de chaleur sur les populations vulnérables."
+      ],
+      "sources": [
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/meteo/en-direct-canicule-37-departements-en-vigilance-rouge-ce-dimache-20260712",
+          "type": "journal",
+          "groupe_media": null
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260713-des-moyens-exceptionnels-mis-en-place-pour-lutter-contre-l-incendie-dans-la-for%C3%AAt-de-fontainebleau",
+          "type": "media",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/societe/video-une-partie-de-l-a6-fermee-trains-retardes-a-cause-de-l-incendie-de-fontainebleau-le-trafic-routier-et-ferroviaire-fortement-perturbes_VN-202607130072.html",
+          "type": "media",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cevlr112pmgo?at_medium=RSS&at_campaign=rss",
+          "type": "media",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260713-des-moyens-exceptionnels-mis-en-place-pour-lutter-contre-l-incendie-dans-la-for%C3%AAt-de-fontainebleau",
+          "type": "mainstream"
+        }
+      ],
+      "premiere_apparition": "2026-07-12"
+    },
+    {
+      "titre": "Incendie meurtrier dans un établissement de nuit à Bangkok",
+      "slug": "incendie-bangkok-bar-juillet-2026",
+      "rubrique": "international",
+      "tldr": [
+        "Au moins 27 morts et des dizaines de blessés dans un bar de la banlieue de Bangkok.",
+        "De nombreuses victimes retrouvées dans les sanitaires, faute d'issues de secours dégagées.",
+        "Le drame relance le débat sur la corruption et le non-respect des normes de sécurité en Thaïlande."
+      ],
+      "resume": "Un incendie fulgurant a ravagé un pub populaire du district de Chatuchak à Bangkok vers minuit lundi (Al Jazeera). Le bilan provisoire de 27 morts inclut de nombreuses personnes piégées par la rapidité des flammes, certaines ayant tenté de se réfugier dans les toilettes (NYT World). Les premières constatations pointent des manquements graves aux règles de sécurité incendie, un problème récurrent dans les établissements de nuit du pays (BBC News). Les autorités locales sont sous pression alors que des vidéos montrent des clients fuyant à travers les flammes.",
+      "contexte_historique": "Ce drame rappelle l'incendie du Santika Club en 2009 (66 morts) et celui du Mountain B en 2022 (26 morts). Malgré les promesses de réformes après chaque catastrophe, l'application des normes de sécurité dans le secteur du divertissement reste défaillante en Thaïlande (Source: Amnesty International / Rapports locaux).",
+      "implications": [
+        "Probable durcissement des contrôles administratifs sur les lieux recevant du public en Asie du Sud-Est.",
+        "Impact potentiel sur le secteur touristique, pilier de l'économie thaïlandaise."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-07-13",
+          "texte": "Les autorités confirment un bilan de 27 morts et 22 blessés critiques.",
+          "source": "The Guardian"
+        },
+        {
+          "date": "2026-07-13",
+          "texte": "Ouverture d'une enquête criminelle sur les propriétaires de l'établissement.",
+          "source": "Al Jazeera"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "NYT World",
+          "type": "etranger",
+          "angle": "Analyse des défaillances systémiques de sécurité et du comportement des victimes piégées.",
+          "ton": "critique",
+          "url": "https://www.nytimes.com/2026/07/12/world/asia/deadly-fire-bangkok-thailand.html",
+          "citation_cle": "Le feu rapide a poussé les gens vers les salles de bain pour se cacher, où leurs corps ont été retrouvés.",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Reportage de terrain sur l'émotion locale et la colère face à la répétition de ces drames évitables.",
+          "ton": "factuel",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/deadly-bangkok-pub-blaze-revives-concerns-over-fire-safety-lapses?traffic_source=rss",
+          "citation_cle": "Ce drame ravive les inquiétudes sur les manquements à la sécurité incendie.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Si l'établissement possédait une licence d'exploitation valide et des assurances conformes.",
+        "La présence éventuelle de ressortissants étrangers parmi les victimes."
+      ],
+      "sources": [
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/07/12/world/asia/deadly-fire-bangkok-thailand.html",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/deadly-bangkok-pub-blaze-revives-concerns-over-fire-safety-lapses?traffic_source=rss",
+          "type": "media",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/12/at-least-27-killed-in-blaze-at-bangkok-pub-thai-officials-say",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cevlr112pmgo?at_medium=RSS&at_campaign=rss",
+          "type": "media",
           "groupe_media": {
             "nom": "BBC",
             "proprietaire": "État britannique",
@@ -337,33 +355,53 @@
           }
         }
       ],
-      "premiere_apparition": "2026-06-24"
+      "premiere_apparition": "2026-07-13"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Royaume-Uni : victoire d'Andy Burnham à Makerfield",
-      "slug": "andy-burnham-victoire-makerfield",
+      "titre": "Séismes au Venezuela : gestion de l'après-catastrophe",
+      "slug": "seismes-venezuela-juin-2026",
       "rubrique": "international",
-      "resume": "L'élection d'Andy Burnham est désormais actée. L'attention se déplace vers la structuration de l'opposition interne au sein du Parti travailliste face à Keir Starmer.",
+      "resume": "Le bilan s'est stabilisé autour de 1 450 morts. L'attention se déplace désormais vers la crise politique, la population exprimant une colère ouverte contre le gouvernement pour l'insuffisance des secours et des infrastructures.",
       "chronologie": [
         {
-          "date": "2026-06-19",
-          "texte": "Élection d'Andy Burnham avec une majorité écrasante.",
-          "source": "The Guardian"
+          "date": "2026-07-12",
+          "texte": "Le New York Times rapporte une montée des tensions politiques suite à la gestion des séismes.",
+          "source": "NYT World"
+        },
+        {
+          "date": "2026-06-24",
+          "texte": "Le bilan atteint 1 450 morts, début de la crise humanitaire majeure.",
+          "source": "Citoyens.ai Radar"
         }
       ],
-      "couvertures": [],
-      "ce_quon_ne_sait_pas": [
-        "La date de l'éventuelle motion de défiance interne."
+      "couvertures": [
+        {
+          "source": "NYT World",
+          "type": "etranger",
+          "angle": "Analyse de la colère populaire comme moteur d'un possible changement politique.",
+          "ton": "critique",
+          "url": "https://www.nytimes.com/2026/07/12/world/venezuela-earthquake-iran.html",
+          "citation_cle": "Les gens expriment ouvertement leur colère contre le gouvernement pour la première fois depuis des années."
+        }
       ],
-      "sources": [],
-      "derniere_mise_a_jour": "2026-06-29",
-      "statut": "Sujet stabilisé, en attente de la rentrée parlementaire."
+      "ce_quon_ne_sait_pas": [
+        "Le montant total de l'aide internationale effectivement parvenue aux sinistrés."
+      ],
+      "sources": [
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/07/12/world/venezuela-earthquake-iran.html",
+          "type": "journal"
+        }
+      ],
+      "derniere_mise_a_jour": "2026-07-13",
+      "statut": "Le sujet passe d'une urgence humanitaire à une crise politique de long terme."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 545,
+    "nb_articles_analyses": 490,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
