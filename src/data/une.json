@@ -1,25 +1,47 @@
 {
   "sujet_du_jour": {
-    "titre": "Fontainebleau : un incendie « exceptionnel » ravage 800 hectares",
-    "rubrique": "societe",
-    "pourquoi_important": "C'est l'un des incendies les plus graves jamais enregistrés en Île-de-France, illustrant la vulnérabilité croissante du nord de la France face au dérèglement climatique.",
+    "titre": "Loi d'urgence agricole : l'Assemblée réautorise des pesticides controversés",
+    "rubrique": "politique",
+    "pourquoi_important": "L'adoption de ce texte marque un recul environnemental majeur avec le retour dérogatoire de néonicotinoïdes pour sauver certaines filières agricoles.",
     "faits": [
-      "Le feu s'est déclaré dimanche après-midi en bordure d'autoroute avant de se propager rapidement dans la forêt de Fontainebleau (Sud-Ouest, BFM TV).",
-      "Plus de 800 hectares ont été parcourus par les flammes durant la nuit, et les autorités craignent de franchir le cap des 1 000 hectares au lever du jour (BFM TV).",
-      "400 sapeurs-pompiers et des moyens aériens sont mobilisés ; plusieurs dizaines de logements ont été évacués préventivement à Achères-la-Forêt (BFM TV).",
-      "L'incendie perturbe gravement le trafic sur l'autoroute A6 et les lignes ferroviaires à grande vitesse en plein week-end de départs en vacances (The Guardian)."
+      "Le texte a été adopté dans la nuit du 20 au 21 juillet par 296 voix contre 224 (franceinfo, La Croix).",
+      "La mesure phare réautorise l'usage de l'acétamipride et de la flupyradifurone, des pesticides pourtant interdits (Le Figaro, BFM TV).",
+      "Le projet de loi, déposé en procédure accélérée le 8 avril 2026, vise officiellement la 'souveraineté agricole' (Assemblée nationale).",
+      "Un accord a été trouvé en commission mixte paritaire le 16 juillet avant ce vote final (Sénat)."
     ],
-    "contexte": "La France traverse un épisode de canicule intense avec 37 départements en vigilance rouge et des températures dépassant les 42°C localement. Ce sinistre, qualifié de « très virulent » par les autorités, survient dans un massif forestier historique autrefois préservé de tels phénomènes, forçant un déploiement de moyens habituellement réservés au sud du pays.",
+    "contexte": "Face à la crise agricole et à la pression des syndicats majoritaires, le gouvernement a choisi de simplifier les normes environnementales. Cette loi cristallise les tensions entre la nécessité de protéger les rendements des filières en difficulté (betteraves, noisettes) et les engagements écologiques de la France. Le texte doit maintenant être validé définitivement par le Sénat le 21 juillet au soir.",
     "sources": [
       {
-        "nom": "Sud-Ouest",
-        "url": "https://www.sudouest.fr/environnement/climat/canicule/direct-canicule-et-incendies-la-foret-de-fontainebleau-en-proie-a-un-feu-d-une-ampleur-exceptionnelle-laurent-nunez-attendu-sur-place-suivez-les-dernieres-infos-ce-lundi-13-juillet-2026-29913895.php",
+        "nom": "Assemblée nationale",
+        "url": "https://questions.assemblee-nationale.fr/dyn/17/dossiers/projet_loi_urgence_pour_protection_et_souverainete_agricoles",
+        "type": "institutionnel",
+        "groupe_media": {
+          "nom": "Institutions françaises",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "variable"
+        }
+      },
+      {
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/emploi/metiers/agriculture/l-assemblee-nationale-adopte-le-projet-de-loi-d-urgence-agricole-malgre-la-reintroduction-a-titre-derogatoire-de-pesticides_8115608.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
+      },
+      {
+        "nom": "Le Figaro",
+        "url": "https://www.lefigaro.fr/politique/la-loi-d-urgence-agricole-une-nouvelle-fois-sous-tension-a-l-assemblee-20260720",
         "type": "mainstream",
         "groupe_media": null
       },
       {
         "nom": "BFM TV",
-        "url": "https://www.bfmtv.com/meteo/canicule/direct-canicule-un-incendie-d-une-ampleur-exceptionnelle-ravage-la-foret-de-fontainebleau-des-fortes-chaleurs-encore-attendues-toute-la-journee-en-france_LN-202607130064.html",
+        "url": "https://www.bfmtv.com/economie/entreprises/agriculture/l-assemblee-adopte-la-loi-d-urgence-agricole-l-acetamipride-pourrait-etre-utilise-par-certaines-filieres-en-difficulte_AD-202607210026.html",
         "type": "mainstream",
         "groupe_media": {
           "nom": "CMA CGM",
@@ -29,22 +51,58 @@
         }
       },
       {
-        "nom": "The Guardian",
-        "url": "https://www.theguardian.com/world/live/2026/jul/13/middle-east-crisis-live-us-launches-new-wave-of-strikes-on-iran-tehran-says-attacks-render-diplomacy-futile",
-        "type": "etranger"
+        "nom": "La Croix",
+        "url": "https://www.la-croix.com/la-loi-d-urgence-agricole-remaniee-revient-a-l-assemblee-suspense-sur-son-adoption-20260719",
+        "type": "mainstream"
+      },
+      {
+        "nom": "Sénat",
+        "url": "http://www.senat.fr/leg/ppl25-903.html",
+        "type": "institutionnel"
       }
     ],
-    "lien": null
+    "lien": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/urgence-agricole.html"
   },
   "france": [
     {
-      "titre": "Enquête antiterroriste à Sarcelles",
-      "rubrique": "politique",
-      "resume": "Le Parquet national antiterroriste (PNAT) s'est saisi de l'enquête après la découverte d'un fusil d'assaut et d'une arme de poing dans un véhicule stationné près d'une synagogue et d'un cinéma à Sarcelles (Libération, franceinfo). La DGSI craignait une attaque imminente contre la communauté juive ; 300 personnes ont été évacuées durant l'opération (20 Minutes, France 24 FR).",
+      "titre": "Forces de l'ordre : la Cour des comptes exige plus de transparence",
+      "rubrique": "societe",
+      "resume": "Un rapport publié le 20 juillet dénonce des procédures disciplinaires trop lentes (parfois plus de 3 ans) et opaques dans la police et la gendarmerie. La Cour préconise l'ouverture des conseils de discipline à des observateurs extérieurs et le déclenchement systématique des caméras-piétons d'ici 2028.",
       "sources": [
         {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/200726/deontologie-des-policiers-et-gendarmes-la-cour-des-comptes-plaide-pour-plus-de-transparence",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Mediapart",
+            "proprietaire": "Fonds pour une presse libre",
+            "type_proprietaire": "fondation",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/societe/4235495-20260720-violences-policieres-cour-comptes-pointe-manque-transparence-procedures-disciplinaire",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": "https://www.lemonde.fr/societe/article/2026/07/20/la-cour-des-comptes-appelle-a-plus-de-transparence-dans-le-controle-de-la-deontologie-des-forces-de-l-ordre_6727648_3224.html"
+    },
+    {
+      "titre": "Vers une obligation vaccinale contre la grippe pour les soignants",
+      "rubrique": "science",
+      "resume": "La Haute Autorité de santé (HAS) recommande de rendre obligatoire la vaccination antigrippale pour tous les professionnels de santé et du médico-social. Cette mesure vise à réduire le 'fardeau sanitaire' et les transmissions aux patients vulnérables.",
+      "sources": [
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/sante/grippe-la-haute-autorite-de-sante-recommande-l-obligation-vaccinale-pour-tous-les-soignants-20260720",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/faits-divers/police/a-sarcelles-300-personnes-evacuees-pour-deminer-une-voiture-suspecte-apres-une-alerte-concernant-la-communaute-juive_8105021.html#xtor=RSS-3-[lestitres]",
+          "url": "https://www.franceinfo.fr/sante/maladie/grippe/la-haute-autorite-de-sante-recommande-l-obligation-vaccinale-contre-la-grippe-pour-tous-les-professionnels-de-sante_8115158.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -52,75 +110,31 @@
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/france/20260712-enqu%C3%AAte-terroriste-ouverte-apr%C3%A8s-d%C3%A9couverte-armes-proximit%C3%A9-synagogue-sarcelles-pnat-dgsi-services-renseignement",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/politique/presidentielle-les-ecologistes-rafraichissent-les-idees-dans-un-nouveau-programme-20260713_HLF46E75PVHLLDYAZTTQCARLLE/",
-          "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Canicule : le nucléaire au ralenti",
-      "rubrique": "economie",
-      "resume": "EDF a dû arrêter trois réacteurs nucléaires (Chooz et réduire la puissance de huit autres pour limiter le réchauffement des fleuves (BFM Business, RFI. Cette mesure vise à protéger les écosystèmes aquatiques alors que les températures de l'eau atteignent des seuils critiques.",
-      "sources": [
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/energie/canicule-trois-reacteurs-nucleaires-du-rhone-de-la-garonne-et-de-la-meuse-mis-a-l-arret-huit-autres-a-puissance-reduite_AD-202607120312.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20260712-france-trois-r%C3%A9acteurs-nucl%C3%A9aires-%C3%A0-l-arr%C3%AAt-et-huit-%C3%A0-puissance-en-raison-de-la-canicule",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Tour de France : Van der Poel gagne sous un four",
-      "rubrique": "culture",
-      "resume": "Mathieu Van der Poel a remporté la 9e étape à Ussel au terme d'une course amputée de 30 km en raison de la chaleur extrême dépassant les 40°C (L'Humanité, La Croix). Tadej Pogacar conserve son maillot jaune (France 24 FR).",
+      "titre": "Interdiction des réseaux sociaux aux moins de 15 ans",
+      "rubrique": "societe",
+      "resume": "Députés et sénateurs sont parvenus à un accord en commission mixte paritaire le 20 juillet. La loi, qui impose une vérification de l'âge et un accord parental avant 15 ans, devrait être définitivement adoptée ce mardi.",
       "sources": [
         {
           "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/culture-et-savoir/edition/une-rentabilite-nette-de-2425-le-distributeur-makassar-defaillant-met-ledition-independante-en-peril",
-          "type": "mainstream"
+          "url": "https://www.humanite.fr/societe/reseaux-sociaux/interdiction-des-reseaux-sociaux-pour-les-moins-de-15-ans-la-proposition-de-loi-pourrait-etre-definitivement-adoptee-ce-mardi",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
         },
         {
           "nom": "La Croix",
-          "url": "https://www.la-croix.com/international/direct-guerre-iran-israel-usa-jour-136-moyen-orient-bilan-resume-aujourdhui-20260713",
-          "type": "mainstream"
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260713-des-moyens-exceptionnels-mis-en-place-pour-lutter-contre-l-incendie-dans-la-for%C3%AAt-de-fontainebleau",
-          "type": "mainstream"
+          "url": "https://www.la-croix.com/interdiction-des-reseaux-sociaux-sous-15-ans-les-parlementaires-cherchent-la-bonne-formule-20260719",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
       "lien": null
@@ -128,24 +142,65 @@
   ],
   "monde": [
     {
-      "titre": "Escalade militaire entre Washington et Téhéran",
-      "pays": "Iran / USA",
-      "resume": "Les États-Unis ont mené une deuxième salve de frappes contre des cibles militaires en Iran pour sécuriser le détroit d'Ormuz (BFM TV). En représailles, les Gardiens de la révolution ont ciblé des bases américaines en Jordanie, au Koweït et à Bahreïn (RFI).",
+      "titre": "Perpétuité pour Ismael 'El Mayo' Zambada",
+      "pays": "États-Unis / Mexique",
+      "resume": "Le cofondateur du cartel de Sinaloa, âgé de 76 ans, a été condamné à la prison à vie par un tribunal de New York. Il doit également verser 15 milliards de dollars d'amende pour l'envoi massif de drogues aux États-Unis.",
       "sources": [
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/moyen-orient/direct-guerre-en-iran-les-etats-unis-menent-une-nouvelle-salve-de-frappes-contre-des-dizaines-de-cibles-teheran-vise-plusieurs-bases-americaines-au-moyen-orient_LN-202607130043.html",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/20/el-mayo-prison-sentence",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/societe/drogue/le-baron-de-la-drogue-el-mayo-condamne-a-la-prison-a-vie-a-new-york_8115467.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Trump impose 50% de droits de douane au Canada",
+      "pays": "États-Unis / Canada",
+      "resume": "Donald Trump a signé un décret frappant le vin, le ciment et les produits laitiers canadiens. Il dénonce un 'traitement discriminatoire' du Canada envers les produits américains, ouvrant un nouveau front de guerre commerciale.",
+      "sources": [
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/%C3%A9co-tech/20260720-etats-unis-canada-50-droits-de-douane-produits-canadien-vin-hockey-ciment-commerce-trump",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/moyen-orient/20260713-en-direct-moyen-orient-les-%C3%A9tats-unis-bombardent-%C3%A0-nouveau-l-iran-qui-r%C3%A9plique-en-visant-des-bases-du-golfe",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260721-%C3%A9tats-unis-donald-trump-va-imposer-de-nouveaux-droits-de-douane-au-canada",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -158,197 +213,169 @@
       "lien": null
     },
     {
-      "titre": "Drame nocturne à Bangkok",
-      "pays": "Thaïlande",
-      "resume": "Un incendie dans un bar de la banlieue de Bangkok a fait au moins 27 morts et 63 blessés (RFI, Sud-Ouest). Les victimes ont été piégées par une propagation fulgurante des flammes au plafond et une fumée toxique (BFM TV, France 24 FR).",
+      "titre": "Daniel Ortega abolit les élections au Nicaragua",
+      "pays": "Nicaragua",
+      "resume": "Le leader autoritaire Daniel Ortega a annoncé qu'il ne tiendrait plus d'élections pour 'construire un mur' contre l'opposition. Au pouvoir depuis 2007, il entend verrouiller définitivement le système politique avec l'appui du Congrès.",
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/asie-pacifique/20260712-tha%C3%AFlande-au-moins-27-morts-dans-l-incendie-d-un-bar-%C3%A0-bangkok",
-          "type": "mainstream",
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/07/20/world/americas/nicaragua-ortega-abolish-elections.html",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
             "orientation": "centre"
           }
         },
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/asie-pacifique/20260712-au-moins-27-morts-dans-l-incendie-d-un-bar-de-la-banlieue-de-la-capitale-tha%C3%AFlandaise",
-          "type": "mainstream",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/20/nicaraguas-president-says-country-will-not-hold-any-more-elections",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
-        },
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/international/moyen-orient/direct-guerre-au-moyen-orient-les-etats-unis-bombardent-encore-l-iran-teheran-riposte-en-visant-les-pays-du-golfe-suivez-les-dernieres-infos-ce-lundi-13-juillet-29913880.php",
-          "type": "mainstream"
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/societe/video-une-partie-de-l-a6-fermee-trains-retardes-a-cause-de-l-incendie-de-fontainebleau-le-trafic-routier-et-ferroviaire-fortement-perturbes_VN-202607130072.html",
-          "type": "mainstream"
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "L'usage de la climatisation face à la canicule",
+    "sujet": "Algorithme de contrôle des chômeurs à France Travail",
     "rubrique": "societe",
-    "contexte": "Alors que la France étouffe sous des températures records, la climatisation s'impose dans le quotidien tout en posant des dilemmes écologiques et sanitaires majeurs.",
+    "contexte": "La Quadrature du Net a révélé un document interne de France Travail détaillant un projet d'algorithme destiné à 'prédire' les risques de fraude parmi les demandeurs d'emploi.",
     "couvertures": [
       {
-        "source": "L'Obs",
-        "type": "mainstream",
-        "angle": "Impact de la chaleur sur les capacités cognitives et le fonctionnement cérébral.",
-        "ton": "factuel",
-        "url": "https://www.nouvelobs.com/teleobs/20260712.OBS116614/comment-tenir-face-a-la-chaleur-et-comment-notre-cerveau-et-la-societe-sont-mis-a-l-epreuve.html",
-        "citation_cle": "Son cerveau a refusé de fonctionner.",
-        "auteur": "Anne Sogno",
-        "proprietaire_contexte": "Groupe inconnu",
-        "orientation_source": "Centre-gauche",
-        "groupe_media": null
+        "source": "Next",
+        "type": "investigation",
+        "angle": "Analyse technique du glissement vers un profilage automatisé basé sur un support PowerPoint interne.",
+        "ton": "critique",
+        "url": "https://next.ink/248042/france-travail-un-algorithme-pour-accelerer-le-profilage-des-chomeurs-et-les-controles/",
+        "citation_cle": "Un glissement dangereux des décisions politiques vers des technologies présentées comme neutres.",
+        "auteur": "Vincent Hermann",
+        "proprietaire_contexte": "Équipe fondatrice (indépendant)",
+        "orientation_source": "centre",
+        "groupe_media": {
+          "nom": "Next (ex-Next INpact)",
+          "proprietaire": "Équipe fondatrice",
+          "type_proprietaire": "independant",
+          "orientation": "centre"
+        }
       },
       {
-        "source": "Les Décodeurs",
-        "type": "fact-check",
-        "angle": "Démystification du paradoxe de la clim : solution immédiate vs problème climatique global.",
-        "ton": "neutre",
-        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/10/la-clim-est-elle-bonne-ou-mauvaise-pour-le-climat-le-debat-resume-comme-une-conversation-entre-voisins_6722471_4355770.html",
-        "citation_cle": "La clim est-elle bonne ou mauvaise pour le climat ?",
-        "auteur": "Rédaction Les Décodeurs",
-        "proprietaire_contexte": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse (Milliardaires)",
-        "orientation_source": "Centre-droit",
+        "source": "L'Humanité",
+        "type": "mainstream",
+        "angle": "Focus sur la dimension sociale et la stigmatisation des plus précaires.",
+        "ton": "engage",
+        "url": "https://www.humanite.fr/social-et-economie/allocation-chomage/chasse-aux-pauvres-france-travail-developpe-une-ia-pour-fliquer-les-chomeurs-selon-un-document-interne",
+        "citation_cle": "Une véritable 'chasse aux pauvres' via une IA pour fliquer les chômeurs.",
+        "auteur": null,
+        "proprietaire_contexte": "Société des lecteurs et salariés (coopérative)",
+        "orientation_source": "gauche",
         "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
         }
       }
     ],
-    "analyse_coherence": "La couverture médiatique de la climatisation révèle une tension entre l'urgence individuelle et la responsabilité collective. Les médias mainstream comme L'Obs se focalisent sur la vulnérabilité biologique de l'humain, soulignant que la chaleur altère nos capacités de jugement, ce qui légitime implicitement le recours à la climatisation comme outil de survie cognitive. À l'inverse, Les Décodeurs (Le Monde) tentent une approche pédagogique pour pointer le cercle vicieux : plus nous refroidissons nos intérieurs, plus nous réchauffons l'extérieur via les rejets de chaleur et la consommation électrique. On note toutefois un « angle mort » social persistant : peu de sources mentionnent l'iniquité d'accès à ces solutions de refroidissement. Si le droit à un environnement vivable est universel, le coût énergétique de la clim en fait un privilège de classe. Enfin, l'approche de L'Humanité rappelle que la chaleur n'est pas qu'une gêne domestique mais une menace vitale pour ceux dont l'activité (sportive ou professionnelle) s'exerce en extérieur, là où la climatisation est inopérante, soulignant l'impasse d'une adaptation purement technologique.",
+    "analyse_coherence": "Le traitement de cette information révèle une fracture nette entre la presse spécialisée/engagée et les médias mainstream de grande audience, qui ont largement ignoré l'alerte de la Quadrature du Net au profit de sujets institutionnels. Next et L'Humanité s'accordent sur le caractère 'illégal' et 'dangereux' de l'outil, mais divergent dans le ton : là où Next dénonce une dérive technocratique et un manque de transparence algorithmique, L'Humanité l'inscrit dans une lutte des classes, qualifiant le dispositif de 'chasse aux pauvres'. On observe un double standard flagrant : alors que l'IA est célébrée comme un outil de modernisation dans le secteur privé, son application au contrôle social est ici documentée comme un instrument de surveillance occulte. L'absence de réaction de France Travail dans ces articles souligne un déficit de redevabilité démocratique sur des outils qui impactent des millions de citoyens.",
     "biais_detectes": [
-      "Approche technocentrée de l'adaptation au climat",
-      "Sous-traitement de la précarité énergétique",
-      "Biais pro-business dans l'acceptation de la climatisation comme norme"
+      "Invisibilisation du sujet par les médias audiovisuels publics",
+      "Angle sécuritaire vs angle libertés publiques"
     ],
-    "ce_quil_faut_retenir": "La climatisation est un pansement efficace à court terme pour le confort individuel, mais elle aggrave structurellement la crise climatique et renforce les inégalités sociales entre ceux qui peuvent s'isoler de la chaleur et ceux qui la subissent de plein fouet."
+    "ce_quil_faut_retenir": "France Travail expérimente un outil de profilage prédictif de la fraude, dénoncé par les défenseurs des libertés numériques comme une automatisation de la suspicion."
   },
   "regard_etranger": [
     {
-      "source": "The Guardian",
-      "country": "Royaume-Uni",
-      "titre": "Des avions bombardiers d'eau combattent l'incendie de Fontainebleau près de Paris",
-      "titre_original": "Fire bomber planes battle Fontainebleau forest blaze near Paris",
-      "angle": "Focus sur l'ampleur inédite du sinistre si proche de la capitale et la paralysie des axes de transport majeurs (A6).",
-      "url": "https://www.theguardian.com/world/2026/jul/13/france-fires-wildfires-fointaineblue-forest-paris",
-      "groupe_media": {
-        "nom": "Scott Trust",
-        "proprietaire": "Scott Trust Limited",
-        "type_proprietaire": "fondation",
-        "orientation": "centre-gauche"
-      }
+      "source": "The New York Times",
+      "pays": "États-Unis",
+      "titre": "Tollé en Italie après la mort d'un homme immobilisé par la police",
+      "titre_original": "Outcry in Italy After Man Dies While Being Restrained by Police",
+      "angle": "Le journal fait un parallèle direct avec l'affaire George Floyd aux États-Unis.",
+      "url": "https://www.nytimes.com/2026/07/20/world/europe/moroccan-italy-police-death-george-floyd.html",
+      "groupe_media": null
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "800 hectares",
-    "contexte": "Surface de forêt déjà ravagée par l'incendie de Fontainebleau en moins de 24 heures.",
-    "source": "Le Figaro",
-    "source_url": null
+    "valeur": "550 millions d’euros",
+    "contexte": "Montant de l'amende record infligée par la Commission européenne à AliExpress pour manquements au Digital Services Act (DSA).",
+    "source": "Commission européenne",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-aliexpress-eu550-million-breaching-digital-services-act"
   },
   "a_surveiller": [
     {
-      "date": "2026-07-13",
-      "evenement": "Réunion des ministres des Affaires étrangères de l'UE à Bruxelles sur les colonies israéliennes",
-      "type": "commission",
-      "lien": "https://www.politico.eu/article/israel-ursula-von-der-leyen-showdown-illegal-settlements/"
+      "date": "2026-07-21",
+      "evenement": "Vote final de la loi d'urgence agricole au Sénat",
+      "type": "vote",
+      "lien": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/urgence-agricole.html"
+    },
+    {
+      "date": "2026-09-27",
+      "evenement": "Élections sénatoriales en Alsace",
+      "type": "vote",
+      "lien": "https://senatoriales2026.senat.fr/departement/67-bas-rhin"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Violences impunies au CER du Climont",
+      "titre": "Ours des Pyrénées : baisse des attaques, colère intacte",
       "rubrique": "societe",
-      "resume": "Le directeur du Centre éducatif renforcé du Climont est accusé d'avoir frappé un jeune placé. Malgré un témoignage oculaire consigné officiellement, aucune sanction n'a été prise par l'employeur.",
+      "resume": "Malgré une population record de 108 ours, les dommages indemnisés ont baissé de 10% en 2025 grâce aux mesures de protection. Pourtant, la tension reste maximale entre éleveurs et défenseurs de la biodiversité.",
       "sources": [
         {
-          "nom": "Rue89 Strasbourg",
-          "url": "https://www.rue89strasbourg.com/cer-climont-directeur-violences-jeunes-391617",
+          "nom": "Médiacités",
+          "url": null,
           "type": "investigation"
+        },
+        {
+          "nom": "OFB",
+          "url": null,
+          "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "Ce sujet illustre les défaillances de contrôle dans les structures fermées pour mineurs, souvent ignorées tant qu'un drame médiatique n'éclate pas."
+      "pourquoi_signal": "Le recul factuel des prédations est ignoré par le discours politique local qui continue de nourrir la polarisation."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Détention du député Ro Khanna par des colons",
+      "titre": "Apartheid environnemental à Gaza",
       "rubrique": "international",
-      "resume": "Le membre du Congrès américain Ro Khanna a été détenu pendant plus d'une heure par des colons armés et des soldats de l'IDF en Cisjordanie occupée. Israël refuse de s'excuser et accuse le député de 'mise en scène'.",
+      "resume": "Sous une canicule de 45°C, Israël restreint drastiquement l'accès à l'eau et aux moyens de rafraîchissement pour les Palestiniens vivant sous tente.",
       "axes_concernes": [
         "droit_international",
-        "colonialisme"
+        "justice_sociale"
       ],
-      "analyse": "Cet incident illustre l'impunité totale des colons en Cisjordanie, capable d'entraver la liberté de mouvement d'un élu de la première puissance mondiale. Le refus d'excuses d'Israël marque une rupture diplomatique et confirme la fusion opérationnelle entre colons et armée, en violation flagrante des résolutions de l'ONU sur l'occupation.",
+      "analyse": "L'utilisation de l'eau et de l'accès aux ressources vitales comme arme de guerre en pleine crise climatique est une violation flagrante du droit international humanitaire. Ce sujet, documenté par Reporterre, est quasi absent des médias mainstream malgré l'urgence vitale.",
       "sources": [
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/12/detained-by-settlers-us-democrat-ro-khanna-now-faces-pro-israel-attacks",
-          "type": "etranger"
-        },
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/12/ro-khanna-israel-detention-reaction",
-          "type": "etranger"
-        }
-      ]
-    },
-    {
-      "titre": "Contestation du 'méga canal' Seine-Nord",
-      "rubrique": "societe",
-      "resume": "Des milliers de personnes ont manifesté contre le projet de canal Seine-Nord Europe, dénonçant un projet 'écocidaire' détruisant des zones humides et des terres agricoles.",
-      "axes_concernes": [
-        "justice_sociale",
-        "souverainete_alimentaire"
-      ],
-      "analyse": "Ce projet d'infrastructure géant incarne une vision du commerce mondialisé au détriment de la biodiversité locale. Fidèles à nos principes, nous soulignons que le sacrifice de terres arables et de zones humides pour le transport de marchandises lointaines contredit les impératifs de souveraineté alimentaire et de transition écologique.",
-      "sources": [
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/social-et-economie/canal-seine-nord/canal-seine-nord-europe-pour-les-opposants-ce-nest-pas-un-projet-ineluctable",
-          "type": "mainstream"
-        },
-        {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/ecologie/120726/le-canal-seine-nord-un-projet-ecocidaire-destructeur-de-zones-humides",
+          "nom": "Reporterre",
+          "url": null,
           "type": "investigation"
         }
       ]
     }
   ],
-  "date": "2026-07-13",
-  "genere_a": "2026-07-13T04:56:00.067Z",
+  "date": "2026-07-21",
+  "genere_a": "2026-07-21T04:34:54.725Z",
   "meta": {
-    "nb_articles_analyses": 490,
-    "nb_topics": 139,
+    "nb_articles_analyses": 636,
+    "nb_topics": 177,
     "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 34,
-    "sources_francaises": 338,
-    "sources_etrangeres": 152,
+    "nb_articles_dans_selection": 42,
+    "sources_francaises": 418,
+    "sources_etrangeres": 218,
     "rubriques_couvertes": [
-      "societe",
       "politique",
-      "economie",
-      "culture",
+      "societe",
+      "science",
       "international"
     ],
-    "modele": "gemini/gemini-3-flash-preview",
-    "version_pipeline": "4.0.0"
+    "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
+    "version_pipeline": "4.1.0-gpt-search"
   }
 }
