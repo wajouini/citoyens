@@ -1,100 +1,108 @@
 {
-  "date": "2026-07-21",
-  "genere_a": "2026-07-21T04:35:54.033Z",
+  "date": "2026-08-02",
+  "genere_a": "2026-08-02T06:03:44.935Z",
   "sujets_actifs": [
     {
-      "titre": "Escalade militaire directe entre les États-Unis et l'Iran",
-      "slug": "escalade-militaire-usa-iran-frappes-dixieme-nuit",
+      "titre": "Désescalade surprise entre les États-Unis et l'Iran sous l'impulsion de Donald Trump",
+      "slug": "desescalade-trump-iran-detroit-ormuz",
       "rubrique": "international",
       "tldr": [
-        "10e nuit consécutive de frappes américaines contre des cibles militaires en Iran.",
-        "Téhéran annonce le blocage du détroit d'Ormuz et l'interception de deux pétroliers.",
-        "Donald Trump promet des représailles massives après la mort de soldats américains."
+        "Donald Trump suspend les frappes militaires prévues contre l'Iran.",
+        "Négociations en cours pour une ouverture totale du détroit d'Ormuz.",
+        "Le prince héritier saoudien aurait joué un rôle de médiateur clé."
       ],
-      "resume": "Le conflit entre Washington et Téhéran franchit un seuil critique avec une dixième nuit de bombardements américains visant des centres de commandement et des infrastructures maritimes à Bandar-e Abbas et sur l’île de Qeshm (RFI, France 24). En riposte, les Gardiens de la Révolution affirment avoir immobilisé deux pétroliers dans le détroit d'Ormuz et visé des bases américaines au Koweït et à Bahreïn (BFM TV). Donald Trump, invoquant la mort de trois militaires américains, a durci sa rhétorique en promettant que l'Iran paiera un prix multiplié (Le Figaro). Parallèlement, les rebelles Houthis menacent d'un blocus total du détroit de Bab el-Mandeb contre les intérêts saoudiens, risquant une extension régionale du conflit (Courrier International).",
-      "contexte_historique": "Le détroit d'Ormuz est le point de passage de 20% de la consommation mondiale de pétrole. Les tensions actuelles rappellent la 'guerre des pétroliers' (1980-1988), mais l'engagement direct et répété de l'US Air Force sur le sol souverain iranien constitue une rupture majeure avec la doctrine de 'pression maximale' observée entre 2018 et 2020 (ONU, 2020).",
+      "resume": "Après des semaines de tensions extrêmes, le président Donald Trump a annoncé la suspension des frappes américaines et israéliennes contre l'Iran. Cette décision ferait suite à une demande directe de Téhéran et à une médiation de pays de la région, notamment l'Arabie saoudite. Trump pose comme condition sine qua non l'ouverture immédiate et permanente du détroit d'Ormuz, vital pour le commerce mondial d'hydrocarbures. Si Washington évoque des « périmètres d'accord », Téhéran prévient par ailleurs qu'une réponse décisive sera apportée à toute agression, soulignant la fragilité de ce cessez-le-feu de dernière minute.",
+      "contexte_historique": "Le détroit d'Ormuz voit passer environ 20% de la consommation mondiale de pétrole liquide. Les tensions y sont récurrentes depuis la révolution iranienne de 1979, avec des pics durant la 'guerre des pétroliers' (1980-1988). La sortie unilatérale des États-Unis de l'accord sur le nucléaire (JCPOA) en 2018 par l'administration Trump avait déjà provoqué une crise majeure dans la zone.",
       "implications": [
-        "Risque de rupture majeure des chaînes d'approvisionnement énergétique mondiales via Ormuz et Bab el-Mandeb.",
-        "Suspension préventive des vols commerciaux vers le Golfe par des compagnies majeures comme Air France."
+        "Stabilisation immédiate mais précaire des cours mondiaux du pétrole.",
+        "Réalignement diplomatique possible entre Washington, Riyad et Téhéran."
       ],
       "chronologie": [
         {
-          "date": "2026-07-21",
-          "texte": "Dixième nuit de frappes américaines et interception de pétroliers par l'Iran.",
+          "date": "2026-08-02",
+          "texte": "Trump confirme la suspension des frappes et l'existence d'un pré-accord.",
           "source": "RFI"
         },
         {
-          "date": "2026-07-20",
-          "texte": "Donald Trump signe des décrets de représailles après la mort de soldats en Jordanie et Irak.",
-          "source": "NYT World"
+          "date": "2026-08-01",
+          "texte": "Menaces de frappes massives après des incidents dans le détroit d'Ormuz.",
+          "source": "Le Figaro"
         },
         {
-          "date": "2026-07-07",
-          "texte": "Reprise officielle des hostilités directes entre les forces américaines et iraniennes.",
-          "source": "BFM TV"
+          "date": "2026-06-15",
+          "texte": "Début de l'escalade militaire directe entre Washington et Téhéran.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Focus sur les dégâts en Iran et les capacités de riposte asymétrique de Téhéran via ses alliés régionaux.",
-          "ton": "critique",
-          "url": "https://www.aljazeera.com/news/2026/7/21/china-and-philippines-trade-accusations-after-sailor-injured-at-sea?traffic_source=rss",
-          "citation_cle": "Washington jure vengeance tandis que l'Iran revendique des attaques sur des sites US à travers la région.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "source": "Le Figaro",
+          "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse de la posture de fermeté de Donald Trump face aux pertes militaires américaines.",
-          "ton": "factuel",
-          "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-trump-affirme-frapper-l-iran-tres-durement-pour-venger-les-militaires-americains-tues-20260720",
-          "citation_cle": "Trump affirme frapper l’Iran très durement pour venger les militaires américains tués.",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'étendue réelle des dégâts sur les capacités nucléaires ou balistiques iraniennes.",
-        "La position de la Chine et de la Russie face à l'intervention directe sur le sol iranien."
-      ],
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/moyen-orient/20260721-en-direct-%E2%80%93-moyen-orient-dixi%C3%A8me-nuit-de-frappes-am%C3%A9ricaines-en-iran-regain-de-tensions-entre-les-deux-pays",
-          "type": "mainstream",
+          "angle": "Focus sur les conditions de l'accord, notamment l'accès au détroit d'Ormuz.",
+          "ton": "neutre",
+          "url": "https://www.lemonde.fr/international/live/2026/08/02/en-direct-guerre-au-moyen-orient-donald-trump-assure-suspendre-des-frappes-contre-l-iran-a-la-demande-de-teheran-et-de-pays-de-la-region-dans-l-attente-d-un-accord-rapide_6737099_3210.html",
+          "citation_cle": "L’accord doit inclure l’ouverture immédiate complète et totale du détroit d’Ormuz.",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/moyen-orient/direct-guerre-au-moyen-orient-de-nouvelles-frappes-americaines-en-iran-pour-la-10e-nuit-consecutive_LN-202607210047.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         },
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-trump-affirme-frapper-l-iran-tres-durement-pour-venger-les-militaires-americains-tues-20260720",
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Mise en avant des avertissements de l'Iran malgré l'annonce de Trump.",
+          "ton": "factuel",
+          "url": "https://www.aljazeera.com/news/2026/8/2/how-virunga-park-protects-people-and-gorillas-from-ebola-in-eastern-drc?traffic_source=rss",
+          "citation_cle": "Tehran warns of decisive response to any US aggression.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "source": "20 Minutes",
           "type": "mainstream",
+          "angle": "Guerre au Moyen-Orient : Les Etats-Unis et Israël suspendent les frappes contre l’Iran, Trump veut un accord",
+          "ton": "factuel",
+          "url": "https://www.20minutes.fr/monde/etats-unis/4237332-20260802-guerre-moyen-orient-etats-unis-israel-suspendent-frappes-contre-iran-trump-veut-accord?at_medium=display&at_campaign=149",
+          "citation_cle": "Donald Trump exige de Téhéran l’ouverture totale du détroit d’Ormuz et la « fin de la menace nucléaire iranienne »",
           "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quelles concessions l'Iran a réellement accepté sur son programme nucléaire ?",
+        "Israël maintiendra-t-il sa suspension des frappes si les négociations stagnent ?"
+      ],
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/moyen-orient/20260802-direct-guerre-au-moyen-orient-donald-trump-suspend-les-frappes-am%C3%A9ricaines-contre-l-iran",
+          "type": "institutionnel",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/live/2026/08/02/en-direct-guerre-au-moyen-orient-donald-trump-assure-suspendre-des-frappes-contre-l-iran-a-la-demande-de-teheran-et-de-pays-de-la-region-dans-l-attente-d-un-accord-rapide_6737099_3210.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         },
         {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/21/china-and-philippines-trade-accusations-after-sailor-injured-at-sea?traffic_source=rss",
+          "url": "https://www.aljazeera.com/news/2026/8/2/how-virunga-park-protects-people-and-gorillas-from-ebola-in-eastern-drc?traffic_source=rss",
           "type": "etranger",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
@@ -104,92 +112,82 @@
           }
         },
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/moyen-orient/20260721-en-direct-moyen-orient-iran-etats-unis-frappes-americaines-bahrein-koweit-ormuz-trump-houthis",
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/guerre-au-moyen-orient-trump-suspend-les-frappes-americaines-contre-l-iran-20260802",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/moyen-orient/20260721-en-direct-moyen-orient-iran-etats-unis-frappes-americaines-bahrein-koweit-ormuz-trump-houthis",
-          "type": "mainstream"
-        },
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/guerre-en-iran-les-houthistes-annoncent-un-blocus-maritime-contre-l-arabie-saoudite-faisant-craindre-une-extension-du-conflit_251364",
-          "type": "etranger"
+          "groupe_media": null
         }
       ],
       "premiere_apparition": "2026-06-15"
     },
     {
-      "titre": "Loi d'urgence agricole : réintroduction dérogatoire de pesticides néonicotinoïdes",
-      "slug": "loi-urgence-agricole-pesticides-acetamipride",
-      "rubrique": "politique",
+      "titre": "Fin de la crise migratoire à Ceuta : l'Espagne et le Maroc stabilisent l'enclave",
+      "slug": "crise-migratoire-ceuta-espagne-maroc",
+      "rubrique": "international",
       "tldr": [
-        "L'Assemblée nationale adopte le texte par 296 voix contre 174.",
-        "Réintroduction possible de l'acétamipride pour les filières en difficulté.",
-        "Le texte facilite également le stockage de l'eau et réduit la protection des loups."
+        "Retour au Maroc de la quasi-totalité des 50 000 migrants entrés jeudi.",
+        "L'Espagne soupçonne une pression politique marocaine derrière l'afflux.",
+        "Montée en puissance des discours de l'extrême droite européenne sur le sujet."
       ],
-      "resume": "Dans une ambiance électrique, les députés ont adopté la loi d'urgence agricole autorisant la réintroduction dérogatoire de pesticides jusque-là interdits, notamment l'acétamipride (La Croix, Ouest-France). Le gouvernement justifie cette mesure par la nécessité de sauver certaines filières (betteraves, noisettes) face à l'impasse technique, tandis que l'opposition dénonce un recul écologique majeur et un 'déni de science' (Le Figaro). Outre les pesticides, le projet simplifie drastiquement les procédures pour la création de retenues d'eau et assouplit les règles de protection des loups pour les éleveurs (franceinfo).",
-      "contexte_historique": "L'interdiction des néonicotinoïdes en France date de la loi Biodiversité de 2016, avec une application effective en 2018. En 2023, la Cour de justice de l'UE avait jugé illégales les dérogations systématiques, forçant le gouvernement français à chercher une nouvelle base législative pour ces 'clauses de sauvegarde' (CJUE, 2023).",
+      "resume": "La situation dans l'enclave espagnole de Ceuta revient progressivement à la normale après l'entrée massive de dizaines de milliers de migrants en milieu de semaine. Madrid affirme que la quasi-totalité des personnes sont retournées au Maroc, bien que quelques centaines de 'holdouts' restent sur les plages. Cette crise a révélé des tensions diplomatiques profondes : l'Espagne soupçonne Rabat d'avoir délibérément relâché la surveillance frontalière pour exercer une pression politique. L'événement a provoqué une onde de choc médiatique, largement exploitée par les mouvements d'extrême droite en Europe pour durcir le débat sur l'immigration.",
+      "contexte_historique": "Ceuta et Melilla sont les seules frontières terrestres de l'Union européenne en Afrique. En mai 2021, une crise similaire avait vu l'entrée de 10 000 personnes en 48 heures suite à l'accueil en Espagne du chef du Front Polisario pour des soins médicaux, illustrant l'usage de la migration comme levier diplomatique par le Maroc.",
       "implications": [
-        "Risque de contentieux juridique au niveau européen pour non-respect des directives environnementales.",
-        "Accélération des projets de 'méga-bassines' grâce à la simplification des recours administratifs."
+        "Réunion d'urgence des ministres de l'Intérieur de l'UE prévue mardi.",
+        "Durcissement des dispositifs de surveillance côtière avec l'installation de barrières flottantes."
       ],
       "chronologie": [
         {
-          "date": "2026-07-21",
-          "texte": "Adoption définitive du texte à l'Assemblée nationale après une séance de nuit.",
-          "source": "La Croix"
-        },
-        {
-          "date": "2026-07-19",
-          "texte": "Le Sénat vote le retour de l'acétamipride lors de la navette parlementaire.",
+          "date": "2026-08-02",
+          "texte": "L'Espagne annonce un retour à la normale ; réunion de l'UE confirmée pour mardi.",
           "source": "BFM TV"
         },
         {
-          "date": "2026-06-19",
-          "texte": "Présentation du projet de loi en Conseil des ministres suite aux manifestations agricoles.",
-          "source": "Sénat"
+          "date": "2026-08-01",
+          "texte": "Départ massif des migrants vers le Maroc après des négociations bilatérales.",
+          "source": "RFI"
+        },
+        {
+          "date": "2026-07-30",
+          "texte": "Afflux record de 50 000 personnes nageant vers l'enclave en quelques heures.",
+          "source": "The New York Times"
         }
       ],
       "couvertures": [
         {
-          "source": "franceinfo",
-          "type": "mainstream",
-          "angle": "Focus sur les mesures transversales : eau, loups et pesticides.",
-          "ton": "factuel",
-          "url": "https://www.franceinfo.fr/tour-de-france/ca-nous-permet-d-etre-un-peu-plus-en-securite-un-systeme-de-capteurs-sur-le-casque-teste-sur-le-tour-de-france-pour-aider-a-detecter-les-commotions-cerebrales_8111762.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "Les députés de droite et de gauche se sont vivement opposés sur ce texte qui ouvre la voie à une modification profonde de la gestion de l'eau.",
+          "source": "NYT World",
+          "type": "etranger",
+          "angle": "Analyse de la transformation du discours européen sous l'influence de l'extrême droite.",
+          "ton": "critique",
+          "url": "https://www.nytimes.com/2026/08/02/world/europe/europe-migrants-ceuta.html",
+          "citation_cle": "La réaction de ligne dure à Ceuta montre comment l'extrême droite a remodelé les attitudes européennes.",
           "groupe_media": {
-            "nom": "France Télévisions",
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "RFI",
+          "type": "mainstream",
+          "angle": "Témoignages sur la violence des derniers jours et le processus de retour.",
+          "ton": "factuel",
+          "url": "https://www.rfi.fr/fr/afrique/20260802-ceuta-les-migrants-quittent-l-enclave-et-racontent-le-d%C3%A9cha%C3%AEnement-de-violence-des-derniers-jours",
+          "citation_cle": "Le plus fort de la crise migratoire est passé.",
+          "groupe_media": {
+            "nom": "France Médias Monde",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
-          "source": "La Croix",
-          "type": "mainstream",
-          "angle": "Analyse du vote politique et du suspense jusqu'au bout de la nuit.",
-          "ton": "neutre",
-          "url": "https://www.la-croix.com/la-loi-d-urgence-agricole-remaniee-revient-a-l-assemblee-suspense-sur-son-adoption-20260719",
-          "citation_cle": "L’Assemblée nationale a adopté dans la nuit de lundi à mardi la loi d’urgence agricole.",
-          "groupe_media": null
-        },
-        {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "L'Assemblée adopte la loi d'urgence agricole, l'acétamipride pourrait être utilisé par certaines filières en difficulté",
+          "angle": "Ceuta: l'Espagne assure que la situation était \"quasiment\" revenue à la normale après le retour au Maroc de \"presque\" tous les migrants",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/politique/video-l-assemblee-adopte-la-loi-d-urgence-agricole-l-acetamipride-pourrait-etre-utilise-par-certaines-filieres-en-difficulte_VN-202607210038.html",
-          "citation_cle": "Dans un vote sous haute tension, la loi d'urgence agricole a été adoptée dans la nuit de lundi à ce mardi 21 juillet. El",
+          "url": "https://www.bfmtv.com/international/europe/espagne/video-ceuta-l-espagne-assure-que-la-situation-etait-quasiment-revenue-a-la-normale-apres-le-retour-au-maroc-de-presque-tous-les-migrants_VN-202608020052.html",
+          "citation_cle": "Les ministres de l'Intérieur de l'Union européenne se réuniront mardi en visioconférence pour parler de la situation à C",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -199,82 +197,86 @@
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Le nombre exact de dérogations qui seront accordées par décret dès la saison prochaine.",
-        "L'impact réel sur les populations de pollinisateurs dans les zones de culture concernées."
+        "Quel accord secret a été passé entre Madrid et Rabat pour obtenir ce retrait rapide ?",
+        "Quel sera le sort des mineurs isolés restés dans l'enclave ?"
       ],
       "sources": [
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/la-loi-d-urgence-agricole-remaniee-revient-a-l-assemblee-suspense-sur-son-adoption-20260719",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/tour-de-france/ca-nous-permet-d-etre-un-peu-plus-en-securite-un-systeme-de-capteurs-sur-le-casque-teste-sur-le-tour-de-france-pour-aider-a-detecter-les-commotions-cerebrales_8111762.html#xtor=RSS-3-[lestitres]",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/europe/espagne/video-ceuta-l-espagne-assure-que-la-situation-etait-quasiment-revenue-a-la-normale-apres-le-retour-au-maroc-de-presque-tous-les-migrants_VN-202608020052.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Télévisions",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/afrique/20260802-ceuta-les-migrants-quittent-l-enclave-et-racontent-le-d%C3%A9cha%C3%AEnement-de-violence-des-derniers-jours",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/politique/la-loi-d-urgence-agricole-une-nouvelle-fois-sous-tension-a-l-assemblee-20260720",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/meteo/canicule/emballement-pollution-incendies-plus-frequents-les-lecons-scientifiques-de-la-canicule-de-juin-e03f9f3e-8453-11f1-8650-d79ccbde952a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream",
-          "groupe_media": null
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/08/02/world/europe/europe-migrants-ceuta.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
         }
       ],
-      "premiere_apparition": "2026-07-19"
+      "premiere_apparition": "2026-07-30"
     },
     {
-      "titre": "Guerre commerciale : Trump impose 50% de droits de douane au Canada",
-      "slug": "trump-tarifs-douane-canada-50-pour-cent",
-      "rubrique": "economie",
+      "titre": "Vague d'attentats et de frappes : escalade meurtrière entre Moscou et Kiev",
+      "slug": "attentat-moscou-frappes-kiev-escalade",
+      "rubrique": "international",
       "tldr": [
-        "Décret signé imposant des taxes massives sur le vin, le ciment et le matériel de hockey.",
-        "La Maison Blanche dénonce un 'traitement discriminatoire' des produits US au Canada.",
-        "Ottawa promet d'intensifier les discussions mais prépare des mesures de rétorsion."
+        "Attentat à la bombe dans un café de Moscou : 3 morts, 21 blessés.",
+        "Frappes russes massives sur Kiev faisant au moins 10 morts.",
+        "Zelensky réclame d'urgence des systèmes Patriot supplémentaires."
       ],
-      "resume": "Le président américain Donald Trump a provoqué une onde de choc économique en signant un décret imposant 50% de droits de douane sur une large gamme de produits canadiens (RFI, BBC News). Washington justifie cette mesure agressive par des barrières douanières canadiennes jugées discriminatoires sur les produits laitiers, l'alcool et l'industrie automobile (The Guardian). Cette décision, qui doit entrer en vigueur dans un mois, frappe des secteurs symboliques comme le vin et les crosses de hockey, faisant craindre une guerre commerciale frontale entre les deux partenaires majeurs de l'ex-ALENA (Al Jazeera).",
-      "contexte_historique": "Les relations commerciales canado-américaines sont régies par l'ACEUM (2020), successeur de l'ALENA. L'imposition de tarifs de 50% est sans précédent moderne entre ces deux alliés, dépassant largement les taxes sur l'acier et l'aluminium de 2018 qui s'élevaient à 25% (OMC, 2018).",
+      "resume": "La guerre entre la Russie et l'Ukraine a connu un regain de violence brutale ce week-end. Un engin explosif artisanal a détoné dans un café du centre de Moscou, tuant trois personnes. Les autorités russes attribuent l'attaque à une femme agissant pour le compte de l'Ukraine. En représailles immédiates ou concomitantes, Kiev a été la cible de missiles balistiques russes, causant la mort de dix civils. Le président Zelensky a dénoncé ces frappes et appelé les alliés occidentaux à renforcer la défense antiaérienne et les sanctions contre le Kremlin.",
+      "contexte_historique": "L'usage d'engins explosifs en milieu urbain russe rappelle l'assassinat de la blogueuse Daria Douguina en 2022 ou l'attentat contre Vladlen Tatarski en 2023. Ces actions marquent une volonté de porter le conflit au cœur de la capitale russe, au-delà des lignes de front traditionnelles.",
       "implications": [
-        "Hausse immédiate des prix à la consommation pour les produits de construction et alimentaires aux États-Unis.",
-        "Menace sur la stabilité de l'accord de libre-échange nord-américain (ACEUM)."
+        "Possible durcissement de la répression interne en Russie sous couvert d'antiterrorisme.",
+        "Pression accrue sur les stocks de missiles de défense Patriot des pays de l'OTAN."
       ],
       "chronologie": [
         {
-          "date": "2026-07-21",
-          "texte": "Annonce officielle des produits visés (vin, ciment, hockey).",
-          "source": "BFM TV"
+          "date": "2026-08-02",
+          "texte": "Bilan de l'attentat de Moscou porté à 3 morts ; Zelensky réclame des Patriot.",
+          "source": "Le Monde"
         },
         {
-          "date": "2026-07-20",
-          "texte": "Signature du décret présidentiel à la Maison Blanche.",
-          "source": "RFI"
+          "date": "2026-08-01",
+          "texte": "Explosion dans un café moscovite ; frappes nocturnes sur Kiev.",
+          "source": "Ouest-France"
         },
         {
-          "date": "2026-07-19",
-          "texte": "Menaces de Trump lors d'un briefing sur les incendies de forêt.",
-          "source": "The Guardian"
+          "date": "2026-08-01",
+          "texte": "Kiev frappée par des missiles balistiques.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
           "source": "The Guardian",
           "type": "etranger",
-          "angle": "Analyse de l'impact sur l'économie canadienne et le lien avec les griefs de Trump sur les incendies de forêt.",
-          "ton": "alarmiste",
-          "url": "https://www.theguardian.com/us-news/2026/jul/20/trump-canada-tariffs",
-          "citation_cle": "Le chaos est probable alors que les responsables de Trump affirment que le Canada a injustement discriminé les produits américains.",
+          "angle": "Détails sur le mode opératoire de l'attentat à Moscou (bombe portée par une femme).",
+          "ton": "factuel",
+          "url": "https://www.theguardian.com/world/2026/aug/02/moscow-restaurant-bombing-kills-three-people-as-device-carried-by-woman-explodes",
+          "citation_cle": "Une bombe artisanale transportée par une femme a tué trois personnes à Moscou.",
           "groupe_media": {
             "nom": "Scott Trust",
             "proprietaire": "Scott Trust Limited",
@@ -283,53 +285,45 @@
           }
         },
         {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Focus sur la réaction diplomatique d'Ottawa et les négociations de la dernière chance.",
-          "ton": "factuel",
-          "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Les droits de douane marquent une escalade majeure dans les tensions commerciales entre les voisins nord-américains.",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "BFM TV",
+          "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Guerre au Moyen-Orient: après la mort de deux soldats américains en Jordanie, Donald Trump assure que l'Iran payera \"plusieurs fois\" le prix",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-au-moyen-orient-apres-la-mort-de-deux-soldats-americains-en-jordanie-donald-trump-assure-que-l-iran-payera-plusieurs-fois-le-prix_VN-202607210045.html",
-          "citation_cle": "Le Pentagone a donné dans un communiqué l'identité des deux soldats américains tués vendredi dans une attaque iranienne ",
+          "angle": "Focus sur les demandes de défense antiaérienne de Zelensky.",
+          "ton": "neutre",
+          "url": "https://www.lemonde.fr/international/live/2026/08/02/en-direct-guerre-en-ukraine-volodymyr-zelensky-reclame-des-missiles-patriot-et-de-nouvelles-sanctions-face-aux-frappes-russes_6737250_3210.html",
+          "citation_cle": "Volodymyr Zelensky réclame des missiles Patriot face aux frappes russes.",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Si le Canada appliquera une réciprocité totale sur les produits technologiques américains.",
-        "La légalité de ces tarifs au regard des clauses de l'ACEUM."
+        "L'Ukraine revendiquera-t-elle officieusement l'action à Moscou ?",
+        "Quelles seront les cibles russes prioritaires dans les prochaines 48 heures ?"
       ],
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260721-%C3%A9tats-unis-donald-trump-va-imposer-de-nouveaux-droits-de-douane-au-canada",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/live/2026/08/02/en-direct-guerre-en-ukraine-volodymyr-zelensky-reclame-des-missiles-patriot-et-de-nouvelles-sanctions-face-aux-frappes-russes_6737250_3210.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/reflexion/editorial/editorial-pour-une-vraie-protection-civile-europeenne-9d5cfc26-8ce0-11f1-bac6-43ee9437487c?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
           "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/20/trump-canada-tariffs",
+          "url": "https://www.theguardian.com/world/2026/aug/02/moscow-restaurant-bombing-kills-three-people-as-device-carried-by-woman-explodes",
           "type": "etranger",
           "groupe_media": {
             "nom": "Scott Trust",
@@ -337,88 +331,60 @@
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
-        },
-        {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/21/china-and-philippines-trade-accusations-after-sailor-injured-at-sea?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/economie/entreprises/denoncant-un-traitement-discriminatoire-sur-ses-produits-les-etats-unis-imposent-50-de-droits-de-douane-sur-une-serie-de-produits-canadiens_AD-202607210033.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
         }
       ],
-      "premiere_apparition": "2026-07-20"
+      "premiere_apparition": "2026-08-01"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Incendie en forêt de Fontainebleau",
-      "slug": "fontainebleau-incendie-canicule-juillet-2026",
+      "titre": "Incendies en Gironde et dans le Var",
+      "slug": "incendies-gironde-var-stabilisation",
       "rubrique": "societe",
-      "resume": "L'incendie qui a ravagé 800 hectares est désormais sous contrôle des pompiers, bien que la surveillance des points chauds continue en raison de la sécheresse persistante.",
+      "resume": "Les incendies majeurs en France sont désormais considérés comme 'sous contrôle' par le gouvernement. En Gironde, le mégafeu est fixé, permettant le retour de 208 000 sinistrés. Dans le Var, le feu est stabilisé bien que la vigilance reste de mise face aux vents.",
       "chronologie": [
         {
-          "date": "2026-07-20",
-          "texte": "Le préfet annonce que le feu est 'fixé' mais interdit toujours l'accès aux massifs.",
-          "source": "BFM TV"
+          "date": "2026-08-02",
+          "texte": "Sébastien Lecornu annonce que les feux sont globalement sous contrôle.",
+          "source": "20 Minutes"
         },
         {
-          "date": "2026-07-13",
-          "texte": "Déclenchement du sinistre exceptionnel en pleine canicule.",
-          "source": "franceinfo"
+          "date": "2026-08-01",
+          "texte": "Le mégafeu de Gironde est officiellement fixé.",
+          "source": "BFM TV"
         }
       ],
       "couvertures": [
         {
-          "source": "BFM TV",
+          "source": "20 Minutes",
           "type": "mainstream",
-          "angle": "Bilan des dégâts écologiques et maintien de la vigilance.",
+          "angle": "Optimisme gouvernemental sur l'évolution de la situation.",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/environnement/climat/video-dans-le-sud-de-la-france-plusieurs-departements-restent-en-vigilance-rouge-pour-risque-d-incendie_VN-202607210034.html",
-          "citation_cle": "La vigilance reste de mise pour les prochains jours malgré la baisse des températures."
+          "url": "https://www.20minutes.fr/planete/4237330-20260802-incendies-gironde-var-sebastien-lecornu-optimiste-evolution-feux-france",
+          "citation_cle": "Les incendies sont globalement sous contrôle."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'origine exacte du départ de feu (enquête judiciaire en cours)."
+        "Le coût total des dégâts agricoles et sylvicoles."
       ],
       "sources": [
         {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/planete/4237330-20260802-incendies-gironde-var-sebastien-lecornu-optimiste-evolution-feux-france",
+          "type": "mainstream"
+        },
+        {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/environnement/climat/video-dans-le-sud-de-la-france-plusieurs-departements-restent-en-vigilance-rouge-pour-risque-d-incendie_VN-202607210034.html",
+          "url": "https://www.bfmtv.com/meteo/direct-incendies-en-france-le-feu-dans-le-var-est-stabilise-mais-pas-fixe-1-800-hectares-parcourus_LN-202608020041.html",
           "type": "mainstream"
         }
       ],
-      "derniere_mise_a_jour": "2026-07-21",
-      "statut": "Le sujet bascule en phase de bilan environnemental et judiciaire."
+      "derniere_mise_a_jour": "2026-08-02",
+      "statut": "Phase de surveillance et de nettoyage ; retour des populations terminé."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 636,
+    "nb_articles_analyses": 510,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
