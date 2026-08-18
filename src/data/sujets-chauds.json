@@ -1,36 +1,36 @@
 {
-  "date": "2026-08-16",
-  "genere_a": "2026-08-16T04:48:48.713Z",
+  "date": "2026-08-18",
+  "genere_a": "2026-08-18T07:27:21.506Z",
   "sujets_actifs": [
     {
-      "titre": "Tensions diplomatiques entre l'Iran et le Qatar sur le sort de pilotes de chasse",
-      "slug": "tensions-iran-qatar-pilotes-detenus",
+      "titre": "Attaque massive de drones ukrainiens sur Moscou et menaces russes contre Londres",
+      "slug": "attaque-drones-moscou-menaces-russie-royaume-uni",
       "rubrique": "international",
       "tldr": [
-        "Téhéran accuse Doha de détenir trois pilotes iraniens depuis mars 2026.",
-        "Le Qatar dément formellement toute capture et dénonce des déclarations trompeuses.",
-        "L'incident s'inscrit dans le contexte des frappes contre la base américaine d'Al-Udeid."
+        "Plus de 600 drones lancés vers Moscou dans la nuit du 17 au 18 août (Le Monde).",
+        "La Russie accuse le Royaume-Uni de fournir les drones utilisés pour frapper son sol (20 Minutes).",
+        "Moscou menace Londres d'une escalade directe en réponse à ce soutien militaire (BBC News)."
       ],
-      "resume": "Une crise diplomatique ouverte a éclaté entre l'Iran et le Qatar suite aux affirmations de Téhéran concernant la détention de trois de ses pilotes de chasse. Selon les autorités iraniennes, ces militaires auraient été capturés par les forces qataries après le crash de leurs appareils en mars dernier, lors d'une opération visant la base américaine d'Al-Udeid située sur le sol qatari (Le Monde). Le Qatar a vigoureusement démenti ces allégations, qualifiant les propos iraniens de « trompeurs » et niant toute implication dans le sort des pilotes (Al Jazeera, BBC News). Cette discorde fragilise le rôle traditionnel de médiateur du Qatar dans la région, alors même que des pourparlers sur la sécurité du détroit d'Ormuz sont en cours.",
-      "contexte_historique": "Depuis le début des tensions accrues entre les États-Unis et l'Iran en 2026, le Qatar occupe une position précaire, hébergeant la plus grande base militaire américaine au Moyen-Orient (Al-Udeid) tout en maintenant des liens économiques et diplomatiques étroits avec Téhéran (Partage du champ gazier South Pars). Historiquement, Doha a servi de canal de communication crucial lors des crises précédentes, notamment pour les échanges de prisonniers en 2023.",
+      "resume": "L'Ukraine a mené l'une des attaques aériennes les plus vastes contre la capitale russe depuis le début du conflit, avec 620 drones signalés par le maire de Moscou. Si la défense antiaérienne russe affirme en avoir intercepté une grande partie, l'impact psychologique et politique est majeur. En réaction, le Kremlin a officiellement mis en garde le gouvernement britannique, affirmant que l'usage de technologies de drones fournies par Londres pour frapper le territoire russe constituait une provocation grave. Le Royaume-Uni a répliqué en réaffirmant son soutien indéfectible à Kiev, malgré les menaces de représailles de Moscou (BBC News, Le Figaro).",
+      "contexte_historique": "Depuis l'invasion de l'Ukraine en février 2022, les lignes rouges sur l'usage d'armes occidentales en territoire russe ont constamment évolué. Le Royaume-Uni a été le premier pays à fournir des missiles de longue portée (Storm Shadow) en 2023, créant un précédent diplomatique tendu avec la Russie (RFI).",
       "implications": [
-        "Risque de rupture du canal de médiation qatari entre Washington et Téhéran.",
-        "Pression accrue sur le gouvernement iranien par les Gardiens de la Révolution pour durcir le ton face aux alliés des États-Unis."
+        "Risque accru de confrontation directe entre la Russie et un membre de l'OTAN.",
+        "Intensification probable des frappes de représailles russes sur les centres de commandement à Kiev."
       ],
       "chronologie": [
         {
-          "date": "2026-08-16",
-          "texte": "Le Qatar publie un démenti officiel via son ministère des Affaires étrangères.",
-          "source": "Al Jazeera"
-        },
-        {
-          "date": "2026-08-15",
-          "texte": "Téhéran demande officiellement la libération de trois pilotes prétendument détenus à Doha.",
+          "date": "2026-08-18",
+          "texte": "Le maire de Moscou annonce le lancement de 620 drones ukrainiens sur la capitale.",
           "source": "Le Monde"
         },
         {
-          "date": "2026-03-15",
-          "texte": "Attaque iranienne contre la base d'Al-Udeid ; crash de deux chasseurs iraniens.",
+          "date": "2026-08-18",
+          "texte": "Moscou convoque l'ambassadeur britannique pour protester contre l'usage de drones UK.",
+          "source": "20 Minutes"
+        },
+        {
+          "date": "2026-08-18",
+          "texte": "Londres répond qu'elle se tient 'épaule contre épaule' avec l'Ukraine.",
           "source": "BBC News"
         }
       ],
@@ -38,10 +38,10 @@
         {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse des luttes de factions internes à Téhéran qui poussent à cette confrontation.",
+          "angle": "Focus sur l'ampleur inédite de l'attaque de drones et les blessés civils.",
           "ton": "factuel",
-          "url": "https://www.lemonde.fr/international/article/2026/08/16/l-iran-denonce-la-detention-de-trois-pilotes-de-chasse-par-le-qatar-qui-dement-les-avoir-captures_6746919_3210.html",
-          "citation_cle": "Les gardiens de la révolution imposent leurs exigences au président iranien.",
+          "url": "https://www.lemonde.fr/international/live/2026/08/18/en-direct-guerre-en-ukraine-le-maire-de-moscou-affirme-que-620-drones-ont-ete-lances-vers-la-capitale-russe-dans-la-nuit_6746952_3210.html",
+          "citation_cle": "620 drones ont été lancés vers la capitale russe dans la nuit.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -50,115 +50,129 @@
           }
         },
         {
-          "source": "Al Jazeera",
+          "source": "BBC News",
           "type": "etranger",
-          "angle": "Focus sur le démenti qatari et la préservation de la stabilité régionale.",
+          "angle": "Analyse de la tension diplomatique entre Londres et Moscou.",
           "ton": "neutre",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-2026-houthis-yemen-sv?traffic_source=rss",
-          "citation_cle": "Doha decries 'misleading statements'.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Le lieu exact et l'état de santé réel des pilotes si les crashs sont avérés.",
-        "Si une tierce partie (type Oman) a été sollicitée pour vérifier les allégations iraniennes."
-      ],
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/08/16/l-iran-denonce-la-detention-de-trois-pilotes-de-chasse-par-le-qatar-qui-dement-les-avoir-captures_6746919_3210.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-2026-houthis-yemen-sv?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
-          "type": "etranger",
+          "url": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "Britain stands 'shoulder to shoulder' with Ukraine.",
           "groupe_media": {
             "nom": "BBC",
             "proprietaire": "État britannique",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Guerre en Ukraine: le maire de Moscou affirme qu'au moins 620 drones ont été lancés vers la capitale russe dans la nuit",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/international/asie/russie/guerre-en-ukraine-le-maire-de-moscou-affirme-qu-au-moins-620-drones-ont-ete-lances-vers-la-capitale-russe-dans-la-nuit_AD-202608180025.html",
+          "citation_cle": "Ces derniers mois, l'Ukraine a multiplié les frappes en profondeur sur le territoire russe, tandis que Moscou a égalemen",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         }
       ],
-      "premiere_apparition": "2026-08-15"
+      "ce_quon_ne_sait_pas": [
+        "Le nombre exact de drones ayant réellement atteint des cibles stratégiques.",
+        "La nature exacte de la réponse 'asymétrique' promise par la Russie au Royaume-Uni."
+      ],
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/live/2026/08/18/en-direct-guerre-en-ukraine-le-maire-de-moscou-affirme-que-620-drones-ont-ete-lances-vers-la-capitale-russe-dans-la-nuit_6746952_3210.html",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko?at_medium=RSS&at_campaign=rss",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/sport/football/4239670-20260818-foot-pourfendeur-infantino-fifa-francais-kevin-lamour-prend-porte?at_medium=display&at_campaign=149",
+          "type": "journal",
+          "groupe_media": null
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/le-maire-de-moscou-affirme-que-620-drones-ont-ete-lances-vers-la-capitale-russe-dans-la-nuit-20260818",
+          "type": "mainstream"
+        }
+      ],
+      "premiere_apparition": "2026-08-18"
     },
     {
-      "titre": "La Colombie sollicite une trêve douanière auprès de Donald Trump après un séisme dévastateur",
-      "slug": "colombie-trump-droits-douane-seisme",
-      "rubrique": "economie",
+      "titre": "Donald Trump réduit les exercices militaires avec Séoul et renoue avec Kim Jong-un",
+      "slug": "trump-coree-sud-reduction-exercices-militaires",
+      "rubrique": "international",
       "tldr": [
-        "Le président colombien demande la suspension des tarifs douaniers américains.",
-        "Le pays fait face à une reconstruction estimée à 6,4 milliards de dollars.",
-        "Le séisme du 10 août a causé près de 300 morts et des dégâts massifs."
+        "Trump ordonne une réduction 'substantielle' des manœuvres militaires avec la Corée du Sud (BFM TV).",
+        "Le président américain vante sa 'très bonne relation' avec le dictateur nord-coréen (Le Monde).",
+        "Séoul tente de rassurer Pyongyang sur le caractère défensif des exercices maintenus (Le Figaro)."
       ],
-      "resume": "Le nouveau président colombien, Abelardo de la Espriella, a officiellement demandé à son homologue américain Donald Trump de suspendre les droits de douane frappant les produits colombiens. Cette requête intervient alors que la Colombie tente de se relever d'un séisme majeur survenu en début de semaine, dont le coût de reconstruction est évalué à 6,4 milliards de dollars (Al Jazeera). Bien que les deux dirigeants soient considérés comme des alliés idéologiques, l'administration Trump a récemment durci sa politique protectionniste, impactant lourdement l'économie colombienne (RFI). Cette crise humanitaire devient ainsi un test pour la diplomatie transactionnelle de Washington en Amérique latine.",
-      "contexte_historique": "La Colombie est historiquement le principal allié des États-Unis en Amérique du Sud (Plan Colombie). Toutefois, le retour de Donald Trump à la Maison-Blanche en 2024 a marqué un tournant avec l'imposition de tarifs douaniers globaux, ne faisant aucune exception pour les partenaires stratégiques, une rupture avec les accords de libre-échange signés en 2012.",
+      "resume": "Dans un revirement diplomatique majeur, Donald Trump a demandé à son secrétaire à la Défense de réduire considérablement la participation américaine aux exercices militaires annuels avec la Corée du Sud. Cette décision, motivée par la volonté de relancer le dialogue avec Kim Jong-un, suscite l'inquiétude des alliés traditionnels des États-Unis dans la région. Alors que les manœuvres venaient de débuter le 17 août, Trump a affirmé que sa proximité avec le leader nord-coréen rendait le Sud plus sûr. De son côté, la présidence sud-coréenne s'efforce de maintenir une position d'équilibre en affirmant que ces manœuvres ne visent aucun adversaire spécifique (Le Monde, Sud-Ouest).",
+      "contexte_historique": "En 2018, après le sommet de Singapour, Donald Trump avait déjà suspendu des exercices militaires majeurs, les qualifiant de 'provocateurs' et de 'trop chers' (NYT). Cette politique rompt avec des décennies de doctrine de défense commune entre Washington et Séoul établie depuis la fin de la guerre de Corée en 1953.",
       "implications": [
-        "Risque d'effondrement économique de la Colombie si l'aide internationale et l'allègement douanier ne sont pas accordés.",
-        "Instabilité politique potentielle dans un pays déjà polarisé par l'arrivée de l'extrême droite au pouvoir."
+        "Affaiblissement potentiel de l'interopérabilité des forces américano-sud-coréennes.",
+        "Isolement diplomatique de Séoul face aux ambitions nucléaires de Pyongyang."
       ],
       "chronologie": [
         {
-          "date": "2026-08-16",
-          "texte": "Le président colombien confirme avoir échangé avec Donald Trump sur les tarifs.",
-          "source": "Le Monde"
+          "date": "2026-08-18",
+          "texte": "Trump annonce la réduction des exercices militaires lors d'un point presse.",
+          "source": "BFM TV"
         },
         {
-          "date": "2026-08-15",
-          "texte": "Appel officiel de Bogota pour une suspension temporaire des droits de douane.",
-          "source": "RFI"
+          "date": "2026-08-18",
+          "texte": "La présidence sud-coréenne publie un communiqué pour apaiser les tensions avec le Nord.",
+          "source": "Le Figaro"
         },
         {
-          "date": "2026-08-10",
-          "texte": "Séisme de magnitude 7.2 frappant le centre de la Colombie.",
-          "source": "Al Jazeera"
+          "date": "2026-08-17",
+          "texte": "Début officiel des manœuvres militaires annuelles conjointes.",
+          "source": "Sud-Ouest"
         }
       ],
       "couvertures": [
         {
-          "source": "RFI",
+          "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Focus sur l'urgence humanitaire et la nécessité d'un soutien économique immédiat.",
-          "ton": "factuel",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260815-s%C3%A9isme-en-colombie-le-pr%C3%A9sident-demande-%C3%A0-donald-trump-la-suspension-des-droits-de-douane",
-          "citation_cle": "Une suspension temporaire des droits de douane pour financer la reconstruction.",
+          "angle": "Analyse de la 'maltraitance' diplomatique de Séoul par l'administration Trump.",
+          "ton": "critique",
+          "url": "https://www.lemonde.fr/international/article/2026/08/18/donald-trump-maltraite-la-coree-du-sud-et-envisage-a-nouveau-un-dialogue-avec-pyongyang_6748717_3210.html",
+          "citation_cle": "Le président américain a demandé de 'réduire substantiellement' les exercices.",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
           "source": "Al Jazeera",
           "type": "etranger",
-          "angle": "Analyse chiffrée des pertes économiques liées aux tarifs américains en période de crise.",
-          "ton": "critique",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-2026-houthis-yemen-sv?traffic_source=rss",
-          "citation_cle": "La reconstruction est attendue à 6,4 milliards de dollars.",
+          "angle": "Focus sur la réaction positive supposée de Kim Jong-un.",
+          "ton": "factuel",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/08-18-26-zambia-elections-sv?traffic_source=rss",
+          "citation_cle": "Trump says talking to North Korea’s Kim makes the south safer.",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
             "proprietaire": "État du Qatar",
@@ -167,136 +181,153 @@
           }
         },
         {
-          "source": "Le Monde",
+          "source": "BFM TV",
           "type": "mainstream",
-          "angle": "Le nouveau président colombien demande à son allié Donald Trump de suspendre les droits de douane après le séisme",
+          "angle": "Donald Trump affirme \"bien s'entendre\" avec Kim Jong-un et veut réduire les exercices militaires conjoints avec la Corée du Sud",
           "ton": "factuel",
-          "url": "https://www.lemonde.fr/international/article/2026/08/16/le-nouveau-president-colombien-demande-a-son-allie-donald-trump-de-suspendre-les-droits-de-douane-apres-le-seisme_6747018_3210.html",
-          "citation_cle": "Abelardo de la Espriella a déclaré s’être entretenu avec son homologue américain, alors que les opérations de secours se",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-donald-trump-affirme-bien-s-entendre-avec-kim-jong-un-et-veut-reduire-les-exercices-militaires-conjoints-avec-la-coree-du-sud_VN-202608180037.html",
+          "citation_cle": "Donald Trump a annoncé \"réduire considérablement\" la participation des États-Unis aux exercices militaires annuels avec ",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "La réponse définitive de la Maison-Blanche, qui lie souvent l'aide économique à des concessions sur la lutte contre le narcotrafic.",
-        "L'ampleur exacte des dégâts dans les zones rurales isolées."
+        "Les concessions réelles que Pyongyang est prêt à faire en échange de cette réduction.",
+        "L'impact sur le contingent de 28 500 soldats américains stationnés en Corée du Sud."
       ],
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260815-s%C3%A9isme-en-colombie-le-pr%C3%A9sident-demande-%C3%A0-donald-trump-la-suspension-des-droits-de-douane",
-          "type": "mainstream",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/08/18/donald-trump-maltraite-la-coree-du-sud-et-envisage-a-nouveau-un-dialogue-avec-pyongyang_6748717_3210.html",
+          "type": "journal",
           "groupe_media": {
-            "nom": "France Médias Monde",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-donald-trump-affirme-bien-s-entendre-avec-kim-jong-un-et-veut-reduire-les-exercices-militaires-conjoints-avec-la-coree-du-sud_VN-202608180037.html",
+          "type": "tv",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/les-manoeuvres-avec-les-etats-unis-ne-visent-pas-a-attaquer-la-coree-du-nord-affirme-seoul-20260818",
+          "type": "journal",
+          "groupe_media": null
+        },
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/societe/proces-des-reseaux-sociaux-que-risque-vraiment-meta-accuse-d-avoir-rendu-ses-plateformes-addictives-pour-les-mineurs-30292507.php",
+          "type": "mainstream"
+        }
+      ],
+      "premiere_apparition": "2026-08-17"
+    },
+    {
+      "titre": "Première sortie spatiale historique pour l'astronaute française Sophie Adenot",
+      "slug": "sophie-adenot-sortie-spatiale-iss",
+      "rubrique": "science",
+      "tldr": [
+        "Première sortie extravéhiculaire pour la Française ce mardi 18 août (BFM TV).",
+        "Mission de réparation du système de communication de l'ISS (franceinfo).",
+        "Adenot devient la première femme française à réaliser cet exploit (L'Obs)."
+      ],
+      "resume": "L'astronaute française Sophie Adenot doit marquer l'histoire de l'exploration spatiale française ce mardi en effectuant sa première sortie dans le vide depuis la Station spatiale internationale (ISS). Accompagnée de l'Américain Anil Menon, elle a pour mission de remplacer des composants défectueux du système de communication de la station. Cette opération, préparée depuis des mois au centre d'entraînement de la NASA, est décrite comme une 'chorégraphie' millimétrée où chaque geste a été répété en piscine. Adenot succède ainsi à Thomas Pesquet dans le cercle restreint des Français ayant travaillé hors de l'ISS (L'Obs, franceinfo).",
+      "contexte_historique": "Avant Sophie Adenot, seul un petit nombre de Français ont effectué des sorties extravéhiculaires, notamment Jean-Loup Chrétien (1988) et Thomas Pesquet (2017/2021). Elle est la première femme française à atteindre ce jalon (BFM TV).",
+      "implications": [
+        "Renforcement de la position de la France au sein de l'Agence spatiale européenne (ESA).",
+        "Validation des protocoles d'entraînement pour la nouvelle génération d'astronautes européens."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-08-18",
+          "texte": "Début prévu de la sortie extravéhiculaire dans l'après-midi.",
+          "source": "franceinfo"
+        },
+        {
+          "date": "2026-02-15",
+          "texte": "Arrivée de Sophie Adenot à bord de l'ISS.",
+          "source": "L'Obs"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "franceinfo",
+          "type": "mainstream",
+          "angle": "Suivi en direct et explications techniques sur les enjeux de la mission.",
+          "ton": "factuel",
+          "url": "https://www.franceinfo.fr/environnement/meteo/alertes-meteo-et-vigilances/plus-aucun-departement-n-est-en-vigilance-orange-canicule-les-temperatures-en-nette-baisse-a-partir-de-jeudi-selon-meteo-france_8151674.html#xtor=RSS-3-[lestitres]",
+          "citation_cle": "Sophie Adenot va sortir de l'ISS et sauter dans le vide spatial.",
+          "groupe_media": {
+            "nom": "France Télévisions",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-2026-houthis-yemen-sv?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/08/16/le-nouveau-president-colombien-demande-a-son-allie-donald-trump-de-suspendre-les-droits-de-douane-apres-le-seisme_6747018_3210.html",
+          "source": "L'Obs",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-08-15"
-    },
-    {
-      "titre": "Interdiction des réseaux sociaux aux mineurs : Gabriel Attal propose un référendum",
-      "slug": "attal-referendum-reseaux-sociaux-mineurs",
-      "rubrique": "politique",
-      "tldr": [
-        "Gabriel Attal suggère un référendum pour interdire les réseaux sociaux aux moins de 15 ans.",
-        "Le Conseil constitutionnel a récemment censuré une loi similaire.",
-        "Le débat oppose protection de l'enfance et libertés publiques."
-      ],
-      "resume": "L'ancien Premier ministre et candidat déclaré à la présidence, Gabriel Attal, a relancé le débat sur la régulation numérique en proposant un référendum sur l'interdiction des réseaux sociaux aux mineurs de moins de 15 ans. Cette sortie intervient quelques jours après que le Conseil constitutionnel a censuré une disposition législative allant dans ce sens, invoquant une atteinte disproportionnée à la liberté d'expression et de communication (BFM TV). Attal cherche à contourner l'obstacle juridique par la voie populaire, surfant sur une inquiétude croissante des parents face au cyberharcèlement et aux effets sur la santé mentale, un sujet qui anime fortement les forums de discussion .",
-      "contexte_historique": "La France tente de légiférer sur la « majorité numérique » depuis 2023. La loi visant à instaurer une vérification de l'âge a fait l'objet de multiples recours. Sur le plan international, des initiatives similaires en Australie et dans certains États américains (Utah, Floride) font face à des défis juridiques identiques basés sur le respect de la vie privée et la liberté d'accès à l'information.",
-      "implications": [
-        "Risque de confrontation institutionnelle entre le pouvoir exécutif et le Conseil constitutionnel.",
-        "Accélération du développement de solutions techniques de preuve d'âge anonyme (type JWT/Cryptographie asymétrique)."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-08-15",
-          "texte": "Gabriel Attal formule sa proposition de référendum lors d'un déplacement.",
-          "source": "BFM TV"
+          "angle": "Portrait de l'astronaute et focus sur la précision de sa préparation.",
+          "ton": "engage",
+          "url": "https://www.nouvelobs.com/sciences/20260818.OBS117475/sophie-adenot-premiere-francaise-a-effectuer-une-sortie-dans-l-espace-elle-connait-le-moindre-geste-a-faire-jusqu-au-nombre-de-tours-d-ecrous.html",
+          "citation_cle": "Elle connaît le moindre geste à faire, jusqu’au nombre de tours d’écrous.",
+          "groupe_media": null
         },
-        {
-          "date": "2026-08-12",
-          "texte": "Censure partielle de la loi sur la protection des mineurs par les Sages.",
-          "source": "Citoyens.ai"
-        },
-        {
-          "date": "2023-07-07",
-          "texte": "Promulgation de la première loi instaurant la majorité numérique à 15 ans.",
-          "source": "Vie-Publique"
-        }
-      ],
-      "couvertures": [
         {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "Analyse de la stratégie politique d'Attal en vue de 2027 sur un sujet consensuel.",
-          "ton": "neutre",
-          "url": "https://www.bfmtv.com/politique/gabriel-attal-appelle-a-un-referendum-sur-l-interdiction-des-reseaux-sociaux-aux-moins-de-15-ans_AD-202608150295.html",
-          "citation_cle": "L'ancien Premier ministre souhaite qu'un référendum soit mené.",
+          "angle": "Objectif, équipement... Tout savoir sur la sortie extra véhiculaire de Sophie Adenot prévue ce mardi",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/sciences/objectif-equipement-entrainement-tout-savoir-sur-la-sortie-extra-vehiculaire-de-sophie-adenot-prevue-ce-mardi_AN-202608180019.html",
+          "citation_cle": "Ce mardi 18 août, pour la première fois depuis qu'elle séjourne dans la Station spatiale internationale (ISS), l'astrona",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
-        },
-        {
-          "source": "Sud-Ouest",
-          "type": "mainstream",
-          "angle": "Interdiction des réseaux aux moins de 15 ans : après la censure du Conseil constitutionnel, Gabriel Attal appelle à un référendum pour « agir sans attendre »",
-          "ton": "factuel",
-          "url": "https://www.sudouest.fr/economie/reseaux-sociaux/interdiction-des-reseaux-aux-moins-de-15-ans-apres-la-censure-du-conseil-constitutionnel-gabriel-attal-appelle-a-un-referendum-pour-agir-sans-attendre-30271144.php",
-          "citation_cle": "Face à la censure du Conseil constitutionnel, l’ancien Premier ministre souhaite soumettre directement aux Français une ",
-          "groupe_media": null
-        },
-        {
-          "source": "Le Figaro",
-          "type": "mainstream",
-          "angle": "Réseaux sociaux interdits aux moins de 15 ans : Gabriel Attal réclame un référendum",
-          "ton": "factuel",
-          "url": "https://www.lefigaro.fr/politique/reseaux-sociaux-interdits-aux-moins-de-15-ans-gabriel-attal-reclame-un-referendum-20260815",
-          "citation_cle": "Après la censure de la loi par le Conseil constitutionnel, le candidat Renaissance à la présidentielle appelle Emmanuel ",
-          "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "La faisabilité technique d'un blocage étanche sans surveillance généralisée du Web.",
-        "Le positionnement des autres candidats à la présidentielle sur cette méthode de consultation."
+        "La durée exacte de la sortie, qui dépendra de la fluidité des réparations.",
+        "L'impact de cette mission sur son éventuelle sélection pour les futures missions lunaires Artemis."
       ],
       "sources": [
         {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/environnement/meteo/alertes-meteo-et-vigilances/plus-aucun-departement-n-est-en-vigilance-orange-canicule-les-temperatures-en-nette-baisse-a-partir-de-jeudi-selon-meteo-france_8151674.html#xtor=RSS-3-[lestitres]",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/sciences/20260818.OBS117475/sophie-adenot-premiere-francaise-a-effectuer-une-sortie-dans-l-espace-elle-connait-le-moindre-geste-a-faire-jusqu-au-nombre-de-tours-d-ecrous.html",
+          "type": "journal",
+          "groupe_media": null
+        },
+        {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/politique/gabriel-attal-appelle-a-un-referendum-sur-l-interdiction-des-reseaux-sociaux-aux-moins-de-15-ans_AD-202608150295.html",
-          "type": "mainstream",
+          "url": "https://www.bfmtv.com/sciences/video-sophie-adenot-s-apprete-a-sortir-de-la-station-spatiale-internationale-et-a-entrer-un-peu-plus-dans-l-histoire-de-l-astronomie-francaise_VN-202608180027.html",
+          "type": "tv",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -305,58 +336,33 @@
           }
         }
       ],
-      "premiere_apparition": "2026-08-15"
+      "premiere_apparition": "2026-08-18"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Stabilisation de l'enclave de Ceuta",
-      "slug": "stabilisation-ceuta-espagne-maroc",
+      "titre": "Tensions Iran-Qatar sur le sort de pilotes de chasse",
+      "slug": "tensions-iran-qatar-pilotes",
       "rubrique": "international",
-      "resume": "Après une tentative de passage massif le 15 août, les autorités marocaines ont procédé à des dizaines d'interpellations, confirmant la coopération sécuritaire avec l'Espagne.",
+      "resume": "Le sujet est entré dans une phase de blocage diplomatique après l'expiration du délai de négociation de 60 jours.",
       "chronologie": [
         {
-          "date": "2026-08-16",
-          "texte": "Dizaines d'interpellations confirmées côté marocain.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-08-15",
-          "texte": "Renforcement de la sécurité suite à des appels sur les réseaux sociaux.",
-          "source": "BBC News"
+          "date": "2026-08-18",
+          "texte": "Téhéran juge caduc le délai de négociation prévu par le protocole d'accord.",
+          "source": "France 24 FR"
         }
       ],
-      "couvertures": [
-        {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Efficacité de la surveillance frontalière accrue.",
-          "ton": "factuel",
-          "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro",
-          "citation_cle": "Security had been stepped up amid suggestions of a second mass crossing."
-        }
-      ],
+      "couvertures": [],
       "ce_quon_ne_sait_pas": [
-        "L'origine exacte des campagnes de désinformation incitant aux traversées."
+        "L'avenir juridique des pilotes détenus en l'absence de nouvel accord."
       ],
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/europe/espagne/video-ceuta-des-dizaines-d-interpellations-a-la-frontiere-entre-le-maroc-et-l-espagne_VN-202608160033.html",
-          "type": "mainstream"
-        },
-        {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro",
-          "type": "etranger"
-        }
-      ],
-      "derniere_mise_a_jour": "2026-08-16",
-      "statut": "Le dispositif policier reste en place mais aucune nouvelle intrusion n'est signalée."
+      "sources": [],
+      "derniere_mise_a_jour": "2026-08-18",
+      "statut": "Sujet en attente d'une éventuelle escalade militaire ou d'une médiation tierce."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 480,
+    "nb_articles_analyses": 606,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
