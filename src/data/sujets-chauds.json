@@ -1,164 +1,78 @@
 {
-  "date": "2026-08-18",
-  "genere_a": "2026-08-18T07:27:21.506Z",
+  "date": "2026-08-20",
+  "genere_a": "2026-08-20T06:19:49.820Z",
   "sujets_actifs": [
     {
-      "titre": "Attaque massive de drones ukrainiens sur Moscou et menaces russes contre Londres",
-      "slug": "attaque-drones-moscou-menaces-russie-royaume-uni",
-      "rubrique": "international",
+      "titre": "Suspension de la Légion d'honneur pour François Fillon",
+      "slug": "francois-fillon-suspension-legion-honneur",
+      "rubrique": "politique",
       "tldr": [
-        "Plus de 600 drones lancés vers Moscou dans la nuit du 17 au 18 août (Le Monde).",
-        "La Russie accuse le Royaume-Uni de fournir les drones utilisés pour frapper son sol (20 Minutes).",
-        "Moscou menace Londres d'une escalade directe en réponse à ce soutien militaire (BBC News)."
+        "Suspension de 10 ans de la Légion d'honneur et de l'Ordre national du Mérite.",
+        "Décision consécutive à sa condamnation définitive dans l'affaire des emplois fictifs.",
+        "L'ancien Premier ministre avait été condamné à 4 ans de prison dont un ferme."
       ],
-      "resume": "L'Ukraine a mené l'une des attaques aériennes les plus vastes contre la capitale russe depuis le début du conflit, avec 620 drones signalés par le maire de Moscou. Si la défense antiaérienne russe affirme en avoir intercepté une grande partie, l'impact psychologique et politique est majeur. En réaction, le Kremlin a officiellement mis en garde le gouvernement britannique, affirmant que l'usage de technologies de drones fournies par Londres pour frapper le territoire russe constituait une provocation grave. Le Royaume-Uni a répliqué en réaffirmant son soutien indéfectible à Kiev, malgré les menaces de représailles de Moscou (BBC News, Le Figaro).",
-      "contexte_historique": "Depuis l'invasion de l'Ukraine en février 2022, les lignes rouges sur l'usage d'armes occidentales en territoire russe ont constamment évolué. Le Royaume-Uni a été le premier pays à fournir des missiles de longue portée (Storm Shadow) en 2023, créant un précédent diplomatique tendu avec la Russie (RFI).",
+      "resume": "L'ancien Premier ministre François Fillon a été officiellement suspendu de la Légion d'honneur et de l'Ordre national du Mérite pour une durée de dix ans. Cette mesure fait suite à sa condamnation définitive en février 2026 par la Cour de cassation dans l'affaire des emplois fictifs de son épouse Penelope Fillon. Bien que la peine de prison ferme ait été aménagée, le Code de la Légion d'honneur prévoit des sanctions disciplinaires en cas de condamnation criminelle ou de faute contre l'honneur. Cette décision marque une étape symbolique forte, retirant à l'ancien candidat à la présidentielle ses attributs honorifiques les plus prestigieux (Sud-Ouest, Le Figaro).",
+      "contexte_historique": "Le Code de la Légion d'honneur permet l'exclusion ou la suspension de l'ordre pour tout acte contraire à l'honneur. Des précédents incluent Maurice Papon (déchu en 1999) ou plus récemment la suspension de l'ordre pour des personnalités condamnées pénalement comme Claude Guéant (Le Monde).",
       "implications": [
-        "Risque accru de confrontation directe entre la Russie et un membre de l'OTAN.",
-        "Intensification probable des frappes de représailles russes sur les centres de commandement à Kiev."
+        "Interdiction de porter les insignes de la Légion d'honneur et de l'Ordre national du Mérite pendant 10 ans.",
+        "Affaiblissement définitif de l'image publique de l'ancien Premier ministre dans le paysage politique français."
       ],
       "chronologie": [
         {
-          "date": "2026-08-18",
-          "texte": "Le maire de Moscou annonce le lancement de 620 drones ukrainiens sur la capitale.",
-          "source": "Le Monde"
-        },
-        {
-          "date": "2026-08-18",
-          "texte": "Moscou convoque l'ambassadeur britannique pour protester contre l'usage de drones UK.",
-          "source": "20 Minutes"
-        },
-        {
-          "date": "2026-08-18",
-          "texte": "Londres répond qu'elle se tient 'épaule contre épaule' avec l'Ukraine.",
-          "source": "BBC News"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Focus sur l'ampleur inédite de l'attaque de drones et les blessés civils.",
-          "ton": "factuel",
-          "url": "https://www.lemonde.fr/international/live/2026/08/18/en-direct-guerre-en-ukraine-le-maire-de-moscou-affirme-que-620-drones-ont-ete-lances-vers-la-capitale-russe-dans-la-nuit_6746952_3210.html",
-          "citation_cle": "620 drones ont été lancés vers la capitale russe dans la nuit.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Analyse de la tension diplomatique entre Londres et Moscou.",
-          "ton": "neutre",
-          "url": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Britain stands 'shoulder to shoulder' with Ukraine.",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Guerre en Ukraine: le maire de Moscou affirme qu'au moins 620 drones ont été lancés vers la capitale russe dans la nuit",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/asie/russie/guerre-en-ukraine-le-maire-de-moscou-affirme-qu-au-moins-620-drones-ont-ete-lances-vers-la-capitale-russe-dans-la-nuit_AD-202608180025.html",
-          "citation_cle": "Ces derniers mois, l'Ukraine a multiplié les frappes en profondeur sur le territoire russe, tandis que Moscou a égalemen",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Le nombre exact de drones ayant réellement atteint des cibles stratégiques.",
-        "La nature exacte de la réponse 'asymétrique' promise par la Russie au Royaume-Uni."
-      ],
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/live/2026/08/18/en-direct-guerre-en-ukraine-le-maire-de-moscou-affirme-que-620-drones-ont-ete-lances-vers-la-capitale-russe-dans-la-nuit_6746952_3210.html",
-          "type": "journal",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko?at_medium=RSS&at_campaign=rss",
-          "type": "journal",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/sport/football/4239670-20260818-foot-pourfendeur-infantino-fifa-francais-kevin-lamour-prend-porte?at_medium=display&at_campaign=149",
-          "type": "journal",
-          "groupe_media": null
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/le-maire-de-moscou-affirme-que-620-drones-ont-ete-lances-vers-la-capitale-russe-dans-la-nuit-20260818",
-          "type": "mainstream"
-        }
-      ],
-      "premiere_apparition": "2026-08-18"
-    },
-    {
-      "titre": "Donald Trump réduit les exercices militaires avec Séoul et renoue avec Kim Jong-un",
-      "slug": "trump-coree-sud-reduction-exercices-militaires",
-      "rubrique": "international",
-      "tldr": [
-        "Trump ordonne une réduction 'substantielle' des manœuvres militaires avec la Corée du Sud (BFM TV).",
-        "Le président américain vante sa 'très bonne relation' avec le dictateur nord-coréen (Le Monde).",
-        "Séoul tente de rassurer Pyongyang sur le caractère défensif des exercices maintenus (Le Figaro)."
-      ],
-      "resume": "Dans un revirement diplomatique majeur, Donald Trump a demandé à son secrétaire à la Défense de réduire considérablement la participation américaine aux exercices militaires annuels avec la Corée du Sud. Cette décision, motivée par la volonté de relancer le dialogue avec Kim Jong-un, suscite l'inquiétude des alliés traditionnels des États-Unis dans la région. Alors que les manœuvres venaient de débuter le 17 août, Trump a affirmé que sa proximité avec le leader nord-coréen rendait le Sud plus sûr. De son côté, la présidence sud-coréenne s'efforce de maintenir une position d'équilibre en affirmant que ces manœuvres ne visent aucun adversaire spécifique (Le Monde, Sud-Ouest).",
-      "contexte_historique": "En 2018, après le sommet de Singapour, Donald Trump avait déjà suspendu des exercices militaires majeurs, les qualifiant de 'provocateurs' et de 'trop chers' (NYT). Cette politique rompt avec des décennies de doctrine de défense commune entre Washington et Séoul établie depuis la fin de la guerre de Corée en 1953.",
-      "implications": [
-        "Affaiblissement potentiel de l'interopérabilité des forces américano-sud-coréennes.",
-        "Isolement diplomatique de Séoul face aux ambitions nucléaires de Pyongyang."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-08-18",
-          "texte": "Trump annonce la réduction des exercices militaires lors d'un point presse.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-08-18",
-          "texte": "La présidence sud-coréenne publie un communiqué pour apaiser les tensions avec le Nord.",
+          "date": "2026-08-20",
+          "texte": "Publication des décrets de suspension au Journal officiel.",
           "source": "Le Figaro"
         },
         {
-          "date": "2026-08-17",
-          "texte": "Début officiel des manœuvres militaires annuelles conjointes.",
-          "source": "Sud-Ouest"
+          "date": "2026-02-15",
+          "texte": "Condamnation définitive par la Cour de cassation.",
+          "source": "Le Monde"
+        },
+        {
+          "date": "2017-01-25",
+          "texte": "Révélations du Canard Enchaîné sur l'emploi de Penelope Fillon.",
+          "source": "Archives Citoyens.ai"
         }
       ],
       "couvertures": [
         {
+          "source": "Le Figaro",
+          "type": "mainstream",
+          "angle": "Focus sur les détails administratifs des deux décrets de suspension.",
+          "ton": "factuel",
+          "url": "https://www.lefigaro.fr/actualite-france/francois-fillon-suspendu-de-la-legion-d-honneur-pour-une-duree-de-10-ans-20260820",
+          "citation_cle": "L’ancien premier ministre a aussi été suspendu pour 10 ans de l’ordre national du Mérite, dont il est grand-croix.",
+          "groupe_media": null
+        },
+        {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse de la 'maltraitance' diplomatique de Séoul par l'administration Trump.",
-          "ton": "critique",
-          "url": "https://www.lemonde.fr/international/article/2026/08/18/donald-trump-maltraite-la-coree-du-sud-et-envisage-a-nouveau-un-dialogue-avec-pyongyang_6748717_3210.html",
-          "citation_cle": "Le président américain a demandé de 'réduire substantiellement' les exercices.",
+          "angle": "Analyse de la portée symbolique de la déchéance pour un ancien dignitaire de l'État.",
+          "ton": "neutre",
+          "url": "https://www.lemonde.fr/international/article/2026/08/20/natalie-harp-l-assistante-fervente-qui-murmure-a-l-oreille-de-donald-trump-et-agite-tout-washington_6750475_3210.html",
+          "citation_cle": "L’ancien premier ministre perd aussi pour dix ans son titre de grand’croix.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Y aura-t-il un recours gracieux de l'intéressé auprès du Grand Chancelier ?"
+      ],
+      "sources": [
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/actualite-france/francois-fillon-suspendu-de-la-legion-d-honneur-pour-une-duree-de-10-ans-20260820",
+          "type": "institutionnel",
+          "groupe_media": null
+        },
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/08/20/natalie-harp-l-assistante-fervente-qui-murmure-a-l-oreille-de-donald-trump-et-agite-tout-washington_6750475_3210.html",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -167,26 +81,82 @@
           }
         },
         {
-          "source": "Al Jazeera",
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/politique/francois-fillon/condamne-dans-l-affaire-des-emplois-fictifs-de-son-epouse-francois-fillon-suspendu-de-la-legion-d-honneur-pour-dix-ans-30311031.php",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "premiere_apparition": "2026-08-20"
+    },
+    {
+      "titre": "Annonce du retour du Prince Harry et Meghan Markle au Royaume-Uni",
+      "slug": "retour-harry-meghan-royaume-uni",
+      "rubrique": "international",
+      "tldr": [
+        "Le couple prévoit de quitter les États-Unis fin août 2026.",
+        "Installation prévue dans une résidence privée non royale.",
+        "Les enfants Archie et Lilibet devraient être scolarisés en Grande-Bretagne."
+      ],
+      "resume": "Six ans après leur départ fracassant pour la Californie, le Prince Harry et Meghan Markle s'apprêtent à revenir vivre au Royaume-Uni. Selon plusieurs sources concordantes, le couple souhaite se rapprocher de la famille royale, après des années de tensions exacerbées par des interviews médiatisées. Ils conserveront leur statut de membres non-actifs de la famille royale et s'installeront dans une demeure privée, évitant ainsi les polémiques sur le financement public de leur sécurité. Ce retour intervient alors que le Prince Harry avait exprimé dès 2025 son désir de renouer avec ses racines (NYT World, The Guardian).",
+      "contexte_historique": "Le 'Megxit' en mars 2020 avait marqué une rupture sans précédent dans l'histoire moderne de la monarchie britannique, le couple renonçant à ses obligations royales pour une indépendance financière aux USA (Archives Citoyens.ai).",
+      "implications": [
+        "Possible réchauffement des relations diplomatiques au sein de la Maison Windsor.",
+        "Défis logistiques et sécuritaires majeurs pour la police métropolitaine de Londres."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-08-20",
+          "texte": "Confirmation par la presse britannique du déménagement imminent.",
+          "source": "The Guardian"
+        },
+        {
+          "date": "2025-05-15",
+          "texte": "Harry évoque son désir de retour lors d'une interview à la BBC.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2020-03-31",
+          "texte": "Fin officielle de leurs fonctions royales.",
+          "source": "Archives Citoyens.ai"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "The Guardian",
           "type": "etranger",
-          "angle": "Focus sur la réaction positive supposée de Kim Jong-un.",
+          "angle": "Focus sur la scolarisation des enfants et le choix d'une résidence privée.",
           "ton": "factuel",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/08-18-26-zambia-elections-sv?traffic_source=rss",
-          "citation_cle": "Trump says talking to North Korea’s Kim makes the south safer.",
+          "url": "https://www.theguardian.com/uk-news/2026/aug/19/prince-harry-and-meghan-moving-back-to-britain-this-month",
+          "citation_cle": "The Duke and Duchess of Sussex are planning to return to live in Britain, six years after their departure.",
           "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "source": "NYT World",
+          "type": "etranger",
+          "angle": "Analyse de la transition de 'non-working royals' dans le contexte britannique.",
+          "ton": "neutre",
+          "url": "https://www.nytimes.com/2026/08/19/world/europe/prince-harry-meghan-return-uk.html",
+          "citation_cle": "The couple will remain non-working royals, according to a person familiar with the decision.",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
           }
         },
         {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "Donald Trump affirme \"bien s'entendre\" avec Kim Jong-un et veut réduire les exercices militaires conjoints avec la Corée du Sud",
+          "angle": "Pourquoi le prince Harry et Meghan Markle vont revenir vivre au Royaume-Uni six ans après leur départ",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-donald-trump-affirme-bien-s-entendre-avec-kim-jong-un-et-veut-reduire-les-exercices-militaires-conjoints-avec-la-coree-du-sud_VN-202608180037.html",
-          "citation_cle": "Donald Trump a annoncé \"réduire considérablement\" la participation des États-Unis aux exercices militaires annuels avec ",
+          "url": "https://www.bfmtv.com/people/video-pourquoi-le-prince-harry-et-meghan-markle-vont-revenir-vivre-au-royaume-uni-six-ans-apres-leur-depart_VN-202608200033.html",
+          "citation_cle": "Le couple s'était installé aux États-Unis en mars 2020 avec leur fils, Archie, qui avait alors presque un an. En mai 202",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -196,173 +166,171 @@
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Les concessions réelles que Pyongyang est prêt à faire en échange de cette réduction.",
-        "L'impact sur le contingent de 28 500 soldats américains stationnés en Corée du Sud."
+        "Quelle sera la réaction officielle du Roi Charles III et du Prince William ?"
       ],
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/08/18/donald-trump-maltraite-la-coree-du-sud-et-envisage-a-nouveau-un-dialogue-avec-pyongyang_6748717_3210.html",
-          "type": "journal",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/aug/19/prince-harry-and-meghan-moving-back-to-britain-this-month",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/08/19/world/europe/prince-harry-meghan-return-uk.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
           }
         },
         {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-donald-trump-affirme-bien-s-entendre-avec-kim-jong-un-et-veut-reduire-les-exercices-militaires-conjoints-avec-la-coree-du-sud_VN-202608180037.html",
-          "type": "tv",
+          "url": "https://www.bfmtv.com/people/video-six-ans-apres-leur-depart-pour-les-etats-unis-le-prince-harry-et-son-epouse-meghan-vont-revenir-vivre-au-royaume-uni_VN-202608200032.html",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/les-manoeuvres-avec-les-etats-unis-ne-visent-pas-a-attaquer-la-coree-du-nord-affirme-seoul-20260818",
-          "type": "journal",
-          "groupe_media": null
-        },
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/societe/proces-des-reseaux-sociaux-que-risque-vraiment-meta-accuse-d-avoir-rendu-ses-plateformes-addictives-pour-les-mineurs-30292507.php",
-          "type": "mainstream"
         }
       ],
-      "premiere_apparition": "2026-08-17"
+      "premiere_apparition": "2026-08-19"
     },
     {
-      "titre": "Première sortie spatiale historique pour l'astronaute française Sophie Adenot",
-      "slug": "sophie-adenot-sortie-spatiale-iss",
-      "rubrique": "science",
+      "titre": "Crise de la dette américaine : le cap des 40 000 milliards franchi",
+      "slug": "dette-americaine-40-trillions",
+      "rubrique": "economie",
       "tldr": [
-        "Première sortie extravéhiculaire pour la Française ce mardi 18 août (BFM TV).",
-        "Mission de réparation du système de communication de l'ISS (franceinfo).",
-        "Adenot devient la première femme française à réaliser cet exploit (L'Obs)."
+        "La dette publique US dépasse les 40 000 milliards de dollars.",
+        "Accélération due aux investissements massifs dans l'IA et la défense.",
+        "Tensions sur les taux d'intérêt mondiaux."
       ],
-      "resume": "L'astronaute française Sophie Adenot doit marquer l'histoire de l'exploration spatiale française ce mardi en effectuant sa première sortie dans le vide depuis la Station spatiale internationale (ISS). Accompagnée de l'Américain Anil Menon, elle a pour mission de remplacer des composants défectueux du système de communication de la station. Cette opération, préparée depuis des mois au centre d'entraînement de la NASA, est décrite comme une 'chorégraphie' millimétrée où chaque geste a été répété en piscine. Adenot succède ainsi à Thomas Pesquet dans le cercle restreint des Français ayant travaillé hors de l'ISS (L'Obs, franceinfo).",
-      "contexte_historique": "Avant Sophie Adenot, seul un petit nombre de Français ont effectué des sorties extravéhiculaires, notamment Jean-Loup Chrétien (1988) et Thomas Pesquet (2017/2021). Elle est la première femme française à atteindre ce jalon (BFM TV).",
+      "resume": "Le Trésor américain a confirmé que la dette nationale a franchi le seuil symbolique des 40 000 milliards de dollars, une accélération plus rapide que les prévisions du début d'année. Ce creusement du déficit est alimenté par deux piliers : les subventions colossales pour le développement de l'intelligence artificielle et l'augmentation continue du budget de la défense. Cette situation provoque une instabilité sur le marché obligataire, avec une hausse des taux d'intérêt qui pourrait freiner la croissance mondiale. L'administration Trump est critiquée pour avoir sapé ses propres promesses de rigueur budgétaire par des réductions d'impôts massives (Le Monde, Courrier International).",
+      "contexte_historique": "La dette américaine a doublé en moins de dix ans, portée par les plans de relance post-COVID et une politique fiscale agressive. En 2024, elle s'élevait à environ 34 000 milliards (Archives Citoyens.ai).",
       "implications": [
-        "Renforcement de la position de la France au sein de l'Agence spatiale européenne (ESA).",
-        "Validation des protocoles d'entraînement pour la nouvelle génération d'astronautes européens."
+        "Risque accru de dégradation de la note souveraine des États-Unis par les agences de notation.",
+        "Augmentation du coût de l'emprunt pour les ménages et les entreprises à l'échelle globale."
       ],
       "chronologie": [
         {
-          "date": "2026-08-18",
-          "texte": "Début prévu de la sortie extravéhiculaire dans l'après-midi.",
-          "source": "franceinfo"
+          "date": "2026-08-20",
+          "texte": "Confirmation officielle du passage du seuil des 40 000 milliards.",
+          "source": "Courrier international"
         },
         {
-          "date": "2026-02-15",
-          "texte": "Arrivée de Sophie Adenot à bord de l'ISS.",
-          "source": "L'Obs"
+          "date": "2026-08-19",
+          "texte": "Le Trésor américain annonce une hausse des émissions de titres.",
+          "source": "Le Monde"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Analyse du lien entre investissements IA/Défense et instabilité financière.",
+          "ton": "alarmiste",
+          "url": "https://www.lemonde.fr/economie/article/2026/08/20/aux-etats-unis-la-demande-de-capitaux-pour-l-ia-et-la-defense-provoque-un-debut-de-crise-de-la-dette_6750441_3234.html",
+          "citation_cle": "Le déficit budgétaire américain et les investissements colossaux dans l’IA alimentent une hausse des taux.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Courrier international",
+          "type": "etranger",
+          "angle": "Critique de la contradiction entre les promesses de Trump et la réalité budgétaire.",
+          "ton": "critique",
+          "url": "https://www.courrierinternational.com/article/economie-la-dette-americaine-depasse-les-40-000-milliards-de-dollars-plus-rapidement-que-prevu_261363",
+          "citation_cle": "Les promesses de Donald Trump de rétablir l’ordre budgétaire ont été sapées par les réductions d’impôts.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "À quel moment la Fed sera-t-elle forcée d'intervenir pour stabiliser les marchés obligataires ?"
+      ],
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/economie/article/2026/08/20/aux-etats-unis-la-demande-de-capitaux-pour-l-ia-et-la-defense-provoque-un-debut-de-crise-de-la-dette_6750441_3234.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/economie-la-dette-americaine-depasse-les-40-000-milliards-de-dollars-plus-rapidement-que-prevu_261363",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-08-20"
+    }
+  ],
+  "sujets_refroidis": [
+    {
+      "titre": "Première sortie spatiale de Sophie Adenot",
+      "slug": "sophie-adenot-sortie-spatiale",
+      "rubrique": "science",
+      "resume": "L'astronaute française a terminé avec succès ses opérations extérieures sur l'ISS. Le sujet quitte le radar immédiat pour entrer dans la phase de debriefing technique.",
+      "chronologie": [
+        {
+          "date": "2026-08-18",
+          "texte": "Sortie spatiale historique de 6 heures.",
+          "source": "Archives"
         }
       ],
       "couvertures": [
         {
           "source": "franceinfo",
           "type": "mainstream",
-          "angle": "Suivi en direct et explications techniques sur les enjeux de la mission.",
-          "ton": "factuel",
-          "url": "https://www.franceinfo.fr/environnement/meteo/alertes-meteo-et-vigilances/plus-aucun-departement-n-est-en-vigilance-orange-canicule-les-temperatures-en-nette-baisse-a-partir-de-jeudi-selon-meteo-france_8151674.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "Sophie Adenot va sortir de l'ISS et sauter dans le vide spatial.",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "L'Obs",
-          "type": "mainstream",
-          "angle": "Portrait de l'astronaute et focus sur la précision de sa préparation.",
-          "ton": "engage",
-          "url": "https://www.nouvelobs.com/sciences/20260818.OBS117475/sophie-adenot-premiere-francaise-a-effectuer-une-sortie-dans-l-espace-elle-connait-le-moindre-geste-a-faire-jusqu-au-nombre-de-tours-d-ecrous.html",
-          "citation_cle": "Elle connaît le moindre geste à faire, jusqu’au nombre de tours d’écrous.",
-          "groupe_media": null
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Objectif, équipement... Tout savoir sur la sortie extra véhiculaire de Sophie Adenot prévue ce mardi",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/sciences/objectif-equipement-entrainement-tout-savoir-sur-la-sortie-extra-vehiculaire-de-sophie-adenot-prevue-ce-mardi_AN-202608180019.html",
-          "citation_cle": "Ce mardi 18 août, pour la première fois depuis qu'elle séjourne dans la Station spatiale internationale (ISS), l'astrona",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
+          "angle": "Célébration du succès technique et symbolique.",
+          "ton": "neutre",
+          "url": "https://www.franceinfo.fr",
+          "citation_cle": "Une réussite totale pour l'ESA."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "La durée exacte de la sortie, qui dépendra de la fluidité des réparations.",
-        "L'impact de cette mission sur son éventuelle sélection pour les futures missions lunaires Artemis."
+        "Détails sur les prochaines missions lunaires prévues pour 2028."
       ],
       "sources": [
         {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/environnement/meteo/alertes-meteo-et-vigilances/plus-aucun-departement-n-est-en-vigilance-orange-canicule-les-temperatures-en-nette-baisse-a-partir-de-jeudi-selon-meteo-france_8151674.html#xtor=RSS-3-[lestitres]",
-          "type": "journal",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/sciences/20260818.OBS117475/sophie-adenot-premiere-francaise-a-effectuer-une-sortie-dans-l-espace-elle-connait-le-moindre-geste-a-faire-jusqu-au-nombre-de-tours-d-ecrous.html",
-          "type": "journal",
-          "groupe_media": null
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/sciences/video-sophie-adenot-s-apprete-a-sortir-de-la-station-spatiale-internationale-et-a-entrer-un-peu-plus-dans-l-histoire-de-l-astronomie-francaise_VN-202608180027.html",
-          "type": "tv",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
+          "url": "https://www.franceinfo.fr",
+          "type": "mainstream"
         }
       ],
-      "premiere_apparition": "2026-08-18"
-    }
-  ],
-  "sujets_refroidis": [
-    {
-      "titre": "Tensions Iran-Qatar sur le sort de pilotes de chasse",
-      "slug": "tensions-iran-qatar-pilotes",
-      "rubrique": "international",
-      "resume": "Le sujet est entré dans une phase de blocage diplomatique après l'expiration du délai de négociation de 60 jours.",
-      "chronologie": [
-        {
-          "date": "2026-08-18",
-          "texte": "Téhéran juge caduc le délai de négociation prévu par le protocole d'accord.",
-          "source": "France 24 FR"
-        }
-      ],
-      "couvertures": [],
-      "ce_quon_ne_sait_pas": [
-        "L'avenir juridique des pilotes détenus en l'absence de nouvel accord."
-      ],
-      "sources": [],
-      "derniere_mise_a_jour": "2026-08-18",
-      "statut": "Sujet en attente d'une éventuelle escalade militaire ou d'une médiation tierce."
+      "derniere_mise_a_jour": "2026-08-20",
+      "statut": "Mission accomplie, retour aux opérations de routine."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 606,
+    "nb_articles_analyses": 661,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

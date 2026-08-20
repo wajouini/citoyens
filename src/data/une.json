@@ -1,119 +1,82 @@
 {
   "sujet_du_jour": {
-    "titre": "Gérald Darmanin renonce à 2027 et se rallie à Édouard Philippe",
-    "rubrique": "politique",
-    "pourquoi_important": "Ce ralliement précoce verrouille une partie du camp macroniste derrière l'ancien Premier ministre et écarte un rival de poids pour la succession d'Emmanuel Macron.",
+    "titre": "Canicules 2026 : un bilan provisoire de 7 300 morts en France",
+    "rubrique": "societe",
+    "pourquoi_important": "Ce bilan illustre l'impact sanitaire direct et massif du dérèglement climatique sur la population française.",
     "faits": [
-      "Gérald Darmanin a annoncé dans un entretien à La Voix du Nord qu'il ne serait pas candidat à l'élection présidentielle de 2027.",
-      "Le ministre de la Justice apporte officiellement son soutien à Édouard Philippe, appelant son camp à l'unité pour ne pas « ajouter de la division ».",
-      "Cette décision met fin à des mois de suspense durant lesquels Darmanin avait laissé planer le doute sur ses ambitions nationales.",
-      "Le soutien est accueilli par les médias comme un tournant majeur dans la structuration de la droite et du centre pour l'après-Macron."
+      "7 300 décès en excès ont été enregistrés depuis mai 2026, selon Santé publique France (France 24, Sciences et Avenir).",
+      "La deuxième vague de juillet (du 3 au 22) a causé à elle seule 1 243 morts supplémentaires (La Croix, L'Humanité).",
+      "La France a connu 52 jours de vagues de chaleur depuis la mi-juin, un record historique alors que l'été n'est pas fini (Reporterre).",
+      "Le signal de surmortalité est particulièrement fort pour les décès à domicile et chez les plus de 75 ans (franceinfo)."
     ],
-    "contexte": "À moins d'un an des prochaines échéances, la majorité présidentielle cherche à se réorganiser. Gérald Darmanin, figure de l'aile droite du gouvernement, choisit de s'effacer au profit d'Édouard Philippe, qui caracole en tête des sondages de popularité. Ce mouvement stratégique vise à prévenir l'émiettement des voix face à une opposition de droite et d'extrême droite de plus en plus structurée.",
+    "contexte": "L'été 2026 s'inscrit comme une année de rupture climatique en France. Avec trois vagues de chaleur successives et une intensité qui ne faiblit pas en août, les services de santé font face à une crise structurelle. Si franceinfo précise que l'imputation directe à la chaleur doit encore être affinée, la corrélation avec les pics de température est sans précédent, surpassant la durée des étés 1983 et 2003.",
     "sources": [
       {
-        "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/politique/article/2026/08/17/presidentielle-gerald-darmanin-ne-sera-pas-candidat-et-apporte-son-soutien-a-edouard-philippe_6748404_823448.html",
+        "nom": "France 24 FR",
+        "url": "https://www.france24.com/fr/france/20260819-la-canicule-en-france-a-fait-au-moins-7-300-morts-selon-un-bilan-encore-provisoire",
         "type": "mainstream",
         "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
         }
       },
       {
-        "nom": "Libération",
-        "url": "https://www.liberation.fr/politique/jai-decide-de-ne-pas-rajouter-de-la-division-darmanin-annonce-soutenir-philippe-pour-la-presidentielle-20260817_BBQ66GY6K5GMDDDXNA2MA6M6VU/",
-        "type": "mainstream",
+        "nom": "Reporterre",
+        "url": "https://reporterre.net/Canicules-7-300-morts-en-exces-selon-Sante-publique-France",
+        "type": "investigation",
         "groupe_media": {
-          "nom": "Libération",
-          "proprietaire": "Fonds de dotation",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
+          "nom": "Reporterre",
+          "proprietaire": "Association La Pile",
+          "type_proprietaire": "independant",
+          "orientation": "gauche"
         }
       },
       {
-        "nom": "Le Figaro",
-        "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielles-2027-gerald-darmanin-apporte-son-soutien-a-edouard-philippe-20260817",
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/pendant-la-canicule-du-debut-du-mois-de-juillet-1-243-deces-en-exces-ont-ete-recenses-annonce-sante-publique-france_8153282.html#xtor=RSS-3-[lestitres]",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
+      },
+      {
+        "nom": "Sciences et Avenir",
+        "url": "https://www.sciencesetavenir.fr/nature-environnement/climat/canicule-en-france-deja-7-300-morts-en-exces-recensees-cette-annee-selon-un-bilan-provisoire_194347?xtor=RSS-15",
         "type": "mainstream",
         "groupe_media": null
       },
       {
+        "nom": "France 24 FR",
+        "url": "https://www.france24.com/fr/%C3%A9co-tech/20260820-dette-americaine-depasse-pour-premiere-fois-40-000-milliards-dollars-economie-inflation-finance-etats-unis-emprunts",
+        "type": "mainstream"
+      },
+      {
+        "nom": "La Croix",
+        "url": "https://www.la-croix.com/planete/zones-humides-et-monde-agricole-une-impossible-reconciliation-20260819",
+        "type": "mainstream"
+      },
+      {
         "nom": "L'Humanité",
-        "url": "https://www.humanite.fr/politique/edouard-philippe/presidentielle-2027-gerald-darmanin-renonce-a-une-candidature-et-annonce-son-a-edouard-philippe",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
-          "orientation": "gauche"
-        }
+        "url": "https://www.humanite.fr/en-debat/afrique-du-sud/jacqueline-derens-la-reconciliation-en-afrique-du-sud-a-quel-prix",
+        "type": "mainstream"
       }
     ],
     "lien": null
   },
   "france": [
     {
-      "titre": "Première sortie spatiale historique pour Sophie Adenot",
-      "rubrique": "science",
-      "resume": "L'astronaute française de l'ESA doit effectuer ce mardi 18 août sa première sortie extravéhiculaire (EVA) depuis l'ISS pour remplacer une antenne de communication. Accompagnée de l'Américain Anil Menon, elle devient la première femme française à réaliser cet exploit technique de 6h30 dans le vide spatial.",
+      "titre": "Mort de François Patriat, pilier du macronisme",
+      "rubrique": "politique",
+      "resume": "Le président du groupe RDPI au Sénat est décédé à 83 ans des suites d'un accident de vélo. Ancien ministre socialiste de Lionel Jospin, il fut l'un des tout premiers soutiens d'Emmanuel Macron en 2016 (RFI, La Croix, L'Obs).",
       "sources": [
         {
-          "nom": "NASA",
-          "url": "https://www.nasa.gov/news-release/nasa-to-cover-three-us-spacewalks-host-preview-news-conference/",
-          "type": "institutionnel",
-          "groupe_media": null
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/sciences/espace/sophie-adenot/un-grand-pas-pour-sophie-adenot-ce-que-l-on-sait-de-la-sortie-dans-l-espace-de-l-astronaute-francaise_8145851.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/sciences/objectif-equipement-entrainement-tout-savoir-sur-la-sortie-extra-vehiculaire-de-sophie-adenot-prevue-ce-mardi_AN-202608180019.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Cyberattaque massive : 600 000 données fiscales vendues",
-      "rubrique": "societe",
-      "resume": "Le groupe de pirates ZeroBytes affirme avoir vendu pour quelques milliers d'euros les données fiscales dérobées à la Direction générale des finances publiques. Le vol concerne plus de 678 000 particuliers et professionnels, faisant craindre une vague d'escroqueries ciblées malgré une réunion de crise interministérielle.",
-      "sources": [],
-      "lien": null
-    },
-    {
-      "titre": "Strasbourg : des drones de prison bloquent les hélicoptères du SAMU",
-      "rubrique": "societe",
-      "resume": "Les atterrissages d'urgence nocturnes à l'hôpital de Hautepierre sont suspendus en raison de livraisons illégales par drones vers la maison d'arrêt voisine. Ces vols de nuit incessants menacent la sécurité des hélicoptères de la sécurité civile transportant des blessés graves.",
-      "sources": [],
-      "lien": null
-    }
-  ],
-  "monde": [
-    {
-      "titre": "Trump réduit les exercices militaires avec Séoul",
-      "pays": "Corée du Sud",
-      "resume": "Le président américain a annoncé une réduction drastique de la participation américaine aux manœuvres 'Ulchi Freedom Shield', jugeant ces exercices 'hostiles' envers Pyongyang. Cette décision, motivée par sa relation avec Kim Jong-un, fâche l'opposition sud-coréenne mais conforte le gouvernement actuel partisan du dialogue.",
-      "sources": [
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260817-cor%C3%A9e-du-sud-trump-r%C3%A9duit-la-participation-am%C3%A9ricaine-aux-exercices-militaires",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20260819-france-fran%C3%A7ois-patriat-patron-des-macronistes-au-s%C3%A9nat-est-mort",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -123,9 +86,28 @@
           }
         },
         {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/revirement-pourquoi-trump-ne-veut-il-plus-des-exercices-militaires-conjoints-avec-la-coree-du-sud_260406",
-          "type": "etranger",
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/politique/20260819.OBS117509/mort-de-francois-patriat-senateur-et-proche-parmi-les-proches-d-emmanuel-macron.html",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/planete/zones-humides-et-monde-agricole-une-impossible-reconciliation-20260819",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Légion d'honneur : François Fillon suspendu 10 ans",
+      "rubrique": "politique",
+      "resume": "L'ancien Premier ministre perd ses prérogatives de Grand Officier de la Légion d’honneur et de Grand'Croix de l’ordre national du Mérite suite à sa condamnation définitive dans l'affaire des emplois fictifs de son épouse (Le Monde, Sud-Ouest, Le Figaro).",
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/politique/article/2026/08/20/francois-fillon-suspendu-de-la-legion-d-honneur-apres-sa-condamnation-pour-emplois-fictifs_6750236_823448.html",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -134,8 +116,27 @@
           }
         },
         {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/politique/francois-fillon/condamne-dans-l-affaire-des-emplois-fictifs-de-son-epouse-francois-fillon-suspendu-de-la-legion-d-honneur-pour-dix-ans-30311031.php",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/actualite-france/francois-fillon-suspendu-de-la-legion-d-honneur-pour-une-duree-de-10-ans-20260820",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Affaire Le Scouarnec : 48 nouvelles victimes identifiées",
+      "rubrique": "societe",
+      "resume": "Le parquet de Lorient a ouvert une nouvelle information judiciaire pour 10 viols et 40 agressions sexuelles contre l'ex-chirurgien, déjà condamné en 2025 pour des faits sur près de 300 mineurs (Libération, 20 Minutes, franceinfo).",
+      "sources": [
+        {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/international/amerique/trump-annonce-reduire-considerablement-ses-exercices-militaires-avec-la-coree-du-sud-sur-fond-de-rapprochement-avec-pyongyang-20260817_MTUMCZAY2BBH7LBRY4NSZPY33Y/",
+          "url": "https://www.liberation.fr/societe/police-justice/affaire-le-scouarnec-information-judiciaire-ouverte-pour-10-nouveaux-viols-et-40-agressions-sexuelles-20260819_XTFYILYPWZBF3LXEI2HMFPS4ZM/",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Libération",
@@ -143,33 +144,92 @@
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/affaire-le-scouarnec/une-information-judiciaire-ouverte-contre-l-ex-chirurgien-joel-le-scouarnec-pour-10-nouveaux-viols-et-40-agressions-sexuelles_8153966.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/monde/etats-unis/4239989-20260820-guerre-moyen-orient-tout-pays-aidera-iran-subira-terribles-repercussions-economiques-menace-trump?at_medium=display&at_campaign=149",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    }
+  ],
+  "monde": [
+    {
+      "titre": "Drame minier en Centrafrique : au moins 100 morts",
+      "pays": "Centrafrique",
+      "resume": "L'effondrement d'une mine d'or artisanale à Zamboyé, près de la frontière camerounaise, a enseveli des dizaines d'orpailleurs. Le secteur, largement informel, échappe au contrôle de l'État (France 24 FR, BFM TV, L'Humanité).",
+      "sources": [
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/afrique/20260819-centrafrique-au-moins-100-morts-apr%C3%A8s-l-effondrement-d-une-mine-d-or-dans-l-ouest-du-pays",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/monde/centrafrique/le-sol-sest-completement-ecroule-et-a-enseveli-des-gens-plusieurs-dizaines-de-morts-dans-leffondrement-dune-mine-dor-artisanale-en-ce",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
         }
       ],
       "lien": null
     },
     {
-      "titre": "Mali : lourdes peines pour des voix critiques de la junte",
-      "pays": "Mali",
-      "resume": "Le chroniqueur Ras Bath et l'influenceuse Rokia Doumbia ont été condamnés à dix ans de prison (dont trois avec sursis) pour 'atteinte au crédit de l'État'. Ils étaient détenus depuis 2023 après avoir dénoncé les difficultés économiques de la population malienne.",
-      "sources": [],
+      "titre": "Ukraine : Yevhenii Khmara nouveau ministre de la Défense",
+      "pays": "Ukraine",
+      "resume": "Le Parlement a approuvé sa nomination pour succéder à Mykhaïlo Fedorov. Ce remaniement intervient en pleine crise de gouvernance alors que Kiev multiplie les frappes de drones sur le sol russe (RFI, France 24 FR).",
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/afrique/20260820-mali-human-rights-watch-accuse-les-paramilitaires-d-africa-corps-d-avoir-tu%C3%A9-neuf-civils-dans-la-r%C3%A9gion-de-mopti",
+          "type": "mainstream"
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/%C3%A9co-tech/20260820-dette-americaine-depasse-pour-premiere-fois-40-000-milliards-dollars-economie-inflation-finance-etats-unis-emprunts",
+          "type": "mainstream"
+        }
+      ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Surprofits pétroliers en Europe en 2026",
-    "rubrique": "economie",
-    "contexte": "L'ONG Transport & Environment révèle que les géants pétroliers (Shell, TotalEnergies, etc. ont réalisé des profits records au premier semestre 2026, portés par les marges de raffinage alors que les prix à la pompe restent élevés pour les consommateurs.",
+    "sujet": "Records de vagues de chaleur en France métropolitaine",
+    "rubrique": "societe",
+    "contexte": "Météo-France a confirmé que l'été 2026 a déjà cumulé 52 jours de vagues de chaleur, pulvérisant le record de 2022. La vague actuelle est la deuxième plus longue de l'histoire du pays.",
     "couvertures": [
       {
         "source": "Reporterre",
         "type": "investigation",
-        "angle": "Dénonciation d'un doublement des profits lié au contexte de guerre et aux énergies fossiles.",
-        "ton": "critique",
-        "url": "https://reporterre.net/Avec-la-guerre-les-geants-du-petrole-ont-double-leurs-profits-en-Europe-en-2026",
-        "citation_cle": "Ces firmes pétrolières ont plus que doublé leurs profits en Europe au premier semestre 2026 par rapport à 2025.",
-        "auteur": "Rédaction Reporterre",
-        "proprietaire_contexte": "Association indépendante",
-        "orientation_source": "écologiste",
+        "angle": "Focus sur l'accélération climatique et l'inscription de 2026 comme année record de chaleur.",
+        "ton": "engage",
+        "url": "https://reporterre.net/Deja-52-jours-de-vagues-de-chaleur-cet-ete-un-record-en-France",
+        "citation_cle": "Elle gravit encore le podium.",
+        "auteur": null,
+        "proprietaire_contexte": "Association La Pile (Indépendant)",
+        "orientation_source": "Gauche, écologie",
         "groupe_media": {
           "nom": "Reporterre",
           "proprietaire": "Association La Pile",
@@ -178,144 +238,181 @@
         }
       },
       {
-        "source": "BFM Business",
+        "source": "L'Humanité",
         "type": "mainstream",
-        "angle": "Focus sur les chiffres financiers et la demande de rétablissement d'une taxe permanente par l'UE.",
-        "ton": "factuel",
-        "url": "https://www.bfmtv.com/economie/entreprises/energie/les-majors-petrolieres-ont-deja-realise-5-55-milliards-d-euros-de-surprofits-en-europe-en-2026-une-ong-reclame-le-retour-permanent-de-la-taxe-mise-en-place-par-l-ue-fin-2022-lors-de-la-crise-energetique_AV-202608170342.html",
-        "citation_cle": "L'ONG Transport & Environment pointe la responsabilité des marges de raffinage.",
-        "auteur": "Rédaction BFM",
-        "proprietaire_contexte": "Rodolphe Saadé (CMA CGM)",
-        "orientation_source": "pro-business",
+        "angle": "Analyse de la succession rapide des épisodes de chaleur (juin, juillet, août) et comparaison historique avec 2003.",
+        "ton": "alarmiste",
+        "url": "https://www.humanite.fr/environnement/canicule/apres-52-jours-de-vagues-de-chaleurs-consecutifs-la-france-metropolitaine-etablit-un-inquietant-record",
+        "citation_cle": "La France métropolitaine établit un inquiétant record.",
+        "auteur": "Stéphane Guérard",
+        "proprietaire_contexte": "Coopérative de lecteurs et salariés",
+        "orientation_source": "Gauche",
         "groupe_media": {
-          "nom": "CMA CGM",
-          "proprietaire": "Rodolphe Saadé",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
+        }
+      },
+      {
+        "source": "franceinfo",
+        "type": "mainstream",
+        "angle": "Traitement factuel basé sur l'Indicateur Thermique National (ITN) et la durée de 22 jours de la vague actuelle.",
+        "ton": "factuel",
+        "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/la-vague-de-chaleur-en-cours-devient-la-deuxieme-plus-longue-jamais-enregistree-selon-meteo-france_8153369.html#xtor=RSS-3-[lestitres]",
+        "citation_cle": "La vague de chaleur en cours devient la deuxième plus longue jamais enregistrée.",
+        "auteur": null,
+        "proprietaire_contexte": "État français",
+        "orientation_source": "Centre",
+        "groupe_media": {
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
         }
       }
     ],
-    "analyse_coherence": "L'analyse des couvertures révèle une convergence factuelle sur l'ampleur des profits, mais une divergence notable sur l'interprétation politique. Reporterre adopte une grille de lecture de justice sociale et écologique, liant directement ces profits à l'opportunisme de guerre et à la crise climatique. À l'inverse, BFM Business, bien que rapportant les chiffres de l'ONG, maintient un ton plus neutre, se concentrant sur le mécanisme de raffinage et la réponse institutionnelle (taxe UE). On observe ici un 'double standard' de traitement : alors que les hausses de salaires sont souvent traitées sous l'angle du risque inflationniste par les médias mainstream, l'explosion des marges bénéficiaires des majors pétrolières est présentée comme une donnée comptable froide, sans remise en question fondamentale du modèle économique qui permet une telle captation de richesse en période de crise énergétique pour les citoyens.",
+    "analyse_coherence": "La couverture médiatique de ce record est unanime sur les chiffres, mais diverge dans la mise en perspective. Les médias de service public comme franceinfo se cantonnent à une analyse météorologique stricte, centrée sur l'Indicateur Thermique National. À l'inverse, des médias comme Reporterre ou L'Humanité lient immédiatement ces données à l'urgence climatique globale. \n\nOn observe un 'double standard' de traitement par rapport aux crises économiques : alors que 52 jours d'arrêt de l'économie provoqueraient des éditions spéciales continues, la répétition des records de chaleur est traitée comme une 'nouvelle normalité' statistique. Le test d'universalité révèle que si une telle mortalité (7 300 morts) était due à une menace sécuritaire ou terroriste, l'appareil d'État et les médias mainstream réclameraient des mesures d'exception. Ici, le traitement reste principalement informatif et préventif (conseils d'hydratation), sans remettre en cause les structures économiques responsables des émissions de gaz à effet de serre.",
     "biais_detectes": [
-      "Biais pro-business (BFM)",
-      "Biais d'engagement écologique (Reporterre)",
-      "Normalisation des profits exceptionnels dans la presse dominante"
+      "Normalisation de la crise climatique",
+      "Traitement technique occultant les causes politiques"
     ],
-    "ce_quil_faut_retenir": "Les majors pétrolières ont généré entre 5,5 et 7,5 milliards d'euros de surprofits en Europe début 2026. Le débat porte désormais sur le retour d'une taxe exceptionnelle permanente pour financer la transition ou compenser la perte de pouvoir d'achat."
+    "ce_quil_faut_retenir": "L'été 2026 n'est pas une anomalie mais une tendance lourde. La multiplication des jours de vague de chaleur (52 contre 22 en 2003) montre que l'adaptation actuelle est insuffisante face à la surmortalité."
   },
   "regard_etranger": [
     {
-      "source": "NYT World",
+      "source": "The New York Times (via Courrier International)",
       "pays": "États-Unis",
-      "titre": "Le Premier ministre britannique piégé par un faux compte Trump",
-      "titre_original": "Andy Burnham, UK Prime Minister, Exchanged Texts With Someone Posing as Trump’s Chief of Staff",
-      "angle": "Le journal souligne la vulnérabilité diplomatique et le manque de sécurité numérique du nouveau chef de gouvernement britannique.",
-      "url": "https://www.nytimes.com/2026/08/17/world/europe/andy-burnham-prime-minister-uk-fake-texts-trump.html",
-      "groupe_media": {
-        "nom": "The New York Times Company",
-        "proprietaire": "Famille Ochs-Sulzberger",
-        "type_proprietaire": "famille",
-        "orientation": "centre"
-      }
+      "titre": "Qui est Natalie Harp, l’assistante de Trump dont le Tout-Washington fait des gorges chaudes ?",
+      "titre_original": "Natalie Harp, the assistant who whispers in Trump's ear",
+      "angle": "Portrait d'une collaboratrice ultra-dévouée de 35 ans qui gère les réseaux sociaux et l'accès à l'information du président.",
+      "url": "https://www.courrierinternational.com/article/etats-unis-qui-est-natalie-harp-l-assistante-de-trump-dont-le-tout-washington-fait-des-gorges-chaudes_261101",
+      "groupe_media": null
     },
     {
-      "source": "France 24 EN",
-      "pays": "France/International",
-      "titre": "La France lance sa rentrée littéraire en pleine crise de l'édition",
-      "titre_original": "France enters literary season amid publishing industry crisis",
-      "angle": "Regard sur l'exception culturelle française de la rentrée littéraire, contrastée par les difficultés économiques croissantes du secteur.",
-      "url": "https://www.france24.com/en/france-enters-literary-season-amid-publishing-industry-crisis",
+      "source": "BBC News",
+      "pays": "Royaume-Uni",
+      "titre": "La Corée du Sud écourte ses exercices militaires avec les USA suite à une demande de Washington",
+      "titre_original": "South Korea shortens war games with US, citing Washington request",
+      "angle": "Analyse d'un revers diplomatique pour Séoul, Donald Trump ayant jugé ces manœuvres 'hostiles' envers Kim Jong Un.",
+      "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss",
       "groupe_media": {
-        "nom": "France Médias Monde",
-        "proprietaire": "État français",
+        "nom": "BBC",
+        "proprietaire": "État britannique",
         "type_proprietaire": "etat",
         "orientation": "centre"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "35 %",
-    "contexte": "Hausse du coût de la vie étudiante en France depuis 2017 selon l'UNEF, avec un reste à charge moyen s'élevant désormais à 1 300 euros par mois.",
-    "source": "L'Humanité",
-    "source_url": "https://www.humanite.fr/societe/economie/le-cout-de-la-vie-etudiante-a-augmente-de-plus-de-35-sous-le-macronisme"
+    "valeur": "7 300",
+    "contexte": "Nombre de décès en excès en France liés aux canicules de l'été 2026 au 19 août.",
+    "source": "Santé publique France",
+    "source_url": "https://www.france24.com/fr/france/20260819-la-canicule-en-france-a-fait-au-moins-7-300-morts-selon-un-bilan-encore-provisoire"
   },
   "a_surveiller": [
     {
-      "date": "2026-08-18",
-      "evenement": "Fin du délai de négociation de 60 jours entre les États-Unis et l'Iran sur le nucléaire",
+      "date": "2026-08-21",
+      "evenement": "Fin anticipée des exercices militaires Ulchi Freedom Shield en Corée du Sud",
       "type": "echeance",
-      "lien": "https://www.rfi.fr/fr/moyen-orient/20260817-%C3%A9tats-unis-iran-le-protocole-d-accord-de-60-jours-a-officiellement-pris-fin"
+      "lien": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "date": "2026-10-27",
-      "evenement": "Élections législatives en Israël, pesant sur les négociations du plan de paix à Gaza",
-      "type": "vote",
-      "lien": "https://www.la-croix.com/international/gaza-washington-tente-de-reanimer-le-plan-trump-avec-son-emissaire-jared-kushner-20260817"
+      "date": "2026-08-21",
+      "evenement": "Vigilance orange aux orages en Corse",
+      "type": "autre",
+      "lien": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/orages/l-ardeche-la-drome-et-l-isere-places-en-vigilance-orange-aux-orages-jeudi-apres-midi-la-corse-en-alerte-vendredi-matin_8154413.html#xtor=RSS-3-[lestitres]"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Sainte-Soline : l'évaporation totale des stocks face aux canicules",
-      "rubrique": "science",
-      "resume": "La mégabassine de Sainte-Soline a vu ses réserves intégralement s'évaporer durant l'été 2026. Ce signal technique confirme les alertes scientifiques sur l'inefficacité des retenues de substitution à ciel ouvert lors de sécheresses intenses.",
+      "titre": "Info.gouv.fr : vos données personnelles partent vers le privé",
+      "rubrique": "tech",
+      "resume": "Le site officiel du gouvernement français 'monétise' indirectement les visites en laissant fuiter des données vers des trackers privés et des data brokers (Reflets.info).",
       "sources": [
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Sainte-Soline-sechee-par-les-canicules-prouve-la-fragilite-du-systeme-des-megabassines-La",
+          "nom": "Reflets.info",
+          "url": "https://reflets.info/articles/info-gouv-fr-attention-vos-donnees-fuitent-etonnant-non-non",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Le débat se déplace de l'opposition politique vers la preuve physique de l'obsolescence technique de ces ouvrages face au dérèglement climatique."
+      "pourquoi_signal": "Sujet technique et politique ignoré par la presse institutionnelle car il questionne l'éthique numérique de l'État."
     },
     {
-      "titre": "7 000 deepfakes pédocriminels générés par l'IA Grok",
-      "rubrique": "tech",
-      "resume": "Une plainte fédérale aux USA révèle qu'un utilisateur a pu générer 7 000 images et vidéos de CSAM (contenu pédocriminel) à partir d'une seule photo d'enfant via l'outil de SpaceXAI.",
+      "titre": "Le Rhin asséché paralyse l'économie fluviale",
+      "rubrique": "economie",
+      "resume": "Le bas niveau du fleuve force les entreprises à se reporter sur le fret ferroviaire et routier, plus coûteux et émetteur, enrayant la logistique européenne (Rue89 Strasbourg).",
       "sources": [
         {
-          "nom": "Next",
-          "url": "https://next.ink/251878/spacexai-accusee-de-7-000-contenus-pedocriminels-dune-mineure-generes-pour-son-beau-pere/",
+          "nom": "Rue89 Strasbourg",
+          "url": "https://www.rue89strasbourg.com/rhin-asseche-economie-enrayee-394938",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce cas illustre l'échec total des garde-fous des IA génératives commerciales et le basculement vers une production de masse de contenus criminels."
+      "pourquoi_signal": "L'impact économique local de la sécheresse sur les voies navigables est souvent occulté par les bilans météo nationaux."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Le plan de paix Trump pour Gaza dans l'impasse",
+      "titre": "Affaire Hind Rajab : Israël reconnaît enfin sa responsabilité",
       "rubrique": "international",
-      "resume": "Jared Kushner a rencontré le Hamas et Benyamin Netanyahu pour relancer une feuille de route en 20 points, mais Israël refuse tout engagement ferme sans désarmement préalable total de Gaza.",
+      "resume": "Après deux ans de dénégations, l'armée israélienne admet que ses troupes ont tiré sur la voiture de la fillette de 5 ans à Gaza en 2024 (RFI, Le Monde).",
       "axes_concernes": [
         "droit_international",
-        "justice_sociale"
+        "droits_humains"
       ],
-      "analyse": "Ce plan, piloté par un 'Board of Peace' privé, contourne largement les résolutions de l'ONU et le droit international. Il conditionne l'aide humanitaire et la reconstruction à une démilitarisation totale supervisée par un général américain, sans garantie de souveraineté pour les Palestiniens. Cette approche 'business-first' ignore les racines coloniales du conflit et risque de geler une situation d'apartheid sous couvert de stabilisation économique.",
+      "analyse": "Cette reconnaissance tardive souligne le 'double standard' de la justice militaire en zone de conflit. Pendant deux ans, la version officielle a nié les faits malgré les preuves du Croissant-Rouge. L'ouverture d'une enquête criminelle aujourd'hui ne doit pas faire oublier l'impunité initiale. Le droit international exige que la mort de civils, surtout d'enfants, soit traitée avec la même célérité partout dans le monde.",
       "sources": [
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/moyen-orient/20260817-gaza-kushner-rencontre-netanyahu-pour-tenter-de-sortir-le-plan-trump-de-l-impasse",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/moyen-orient/20260819-l-arm%C3%A9e-isra%C3%A9lienne-reconna%C3%AEt-avoir-tir%C3%A9-sur-la-voiture-de-hind-rajab-tu%C3%A9e-%C3%A0-cinq-ans-%C3%A0-gaza",
           "type": "mainstream"
+        },
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/08/19/hind-rajab-l-armee-israelienne-reconnait-avoir-tire-sur-la-voiture-ou-se-trouvait-la-fillette-de-5-ans-tuee-avec-sa-famille-a-gaza-en-2024_6749867_3211.html",
+          "type": "mainstream"
+        }
+      ]
+    },
+    {
+      "titre": "Extradition de Gino : la justice française cède à l'Allemagne",
+      "rubrique": "politique",
+      "resume": "La cour d'appel de Paris ordonne la remise du militant antifasciste Gino à l'Allemagne pour des violences présumées contre des néonazis en Hongrie (L'Humanité, Mediapart).",
+      "axes_concernes": [
+        "antifascisme",
+        "droits_humains"
+      ],
+      "analyse": "Le cas de Rexhino 'Gino' Abazaj pose la question de la coopération judiciaire européenne face à la montée de l'extrême droite. Alors que la France avait refusé l'extradition vers la Hongrie d'Orbán pour risque de traitements inhumains, elle accepte de passer par l'Allemagne. Cette décision fragilise la protection des militants luttant contre les mouvements néonazis en Europe.",
+      "sources": [
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/monde/allemagne/la-justice-francaise-ordonne-la-remise-du-militant-antifasciste-gino-abazaj-a-lallemagne",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/international/190826/la-justice-francaise-ordonne-la-remise-l-allemagne-du-militant-antifasciste-gino",
+          "type": "investigation"
         }
       ]
     }
   ],
-  "date": "2026-08-18",
-  "genere_a": "2026-08-18T07:26:27.088Z",
+  "date": "2026-08-20",
+  "genere_a": "2026-08-20T05:02:44.921Z",
   "meta": {
-    "nb_articles_analyses": 606,
-    "nb_topics": 169,
-    "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 46,
-    "sources_francaises": 404,
-    "sources_etrangeres": 202,
+    "nb_articles_analyses": 661,
+    "nb_topics": 186,
+    "nb_topics_selectionnes": 16,
+    "nb_articles_dans_selection": 52,
+    "sources_francaises": 427,
+    "sources_etrangeres": 234,
     "rubriques_couvertes": [
-      "politique",
-      "science",
       "societe",
+      "politique",
       "international"
     ],
-    "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
-    "version_pipeline": "4.1.0-gpt-search"
+    "modele": "gemini/gemini-3-flash-preview",
+    "version_pipeline": "4.0.0"
   }
 }
