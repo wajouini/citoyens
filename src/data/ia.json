@@ -1,42 +1,16 @@
 {
-  "date": "2026-08-20",
-  "genere_a": "2026-08-20T06:02:41.451Z",
+  "date": "2026-08-24",
+  "genere_a": "2026-08-24T05:57:01.510Z",
   "faits_ia": [
     {
-      "titre": "OpenAI déploie « ChatGPT for Teens » et prépare l'arrivée de la publicité",
-      "sous_section": "annonces",
-      "resume": "OpenAI lance une version spécifique pour les adolescents, activée automatiquement pour les mineurs identifiés, afin de mieux encadrer leur usage. Parallèlement, l'entreprise prévoit d'introduire des publicités dans la version gratuite et l'offre « Go » dans 31 pays européens, dont la France, dès la semaine prochaine.",
-      "pourquoi_ca_compte": "Cela marque un tournant commercial majeur pour OpenAI qui cherche la rentabilité, tout en tentant de répondre aux critiques sur la protection des mineurs face aux risques de l'IA.",
-      "sources": [
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/intelligence-artificielle-openai-deploie-une-version-pour-ados-de-chatgpt-censee-en-raisonner-l-usage-20260819",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Next",
-          "url": "https://next.ink/brief-article/openai-va-ouvrir-la-publicite-dans-chatgpt-en-france-et-en-europe/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Google Gemini lance un hub dédié aux étudiants pour la rentrée",
-      "sous_section": "annonces",
-      "resume": "Google intègre de nouveaux outils d'étude dans Search et Gemini, incluant un « hub étudiant » pour organiser des notes de recherche, créer des flashcards et générer des quiz d'entraînement. L'objectif est de positionner Gemini comme l'assistant académique de référence face à la concurrence.",
-      "pourquoi_ca_compte": "L'intégration massive de l'IA dans les méthodes d'apprentissage soulève des questions sur l'autonomie cognitive des étudiants et la dépendance aux outils de la Big Tech dès l'école.",
+      "titre": "Amende record de 825 M€ contre Uber pour licenciements algorithmiques",
+      "sous_section": "regulation",
+      "resume": "L'Autorité néerlandaise de protection des données a infligé une amende de 825 millions d'euros à Uber pour avoir utilisé des systèmes automatisés afin de suspendre ou déconnecter des chauffeurs sans intervention humaine suffisante. Cette sanction, la deuxième plus importante sous l'égide du RGPD, dénonce le manque de transparence et de recours pour les travailleurs de la plateforme.",
+      "pourquoi_ca_compte": "C'est un signal fort contre le 'management par algorithme' : les citoyens travaillant pour des plateformes ont désormais une base juridique solide pour contester des décisions prises par des machines sans supervision humaine.",
       "sources": [
         {
           "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+          "url": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Yahoo (AOL / Oath)",
@@ -46,8 +20,212 @@
           }
         },
         {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/social-et-economie/justice/aux-pays-bas-uber-condamne-a-payer-825-millions-deuros-damende-pour-avoir-deconnecte-automatiquement-des-chauffeurs",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Des robots humanoïdes battent le record d'Usain Bolt à Pékin",
+      "sous_section": "recherche",
+      "resume": "Lors de la cérémonie d'ouverture des World Robot Games à Pékin, un robot humanoïde chinois a surpassé le record du monde du 100 mètres détenu par Usain Bolt. L'événement a rassemblé des dizaines de modèles sans visage capables de performances athlétiques dépassant les limites biologiques humaines.",
+      "pourquoi_ca_compte": "Au-delà de la prouesse technique, cela pose la question de la place de l'humain dans des domaines de performance pure et de l'accélération de la robotique de service.",
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/sports/en-chine-des-humanoides-battent-des-records-sportifs-humains-aux-world-robot-games_8158808.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/%C3%A9co-tech/20260823-le-record-d-usain-bolt-battu-par-des-athl%C3%A8tes-humano%C3%AFdes-aux-world-robot-games-%C3%A0-p%C3%A9kin",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Le fisc français victime d'un piratage massif touchant 700 000 usagers",
+      "sous_section": "societe",
+      "resume": "La DGFiP fait face à une fuite de données majeure après le vol des identifiants d'un agent. Les pirates ont utilisé un agent IA pour infiltrer les outils internes (Jira) et extraire les données de près de 700 000 particuliers et professionnels, soulevant des inquiétudes sur la sécurité des infrastructures étatiques.",
+      "pourquoi_ca_compte": "La vulnérabilité des données fiscales expose les citoyens à des risques de phishing sophistiqué et remet en cause la confiance envers la numérisation des services publics.",
+      "sources": [
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2316139-les-impots-pieges-par-un-compte-vole-un-agent-ia-pirate-des-tickets-jira-et-des-versions-obscures-de-qwen-disent-oui-a-tout-on-vous-raconte-la-semaine-cyberguerre.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/on-a-la-sensation-que-quelque-chose-nous-echappe-apres-le-piratage-du-fisc-syndicats-et-elus-s-interrogent-sur-les-failles-de-la-dgfip_8156264.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Israël accusé de manipuler les IA via un faux institut de recherche",
+      "sous_section": "societe",
+      "resume": "Une enquête révèle que le gouvernement israélien a créé un faux institut, le 'Hanover Institute for Public Policy', via l'entreprise américaine Piro. L'objectif était d'injecter des données orientées sur le web pour influencer les réponses de modèles comme ChatGPT sur le conflit au Proche-Orient.",
+      "pourquoi_ca_compte": "Il s'agit d'une nouvelle forme de guerre informationnelle : polluer les jeux de données d'entraînement des IA pour manipuler la perception globale de la réalité politique.",
+      "sources": [
+        {
+          "nom": "CheckNews",
+          "url": "https://www.liberation.fr/checknews/comment-le-gouvernement-israelien-a-fabrique-un-institut-de-recherche-fictif-pour-influencer-les-ia-generatives-20260821_V6IBCTSWN5AIJBPBMYGVA6NQFU/",
+          "type": "fact-check",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "L'Ukraine développe une alternative européenne à Starlink",
+      "sous_section": "annonces",
+      "resume": "Volodymyr Zelensky a annoncé le début des tests pour un réseau de communication satellitaire souverain. Ce projet vise à réduire la dépendance envers SpaceX pour les opérations militaires et les frappes en Russie, tout en renforçant la résilience technologique européenne.",
+      "pourquoi_ca_compte": "La souveraineté technologique devient un enjeu de survie nationale, illustrant le danger de dépendre d'acteurs privés pour des infrastructures critiques de communication.",
+      "sources": [
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/defense/nous-avons-commence-a-le-tester-volodymyr-zelensky-affirme-que-l-ukraine-developpe-une-alternative-europeenne-a-starlink_AD-202608230187.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Guerre technologique : un robot ukrainien neutralise 20 soldats russes",
+      "sous_section": "societe",
+      "resume": "Un robot terrestre ukrainien a été utilisé pour neutraliser une unité de 20 soldats russes, marquant une nouvelle étape dans l'automatisation du champ de bataille. En parallèle, l'Ukraine utilise des drones guidés par IA (plan M&M's) pour cibler les infrastructures logistiques et les aéroports russes.",
+      "pourquoi_ca_compte": "L'usage croissant de systèmes autonomes létaux soulève des questions éthiques majeures sur la déshumanisation de la guerre et la responsabilité des algorithmes dans les pertes humaines.",
+      "sources": [
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/asie/russie/video-guerre-technologique-quand-un-robot-ukrainien-neutralise-20-soldats-russes_VN-202608230310.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Slate FR",
+          "url": "https://www.slate.fr/monde/ukraine-aeroports-russie-drones-intelligence-artificielle-avions-moscou-guerre",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Slate FR",
+            "proprietaire": "Slate.fr (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "L'école des robots de Hangzhou cherche des débouchés commerciaux",
+      "sous_section": "business",
+      "resume": "En Chine, des start-ups comme celle d'Hangzhou entraînent des humanoïdes à répéter des tâches industrielles et domestiques. Malgré des introductions en Bourse tonitruantes à Shanghai, les experts s'interrogent sur la viabilité commerciale immédiate de ces machines face aux coûts de production.",
+      "pourquoi_ca_compte": "La course à la robotisation totale du travail est lancée, portée par des capitaux massifs, mais le risque de bulle spéculative autour de la 'fin du travail' reste présent.",
+      "sources": [
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/l-excitation-monte-autour-de-la-robotique-chinoise-mais-elle-est-encore-loin-de-tenir-toutes-ses-promesses-a-hangzhou-l-ecole-des-robots-recherche-des-debouches-commerciaux-pour-ses-humanoides_AD-202608230203.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/international/230826/avec-le-deferlement-des-robots-humanoides-le-capital-agite-le-spectre-de-la-fin-du-travail",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Mediapart",
+            "proprietaire": "Fonds pour une presse libre",
+            "type_proprietaire": "fondation",
+            "orientation": "gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "L'Ukraine cible les géants du e-commerce russe Ozon et Wildberries",
+      "sous_section": "business",
+      "resume": "L'armée ukrainienne a étendu sa campagne de frappes cyber et physiques contre les centres logistiques russes, ciblant spécifiquement le numéro 2 du commerce en ligne, Ozon. Ces attaques visent à désorganiser l'économie de guerre russe en frappant ses piliers numériques.",
+      "pourquoi_ca_compte": "L'économie numérique devient une cible militaire directe, impactant la vie quotidienne des civils et la structure logistique d'un pays entier.",
+      "sources": [
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/c-est-maintenant-le-tour-d-ozon-apres-wildberries-l-ukraine-s-attaque-a-l-autre-geant-du-commerce-en-ligne-en-russie_AD-202608230221.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "GTA VI : un développement sous haute tension technologique",
+      "sous_section": "annonces",
+      "resume": "Le jeu le plus attendu de la décennie, Grand Theft Auto VI, continue de faire face à des retards de production. Rockstar Games a repoussé la sortie à mai 2026, illustrant la complexité croissante des mondes virtuels ultra-réalistes qui demandent des ressources de calcul et de développement sans précédent.",
+      "pourquoi_ca_compte": "L'industrie du jeu vidéo est un laboratoire pour les technologies de simulation et d'IA qui infuseront demain d'autres secteurs de l'économie numérique.",
+      "sources": [
+        {
           "nom": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+          "url": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
           "type": "etranger",
           "groupe_media": {
             "nom": "Vox Media",
@@ -60,51 +238,14 @@
       "lien": null
     },
     {
-      "titre": "Stripe rachète l'orchestrateur OpenRouter pour 7,5 milliards de dollars",
-      "sous_section": "business",
-      "resume": "Le géant des paiements Stripe a finalisé l'acquisition d'OpenRouter, une plateforme permettant de basculer entre différents modèles d'IA. Bien que Stripe évoque poétiquement la « singularité », l'opération vise surtout à intégrer l'IA dans les flux financiers mondiaux.",
-      "pourquoi_ca_compte": "Cette acquisition montre que l'IA n'est plus un gadget mais devient une infrastructure critique pour le secteur financier et les paiements en ligne.",
+      "titre": "Le jeu 'Halloween' banni en Australie à cause de l'IA et des drogues",
+      "sous_section": "regulation",
+      "resume": "Le nouveau jeu vidéo basé sur la franchise Halloween a été banni par les autorités australiennes. Le motif invoqué n'est pas la violence, mais l'incitation à l'usage de drogues via des mécaniques de jeu, soulignant les disparités internationales dans la régulation des contenus interactifs.",
+      "pourquoi_ca_compte": "Cela révèle les tensions entre la liberté de création numérique et les politiques de santé publique nationales.",
       "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Next",
-          "url": "https://next.ink/251881/stripe-sapprete-a-racheter-openrouter-pour-7-milliards-de-dollars/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Succès boursier fulgurant pour le roboticien chinois Unitree",
-      "sous_section": "business",
-      "resume": "Unitree, leader chinois des robots humanoïdes, a vu son action bondir de 460 % à 600 % lors de son introduction à la Bourse de Shanghai. L'entreprise, célèbre pour ses vidéos de robots agiles, se positionne comme le principal rival de Boston Dynamics et Tesla Optimus.",
-      "pourquoi_ca_compte": "C'est un signal fort de la domination croissante de la Chine dans la robotique de pointe, un secteur stratégique pour l'avenir de l'industrie mondiale.",
-      "sources": [
-        {
-          "nom": "Sciences et Avenir",
-          "url": "https://www.sciencesetavenir.fr/high-tech/robot/unitree-bondit-de-pres-de-500-lors-de-son-ipo-un-tournant-pour-la-robotique-chinoise_194339?xtor=RSS-12",
-          "type": "mainstream",
-          "groupe_media": null
-        },
         {
           "nom": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/aug/19/unitree-shares-surge-humanoid-robot-firm-chinese-stock-market-debut",
+          "url": "https://www.theguardian.com/games/2026/aug/24/michael-myers-halloween-video-game-banned-in-australia-drugs",
           "type": "etranger",
           "groupe_media": {
             "nom": "Scott Trust",
@@ -115,253 +256,67 @@
         }
       ],
       "lien": null
-    },
-    {
-      "titre": "Google entraîne son IA avec les données d'une compagnie aérienne en faillite",
-      "sous_section": "societe",
-      "resume": "Google a racheté une masse considérable de données internes appartenant à Spirit Airlines, une compagnie américaine en faillite. Le personnel de bord s'inquiète de la vente de ses données personnelles et professionnelles pour l'entraînement des modèles de Google.",
-      "pourquoi_ca_compte": "Cela illustre une nouvelle forme de « nécro-capitalisme des données » où les actifs numériques des entreprises en faillite deviennent une ressource pour les géants de l'IA, au mépris du consentement des salariés.",
-      "sources": [
-        {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/08/flight-attendants-freaked-out-that-google-to-buy-tons-of-spirit-employee-data/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Next",
-          "url": "https://next.ink/252219/google-entraine-son-ia-avec-les-donnees-dune-compagnie-aerienne-en-faillite/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Faille « Zombie » : des cartes Visa expirées réactivées via le sans contact",
-      "sous_section": "societe",
-      "resume": "Des chercheurs en cybersécurité ont démontré qu'une faille dans le protocole Visa permet d'effectuer des paiements sans contact avec des cartes bancaires pourtant périmées. Ces « cartes zombies » peuvent redevenir opérationnelles sous certaines conditions techniques.",
-      "pourquoi_ca_compte": "Cette faille remet en question la sécurité des systèmes de paiement dématérialisés et la confiance des citoyens dans les standards bancaires internationaux.",
-      "sources": [
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2314109-les-cartes-zombies-sont-de-retour-en-ligne-comment-une-faille-visa-permet-de-ressusciter-des-cartes-expirees.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Next",
-          "url": "https://next.ink/252238/des-chercheurs-ont-fait-revivre-des-cartes-visa-sans-contact-apres-expiration/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "OpenAI ralentit son rythme de développement face à la concurrence",
-      "sous_section": "regulation",
-      "resume": "Malgré une concurrence féroce d'Anthropic et des modèles open-source, OpenAI a annoncé freiner le déploiement de certaines technologies. Parallèlement, l'entreprise renforce ses protocoles de confidentialité pour les données d'entreprises afin de distancer ses rivaux sur le terrain de la sécurité.",
-      "pourquoi_ca_compte": "Ce changement de stratégie suggère que la sécurité et la régulation interne deviennent des arguments marketing face aux risques de fuites de données industrielles.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Progrès majeur pour le vaccin à ARNm contre le mélanome",
-      "sous_section": "recherche",
-      "resume": "Moderna et Merck ont annoncé que leur vaccin expérimental à ARNm a réussi ses essais cliniques de phase 3. Le traitement réduit significativement le risque de récidive et de propagation du mélanome chez les patients atteints de cancers avancés.",
-      "pourquoi_ca_compte": "C'est une preuve concrète que la technologie ARNm, popularisée par le Covid-19, peut révolutionner l'oncologie et offrir des traitements personnalisés contre le cancer.",
-      "sources": [
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/19/moderna-merck-unveil-mrna-based-cancer-vaccine-that-cuts-spread?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Échec de la mission NASA pour sauver le télescope Swift",
-      "sous_section": "recherche",
-      "resume": "La NASA a annoncé l'échec d'une mission robotique visant à rehausser l'orbite du télescope spatial Swift. Un problème de contrôle d'altitude sur le robot de sauvetage a empêché l'amarrage, condamnant le télescope à une désintégration prochaine dans l'atmosphère.",
-      "pourquoi_ca_compte": "Swift est un outil crucial pour l'étude des sursauts gamma ; sa perte marque un recul pour l'astrophysique mondiale et souligne les difficultés de la maintenance spatiale robotisée.",
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/sciences/article/2026/08/20/la-nasa-annonce-l-echec-de-sa-penerilleuse-mission-de-sauvetage-du-telescope-scientifique-swift_6750137_1650684.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/%C3%A9co-tech/20260819-la-nasa-annonce-l-%C3%A9chec-de-sa-mission-pour-secourir-un-t%C3%A9l%C3%A9scope-en-orbite",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/sciences/la-nasa-annonce-l-echec-de-sa-mission-pour-secourir-un-telescope-en-orbite-a-cause-d-un-probleme-persistant-de-controle-d-altitude-20260819",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Amazon étend son service de livraison par drones Prime Air",
-      "sous_section": "annonces",
-      "resume": "Amazon prévoit de déployer ses drones de livraison dans près de 500 villes américaines d'ici la fin de l'année 2026. Le service Prime Air vise à livrer des colis légers en moins d'une heure, malgré les débats persistants sur les nuisances sonores et la vie privée.",
-      "pourquoi_ca_compte": "Cette expansion massive marque le début de l'automatisation du dernier kilomètre dans le commerce de détail, modifiant potentiellement l'urbanisme et le marché de l'emploi dans la logistique.",
-      "sources": [
-        {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/08/amazon-aims-for-delivery-drones-to-reach-500-us-neighborhoods-by-end-of-2026/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/19/amazons-prime-air-is-taking-off-in-nearly-500-u-s-cities/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
     }
   ],
   "regard_croise_ia": {
-    "sujet": "La stratégie paradoxale d'OpenAI : expansion commerciale et ralentissement technologique",
-    "contexte": "Alors qu'OpenAI s'apprête à introduire de la publicité en Europe et lance des produits ciblés (adolescents), l'entreprise annonce simultanément un ralentissement volontaire de ses cycles de développement.",
+    "sujet": "L'essor de la robotique humanoïde et son impact social",
+    "contexte": "La Chine multiplie les démonstrations de force avec des robots battant des records sportifs et des start-ups entrant en Bourse, tandis que les débouchés commerciaux restent flous.",
     "couvertures": [
       {
-        "source": "Next",
-        "type": "investigation",
-        "angle": "Impact économique direct sur les utilisateurs européens avec l'arrivée de la pub.",
-        "ton": "factuel",
-        "url": "https://next.ink/brief-article/openai-va-ouvrir-la-publicite-dans-chatgpt-en-france-et-en-europe/",
-        "citation_cle": "La version gratuite de ChatGPT et la déclinaison Go à 8 euros par mois afficheront de la publicité en France.",
+        "source": "franceinfo",
+        "type": "mainstream",
+        "angle": "Performance technique et records sportifs",
+        "ton": "neutre",
+        "url": "https://www.franceinfo.fr/sports/en-chine-des-humanoides-battent-des-records-sportifs-humains-aux-world-robot-games_8158808.html#xtor=RSS-3-[lestitres]",
+        "citation_cle": "Un robot chinois a notamment battu le record du 100 mètres de la légende jamaïcaine Usain Bolt.",
         "groupe_media": {
-          "nom": "Next (ex-Next INpact)",
-          "proprietaire": "Équipe fondatrice",
-          "type_proprietaire": "independant",
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
           "orientation": "centre"
         }
       },
       {
-        "source": "The Verge",
-        "type": "etranger",
-        "angle": "Analyse du ralentissement du développement face à la concurrence.",
-        "ton": "neutre",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-        "citation_cle": "OpenAI a de nombreuses raisons d'aller vite. Au lieu de cela, elle a freiné.",
+        "source": "Mediapart",
+        "type": "investigation",
+        "angle": "Critique du capitalisme technologique et de la bulle spéculative",
+        "ton": "critique",
+        "url": "https://www.mediapart.fr/journal/international/230826/avec-le-deferlement-des-robots-humanoides-le-capital-agite-le-spectre-de-la-fin-du-travail",
+        "citation_cle": "Ce récit vise à renforcer la bulle spéculative de l’IA et la domination technologique.",
         "groupe_media": {
-          "nom": "Vox Media",
-          "proprietaire": "Vox Media Inc.",
-          "type_proprietaire": "independant",
-          "orientation": "centre-gauche"
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
+          "orientation": "gauche"
         }
       },
       {
-        "source": "La Croix",
+        "source": "BFM Business",
         "type": "mainstream",
-        "angle": "Protection des mineurs et enjeux de responsabilité sociale.",
-        "ton": "neutre",
-        "url": "https://www.la-croix.com/societe/intelligence-artificielle-openai-deploie-une-version-pour-ados-de-chatgpt-censee-en-raisonner-l-usage-20260819",
-        "citation_cle": "Une façon pour OpenAI de se prémunir de poursuites éventuelles.",
-        "groupe_media": null
+        "angle": "Analyse du marché et des limites industrielles",
+        "ton": "factuel",
+        "url": "https://www.bfmtv.com/economie/entreprises/l-excitation-monte-autour-de-la-robotique-chinoise-mais-elle-est-encore-loin-de-tenir-toutes-ses-promesses-a-hangzhou-l-ecole-des-robots-recherche-des-debouches-commerciaux-pour-ses-humanoides_AD-202608230203.html",
+        "citation_cle": "L'excitation monte autour de la robotique chinoise, mais elle est encore loin de tenir toutes ses promesses.",
+        "groupe_media": {
+          "nom": "CMA CGM",
+          "proprietaire": "Rodolphe Saadé",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
       }
     ],
-    "analyse_coherence": "La couverture médiatique révèle une entreprise à la croisée des chemins. D'un côté, les médias spécialisés comme Next et TechCrunch se concentrent sur la monétisation (publicité) et la guerre de positionnement face à Anthropic. De l'autre, la presse généraliste (La Croix) souligne la volonté d'OpenAI de se racheter une conduite éthique via des versions 'bridées' pour les mineurs. La cohérence globale montre qu'OpenAI tente de normaliser son image publique avant une potentielle introduction en bourse (IPO), en passant du statut de laboratoire de recherche disruptif à celui de plateforme de services grand public régulée et monétisée. Le ralentissement technologique évoqué par The Verge pourrait ainsi être une manœuvre tactique pour stabiliser les produits existants plutôt qu'une réelle pause dans l'innovation.",
+    "analyse_coherence": "La couverture de la robotique humanoïde révèle un clivage marqué entre l'émerveillement technologique et l'analyse socio-économique. Les médias généralistes (franceinfo, France 24) se concentrent sur l'aspect spectaculaire des records sportifs battus à Pékin, traitant l'information sous l'angle de la prouesse technique. À l'inverse, Mediapart adopte une posture de déconstruction, voyant dans ces démonstrations une stratégie du 'capital' pour alimenter une bulle spéculative et préparer l'opinion à une réduction du coût du travail. BFM Business apporte une nuance industrielle nécessaire, soulignant le décalage entre l'agitation médiatique et la réalité des débouchés commerciaux encore inexistants. Cette divergence illustre un double standard : l'IA et la robotique sont présentées soit comme un divertissement (sport), soit comme une menace structurelle (emploi), occultant parfois les défis intermédiaires de maintenance et de coût énergétique.",
     "biais_detectes": [
-      "Focalisation sur l'aspect marketing du 'ChatGPT for Teens' sans questionner l'efficacité réelle du filtrage.",
-      "Euphémisme sur le 'ralentissement' qui pourrait masquer des difficultés techniques internes."
+      "Techno-optimisme dans la presse généraliste (focus sur les records)",
+      "Biais anti-capitaliste dans la presse d'investigation (focus sur la domination)",
+      "Pragmatisme économique dans la presse business"
     ],
-    "ce_quil_faut_retenir": "OpenAI entre dans une phase de maturité industrielle où la rentabilité (pub) et la conformité (protection des ados) priment sur la course effrénée à la puissance brute."
+    "ce_quil_faut_retenir": "Si la technologie progresse physiquement (records sportifs), son intégration économique réelle reste incertaine et son usage politique sert avant tout des récits de puissance nationale ou de valorisation boursière."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 185,
-    "nb_topics_ia": 69,
+    "nb_articles_ia": 107,
+    "nb_topics_ia": 38,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
