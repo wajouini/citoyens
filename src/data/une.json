@@ -1,108 +1,131 @@
 {
   "sujet_du_jour": {
-    "titre": "Tornade dévastatrice à Pomas : le village de l'Aude défiguré",
-    "rubrique": "societe",
-    "pourquoi_important": "Une tornade d'une violence exceptionnelle a frappé une zone habitée, causant des dizaines de blessés et révélant la vulnérabilité des infrastructures rurales face aux phénomènes climatiques extrêmes.",
+    "titre": "Saxe-Anhalt : Victoire historique de l'AfD à 44 % des voix",
+    "rubrique": "international",
+    "pourquoi_important": "C'est la première fois depuis 1945 qu'un parti d'extrême droite arrive en tête d'un scrutin régional en Allemagne, brisant un tabou politique majeur.",
     "faits": [
-      "Le 24 août 2026, vers 17h20, une tornade a traversé le village de Pomas, au sud de Carcassonne, lors d'un épisode orageux violent (Sciences et Avenir, 20 Minutes).",
-      "Le bilan humain fait état de 48 victimes prises en charge, dont 20 hospitalisées et 2 personnes en urgence absolue (La Croix.",
-      "Les dégâts matériels sont massifs : 293 maisons ont été évaluées, dont 102 sont totalement détruites et inhabitables (Mediapart.",
-      "Plus de 120 sapeurs-pompiers sont mobilisés sur place pour sécuriser les décombres et porter assistance aux sinistrés (AP News, L'Obs)."
+      "L'Alternative für Deutschland (AfD) a obtenu 43,8 % des suffrages lors des élections régionales du 6 septembre 2026 (Statistisches Landesamt Sachsen-Anhalt).",
+      "Le parti devance massivement la CDU du chancelier Friedrich Merz, qui s'effondre à environ 17 % des voix (RFI.",
+      "L'AfD obtient 39 sièges sur 83 au Landtag, manquant de trois sièges la majorité absolue pour gouverner seule .",
+      "La participation a été exceptionnellement élevée dans ce Land de l'ex-RDA (Mediapart)."
     ],
-    "contexte": "Le phénomène s'est produit dans un contexte de rafales dépassant les 100 km/h et de fortes précipitations de grêle. Bien que les tornades ne soient pas inconnues en France, leur intensité semble s'accroître, soulevant des questions sur l'adaptation des territoires au dérèglement climatique. Les habitants décrivent des scènes d'apocalypse, tandis que la solidarité locale s'organise dans les ruines du village.",
+    "contexte": "Ce scrutin marque un tournant pour la démocratie allemande. Malgré son score record, l'AfD se heurte au « cordon sanitaire » des autres formations, bien que des discussions avec le parti BSW soient évoquées (La Croix). Pour le gouvernement fédéral de Friedrich Merz, ce résultat est un désaveu cinglant qui fragilise sa position à Berlin (Ouest-France, Le Monde).",
     "sources": [
       {
-        "nom": "Préfet de l’Aude",
-        "url": "https://www.alerte-rdv-prefecture.fr/actualites/prefet-de-laude",
+        "nom": "Statistisches Landesamt Sachsen-Anhalt",
+        "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/erg_land.html?v=1788725331239",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "AP News",
-        "url": "https://apnews.com/article/176e48d07dad6d5caadfe40e54d721ee",
+        "nom": "Tagesschau (ARD)",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/landtagswahl-sachsen-anhalt-180.html",
         "type": "mainstream",
         "groupe_media": null
-      },
-      {
-        "nom": "20 Minutes",
-        "url": "https://www.20minutes.fr/societe/4240865-20260825-tornade-aude-vraiment-apocalypse-ruines-habitants-pomas-soutiennent",
-        "type": "mainstream",
-        "groupe_media": null
-      },
-      {
-        "nom": "L'Obs",
-        "url": "https://www.nouvelobs.com/ecologie/20260825.OBS117644/pomas-dans-l-aude-ravage-par-une-tornade-comment-expliquer-la-violence-du-phenomene.html",
-        "type": "mainstream",
-        "groupe_media": null
-      },
-      {
-        "nom": "Sciences et Avenir",
-        "url": "https://www.sciencesetavenir.fr/nature-environnement/climat/un-touriste-francais-decede-en-pleine-canicule-dans-la-vallee-de-la-mort_194433?xtor=RSS-15",
-        "type": "mainstream"
-      },
-      {
-        "nom": "La Croix",
-        "url": "https://www.la-croix.com/international/secheresse-le-panama-et-le-salvador-declarent-l-etat-durgence-face-a-el-nino-20260826",
-        "type": "mainstream"
       },
       {
         "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/france/250826/alleluia-pas-de-nouvelles-reformes-la-rentree-pas-comptes-d-edouard-geffray",
-        "type": "investigation"
+        "url": "https://www.mediapart.fr/journal/international/060926/en-saxe-anhalt-l-extreme-droite-obtient-une-victoire-historique",
+        "type": "investigation",
+        "groupe_media": {
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
+          "orientation": "gauche"
+        }
+      },
+      {
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/09/07/en-allemagne-l-extreme-droite-realise-une-performance-historique-lors-d-elections-regionales-en-saxe-anhalt_6767759_3210.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
+      },
+      {
+        "nom": "La Croix",
+        "url": "https://www.la-croix.com/societe/proces-de-l-assassinat-du-rugbyman-aramburu-peut-on-parler-dun-crime-de-lextreme-droite-20260906",
+        "type": "mainstream"
+      },
+      {
+        "nom": "Ouest-France",
+        "url": "https://www.ouest-france.fr/meteo/canicule/canicule-les-fortes-chaleurs-resistent-dans-le-sud-est-six-departements-toujours-en-vigilance-orange-2492314e-aa6d-11f1-a3f7-c4f38a0eaa1c?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+        "type": "mainstream"
+      },
+      {
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/france/20260907-deux-fils-pr%C3%A9sident-y%C3%A9men-jug%C3%A9s-en-france-dans-une-affaire-de-biens-mal-acquis-pr%C3%A9sum%C3%A9s",
+        "type": "mainstream"
       }
     ],
-    "lien": null
+    "lien": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/erg_land.html?v=1788725331239"
   },
   "france": [
     {
-      "titre": "Cancer du sein : une victoire judiciaire historique pour les navigantes",
-      "rubrique": "societe",
-      "resume": "Le tribunal de Bayonne a reconnu l'origine professionnelle du cancer du sein d'une ex-hôtesse d'Air France, citant l'exposition aux rayons ionisants, au travail de nuit et au tabagisme passif. Cette décision est une première en France pour cette pathologie non inscrite au tableau des maladies professionnelles.",
+      "titre": "Fabien Roussel officialise sa candidature pour 2027",
+      "rubrique": "politique",
+      "resume": "Le secrétaire national du PCF a annoncé au JT de TF1 sa candidature à l'Élysée après avoir été investi par 72 % des militants communistes (PCF, . Il prône un 'projet de rupture', s'inscrivant dans une gauche déjà très fragmentée (RFI, Libération).",
       "sources": [
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/flash-actu/une-hotesse-de-l-air-d-air-france-fait-reconnaitre-son-cancer-du-sein-comme-maladie-professionnelle-une-premiere-en-france-20260825",
+          "nom": "PCF",
+          "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+          "type": "institutionnel",
+          "groupe_media": null
+        },
+        {
+          "nom": "TF1 Info",
+          "url": "https://www.tf1info.fr/politique/direct-video-presidentielle-2027-le-communiste-fabien-roussel-invite-du-jt-de-20h-de-tf1-ce-dimanche-6-septembre-2026-2462617.html",
           "type": "mainstream",
           "groupe_media": null
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20260907-deux-fils-pr%C3%A9sident-y%C3%A9men-jug%C3%A9s-en-france-dans-une-affaire-de-biens-mal-acquis-pr%C3%A9sum%C3%A9s",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/international/europe/en-direct-allemagne-lextreme-droite-en-quete-dune-victoire-historique-en-saxe-anhalt-20260906_JWLEFIHGCZEWXMT3OZMIRPGJDY/",
+          "type": "mainstream"
         }
       ],
-      "lien": null
+      "lien": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
     },
     {
-      "titre": "Le zoo de Beauval renonce aux dauphins du Marineland",
+      "titre": "Rachida Dati réintègre la magistrature avant son procès",
       "rubrique": "societe",
-      "resume": "Rodolphe Delord, directeur de Beauval, abandonne le projet d'accueil des cétacés d'Antibes en raison de l'explosion des coûts et du manque de soutien gouvernemental. Le sort des dauphins du Marineland reste incertain alors que la loi contre la maltraitance animale prévoit la fin des spectacles.",
+      "resume": "À dix jours de son procès pour corruption présumée dans l'affaire Renault-Nissan, l'ancienne ministre a demandé sa réintégration dans la magistrature (L'Humanité). Elle ne devrait toutefois pas exercer en juridiction immédiate (La Croix).",
       "sources": [
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Le-zoo-de-Beauval-abandonne-son-projet-de-Delphinarium",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Reporterre",
-            "proprietaire": "Association La Pile",
-            "type_proprietaire": "independant",
-            "orientation": "gauche"
-          }
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/feminisme/editorial/loi-integrale-contre-les-vss-se-derober-ou-pas",
+          "type": "mainstream"
         },
         {
           "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/marineland-le-zoo-de-beauval-renonce-finalement-a-accueillir-les-dauphins-20260825",
-          "type": "mainstream",
-          "groupe_media": null
+          "url": "https://www.la-croix.com/societe/proces-de-l-assassinat-du-rugbyman-aramburu-peut-on-parler-dun-crime-de-lextreme-droite-20260906",
+          "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Deuxième sortie spatiale réussie pour Sophie Adenot",
-      "rubrique": "science",
-      "resume": "L'astronaute française a effectué une seconde sortie extravéhiculaire de six heures et demie pour achever le remplacement d'une antenne de communication de l'ISS. Accompagnée de l'Américain Anil Menon, elle consolide son statut de pionnière européenne de l'espace.",
+      "titre": "Menaces sur l'épargne salariale pour le budget 2027",
+      "rubrique": "economie",
+      "resume": "Le gouvernement envisage de prélever des cotisations sociales sur l'intéressement et la participation au-delà de 3 000 € pour réduire le déficit de la Sécurité sociale (Sud-Ouest). La mesure pourrait rapporter 1 milliard d'euros (BFM Business).",
       "sources": [
         {
-          "nom": "Sciences et Avenir",
-          "url": "https://www.sciencesetavenir.fr/espace/exploration/et-de-deux-nouvelle-sortie-spatiale-pour-sophie-adenot_194435",
-          "type": "mainstream",
-          "groupe_media": null
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/redaction/ephemeride/video-rappelez-vous-en-2013-le-tableau-coucher-de-soleil-a-montmajour-etait-officiellement-authentifie-comme-une-oeuvre-de-van-gogh-30048934.php",
+          "type": "mainstream"
+        },
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/le-monde-qui-bouge/le-monde-qui-bouge-la-revue-de-presse-les-emissaires-de-trump-ont-quitte-kiev-dans-la-nuit-07-09_EN-202609070073.html",
+          "type": "mainstream"
         }
       ],
       "lien": null
@@ -110,13 +133,73 @@
   ],
   "monde": [
     {
-      "titre": "Guerre commerciale : le Canada riposte aux États-Unis",
-      "pays": "Canada/USA",
-      "resume": "Ottawa a annoncé des surtaxes douanières de 15 % à 50 % sur une vaste gamme de produits américains à partir du 8 septembre. Cette mesure répond aux taxes imposées par Washington, le gouvernement canadien se disant prêt à de nouvelles ripostes si son secteur automobile est visé.",
+      "titre": "L'Anak Krakatau paralyse le ciel indonésien",
+      "pays": "Indonésie",
+      "resume": "L'éruption du volcan a entraîné la fermeture de huit aéroports, dont celui de Jakarta, bloquant plus de 170 000 passagers (Ouest-France). Des cendres et des coulées de lave ont été signalées (Le Figaro, Courrier international).",
       "sources": [
         {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/monde/indonesie/indonesie-laeroport-international-de-jakarta-suspend-ses-operations-en-raison-dune-eruption-volcanique-6c1f6576-a99c-11f1-a618-771a80631f2f",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/victoire-de-l-afd-en-saxe-anhalt-en-france-la-gauche-et-le-centre-expriment-leurs-inquietudes-le-rn-garde-le-silence-20260907",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/politique-l-extreme-droite-allemande-realise-une-percee-historique-en-saxe-anhalt_268260",
+          "type": "etranger"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Pékin injecte 54 milliards de dollars dans ses banques",
+      "pays": "Chine",
+      "resume": "Face au ralentissement de la croissance, le gouvernement chinois soutient son secteur financier via des fonds publics, incluant même le monopole du tabac (The Guardian, BBC). L'objectif est de stimuler l'investissement boursier.",
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/06/china-prepares-40bn-stimulus-for-financial-sector-amid-fears-over-sluggish-growth",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cx2z37qj4wno",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Médiation américaine Witkoff-Kushner à Kiev",
+      "pays": "Ukraine",
+      "resume": "Après avoir vu Vladimir Poutine, les émissaires de Donald Trump ont rencontré Volodymyr Zelensky pour discuter d'un plan de paix 'substantiel' (La Croix, France 24). Kiev appelle à des garanties de sécurité réelles (RFI).",
+      "sources": [
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/international/guerre-en-ukraine-pour-la-premiere-fois-witkoff-et-kushner-en-mediateurs-depuis-kiev-20260906",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260825-le-canada-r%C3%A9pond-%C3%A0-washington-et-annonce-jusqu-%C3%A0-50-de-droits-de-douane-sur-des-produits-am%C3%A9ricains",
+          "url": "https://www.rfi.fr/fr/europe/20260906-guerre-en-ukraine-les-%C3%A9missaires-am%C3%A9ricains-appellent-kiev-et-moscou-au-compromis",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -126,196 +209,198 @@
           }
         },
         {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/international/etats-unis/droits-de-douane-le-canada-uni-dans-sa-reponse-riposte-en-imposant-des-surtaxes-de-15-a-50-aux-etats-unis-30369204.php",
-          "type": "mainstream",
-          "groupe_media": null
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260907-accident-d-avion-cargo-%C3%A0-l-a%C3%A9roport-de-miami",
+          "type": "mainstream"
         }
       ],
-      "lien": null
-    },
-    {
-      "titre": "Dissolution historique des forces kurdes (FDS) en Syrie",
-      "pays": "Syrie",
-      "resume": "Le chef kurde Mazloum Abdi a officialisé la dissolution des Forces démocratiques syriennes, piliers de la lutte contre l'État islamique. Cette étape majeure fait suite à un accord de réintégration au sein du pouvoir central de Damas pour réunifier le pays sous l'autorité d'Ahmed al-Charaa.",
-      "sources": [],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Désinformation et complotisme autour des incendies de forêt",
-    "rubrique": "societe",
-    "contexte": "Chaque été, les incendies de forêt génèrent un flux massif de fausses informations sur les réseaux sociaux, allant de l'origine criminelle systématique à des théories sur des armes à énergie dirigée.",
+    "sujet": "L'échec de la stratégie Merz face à l'AfD",
+    "rubrique": "politique",
+    "contexte": "La CDU de Friedrich Merz subit une défaite historique en Saxe-Anhalt, recueillant seulement 17 % des voix contre 44 % pour l'extrême droite.",
     "couvertures": [
       {
-        "source": "Mediapart",
-        "type": "investigation",
-        "angle": "Analyse du lien entre théories complotistes et récupération par l'extrême droite.",
+        "source": "Politico EU",
+        "type": "etranger",
+        "angle": "Merz est le grand perdant de la soirée, sa stratégie ne parvenant pas à endiguer l'AfD.",
         "ton": "critique",
-        "url": "https://www.mediapart.fr/journal/ecologie/250826/les-feux-de-foret-un-puissant-carburant-pour-les-complotistes-et-l-extreme-droite",
-        "citation_cle": "Les feux de forêt de cet été ont suscité de nombreuses théories complotistes... elles ont tout pour faire le jeu de l’extrême droite.",
-        "auteur": "Rémi Carayol et al.",
-        "proprietaire_contexte": "Indépendant (Fonds pour une presse libre)",
-        "orientation_source": "Gauche",
+        "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/friedrich-merz-der-wahlverlierer-von-sachsen-anhalt/",
+        "citation_cle": "Friedrich Merz: le perdant de l'élection de Saxe-Anhalt.",
+        "auteur": "Rixa Fürsen",
+        "proprietaire_contexte": "Axel Springer / KKR",
+        "orientation_source": "centre-droit",
         "groupe_media": {
-          "nom": "Mediapart",
-          "proprietaire": "Fonds pour une presse libre",
-          "type_proprietaire": "fondation",
-          "orientation": "gauche"
+          "nom": "Axel Springer / KKR",
+          "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       },
       {
-        "source": "La Croix",
+        "source": "Libération",
         "type": "mainstream",
-        "angle": "Focus sur la vulnérabilité des catastrophes naturelles aux ingérences étrangères.",
+        "angle": "Le chancelier paie son impopularité et l'échec de son positionnement droitier.",
         "ton": "factuel",
-        "url": "https://www.la-croix.com/societe/incendies-de-foret-les-catastrophes-naturelles-un-terrain-fertile-pour-la-desinformation-20260825",
-        "citation_cle": "Quasiment toutes les catastrophes naturelles sont touchées par ce phénomène, amplifié par les réseaux sociaux.",
-        "auteur": "Pascal Charrier",
-        "proprietaire_contexte": "Groupe Bayard",
-        "orientation_source": "Centre",
-        "groupe_media": null
+        "url": "https://www.liberation.fr/international/europe/allemagne-friedrich-merz-le-chancelier-que-la-cdu-prefere-cacher-en-campagne-20260906_FS7AUCIAYZHPPICRY4ODNDDY2Y/",
+        "citation_cle": "Le chancelier que la CDU préfère cacher pendant les campagnes.",
+        "auteur": "Christophe Bourdoiseau",
+        "proprietaire_contexte": "Fonds de dotation",
+        "orientation_source": "centre-gauche",
+        "groupe_media": {
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
+        }
       }
     ],
-    "analyse_coherence": "L'analyse des couvertures médiatiques révèle une convergence sur le constat : la catastrophe climatique est devenue un terrain de lutte informationnelle. Mediapart adopte une grille de lecture politique, soulignant comment le complotisme (discours antisystème, racisme) sert de levier à l'extrême droite pour délégitimer l'action publique et nier le dérèglement climatique. La Croix, fidèle à sa ligne plus institutionnelle, privilégie une approche par la sécurité nationale, évoquant des 'ingérences étrangères' visant à déstabiliser la cohésion sociale lors de moments de crise. On observe un double standard intéressant : alors que les médias mainstream traitent souvent ces rumeurs comme des phénomènes marginaux de réseaux sociaux, l'investigation montre qu'elles s'inscrivent dans une stratégie politique cohérente de sape du consensus scientifique sur le climat. La divergence réside moins dans les faits que dans l'imputation de la responsabilité : simple dérive technologique pour les uns, outil de combat idéologique pour les autres.",
+    "analyse_coherence": "L'analyse des couvertures révèle un consensus sur l'échec personnel de Friedrich Merz, mais les sources divergent sur les responsabilités. Politico EU (propriété d'Axel Springer, ligne pro-business) souligne la 'zerreißprobe' (épreuve de force) interne à la CDU, pointant une crise de leadership. Libération adopte un angle plus politique, suggérant que la stratégie de Merz — consistant à durcir le discours pour séduire les électeurs de l'AfD — a produit l'effet inverse en normalisant l'extrême droite. On observe un double standard intéressant : alors que la presse française (Libération, La Croix) insiste sur le danger pour la démocratie, les médias plus proches des milieux d'affaires comme Politico se concentrent sur l'instabilité gouvernementale et l'incapacité de Merz à incarner une alternative stable. Le silence relatif des médias mainstream sur la radicalisation même du programme de l'AfD au profit d'une analyse purement électorale de la CDU témoigne d'une forme de normalisation de l'extrême droite dans le paysage médiatique européen.",
     "biais_detectes": [
-      "Focalisation sur l'extrême droite (Mediapart)",
-      "Prisme sécuritaire/ingérence (La Croix)"
+      "Focus sur la survie politique de Merz plutôt que sur le programme de l'AfD",
+      "Normalisation du score de l'extrême droite par l'analyse technique des coalitions"
     ],
-    "ce_quil_faut_retenir": "La désinformation sur les incendies n'est pas qu'un bruit numérique ; c'est un outil de polarisation politique qui occulte les causes structurelles (climatiques et aménagement) au profit de boucs émissaires."
+    "ce_quil_faut_retenir": "La stratégie de 'droitisation' de la CDU pour contrer l'AfD a échoué, laissant Merz affaibli et l'Allemagne face à une impasse gouvernementale inédite."
   },
   "regard_etranger": [
     {
-      "source": "Politico EU",
-      "pays": "Allemagne",
-      "titre": "Drones, menaces, Allemagne",
-      "titre_original": "Drohnen, Drohungen, Deutschland",
-      "angle": "Critique de la vulnérabilité sécuritaire allemande face aux attaques hybrides après des menaces sur les aéroports.",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/drohnen-drohungen-deutschland/",
+      "source": "The Guardian",
+      "pays": "Royaume-Uni",
+      "titre": "L'AfD remercie Elon Musk après sa victoire",
+      "titre_original": "Germany’s far-right AfD thanks Elon Musk as France warns state election win a ‘serious moment’",
+      "angle": "Le média souligne le rôle des soutiens internationaux numériques (Musk) dans la percée de l'AfD et l'inquiétude des voisins européens.",
+      "url": "https://www.theguardian.com/world/2026/sep/07/afd-thanks-elon-musk-german-state-elections-2026-win",
       "groupe_media": {
-        "nom": "Axel Springer / KKR",
-        "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
-        "type_proprietaire": "milliardaire",
-        "orientation": "centre-droit"
+        "nom": "Scott Trust",
+        "proprietaire": "Scott Trust Limited",
+        "type_proprietaire": "fondation",
+        "orientation": "centre-gauche"
       }
     },
     {
-      "source": "BBC News",
-      "pays": "Royaume-Uni",
-      "titre": "La CEDH ordonne à la Turquie de libérer l'homme d'affaires emprisonné Osman Kavala",
-      "titre_original": "European rights court orders Turkey to free imprisoned businessman",
-      "angle": "Regard critique sur le non-respect du droit international par Ankara dans une affaire politiquement motivée.",
-      "url": "https://www.bbc.co.uk/news/articles/cn5drvyg92no",
+      "source": "NYT World",
+      "pays": "États-Unis",
+      "titre": "Ce que les audits secrets révèlent sur les dépenses militaires ukrainiennes",
+      "titre_original": "What Secret Audits Tell Us About How Ukraine’s Military Is Spending Its Money",
+      "angle": "Le journal pointe des défaillances de gestion et des risques de corruption au sein de l'armée ukrainienne malgré l'aide internationale.",
+      "url": "https://www.nytimes.com/2026/09/06/world/europe/ukraine-military-audits-spending-weapons.html",
       "groupe_media": {
-        "nom": "BBC",
-        "proprietaire": "État britannique",
-        "type_proprietaire": "etat",
+        "nom": "The New York Times Company",
+        "proprietaire": "Famille Ochs-Sulzberger",
+        "type_proprietaire": "famille",
         "orientation": "centre"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "100 milliards de dollars",
-    "contexte": "Coût estimé de la base spatiale géante que SpaceX projette de construire en Louisiane pour ses futures missions vers Mars.",
-    "source": "Sud-Ouest / SpaceX",
-    "source_url": "https://www.sudouest.fr"
+    "valeur": "32 891 874 euros",
+    "contexte": "Record historique de dons récoltés par le ZEvent pour sa toute dernière édition au profit de 22 associations.",
+    "source": "20 Minutes",
+    "source_url": "https://www.20minutes.fr/gaming/4243067-20260907-zevent-recolte-pres-33-millions-euros-dernier-marathon-caritatif"
   },
   "a_surveiller": [
     {
-      "date": "2026-09-08",
-      "evenement": "Entrée en vigueur des surtaxes douanières canadiennes sur les produits américains.",
-      "type": "echeance_economique",
+      "date": "2026-09-07",
+      "evenement": "Dépôt de la pétition pour les réparations de l'esclavage par la Jamaïque au Roi Charles III",
+      "type": "autre",
+      "lien": "https://www.mcges.gov.jm/index.php/culture/item/1211-grange-leading-reparations-delegation-to-the-uk"
+    },
+    {
+      "date": "2026-09-16",
+      "evenement": "Ouverture du procès de Rachida Dati pour corruption présumée",
+      "type": "autre",
+      "lien": null
+    },
+    {
+      "date": "2026-09-20",
+      "evenement": "Élections régionales dans deux autres Länder allemands",
+      "type": "vote",
       "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Fin du programme Grand Tétras dans les Vosges",
-      "rubrique": "science",
-      "resume": "Le ministère de la Transition écologique arrêtera en 2029 le programme de réintroduction du grand tétras. Malgré l'introduction de spécimens norvégiens en 2024, la mortalité élevée et le réchauffement climatique rendant le massif inhabitable ont scellé l'échec du projet.",
+      "titre": "Colonialisme vert : la transition suédoise menace les Sámis",
+      "rubrique": "ecologie",
+      "resume": "En Suède, l'accélération des projets miniers (terres rares, uranium) pour la transition énergétique menace directement les droits ancestraux des éleveurs de rennes Sámis (Reporterre). L'ONU et l'UNESCO ont déjà alerté sur ces impacts culturels.",
       "sources": [
         {
-          "nom": "Rue89 Strasbourg",
-          "url": "https://www.rue89strasbourg.com/echec-programme-grand-tetras-arret-vosges-395372",
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Fini-l-elevage-et-bienvenue-a-la-mine-la-transition-verte-detruit-la-culture-de",
           "type": "investigation"
-        }
-      ],
-      "pourquoi_signal": "C'est l'un des premiers aveux officiels d'échec d'une politique de biodiversité causé directement par l'irréversibilité du changement climatique local."
-    },
-    {
-      "titre": "Bure'lesques : le festival sous surveillance totale",
-      "rubrique": "politique",
-      "resume": "Le festival antinucléaire des Bure’lesques a fait l'objet d'un dispositif de surveillance inédit : drones, hélicoptère et contrôles systématiques sur 23 communes. Le tribunal de Nancy a validé la majorité de ces mesures malgré les recours des libertés publiques.",
-      "sources": [
+        },
         {
-          "nom": "Blast",
-          "url": "https://www.blast-info.fr/articles/2026/survol-d-helicopetre-et-controles-systematiques-reportage-aux-bure-lesques-le-festival-le-plus-surveille-de-france-LeU2uTIgSSOLSjoiJ_ikjQ",
-          "type": "investigation"
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/ng-interactive/2026/sep/07/reindeer-and-rare-earth-minerals-swedish-politicians-take-aim-at-indigenous-sami-in-mining-dispute",
+          "type": "etranger"
         }
       ],
-      "pourquoi_signal": "Illustre la normalisation de la surveillance aérienne par drone et hélicoptère pour des événements militants pacifiques, créant un précédent pour le droit de réunion."
+      "pourquoi_signal": "Ce sujet révèle les contradictions de la transition écologique européenne qui, au nom du climat, reproduit des schémas extractivistes sur des populations autochtones."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Impunité des colons en Cisjordanie occupée",
+      "titre": "Jamaïque : Le combat pour les réparations coloniales",
       "rubrique": "international",
-      "resume": "Des journalistes de l'AFP ont été agressés par des colons israéliens à Jannatah alors qu'ils couvraient des actes de harcèlement contre des Palestiniens. L'ONU recense plus de 1 200 incidents de ce type en 2026.",
+      "resume": "La Jamaïque demande officiellement au roi Charles III de saisir le Conseil privé pour statuer sur la légalité de l'esclavage et les obligations de réparation britanniques.",
       "axes_concernes": [
-        "droit_international",
         "colonialisme",
-        "liberte_expression"
+        "justice_sociale",
+        "droit_international"
       ],
-      "analyse": "Cette agression directe contre la presse internationale souligne l'escalade de la violence coloniale, souvent couverte par l'inaction de l'armée israélienne. Le droit international est bafoué quotidiennement dans une indifférence diplomatique relative, illustrant un double standard flagrant par rapport à d'autres occupations territoriales. La protection des civils et des journalistes n'est plus garantie en zone occupée.",
+      "analyse": "Cette démarche juridique est historique. Elle ne vise pas seulement un dédommagement financier immédiat, mais une reconnaissance légale internationale de la responsabilité des puissances coloniales. C'est un test majeur pour la monarchie britannique et le droit international face aux crimes du passé dont les conséquences économiques perdurent.",
       "sources": [
         {
-          "nom": "AFP",
-          "url": "https://www-pp.afp.com/fr/cisjordanie-des-journalistes-de-lafp-agresses-par-des-colons-israeliens",
-          "type": "institutionnel"
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/7/jamaica-to-file-slavery-reparations-petition-during-uk-visit",
+          "type": "etranger"
         },
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/08/26/la-cisjordanie-sous-tension-en-raison-de-nouvelles-attaques-d-extremistes-juifs_6756762_3210.html",
-          "type": "mainstream"
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/news/2026/sep/06/jamaica-slavery-reparations-petition-king-charles",
+          "type": "etranger"
         }
       ]
     },
     {
-      "titre": "Censure d'un photographe palestinien à Deauville",
-      "rubrique": "culture",
-      "resume": "Une œuvre de Jehad Alshrafi montrant un match de foot dans les décombres de Gaza a été retirée du festival Deauville Sport Images sous pression d'activistes.",
+      "titre": "Cisjordanie : Évacuations sous pression américaine",
+      "rubrique": "international",
+      "resume": "Benyamin Netanyahou a ordonné l'évacuation de certaines colonies illégales en Cisjordanie occupée, cédant à une demande directe de Washington.",
       "axes_concernes": [
-        "liberte_expression",
-        "justice_sociale"
+        "droit_international",
+        "colonialisme"
       ],
-      "analyse": "Le retrait de cette image sous prétexte de 'ne pas heurter' constitue une forme de censure politique qui invisibilise la réalité du terrain à Gaza. Cela révèle une asymétrie de traitement dans les institutions culturelles françaises : l'art devient acceptable uniquement s'il ne documente pas les conséquences humaines de conflits diplomatiquement sensibles.",
+      "analyse": "Bien que ces évacuations soient limitées, elles soulignent la fragilité du droit international qui dépend ici uniquement d'une pression diplomatique américaine plutôt que de l'application des résolutions de l'ONU. Le revirement de Netanyahou montre que la colonisation n'est pas un processus irréversible quand la volonté politique internationale s'exprime.",
       "sources": [
         {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/culture/20260825.OBS117650/une-censure-a-bas-bruit-une-photo-prise-a-gaza-retiree-d-un-festival-de-photojournalisme-a-deauville.html",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/monde/israel/benyamin-netanyahou-a-donne-l-ordre-d-evacuer-des-implantations-de-colons-en-cisjordanie-occupee-selon-l-un-de-ses-ministres_8180066.html",
           "type": "mainstream"
         },
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/culture-et-savoir/censure/jehad-alshrafi-le-photographe-palestinien-censure-au-deauville-sport-images-festival",
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/monde/israel/4243046-20260906-cisjordanie-sous-pression-americaine-benyamin-netanyahou-ordonne-evacuer-implantations-colons",
           "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-08-26",
-  "genere_a": "2026-08-26T04:34:47.076Z",
+  "date": "2026-09-07",
+  "genere_a": "2026-09-07T04:33:57.839Z",
   "meta": {
-    "nb_articles_analyses": 666,
-    "nb_topics": 199,
-    "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 41,
-    "sources_francaises": 444,
-    "sources_etrangeres": 222,
+    "nb_articles_analyses": 515,
+    "nb_topics": 150,
+    "nb_topics_selectionnes": 16,
+    "nb_articles_dans_selection": 52,
+    "sources_francaises": 371,
+    "sources_etrangeres": 144,
     "rubriques_couvertes": [
+      "international",
+      "politique",
       "societe",
-      "science",
-      "international"
+      "economie"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"
