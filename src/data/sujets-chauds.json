@@ -1,179 +1,101 @@
 {
-  "date": "2026-09-07",
-  "genere_a": "2026-09-07T04:34:40.061Z",
+  "date": "2026-09-09",
+  "genere_a": "2026-09-09T04:34:59.228Z",
   "sujets_actifs": [
     {
-      "titre": "Saxe-Anhalt : Victoire historique de l'AfD avec 44 % des voix",
-      "slug": "allemagne-victoire-historique-afd-saxe-anhalt",
+      "titre": "Escalade militaire directe entre les États-Unis et l'Iran dans le Golfe",
+      "slug": "escalade-militaire-usa-iran-golfe-2026",
       "rubrique": "international",
       "tldr": [
-        "L'AfD obtient 44 % des voix dans le Land de Saxe-Anhalt, un record historique.",
-        "Le chancelier Friedrich Merz (CDU) subit un camouflet avec seulement 17,2 %.",
-        "Le « cordon sanitaire » empêche pour l'instant l'extrême droite de gouverner seul."
+        "L'Iran a frappé des navires américains et une base en Jordanie.",
+        "Les États-Unis affirment avoir détruit cinq pétroliers iraniens.",
+        "Le prix du baril de Brent franchit la barre des 100 dollars."
       ],
-      "resume": "Le parti d'extrême droite Alternative für Deutschland (AfD) a remporté une victoire sans précédent lors des élections régionales en Saxe-Anhalt, récoltant environ 44 % des suffrages (Courrier international, Le Monde). Ce résultat place le parti largement devant les conservateurs de la CDU, qui s'effondrent à 18,5 %, mettant le chancelier Friedrich Merz sous une pression politique intense (20 Minutes). Bien que l'AfD soit la première force du Land, l'absence de majorité absolue et le refus systématique des autres formations de s'allier avec elle — le fameux « cordon sanitaire » — rendent la formation d'un gouvernement extrêmement complexe (NYT World). Les observateurs notent une radicalisation du discours de l'AfD, désormais ouvertement pro-russe et anti-immigration (BBC News).",
-      "contexte_historique": "C'est la première fois depuis 1945 qu'un parti d'extrême droite arrive en tête d'un scrutin régional en Allemagne. Ce Land de l'ex-RDA est un bastion historique de la contestation, où l'AfD n'a cessé de progresser depuis sa création en 2013 (Le Monde).",
+      "resume": "La tension au Moyen-Orient a franchi un seuil critique ce mercredi 9 septembre avec des affrontements directs entre les forces américaines et iraniennes. Téhéran a revendiqué des frappes contre deux navires américains et une base militaire en Jordanie, affirmant agir en représailles à la destruction par Washington de pétroliers iraniens (Le Figaro, Ouest-France). Donald Trump a confirmé que l'armée américaine avait ciblé des navires iraniens pour contrer des menaces sur la navigation dans le détroit d'Ormuz (BFM TV). Cette confrontation armée directe marque une rupture majeure, les deux puissances s'affrontant habituellement par groupes interposés, et fait craindre une fermeture prolongée des routes pétrolières mondiales.",
+      "contexte_historique": "Le détroit d'Ormuz est un point de passage stratégique où transite 20 % de la consommation mondiale de pétrole. Les tensions y sont récurrentes depuis la révolution iranienne de 1979, avec des crises majeures en 1988 (opération Praying Mantis) et en 2019. Le droit international, via la Convention des Nations Unies sur le droit de la mer, garantit la liberté de navigation dans ces eaux internationales (ONU).",
       "implications": [
-        "Déstabilisation majeure de la coalition gouvernementale à Berlin et fragilisation du leadership de Friedrich Merz.",
-        "Inquiétude croissante au sein de l'Union européenne face à la montée des nationalismes en Allemagne (BBC News)."
+        "Hausse immédiate des prix des carburants à la pompe, atteignant 2,29€ pour le gazole en France (franceinfo).",
+        "Risque de rupture d'approvisionnement énergétique majeur pour l'Europe et l'Asie."
       ],
       "chronologie": [
         {
-          "date": "2026-09-06",
-          "texte": "Fermeture des bureaux de vote et annonce des premières estimations plaçant l'AfD à 44 %.",
-          "source": "franceinfo"
+          "date": "2026-09-09",
+          "texte": "L'Iran revendique l'attaque d'une base américaine en Jordanie et de navires dans le Golfe.",
+          "source": "Ouest-France"
         },
         {
-          "date": "2026-09-06",
-          "texte": "Elon Musk apporte son soutien public à l'AfD sur X, salué par les cadres du parti.",
-          "source": "The Guardian"
+          "date": "2026-09-09",
+          "texte": "Donald Trump annonce la destruction de pétroliers iraniens par l'US Navy.",
+          "source": "BFM TV"
         },
         {
-          "date": "2026-09-07",
-          "texte": "Réactions d'inquiétude de la gauche et du centre en France ; silence remarqué du RN.",
-          "source": "Le Figaro"
+          "date": "2026-08-31",
+          "texte": "Le pétrole franchissait déjà les 90 dollars suite aux premières menaces.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Analyse de la fracture géographique et politique entre l'Est et l'Ouest de l'Allemagne.",
-          "ton": "factuel",
-          "url": "https://www.lemonde.fr/international/article/2026/09/07/en-allemagne-l-extreme-droite-realise-une-performance-historique-lors-d-elections-regionales-en-saxe-anhalt_6767759_3210.html",
-          "citation_cle": "Un séisme politique qui secoue les fondements de la République fédérale.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "The Guardian",
-          "type": "etranger",
-          "angle": "Focus sur l'influence des réseaux sociaux et le rôle ambigu d'Elon Musk dans la campagne.",
-          "ton": "critique",
-          "url": "https://www.theguardian.com/world/2026/sep/06/saxony-anhalt-germany-afd-exit-poll-ulrich-siegmund",
-          "citation_cle": "L'AfD remercie Elon Musk alors que la France met en garde contre un 'moment sérieux'.",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
           "source": "Le Figaro",
           "type": "mainstream",
-          "angle": "Victoire de l'AfD en Saxe-Anhalt : en France, la gauche et le centre expriment leurs inquiétudes, le RN garde le silence",
+          "angle": "Focus sur les détails tactiques de l'évasion d'un légionnaire et les revendications des Gardiens de la Révolution.",
           "ton": "factuel",
-          "url": "https://www.lefigaro.fr/international/victoire-de-l-afd-en-saxe-anhalt-en-france-la-gauche-et-le-centre-expriment-leurs-inquietudes-le-rn-garde-le-silence-20260907",
-          "citation_cle": "L’AfD a remporté une victoire historique dans le Land de Saxe-Anhalt. Le RN a depuis longtemps pris ses distances avec s",
+          "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-l-iran-frappe-des-bateaux-americains-dans-le-golfe-apres-les-attaques-des-etats-unis-sur-des-petroliers-iraniens-20260909",
+          "citation_cle": "Les gardiens de la révolution ont affirmé mercredi avoir attaqué deux bateaux américains.",
           "groupe_media": null
+        },
+        {
+          "source": "NYT World",
+          "type": "etranger",
+          "angle": "Analyse de la stratégie d'escalade iranienne face à l'asphyxie économique.",
+          "ton": "neutre",
+          "url": "https://www.nytimes.com/2026/09/09/world/middleeast/iran-war-us-aggression-hormuz.html",
+          "citation_cle": "L'Iran adopte une approche de plus en plus agressive car il craint que son emprise sur le détroit d'Hormuz ne glisse.",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "La CDU parviendra-t-elle à maintenir le cordon sanitaire si l'instabilité régionale persiste ?",
-        "Quelle sera l'influence de ce vote sur les futures élections fédérales ?"
+        "Le bilan humain exact des frappes iraniennes sur la base en Jordanie.",
+        "La volonté réelle des deux parties d'engager un conflit ouvert total ou de maintenir une pression maximale."
       ],
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/09/07/en-allemagne-l-extreme-droite-realise-une-performance-historique-lors-d-elections-regionales-en-saxe-anhalt_6767759_3210.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/06/saxony-anhalt-germany-afd-exit-poll-ulrich-siegmund",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/politique-l-extreme-droite-allemande-realise-une-percee-historique-en-saxe-anhalt_268260",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/monde/allemagne/4243179-20260907-allemagne-triomphe-extreme-droite-met-chancelier-merz-sous-pression?at_medium=display&at_campaign=149",
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-l-iran-frappe-des-bateaux-americains-dans-le-golfe-apres-les-attaques-des-etats-unis-sur-des-petroliers-iraniens-20260909",
           "type": "mainstream",
           "groupe_media": null
         },
         {
           "nom": "NYT World",
-          "url": "https://www.nytimes.com/video/world/asia/100000010538018/indonesia-microplastics-rain-air-jakarta.html",
-          "type": "etranger"
+          "url": "https://www.nytimes.com/2026/09/09/world/middleeast/iran-war-us-aggression-hormuz.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
         },
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c986w38r4j5o?at_medium=RSS&at_campaign=rss",
-          "type": "etranger"
-        }
-      ],
-      "premiere_apparition": "2026-09-06"
-    },
-    {
-      "titre": "ZEvent 2026 : Clôture historique avec un record de 32,8 millions d'euros",
-      "slug": "zevent-2026-record-dons-derniere-edition",
-      "rubrique": "societe",
-      "tldr": [
-        "Dernière édition du marathon caritatif Twitch créé par ZeratoR.",
-        "32,8 millions d'euros récoltés, pulvérisant le précédent record de 2022.",
-        "Plus de 91 millions d'euros levés au total en 10 ans d'existence."
-      ],
-      "resume": "L'ultime édition du ZEvent s'est achevée dans la nuit du 7 septembre à Montpellier sur un succès phénoménal, récoltant 32 891 874 euros (20 Minutes, Ouest-France). Durant trois jours, des dizaines de streamers se sont relayés pour encourager les dons au profit de plusieurs associations. Ce montant double presque les records précédents, marquant la fin d'un cycle pour l'événement caritatif le plus important de la plateforme Twitch (Le Figaro). ZeratoR, l'organisateur, a confirmé que cette édition était bien la dernière sous ce format, après une décennie d'existence (RFI).",
-      "contexte_historique": "Lancé en 2016 sous le nom 'Projet Avengers', l'événement a évolué pour devenir une référence mondiale du caritatif en ligne, recevant régulièrement les félicitations de l'Élysée, bien que cette proximité ait parfois été critiquée par une partie de la communauté (franceinfo).",
-      "implications": [
-        "Fin d'un modèle économique et caritatif majeur pour le streaming francophone.",
-        "Financement massif pour les associations bénéficiaires cette année, notamment dans les secteurs de la santé et de l'environnement."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-09-07",
-          "texte": "Clôture du marathon avec un compteur final dépassant les 32,8 millions d'euros.",
-          "source": "Ouest-France"
-        },
-        {
-          "date": "2026-09-04",
-          "texte": "Lancement de la 10e et dernière édition à Montpellier.",
-          "source": "RFI"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Le Figaro",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-au-moyen-orient-donald-trump-declare-avoir-detruit-cinq-petroliers-iraniens-l-iran-riposte_VN-202609090073.html",
           "type": "mainstream",
-          "angle": "Focus sur le record financier et la dimension culturelle de l'événement pour la 'Génération Twitch'.",
-          "ton": "neutre",
-          "url": "https://www.lefigaro.fr/culture/le-zevent-signe-une-derniere-edition-record-avec-32-8-millions-d-euros-recoltes-en-trois-jours-20260907",
-          "citation_cle": "Plus de 91 millions d’euros de dons ont été récoltés en dix ans.",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         },
         {
-          "source": "franceinfo",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/sciences/espace/il-faut-passer-de-la-haute-couture-au-pret-a-porter-comment-l-europe-tente-t-elle-de-rattraper-le-rythme-des-lancements-americains_8183735.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream",
-          "angle": "Rétrospective sur l'évolution de l'événement depuis 2016.",
-          "ton": "factuel",
-          "url": "https://www.franceinfo.fr/internet/reseaux-sociaux/l-evenement-caritatif-zevent-depasse-les-16-5-millions-d-euros-de-dons-un-record-a-quelques-heures-de-la-fin-de-son-ultime-edition_8179991.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "Un marathon caritatif qui a changé la perception du jeu vidéo en France.",
           "groupe_media": {
             "nom": "France Télévisions",
             "proprietaire": "État français",
@@ -182,86 +104,54 @@
           }
         },
         {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "\"Ensemble, on est tous forts\": pour son ultime édition, le ZEvent explose les compteurs et récolte près de 33 millions d’euros",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/tech/actualites/reseaux-sociaux/ensemble-on-est-tous-forts-pour-son-ultime-edition-le-z-event-explose-les-compteurs-et-recolte-pres-de-33-millions-d-euros_AN-202609070052.html",
-          "citation_cle": "Tout le week-end, des centaines de streameurs ont multiplié les défis et les appels aux dons depuis Montpellier. Pour sa",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Quel projet succédera au ZEvent pour mobiliser la communauté des streamers ?",
-        "Comment les associations géreront-elles un afflux de fonds aussi soudain et massif ?"
-      ],
-      "sources": [
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/monde/allemagne/4243179-20260907-allemagne-triomphe-extreme-droite-met-chancelier-merz-sous-pression?at_medium=display&at_campaign=149",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
           "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/meteo/canicule/canicule-les-fortes-chaleurs-resistent-dans-le-sud-est-six-departements-toujours-en-vigilance-orange-2492314e-aa6d-11f1-a3f7-c4f38a0eaa1c?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "url": "https://www.ouest-france.fr/sport/cyclisme/tour-d-espagne/vuelta-2026-a-quelle-heure-et-sur-quelle-chaine-tv-suivre-la-17e-etape-du-tour-despagne-en-direct-18195da6-ab9f-11f1-8346-c9d5c99462af?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
           "type": "mainstream",
           "groupe_media": null
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/culture/le-zevent-signe-une-derniere-edition-record-avec-32-8-millions-d-euros-recoltes-en-trois-jours-20260907",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20260907-deux-fils-pr%C3%A9sident-y%C3%A9men-jug%C3%A9s-en-france-dans-une-affaire-de-biens-mal-acquis-pr%C3%A9sum%C3%A9s",
-          "type": "mainstream"
         }
       ],
-      "premiere_apparition": "2026-09-04"
+      "premiere_apparition": "2026-08-31"
     },
     {
-      "titre": "Crash d'un avion-cargo Amazon à Miami : 5 morts",
-      "slug": "crash-avion-amazon-miami",
-      "rubrique": "international",
+      "titre": "Guerre commerciale : Washington interdit l'importation de produits canadiens",
+      "slug": "guerre-commerciale-usa-canada-septembre-2026",
+      "rubrique": "economie",
       "tldr": [
-        "Un Boeing 767-300 d'Amazon Air est sorti de piste à l'aéroport de Miami.",
-        "Le bilan provisoire fait état de 5 morts et 5 blessés graves.",
-        "L'appareil a percuté des véhicules au sol avant de s'embraser."
+        "Donald Trump interdit l'alcool et les motos du Canada.",
+        "Ottawa dénonce une volonté de 'dépendance' imposée par les USA.",
+        "Riposte immédiate aux surtaxes canadiennes sur les produits US."
       ],
-      "resume": "Un avion-cargo opéré pour le compte d'Amazon a effectué une sortie de piste meurtrière à l'aéroport international de Miami dimanche après-midi (BBC News, France 24). L'appareil, un Boeing 767-300 en provenance de Porto Rico, n'a pas réussi à s'immobiliser en bout de piste, percutant plusieurs véhicules de service avant de prendre feu (La Croix). Les secours ont confirmé le décès de cinq personnes, tandis que cinq autres sont hospitalisées dans un état critique (20 Minutes). Le trafic aérien a été lourdement perturbé avec plus de 200 annulations de vols.",
-      "contexte_historique": "Cet accident survient dans un contexte de surveillance accrue de la sécurité des Boeing 767 convertis en cargo, après plusieurs incidents techniques mineurs signalés ces derniers mois aux États-Unis (La Croix).",
+      "resume": "Le conflit commercial entre les États-Unis et le Canada a atteint un point de rupture. Donald Trump a annoncé l'interdiction totale d'importation de plusieurs produits canadiens emblématiques, dont les boissons alcoolisées et les motocyclettes, en réponse aux contre-tarifs imposés par Ottawa (BBC News, BFM TV). Le Premier ministre canadien par intérim, Mark Carney, a qualifié ces mesures d'inévitables, accusant Washington de chercher à transformer le Canada en satellite économique plutôt qu'en partenaire (NYT World). Cette escalade menace l'équilibre de l'ACEUM (ex-ALENA) et perturbe gravement les chaînes d'approvisionnement nord-américaines.",
+      "contexte_historique": "Les relations commerciales nord-américaines sont régies par l'ACEUM, renégocié en 2018 sous la première présidence Trump. Le Canada est historiquement le premier ou deuxième partenaire commercial des États-Unis, avec des échanges dépassant 700 milliards de dollars par an (Statistique Canada).",
       "implications": [
-        "Ouverture d'une enquête fédérale par la FAA et le NTSB sur les causes mécaniques ou humaines.",
-        "Impact potentiel sur la logistique d'Amazon Air dans la zone Caraïbes."
+        "Hausse des prix des produits de consommation courante des deux côtés de la frontière.",
+        "Menace sur des milliers d'emplois dans les secteurs de l'agroalimentaire et de l'automobile."
       ],
       "chronologie": [
         {
-          "date": "2026-09-07",
-          "texte": "Les autorités de Miami confirment le bilan de 5 morts et l'identification de l'appareil.",
+          "date": "2026-09-09",
+          "texte": "Washington annonce l'interdiction d'importation de l'alcool et du lactosérum canadiens.",
+          "source": "RFI"
+        },
+        {
+          "date": "2026-09-08",
+          "texte": "Entrée en vigueur des contre-tarifs canadiens sur les produits américains.",
           "source": "BBC News"
         },
         {
-          "date": "2026-09-06",
-          "texte": "Crash de l'avion-cargo Amazon à 14h00 heure locale à l'aéroport de Miami.",
-          "source": "BFM TV"
+          "date": "2026-08-26",
+          "texte": "Le Canada annonçait ses premières mesures de riposte aux taxes américaines.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
           "source": "BBC News",
           "type": "etranger",
-          "angle": "Détails techniques sur l'appareil et témoignages sur l'incendie immédiat après l'impact.",
+          "angle": "Analyse de la 'longue guerre commerciale' et de l'impact sur les consommateurs.",
           "ton": "factuel",
-          "url": "https://www.bbc.co.uk/news/articles/c986w38r4j5o?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "L'avion a 'dépassé' la piste avant de devenir une boule de feu.",
+          "url": "https://www.bbc.co.uk/news/articles/cn457lq938jo?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "C'est la dernière frappe d'une longue guerre commerciale.",
           "groupe_media": {
             "nom": "BBC",
             "proprietaire": "État britannique",
@@ -272,10 +162,10 @@
         {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "Focus sur les conséquences pour le trafic aérien international à Miami.",
-          "ton": "alarmiste",
-          "url": "https://www.bfmtv.com/international/video-au-moins-cinq-morts-et-cinq-blesses-apres-une-sortie-de-piste-d-un-avion-amazon-a-l-aeroport-de-miami_VN-202609070054.html",
-          "citation_cle": "Une scène de chaos sur l'un des aéroports les plus fréquentés au monde.",
+          "angle": "Focus sur l'escalade des sanctions et la liste des produits interdits.",
+          "ton": "neutre",
+          "url": "https://www.bfmtv.com/economie/international/le-conflit-entre-washington-et-ottawa-s-envenime-donald-trump-replique-aux-surtaxes-du-canada-en-interdisant-l-importation-de-certains-produits-et-en-relevant-ses-droits-de-douane-sur-plusieurs-marchandises_AD-202609090074.html",
+          "citation_cle": "Le président américain a annoncé l'interdiction des importations de certains produits canadiens.",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -284,23 +174,28 @@
           }
         },
         {
-          "source": "La Croix",
+          "source": "RFI",
           "type": "mainstream",
-          "angle": "États-Unis : un avion-cargo sort de piste à son atterrissage à Miami et fait cinq morts",
+          "angle": "Droits de douane: après la riposte d'Ottawa, Donald Trump interdit l'importation de plusieurs produits canadiens",
           "ton": "factuel",
-          "url": "https://www.la-croix.com/un-avion-cargo-d-amazon-sort-de-piste-a-miami-cinq-morts-et-cinq-blesses-20260906",
-          "citation_cle": "Un avion-cargo d’Amazon est sorti de piste dimanche 7 septembre à Miami, causant cinq morts et cinq blessés. Près de 200",
-          "groupe_media": null
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260909-droits-de-douane-apr%C3%A8s-la-riposte-d-ottawa-donald-trump-interdit-l-importation-de-plusieurs-produits-canadiens",
+          "citation_cle": "Les États-Unis ont annoncé mardi 8 septembre une interdiction d'importation de plusieurs produits canadiens comme les bo",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Les conditions météorologiques ont-elles joué un rôle déterminant dans l'atterrissage raté ?",
-        "Y avait-il des passagers non déclarés ou uniquement des membres d'équipage à bord ?"
+        "La durée de ces mesures avant une éventuelle médiation internationale.",
+        "L'impact réel sur le PIB canadien si les exportations de bois d'œuvre sont également touchées."
       ],
       "sources": [
         {
           "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c986w38r4j5o?at_medium=RSS&at_campaign=rss",
+          "url": "https://www.bbc.co.uk/news/articles/cn457lq938jo?at_medium=RSS&at_campaign=rss",
           "type": "etranger",
           "groupe_media": {
             "nom": "BBC",
@@ -310,65 +205,204 @@
           }
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/un-avion-cargo-d-amazon-sort-de-piste-a-miami-cinq-morts-et-cinq-blesses-20260906",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/economie/international/le-conflit-entre-washington-et-ottawa-s-envenime-donald-trump-replique-aux-surtaxes-du-canada-en-interdisant-l-importation-de-certains-produits-et-en-relevant-ses-droits-de-douane-sur-plusieurs-marchandises_AD-202609090074.html",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         },
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/monde/allemagne/4243179-20260907-allemagne-triomphe-extreme-droite-met-chancelier-merz-sous-pression?at_medium=display&at_campaign=149",
-          "type": "mainstream",
-          "groupe_media": null
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/09/08/world/canada/carney-tariffs-trade.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
         },
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260907-accident-d-avion-cargo-%C3%A0-l-a%C3%A9roport-de-miami",
-          "type": "mainstream"
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260909-droits-de-douane-apr%C3%A8s-la-riposte-d-ottawa-donald-trump-interdit-l-importation-de-plusieurs-produits-canadiens",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         }
       ],
-      "premiere_apparition": "2026-09-06"
-    }
-  ],
-  "sujets_refroidis": [
+      "premiere_apparition": "2026-08-26"
+    },
     {
-      "titre": "Guerre commerciale : le Canada riposte aux taxes de Donald Trump",
-      "slug": "guerre-commerciale-canada-usa-riposte",
-      "rubrique": "economie",
-      "resume": "Après l'annonce des mesures de rétorsion canadiennes, les deux gouvernements sont entrés dans une phase de négociations techniques. L'intensité médiatique a baissé au profit des enjeux électoraux internes.",
+      "titre": "Classement PISA 2025 : Niveau historiquement bas pour les élèves français",
+      "slug": "classement-pisa-2025-chute-niveau-france",
+      "rubrique": "societe",
+      "tldr": [
+        "Les résultats des élèves français sont les plus bas jamais mesurés.",
+        "L'OCDE note un affaissement général, surtout marqué en Occident.",
+        "Bruno Le Maire propose la maternelle obligatoire dès l'âge d'un an."
+      ],
+      "resume": "L'enquête internationale PISA 2025 révèle une chute spectaculaire du niveau des élèves de 15 ans en France, atteignant un plancher historique (RFI, Courrier international). Le ministre de l'Éducation nationale a qualifié ce constat de 'préoccupant', tandis que l'ancien ministre Bruno Le Maire a immédiatement réagi en proposant d'avancer l'entrée en maternelle à un an pour lutter contre les inégalités dès le plus jeune âge (Le Figaro). Cette baisse n'est pas exclusive à la France : l'OCDE observe un déclin généralisé des compétences en lecture et en mathématiques dans la plupart des pays développés, les États-Unis atteignant également un bas de 25 ans en lecture (Al Jazeera).",
+      "contexte_historique": "Créé en 2000 par l'OCDE, le programme PISA évalue tous les trois ans les compétences des élèves de 15 ans. La France a longtemps stagné dans la moyenne de l'OCDE avant d'entamer un décrochage plus marqué ces dix dernières années (OCDE, 2023).",
+      "implications": [
+        "Remise en question profonde des réformes éducatives successives en France.",
+        "Risque de perte de compétitivité économique à long terme faute de compétences fondamentales."
+      ],
       "chronologie": [
         {
-          "date": "2026-08-26",
-          "texte": "Ottawa annonce des taxes sur l'acier et l'aluminium américain.",
-          "source": "BFM Business"
+          "date": "2026-09-09",
+          "texte": "Publication officielle des résultats PISA 2025 montrant un déclin historique.",
+          "source": "RFI"
+        },
+        {
+          "date": "2026-09-08",
+          "texte": "Bruno Le Maire propose la scolarisation dès l'âge d'un an.",
+          "source": "Le Figaro"
+        },
+        {
+          "date": "2026-09-09",
+          "texte": "Les États-Unis rapportent un score en lecture au plus bas depuis 25 ans.",
+          "source": "Al Jazeera"
         }
       ],
       "couvertures": [
         {
-          "source": "BFM Business",
+          "source": "RFI",
           "type": "mainstream",
-          "angle": "Analyse des secteurs industriels les plus touchés au Québec.",
+          "angle": "Focus sur le 'bonnet d'âne' de la France et l'inquiétude du ministère.",
+          "ton": "critique",
+          "url": "https://www.rfi.fr/fr/france/20260909-education-france-bonnet-d-%C3%A2ne-rapport-pisa-resultats-en-baisse",
+          "citation_cle": "Les résultats des élèves français [...] sont les plus bas jamais mesurés.",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "Courrier international",
+          "type": "etranger",
+          "angle": "Perspective globale sur l'affaissement généralisé en Occident.",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/le-monde-qui-bouge/le-monde-qui-bouge-la-revue-de-presse-les-emissaires-de-trump-ont-quitte-kiev-dans-la-nuit-07-09_EN-202609070073.html",
-          "citation_cle": "Une guerre d'usure qui commence entre les deux alliés."
+          "url": "https://www.courrierinternational.com/article/education-classement-pisa-2025-l-ocde-constate-un-affaissement-general-du-niveau-des-eleves-particulierement-marque-en-occident_269118",
+          "citation_cle": "La dernière édition confirme une tendance à la baisse, scrutée avec inquiétude.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Le Figaro",
+          "type": "mainstream",
+          "angle": "Bruno Le Maire veut «avancer l’entrée en maternelle de trois ans à un an» face à la baisse du niveau des élèves français",
+          "ton": "factuel",
+          "url": "https://www.lefigaro.fr/actualite-france/bruno-le-maire-veut-avancer-l-entree-en-maternelle-de-trois-ans-a-un-an-face-a-la-baisse-du-niveau-des-eleves-francais-20260908",
+          "citation_cle": "Pour répondre au décrochage du système éducatif français, l’ancien ministre de l’Économie et des Finances estime qu’une ",
+          "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'impact réel sur l'inflation des produits de consommation courante à l'automne."
+        "L'efficacité réelle d'une scolarisation à un an sur les résultats à 15 ans.",
+        "La part de responsabilité respective de l'usage des écrans et du manque de moyens dans ce déclin."
       ],
       "sources": [
         {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/le-monde-qui-bouge/le-monde-qui-bouge-la-revue-de-presse-les-emissaires-de-trump-ont-quitte-kiev-dans-la-nuit-07-09_EN-202609070073.html",
-          "type": "mainstream"
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20260909-education-france-bonnet-d-%C3%A2ne-rapport-pisa-resultats-en-baisse",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/actualite-france/bruno-le-maire-veut-avancer-l-entree-en-maternelle-de-trois-ans-a-un-an-face-a-la-baisse-du-niveau-des-eleves-francais-20260908",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/education-classement-pisa-2025-l-ocde-constate-un-affaissement-general-du-niveau-des-eleves-particulierement-marque-en-occident_269118",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/9/cluster-munitions-kill-wound-over-1000-globally-in-2025?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
         }
       ],
-      "derniere_mise_a_jour": "2026-09-07",
-      "statut": "Sujet stabilisé en attente des résultats des premiers cycles de négociation."
+      "premiere_apparition": "2026-09-08"
+    }
+  ],
+  "sujets_refroidis": [
+    {
+      "titre": "Crash d'un avion-cargo Amazon à Miami",
+      "slug": "crash-avion-cargo-amazon-miami",
+      "rubrique": "international",
+      "resume": "L'enquête progresse sur le crash qui a fait 5 morts. Les pilotes auraient tenté d'avorter l'atterrissage quelques secondes avant l'impact sur un véhicule de service.",
+      "chronologie": [
+        {
+          "date": "2026-09-08",
+          "texte": "Révélation de la tentative d'avortement d'atterrissage par les pilotes.",
+          "source": "The Guardian"
+        },
+        {
+          "date": "2026-09-06",
+          "texte": "L'avion-cargo Amazon s'écrase à Miami, tuant 5 employés au sol.",
+          "source": "The Guardian"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "The Guardian",
+          "type": "etranger",
+          "angle": "Détails sur les victimes et les dernières secondes du vol.",
+          "ton": "factuel",
+          "url": "https://www.theguardian.com/us-news/2026/sep/08/amazon-cargo-plane-crash-victims",
+          "citation_cle": "Les cinq personnes tuées étaient des employés d'une société de nettoyage d'avions."
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "La cause technique exacte du dépassement de piste."
+      ],
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/08/amazon-cargo-plane-crash-victims",
+          "type": "etranger"
+        }
+      ],
+      "derniere_mise_a_jour": "2026-09-09",
+      "statut": "En attente des conclusions du NTSB sur les boîtes noires."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 515,
+    "nb_articles_analyses": 715,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
