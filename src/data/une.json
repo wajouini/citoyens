@@ -1,61 +1,71 @@
 {
   "sujet_du_jour": {
-    "titre": "Mistral AI : levée de fonds record de 3 milliards d'euros pour la pépite de l'IA",
-    "rubrique": "tech",
-    "pourquoi_important": "C'est la plus importante levée de fonds en fonds propres jamais réalisée par une entreprise technologique privée européenne, affirmant une ambition de souveraineté face aux géants américains.",
+    "titre": "Août 2026 : le mois le plus chaud jamais enregistré sur Terre",
+    "rubrique": "science",
+    "pourquoi_important": "La barre symbolique des +1,5°C de réchauffement par rapport à l'ère préindustrielle est de nouveau franchie, confirmant l'accélération de la crise climatique.",
     "faits": [
-      "Mistral AI a bouclé un tour de table de Série D de 3 milliards d'euros, portant sa valorisation à plus de 21 milliards d'euros (Mistral AI, .",
-      "L'opération est menée par des investisseurs internationaux, dont Samsung, qui a officialisé un partenariat stratégique industriel le 9 septembre (Next.",
-      "La start-up revendique une stratégie « full stack » intégrant modèles à poids ouverts, inférence et industrialisation pour réduire la dépendance aux infrastructures américaines (Next, RFI).",
-      "Malgré ce record, Mistral reste un « petit acteur » comparé aux mastodontes comme OpenAI ou Anthropic, mais mise sur la flexibilité de ses modèles pour les entreprises (L'Obs, France 24 EN)."
+      "La température moyenne mondiale a atteint 16,96°C en août 2026, soit +0,85°C au-dessus de la moyenne 1991-2020 .",
+      "Le mois se classe ex æquo avec juillet 2023 comme le plus chaud de l'histoire moderne, avec une anomalie de +1,65°C par rapport au préindustriel (Reporterre, Ouest-France).",
+      "La température de surface des océans a battu un record absolu à 21,11°C fin août (France 24.",
+      "Les scientifiques estiment que l'humanité n'a pas connu de telles températures depuis 125 000 ans (Le Monde, France 24)."
     ],
-    "contexte": "Fondée par des anciens de Meta et Google DeepMind, Mistral AI s'est rapidement imposée comme le fer de lance de l'intelligence artificielle européenne. Cette levée de fonds massive intervient dans un climat de course mondiale à l'armement technologique, où la maîtrise des modèles et des infrastructures de calcul devient un enjeu de souveraineté politique et économique majeur pour l'Union européenne.",
+    "contexte": "Le service européen Copernicus (C3S) a officialisé ce bilan le 10 septembre 2026. Ce record s'inscrit dans un été boréal extrême marqué par le développement du phénomène El Niño. Pour la première fois depuis novembre 2025, la planète repasse au-dessus du seuil de 1,5°C fixé par l'Accord de Paris sur un mois calendaire complet, illustrant l'urgence de la transition écologique.",
     "sources": [
       {
-        "nom": "Mistral AI",
-        "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+        "nom": "Copernicus (C3S)",
+        "url": "https://climate.copernicus.eu/surface-air-temperature-august-2026",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "Next",
-        "url": "https://next.ink/255355/mistral-leve-3-milliards-deuros-et-revendique-une-approche-full-stack-de-lia/",
-        "type": "investigation",
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/planete/article/2026/09/10/aout-2026-est-le-mois-le-plus-chaud-jamais-mesure-dans-le-monde-copernicus-alerte-sur-des-risques-accrus-pour-l-europe_6769228_3244.html",
+        "type": "mainstream",
         "groupe_media": {
-          "nom": "Next (ex-Next INpact)",
-          "proprietaire": "Équipe fondatrice",
-          "type_proprietaire": "independant",
-          "orientation": "centre"
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       },
       {
-        "nom": "L'Obs",
-        "url": "https://www.nouvelobs.com/economie/20260908.OBS118058/3-milliards-d-euros-leves-par-mistral-la-pepite-francaise-de-l-ia-porte-la-souverainete-avec-les-moyens-du-bord.html",
-        "type": "mainstream",
-        "groupe_media": null
+        "nom": "Reporterre",
+        "url": "https://reporterre.net/Le-mois-d-aout-a-ete-le-plus-chaud-jamais-enregistre-a-l-echelle-mondiale",
+        "type": "investigation",
+        "groupe_media": {
+          "nom": "Reporterre",
+          "proprietaire": "Association La Pile",
+          "type_proprietaire": "independant",
+          "orientation": "gauche"
+        }
       },
       {
-        "nom": "RFI",
-        "url": "https://www.rfi.fr/fr/france/20260909-education-france-bonnet-d-%C3%A2ne-rapport-pisa-resultats-en-baisse",
+        "nom": "Ouest-France",
+        "url": "https://www.ouest-france.fr/economie/transports/exclusif-90-millions-deuros-pour-accelerer-le-deploiement-de-stations-de-recharge-pour-les-poids-lourds-electriques-8039a006-ab88-11f1-8801-66f16947434c?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
         "type": "mainstream"
       },
       {
-        "nom": "France 24 EN",
-        "url": "https://www.france24.com/en/tv-shows/spotlight/20260908-was-this-a-state-visit-indian-opposition-leader-raises-serious-questions-over-paris-baps-temple",
-        "type": "etranger"
+        "nom": "France 24 FR",
+        "url": "https://www.france24.com/fr/plan%C3%A8te/20260910-ao%C3%BBt-2026-a-%C3%A9t%C3%A9-le-mois-le-plus-chaud-jamais-mesur%C3%A9-dans-le-monde",
+        "type": "mainstream"
+      },
+      {
+        "nom": "France 24 FR",
+        "url": "https://www.france24.com/fr/plan%C3%A8te/20260910-ao%C3%BBt-2026-a-%C3%A9t%C3%A9-le-mois-le-plus-chaud-jamais-mesur%C3%A9-dans-le-monde",
+        "type": "mainstream"
       }
     ],
-    "lien": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+    "lien": "https://climate.copernicus.eu/copernicus-august-was-worlds-joint-hottest-month-record-pushing-global-temperatures-back-above"
   },
   "france": [
     {
-      "titre": "François Bayrou de retour devant la justice en appel",
-      "rubrique": "politique",
-      "resume": "Après sa relaxe en 2024, le président du MoDem est rejugé pour complicité de détournement de fonds publics dans l'affaire des assistants parlementaires européens (Le Monde, Mediapart). Le parquet conteste le jugement de première instance qui avait pointé une 'insuffisance de preuves' malgré la condamnation du parti (France 24 FR).",
+      "titre": "Scandale de racisme dans la police municipale de Carcassonne",
+      "rubrique": "societe",
+      "resume": "Une vidéo issue d'une caméra-piéton révèle des propos racistes, misogynes et complotistes tenus par un brigadier-chef lors d'une patrouille fin 2025. Le Rassemblement National, dont l'agent était membre du service d'ordre, a annoncé son exclusion, tandis que le parquet de Carcassonne a ouvert une enquête (Le Monde, Mediapart, franceinfo).",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/09/08/francois-bayrou-juge-en-appel-dans-l-affaire-des-assistants-parlementaires-europeens-du-modem_6768404_3224.html",
+          "url": "https://www.lemonde.fr/societe/article/2026/09/09/la-deambulation-raciste-d-un-policier-municipal-de-carcassonne-captee-par-sa-propre-camera-pieton-suscite-l-indignation-generale-et-l-embarras-du-rn_6768954_3224.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -66,7 +76,7 @@
         },
         {
           "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/080926/affaire-des-assistants-du-modem-francois-bayrou-de-retour-devant-la-justice",
+          "url": "https://www.mediapart.fr/journal/france/090926/le-rn-se-debarrasse-d-un-membre-de-son-service-d-ordre-policier-municipal-apres-des-propos-racistes",
           "type": "investigation",
           "groupe_media": {
             "nom": "Mediapart",
@@ -76,56 +86,44 @@
           }
         },
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/%C3%A9co-tech/20260909-avec-son-premier-sommet-international-%C3%A0-paris-l-europe-cherche-sa-place-dans-la-course-spatiale",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/environnement/crise-climatique/aout-2026-a-ete-le-mois-le-plus-chaud-jamais-enregistre-a-l-echelle-mondiale-annonce-l-observatoire-copernicus_8185418.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Classement PISA : niveau historiquement bas pour les élèves français",
+      "titre": "Urgences psychiatriques en Île-de-France : un rapport accablant",
       "rubrique": "societe",
-      "resume": "L'enquête PISA 2025 révèle une dégradation continue du niveau en mathématiques et en lecture, atteignant les scores les plus bas jamais mesurés en France (La Croix, RFI). Libération souligne que cette 'dégringolade' post-Covid interroge le rôle des écrans et le désintérêt parental.",
+      "resume": "La Contrôleuse générale des lieux de privation de liberté dénonce des conditions de prise en charge « indignes » dans plusieurs hôpitaux parisiens (. Le rapport pointe des atteintes aux droits fondamentaux des patients dues au manque de moyens (franceinfo, Sud-Ouest.",
       "sources": [
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/enquete-pisa-sur-l-education-en-maths-ou-en-lecture-les-eleves-francais-a-un-niveau-historiquement-bas-20260908",
-          "type": "mainstream",
-          "groupe_media": null
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/environnement/crise-climatique/aout-2026-a-ete-le-mois-le-plus-chaud-jamais-enregistre-a-l-echelle-mondiale-annonce-l-observatoire-copernicus_8185418.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream"
         },
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/sante/un-rapport-denonce-des-dysfonctionnements-graves-aux-urgences-psychiatriques-en-ile-de-france-30557404.php",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Pénibilité : 4 salariés sur 10 ne se voient pas tenir jusqu'à la retraite",
+      "rubrique": "economie",
+      "resume": "Malgré une légère baisse de l'intensité du travail pour la première fois depuis 1980, une étude de la Dares souligne que 40 % des salariés font face à de fortes contraintes physiques. Le sentiment de ne pas pouvoir tenir physiquement reste prédominant chez les travailleurs manuels (Libération, BFM Business).",
+      "sources": [
         {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/societe/education/rapport-pisa-2025-les-plus-faibles-resultats-jamais-enregistres-en-france-sur-fond-de-tendance-mondiale-a-la-baisse-20260908_TDOYDTBYIVB23APXJQK3GVTKUE/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20260909-education-france-bonnet-d-%C3%A2ne-rapport-pisa-resultats-en-baisse",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Bruno Retailleau propose de supprimer le droit du sol",
-      "rubrique": "politique",
-      "resume": "Le candidat LR à la présidentielle souhaite organiser un référendum pour réviser la Constitution et mettre fin à l'acquisition automatique de la nationalité par la naissance (BFM TV, Le Monde). Cette mesure s'inscrit dans une volonté d'élargir le champ référendaire aux politiques migratoires.",
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/environnement/climat/video-face-au-manque-d-eau-les-ventes-de-recuperateurs-d-eau-de-pluie-ont-explose-cet-ete_VN-202609090086.html",
+          "url": "https://www.liberation.fr/politique/le-conseil-detat-face-a-une-maree-contentieuse-au-risque-dun-effondrement-du-systeme-judiciaire-20260909_2DBQUPHCLJB4ZIFUW6RCPMCGRA/",
           "type": "mainstream"
         },
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/09/09/hong-kong-deces-de-tung-chee-hwa-premier-chef-de-l-executif-apres-la-retrocession-du-territoire-a-la-chine_6768824_3210.html",
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/le-monde-qui-bouge-la-revue-de-presse-iran-washington-se-prepare-a-une-guerre-jusqu-a-2029-10-09_EN-202609100082.html",
           "type": "mainstream"
         }
       ],
@@ -134,103 +132,98 @@
   ],
   "monde": [
     {
-      "titre": "Escalade militaire directe entre les États-Unis et l'Iran",
-      "pays": "Iran / USA",
-      "resume": "Washington a annoncé la destruction de cinq pétroliers iraniens dans le Golfe en représailles à des attaques contre sa marine (RFI, BFM TV). En riposte, les Gardiens de la Révolution ont frappé une base américaine en Jordanie et menacent les tankers au Koweït et à Bahreïn (France 24 FR, Le Figaro).",
+      "titre": "Incendie meurtrier d'un ferry aux Philippines",
+      "pays": "Philippines",
+      "resume": "Le ferry « M/V June Aster », qui reliait Manille à Coron, a pris feu au large de Palawan. Le bilan provisoire fait état de 5 morts et 87 disparus, alors que 43 personnes ont pu être secourues (NYT World, France 24, Le Monde).",
       "sources": [
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/moyen-orient/20260908-en-direct-etats-unis-detruit-cinq-petroliers-navires-iraniens-gardiens-revolution-menacent-koweit-bahrein-pays-golfe-detroit-ormuz",
-          "type": "mainstream",
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/09/09/world/asia/philippines-ferry-fire-palawan.html",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
             "orientation": "centre"
           }
         },
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-l-iran-frappe-des-bateaux-americains-dans-le-golfe-apres-les-attaques-des-etats-unis-sur-des-petroliers-iraniens-20260909",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/09/10/aux-philippines-au-moins-cinq-morts-et-des-dizaines-de-disparus-dans-l-incendie-d-un-ferry_6769162_3210.html",
           "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20260909-education-france-bonnet-d-%C3%A2ne-rapport-pisa-resultats-en-baisse",
-          "type": "mainstream"
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/environnement/climat/video-face-au-manque-d-eau-les-ventes-de-recuperateurs-d-eau-de-pluie-ont-explose-cet-ete_VN-202609090086.html",
-          "type": "mainstream"
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         }
       ],
       "lien": null
     },
     {
-      "titre": "Guerre commerciale frontale entre Washington et Ottawa",
-      "pays": "Canada / USA",
-      "resume": "Donald Trump a interdit l'importation de produits canadiens, notamment les alcools, et imposé des surtaxes de 50% sur plusieurs marchandises (BFM TV, RFI). Ottawa a immédiatement riposté avec des surtaxes visant 20 milliards de dollars de produits américains (Ouest-France).",
+      "titre": "L'Ukraine redoute un hiver de pénuries",
+      "pays": "Ukraine",
+      "resume": "Faute d'une défense antiaérienne suffisante, les infrastructures énergétiques ukrainiennes sont vulnérables aux frappes russes. À Kiev, des pénuries alimentaires commencent à apparaître sur les étals (Le Monde, Courrier international).",
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260909-droits-de-douane-apr%C3%A8s-la-riposte-d-ottawa-donald-trump-interdit-l-importation-de-plusieurs-produits-canadiens",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/09/10/l-ukraine-se-prepare-a-affronter-un-nouvel-hiver-effroyable-faute-d-une-defense-anti-aerienne-suffisante_6769332_3210.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/monde/canada/guerre-commerciale-trump-durcit-le-ton-ottawa-riposte-coup-pour-coup-8704d1c0-abde-11f1-8346-c9d5c99462af",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/environnement/climat/video-face-au-manque-d-eau-les-ventes-de-recuperateurs-d-eau-de-pluie-ont-explose-cet-ete_VN-202609090086.html",
-          "type": "mainstream"
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/ukraine-kiev-sous-la-menace-de-penuries-alimentaires-j-essaie-de-ne-pas-penser-a-l-avenir_269483",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Indice de réparabilité : l'échec de la transparence européenne",
-    "rubrique": "economie",
-    "contexte": "Un an après l'entrée en vigueur de la réglementation européenne imposant l'affichage d'un indice de réparabilité pour les smartphones, les bilans tombent.",
+    "sujet": "Présence du loup : entre protection et suspicion",
+    "rubrique": "societe",
+    "contexte": "Plusieurs incidents récents impliquant des loups ou des attaques de troupeaux relancent le débat sur la cohabitation entre prédateurs et activités humaines.",
     "couvertures": [
       {
-        "source": "BFM Business",
+        "source": "franceinfo",
         "type": "mainstream",
-        "angle": "Focus sur le non-respect des règles de transparence par les fabricants.",
+        "angle": "Relais des doutes des associations environnementales sur une attaque massive dans le Vercors.",
         "ton": "factuel",
-        "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-a-lire-sur-le-site-tech-co-80-des-smartphones-manquent-d-information-de-reparabilite-la-majorite-des-fabricants-ne-respectent-pas-les-regles-de-transparence-un-an-apres-l-entree-en-vigueur-du-texte-europeen-par-sylvain-trinel-08-09_VN-202609080900.html",
-        "citation_cle": "80% des smartphones manquent d'information de réparabilité.",
-        "auteur": "Sylvain Trinel",
-        "proprietaire_contexte": "Rodolphe Saadé (CMA CGM)",
-        "orientation_source": "Centre-droit, pro-business",
+        "url": "https://www.franceinfo.fr/environnement/biodiversite/animaux/des-associations-mettent-en-doute-l-attaque-probablement-par-un-loup-de-64-brebis-dans-le-vercors-et-demandent-une-enquete-approfondie_8185403.html",
+        "citation_cle": "Le caractère inédit de cette attaque pousse plusieurs associations environnementales à remettre en question l'hypothèse du loup.",
+        "auteur": null,
+        "proprietaire_contexte": "État français",
+        "orientation_source": "centre",
         "groupe_media": {
-          "nom": "CMA CGM",
-          "proprietaire": "Rodolphe Saadé",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
         }
       },
       {
         "source": "Reporterre",
         "type": "investigation",
-        "angle": "Dénonciation de l'impunité des fabricants face aux objectifs écologiques.",
-        "ton": "critique",
-        "url": "https://reporterre.net/Reparer-son-smartphone-trop-de-fabricants-ne-respectent-pas-la-reglementation",
-        "citation_cle": "Trop de fabricants ne respectent pas la réglementation.",
-        "auteur": null,
-        "proprietaire_contexte": "Association La Pile (Indépendant)",
-        "orientation_source": "Gauche, écologiste",
+        "angle": "Reportage sur un loup atypique qui ne craint pas l'homme et n'attaque pas les troupeaux.",
+        "ton": "engage",
+        "url": "https://reporterre.net/D-ou-il-sort-celui-la-ce-loup-n-attaque-pas-les-troupeaux-et-n-a-pas-peur-des-humains",
+        "citation_cle": "Des associations craignent qu'il ne soit abattu quand même.",
+        "auteur": "Emmanuel Clévenot",
+        "proprietaire_contexte": "Indépendant (Association La Pile)",
+        "orientation_source": "gauche",
         "groupe_media": {
           "nom": "Reporterre",
           "proprietaire": "Association La Pile",
@@ -239,131 +232,123 @@
         }
       }
     ],
-    "analyse_coherence": "L'analyse des couvertures révèle un consensus sur le constat d'échec, mais des nuances dans la responsabilité. BFM Business, média pro-business, traite le sujet sous l'angle de la 'transparence' et du manquement technique à une règle (80% de défaut d'information), sans remettre en cause le modèle industriel. À l'inverse, Reporterre adopte une posture plus frontale, pointant une volonté délibérée des fabricants de contourner la loi pour préserver l'obsolescence programmée. Ce 'double standard' se manifeste dans le ton : là où le média mainstream reste dans le constat d'une anomalie de marché, le média d'investigation écologique y voit une trahison des engagements climatiques européens. L'absence de sanctions effectives, mentionnée en creux, souligne l'impuissance du régulateur face aux lobbies technologiques, une dimension que les médias à capitaux industriels (comme BFM) ont tendance à moins souligner que les médias indépendants.",
+    "analyse_coherence": "La couverture médiatique du loup révèle une tension entre le traitement institutionnel et le journalisme de terrain. Alors que franceinfo se fait l'écho d'une remise en question factuelle d'une attaque de troupeau par les associations (souvent accusées de 'both-sidesism' par les syndicats agricoles), Reporterre adopte un angle plus protecteur en documentant un comportement animal déviant des stéréotypes habituels du prédateur. On observe une absence de standard unique : le loup est soit un coupable présumé par défaut (discours préfectoral souvent repris sans filtre), soit un individu à protéger face à des politiques d'abattage jugées arbitraires. La divergence majeure réside dans l'interprétation du danger : là où le mainstream se focalise sur les dégâts économiques (64 brebis), l'investigation écologique s'intéresse à l'éthologie et au risque de dérive des tirs de prélèvement.",
     "biais_detectes": [
-      "Minimisation de l'impact écologique par les médias mainstream",
-      "Focus exclusif sur la transparence plutôt que sur la durabilité réelle"
+      "Biais institutionnel (reprise des termes 'probablement loup' sans preuve)",
+      "Biais de protectionnisme environnemental"
     ],
-    "ce_quil_faut_retenir": "Malgré la loi, l'accès à l'information sur la réparabilité reste une exception. Le consommateur est laissé sans outils face à des fabricants qui ignorent les directives européennes en l'absence de contrôles stricts."
+    "ce_quil_faut_retenir": "Toutes les attaques de troupeaux ne sont pas imputables au loup, et tous les loups n'attaquent pas les troupeaux. La nuance scientifique peine à s'imposer face à l'urgence émotionnelle des éleveurs et des défenseurs de la nature."
   },
   "regard_etranger": [
     {
-      "source": "The New York Times",
-      "pays": "États-Unis",
-      "titre": "Tung Chee-hwa, qui a dirigé Hong Kong après son retour à la Chine, meurt à 89 ans",
-      "titre_original": "Tung Chee-hwa, Who Led Hong Kong After Its Return to China, Dies at 89",
-      "angle": "Focus sur l'équilibre précaire entre les exigences de Pékin et celles des Hongkongais lors de la rétrocession.",
-      "url": "https://www.nytimes.com/2026/09/08/world/asia/tung-chee-hwa-dead.html",
-      "groupe_media": null
+      "source": "Al Jazeera",
+      "pays": "Qatar",
+      "titre": "L'agence d'espionnage espagnole avait averti des franchissements massifs à Ceuta",
+      "titre_original": "Spain’s spy agency warned of mass crossings into Ceuta before border crisis",
+      "angle": "Souligne l'échec de la coordination entre Madrid et le Maroc malgré les renseignements disponibles.",
+      "url": "https://www.aljazeera.com/news/2026/9/10/spains-spy-agency-warned-of-mass-migrant-crossing-to-ceuta-before-crisis",
+      "groupe_media": {
+        "nom": "Al Jazeera Media Network",
+        "proprietaire": "État du Qatar",
+        "type_proprietaire": "etat",
+        "orientation": "variable"
+      }
+    },
+    {
+      "source": "The Guardian",
+      "pays": "Royaume-Uni",
+      "titre": "Les chasseurs-cueilleurs indonésiens consommaient des noix psychotropes il y a 25 000 ans",
+      "titre_original": "Indonesian foragers may have sucked on mind-altering nuts 25,000 years ago",
+      "angle": "Mise en avant d'une découverte scientifique majeure sur les origines de l'usage de drogues.",
+      "url": "https://www.theguardian.com/science/2026/sep/09/indonesian-foragers-mind-altering-nuts-research-finds",
+      "groupe_media": {
+        "nom": "Scott Trust",
+        "proprietaire": "Scott Trust Limited",
+        "type_proprietaire": "fondation",
+        "orientation": "centre-gauche"
+      }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "3 milliards d'euros",
-    "contexte": "Montant record de la levée de fonds réalisée par Mistral AI, la valorisant à 21 milliards d'euros.",
-    "source": "Mistral AI",
-    "source_url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+    "valeur": "401,6 millions",
+    "contexte": "Nombre de noms de domaine enregistrés dans le monde au 30 juin 2026, franchissant un seuil historique.",
+    "source": "DNIB / Verisign",
+    "source_url": "https://www.dnib.com/media/downloads/reports/domain-name-report-Q22026.pdf"
   },
   "a_surveiller": [
     {
-      "date": "2026-09-09",
-      "evenement": "Ouverture du procès en appel de François Bayrou à Paris",
-      "type": "audition",
-      "lien": "https://www.lemonde.fr/societe/article/2026/09/08/francois-bayrou-juge-en-appel-dans-l-affaire-des-assistants-parlementaires-europeens-du-modem_6768404_3224.html"
-    },
-    {
-      "date": "2026-09-28",
-      "evenement": "Conseil de la Métropole de Lyon sur les arbitrages budgétaires associatifs",
-      "type": "commission",
-      "lien": null
+      "date": "2027-04-30",
+      "evenement": "Ouverture du procès en appel de Cédric Jubillar à Toulouse",
+      "type": "autre",
+      "lien": "https://www.20minutes.fr/justice/4243996-20260909-proces-appel-cedric-jubillar-connait-desormais-dates-audience-toulouse"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Carences de contrôle dans l'animation périscolaire",
-      "rubrique": "societe",
-      "resume": "Des enquêtes à Villeurbanne et Lille révèlent des 'oublis' systématiques de vérification du casier judiciaire d'animateurs, entraînant des suspensions pour violences sexuelles (Médiacités).",
+      "titre": "Livre de François Piquemal sur les ingérences israéliennes",
+      "rubrique": "politique",
+      "resume": "Le député LFI publie 'Élection sous influence', dénonçant des manœuvres de déstabilisation lors des municipales 2026 à Toulouse, s'appuyant sur un rapport de Viginum mentionnant la structure d'influence 'Blackcore' (Médiacités).",
       "sources": [
         {
           "nom": "Médiacités",
-          "url": "https://www.mediacites.fr/enquete/lyon/2026/09/08/violences-dans-le-periscolaire-a-villeurbanne-des-failles-dans-le-processus-de-recrutement/",
+          "url": "https://www.mediacites.fr/lu-pour-vous/toulouse/2026/09/09/francois-piquemal-publie-un-livre-sur-les-ingerences-israeliennes-pendant-lelection-municipale-2026-a-toulouse/",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce sujet révèle une faille systémique dans la protection de l'enfance au niveau municipal, souvent occultée par le manque de moyens des mairies."
+      "pourquoi_signal": "Sujet explosif sur la souveraineté numérique et démocratique, peu relayé par les médias nationaux malgré les rapports officiels du SGDSN."
     },
     {
-      "titre": "Menaces sur les ateliers d'auto-réparation vélo à Lyon",
-      "rubrique": "economie",
-      "resume": "La Métropole de Lyon envisagerait de supprimer les subventions de fonctionnement des ateliers vélo, malgré ses engagements publics pour la transition écologique (Rue89 Lyon).",
+      "titre": "Suppression massive des domaines .name par Verisign",
+      "rubrique": "tech",
+      "resume": "Verisign a obtenu de l'ICANN l'autorisation de supprimer les domaines de type 'prenom.nom.name', menaçant l'identité numérique de milliers d'utilisateurs historiques (Next).",
       "sources": [
         {
-          "nom": "Rue89 Lyon",
-          "url": "https://www.rue89lyon.fr/2026/09/09/metropole-lyon-sabre-aides-ateliers-dauto-reparation-velo/",
+          "nom": "Next",
+          "url": "https://next.ink/255396/je-disparais-dinternet-verisign-arrete-les-prenom-nom-name-avec-pertes-et-fracas/",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Il illustre le décalage entre les discours politiques sur le 'Plan Vélo' et la réalité des coupes budgétaires affectant les structures sociales de proximité."
+      "pourquoi_signal": "Un exemple de centralisation du web où une entreprise privée peut effacer des décennies de présence numérique avec l'aval d'un régulateur."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Sanctions occidentales inédites contre les colonies israéliennes",
+      "titre": "Cisjordanie : les écoles palestiniennes ciblées par les colons",
       "rubrique": "international",
-      "resume": "Douze pays, dont la France et le Royaume-Uni, annoncent des restrictions commerciales sur les biens issus des colonies en Cisjordanie (RFI, France Diplomatie).",
+      "resume": "Les attaques de colons contre les écoles augmentent pour pousser les familles palestiniennes au départ. 12 pays, dont la France, envisagent des restrictions commerciales sur les produits des colonies illégales (Slate FR, Politis, France Diplomatie).",
       "axes_concernes": [
         "droit_international",
-        "colonialisme"
+        "colonialisme",
+        "justice_sociale"
       ],
-      "analyse": "Cette décision marque un tournant historique : pour la première fois, un bloc de pays occidentaux utilise l'arme économique pour sanctionner l'occupation illégale, en accord avec les résolutions de l'ONU. Cela brise le tabou de l'impunité diplomatique d'Israël sur la colonisation, bien que les modalités d'application nationale restent à définir. C'est une application concrète du droit international qui mérite une attention soutenue.",
+      "analyse": "Cette situation constitue une violation flagrante du droit international et des droits de l'enfant. L'impunité dont bénéficient les colons, documentée par l'ONU, souligne un double standard criant dans l'application de la justice internationale. Notre ligne éditoriale exige de dénoncer ces agressions territoriales au même titre que toute autre invasion illégitime.",
       "sources": [
+        {
+          "nom": "Slate FR",
+          "url": "https://www.slate.fr/monde/cisjordanie-occupee-ecole-attaques-meurtrieres-palestine-colons-israeliens",
+          "type": "mainstream"
+        },
         {
           "nom": "France Diplomatie",
           "url": "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/declaration-des-ministres-des-affaires-etrangeres-de-la-france-du-royaume-uni-du-canada-du-danemark",
           "type": "institutionnel"
-        },
-        {
-          "nom": "RFI",
-          "url": null,
-          "type": "mainstream"
-        }
-      ]
-    },
-    {
-      "titre": "Documentaire 'Fuck la planète' : le choix conscient du chaos",
-      "rubrique": "science",
-      "resume": "Le film de Jean-Robert Viallet et Jean-Baptiste Fressoz démontre comment les élites industrielles ont délibérément ignoré les alertes climatiques depuis 50 ans (Reporterre, L'Obs).",
-      "axes_concernes": [
-        "justice_sociale",
-        "ecologie_sociale"
-      ],
-      "analyse": "Ce travail d'historien déconstruit le mythe de l''ignorance' passée. Il montre que le réchauffement n'est pas un accident de parcours mais le résultat de choix politiques et financiers conscients. Cette mise en accusation des structures de pouvoir est essentielle pour comprendre que la transition écologique ne peut se faire sans une remise en cause radicale du modèle productiviste.",
-      "sources": [
-        {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Fuck-la-planete-comment-les-puissants-ont-fait-le-choix-du-rechauffement-climatique",
-          "type": "investigation"
-        },
-        {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/teleobs/20260908.OBS118041/fuck-la-planete-le-choix-du-rechauffement-chronique-d-une-tragedie-annoncee.html",
-          "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-09-09",
-  "genere_a": "2026-09-09T04:34:11.361Z",
+  "date": "2026-09-10",
+  "genere_a": "2026-09-10T06:11:41.515Z",
   "meta": {
-    "nb_articles_analyses": 715,
-    "nb_topics": 213,
-    "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 45,
-    "sources_francaises": 475,
-    "sources_etrangeres": 240,
+    "nb_articles_analyses": 710,
+    "nb_topics": 201,
+    "nb_topics_selectionnes": 15,
+    "nb_articles_dans_selection": 48,
+    "sources_francaises": 459,
+    "sources_etrangeres": 251,
     "rubriques_couvertes": [
-      "tech",
-      "politique",
+      "science",
       "societe",
+      "economie",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
