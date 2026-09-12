@@ -1,192 +1,159 @@
 {
-  "date": "2026-09-10",
-  "genere_a": "2026-09-10T06:12:33.473Z",
+  "date": "2026-09-12",
+  "genere_a": "2026-09-12T06:25:04.705Z",
   "sujets_actifs": [
     {
-      "titre": "Donald Trump promet un versement de 5 000 dollars par citoyen en cas de victoire aux midterms",
-      "slug": "trump-promesse-5000-dollars-midterms-2026",
-      "rubrique": "international",
+      "titre": "Déraillement d'un TER Rouen-Caen en Seine-Maritime : 44 blessés",
+      "slug": "deraillement-ter-normandie-rouen-caen-2026",
+      "rubrique": "societe",
       "tldr": [
-        "Promesse d'un « dividende » de 5 000 $ par adulte si les Républicains gardent le Congrès.",
-        "Annonce faite lors de la convention républicaine à Dallas le 9 septembre 2026.",
-        "Le financement de cette mesure estimée à plus de 1 200 milliards de dollars reste inconnu."
+        "Accident ferroviaire à Elbeuf le 11 septembre vers 19h30 impliquant 186 passagers.",
+        "Bilan de 44 blessés dont une femme en urgence absolue.",
+        "Le plan ORSEC a été activé et une enquête judiciaire est ouverte."
       ],
-      "resume": "Lors de l'ouverture de la convention républicaine à Dallas, Donald Trump a promis le versement d'un chèque de 5 000 dollars à chaque citoyen adulte américain si son parti conserve le contrôle des deux chambres lors des élections de mi-mandat du 3 novembre 2026. Qualifiant cette somme de « dividende » national, il a précisé que cet argent devrait être impérativement dépensé sur le sol américain (Le Figaro). Cette annonce intervient alors que le président affiche une impopularité persistante et cherche à mobiliser sa base en demandant aux électeurs de « faire comme s'il était lui-même sur le bulletin » (BFM TV). Les observateurs soulignent le caractère inédit et potentiellement inflationniste d'une telle mesure, dont les modalités de financement n'ont pas été détaillées par l'équipe de campagne (Politico EU).",
-      "contexte_historique": "Cette promesse rappelle les 'stimulus checks' versés durant la pandémie de COVID-19 sous les administrations Trump et Biden, mais à une échelle financière bien supérieure. Historiquement, les élections de mi-mandat aux États-Unis sont souvent défavorables au parti du président en exercice, comme en 2010 pour Obama ou 2018 pour Trump lui-même (NYT World).",
+      "resume": "Le vendredi 11 septembre 2026, un train TER assurant la liaison Rouen-Caen a partiellement déraillé à proximité d'Elbeuf, en Seine-Maritime. Sur les 186 passagers à bord, 44 ont été blessés, dont un cas jugé en urgence absolue (Le Figaro). Les autorités ont immédiatement déclenché le plan ORSEC, mobilisant 130 pompiers et cinq équipes médicales (Al Jazeera). La procureure adjointe de Rouen a précisé que les dépistages d'alcoolémie et de stupéfiants sur le conducteur se sont révélés négatifs, tout en prévenant que l'enquête technique et judiciaire serait longue (franceinfo). La SNCF et la police cherchent à déterminer si l'accident est dû à une défaillance matérielle, un défaut de voie ou un obstacle extérieur.",
+      "contexte_historique": "Ce déraillement intervient dans un contexte de vigilance accrue sur le réseau ferroviaire normand. Historiquement, la ligne Paris-Caen-Cherbourg est régulièrement critiquée pour son manque de ponctualité et la vétusté de certaines infrastructures (SNCF, Rapports annuels de la région Normandie). L'accident rappelle le déraillement d'Eckwersheim (2015) ou de Brétigny-sur-Orge (2013), bien que l'ampleur des dégâts soit ici moindre.",
       "implications": [
-        "Risque de relance massive de l'inflation si des centaines de milliards sont injectés sans contrepartie de production.",
-        "Accroissement drastique de la dette publique américaine, déjà à des niveaux records."
+        "Interruption prolongée du trafic ferroviaire entre Rouen et Caen pour les besoins de l'enquête et la remise en état des voies.",
+        "Débat renouvelé sur le financement de la maintenance des lignes d'équilibre du territoire (TET) et du réseau régional."
       ],
       "chronologie": [
         {
-          "date": "2026-09-09",
-          "texte": "Discours de Donald Trump à Dallas lançant la promesse du dividende de 5 000 $.",
-          "source": "The Guardian"
-        },
-        {
-          "date": "2026-08-30",
-          "texte": "Sébastien Lecornu annonce une baisse de la contribution des grandes entreprises pour 2027.",
-          "source": "BFM Business"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "The Guardian",
-          "type": "etranger",
-          "angle": "Souligne le caractère populiste et désespéré de la mesure face à l'impopularité de Trump.",
-          "ton": "critique",
-          "url": "https://www.theguardian.com/us-news/2026/sep/09/trump-republican-convention-speech-midterm-elections",
-          "citation_cle": "In two-hour address, president asked voters to ‘pretend that I’m on the ballot’",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "source": "Le Figaro",
-          "type": "mainstream",
-          "angle": "Se concentre sur la condition de dépense locale de la somme promise.",
-          "ton": "factuel",
-          "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-l-avion-de-zelensky-a-failli-etre-touche-par-un-drone-tandis-qu-il-etait-en-route-vers-la-norvege-20260909",
-          "citation_cle": "Cette somme devrait être dépensée seulement aux États-Unis.",
-          "groupe_media": null
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Donald Trump promet 5.000 dollars si son parti garde le contrôle du Congrès après les élections de mi-mandat",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/video-donald-trump-promet-5-000-dollars-si-son-parti-garde-le-controle-du-congres-apres-les-elections-de-mi-mandat_VN-202609100085.html",
-          "citation_cle": "Donald Trump a appelé mercredi ses partisans à imaginer qu'il était lui-même candidat lors des prochaines élections légi",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Comment l'administration compte-t-elle financer cette dépense de plus de 1 000 milliards ?",
-        "La mesure serait-elle soumise à des conditions de revenus ?"
-      ],
-      "sources": [
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/09/trump-republican-convention-speech-midterm-elections",
-          "type": "journal",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-l-avion-de-zelensky-a-failli-etre-touche-par-un-drone-tandis-qu-il-etait-en-route-vers-la-norvege-20260909",
-          "type": "journal",
-          "groupe_media": null
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/faites-comme-si-j-etais-sur-le-bulletin-donald-trump-promet-un-cheque-de-5-000-dollars-par-citoyen-si-son-parti-garde-le-controle-du-congres_AD-202609100081.html",
-          "type": "tv",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Politico EU",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/behind-trumps-push-to-break-the-international-criminal-court/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "type": "journal",
-          "groupe_media": {
-            "nom": "Axel Springer / KKR",
-            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-09-10"
-    },
-    {
-      "titre": "Août 2026 : nouveau record mondial de chaleur confirmé par Copernicus",
-      "slug": "record-chaleur-aout-2026-copernicus",
-      "rubrique": "science",
-      "tldr": [
-        "Mois d'août le plus chaud jamais enregistré, à égalité avec juillet 2023.",
-        "Température moyenne mondiale de 16,96°C, soit +1,65°C par rapport à l'ère préindustrielle.",
-        "L'observatoire européen alerte sur des risques accrus d'incendies et de phénomènes extrêmes."
-      ],
-      "resume": "L'observatoire européen Copernicus a officialisé ce jeudi que le mois d'août 2026 a été le plus chaud jamais mesuré à l'échelle mondiale, rejoignant le record absolu de juillet 2023 (La Croix). Avec une moyenne de 16,96°C, la planète dépasse de 1,65°C les niveaux de référence de l'ère préindustrielle, franchissant symboliquement la barre des 1,5°C fixée par les accords de Paris pour la douzième fois consécutive (France 24 FR). Les scientifiques estiment que de telles températures n'ont probablement pas été atteintes depuis 125 000 ans (Le Monde). Cette annonce coïncide avec des vagues de chaleur persistantes et des incendies dévastateurs signalés en Indonésie et dans le bassin méditerranéen.",
-      "contexte_historique": "Depuis le début de l'ère industrielle, la température moyenne mondiale a augmenté d'environ 1,2°C. L'année 2023 avait déjà été marquée par des records successifs, mais 2026 semble s'installer durablement au-dessus des seuils critiques (Copernicus, 2026).",
-      "implications": [
-        "Accélération de la fonte des glaciers et élévation du niveau de la mer.",
-        "Augmentation de la fréquence et de l'intensité des canicules marines affectant la biodiversité."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-09-10",
-          "texte": "Copernicus publie les données mondiales pour le mois d'août.",
+          "date": "2026-09-12",
+          "texte": "La procureure de Rouen annonce des dépistages négatifs pour le conducteur.",
           "source": "franceinfo"
         },
         {
-          "date": "2026-08-31",
-          "texte": "Les agriculteurs français lancent un cri d'alarme après les canicules d'août.",
-          "source": "Reporterre"
+          "date": "2026-09-11",
+          "texte": "Déraillement du train à 19h30 près d'Elbeuf.",
+          "source": "Le Figaro"
+        },
+        {
+          "date": "2026-09-11",
+          "texte": "Activation du plan ORSEC par la préfecture de Seine-Maritime.",
+          "source": "Al Jazeera"
         }
       ],
       "couvertures": [
         {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Met l'accent sur l'aspect historique (125 000 ans) et les conséquences humaines.",
-          "ton": "alarmiste",
-          "url": "https://www.lemonde.fr/planete/article/2026/09/10/aout-2026-est-le-mois-le-plus-chaud-jamais-mesure-dans-le-monde-copernicus-alerte-sur-des-risques-accrus-pour-l-europe_6769228_3244.html",
-          "citation_cle": "La planète n’a probablement jamais connu de telles températures depuis 125 000 ans.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
           "source": "franceinfo",
           "type": "mainstream",
-          "angle": "Focus sur les données techniques et la comparaison avec juillet 2023.",
+          "angle": "Focus sur les premiers éléments de l'enquête judiciaire et les résultats toxicologiques.",
           "ton": "factuel",
-          "url": "https://www.franceinfo.fr/environnement/crise-climatique/aout-2026-a-ete-le-mois-le-plus-chaud-jamais-enregistre-a-l-echelle-mondiale-annonce-l-observatoire-copernicus_8185418.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "À égalité avec juillet 2023, le mois le plus chaud jamais enregistré.",
+          "url": "https://www.franceinfo.fr/faits-divers/accident/le-prefet-de-seine-maritime-attendu-sur-les-lieux-de-l-accident-du-ter-qui-assurait-la-liaison-entre-rouen-et-caen_8188973.html#xtor=RSS-3-[lestitres]",
+          "citation_cle": "L'enquête va être longue, prévient la procureure adjointe.",
           "groupe_media": {
             "nom": "France Télévisions",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
+        },
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Mise en avant de l'ampleur de la réponse d'urgence internationale.",
+          "ton": "neutre",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/12-09-quotable-this-is-america-911-us-khalilzad-taliban?traffic_source=rss",
+          "citation_cle": "130 firefighters and five medical teams dispatched to the scene.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Normandie: ce que l'on sait du déraillement d'un train qui a fait 44 blessés",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/societe/video-normandie-ce-que-l-on-sait-du-deraillement-d-un-train-qui-a-fait-44-blesses_VN-202609120051.html",
+          "citation_cle": "Un train a partiellement déraillé ce vendredi 11 septembre entre Rouen et Caen. Le bilan fait pour l'heure état de 44 bl",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'année 2026 sera-t-elle la première année complète au-dessus de +1,5°C ?",
-        "Quelle sera l'efficacité des mesures de géo-ingénierie testées localement ?"
+        "La cause exacte du déraillement (vitesse, état de la voie ou acte de malveillance).",
+        "La durée totale de l'interruption du trafic sur cet axe majeur."
       ],
       "sources": [
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/aout-2026-a-ete-le-mois-le-plus-chaud-jamais-mesure-dans-le-monde-20260910",
-          "type": "journal",
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/faits-divers/seine-maritime-environ-20-blesses-apres-le-deraillement-d-un-ter-20260911",
+          "type": "mainstream",
           "groupe_media": null
         },
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/planete/article/2026/09/10/aout-2026-est-le-mois-le-plus-chaud-jamais-mesure-dans-le-monde-copernicus-alerte-sur-des-risques-accrus-pour-l-europe_6769228_3244.html",
-          "type": "journal",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/accident/le-prefet-de-seine-maritime-attendu-sur-les-lieux-de-l-accident-du-ter-qui-assurait-la-liaison-entre-rouen-et-caen_8188973.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/12-09-quotable-this-is-america-911-us-khalilzad-taliban?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-09-11"
+    },
+    {
+      "titre": "Offensive majeure des Houthis au Yémen : contrôle du littoral de la mer Rouge",
+      "slug": "offensive-houthis-yemen-mer-rouge-2026",
+      "rubrique": "international",
+      "tldr": [
+        "Les rebelles Houthis ont pris le contrôle total du littoral bordant la mer Rouge.",
+        "Saisie de l'île stratégique de Périm dans le détroit de Bab Al-Mandab.",
+        "L'Arabie saoudite ferme son oléoduc Est-Ouest après une attaque de drones."
+      ],
+      "resume": "Les rebelles houthistes, soutenus par l'Iran, ont réalisé une avancée stratégique majeure en prenant le contrôle de l'intégralité du littoral yéménite sur la mer Rouge, incluant l'île de Périm (Le Monde, BBC News). Cette position leur permet de menacer directement le détroit de Bab Al-Mandab, point de passage crucial pour le commerce maritime mondial. Parallèlement, l'Arabie saoudite a suspendu l'activité de son oléoduc principal Est-Ouest à la suite d'une attaque de drones revendiquée par les Houthis et lancée depuis l'Irak selon Riyad (Al Jazeera). Cette escalade intervient alors que les tensions entre l'Iran et les États-Unis se cristallisent autour du contrôle des routes pétrolières mondiales.",
+      "contexte_historique": "Le détroit de Bab Al-Mandab voit passer environ 10 % du commerce maritime mondial. La guerre au Yémen, débutée en 2014, s'est transformée en un conflit par procuration entre l'Arabie saoudite (soutenue par les Occidentaux) et l'Iran. En 2024 et 2025, les attaques houthistes contre les navires marchands avaient déjà forcé de nombreux armateurs à contourner l'Afrique par le Cap de Bonne-Espérance, augmentant les coûts logistiques mondiaux (ONU, Résolution 2216).",
+      "implications": [
+        "Hausse probable des prix du pétrole et des coûts d'assurance pour le transport maritime.",
+        "Risque d'intervention militaire directe des puissances occidentales pour sécuriser le détroit."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-09-12",
+          "texte": "Les Houthis confirment le contrôle total du littoral de la mer Rouge.",
+          "source": "Le Monde"
+        },
+        {
+          "date": "2026-09-11",
+          "texte": "Saisie de l'île de Périm et fermeture de l'oléoduc saoudien.",
+          "source": "NYT World"
+        },
+        {
+          "date": "2026-09-11",
+          "texte": "Fuite de 50 000 civils yéménites devant l'avancée des troupes.",
+          "source": "The Guardian"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Analyse du renforcement de l'Iran face aux États-Unis via les succès militaires houthistes.",
+          "ton": "analytique",
+          "url": "https://www.lemonde.fr/international/article/2026/09/12/les-succes-des-houthistes-au-yemen-renforcent-l-iran-face-aux-etats-unis_6770842_3210.html",
+          "citation_cle": "Téhéran contrôle désormais les deux robinets du pétrole mondial.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -195,187 +162,244 @@
           }
         },
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/plan%C3%A8te/20260910-ao%C3%BBt-2026-a-%C3%A9t%C3%A9-le-mois-le-plus-chaud-jamais-mesur%C3%A9-dans-le-monde",
-          "type": "tv",
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Focus sur l'attaque de l'oléoduc saoudien et l'origine géographique des drones.",
+          "ton": "factuel",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/12-09-quotable-this-is-america-911-us-khalilzad-taliban?traffic_source=rss",
+          "citation_cle": "Saudi Arabia has shut its East-West oil pipeline after a drone attack.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "source": "The Guardian",
+          "type": "etranger",
+          "angle": "Nearly 50,000 Yemeni civilians flee as Houthis advance along Red Sea coast",
+          "ton": "factuel",
+          "url": "https://www.theguardian.com/world/2026/sep/12/yemen-houthi-advance-red-sea-coast-displaces-civilians-bab-al-mandab",
+          "citation_cle": "Global struggle for control of Bab al-Mandab strait threatens to turn Yemen’s on-off conflict into a forever war Violenc",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "La capacité réelle de l'Arabie saoudite à protéger ses infrastructures critiques contre des drones venant d'Irak.",
+        "La réaction exacte de la coalition internationale stationnée à Djibouti."
+      ],
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/09/12/les-succes-des-houthistes-au-yemen-renforcent-l-iran-face-aux-etats-unis_6770842_3210.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/12-09-quotable-this-is-america-911-us-khalilzad-taliban?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/12/yemen-houthi-advance-red-sea-coast-displaces-civilians-bab-al-mandab",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-09-11"
+    },
+    {
+      "titre": "Commémorations du 11-Septembre : 25 ans après, la CIA déclassifie des documents",
+      "slug": "11-septembre-25-ans-cia-declassification-2026",
+      "rubrique": "international",
+      "tldr": [
+        "Cérémonies du 25e anniversaire marquées par la présence de Donald Trump au Pentagone.",
+        "La CIA publie 70 documents déclassifiés sur Al-Qaïda et Ben Laden.",
+        "Révélation de notes de 1998 prévenant déjà d'attaques par avion sur le sol US."
+      ],
+      "resume": "Pour le 25e anniversaire des attentats du 11 septembre 2001, les États-Unis ont rendu hommage aux victimes dans un climat de recueillement mais aussi de tensions politiques. À New York, le maire Zohran Mamdani a présidé la cérémonie, tandis que Donald Trump s'est rendu au Pentagone (Courrier international). À cette occasion, la CIA a déclassifié plus de 70 documents inédits. Ces archives révèlent que dès 1998, des notes transmises au président Clinton indiquaient que l'option préférée d'Oussama ben Laden était de frapper les États-Unis sur leur propre sol, notamment à Washington, en utilisant des avions (20 Minutes, Al Jazeera). Ces révélations relancent le débat sur les failles du renseignement pré-2001.",
+      "contexte_historique": "Les attentats du 11 septembre 2001 ont fait 2 977 victimes et ont entraîné les guerres d'Afghanistan (2001-2021) et d'Irak (2003-2011). La déclassification de documents est un processus régulier mais souvent partiel ; le 25e anniversaire marque une étape symbolique dans l'ouverture des archives de la CIA, conformément aux ordres exécutifs sur la transparence (National Archives and Records Administration).",
+      "implications": [
+        "Réexamen historique des avertissements ignorés par les administrations Clinton et Bush.",
+        "Impact sur l'opinion publique concernant la légitimité des interventions militaires qui ont suivi."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-09-11",
+          "texte": "Cérémonies nationales à New York, au Pentagone et à Shanksville.",
+          "source": "RFI"
+        },
+        {
+          "date": "2026-09-11",
+          "texte": "La CIA rend publics 70 documents sur la genèse d'Al-Qaïda.",
+          "source": "20 Minutes"
+        },
+        {
+          "date": "1998-12-04",
+          "texte": "Date d'une note déclassifiée prévenant d'attaques par avion.",
+          "source": "Al Jazeera"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "20 Minutes",
+          "type": "mainstream",
+          "angle": "Focus sur le contenu des notes de 1998 et les projets d'attentats par avion.",
+          "ton": "factuel",
+          "url": "https://www.20minutes.fr/justice/4244703-20260912-ganito-ecope-9-ans-prison-ferme-home-jacking-ultra-violent-gianluigi-donnarumma?at_medium=display&at_campaign=149",
+          "citation_cle": "Des notes de 1998 évoquant déjà des projets d’attentats aux Etats-Unis par avion.",
+          "groupe_media": null
+        },
+        {
+          "source": "Courrier international",
+          "type": "etranger",
+          "angle": "Analyse de la dimension politique des cérémonies et de la présence de Donald Trump.",
+          "ton": "neutre",
+          "url": "https://www.courrierinternational.com/article/commemorations-25-ans-apres-le-11-septembre-des-pelerinages-douloureux-mais-pas-de-ranc-ur-partisane_270009",
+          "citation_cle": "Des pèlerinages douloureux mais pas de rancœur partisane.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "CIA drops dozens of declassified documents on bin Laden and al-Qaeda",
+          "ton": "factuel",
+          "url": "https://www.aljazeera.com/news/2026/9/12/cia-drops-dozens-of-declassified-documents-on-bin-laden-and-al-qaeda?traffic_source=rss",
+          "citation_cle": "A briefer told Clinton in 1998 that bin Laden’s 'preferred option is to strike the US on its own soil in Washington'.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Le nombre de documents encore classés 'Top Secret' concernant les liens éventuels de puissances étrangères avec les terroristes.",
+        "Si ces révélations entraîneront de nouvelles auditions parlementaires."
+      ],
+      "sources": [
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/justice/4244703-20260912-ganito-ecope-9-ans-prison-ferme-home-jacking-ultra-violent-gianluigi-donnarumma?at_medium=display&at_campaign=149",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/12-09-quotable-this-is-america-911-us-khalilzad-taliban?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/commemorations-25-ans-apres-le-11-septembre-des-pelerinages-douloureux-mais-pas-de-ranc-ur-partisane_270009",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260911-chaque-ann%C3%A9e-c-est-une-p%C3%A9riode-tr%C3%A8s-difficile-les-%C3%A9tats-unis-rendent-hommage-aux-victimes-du-11-septembre",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/environnement/crise-climatique/aout-2026-a-ete-le-mois-le-plus-chaud-jamais-enregistre-a-l-echelle-mondiale-annonce-l-observatoire-copernicus_8185418.html#xtor=RSS-3-[lestitres]",
-          "type": "radio",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
         }
       ],
-      "premiere_apparition": "2026-09-10"
-    },
-    {
-      "titre": "Incendie meurtrier du ferry MV June Aster aux Philippines",
-      "slug": "incendie-ferry-philippines-june-aster-2026",
-      "rubrique": "international",
-      "tldr": [
-        "Au moins 5 morts et 86 disparus après l'incendie d'un ferry au large de Palawan.",
-        "Le navire transportait 134 passagers vers la destination touristique de Coron.",
-        "Les garde-côtes philippins poursuivent les recherches dans des conditions difficiles."
-      ],
-      "resume": "Un incendie dévastateur s'est déclaré à bord du ferry MV June Aster alors qu'il faisait route de Manille vers Coron, une zone touristique prisée de la province de Palawan. Le bilan provisoire fait état de 5 morts confirmés et de 86 personnes toujours portées disparues (BBC News). Les garde-côtes ont réussi à secourir 43 passagers, mais craignent que le bilan ne s'alourdisse considérablement en raison de la rapidité de la propagation des flammes qui ont contraint de nombreux passagers à sauter à la mer (Al Jazeera). Les causes du sinistre, survenu en pleine nuit, ne sont pas encore déterminées.",
-      "contexte_historique": "Les Philippines, archipel de plus de 7 000 îles, ont un passif tragique en matière de sécurité maritime. En 1987, la collision du Doña Paz avec un pétrolier avait fait plus de 4 000 morts, restant la pire catastrophe maritime en temps de paix (NYT World).",
-      "implications": [
-        "Renforcement probable des contrôles de sécurité sur les navires de transport inter-îles.",
-        "Impact négatif attendu sur le tourisme dans la région de Palawan à court terme."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-09-10",
-          "texte": "Les garde-côtes confirment 5 morts et poursuivent les recherches de 86 disparus.",
-          "source": "Al Jazeera"
-        },
-        {
-          "date": "2026-09-09",
-          "texte": "Départ du MV June Aster de Manille vers Coron.",
-          "source": "NYT World"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Focus sur les opérations de secours et le témoignage des survivants.",
-          "ton": "factuel",
-          "url": "https://www.aljazeera.com/news/2026/9/10/five-dead-dozens-missing-in-philippines-ferry-fire?traffic_source=rss",
-          "citation_cle": "Coastguard says the ferry had 134 listed passengers and crew when it sank.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Souligne le caractère 'déchirant' du sinistre près d'un site touristique.",
-          "ton": "neutre",
-          "url": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "The fire broke out as the vessel was nearing its destination at the tourist hotspot of Coron.",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "NYT World",
-          "type": "etranger",
-          "angle": "At Least 5 Dead, More Than 80 Missing After Ferry Fire in the Philippines",
-          "ton": "factuel",
-          "url": "https://www.nytimes.com/2026/09/09/world/asia/philippines-ferry-fire-palawan.html",
-          "citation_cle": "The June Aster was sailing from Manila to Coron, a popular tourist destination, when a fire broke out aboard the vessel.",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Le navire était-il en surcharge par rapport à sa capacité officielle ?",
-        "L'équipement de lutte contre l'incendie à bord était-il fonctionnel ?"
-      ],
-      "sources": [
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/10/five-dead-dozens-missing-in-philippines-ferry-fire?traffic_source=rss",
-          "type": "web",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss",
-          "type": "web",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/09/09/world/asia/philippines-ferry-fire-palawan.html",
-          "type": "journal",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-09-10"
+      "premiere_apparition": "2026-09-11"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Escalade militaire directe entre les États-Unis et l'Iran dans le Golfe",
-      "slug": "escalade-usa-iran-golfe-2026",
-      "rubrique": "conflit",
-      "resume": "Après des frappes directes, la situation semble se stabiliser vers une guerre d'usure diplomatique. L'Iran a été renvoyé devant le Conseil de sécurité de l'ONU pour son programme nucléaire, marquant un déplacement du conflit du terrain militaire vers le terrain institutionnel.",
+      "titre": "Incendie meurtrier du ferry MV June Aster aux Philippines",
+      "slug": "incendie-ferry-philippines-2026",
+      "rubrique": "international",
+      "resume": "Le bilan s'est alourdi à 35 morts alors que les secours ont enfin pu accéder à l'épave calcinée. Des dizaines de passagers sont toujours portés disparus.",
       "chronologie": [
         {
-          "date": "2026-09-10",
-          "texte": "L'AIEA saisit le Conseil de sécurité de l'ONU concernant le dossier iranien.",
-          "source": "Le Monde"
-        },
-        {
-          "date": "2026-09-09",
-          "texte": "Explosions signalées près du détroit d'Ormuz sans escalade majeure immédiate.",
-          "source": "Le Figaro"
+          "date": "2026-09-12",
+          "texte": "Le bilan grimpe à 35 morts, l'accès au bateau reste difficile à cause de la chaleur.",
+          "source": "BBC News"
         }
       ],
       "couvertures": [
         {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Analyse du pivot vers l'ONU après le bombardement des sites sensibles.",
-          "ton": "neutre",
-          "url": "https://www.lemonde.fr/international/article/2026/09/10/l-iran-renvoye-devant-le-conseil-de-securite-des-nations-unies-pour-son-programme-nucleaire_6769337_3210.html",
-          "citation_cle": "L’AIEA a saisi l’instance de l’ONU en raison du refus de Téhéran d’autoriser des contrôles."
+          "source": "BBC News",
+          "type": "etranger",
+          "angle": "Suivi du bilan humain et des difficultés techniques des garde-côtes.",
+          "ton": "factuel",
+          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o",
+          "citation_cle": "Access to the burnt-out boat has been slowed by toxic fumes."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Israël lancera-t-il de nouvelles frappes sans l'aval de Washington ?"
+        "Le nombre exact de passagers non déclarés sur le manifeste."
       ],
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/09/10/l-iran-renvoye-devant-le-conseil-de-securite-des-nations-unies-pour-son-programme-nucleaire_6769337_3210.html",
-          "type": "journal"
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o",
+          "type": "etranger"
         }
       ],
-      "derniere_mise_a_jour": "2026-09-10",
-      "statut": "Le conflit bascule d'une confrontation directe à une bataille diplomatique et institutionnelle à l'ONU."
+      "derniere_mise_a_jour": "2026-09-12",
+      "statut": "Phase de récupération des corps et enquête technique."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 710,
+    "nb_articles_analyses": 672,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

@@ -1,71 +1,72 @@
 {
   "sujet_du_jour": {
-    "titre": "Août 2026 : le mois le plus chaud jamais enregistré sur Terre",
-    "rubrique": "science",
-    "pourquoi_important": "La barre symbolique des +1,5°C de réchauffement par rapport à l'ère préindustrielle est de nouveau franchie, confirmant l'accélération de la crise climatique.",
+    "titre": "Déraillement d'un TER Rouen-Caen : 44 blessés, le plan ORSEC activé",
+    "rubrique": "societe",
+    "pourquoi_important": "Cet accident ferroviaire majeur soulève des questions immédiates sur la sécurité du réseau régional et l'état des infrastructures en Normandie.",
     "faits": [
-      "La température moyenne mondiale a atteint 16,96°C en août 2026, soit +0,85°C au-dessus de la moyenne 1991-2020 .",
-      "Le mois se classe ex æquo avec juillet 2023 comme le plus chaud de l'histoire moderne, avec une anomalie de +1,65°C par rapport au préindustriel (Reporterre, Ouest-France).",
-      "La température de surface des océans a battu un record absolu à 21,11°C fin août (France 24.",
-      "Les scientifiques estiment que l'humanité n'a pas connu de telles températures depuis 125 000 ans (Le Monde, France 24)."
+      "Un TER transportant 186 passagers a déraillé vendredi 11 septembre vers 19h45 à hauteur de Cléon et Tourville-la-Rivière .",
+      "Le bilan provisoire fait état de 44 blessés, dont une jeune femme de 18 ans en urgence absolue évacuée par hélicoptère (Le Figaro, Sud-Ouest).",
+      "Le plan ORSEC 'nombreuses victimes' (NOVI) a été déclenché, mobilisant 140 sapeurs-pompiers et d'importants moyens médicaux (Libération, France 24).",
+      "Trois voitures du convoi se seraient renversées selon les premières observations de terrain (BBC News)."
     ],
-    "contexte": "Le service européen Copernicus (C3S) a officialisé ce bilan le 10 septembre 2026. Ce record s'inscrit dans un été boréal extrême marqué par le développement du phénomène El Niño. Pour la première fois depuis novembre 2025, la planète repasse au-dessus du seuil de 1,5°C fixé par l'Accord de Paris sur un mois calendaire complet, illustrant l'urgence de la transition écologique.",
+    "contexte": "L'accident s'est produit sur l'axe structurant reliant Rouen à Caen. Alors que les causes restent pour l'heure indéterminées, le ministre des Transports Philippe Tabarot et le préfet de Seine-Maritime coordonnent les secours sur place. Une enquête judiciaire et une enquête technique de la SNCF ont été ouvertes pour identifier l'origine du déraillement (20 Minutes, Al Jazeera).",
     "sources": [
       {
-        "nom": "Copernicus (C3S)",
-        "url": "https://climate.copernicus.eu/surface-air-temperature-august-2026",
-        "type": "institutionnel",
+        "nom": "Le Figaro",
+        "url": "https://www.lefigaro.fr/faits-divers/seine-maritime-environ-20-blesses-apres-le-deraillement-d-un-ter-20260911",
+        "type": "mainstream",
         "groupe_media": null
       },
       {
-        "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/planete/article/2026/09/10/aout-2026-est-le-mois-le-plus-chaud-jamais-mesure-dans-le-monde-copernicus-alerte-sur-des-risques-accrus-pour-l-europe_6769228_3244.html",
+        "nom": "Libération",
+        "url": "https://www.liberation.fr/economie/transports/un-train-deraille-entre-rouen-et-caen-avec-180-passagers-a-son-bord-environ-20-blesses-20260911_OSSDX2H2DZD4RMMSKDCV2RW4WU/",
         "type": "mainstream",
         "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
         }
       },
       {
-        "nom": "Reporterre",
-        "url": "https://reporterre.net/Le-mois-d-aout-a-ete-le-plus-chaud-jamais-enregistre-a-l-echelle-mondiale",
-        "type": "investigation",
+        "nom": "Sud-Ouest",
+        "url": "https://www.sudouest.fr/faits-divers/un-train-deraille-en-seine-maritime-environ-20-blesses-sur-les-180-passagers-le-plan-orsec-active-30586881.php",
+        "type": "mainstream",
+        "groupe_media": null
+      },
+      {
+        "nom": "France 24 FR",
+        "url": "https://www.france24.com/fr/france/20260911-train-d%C3%A9raille-seine-maritime-vingtaine-bless%C3%A9s-bilan-provisoire-rouen-caen-ter-sncf",
+        "type": "mainstream",
         "groupe_media": {
-          "nom": "Reporterre",
-          "proprietaire": "Association La Pile",
-          "type_proprietaire": "independant",
-          "orientation": "gauche"
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
         }
       },
       {
-        "nom": "Ouest-France",
-        "url": "https://www.ouest-france.fr/economie/transports/exclusif-90-millions-deuros-pour-accelerer-le-deploiement-de-stations-de-recharge-pour-les-poids-lourds-electriques-8039a006-ab88-11f1-8801-66f16947434c?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+        "nom": "France 24 FR",
+        "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260911-penser-la-ville-de-demain-%C3%A0-la-premi%C3%A8re-biennale-pan-africaine-d-architecture-au-kenya",
         "type": "mainstream"
       },
       {
-        "nom": "France 24 FR",
-        "url": "https://www.france24.com/fr/plan%C3%A8te/20260910-ao%C3%BBt-2026-a-%C3%A9t%C3%A9-le-mois-le-plus-chaud-jamais-mesur%C3%A9-dans-le-monde",
-        "type": "mainstream"
-      },
-      {
-        "nom": "France 24 FR",
-        "url": "https://www.france24.com/fr/plan%C3%A8te/20260910-ao%C3%BBt-2026-a-%C3%A9t%C3%A9-le-mois-le-plus-chaud-jamais-mesur%C3%A9-dans-le-monde",
-        "type": "mainstream"
+        "nom": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss",
+        "type": "etranger"
       }
     ],
-    "lien": "https://climate.copernicus.eu/copernicus-august-was-worlds-joint-hottest-month-record-pushing-global-temperatures-back-above"
+    "lien": null
   },
   "france": [
     {
-      "titre": "Scandale de racisme dans la police municipale de Carcassonne",
-      "rubrique": "societe",
-      "resume": "Une vidéo issue d'une caméra-piéton révèle des propos racistes, misogynes et complotistes tenus par un brigadier-chef lors d'une patrouille fin 2025. Le Rassemblement National, dont l'agent était membre du service d'ordre, a annoncé son exclusion, tandis que le parquet de Carcassonne a ouvert une enquête (Le Monde, Mediapart, franceinfo).",
+      "titre": "Retraites : vers une économie de 6 milliards d'euros dès 2027",
+      "rubrique": "politique",
+      "resume": "Le ministre des Comptes publics, David Amiel, envisage de réduire ou supprimer l'abattement fiscal de 10 % dont bénéficient les retraités. Cette mesure vise à financer l'indexation des pensions sur l'inflation tout en réduisant le déficit public (Le Monde, 20 Minutes).",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/09/09/la-deambulation-raciste-d-un-policier-municipal-de-carcassonne-captee-par-sa-propre-camera-pieton-suscite-l-indignation-generale-et-l-embarras-du-rn_6768954_3224.html",
+          "url": "https://www.lemonde.fr/politique/article/2026/09/11/le-gouvernement-veut-economiser-6-milliards-d-euros-sur-les-retraites-en-2027_6770634_823448.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -75,55 +76,57 @@
           }
         },
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/090926/le-rn-se-debarrasse-d-un-membre-de-son-service-d-ordre-policier-municipal-apres-des-propos-racistes",
-          "type": "investigation",
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/politique/4244687-20260912-retraites-gouvernement-confirme-prevoir-economie-6-milliards-euros-2027?at_medium=display&at_campaign=149",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Stellantis investit un milliard d'euros dans le Nord",
+      "rubrique": "economie",
+      "resume": "Le groupe automobile prévoit de moderniser son usine d'Hordain pour produire un nouvel utilitaire. Le projet inclut la réinternalisation de certaines activités sous-traitées et un renforcement de la R&D en France (BFM Business, La Croix, Sud-Ouest).",
+      "sources": [
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/industries/il-veut-reinternaliser-une-partie-de-sa-production-aujourd-hui-sous-traitee-stellantis-envisage-d-investir-plus-d-un-milliard-d-euros-en-france-pour-un-nouvel-utilitaire_AD-202609110845.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Mediapart",
-            "proprietaire": "Fonds pour une presse libre",
-            "type_proprietaire": "fondation",
-            "orientation": "gauche"
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/environnement/crise-climatique/aout-2026-a-ete-le-mois-le-plus-chaud-jamais-enregistre-a-l-echelle-mondiale-annonce-l-observatoire-copernicus_8185418.html#xtor=RSS-3-[lestitres]",
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/economie/stellantis-envisage-d-investir-plus-dun-milliard-deuros-en-france-pour-un-nouvel-utilitaire-20260911",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/culture/theatre/on-ne-choisit-pas-de-devenir-une-star-de-rock-on-le-devient-ou-pas-30568074.php",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Urgences psychiatriques en Île-de-France : un rapport accablant",
+      "titre": "Lutte contre le nématode du pin en Nouvelle-Aquitaine",
       "rubrique": "societe",
-      "resume": "La Contrôleuse générale des lieux de privation de liberté dénonce des conditions de prise en charge « indignes » dans plusieurs hôpitaux parisiens (. Le rapport pointe des atteintes aux droits fondamentaux des patients dues au manque de moyens (franceinfo, Sud-Ouest.",
+      "resume": "De nouveaux cas de ce ver ravageur ont été détectés dans les Landes et les Pyrénées-Atlantiques. La zone de surveillance est étendue à 140 communes supplémentaires, mais la DRAAF assure ne plus recourir aux coupes rases systématiques (franceinfo, Sud-Ouest).",
       "sources": [
         {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/environnement/crise-climatique/aout-2026-a-ete-le-mois-le-plus-chaud-jamais-enregistre-a-l-echelle-mondiale-annonce-l-observatoire-copernicus_8185418.html#xtor=RSS-3-[lestitres]",
+          "url": "https://www.franceinfo.fr/faits-divers/accident/le-prefet-de-seine-maritime-attendu-sur-les-lieux-de-l-accident-du-ter-qui-assurait-la-liaison-entre-rouen-et-caen_8188973.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream"
         },
         {
           "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/sante/un-rapport-denonce-des-dysfonctionnements-graves-aux-urgences-psychiatriques-en-ile-de-france-30557404.php",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Pénibilité : 4 salariés sur 10 ne se voient pas tenir jusqu'à la retraite",
-      "rubrique": "economie",
-      "resume": "Malgré une légère baisse de l'intensité du travail pour la première fois depuis 1980, une étude de la Dares souligne que 40 % des salariés font face à de fortes contraintes physiques. Le sentiment de ne pas pouvoir tenir physiquement reste prédominant chez les travailleurs manuels (Libération, BFM Business).",
-      "sources": [
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/politique/le-conseil-detat-face-a-une-maree-contentieuse-au-risque-dun-effondrement-du-systeme-judiciaire-20260909_2DBQUPHCLJB4ZIFUW6RCPMCGRA/",
-          "type": "mainstream"
-        },
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/le-monde-qui-bouge-la-revue-de-presse-iran-washington-se-prepare-a-une-guerre-jusqu-a-2029-10-09_EN-202609100082.html",
+          "url": "https://www.sudouest.fr/culture/theatre/on-ne-choisit-pas-de-devenir-une-star-de-rock-on-le-devient-ou-pas-30568074.php",
           "type": "mainstream"
         }
       ],
@@ -132,24 +135,13 @@
   ],
   "monde": [
     {
-      "titre": "Incendie meurtrier d'un ferry aux Philippines",
-      "pays": "Philippines",
-      "resume": "Le ferry « M/V June Aster », qui reliait Manille à Coron, a pris feu au large de Palawan. Le bilan provisoire fait état de 5 morts et 87 disparus, alors que 43 personnes ont pu être secourues (NYT World, France 24, Le Monde).",
+      "titre": "Poutine met en garde contre l'envoi de troupes en Ukraine",
+      "pays": "Russie",
+      "resume": "Depuis New Delhi, Vladimir Poutine a affirmé qu'un déploiement de troupes européennes équivaudrait à une déclaration de guerre contre la Russie. Parallèlement, Volodymyr Zelensky exhorte Donald Trump à adopter des sanctions 'sévères' dès maintenant (Le Monde, France 24, Le Figaro).",
       "sources": [
         {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/09/09/world/asia/philippines-ferry-fire-palawan.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/09/10/aux-philippines-au-moins-cinq-morts-et-des-dizaines-de-disparus-dans-l-incendie-d-un-ferry_6769162_3210.html",
+          "url": "https://www.lemonde.fr/international/live/2026/09/12/en-direct-guerre-en-ukraine-un-deploiement-de-troupes-europeennes-sur-le-sol-ukrainien-equivaudrait-a-une-guerre-contre-la-russie-avertit-vladimir-poutine_6766818_3210.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -162,196 +154,212 @@
       "lien": null
     },
     {
-      "titre": "L'Ukraine redoute un hiver de pénuries",
-      "pays": "Ukraine",
-      "resume": "Faute d'une défense antiaérienne suffisante, les infrastructures énergétiques ukrainiennes sont vulnérables aux frappes russes. À Kiev, des pénuries alimentaires commencent à apparaître sur les étals (Le Monde, Courrier international).",
+      "titre": "Incendie meurtrier dans une école de Bukavu",
+      "pays": "RDC",
+      "resume": "Un incendie suivi d'une bousculade a coûté la vie à au moins 26 enfants dans une école de l'est de la République démocratique du Congo. L'Unicef déplore ce drame qui relance le débat sur les normes de sécurité scolaire (Le Monde, Al Jazeera).",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/09/10/l-ukraine-se-prepare-a-affronter-un-nouvel-hiver-effroyable-faute-d-une-defense-anti-aerienne-suffisante_6769332_3210.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
+          "url": "https://www.lemonde.fr/international/article/2026/09/12/les-succes-des-houthistes-au-yemen-renforcent-l-iran-face-aux-etats-unis_6770842_3210.html",
+          "type": "mainstream"
         },
         {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/ukraine-kiev-sous-la-menace-de-penuries-alimentaires-j-essaie-de-ne-pas-penser-a-l-avenir_269483",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/12-09-quotable-this-is-america-911-us-khalilzad-taliban?traffic_source=rss",
+          "type": "etranger"
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Présence du loup : entre protection et suspicion",
+    "sujet": "Grève et crise sociale au BHV Marais",
     "rubrique": "societe",
-    "contexte": "Plusieurs incidents récents impliquant des loups ou des attaques de troupeaux relancent le débat sur la cohabitation entre prédateurs et activités humaines.",
+    "contexte": "Le grand magasin parisien traverse une crise profonde depuis sa reprise par la SGM en 2023. Les salariés dénoncent une dégradation alarmante des conditions de travail et des signaux de cessation de paiements.",
     "couvertures": [
       {
-        "source": "franceinfo",
+        "source": "L'Humanité",
         "type": "mainstream",
-        "angle": "Relais des doutes des associations environnementales sur une attaque massive dans le Vercors.",
-        "ton": "factuel",
-        "url": "https://www.franceinfo.fr/environnement/biodiversite/animaux/des-associations-mettent-en-doute-l-attaque-probablement-par-un-loup-de-64-brebis-dans-le-vercors-et-demandent-une-enquete-approfondie_8185403.html",
-        "citation_cle": "Le caractère inédit de cette attaque pousse plusieurs associations environnementales à remettre en question l'hypothèse du loup.",
-        "auteur": null,
-        "proprietaire_contexte": "État français",
-        "orientation_source": "centre",
+        "angle": "Menace de disparition du magasin et effondrement social massif.",
+        "ton": "engage",
+        "url": "https://www.humanite.fr/social-et-economie/bhv/le-bhv-est-menace-de-disparition-les-salaries-en-greve-exigent-une-intervention-urgente-des-pouvoirs-publics",
+        "citation_cle": "Le chiffre d’affaires du BHV se serait effondré de plus de 90 % par rapport à l’année dernière.",
+        "auteur": "Hayet Kechit",
+        "proprietaire_contexte": "Société des lecteurs et salariés (coopérative)",
+        "orientation_source": "Gauche",
         "groupe_media": {
-          "nom": "France Télévisions",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
         }
       },
       {
-        "source": "Reporterre",
-        "type": "investigation",
-        "angle": "Reportage sur un loup atypique qui ne craint pas l'homme et n'attaque pas les troupeaux.",
-        "ton": "engage",
-        "url": "https://reporterre.net/D-ou-il-sort-celui-la-ce-loup-n-attaque-pas-les-troupeaux-et-n-a-pas-peur-des-humains",
-        "citation_cle": "Des associations craignent qu'il ne soit abattu quand même.",
-        "auteur": "Emmanuel Clévenot",
-        "proprietaire_contexte": "Indépendant (Association La Pile)",
-        "orientation_source": "gauche",
+        "source": "BFM Business",
+        "type": "mainstream",
+        "angle": "Rassemblement contre les 'mensonges' de la direction et les problèmes opérationnels.",
+        "ton": "factuel",
+        "url": "https://www.bfmtv.com/economie/consommation/le-rayon-respect-est-definitivement-ferme-150-personnes-rassemblees-contre-la-direction-du-bhv-marais-et-ses-mensonges_AD-202609110832.html",
+        "citation_cle": "Pas de clim', escalators en panne, pas de papier toilette... Il nous manque tous les outils.",
+        "auteur": null,
+        "proprietaire_contexte": "Rodolphe Saadé (CMA CGM)",
+        "orientation_source": "Centre-droit",
         "groupe_media": {
-          "nom": "Reporterre",
-          "proprietaire": "Association La Pile",
-          "type_proprietaire": "independant",
-          "orientation": "gauche"
+          "nom": "CMA CGM",
+          "proprietaire": "Rodolphe Saadé",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       }
     ],
-    "analyse_coherence": "La couverture médiatique du loup révèle une tension entre le traitement institutionnel et le journalisme de terrain. Alors que franceinfo se fait l'écho d'une remise en question factuelle d'une attaque de troupeau par les associations (souvent accusées de 'both-sidesism' par les syndicats agricoles), Reporterre adopte un angle plus protecteur en documentant un comportement animal déviant des stéréotypes habituels du prédateur. On observe une absence de standard unique : le loup est soit un coupable présumé par défaut (discours préfectoral souvent repris sans filtre), soit un individu à protéger face à des politiques d'abattage jugées arbitraires. La divergence majeure réside dans l'interprétation du danger : là où le mainstream se focalise sur les dégâts économiques (64 brebis), l'investigation écologique s'intéresse à l'éthologie et au risque de dérive des tirs de prélèvement.",
+    "analyse_coherence": "La couverture de la crise du BHV illustre une divergence de focale entre le symptôme et la structure. BFM Business (propriété de CMA CGM) adopte un ton factuel centré sur les désagréments opérationnels et les témoignages de terrain (manque de papier toilette, pannes d'escalators), traitant le sujet sous l'angle de la 'consommation' et du conflit social classique. À l'inverse, L'Humanité (coopérative) politise l'enjeu en pointant une stratégie financière potentiellement désastreuse : une chute de 90 % du chiffre d'affaires et une fonte de la moitié de la masse salariale en trois ans. Là où le média pro-business s'arrête au constat de la 'souffrance', le média de gauche analyse une 'disparition programmée' et appelle à l'intervention des pouvoirs publics. On observe ici un double standard classique : l'un traite la crise comme un problème de gestion locale, l'autre comme le résultat systémique d'un rachat par un groupe (SGM) aux reins trop fragiles. L'absence de réaction de la direction dans les deux sources souligne l'opacité dénoncée par l'intersyndicale.",
     "biais_detectes": [
-      "Biais institutionnel (reprise des termes 'probablement loup' sans preuve)",
-      "Biais de protectionnisme environnemental"
+      "Focalisation sur les symptômes vs analyse structurelle",
+      "Traitement 'consommation' vs traitement 'politique industrielle'"
     ],
-    "ce_quil_faut_retenir": "Toutes les attaques de troupeaux ne sont pas imputables au loup, et tous les loups n'attaquent pas les troupeaux. La nuance scientifique peine à s'imposer face à l'urgence émotionnelle des éleveurs et des défenseurs de la nature."
+    "ce_quil_faut_retenir": "Au-delà de la grève, c'est la survie d'un symbole du commerce parisien qui est en jeu, sur fond de soupçons de faillite technique."
   },
   "regard_etranger": [
     {
-      "source": "Al Jazeera",
-      "pays": "Qatar",
-      "titre": "L'agence d'espionnage espagnole avait averti des franchissements massifs à Ceuta",
-      "titre_original": "Spain’s spy agency warned of mass crossings into Ceuta before border crisis",
-      "angle": "Souligne l'échec de la coordination entre Madrid et le Maroc malgré les renseignements disponibles.",
-      "url": "https://www.aljazeera.com/news/2026/9/10/spains-spy-agency-warned-of-mass-migrant-crossing-to-ceuta-before-crisis",
+      "source": "BBC News",
+      "pays": "Royaume-Uni",
+      "titre": "Un train de voyageurs déraille en France, faisant au moins 44 blessés",
+      "titre_original": "Passenger train derails in France leaving at least 44 injured",
+      "angle": "Focus sur le bilan humain et l'ampleur du déploiement des secours en Normandie.",
+      "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss",
       "groupe_media": {
-        "nom": "Al Jazeera Media Network",
-        "proprietaire": "État du Qatar",
+        "nom": "BBC",
+        "proprietaire": "État britannique",
         "type_proprietaire": "etat",
-        "orientation": "variable"
+        "orientation": "centre"
       }
     },
     {
-      "source": "The Guardian",
-      "pays": "Royaume-Uni",
-      "titre": "Les chasseurs-cueilleurs indonésiens consommaient des noix psychotropes il y a 25 000 ans",
-      "titre_original": "Indonesian foragers may have sucked on mind-altering nuts 25,000 years ago",
-      "angle": "Mise en avant d'une découverte scientifique majeure sur les origines de l'usage de drogues.",
-      "url": "https://www.theguardian.com/science/2026/sep/09/indonesian-foragers-mind-altering-nuts-research-finds",
+      "source": "NYT World",
+      "pays": "États-Unis",
+      "titre": "Bayeux Mania",
+      "titre_original": "Bayeux Mania",
+      "angle": "Enthousiasme pour l'exposition de la Tapisserie de Bayeux à Londres, vue comme un événement culturel historique majeur.",
+      "url": "https://www.nytimes.com/2026/09/10/world/bayeux-tapestry-london-exhibition-trump-money.html",
       "groupe_media": {
-        "nom": "Scott Trust",
-        "proprietaire": "Scott Trust Limited",
-        "type_proprietaire": "fondation",
-        "orientation": "centre-gauche"
+        "nom": "The New York Times Company",
+        "proprietaire": "Famille Ochs-Sulzberger",
+        "type_proprietaire": "famille",
+        "orientation": "centre"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "401,6 millions",
-    "contexte": "Nombre de noms de domaine enregistrés dans le monde au 30 juin 2026, franchissant un seuil historique.",
-    "source": "DNIB / Verisign",
-    "source_url": "https://www.dnib.com/media/downloads/reports/domain-name-report-Q22026.pdf"
+    "valeur": "54 000",
+    "contexte": "Nombre de cancers attribués aux poussières toxiques de Ground Zero depuis le 11 septembre 2001.",
+    "source": "Mediapart",
+    "source_url": "https://www.mediapart.fr/journal/international/110926/les-poussieres-toxiques-du-11-septembre-ont-cause-54-000-cancers-et-6-300-morts"
   },
   "a_surveiller": [
     {
-      "date": "2027-04-30",
-      "evenement": "Ouverture du procès en appel de Cédric Jubillar à Toulouse",
-      "type": "autre",
-      "lien": "https://www.20minutes.fr/justice/4243996-20260909-proces-appel-cedric-jubillar-connait-desormais-dates-audience-toulouse"
+      "date": "2026-09-12",
+      "evenement": "Annonce du palmarès de la 83e Mostra de Venise (Lion d'Or)",
+      "type": "culture",
+      "lien": null
+    },
+    {
+      "date": "2026-09-25",
+      "evenement": "Rencontre prévue entre Volodymyr Zelensky et Donald Trump à New York",
+      "type": "echeance",
+      "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Livre de François Piquemal sur les ingérences israéliennes",
-      "rubrique": "politique",
-      "resume": "Le député LFI publie 'Élection sous influence', dénonçant des manœuvres de déstabilisation lors des municipales 2026 à Toulouse, s'appuyant sur un rapport de Viginum mentionnant la structure d'influence 'Blackcore' (Médiacités).",
+      "titre": "Poussières du 11-Septembre : 25 ans de dissimulation municipale",
+      "rubrique": "international",
+      "resume": "De nouveaux documents révèlent que la mairie de New York connaissait la toxicité de l'air dès 2001 mais a agi pour limiter sa responsabilité juridique, alors que 6 300 morts sont désormais recensés (Reporterre, Mediapart).",
       "sources": [
         {
-          "nom": "Médiacités",
-          "url": "https://www.mediacites.fr/lu-pour-vous/toulouse/2026/09/09/francois-piquemal-publie-un-livre-sur-les-ingerences-israeliennes-pendant-lelection-municipale-2026-a-toulouse/",
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Poussieres-toxiques-du-11-Septembre-le-maire-de-New-York-accuse-les-anciens-elus-d-avoir",
+          "type": "investigation"
+        },
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/international/110926/les-poussieres-toxiques-du-11-septembre-ont-cause-54-000-cancers-et-6-300-morts",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Sujet explosif sur la souveraineté numérique et démocratique, peu relayé par les médias nationaux malgré les rapports officiels du SGDSN."
+      "pourquoi_signal": "Ce sujet est largement ignoré par les médias mainstream qui privilégient les commémorations héroïques au détriment des scandales de santé publique à long terme."
     },
     {
-      "titre": "Suppression massive des domaines .name par Verisign",
+      "titre": "Usage illégal des lunettes Meta IA en Europe",
       "rubrique": "tech",
-      "resume": "Verisign a obtenu de l'ICANN l'autorisation de supprimer les domaines de type 'prenom.nom.name', menaçant l'identité numérique de milliers d'utilisateurs historiques (Next).",
+      "resume": "L'autorité de protection des données de Hambourg juge l'utilisation publique des lunettes connectées de Meta illégale, notamment en raison de la reconnaissance faciale non consentie.",
       "sources": [
         {
           "nom": "Next",
-          "url": "https://next.ink/255396/je-disparais-dinternet-verisign-arrete-les-prenom-nom-name-avec-pertes-et-fracas/",
+          "url": "https://next.ink/255956/en-europe-lusage-public-des-lunettes-meta-avec-lia-juge-illegal-par-des-experts/",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Un exemple de centralisation du web où une entreprise privée peut effacer des décennies de présence numérique avec l'aval d'un régulateur."
+      "pourquoi_signal": "Le débat sur la vie privée face aux objets connectés est souvent éclipsé par le marketing des Big Tech."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Cisjordanie : les écoles palestiniennes ciblées par les colons",
-      "rubrique": "international",
-      "resume": "Les attaques de colons contre les écoles augmentent pour pousser les familles palestiniennes au départ. 12 pays, dont la France, envisagent des restrictions commerciales sur les produits des colonies illégales (Slate FR, Politis, France Diplomatie).",
+      "titre": "NAZA : le choc documentaire sur Gaza à Venise",
+      "rubrique": "culture",
+      "resume": "Le film israélien 'NAZA' dévoile l'usage de l'IA par l'armée pour cibler systématiquement des civils palestiniens. Il a reçu une ovation exceptionnelle de 25 minutes à la Mostra.",
       "axes_concernes": [
         "droit_international",
-        "colonialisme",
-        "justice_sociale"
+        "justice_sociale",
+        "liberte_expression"
       ],
-      "analyse": "Cette situation constitue une violation flagrante du droit international et des droits de l'enfant. L'impunité dont bénéficient les colons, documentée par l'ONU, souligne un double standard criant dans l'application de la justice internationale. Notre ligne éditoriale exige de dénoncer ces agressions territoriales au même titre que toute autre invasion illégitime.",
+      "analyse": "Ce film est crucial car il documente, de l'intérieur (réalisateurs israéliens), la violation systématique du droit international. L'utilisation de technologies pour 'éliminer de façon calculée' des civils interroge l'universalité des droits humains. Le contraste entre l'accueil triomphal à Venise et le silence relatif de certains médias mainstream sur le fond des révélations technologiques souligne un double standard persistant dans la couverture du conflit.",
       "sources": [
         {
-          "nom": "Slate FR",
-          "url": "https://www.slate.fr/monde/cisjordanie-occupee-ecole-attaques-meurtrieres-palestine-colons-israeliens",
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/culture/20260911.OBS118127/mostra-de-venise-naza-un-film-israelien-sur-les-crimes-de-guerre-a-gaza-recoit-une-ovation-de-25-minutes.html",
           "type": "mainstream"
         },
         {
-          "nom": "France Diplomatie",
-          "url": "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/declaration-des-ministres-des-affaires-etrangeres-de-la-france-du-royaume-uni-du-canada-du-danemark",
-          "type": "institutionnel"
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/cinema-naza-le-documentaire-sur-le-massacre-des-civils-palestiniens-qui-a-chamboule-la-mostra_269947",
+          "type": "etranger"
+        }
+      ]
+    },
+    {
+      "titre": "Un quart des Français en situation de précarité",
+      "rubrique": "societe",
+      "resume": "Selon le baromètre du Secours populaire, 26 % de la population se déclare en fragilité économique, un chiffre en hausse de 6 points en un an.",
+      "axes_concernes": [
+        "justice_sociale",
+        "equite_economique"
+      ],
+      "analyse": "Cette alerte souligne l'échec des politiques de redistribution face à l'inflation. Alors que le gouvernement annonce des économies sur les retraites, l'augmentation brutale de la pauvreté (1 Français sur 4) devrait être la priorité absolue de l'agenda politique au nom de la cohésion sociale.",
+      "sources": [
+        {
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Plus-de-1-4-des-Francais-se-declarent-en-situation-de-precarite-selon-le-Secours-populaire",
+          "type": "investigation"
         }
       ]
     }
   ],
-  "date": "2026-09-10",
-  "genere_a": "2026-09-10T06:11:41.515Z",
+  "date": "2026-09-12",
+  "genere_a": "2026-09-12T05:03:04.103Z",
   "meta": {
-    "nb_articles_analyses": 710,
-    "nb_topics": 201,
+    "nb_articles_analyses": 672,
+    "nb_topics": 203,
     "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 48,
-    "sources_francaises": 459,
-    "sources_etrangeres": 251,
+    "nb_articles_dans_selection": 32,
+    "sources_francaises": 463,
+    "sources_etrangeres": 209,
     "rubriques_couvertes": [
-      "science",
       "societe",
+      "politique",
       "economie",
       "international"
     ],
-    "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
-    "version_pipeline": "4.1.0-gpt-search"
+    "modele": "gemini/gemini-3-flash-preview",
+    "version_pipeline": "4.0.0"
   }
 }
