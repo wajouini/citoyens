@@ -1,187 +1,61 @@
 {
-  "date": "2026-09-12",
-  "genere_a": "2026-09-12T06:25:04.705Z",
+  "date": "2026-09-13",
+  "genere_a": "2026-09-13T06:12:37.637Z",
   "sujets_actifs": [
     {
-      "titre": "Déraillement d'un TER Rouen-Caen en Seine-Maritime : 44 blessés",
-      "slug": "deraillement-ter-normandie-rouen-caen-2026",
-      "rubrique": "societe",
+      "titre": "Alerte mondiale sur l'IA : les leaders de la tech appellent à freiner le développement",
+      "slug": "alerte-ia-frein-developpement-anthropic-openai",
+      "rubrique": "ia",
       "tldr": [
-        "Accident ferroviaire à Elbeuf le 11 septembre vers 19h30 impliquant 186 passagers.",
-        "Bilan de 44 blessés dont une femme en urgence absolue.",
-        "Le plan ORSEC a été activé et une enquête judiciaire est ouverte."
+        "Le PDG d'Anthropic, Dario Amodei, publie un essai alarmant sur les risques de cyberattaques et de perte de contrôle.",
+        "Elon Musk et Sam Altman (OpenAI) soutiennent publiquement cet appel à un ralentissement coordonné.",
+        "OpenAI annonce le report de son introduction en bourse (IPO) au-delà de 2026 pour raisons de sécurité."
       ],
-      "resume": "Le vendredi 11 septembre 2026, un train TER assurant la liaison Rouen-Caen a partiellement déraillé à proximité d'Elbeuf, en Seine-Maritime. Sur les 186 passagers à bord, 44 ont été blessés, dont un cas jugé en urgence absolue (Le Figaro). Les autorités ont immédiatement déclenché le plan ORSEC, mobilisant 130 pompiers et cinq équipes médicales (Al Jazeera). La procureure adjointe de Rouen a précisé que les dépistages d'alcoolémie et de stupéfiants sur le conducteur se sont révélés négatifs, tout en prévenant que l'enquête technique et judiciaire serait longue (franceinfo). La SNCF et la police cherchent à déterminer si l'accident est dû à une défaillance matérielle, un défaut de voie ou un obstacle extérieur.",
-      "contexte_historique": "Ce déraillement intervient dans un contexte de vigilance accrue sur le réseau ferroviaire normand. Historiquement, la ligne Paris-Caen-Cherbourg est régulièrement critiquée pour son manque de ponctualité et la vétusté de certaines infrastructures (SNCF, Rapports annuels de la région Normandie). L'accident rappelle le déraillement d'Eckwersheim (2015) ou de Brétigny-sur-Orge (2013), bien que l'ampleur des dégâts soit ici moindre.",
+      "resume": "Dans une tribune sans précédent publiée le 12 septembre, Dario Amodei, patron d'Anthropic, exhorte l'industrie à ralentir la course à la puissance de l'IA, s'inquiétant de capacités dépassant déjà les cadres de sécurité actuels. Ce cri d'alarme a reçu le soutien inattendu d'Elon Musk et de Sam Altman, bien que ces derniers restent engagés dans une compétition féroce. En parallèle, Sam Altman a confirmé qu'OpenAI ne ferait pas son entrée en bourse en 2026, invoquant la nécessité de prioriser la sûreté sur les impératifs financiers. Cette convergence souligne une tension croissante entre l'accélération technologique et la capacité des régulateurs à encadrer des modèles de plus en plus autonomes.",
+      "contexte_historique": "Cet appel fait écho à la lettre ouverte de mars 2023 demandant un moratoire de six mois sur les systèmes plus puissants que GPT-4, qui était restée lettre morte (Future of Life Institute). Historiquement, le secteur technologique a rarement auto-régulé ses innovations avant l'intervention législative, comme ce fut le cas pour l'amiante ou le tabac dans d'autres industries (OCDE, 2021).",
       "implications": [
-        "Interruption prolongée du trafic ferroviaire entre Rouen et Caen pour les besoins de l'enquête et la remise en état des voies.",
-        "Débat renouvelé sur le financement de la maintenance des lignes d'équilibre du territoire (TET) et du réseau régional."
+        "Gel probable des investissements publics dans les modèles 'frontière' sans garanties de sécurité accrues.",
+        "Pression renforcée sur les législateurs européens et américains pour durcir l'IA Act et les décrets de sécurité."
       ],
       "chronologie": [
         {
           "date": "2026-09-12",
-          "texte": "La procureure de Rouen annonce des dépistages négatifs pour le conducteur.",
-          "source": "franceinfo"
-        },
-        {
-          "date": "2026-09-11",
-          "texte": "Déraillement du train à 19h30 près d'Elbeuf.",
-          "source": "Le Figaro"
-        },
-        {
-          "date": "2026-09-11",
-          "texte": "Activation du plan ORSEC par la préfecture de Seine-Maritime.",
-          "source": "Al Jazeera"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "franceinfo",
-          "type": "mainstream",
-          "angle": "Focus sur les premiers éléments de l'enquête judiciaire et les résultats toxicologiques.",
-          "ton": "factuel",
-          "url": "https://www.franceinfo.fr/faits-divers/accident/le-prefet-de-seine-maritime-attendu-sur-les-lieux-de-l-accident-du-ter-qui-assurait-la-liaison-entre-rouen-et-caen_8188973.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "L'enquête va être longue, prévient la procureure adjointe.",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Mise en avant de l'ampleur de la réponse d'urgence internationale.",
-          "ton": "neutre",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/12-09-quotable-this-is-america-911-us-khalilzad-taliban?traffic_source=rss",
-          "citation_cle": "130 firefighters and five medical teams dispatched to the scene.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Normandie: ce que l'on sait du déraillement d'un train qui a fait 44 blessés",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/societe/video-normandie-ce-que-l-on-sait-du-deraillement-d-un-train-qui-a-fait-44-blesses_VN-202609120051.html",
-          "citation_cle": "Un train a partiellement déraillé ce vendredi 11 septembre entre Rouen et Caen. Le bilan fait pour l'heure état de 44 bl",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "La cause exacte du déraillement (vitesse, état de la voie ou acte de malveillance).",
-        "La durée totale de l'interruption du trafic sur cet axe majeur."
-      ],
-      "sources": [
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/faits-divers/seine-maritime-environ-20-blesses-apres-le-deraillement-d-un-ter-20260911",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/faits-divers/accident/le-prefet-de-seine-maritime-attendu-sur-les-lieux-de-l-accident-du-ter-qui-assurait-la-liaison-entre-rouen-et-caen_8188973.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/12-09-quotable-this-is-america-911-us-khalilzad-taliban?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-09-11"
-    },
-    {
-      "titre": "Offensive majeure des Houthis au Yémen : contrôle du littoral de la mer Rouge",
-      "slug": "offensive-houthis-yemen-mer-rouge-2026",
-      "rubrique": "international",
-      "tldr": [
-        "Les rebelles Houthis ont pris le contrôle total du littoral bordant la mer Rouge.",
-        "Saisie de l'île stratégique de Périm dans le détroit de Bab Al-Mandab.",
-        "L'Arabie saoudite ferme son oléoduc Est-Ouest après une attaque de drones."
-      ],
-      "resume": "Les rebelles houthistes, soutenus par l'Iran, ont réalisé une avancée stratégique majeure en prenant le contrôle de l'intégralité du littoral yéménite sur la mer Rouge, incluant l'île de Périm (Le Monde, BBC News). Cette position leur permet de menacer directement le détroit de Bab Al-Mandab, point de passage crucial pour le commerce maritime mondial. Parallèlement, l'Arabie saoudite a suspendu l'activité de son oléoduc principal Est-Ouest à la suite d'une attaque de drones revendiquée par les Houthis et lancée depuis l'Irak selon Riyad (Al Jazeera). Cette escalade intervient alors que les tensions entre l'Iran et les États-Unis se cristallisent autour du contrôle des routes pétrolières mondiales.",
-      "contexte_historique": "Le détroit de Bab Al-Mandab voit passer environ 10 % du commerce maritime mondial. La guerre au Yémen, débutée en 2014, s'est transformée en un conflit par procuration entre l'Arabie saoudite (soutenue par les Occidentaux) et l'Iran. En 2024 et 2025, les attaques houthistes contre les navires marchands avaient déjà forcé de nombreux armateurs à contourner l'Afrique par le Cap de Bonne-Espérance, augmentant les coûts logistiques mondiaux (ONU, Résolution 2216).",
-      "implications": [
-        "Hausse probable des prix du pétrole et des coûts d'assurance pour le transport maritime.",
-        "Risque d'intervention militaire directe des puissances occidentales pour sécuriser le détroit."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-09-12",
-          "texte": "Les Houthis confirment le contrôle total du littoral de la mer Rouge.",
-          "source": "Le Monde"
-        },
-        {
-          "date": "2026-09-11",
-          "texte": "Saisie de l'île de Périm et fermeture de l'oléoduc saoudien.",
-          "source": "NYT World"
-        },
-        {
-          "date": "2026-09-11",
-          "texte": "Fuite de 50 000 civils yéménites devant l'avancée des troupes.",
+          "texte": "Sam Altman annonce le report de l'IPO d'OpenAI pour 2027 au plus tôt.",
           "source": "The Guardian"
+        },
+        {
+          "date": "2026-09-12",
+          "texte": "Dario Amodei publie son plaidoyer pour un ralentissement de l'IA.",
+          "source": "Courrier international"
+        },
+        {
+          "date": "2026-09-09",
+          "texte": "Mistral AI lève 3 milliards d'euros, confirmant l'appétit financier malgré les alertes.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
-          "source": "Le Monde",
+          "source": "RFI",
           "type": "mainstream",
-          "angle": "Analyse du renforcement de l'Iran face aux États-Unis via les succès militaires houthistes.",
-          "ton": "analytique",
-          "url": "https://www.lemonde.fr/international/article/2026/09/12/les-succes-des-houthistes-au-yemen-renforcent-l-iran-face-aux-etats-unis_6770842_3210.html",
-          "citation_cle": "Téhéran contrôle désormais les deux robinets du pétrole mondial.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Focus sur l'attaque de l'oléoduc saoudien et l'origine géographique des drones.",
+          "angle": "Focus sur le ralliement surprise d'Elon Musk et Sam Altman à la position d'Anthropic.",
           "ton": "factuel",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/12-09-quotable-this-is-america-911-us-khalilzad-taliban?traffic_source=rss",
-          "citation_cle": "Saudi Arabia has shut its East-West oil pipeline after a drone attack.",
+          "url": "https://www.rfi.fr/fr/monde/20260912-le-patron-d-anthropic-veut-ralentir-sur-l-ia-musk-et-altman-le-soutiennent",
+          "citation_cle": "Le patron d'Anthropic a appelé à ralentir la vitesse de développement, un message auquel se sont ralliés Elon Musk et Sam Altman.",
           "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
             "type_proprietaire": "etat",
-            "orientation": "variable"
+            "orientation": "centre"
           }
         },
         {
           "source": "The Guardian",
           "type": "etranger",
-          "angle": "Nearly 50,000 Yemeni civilians flee as Houthis advance along Red Sea coast",
-          "ton": "factuel",
-          "url": "https://www.theguardian.com/world/2026/sep/12/yemen-houthi-advance-red-sea-coast-displaces-civilians-bab-al-mandab",
-          "citation_cle": "Global struggle for control of Bab al-Mandab strait threatens to turn Yemen’s on-off conflict into a forever war Violenc",
+          "angle": "Analyse du report de l'IPO d'OpenAI lié aux craintes de sécurité et aux pressions politiques.",
+          "ton": "critique",
+          "url": "https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns",
+          "citation_cle": "OpenAI will not go public in 2026, Sam Altman said in a Fortune interview citing safety fears.",
           "groupe_media": {
             "nom": "Scott Trust",
             "proprietaire": "Scott Trust Limited",
@@ -191,36 +65,25 @@
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "La capacité réelle de l'Arabie saoudite à protéger ses infrastructures critiques contre des drones venant d'Irak.",
-        "La réaction exacte de la coalition internationale stationnée à Djibouti."
+        "S'agit-il d'une réelle inquiétude éthique ou d'une stratégie pour ériger des barrières à l'entrée contre de nouveaux concurrents ?",
+        "Comment la Chine réagira-t-elle à un ralentissement unilatéral des géants américains ?"
       ],
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/09/12/les-succes-des-houthistes-au-yemen-renforcent-l-iran-face-aux-etats-unis_6770842_3210.html",
-          "type": "mainstream",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/monde/20260912-le-patron-d-anthropic-veut-ralentir-sur-l-ia-musk-et-altman-le-soutiennent",
+          "type": "institutionnel",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/12-09-quotable-this-is-america-911-us-khalilzad-taliban?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
             "type_proprietaire": "etat",
-            "orientation": "variable"
+            "orientation": "centre"
           }
         },
         {
           "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/12/yemen-houthi-advance-red-sea-coast-displaces-civilians-bab-al-mandab",
-          "type": "etranger",
+          "url": "https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "Scott Trust",
             "proprietaire": "Scott Trust Limited",
@@ -229,68 +92,73 @@
           }
         },
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss",
-          "type": "etranger",
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/vu-des-etats-unis-le-plaidoyer-vibrant-du-pdg-d-anthropic-pour-ralentir-les-progres-de-l-intelligence-artificielle_270174",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         }
       ],
-      "premiere_apparition": "2026-09-11"
+      "premiere_apparition": "2026-09-12"
     },
     {
-      "titre": "Commémorations du 11-Septembre : 25 ans après, la CIA déclassifie des documents",
-      "slug": "11-septembre-25-ans-cia-declassification-2026",
+      "titre": "Escalade au Yémen : les Houthis verrouillent le détroit de Bab Al-Mandab",
+      "slug": "yemen-houthis-mayun-saoudite-conflit",
       "rubrique": "international",
       "tldr": [
-        "Cérémonies du 25e anniversaire marquées par la présence de Donald Trump au Pentagone.",
-        "La CIA publie 70 documents déclassifiés sur Al-Qaïda et Ben Laden.",
-        "Révélation de notes de 1998 prévenant déjà d'attaques par avion sur le sol US."
+        "Les Houthis ont pris le contrôle de l'île stratégique de Mayun, verrouillant l'accès à la mer Rouge.",
+        "Attaque de drone revendiquée contre une base militaire saoudienne à Sharurah.",
+        "L'Arabie saoudite aurait mené 129 frappes aériennes en 48 heures en représailles."
       ],
-      "resume": "Pour le 25e anniversaire des attentats du 11 septembre 2001, les États-Unis ont rendu hommage aux victimes dans un climat de recueillement mais aussi de tensions politiques. À New York, le maire Zohran Mamdani a présidé la cérémonie, tandis que Donald Trump s'est rendu au Pentagone (Courrier international). À cette occasion, la CIA a déclassifié plus de 70 documents inédits. Ces archives révèlent que dès 1998, des notes transmises au président Clinton indiquaient que l'option préférée d'Oussama ben Laden était de frapper les États-Unis sur leur propre sol, notamment à Washington, en utilisant des avions (20 Minutes, Al Jazeera). Ces révélations relancent le débat sur les failles du renseignement pré-2001.",
-      "contexte_historique": "Les attentats du 11 septembre 2001 ont fait 2 977 victimes et ont entraîné les guerres d'Afghanistan (2001-2021) et d'Irak (2003-2011). La déclassification de documents est un processus régulier mais souvent partiel ; le 25e anniversaire marque une étape symbolique dans l'ouverture des archives de la CIA, conformément aux ordres exécutifs sur la transparence (National Archives and Records Administration).",
+      "resume": "La guerre civile au Yémen connaît un tournant majeur avec la capture de l'île de Mayun par les forces houthistes, consolidant leur emprise sur le détroit de Bab Al-Mandab. Cette avancée menace directement le transit pétrolier mondial. Parallèlement, les rebelles pro-iraniens ont frappé une base militaire en territoire saoudien, provoquant une riposte massive de Riyad. Alors que l'Iran affirme ne pas être en guerre contre les Saoudiens, la multiplication des frappes de part et d'autre fait craindre un embrasement régional total. Le gouvernement yéménite reconnu, soutenu par l'Arabie saoudite, semble perdre pied face à cette offensive coordonnée.",
+      "contexte_historique": "Le détroit de Bab Al-Mandab voit passer environ 10 % du commerce maritime mondial. Depuis 2015, l'intervention de la coalition menée par l'Arabie saoudite n'a pas réussi à déloger les Houthis, qui s'inspirent du modèle de guérilla du Hezbollah (ONU, 2023).",
       "implications": [
-        "Réexamen historique des avertissements ignorés par les administrations Clinton et Bush.",
-        "Impact sur l'opinion publique concernant la légitimité des interventions militaires qui ont suivi."
+        "Risque de hausse immédiate des prix du baril de pétrole et des coûts d'assurance maritime.",
+        "Aggravation de la crise humanitaire au Yémen avec le blocage potentiel des ports d'aide par les combats."
       ],
       "chronologie": [
         {
-          "date": "2026-09-11",
-          "texte": "Cérémonies nationales à New York, au Pentagone et à Shanksville.",
-          "source": "RFI"
+          "date": "2026-09-13",
+          "texte": "Les Houthis revendiquent le contrôle total de l'île de Mayun.",
+          "source": "Al Jazeera"
         },
         {
-          "date": "2026-09-11",
-          "texte": "La CIA rend publics 70 documents sur la genèse d'Al-Qaïda.",
-          "source": "20 Minutes"
+          "date": "2026-09-13",
+          "texte": "Explosions signalées sur l'île iranienne de Qeshm dans le détroit d'Ormuz.",
+          "source": "Ouest-France"
         },
         {
-          "date": "1998-12-04",
-          "texte": "Date d'une note déclassifiée prévenant d'attaques par avion.",
+          "date": "2026-09-12",
+          "texte": "L'Arabie saoudite confirme des dégâts sur une mosquée après un tir de projectile houthi.",
           "source": "Al Jazeera"
         }
       ],
       "couvertures": [
         {
-          "source": "20 Minutes",
-          "type": "mainstream",
-          "angle": "Focus sur le contenu des notes de 1998 et les projets d'attentats par avion.",
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Focus sur l'importance stratégique de l'île de Mayun pour le contrôle de la mer Rouge.",
           "ton": "factuel",
-          "url": "https://www.20minutes.fr/justice/4244703-20260912-ganito-ecope-9-ans-prison-ferme-home-jacking-ultra-violent-gianluigi-donnarumma?at_medium=display&at_campaign=149",
-          "citation_cle": "Des notes de 1998 évoquant déjà des projets d’attentats aux Etats-Unis par avion.",
-          "groupe_media": null
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/wildfire-rages-on-croatias-dalmatian-coast-island-of-brac?traffic_source=rss",
+          "citation_cle": "Yemen’s Houthis have seized the strategic Mayun Island as they cement control over the Bab al-Mandeb Strait.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
         },
         {
-          "source": "Courrier international",
-          "type": "etranger",
-          "angle": "Analyse de la dimension politique des cérémonies et de la présence de Donald Trump.",
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Analyse de la pression croissante exercée par les rebelles pro-iraniens sur Riyad.",
           "ton": "neutre",
-          "url": "https://www.courrierinternational.com/article/commemorations-25-ans-apres-le-11-septembre-des-pelerinages-douloureux-mais-pas-de-ranc-ur-partisane_270009",
-          "citation_cle": "Des pèlerinages douloureux mais pas de rancœur partisane.",
+          "url": "https://www.lemonde.fr/international/article/2026/09/13/les-houthistes-revendiquent-une-attaque-sur-une-base-saoudienne-en-replique-a-des-bombardements-menes-par-riyad-au-yemen_6772078_3210.html",
+          "citation_cle": "Les rebelles pro-iraniens multiplient les assauts et les contraintes contre l’Arabie saoudite.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -299,34 +167,28 @@
           }
         },
         {
-          "source": "Al Jazeera",
+          "source": "The Guardian",
           "type": "etranger",
-          "angle": "CIA drops dozens of declassified documents on bin Laden and al-Qaeda",
+          "angle": "Houthis claim attack on Saudi base as fighting flares with Yemeni forces",
           "ton": "factuel",
-          "url": "https://www.aljazeera.com/news/2026/9/12/cia-drops-dozens-of-declassified-documents-on-bin-laden-and-al-qaeda?traffic_source=rss",
-          "citation_cle": "A briefer told Clinton in 1998 that bin Laden’s 'preferred option is to strike the US on its own soil in Washington'.",
+          "url": "https://www.theguardian.com/world/2026/sep/13/houthis-claim-attack-on-saudi-base-as-fighting-flares-with-yemeni-forces",
+          "citation_cle": "Iran-allied Houthis say drones and missiles used in attack that targeted ‘weapons depots and command and control centres",
           "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Le nombre de documents encore classés 'Top Secret' concernant les liens éventuels de puissances étrangères avec les terroristes.",
-        "Si ces révélations entraîneront de nouvelles auditions parlementaires."
+        "Quelle est l'implication directe de l'Iran dans la planification de la prise de Mayun ?",
+        "La coalition saoudienne a-t-elle encore les moyens d'une contre-offensive terrestre ?"
       ],
       "sources": [
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/justice/4244703-20260912-ganito-ecope-9-ans-prison-ferme-home-jacking-ultra-violent-gianluigi-donnarumma?at_medium=display&at_campaign=149",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/12-09-quotable-this-is-america-911-us-khalilzad-taliban?traffic_source=rss",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/wildfire-rages-on-croatias-dalmatian-coast-island-of-brac?traffic_source=rss",
           "type": "etranger",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
@@ -336,9 +198,9 @@
           }
         },
         {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/commemorations-25-ans-apres-le-11-septembre-des-pelerinages-douloureux-mais-pas-de-ranc-ur-partisane_270009",
-          "type": "etranger",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/09/13/les-houthistes-revendiquent-une-attaque-sur-une-base-saoudienne-en-replique-a-des-bombardements-menes-par-riyad-au-yemen_6772078_3210.html",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -347,8 +209,84 @@
           }
         },
         {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/reflexion/editorial-derriere-pisa-les-enjeux-de-lecole-1d019a92-ad2d-11f1-8801-66f16947434c?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "premiere_apparition": "2026-09-11"
+    },
+    {
+      "titre": "Législatives en Suède : la droite sortante au défi d'une gauche favorite",
+      "slug": "elections-suede-2026-kristersson-andersson",
+      "rubrique": "international",
+      "tldr": [
+        "Les Suédois votent ce dimanche pour renouveler le Riksdag (Parlement).",
+        "L'opposition de gauche menée par Magdalena Andersson est donnée favorite par les sondages.",
+        "La coalition de droite d'Ulf Kristersson souffre de l'usure du pouvoir et des crises économiques."
+      ],
+      "resume": "Quatre ans après le basculement à droite, la Suède pourrait revenir dans le giron social-démocrate. Le scrutin de ce 13 septembre oppose le Premier ministre sortant Ulf Kristersson à Magdalena Andersson. Bien que les questions de sécurité et d'immigration restent prépondérantes, la gauche a réussi à recentrer le débat sur les services publics et le pouvoir d'achat. L'extrême droite , pilier de la majorité sortante, reste un acteur clé dont le score déterminera la capacité de la droite à se maintenir. Le pays, nouvellement intégré à l'OTAN, suit ce scrutin avec une attention particulière pour sa stabilité diplomatique.",
+      "contexte_historique": "La Suède a été dirigée par les Sociaux-démocrates pendant la majeure partie du XXe siècle (le 'modèle suédois'). Le virage à droite de 2022 marquait une rupture historique, notamment par l'alliance tacite avec l'extrême droite pour former une majorité (Politico, 2022).",
+      "implications": [
+        "Changement possible de politique fiscale avec un renforcement des investissements dans la santé et l'éducation.",
+        "Ajustement de la posture migratoire si la gauche doit s'allier avec les Verts ou la gauche radicale."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-09-13",
+          "texte": "Ouverture des bureaux de vote à travers toute la Suède.",
+          "source": "RFI"
+        },
+        {
+          "date": "2026-09-12",
+          "texte": "Derniers sondages plaçant la gauche en tête avec une courte avance.",
+          "source": "Politico EU"
+        },
+        {
+          "date": "2026-03-07",
+          "texte": "Entrée officielle de la Suède dans l'OTAN, modifiant le paysage politique national.",
+          "source": "Archives Citoyens.ai"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "RFI",
+          "type": "mainstream",
+          "angle": "Analyse de l'incertitude du résultat et du duel entre Kristersson et Andersson.",
+          "ton": "neutre",
+          "url": "https://www.rfi.fr/fr/europe/20260913-su%C3%A8de-les-%C3%A9lecteurs-appel%C3%A9s-aux-urnes-pour-des-l%C3%A9gislatives-au-r%C3%A9sultat-tr%C3%A8s-incertain",
+          "citation_cle": "Le scrutin oppose principalement la coalition de droite du Premier ministre sortant à l'opposition de gauche.",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "NYT World",
+          "type": "etranger",
+          "angle": "Observation du retour en vogue des politiques de centre-gauche malgré la persistance de l'extrême droite.",
+          "ton": "factuel",
+          "url": "https://www.nytimes.com/2026/09/13/world/europe/sweden-election-sunday.html",
+          "citation_cle": "With various crises easing, center-left politics seem in vogue again, but the far right cannot be discounted.",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quel sera le poids réel des Démocrates de Suède après quatre ans de soutien au gouvernement ?",
+        "Quelle coalition pourra réellement émerger si aucun bloc n'obtient de majorité claire ?"
+      ],
+      "sources": [
+        {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20260911-chaque-ann%C3%A9e-c-est-une-p%C3%A9riode-tr%C3%A8s-difficile-les-%C3%A9tats-unis-rendent-hommage-aux-victimes-du-11-septembre",
+          "url": "https://www.rfi.fr/fr/europe/20260913-su%C3%A8de-les-%C3%A9lecteurs-appel%C3%A9s-aux-urnes-pour-des-l%C3%A9gislatives-au-r%C3%A9sultat-tr%C3%A8s-incertain",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -356,50 +294,77 @@
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
+        },
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/09/13/world/europe/sweden-election-sunday.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Politico EU",
+          "url": "https://www.politico.eu/article/how-to-watch-sweden-election-like-pro/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Axel Springer / KKR",
+            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         }
       ],
-      "premiere_apparition": "2026-09-11"
+      "premiere_apparition": "2026-09-13"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Incendie meurtrier du ferry MV June Aster aux Philippines",
-      "slug": "incendie-ferry-philippines-2026",
-      "rubrique": "international",
-      "resume": "Le bilan s'est alourdi à 35 morts alors que les secours ont enfin pu accéder à l'épave calcinée. Des dizaines de passagers sont toujours portés disparus.",
+      "titre": "Déraillement du TER Rouen-Caen",
+      "slug": "deraillement-ter-normandie-sabotage",
+      "rubrique": "transport",
+      "resume": "L'enquête s'oriente désormais vers un acte de malveillance délibéré. Le bilan reste de 44 blessés, dont 3 graves, mais le trafic reprend progressivement sur des voies sécurisées.",
       "chronologie": [
         {
-          "date": "2026-09-12",
-          "texte": "Le bilan grimpe à 35 morts, l'accès au bateau reste difficile à cause de la chaleur.",
-          "source": "BBC News"
+          "date": "2026-09-13",
+          "texte": "Les usagers expriment une défiance croissante malgré le renforcement de la surveillance.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-09-11",
+          "texte": "Déraillement du train en Seine-Maritime, activation du plan ORSEC.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Suivi du bilan humain et des difficultés techniques des garde-côtes.",
-          "ton": "factuel",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o",
-          "citation_cle": "Access to the burnt-out boat has been slowed by toxic fumes."
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Enquête sur la psychologie des voyageurs après l'accident.",
+          "ton": "neutre",
+          "url": "https://www.bfmtv.com/societe/video-deraillement-d-un-train-en-normandie-les-usagers-du-train-ont-ils-toujours-confiance_VN-202609130051.html",
+          "citation_cle": "Si cet accident est la conséquence d’un acte de malveillance, les voyageurs remettent-ils pour autant en question leur confiance ?"
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Le nombre exact de passagers non déclarés sur le manifeste."
+        "L'identité et les motivations exactes des auteurs du sabotage."
       ],
       "sources": [
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o",
-          "type": "etranger"
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/societe/video-deraillement-d-un-train-en-normandie-les-usagers-du-train-ont-ils-toujours-confiance_VN-202609130051.html",
+          "type": "mainstream"
         }
       ],
-      "derniere_mise_a_jour": "2026-09-12",
-      "statut": "Phase de récupération des corps et enquête technique."
+      "derniere_mise_a_jour": "2026-09-13",
+      "statut": "Enquête judiciaire en cours, stabilisation de la situation technique."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 672,
+    "nb_articles_analyses": 531,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
