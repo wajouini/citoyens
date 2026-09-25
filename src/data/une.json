@@ -1,62 +1,67 @@
 {
   "sujet_du_jour": {
-    "titre": "Régulation de l'IA : l'ONU face au défi de la sécurité mondiale",
-    "rubrique": "ia",
-    "pourquoi_important": "C'est la première fois que le Conseil de sécurité de l'ONU consacre une séance formelle aux risques existentiels de l'IA, marquant un tournant dans la diplomatie technologique mondiale.",
+    "titre": "Visite du Pape Léon XIV en France : entre diplomatie et ferveur populaire",
+    "rubrique": "societe",
+    "pourquoi_important": "C'est le premier grand déplacement pontifical en France sous ce pontificat, mêlant enjeux éthiques sur l'IA et défis migratoires.",
     "faits": [
-      "Le Conseil de sécurité de l'ONU a tenu le 23 septembre 2026 une séance historique sur l'IA et la sécurité internationale sous présidence française (Nations Unies).",
-      "Les dirigeants d'OpenAI , Anthropic et Hugging Face ont été auditionnés aux côtés du chercheur Yoshua Bengio (France 24, franceinfo).",
-      "Sam Altman a appelé à une 'attention extrême' face à l'accélération technologique, tandis qu'Anthropic s'est dit prêt à ralentir ses développements pour garantir la sécurité (France 24).",
-      "Le Royaume-Uni et la Lettonie ont plaidé pour la création d'un groupe d'experts informel au sein de l'ONU pour surveiller les impacts de l'IA (GOV.UK, ."
+      "Arrivée prévue à 10h à l'aéroport d'Orly pour un périple de quatre jours incluant Paris, Lourdes et Metz (BFM TV.",
+      "Séquence diplomatique majeure avec une rencontre à l'Élysée avec Emmanuel Macron et un discours à l'UNESCO centré sur l'intelligence artificielle (UNESCO, France 24).",
+      "Rassemblements de masse avec une veillée au Stade de France et une messe géante prévue pour 600 000 personnes sur l'axe Concorde-Champs-Élysées (Ouest-France.",
+      "Le dispositif de sécurité est classé 'grand événement' par décret, encadrant strictement les périmètres de Paris à la Moselle (Légifrance, Le Monde)."
     ],
-    "contexte": "Cette réunion intervient alors que les puissances mondiales craignent que l'IA ne facilite les cyberattaques massives ou la création d'armes autonomes. Si les entreprises plaident pour une régulation, certains observateurs y voient une manœuvre pour verrouiller le marché. En effet, Mediapart souligne que les géants du secteur ont tout intérêt à définir eux-mêmes les règles du jeu pour freiner l'émergence de concurrents sous couvert de 'risques existentiels'.",
+    "contexte": "Cette visite intervient dans un climat où l'Église catholique cherche à peser sur les débats de société contemporains. Le Pape Léon XIV a choisi d'aborder des thèmes aussi divers que la régulation de l'IA, la crise migratoire et la lutte contre les violences sexuelles au sein de l'institution. Pour le gouvernement français, l'enjeu est autant sécuritaire que diplomatique, avec une organisation logistique rappelant celle des grands sommets internationaux.",
     "sources": [
       {
-        "nom": "Nations Unies",
-        "url": "https://transcripts.un.org/en/sc/10228",
+        "nom": "Holy See Press Office",
+        "url": "https://press.vatican.va/content/leo-xiv/en/travels/2026/documents/francia-25-28settembre2026.html",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/economie-et-social/230926/qui-interet-reguler-l-intelligence-artificielle",
-        "type": "investigation",
-        "groupe_media": {
-          "nom": "Mediapart",
-          "proprietaire": "Fonds pour une presse libre",
-          "type_proprietaire": "fondation",
-          "orientation": "gauche"
-        }
+        "nom": "UNESCO",
+        "url": "https://www.unesco.org/fr/articles/lunesco-accueille-le-pape-leon-xiv-pour-une-journee-de-reflexion-sur-lintelligence-artificielle?hub=68184",
+        "type": "institutionnel",
+        "groupe_media": null
       },
       {
         "nom": "France 24",
-        "url": "https://www.france24.com/fr/%C3%A9co-tech/20260923-ia-%C3%A0-l-onu-les-patrons-d-anthropic-et-openai-exhortent-%C3%A0-la-vigilance-et-la-coop%C3%A9ration",
+        "url": "https://www.france24.com/fr/france/20260925-en-direct-pape-leon-xiv-visite-france-ia-immigration-macron-eglise-catholique",
         "type": "mainstream",
         "groupe_media": null
       },
       {
-        "nom": "GOV.UK",
-        "url": "https://www.gov.uk/government/speeches/foreign-secretary-address-to-the-unsc-on-artificial-intelligence--2",
+        "nom": "Légifrance",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054794130",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "franceinfo",
-        "url": "https://www.franceinfo.fr/environnement/crise-climatique/le-chef-de-l-onu-lance-a-new-york-un-dernier-appel-a-l-action-climatique-avant-son-depart_8207009.html#xtor=RSS-3-[lestitres]",
+        "nom": "BFM TV",
+        "url": "https://www.bfmtv.com/societe/religions/direct-le-pape-leon-xiv-arrive-ce-matin-en-france-pour-une-visite-de-quatre-jours-des-centaines-de-milliers-de-fideles-attendus-a-paris_LN-202609250117.html",
+        "type": "mainstream"
+      },
+      {
+        "nom": "Ouest-France",
+        "url": "https://www.ouest-france.fr/sport/football/equipe-de-france/turquie-france-ce-nest-pas-un-n10-michael-olise-un-repositionnement-decisif-a-droite-a244fb3a-b76a-11f1-b8f7-5b3ca074ea4b?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+        "type": "mainstream"
+      },
+      {
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/planete/article/2026/09/25/des-employes-de-l-industrie-fossile-auteurs-du-giec-l-institution-de-nouveau-confrontee-a-l-epineuse-question-des-conflits-d-interets_6781937_3244.html",
         "type": "mainstream"
       }
     ],
-    "lien": "https://transcripts.un.org/en/sc/10228"
+    "lien": null
   },
   "france": [
     {
-      "titre": "Affaire Hakimi : le renvoi aux assises est définitif",
+      "titre": "Mort de Quentin Deranque : l'enquête s'élargit à Lyon",
       "rubrique": "societe",
-      "resume": "La Cour de cassation a rejeté le 23 septembre le pourvoi du joueur du PSG, confirmant son procès devant la cour criminelle des Hauts-de-Seine pour viol (Le Monde, Mediapart). Bien qu'il conteste les faits, la justice a estimé qu'aucun moyen sérieux ne permettait d'annuler la procédure (20 Minutes.",
+      "resume": "Huit nouvelles interpellations ont eu lieu cette semaine, portant à quatorze le nombre de suspects poursuivis pour la mort du militant d'extrême droite en février dernier. Cinq personnes ont été mises en examen, principalement pour 'association de malfaiteurs' et 'violences aggravées' (Mediapart, 20 Minutes, franceinfo).",
       "sources": [
         {
           "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/230926/le-footballeur-du-psg-achraf-hakimi-sera-bien-juge-pour-viol",
+          "url": "https://www.mediapart.fr/journal/france/240926/mort-de-quentin-deranque-lyon-cinq-nouvelles-mises-en-examen",
           "type": "investigation",
           "groupe_media": {
             "nom": "Mediapart",
@@ -66,67 +71,74 @@
           }
         },
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/09/24/au-proces-de-rachida-dati-pour-corruption-je-suis-tres-choquee-que-vous-me-traitiez-de-menteuse-je-ne-sais-meme-pas-a-quoi-sert-l-audience_6781337_3224.html",
-          "type": "mainstream"
-        },
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/faits_divers/4248227-20260924-aube-sexagenaire-tue-devant-chez-petit-village-pres-troyes?at_medium=display&at_campaign=149",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Procès Aramburú : lourdes peines requises contre l'extrême droite",
-      "rubrique": "politique",
-      "resume": "L'avocat général a requis 27 ans de réclusion contre Loïk Le Priol et 20 ans contre Romain Bouvier pour l'assassinat du rugbyman Federico Martín Aramburú en 2022 (Sud-Ouest, RFI). Le parquet souligne la préméditation et la 'dangerosité criminelle avérée' des tireurs issus de la mouvance identitaire (Le Monde, franceinfo).",
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/09/24/mort-de-federico-martin-aramburu-l-avocat-general-philippe-courroye-soutient-que-les-deux-tireurs-ont-agi-avec-premeditation_6781325_3224.html",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/mort-de-quentin-militant-identitaire-agresse-a-lyon/huit-nouvelles-interpellations-en-lien-avec-mort-de-quentin-deranque-a-lyon_8208233.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/pyrenees-atlantiques/biarritz/assassinat-de-federico-martin-aramburu-un-tandem-malefique-vingt-sept-ans-requis-contre-loik-le-priol-vingt-ans-contre-romain-bouvier-30755580.php",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20260924-violences-politiques-de-2021-2024-au-s%C3%A9n%C3%A9gal-la-justice-a-proc%C3%A9d%C3%A9-%C3%A0-trois-premi%C3%A8res-inculpations",
-          "type": "mainstream"
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/environnement/crise-climatique/le-chef-de-l-onu-lance-a-new-york-un-dernier-appel-a-l-action-climatique-avant-son-depart_8207009.html#xtor=RSS-3-[lestitres]",
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/economie/4247983-20260925-crise-carburants-plans-b-faire-plein-moins-cher-bonne-idee?at_medium=display&at_campaign=149",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Corruption policière en hausse selon l'IGPN",
-      "rubrique": "societe",
-      "resume": "Le rapport annuel de la 'police des polices' révèle une hausse de 33 % des affaires de corruption en 2025 (La Croix). Cette dérive s'explique par une meilleure détection, mais aussi par une pression accrue des narcotrafiquants sur les agents (L'Humanité).",
+      "titre": "Procès MoDem : François Bayrou invoque Dreyfus en appel",
+      "rubrique": "politique",
+      "resume": "Dans le procès des assistants parlementaires, le président du MoDem a clamé son innocence avec emphase, comparant son sort à celui du capitaine Dreyfus. Il conteste toute responsabilité dans l'usage des fonds européens par son parti (Mediapart, Libération).",
       "sources": [
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/religion/visite-du-pape-leon-xiv-en-france-12-questions-pour-comprendre-ce-qui-se-joue-20260923",
-          "type": "mainstream"
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/240926/au-proces-en-appel-du-modem-francois-bayrou-se-compare-au-capitaine-dreyfus",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Mediapart",
+            "proprietaire": "Fonds pour une presse libre",
+            "type_proprietaire": "fondation",
+            "orientation": "gauche"
+          }
         },
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/environnement/anses/manque-de-moyens-delais-contraints-remise-en-cause-de-son-independance-lanses-sous-pression",
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/international/europe/menace-russe-les-etats-unis-alertent-les-pays-du-sud-de-leurope-sur-une-possible-attaque-massive-de-drones-20260924_HUSPWG5FCNDI5IQJ3MXW6X6UD4/",
           "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Sécheresse historique : les sols français en crise",
+      "rubrique": "science",
+      "resume": "Le mois de septembre est le plus sec jamais enregistré, aggravant une crise invisible des sols qui menace les récoltes de 2027 et fragilise les infrastructures. Aucune amélioration n'est prévue avant la semaine prochaine (Reporterre, Libération).",
+      "sources": [
+        {
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Secheresse-aucune-amelioration-attendue-avant-la-semaine-prochaine",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Reporterre",
+            "proprietaire": "Association La Pile",
+            "type_proprietaire": "independant",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/environnement/recoltes-de-2027-menacees-risque-dinondations-aggrave-maisons-fissurees-la-secheresse-historique-ouvre-une-crise-invisible-des-sols-20260924_CICHO4TM3NFRFEMLSRPHUB7MRI/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
         }
       ],
       "lien": null
@@ -134,13 +146,13 @@
   ],
   "monde": [
     {
-      "titre": "Zelensky à l'ONU : stopper la 'folie' de Poutine",
-      "pays": "Ukraine",
-      "resume": "Devant l'Assemblée générale, le président ukrainien a exhorté les leaders mondiaux à asphyxier financièrement la Russie avant l'hiver (Al Jazeera). Kiev a subi de nouveaux bombardements massifs ce jeudi, touchant des infrastructures civiles et une maternité (BFM TV, France 24).",
+      "titre": "Argentine : la pauvreté explose sous l'ère Milei",
+      "pays": "Argentine",
+      "resume": "La pauvreté a bondi de 4 points en six mois pour toucher 32 % de la population, effaçant une brève embellie. Cette hausse est alimentée par une inflation persistante et les mesures d'austérité radicale (Al Jazeera, France 24).",
       "sources": [
         {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/23/zelenskyy-calls-for-sustained-pressure-on-patient-zero-putin-in-un-speech",
+          "url": "https://www.aljazeera.com/news/2026/9/25/argentinas-poverty-rises-to-32-percent-under-milei-with-more-pain-forecast?traffic_source=rss",
           "type": "etranger",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
@@ -150,107 +162,95 @@
           }
         },
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/il-a-eu-acces-a-des-fichiers-du-service-de-statistiques-de-la-sante-un-agent-autonome-d-open-ai-a-infiltre-un-site-du-gouvernement-australien-en-juin-mais-le-geant-americain-n-a-donne-l-alerte-qu-en-septembre_AD-202609240084.html",
-          "type": "mainstream"
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/am%C3%A9riques/20260924-en-direct-onu-assemblee-generale-benjamin-netanyahu-israel-mahmoud-abbas",
-          "type": "mainstream"
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/am%C3%A9riques/20260924-dans-l-argentine-de-javier-milei-la-pauvret%C3%A9-touche-d%C3%A9sormais-pr%C3%A8s-d-une-personne-sur-trois",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
       "lien": null
     },
     {
-      "titre": "Offensive rebelle majeure au Tigré",
-      "pays": "Éthiopie",
-      "resume": "Les forces du TPLF ont pris le contrôle de plusieurs aéroports stratégiques et encerclent la ville de Woldiya (RFI). Cette escalade fait suite à la création d'une nouvelle alliance armée visant à renverser le gouvernement fédéral (La Croix).",
+      "titre": "Iran : une proposition de paix en 7 jours",
+      "pays": "Iran / États-Unis",
+      "resume": "Téhéran propose de rouvrir le détroit d'Ormuz et de relancer les discussions nucléaires si Washington lève les sanctions pétrolières. Le président Pezeshkian affirme que la fin du conflit dépend désormais de la décision américaine (NYT World, The Guardian, BFM TV).",
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20260924-%C3%A9thiopie-le-tplf-et-ses-alli%C3%A9s-lancent-une-offensive-coordonn%C3%A9e-sur-trois-fronts-dans-le-nord-du-pays",
-          "type": "mainstream",
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/09/24/world/middleeast/iran-proposal.html",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
             "orientation": "centre"
           }
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/international/en-ethiopie-les-rebelles-du-tigre-a-la-manouvre-20260923",
-          "type": "mainstream",
-          "groupe_media": null
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/24/ed-miliband-meets-iran-foreign-minister-us-ultimatum-strait-hormuz",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "L'affaire Thélyson Orélien : l'IA menace-t-elle la littérature ?",
-    "rubrique": "culture",
-    "contexte": "Thélyson Orélien, auteur phare de la rentrée littéraire avec son roman 'C’était ça ou mourir', est accusé d'avoir utilisé l'IA pour rédiger son œuvre. Il dément formellement.",
+    "sujet": "Mort de James Copenhaver, blessé lors de l'attentat contre Trump",
+    "rubrique": "international",
+    "contexte": "James Copenhaver, 76 ans, l'un des trois spectateurs blessés par balle lors de la tentative d'assassinat de Donald Trump en Pennsylvanie en 2024, est décédé des suites de complications liées à ses blessures.",
     "couvertures": [
       {
-        "source": "CheckNews (Libération)",
-        "type": "fact-check",
-        "angle": "Vérification technique de l'usage des détecteurs d'IA.",
+        "source": "Le Figaro",
+        "type": "mainstream",
+        "angle": "Focus sur les causes médicales du décès selon les autorités locales.",
         "ton": "factuel",
-        "url": "https://www.liberation.fr/checknews/cetait-ca-ou-mourir-de-thelyson-orelien-le-livre-phenomene-de-la-rentree-litteraire-a-t-il-ete-integralement-redige-avec-lia-20260922_DFM4TJMW2VBVDNJQ6VJTPFY55U/",
-        "citation_cle": "CheckNews a refait l’exercice sur cet ouvrage, mais aussi sur d’anciennes productions de l’auteur.",
-        "auteur": "Florian Gouthière",
-        "proprietaire_contexte": "Fondation (Libération)",
-        "orientation_source": "centre-gauche",
+        "url": "https://www.lefigaro.fr/international/blesse-lors-de-la-tentative-d-assassinat-contre-trump-jim-copenhaver-est-mort-a-76-ans-20260925",
+        "citation_cle": "L’Américain est décédé des suites de complications liées à ses blessures par balle.",
+        "auteur": null,
+        "proprietaire_contexte": "Groupe Dassault",
+        "orientation_source": "Droite",
         "groupe_media": null
       },
       {
-        "source": "L'Humanité",
-        "type": "mainstream",
-        "angle": "Dénonciation d'une 'vindicte raciste' derrière les accusations.",
-        "ton": "engage",
-        "url": "https://www.humanite.fr/culture-et-savoir/intelligence-artificielle/lecrivain-thelyson-orelien-accuse-davoir-utilise-lia-les-vraies-questions-que-pose-laffaire-2",
-        "citation_cle": "Jeté à la vindicte raciste, l’auteur nie les faits mais l’affaire pose néanmoins de vraies questions.",
-        "auteur": "Théo Bourrieau",
-        "proprietaire_contexte": "Coopérative (L'Humanité)",
-        "orientation_source": "gauche",
-        "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
-          "orientation": "gauche"
-        }
-      },
-      {
-        "source": "La Croix",
-        "type": "mainstream",
-        "angle": "La responsabilité des éditeurs face aux nouvelles technologies.",
+        "source": "The Guardian",
+        "type": "etranger",
+        "angle": "Rappel détaillé du contexte de la fusillade et de l'identité des victimes.",
         "ton": "neutre",
-        "url": "https://www.la-croix.com/culture/les-editeurs-doivent-ils-garantir-que-leurs-livres-sont-ecrits-sans-ia-20260923",
-        "citation_cle": "Cette affaire interroge la responsabilité des éditeurs.",
-        "auteur": "Isaure Hiace",
-        "proprietaire_contexte": "Bayard",
-        "orientation_source": "centre",
-        "groupe_media": null
+        "url": "https://www.theguardian.com/us-news/2026/sep/24/trump-assassination-attempt-man-dies-injured",
+        "citation_cle": "James Copenhaver was in the bleachers during the event in Butler when a 20-year-old gunman opened fire.",
+        "auteur": "Associated Press",
+        "proprietaire_contexte": "Scott Trust",
+        "orientation_source": "Centre-gauche",
+        "groupe_media": {
+          "nom": "Scott Trust",
+          "proprietaire": "Scott Trust Limited",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
+        }
       }
     ],
-    "analyse_coherence": "La polémique Thélyson Orélien illustre un double standard flagrant dans le traitement médiatique de l'IA. Alors que l'IA est célébrée comme un outil de progrès au Conseil de sécurité de l'ONU (voir sujet du jour), elle devient une arme de disqualification dans le champ culturel. L'analyse croisée montre une divergence profonde : là où CheckNews reste sur un terrain purement technique de fact-checking, L'Humanité politise le débat en soulignant que le soupçon frappe plus durement un auteur racisé, suggérant qu'un talent 'phénomène' ne pourrait être qu'artificiel. De son côté, La Croix déplace le curseur vers l'éthique professionnelle des maisons d'édition. Cette asymétrie de traitement révèle l'absence de cadre moral stabilisé : l'IA est soit un génie salvateur (ONU), soit une fraude honteuse (littérature). On observe une tendance à la suspicion systématique envers les nouveaux entrants qui bousculent les codes établis, l'IA servant alors de prétexte à une forme de conservatisme littéraire.",
+    "analyse_coherence": "La couverture de ce décès illustre une approche purement factuelle de part et d'autre de l'Atlantique, mais avec une intensité émotionnelle différente. Le Figaro reste sur une brève informative très sobre, se contentant de rapporter les faits médicaux sans analyse politique. À l'inverse, The Guardian , bien que s'appuyant sur l'Associated Press, replace l'événement dans la chronologie précise de la violence politique américaine de 2024. On note l'absence de politisation immédiate du décès dans les sources disponibles, ce qui est remarquable compte tenu de la polarisation habituelle autour de Donald Trump. Cependant, le traitement médiatique souligne une forme de 'normalisation' de la violence politique : le décès d'une victime collatérale deux ans après les faits est traité comme un épilogue administratif plutôt que comme un rappel du traumatisme démocratique. Aucun média ne semble ici questionner la responsabilité de la sécurité du meeting ou les conséquences à long terme pour les survivants, préférant une approche de 'fait divers' international.",
     "biais_detectes": [
-      "Technocentrisme (CheckNews)",
-      "Biais de suspicion raciale (signalé par L'Humanité)",
-      "Moralisme institutionnel (La Croix)"
+      "Minimalisme informatif",
+      "Dépolitisation d'un événement hautement politique"
     ],
-    "ce_quil_faut_retenir": "Au-delà de la culpabilité ou non de l'auteur, l'affaire révèle que le monde de l'édition n'est pas prêt à intégrer — ou à détecter avec certitude — les outils d'IA, créant une zone de flou propice aux procès d'intention."
+    "ce_quil_faut_retenir": "Le décès de James Copenhaver ferme un chapitre tragique de la campagne de 2024, rappelant que les conséquences de la violence politique s'étendent bien au-delà de l'instant de l'attaque."
   },
   "regard_etranger": [
     {
       "source": "The Guardian",
-      "pays": "Royaume-Uni",
-      "titre": "Elif Eralp : la 'Zohran Mamdani allemande' qui veut diriger Berlin",
-      "titre_original": "Elif Eralp: ‘Germany’s Zohran Mamdani’ who vows to be a mayor for all Berliners",
-      "angle": "Le Guardian voit en elle une figure progressiste capable de transformer Berlin malgré ses origines immigrées.",
-      "url": "https://www.theguardian.com/world/2026/sep/24/elif-eralp-germany-zohran-mamdani-mayor-berlin-die-linke",
+      "country": "Royaume-Uni",
+      "titre": "CNN et MS Now interdits d'accès à un dîner d'État malgré une décision de justice",
+      "titre_original": "CNN and MS Now journalists denied access to White House state dinner despite court ruling",
+      "angle": "Dénonciation d'une atteinte à la liberté de la presse par l'administration Trump.",
+      "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban",
       "groupe_media": {
         "nom": "Scott Trust",
         "proprietaire": "Scott Trust Limited",
@@ -259,115 +259,137 @@
       }
     },
     {
-      "source": "BBC News",
-      "pays": "Royaume-Uni",
-      "titre": "L'expulsion d'une femme de 87 ans illustre la crise du logement en Espagne",
-      "titre_original": "Dramatic eviction of woman aged 87 highlights Spain's housing shortage",
-      "angle": "La BBC utilise ce cas tragique pour souligner l'échec des politiques de logement face à la spéculation immobilière.",
-      "url": "https://www.bbc.co.uk/news/articles/c6vgy55lm8z1o",
+      "source": "NYT World",
+      "country": "États-Unis",
+      "titre": "La capitale du Canada dit adieu à l'avenue Trump sur fond de tensions",
+      "titre_original": "Canada’s Capital Bids Good Riddance to Trump Avenue as Tensions With U.S. Rise",
+      "angle": "Analyse de la dégradation des relations diplomatiques via la toponymie urbaine.",
+      "url": "https://www.nytimes.com/2026/09/23/us/ottawa-canada-renaming-trump-avenue.html",
       "groupe_media": {
-        "nom": "BBC",
-        "proprietaire": "État britannique",
-        "type_proprietaire": "etat",
+        "nom": "The New York Times Company",
+        "proprietaire": "Famille Ochs-Sulzberger",
+        "type_proprietaire": "famille",
         "orientation": "centre"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "471",
-    "contexte": "Nombre de bureaux de poste dont la fermeture ou la transformation en agences communales a été annoncée, provoquant une alerte des syndicats sur l'abandon des zones rurales et des quartiers populaires.",
-    "source": "L'Humanité / Mediapart",
-    "source_url": "https://www.humanite.fr/social-et-economie/la-poste/la-poste-annonce-la-fermeture-de-471-bureaux-sud-ptt-denonce-un-abandon-des-campagnes-et-des-quartiers-populaires"
+    "valeur": "98 000 hectares",
+    "contexte": "Surface brûlée en France depuis le début de l'année 2024, un record depuis 1976.",
+    "source": "Office national des forêts (via franceinfo)",
+    "source_url": "https://www.franceinfo.fr"
   },
   "a_surveiller": [
     {
-      "date": "2026-09-25",
-      "evenement": "Verdict attendu dans le procès de l'assassinat de Federico Martín Aramburú",
-      "type": "publication",
-      "lien": null
+      "date": "2026-09-25T08:30:00Z",
+      "evenement": "Procès de l'avocat Raphaël Kempf au tribunal de Nancy",
+      "type": "audition",
+      "lien": "https://lesaf.org/soutien-a-notre-confrere-raphael-kempf-2/"
     },
     {
-      "date": "2026-10-01",
-      "evenement": "Élections législatives en Israël : risque d'exclusion des listes arabes",
-      "type": "vote",
-      "lien": null
+      "date": "2026-09-26T10:00:00Z",
+      "evenement": "Messe papale sur l'espace Concorde-Champs-Élysées",
+      "type": "autre",
+      "lien": "https://www.interieur.gouv.fr/actualites/actualites-du-ministere/visite-du-pape-leon-xiv-deplacement-sous-haute-protection"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Laurent Duplomb visé par une enquête pour détournement",
-      "rubrique": "politique",
-      "resume": "Le parquet de Clermont-Ferrand a ouvert une enquête préliminaire visant le sénateur LR Laurent Duplomb. Il est soupçonné d'avoir utilisé une collaboratrice parlementaire pour recruter des adhérents LR en faveur de Laurent Wauquiez.",
+      "titre": "Éthiopie : vers une reprise de la guerre totale au Tigré",
+      "rubrique": "international",
+      "resume": "La saisie des aéroports de Mekelle et Axum et la suspension des vols civils par Ethiopian Airlines signalent une rupture de l'accord de Pretoria. L'ONU et l'Union africaine alertent sur une escalade imminente (UN, Mediapart).",
       "sources": [
+        {
+          "nom": "Nations unies",
+          "url": "https://ethiopia.un.org/en/323246-un-secretary-general-statement-ethiopia",
+          "type": "institutionnel"
+        },
         {
           "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/230926/le-senateur-laurent-duplomb-soupconne-de-detournement-de-fonds-publics",
-          "type": "investigation"
-        },
-        {
-          "nom": "Mediacités",
-          "url": "https://www.mediacites.fr/enquete/lyon/2025/05/15/en-haute-loire-lintense-et-discutable-chasse-aux-adhesions-lr-pour-laurent-wauquiez/",
+          "url": "https://www.mediapart.fr/journal/international/240926/en-ethiopie-une-reprise-de-la-guerre-grande-echelle-se-profile",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce sujet, révélé par la presse locale en 2025, passe sous les radars des grands médias nationaux malgré l'ouverture d'une enquête judiciaire formelle."
+      "pourquoi_signal": "Ce conflit majeur, aux conséquences humanitaires potentiellement dévastatrices, est largement occulté par l'actualité au Proche-Orient et en Ukraine."
     },
     {
-      "titre": "Fermeture du lobby anti-écologie MCC à Bruxelles",
-      "rubrique": "economie",
-      "resume": "Le think tank MCC Brussels, fer de lance de l'anti-écologie financé par l'écosystème de Viktor Orbán, ferme ses portes suite au changement de pouvoir en Hongrie et à sa suspension du registre de transparence de l'UE.",
+      "titre": "Violences policières à Lyon : condamnations après un an de silence",
+      "rubrique": "societe",
+      "resume": "Un policier a été condamné à un an de prison avec sursis pour des coups portés en garde à vue en 2025. Un commissaire a également été sanctionné. L'affaire révèle des dysfonctionnements graves lors de célébrations sportives (Rue89 Lyon, Le Dauphiné).",
       "sources": [
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/La-chute-d-Orban-entraine-celle-d-un-puissant-lobby-anti-ecologie-a-Bruxelles",
+          "nom": "Rue89 Lyon",
+          "url": "https://www.rue89lyon.fr/2026/09/24/nez-casse-et-coups-de-coude-a-lyon-deux-agents-lourdement-condamnes-pour-violences-policieres/",
           "type": "investigation"
         },
         {
-          "nom": "Euronews",
-          "url": "https://www.euronews.com/2026/09/01/orban-backed-brussels-think-tank-mcc-brussels-to-close-after-funding-cut",
-          "type": "etranger"
+          "nom": "Le Dauphiné Libéré",
+          "url": "https://www.ledauphine.com/faits-divers-justice/2026/09/24/victoire-du-psg-un-policier-condamne-a-du-sursis-pour-des-violences-en-garde-a-vue",
+          "type": "mainstream"
         }
       ],
-      "pourquoi_signal": "La chute d'un lobby aussi influent à Bruxelles est un signal majeur du reflux des forces réactionnaires au sein des institutions européennes."
+      "pourquoi_signal": "Une condamnation rare d'un officier supérieur (commissaire) pour des violences directes, souvent minimisées dans les médias nationaux."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Offensive américaine contre la Cour pénale internationale",
-      "rubrique": "international",
-      "resume": "Les États-Unis ont étendu leurs sanctions contre des juges de la CPI, dont la présidente et la juge Reine Alapini-Gansou, pour entraver les enquêtes sur des 'personnes protégées' par Washington.",
+      "titre": "L'exercice de la défense en procès : le cas Raphaël Kempf",
+      "rubrique": "politique",
+      "resume": "L'avocat Raphaël Kempf est jugé pour 'outrage' après avoir critiqué les conditions de détention 'ignobles' et la 'torture blanche' imposée à son client en isolement.",
       "axes_concernes": [
-        "droit_international",
-        "imperialisme"
+        "liberte_expression",
+        "droit_international"
       ],
-      "analyse": "Cette situation est une violation flagrante du droit international par une puissance qui se revendique 'leader du monde libre'. Le silence ou la passivité des dirigeants européens face à des sanctions visant des magistrats sur le sol européen (La Haye) constitue un renoncement dangereux à la souveraineté juridique universelle.",
+      "analyse": "Ce procès pose une question fondamentale sur l'universalité du droit à la défense. Poursuivre un avocat pour des propos tenus dans le cadre de son mandat, visant à dénoncer des conditions de détention contraires à la dignité humaine, constitue une dérive inquiétante. Si la critique de l'administration pénitentiaire devient un délit, c'est l'équilibre même de la justice qui est rompu au profit d'un autoritarisme institutionnel.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/international/230926/un-colloque-pour-defendre-la-cour-penale-internationale-mortellement-menacee-par-trump",
-          "type": "investigation"
+          "nom": "Syndicat des Avocat·es de France",
+          "url": "https://lesaf.org/soutien-a-notre-confrere-raphael-kempf-2/",
+          "type": "institutionnel"
         },
         {
-          "nom": "The White House",
-          "url": null,
-          "type": "institutionnel"
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/societe-2/conditions-de-detention/qui-est-raphael-kempf-en-proces-pour-avoir-denonce-les-conditions-de-detention-de-son-client",
+          "type": "mainstream"
+        }
+      ]
+    },
+    {
+      "titre": "NAZA : le documentaire que la censure ne pourra pas étouffer",
+      "rubrique": "culture",
+      "resume": "Le film de Rachel Szor et Yuval Abraham sur les crimes commis à Gaza sortira dans 56 pays malgré les pressions, avec une diffusion numérique prévue sur The Guardian.",
+      "axes_concernes": [
+        "droit_international",
+        "droits_humains"
+      ],
+      "analyse": "Le traitement de la situation à Gaza souffre d'un double standard médiatique flagrant. Ce documentaire, en documentant les massacres de civils, rétablit une part de vérité universelle. La résistance du film face aux tentatives de invisibilisation illustre l'importance d'un journalisme d'investigation international capable de s'affranchir des narratifs d'État.",
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/film/2026/sep/24/global-release-announced-for-acclaimed-gaza-documentary-naza",
+          "type": "etranger"
+        },
+        {
+          "nom": "Politis",
+          "url": "https://www.politis.fr/api/proxy/?articleID=508537",
+          "type": "investigation"
         }
       ]
     }
   ],
-  "date": "2026-09-24",
-  "genere_a": "2026-09-24T04:35:15.122Z",
+  "date": "2026-09-25",
+  "genere_a": "2026-09-25T04:34:44.007Z",
   "meta": {
-    "nb_articles_analyses": 747,
-    "nb_topics": 207,
-    "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 41,
-    "sources_francaises": 474,
-    "sources_etrangeres": 273,
+    "nb_articles_analyses": 726,
+    "nb_topics": 215,
+    "nb_topics_selectionnes": 15,
+    "nb_articles_dans_selection": 36,
+    "sources_francaises": 473,
+    "sources_etrangeres": 253,
     "rubriques_couvertes": [
-      "ia",
       "societe",
       "politique",
+      "science",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
