@@ -1,126 +1,109 @@
 {
   "sujet_du_jour": {
-    "titre": "Visite du Pape Léon XIV en France : entre diplomatie et ferveur populaire",
+    "titre": "Meurtre d'Aramburú : de lourdes peines mais la préméditation écartée",
     "rubrique": "societe",
-    "pourquoi_important": "C'est le premier grand déplacement pontifical en France sous ce pontificat, mêlant enjeux éthiques sur l'IA et défis migratoires.",
+    "pourquoi_important": "Ce verdict clôt un procès emblématique de la violence de l'ultra-droite, marquant la condamnation de figures de la mouvance radicale.",
     "faits": [
-      "Arrivée prévue à 10h à l'aéroport d'Orly pour un périple de quatre jours incluant Paris, Lourdes et Metz (BFM TV.",
-      "Séquence diplomatique majeure avec une rencontre à l'Élysée avec Emmanuel Macron et un discours à l'UNESCO centré sur l'intelligence artificielle (UNESCO, France 24).",
-      "Rassemblements de masse avec une veillée au Stade de France et une messe géante prévue pour 600 000 personnes sur l'axe Concorde-Champs-Élysées (Ouest-France.",
-      "Le dispositif de sécurité est classé 'grand événement' par décret, encadrant strictement les périmètres de Paris à la Moselle (Légifrance, Le Monde)."
+      "Loïk Le Priol condamné à 26 ans de réclusion criminelle pour le meurtre de Federico Martin Aramburú.",
+      "Romain Bouvier écope de 19 ans de prison pour tentative de meurtre.",
+      "La cour d'assises de Paris n'a pas retenu la préméditation, écartant la qualification d'assassinat.",
+      "Deux complices, Antony Sorrentino et Lyson Rochemir, condamnés à 3 ans de prison (dont du sursis)."
     ],
-    "contexte": "Cette visite intervient dans un climat où l'Église catholique cherche à peser sur les débats de société contemporains. Le Pape Léon XIV a choisi d'aborder des thèmes aussi divers que la régulation de l'IA, la crise migratoire et la lutte contre les violences sexuelles au sein de l'institution. Pour le gouvernement français, l'enjeu est autant sécuritaire que diplomatique, avec une organisation logistique rappelant celle des grands sommets internationaux.",
+    "contexte": "Le 19 mars 2022, l'ex-rugbyman argentin était abattu en plein Paris après une altercation dans un bar. Les tireurs, militants d'extrême droite (ex-GUD), ont fui avant d'être interpellés. Le procès a mis en lumière l'idéologie violente des accusés, bien que la défense ait plaidé pour ne pas transformer l'audience en procès politique.",
     "sources": [
       {
-        "nom": "Holy See Press Office",
-        "url": "https://press.vatican.va/content/leo-xiv/en/travels/2026/documents/francia-25-28settembre2026.html",
-        "type": "institutionnel",
-        "groupe_media": null
-      },
-      {
-        "nom": "UNESCO",
-        "url": "https://www.unesco.org/fr/articles/lunesco-accueille-le-pape-leon-xiv-pour-une-journee-de-reflexion-sur-lintelligence-artificielle?hub=68184",
-        "type": "institutionnel",
-        "groupe_media": null
-      },
-      {
-        "nom": "France 24",
-        "url": "https://www.france24.com/fr/france/20260925-en-direct-pape-leon-xiv-visite-france-ia-immigration-macron-eglise-catholique",
-        "type": "mainstream",
-        "groupe_media": null
-      },
-      {
-        "nom": "Légifrance",
-        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054794130",
-        "type": "institutionnel",
-        "groupe_media": null
-      },
-      {
-        "nom": "BFM TV",
-        "url": "https://www.bfmtv.com/societe/religions/direct-le-pape-leon-xiv-arrive-ce-matin-en-france-pour-une-visite-de-quatre-jours-des-centaines-de-milliers-de-fideles-attendus-a-paris_LN-202609250117.html",
-        "type": "mainstream"
-      },
-      {
-        "nom": "Ouest-France",
-        "url": "https://www.ouest-france.fr/sport/football/equipe-de-france/turquie-france-ce-nest-pas-un-n10-michael-olise-un-repositionnement-decisif-a-droite-a244fb3a-b76a-11f1-b8f7-5b3ca074ea4b?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-        "type": "mainstream"
-      },
-      {
         "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/planete/article/2026/09/25/des-employes-de-l-industrie-fossile-auteurs-du-giec-l-institution-de-nouveau-confrontee-a-l-epineuse-question-des-conflits-d-interets_6781937_3244.html",
-        "type": "mainstream"
+        "url": "https://www.lemonde.fr/societe/article/2026/09/25/mort-de-federico-martin-aramburu-loik-le-priol-et-romain-bouvier-condamnes-a-vingt-six-et-dix-neuf-ans-de-prison_6782635_3224.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
+      },
+      {
+        "nom": "Mediapart",
+        "url": "https://www.mediapart.fr/journal/france/250926/meurtre-d-aramburu-26-et-19-annees-de-prison-pour-les-tueurs-d-extreme-droite",
+        "type": "investigation",
+        "groupe_media": {
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
+          "orientation": "gauche"
+        }
+      },
+      {
+        "nom": "Libération",
+        "url": "https://www.liberation.fr/societe/police-justice/proces-de-lassassinat-de-federico-martin-aramburu-le-priol-condamne-a-26-ans-de-prison-bouvier-a-19-ans-20260925_ASPYSZVUTJA4DLMLVMLOYIO2DI/",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
+        }
+      },
+      {
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/faits-divers/assassinat-du-rugbyman-federico-martin-aramburu/proces-de-l-assassinat-de-federico-martin-aramburu-loik-le-priol-condamne-pour-meurtre-a-26-ans-de-reclusion-criminelle-romain-bouvier-pour-tentative-de-meurtre-a-19-ans-de-prison_8207666.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
       }
     ],
     "lien": null
   },
   "france": [
     {
-      "titre": "Mort de Quentin Deranque : l'enquête s'élargit à Lyon",
-      "rubrique": "societe",
-      "resume": "Huit nouvelles interpellations ont eu lieu cette semaine, portant à quatorze le nombre de suspects poursuivis pour la mort du militant d'extrême droite en février dernier. Cinq personnes ont été mises en examen, principalement pour 'association de malfaiteurs' et 'violences aggravées' (Mediapart, 20 Minutes, franceinfo).",
+      "titre": "Zidane gagne sa première, Mbappé se blesse",
+      "rubrique": "culture",
+      "resume": "Pour ses débuts comme sélectionneur, Zinédine Zidane a vu les Bleus s'imposer 1-0 en Turquie grâce à un but de Kylian Mbappé. Le capitaine est cependant sorti sur blessure au genou gauche, jetant un froid sur ce succès inaugural en Ligue des nations.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/240926/mort-de-quentin-deranque-lyon-cinq-nouvelles-mises-en-examen",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Mediapart",
-            "proprietaire": "Fonds pour une presse libre",
-            "type_proprietaire": "fondation",
-            "orientation": "gauche"
-          }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/faits-divers/mort-de-quentin-militant-identitaire-agresse-a-lyon/huit-nouvelles-interpellations-en-lien-avec-mort-de-quentin-deranque-a-lyon_8208233.html#xtor=RSS-3-[lestitres]",
+          "nom": "L'Équipe",
+          "url": "https://www.lequipe.fr/Football/Video/Ligue-des-nations-bleus-kylian-mbappe-se-blesse-au-genou-gauche-en-marquant-lors-de-turquie-france/20241974",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
+          "groupe_media": null
         },
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/economie/4247983-20260925-crise-carburants-plans-b-faire-plein-moins-cher-bonne-idee?at_medium=display&at_campaign=149",
-          "type": "mainstream"
+          "nom": "UEFA",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a9-21abb9d8b85c-0d9416d472ce-1000--uefa-nations-league-matchday-1-highlights-round-up-kylian-/",
+          "type": "institutionnel",
+          "groupe_media": null
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/sports/football/ligue-des-nations/ligue-des-nations-sans-briller-les-bleus-de-zinedine-zidane-s-imposent-en-turquie-mais-perdent-kylian-mbappe-20260925",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
       "lien": null
     },
     {
-      "titre": "Procès MoDem : François Bayrou invoque Dreyfus en appel",
-      "rubrique": "politique",
-      "resume": "Dans le procès des assistants parlementaires, le président du MoDem a clamé son innocence avec emphase, comparant son sort à celui du capitaine Dreyfus. Il conteste toute responsabilité dans l'usage des fonds européens par son parti (Mediapart, Libération).",
+      "titre": "EPR de Flamanville : arrêt technique après deux ans",
+      "rubrique": "economie",
+      "resume": "Après un chantier de 17 ans, le réacteur EPR est mis à l'arrêt ce 26 septembre pour 350 jours de contrôles intensifs. Cette 'visite de contrôle' inclut le remplacement obligatoire du couvercle de la cuve, au cœur de multiples polémiques techniques.",
       "sources": [
-        {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/240926/au-proces-en-appel-du-modem-francois-bayrou-se-compare-au-capitaine-dreyfus",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Mediapart",
-            "proprietaire": "Fonds pour une presse libre",
-            "type_proprietaire": "fondation",
-            "orientation": "gauche"
-          }
-        },
         {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/international/europe/menace-russe-les-etats-unis-alertent-les-pays-du-sud-de-leurope-sur-une-possible-attaque-massive-de-drones-20260924_HUSPWG5FCNDI5IQJ3MXW6X6UD4/",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Sécheresse historique : les sols français en crise",
-      "rubrique": "science",
-      "resume": "Le mois de septembre est le plus sec jamais enregistré, aggravant une crise invisible des sols qui menace les récoltes de 2027 et fragilise les infrastructures. Aucune amélioration n'est prévue avant la semaine prochaine (Reporterre, Libération).",
-      "sources": [
+          "url": "https://www.liberation.fr/economie/arret-de-lepr-de-flamanville-pour-un-an-edf-remet-le-couvercle-sur-un-reacteur-mal-ne-20260925_ZK4WHSCCLVHT7JADTPCTPLKRSE/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
         {
           "nom": "Reporterre",
-          "url": "https://reporterre.net/Secheresse-aucune-amelioration-attendue-avant-la-semaine-prochaine",
+          "url": "https://reporterre.net/EPR-de-Flamanville-un-an-d-arret-pour-controler-un-reacteur-au-parcours-emaille-d",
           "type": "investigation",
           "groupe_media": {
             "nom": "Reporterre",
@@ -128,16 +111,30 @@
             "type_proprietaire": "independant",
             "orientation": "gauche"
           }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Yannick Jadot suspendu des Écologistes",
+      "rubrique": "politique",
+      "resume": "Le sénateur et ex-candidat à la présidentielle est suspendu pour trois mois à titre conservatoire. Le parti sanctionne son soutien public à Raphaël Glucksmann pour 2027, au détriment de la candidate officielle Marine Tondelier.",
+      "sources": [
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-yannick-jadot-suspendu-des-ecologistes-pour-son-soutien-a-raphael-glucksmann-30784381.php",
+          "type": "mainstream",
+          "groupe_media": null
         },
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/environnement/recoltes-de-2027-menacees-risque-dinondations-aggrave-maisons-fissurees-la-secheresse-historique-ouvre-une-crise-invisible-des-sols-20260924_CICHO4TM3NFRFEMLSRPHUB7MRI/",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/politique/ps/primaire-a-gauche/yannick-jadot-suspendu-temporairement-des-ecologistes-pour-son-soutien-a-raphael-glucksmann_8209919.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         }
       ],
@@ -146,250 +143,192 @@
   ],
   "monde": [
     {
-      "titre": "Argentine : la pauvreté explose sous l'ère Milei",
-      "pays": "Argentine",
-      "resume": "La pauvreté a bondi de 4 points en six mois pour toucher 32 % de la population, effaçant une brève embellie. Cette hausse est alimentée par une inflation persistante et les mesures d'austérité radicale (Al Jazeera, France 24).",
+      "titre": "Détroit d'Ormuz : l'offre de Téhéran à Washington",
+      "pays": "Iran",
+      "resume": "L'Iran propose un plan de réouverture du détroit d'Ormuz sous sept jours si les États-Unis acceptent ses conditions de juin dernier. Cette annonce stratégique, faite depuis l'ONU, place la responsabilité d'une désescalade maritime dans le camp américain.",
       "sources": [
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/25/argentinas-poverty-rises-to-32-percent-under-milei-with-more-pain-forecast?traffic_source=rss",
-          "type": "etranger",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/09/25/l-iran-a-soumis-aux-etats-unis-un-plan-de-reouverture-du-detroit-d-ormuz-en-sept-jours_6782674_3210.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/am%C3%A9riques/20260924-dans-l-argentine-de-javier-milei-la-pauvret%C3%A9-touche-d%C3%A9sormais-pr%C3%A8s-d-une-personne-sur-trois",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/moyen-orient/20260925-l-iran-propose-%C3%A0-washington-de-rouvrir-sous-sept-jours-le-d%C3%A9troit-d-ormuz-selon-plusieurs-m%C3%A9dias",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         }
       ],
       "lien": null
     },
     {
-      "titre": "Iran : une proposition de paix en 7 jours",
-      "pays": "Iran / États-Unis",
-      "resume": "Téhéran propose de rouvrir le détroit d'Ormuz et de relancer les discussions nucléaires si Washington lève les sanctions pétrolières. Le président Pezeshkian affirme que la fin du conflit dépend désormais de la décision américaine (NYT World, The Guardian, BFM TV).",
-      "sources": [
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/09/24/world/middleeast/iran-proposal.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/24/ed-miliband-meets-iran-foreign-minister-us-ultimatum-strait-hormuz",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
+      "titre": "Éthiopie : le spectre d'une nouvelle guerre civile",
+      "pays": "Éthiopie",
+      "resume": "Quatre ans après un conflit ayant fait 600 000 morts, les combats reprennent violemment dans le Tigré. L'accord de paix de 2022 semble voler en éclats, malgré les appels à la cessation des hostilités lancés par l'Union africaine et l'UE.",
+      "sources": [],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Mort de James Copenhaver, blessé lors de l'attentat contre Trump",
-    "rubrique": "international",
-    "contexte": "James Copenhaver, 76 ans, l'un des trois spectateurs blessés par balle lors de la tentative d'assassinat de Donald Trump en Pennsylvanie en 2024, est décédé des suites de complications liées à ses blessures.",
+    "sujet": "Renvoi aux assises pour le meurtre de Thomas à Crépol",
+    "rubrique": "societe",
+    "contexte": "Onze jeunes sont renvoyés devant la cour d'assises suite au drame de Crépol en 2023. La justice retient la circonstance aggravante de racisme.",
     "couvertures": [
       {
-        "source": "Le Figaro",
-        "type": "mainstream",
-        "angle": "Focus sur les causes médicales du décès selon les autorités locales.",
-        "ton": "factuel",
-        "url": "https://www.lefigaro.fr/international/blesse-lors-de-la-tentative-d-assassinat-contre-trump-jim-copenhaver-est-mort-a-76-ans-20260925",
-        "citation_cle": "L’Américain est décédé des suites de complications liées à ses blessures par balle.",
-        "auteur": null,
-        "proprietaire_contexte": "Groupe Dassault",
-        "orientation_source": "Droite",
-        "groupe_media": null
+        "source": "Mediapart",
+        "type": "investigation",
+        "angle": "Souligne l'usage du concept juridique de 'scène unique' pour juger le groupe malgré l'absence d'auteur identifié pour le coup mortel.",
+        "ton": "critique",
+        "url": "https://www.mediapart.fr/journal/france/250926/affaire-crepol-11-accuses-renvoyes-aux-assises-pour-meurtre-aggrave-par-du-racisme-contre-les-blancs",
+        "citation_cle": "Les juges ont retenu la circonstance aggravante de 'discrimination objective' envers 'la race blanche'.",
+        "auteur": "AFP",
+        "proprietaire_contexte": "Fonds pour une presse libre (Indépendant)",
+        "orientation_source": "Gauche",
+        "groupe_media": {
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
+          "orientation": "gauche"
+        }
       },
       {
-        "source": "The Guardian",
-        "type": "etranger",
-        "angle": "Rappel détaillé du contexte de la fusillade et de l'identité des victimes.",
-        "ton": "neutre",
-        "url": "https://www.theguardian.com/us-news/2026/sep/24/trump-assassination-attempt-man-dies-injured",
-        "citation_cle": "James Copenhaver was in the bleachers during the event in Butler when a 20-year-old gunman opened fire.",
-        "auteur": "Associated Press",
-        "proprietaire_contexte": "Scott Trust",
-        "orientation_source": "Centre-gauche",
+        "source": "franceinfo",
+        "type": "mainstream",
+        "angle": "Met en avant le désaccord entre les juges d'instruction et le parquet de Valence sur la qualification de racisme.",
+        "ton": "factuel",
+        "url": "https://www.franceinfo.fr/faits-divers/meurtre-de-thomas-a-crepol/meurtre-de-thomas-a-crepol-11-accuses-renvoyes-devant-une-cour-d-assises-la-circonstance-aggravante-de-racisme-envers-la-race-blanche-et-la-nation-francaise-retenue_8209406.html",
+        "citation_cle": "Le parquet de Valence l'avait pourtant contestée dans son réquisitoire définitif.",
+        "auteur": null,
+        "proprietaire_contexte": "État français",
+        "orientation_source": "Centre",
         "groupe_media": {
-          "nom": "Scott Trust",
-          "proprietaire": "Scott Trust Limited",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
+      },
+      {
+        "source": "L'Humanité",
+        "type": "mainstream",
+        "angle": "Analyse la récupération politique de cette qualification juridique par l'extrême droite.",
+        "ton": "engage",
+        "url": "https://www.humanite.fr/societe/meurtre-de-thomas-a-crepol/mort-de-thomas-a-crepol-les-11-accuses-renvoyes-aux-assises-seront-juges-pour-racisme-contre-les-blancs",
+        "citation_cle": "Une notion qui ravit l’extrême droite.",
+        "auteur": "Lionel Venturini",
+        "proprietaire_contexte": "Coopérative (salariés/lecteurs)",
+        "orientation_source": "Gauche",
+        "groupe_media": {
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
         }
       }
     ],
-    "analyse_coherence": "La couverture de ce décès illustre une approche purement factuelle de part et d'autre de l'Atlantique, mais avec une intensité émotionnelle différente. Le Figaro reste sur une brève informative très sobre, se contentant de rapporter les faits médicaux sans analyse politique. À l'inverse, The Guardian , bien que s'appuyant sur l'Associated Press, replace l'événement dans la chronologie précise de la violence politique américaine de 2024. On note l'absence de politisation immédiate du décès dans les sources disponibles, ce qui est remarquable compte tenu de la polarisation habituelle autour de Donald Trump. Cependant, le traitement médiatique souligne une forme de 'normalisation' de la violence politique : le décès d'une victime collatérale deux ans après les faits est traité comme un épilogue administratif plutôt que comme un rappel du traumatisme démocratique. Aucun média ne semble ici questionner la responsabilité de la sécurité du meeting ou les conséquences à long terme pour les survivants, préférant une approche de 'fait divers' international.",
+    "analyse_coherence": "Le traitement médiatique du renvoi aux assises de l'affaire Crépol révèle un clivage net sur la notion de 'racisme anti-Blancs'. Tandis que franceinfo souligne une divergence technique entre le parquet et les juges d'instruction, Mediapart et L'Humanité s'inquiètent des implications idéologiques de cette qualification. L'analyse montre un double standard potentiel : la célérité avec laquelle la circonstance aggravante de racisme est retenue ici contraste avec la difficulté habituelle à la faire reconnaître dans d'autres affaires de violences urbaines ou policières. Les médias de centre-droit (Le Figaro, BFM) tendent à valider cette qualification sans réserve, là où la presse de gauche y voit une 'victoire sémantique' offerte à l'extrême droite. L'utilisation de la 'scène unique' est également un point de friction : juger un collectif pour l'acte d'un seul individu non identifié pose des questions fondamentales sur l'individualisation des peines, un principe pourtant central du droit français.",
     "biais_detectes": [
-      "Minimalisme informatif",
-      "Dépolitisation d'un événement hautement politique"
+      "Judiciarisation de concepts sociologiques",
+      "Polarisation idéologique du terme 'racisme'",
+      "Divergence institutionnelle parquet/siège"
     ],
-    "ce_quil_faut_retenir": "Le décès de James Copenhaver ferme un chapitre tragique de la campagne de 2024, rappelant que les conséquences de la violence politique s'étendent bien au-delà de l'instant de l'attaque."
+    "ce_quil_faut_retenir": "La justice a validé un procès aux assises incluant la circonstance aggravante de racisme contre les Blancs, malgré l'absence d'un tireur identifié, ouvrant un débat juridique et politique majeur."
   },
   "regard_etranger": [
     {
-      "source": "The Guardian",
-      "country": "Royaume-Uni",
-      "titre": "CNN et MS Now interdits d'accès à un dîner d'État malgré une décision de justice",
-      "titre_original": "CNN and MS Now journalists denied access to White House state dinner despite court ruling",
-      "angle": "Dénonciation d'une atteinte à la liberté de la presse par l'administration Trump.",
-      "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban",
+      "source": "Al Jazeera",
+      "pays": "Qatar",
+      "titre": "Le Pape Léon XIV prévient que l'IA pourrait saper l'humanité",
+      "titre_original": "Pope Leo XIV warns AI could undermine humanity during France visit",
+      "angle": "Se concentre sur la critique du 'paradis des machines' prononcée par le Pape à l'Élysée.",
+      "url": "https://www.aljazeera.com/news/2026/9/25/pope-leo-xiv-warns-ai-could-undermine-humanity-during-france-visit",
       "groupe_media": {
-        "nom": "Scott Trust",
-        "proprietaire": "Scott Trust Limited",
-        "type_proprietaire": "fondation",
-        "orientation": "centre-gauche"
-      }
-    },
-    {
-      "source": "NYT World",
-      "country": "États-Unis",
-      "titre": "La capitale du Canada dit adieu à l'avenue Trump sur fond de tensions",
-      "titre_original": "Canada’s Capital Bids Good Riddance to Trump Avenue as Tensions With U.S. Rise",
-      "angle": "Analyse de la dégradation des relations diplomatiques via la toponymie urbaine.",
-      "url": "https://www.nytimes.com/2026/09/23/us/ottawa-canada-renaming-trump-avenue.html",
-      "groupe_media": {
-        "nom": "The New York Times Company",
-        "proprietaire": "Famille Ochs-Sulzberger",
-        "type_proprietaire": "famille",
-        "orientation": "centre"
+        "nom": "Al Jazeera Media Network",
+        "proprietaire": "État du Qatar",
+        "type_proprietaire": "etat",
+        "orientation": "variable"
       }
     }
   ],
   "chiffre_du_jour": {
     "valeur": "98 000 hectares",
-    "contexte": "Surface brûlée en France depuis le début de l'année 2024, un record depuis 1976.",
-    "source": "Office national des forêts (via franceinfo)",
-    "source_url": "https://www.franceinfo.fr"
+    "contexte": "Surface de forêt brûlée en France en 2026, un record absolu depuis 1976 selon l'ONF.",
+    "source": "Reporterre / ONF",
+    "source_url": "https://reporterre.net/98-000-hectares-de-foret-brules-en-2026-un-record-depuis-1976"
   },
   "a_surveiller": [
     {
-      "date": "2026-09-25T08:30:00Z",
-      "evenement": "Procès de l'avocat Raphaël Kempf au tribunal de Nancy",
-      "type": "audition",
-      "lien": "https://lesaf.org/soutien-a-notre-confrere-raphael-kempf-2/"
+      "date": "2026-09-27",
+      "evenement": "Votations en Suisse sur la neutralité constitutionnelle",
+      "type": "vote",
+      "lien": "https://www.swissinfo.ch/fre/votations/lavenir-de-la-neutralit%c3%a9-suisse-se-d%c3%a9cide-dimanche/92114693"
     },
     {
-      "date": "2026-09-26T10:00:00Z",
-      "evenement": "Messe papale sur l'espace Concorde-Champs-Élysées",
+      "date": "2026-09-28",
+      "evenement": "Match Belgique - France (Ligue des nations)",
       "type": "autre",
-      "lien": "https://www.interieur.gouv.fr/actualites/actualites-du-ministere/visite-du-pape-leon-xiv-deplacement-sous-haute-protection"
+      "lien": "https://billetterie.fff.fr/fr"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Éthiopie : vers une reprise de la guerre totale au Tigré",
-      "rubrique": "international",
-      "resume": "La saisie des aéroports de Mekelle et Axum et la suspension des vols civils par Ethiopian Airlines signalent une rupture de l'accord de Pretoria. L'ONU et l'Union africaine alertent sur une escalade imminente (UN, Mediapart).",
+      "titre": "Bpifrance : des garanties publiques pour le carbone",
+      "rubrique": "economie",
+      "resume": "L'État français, via Bpifrance Assurance Export, continue de garantir des milliards d'euros pour la construction de paquebots et de jets privés, engageant des émissions pour les 30 prochaines années.",
       "sources": [
         {
-          "nom": "Nations unies",
-          "url": "https://ethiopia.un.org/en/323246-un-secretary-general-statement-ethiopia",
-          "type": "institutionnel"
-        },
-        {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/international/240926/en-ethiopie-une-reprise-de-la-guerre-grande-echelle-se-profile",
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Paquebots-jets-prives-Comment-l-Etat-garantit-des-decennies-d-emissions-carbonees",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce conflit majeur, aux conséquences humanitaires potentiellement dévastatrices, est largement occulté par l'actualité au Proche-Orient et en Ukraine."
-    },
-    {
-      "titre": "Violences policières à Lyon : condamnations après un an de silence",
-      "rubrique": "societe",
-      "resume": "Un policier a été condamné à un an de prison avec sursis pour des coups portés en garde à vue en 2025. Un commissaire a également été sanctionné. L'affaire révèle des dysfonctionnements graves lors de célébrations sportives (Rue89 Lyon, Le Dauphiné).",
-      "sources": [
-        {
-          "nom": "Rue89 Lyon",
-          "url": "https://www.rue89lyon.fr/2026/09/24/nez-casse-et-coups-de-coude-a-lyon-deux-agents-lourdement-condamnes-pour-violences-policieres/",
-          "type": "investigation"
-        },
-        {
-          "nom": "Le Dauphiné Libéré",
-          "url": "https://www.ledauphine.com/faits-divers-justice/2026/09/24/victoire-du-psg-un-policier-condamne-a-du-sursis-pour-des-violences-en-garde-a-vue",
-          "type": "mainstream"
-        }
-      ],
-      "pourquoi_signal": "Une condamnation rare d'un officier supérieur (commissaire) pour des violences directes, souvent minimisées dans les médias nationaux."
+      "pourquoi_signal": "Ce mécanisme de garantie publique est une subvention invisible aux industries polluantes, largement ignorée par le débat public sur la transition."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "L'exercice de la défense en procès : le cas Raphaël Kempf",
-      "rubrique": "politique",
-      "resume": "L'avocat Raphaël Kempf est jugé pour 'outrage' après avoir critiqué les conditions de détention 'ignobles' et la 'torture blanche' imposée à son client en isolement.",
-      "axes_concernes": [
-        "liberte_expression",
-        "droit_international"
-      ],
-      "analyse": "Ce procès pose une question fondamentale sur l'universalité du droit à la défense. Poursuivre un avocat pour des propos tenus dans le cadre de son mandat, visant à dénoncer des conditions de détention contraires à la dignité humaine, constitue une dérive inquiétante. Si la critique de l'administration pénitentiaire devient un délit, c'est l'équilibre même de la justice qui est rompu au profit d'un autoritarisme institutionnel.",
-      "sources": [
-        {
-          "nom": "Syndicat des Avocat·es de France",
-          "url": "https://lesaf.org/soutien-a-notre-confrere-raphael-kempf-2/",
-          "type": "institutionnel"
-        },
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/societe-2/conditions-de-detention/qui-est-raphael-kempf-en-proces-pour-avoir-denonce-les-conditions-de-detention-de-son-client",
-          "type": "mainstream"
-        }
-      ]
-    },
-    {
-      "titre": "NAZA : le documentaire que la censure ne pourra pas étouffer",
-      "rubrique": "culture",
-      "resume": "Le film de Rachel Szor et Yuval Abraham sur les crimes commis à Gaza sortira dans 56 pays malgré les pressions, avec une diffusion numérique prévue sur The Guardian.",
+      "titre": "Protection militaire de l'oléoduc de Yanbu",
+      "rubrique": "international",
+      "resume": "La France déploie des troupes en Arabie Saoudite pour protéger un oléoduc stratégique contre les rebelles Houthis, afin de sécuriser l'approvisionnement européen.",
       "axes_concernes": [
         "droit_international",
-        "droits_humains"
+        "imperialisme"
       ],
-      "analyse": "Le traitement de la situation à Gaza souffre d'un double standard médiatique flagrant. Ce documentaire, en documentant les massacres de civils, rétablit une part de vérité universelle. La résistance du film face aux tentatives de invisibilisation illustre l'importance d'un journalisme d'investigation international capable de s'affranchir des narratifs d'État.",
+      "analyse": "Ce déploiement illustre la subordination de la diplomatie française aux intérêts énergétiques. En protégeant activement les infrastructures saoudiennes, la France s'implique directement dans un conflit régional complexe, au mépris des résolutions internationales sur le Yémen et au risque de cautionner un régime autoritaire pour préserver son confort fossile.",
       "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/film/2026/sep/24/global-release-announced-for-acclaimed-gaza-documentary-naza",
-          "type": "etranger"
-        },
-        {
-          "nom": "Politis",
-          "url": "https://www.politis.fr/api/proxy/?articleID=508537",
-          "type": "investigation"
+          "nom": "L'Obs",
+          "url": null,
+          "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-09-25",
-  "genere_a": "2026-09-25T04:34:44.007Z",
+  "date": "2026-09-26",
+  "genere_a": "2026-09-26T04:34:37.984Z",
   "meta": {
-    "nb_articles_analyses": 726,
-    "nb_topics": 215,
-    "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 36,
-    "sources_francaises": 473,
-    "sources_etrangeres": 253,
+    "nb_articles_analyses": 740,
+    "nb_topics": 214,
+    "nb_topics_selectionnes": 16,
+    "nb_articles_dans_selection": 49,
+    "sources_francaises": 486,
+    "sources_etrangeres": 254,
     "rubriques_couvertes": [
       "societe",
+      "culture",
+      "economie",
       "politique",
-      "science",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
