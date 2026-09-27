@@ -1,98 +1,51 @@
 {
   "sujet_du_jour": {
-    "titre": "Meurtre d'Aramburú : de lourdes peines mais la préméditation écartée",
+    "titre": "Ferveur historique à Paris : 700 000 fidèles pour la messe de Léon XIV",
     "rubrique": "societe",
-    "pourquoi_important": "Ce verdict clôt un procès emblématique de la violence de l'ultra-droite, marquant la condamnation de figures de la mouvance radicale.",
+    "pourquoi_important": "C'est l'un des plus grands rassemblements religieux en plein air de l'histoire de la capitale française, interrogeant la place du sacré dans une société laïque.",
     "faits": [
-      "Loïk Le Priol condamné à 26 ans de réclusion criminelle pour le meurtre de Federico Martin Aramburú.",
-      "Romain Bouvier écope de 19 ans de prison pour tentative de meurtre.",
-      "La cour d'assises de Paris n'a pas retenu la préméditation, écartant la qualification d'assassinat.",
-      "Deux complices, Antony Sorrentino et Lyson Rochemir, condamnés à 3 ans de prison (dont du sursis)."
+      "Le pape Léon XIV a célébré une messe solennelle place de la Concorde le samedi 26 septembre 2026, point d'orgue de sa visite apostolique.",
+      "L'affluence est estimée à au moins 700 000 personnes par le Vatican, tandis que les autorités françaises avaient anticipé 600 000 participants (Vatican News, .",
+      "La foule s'est déployée de la Concorde jusqu'à l'avenue de la Grande-Armée, transformant les Champs-Élysées en une « cathédrale à ciel ouvert » (La Croix, France 24).",
+      "Le souverain pontife a exhorté les fidèles à ne pas « garder leur foi pour eux » lors de son homélie officielle ."
     ],
-    "contexte": "Le 19 mars 2022, l'ex-rugbyman argentin était abattu en plein Paris après une altercation dans un bar. Les tireurs, militants d'extrême droite (ex-GUD), ont fui avant d'être interpellés. Le procès a mis en lumière l'idéologie violente des accusés, bien que la défense ait plaidé pour ne pas transformer l'audience en procès politique.",
+    "contexte": "Cette visite, classée « grand événement » par décret gouvernemental, intervient dans un contexte de débat permanent sur la laïcité en France. L'ampleur du rassemblement est perçue par la presse internationale comme le signe d'un « regain de religiosité » (Courrier International) ou de la persistance d'une identité culturelle catholique forte malgré la baisse de la pratique régulière.",
     "sources": [
       {
-        "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/societe/article/2026/09/25/mort-de-federico-martin-aramburu-loik-le-priol-et-romain-bouvier-condamnes-a-vingt-six-et-dix-neuf-ans-de-prison_6782635_3224.html",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
+        "nom": "Vatican News",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-france-voyage-messe-concorde.html",
+        "type": "institutionnel",
+        "groupe_media": null
       },
       {
-        "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/france/250926/meurtre-d-aramburu-26-et-19-annees-de-prison-pour-les-tueurs-d-extreme-droite",
-        "type": "investigation",
-        "groupe_media": {
-          "nom": "Mediapart",
-          "proprietaire": "Fonds pour une presse libre",
-          "type_proprietaire": "fondation",
-          "orientation": "gauche"
-        }
+        "nom": "La Croix",
+        "url": "https://www.la-croix.com/religion/leon-xiv-en-france-des-champs-elysees-a-la-concorde-une-cathedrale-a-ciel-ouvert-pour-800-000-catholiques-galvanises-20260926",
+        "type": "mainstream",
+        "groupe_media": null
       },
       {
-        "nom": "Libération",
-        "url": "https://www.liberation.fr/societe/police-justice/proces-de-lassassinat-de-federico-martin-aramburu-le-priol-condamne-a-26-ans-de-prison-bouvier-a-19-ans-20260925_ASPYSZVUTJA4DLMLVMLOYIO2DI/",
+        "nom": "France 24",
+        "url": "https://www.france24.com/fr/france/20260926-vivre-un-moment-ensemble-%C3%A0-paris-les-catholiques-%C3%A0-l-unisson-pour-la-messe-de-l%C3%A9on-xiv",
         "type": "mainstream",
-        "groupe_media": {
-          "nom": "Libération",
-          "proprietaire": "Fonds de dotation",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
-        }
+        "groupe_media": null
       },
       {
-        "nom": "franceinfo",
-        "url": "https://www.franceinfo.fr/faits-divers/assassinat-du-rugbyman-federico-martin-aramburu/proces-de-l-assassinat-de-federico-martin-aramburu-loik-le-priol-condamne-pour-meurtre-a-26-ans-de-reclusion-criminelle-romain-bouvier-pour-tentative-de-meurtre-a-19-ans-de-prison_8207666.html",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "France Télévisions",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
-        }
+        "nom": "Courrier international",
+        "url": "https://www.courrierinternational.com/article/vu-d-irlande-journee-surrealiste-pour-l-equipe-d-irlande-avant-son-match-contre-israel_274563",
+        "type": "etranger"
       }
     ],
-    "lien": null
+    "lien": "https://www.vatican.va/content/leo-xiv/it/homilies/2026/documents/20260926-francia-messa-parigi.html"
   },
   "france": [
     {
-      "titre": "Zidane gagne sa première, Mbappé se blesse",
-      "rubrique": "culture",
-      "resume": "Pour ses débuts comme sélectionneur, Zinédine Zidane a vu les Bleus s'imposer 1-0 en Turquie grâce à un but de Kylian Mbappé. Le capitaine est cependant sorti sur blessure au genou gauche, jetant un froid sur ce succès inaugural en Ligue des nations.",
-      "sources": [
-        {
-          "nom": "L'Équipe",
-          "url": "https://www.lequipe.fr/Football/Video/Ligue-des-nations-bleus-kylian-mbappe-se-blesse-au-genou-gauche-en-marquant-lors-de-turquie-france/20241974",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "UEFA",
-          "url": "https://www.uefa.com/uefanationsleague/news/02a9-21abb9d8b85c-0d9416d472ce-1000--uefa-nations-league-matchday-1-highlights-round-up-kylian-/",
-          "type": "institutionnel",
-          "groupe_media": null
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/sports/football/ligue-des-nations/ligue-des-nations-sans-briller-les-bleus-de-zinedine-zidane-s-imposent-en-turquie-mais-perdent-kylian-mbappe-20260925",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "EPR de Flamanville : arrêt technique après deux ans",
-      "rubrique": "economie",
-      "resume": "Après un chantier de 17 ans, le réacteur EPR est mis à l'arrêt ce 26 septembre pour 350 jours de contrôles intensifs. Cette 'visite de contrôle' inclut le remplacement obligatoire du couvercle de la cuve, au cœur de multiples polémiques techniques.",
+      "titre": "Verdict Aramburu : 26 et 19 ans de prison",
+      "rubrique": "societe",
+      "resume": "La cour d’assises de Paris a condamné Loïk Le Priol à 26 ans de réclusion et Romain Bouvier à 19 ans pour le meurtre du rugbyman Federico Martín Aramburu en 2022. La préméditation n'a pas été retenue, mais la cour a sanctionné l'intention homicide des deux militants d'ultradroite (Libération, L'Obs).",
       "sources": [
         {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/economie/arret-de-lepr-de-flamanville-pour-un-an-edf-remet-le-couvercle-sur-un-reacteur-mal-ne-20260925_ZK4WHSCCLVHT7JADTPCTPLKRSE/",
+          "url": "https://www.liberation.fr/societe/police-justice/proces-de-lassassinat-de-federico-martin-aramburu-le-priol-condamne-a-26-ans-de-prison-bouvier-a-19-ans-20260925_ASPYSZVUTJA4DLMLVMLOYIO2DI/",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Libération",
@@ -102,33 +55,8 @@
           }
         },
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/EPR-de-Flamanville-un-an-d-arret-pour-controler-un-reacteur-au-parcours-emaille-d",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Reporterre",
-            "proprietaire": "Association La Pile",
-            "type_proprietaire": "independant",
-            "orientation": "gauche"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Yannick Jadot suspendu des Écologistes",
-      "rubrique": "politique",
-      "resume": "Le sénateur et ex-candidat à la présidentielle est suspendu pour trois mois à titre conservatoire. Le parti sanctionne son soutien public à Raphaël Glucksmann pour 2027, au détriment de la candidate officielle Marine Tondelier.",
-      "sources": [
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-yannick-jadot-suspendu-des-ecologistes-pour-son-soutien-a-raphael-glucksmann-30784381.php",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/politique/ps/primaire-a-gauche/yannick-jadot-suspendu-temporairement-des-ecologistes-pour-son-soutien-a-raphael-glucksmann_8209919.html",
+          "url": "https://www.franceinfo.fr/faits-divers/assassinat-du-rugbyman-federico-martin-aramburu/proces-de-l-assassinat-de-federico-martin-aramburu-loik-le-priol-condamne-pour-meurtre-a-26-ans-de-reclusion-criminelle-romain-bouvier-pour-tentative-de-meurtre-a-19-ans-de-prison_8207666.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -136,6 +64,61 @@
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
+        },
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/societe/20260926.OBS118635/le-pape-leon-xiv-a-la-concorde-une-affluence-digne-de-jean-paul-ii.html",
+          "type": "mainstream"
+        }
+      ],
+      "lien": "https://www.lemonde.fr/societe/article/2026/09/25/mort-de-federico-martin-aramburu-loik-le-priol-et-romain-bouvier-condamnes-a-vingt-six-et-dix-neuf-ans-de-prison_6782635_3224.html"
+    },
+    {
+      "titre": "Saad Lamjarred : peine alourdie en appel",
+      "rubrique": "societe",
+      "resume": "Le chanteur marocain a été condamné à dix ans de réclusion criminelle pour viol aggravé, contre six ans en première instance. La cour d'assises du Val-de-Marne a assorti la peine d'un mandat de dépôt immédiat (RFI, Sud-Ouest).",
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20260926-le-chanteur-marocain-saad-lamjarred-condamn%C3%A9-en-appel-%C3%A0-dix-ans-de-prison-pour-le-viol-d-une-femme-en-2016",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/faits-divers/affaire-saad-lamjarred-le-chanteur-marocain-condamne-en-appel-a-dix-ans-de-reclusion-pour-viol-30793738.php",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Intoxications E.coli : six bouchers mis en examen",
+      "rubrique": "societe",
+      "resume": "L'enquête sur une vague d'intoxications alimentaires ayant causé la mort d'une fillette de 11 ans dans l'Aisne en 2025 progresse. Six professionnels de la viande sont poursuivis pour leur responsabilité présumée dans ces 32 cas d'infection (franceinfo, 20 Minutes).",
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/sante/alimentation/intoxications-alimentaires-a-la-bacterie-e-coli-dans-l-aisne/six-bouchers-mis-en-examen-apres-des-intoxications-a-l-e-coli-dans-l-aisne-en-2025-qui-avaient-touche-une-trentaine-de-personnes-et-conduit-a-la-mort-d-une-fillette_8210795.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/faits_divers/4248919-20260926-aisne-six-bouchers-poursuivis-apres-intoxications-e-coli-tue-fillette-11-ans",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
       "lien": null
@@ -143,24 +126,59 @@
   ],
   "monde": [
     {
-      "titre": "Détroit d'Ormuz : l'offre de Téhéran à Washington",
-      "pays": "Iran",
-      "resume": "L'Iran propose un plan de réouverture du détroit d'Ormuz sous sept jours si les États-Unis acceptent ses conditions de juin dernier. Cette annonce stratégique, faite depuis l'ONU, place la responsabilité d'une désescalade maritime dans le camp américain.",
+      "titre": "Tensions sur le détroit d'Ormuz",
+      "pays": "Iran / USA",
+      "resume": "Donald Trump a rejeté une proposition iranienne de rouvrir le détroit d'Ormuz sous sept jours. Téhéran maintient ses conditions malgré le refus américain, alors que le Guide suprême Mojtaba Khamenei a personnellement validé le plan (BFM TV, RFI, Le Figaro).",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/09/25/l-iran-a-soumis-aux-etats-unis-un-plan-de-reouverture-du-detroit-d-ormuz-en-sept-jours_6782674_3210.html",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/moyen-orient/iran/guerre-au-moyen-orient-l-iran-maintient-ses-conditions-pour-rouvrir-le-detroit-d-ormuz-malgre-le-refus-de-donald-trump_AD-202609270041.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         },
         {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/moyen-orient/20260925-l-iran-propose-%C3%A0-washington-de-rouvrir-sous-sept-jours-le-d%C3%A9troit-d-ormuz-selon-plusieurs-m%C3%A9dias",
+          "url": "https://www.rfi.fr/fr/monde/20260926-donald-trump-refuse-l-offre-iranienne-pour-rouvrir-le-d%C3%A9troit-d-ormuz",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/culture/patrimoine/decouverte-en-turquie-d-un-fragment-du-traite-de-qadesh-qui-scelle-la-paix-entre-egyptiens-et-hittites-20260927",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Législatives : l'opposition israélienne désunie",
+      "pays": "Israël",
+      "resume": "À un mois du scrutin, les leaders de l'opposition se sont réunis à Tel-Aviv mais échouent à désigner un candidat unique face à Benyamin Netanyahu. Mediapart note que l'opposition se limite au rejet de l'actuel Premier ministre sans proposer de réelle alternative sur le dossier palestinien.",
+      "sources": [
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/international/260926/en-israel-l-opposition-fait-campagne-sur-le-rejet-de-netanyahou-faute-de-projet-politique-alternati",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Mediapart",
+            "proprietaire": "Fonds pour une presse libre",
+            "type_proprietaire": "fondation",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/moyen-orient/20260926-l%C3%A9gislatives-en-isra%C3%ABl-l-opposition-veut-faire-front-commun-sans-choisir-de-candidat-unique",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -171,164 +189,186 @@
         }
       ],
       "lien": null
-    },
-    {
-      "titre": "Éthiopie : le spectre d'une nouvelle guerre civile",
-      "pays": "Éthiopie",
-      "resume": "Quatre ans après un conflit ayant fait 600 000 morts, les combats reprennent violemment dans le Tigré. L'accord de paix de 2022 semble voler en éclats, malgré les appels à la cessation des hostilités lancés par l'Union africaine et l'UE.",
-      "sources": [],
-      "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Renvoi aux assises pour le meurtre de Thomas à Crépol",
+    "sujet": "Rencontre du pape avec les victimes d'abus sexuels",
     "rubrique": "societe",
-    "contexte": "Onze jeunes sont renvoyés devant la cour d'assises suite au drame de Crépol en 2023. La justice retient la circonstance aggravante de racisme.",
+    "contexte": "Ce dimanche 27 septembre à Lourdes, Léon XIV rencontre en privé sept victimes de violences sexuelles commises au sein de l'Église.",
     "couvertures": [
       {
-        "source": "Mediapart",
-        "type": "investigation",
-        "angle": "Souligne l'usage du concept juridique de 'scène unique' pour juger le groupe malgré l'absence d'auteur identifié pour le coup mortel.",
+        "source": "Libération",
+        "type": "mainstream",
+        "angle": "Souligne le caractère contesté du format restreint et le choix des victimes par l'institution.",
         "ton": "critique",
-        "url": "https://www.mediapart.fr/journal/france/250926/affaire-crepol-11-accuses-renvoyes-aux-assises-pour-meurtre-aggrave-par-du-racisme-contre-les-blancs",
-        "citation_cle": "Les juges ont retenu la circonstance aggravante de 'discrimination objective' envers 'la race blanche'.",
-        "auteur": "AFP",
-        "proprietaire_contexte": "Fonds pour une presse libre (Indépendant)",
-        "orientation_source": "Gauche",
+        "url": "https://www.liberation.fr/societe/religions/leon-xiv-en-france-la-rencontre-attendue-mais-contestee-avec-les-victimes-de-violences-sexuelles-20260927_JKCPL76TRJDFXFHEHM7KQNDBLM/",
+        "citation_cle": "Si le pontife montre que le dossier demeure une préoccupation, le format retenu interroge.",
+        "auteur": "Bernadette Sauvaget",
+        "proprietaire_contexte": "Libération (Fondation)",
+        "orientation_source": "centre-gauche",
         "groupe_media": {
-          "nom": "Mediapart",
-          "proprietaire": "Fonds pour une presse libre",
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
           "type_proprietaire": "fondation",
-          "orientation": "gauche"
+          "orientation": "centre-gauche"
         }
       },
       {
-        "source": "franceinfo",
+        "source": "Le Figaro",
         "type": "mainstream",
-        "angle": "Met en avant le désaccord entre les juges d'instruction et le parquet de Valence sur la qualification de racisme.",
+        "angle": "Met l'accent sur l'attente autour du silence du pape sur ce sujet depuis son arrivée.",
         "ton": "factuel",
-        "url": "https://www.franceinfo.fr/faits-divers/meurtre-de-thomas-a-crepol/meurtre-de-thomas-a-crepol-11-accuses-renvoyes-devant-une-cour-d-assises-la-circonstance-aggravante-de-racisme-envers-la-race-blanche-et-la-nation-francaise-retenue_8209406.html",
-        "citation_cle": "Le parquet de Valence l'avait pourtant contestée dans son réquisitoire définitif.",
+        "url": "https://www.lefigaro.fr/international/a-lourdes-leon-xiv-face-aux-victimes-de-violences-sexuelles-dans-l-eglise-20260927",
+        "citation_cle": "Léon XIV est très attendu sur ce sujet sensible, d’autant qu’il n’en a encore rien dit depuis son arrivée.",
         "auteur": null,
-        "proprietaire_contexte": "État français",
-        "orientation_source": "Centre",
-        "groupe_media": {
-          "nom": "France Télévisions",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
-        }
+        "proprietaire_contexte": "Groupe Dassault",
+        "orientation_source": "droite",
+        "groupe_media": null
       },
       {
-        "source": "L'Humanité",
+        "source": "France 24",
         "type": "mainstream",
-        "angle": "Analyse la récupération politique de cette qualification juridique par l'extrême droite.",
-        "ton": "engage",
-        "url": "https://www.humanite.fr/societe/meurtre-de-thomas-a-crepol/mort-de-thomas-a-crepol-les-11-accuses-renvoyes-aux-assises-seront-juges-pour-racisme-contre-les-blancs",
-        "citation_cle": "Une notion qui ravit l’extrême droite.",
-        "auteur": "Lionel Venturini",
-        "proprietaire_contexte": "Coopérative (salariés/lecteurs)",
-        "orientation_source": "Gauche",
-        "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
-          "orientation": "gauche"
-        }
+        "angle": "Relaye les critiques des collectifs de victimes écartés réclamant une approche systémique.",
+        "ton": "neutre",
+        "url": "https://www.france24.com/fr/vid%C3%A9o/20260926-la-rencontre-de-l%C3%A9on-xiv-avec-des-victimes-d-abus-contest%C3%A9e",
+        "citation_cle": "Des collectifs de victimes dénoncent un format trop restreint et réclament une prise de conscience à la hauteur du caractère systémique.",
+        "auteur": "FRANCE24",
+        "proprietaire_contexte": "État français",
+        "orientation_source": "centre",
+        "groupe_media": null
       }
     ],
-    "analyse_coherence": "Le traitement médiatique du renvoi aux assises de l'affaire Crépol révèle un clivage net sur la notion de 'racisme anti-Blancs'. Tandis que franceinfo souligne une divergence technique entre le parquet et les juges d'instruction, Mediapart et L'Humanité s'inquiètent des implications idéologiques de cette qualification. L'analyse montre un double standard potentiel : la célérité avec laquelle la circonstance aggravante de racisme est retenue ici contraste avec la difficulté habituelle à la faire reconnaître dans d'autres affaires de violences urbaines ou policières. Les médias de centre-droit (Le Figaro, BFM) tendent à valider cette qualification sans réserve, là où la presse de gauche y voit une 'victoire sémantique' offerte à l'extrême droite. L'utilisation de la 'scène unique' est également un point de friction : juger un collectif pour l'acte d'un seul individu non identifié pose des questions fondamentales sur l'individualisation des peines, un principe pourtant central du droit français.",
+    "analyse_coherence": "La couverture médiatique révèle une fracture nette entre la communication institutionnelle du Vatican et la réalité du terrain des victimes. Alors que les sources proches du pouvoir ou institutionnelles (Le Figaro, France 24) insistent sur l'aspect symbolique et inédit d'une telle rencontre dans un programme officiel, les médias plus critiques (Libération) pointent une mise en scène contrôlée. Le double standard est ici subtil : l'Église reconnaît une « plaie encore ouverte » (Le Monde), mais refuse d'ouvrir le dialogue avec les associations les plus revendicatrices, préférant un échantillon de sept victimes « choisies par les instances catholiques ». Cette sélection permet au Vatican de maintenir une image de compassion sans affronter la critique du caractère systémique des abus, pourtant documenté en France par le rapport Sauvé. On observe une complaisance relative dans certains médias qui ne soulignent pas assez que ce format privé empêche toute transparence sur les engagements concrets de réparation ou de réforme structurelle.",
     "biais_detectes": [
-      "Judiciarisation de concepts sociologiques",
-      "Polarisation idéologique du terme 'racisme'",
-      "Divergence institutionnelle parquet/siège"
+      "Cadrage institutionnel",
+      "Invisibilisation des collectifs de victimes indépendants"
     ],
-    "ce_quil_faut_retenir": "La justice a validé un procès aux assises incluant la circonstance aggravante de racisme contre les Blancs, malgré l'absence d'un tireur identifié, ouvrant un débat juridique et politique majeur."
+    "ce_quil_faut_retenir": "Une avancée symbolique qui masque un refus persistant de traiter le problème de manière systémique et transparente avec l'ensemble des parties prenantes."
   },
   "regard_etranger": [
     {
-      "source": "Al Jazeera",
-      "pays": "Qatar",
-      "titre": "Le Pape Léon XIV prévient que l'IA pourrait saper l'humanité",
-      "titre_original": "Pope Leo XIV warns AI could undermine humanity during France visit",
-      "angle": "Se concentre sur la critique du 'paradis des machines' prononcée par le Pape à l'Élysée.",
-      "url": "https://www.aljazeera.com/news/2026/9/25/pope-leo-xiv-warns-ai-could-undermine-humanity-during-france-visit",
+      "source": "France 24 EN",
+      "pays": "France/International",
+      "titre": "Léon XIV remplit le centre de Paris avec 600 000 personnes",
+      "titre_original": "Leo XIV fills central Paris with around 600,000 people at giant outdoor Mass",
+      "angle": "Analyse l'attrait durable de l'Église dans un pays officiellement séculier.",
+      "url": "https://www.france24.com/en/leo-xiv-fills-central-paris-with-around-600-000-people-at-giant-outdoor-mass",
       "groupe_media": {
-        "nom": "Al Jazeera Media Network",
-        "proprietaire": "État du Qatar",
+        "nom": "France Médias Monde",
+        "proprietaire": "État français",
         "type_proprietaire": "etat",
-        "orientation": "variable"
+        "orientation": "centre"
+      }
+    },
+    {
+      "source": "BBC News",
+      "pays": "Royaume-Uni",
+      "titre": "Dixième corps de femme retrouvé en Afrique du Sud",
+      "titre_original": "Tenth woman's body found as South Africa police probe killings",
+      "angle": "Relaye l'indignation nationale face à l'explosion des violences de genre.",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgyyj8q807o",
+      "groupe_media": {
+        "nom": "BBC",
+        "proprietaire": "État britannique",
+        "type_proprietaire": "etat",
+        "orientation": "centre"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "98 000 hectares",
-    "contexte": "Surface de forêt brûlée en France en 2026, un record absolu depuis 1976 selon l'ONF.",
-    "source": "Reporterre / ONF",
-    "source_url": "https://reporterre.net/98-000-hectares-de-foret-brules-en-2026-un-record-depuis-1976"
+    "valeur": "700 000",
+    "contexte": "Nombre de fidèles réunis à Paris pour la messe du Pape Léon XIV selon les estimations du Vatican.",
+    "source": "Vatican News",
+    "source_url": "https://www.vaticannews.va/fr/pape/news/2026-09/pape-france-voyage-messe-concorde.html"
   },
   "a_surveiller": [
     {
-      "date": "2026-09-27",
-      "evenement": "Votations en Suisse sur la neutralité constitutionnelle",
-      "type": "vote",
-      "lien": "https://www.swissinfo.ch/fre/votations/lavenir-de-la-neutralit%c3%a9-suisse-se-d%c3%a9cide-dimanche/92114693"
-    },
-    {
-      "date": "2026-09-28",
-      "evenement": "Match Belgique - France (Ligue des nations)",
-      "type": "autre",
-      "lien": "https://billetterie.fff.fr/fr"
+      "date": "2026-10-27",
+      "evenement": "Élections législatives en Israël",
+      "type": "echeance",
+      "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Bpifrance : des garanties publiques pour le carbone",
-      "rubrique": "economie",
-      "resume": "L'État français, via Bpifrance Assurance Export, continue de garantir des milliards d'euros pour la construction de paquebots et de jets privés, engageant des émissions pour les 30 prochaines années.",
+      "titre": "Le « marchandage » des étudiants sans fac",
+      "rubrique": "politique",
+      "resume": "Mediapart révèle que le ministère de l'Enseignement supérieur propose discrètement une prime de 3 000 € par étudiant aux universités d'Île-de-France pour absorber les 2 000 bacheliers encore sans affectation Parcoursup.",
       "sources": [
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Paquebots-jets-prives-Comment-l-Etat-garantit-des-decennies-d-emissions-carbonees",
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/260926/le-marchandage-du-ministere-de-l-enseignement-superieur-pour-repecher-les-naufrages-de-parcoursup",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce mécanisme de garantie publique est une subvention invisible aux industries polluantes, largement ignorée par le débat public sur la transition."
+      "pourquoi_signal": "Ce dispositif financier occulte, non documenté officiellement, traite l'affectation scolaire comme un marché pour masquer les failles structurelles de Parcoursup."
+    },
+    {
+      "titre": "L'effondrement invisible des montagnes",
+      "rubrique": "science",
+      "resume": "Le dégel du pergélisol fragilise les parois rocheuses, provoquant des catastrophes comme celle du Langtang Lirung au Népal (1 300 morts). Les scientifiques alertent sur l'imprévisibilité croissante de ces phénomènes.",
+      "sources": [
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/ecologie/260926/climat-les-montagnes-s-effondrent-comme-jamais",
+          "type": "investigation"
+        }
+      ],
+      "pourquoi_signal": "Alors que l'attention se porte sur la montée des eaux, la déstabilisation géologique des sommets est un risque majeur sous-estimé par les politiques publiques."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Protection militaire de l'oléoduc de Yanbu",
+      "titre": "L'ONU élargit la liste noire des colonies",
       "rubrique": "international",
-      "resume": "La France déploie des troupes en Arabie Saoudite pour protéger un oléoduc stratégique contre les rebelles Houthis, afin de sécuriser l'approvisionnement européen.",
+      "resume": "Le Haut-Commissariat aux droits de l'homme a ajouté 61 entreprises à sa base de données des sociétés opérant dans les colonies israéliennes illégales en Cisjordanie, portant le total à 214.",
       "axes_concernes": [
         "droit_international",
-        "imperialisme"
+        "colonialisme"
       ],
-      "analyse": "Ce déploiement illustre la subordination de la diplomatie française aux intérêts énergétiques. En protégeant activement les infrastructures saoudiennes, la France s'implique directement dans un conflit régional complexe, au mépris des résolutions internationales sur le Yémen et au risque de cautionner un régime autoritaire pour préserver son confort fossile.",
+      "analyse": "Cette mise à jour rappelle l'illégalité persistante de la colonisation au regard du droit international. Le silence relatif des médias mainstream français sur l'identité de ces entreprises (contrairement à l'Humanité ou The Guardian) souligne une difficulté à traiter les complicités économiques dans l'apartheid dénoncé par l'ONU.",
       "sources": [
         {
-          "nom": "L'Obs",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/26/un-companies-israeli-settlements-blacklist-alleged-palestinian-rights-violations",
+          "type": "etranger"
+        },
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/monde/onu/liste-noire-de-lonu-le-haut-commissaire-epingle-les-multinationales-complices-de-lapartheid-en-cisjordanie-occupee",
+          "type": "mainstream"
+        }
+      ]
+    },
+    {
+      "titre": "Militaires français en Arabie Saoudite : le débat occulté",
+      "rubrique": "politique",
+      "resume": "Emmanuel Macron a annoncé l'envoi de moyens militaires pour protéger des sites énergétiques saoudiens sans consultation parlementaire préalable.",
+      "axes_concernes": [
+        "imperialisme",
+        "justice_sociale"
+      ],
+      "analyse": "L'utilisation de l'armée française pour sécuriser des intérêts énergétiques étrangers, au profit d'une monarchie autoritaire, pose un problème de souveraineté et de démocratie. L'absence de débat au Parlement, dénoncée par certains députés (BFM TV), illustre une dérive de la diplomatie française vers une défense des intérêts privés de l'énergie au détriment des principes de non-intervention.",
+      "sources": [
+        {
+          "nom": "BFM TV",
           "url": null,
           "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-09-26",
-  "genere_a": "2026-09-26T04:34:37.984Z",
+  "date": "2026-09-27",
+  "genere_a": "2026-09-27T04:33:54.311Z",
   "meta": {
-    "nb_articles_analyses": 740,
-    "nb_topics": 214,
+    "nb_articles_analyses": 536,
+    "nb_topics": 152,
     "nb_topics_selectionnes": 16,
     "nb_articles_dans_selection": 49,
-    "sources_francaises": 486,
-    "sources_etrangeres": 254,
+    "sources_francaises": 389,
+    "sources_etrangeres": 147,
     "rubriques_couvertes": [
       "societe",
-      "culture",
-      "economie",
-      "politique",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
