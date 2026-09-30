@@ -1,19 +1,19 @@
 {
   "sujet_du_jour": {
-    "titre": "Accusations d'écrits antisémites : Jordan Bardella face aux révélations de Mediapart",
-    "rubrique": "politique",
-    "pourquoi_important": "Ces révélations touchent au cœur de la stratégie de dédiabolisation du RN et pourraient fragiliser l'image de son président à l'approche de 2027.",
+    "titre": "Pollution à l'ozone : 50 % de l'humanité exposée à des niveaux dangereux en 2026",
+    "rubrique": "science",
+    "pourquoi_important": "Un rapport de Copernicus révèle que le dérèglement climatique transforme désormais l'atmosphère en une menace respiratoire directe pour la moitié de la population mondiale.",
     "faits": [
-      "Mediapart affirme avoir authentifié des messages privés à caractère antisémite et complotiste attribués à Jordan Bardella datant de 2013 (Le Monde, Mediapart).",
-      "Le président du RN dément formellement, qualifie ces documents de « faux grossiers » et annonce des poursuites pour diffamation (Public Sénat, Ouest-France).",
-      "Marine Le Pen soutient son poulain en dénonçant une « barbouzerie » et maintient Bardella comme son candidat pour Matignon (RFI, Public Sénat).",
-      "La presse étrangère observe un « coup de tonnerre » pour un parti qui tentait d'effacer ses racines extrémistes (Courrier international, ."
+      "Selon le rapport « Atmosphere Watch » de Copernicus (CAMS), 40 % de la population mondiale a subi des niveaux d'ozone troposphérique jugés « extrêmement élevés » en 2026 .",
+      "Seulement 5 % de l'humanité a bénéficié d'une qualité de l'air considérée comme « bonne » sur le long terme (Le Figaro).",
+      "En Europe, 50 % de la population a été exposée à des niveaux d'ozone classés de « mauvais » à « extrêmement mauvais », accentués par les vagues de chaleur et les mégafeux (Reporterre, .",
+      "L'ozone de surface s'est maintenu à des concentrations proches de 130 µg/m³ dans plusieurs régions, notamment autour de Bordeaux, lors de l'été 2026 (CAMS)."
     ],
-    "contexte": "L'enquête de Mediapart exhume des échanges datant des débuts de l'engagement politique de Jordan Bardella. Ces propos évoqueraient notamment un prétendu complot juif mondial. L'enjeu est crucial pour le RN qui cherche à se présenter comme le « premier rempart » contre l'antisémitisme, tandis que ses opposants y voient la preuve d'une idéologie de fond inchangée.",
+    "contexte": "Contrairement à la couche d'ozone protectrice en haute altitude, l'ozone troposphérique (au sol) est un polluant secondaire issu de la réaction chimique entre les polluants industriels et la lumière solaire. L'intensification des canicules et des incendies de forêt en 2026 a agi comme un catalyseur, transformant la pollution urbaine et agricole en un gaz hautement irritant pour les poumons. L'observatoire européen Copernicus appelle désormais à une action urgente contre cette « menace mondiale » qui s'amplifie mécaniquement avec le réchauffement climatique.",
     "sources": [
       {
         "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/politique/article/2026/09/28/mediapart-rapporte-des-propos-antisemites-de-jordan-bardella-qui-denonce-des-faux-grossiers_6785064_823448.html",
+        "url": "https://www.lemonde.fr/planete/article/2026/09/30/en-2026-la-moitie-de-la-population-mondiale-a-ete-exposee-a-des-niveaux-dangereux-de-pollution-a-l-ozone_6785928_3244.html",
         "type": "mainstream",
         "groupe_media": {
           "nom": "Groupe Le Monde",
@@ -23,35 +23,25 @@
         }
       },
       {
-        "nom": "Public Sénat",
-        "url": "https://www.publicsenat.fr/actualites/politique/ecrits-antisemites-jordan-bardella-conteste-formellement-les-accusations-marine-le-pen-evoque-un-faux-dont-mediapart-a-le-secret",
+        "nom": "Reporterre",
+        "url": "https://reporterre.net/Vagues-de-chaleur-la-moitie-des-Europeens-exposes-a-un-niveau-dangereux-d-ozone-en-2026",
+        "type": "investigation",
+        "groupe_media": {
+          "nom": "Reporterre",
+          "proprietaire": "Association La Pile",
+          "type_proprietaire": "independant",
+          "orientation": "gauche"
+        }
+      },
+      {
+        "nom": "Copernicus (CAMS)",
+        "url": "https://atmosphere.copernicus.eu/extreme-wildfires-western-europe-expose-millions-dangerous-air-pollution-levels",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "Courrier international",
-        "url": "https://www.courrierinternational.com/article/vu-de-l-etranger-ecrits-antisemites-attribues-a-bardella-un-coup-dur-pour-la-dediabolisation-du-rn_274926",
-        "type": "etranger",
-        "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
-      },
-      {
-        "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/france/280926/une-peine-de-mort-professionnelle-les-avocats-de-rachida-dati-denoncent-la-severite-des-peines-requises",
-        "type": "investigation"
-      },
-      {
-        "nom": "Ouest-France",
-        "url": "https://www.ouest-france.fr/monde/organismes-internationaux/onu/plus-de-8-millions-de-refugies-et-deplaces-menaces-par-le-recul-de-laide-internationale-alerte-lonu-3e9e8d2a-bbbc-11f1-8ea4-97dc4d7cca62?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-        "type": "mainstream"
-      },
-      {
-        "nom": "RFI",
-        "url": "https://www.rfi.fr/fr/afrique/20260929-mali-l-ong-amnesty-documente-des-cas-d-assassinats-et-de-tortures-commis-par-l-arm%C3%A9e-et-le-groupe-wagner",
+        "nom": "Le Figaro",
+        "url": "https://www.lefigaro.fr/faits-divers/on-ne-peut-pas-acheter-la-legion-d-honneur-sorti-libre-de-garde-a-vue-le-general-puga-riposte-par-la-voix-de-son-avocat-20260930",
         "type": "mainstream"
       }
     ],
@@ -59,48 +49,24 @@
   },
   "france": [
     {
-      "titre": "Procès MoDem : lourdes réquisitions contre François Bayrou",
+      "titre": "Édouard Philippe lance son offensive sur les retraites",
       "rubrique": "politique",
-      "resume": "En appel, le parquet général a requis deux ans de prison avec sursis, 50 000 euros d'amende et trois ans d'inéligibilité contre le président du MoDem pour détournement de fonds européens. Le ministère public pointe des « pratiques systémiques » au sein du parti, malgré la relaxe obtenue en première instance par l'élu béarnais (Le Monde, RFI, Mediapart).",
+      "resume": "Le candidat d'Horizons propose de porter l'âge légal à 65 ans et la durée de cotisation à 45 annuités d'ici dix ans. Il assume une réforme impopulaire au nom de l'équilibre financier, tout en introduisant un volet de capitalisation via des plans d'épargne-retraite (franceinfo, Libération, La Croix).",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/09/28/au-proces-en-appel-du-modem-une-lourde-peine-requise-contre-francois-bayrou_6785178_3224.html",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/elections/presidentielle/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-candidat-horizons-a-la-presidentielle-devoile-son-projet-de-reforme-des-retraites_8214737.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
-        {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/280926/prison-avec-sursis-reclamee-contre-francois-bayrou-au-proces-en-appel-du-modem",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Mediapart",
-            "proprietaire": "Fonds pour une presse libre",
-            "type_proprietaire": "fondation",
-            "orientation": "gauche"
-          }
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20260929-mali-l-ong-amnesty-documente-des-cas-d-assassinats-et-de-tortures-commis-par-l-arm%C3%A9e-et-le-groupe-wagner",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Corruption : 4 ans de prison requis contre Rachida Dati",
-      "rubrique": "politique",
-      "resume": "Le Parquet national financier (PNF) réclame quatre ans de prison, dont deux ferme sous bracelet électronique, contre l'ancienne ministre de la Justice. Poursuivie pour corruption et trafic d'influence dans l'affaire Renault-Nissan, elle risque également une inéligibilité de cinq ans (Libération, L'Obs).",
-      "sources": [
         {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/societe/police-justice/quatre-ans-de-prison-dont-deux-sous-bracelet-electronique-requis-contre-rachida-dati-20260928_C4EDCET2ZVFKBKRIAXWTLOLQ2M/",
+          "url": "https://www.liberation.fr/politique/je-sais-que-ce-nest-pas-comme-ca-quon-gagne-des-points-dans-les-sondages-edouard-philippe-assume-sa-reforme-des-retraites-a-65-ans-20260929_23AEI6VZFFGKLK4V3KZKCAV6S4/",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Libération",
@@ -110,33 +76,68 @@
           }
         },
         {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/immobilier/20260929.OBS118705/argenteuil-enghien-les-bains-pontoise-les-prix-de-l-immobilier-dans-le-val-d-oise-en-2026.html",
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/international/on-veut-retrouver-la-normalite-dans-le-sud-du-liban-l-ecole-comme-refuge-au-cour-de-la-guerre-20260929",
+          "type": "mainstream"
+        }
+      ],
+      "lien": "https://www.edouardphilippe.fr/actualites/retraites-la-reforme-que-je-propose-aux-francais"
+    },
+    {
+      "titre": "Tour Eiffel : démission du directeur après un scandale discriminatoire",
+      "rubrique": "societe",
+      "resume": "Patrick Branco Ruivo quitte ses fonctions suite à l'éviction d'employées lors de la visite d'un groupe religieux hindou proche de Narendra Modi le 5 septembre dernier (Sud-Ouest, 20 Minutes). L'Humanité précise que le personnel féminin avait été mis à l'écart à la demande expresse de cette délégation.",
+      "sources": [
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/france/tour-eiffel-apres-le-scandale-des-employees-mises-a-l-ecart-pour-la-visite-d-un-groupe-hindou-le-directeur-quitte-ses-fonctions-30843506.php",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/social-et-economie/capital-vs-travail/tour-eiffel-le-directeur-patrick-branco-ruivo-demissionne-apres-leviction-demployees-lors-de-la-visite-dune-secte-hindoue",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/economie/4249933-20260930-anciennement-priceminister-site-vente-ligne-rakuten-france-va-fermer?at_medium=display&at_campaign=149",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Budget 2027 : taxation accrue des autoroutes et aéroports",
-      "rubrique": "economie",
-      "resume": "Le gouvernement prévoit de tripler presque la taxe sur les concessions d'autoroutes et les aéroports, passant de 4,6 % à 12,2 %. L'objectif est de dégager 800 millions d'euros de recettes supplémentaires pour combler le déficit budgétaire (20 Minutes, BFM Business).",
+      "titre": "Alerte rouge inondations dans le Gard et l'Hérault",
+      "rubrique": "societe",
+      "resume": "Météo-France a placé deux départements en vigilance rouge pour un épisode méditerranéen exceptionnel. Des cumuls de pluie atteignant 350 mm sont attendus sur les Cévennes et les plaines (BFM TV, franceinfo).",
       "sources": [
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/politique/4249565-20260928-budget-2027-gouvernement-veut-recuperer-800-millions-euros-aupres-exploitants-autoroutes-aeroports",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/transports/une-taxe-presque-triplee-le-gouvernement-veut-recuperer-800-millions-d-euros-supplementaires-aupres-des-societes-d-autoroutes-et-des-aeroports_AN-202609280716.html",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/meteo/intemperies/premier-episode-mediterraneen-de-la-saison-l-herault-et-le-gard-place-en-vigilance-rouge-pluie-inondation_AN-202609300070.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/environnement/meteo/l-herault-et-le-gard-places-en-vigilance-rouge-pour-un-risque-de-pluies-et-d-inondations-en-raison-d-un-episode-mediterraneen-exceptionnel-annonce-meteo-france_8215685.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         }
       ],
@@ -145,38 +146,13 @@
   ],
   "monde": [
     {
-      "titre": "Tensions USA-Iran : Trump nie tout assouplissement",
-      "pays": "États-Unis / Iran",
-      "resume": "Donald Trump a formellement démenti avoir proposé une levée des sanctions ou un dégel de fonds à Téhéran, contredisant des informations de presse sur une tentative de désescalade diplomatique (Al Jazeera, Le Figaro).",
-      "sources": [
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/29/iran-war-live-trump-says-he-did-not-offer-tehran-sanctions-relief",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/trump-dement-avoir-propose-a-l-iran-une-levee-des-sanctions-ou-un-degel-de-fonds-20260929",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Mali : Amnesty documente les crimes de Wagner et de l'armée",
-      "pays": "Mali",
-      "resume": "Un nouveau rapport d'Amnesty International dénonce des exécutions sommaires, des tortures et des disparitions forcées commises par les soldats maliens et leurs supplétifs russes du groupe Wagner (désormais Africa Corps) entre 2023 et 2025 (RFI, L'Humanité).",
+      "titre": "Fatima Ezzahra El Mansouri, première femme cheffe de gouvernement",
+      "pays": "Maroc",
+      "resume": "Le roi Mohammed VI a nommé la maire de Marrakech et coordinatrice du PAM à la tête de l'exécutif après la victoire de son parti aux législatives (RFI, Le Monde). Elle doit désormais former une coalition gouvernementale (20 Minutes, France 24).",
       "sources": [
         {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20260929-mali-l-ong-amnesty-documente-des-cas-d-assassinats-et-de-tortures-commis-par-l-arm%C3%A9e-et-le-groupe-wagner",
+          "url": "https://www.rfi.fr/fr/afrique/20260929-maroc-fatima-ezzahra-el-mansouri-nomm%C3%A9e-cheffe-du-gouvernement-une-premi%C3%A8re-pour-une-femme",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -186,14 +162,44 @@
           }
         },
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/monde/amnesty-international/tues-par-balles-egorges-ou-brules-vifs-un-nouveau-rapport-revele-des-crimes-de-guerre-commis-par-larmee-malienne-et-le-groupe-wagner",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/09/29/au-maroc-le-roi-nomme-pour-la-premiere-fois-une-femme-fatima-ezzahra-el-mansouri-a-la-tete-du-gouvernement_6785652_3210.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Famine sous occupation russe à Olechky",
+      "pays": "Ukraine",
+      "resume": "Dans cette ville du sud occupée, 2 000 civils sont pris au piège sans électricité ni nourriture. Kiev accuse Moscou de bloquer l'aide humanitaire et tente des largages de vivres par drones (franceinfo, RFI).",
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/temoignages-il-n-y-a-plus-rien-a-olechky-ville-ukrainienne-occupee-par-les-russes-les-habitants-se-retrouvent-confrontes-a-la-famine_8213084.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/europe/20260930-ukraine-dans-la-ville-d-olechky-occup%C3%A9e-par-l-arm%C3%A9e-russe-les-habitants-souffrent-du-manque-de-nourriture",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         }
       ],
@@ -201,179 +207,179 @@
     }
   ],
   "regard_croise": {
-    "sujet": "Affaire de Crépol : la qualification de « racisme anti-Blancs »",
-    "rubrique": "societe",
-    "contexte": "Suite au meurtre du jeune Thomas à Crépol, la justice a retenu la circonstance aggravante de racisme, une première de cette ampleur médiatique en France.",
+    "sujet": "L'enracinement de l'AfD en Allemagne",
+    "rubrique": "international",
+    "contexte": "Après des succès électoraux majeurs dans plusieurs Länder, l'Alternative pour l'Allemagne (AfD) s'impose comme une force incontournable, tout en cherchant à normaliser sa présence institutionnelle.",
     "couvertures": [
       {
-        "source": "L'Humanité",
-        "type": "mainstream",
-        "angle": "Dénonce une instrumentalisation politique par l'extrême droite pour imposer son récit idéologique.",
+        "source": "Blast",
+        "type": "investigation",
+        "angle": "Analyse de la rhétorique victimaire comme moteur identitaire de l'extrême droite.",
         "ton": "critique",
-        "url": "https://www.humanite.fr/societe/extreme-droite/meurtre-de-thomas-a-crepol-comment-lextreme-droite-sest-mobilisee-pour-faire-retenir-la-circonstance-aggravante-de-racisme-anti-blanc",
-        "citation_cle": "Comment l’extrême droite s’est mobilisée pour faire retenir la circonstance aggravante.",
-        "auteur": "Lisa Guillemin",
-        "proprietaire_contexte": "Coopérative de lecteurs",
+        "url": "https://www.blast-info.fr/articles/2026/victoire-de-lafd-en-allemagne-etre-victime-voila-l-identite-politique-la-plus-puissante-de-l-extreme-droite-jHEN6yVSTxeMUOvMoRUqlQ",
+        "citation_cle": "Être victime, voilà l'identité politique la plus puissante de l'extrême droite.",
+        "auteur": null,
+        "proprietaire_contexte": "Indépendant",
         "orientation_source": "Gauche",
         "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
+          "nom": "Blast",
+          "proprietaire": "Blast",
+          "type_proprietaire": "independant",
           "orientation": "gauche"
         }
       },
       {
-        "source": "Politis",
-        "type": "investigation",
-        "angle": "S'inquiète de la validation judiciaire d'un concept sociologique contesté.",
-        "ton": "engagé",
-        "url": "https://www.politis.fr/api/proxy/?articleID=509953",
-        "citation_cle": "Le « racisme anti-Blancs » retenu.",
-        "auteur": null,
-        "proprietaire_contexte": "Indépendant",
-        "orientation_source": "Gauche",
+        "source": "La Croix",
+        "type": "mainstream",
+        "angle": "Décryptage des manœuvres institutionnelles de l'AfD pour siéger au centre de l'hémicycle.",
+        "ton": "factuel",
+        "url": "https://www.la-croix.com/international/allemagne-pourquoi-l-afd-siegera-au-centre-et-pas-a-lextreme-droite-en-saxe-anhalt-20260929",
+        "citation_cle": "Le parti tente déjà de bouleverser les traditions institutionnelles.",
+        "auteur": "Jocya Rabarone",
+        "proprietaire_contexte": "Groupe Bayard",
+        "orientation_source": "Centre",
         "groupe_media": null
       }
     ],
-    "analyse_coherence": "L'analyse des couvertures médiatiques de l'affaire de Crépol révèle une fracture profonde sur la sémantique et l'usage du droit. Tandis que la presse conservatrice comme Le Figaro se concentre sur l'aspect factuel de la procédure judiciaire et le succès d'une stratégie de défense, les médias de gauche (L'Humanité, Politis) pointent une victoire idéologique de l'extrême droite. On observe ici un double standard analytique : là où certains voient l'application neutre de la loi sur les crimes de haine, d'autres y voient une rupture avec l'universalisme républicain au profit d'une grille de lecture ethnique. La divergence majeure réside dans l'interprétation de la 'circonstance aggravante' : est-ce une protection égale de tous les citoyens (principe d'universalité) ou l'importation d'une guerre culturelle dans les prétoires ? Cette affaire illustre comment un fait divers tragique devient le laboratoire d'une redéfinition du racisme dans l'espace public français.",
+    "analyse_coherence": "L'analyse des couvertures médiatiques révèle une tension entre la réalité idéologique de l'AfD et sa stratégie de respectabilité. Tandis que Blast souligne la persistance d'une identité radicale basée sur le ressentiment, La Croix documente une bataille symbolique pour l'espace physique au Parlement de Saxe-Anhalt. L'AfD refuse de siéger à l'extrême droite de l'hémicycle, une manœuvre de 'recentrage visuel' qui contraste avec les alertes de la presse internationale (France 24,  sur le maintien de racines idéologiques problématiques. On observe un double standard : alors que les médias institutionnels se concentrent sur la forme (le placement dans l'hémicycle), les médias d'investigation et étrangers pointent l'absence de rupture sur le fond, notamment les accusations d'antisémitisme qui touchent simultanément les alliés européens du parti, comme le RN en France. La normalisation semble être une stratégie de conquête du pouvoir qui n'entraîne aucune modération doctrinale.",
     "biais_detectes": [
-      "Cadrage idéologique vs Cadrage juridique",
-      "Instrumentalisation politique du fait divers"
+      "Normalisation par la forme institutionnelle",
+      "Focalisation sur la stratégie de communication au détriment du programme"
     ],
-    "ce_quil_faut_retenir": "La justice a validé juridiquement le mobile raciste dans l'agression de Crépol, mais le débat sur la légitimité sociologique du concept de 'racisme anti-Blancs' reste un point de clivage politique majeur."
+    "ce_quil_faut_retenir": "L'AfD ne se contente plus de gagner des voix ; elle mène une guerre de position culturelle et institutionnelle pour effacer l'étiquette 'extrême droite' sans changer son logiciel."
   },
   "regard_etranger": [
     {
-      "source": "France 24 EN",
-      "pays": "France/International",
-      "titre": "Les sondages montrent Marine Le Pen creusant l'écart pour 2027",
-      "titre_original": "Poll shows French far-right leader Marine Le Pen widening lead ahead of 2027 presidential vote",
-      "angle": "Souligne l'avance de Le Pen face à Édouard Philippe et Jean-Luc Mélenchon.",
-      "url": "https://www.france24.com/en/france/20260928-poll-shows-french-far-right-leader-marine-le-pen-widening-lead-ahead-of-2027-presidential-vote",
-      "groupe_media": {
-        "nom": "France Médias Monde",
-        "proprietaire": "État français",
-        "type_proprietaire": "etat",
-        "orientation": "centre"
-      }
+      "source": "Blick",
+      "pays": "Suisse",
+      "titre": "Les lycéens en colère, des “gilets jaunes” version 2026 ?",
+      "titre_original": "Les lycéens en colère, des “gilets jaunes” version 2026 ?",
+      "angle": "La presse suisse s'inquiète d'une possible étincelle pour un incendie social généralisé en France.",
+      "url": "https://www.courrierinternational.com/article/vu-de-suisse-les-lyceens-en-colere-des-gilets-jaunes-version-2026_274991",
+      "groupe_media": null
+    },
+    {
+      "source": "The New York Times",
+      "pays": "États-Unis",
+      "titre": "Accusations d'antisémitisme contre une star de l'extrême droite française",
+      "titre_original": "Accusations of Antisemitism Hit a Star of the French Far Right",
+      "angle": "Le quotidien américain souligne la fragilité du 'rebranding' de Marine Le Pen face aux révélations sur le passé de Jordan Bardella.",
+      "url": "https://www.nytimes.com/2026/09/29/world/europe/bardella-antisemitism-denial-france.html",
+      "groupe_media": null
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "5,7 milliards $",
-    "contexte": "Montant record qu'Apple a été condamné à verser pour violation de brevets liés à l'iPhone.",
-    "source": "Al Jazeera",
-    "source_url": "https://www.aljazeera.com"
+    "valeur": "40 %",
+    "contexte": "Part de la population mondiale exposée à des niveaux d'ozone troposphérique « extrêmement élevés » en 2026.",
+    "source": "Copernicus Atmosphere Monitoring Service (CAMS) via El País",
+    "source_url": null
   },
   "a_surveiller": [
     {
       "date": "2026-09-30",
-      "evenement": "Deuxième jour de la visite d'État d'Emmanuel Macron en Espagne",
+      "evenement": "Fermeture et désinfection du collège Georges-Politzer à Bagnolet pour eau contaminée",
       "type": "autre",
-      "lien": "https://www.france24.com/fr/europe/20260928-emmanuel-macron-entame-une-visite-d-%C3%A9tat-en-espagne-pour-rehausser-les-relations"
+      "lien": "https://www.lejournaltoulousain.fr/ile-de-france/eau-non-conforme-dans-ce-college-de-bagnolet-des-travaux-lances-en-urgence-399540/"
     },
     {
-      "date": "2026-10-02",
-      "evenement": "Clôture prévue du procès en appel du MoDem",
-      "type": "echeance",
-      "lien": "https://pressejudiciaire.fr/evenement/proces-de-laffaire-des-assistants-des-eurodeputes-du-modem-tribunal-correctionnel-paris/"
+      "date": "2026-10-06",
+      "evenement": "Première session plénière en Saxe-Anhalt : l'AfD tente de siéger au centre",
+      "type": "commission",
+      "lien": "https://www.la-croix.com/international/allemagne-pourquoi-l-afd-siegera-au-centre-et-pas-a-lextreme-droite-en-saxe-anhalt-20260929"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Tir policier sur un lycéen : l'IGPN saisie dans le Val-d'Oise",
+      "titre": "Eau contaminée au collège de Bagnolet : des mois d'omerta",
       "rubrique": "societe",
-      "resume": "Un lycéen a été grièvement blessé à la mâchoire par un tir de lanceur de grenades (type Cougar) lors d'un blocus à Saint-Ouen-l'Aumône. Le parquet de Pontoise a saisi l'IGPN après la diffusion d'une vidéo montrant un tir à très courte distance (CheckNews, Blast).",
-      "sources": [
-        {
-          "nom": "CheckNews",
-          "url": "https://www.liberation.fr/checknews/ligpn-saisie-apres-un-tir-policier-en-plein-visage-dun-lyceen-lors-dun-blocus-dans-le-val-doise-20260928_KUVRA4XQLRBFNIOM4S2PRI7T4Y/",
-          "type": "fact-check"
-        },
-        {
-          "nom": "Blast",
-          "url": "https://www.blast-info.fr/articles/2026/blocus-lyceens-un-adolescent-aurait-ete-vise-au-visage-par-un-tir-policier-D2m8d-zzQFq_ojT4RxZaZA",
-          "type": "investigation"
-        }
-      ],
-      "pourquoi_signal": "Alors que le gouvernement se focalise sur les 'perturbations' lycéennes, la violence de la répression et l'usage d'armes de guerre sur des mineurs restent peu documentés par les médias généralistes."
-    },
-    {
-      "titre": "Violences périscolaires : les mairies face au déni",
-      "rubrique": "societe",
-      "resume": "À Paris et Toulouse, des enquêtes révèlent des failles majeures dans le traitement des alertes pour violences sexuelles sur mineurs. À Paris, un enregistrement prouve que des adjoints étaient alertés trois ans avant l'éclatement du scandale (Mediapart, Médiacités).",
+      "resume": "Depuis février 2026, élèves et personnels du collège Georges-Politzer buvaient une eau marron. Ce n'est qu'en septembre que le département a reconnu une 'non-conformité à la consommation' après des défaillances de transmission interne.",
       "sources": [
         {
           "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/280926/violences-dans-le-periscolaire-la-video-qui-prouve-des-annees-de-deni-la-mairie-de-paris",
+          "url": "https://www.mediapart.fr/journal/france/290926/dans-un-college-de-bagnolet-eleves-et-personnels-ont-bu-de-l-eau-contaminee-pendant-des-mois",
           "type": "investigation"
         },
         {
-          "nom": "Médiacités",
-          "url": "https://www.mediacites.fr/enquete/toulouse/2026/09/28/apres-les-dernieres-revelations-de-violences-dans-le-periscolaire-la-mairie-de-toulouse-table-sur-la-formation-de-ses-agents/",
+          "nom": "CGT Éduc’action 93",
+          "url": "https://www.93.cgteduc.fr/2026/09/28/eau-contaminee-communique-des-personnel%C2%B7les-mobilise%C2%B7es-du-college-georges-politzer-de-bagnolet/",
+          "type": "institutionnel"
+        }
+      ],
+      "pourquoi_signal": "Révèle le délabrement des infrastructures scolaires en Seine-Saint-Denis et l'inertie administrative face à des risques sanitaires majeurs pour des mineurs."
+    },
+    {
+      "titre": "Grève au Samu social de Lyon : le système d'hébergement sature",
+      "rubrique": "societe",
+      "resume": "En grève depuis le 19 août, les agents dénoncent une situation intenable face au manque de places. Malgré les promesses d'intermédiation locative de l'État pour 2027, le 115 est incapable de répondre à la détresse immédiate.",
+      "sources": [
+        {
+          "nom": "Rue89 Lyon",
+          "url": "https://www.rue89lyon.fr/2026/09/30/sans-abrisme-en-greve-le-samu-social-de-lyon-denonce-une-situation-intenable/",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce sujet pointe une défaillance systémique des services publics locaux dans la protection de l'enfance, souvent occultée par la communication institutionnelle."
+      "pourquoi_signal": "Une grève de plus d'un mois dans un service d'urgence vitale est un indicateur de rupture imminente du contrat social urbain."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Violences sexuelles dans l'Église : le Pape rétropédale",
-      "rubrique": "societe",
-      "resume": "Après avoir laissé entendre aux victimes rencontrées à Lourdes qu'il reconnaissait le caractère 'systémique' des abus, Léon XIV a nuancé ses propos dans l'avion du retour, préférant parler d'organisations ayant agi 'comme système' (Le Monde, Vatican News).",
+      "titre": "Le gouvernement réautorise le pesticide triallate par dérogation",
+      "rubrique": "ecologie",
+      "resume": "Annie Genevard a signé une autorisation d'urgence de 120 jours pour l'Avadex Factor, un herbicide interdit depuis trois ans en raison des risques pour les eaux souterraines.",
       "axes_concernes": [
-        "justice_sociale",
-        "droits_humains"
+        "droit_international",
+        "justice_sociale"
       ],
-      "analyse": "Ce recadrage sémantique est crucial. En refusant le terme 'systémique', le Vatican tente de limiter sa responsabilité institutionnelle et juridique. Pour nous, reconnaître le caractère structurel de ces violences est un préalable indispensable à la justice et à la réparation, conformément à l'universalité des droits humains.",
+      "analyse": "Cette décision illustre la primauté des intérêts de l'agro-industrie sur la santé publique et les préconisations de l'Anses. L'utilisation de l'article 53 pour contourner une interdiction scientifique pose un problème de démocratie sanitaire et de souveraineté environnementale.",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/09/28/visite-du-pape-en-france-dans-l-avion-du-retour-leon-xiv-nuance-les-propos-rapportes-par-les-victimes-sur-le-caractere-systemique-des-violences-sexuelles-dans-l-eglise_6785145_3224.html",
-          "type": "mainstream"
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Le-triallate-un-pesticide-interdit-reautorise-par-le-ministere-de-l-Agriculture",
+          "type": "investigation"
         },
         {
-          "nom": "Vatican News",
-          "url": "https://www.vaticannews.va/it/papa/news/2026-09/papa-leone-xiv-intervista-viaggio-apostolico-aereo-francia.html",
-          "type": "institutionnel"
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/environnement/agriculture/cest-quoi-le-triallate-le-pesticide-interdit-et-dangereux-reautorise-par-le-ministere-de-lagriculture",
+          "type": "mainstream"
         }
       ]
     },
     {
-      "titre": "Crise du logement en Espagne : la révolte gronde",
-      "rubrique": "international",
-      "resume": "Des centaines de manifestants occupent la Puerta del Sol à Madrid pour dénoncer l'explosion des loyers et l'emprise des 'fonds vautours' sur l'immobilier, alors qu'Emmanuel Macron entame sa visite d'État (Al Jazeera, RFI).",
+      "titre": "PFAS et santé des pompiers : un tabou mortel",
+      "rubrique": "societe",
+      "resume": "Les tenues de protection des pompiers contiendraient des PFAS (polluants éternels) cancérigènes. Les syndicats réclament un plan de retrait urgent.",
       "axes_concernes": [
         "justice_sociale",
-        "equite_economique"
+        "droits_humains"
       ],
-      "analyse": "L'Espagne vit une crise du logement aiguë qui illustre les dérives de la financiarisation de l'immobilier. Cette mobilisation sociale, au moment d'une visite diplomatique de haut rang, souligne l'urgence d'une régulation du marché pour garantir le droit fondamental au logement face à la spéculation.",
+      "analyse": "Il est inacceptable que ceux qui protègent la population soient exposés à des risques létaux par leur propre équipement. Le silence des autorités sur ce lien entre PFAS et cancers professionnels est une défaillance majeure du devoir de protection de l'État envers ses agents.",
       "sources": [
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/hundreds-set-up-tent-encampments-in-madrid-over-housing-crisis",
-          "type": "etranger"
+          "nom": "Basta!",
+          "url": "https://basta.media/les-pompiers-s-inquietent-de-la-presence-de-pfas-dans-leurs-tenues-et-demandent",
+          "type": "investigation"
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-international/20260928-crise-du-logement-en-espagne-les-fonds-vautours-ont-plusieurs-blocs-d-habitation",
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/societe/20260929.OBS118711/j-en-ai-vu-des-copains-malades-ou-morts-chez-les-pompiers-surexposes-et-sous-proteges-le-tabou-de-la-sante.html",
           "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-09-29",
-  "genere_a": "2026-09-29T04:34:14.542Z",
+  "date": "2026-09-30",
+  "genere_a": "2026-09-30T04:35:18.889Z",
   "meta": {
-    "nb_articles_analyses": 708,
-    "nb_topics": 211,
-    "nb_topics_selectionnes": 14,
-    "nb_articles_dans_selection": 47,
-    "sources_francaises": 477,
-    "sources_etrangeres": 231,
+    "nb_articles_analyses": 754,
+    "nb_topics": 235,
+    "nb_topics_selectionnes": 15,
+    "nb_articles_dans_selection": 42,
+    "sources_francaises": 511,
+    "sources_etrangeres": 243,
     "rubriques_couvertes": [
+      "science",
       "politique",
-      "economie",
+      "societe",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
