@@ -1,19 +1,19 @@
 {
   "sujet_du_jour": {
-    "titre": "Pollution à l'ozone : 50 % de l'humanité exposée à des niveaux dangereux en 2026",
-    "rubrique": "science",
-    "pourquoi_important": "Un rapport de Copernicus révèle que le dérèglement climatique transforme désormais l'atmosphère en une menace respiratoire directe pour la moitié de la population mondiale.",
+    "titre": "Vol Flydubai : un copilote poignarde son collègue en plein vol vers Tel-Aviv",
+    "rubrique": "international",
+    "pourquoi_important": "Cet incident rarissime dans l'aviation civile fait craindre une nouvelle forme de menace terroriste à l'approche des élections israéliennes.",
     "faits": [
-      "Selon le rapport « Atmosphere Watch » de Copernicus (CAMS), 40 % de la population mondiale a subi des niveaux d'ozone troposphérique jugés « extrêmement élevés » en 2026 .",
-      "Seulement 5 % de l'humanité a bénéficié d'une qualité de l'air considérée comme « bonne » sur le long terme (Le Figaro).",
-      "En Europe, 50 % de la population a été exposée à des niveaux d'ozone classés de « mauvais » à « extrêmement mauvais », accentués par les vagues de chaleur et les mégafeux (Reporterre, .",
-      "L'ozone de surface s'est maintenu à des concentrations proches de 130 µg/m³ dans plusieurs régions, notamment autour de Bordeaux, lors de l'été 2026 (CAMS)."
+      "Un Boeing de la compagnie Flydubai reliant Dubaï à Tel-Aviv a dû atterrir en urgence à Tabuk, en Arabie saoudite, après une violente altercation dans le cockpit.",
+      "Selon les premiers témoignages et les autorités israéliennes, un copilote a poignardé le commandant de bord et tenté de faire s'écraser l'appareil (Le Figaro, France 24 FR).",
+      "Le gouvernement de Benyamin Nétanyahou privilégie officiellement la piste d'une 'attaque terroriste djihadiste' (franceinfo, La Croix).",
+      "L'appareil a subi une brusque perte d'altitude avant que l'équipage ne parvienne à stabiliser la situation et à émettre des codes d'urgence (Libération, Le Monde)."
     ],
-    "contexte": "Contrairement à la couche d'ozone protectrice en haute altitude, l'ozone troposphérique (au sol) est un polluant secondaire issu de la réaction chimique entre les polluants industriels et la lumière solaire. L'intensification des canicules et des incendies de forêt en 2026 a agi comme un catalyseur, transformant la pollution urbaine et agricole en un gaz hautement irritant pour les poumons. L'observatoire européen Copernicus appelle désormais à une action urgente contre cette « menace mondiale » qui s'amplifie mécaniquement avec le réchauffement climatique.",
+    "contexte": "L'incident survient dans un climat de tension extrême au Proche-Orient. Benyamin Nétanyahou avait averti la veille de risques d'attentats avant les législatives du 27 octobre. Le détournement forcé vers l'Arabie saoudite est également symbolique, les deux pays n'ayant pas de relations diplomatiques officielles, bien que Ryad autorise désormais le survol de son territoire par des vols vers Israël (Mediapart).",
     "sources": [
       {
         "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/planete/article/2026/09/30/en-2026-la-moitie-de-la-population-mondiale-a-ete-exposee-a-des-niveaux-dangereux-de-pollution-a-l-ozone_6785928_3244.html",
+        "url": "https://www.lemonde.fr/international/article/2026/09/30/apres-la-tentative-de-detournement-d-un-avion-de-flydubai-volant-vers-tel-aviv-des-temoignages-et-des-zones-d-ombre_6786090_3210.html",
         "type": "mainstream",
         "groupe_media": {
           "nom": "Groupe Le Monde",
@@ -23,25 +23,46 @@
         }
       },
       {
-        "nom": "Reporterre",
-        "url": "https://reporterre.net/Vagues-de-chaleur-la-moitie-des-Europeens-exposes-a-un-niveau-dangereux-d-ozone-en-2026",
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/israel/vol-deroute-pilotes-blesses-piste-terroriste-evoquee-ce-que-l-on-sait-de-l-atterrissage-d-urgence-d-un-avion-flydubai-a-destination-de-tel-aviv_8216356.html#xtor=RSS-3-[lestitres]",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
+      },
+      {
+        "nom": "Le Figaro",
+        "url": "https://www.lefigaro.fr/international/en-direct-apres-un-premier-incident-en-vol-un-second-avion-de-flydubai-a-destination-de-tel-aviv-deroute-la-raison-encore-inconnue-20260930",
+        "type": "mainstream",
+        "groupe_media": null
+      },
+      {
+        "nom": "Mediapart",
+        "url": "https://www.mediapart.fr/journal/international/300926/un-avion-flydubai-destination-de-tel-aviv-deroute-apres-un-incident-en-vol",
         "type": "investigation",
         "groupe_media": {
-          "nom": "Reporterre",
-          "proprietaire": "Association La Pile",
-          "type_proprietaire": "independant",
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
           "orientation": "gauche"
         }
       },
       {
-        "nom": "Copernicus (CAMS)",
-        "url": "https://atmosphere.copernicus.eu/extreme-wildfires-western-europe-expose-millions-dangerous-air-pollution-levels",
-        "type": "institutionnel",
-        "groupe_media": null
+        "nom": "France 24 FR",
+        "url": "https://www.france24.com/fr/asie-pacifique/20261001-explosions-dans-zone-demilitarisee-dmz-president-sud-coreen-joue-apaisement-dialogue-mines-soldats-cor%C3%A9e-nord-lee-jae-myung-blesse",
+        "type": "mainstream"
       },
       {
-        "nom": "Le Figaro",
-        "url": "https://www.lefigaro.fr/faits-divers/on-ne-peut-pas-acheter-la-legion-d-honneur-sorti-libre-de-garde-a-vue-le-general-puga-riposte-par-la-voix-de-son-avocat-20260930",
+        "nom": "La Croix",
+        "url": "https://www.la-croix.com/societe/franchise-medicale-gaz-apl-tout-ce-qui-change-au-1er-octobre-2026-20260930",
+        "type": "mainstream"
+      },
+      {
+        "nom": "Libération",
+        "url": "https://www.liberation.fr/international/moyen-orient/attaque-sur-un-vol-de-flydubai-entre-dubai-et-tel-aviv-la-catastrophe-evitee-grace-aux-passagers-20260930_7RC7ASCREJGKFDC5QFK2PLN2CM/",
         "type": "mainstream"
       }
     ],
@@ -49,13 +70,13 @@
   },
   "france": [
     {
-      "titre": "Édouard Philippe lance son offensive sur les retraites",
-      "rubrique": "politique",
-      "resume": "Le candidat d'Horizons propose de porter l'âge légal à 65 ans et la durée de cotisation à 45 annuités d'ici dix ans. Il assume une réforme impopulaire au nom de l'équilibre financier, tout en introduisant un volet de capitalisation via des plans d'épargne-retraite (franceinfo, Libération, La Croix).",
+      "titre": "Vigilance rouge levée dans le Gard et l'Hérault",
+      "rubrique": "societe",
+      "resume": "Après un épisode méditerranéen qualifié d'exceptionnel, Météo-France a levé l'alerte rouge. Bien que les cumuls de pluie aient été impressionnants, notamment dans les Cévennes, les dégâts matériels restent limités et les écoles rouvrent progressivement (franceinfo, L'Obs, Le Figaro).",
       "sources": [
         {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/elections/presidentielle/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-candidat-horizons-a-la-presidentielle-devoile-son-projet-de-reforme-des-retraites_8214737.html",
+          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/de-fortes-pluies-se-sont-abattues-sur-le-gard-et-l-herault-les-degats-restent-limites-alors-que-la-vigilance-rouge-pluie-inondation-a-ete-levee_8217022.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -65,38 +86,8 @@
           }
         },
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/politique/je-sais-que-ce-nest-pas-comme-ca-quon-gagne-des-points-dans-les-sondages-edouard-philippe-assume-sa-reforme-des-retraites-a-65-ans-20260929_23AEI6VZFFGKLK4V3KZKCAV6S4/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/international/on-veut-retrouver-la-normalite-dans-le-sud-du-liban-l-ecole-comme-refuge-au-cour-de-la-guerre-20260929",
-          "type": "mainstream"
-        }
-      ],
-      "lien": "https://www.edouardphilippe.fr/actualites/retraites-la-reforme-que-je-propose-aux-francais"
-    },
-    {
-      "titre": "Tour Eiffel : démission du directeur après un scandale discriminatoire",
-      "rubrique": "societe",
-      "resume": "Patrick Branco Ruivo quitte ses fonctions suite à l'éviction d'employées lors de la visite d'un groupe religieux hindou proche de Narendra Modi le 5 septembre dernier (Sud-Ouest, 20 Minutes). L'Humanité précise que le personnel féminin avait été mis à l'écart à la demande expresse de cette délégation.",
-      "sources": [
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/france/tour-eiffel-apres-le-scandale-des-employees-mises-a-l-ecart-pour-la-visite-d-un-groupe-hindou-le-directeur-quitte-ses-fonctions-30843506.php",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
           "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/social-et-economie/capital-vs-travail/tour-eiffel-le-directeur-patrick-branco-ruivo-demissionne-apres-leviction-demployees-lors-de-la-visite-dune-secte-hindoue",
+          "url": "https://www.humanite.fr/environnement/crues/le-gard-et-lherault-places-en-vigilance-rouge-pluie-inondation-meteo-france-alerte-sur-un-episode-mediterraneen-exceptionnel",
           "type": "mainstream",
           "groupe_media": {
             "nom": "L'Humanité",
@@ -106,21 +97,37 @@
           }
         },
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/economie/4249933-20260930-anciennement-priceminister-site-vente-ligne-rakuten-france-va-fermer?at_medium=display&at_campaign=149",
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/societe/20260930.OBS118774/lesions-a-l-il-tir-compatible-avec-un-lbd-igpn-saisie-un-lyceen-hospitalise-a-tours-en-marge-d-un-blocus-ce-que-l-on-sait.html",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/un-passager-israelien-du-vol-de-flydubai-deroute-assure-avoir-sauve-l-avion-en-prenant-les-commandes-grace-a-une-emission-tele-20260930",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Alerte rouge inondations dans le Gard et l'Hérault",
-      "rubrique": "societe",
-      "resume": "Météo-France a placé deux départements en vigilance rouge pour un épisode méditerranéen exceptionnel. Des cumuls de pluie atteignant 350 mm sont attendus sur les Cévennes et les plaines (BFM TV, franceinfo).",
+      "titre": "Robert Ménard : 7 500 euros d'amende requis",
+      "rubrique": "politique",
+      "resume": "Le parquet de Montpellier a requis une amende contre le maire de Béziers pour son refus de marier un Algérien sous OQTF en 2023. Si le procureur rappelle que les maires ne peuvent se soustraire à la loi, Robert Ménard dénonce une situation 'ubuesque' (Le Monde, BFM TV, Le Figaro).",
       "sources": [
         {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/societe/article/2026/10/01/au-proces-de-robert-menard-pour-avoir-refuse-le-mariage-d-un-homme-sous-oqtf-une-peine-d-amende-requise_6786162_3224.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/meteo/intemperies/premier-episode-mediterraneen-de-la-saison-l-herault-et-le-gard-place-en-vigilance-rouge-pluie-inondation_AN-202609300070.html",
+          "url": "https://www.bfmtv.com/police-justice/refus-de-marier-un-algerien-sous-oqtf-robert-menard-affirme-ne-pas-avoir-envie-de-payer-les-pots-casses-de-l-etat_AV-202609300912.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -128,17 +135,30 @@
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
-        },
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Les rafles de 1943 à Marseille reconnues comme crime contre l'humanité",
+      "rubrique": "societe",
+      "resume": "La justice française a officiellement qualifié de 'crime contre l'humanité' les rafles du Vieux-Port menées par les nazis avec la collaboration de Vichy. L'enquête n'a toutefois pas permis d'identifier de responsables encore en vie (L'Humanité, La Croix).",
+      "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/environnement/meteo/l-herault-et-le-gard-places-en-vigilance-rouge-pour-un-risque-de-pluies-et-d-inondations-en-raison-d-un-episode-mediterraneen-exceptionnel-annonce-meteo-france_8215685.html",
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/histoire/crime-contre-lhumanite/les-rafles-menees-en-1943-a-marseille-reconnues-comme-crime-contre-lhumanite",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
           }
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/societe/franchise-medicale-gaz-apl-tout-ce-qui-change-au-1er-octobre-2026-20260930",
+          "type": "mainstream"
         }
       ],
       "lien": null
@@ -146,25 +166,25 @@
   ],
   "monde": [
     {
-      "titre": "Fatima Ezzahra El Mansouri, première femme cheffe de gouvernement",
-      "pays": "Maroc",
-      "resume": "Le roi Mohammed VI a nommé la maire de Marrakech et coordinatrice du PAM à la tête de l'exécutif après la victoire de son parti aux législatives (RFI, Le Monde). Elle doit désormais former une coalition gouvernementale (20 Minutes, France 24).",
+      "titre": "Christa Pike : exécution autorisée in extremis",
+      "pays": "États-Unis",
+      "resume": "Après une suspension de quelques heures par une cour d'appel, la Cour suprême a autorisé l'exécution de Christa Pike dans le Tennessee. Ses avocats affirment qu'elle respirait encore après deux doses de pentobarbital, relançant le débat sur l'indignité de la peine capitale (Le Monde, France 24 FR, Libération).",
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20260929-maroc-fatima-ezzahra-el-mansouri-nomm%C3%A9e-cheffe-du-gouvernement-une-premi%C3%A8re-pour-une-femme",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/10/01/la-cour-supreme-autorise-l-execution-de-christa-pike-la-premiere-femme-devant-etre-mise-a-mort-aux-etats-unis-depuis-2023_6786327_3210.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/09/29/au-maroc-le-roi-nomme-pour-la-premiere-fois-une-femme-fatima-ezzahra-el-mansouri-a-la-tete-du-gouvernement_6785652_3210.html",
-          "type": "mainstream",
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/etats-unis-dans-le-tennessee-l-execution-de-christa-pike-a-ete-suspendue_275198",
+          "type": "etranger",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -176,30 +196,30 @@
       "lien": null
     },
     {
-      "titre": "Famine sous occupation russe à Olechky",
-      "pays": "Ukraine",
-      "resume": "Dans cette ville du sud occupée, 2 000 civils sont pris au piège sans électricité ni nourriture. Kiev accuse Moscou de bloquer l'aide humanitaire et tente des largages de vivres par drones (franceinfo, RFI).",
+      "titre": "Pete Hegseth lance une purge au Pentagone",
+      "pays": "États-Unis",
+      "resume": "Le secrétaire à la Défense a annoncé vouloir réduire de 20 % le nombre de hauts gradés pour favoriser les troupes au sol. Ce plan de reconfiguration de l'armée, aux accents virilistes, suscite de vives inquiétudes dans les rangs militaires (Le Monde, Courrier international).",
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/temoignages-il-n-y-a-plus-rien-a-olechky-ville-ukrainienne-occupee-par-les-russes-les-habitants-se-retrouvent-confrontes-a-la-famine_8213084.html",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/10/01/aux-etats-unis-pete-hegseth-le-secretaire-a-la-defense-revendique-une-reduction-de-20-du-nombre-de-hauts-grades-et-poursuit-la-reconfiguration-de-l-armee_6786428_3210.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/europe/20260930-ukraine-dans-la-ville-d-olechky-occup%C3%A9e-par-l-arm%C3%A9e-russe-les-habitants-souffrent-du-manque-de-nourriture",
-          "type": "mainstream",
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/etats-unis-le-ministre-de-la-defense-americain-pete-hegseth-veut-20-de-hauts-grades-en-moins_275185",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         }
       ],
@@ -207,182 +227,166 @@
     }
   ],
   "regard_croise": {
-    "sujet": "L'enracinement de l'AfD en Allemagne",
+    "sujet": "Tensions politiques autour de Die Linke à Berlin",
     "rubrique": "international",
-    "contexte": "Après des succès électoraux majeurs dans plusieurs Länder, l'Alternative pour l'Allemagne (AfD) s'impose comme une force incontournable, tout en cherchant à normaliser sa présence institutionnelle.",
+    "contexte": "Après la victoire de la gauche radicale à Berlin, les partis de centre-gauche (Verts hésitent à former une coalition face aux pressions de la droite.",
     "couvertures": [
       {
-        "source": "Blast",
-        "type": "investigation",
-        "angle": "Analyse de la rhétorique victimaire comme moteur identitaire de l'extrême droite.",
+        "source": "Politico EU",
+        "type": "etranger",
+        "angle": "Focalisation sur les 'lignes rouges' sécuritaires et les accusations d'antisémitisme pesant sur Die Linke.",
         "ton": "critique",
-        "url": "https://www.blast-info.fr/articles/2026/victoire-de-lafd-en-allemagne-etre-victime-voila-l-identite-politique-la-plus-puissante-de-l-extreme-droite-jHEN6yVSTxeMUOvMoRUqlQ",
-        "citation_cle": "Être victime, voilà l'identité politique la plus puissante de l'extrême droite.",
-        "auteur": null,
-        "proprietaire_contexte": "Indépendant",
-        "orientation_source": "Gauche",
+        "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/grune-und-spd-die-linke-gewissensfrage-in-berlin/",
+        "auteur": "Rixa Fürsen",
+        "proprietaire_contexte": "Axel Springer / KKR (Milliardaire/Fonds)",
+        "orientation_source": "Centre-droit atlantiste",
         "groupe_media": {
-          "nom": "Blast",
-          "proprietaire": "Blast",
-          "type_proprietaire": "independant",
-          "orientation": "gauche"
+          "nom": "Axel Springer / KKR",
+          "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       },
       {
-        "source": "La Croix",
+        "source": "L'Humanité",
         "type": "mainstream",
-        "angle": "Décryptage des manœuvres institutionnelles de l'AfD pour siéger au centre de l'hémicycle.",
-        "ton": "factuel",
-        "url": "https://www.la-croix.com/international/allemagne-pourquoi-l-afd-siegera-au-centre-et-pas-a-lextreme-droite-en-saxe-anhalt-20260929",
-        "citation_cle": "Le parti tente déjà de bouleverser les traditions institutionnelles.",
-        "auteur": "Jocya Rabarone",
-        "proprietaire_contexte": "Groupe Bayard",
-        "orientation_source": "Centre",
-        "groupe_media": null
+        "angle": "Dénonciation d'un 'chantage politique inouï' de la CDU pour empêcher la gauche de gouverner.",
+        "ton": "engage",
+        "url": "https://www.humanite.fr/monde/allemagne/berlin-la-cdu-veut-couper-les-vivres-a-die-linke-pour-lempecher-de-former-un-gouvernement",
+        "auteur": "Bruno Odent",
+        "proprietaire_contexte": "Société des lecteurs (Coopérative)",
+        "orientation_source": "Gauche radicale",
+        "groupe_media": {
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
+        }
       }
     ],
-    "analyse_coherence": "L'analyse des couvertures médiatiques révèle une tension entre la réalité idéologique de l'AfD et sa stratégie de respectabilité. Tandis que Blast souligne la persistance d'une identité radicale basée sur le ressentiment, La Croix documente une bataille symbolique pour l'espace physique au Parlement de Saxe-Anhalt. L'AfD refuse de siéger à l'extrême droite de l'hémicycle, une manœuvre de 'recentrage visuel' qui contraste avec les alertes de la presse internationale (France 24,  sur le maintien de racines idéologiques problématiques. On observe un double standard : alors que les médias institutionnels se concentrent sur la forme (le placement dans l'hémicycle), les médias d'investigation et étrangers pointent l'absence de rupture sur le fond, notamment les accusations d'antisémitisme qui touchent simultanément les alliés européens du parti, comme le RN en France. La normalisation semble être une stratégie de conquête du pouvoir qui n'entraîne aucune modération doctrinale.",
+    "analyse_coherence": "Le traitement médiatique de la situation berlinoise illustre un double standard flagrant dans l'analyse de la légitimité démocratique. D'un côté, Politico EU (propriété d'Axel Springer, dont la ligne est ouvertement pro-business et atlantiste) présente Die Linke comme un péril sécuritaire, relayant sans recul les accusations d'antisémitisme pour justifier l'exclusion du parti vainqueur. L'angle est celui de la 'question de conscience' pour le SPD et les Verts, suggérant qu'une alliance avec la gauche radicale serait une faute morale. À l'opposé, L'Humanité met en lumière une menace directe sur le fédéralisme allemand : la CDU (droite) menace de couper les transferts financiers vers Berlin si la ville est dirigée par la gauche. Ce chantage financier est décrit comme une entrave au choix des électeurs. On observe ici que la presse mainstream ou libérale-conservatrice tend à normaliser les pressions institutionnelles de la droite tout en diabolisant les programmes de redistribution sociale, au mépris du résultat des urnes. Si un parti de droite était menacé de 'coupure de vivres' par un gouvernement central de gauche, le discours sur la 'dictature' et le respect de la démocratie locale serait probablement unanime.",
     "biais_detectes": [
-      "Normalisation par la forme institutionnelle",
-      "Focalisation sur la stratégie de communication au détriment du programme"
+      "Normalisation du chantage institutionnel",
+      "Diabolisation de la gauche radicale",
+      "Omission des enjeux sociaux au profit des enjeux sécuritaires"
     ],
-    "ce_quil_faut_retenir": "L'AfD ne se contente plus de gagner des voix ; elle mène une guerre de position culturelle et institutionnelle pour effacer l'étiquette 'extrême droite' sans changer son logiciel."
+    "ce_quil_faut_retenir": "La victoire de la gauche à Berlin provoque une crise qui dépasse les frontières de la ville, révélant la fragilité des alliances progressistes face aux menaces financières de la droite conservatrice."
   },
   "regard_etranger": [
     {
-      "source": "Blick",
-      "pays": "Suisse",
-      "titre": "Les lycéens en colère, des “gilets jaunes” version 2026 ?",
-      "titre_original": "Les lycéens en colère, des “gilets jaunes” version 2026 ?",
-      "angle": "La presse suisse s'inquiète d'une possible étincelle pour un incendie social généralisé en France.",
-      "url": "https://www.courrierinternational.com/article/vu-de-suisse-les-lyceens-en-colere-des-gilets-jaunes-version-2026_274991",
-      "groupe_media": null
-    },
-    {
-      "source": "The New York Times",
-      "pays": "États-Unis",
-      "titre": "Accusations d'antisémitisme contre une star de l'extrême droite française",
-      "titre_original": "Accusations of Antisemitism Hit a Star of the French Far Right",
-      "angle": "Le quotidien américain souligne la fragilité du 'rebranding' de Marine Le Pen face aux révélations sur le passé de Jordan Bardella.",
-      "url": "https://www.nytimes.com/2026/09/29/world/europe/bardella-antisemitism-denial-france.html",
-      "groupe_media": null
+      "source": "The Guardian",
+      "pays": "Royaume-Uni",
+      "titre": "Macron dit 'Welcome back' à l'idée d'un retour du Royaume-Uni dans l'UE",
+      "titre_original": "Macron says ‘welcome back’ to Burnham suggestion UK could rejoin EU",
+      "angle": "Le Guardian voit dans l'ouverture de Macron un signal fort envoyé au nouveau Premier ministre travailliste Andy Burnham.",
+      "url": "https://www.theguardian.com/world/2026/sep/30/macron-welcome-back-burnham-suggestion-uk-could-rejoin-eu",
+      "groupe_media": {
+        "nom": "Scott Trust",
+        "proprietaire": "Scott Trust Limited",
+        "type_proprietaire": "fondation",
+        "orientation": "centre-gauche"
+      }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "40 %",
-    "contexte": "Part de la population mondiale exposée à des niveaux d'ozone troposphérique « extrêmement élevés » en 2026.",
-    "source": "Copernicus Atmosphere Monitoring Service (CAMS) via El País",
-    "source_url": null
+    "valeur": "1 milliard d'euros",
+    "contexte": "Le montant de la fraude financière reprochée à Manchester City selon les révélations de Football Leaks.",
+    "source": "Mediapart",
+    "source_url": "https://www.mediapart.fr"
   },
   "a_surveiller": [
     {
-      "date": "2026-09-30",
-      "evenement": "Fermeture et désinfection du collège Georges-Politzer à Bagnolet pour eau contaminée",
-      "type": "autre",
-      "lien": "https://www.lejournaltoulousain.fr/ile-de-france/eau-non-conforme-dans-ce-college-de-bagnolet-des-travaux-lances-en-urgence-399540/"
+      "date": "2026-10-01",
+      "evenement": "Examen à l'Assemblée nationale de la loi intégrale contre les violences sexuelles",
+      "type": "vote",
+      "lien": "https://www.la-croix.com/societe/violences-sexuelles-une-loi-integrale-pour-remettre-la-victime-au-centre-20260930"
     },
     {
-      "date": "2026-10-06",
-      "evenement": "Première session plénière en Saxe-Anhalt : l'AfD tente de siéger au centre",
-      "type": "commission",
-      "lien": "https://www.la-croix.com/international/allemagne-pourquoi-l-afd-siegera-au-centre-et-pas-a-lextreme-droite-en-saxe-anhalt-20260929"
+      "date": "2026-10-02",
+      "evenement": "Réception de Javier Milei par Emmanuel Macron à l'Élysée",
+      "type": "autre",
+      "lien": "https://www.rfi.fr/fr/france/20260930-en-france-le-pr%C3%A9sident-argentin-javier-milei-est-en-qu%C3%AAte-d-investisseurs"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Eau contaminée au collège de Bagnolet : des mois d'omerta",
-      "rubrique": "societe",
-      "resume": "Depuis février 2026, élèves et personnels du collège Georges-Politzer buvaient une eau marron. Ce n'est qu'en septembre que le département a reconnu une 'non-conformité à la consommation' après des défaillances de transmission interne.",
+      "titre": "Le lobby agro-industriel se renforce au Sénat",
+      "rubrique": "politique",
+      "resume": "Les dernières élections sénatoriales ont vu l'entrée de quatre nouveaux sénateurs directement issus des rangs de la FNSEA, consolidant un bloc réactionnaire anti-écolo au Palais du Luxembourg.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/290926/dans-un-college-de-bagnolet-eleves-et-personnels-ont-bu-de-l-eau-contaminee-pendant-des-mois",
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Le-lobby-agro-industriel-se-renforce-au-Senat-apres-les-elections",
           "type": "investigation"
-        },
-        {
-          "nom": "CGT Éduc’action 93",
-          "url": "https://www.93.cgteduc.fr/2026/09/28/eau-contaminee-communique-des-personnel%C2%B7les-mobilise%C2%B7es-du-college-georges-politzer-de-bagnolet/",
-          "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "Révèle le délabrement des infrastructures scolaires en Seine-Saint-Denis et l'inertie administrative face à des risques sanitaires majeurs pour des mineurs."
+      "pourquoi_signal": "Sujet ignoré par les médias mainstream qui se focalisent sur les rapports de force partisans classiques sans analyser l'entrisme des lobbies sectoriels."
     },
     {
-      "titre": "Grève au Samu social de Lyon : le système d'hébergement sature",
-      "rubrique": "societe",
-      "resume": "En grève depuis le 19 août, les agents dénoncent une situation intenable face au manque de places. Malgré les promesses d'intermédiation locative de l'État pour 2027, le 115 est incapable de répondre à la détresse immédiate.",
+      "titre": "Datacenters : l'opacité environnementale persiste",
+      "rubrique": "tech",
+      "resume": "Une enquête journalistique révèle que malgré les directives européennes, ni la Commission ni les États membres n'imposent de transparence réelle sur la consommation d'eau et d'énergie des centres de données.",
       "sources": [
         {
-          "nom": "Rue89 Lyon",
-          "url": "https://www.rue89lyon.fr/2026/09/30/sans-abrisme-en-greve-le-samu-social-de-lyon-denonce-une-situation-intenable/",
+          "nom": "Next",
+          "url": "https://next.ink/259160/datacenters-de-leurope-aux-etats-membres-personne-nimpose-la-transparence/",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Une grève de plus d'un mois dans un service d'urgence vitale est un indicateur de rupture imminente du contrat social urbain."
+      "pourquoi_signal": "L'impact écologique du numérique est souvent réduit aux gestes individuels, occultant l'irresponsabilité institutionnelle face aux géants de la tech."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Le gouvernement réautorise le pesticide triallate par dérogation",
-      "rubrique": "ecologie",
-      "resume": "Annie Genevard a signé une autorisation d'urgence de 120 jours pour l'Avadex Factor, un herbicide interdit depuis trois ans en raison des risques pour les eaux souterraines.",
+      "titre": "Cisjordanie : l'impunité des 'jeunes des collines'",
+      "rubrique": "international",
+      "resume": "Les colons radicaux multiplient les attaques contre les villages palestiniens pour forcer l'implantation de nouvelles colonies illégales, souvent avec le soutien tacite des forces de sécurité israéliennes.",
       "axes_concernes": [
         "droit_international",
-        "justice_sociale"
+        "colonialisme"
       ],
-      "analyse": "Cette décision illustre la primauté des intérêts de l'agro-industrie sur la santé publique et les préconisations de l'Anses. L'utilisation de l'article 53 pour contourner une interdiction scientifique pose un problème de démocratie sanitaire et de souveraineté environnementale.",
+      "analyse": "La colonisation est un crime au regard du droit international. En qualifiant ces colons de simples 'émeutiers', le gouvernement israélien tente de masquer une stratégie d'annexion de fait. Notre ligne éditoriale impose de dénoncer ce double standard : on ne peut condamner l'annexion de territoires en Europe tout en restant complaisant avec la colonisation en Palestine.",
       "sources": [
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Le-triallate-un-pesticide-interdit-reautorise-par-le-ministere-de-l-Agriculture",
-          "type": "investigation"
-        },
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/environnement/agriculture/cest-quoi-le-triallate-le-pesticide-interdit-et-dangereux-reautorise-par-le-ministere-de-lagriculture",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/moyen-orient/20261001-cisjordanie-occup%C3%A9e-qui-sont-les-jeunes-des-collines-ces-colons-radicaux-accus%C3%A9s-de-centaines-d-attaques",
           "type": "mainstream"
         }
       ]
     },
     {
-      "titre": "PFAS et santé des pompiers : un tabou mortel",
+      "titre": "La France valide l'extradition de militants antifascistes",
       "rubrique": "societe",
-      "resume": "Les tenues de protection des pompiers contiendraient des PFAS (polluants éternels) cancérigènes. Les syndicats réclament un plan de retrait urgent.",
+      "resume": "La Cour de cassation a validé l'extradition de Gino Abazaj vers l'Allemagne, marquant la fin de la France comme terre d'asile pour les militants antifascistes européens poursuivis pour leurs actions politiques.",
       "axes_concernes": [
-        "justice_sociale",
+        "antifascisme",
         "droits_humains"
       ],
-      "analyse": "Il est inacceptable que ceux qui protègent la population soient exposés à des risques létaux par leur propre équipement. Le silence des autorités sur ce lien entre PFAS et cancers professionnels est une défaillance majeure du devoir de protection de l'État envers ses agents.",
+      "analyse": "L'utilisation du mandat d'arrêt européen contre des militants politiques pose une question démocratique majeure. En facilitant la traque transnationale des antifascistes, la France participe à une criminalisation croissante de la contestation radicale, alors même que les violences d'extrême droite progressent partout en Europe.",
       "sources": [
         {
-          "nom": "Basta!",
-          "url": "https://basta.media/les-pompiers-s-inquietent-de-la-presence-de-pfas-dans-leurs-tenues-et-demandent",
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/international/300926/la-france-prete-la-main-la-traque-des-antifascistes-europeens",
           "type": "investigation"
-        },
-        {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/societe/20260929.OBS118711/j-en-ai-vu-des-copains-malades-ou-morts-chez-les-pompiers-surexposes-et-sous-proteges-le-tabou-de-la-sante.html",
-          "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-09-30",
-  "genere_a": "2026-09-30T04:35:18.889Z",
+  "date": "2026-10-01",
+  "genere_a": "2026-10-01T04:32:17.517Z",
   "meta": {
-    "nb_articles_analyses": 754,
-    "nb_topics": 235,
-    "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 42,
-    "sources_francaises": 511,
-    "sources_etrangeres": 243,
+    "nb_articles_analyses": 746,
+    "nb_topics": 225,
+    "nb_topics_selectionnes": 16,
+    "nb_articles_dans_selection": 44,
+    "sources_francaises": 501,
+    "sources_etrangeres": 245,
     "rubriques_couvertes": [
-      "science",
-      "politique",
+      "international",
       "societe",
-      "international"
+      "politique"
     ],
-    "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
-    "version_pipeline": "4.1.0-gpt-search"
+    "modele": "gemini/gemini-3-flash-preview",
+    "version_pipeline": "4.0.0"
   }
 }

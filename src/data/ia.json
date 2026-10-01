@@ -1,47 +1,67 @@
 {
-  "date": "2026-09-30",
-  "genere_a": "2026-09-30T04:35:39.737Z",
+  "date": "2026-10-01",
+  "genere_a": "2026-10-01T04:35:33.238Z",
   "faits_ia": [
     {
-      "titre": "OpenAI lance GPT-6.1 Sol : la puissance à prix réduit",
-      "sous_section": "annonces",
-      "resume": "OpenAI a dévoilé GPT-6.1 Sol, un nouveau modèle conçu pour les tâches professionnelles complexes telles que le codage, l'analyse de documents et les flux de travail multi-étapes. Ce modèle se rapproche des performances du fleuron GPT-6 Astra tout en affichant un coût d'utilisation divisé par cinq pour les développeurs via l'API.",
-      "pourquoi_ca_compte": "Cette annonce marque une étape vers la démocratisation de l'IA de pointe : des capacités quasi-maximales deviennent accessibles financièrement pour les PME et les services publics.",
+      "titre": "Donald Trump impose le terme « Super Intelligence » par décret",
+      "sous_section": "regulation",
+      "resume": "Le président américain a signé un décret imposant à son administration d'utiliser le terme « Super Intelligence » en remplacement d'« Intelligence Artificielle ». Cette décision sémantique s'accompagne d'un engouement spéculatif pour les noms de domaine en .si , provoquant des soupçons de délits d'initiés au sein de l'administration fédérale.",
+      "pourquoi_ca_compte": "Ce changement de terminologie reflète une volonté politique de sacraliser la puissance technologique, tout en soulevant des questions éthiques sur la spéculation financière liée aux décisions étatiques.",
       "sources": [
         {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
-          "type": "mainstream",
+          "nom": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/30/trump-decrees-era-of-super-intelligence-upon-us/5300213",
+          "type": "independant",
           "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
             "orientation": "centre"
           }
         },
         {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-          "type": "institutionnel",
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2344141-trump-rebaptise-lia-super-intelligence-les-noms-de-domaine-slovenes-sarrachent-et-les-soupcons-de-delit-dinitie-fleurissent.html",
+          "type": "independant",
           "groupe_media": {
-            "nom": "OpenAI",
-            "proprietaire": "OpenAI Inc. (for-profit transition)",
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
         }
       ],
-      "lien": "https://openai.com/index/introducing-gpt-6-1-sol"
+      "lien": null
     },
     {
-      "titre": "Meta Muse : le nouvel agent IA de Meta entre sur le marché",
+      "titre": "Bruxelles lance une consultation sur le droit d'auteur face à l'IA",
+      "sous_section": "regulation",
+      "resume": "La Commission européenne a officiellement ouvert une phase de consultation pour faire évoluer le cadre réglementaire du droit d'auteur face aux modèles d'IA générative. L'objectif est de définir si les protections actuelles sont suffisantes pour les créateurs dont les œuvres servent à l'entraînement des modèles.",
+      "pourquoi_ca_compte": "C'est une étape cruciale pour la rémunération des artistes et la survie des industries culturelles face à l'automatisation de la création.",
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/brief-article/droit-dauteur-et-ia-generative-la-commission-europeenne-lance-une-consultation/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "OpenAI lance « Dots » pour concurrencer les agents « Muse » de Meta",
       "sous_section": "annonces",
-      "resume": "Meta a lancé 'Muse', un agent d'intelligence artificielle qui suscite déjà un vif intérêt dans le secteur professionnel. Son déploiement s'inscrit dans une stratégie globale de Meta pour intégrer des assistants autonomes dans les processus métiers, soutenue par des investissements massifs prévus dans les budgets 2027.",
-      "pourquoi_ca_compte": "L'arrivée d'un acteur majeur comme Meta sur le segment des agents autonomes pourrait transformer radicalement l'organisation du travail de bureau.",
+      "resume": "OpenAI a dévoilé « Dots », sa nouvelle architecture d'agents intelligents capables d'exécuter des tâches complexes de manière autonome. Cette annonce intervient en réponse directe au projet « Muse » de Meta, intensifiant la course aux agents IA personnels.",
+      "pourquoi_ca_compte": "Le passage des chatbots conversationnels aux agents autonomes marque une étape vers une IA capable d'agir sur le monde réel (réservations, achats, gestion de projets) à la place de l'utilisateur.",
       "sources": [
         {
           "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/01-business/meta-muse-un-agent-ia-deja-en-vogue-29-09_EN-202609290919.html",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-agents-ia-dots-la-reponse-d-open-ai-a-muse-de-meta_VN-202609300901.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -51,90 +71,23 @@
           }
         }
       ],
-      "lien": "https://www.bfmtv.com/economie/replay-emissions/01-business/meta-muse-un-agent-ia-deja-en-vogue-29-09_EN-202609290919.html"
+      "lien": null
     },
     {
-      "titre": "L'administration Trump impose le terme « Superintelligence »",
-      "sous_section": "regulation",
-      "resume": "Par décret exécutif, le gouvernement américain a ordonné de remplacer le terme « Intelligence Artificielle » par celui de « Superintelligence » dans tous les documents et sites officiels. Parallèlement, l'administration a fait signer aux géants de la tech un pacte de régulation volontaire jugé non-contraignant par les observateurs.",
-      "pourquoi_ca_compte": "Ce changement sémantique et le choix de l'autorégulation affaiblissent le cadre juridique au profit des intérêts industriels, au risque de négliger la protection des citoyens.",
-      "sources": [
-        {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/30/trump-administration-gets-big-tech-to-sign-weak-non-binding-ai-regulations/5299955",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/09/29/trump-top-tech-firms-sign-accord-to-self-police-ai-development?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai"
-    },
-    {
-      "titre": "Données privées : les voitures connectées sous surveillance",
+      "titre": "Fiabilité contestée des détecteurs d'IA dans le monde littéraire",
       "sous_section": "societe",
-      "resume": "Une étude de l'Université Northeastern révèle que les véhicules modernes et leurs applications mobiles partagent massivement des données détaillées avec les géants de la tech. Les chercheurs dénoncent une opacité persistante sur l'identité des destinataires finaux de ces informations de localisation et de comportement.",
-      "pourquoi_ca_compte": "Le véhicule devient un espace de surveillance permanent, posant des risques majeurs pour la vie privée et la sécurité des données personnelles des conducteurs.",
+      "resume": "L'écrivain Thélyson Orélien est accusé d'avoir utilisé l'IA pour son dernier livre après un test positif sur le logiciel Pangram. Cependant, une étude scientifique américaine souligne le manque de fiabilité de ces outils, qui génèrent de nombreux faux positifs, notamment sur des textes écrits par des auteurs non-natifs.",
+      "pourquoi_ca_compte": "L'usage de détecteurs non certifiés comme preuves d'infraction menace la réputation des créateurs et pose la question du droit à la présomption d'innocence numérique.",
       "sources": [
         {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/29/your-car-and-its-mobile-app-are-probably-handing-over-all-kinds-of-data-to-tech-companies/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://techcrunch.com/2026/09/29/your-car-and-its-mobile-app-are-probably-handing-over-all-kinds-of-data-to-tech-companies/"
-    },
-    {
-      "titre": "Contestation croissante contre les méga data centers de l'IA",
-      "sous_section": "societe",
-      "resume": "En France, près de Châteauroux, et aux États-Unis, des mouvements citoyens s'opposent aux projets de centres de données géants de Google. Les critiques portent sur la consommation massive d'énergie, l'accaparement de ressources en eau pour le refroidissement et l'impact sur le foncier rural.",
-      "pourquoi_ca_compte": "L'expansion physique de l'IA entre en conflit direct avec les objectifs de sobriété écologique et les besoins des territoires locaux.",
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-france/20260929-la-contestation-s-organise-contre-le-projet-de-centre-de-donn%C3%A9es-g%C3%A9ant-de-google-pr%C3%A9s-de-ch%C3%A2teauroux",
+          "nom": "Sciences et Avenir",
+          "url": "https://www.sciencesetavenir.fr/high-tech/intelligence-artificielle/les-detecteurs-d-ia-au-crible-d-une-etude-scientifique_195137?xtor=RSS-12",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
+          "groupe_media": null
         },
         {
           "nom": "The Conversation FR",
-          "url": "https://theconversation.com/quest-ce-quun-centre-de-donnees-ou-data-center-pourquoi-ces-infrastructures-soulevent-elles-tant-de-debats-292529",
+          "url": "https://theconversation.com/ce-que-laffaire-thelyson-orelien-dit-de-nos-representations-de-la-litterature-292932",
           "type": "institutionnel",
           "groupe_media": {
             "nom": "The Conversation",
@@ -144,74 +97,57 @@
           }
         }
       ],
-      "lien": "https://theconversation.com/quest-ce-quun-centre-de-donnees-ou-data-center-pourquoi-ces-infrastructures-soulevent-elles-tant-de-debats-292529"
+      "lien": null
     },
     {
-      "titre": "Piratage de la DGFiP : l'Anssi pointe des failles basiques",
+      "titre": "Appel au boycott de l'IA pour des raisons écologiques et sociales",
       "sous_section": "societe",
-      "resume": "L'Anssi a publié un rapport sur le vol de 700 000 données à la Direction générale des Finances publiques. Contrairement aux craintes d'une attaque complexe, le pirate ZeroBytes a exploité des identifiants volés et une supervision défaillante, révélant des vulnérabilités structurelles dans les administrations.",
-      "pourquoi_ca_compte": "Cela souligne que la sécurité de l'État dépend moins de technologies de pointe que d'une hygiène numérique de base et d'une surveillance rigoureuse.",
+      "resume": "Un mouvement de réflexion autour du boycott de l'IA émerge, porté par des sociologues et militants. Ils dénoncent l'opacité du secteur, la consommation énergétique colossale des datacenters et la précarisation des travailleurs du clic chargés d'étiqueter les données.",
+      "pourquoi_ca_compte": "Ce débat pose la question de la souveraineté citoyenne : peut-on refuser une technologie que les États et les entreprises imposent comme inéluctable ?",
       "sources": [
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/dgfip-700-000-donnees-volees-mais-pas-la-consequence-d-une-attaque-sophistiquee-pour-lanssi-20260929",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2343289-des-mots-de-passe-voles-ont-suffi-et-personne-na-rien-vu-lanssi-disseque-le-piratage-de-la-dgfip.html",
-          "type": "mainstream",
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Boycotter-l-IA-et-son-monde-retrouvez-en-images-et-video-la-soiree-organisee-par",
+          "type": "investigation",
           "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
+            "nom": "Reporterre",
+            "proprietaire": "Association La Pile",
             "type_proprietaire": "independant",
-            "orientation": "centre"
+            "orientation": "gauche"
           }
         }
       ],
-      "lien": "https://www.numerama.com/cyberguerre/2343289-des-mots-de-passe-voles-ont-suffi-et-personne-na-rien-vu-lanssi-disseque-le-piratage-de-la-dgfip.html"
+      "lien": null
     },
     {
-      "titre": "Risque existentiel de l'IA : le débat se radicalise",
-      "sous_section": "recherche",
-      "resume": "Des chercheurs de renom issus d'OpenAI et Google DeepMind estiment désormais à 50% le risque d'extinction humaine liée à l'IA. À l'opposé, Timnit Gebru dénonce ce discours comme une stratégie marketing des fondateurs pour détourner l'attention des dommages immédiats (droits d'auteur, biais).",
-      "pourquoi_ca_compte": "Cette polarisation influence les politiques publiques mondiales, entre ceux qui veulent réguler les risques futurs et ceux qui exigent de traiter les abus actuels.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "Wired",
-          "url": "https://www.wired.com/story/the-big-interview-podcast-timnit-gebru/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews"
-    },
-    {
-      "titre": "Google réduit le support de ChromeOS à 8 ans",
-      "sous_section": "business",
-      "resume": "Google a annoncé que le support logiciel des Chromebooks serait désormais limité à huit ans, au lieu des dix ans initialement prévus. Cette décision survient alors que les 'Googlebook' cherchent à s'imposer sur le marché des entreprises et de l'éducation.",
-      "pourquoi_ca_compte": "Pour les écoles et les entreprises, cette réduction de deux ans augmente les coûts de renouvellement et l'empreinte écologique liée aux déchets électroniques.",
+      "titre": "Manque de transparence sur l'impact écologique des datacenters",
+      "sous_section": "societe",
+      "resume": "Malgré les directives européennes sur l'efficacité énergétique, une enquête journalistique révèle que ni la Commission européenne ni les États membres n'imposent de réelle transparence sur la consommation d'eau et d'électricité des centres de données liés à l'IA.",
+      "pourquoi_ca_compte": "Sans données publiques fiables, il est impossible pour les citoyens et les élus locaux d'évaluer le coût environnemental réel de la transition numérique.",
       "sources": [
         {
           "nom": "Next",
-          "url": "https://next.ink/258780/google-fixe-une-date-de-fin-de-support-pour-chromeos/",
+          "url": "https://next.ink/259160/datacenters-de-leurope-aux-etats-membres-personne-nimpose-la-transparence/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Action coordonnée de l'UE contre les monnaies virtuelles de jeux vidéo",
+      "sous_section": "regulation",
+      "resume": "Le réseau européen CPC a lancé une action contre dix éditeurs (Ubisoft, Riot concernant l'usage opaque des monnaies virtuelles. Les autorités réclament plus de clarté sur les prix réels et une meilleure protection des mineurs face aux incitations à l'achat.",
+      "pourquoi_ca_compte": "Il s'agit de protéger les droits économiques des consommateurs, particulièrement les plus jeunes, contre les mécanismes psychologiques de manipulation financière.",
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/259154/jeux-video-bruxelles-passe-de-la-persuasion-a-laction-coordonnee-sur-les-monnaies-virtuelles/",
           "type": "investigation",
           "groupe_media": {
             "nom": "Next (ex-Next INpact)",
@@ -221,55 +157,24 @@
           }
         },
         {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/os-platforms/2026/09/29/google-ending-chromeos-support-two-years-early/5299674",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://next.ink/258780/google-fixe-une-date-de-fin-de-support-pour-chromeos/"
-    },
-    {
-      "titre": "Boeing remporte un contrat de 20 milliards pour l'US Navy",
-      "sous_section": "business",
-      "resume": "Le Pentagone a sélectionné Boeing pour développer le F/A-XX, le futur avion de combat de la marine américaine. Ce contrat majeur de 20 milliards de dollars confirme la position de Boeing malgré ses récents déboires dans le secteur spatial avec la capsule Starliner.",
-      "pourquoi_ca_compte": "Ce contrat pérennise un géant industriel de la défense et dessine les contours de la supériorité aérienne américaine pour les décennies à venir.",
-      "sources": [
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/monde/etats-unis/4249926-20260930-etats-unis-pentagone-choisit-boeing-fabriquer-avion-combat-us-navy",
-          "type": "mainstream",
+          "nom": "Europa EU",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2018",
+          "type": "institutionnel",
           "groupe_media": null
-        },
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/09/30/boeing-choisi-pour-fabriquer-le-futur-avion-de-combat-de-la-marine-americaine_6785825_3234.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
         }
       ],
-      "lien": "https://www.lemonde.fr/economie/article/2026/09/30/boeing-choisi-pour-fabriquer-le-futur-avion-de-combat-de-la-marine-americaine_6785825_3234.html"
+      "lien": null
     },
     {
-      "titre": "BMW i3 : la berline électrique aux 912 km d'autonomie",
+      "titre": "Firefox 157 déploie son nouveau design « Nova »",
       "sous_section": "annonces",
-      "resume": "BMW a dévoilé la nouvelle version 100 % électrique de sa Série 3, baptisée i3. Basée sur la plateforme Neue Klasse, elle affiche une autonomie record allant jusqu'à 912 km dans sa version haut de gamme, se positionnant comme une concurrente directe de Tesla.",
-      "pourquoi_ca_compte": "L'augmentation drastique de l'autonomie lève l'un des principaux freins à l'adoption massive du véhicule électrique par le grand public.",
+      "resume": "Mozilla a lancé la version 157 de son navigateur, intégrant la refonte visuelle « Nova ». Il s'agit de la mise à jour d'interface la plus importante depuis 2021, visant à moderniser l'expérience utilisateur sur mobile et ordinateur.",
+      "pourquoi_ca_compte": "Firefox reste l'un des rares remparts contre l'hégémonie de Chromium , et sa capacité à attirer des utilisateurs est vitale pour le pluralisme du web.",
       "sources": [
         {
           "nom": "Numerama",
-          "url": "https://www.numerama.com/vroom/2342045-on-est-monte-a-bord-de-la-bmw-i3-la-berline-electrique-aux-912-km-dautonomie-qui-peut-inquieter-tesla.html",
-          "type": "mainstream",
+          "url": "https://www.numerama.com/tech/2343709-firefox-157-arrive-avec-nova-son-plus-grand-redesign-depuis-2021.html",
+          "type": "independant",
           "groupe_media": {
             "nom": "Humanoid",
             "proprietaire": "Humanoid (indépendant)",
@@ -278,31 +183,93 @@
           }
         },
         {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/transportation/1002173/bmws-revamped-i3-boasts-up-to-468-miles-of-range",
-          "type": "etranger",
+          "nom": "The Register",
+          "url": "https://www.theregister.com/software/2026/09/30/firefox-157-could-bold-new-look-be-just-what-mozilla-needs/5300059",
+          "type": "independant",
           "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
             "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Jailbreak massif de la PlayStation 5",
+      "sous_section": "societe",
+      "resume": "Une nouvelle faille de sécurité permet de jailbreaker les PS5 (y compris Slim et Pro) sous des versions de firmware récentes. Cette manipulation, devenue extrêmement rapide, permet l'exécution de codes non officiels.",
+      "pourquoi_ca_compte": "Au-delà du piratage, cela pose la question de la propriété réelle du matériel acheté par le consommateur et de son droit à modifier ses propres appareils.",
+      "sources": [
+        {
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/gaming/2026/09/ps5-jailbreaks-just-got-a-lot-more-useful/",
+          "type": "independant",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/tech/2343721-sony-a-un-probleme-certaines-ps5-peuvent-desormais-etre-jailbreakees-en-quelques-secondes.html",
+          "type": "independant",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Fermeture définitive de Rakuten France",
+      "sous_section": "business",
+      "resume": "La plateforme Rakuten France (ex-PriceMinister) cesse ses activités ce 30 septembre à minuit. Malgré son statut d'ancien champion du e-commerce français, la place de marché n'a pas résisté à la concurrence et au manque d'investissement de sa maison mère japonaise.",
+      "pourquoi_ca_compte": "Cette fermeture illustre la difficulté des acteurs européens et historiques à survivre face aux géants mondiaux, impactant l'emploi et la souveraineté numérique française.",
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/259045/rakuten-france-ferme-ses-portes-ce-soir-a-minuit/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Alternatives Économiques",
+          "url": "https://www.alternatives-economiques.fr/de-priceminister-a-rakuten-la-deroute-d-un-ex-champion-tricolore_30-09-2026",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Alternatives Économiques",
+            "proprietaire": "SCOP (coopérative de salariés)",
+            "type_proprietaire": "cooperative",
             "orientation": "centre-gauche"
           }
         }
       ],
-      "lien": "https://www.numerama.com/vroom/2342045-on-est-monte-a-bord-de-la-bmw-i3-la-berline-electrique-aux-912-km-dautonomie-qui-peut-inquieter-tesla.html"
+      "lien": null
     }
   ],
   "regard_croise_ia": {
-    "sujet": "L'autorégulation de la 'Superintelligence' par l'administration Trump",
-    "contexte": "Le président Trump a réuni les dirigeants de la Big Tech pour signer un accord volontaire sur la sécurité de l'IA, tout en imposant un changement de terminologie officielle vers le terme 'Superintelligence'.",
+    "sujet": "Le décret « Super Intelligence » de Donald Trump",
+    "contexte": "Le 30 septembre 2026, le président des États-Unis a imposé par décret le terme « Super Intelligence » pour toute communication officielle de l'administration fédérale concernant l'IA.",
     "couvertures": [
       {
         "source": "The Register",
-        "type": "Spécialisé Tech",
-        "angle": "Critique de la faiblesse juridique du pacte",
+        "type": "independant",
+        "angle": "Impact administratif et technique",
         "ton": "critique",
-        "url": "https://www.theregister.com/ai-and-ml/2026/09/30/trump-administration-gets-big-tech-to-sign-weak-non-binding-ai-regulations/5299955",
-        "citation_cle": "L'administration Trump obtient de la Big Tech qu'elle signe des réglementations sur l'IA faibles et non contraignantes.",
+        "url": "https://www.theregister.com/ai-and-ml/2026/09/30/trump-decrees-era-of-super-intelligence-upon-us/5300213",
+        "citation_cle": "Federal paperwork to be pulped as agencies told to forget the old name.",
         "groupe_media": {
           "nom": "The Register",
           "proprietaire": "Situation Publishing",
@@ -311,46 +278,31 @@
         }
       },
       {
-        "source": "The Verge",
-        "type": "Mainstream Tech",
-        "angle": "Analyse du changement sémantique imposé",
+        "source": "Numerama",
+        "type": "independant",
+        "angle": "Spéculation et délits d'initiés",
         "ton": "factuel",
-        "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
-        "citation_cle": "La branche exécutive américaine ne reconnaît plus l'existence de l'intelligence artificielle.",
+        "url": "https://www.numerama.com/cyberguerre/2344141-trump-rebaptise-lia-super-intelligence-les-noms-de-domaine-slovenes-sarrachent-et-les-soupcons-de-delit-dinitie-fleurissent.html",
+        "citation_cle": "Une décision qui fait déjà exploser les enregistrements en .si et nourrit les soupçons.",
         "groupe_media": {
-          "nom": "Vox Media",
-          "proprietaire": "Vox Media Inc.",
+          "nom": "Humanoid",
+          "proprietaire": "Humanoid (indépendant)",
           "type_proprietaire": "independant",
-          "orientation": "centre-gauche"
-        }
-      },
-      {
-        "source": "Al Jazeera",
-        "type": "International",
-        "angle": "Opposition entre autorégulation US et règles mondiales",
-        "ton": "neutre",
-        "url": "https://www.aljazeera.com/news/2026/09/29/trump-top-tech-firms-sign-accord-to-self-police-ai-development?traffic_source=rss",
-        "citation_cle": "Trump prône l'autorégulation malgré les appels de la communauté internationale à des règles formelles.",
-        "groupe_media": {
-          "nom": "Al Jazeera Media Network",
-          "proprietaire": "État du Qatar",
-          "type_proprietaire": "etat",
-          "orientation": "variable"
+          "orientation": "centre"
         }
       }
     ],
-    "analyse_coherence": "La couverture médiatique de cet événement révèle une fracture nette entre la communication politique et l'analyse technique. Tandis que les sources généralistes comme Al Jazeera rapportent l'événement comme un sommet diplomatique de haut niveau, la presse spécialisée (The Register, The Verge) se montre beaucoup plus sceptique. Elle souligne le caractère dérisoire d'un accord 'volontaire' qui n'impose aucune sanction en cas de dérive. Le changement de nom de 'IA' en 'Superintelligence' est analysé par The Verge comme une manœuvre de 'rebranding' politique visant à glorifier la puissance technologique américaine tout en rendant les régulations existantes (basées sur le terme IA) potentiellement caduques. La cohérence entre les sources réside dans le constat d'un alignement total entre l'État américain et les intérêts des grandes firmes de la Silicon Valley, au détriment d'un cadre législatif contraignant tel que l'AI Act européen.",
+    "analyse_coherence": "Les sources convergent sur l'aspect soudain et spectaculaire de la décision. Tandis que la presse anglo-saxonne (The Register) se concentre sur le chaos administratif et le coût de la refonte des documents fédéraux, la presse française (Numerama) met l'accent sur les conséquences économiques indirectes, notamment l'explosion du marché des noms de domaine slovènes (.si). La cohérence est totale sur le fait que ce changement n'est pas technologique mais purement marketing et politique. On observe une détection commune de l'absurdité administrative, mais un traitement différencié des risques : corruption financière d'un côté, désorganisation bureaucratique de l'autre.",
     "biais_detectes": [
-      "Techno-optimisme politique",
-      "Scepticisme réglementaire",
-      "Focus sur la souveraineté nationale au détriment de l'éthique"
+      "Sensationnalisme sur l'AGI induit par le terme 'Super Intelligence'",
+      "Focus sur les conséquences boursières/domaine plutôt que sur les capacités réelles des modèles"
     ],
-    "ce_quil_faut_retenir": "Les États-Unis abandonnent officiellement la régulation contraignante de l'IA au profit d'un pacte de confiance avec les industriels, rebaptisant la technologie 'Superintelligence' pour marquer une nouvelle ère de domination technologique."
+    "ce_quil_faut_retenir": "Le terme 'IA' est désormais politiquement obsolète aux USA, remplacé par une appellation plus emphatique qui favorise la spéculation financière immédiate."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 242,
-    "nb_topics_ia": 90,
+    "nb_articles_ia": 245,
+    "nb_topics_ia": 81,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
