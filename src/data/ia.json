@@ -1,32 +1,49 @@
 {
-  "date": "2026-10-01",
-  "genere_a": "2026-10-01T04:35:33.238Z",
+  "date": "2026-10-02",
+  "genere_a": "2026-10-02T04:34:46.692Z",
   "faits_ia": [
     {
-      "titre": "Donald Trump impose le terme « Super Intelligence » par décret",
-      "sous_section": "regulation",
-      "resume": "Le président américain a signé un décret imposant à son administration d'utiliser le terme « Super Intelligence » en remplacement d'« Intelligence Artificielle ». Cette décision sémantique s'accompagne d'un engouement spéculatif pour les noms de domaine en .si , provoquant des soupçons de délits d'initiés au sein de l'administration fédérale.",
-      "pourquoi_ca_compte": "Ce changement de terminologie reflète une volonté politique de sacraliser la puissance technologique, tout en soulevant des questions éthiques sur la spéculation financière liée aux décisions étatiques.",
+      "titre": "OpenAI licencie trois chercheurs pour fuites de données sensibles",
+      "sous_section": "societe",
+      "resume": "OpenAI a mis fin aux contrats de trois chercheurs en sécurité de l'IA après une enquête interne. Ils sont accusés d'avoir partagé des informations confidentielles avec un groupe extérieur d'évaluation de l'IA. Ces chercheurs avaient précédemment exprimé publiquement des inquiétudes sur les risques de sécurité des modèles développés par l'entreprise.",
+      "pourquoi_ca_compte": "Cet événement souligne les tensions croissantes entre les impératifs de secret commercial des géants de l'IA et le besoin de transparence réclamé par les experts en sécurité pour protéger les citoyens.",
       "sources": [
         {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/30/trump-decrees-era-of-super-intelligence-upon-us/5300213",
-          "type": "independant",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/pixels/article/2026/10/02/openai-exclut-trois-chercheurs-en-securite-de-l-ia-accuses-de-fuites-d-informations-sensibles_6786658_4408996.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/secteur/high-tech/openai-exclut-trois-chercheurs-accuses-d-avoir-transmis-des-informations-sensibles-20261002",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2344141-trump-rebaptise-lia-super-intelligence-les-noms-de-domaine-slovenes-sarrachent-et-les-soupcons-de-delit-dinitie-fleurissent.html",
-          "type": "independant",
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
             "orientation": "centre"
           }
         }
@@ -34,34 +51,14 @@
       "lien": null
     },
     {
-      "titre": "Bruxelles lance une consultation sur le droit d'auteur face à l'IA",
+      "titre": "La FTC ouvre une enquête sur OpenAI et Anthropic",
       "sous_section": "regulation",
-      "resume": "La Commission européenne a officiellement ouvert une phase de consultation pour faire évoluer le cadre réglementaire du droit d'auteur face aux modèles d'IA générative. L'objectif est de définir si les protections actuelles sont suffisantes pour les créateurs dont les œuvres servent à l'entraînement des modèles.",
-      "pourquoi_ca_compte": "C'est une étape cruciale pour la rémunération des artistes et la survie des industries culturelles face à l'automatisation de la création.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/brief-article/droit-dauteur-et-ia-generative-la-commission-europeenne-lance-une-consultation/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "OpenAI lance « Dots » pour concurrencer les agents « Muse » de Meta",
-      "sous_section": "annonces",
-      "resume": "OpenAI a dévoilé « Dots », sa nouvelle architecture d'agents intelligents capables d'exécuter des tâches complexes de manière autonome. Cette annonce intervient en réponse directe au projet « Muse » de Meta, intensifiant la course aux agents IA personnels.",
-      "pourquoi_ca_compte": "Le passage des chatbots conversationnels aux agents autonomes marque une étape vers une IA capable d'agir sur le monde réel (réservations, achats, gestion de projets) à la place de l'utilisateur.",
+      "resume": "La Federal Trade Commission (FTC) américaine a lancé une enquête visant OpenAI et Anthropic. L'autorité de régulation s'intéresse particulièrement aux structures de gouvernance et à l'impact de ces entreprises sur la concurrence dans le secteur de l'IA générative.",
+      "pourquoi_ca_compte": "Une régulation accrue aux États-Unis pourrait redéfinir les standards mondiaux de concurrence et limiter la concentration du pouvoir technologique entre quelques mains.",
       "sources": [
         {
           "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-agents-ia-dots-la-reponse-d-open-ai-a-muse-de-meta_VN-202609300901.html",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-le-tech-flash-la-ftc-ouvre-une-enquete-sur-anthropic-et-open-ai-par-lea-benaim-01-10_VN-202610010837.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -74,122 +71,61 @@
       "lien": null
     },
     {
-      "titre": "Fiabilité contestée des détecteurs d'IA dans le monde littéraire",
-      "sous_section": "societe",
-      "resume": "L'écrivain Thélyson Orélien est accusé d'avoir utilisé l'IA pour son dernier livre après un test positif sur le logiciel Pangram. Cependant, une étude scientifique américaine souligne le manque de fiabilité de ces outils, qui génèrent de nombreux faux positifs, notamment sur des textes écrits par des auteurs non-natifs.",
-      "pourquoi_ca_compte": "L'usage de détecteurs non certifiés comme preuves d'infraction menace la réputation des créateurs et pose la question du droit à la présomption d'innocence numérique.",
-      "sources": [
-        {
-          "nom": "Sciences et Avenir",
-          "url": "https://www.sciencesetavenir.fr/high-tech/intelligence-artificielle/les-detecteurs-d-ia-au-crible-d-une-etude-scientifique_195137?xtor=RSS-12",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "The Conversation FR",
-          "url": "https://theconversation.com/ce-que-laffaire-thelyson-orelien-dit-de-nos-representations-de-la-litterature-292932",
-          "type": "institutionnel",
-          "groupe_media": {
-            "nom": "The Conversation",
-            "proprietaire": "Consortium d'universités",
-            "type_proprietaire": "fondation",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Appel au boycott de l'IA pour des raisons écologiques et sociales",
-      "sous_section": "societe",
-      "resume": "Un mouvement de réflexion autour du boycott de l'IA émerge, porté par des sociologues et militants. Ils dénoncent l'opacité du secteur, la consommation énergétique colossale des datacenters et la précarisation des travailleurs du clic chargés d'étiqueter les données.",
-      "pourquoi_ca_compte": "Ce débat pose la question de la souveraineté citoyenne : peut-on refuser une technologie que les États et les entreprises imposent comme inéluctable ?",
-      "sources": [
-        {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Boycotter-l-IA-et-son-monde-retrouvez-en-images-et-video-la-soiree-organisee-par",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Reporterre",
-            "proprietaire": "Association La Pile",
-            "type_proprietaire": "independant",
-            "orientation": "gauche"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Manque de transparence sur l'impact écologique des datacenters",
-      "sous_section": "societe",
-      "resume": "Malgré les directives européennes sur l'efficacité énergétique, une enquête journalistique révèle que ni la Commission européenne ni les États membres n'imposent de réelle transparence sur la consommation d'eau et d'électricité des centres de données liés à l'IA.",
-      "pourquoi_ca_compte": "Sans données publiques fiables, il est impossible pour les citoyens et les élus locaux d'évaluer le coût environnemental réel de la transition numérique.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/259160/datacenters-de-leurope-aux-etats-membres-personne-nimpose-la-transparence/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Action coordonnée de l'UE contre les monnaies virtuelles de jeux vidéo",
-      "sous_section": "regulation",
-      "resume": "Le réseau européen CPC a lancé une action contre dix éditeurs (Ubisoft, Riot concernant l'usage opaque des monnaies virtuelles. Les autorités réclament plus de clarté sur les prix réels et une meilleure protection des mineurs face aux incitations à l'achat.",
-      "pourquoi_ca_compte": "Il s'agit de protéger les droits économiques des consommateurs, particulièrement les plus jeunes, contre les mécanismes psychologiques de manipulation financière.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/259154/jeux-video-bruxelles-passe-de-la-persuasion-a-laction-coordonnee-sur-les-monnaies-virtuelles/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Europa EU",
-          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2018",
-          "type": "institutionnel",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Firefox 157 déploie son nouveau design « Nova »",
+      "titre": "Google lance Gemini 4 Argon et cible la cybersécurité",
       "sous_section": "annonces",
-      "resume": "Mozilla a lancé la version 157 de son navigateur, intégrant la refonte visuelle « Nova ». Il s'agit de la mise à jour d'interface la plus importante depuis 2021, visant à moderniser l'expérience utilisateur sur mobile et ordinateur.",
-      "pourquoi_ca_compte": "Firefox reste l'un des rares remparts contre l'hégémonie de Chromium , et sa capacité à attirer des utilisateurs est vitale pour le pluralisme du web.",
+      "resume": "Google a dévoilé Gemini 4 Argon, une nouvelle version de son modèle d'IA capable de traiter un million de tokens en sortie. Cette version est spécifiquement optimisée pour les experts en cybersécurité et le développement de code complexe, visant à rattraper OpenAI et Anthropic.",
+      "pourquoi_ca_compte": "L'augmentation massive de la fenêtre de contexte permet une analyse plus profonde des menaces cyber, mais renforce aussi les capacités d'automatisation du code.",
       "sources": [
         {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/tech/2343709-firefox-157-arrive-avec-nova-son-plus-grand-redesign-depuis-2021.html",
-          "type": "independant",
+          "nom": "Next",
+          "url": "https://next.ink/259219/google-veut-revenir-dans-la-course-avec-gemini-4-argon-et-son-million-de-tokens-en-sortie/",
+          "type": "investigation",
           "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
         },
         {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/software/2026/09/30/firefox-157-could-bold-new-look-be-just-what-mozilla-needs/5300059",
-          "type": "independant",
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-le-tech-flash-la-ftc-ouvre-une-enquete-sur-anthropic-et-open-ai-par-lea-benaim-01-10_VN-202610010837.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Un deepfake de la BBC sème la confusion après un incident aérien",
+      "sous_section": "societe",
+      "resume": "Suite au détournement d'un vol FlyDubai, une vidéo manipulée utilisant l'identité visuelle de la BBC a circulé massivement. Le faux reportage accusait à tort un ressortissant indien et les services secrets israéliens d'être à l'origine de l'attaque au couteau dans le cockpit.",
+      "pourquoi_ca_compte": "Cette affaire illustre la dangerosité des deepfakes en période de crise, capables d'exacerber les tensions diplomatiques et de manipuler l'opinion publique en quelques heures.",
+      "sources": [
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20261001-flyduba%C3%AF-un-deepfake-de-la-bbc-incrimine-l-inde-et-isra%C3%ABl",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/monde/20261001-vol-duba%C3%AF-tel-aviv-d%C3%A9rout%C3%A9-attention-%C3%A0-ce-deepfake-d%C3%A9tournant-le-logo-de-la-bbc",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         }
@@ -197,15 +133,15 @@
       "lien": null
     },
     {
-      "titre": "Jailbreak massif de la PlayStation 5",
-      "sous_section": "societe",
-      "resume": "Une nouvelle faille de sécurité permet de jailbreaker les PS5 (y compris Slim et Pro) sous des versions de firmware récentes. Cette manipulation, devenue extrêmement rapide, permet l'exécution de codes non officiels.",
-      "pourquoi_ca_compte": "Au-delà du piratage, cela pose la question de la propriété réelle du matériel acheté par le consommateur et de son droit à modifier ses propres appareils.",
+      "titre": "Rejet des plaintes antitrust contre la recherche IA de Google",
+      "sous_section": "regulation",
+      "resume": "Un juge fédéral américain a rejeté les plaintes de Chegg et Penske Media contre Google. Les plaignants accusaient les résumés d'IA de détourner leur trafic. Le juge a estimé que si l'IA a des conséquences économiques, cela ne constitue pas une violation des lois antitrust.",
+      "pourquoi_ca_compte": "Ce jugement crée un précédent protégeant les moteurs de recherche qui intègrent de l'IA, au détriment potentiel du modèle économique des éditeurs de presse et de contenus.",
       "sources": [
         {
           "nom": "Ars Technica",
-          "url": "https://arstechnica.com/gaming/2026/09/ps5-jailbreaks-just-got-a-lot-more-useful/",
-          "type": "independant",
+          "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+          "type": "etranger",
           "groupe_media": {
             "nom": "Condé Nast",
             "proprietaire": "Famille Newhouse (Advance Publications)",
@@ -214,13 +150,44 @@
           }
         },
         {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/tech/2343721-sony-a-un-probleme-certaines-ps5-peuvent-desormais-etre-jailbreakees-en-quelques-secondes.html",
-          "type": "independant",
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
             "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Google teste des centres de données en orbite via satellite",
+      "sous_section": "recherche",
+      "resume": "Google a lancé son premier satellite équipé d'une puce avancée pour tester la viabilité de centres de données spatiaux. L'entreprise estime toutefois qu'il faudrait 1 800 lancements du Starship de SpaceX pour que cette infrastructure devienne opérationnelle à grande échelle.",
+      "pourquoi_ca_compte": "Déplacer le calcul intensif dans l'espace pourrait répondre aux enjeux de refroidissement et d'énergie, mais pose des questions inédites sur la souveraineté des données et la pollution orbitale.",
+      "sources": [
+        {
+          "nom": "The Register",
+          "url": "https://www.theregister.com/systems/2026/10/02/google-launches-first-datacenter-satellite-and-research-that-finds-orbiting-bit-barns-can-work/5300721",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
             "orientation": "centre"
           }
         }
@@ -228,31 +195,97 @@
       "lien": null
     },
     {
-      "titre": "Fermeture définitive de Rakuten France",
+      "titre": "Micron profite de la pénurie de RAM liée à l'IA",
       "sous_section": "business",
-      "resume": "La plateforme Rakuten France (ex-PriceMinister) cesse ses activités ce 30 septembre à minuit. Malgré son statut d'ancien champion du e-commerce français, la place de marché n'a pas résisté à la concurrence et au manque d'investissement de sa maison mère japonaise.",
-      "pourquoi_ca_compte": "Cette fermeture illustre la difficulté des acteurs européens et historiques à survivre face aux géants mondiaux, impactant l'emploi et la souveraineté numérique française.",
+      "resume": "Le fabricant de puces Micron affiche des résultats financiers records, portés par la demande massive en mémoire vive (RAM) nécessaire pour faire tourner les modèles d'IA. Cette situation de pénurie tire les prix vers le haut pour l'ensemble du secteur informatique.",
+      "pourquoi_ca_compte": "La dépendance matérielle de l'IA envers quelques fournisseurs de semi-conducteurs crée un goulot d'étranglement économique mondial.",
       "sources": [
         {
-          "nom": "Next",
-          "url": "https://next.ink/259045/rakuten-france-ferme-ses-portes-ce-soir-a-minuit/",
-          "type": "investigation",
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-penurie-de-ram-micron-explose-les-compteurs_VN-202610010953.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "L'affaire Thélyson Orélien secoue le monde de l'édition",
+      "sous_section": "societe",
+      "resume": "L'écrivain Thélyson Orélien est accusé d'avoir utilisé l'IA pour rédiger son dernier roman. Bien qu'il démente, la polémique relance le débat sur l'authenticité littéraire et l'obligation de transparence pour les auteurs utilisant des outils génératifs.",
+      "pourquoi_ca_compte": "Elle pose la question de la valeur du travail créatif humain et du droit d'auteur face à des œuvres potentiellement co-générées par des machines.",
+      "sources": [
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/bibliobs/20261001.OBS118806/etre-ecrivain-a-l-ere-de-l-ia-chatgpt-me-fait-aller-beaucoup-plus-vite-mais-beaucoup-plus-dangereusement.html",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Cédric O lance Mallow, une enceinte de jeux boostée à l'IA",
+      "sous_section": "annonces",
+      "resume": "L'ancien secrétaire d'État au Numérique, Cédric O, a présenté Mallow, une enceinte dédiée aux jeux audio utilisant l'IA. Le produit vise à créer des expériences interactives immersives basées sur la voix.",
+      "pourquoi_ca_compte": "Ce lancement illustre la reconversion des décideurs politiques dans la tech et l'émergence de nouveaux usages grand public pour l'IA vocale.",
+      "sources": [
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/cedric-o-cofondateur-et-pdg-de-mallow-01-10_EN-202610010895.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-cedric-o-mallow-mallow-lance-une-enceinte-de-jeux-audio-bosste-a-l-ia-01-10_VN-202610010899.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Amazon renouvelle sa gamme Kindle avec un modèle couleur",
+      "sous_section": "annonces",
+      "resume": "Amazon a annoncé le lancement de ses nouvelles liseuses Kindle, incluant pour la première fois le modèle Colorsoft à écran couleur. Les appareils bénéficient également de finitions en aluminium et d'un design affiné.",
+      "pourquoi_ca_compte": "L'arrivée de la couleur sur le marché dominant des liseuses pourrait transformer la consommation de BD et de magazines numériques.",
+      "sources": [
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/tech/2345193-amazon-renew-ses-kindle-avec-plein-de-couleurs-voici-les-nouveautes.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
         },
         {
-          "nom": "Alternatives Économiques",
-          "url": "https://www.alternatives-economiques.fr/de-priceminister-a-rakuten-la-deroute-d-un-ex-champion-tricolore_30-09-2026",
-          "type": "mainstream",
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/amazon-kindle-paperwhite-colorsoft-2026-refresh/",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Alternatives Économiques",
-            "proprietaire": "SCOP (coopérative de salariés)",
-            "type_proprietaire": "cooperative",
-            "orientation": "centre-gauche"
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
           }
         }
       ],
@@ -260,49 +293,58 @@
     }
   ],
   "regard_croise_ia": {
-    "sujet": "Le décret « Super Intelligence » de Donald Trump",
-    "contexte": "Le 30 septembre 2026, le président des États-Unis a imposé par décret le terme « Super Intelligence » pour toute communication officielle de l'administration fédérale concernant l'IA.",
+    "sujet": "Le licenciement des chercheurs en sécurité chez OpenAI",
+    "contexte": "Trois chercheurs de l'équipe de sécurité d'OpenAI ont été licenciés pour avoir prétendument transmis des données sensibles à un organisme externe d'évaluation.",
     "couvertures": [
       {
-        "source": "The Register",
-        "type": "independant",
-        "angle": "Impact administratif et technique",
-        "ton": "critique",
-        "url": "https://www.theregister.com/ai-and-ml/2026/09/30/trump-decrees-era-of-super-intelligence-upon-us/5300213",
-        "citation_cle": "Federal paperwork to be pulped as agencies told to forget the old name.",
+        "source": "Le Monde",
+        "type": "mainstream",
+        "angle": "Impact sur la sécurité globale de l'IA",
+        "ton": "factuel",
+        "url": "https://www.lemonde.fr/pixels/article/2026/10/02/openai-exclut-trois-chercheurs-en-securite-de-l-ia-accuses-de-fuites-d-informations-sensibles_6786658_4408996.html",
+        "citation_cle": "La start-up fait état de plusieurs manquements, dont l’un concerne des informations communiquées à un groupe extérieur d’évaluation.",
         "groupe_media": {
-          "nom": "The Register",
-          "proprietaire": "Situation Publishing",
-          "type_proprietaire": "independant",
-          "orientation": "centre"
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       },
       {
-        "source": "Numerama",
-        "type": "independant",
-        "angle": "Spéculation et délits d'initiés",
-        "ton": "factuel",
-        "url": "https://www.numerama.com/cyberguerre/2344141-trump-rebaptise-lia-super-intelligence-les-noms-de-domaine-slovenes-sarrachent-et-les-soupcons-de-delit-dinitie-fleurissent.html",
-        "citation_cle": "Une décision qui fait déjà exploser les enregistrements en .si et nourrit les soupçons.",
+        "source": "Le Figaro",
+        "type": "mainstream",
+        "angle": "Lanceurs d'alerte et risques internes",
+        "ton": "neutre",
+        "url": "https://www.lefigaro.fr/secteur/high-tech/openai-exclut-trois-chercheurs-accuses-d-avoir-transmis-des-informations-sensibles-20261002",
+        "citation_cle": "Les chercheurs partageaient tous trois sur les réseaux sociaux leurs vives inquiétudes sur les dangers de l’IA.",
+        "groupe_media": null
+      },
+      {
+        "source": "TechCrunch",
+        "type": "etranger",
+        "angle": "Gouvernance d'entreprise et confidentialité",
+        "ton": "critique",
+        "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+        "citation_cle": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information.",
         "groupe_media": {
-          "nom": "Humanoid",
-          "proprietaire": "Humanoid (indépendant)",
-          "type_proprietaire": "independant",
+          "nom": "Yahoo (AOL / Oath)",
+          "proprietaire": "Apollo Global Management",
+          "type_proprietaire": "milliardaire",
           "orientation": "centre"
         }
       }
     ],
-    "analyse_coherence": "Les sources convergent sur l'aspect soudain et spectaculaire de la décision. Tandis que la presse anglo-saxonne (The Register) se concentre sur le chaos administratif et le coût de la refonte des documents fédéraux, la presse française (Numerama) met l'accent sur les conséquences économiques indirectes, notamment l'explosion du marché des noms de domaine slovènes (.si). La cohérence est totale sur le fait que ce changement n'est pas technologique mais purement marketing et politique. On observe une détection commune de l'absurdité administrative, mais un traitement différencié des risques : corruption financière d'un côté, désorganisation bureaucratique de l'autre.",
+    "analyse_coherence": "La couverture médiatique est globalement cohérente sur les faits : trois licenciements suite à une enquête interne sur des fuites de données vers un tiers évaluateur. Cependant, l'angle d'analyse varie sensiblement. Les médias français (Le Monde, Le Figaro) mettent davantage l'accent sur le profil de ces chercheurs, dépeints comme des experts inquiets des dérives de l'IA, suggérant une dimension de 'lanceurs d'alerte'. À l'inverse, les sources anglo-saxonnes comme TechCrunch ou la BBC adoptent un ton plus centré sur la gestion d'entreprise et le respect des protocoles de confidentialité. On observe un consensus sur l'identité des chercheurs (révélée par le Wall Street Journal), mais une divergence implicite sur la légitimité de leur acte : faute professionnelle grave pour les uns, ou sacrifice nécessaire pour la sécurité publique pour les autres.",
     "biais_detectes": [
-      "Sensationnalisme sur l'AGI induit par le terme 'Super Intelligence'",
-      "Focus sur les conséquences boursières/domaine plutôt que sur les capacités réelles des modèles"
+      "Biais de cadrage : présentation des chercheurs soit comme des fautifs, soit comme des lanceurs d'alerte.",
+      "Dépendance aux sources : la plupart des articles s'appuient sur les révélations initiales du Wall Street Journal."
     ],
-    "ce_quil_faut_retenir": "Le terme 'IA' est désormais politiquement obsolète aux USA, remplacé par une appellation plus emphatique qui favorise la spéculation financière immédiate."
+    "ce_quil_faut_retenir": "OpenAI durcit sa politique interne face aux critiques de ses propres experts en sécurité, au risque de paraître moins transparente envers les régulateurs externes."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 245,
-    "nb_topics_ia": 81,
+    "nb_articles_ia": 222,
+    "nb_topics_ia": 82,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }

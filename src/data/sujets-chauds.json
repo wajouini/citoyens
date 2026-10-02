@@ -1,108 +1,108 @@
 {
-  "date": "2026-10-01",
-  "genere_a": "2026-10-01T04:36:03.602Z",
+  "date": "2026-10-02",
+  "genere_a": "2026-10-02T04:35:18.883Z",
   "sujets_actifs": [
     {
-      "titre": "Budget 2027 : le gouvernement Lecornu présente un plan de redressement de 54 milliards d'euros",
-      "slug": "budget-2027-redressement-economique-france",
-      "rubrique": "economie",
+      "titre": "Mobilisation lycéenne : le gouvernement recule sur les frais d'inscription en BTS et prépa",
+      "slug": "mobilisation-lyceenne-recul-gouvernement-frais-inscription",
+      "rubrique": "societe",
       "tldr": [
-        "54 milliards d'euros d'économies prévus pour 2027.",
-        "Dette publique à 119% du PIB, taux d'emprunt frôlant les 5%.",
-        "Menace de censure permanente à l'Assemblée nationale."
+        "Abandon de la taxe de 178€ (BTS) et 270€ (Prépa) pour les non-boursiers.",
+        "Plus de 1000 établissements perturbés et 400 fermés ce vendredi.",
+        "Trois enquêtes de l'IGPN ouvertes pour violences policières présumées."
       ],
-      "resume": "Le gouvernement de Sébastien Lecornu présente ce 1er octobre son projet de loi de finances (PLF) pour 2027, qualifié de « budget de redressement ». L'objectif est de trouver 54 milliards d'euros d'économies pour freiner l'explosion de la dette publique, qui atteint désormais 119% du PIB. Les mesures phares incluent une taxation accrue des autoroutes et des aéroports, ainsi qu'une révision des aides aux entreprises. Cependant, sans majorité absolue, le Premier ministre fait face à une opposition frontale et n'exclut pas le recours aux ordonnances pour éviter une censure immédiate du texte (Franceinfo, Le Monde).",
-      "contexte_historique": "La France n'avait pas connu une telle flambée de ses taux d'emprunt depuis 1987, avec une hausse de 113 points de base en un trimestre (BFM Business). Historiquement, la trajectoire de la dette s'est dégradée suite aux crises successives du Covid-19 en 2020 et de l'énergie en 2022, mais aussi en raison de choix fiscaux réduisant les recettes de l'État (Franceinfo).",
+      "resume": "Face à une escalade de la mobilisation lycéenne qui touche désormais plus de 1000 établissements, le ministre de l'Éducation nationale, Édouard Geffray, a annoncé le retrait des nouveaux droits d'inscription pour les BTS et classes prépas du budget 2027. Cette mesure, qui visait à faire payer 178€ à 270€ aux élèves non-boursiers, a cristallisé la colère des syndicats lycéens. Le mouvement, marqué par des heurts violents et des centaines d'interpellations, voit le gouvernement dénoncer une 'prise d'otage par des groupuscules' tandis que l'opposition dénonce une répression disproportionnée. Des vidéos contredisant les versions policières circulent massivement sur les réseaux sociaux (Le Monde.",
+      "contexte_historique": "Le mouvement rappelle les mobilisations de 2018 contre Parcoursup et la réforme du baccalauréat, qui avaient conduit à des scènes d'interpellations massives à Mantes-la-Jolie. En France, la gratuité de l'enseignement supérieur public court-cycle (BTS) est un pilier de la démocratisation scolaire depuis la création de ces filières en 1959.",
       "implications": [
-        "Hausse probable du coût du crédit pour les ménages et les entreprises suite à la montée des taux OAT.",
-        "Risque de blocage institutionnel majeur si le gouvernement utilise l'article 49.3 ou des ordonnances."
+        "Maintien de la gratuité pour les 300 000 étudiants non-boursiers en filières sélectives publiques.",
+        "Fragilisation de la stratégie budgétaire du gouvernement Lecornu qui doit trouver d'autres sources d'économies."
       ],
       "chronologie": [
         {
-          "date": "2026-10-01",
-          "texte": "Présentation du budget 2027 en Conseil des ministres.",
-          "source": "Franceinfo"
-        },
-        {
-          "date": "2026-09-30",
-          "texte": "Les taux d'emprunt à 10 ans frôlent la barre symbolique des 5%.",
+          "date": "2026-10-02",
+          "texte": "Le ministre de l'Éducation annonce le retrait de la mesure tarifaire sur France 2.",
           "source": "BFM Business"
         },
         {
+          "date": "2026-10-02",
+          "texte": "400 lycées fermés et interdiction de manifester aux abords des établissements.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-10-01",
+          "texte": "L'IGPN est saisie de trois enquêtes pour des violences lors des blocus.",
+          "source": "La Croix"
+        },
+        {
           "date": "2026-09-29",
-          "texte": "Annonce de nouvelles taxes sur les concessions autoroutières.",
-          "source": "Citoyens.ai"
+          "texte": "Début des blocages massifs contre le plan de redressement budgétaire.",
+          "source": "Le Figaro"
         }
       ],
       "couvertures": [
         {
+          "source": "BFM Business",
+          "type": "mainstream",
+          "angle": "Focus sur l'impact budgétaire et le renoncement rapide de l'exécutif face à la rue.",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/economie/economie-social/finances-publiques/il-voulait-faire-payer-178-euros-par-an-aux-eleves-non-boursiers-en-bts-et-270-euros-pour-ceux-en-classes-prepas-face-a-la-colere-lyceenne-le-gouvernement-renonce-deja-a-cette-mesure-du-budget-2027_AD-202610020099.html",
+          "citation_cle": "Le gouvernement renonce déjà à cette mesure du budget 2027.",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "La Croix",
+          "type": "mainstream",
+          "angle": "Analyse des méthodes de maintien de l'ordre face à un public mineur.",
+          "ton": "neutre",
+          "url": "https://www.la-croix.com/societe/blocage-des-lycees-comment-la-police-assure-le-maintien-de-l-ordre-face-a-des-mineurs-20261001",
+          "citation_cle": "La « police des polices » a lancé trois enquêtes sur des possibles violences non justifiées.",
+          "groupe_media": null
+        },
+        {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse de la fragilité politique de Sébastien Lecornu face aux marchés et aux oppositions.",
+          "angle": "Le gouvernement dans l’engrenage d’une mobilisation lycéenne hors de contrôle",
           "ton": "factuel",
-          "url": "https://www.lemonde.fr/politique/article/2026/10/01/budget-2027-la-derniere-bataille-de-sebastien-lecornu-entre-surveillance-des-marches-et-pression-des-oppositions_6786433_823448.html",
-          "citation_cle": "La discussion parlementaire s’annonce comme un chemin de croix pour le premier ministre.",
+          "url": "https://www.lemonde.fr/politique/article/2026/10/02/le-gouvernement-dans-l-engrenage-d-une-mobilisation-lyceenne-hors-de-controle_6786859_823448.html",
+          "citation_cle": "Le ministre de l’éducation nationale, Edouard Geffray, doit recevoir vendredi les associations lycéennes et de parents d",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "BFM Business",
-          "type": "mainstream",
-          "angle": "Focus sur l'alerte financière et la comparaison historique avec 1987.",
-          "ton": "alarmiste",
-          "url": "https://www.bfmtv.com/economie/economie-social/finances-publiques/la-france-n-avait-plus-connu-ca-depuis-1987-ses-taux-d-emprunt-ont-enregistre-la-plus-forte-flambee-depuis-40-ans-sur-un-trimestre-et-frolent-desormais-les-5_AV-202610010068.html",
-          "citation_cle": "Ses taux d'emprunt ont enregistré la plus forte flambée depuis 40 ans.",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "ÉDITO - Budget: le gouvernement peut-il éviter la censure?",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/politique/video-edito-budget-le-gouvernement-peut-il-eviter-la-censure_VN-202610010084.html",
-          "citation_cle": "Le gouvernement présente ce jeudi 1er octobre le détail des efforts budgétaires pour l'année 2027. À la recherche tous a",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Le Rassemblement National votera-t-il la censure dès le dépôt du texte ?",
-        "Quels arbitrages finaux seront faits sur le remboursement des frais médicaux ?"
+        "L'impact du retrait de cette mesure sur la poursuite de la grève générale prévue le 6 octobre.",
+        "Le montant exact des économies que le gouvernement espérait réaliser via ces frais."
       ],
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/politique/article/2026/10/01/budget-2027-la-derniere-bataille-de-sebastien-lecornu-entre-surveillance-des-marches-et-pression-des-oppositions_6786433_823448.html",
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/economie-social/finances-publiques/il-voulait-faire-payer-178-euros-par-an-aux-eleves-non-boursiers-en-bts-et-270-euros-pour-ceux-en-classes-prepas-face-a-la-colere-lyceenne-le-gouvernement-renonce-deja-a-cette-mesure-du-budget-2027_AD-202610020099.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         },
         {
-          "nom": "Franceinfo",
-          "url": "https://www.franceinfo.fr/economie/budget/direct-budget-2027-le-gouvernement-presente-ses-projets-de-loi-de-finances-et-de-financement-de-la-securite-sociale-en-conseil-des-ministres-a-partir-de-10h30_8216482.html",
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/societe/blocage-des-lycees-comment-la-police-assure-le-maintien-de-l-ordre-face-a-des-mineurs-20261001",
           "type": "mainstream",
           "groupe_media": null
         },
         {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/economie-social/finances-publiques/la-france-n-avait-plus-connu-ca-depuis-1987-ses-taux-d-emprunt-ont-enregistre-la-plus-forte-flambee-depuis-40-ans-sur-un-trimestre-et-frolent-desormais-les-5_AV-202610010068.html",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-blocage-des-lycees-un-peu-plus-de-400-etablissements-fermes-ce-vendredi-interdiction-de-manifester-aux-abords_VN-202610020095.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -115,96 +115,193 @@
       "premiere_apparition": "2026-09-29"
     },
     {
-      "titre": "Vol Flydubai dérouté : enquête sur une tentative d'attaque terroriste présumée en plein vol",
-      "slug": "vol-flydubai-attaque-pilote-israel",
+      "titre": "Tensions USA-Europe : Donald Trump menace d'un embargo sur le diesel",
+      "slug": "trump-menace-embargo-diesel-europe",
       "rubrique": "international",
       "tldr": [
-        "Un copilote a poignardé le commandant de bord lors du vol Dubaï-Tel-Aviv.",
-        "L'avion a été dérouté en urgence vers l'Arabie saoudite.",
-        "Israël dénonce une attaque terroriste, l'enquête est en cours."
+        "Washington exige que l'Europe libère ses stocks stratégiques de diesel.",
+        "Menace d'interdiction des exportations américaines vers l'UE.",
+        "Les prix du gaz et du pétrole s'envolent au-dessus de 100 dollars."
       ],
-      "resume": "Le vol Flydubai reliant Dubaï à Tel-Aviv a été le théâtre d'une violence extrême le 30 septembre. Le copilote, de nationalité omanaise selon certaines sources, a poignardé le capitaine Smit Machchhar avant de tenter de précipiter l'appareil au sol. Des passagers, dont un plombier israélien félicité par Benyamin Netanyahou, sont intervenus pour maîtriser l'assaillant. L'avion a pu atterrir en Arabie saoudite. Si les autorités israéliennes parlent d'une tentative d'attaque djihadiste, le flou persiste sur les motivations exactes de l'agresseur, actuellement interrogé par les services saoudiens (Le Figaro, BBC News, .",
-      "contexte_historique": "Cet incident rappelle les cas de détournements ou de suicides de pilotes, comme le vol Germanwings 9525 en 2015, bien que la dimension terroriste soit ici privilégiée par les autorités israéliennes dans un contexte de tensions régionales accrues au Proche-Orient.",
+      "resume": "L'administration Trump exerce une pression sans précédent sur l'Union européenne pour qu'elle mette immédiatement ses réserves de gazole sur le marché afin de faire baisser les prix aux États-Unis. En cas de refus, Washington menace de suspendre ses propres exportations de carburant vers le vieux continent. Cette crise énergétique est aggravée par la décision brutale de la Chine de fermer ses exportations de carburant et par l'instabilité dans le détroit d'Ormuz où l'Iran multiplie les attaques de drones (NYT World, Al Jazeera). L'Europe se retrouve prise en étau entre ses alliés américains et ses besoins de sécurité énergétique hivernale.",
+      "contexte_historique": "L'Agence internationale de l'énergie (AIE) impose aux pays membres de maintenir des stocks équivalents à 90 jours d'importations nettes. Une telle pression des États-Unis sur les stocks stratégiques européens est inédite depuis le choc pétrolier de 1973.",
       "implications": [
-        "Renforcement probable des protocoles de sécurité dans les cockpits (règle des deux personnes en permanence).",
-        "Tensions diplomatiques potentielles entre Israël, les Émirats arabes unis et Oman."
+        "Risque de pénurie de diesel en Europe si les exportations américaines cessent.",
+        "Augmentation immédiate du coût de la vie et du transport de marchandises en France."
       ],
       "chronologie": [
         {
-          "date": "2026-10-01",
-          "texte": "Le capitaine Smit Machchhar est salué comme un héros pour avoir stabilisé l'avion malgré ses blessures.",
-          "source": "NYT World"
+          "date": "2026-10-02",
+          "texte": "Trump réitère la possibilité de demander aux Européens de libérer leurs réserves.",
+          "source": "Al Jazeera"
         },
         {
-          "date": "2026-09-30",
-          "texte": "Atterrissage d'urgence en Arabie saoudite après l'agression.",
+          "date": "2026-10-01",
+          "texte": "Le ministre américain de l'Énergie Chris Wright appelle à une mise sur le marché immédiate.",
+          "source": "Politico EU"
+        },
+        {
+          "date": "2026-10-01",
+          "texte": "Le prix du pétrole repasse la barre symbolique des 100 dollars le baril.",
+          "source": "franceinfo"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Courrier international",
+          "type": "etranger",
+          "angle": "Analyse de la pression diplomatique de Washington sur les réserves stratégiques européennes.",
+          "ton": "critique",
+          "url": "https://www.courrierinternational.com/article/energie-washington-fait-pression-sur-l-europe-pour-qu-elle-libere-ses-reserves-de-gazole_275520",
+          "citation_cle": "Washington fait pression sur l’Europe pour qu’elle libère ses réserves de gazole.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Politico EU",
+          "type": "etranger",
+          "angle": "Focus sur les conséquences politiques pour la Commission européenne face aux menaces d'embargo.",
+          "ton": "alarmiste",
+          "url": "https://www.politico.eu/article/failed-attack-leipzig-wider-russia-campaign-attacks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "citation_cle": "Andernfalls droht ein US-Exportstopp.",
+          "groupe_media": {
+            "nom": "Axel Springer / KKR",
+            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Ouest-France",
+          "type": "mainstream",
+          "angle": "Guerre au Moyen-Orient : un navire attaqué, Trump menace de frapper l’Iran « très fort »… Les dernières infos",
+          "ton": "factuel",
+          "url": "https://www.ouest-france.fr/monde/proche-orient/guerre-au-moyen-orient-un-navire-attaque-trump-menace-de-frapper-liran-tres-fort-les-dernieres-infos-15b78aa6-be0f-11f1-b7db-555e86a524f6?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "citation_cle": "Un tanker a été attaqué jeudi alors qu’il franchissait le détroit d’Ormuz. Donald Trump a menacé de frapper « très fort ",
+          "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "La capacité de l'UE à résister à cette pression sans mettre en péril son propre approvisionnement hivernal.",
+        "Si la France utilisera son droit de veto sur une éventuelle décision coordonnée de l'AIE."
+      ],
+      "sources": [
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/energie-washington-fait-pression-sur-l-europe-pour-qu-elle-libere-ses-reserves-de-gazole_275520",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/2/fao-official-says-he-lost-his-job-for-criticising-israeli-policies-in-gaza?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "nom": "Politico EU",
+          "url": "https://www.politico.eu/article/failed-attack-leipzig-wider-russia-campaign-attacks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Axel Springer / KKR",
+            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/10/02/world/middleeast/iran-strait-hormuz-attacks-oil.html",
+          "type": "etranger"
+        }
+      ],
+      "premiere_apparition": "2026-10-01"
+    },
+    {
+      "titre": "Crise diplomatique majeure entre Séoul et Kiev sur les prisonniers nord-coréens",
+      "slug": "crise-diplomatique-seoul-kiev-prisonniers-nord-coreens",
+      "rubrique": "international",
+      "tldr": [
+        "Séoul menace Kiev de représailles après la révélation d'un transfert secret.",
+        "Deux soldats nord-coréens capturés en Ukraine devaient être exfiltrés discrètement.",
+        "La Corée du Sud craint des provocations militaires de Pyongyang en réponse."
+      ],
+      "resume": "Le président sud-coréen Lee Jae-myung a exigé des excuses officielles de l'Ukraine après que Kiev a rendu public le transfert vers Séoul de deux prisonniers de guerre nord-coréens. Ce secret était jugé vital par Séoul pour éviter une escalade directe avec la Corée du Nord. L'Ukraine est accusée de 'tenter de provoquer une guerre sur la péninsule coréenne' pour détourner l'attention de son propre front (BBC News). Cette rupture de confiance fragilise le soutien indirect de la Corée du Sud à l'effort de guerre ukrainien via des fournitures de munitions par des tiers.",
+      "contexte_historique": "La Corée du Sud maintient une politique stricte de non-fourniture d'armes létales aux pays en conflit actif. Toute implication directe avec des transfuges ou prisonniers militaires nord-coréens est traditionnellement gérée sous un black-out médiatique total pour respecter l'armistice de 1953.",
+      "implications": [
+        "Suspension possible de la coopération technologique et militaire entre Séoul et Kiev.",
+        "Augmentation du niveau d'alerte militaire à la frontière entre les deux Corées."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-10-02",
+          "texte": "Séoul menace de prendre des 'mesures supplémentaires' sans excuses de Zelensky.",
           "source": "Le Figaro"
         },
         {
-          "date": "2026-09-30",
-          "texte": "Benyamin Netanyahou qualifie l'acte de tentative d'attaque terroriste.",
-          "source": "20 Minutes"
+          "date": "2026-10-02",
+          "texte": "Le président Lee Jae-myung dénonce une trahison diplomatique de Kiev.",
+          "source": "BBC News"
+        },
+        {
+          "date": "2026-10-01",
+          "texte": "Révélation par les services ukrainiens de la capture de soldats de Pyongyang sur le front est.",
+          "source": "Le Monde"
         }
       ],
       "couvertures": [
         {
           "source": "Le Figaro",
           "type": "mainstream",
-          "angle": "Récit des passagers et focus sur l'héroïsme d'un civil israélien ayant pris les commandes.",
+          "angle": "Analyse de la colère sud-coréenne face à la communication ukrainienne jugée irresponsable.",
           "ton": "factuel",
-          "url": "https://www.lefigaro.fr/international/un-passager-israelien-du-vol-de-flydubai-deroute-assure-avoir-sauve-l-avion-en-prenant-les-commandes-grace-a-une-emission-tele-20260930",
-          "citation_cle": "C’est le cauchemar d’une vie.",
+          "url": "https://www.lefigaro.fr/international/prisonniers-nord-coreens-seoul-prendra-des-mesures-si-kiev-ne-s-excuse-pas-20261002",
+          "citation_cle": "Séoul prendra des «mesures» si Kiev ne s’excuse pas.",
           "groupe_media": null
         },
         {
-          "source": "BBC News",
+          "source": "Al Jazeera",
           "type": "etranger",
-          "angle": "Prudence sur les motifs de l'agression et suivi de l'enquête internationale.",
+          "angle": "Focus sur l'impact de cette crise sur les équilibres de sécurité en Asie de l'Est.",
           "ton": "neutre",
-          "url": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Too early to say what motive for Dubai-Tel Aviv flight attack was.",
+          "url": "https://www.aljazeera.com/news/2026/10/2/fao-official-says-he-lost-his-job-for-criticising-israeli-policies-in-gaza?traffic_source=rss",
+          "citation_cle": "South Korea’s President accused Ukraine of undermining him.",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
             "type_proprietaire": "etat",
-            "orientation": "centre"
+            "orientation": "variable"
           }
-        },
-        {
-          "source": "20 Minutes",
-          "type": "mainstream",
-          "angle": "Accusations d’Israël, réactions de Trump… Le point sur l’avion dérouté Flydubai",
-          "ton": "factuel",
-          "url": "https://www.20minutes.fr/monde/israel/4250260-20261001-accusations-israel-reactions-trump-point-avion-deroute-flydubai?at_medium=display&at_campaign=149",
-          "citation_cle": "Si Israël parle d’une « tentative d’attaque terroriste djihadiste », le flou règne encore sur les raisons de l’incident ",
-          "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'assaillant a-t-il agi seul ou pour le compte d'une organisation ?",
-        "Comment le copilote a-t-il pu introduire une arme blanche dans le cockpit ?"
+        "Le sort actuel des deux prisonniers nord-coréens après la médiatisation de leur cas.",
+        "Si d'autres soldats nord-coréens sont actuellement engagés sur le front ukrainien."
       ],
       "sources": [
         {
           "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/un-passager-israelien-du-vol-de-flydubai-deroute-assure-avoir-sauve-l-avion-en-prenant-les-commandes-grace-a-une-emission-tele-20260930",
+          "url": "https://www.lefigaro.fr/international/prisonniers-nord-coreens-seoul-prendra-des-mesures-si-kiev-ne-s-excuse-pas-20261002",
           "type": "mainstream",
           "groupe_media": null
         },
         {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/10/01/world/asia/israel-flight-flydubai-pilot-captain-smit-machchhar.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
           "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o?at_medium=RSS&at_campaign=rss",
+          "url": "https://www.bbc.co.uk/news/articles/cjvgygzzy6lro?at_medium=RSS&at_campaign=rss",
           "type": "etranger",
           "groupe_media": {
             "nom": "BBC",
@@ -212,129 +309,148 @@
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/2/fao-official-says-he-lost-his-job-for-criticising-israeli-policies-in-gaza?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
         }
       ],
-      "premiere_apparition": "2026-09-30"
+      "premiere_apparition": "2026-10-01"
     },
     {
-      "titre": "Mobilisation lycéenne : 624 interpellations et accusations de violences policières",
-      "slug": "blocus-lyceens-violences-policieres-interpellations",
-      "rubrique": "societe",
+      "titre": "OpenAI licencie trois chercheurs pour fuites de données sensibles",
+      "slug": "openai-licenciement-chercheurs-securite-ia",
+      "rubrique": "ia",
       "tldr": [
-        "624 interpellations en 48h lors des blocus lycéens.",
-        "Plaintes déposées à l'IGPN pour violences graves à Alençon et Tours.",
-        "Appel à un 'acte deux' de la mobilisation ce jeudi."
+        "Trois experts en sécurité évincés pour partage d'informations avec des évaluateurs externes.",
+        "Les chercheurs avaient exprimé publiquement des craintes sur les dangers de l'IA.",
+        "L'affaire relance le débat sur la transparence vs secret industriel chez OpenAI."
       ],
-      "resume": "Le mouvement de contestation lycéenne contre le manque de moyens dans l'éducation nationale prend une tournure violente. Alors que les syndicats appellent à un « acte deux » ce jeudi, le ministère de l'Intérieur a recensé 624 interpellations. Des vidéos montrant des lycéens violemment interpellés à Alençon et Tours ont déclenché l'indignation. Six avocats ont officiellement saisi l'IGPN, dénonçant des violences d'une particulière gravité sur des mineurs (Franceinfo, Ouest-France). Le gouvernement défend une stratégie de maintien de l'ordre stricte pour éviter tout débordement.",
-      "contexte_historique": "Ce niveau d'interpellations de mineurs rappelle les mobilisations de 2018 (affaire de Mantes-la-Jolie), où l'usage de la force contre des lycéens avait déjà suscité une condamnation internationale. Le droit français protège spécifiquement les mineurs lors des opérations de maintien de l'ordre, interdisant certaines techniques de contention.",
+      "resume": "OpenAI a annoncé le licenciement de trois chercheurs de haut niveau, accusés d'avoir transmis des données 'sensibles' à un groupe extérieur d'évaluation de l'IA. Les individus identifiés par le Wall Street Journal étaient connus pour leurs prises de position critiques sur la sécurité des modèles avancés (Le Monde, Le Figaro). Ce mouvement intervient alors que l'entreprise est sous le feu des critiques pour son manque de transparence sur les risques existentiels de ses futurs modèles. Sur HackerNews, le sujet suscite un vif débat sur la protection des lanceurs d'alerte dans le secteur de l'IA.",
+      "contexte_historique": "Ce n'est pas une première pour OpenAI : en 2024, plusieurs membres de l'équipe 'Superalignment' avaient démissionné en dénonçant le fait que la sécurité passait après les produits commerciaux. Depuis sa transition vers un modèle à but lucratif, la tension entre éthique et profit est permanente.",
       "implications": [
-        "Risque de radicalisation du mouvement lycéen et étudiant.",
-        "Ouverture d'enquêtes judiciaires sur les pratiques de maintien de l'ordre."
+        "Renforcement des clauses de confidentialité pour les employés restants.",
+        "Inquiétude de la communauté scientifique sur l'indépendance des audits externes de l'IA."
       ],
       "chronologie": [
         {
+          "date": "2026-10-02",
+          "texte": "Confirmation des licenciements par la direction d'OpenAI.",
+          "source": "Le Monde"
+        },
+        {
           "date": "2026-10-01",
-          "texte": "Nouveaux appels aux blocus dans toute la France.",
-          "source": "Franceinfo"
-        },
-        {
-          "date": "2026-09-30",
-          "texte": "Heurts violents signalés à Bordeaux et Alençon.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-09-29",
-          "texte": "Début de la mobilisation coordonnée par l'Union syndicale lycéenne.",
-          "source": "Ouest-France"
+          "texte": "Publication de l'enquête du Wall Street Journal identifiant les chercheurs.",
+          "source": "Le Figaro"
         }
       ],
       "couvertures": [
         {
-          "source": "Ouest-France",
+          "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse du dilemme policier entre maintien de l'ordre et protection des mineurs.",
+          "angle": "Focus sur le conflit entre sécurité de l'IA et intérêts commerciaux.",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/pixels/article/2026/10/02/openai-exclut-trois-chercheurs-en-securite-de-l-ia-accuses-de-fuites-d-informations-sensibles_6786658_4408996.html",
+          "citation_cle": "La start-up fait état de plusieurs manquements.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Le Figaro",
+          "type": "mainstream",
+          "angle": "Mise en avant du profil des chercheurs et de leurs inquiétudes publiques.",
           "ton": "neutre",
-          "url": "https://www.ouest-france.fr/societe/drogue/drogue-les-overdoses-mortelles-ont-double-a-paris-en-un-an-85b0188e-bd4a-11f1-8ea4-97dc4d7cca62?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "citation_cle": "C'est extrêmement délicat : le casse-tête du maintien de l'ordre.",
+          "url": "https://www.lefigaro.fr/secteur/high-tech/openai-exclut-trois-chercheurs-accuses-d-avoir-transmis-des-informations-sensibles-20261002",
+          "citation_cle": "Ils partageaient tous trois sur les réseaux sociaux leurs vives inquiétudes.",
           "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Quelle est la proportion exacte de mineurs parmi les 624 interpellés ?",
-        "Le ministère de l'Éducation nationale va-t-il ouvrir des négociations ?"
+        "La nature exacte des 'informations sensibles' transmises (code source ou protocoles de sécurité).",
+        "Si ces chercheurs comptent engager des poursuites pour licenciement abusif."
       ],
       "sources": [
         {
-          "nom": "Franceinfo",
-          "url": "https://www.franceinfo.fr/societe/education/scolarite/guide-parents/lycee/direct-blocage-des-lycees-les-eleves-et-les-etudiants-appeles-a-un-acte-deux-de-la-mobilisation-malgre-les-violences_8217547.html",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/societe/drogue/drogue-les-overdoses-mortelles-ont-double-a-paris-en-un-an-85b0188e-bd4a-11f1-8ea4-97dc4d7cca62?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-lycees-des-heurts-a-bordeaux-ce-mercredi-un-nouveau-blocus-prevu-ce-jeudi_VN-202610010077.html",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/pixels/article/2026/10/02/openai-exclut-trois-chercheurs-en-securite-de-l-ia-accuses-de-fuites-d-informations-sensibles_6786658_4408996.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/secteur/high-tech/openai-exclut-trois-chercheurs-accuses-d-avoir-transmis-des-informations-sensibles-20261002",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
-      "premiere_apparition": "2026-09-29"
+      "premiere_apparition": "2026-10-01"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Vigilance rouge levée dans le Gard et l'Hérault",
-      "slug": "fin-vigilance-rouge-gard-herault",
-      "rubrique": "societe",
-      "resume": "Météo-France a levé l'alerte rouge ce jeudi matin. Si les dégâts matériels sont importants par endroits, notamment à Saint-Hippolyte-du-Fort, aucune victime n'est à déplorer.",
+      "titre": "Vol Flydubai dérouté : enquête sur une tentative d'attaque",
+      "slug": "vol-flydubai-enquete-attaque-terroriste",
+      "rubrique": "international",
+      "resume": "L'enquête se poursuit sous la direction des Émirats arabes unis. Le motif terroriste est privilégié par Benyamin Nétanyahou, tandis que des théories du complot circulent en Australie.",
       "chronologie": [
         {
-          "date": "2026-10-01",
-          "texte": "Réouverture des écoles dans le Gard et l'Hérault.",
-          "source": "Ouest-France"
+          "date": "2026-10-02",
+          "texte": "L'ambassade d'Israël en Australie condamne les théories du complot.",
+          "source": "The Guardian"
         },
         {
-          "date": "2026-09-30",
-          "texte": "Pic de crue atteint dans les Cévennes.",
-          "source": "Le Monde"
+          "date": "2026-10-01",
+          "texte": "Début de l'enquête officielle sur les liens possibles avec le terrorisme.",
+          "source": "NYT World"
         }
       ],
       "couvertures": [
         {
-          "source": "Ouest-France",
-          "type": "mainstream",
-          "angle": "Fin de l'épisode méditerranéen.",
-          "ton": "neutre",
-          "url": "https://www.ouest-france.fr/meteo/inondation/lepisode-mediterraneen-prend-fin-la-vigilance-orange-levee-dans-les-departements-du-sud-est-ec76b034-bd20-11f1-8ea4-97dc4d7cca62",
-          "citation_cle": "L’épisode méditerranéen prend fin."
+          "source": "NYT World",
+          "type": "etranger",
+          "angle": "Recherche du mobile de l'assaillant.",
+          "ton": "factuel",
+          "url": "https://www.nytimes.com/live/2026/10/01/world/flydubai-flight-israel-plane-pilots",
+          "citation_cle": "The United Arab Emirates said it would lead the investigation."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Montant total des dégâts pour les exploitations agricoles."
+        "L'identité exacte et le parcours de radicalisation du copilote."
       ],
       "sources": [
         {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/meteo/inondation/lepisode-mediterraneen-prend-fin-la-vigilance-orange-levee-dans-les-departements-du-sud-est-ec76b034-bd20-11f1-8ea4-97dc4d7cca62",
-          "type": "mainstream"
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/live/2026/10/01/world/flydubai-flight-israel-plane-pilots",
+          "type": "etranger"
+        },
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/live/2026/oct/02/labor-anthony-albanese-online-gaming-esafety-coalition-angus-taylor-greens-david-shoebridge-ntwnfb",
+          "type": "etranger"
         }
       ],
-      "derniere_mise_a_jour": "2026-10-01",
-      "statut": "Sujet clos pour l'alerte immédiate, phase de nettoyage en cours."
+      "derniere_mise_a_jour": "2026-10-02",
+      "statut": "Sujet stabilisé, l'enquête technique et judiciaire prendra plusieurs mois."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 746,
+    "nb_articles_analyses": 747,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

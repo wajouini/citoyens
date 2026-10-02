@@ -1,47 +1,19 @@
 {
   "sujet_du_jour": {
-    "titre": "Vol Flydubai : un copilote poignarde son collègue en plein vol vers Tel-Aviv",
-    "rubrique": "international",
-    "pourquoi_important": "Cet incident rarissime dans l'aviation civile fait craindre une nouvelle forme de menace terroriste à l'approche des élections israéliennes.",
+    "titre": "Affaire Bardella : Mediapart publie les preuves d'écrits antisémites",
+    "rubrique": "politique",
+    "pourquoi_important": "L'authentification technique de messages antisémites fragilise la stratégie de normalisation du Rassemblement National.",
     "faits": [
-      "Un Boeing de la compagnie Flydubai reliant Dubaï à Tel-Aviv a dû atterrir en urgence à Tabuk, en Arabie saoudite, après une violente altercation dans le cockpit.",
-      "Selon les premiers témoignages et les autorités israéliennes, un copilote a poignardé le commandant de bord et tenté de faire s'écraser l'appareil (Le Figaro, France 24 FR).",
-      "Le gouvernement de Benyamin Nétanyahou privilégie officiellement la piste d'une 'attaque terroriste djihadiste' (franceinfo, La Croix).",
-      "L'appareil a subi une brusque perte d'altitude avant que l'équipage ne parvienne à stabiliser la situation et à émettre des codes d'urgence (Libération, Le Monde)."
+      "Mediapart a publié le 1er octobre 2026 des éléments d'authentification (données Meta et constat d'huissier) liant Jordan Bardella à des messages Messenger antisémites de 2013.",
+      "Le président du RN conteste formellement être l'auteur de ces messages et dénonce des « pseudo-preuves ».",
+      "Jordan Bardella a annoncé le dépôt d'une deuxième plainte pour « faux et usage de faux », s'ajoutant à une première plainte en diffamation.",
+      "Le ministre israélien de la Diaspora, Amichai Chikli, a publiquement pris la défense du leader d'extrême droite, attaquant les révélations du média d'investigation."
     ],
-    "contexte": "L'incident survient dans un climat de tension extrême au Proche-Orient. Benyamin Nétanyahou avait averti la veille de risques d'attentats avant les législatives du 27 octobre. Le détournement forcé vers l'Arabie saoudite est également symbolique, les deux pays n'ayant pas de relations diplomatiques officielles, bien que Ryad autorise désormais le survol de son territoire par des vols vers Israël (Mediapart).",
+    "contexte": "Cette affaire éclate alors que le RN tente d'achever sa mue institutionnelle. La publication de la « boîte noire » par Mediapart vise à démontrer que les propos haineux ne sont pas des erreurs isolées mais ancrés dans le parcours du dirigeant. La réaction de certains officiels israéliens souligne une alliance paradoxale entre une partie de la droite israélienne et les mouvements identitaires européens.",
     "sources": [
       {
-        "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/09/30/apres-la-tentative-de-detournement-d-un-avion-de-flydubai-volant-vers-tel-aviv-des-temoignages-et-des-zones-d-ombre_6786090_3210.html",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
-      },
-      {
-        "nom": "franceinfo",
-        "url": "https://www.franceinfo.fr/monde/israel/vol-deroute-pilotes-blesses-piste-terroriste-evoquee-ce-que-l-on-sait-de-l-atterrissage-d-urgence-d-un-avion-flydubai-a-destination-de-tel-aviv_8216356.html#xtor=RSS-3-[lestitres]",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "France Télévisions",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
-        }
-      },
-      {
-        "nom": "Le Figaro",
-        "url": "https://www.lefigaro.fr/international/en-direct-apres-un-premier-incident-en-vol-un-second-avion-de-flydubai-a-destination-de-tel-aviv-deroute-la-raison-encore-inconnue-20260930",
-        "type": "mainstream",
-        "groupe_media": null
-      },
-      {
         "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/international/300926/un-avion-flydubai-destination-de-tel-aviv-deroute-apres-un-incident-en-vol",
+        "url": "https://www.mediapart.fr/journal/france/011026/ecrits-antisemites-de-jordan-bardella-les-preuves-du-mensonge",
         "type": "investigation",
         "groupe_media": {
           "nom": "Mediapart",
@@ -51,32 +23,40 @@
         }
       },
       {
-        "nom": "France 24 FR",
-        "url": "https://www.france24.com/fr/asie-pacifique/20261001-explosions-dans-zone-demilitarisee-dmz-president-sud-coreen-joue-apaisement-dialogue-mines-soldats-cor%C3%A9e-nord-lee-jae-myung-blesse",
-        "type": "mainstream"
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/10/01/mediapart-publie-ses-elements-de-preuve-sur-les-propos-antisemites-de-jordan-bardella-mettant-a-mal-la-defense-du-rn_6786566_823448.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
       },
       {
-        "nom": "La Croix",
-        "url": "https://www.la-croix.com/societe/franchise-medicale-gaz-apl-tout-ce-qui-change-au-1er-octobre-2026-20260930",
-        "type": "mainstream"
+        "nom": "Le Figaro",
+        "url": "https://www.lefigaro.fr/politique/messages-antisemites-jordan-bardella-denonce-les-pseudo-preuves-de-mediapart-et-va-deposer-plainte-pour-faux-et-usage-de-faux-20261001",
+        "type": "mainstream",
+        "groupe_media": null
       },
       {
-        "nom": "Libération",
-        "url": "https://www.liberation.fr/international/moyen-orient/attaque-sur-un-vol-de-flydubai-entre-dubai-et-tel-aviv-la-catastrophe-evitee-grace-aux-passagers-20260930_7RC7ASCREJGKFDC5QFK2PLN2CM/",
-        "type": "mainstream"
+        "nom": "L'Obs",
+        "url": "https://www.nouvelobs.com/politique/20261001.OBS118802/affaire-bardella-mediapart-devoile-sa-boite-noire-et-des-captures-d-ecran-de-messages-antisemites.html",
+        "type": "mainstream",
+        "groupe_media": null
       }
     ],
-    "lien": null
+    "lien": "https://www.mediapart.fr/journal/france/011026/ecrits-antisemites-de-jordan-bardella-les-preuves-du-mensonge"
   },
   "france": [
     {
-      "titre": "Vigilance rouge levée dans le Gard et l'Hérault",
-      "rubrique": "societe",
-      "resume": "Après un épisode méditerranéen qualifié d'exceptionnel, Météo-France a levé l'alerte rouge. Bien que les cumuls de pluie aient été impressionnants, notamment dans les Cévennes, les dégâts matériels restent limités et les écoles rouvrent progressivement (franceinfo, L'Obs, Le Figaro).",
+      "titre": "Primaire de la gauche : deuxième débat sous tension",
+      "rubrique": "politique",
+      "resume": "À une semaine du premier tour (9-10 octobre), les cinq candidats (Royal, Guedj, Maurel ont débattu sur France 2. Les échanges ont été marqués par des divergences sur la situation à Gaza et la stratégie d'alliance avec LFI (franceinfo, Libération, Le Figaro.",
       "sources": [
         {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/de-fortes-pluies-se-sont-abattues-sur-le-gard-et-l-herault-les-degats-restent-limites-alors-que-la-vigilance-rouge-pluie-inondation-a-ete-levee_8217022.html#xtor=RSS-3-[lestitres]",
+          "url": "https://www.franceinfo.fr/elections/presidentielle/videos-sept-sequences-a-retenir-du-debat-des-candidats-a-la-primaire-de-la-gauche-sur-france-2-et-france-inter_8218741.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -86,78 +66,67 @@
           }
         },
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/environnement/crues/le-gard-et-lherault-places-en-vigilance-rouge-pluie-inondation-meteo-france-alerte-sur-un-episode-mediterraneen-exceptionnel",
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/politique/salaires-ukraine-gaza-lfi-les-4-moments-marquants-du-deuxieme-debat-de-la-primaire-a-gauche-20261001_ZKJQXSWQXFBEDFXDOCELKKSJVM/",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
-        },
-        {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/societe/20260930.OBS118774/lesions-a-l-il-tir-compatible-avec-un-lbd-igpn-saisie-un-lyceen-hospitalise-a-tours-en-marge-d-un-blocus-ce-que-l-on-sait.html",
-          "type": "mainstream"
         },
         {
           "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/un-passager-israelien-du-vol-de-flydubai-deroute-assure-avoir-sauve-l-avion-en-prenant-les-commandes-grace-a-une-emission-tele-20260930",
+          "url": "https://www.lefigaro.fr/international/prisonniers-nord-coreens-seoul-prendra-des-mesures-si-kiev-ne-s-excuse-pas-20261002",
           "type": "mainstream"
         }
       ],
-      "lien": null
+      "lien": "https://ftvpro.francetv.fr/contenu-de-presse/78486623"
     },
     {
-      "titre": "Robert Ménard : 7 500 euros d'amende requis",
-      "rubrique": "politique",
-      "resume": "Le parquet de Montpellier a requis une amende contre le maire de Béziers pour son refus de marier un Algérien sous OQTF en 2023. Si le procureur rappelle que les maires ne peuvent se soustraire à la loi, Robert Ménard dénonce une situation 'ubuesque' (Le Monde, BFM TV, Le Figaro).",
+      "titre": "Le gouvernement renonce aux frais en BTS et prépa",
+      "rubrique": "societe",
+      "resume": "Face à la mobilisation lycéenne, le ministre de l'Éducation Edouard Geffray a annoncé l'abandon de la mesure budgétaire prévoyant des frais d'inscription dans ces filières publiques (franceinfo, Libération).",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/10/01/au-proces-de-robert-menard-pour-avoir-refuse-le-mariage-d-un-homme-sous-oqtf-une-peine-d-amende-requise_6786162_3224.html",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/video-edouard-geffray-annonce-que-le-gouvernement-renonce-a-faire-payer-des-frais-d-inscription-dans-les-bts-et-les-classes-preparatoires_8218855.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/police-justice/refus-de-marier-un-algerien-sous-oqtf-robert-menard-affirme-ne-pas-avoir-envie-de-payer-les-pots-casses-de-l-etat_AV-202609300912.html",
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/societe/education/budget-2027-le-gouvernement-remballe-ses-frais-dinscription-en-bts-et-en-classes-prepa-20261001_K2ISBL2ITNC37KD5TP766OKMJM/",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         }
       ],
       "lien": null
     },
     {
-      "titre": "Les rafles de 1943 à Marseille reconnues comme crime contre l'humanité",
-      "rubrique": "societe",
-      "resume": "La justice française a officiellement qualifié de 'crime contre l'humanité' les rafles du Vieux-Port menées par les nazis avec la collaboration de Vichy. L'enquête n'a toutefois pas permis d'identifier de responsables encore en vie (L'Humanité, La Croix).",
+      "titre": "TotalEnergies : prime de 1000€ avant la grève",
+      "rubrique": "economie",
+      "resume": "Le géant pétrolier verse une prime exceptionnelle de 1 000 euros à ses salariés français, une semaine avant un appel au débrayage de la CGT prévu le 8 octobre (Le Monde, Sud-Ouest).",
       "sources": [
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/histoire/crime-contre-lhumanite/les-rafles-menees-en-1943-a-marseille-reconnues-comme-crime-contre-lhumanite",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/live/2026/10/02/en-direct-guerre-en-ukraine-seoul-exige-une-nouvelle-fois-des-excuses-de-kiev-pour-avoir-devoile-le-transfert-de-prisonniers-nord-coreens_6783795_3210.html",
+          "type": "mainstream"
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/franchise-medicale-gaz-apl-tout-ce-qui-change-au-1er-octobre-2026-20260930",
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/redaction/ephemeride/video-souvenez-vous-en-1968-le-deces-de-l-artiste-marcel-duchamp-le-createur-des-ready-mades-30178676.php",
           "type": "mainstream"
         }
       ],
@@ -166,13 +135,13 @@
   ],
   "monde": [
     {
-      "titre": "Christa Pike : exécution autorisée in extremis",
-      "pays": "États-Unis",
-      "resume": "Après une suspension de quelques heures par une cour d'appel, la Cour suprême a autorisé l'exécution de Christa Pike dans le Tennessee. Ses avocats affirment qu'elle respirait encore après deux doses de pentobarbital, relançant le débat sur l'indignité de la peine capitale (Le Monde, France 24 FR, Libération).",
+      "titre": "Bras de fer diplomatique entre Séoul et Kiev",
+      "pays": "Corée du Sud / Ukraine",
+      "resume": "La Corée du Sud exige des excuses de l'Ukraine après la révélation du transfert secret de deux prisonniers nord-coréens capturés sur le front russe (Le Monde, Le Figaro).",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/01/la-cour-supreme-autorise-l-execution-de-christa-pike-la-premiere-femme-devant-etre-mise-a-mort-aux-etats-unis-depuis-2023_6786327_3210.html",
+          "url": "https://www.lemonde.fr/international/live/2026/10/02/en-direct-guerre-en-ukraine-seoul-exige-une-nouvelle-fois-des-excuses-de-kiev-pour-avoir-devoile-le-transfert-de-prisonniers-nord-coreens_6783795_3210.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -182,44 +151,39 @@
           }
         },
         {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/etats-unis-dans-le-tennessee-l-execution-de-christa-pike-a-ete-suspendue_275198",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/prisonniers-nord-coreens-seoul-prendra-des-mesures-si-kiev-ne-s-excuse-pas-20261002",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
       "lien": null
     },
     {
-      "titre": "Pete Hegseth lance une purge au Pentagone",
-      "pays": "États-Unis",
-      "resume": "Le secrétaire à la Défense a annoncé vouloir réduire de 20 % le nombre de hauts gradés pour favoriser les troupes au sol. Ce plan de reconfiguration de l'armée, aux accents virilistes, suscite de vives inquiétudes dans les rangs militaires (Le Monde, Courrier international).",
+      "titre": "Brésil : duel final entre Lula et le clan Bolsonaro",
+      "pays": "Brésil",
+      "resume": "À l'approche du premier tour, le fils de Jair Bolsonaro défie le président Lula dans une élection marquée par des soupçons d'ingérence américaine (Al Jazeera, The Guardian).",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/01/aux-etats-unis-pete-hegseth-le-secretaire-a-la-defense-revendique-une-reduction-de-20-du-nombre-de-hauts-grades-et-poursuit-la-reconfiguration-de-l-armee_6786428_3210.html",
-          "type": "mainstream",
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/everything-you-need-to-know-about-brazils-tight-presidential-race",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
           }
         },
         {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/etats-unis-le-ministre-de-la-defense-americain-pete-hegseth-veut-20-de-hauts-grades-en-moins_275185",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/news/audio/2026/oct/02/the-bolsonarostheyre-back-brazil-heads-to-the-polls-podcast",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         }
       ],
@@ -227,166 +191,133 @@
     }
   ],
   "regard_croise": {
-    "sujet": "Tensions politiques autour de Die Linke à Berlin",
+    "sujet": "Exécution ratée de Christa Pike aux États-Unis",
     "rubrique": "international",
-    "contexte": "Après la victoire de la gauche radicale à Berlin, les partis de centre-gauche (Verts hésitent à former une coalition face aux pressions de la droite.",
+    "contexte": "Le 30 septembre 2026, Christa Pike a survécu à deux injections létales dans le Tennessee. Hospitalisée dans un état critique, son cas relance violemment le débat sur la peine capitale.",
     "couvertures": [
       {
-        "source": "Politico EU",
-        "type": "etranger",
-        "angle": "Focalisation sur les 'lignes rouges' sécuritaires et les accusations d'antisémitisme pesant sur Die Linke.",
+        "source": "Le Monde",
+        "type": "mainstream",
+        "angle": "Analyse de l'impasse politique et judiciaire entourant la peine de mort aux USA.",
         "ton": "critique",
-        "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/grune-und-spd-die-linke-gewissensfrage-in-berlin/",
-        "auteur": "Rixa Fürsen",
-        "proprietaire_contexte": "Axel Springer / KKR (Milliardaire/Fonds)",
-        "orientation_source": "Centre-droit atlantiste",
+        "url": "https://www.lemonde.fr/international/article/2026/10/02/etats-unis-apres-l-execution-ratee-de-christa-pike-des-suites-judiciaires-incertaines-et-un-impossible-debat-sur-la-peine-de-mort_6786790_3210.html",
+        "citation_cle": "Un échec retentissant pour le système américain d’administration de la peine capitale.",
+        "auteur": null,
+        "proprietaire_contexte": "Groupe Le Monde (Xavier Niel, Daniel Kretinsky)",
+        "orientation_source": "centre-droit",
         "groupe_media": {
-          "nom": "Axel Springer / KKR",
-          "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
           "type_proprietaire": "milliardaire",
           "orientation": "centre-droit"
         }
       },
       {
-        "source": "L'Humanité",
+        "source": "Le Figaro",
         "type": "mainstream",
-        "angle": "Dénonciation d'un 'chantage politique inouï' de la CDU pour empêcher la gauche de gouverner.",
-        "ton": "engage",
-        "url": "https://www.humanite.fr/monde/allemagne/berlin-la-cdu-veut-couper-les-vivres-a-die-linke-pour-lempecher-de-former-un-gouvernement",
-        "auteur": "Bruno Odent",
-        "proprietaire_contexte": "Société des lecteurs (Coopérative)",
-        "orientation_source": "Gauche radicale",
-        "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
-          "orientation": "gauche"
-        }
+        "angle": "Récit factuel centré sur les déclarations de l'avocat et l'état de santé.",
+        "ton": "factuel",
+        "url": "https://www.lefigaro.fr/international/etats-unis-christa-pike-se-trouve-dans-un-etat-critique-apres-une-tentative-d-execution-ratee-indique-son-avocat-20261001",
+        "citation_cle": "La quinquagénaire a survécu à deux tentatives de l’État du Tennessee.",
+        "auteur": null,
+        "proprietaire_contexte": "Groupe Dassault",
+        "orientation_source": "droite",
+        "groupe_media": null
       }
     ],
-    "analyse_coherence": "Le traitement médiatique de la situation berlinoise illustre un double standard flagrant dans l'analyse de la légitimité démocratique. D'un côté, Politico EU (propriété d'Axel Springer, dont la ligne est ouvertement pro-business et atlantiste) présente Die Linke comme un péril sécuritaire, relayant sans recul les accusations d'antisémitisme pour justifier l'exclusion du parti vainqueur. L'angle est celui de la 'question de conscience' pour le SPD et les Verts, suggérant qu'une alliance avec la gauche radicale serait une faute morale. À l'opposé, L'Humanité met en lumière une menace directe sur le fédéralisme allemand : la CDU (droite) menace de couper les transferts financiers vers Berlin si la ville est dirigée par la gauche. Ce chantage financier est décrit comme une entrave au choix des électeurs. On observe ici que la presse mainstream ou libérale-conservatrice tend à normaliser les pressions institutionnelles de la droite tout en diabolisant les programmes de redistribution sociale, au mépris du résultat des urnes. Si un parti de droite était menacé de 'coupure de vivres' par un gouvernement central de gauche, le discours sur la 'dictature' et le respect de la démocratie locale serait probablement unanime.",
+    "analyse_coherence": "La couverture de l'exécution ratée de Christa Pike révèle une fracture nette dans le traitement médiatique de la justice pénale américaine. Tandis que des médias comme Le Monde et Courrier International adoptent un angle moral et systémique, dénonçant un « calvaire » et une « agonie inutile », le Figaro maintient une posture strictement factuelle, évitant de questionner la légitimité de la peine de mort elle-même. Un double standard apparaît dès que l'on compare ce traitement avec les exécutions dans d'autres pays (Chine : ici, les médias mainstream français peinent à condamner l'acte comme une violation flagrante du droit international, préférant parler de « fiasco technique » plutôt que de crime d'État. L'analyse montre que la proximité diplomatique avec les États-Unis atténue la critique humaniste universelle, transformant une torture manifeste en un simple dysfonctionnement administratif.",
     "biais_detectes": [
-      "Normalisation du chantage institutionnel",
-      "Diabolisation de la gauche radicale",
-      "Omission des enjeux sociaux au profit des enjeux sécuritaires"
+      "Technicisation de la violence d'État",
+      "Atténuation de la critique humaniste par proximité diplomatique"
     ],
-    "ce_quil_faut_retenir": "La victoire de la gauche à Berlin provoque une crise qui dépasse les frontières de la ville, révélant la fragilité des alliances progressistes face aux menaces financières de la droite conservatrice."
+    "ce_quil_faut_retenir": "L'échec technique du Tennessee met à nu l'impossibilité d'une exécution 'propre' et force la communauté internationale à regarder la réalité physique de la peine capitale."
   },
   "regard_etranger": [
     {
-      "source": "The Guardian",
-      "pays": "Royaume-Uni",
-      "titre": "Macron dit 'Welcome back' à l'idée d'un retour du Royaume-Uni dans l'UE",
-      "titre_original": "Macron says ‘welcome back’ to Burnham suggestion UK could rejoin EU",
-      "angle": "Le Guardian voit dans l'ouverture de Macron un signal fort envoyé au nouveau Premier ministre travailliste Andy Burnham.",
-      "url": "https://www.theguardian.com/world/2026/sep/30/macron-welcome-back-burnham-suggestion-uk-could-rejoin-eu",
+      "source": "Al Jazeera",
+      "country": "Qatar",
+      "titre": "Le gouvernement brésilien réclame une enquête sur le financement américain de l'extrême droite",
+      "titre_original": "Brazilian government calls for probe into US funding of far-right causes",
+      "angle": "Souligne l'ingérence présumée de l'administration Trump dans le processus démocratique brésilien.",
+      "url": "https://www.aljazeera.com/news/2026/10/1/brazilian-government-calls-for-probe-into-us-funding-of-far-right-causes",
       "groupe_media": {
-        "nom": "Scott Trust",
-        "proprietaire": "Scott Trust Limited",
-        "type_proprietaire": "fondation",
-        "orientation": "centre-gauche"
+        "nom": "Al Jazeera Media Network",
+        "proprietaire": "État du Qatar",
+        "type_proprietaire": "etat",
+        "orientation": "variable"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "1 milliard d'euros",
-    "contexte": "Le montant de la fraude financière reprochée à Manchester City selon les révélations de Football Leaks.",
-    "source": "Mediapart",
-    "source_url": "https://www.mediapart.fr"
+    "valeur": "52%",
+    "contexte": "de la surface de l'Europe a été exposée à un stress thermique 'très fort' (ressenti >38°C) durant l'été 2026.",
+    "source": "Copernicus Climate Change Service",
+    "source_url": "https://climate.copernicus.eu/copernicus-record-heat-stress-and-low-river-flows-marked-europes-2026-summer"
   },
   "a_surveiller": [
     {
-      "date": "2026-10-01",
-      "evenement": "Examen à l'Assemblée nationale de la loi intégrale contre les violences sexuelles",
-      "type": "vote",
-      "lien": "https://www.la-croix.com/societe/violences-sexuelles-une-loi-integrale-pour-remettre-la-victime-au-centre-20260930"
+      "date": "2026-10-04",
+      "evenement": "Dernier débat télévisé de la primaire de la gauche sur BFM-TV",
+      "type": "conference",
+      "lien": null
     },
     {
-      "date": "2026-10-02",
-      "evenement": "Réception de Javier Milei par Emmanuel Macron à l'Élysée",
-      "type": "autre",
-      "lien": "https://www.rfi.fr/fr/france/20260930-en-france-le-pr%C3%A9sident-argentin-javier-milei-est-en-qu%C3%AAte-d-investisseurs"
+      "date": "2026-10-08",
+      "evenement": "Grève nationale chez TotalEnergies à l'appel de la CGT",
+      "type": "manifestation",
+      "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Le lobby agro-industriel se renforce au Sénat",
-      "rubrique": "politique",
-      "resume": "Les dernières élections sénatoriales ont vu l'entrée de quatre nouveaux sénateurs directement issus des rangs de la FNSEA, consolidant un bloc réactionnaire anti-écolo au Palais du Luxembourg.",
+      "titre": "Répression des free parties : les événements autorisés ciblés",
+      "rubrique": "societe",
+      "resume": "Une enquête révèle que les préfectures utilisent des arrêtés municipaux pour interdire des rassemblements musicaux pourtant déclarés, en s'appuyant sur des critères arbitraires comme le nombre d'abonnés Instagram des organisateurs.",
       "sources": [
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Le-lobby-agro-industriel-se-renforce-au-Senat-apres-les-elections",
+          "nom": "Blast",
+          "url": null,
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Sujet ignoré par les médias mainstream qui se focalisent sur les rapports de force partisans classiques sans analyser l'entrisme des lobbies sectoriels."
-    },
-    {
-      "titre": "Datacenters : l'opacité environnementale persiste",
-      "rubrique": "tech",
-      "resume": "Une enquête journalistique révèle que malgré les directives européennes, ni la Commission ni les États membres n'imposent de transparence réelle sur la consommation d'eau et d'énergie des centres de données.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/259160/datacenters-de-leurope-aux-etats-membres-personne-nimpose-la-transparence/",
-          "type": "investigation"
-        }
-      ],
-      "pourquoi_signal": "L'impact écologique du numérique est souvent réduit aux gestes individuels, occultant l'irresponsabilité institutionnelle face aux géants de la tech."
+      "pourquoi_signal": "Ce glissement administratif montre une extension du contrôle policier sur les loisirs culturels hors cadre commercial, souvent ignoré par les médias généralistes."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Cisjordanie : l'impunité des 'jeunes des collines'",
-      "rubrique": "international",
-      "resume": "Les colons radicaux multiplient les attaques contre les villages palestiniens pour forcer l'implantation de nouvelles colonies illégales, souvent avec le soutien tacite des forces de sécurité israéliennes.",
+      "titre": "Climat : l'été 2026, record historique dans l'indifférence politique",
+      "rubrique": "science",
+      "resume": "L'été 2026 est officiellement le plus chaud jamais enregistré en Europe occidentale, avec des débits de rivières au plus bas depuis 30 ans.",
       "axes_concernes": [
-        "droit_international",
-        "colonialisme"
+        "justice_sociale",
+        "ecologie_sociale"
       ],
-      "analyse": "La colonisation est un crime au regard du droit international. En qualifiant ces colons de simples 'émeutiers', le gouvernement israélien tente de masquer une stratégie d'annexion de fait. Notre ligne éditoriale impose de dénoncer ce double standard : on ne peut condamner l'annexion de territoires en Europe tout en restant complaisant avec la colonisation en Palestine.",
+      "analyse": "Le rapport Copernicus confirme une accélération dramatique du réchauffement. Pourtant, le décalage entre l'urgence physique et l'agenda politique (poursuite des investissements fossiles) constitue une menace directe pour les services publics et l'équité sociale, les populations les plus précaires étant les premières victimes du stress thermique.",
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/moyen-orient/20261001-cisjordanie-occup%C3%A9e-qui-sont-les-jeunes-des-collines-ces-colons-radicaux-accus%C3%A9s-de-centaines-d-attaques",
-          "type": "mainstream"
-        }
-      ]
-    },
-    {
-      "titre": "La France valide l'extradition de militants antifascistes",
-      "rubrique": "societe",
-      "resume": "La Cour de cassation a validé l'extradition de Gino Abazaj vers l'Allemagne, marquant la fin de la France comme terre d'asile pour les militants antifascistes européens poursuivis pour leurs actions politiques.",
-      "axes_concernes": [
-        "antifascisme",
-        "droits_humains"
-      ],
-      "analyse": "L'utilisation du mandat d'arrêt européen contre des militants politiques pose une question démocratique majeure. En facilitant la traque transnationale des antifascistes, la France participe à une criminalisation croissante de la contestation radicale, alors même que les violences d'extrême droite progressent partout en Europe.",
-      "sources": [
-        {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/international/300926/la-france-prete-la-main-la-traque-des-antifascistes-europeens",
-          "type": "investigation"
+          "nom": "Copernicus",
+          "url": "https://climate.copernicus.eu/copernicus-record-heat-stress-and-low-river-flows-marked-europes-2026-summer",
+          "type": "institutionnel"
         }
       ]
     }
   ],
-  "date": "2026-10-01",
-  "genere_a": "2026-10-01T04:32:17.517Z",
+  "date": "2026-10-02",
+  "genere_a": "2026-10-02T04:34:29.746Z",
   "meta": {
-    "nb_articles_analyses": 746,
-    "nb_topics": 225,
+    "nb_articles_analyses": 747,
+    "nb_topics": 232,
     "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 44,
-    "sources_francaises": 501,
-    "sources_etrangeres": 245,
+    "nb_articles_dans_selection": 43,
+    "sources_francaises": 489,
+    "sources_etrangeres": 258,
     "rubriques_couvertes": [
-      "international",
+      "politique",
       "societe",
-      "politique"
+      "economie",
+      "international"
     ],
-    "modele": "gemini/gemini-3-flash-preview",
-    "version_pipeline": "4.0.0"
+    "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
+    "version_pipeline": "4.1.0-gpt-search"
   }
 }
