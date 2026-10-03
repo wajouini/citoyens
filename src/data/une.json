@@ -1,30 +1,25 @@
 {
   "sujet_du_jour": {
-    "titre": "Affaire Bardella : Mediapart publie les preuves d'écrits antisémites",
-    "rubrique": "politique",
-    "pourquoi_important": "L'authentification technique de messages antisémites fragilise la stratégie de normalisation du Rassemblement National.",
+    "titre": "Crise énergétique : le G7 libère 100 millions de barils sous pression américaine",
+    "rubrique": "economie",
+    "pourquoi_important": "C'est une intervention massive et coordonnée sur les marchés mondiaux pour tenter de freiner l'inflation galopante des carburants, dictée par l'urgence diplomatique.",
     "faits": [
-      "Mediapart a publié le 1er octobre 2026 des éléments d'authentification (données Meta et constat d'huissier) liant Jordan Bardella à des messages Messenger antisémites de 2013.",
-      "Le président du RN conteste formellement être l'auteur de ces messages et dénonce des « pseudo-preuves ».",
-      "Jordan Bardella a annoncé le dépôt d'une deuxième plainte pour « faux et usage de faux », s'ajoutant à une première plainte en diffamation.",
-      "Le ministre israélien de la Diaspora, Amichai Chikli, a publiquement pris la défense du leader d'extrême droite, attaquant les révélations du média d'investigation."
+      "Libération coordonnée de 100 millions de barils de pétrole brut et de diesel sur une période de quatre mois via l'Agence internationale de l'énergie (AIE).",
+      "Priorité absolue au diesel avec un volume 'front-loaded' (avancé) dès les 20 premiers jours de l'opération pour stabiliser les prix à la pompe.",
+      "Décision prise lors d'une visioconférence des dirigeants du G7 le 2 octobre 2026 sous présidence française (Élysée, Conseil de l'UE).",
+      "L'opération fait suite à des menaces de l'administration américaine d'interdire les exportations de carburants vers l'Europe (Courrier international, Le Monde)."
     ],
-    "contexte": "Cette affaire éclate alors que le RN tente d'achever sa mue institutionnelle. La publication de la « boîte noire » par Mediapart vise à démontrer que les propos haineux ne sont pas des erreurs isolées mais ancrés dans le parcours du dirigeant. La réaction de certains officiels israéliens souligne une alliance paradoxale entre une partie de la droite israélienne et les mouvements identitaires européens.",
+    "contexte": "Face à la flambée des prix liée aux tensions au Proche-Orient, Donald Trump a exercé une pression intense sur les alliés européens pour qu'ils puisent dans leurs réserves stratégiques. L'objectif est d'éviter une pénurie de gazole tout en calmant la grogne sociale. Cette mesure intervient alors que 80% des réserves déjà promises en mars 2026 ont été consommées (AIE).",
     "sources": [
       {
-        "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/france/011026/ecrits-antisemites-de-jordan-bardella-les-preuves-du-mensonge",
-        "type": "investigation",
-        "groupe_media": {
-          "nom": "Mediapart",
-          "proprietaire": "Fonds pour une presse libre",
-          "type_proprietaire": "fondation",
-          "orientation": "gauche"
-        }
+        "nom": "Conseil de l'UE",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability/",
+        "type": "institutionnel",
+        "groupe_media": null
       },
       {
         "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/01/mediapart-publie-ses-elements-de-preuve-sur-les-propos-antisemites-de-jordan-bardella-mettant-a-mal-la-defense-du-rn_6786566_823448.html",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/02/sous-pression-de-donald-trump-le-g7-annonce-un-deblocage-de-100-millions-de-barils-de-petrole_6787218_3234.html",
         "type": "mainstream",
         "groupe_media": {
           "nom": "Groupe Le Monde",
@@ -34,99 +29,116 @@
         }
       },
       {
-        "nom": "Le Figaro",
-        "url": "https://www.lefigaro.fr/politique/messages-antisemites-jordan-bardella-denonce-les-pseudo-preuves-de-mediapart-et-va-deposer-plainte-pour-faux-et-usage-de-faux-20261001",
-        "type": "mainstream",
-        "groupe_media": null
+        "nom": "Courrier international",
+        "url": "https://www.courrierinternational.com/article/energie-sous-pression-americaine-le-g7-va-liberer-100-millions-de-barils-notamment-de-diesel_275629",
+        "type": "etranger",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
       },
       {
-        "nom": "L'Obs",
-        "url": "https://www.nouvelobs.com/politique/20261001.OBS118802/affaire-bardella-mediapart-devoile-sa-boite-noire-et-des-captures-d-ecran-de-messages-antisemites.html",
+        "nom": "BFM TV",
+        "url": "https://www.bfmtv.com/international/video-le-g7-va-liberer-jusqu-a-100-millions-de-barils-de-petrole-et-de-diesel-annonce-emmanuel-macron_VN-202610030066.html",
         "type": "mainstream",
-        "groupe_media": null
+        "groupe_media": {
+          "nom": "CMA CGM",
+          "proprietaire": "Rodolphe Saadé",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
       }
     ],
-    "lien": "https://www.mediapart.fr/journal/france/011026/ecrits-antisemites-de-jordan-bardella-les-preuves-du-mensonge"
+    "lien": "https://www.elysee.fr/emmanuel-macron/2026/10/02/visioconference-des-dirigeants-du-g7-sur-la-situation-energetique-mondiale"
   },
   "france": [
     {
-      "titre": "Primaire de la gauche : deuxième débat sous tension",
-      "rubrique": "politique",
-      "resume": "À une semaine du premier tour (9-10 octobre), les cinq candidats (Royal, Guedj, Maurel ont débattu sur France 2. Les échanges ont été marqués par des divergences sur la situation à Gaza et la stratégie d'alliance avec LFI (franceinfo, Libération, Le Figaro.",
+      "titre": "Engrais : trajectoire de réduction drastique du cadmium d'ici 2030",
+      "rubrique": "science",
+      "resume": "Le gouvernement lance un plan pour abaisser la teneur en cadmium, métal lourd toxique, à 20 mg/kg en 2030 contre 90 mg/kg actuellement (La Croix, franceinfo). Cette mesure, alignée sur les recommandations de l'Anses, vise à protéger la santé des sols et des consommateurs (Reporterre).",
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/elections/presidentielle/videos-sept-sequences-a-retenir-du-debat-des-candidats-a-la-primaire-de-la-gauche-sur-france-2-et-france-inter_8218741.html",
-          "type": "mainstream",
+          "nom": "Ministère de la Transition écologique",
+          "url": "https://www.ecologie.gouv.fr/presse/gouvernement-engage-trajectoire-reduction-teneurs-cadmium-matieres-fertilisantes-structure",
+          "type": "institutionnel",
+          "groupe_media": null
+        },
+        {
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Les-taux-de-cadmium-dans-les-engrais-devront-etre-divises-par-plus-de-3-en-2030",
+          "type": "investigation",
           "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Reporterre",
+            "proprietaire": "Association La Pile",
+            "type_proprietaire": "independant",
+            "orientation": "gauche"
           }
         },
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/politique/salaires-ukraine-gaza-lfi-les-4-moments-marquants-du-deuxieme-debat-de-la-primaire-a-gauche-20261001_ZKJQXSWQXFBEDFXDOCELKKSJVM/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/prisonniers-nord-coreens-seoul-prendra-des-mesures-si-kiev-ne-s-excuse-pas-20261002",
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/religion/l-ascenseur-spirituel-des-enfants-de-dieu-commentaire-de-l-evangile-du-samedi-3-octobre-20260930",
           "type": "mainstream"
-        }
-      ],
-      "lien": "https://ftvpro.francetv.fr/contenu-de-presse/78486623"
-    },
-    {
-      "titre": "Le gouvernement renonce aux frais en BTS et prépa",
-      "rubrique": "societe",
-      "resume": "Face à la mobilisation lycéenne, le ministre de l'Éducation Edouard Geffray a annoncé l'abandon de la mesure budgétaire prévoyant des frais d'inscription dans ces filières publiques (franceinfo, Libération).",
-      "sources": [
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/video-edouard-geffray-annonce-que-le-gouvernement-renonce-a-faire-payer-des-frais-d-inscription-dans-les-bts-et-les-classes-preparatoires_8218855.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
         },
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/societe/education/budget-2027-le-gouvernement-remballe-ses-frais-dinscription-en-bts-et-en-classes-prepa-20261001_K2ISBL2ITNC37KD5TP766OKMJM/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/des-images-d-une-rare-violence-une-enquete-ouverte-a-belfort-pour-la-tentative-d-homicide-volontaire-visant-un-policier_8219731.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "TotalEnergies : prime de 1000€ avant la grève",
+      "titre": "Le Conseil d'État valide le plan social géant d'Auchan",
       "rubrique": "economie",
-      "resume": "Le géant pétrolier verse une prime exceptionnelle de 1 000 euros à ses salariés français, une semaine avant un appel au débrayage de la CGT prévu le 8 octobre (Le Monde, Sud-Ouest).",
+      "resume": "La plus haute juridiction administrative a annulé l'invalidation du Plan de Sauvegarde de l'Emploi (PSE) d'Auchan, ouvrant la voie à 2 400 suppressions de postes (20 Minutes, BFM Business). La CGT dénonce une décision inique, tandis que la direction salue la fin d'une incertitude juridique (L'Humanité).",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/live/2026/10/02/en-direct-guerre-en-ukraine-seoul-exige-une-nouvelle-fois-des-excuses-de-kiev-pour-avoir-devoile-le-transfert-de-prisonniers-nord-coreens_6783795_3210.html",
-          "type": "mainstream"
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/politique/auchan/le-conseil-detat-valide-le-pse-geant-dauchan-annonce-fin-2024-2-400-postes-menaces",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/economie/4250896-20261002-auchan-plan-social-geant-prevoyant-2-400-suppressions-postes-valide-justice",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Un milliard d'euros promis pour les sapeurs-pompiers",
+      "rubrique": "societe",
+      "resume": "Laurent Nuñez a annoncé un plan quinquennal d'un milliard d'euros pour renforcer les moyens des SDIS, incluant le doublement de la flotte aérienne d'ici 2027 (franceinfo, Sud-Ouest). Les syndicats, qui maintenaient un préavis de grève, attendent la traduction budgétaire concrète de ces promesses (La Croix).",
+      "sources": [
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/laurent-nunez-promet-un-milliard-d-euros-supplementaire-sur-cinq-ans-pour-les-pompiers-20261002",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/societe/mobilisation-des-pompiers/laurent-nunez-promet-un-milliard-d-euros-supplementaire-sur-cinq-ans-pour-les-pompiers_8220361.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         },
         {
           "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/redaction/ephemeride/video-souvenez-vous-en-1968-le-deces-de-l-artiste-marcel-duchamp-le-createur-des-ready-mades-30178676.php",
+          "url": "https://www.sudouest.fr/redaction/le-dessin-du-jour/le-dessin-du-samedi-3-octobre-le-ministre-promet-des-profs-remplacants-30891554.php",
           "type": "mainstream"
         }
       ],
@@ -135,49 +147,13 @@
   ],
   "monde": [
     {
-      "titre": "Bras de fer diplomatique entre Séoul et Kiev",
-      "pays": "Corée du Sud / Ukraine",
-      "resume": "La Corée du Sud exige des excuses de l'Ukraine après la révélation du transfert secret de deux prisonniers nord-coréens capturés sur le front russe (Le Monde, Le Figaro).",
+      "titre": "UK : Projet d'attentat déjoué contre les Juifs de Manchester",
+      "pays": "Royaume-Uni",
+      "resume": "Deux Iraniens ont été inculpés pour terrorisme après la découverte d'un complot visant la communauté juive à l'approche de Yom Kippour (The Guardian, Al Jazeera). La police soupçonne une coordination directe depuis l'Iran (NYT World).",
       "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/live/2026/10/02/en-direct-guerre-en-ukraine-seoul-exige-une-nouvelle-fois-des-excuses-de-kiev-pour-avoir-devoile-le-transfert-de-prisonniers-nord-coreens_6783795_3210.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/prisonniers-nord-coreens-seoul-prendra-des-mesures-si-kiev-ne-s-excuse-pas-20261002",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Brésil : duel final entre Lula et le clan Bolsonaro",
-      "pays": "Brésil",
-      "resume": "À l'approche du premier tour, le fils de Jair Bolsonaro défie le président Lula dans une élection marquée par des soupçons d'ingérence américaine (Al Jazeera, The Guardian).",
-      "sources": [
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/everything-you-need-to-know-about-brazils-tight-presidential-race",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
         {
           "nom": "The Guardian",
-          "url": "https://www.theguardian.com/news/audio/2026/oct/02/the-bolsonarostheyre-back-brazil-heads-to-the-polls-podcast",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/02/charged-alleged-terror-plot-manchester-jewish-community",
           "type": "etranger",
           "groupe_media": {
             "nom": "Scott Trust",
@@ -185,136 +161,195 @@
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
+        },
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/10/02/world/europe/uk-manchester-terror-plot-iranians-jews.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/10/3/india-vs-pakistan-live-asian-games-cricket-final?traffic_source=rss",
+          "type": "etranger"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Blocus énergétique : les États-Unis interceptent des navires vers Cuba",
+      "pays": "Cuba",
+      "resume": "Les garde-côtes américains ont arraisonné deux navires transportant du carburant vers l'île, invoquant le renforcement de l'embargo (NYT World). Le navire 'Grace' a été dérouté vers le Mexique dans le cadre de la lutte contre la 'flotte fantôme' cubaine (The Guardian).",
+      "sources": [
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/10/01/world/asia/american-university-kabul-usaid.html",
+          "type": "etranger"
+        },
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/03/french-film-notre-salut-vichy-regime",
+          "type": "etranger"
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Exécution ratée de Christa Pike aux États-Unis",
-    "rubrique": "international",
-    "contexte": "Le 30 septembre 2026, Christa Pike a survécu à deux injections létales dans le Tennessee. Hospitalisée dans un état critique, son cas relance violemment le débat sur la peine capitale.",
+    "sujet": "Accusations d'écrits antisémites visant Jordan Bardella",
+    "rubrique": "politique",
+    "contexte": "Mediapart a publié des révélations sur des messages antisémites que Jordan Bardella aurait tenus en 2013 sous un pseudonyme. Le RN dément fermement et dénonce une manipulation.",
     "couvertures": [
-      {
-        "source": "Le Monde",
-        "type": "mainstream",
-        "angle": "Analyse de l'impasse politique et judiciaire entourant la peine de mort aux USA.",
-        "ton": "critique",
-        "url": "https://www.lemonde.fr/international/article/2026/10/02/etats-unis-apres-l-execution-ratee-de-christa-pike-des-suites-judiciaires-incertaines-et-un-impossible-debat-sur-la-peine-de-mort_6786790_3210.html",
-        "citation_cle": "Un échec retentissant pour le système américain d’administration de la peine capitale.",
-        "auteur": null,
-        "proprietaire_contexte": "Groupe Le Monde (Xavier Niel, Daniel Kretinsky)",
-        "orientation_source": "centre-droit",
-        "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
-      },
       {
         "source": "Le Figaro",
         "type": "mainstream",
-        "angle": "Récit factuel centré sur les déclarations de l'avocat et l'état de santé.",
-        "ton": "factuel",
-        "url": "https://www.lefigaro.fr/international/etats-unis-christa-pike-se-trouve-dans-un-etat-critique-apres-une-tentative-d-execution-ratee-indique-son-avocat-20261001",
-        "citation_cle": "La quinquagénaire a survécu à deux tentatives de l’État du Tennessee.",
+        "angle": "Focus sur la pression politique et le risque de déstabilisation de la campagne.",
+        "ton": "neutre",
+        "url": "https://www.lefigaro.fr/politique/accusations-d-antisemitisme-la-pression-monte-sur-jordan-bardella-le-rn-fait-toujours-bloc-20261002",
+        "citation_cle": "La campagne nationaliste pourrait vaciller.",
         "auteur": null,
         "proprietaire_contexte": "Groupe Dassault",
-        "orientation_source": "droite",
+        "orientation_source": "Droite",
         "groupe_media": null
+      },
+      {
+        "source": "France 24 FR",
+        "type": "mainstream",
+        "angle": "Analyse de la 'défense trompeuse' du RN qui ignore les preuves techniques.",
+        "ton": "factuel",
+        "url": "https://www.france24.com/fr/france/20261002-%C3%A9crits-antis%C3%A9mites-la-d%C3%A9fense-trompeuse-du-rn-face-aux-r%C3%A9v%C3%A9lations-de-mediapart-sur-jordan-bardella",
+        "citation_cle": "Leur argumentaire fait fi des éléments techniques.",
+        "auteur": "Nathan Gallo",
+        "proprietaire_contexte": "État français",
+        "orientation_source": "Centre",
+        "groupe_media": {
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
       }
     ],
-    "analyse_coherence": "La couverture de l'exécution ratée de Christa Pike révèle une fracture nette dans le traitement médiatique de la justice pénale américaine. Tandis que des médias comme Le Monde et Courrier International adoptent un angle moral et systémique, dénonçant un « calvaire » et une « agonie inutile », le Figaro maintient une posture strictement factuelle, évitant de questionner la légitimité de la peine de mort elle-même. Un double standard apparaît dès que l'on compare ce traitement avec les exécutions dans d'autres pays (Chine : ici, les médias mainstream français peinent à condamner l'acte comme une violation flagrante du droit international, préférant parler de « fiasco technique » plutôt que de crime d'État. L'analyse montre que la proximité diplomatique avec les États-Unis atténue la critique humaniste universelle, transformant une torture manifeste en un simple dysfonctionnement administratif.",
+    "analyse_coherence": "Le traitement médiatique de l'affaire Bardella révèle une fracture nette dans l'espace journalistique français. D'un côté, les médias de service public (France 24, franceinfo) et l'investigation (Mediapart) se concentrent sur la matérialité des preuves et la stratégie de dénégation du RN, qualifiée de 'trompeuse'. De l'autre, des médias plus conservateurs comme Le Figaro adoptent un prisme purement politique, s'interrogeant sur l'impact électoral plutôt que sur la véracité des faits. On observe un double standard flagrant dans la défense du RN : alors que le parti se pose en défenseur des Juifs de France, il utilise une rhétorique de 'guerre totale' et de 'barbouzerie' pour disqualifier des révélations sur son propre antisémitisme passé. La menace de Marine Le Pen suggérant aux journalistes d'enfiler un 'costard en kevlar' marque un tournant agressif contre la liberté de la presse, largement ignoré par les médias pro-business, mais dénoncé par une trentaine de sociétés de journalistes.",
     "biais_detectes": [
-      "Technicisation de la violence d'État",
-      "Atténuation de la critique humaniste par proximité diplomatique"
+      "Relativisme des preuves techniques par le RN",
+      "Normalisation de la rhétorique d'intimidation contre la presse",
+      "Prisme électoraliste occultant le fond moral"
     ],
-    "ce_quil_faut_retenir": "L'échec technique du Tennessee met à nu l'impossibilité d'une exécution 'propre' et force la communauté internationale à regarder la réalité physique de la peine capitale."
+    "ce_quil_faut_retenir": "Au-delà de la polémique, c'est l'opposition entre journalisme de preuve et communication de déni qui est en jeu, ainsi que la sécurité physique des enquêteurs."
   },
   "regard_etranger": [
     {
-      "source": "Al Jazeera",
-      "country": "Qatar",
-      "titre": "Le gouvernement brésilien réclame une enquête sur le financement américain de l'extrême droite",
-      "titre_original": "Brazilian government calls for probe into US funding of far-right causes",
-      "angle": "Souligne l'ingérence présumée de l'administration Trump dans le processus démocratique brésilien.",
-      "url": "https://www.aljazeera.com/news/2026/10/1/brazilian-government-calls-for-probe-into-us-funding-of-far-right-causes",
+      "source": "BBC News",
+      "pays": "Royaume-Uni",
+      "titre": "La police anti-émeute affronte les étudiants en France",
+      "titre_original": "Riot police clash with students as education protests rage in France",
+      "angle": "Focus sur le manque de moyens dans l'éducation et la violence des affrontements.",
+      "url": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo",
       "groupe_media": {
-        "nom": "Al Jazeera Media Network",
-        "proprietaire": "État du Qatar",
+        "nom": "BBC",
+        "proprietaire": "État britannique",
         "type_proprietaire": "etat",
-        "orientation": "variable"
+        "orientation": "centre"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "52%",
-    "contexte": "de la surface de l'Europe a été exposée à un stress thermique 'très fort' (ressenti >38°C) durant l'été 2026.",
-    "source": "Copernicus Climate Change Service",
-    "source_url": "https://climate.copernicus.eu/copernicus-record-heat-stress-and-low-river-flows-marked-europes-2026-summer"
+    "valeur": "100 millions",
+    "contexte": "Nombre de barils de pétrole et diesel que le G7 s'engage à libérer pour stabiliser les marchés mondiaux.",
+    "source": "Conseil de l'UE",
+    "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability/"
   },
   "a_surveiller": [
     {
       "date": "2026-10-04",
-      "evenement": "Dernier débat télévisé de la primaire de la gauche sur BFM-TV",
-      "type": "conference",
-      "lien": null
-    },
-    {
-      "date": "2026-10-08",
-      "evenement": "Grève nationale chez TotalEnergies à l'appel de la CGT",
-      "type": "manifestation",
-      "lien": null
+      "evenement": "Élection présidentielle au Brésil sous haute tension diplomatique",
+      "type": "vote",
+      "lien": "https://www.aljazeera.com/news/2026/10/3/us-and-australia-suspend-diplomatic-operations-in-brazil-before-election"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Répression des free parties : les événements autorisés ciblés",
+      "titre": "Le travail comme piège : contrôles CODAF dans le Briançonnais",
       "rubrique": "societe",
-      "resume": "Une enquête révèle que les préfectures utilisent des arrêtés municipaux pour interdire des rassemblements musicaux pourtant déclarés, en s'appuyant sur des critères arbitraires comme le nombre d'abonnés Instagram des organisateurs.",
+      "resume": "Six travailleurs étrangers ont été arrêtés sur leur lieu de travail à la Blanchisserie des Alpes, lors d'une opération anti-fraude détournée en contrôle migratoire (Politis).",
       "sources": [
         {
-          "nom": "Blast",
-          "url": null,
+          "nom": "Politis",
+          "url": "https://www.politis.fr/articles/2026/10/enquete-hautes-alpes-la-prefecture-interpelle-six-personnes-sans-papiers-sous-couvert-de-lutte-contre-lexploitation-par-le-travail/",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce glissement administratif montre une extension du contrôle policier sur les loisirs culturels hors cadre commercial, souvent ignoré par les médias généralistes."
+      "pourquoi_signal": "Illustre l'utilisation de la lutte contre le travail illégal comme outil de répression migratoire, criminalisant l'intégration par le travail."
+    },
+    {
+      "titre": "Fouju : l'État impose le plus grand data center d'Europe",
+      "rubrique": "tech",
+      "resume": "En Seine-et-Marne, un projet de 90 hectares (Campus IA) a été autorisé malgré une enquête publique éclair et l'opposition des habitants (Blast). Le site consommera 1,4 GW, soit la puissance d'un réacteur nucléaire.",
+      "sources": [
+        {
+          "nom": "Blast",
+          "url": "https://www.blast-info.fr/articles/2026/data-centers-geants-l-etat-deroule-le-tapis-rouge-les-habitants-resistent--1E3-AbiQFS_0v33MRlvEA",
+          "type": "investigation"
+        }
+      ],
+      "pourquoi_signal": "Révèle le passage en force de l'État pour la 'souveraineté numérique' au mépris des enjeux agricoles et énergétiques locaux."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Climat : l'été 2026, record historique dans l'indifférence politique",
-      "rubrique": "science",
-      "resume": "L'été 2026 est officiellement le plus chaud jamais enregistré en Europe occidentale, avec des débits de rivières au plus bas depuis 30 ans.",
+      "titre": "Liberté de la presse : l'intimidation comme mode de gouvernement",
+      "rubrique": "politique",
+      "resume": "Trente-neuf sociétés de journalistes dénoncent les menaces de mort et les attaques physiques suggérées par le RN contre Mediapart.",
       "axes_concernes": [
-        "justice_sociale",
-        "ecologie_sociale"
+        "liberte_expression",
+        "antifascisme"
       ],
-      "analyse": "Le rapport Copernicus confirme une accélération dramatique du réchauffement. Pourtant, le décalage entre l'urgence physique et l'agenda politique (poursuite des investissements fossiles) constitue une menace directe pour les services publics et l'équité sociale, les populations les plus précaires étant les premières victimes du stress thermique.",
+      "analyse": "Le passage des menaces verbales ('costard en kevlar') aux menaces de mort caractérisées contre des journalistes d'investigation est une étape alarmante. Ce n'est plus seulement une critique des médias, mais une tentative d'instauration d'un climat de terreur pour empêcher la publication d'informations d'intérêt public. Le silence ou la complaisance de certains médias mainstream face à ces méthodes est une faute déontologique.",
       "sources": [
         {
-          "nom": "Copernicus",
-          "url": "https://climate.copernicus.eu/copernicus-record-heat-stress-and-low-river-flows-marked-europes-2026-summer",
-          "type": "institutionnel"
+          "nom": "Politis",
+          "url": "https://www.politis.fr/articles/2026/10/tribunes-sdj-nous-denoncons-les-menaces-de-mort-proferees-par-le-rn-contre-mediapart/",
+          "type": "investigation"
+        }
+      ]
+    },
+    {
+      "titre": "Espagne : Le droit au logement sacrifié au Parlement",
+      "rubrique": "societe",
+      "resume": "Le rejet des décrets sur le gel des loyers et la protection des locataires marque un échec cuisant pour Pedro Sánchez face à la droite et aux séparatistes catalans.",
+      "axes_concernes": [
+        "justice_sociale",
+        "equite_economique"
+      ],
+      "analyse": "Alors que la rue espagnole gronde contre la spéculation immobilière, le blocage parlementaire montre la déconnexion entre les besoins vitaux des citoyens (se loger) et les jeux d'alliances politiques. Ce refus de réguler le marché du logement dans une période de crise aiguë fragilise le pacte social et renforce les extrêmes.",
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/europe/20261002-crise-du-logement-en-espagne-le-parlement-rejette-deux-textes-revers-cuisant-pour-pedro-sanchez",
+          "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-10-02",
-  "genere_a": "2026-10-02T04:34:29.746Z",
+  "date": "2026-10-03",
+  "genere_a": "2026-10-03T04:34:43.896Z",
   "meta": {
-    "nb_articles_analyses": 747,
-    "nb_topics": 232,
-    "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 43,
-    "sources_francaises": 489,
-    "sources_etrangeres": 258,
+    "nb_articles_analyses": 699,
+    "nb_topics": 206,
+    "nb_topics_selectionnes": 15,
+    "nb_articles_dans_selection": 37,
+    "sources_francaises": 461,
+    "sources_etrangeres": 238,
     "rubriques_couvertes": [
-      "politique",
-      "societe",
       "economie",
+      "science",
+      "societe",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",

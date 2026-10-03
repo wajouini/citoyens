@@ -1,29 +1,209 @@
 {
-  "date": "2026-10-02",
-  "genere_a": "2026-10-02T04:34:46.692Z",
+  "date": "2026-10-03",
+  "genere_a": "2026-10-03T04:35:02.665Z",
   "faits_ia": [
     {
-      "titre": "OpenAI licencie trois chercheurs pour fuites de données sensibles",
-      "sous_section": "societe",
-      "resume": "OpenAI a mis fin aux contrats de trois chercheurs en sécurité de l'IA après une enquête interne. Ils sont accusés d'avoir partagé des informations confidentielles avec un groupe extérieur d'évaluation de l'IA. Ces chercheurs avaient précédemment exprimé publiquement des inquiétudes sur les risques de sécurité des modèles développés par l'entreprise.",
-      "pourquoi_ca_compte": "Cet événement souligne les tensions croissantes entre les impératifs de secret commercial des géants de l'IA et le besoin de transparence réclamé par les experts en sécurité pour protéger les citoyens.",
+      "titre": "OpenAI lance Dot, un agent IA autonome pour les entreprises",
+      "sous_section": "annonces",
+      "resume": "OpenAI a dévoilé 'Dot' (ou 'Dots'), une nouvelle plateforme d'agents IA capables d'exécuter des tâches de manière autonome, comme commander un repas ou gérer des flux de travail complexes, même après que l'utilisateur a quitté l'interface ChatGPT. Contrairement aux assistants purement conversationnels, ces agents sont conçus pour agir en tant que 'collègues virtuels' au sein des infrastructures d'entreprise.",
+      "pourquoi_ca_compte": "Cela marque le passage de l'IA générative (qui discute) à l'IA agentique (qui agit), posant de nouvelles questions sur la délégation de décisions humaines à des algorithmes.",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/pixels/article/2026/10/02/openai-exclut-trois-chercheurs-en-securite-de-l-ia-accuses-de-fuites-d-informations-sensibles_6786658_4408996.html",
-          "type": "mainstream",
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
           }
         },
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/openai-exclut-trois-chercheurs-accuses-d-avoir-transmis-des-informations-sensibles-20261002",
+          "nom": "Futura Sciences",
+          "url": "https://www.futura-sciences.com/tech/actualites/openai-quest-ce-dots-cette-nouvelle-ia-openai-nattend-plus-vous-lui-donniez-ordres-138177/#xtor%3DRSS-8",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "Futura",
+            "proprietaire": "Futura (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
+    },
+    {
+      "titre": "Meta libère le code source de son agent Muse pour les objets connectés",
+      "sous_section": "annonces",
+      "resume": "Meta a annoncé l'ouverture du code source de Muse, son agent IA, afin de permettre aux développeurs de l'intégrer dans divers objets du quotidien, des téléviseurs aux grille-pains ou des écrans E Ink. L'objectif de l'entreprise est d'imposer son écosystème IA dans la domotique et les gadgets électroniques en facilitant la création de terminaux 'Muse-infusés'.",
+      "pourquoi_ca_compte": "L'open-source devient une arme stratégique pour Meta afin de contrer la domination logicielle d'Apple et Google dans nos foyers.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/"
+    },
+    {
+      "titre": "L'administration Trump rebaptise l'IA en « Super Intelligence »",
+      "sous_section": "regulation",
+      "resume": "Lors d'un sommet réunissant les grands patrons de la tech (Bezos, Musk, la Maison Blanche a imposé un changement de terminologie : l'IA doit désormais être désignée sous le terme de « Super Intelligence ». Un pacte de sécurité présenté comme « moralement contraignant » a été signé par les dirigeants présents, marquant une nouvelle ère de relations entre Washington et la Silicon Valley.",
+      "pourquoi_ca_compte": "Ce changement sémantique reflète une volonté politique de sacraliser la puissance technologique et de tester la loyauté des PDG envers le nouveau cadre réglementaire américain.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/trumps-crazy-ai-rebrand-was-a-loyalty-test-for-tech-execs-and-it-worked/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/"
+    },
+    {
+      "titre": "Apple durcit la sécurité de macOS face aux risques des agents IA",
+      "sous_section": "regulation",
+      "resume": "Apple a annoncé un renforcement des contrôles de l'accès complet au disque ('Full Disk Access') sur macOS. La firme justifie cette mesure par la capacité croissante des agents IA à fouiller de manière autonome dans les fichiers, les emails et l'historique de navigation des utilisateurs, ce qui augmente considérablement les risques de fuites de données massives.",
+      "pourquoi_ca_compte": "La protection de la vie privée entre en collision directe avec l'utilité des agents IA, qui ont besoin d'un accès large pour être efficaces.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/"
+    },
+    {
+      "titre": "arXiv limite les publications pour contrer le « slop » généré par IA",
+      "sous_section": "recherche",
+      "resume": "La plateforme de prépublication scientifique arXiv impose désormais une limite de deux soumissions d'articles par mois et par auteur. Cette décision radicale vise à endiguer le flux massif d'articles de faible qualité générés par intelligence artificielle, qui menace de saturer le système de révision et de décrédibiliser la recherche scientifique.",
+      "pourquoi_ca_compte": "C'est un signal d'alarme sur la pollution des communs de la connaissance par des contenus automatisés dénués de rigueur scientifique.",
+      "sources": [
+        {
+          "nom": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Next",
+          "url": "https://next.ink/259620/arxiv-limite-les-soumissions-a-2-par-mois-pour-faire-face-a-la-submersion-due-a-la-genai/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://next.ink/259620/arxiv-limite-les-soumissions-a-2-par-mois-pour-faire-face-a-la-submersion-due-a-la-genai/"
+    },
+    {
+      "titre": "Arrestation d'un PDG pour contrebande de puces Nvidia vers la Chine",
+      "sous_section": "business",
+      "resume": "Un chef d'entreprise californien, Greg Lui, a été arrêté pour avoir exporté illégalement pour 300 millions de dollars de puces Nvidia vers la Chine. Ces composants, soumis à des restrictions d'exportation strictes par les États-Unis, sont essentiels au développement de modèles de « super intelligence » (IA) par Pékin.",
+      "pourquoi_ca_compte": "Cette affaire illustre la guerre froide technologique pour le contrôle du matériel nécessaire à la puissance de calcul IA.",
+      "sources": [
+        {
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Register",
+          "url": "https://www.theregister.com/security/2026/10/02/californian-accused-of-shipping-300m-worth-of-nvidia-chips-to-china-without-uncle-sams-approval/5300856",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
+    },
+    {
+      "titre": "OpenAI licencie trois employés pour fuites de données sensibles",
+      "sous_section": "societe",
+      "resume": "OpenAI a mis fin au contrat de deux chercheurs en sécurité et d'un gestionnaire de programme pour avoir partagé des données internes avec un groupe externe d'évaluation de l'IA. Si l'entreprise invoque une mauvaise gestion d'informations sensibles, certains y voient une mesure de représailles contre des employés ayant exprimé des inquiétudes sur la sécurité des modèles.",
+      "pourquoi_ca_compte": "La tension monte entre la culture du secret des entreprises d'IA et le besoin de transparence réclamé par les chercheurs en éthique et sécurité.",
+      "sources": [
+        {
+          "nom": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/02/openai-shows-three-staff-the-door-over-alleged-information-misuse/5300820",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
         },
         {
           "nom": "BBC News",
@@ -35,143 +215,50 @@
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
-        },
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
         }
       ],
-      "lien": null
+      "lien": "https://www.theregister.com/ai-and-ml/2026/10/02/openai-shows-three-staff-the-door-over-alleged-information-misuse/5300820"
     },
     {
-      "titre": "La FTC ouvre une enquête sur OpenAI et Anthropic",
-      "sous_section": "regulation",
-      "resume": "La Federal Trade Commission (FTC) américaine a lancé une enquête visant OpenAI et Anthropic. L'autorité de régulation s'intéresse particulièrement aux structures de gouvernance et à l'impact de ces entreprises sur la concurrence dans le secteur de l'IA générative.",
-      "pourquoi_ca_compte": "Une régulation accrue aux États-Unis pourrait redéfinir les standards mondiaux de concurrence et limiter la concentration du pouvoir technologique entre quelques mains.",
-      "sources": [
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-le-tech-flash-la-ftc-ouvre-une-enquete-sur-anthropic-et-open-ai-par-lea-benaim-01-10_VN-202610010837.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Google lance Gemini 4 Argon et cible la cybersécurité",
-      "sous_section": "annonces",
-      "resume": "Google a dévoilé Gemini 4 Argon, une nouvelle version de son modèle d'IA capable de traiter un million de tokens en sortie. Cette version est spécifiquement optimisée pour les experts en cybersécurité et le développement de code complexe, visant à rattraper OpenAI et Anthropic.",
-      "pourquoi_ca_compte": "L'augmentation massive de la fenêtre de contexte permet une analyse plus profonde des menaces cyber, mais renforce aussi les capacités d'automatisation du code.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/259219/google-veut-revenir-dans-la-course-avec-gemini-4-argon-et-son-million-de-tokens-en-sortie/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-le-tech-flash-la-ftc-ouvre-une-enquete-sur-anthropic-et-open-ai-par-lea-benaim-01-10_VN-202610010837.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Un deepfake de la BBC sème la confusion après un incident aérien",
+      "titre": "L'Australie victime de cyberattaques via des agents OpenAI",
       "sous_section": "societe",
-      "resume": "Suite au détournement d'un vol FlyDubai, une vidéo manipulée utilisant l'identité visuelle de la BBC a circulé massivement. Le faux reportage accusait à tort un ressortissant indien et les services secrets israéliens d'être à l'origine de l'attaque au couteau dans le cockpit.",
-      "pourquoi_ca_compte": "Cette affaire illustre la dangerosité des deepfakes en période de crise, capables d'exacerber les tensions diplomatiques et de manipuler l'opinion publique en quelques heures.",
+      "resume": "Le gouvernement australien a ordonné une révision d'urgence de ses infrastructures technologiques suite à des intrusions utilisant des agents IA d'OpenAI. Ces attaques ont ciblé des services de santé et des données historiques sur les incendies de forêt, révélant une vulnérabilité critique des systèmes publics face à l'automatisation du piratage.",
+      "pourquoi_ca_compte": "L'IA démocratise les outils d'attaque cybernétique, forçant les États à des investissements massifs pour moderniser leurs systèmes hérités (legacy tech).",
       "sources": [
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/%C3%A9missions/info-ou-intox/20261001-flyduba%C3%AF-un-deepfake-de-la-bbc-incrimine-l-inde-et-isra%C3%ABl",
-          "type": "mainstream",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/monde/20261001-vol-duba%C3%AF-tel-aviv-d%C3%A9rout%C3%A9-attention-%C3%A0-ce-deepfake-d%C3%A9tournant-le-logo-de-la-bbc",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Rejet des plaintes antitrust contre la recherche IA de Google",
-      "sous_section": "regulation",
-      "resume": "Un juge fédéral américain a rejeté les plaintes de Chegg et Penske Media contre Google. Les plaignants accusaient les résumés d'IA de détourner leur trafic. Le juge a estimé que si l'IA a des conséquences économiques, cela ne constitue pas une violation des lois antitrust.",
-      "pourquoi_ca_compte": "Ce jugement crée un précédent protégeant les moteurs de recherche qui intègrent de l'IA, au détriment potentiel du modèle économique des éditeurs de presse et de contenus.",
-      "sources": [
-        {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/oct/02/openai-disclose-another-hack-on-government-department-in-australia",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
         }
       ],
-      "lien": null
+      "lien": "https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers"
     },
     {
-      "titre": "Google teste des centres de données en orbite via satellite",
-      "sous_section": "recherche",
-      "resume": "Google a lancé son premier satellite équipé d'une puce avancée pour tester la viabilité de centres de données spatiaux. L'entreprise estime toutefois qu'il faudrait 1 800 lancements du Starship de SpaceX pour que cette infrastructure devienne opérationnelle à grande échelle.",
-      "pourquoi_ca_compte": "Déplacer le calcul intensif dans l'espace pourrait répondre aux enjeux de refroidissement et d'énergie, mais pose des questions inédites sur la souveraineté des données et la pollution orbitale.",
+      "titre": "Les prix des Raspberry Pi 4 et 5 s'envolent",
+      "sous_section": "business",
+      "resume": "Pour la troisième fois cette année, les prix des micro-ordinateurs Raspberry Pi augmentent. Le modèle 2 Go du Pi 4, initialement vendu 35 $, coûte désormais environ 67 $. La fondation justifie ces hausses par les coûts de production, tout en conseillant aux utilisateurs de se tourner vers des modèles avec moins de RAM ou des versions plus anciennes.",
+      "pourquoi_ca_compte": "Le Raspberry Pi perd sa fonction première d'outil éducatif et accessible pour devenir un produit soumis aux dures lois du marché des semi-conducteurs.",
       "sources": [
         {
           "nom": "The Register",
-          "url": "https://www.theregister.com/systems/2026/10/02/google-launches-first-datacenter-satellite-and-research-that-finds-orbiting-bit-barns-can-work/5300721",
+          "url": "https://www.theregister.com/personal-tech/2026/10/02/once-a-35-computer-the-2-gb-raspberry-pi-4-now-costs-6750/5300774",
           "type": "etranger",
           "groupe_media": {
             "nom": "The Register",
@@ -181,94 +268,39 @@
           }
         },
         {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
-          "type": "etranger",
+          "nom": "Next",
+          "url": "https://next.ink/brief-article/hausse-de-prix-pour-les-raspberry-pi-4-et-5-de-2-go-qui-passent-a-66-et-76-euros/",
+          "type": "investigation",
           "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
             "orientation": "centre"
           }
         }
       ],
-      "lien": null
+      "lien": "https://next.ink/brief-article/hausse-de-prix-pour-les-raspberry-pi-4-et-5-de-2-go-qui-passent-a-66-et-76-euros/"
     },
     {
-      "titre": "Micron profite de la pénurie de RAM liée à l'IA",
-      "sous_section": "business",
-      "resume": "Le fabricant de puces Micron affiche des résultats financiers records, portés par la demande massive en mémoire vive (RAM) nécessaire pour faire tourner les modèles d'IA. Cette situation de pénurie tire les prix vers le haut pour l'ensemble du secteur informatique.",
-      "pourquoi_ca_compte": "La dépendance matérielle de l'IA envers quelques fournisseurs de semi-conducteurs crée un goulot d'étranglement économique mondial.",
-      "sources": [
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-penurie-de-ram-micron-explose-les-compteurs_VN-202610010953.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "L'affaire Thélyson Orélien secoue le monde de l'édition",
+      "titre": "LDLC victime d'une nouvelle fuite de données massives",
       "sous_section": "societe",
-      "resume": "L'écrivain Thélyson Orélien est accusé d'avoir utilisé l'IA pour rédiger son dernier roman. Bien qu'il démente, la polémique relance le débat sur l'authenticité littéraire et l'obligation de transparence pour les auteurs utilisant des outils génératifs.",
-      "pourquoi_ca_compte": "Elle pose la question de la valeur du travail créatif humain et du droit d'auteur face à des œuvres potentiellement co-générées par des machines.",
+      "resume": "Le revendeur informatique LDLC a informé ses clients d'un accès non autorisé à ses systèmes d'information. C'est la quatrième fuite de données touchant l'entreprise. Si les coordonnées bancaires semblent épargnées, les données personnelles consultées pourraient alimenter des campagnes de phishing ciblées dans les semaines à venir.",
+      "pourquoi_ca_compte": "La récurrence des cyberattaques chez les leaders du e-commerce souligne la difficulté de sécuriser durablement les données des consommateurs.",
       "sources": [
         {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/bibliobs/20261001.OBS118806/etre-ecrivain-a-l-ere-de-l-ia-chatgpt-me-fait-aller-beaucoup-plus-vite-mais-beaucoup-plus-dangereusement.html",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Cédric O lance Mallow, une enceinte de jeux boostée à l'IA",
-      "sous_section": "annonces",
-      "resume": "L'ancien secrétaire d'État au Numérique, Cédric O, a présenté Mallow, une enceinte dédiée aux jeux audio utilisant l'IA. Le produit vise à créer des expériences interactives immersives basées sur la voix.",
-      "pourquoi_ca_compte": "Ce lancement illustre la reconversion des décideurs politiques dans la tech et l'émergence de nouveaux usages grand public pour l'IA vocale.",
-      "sources": [
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/cedric-o-cofondateur-et-pdg-de-mallow-01-10_EN-202610010895.html",
-          "type": "mainstream",
+          "nom": "Next",
+          "url": "https://next.ink/brief-article/fuite-de-donnees-et-de-quatre-pour-ldlc/",
+          "type": "investigation",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-cedric-o-mallow-mallow-lance-une-enceinte-de-jeux-audio-bosste-a-l-ia-01-10_VN-202610010899.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Amazon renouvelle sa gamme Kindle avec un modèle couleur",
-      "sous_section": "annonces",
-      "resume": "Amazon a annoncé le lancement de ses nouvelles liseuses Kindle, incluant pour la première fois le modèle Colorsoft à écran couleur. Les appareils bénéficient également de finitions en aluminium et d'un design affiné.",
-      "pourquoi_ca_compte": "L'arrivée de la couleur sur le marché dominant des liseuses pourrait transformer la consommation de BD et de magazines numériques.",
-      "sources": [
-        {
           "nom": "Numerama",
-          "url": "https://www.numerama.com/tech/2345193-amazon-renew-ses-kindle-avec-plein-de-couleurs-voici-les-nouveautes.html",
+          "url": "https://www.numerama.com/cyberguerre/2345779-ldlc-a-ete-pirate-gare-aux-faux-messages-dans-les-prochaines-semaines.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Humanoid",
@@ -276,75 +308,69 @@
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
-        },
-        {
-          "nom": "Wired",
-          "url": "https://www.wired.com/story/amazon-kindle-paperwhite-colorsoft-2026-refresh/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
         }
       ],
-      "lien": null
+      "lien": "https://www.numerama.com/cyberguerre/2345779-ldlc-a-ete-pirate-gare-aux-faux-messages-dans-les-prochaines-semaines.html"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "Le licenciement des chercheurs en sécurité chez OpenAI",
-    "contexte": "Trois chercheurs de l'équipe de sécurité d'OpenAI ont été licenciés pour avoir prétendument transmis des données sensibles à un organisme externe d'évaluation.",
+    "sujet": "Le virage sémantique et politique de l'IA sous l'ère Trump",
+    "contexte": "Le président Donald Trump a réuni les principaux PDG de la tech pour signer un pacte de sécurité et imposer le terme de « Super Intelligence » en lieu et place d'Intelligence Artificielle.",
     "couvertures": [
-      {
-        "source": "Le Monde",
-        "type": "mainstream",
-        "angle": "Impact sur la sécurité globale de l'IA",
-        "ton": "factuel",
-        "url": "https://www.lemonde.fr/pixels/article/2026/10/02/openai-exclut-trois-chercheurs-en-securite-de-l-ia-accuses-de-fuites-d-informations-sensibles_6786658_4408996.html",
-        "citation_cle": "La start-up fait état de plusieurs manquements, dont l’un concerne des informations communiquées à un groupe extérieur d’évaluation.",
-        "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
-      },
-      {
-        "source": "Le Figaro",
-        "type": "mainstream",
-        "angle": "Lanceurs d'alerte et risques internes",
-        "ton": "neutre",
-        "url": "https://www.lefigaro.fr/secteur/high-tech/openai-exclut-trois-chercheurs-accuses-d-avoir-transmis-des-informations-sensibles-20261002",
-        "citation_cle": "Les chercheurs partageaient tous trois sur les réseaux sociaux leurs vives inquiétudes sur les dangers de l’IA.",
-        "groupe_media": null
-      },
       {
         "source": "TechCrunch",
         "type": "etranger",
-        "angle": "Gouvernance d'entreprise et confidentialité",
-        "ton": "critique",
-        "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
-        "citation_cle": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information.",
+        "angle": "Factuel et institutionnel, se concentre sur les noms présents et la nature du pacte.",
+        "ton": "factuel",
+        "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+        "citation_cle": "Le président Donald Trump a qualifié ce pacte de 'moralement contraignant'.",
         "groupe_media": {
           "nom": "Yahoo (AOL / Oath)",
           "proprietaire": "Apollo Global Management",
           "type_proprietaire": "milliardaire",
           "orientation": "centre"
         }
+      },
+      {
+        "source": "Wired",
+        "type": "etranger",
+        "angle": "Analyse politique voyant dans ce changement de nom un test de soumission pour les milliardaires de la tech.",
+        "ton": "critique",
+        "url": "https://www.wired.com/story/trumps-crazy-ai-rebrand-was-a-loyalty-test-for-tech-execs-and-it-worked/",
+        "citation_cle": "Ils sont allés docilement dans le sens de Trump quand il a annulé le terme IA.",
+        "groupe_media": {
+          "nom": "Condé Nast",
+          "proprietaire": "Famille Newhouse (Advance Publications)",
+          "type_proprietaire": "famille",
+          "orientation": "centre"
+        }
+      },
+      {
+        "source": "The Register",
+        "type": "etranger",
+        "angle": "Lien entre la terminologie officielle et les poursuites judiciaires pour contrebande de puces.",
+        "ton": "neutre",
+        "url": "https://www.theregister.com/security/2026/10/02/californian-accused-of-shipping-300m-worth-of-nvidia-chips-to-china-without-uncle-sams-approval/5300856",
+        "citation_cle": "Lui a aidé la Chine à se procurer du matériel avancé pour développer la 'super intelligence'.",
+        "groupe_media": {
+          "nom": "The Register",
+          "proprietaire": "Situation Publishing",
+          "type_proprietaire": "independant",
+          "orientation": "centre"
+        }
       }
     ],
-    "analyse_coherence": "La couverture médiatique est globalement cohérente sur les faits : trois licenciements suite à une enquête interne sur des fuites de données vers un tiers évaluateur. Cependant, l'angle d'analyse varie sensiblement. Les médias français (Le Monde, Le Figaro) mettent davantage l'accent sur le profil de ces chercheurs, dépeints comme des experts inquiets des dérives de l'IA, suggérant une dimension de 'lanceurs d'alerte'. À l'inverse, les sources anglo-saxonnes comme TechCrunch ou la BBC adoptent un ton plus centré sur la gestion d'entreprise et le respect des protocoles de confidentialité. On observe un consensus sur l'identité des chercheurs (révélée par le Wall Street Journal), mais une divergence implicite sur la légitimité de leur acte : faute professionnelle grave pour les uns, ou sacrifice nécessaire pour la sécurité publique pour les autres.",
+    "analyse_coherence": "La transition du terme 'IA' vers 'Super Intelligence' n'est pas qu'une simple coquetterie de langage. TechCrunch rapporte l'événement comme une étape de régulation formelle, soulignant le caractère 'moralement contraignant' de l'engagement des PDG. Wired, en revanche, y voit une manœuvre de domination politique, notant le silence surprenant des leaders de la Silicon Valley qui, d'ordinaire, défendent farouchement leur propre vision technologique. On observe que ce terme est immédiatement adopté par les autorités judiciaires, comme le montre l'article de The Register sur la contrebande de puces, où le procureur utilise la nouvelle terminologie pour qualifier les ambitions chinoises. La cohérence entre le discours politique et l'action judiciaire est totale, marquant une reprise en main de la narration technologique par l'État fédéral.",
     "biais_detectes": [
-      "Biais de cadrage : présentation des chercheurs soit comme des fautifs, soit comme des lanceurs d'alerte.",
-      "Dépendance aux sources : la plupart des articles s'appuient sur les révélations initiales du Wall Street Journal."
+      "Wired adopte un biais critique envers les dirigeants de la tech, les accusant de docilité.",
+      "TechCrunch reste très proche de la communication officielle de la Maison Blanche."
     ],
-    "ce_quil_faut_retenir": "OpenAI durcit sa politique interne face aux critiques de ses propres experts en sécurité, au risque de paraître moins transparente envers les régulateurs externes."
+    "ce_quil_faut_retenir": "L'IA est désormais une affaire d'État aux USA : le changement de nom en 'Super Intelligence' symbolise une fusion entre intérêts technologiques et sécurité nationale, exigeant une allégeance totale des acteurs du secteur."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 222,
-    "nb_topics_ia": 82,
+    "nb_articles_ia": 189,
+    "nb_topics_ia": 60,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
