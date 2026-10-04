@@ -1,278 +1,139 @@
 {
-  "date": "2026-10-03",
-  "genere_a": "2026-10-03T04:35:30.217Z",
+  "date": "2026-10-04",
+  "genere_a": "2026-10-04T04:34:31.325Z",
   "sujets_actifs": [
     {
-      "titre": "Mobilisation lycéenne : extension nationale du mouvement et violences accrues",
-      "slug": "mobilisation-lyceenne-violences-interpellations-octobre-2026",
+      "titre": "Mobilisation lycéenne : escalade des violences et durcissement législatif",
+      "slug": "mobilisation-lyceenne-escalade-violences-loi-casseurs",
       "rubrique": "societe",
       "tldr": [
-        "735 établissements perturbés et 1 747 interpellations à travers la France (Courrier International).",
-        "Enquête pour tentative d'homicide à Belfort après l'agression d'un policier (franceinfo).",
-        "Appel à un « acte 3 » de mobilisation nationale le 6 octobre (RFI)."
+        "Le gouvernement accélère le calendrier de la loi 'casseurs-payeurs' face aux violences urbaines.",
+        "Plusieurs agressions graves signalées, dont un commandant de police à Belfort et une passante brûlée à Marseille.",
+        "Les syndicats lycéens appellent à une journée de mobilisation nationale le mardi 6 octobre."
       ],
-      "resume": "Le mouvement lycéen, débuté mi-septembre à Créteil, a basculé dans une dimension nationale avec des blocages signalés dans plus de 700 établissements. Si le gouvernement a reculé sur certains frais d'inscription, la colère s'est cristallisée sur les conditions d'apprentissage et la répression policière. La journée du 2 octobre a été marquée par une hausse significative de la violence : des incendies de bâtiments scolaires ont été signalés et un policier a été grièvement blessé à Belfort. Les syndicats lycéens et étudiants, après une réception infructueuse au ministère, appellent à une nouvelle journée de mobilisation massive le mardi 6 octobre.",
-      "contexte_historique": "Ce mouvement rappelle les mobilisations de 2018 contre Parcoursup et la réforme du baccalauréat, qui avaient vu plus de 450 lycées bloqués simultanément. L'usage massif de la garde à vue pour des mineurs (plus de 1 700 interpellations en 24h) fait écho aux événements de Mantes-la-Jolie en 2018, condamnés à l'époque par le Défenseur des droits (Défenseur des droits, 2018).",
+      "resume": "La mobilisation lycéenne, débutée le 17 septembre à Créteil, a basculé dans une phase de forte tension marquée par des épisodes de violences graves. À Belfort, un commandant de police a été violemment agressé, entraînant l'interpellation de plusieurs suspects (BFM TV). À Marseille, une femme a été brûlée au visage par un spray enflammé (BFM TV). En réponse, le gouvernement a annoncé l'accélération de l'examen de la loi 'casseurs-payeurs' au Sénat pour la fin octobre (BFM TV). Si les syndicats dénoncent une dérive sécuritaire et des violences policières à Nanterre ou Pamiers (Reddit/Franceinfo), les autorités pointent du doigt des éléments radicaux infiltrés.",
+      "contexte_historique": "Le projet de loi 'casseurs-payeurs' s'inspire de la loi 'anti-casseurs' de 2019, dont certaines dispositions avaient été censurées par le Conseil constitutionnel. Il vise à engager la responsabilité civile et financière des auteurs de dégradations lors de manifestations (Droit français).",
       "implications": [
-        "Risque de paralysie du système éducatif secondaire lors de la journée du 6 octobre.",
-        "Saisine probable du Défenseur des droits suite aux vidéos d'interpellations violentes relayées sur les réseaux sociaux."
+        "Risque de paralysie des établissements scolaires lors de la journée du 6 octobre.",
+        "Renforcement des pouvoirs de sanction financière contre les manifestants identifiés comme auteurs de dégradations."
       ],
       "chronologie": [
         {
+          "date": "2026-10-04",
+          "texte": "Deux nouvelles interpellations à Belfort suite à l'agression d'un policier.",
+          "source": "BFM TV"
+        },
+        {
           "date": "2026-10-03",
-          "texte": "Les syndicats lycéens appellent à un 'acte 3' pour le 6 octobre.",
-          "source": "RFI"
+          "texte": "Annonce de l'accélération du calendrier législatif pour la loi 'casseurs-payeurs'.",
+          "source": "BFM TV"
         },
         {
-          "date": "2026-10-02",
-          "texte": "Un policier perd connaissance après une agression lors d'un blocage à Belfort.",
-          "source": "franceinfo"
+          "date": "2026-10-01",
+          "texte": "Agression d'une femme au spray enflammé en marge d'un blocus à Marseille.",
+          "source": "BFM TV"
         },
         {
-          "date": "2026-10-02",
-          "texte": "Le ministre de l'Intérieur annonce 1 747 interpellations sur l'ensemble du territoire.",
-          "source": "Courrier international"
-        },
-        {
-          "date": "2026-09-29",
-          "texte": "Le gouvernement annonce le retrait du projet sur les frais en BTS et prépa.",
-          "source": "Citoyens.ai"
+          "date": "2026-09-17",
+          "texte": "Premier blocage lycéen à Créteil marquant le début du mouvement.",
+          "source": "BFM TV"
         }
       ],
       "couvertures": [
         {
-          "source": "franceinfo",
-          "type": "mainstream",
-          "angle": "Focus sur les violences subies par les forces de l'ordre et l'ouverture d'enquêtes judiciaires.",
-          "ton": "factuel",
-          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/des-images-d-une-rare-violence-une-enquete-ouverte-a-belfort-pour-la-tentative-d-homicide-volontaire-visant-un-policier_8219731.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "Le policier volontairement ciblé a été hospitalisé après avoir perdu connaissance.",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Analyse de l'ampleur des dégradations matérielles (écoles en feu) et de la propagation géographique.",
-          "ton": "alarmiste",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/10/3/india-vs-pakistan-live-asian-games-cricket-final?traffic_source=rss",
-          "citation_cle": "Students have set fire to schools and clashed with police as protests spread across France.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "D'un lycée de Créteil à un mouvement d'ampleur nationale: le récit de la semaine où la colère lycéenne s’est propagée à tout le pays",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/societe/d-un-lycee-de-creteil-a-un-mouvement-d-ampleur-nationale-le-recit-de-la-semaine-ou-la-colere-lyceenne-s-est-propagee-a-tout-le-pays_GN-202610030059.html",
-          "citation_cle": "Après un premier blocage dans un lycée de Créteil le 17 septembre, un mouvement de mobilisation lycéen s'est répandu en ",
+          "angle": "Focus sur les faits de violence et la réponse législative du gouvernement.",
+          "ton": "alarmiste",
+          "url": "https://www.bfmtv.com/politique/gouvernement/le-calendrier-de-la-loi-casseurs-payeurs-accelere_AN-202610030394.html",
+          "citation_cle": "Ce texte de loi, qui vise à renforcer l'arsenal législatif contre les casseurs, sera examiné fin octobre au Sénat.",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
+        },
+        {
+          "source": "Ouest-France",
+          "type": "mainstream",
+          "angle": "Analyse sociologique du malaise social avec l'historien Stéphane Sirot.",
+          "ton": "neutre",
+          "url": "https://www.ouest-france.fr/sport/basket/basket-n1m-lus-laval-a-tenu-tete-a-challans-mais-ne-gagne-toujours-pas-1801e296-bf74-11f1-aef6-9f33a81faeff?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "citation_cle": "Aucune réponse de fond n’est donnée au malaise social.",
+          "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'origine exacte des groupes responsables des incendies de bâtiments scolaires (élèves ou éléments extérieurs).",
-        "La position finale de la coordination lycéenne sur la poursuite du mouvement après les concessions budgétaires."
+        "L'ampleur réelle de la mobilisation prévue pour le mardi 6 octobre.",
+        "Le lien direct entre les incendies de collèges (Metz) et les revendications lycéennes."
       ],
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/des-images-d-une-rare-violence-une-enquete-ouverte-a-belfort-pour-la-tentative-d-homicide-volontaire-visant-un-policier_8219731.html#xtor=RSS-3-[lestitres]",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/politique/gouvernement/le-calendrier-de-la-loi-casseurs-payeurs-accelere_AN-202610030394.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/vu-de-l-etranger-mouvement-des-lyceens-la-fin-des-manifestations-ne-semble-pas-en-vue_275652",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/europe/20261003-blocage-des-lyc%C3%A9es-en-france-les-organisations-lyc%C3%A9ennes-et-%C3%A9tudiantes-appellent-%C3%A0-un-acte-3-mardi-6-octobre",
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/sport/basket/basket-n1m-lus-laval-a-tenu-tete-a-challans-mais-ne-gagne-toujours-pas-1801e296-bf74-11f1-aef6-9f33a81faeff?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
+          "groupe_media": null
         },
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/10/3/india-vs-pakistan-live-asian-games-cricket-final?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/environnement/meteo/les-pyrenees-orientales-placees-en-vigilance-orange-pluie-inondation-dimanche_8221354.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream"
         }
       ],
       "premiere_apparition": "2026-09-29"
     },
     {
-      "titre": "G7 : libération massive de stocks pétroliers sous pression américaine",
-      "slug": "g7-liberation-reserves-petrole-diesel-trump-2026",
-      "rubrique": "economie",
+      "titre": "Affaire Bardella : le RN fait bloc malgré les preuves d'écrits antisémites",
+      "slug": "affaire-bardella-rn-mediapart-antisemitisme",
+      "rubrique": "politique",
       "tldr": [
-        "Libération de 100 millions de barils de diesel et pétrole brut sur 4 mois (BFM TV).",
-        "Décision actée par le G7 suite aux pressions directes de Donald Trump (Al Jazeera).",
-        "Légère baisse immédiate des cours mondiaux du brut (Ouest-France)."
+        "Marine Le Pen maintient sa confiance totale en Jordan Bardella après les révélations de Mediapart.",
+        "60% des Français jugent les propos reprochés 'graves' selon un sondage YouGov.",
+        "Le RN dénonce une manœuvre de déstabilisation politique à l'approche de la présidentielle 2027."
       ],
-      "resume": "Face aux menaces d'embargo sur le diesel brandies par Washington, les pays du G7 ont cédé. Emmanuel Macron a annoncé la mise sur le marché de 100 millions de barils de réserves stratégiques afin de stabiliser les prix et d'éviter une rupture d'approvisionnement majeure. Cette manœuvre diplomatique et économique vise à calmer l'administration américaine qui accuse ses alliés de ne pas agir contre l'inflation énergétique. Si les marchés ont réagi par une légère baisse des cours, cette ponction dans les stocks de sécurité interroge sur la capacité de résilience européenne en cas de conflit prolongé au Moyen-Orient.",
-      "contexte_historique": "La libération coordonnées de stocks stratégiques est régie par l'Agence Internationale de l'Énergie (AIE). Un précédent majeur date de 2022, après l'invasion de l'Ukraine, où 60 millions de barils avaient été libérés (AIE, 2022). Ici, le volume est supérieur et la motivation est explicitement politique, liée aux tensions transatlantiques.",
+      "resume": "Le Rassemblement National traverse une crise majeure suite aux révélations de Mediapart attribuant des écrits antisémites à Jordan Bardella via un compte Twitter anonyme. Malgré la précision des preuves techniques avancées par le journal d'investigation, Marine Le Pen a réitéré son soutien indéfectible au président du parti (Le Monde, BFM TV). L'opposition, notamment par la voix de François-Xavier Bellamy, souligne que l'antisémitisme est un sujet central et non marginal dans ce dossier (BFM TV). La stratégie du RN consiste à ignorer les faits pour éviter une déstabilisation de sa base électorale.",
+      "contexte_historique": "Le RN (ex-Front National) tente depuis 2011 une stratégie de 'dédiabolisation' pour s'éloigner des racines antisémites de son fondateur Jean-Marie Le Pen, exclu du parti en 2015 (Archives Le Monde).",
       "implications": [
-        "Baisse attendue des prix à la pompe à court terme en Europe.",
-        "Affaiblissement des réserves stratégiques de sécurité pour l'hiver 2026-2027."
+        "Possible érosion de l'image de 'respectabilité' du RN auprès des électeurs de droite modérée.",
+        "Tensions internes potentielles si de nouveaux éléments de preuve sont publiés."
       ],
       "chronologie": [
         {
+          "date": "2026-10-04",
+          "texte": "Marine Le Pen maintient sa défense jusqu'au-boutiste de Bardella.",
+          "source": "Le Monde"
+        },
+        {
           "date": "2026-10-03",
-          "texte": "Annonce officielle par Emmanuel Macron de la libération des stocks.",
+          "texte": "Un sondage révèle que 60% des Français jugent les faits graves.",
           "source": "BFM TV"
         },
         {
           "date": "2026-10-02",
-          "texte": "Les cours du pétrole terminent en baisse suite aux rumeurs d'accord au G7.",
-          "source": "Ouest-France"
-        },
-        {
-          "date": "2026-10-01",
-          "texte": "Donald Trump menace l'Europe d'un embargo total sur le diesel.",
-          "source": "Citoyens.ai"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Souligne la soumission des alliés aux exigences de Donald Trump.",
-          "ton": "critique",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/10/3/india-vs-pakistan-live-asian-games-cricket-final?traffic_source=rss",
-          "citation_cle": "G7 nations bow to US pressure and avoid crippling diesel ban.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Focus sur le rôle de médiateur de la France et les détails techniques de l'annonce.",
-          "ton": "neutre",
-          "url": "https://www.bfmtv.com/international/video-le-g7-va-liberer-jusqu-a-100-millions-de-barils-de-petrole-et-de-diesel-annonce-emmanuel-macron_VN-202610030066.html",
-          "citation_cle": "Les pays du G7 vont libérer jusqu’à 100 millions de barils dans les quatre mois.",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "La répartition exacte de l'effort de libération entre les pays membres du G7.",
-        "Si cette mesure suffira à lever définitivement les menaces tarifaires américaines."
-      ],
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/video-le-g7-va-liberer-jusqu-a-100-millions-de-barils-de-petrole-et-de-diesel-annonce-emmanuel-macron_VN-202610030066.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/10/3/india-vs-pakistan-live-asian-games-cricket-final?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/sport/rugby/top-14/castres-toulouse-a-quelle-heure-et-sur-quelle-chaine-suivre-le-match-de-la-5e-journee-de-top-14-14aa414e-be5f-11f1-b7db-555e86a524f6?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "premiere_apparition": "2026-10-01"
-    },
-    {
-      "titre": "Attaque sur le vol Flydubai : le profil du copilote interroge sur la sécurité aérienne",
-      "slug": "flydubai-attaque-copilote-radicalisation-oman-2026",
-      "rubrique": "international",
-      "tldr": [
-        "Le copilote omanaais était interdit de vol dans son pays pour radicalisation (Wall Street Journal).",
-        "L'attaque au couteau en plein vol a été déjouée par des passagers israéliens (NYT World).",
-        "Flydubai n'aurait pas vérifié les antécédents sécuritaires du suspect (Le Monde)."
-      ],
-      "resume": "De nouvelles révélations sur l'attaque du vol Flydubai vers Tel-Aviv pointent des failles de sécurité majeures. Le copilote, Hammam Al-Hammami, avait été interdit de piloter par les autorités d'Oman en raison de soupçons de radicalisation extrémiste. Malgré cela, il a été embauché par la compagnie émiratie Flydubai sans vérification approfondie. L'attaque, qui a grièvement blessé le commandant de bord indien, a été stoppée par l'intervention de quatre passagers israéliens et du pilote blessé qui a réussi à déverrouiller le cockpit. L'avion a été dérouté en urgence, évitant une catastrophe majeure.",
-      "contexte_historique": "Cet événement rappelle le crash volontaire de la Germanwings en 2015, qui avait souligné les limites du suivi médical et psychologique des pilotes. Ici, la faille est d'ordre sécuritaire et politique, illustrant les difficultés de partage d'informations entre les services de renseignement des pays du Golfe (Oman vs Émirats).",
-      "implications": [
-        "Durcissement probable des procédures de recrutement et de partage de données sécuritaires dans l'aviation civile.",
-        "Tensions diplomatiques entre Oman et les Émirats arabes unis sur la transmission des listes noires."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-03",
-          "texte": "Révélation par le WSJ de l'interdiction de vol préalable du copilote à Oman.",
-          "source": "Le Monde"
-        },
-        {
-          "date": "2026-10-02",
-          "texte": "Le Premier ministre indien Modi s'entretient avec le pilote blessé.",
-          "source": "Al Jazeera"
-        },
-        {
-          "date": "2026-10-01",
-          "texte": "Attaque au couteau dans le cockpit du vol Flydubai.",
-          "source": "Citoyens.ai"
+          "texte": "Mediapart publie des preuves techniques liant Bardella au compte litigieux.",
+          "source": "Mediapart"
         }
       ],
       "couvertures": [
         {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse de la faille de recrutement et de l'absence de vérification des antécédents.",
-          "ton": "factuel",
-          "url": "https://www.lemonde.fr/international/article/2026/10/03/vol-flydubai-deroute-oman-avait-interdit-au-copilote-de-voler-en-raison-de-soupcons-d-extremisme-selon-le-wall-street-journal_6787491_3210.html",
-          "citation_cle": "L’homme a été embauché sans que l’on sache si ses antécédents ont fait l’objet d’une vérification.",
+          "angle": "Analyse du risque politique pour Marine Le Pen en cas de discrédit prolongé de Bardella.",
+          "ton": "critique",
+          "url": "https://www.lemonde.fr/politique/article/2026/10/04/ecrits-antisemites-de-jordan-bardella-marine-le-pen-au-risque-d-etre-entrainee-dans-la-defense-jusqu-au-boutiste-du-president-du-rn_6788005_823448.html",
+          "citation_cle": "Le Rassemblement national fait bloc derrière son président dans l’espoir que l’orage passe.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -281,26 +142,49 @@
           }
         },
         {
-          "source": "NYT World",
-          "type": "etranger",
-          "angle": "Récit héroïque de l'intervention des passagers et chronologie précise du sauvetage.",
-          "ton": "neutre",
-          "url": "https://www.nytimes.com/2026/10/02/world/middleeast/flydubai-attack-timeline.html",
-          "citation_cle": "Four Israeli men teamed up to overwhelm an attacker and avert disaster.",
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Réactions politiques et résultats de sondage d'opinion.",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/politique/video-affaire-bardella-l-antisemitisme-n-est-pas-une-question-marginale-c-est-un-sujet-central-declare-francois-xavier-bellamy-vice-president-des-republicains_VN-202610030395.html",
+          "citation_cle": "60% des Français jugent les propos antisémites attribués à Jordan Bardella graves.",
           "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "source": "BFM TV",
+          "source": "20 Minutes",
           "type": "mainstream",
-          "angle": "Vol Flydubai dérouté: le copilote était interdit de vol par Oman car soupçonné de radicalisation, selon plusieurs médias",
+          "angle": "Propos antisémites attribués à Jordan Bardella : Marine Le Pen lui reconfirme sa confiance",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/moyen-orient/vol-flydubai-deroute-le-copilote-etait-interdit-de-vol-par-oman-car-soupconne-de-radicalisation-selon-plusieurs-medias_AN-202610030073.html",
-          "citation_cle": "Le copilote de nationalité omanaise a attaqué au couteau son commandant à bord d'un avion de la compagnie Flydubai. Les ",
+          "url": "https://www.20minutes.fr/politique/4251045-20261003-propos-antisemites-attribues-jordan-bardella-marine-pen-reconfirme-confiance?at_medium=display&at_campaign=149",
+          "citation_cle": "Malgré la publication par Mediapart de nouveaux éléments visant Jordan Bardella, accusé de messages antisémites en 2013,",
+          "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "L'existence d'autres comptes ou écrits non encore identifiés.",
+        "L'impact réel sur les intentions de vote pour 2027 à long terme."
+      ],
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/politique/article/2026/10/04/ecrits-antisemites-de-jordan-bardella-marine-le-pen-au-risque-d-etre-entrainee-dans-la-defense-jusqu-au-boutiste-du-president-du-rn_6788005_823448.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/politique/front-national/video-bergerac-des-elus-rn-refusent-de-nommer-une-ecole-du-nom-d-une-rescapee-de-la-shoah_VN-202610040068.html",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -309,14 +193,92 @@
           }
         }
       ],
+      "premiere_apparition": "2026-10-02"
+    },
+    {
+      "titre": "Élection au Brésil : duel final entre Lula et Flavio Bolsonaro sous tension",
+      "slug": "election-bresil-lula-bolsonaro-scrutin-incertain",
+      "rubrique": "international",
+      "tldr": [
+        "Scrutin général ce dimanche 4 octobre au Brésil pour départager Lula et Flavio Bolsonaro.",
+        "Les sondages indiquent un écart qui se resserre, rendant un second tour probable.",
+        "Accusations réciproques d'ingérence américaine et de menaces sur la souveraineté."
+      ],
+      "resume": "Le Brésil vote ce dimanche dans un climat de polarisation extrême. Le président sortant Lula (gauche) affronte Flavio Bolsonaro (extrême droite), fils de l'ancien président Jair Bolsonaro. Les derniers sondages montrent une réduction de l'avance de Lula, suggérant qu'aucun candidat n'obtiendra la majorité absolue dès le premier tour (Al Jazeera, Le Monde). La campagne a été marquée par des thématiques de souveraineté nationale et des accusations d'ingérence étrangère, notamment américaine (Courrier International). La protection de l'Amazonie reste un enjeu crucial pour les communautés indigènes dont les votes sont acheminés par bateau dans les zones reculées.",
+      "contexte_historique": "Depuis le retour à la démocratie en 1985, le Brésil a connu une alternance marquée entre la gauche (PT) et la droite conservatrice, avec une instabilité croissante depuis la destitution de Dilma Rousseff en 2016 (Données politiques Brésil).",
+      "implications": [
+        "Risque de contestation des résultats par le camp perdant, à l'instar des événements de 2023 à Brasilia.",
+        "Impact majeur sur les politiques climatiques mondiales selon l'issue du scrutin."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-10-04",
+          "texte": "Ouverture des bureaux de vote sur l'ensemble du territoire brésilien.",
+          "source": "Le Monde"
+        },
+        {
+          "date": "2026-10-03",
+          "texte": "Arrivée des urnes électroniques dans les communautés indigènes isolées.",
+          "source": "Al Jazeera"
+        },
+        {
+          "date": "2026-10-02",
+          "texte": "Derniers meetings de campagne marqués par des attaques personnelles virulentes.",
+          "source": "Al Jazeera"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Focus sur l'incertitude du scrutin et l'ombre de l'ingérence américaine.",
+          "ton": "neutre",
+          "url": "https://www.lemonde.fr/international/article/2026/10/04/au-bresil-une-campagne-presidentielle-morne-et-un-scrutin-tres-incertain-dans-l-ombre-de-l-ingerence-americaine_6787999_3210.html",
+          "citation_cle": "Lula et son rival d’extrême droite Flavio Bolsonaro sont au coude-à-coude.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Logistique électorale et enjeux pour les populations autochtones.",
+          "ton": "factuel",
+          "url": "https://www.aljazeera.com/news/2026/10/4/trump-defiant-about-midterm-chances-as-he-rallies-for-republicans-in-ohio?traffic_source=rss",
+          "citation_cle": "Les urnes atteignent les communautés reculées par bateau alors que l'Amazonie est un enjeu clé.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "source": "Courrier international",
+          "type": "etranger",
+          "angle": "La souveraineté du Brésil n’appartient ni à Lula ni aux Bolsonaro",
+          "ton": "factuel",
+          "url": "https://www.courrierinternational.com/article/opinion-la-souverainete-du-bresil-n-appartient-ni-a-lula-ni-aux-bolsonaro_272038",
+          "citation_cle": "Dans la campagne électorale précédant le scrutin du 4 octobre au Brésil, l’impérialisme trumpiste, “conjugué à la vassal",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
       "ce_quon_ne_sait_pas": [
-        "Comment le copilote a pu introduire une arme blanche dans le cockpit malgré les contrôles.",
-        "Si d'autres membres du personnel navigant font l'objet de signalements similaires non traités."
+        "La capacité des autorités à prévenir des débordements violents après l'annonce des résultats.",
+        "Le report des voix des petits candidats en cas de second tour."
       ],
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/03/vol-flydubai-deroute-oman-avait-interdit-au-copilote-de-voler-en-raison-de-soupcons-d-extremisme-selon-le-wall-street-journal_6787491_3210.html",
+          "url": "https://www.lemonde.fr/international/article/2026/10/04/au-bresil-une-campagne-presidentielle-morne-et-un-scrutin-tres-incertain-dans-l-ombre-de-l-ingerence-americaine_6787999_3210.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -326,19 +288,8 @@
           }
         },
         {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/10/02/world/middleeast/flydubai-attack-timeline.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/10/3/india-vs-pakistan-live-asian-games-cricket-final?traffic_source=rss",
+          "url": "https://www.aljazeera.com/news/2026/10/4/trump-defiant-about-midterm-chances-as-he-rallies-for-republicans-in-ohio?traffic_source=rss",
           "type": "etranger",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
@@ -348,53 +299,58 @@
           }
         }
       ],
-      "premiere_apparition": "2026-10-01"
+      "premiere_apparition": "2026-10-02"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Exécution de Christa Pike",
-      "slug": "christa-pike-execution-ratee-tennessee",
+      "titre": "Attaque sur le vol Flydubai",
+      "slug": "flydubai-securite-aerienne-copilote",
       "rubrique": "international",
-      "resume": "L'exécution de Christa Pike a échoué après deux tentatives d'injection létale. Elle est actuellement hospitalisée sous assistance respiratoire, entre la vie et la mort.",
+      "resume": "L'enquête sur la tentative d'attentat du copilote omanais se poursuit, avec un focus sur ses antécédents en Australie. Le débat se déplace vers les failles de sécurité des compagnies du Golfe.",
       "chronologie": [
         {
-          "date": "2026-10-02",
-          "texte": "Les avocats déposent plainte pour 'traitement cruel' après l'échec de l'exécution.",
-          "source": "20 Minutes"
+          "date": "2026-10-04",
+          "texte": "Les agences de sécurité australiennes enquêtent sur le séjour du copilote dans le pays.",
+          "source": "The Guardian"
         },
         {
-          "date": "2026-10-01",
-          "texte": "Autorisation d'exécution in extremis par la Cour suprême.",
-          "source": "Citoyens.ai"
+          "date": "2026-10-03",
+          "texte": "Vive polémique en Israël sur les protocoles de vérification des équipages étrangers.",
+          "source": "RFI"
         }
       ],
       "couvertures": [
         {
-          "source": "20 Minutes",
+          "source": "RFI",
           "type": "mainstream",
-          "angle": "Description de l'état de santé critique après l'échec de la procédure.",
-          "ton": "factuel",
-          "url": "https://www.20minutes.fr/monde/4250915-20261003-etats-unis-christa-pike-placee-sous-assistance-respiratoire-apres-echec-execution",
-          "citation_cle": "Christa Pike a survécu mercredi à deux injections létales dans le Tennessee."
+          "angle": "Analyse des failles de sécurité aérienne.",
+          "ton": "critique",
+          "url": "https://www.rfi.fr/fr/moyen-orient/20261003-attentat-d%C3%A9jou%C3%A9-du-vol-flydubai-pour-tel-aviv-pol%C3%A9mique-en-isra%C3%ABl-autour-des-failles-de-s%C3%A9curit%C3%A9",
+          "citation_cle": "Comment un copilote aux antécédents islamistes radicaux a-t-il pu accéder au cockpit ?"
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Si une nouvelle date d'exécution sera fixée ou si sa peine sera commuée."
+        "Les motivations exactes du passage à l'acte à ce moment précis."
       ],
       "sources": [
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/monde/4250915-20261003-etats-unis-christa-pike-placee-sous-assistance-respiratoire-apres-echec-execution",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/moyen-orient/20261003-attentat-d%C3%A9jou%C3%A9-du-vol-flydubai-pour-tel-aviv-pol%C3%A9mique-en-isra%C3%ABl-autour-des-failles-de-s%C3%A9curit%C3%A9",
           "type": "mainstream"
+        },
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
+          "type": "etranger"
         }
       ],
-      "derniere_mise_a_jour": "2026-10-03",
-      "statut": "Sujet en attente d'évolution médicale et judiciaire."
+      "derniere_mise_a_jour": "2026-10-04",
+      "statut": "Enquête technique et policière internationale en cours."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 699,
+    "nb_articles_analyses": 492,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
