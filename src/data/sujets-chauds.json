@@ -1,240 +1,47 @@
 {
-  "date": "2026-10-04",
-  "genere_a": "2026-10-04T04:34:31.325Z",
+  "date": "2026-10-05",
+  "genere_a": "2026-10-05T04:34:55.707Z",
   "sujets_actifs": [
     {
-      "titre": "Mobilisation lycéenne : escalade des violences et durcissement législatif",
-      "slug": "mobilisation-lyceenne-escalade-violences-loi-casseurs",
-      "rubrique": "societe",
-      "tldr": [
-        "Le gouvernement accélère le calendrier de la loi 'casseurs-payeurs' face aux violences urbaines.",
-        "Plusieurs agressions graves signalées, dont un commandant de police à Belfort et une passante brûlée à Marseille.",
-        "Les syndicats lycéens appellent à une journée de mobilisation nationale le mardi 6 octobre."
-      ],
-      "resume": "La mobilisation lycéenne, débutée le 17 septembre à Créteil, a basculé dans une phase de forte tension marquée par des épisodes de violences graves. À Belfort, un commandant de police a été violemment agressé, entraînant l'interpellation de plusieurs suspects (BFM TV). À Marseille, une femme a été brûlée au visage par un spray enflammé (BFM TV). En réponse, le gouvernement a annoncé l'accélération de l'examen de la loi 'casseurs-payeurs' au Sénat pour la fin octobre (BFM TV). Si les syndicats dénoncent une dérive sécuritaire et des violences policières à Nanterre ou Pamiers (Reddit/Franceinfo), les autorités pointent du doigt des éléments radicaux infiltrés.",
-      "contexte_historique": "Le projet de loi 'casseurs-payeurs' s'inspire de la loi 'anti-casseurs' de 2019, dont certaines dispositions avaient été censurées par le Conseil constitutionnel. Il vise à engager la responsabilité civile et financière des auteurs de dégradations lors de manifestations (Droit français).",
-      "implications": [
-        "Risque de paralysie des établissements scolaires lors de la journée du 6 octobre.",
-        "Renforcement des pouvoirs de sanction financière contre les manifestants identifiés comme auteurs de dégradations."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-04",
-          "texte": "Deux nouvelles interpellations à Belfort suite à l'agression d'un policier.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-10-03",
-          "texte": "Annonce de l'accélération du calendrier législatif pour la loi 'casseurs-payeurs'.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-10-01",
-          "texte": "Agression d'une femme au spray enflammé en marge d'un blocus à Marseille.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-09-17",
-          "texte": "Premier blocage lycéen à Créteil marquant le début du mouvement.",
-          "source": "BFM TV"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Focus sur les faits de violence et la réponse législative du gouvernement.",
-          "ton": "alarmiste",
-          "url": "https://www.bfmtv.com/politique/gouvernement/le-calendrier-de-la-loi-casseurs-payeurs-accelere_AN-202610030394.html",
-          "citation_cle": "Ce texte de loi, qui vise à renforcer l'arsenal législatif contre les casseurs, sera examiné fin octobre au Sénat.",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "Ouest-France",
-          "type": "mainstream",
-          "angle": "Analyse sociologique du malaise social avec l'historien Stéphane Sirot.",
-          "ton": "neutre",
-          "url": "https://www.ouest-france.fr/sport/basket/basket-n1m-lus-laval-a-tenu-tete-a-challans-mais-ne-gagne-toujours-pas-1801e296-bf74-11f1-aef6-9f33a81faeff?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "citation_cle": "Aucune réponse de fond n’est donnée au malaise social.",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'ampleur réelle de la mobilisation prévue pour le mardi 6 octobre.",
-        "Le lien direct entre les incendies de collèges (Metz) et les revendications lycéennes."
-      ],
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/politique/gouvernement/le-calendrier-de-la-loi-casseurs-payeurs-accelere_AN-202610030394.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/sport/basket/basket-n1m-lus-laval-a-tenu-tete-a-challans-mais-ne-gagne-toujours-pas-1801e296-bf74-11f1-aef6-9f33a81faeff?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/environnement/meteo/les-pyrenees-orientales-placees-en-vigilance-orange-pluie-inondation-dimanche_8221354.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream"
-        }
-      ],
-      "premiere_apparition": "2026-09-29"
-    },
-    {
-      "titre": "Affaire Bardella : le RN fait bloc malgré les preuves d'écrits antisémites",
-      "slug": "affaire-bardella-rn-mediapart-antisemitisme",
-      "rubrique": "politique",
-      "tldr": [
-        "Marine Le Pen maintient sa confiance totale en Jordan Bardella après les révélations de Mediapart.",
-        "60% des Français jugent les propos reprochés 'graves' selon un sondage YouGov.",
-        "Le RN dénonce une manœuvre de déstabilisation politique à l'approche de la présidentielle 2027."
-      ],
-      "resume": "Le Rassemblement National traverse une crise majeure suite aux révélations de Mediapart attribuant des écrits antisémites à Jordan Bardella via un compte Twitter anonyme. Malgré la précision des preuves techniques avancées par le journal d'investigation, Marine Le Pen a réitéré son soutien indéfectible au président du parti (Le Monde, BFM TV). L'opposition, notamment par la voix de François-Xavier Bellamy, souligne que l'antisémitisme est un sujet central et non marginal dans ce dossier (BFM TV). La stratégie du RN consiste à ignorer les faits pour éviter une déstabilisation de sa base électorale.",
-      "contexte_historique": "Le RN (ex-Front National) tente depuis 2011 une stratégie de 'dédiabolisation' pour s'éloigner des racines antisémites de son fondateur Jean-Marie Le Pen, exclu du parti en 2015 (Archives Le Monde).",
-      "implications": [
-        "Possible érosion de l'image de 'respectabilité' du RN auprès des électeurs de droite modérée.",
-        "Tensions internes potentielles si de nouveaux éléments de preuve sont publiés."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-04",
-          "texte": "Marine Le Pen maintient sa défense jusqu'au-boutiste de Bardella.",
-          "source": "Le Monde"
-        },
-        {
-          "date": "2026-10-03",
-          "texte": "Un sondage révèle que 60% des Français jugent les faits graves.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-10-02",
-          "texte": "Mediapart publie des preuves techniques liant Bardella au compte litigieux.",
-          "source": "Mediapart"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Analyse du risque politique pour Marine Le Pen en cas de discrédit prolongé de Bardella.",
-          "ton": "critique",
-          "url": "https://www.lemonde.fr/politique/article/2026/10/04/ecrits-antisemites-de-jordan-bardella-marine-le-pen-au-risque-d-etre-entrainee-dans-la-defense-jusqu-au-boutiste-du-president-du-rn_6788005_823448.html",
-          "citation_cle": "Le Rassemblement national fait bloc derrière son président dans l’espoir que l’orage passe.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Réactions politiques et résultats de sondage d'opinion.",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/politique/video-affaire-bardella-l-antisemitisme-n-est-pas-une-question-marginale-c-est-un-sujet-central-declare-francois-xavier-bellamy-vice-president-des-republicains_VN-202610030395.html",
-          "citation_cle": "60% des Français jugent les propos antisémites attribués à Jordan Bardella graves.",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "20 Minutes",
-          "type": "mainstream",
-          "angle": "Propos antisémites attribués à Jordan Bardella : Marine Le Pen lui reconfirme sa confiance",
-          "ton": "factuel",
-          "url": "https://www.20minutes.fr/politique/4251045-20261003-propos-antisemites-attribues-jordan-bardella-marine-pen-reconfirme-confiance?at_medium=display&at_campaign=149",
-          "citation_cle": "Malgré la publication par Mediapart de nouveaux éléments visant Jordan Bardella, accusé de messages antisémites en 2013,",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'existence d'autres comptes ou écrits non encore identifiés.",
-        "L'impact réel sur les intentions de vote pour 2027 à long terme."
-      ],
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/politique/article/2026/10/04/ecrits-antisemites-de-jordan-bardella-marine-le-pen-au-risque-d-etre-entrainee-dans-la-defense-jusqu-au-boutiste-du-president-du-rn_6788005_823448.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/politique/front-national/video-bergerac-des-elus-rn-refusent-de-nommer-une-ecole-du-nom-d-une-rescapee-de-la-shoah_VN-202610040068.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-10-02"
-    },
-    {
-      "titre": "Élection au Brésil : duel final entre Lula et Flavio Bolsonaro sous tension",
-      "slug": "election-bresil-lula-bolsonaro-scrutin-incertain",
+      "titre": "Élection au Brésil : Flávio Bolsonaro devance Lula et crée la surprise au premier tour",
+      "slug": "election-bresil-2026-flavio-bolsonaro-lula-premier-tour",
       "rubrique": "international",
       "tldr": [
-        "Scrutin général ce dimanche 4 octobre au Brésil pour départager Lula et Flavio Bolsonaro.",
-        "Les sondages indiquent un écart qui se resserre, rendant un second tour probable.",
-        "Accusations réciproques d'ingérence américaine et de menaces sur la souveraineté."
+        "Flávio Bolsonaro (extrême droite) arrive en tête avec 47,2 % des voix contre 44,8 % pour Lula.",
+        "Le second tour est fixé au 25 octobre 2026 dans un climat de forte polarisation.",
+        "Les sondages avaient largement sous-estimé la poussée de la droite conservatrice."
       ],
-      "resume": "Le Brésil vote ce dimanche dans un climat de polarisation extrême. Le président sortant Lula (gauche) affronte Flavio Bolsonaro (extrême droite), fils de l'ancien président Jair Bolsonaro. Les derniers sondages montrent une réduction de l'avance de Lula, suggérant qu'aucun candidat n'obtiendra la majorité absolue dès le premier tour (Al Jazeera, Le Monde). La campagne a été marquée par des thématiques de souveraineté nationale et des accusations d'ingérence étrangère, notamment américaine (Courrier International). La protection de l'Amazonie reste un enjeu crucial pour les communautés indigènes dont les votes sont acheminés par bateau dans les zones reculées.",
-      "contexte_historique": "Depuis le retour à la démocratie en 1985, le Brésil a connu une alternance marquée entre la gauche (PT) et la droite conservatrice, avec une instabilité croissante depuis la destitution de Dilma Rousseff en 2016 (Données politiques Brésil).",
+      "resume": "À la surprise générale, le sénateur Flávio Bolsonaro, fils de l'ancien président Jair Bolsonaro, a viré en tête du premier tour de l'élection présidentielle brésilienne le 4 octobre 2026. Alors que les sondages prédisaient une avance confortable pour le président sortant de gauche, Luiz Inácio Lula da Silva (80 ans), ce dernier se retrouve en ballottage défavorable avec environ 45 % des suffrages (France 24, Le Monde). Flávio Bolsonaro, qui a repris le flambeau familial après l'inéligibilité et l'incarcération de son père, a réussi à mobiliser massivement l'électorat conservateur et évangélique. Ce résultat confirme l'ancrage profond du bolsonarisme dans le paysage politique brésilien, malgré les crises passées.",
+      "contexte_historique": "Cette élection intervient trois ans après les émeutes de Brasilia du 8 janvier 2023. Jair Bolsonaro, père du candidat actuel, a été condamné à 27 ans de prison, laissant le champ libre à son fils (Le Monde). Le Brésil reste profondément divisé depuis la destitution de Dilma Rousseff en 2016 et l'opération 'Lava Jato'.",
       "implications": [
-        "Risque de contestation des résultats par le camp perdant, à l'instar des événements de 2023 à Brasilia.",
-        "Impact majeur sur les politiques climatiques mondiales selon l'issue du scrutin."
+        "Risque de contestation des résultats par le camp perdant lors du second tour.",
+        "Renforcement du poids législatif du Parti Libéral (PL) au Congrès brésilien."
       ],
       "chronologie": [
         {
-          "date": "2026-10-04",
-          "texte": "Ouverture des bureaux de vote sur l'ensemble du territoire brésilien.",
-          "source": "Le Monde"
+          "date": "2026-10-25",
+          "texte": "Date prévue pour le second tour de l'élection présidentielle.",
+          "source": "BBC News"
         },
         {
-          "date": "2026-10-03",
-          "texte": "Arrivée des urnes électroniques dans les communautés indigènes isolées.",
-          "source": "Al Jazeera"
+          "date": "2026-10-04",
+          "texte": "Premier tour : Flávio Bolsonaro obtient 47 % des voix.",
+          "source": "Le Figaro"
         },
         {
           "date": "2026-10-02",
-          "texte": "Derniers meetings de campagne marqués par des attaques personnelles virulentes.",
-          "source": "Al Jazeera"
+          "texte": "Derniers sondages donnant Lula largement favori.",
+          "source": "Courrier International"
         }
       ],
       "couvertures": [
         {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Focus sur l'incertitude du scrutin et l'ombre de l'ingérence américaine.",
-          "ton": "neutre",
-          "url": "https://www.lemonde.fr/international/article/2026/10/04/au-bresil-une-campagne-presidentielle-morne-et-un-scrutin-tres-incertain-dans-l-ombre-de-l-ingerence-americaine_6787999_3210.html",
-          "citation_cle": "Lula et son rival d’extrême droite Flavio Bolsonaro sont au coude-à-coude.",
+          "angle": "Analyse de la résilience du bolsonarisme malgré les condamnations judiciaires du clan.",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/international/article/2026/10/05/presidentielle-au-bresil-flavio-bolsonaro-fils-de-l-ancien-chef-d-etat-d-extreme-droite-devance-lula-et-l-affrontera-au-second-tour_6788432_3210.html",
+          "citation_cle": "L’ampleur du triomphe de la droite a surpris les observateurs les plus aguerris.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -245,10 +52,10 @@
         {
           "source": "Al Jazeera",
           "type": "etranger",
-          "angle": "Logistique électorale et enjeux pour les populations autochtones.",
-          "ton": "factuel",
-          "url": "https://www.aljazeera.com/news/2026/10/4/trump-defiant-about-midterm-chances-as-he-rallies-for-republicans-in-ohio?traffic_source=rss",
-          "citation_cle": "Les urnes atteignent les communautés reculées par bateau alors que l'Amazonie est un enjeu clé.",
+          "angle": "Focus sur les erreurs de sondages et la dynamique de la droite au niveau régional.",
+          "ton": "neutre",
+          "url": "https://www.aljazeera.com/news/2026/10/5/fbi-arrests-chinese-foreign-agent-for-spying-on-taiwan-presidents-son?traffic_source=rss",
+          "citation_cle": "Flavio Bolsonaro beat polling expectations as Brazil’s right gained ground.",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
             "proprietaire": "État du Qatar",
@@ -257,29 +64,24 @@
           }
         },
         {
-          "source": "Courrier international",
-          "type": "etranger",
-          "angle": "La souveraineté du Brésil n’appartient ni à Lula ni aux Bolsonaro",
+          "source": "Le Figaro",
+          "type": "mainstream",
+          "angle": "Présidentielle au Brésil : Flavio Bolsonaro crée la surprise en devançant Lula au premier tour",
           "ton": "factuel",
-          "url": "https://www.courrierinternational.com/article/opinion-la-souverainete-du-bresil-n-appartient-ni-a-lula-ni-aux-bolsonaro_272038",
-          "citation_cle": "Dans la campagne électorale précédant le scrutin du 4 octobre au Brésil, l’impérialisme trumpiste, “conjugué à la vassal",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
+          "url": "https://www.lefigaro.fr/international/election-presidentielle-au-bresil-flavio-bolsonaro-largement-devant-lula-au-1er-tour-20261004",
+          "citation_cle": "Le fils de l’ancien président d’extrême droite Jair Bolsonaro obtient plus de 47 % des suffrages, contre près de 45% pou",
+          "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "La capacité des autorités à prévenir des débordements violents après l'annonce des résultats.",
-        "Le report des voix des petits candidats en cas de second tour."
+        "Le report de voix des candidats mineurs (3ème et 4ème place).",
+        "L'impact potentiel de nouvelles révélations judiciaires d'ici le second tour."
       ],
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/04/au-bresil-une-campagne-presidentielle-morne-et-un-scrutin-tres-incertain-dans-l-ombre-de-l-ingerence-americaine_6787999_3210.html",
-          "type": "mainstream",
+          "url": "https://www.lemonde.fr/international/article/2026/10/05/presidentielle-au-bresil-flavio-bolsonaro-fils-de-l-ancien-chef-d-etat-d-extreme-droite-devance-lula-et-l-affrontera-au-second-tour_6788432_3210.html",
+          "type": "journal",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -288,9 +90,15 @@
           }
         },
         {
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/am%C3%A9riques/20261005-bresil-presidentielle-flavio-bolsonaro-surprise-lula-premier-tour",
+          "type": "TV",
+          "groupe_media": null
+        },
+        {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/4/trump-defiant-about-midterm-chances-as-he-rallies-for-republicans-in-ohio?traffic_source=rss",
-          "type": "etranger",
+          "url": "https://www.aljazeera.com/news/2026/10/5/fbi-arrests-chinese-foreign-agent-for-spying-on-taiwan-presidents-son?traffic_source=rss",
+          "type": "web",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
             "proprietaire": "État du Qatar",
@@ -300,57 +108,277 @@
         }
       ],
       "premiere_apparition": "2026-10-02"
-    }
-  ],
-  "sujets_refroidis": [
+    },
     {
-      "titre": "Attaque sur le vol Flydubai",
-      "slug": "flydubai-securite-aerienne-copilote",
-      "rubrique": "international",
-      "resume": "L'enquête sur la tentative d'attentat du copilote omanais se poursuit, avec un focus sur ses antécédents en Australie. Le débat se déplace vers les failles de sécurité des compagnies du Golfe.",
+      "titre": "Blocages lycéens en France : 500 établissements perturbés et tension sécuritaire",
+      "slug": "blocages-lyceens-france-octobre-2026",
+      "rubrique": "societe",
+      "tldr": [
+        "400 à 500 lycées fermés ou perturbés ce lundi 5 octobre.",
+        "Le gouvernement exige une reprise immédiate des cours sous haute surveillance.",
+        "Accusations croisées de violences entre manifestants et forces de l'ordre."
+      ],
+      "resume": "Le mouvement de contestation lycéen, débuté fin septembre, atteint un pic d'intensité ce lundi 5 octobre avec près de 500 établissements perturbés sur l'ensemble du territoire (BFM TV). Le Premier ministre Sébastien Lecornu a fixé une 'feuille de route' pour tenter de désamorcer la crise, tout en maintenant une ligne de fermeté sur la sécurité (RFI). Le mouvement, initialement ancré sur le manque de moyens et les ratés de la 'massification scolaire', s'est durci suite à des incidents violents entre élèves et forces de l'ordre, notamment à Belfort et Argenteuil (Le Monde). Les syndicats CGT et Solidaires ont annoncé leur soutien aux manifestants pour la journée du 6 octobre.",
+      "contexte_historique": "La France n'a pas connu de mouvement lycéen d'une telle ampleur depuis les mobilisations contre la réforme du baccalauréat et Parcoursup en 2018-2019. Le budget 2027, prévoyant des coupes dans les services publics, agit comme un catalyseur (Alternatives Économiques).",
+      "implications": [
+        "Risque de radicalisation du mouvement avec l'entrée en scène des syndicats de travailleurs.",
+        "Débat législatif accéléré sur la loi 'casseurs-payeurs' voulue par le gouvernement."
+      ],
       "chronologie": [
         {
-          "date": "2026-10-04",
-          "texte": "Les agences de sécurité australiennes enquêtent sur le séjour du copilote dans le pays.",
-          "source": "The Guardian"
+          "date": "2026-10-05",
+          "texte": "400 à 500 lycées perturbés ; le gouvernement fixe 5 chantiers prioritaires.",
+          "source": "BFM TV"
         },
         {
-          "date": "2026-10-03",
-          "texte": "Vive polémique en Israël sur les protocoles de vérification des équipages étrangers.",
-          "source": "RFI"
+          "date": "2026-10-02",
+          "texte": "Incidents lors d'une manifestation à Reims en présence du député Anthony Smith.",
+          "source": "Reddit r/france"
+        },
+        {
+          "date": "2026-09-29",
+          "texte": "Premiers blocages signalés en banlieue parisienne.",
+          "source": "Le Monde"
         }
       ],
       "couvertures": [
         {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Analyse sociologique du mouvement ancré dans l'angoisse de la dégradation des conditions d'enseignement.",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/societe/article/2026/10/05/le-mouvement-lyceen-singulier-et-deja-historique-s-ancre-sur-le-manque-de-moyens-et-les-rates-de-la-massification-scolaire_6788473_3224.html",
+          "citation_cle": "Un mouvement inédit depuis des décennies par son ampleur.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
           "source": "RFI",
           "type": "mainstream",
-          "angle": "Analyse des failles de sécurité aérienne.",
-          "ton": "critique",
-          "url": "https://www.rfi.fr/fr/moyen-orient/20261003-attentat-d%C3%A9jou%C3%A9-du-vol-flydubai-pour-tel-aviv-pol%C3%A9mique-en-isra%C3%ABl-autour-des-failles-de-s%C3%A9curit%C3%A9",
-          "citation_cle": "Comment un copilote aux antécédents islamistes radicaux a-t-il pu accéder au cockpit ?"
+          "angle": "Focus sur la réponse gouvernementale et l'impératif de sécurité.",
+          "ton": "neutre",
+          "url": "https://www.rfi.fr/fr/france/20261005-blocage-des-lyc%C3%A9es-en-france-le-gouvernement-souhaite-une-reprise-des-cours-o%C3%B9-la-s%C3%A9curit%C3%A9-le-permet",
+          "citation_cle": "L'exécutif souhaite que les cours reprennent dès lundi partout où la sécurité le permet.",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Les motivations exactes du passage à l'acte à ce moment précis."
+        "La capacité des organisations lycéennes à structurer le mouvement au-delà de la colère spontanée.",
+        "La réalité des faits concernant les accusations de 'tentative de meurtre' portées par un avocat de lycéen à Belfort."
       ],
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/moyen-orient/20261003-attentat-d%C3%A9jou%C3%A9-du-vol-flydubai-pour-tel-aviv-pol%C3%A9mique-en-isra%C3%ABl-autour-des-failles-de-s%C3%A9curit%C3%A9",
-          "type": "mainstream"
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-colere-des-lyceens-400-a-500-etablissements-totalement-ou-partiellement-fermes-en-vue-de-nouvelles-actions-ce-lundi_VN-202610050052.html",
+          "type": "TV",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         },
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
-          "type": "etranger"
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/societe/article/2026/10/05/le-mouvement-lyceen-singulier-et-deja-historique-s-ancre-sur-le-manque-de-moyens-et-les-rates-de-la-massification-scolaire_6788473_3224.html",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20261005-blocage-des-lyc%C3%A9es-en-france-le-gouvernement-souhaite-une-reprise-des-cours-o%C3%B9-la-s%C3%A9curit%C3%A9-le-permet",
+          "type": "radio",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         }
       ],
-      "derniere_mise_a_jour": "2026-10-04",
-      "statut": "Enquête technique et policière internationale en cours."
+      "premiere_apparition": "2026-09-29"
+    },
+    {
+      "titre": "Guerre au Yémen : Offensive majeure du gouvernement contre les Houthis",
+      "slug": "yemen-offensive-gouvernementale-houthis-2026",
+      "rubrique": "international",
+      "tldr": [
+        "Lancement d'une 'bataille pour la libération' par les forces pro-gouvernementales.",
+        "70 morts signalés à Taëz suite à des combats intensifs.",
+        "L'offensive est soutenue par l'Arabie Saoudite dans un contexte de blocus énergétique."
+      ],
+      "resume": "Les forces gouvernementales yéménites, soutenues par la coalition menée par l'Arabie Saoudite, ont lancé une opération militaire d'envergure pour reprendre les territoires contrôlés par les rebelles Houthis (Al Jazeera). Cette escalade marque la fin de facto de la trêve fragile qui persistait. Les combats se concentrent autour de la ville stratégique de Taëz, où une route d'approvisionnement vitale a été coupée (The Guardian). En parallèle, l'Iran, soutien des Houthis, a mis en garde contre toute intervention directe des États-Unis alors que ses propres exportations de pétrole atteignent des niveaux records malgré les sanctions (NYT World, BFM TV).",
+      "contexte_historique": "Le conflit yéménite dure depuis 2014. Il est considéré par l'ONU comme l'une des pires crises humanitaires au monde. L'implication de puissances régionales (Iran vs Arabie Saoudite) en fait une guerre par procuration majeure au Moyen-Orient.",
+      "implications": [
+        "Aggravation de la crise humanitaire et risque de famine dans les zones de combat.",
+        "Menace sur la sécurité maritime dans le détroit d'Ormuz et la mer Rouge."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-10-05",
+          "texte": "Déclaration de la 'bataille pour la libération' par le gouvernement yéménite.",
+          "source": "Al Jazeera"
+        },
+        {
+          "date": "2026-10-04",
+          "texte": "70 morts signalés dans les affrontements à Taëz.",
+          "source": "Citoyens.ai Radar"
+        },
+        {
+          "date": "2026-10-01",
+          "texte": "Interception de navires vers Cuba par les États-Unis, exacerbant les tensions énergétiques.",
+          "source": "Citoyens.ai Radar"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "The Guardian",
+          "type": "etranger",
+          "angle": "Analyse de la rupture stratégique à Taëz et du soutien saoudien.",
+          "ton": "factuel",
+          "url": "https://www.theguardian.com/world/2026/oct/05/saudi-backed-yemen-government-military-drive-retake-houthi-territory",
+          "citation_cle": "The announcement came hours after Iranian-backed Houthis reportedly cut a vital supply route.",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Suivi en direct de l'offensive et des réactions de Téhéran.",
+          "ton": "neutre",
+          "url": "https://www.aljazeera.com/news/2026/10/5/fbi-arrests-chinese-foreign-agent-for-spying-on-taiwan-presidents-son?traffic_source=rss",
+          "citation_cle": "Yemeni government forces have declared a ‘battle for liberation’.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "source": "NYT World",
+          "type": "etranger",
+          "angle": "Houthis Claim Attack on Aramco as Yemen Conflict Escalates",
+          "ton": "factuel",
+          "url": "https://www.nytimes.com/2026/10/04/world/middleeast/houthis-oil-attack-saudi-arabia-yemen.html",
+          "citation_cle": "More than 200 U.S. intelligence and military analysts are in Saudi Arabia helping it provide assistance to its Yemeni al",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "L'ampleur exacte des pertes civiles dans les zones reculées.",
+        "La position officielle finale des États-Unis face à cette nouvelle escalade."
+      ],
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/05/saudi-backed-yemen-government-military-drive-retake-houthi-territory",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/5/fbi-arrests-chinese-foreign-agent-for-spying-on-taiwan-presidents-son?traffic_source=rss",
+          "type": "web",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/10/05/world/asia/boeing-777-plane-iran-us-sanctions-flights.html",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-colere-des-lyceens-sebastien-lecornu-confie-a-ses-ministres-une-feuille-de-route-avec-cinq-chantiers-majeurs_VN-202610050063.html",
+          "type": "mainstream"
+        }
+      ],
+      "premiere_apparition": "2026-10-04"
+    }
+  ],
+  "sujets_refroidis": [
+    {
+      "titre": "Affaire Bardella : accusations d'écrits antisémites",
+      "slug": "affaire-bardella-mediapart-antisemitisme",
+      "rubrique": "politique",
+      "resume": "Le Rassemblement national maintient son bloc derrière Jordan Bardella malgré les révélations de Mediapart. Le sujet se déplace vers l'arène judiciaire.",
+      "chronologie": [
+        {
+          "date": "2026-10-04",
+          "texte": "Marine Le Pen réitère son soutien total à Jordan Bardella.",
+          "source": "Citoyens.ai"
+        },
+        {
+          "date": "2026-10-02",
+          "texte": "Publication par Mediapart de preuves d'écrits sous pseudonyme.",
+          "source": "Mediapart"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Mediapart",
+          "type": "investigation",
+          "angle": "Démonstration technique de l'identité numérique de l'auteur des propos.",
+          "ton": "critique",
+          "url": "https://www.mediapart.fr",
+          "citation_cle": "Les preuves sont accablantes."
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "L'impact réel sur les intentions de vote pour 2027."
+      ],
+      "sources": [
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr",
+          "type": "investigation"
+        }
+      ],
+      "derniere_mise_a_jour": "2026-10-05",
+      "statut": "Stabilisé : le parti fait bloc, l'opinion attend d'éventuelles suites judiciaires."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 492,
+    "nb_articles_analyses": 524,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

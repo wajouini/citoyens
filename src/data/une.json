@@ -1,61 +1,159 @@
 {
   "sujet_du_jour": {
-    "titre": "Marine Le Pen maintient sa confiance à Jordan Bardella malgré les révélations",
-    "rubrique": "politique",
-    "pourquoi_important": "C'est la première fois que la cheffe de file du RN réagit officiellement aux preuves d'authentification de messages antisémites attribués à son dauphin.",
+    "titre": "Brésil 2026 : Flávio Bolsonaro vire en tête, duel final contre Lula le 25 octobre",
+    "rubrique": "international",
+    "pourquoi_important": "Le premier tour confirme la résilience de l'extrême droite bolsonariste et place le président sortant Lula en difficulté pour le second tour.",
     "faits": [
-      "Marine Le Pen a réaffirmé le 3 octobre sa « totale confiance » en Jordan Bardella (Sud-Ouest, BFM TV).",
-      "Mediapart affirme avoir authentifié des messages privés de 2013 via une extraction de données Meta et un constat d'huissier (Mediapart, Le Figaro).",
-      "Jordan Bardella dément formellement être l'auteur de ces écrits et a annoncé une plainte en diffamation (20 Minutes, franceinfo).",
-      "Le dossier porte sur des propos antisémites publiés sur Messenger sous un pseudonyme attribué au président du RN."
+      "Avec 99,99% des urnes dépouillées, Flávio Bolsonaro (PL) obtient 47,04% des voix contre 45,15% pour Luiz Inácio Lula da Silva (PT).",
+      "Le Tribunal Supérieur Électoral (TSE) a officiellement confirmé l'affiche du second tour prévu pour le 25 octobre 2026.",
+      "Flávio Bolsonaro a été désigné candidat par son père Jair Bolsonaro, ce dernier étant frappé d'une peine de 27 ans de prison.",
+      "L'écart de seulement deux points (environ 2,2 millions de voix) souligne une polarisation extrême du pays."
     ],
-    "contexte": "Depuis le 28 septembre 2026, le président du Rassemblement national est sous le feu des critiques après la publication de messages datant de sa jeunesse. Malgré l'apport de preuves techniques par Mediapart le 1er octobre, l'appareil du parti fait bloc derrière son leader, à l'approche des échéances de 2027. Cette stratégie de déni systématique et de contre-attaque judiciaire est une constante du mouvement face aux enquêtes de presse.",
+    "contexte": "Malgré des sondages qui le plaçaient en tête depuis des mois, Lula accuse un retard surprise face au fils de l'ancien président. Le camp conservateur aborde le second tour en position de force, espérant capter les voix des petits candidats. Ce scrutin est un test crucial pour la démocratie brésilienne, quatre ans après l'assaut du Capitole de Brasilia.",
     "sources": [
       {
-        "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/fil-dactualites/011026/mediapart-revele-avoir-pu-authentifier-les-messages-antisemites-attribues-bardella",
-        "type": "investigation",
+        "nom": "Tribunal Superior Eleitoral",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
+        "type": "institutionnel",
+        "groupe_media": null
+      },
+      {
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/10/05/presidentielle-au-bresil-flavio-bolsonaro-fils-de-l-ancien-chef-d-etat-d-extreme-droite-devance-lula-et-l-affrontera-au-second-tour_6788432_3210.html",
+        "type": "mainstream",
         "groupe_media": {
-          "nom": "Mediapart",
-          "proprietaire": "Fonds pour une presse libre",
-          "type_proprietaire": "fondation",
-          "orientation": "gauche"
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       },
       {
-        "nom": "Sud-Ouest",
-        "url": "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-marine-le-pen-maintient-totalement-sa-confiance-en-jordan-bardella-accuse-d-ecrits-antisemites-30905517.php",
+        "nom": "France 24",
+        "url": "https://www.france24.com/fr/am%C3%A9riques/20261005-bresil-presidentielle-flavio-bolsonaro-surprise-lula-premier-tour",
         "type": "mainstream",
         "groupe_media": null
       },
       {
-        "nom": "BFM TV",
-        "url": "https://www.bfmtv.com/politique/front-national/video-bergerac-des-elus-rn-refusent-de-nommer-une-ecole-du-nom-d-une-rescapee-de-la-shoah_VN-202610040068.html",
-        "type": "mainstream"
-      },
-      {
-        "nom": "Le Figaro",
-        "url": "https://www.lefigaro.fr/international/le-directeur-du-renseignement-americain-missionne-sur-les-menaces-de-l-ia-mais-aussi-pour-prevenir-la-surregulation-20261004",
-        "type": "mainstream"
+        "nom": "Senado Notícias",
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+        "type": "institutionnel",
+        "groupe_media": null
       }
     ],
-    "lien": null
+    "lien": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/flavio-e-lula-vao-disputar-2o-turno-para-presidente-da-republica"
   },
   "france": [
     {
-      "titre": "Vigilance orange pluie-inondation dans le Sud",
+      "titre": "Blocages lycéens : 400 à 500 établissements perturbés ce lundi",
       "rubrique": "societe",
-      "resume": "Météo-France a placé l’Aude et les Pyrénées-Orientales en vigilance orange ce dimanche. Des cumuls allant jusqu'à 180 mm sont attendus, provoquant des mesures préventives à Perpignan (Le Monde, Ouest-France, BFM TV).",
+      "resume": "Le ministre de l'Éducation nationale, Édouard Geffray, a annoncé la suspension des cours dans près de 500 lycées pour des raisons de sécurité. Le gouvernement fait état de 24 établissements saccagés et 78 personnels blessés depuis le début du mouvement (20 Minutes, La Croix).",
       "sources": [
         {
-          "nom": "Météo-France",
-          "url": "https://vigilance.meteofrance.fr/en/vigilance-accessible",
-          "type": "institutionnel",
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/societe/4251142-20261004-blocus-lycees-cours-suspendus-400-500-etablissements-lundi-24-saccages-incendies",
+          "type": "mainstream",
           "groupe_media": null
         },
         {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/societe/blocage-des-lycees-400-a-500-etablissements-entierement-ou-en-partie-fermes-lundi-20261004",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": "https://www.boursorama.com/actualite-economique/actualites-amp/france-lycees-entre-400-et-500-etablissements-encore-fermes-lundi-ministre-527fca4a53f287743065303084a5f603"
+    },
+    {
+      "titre": "Téléphone au volant : la suspension de permis généralisée",
+      "rubrique": "societe",
+      "resume": "Le gouvernement a étendu à l'ensemble du territoire la possibilité de suspendre temporairement le permis de conduire en cas d'usage du téléphone au volant. Cette mesure, déjà testée localement, a été confirmée par la ministre Marie-Pierre Vedrenne (L'Humanité, La Croix).",
+      "sources": [
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/societe/permis-de-conduire/telephone-au-volant-la-suspension-temporaire-du-permis-desormais-generalisee",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/societe/telephone-au-volant-pourquoi-la-suspension-de-permis-est-desormais-generalisee-20261004",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Budget 2027 : Bercy et le Medef s'affrontent sur les chiffres",
+      "rubrique": "economie",
+      "resume": "Le ministre de l'Économie Roland Lescure évalue l'effort demandé aux entreprises à 10 milliards d'euros, contredisant le Medef qui avance un chiffre de 20 milliards. Le gouvernement rejette les prévisions patronales jugées 'inexactes' (franceinfo, BFM Business).",
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/economie/budget/bercy-evalue-a-10-milliards-d-euros-l-effort-des-entreprises-dans-le-cadre-du-budget-2027-soit-moitie-moins-que-les-previsions-du-medef_8222299.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/economie-social/finances-publiques/la-somme-avancee-par-le-medef-est-inexacte-le-ministre-de-l-economie-roland-lescure-evalue-a-10-milliards-d-euros-l-effort-des-entreprises-moitie-moins-que-l-organisation-patronale_AD-202610040132.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
+    }
+  ],
+  "monde": [
+    {
+      "titre": "Friedrich Merz à Kiev sous les bombes russes",
+      "pays": "Ukraine",
+      "resume": "Le chancelier allemand a effectué une visite surprise pour promettre une nouvelle aide financière, alors que la Russie intensifie ses frappes sur les infrastructures de la capitale (France 24, franceinfo).",
+      "sources": [
+        {
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/europe/20261004-ukraine-la-russie-attaque-un-nouveau-pont-%C3%A0-kiev-le-jour-de-la-visite-du-chancelier-allemand",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/le-chancelier-allemand-friedrich-merz-realise-une-visite-surprise-a-kiev_8221903.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Escalade meurtrière au Yémen : 70 morts à Taëz",
+      "pays": "Yémen",
+      "resume": "Les rebelles Houthis encerclent la ville stratégique de Taëz. Le gouvernement a lancé une offensive globale pour reprendre le contrôle du pays face à l'avancée rebelle (Le Monde, Sud-Ouest).",
+      "sources": [
+        {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/planete/article/2026/10/03/l-aude-et-les-pyrenees-orientales-en-vigilance-orange-pluie-et-inondations-dimanche_6787783_3245.html",
+          "url": "https://www.lemonde.fr/international/article/2026/10/04/au-yemen-les-houthistes-coupent-un-axe-strategique-et-encerclent-taez-une-grande-ville-du-sud-ouest_6788266_3210.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -65,88 +163,8 @@
           }
         },
         {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/sport/basket/basket-n1m-lus-laval-a-tenu-tete-a-challans-mais-ne-gagne-toujours-pas-1801e296-bf74-11f1-aef6-9f33a81faeff?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream"
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/politique/front-national/video-bergerac-des-elus-rn-refusent-de-nommer-une-ecole-du-nom-d-une-rescapee-de-la-shoah_VN-202610040068.html",
-          "type": "mainstream"
-        }
-      ],
-      "lien": "https://www.mairie-perpignan.fr/actualites/4-octobre-vigilance-orange-pluies-inondations"
-    },
-    {
-      "titre": "Cyberattaque massive en Hauts-de-France",
-      "rubrique": "tech",
-      "resume": "Deux prestataires de la région, Atexo et Docaposte, ont été piratés. Les données personnelles et RIB de plusieurs milliers d'administrés ont été compromis (franceinfo, Sud-Ouest).",
-      "sources": [
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/dans-les-hauts-de-france-deux-prestataires-de-la-region-pirates-les-donnees-personnelles-de-plusieurs-milliers-de-personnes-ont-ete-volees_8221441.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
           "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/sante/psychologie/alchimie-amoureuse-ces-4-molecules-secretees-par-l-organisme-qui-provoquent-la-sensation-du-coup-de-foudre-30886603.php",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Téléphone au volant : permis suspendu partout",
-      "rubrique": "societe",
-      "resume": "La ministre Marie-Pierre Vedrenne a annoncé la généralisation de la suspension temporaire du permis (jusqu'à 6 mois) pour usage du téléphone au volant sur tout le territoire (20 Minutes, franceinfo).",
-      "sources": [
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/societe/4251013-20261003-telephone-volant-suspension-permis-generalisee-toute-france",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/societe/securite-routiere/la-suspension-temporaire-du-permis-de-conduire-en-cas-d-utilisation-du-telephone-portable-au-volant-est-generalisee-dans-toute-la-france-annonce-le-gouvernement_8221162.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    }
-  ],
-  "monde": [
-    {
-      "titre": "L'armée éthiopienne entre dans Mekele",
-      "pays": "Éthiopie",
-      "resume": "Les troupes fédérales ont repris le contrôle de la capitale du Tigré après le retrait des forces rebelles du TPLF. Cette avancée majeure fait suite à la prise stratégique de l'aéroport (RFI, France 24).",
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20261003-%C3%A9thiopie-apr%C3%A8s-la-prise-de-l-a%C3%A9roport-l-arm%C3%A9e-f%C3%A9d%C3%A9rale-fait-son-entr%C3%A9e-dans-mekele",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/afrique/20261003-approche-armee-ethiopienne-forces-rebelles-quittent-en-masse-mekele-capitale-tigre",
+          "url": "https://www.sudouest.fr/international/moyen-orient/guerre-au-yemen-plus-de-70-morts-en-24-heures-le-bilan-d-une-escalade-meurtriere-30918754.php",
           "type": "mainstream",
           "groupe_media": null
         }
@@ -154,217 +172,208 @@
       "lien": null
     },
     {
-      "titre": "Escalade entre Houthis et Arabie Saoudite",
-      "pays": "Yémen/Arabie Saoudite",
-      "resume": "En réponse à 26 raids saoudiens sur Sanaa, les Houthis ont frappé un site du géant pétrolier Aramco à Riyad, provoquant d'importants incendies (France 24, RFI, Sud-Ouest).",
+      "titre": "Victoire du nationaliste Milorad Dodik",
+      "pays": "Bosnie",
+      "resume": "Le leader pro-russe a revendiqué la victoire de son parti aux élections, exacerbant les tensions ethniques dans un pays déjà fracturé (The Guardian, Al Jazeera).",
       "sources": [
         {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/moyen-orient/20261003-y%C3%A9men-fortes-explosions-entendues-capitale-sanaa-contr%C3%B4l%C3%A9e-houthis-arabie-saoudite",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/international/arabie-saoudite-les-houthis-ont-attaque-l-un-des-sites-du-geant-petrolier-saoudien-aramco-30901392.php",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20261004-g%C3%A9nocides-des-tutsis-au-rwanda-dafroza-gauthier-une-vie-consacr%C3%A9e-%C3%A0-la-traque-des-g%C3%A9nocidaires-rwandais",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Duel serré Lula-Bolsonaro au Brésil",
-      "pays": "Brésil",
-      "resume": "Les Brésiliens votent ce dimanche pour le premier tour de la présidentielle. Le sortant Lula fait face à Flávio Bolsonaro, fils de l'ancien président, dans un climat d'extrême polarisation (RFI, France 24).",
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261003-%C3%A9lections-au-br%C3%A9sil-le-duel-lula-bolsonaro-un-air-de-d%C3%A9j%C3%A0-vu",
-          "type": "mainstream",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/04/bosnian-serb-nationalist-dodik-declares-party-victory-in-bosnia-election",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         },
         {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20261003-pr%C3%A9sidentielle-au-br%C3%A9sil-lula-et-bolsonaro-au-coude-%C3%A0-coude",
-          "type": "mainstream",
-          "groupe_media": null
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/bosnian-serb-nationalist-claims-party-victory-in-bosnia-elections",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Réactions politiques aux mouvements lycéens français",
+    "sujet": "Bataille médiatique autour des mobilisations lycéennes",
     "rubrique": "societe",
-    "contexte": "Depuis plusieurs jours, des lycéens bloquent des établissements pour dénoncer les inégalités scolaires et le manque de moyens. La réponse policière et politique suscite de vifs débats.",
+    "contexte": "Le mouvement lycéen contre les réformes scolaires et la précarité fait l'objet de récits diamétralement opposés dans la presse française.",
     "couvertures": [
       {
-        "source": "Le Monde",
+        "source": "Le Figaro",
         "type": "mainstream",
-        "angle": "Tribune de collectifs d'enseignants dénonçant la violence institutionnelle.",
+        "angle": "Dénonciation d'une instrumentalisation par l'ultragauche.",
         "ton": "critique",
-        "url": "https://www.lemonde.fr/idees/article/2026/10/03/mouvement-des-lyceens-plutot-que-de-les-ecouter-de-les-rencontrer-on-leur-oppose-un-mur-de-violences_6787804_3232.html",
-        "citation_cle": "Plutôt que de les écouter, on leur oppose un mur de violences.",
-        "auteur": "Collectif d'enseignants",
-        "proprietaire_contexte": "Xavier Niel / Daniel Kretinsky",
-        "orientation_source": "centre-droit",
-        "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
+        "url": "https://www.lefigaro.fr/actualite-france/guillaume-tabard-entre-la-gauche-radicale-et-l-executif-la-bataille-du-recit-sur-la-colere-lyceenne-20261004",
+        "citation_cle": "La gauche radicale dispose d’une base militante... qui travaille en permanence à mobiliser les insatisfaits chroniques.",
+        "auteur": "Guillaume Tabard",
+        "proprietaire_contexte": "Groupe Dassault",
+        "orientation_source": "Droite",
+        "groupe_media": null
       },
       {
-        "source": "L'Obs",
+        "source": "L'Humanité",
         "type": "mainstream",
-        "angle": "Analyse sociologique axée sur le mépris de classe envers les banlieues.",
+        "angle": "Critique de la criminalisation du mouvement par les médias de droite.",
         "ton": "engage",
-        "url": "https://www.nouvelobs.com/idees/20261002.OBS118826/pour-le-sociologue-fabien-truong-la-reponse-apportee-au-mouvement-lyceen-est-revelatrice-d-une-forme-de-mepris-de-classe.html",
-        "citation_cle": "La réponse apportée est révélatrice d'une forme de mépris de classe.",
-        "auteur": "Fabien Truong",
-        "proprietaire_contexte": "Groupe L'Obs",
-        "orientation_source": "centre-gauche",
-        "groupe_media": null
+        "url": "https://www.humanite.fr/politique/extreme-droite/hordes-de-barbares-encagoulees-sans-culottes-de-melenchon-wokistan-les-perles-de-la-presse-dextreme-d",
+        "citation_cle": "Hordes de barbares encagoulées... les perles de la presse d'extrême droite.",
+        "auteur": "Maurice Ulrich",
+        "proprietaire_contexte": "Coopérative de lecteurs",
+        "orientation_source": "Gauche",
+        "groupe_media": {
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
+        }
       }
     ],
-    "analyse_coherence": "L'analyse des couvertures révèle une fracture nette entre la presse nationale et internationale. Tandis que la presse française mainstream (Le Monde, L'Obs) se concentre sur les causes sociologiques — mépris de classe, abandon de l'école républicaine — et la parole des acteurs de terrain (enseignants), la presse étrangère comme le New York Times adopte un ton beaucoup plus alarmiste sur le maintien de l'ordre. Le quotidien américain souligne une intensité de la répression (milliers d'arrestations) qui semble presque naturalisée ou minimisée dans les titres français, plus occupés par le débat d'idées. On observe un double standard persistant : la violence policière contre des mineurs, qui susciterait une condamnation immédiate si elle se produisait hors d'Europe, est ici traitée sous l'angle du 'maintien de l'ordre nécessaire' par les sources institutionnelles françaises, là où le regard étranger y voit un ébranlement démocratique majeur.",
+    "analyse_coherence": "On observe une fracture nette dans le traitement médiatique. Le Figaro adopte une grille de lecture purement politique et sécuritaire, déléguant l'analyse à des chroniqueurs marqués comme Mathieu Bock-Côté pour dépeindre les lycéens comme des marionnettes de 'l'ultragauche'. À l'inverse, L'Humanité dénonce une sémantique guerrière ('barbares', 'wokistan') visant à occulter les revendications sociales. Les médias mainstream comme 20 Minutes ou La Croix se cantonnent aux chiffres fournis par le ministère, validant implicitement le cadrage gouvernemental de la 'sécurité' sans interroger les causes profondes de la colère. Ce double standard est flagrant : l'action lycéenne est soit une menace à l'ordre public, soit une manipulation politique, rarement un sujet politique autonome.",
     "biais_detectes": [
-      "Normalisation de la violence policière en France",
-      "Focalisation sur le profil sociologique plutôt que sur les droits humains"
+      "Criminalisation des mouvements sociaux",
+      "Instrumentalisation politique",
+      "Cadrage sécuritaire"
     ],
-    "ce_quil_faut_retenir": "Le mouvement lycéen est perçu à l'étranger comme une crise des droits humains, tandis qu'en France, il est analysé comme un symptôme de la fracture sociale et éducative."
+    "ce_quil_faut_retenir": "La bataille se joue moins sur les faits (le nombre de lycées fermés) que sur la légitimité de la colère. Le lecteur doit distinguer les bilans matériels de la rhétorique de disqualification politique."
   },
-  "regard_etranger": [],
+  "regard_etranger": [
+    {
+      "source": "Al Jazeera",
+      "pays": "Qatar",
+      "titre": "Israël fustige les Verts britanniques",
+      "titre_original": "Israel lashes out as UK’s Green Party formally defines Zionism as ‘racism’",
+      "angle": "Le média souligne l'isolement diplomatique croissant d'Israël face aux mouvements progressistes européens.",
+      "url": "https://www.aljazeera.com/news/2026/10/4/israel-lashes-out-as-uks-green-party-formally-defines-zionism-as-racism",
+      "groupe_media": {
+        "nom": "Al Jazeera Media Network",
+        "proprietaire": "État du Qatar",
+        "type_proprietaire": "etat",
+        "orientation": "variable"
+      }
+    }
+  ],
   "chiffre_du_jour": {
-    "valeur": "5",
-    "contexte": "Nombre de personnes mises en examen en France pour des soupçons de financement du Hamas via des structures humanitaires.",
-    "source": "Le Monde / AFP",
-    "source_url": "https://www.lemonde.fr"
+    "valeur": "400 à 500",
+    "contexte": "Nombre de lycées français totalement ou partiellement fermés ce lundi 5 octobre 2026 par décision ministérielle.",
+    "source": "Ministère de l'Éducation nationale via Reuters",
+    "source_url": "https://www.boursorama.com/actualite-economique/actualites-amp/france-lycees-entre-400-et-500-etablissements-encore-fermes-lundi-ministre-527fca4a53f287743065303084a5f603"
   },
   "a_surveiller": [
     {
-      "date": "2026-10-05",
-      "evenement": "Manifestation pour le logement reportée à Barcelone",
+      "date": "2026-10-06",
+      "evenement": "Appel national à la grève et manifestations lycéennes et étudiantes",
       "type": "manifestation",
       "lien": null
     },
     {
-      "date": "2026-10-10",
-      "evenement": "Fin du statut de témoin protégé pour Rui Pinto (Football Leaks)",
-      "type": "echeance",
-      "lien": "https://www.theguardian.com/football/2026/sep/30/manchester-city-whistleblower-rui-pinto-no-longer-protected-witness-premier-league-portuguese-police"
+      "date": "2026-10-25",
+      "evenement": "Second tour de l'élection présidentielle au Brésil",
+      "type": "vote",
+      "lien": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/flavio-e-lula-vao-disputar-2o-turno-para-presidente-da-republica"
+    },
+    {
+      "date": "2026-11-03",
+      "evenement": "Référendum en Californie sur la taxe des milliardaires (Proposition 40)",
+      "type": "vote",
+      "lien": "https://voterguide.sos.ca.gov/propositions/40/analysis.htm"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Pollution spatiale : les satellites menacent l'ozone",
-      "rubrique": "science",
-      "resume": "La multiplication des rentrées atmosphériques de satellites injecte des oxydes d'aluminium dans la stratosphère, risquant de détruire la couche d'ozone. Aucune réglementation internationale ne contraint actuellement les opérateurs comme SpaceX (Mediapart, GRL).",
+      "titre": "RN et Identitaires : les liaisons dangereuses à Lyon",
+      "rubrique": "politique",
+      "resume": "Une enquête documente les liens entre l'eurodéputé RN Fabrice Leggeri (ex-patron de Frontex) et des militants de La Cocarde, organisation proche de la mouvance identitaire violente.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/culture-et-idees/031026/les-satellites-polluent-l-atmosphere-sans-aucune-reglementation",
+          "nom": "Rue89 Lyon",
+          "url": "https://www.rue89lyon.fr/2026/10/05/parlement-europeen-fabrice-leggeri-frontex-extreme-droite-identitaire/",
           "type": "investigation"
-        },
-        {
-          "nom": "Geophysical Research Letters",
-          "url": null,
-          "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "L'impact environnemental des méga-constellations est totalement occulté par le récit du progrès technologique et de la conquête spatiale."
+      "pourquoi_signal": "Ce sujet révèle la persistance de réseaux radicaux derrière la 'dédiabolisation' de façade du Rassemblement National."
     },
     {
-      "titre": "Rui Pinto : le lanceur d'alerte abandonné",
-      "rubrique": "international",
-      "resume": "La justice portugaise retire le statut de témoin protégé à l'homme derrière les Football Leaks. Cette décision intervient juste après des condamnations majeures dans le football anglais (Mediapart, The Guardian).",
+      "titre": "Californie : la guerre secrète contre la taxe 'milliardaires'",
+      "rubrique": "economie",
+      "resume": "La Proposition 40 visant à taxer les ultra-riches à 5% fait l'objet d'une contre-offensive juridique via une proposition concurrente (Prop 42) destinée à la neutraliser.",
       "sources": [
         {
           "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/international/031026/football-leaks-le-lanceur-d-alerte-rui-pinto-lache-par-la-justice-portugaise",
+          "url": "https://www.mediapart.fr/journal/international/041026/taxer-les-milliardaires-en-californie-une-bataille-couteaux-tires-avant-le-referendum",
           "type": "investigation"
-        },
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/football/2026/sep/30/manchester-city-whistleblower-rui-pinto-no-longer-protected-witness-premier-league-portuguese-police",
-          "type": "mainstream"
         }
       ],
-      "pourquoi_signal": "Il illustre la fragilité des lanceurs d'alerte face aux intérêts financiers massifs une fois que les informations ont été exploitées."
+      "pourquoi_signal": "Une stratégie sophistiquée de sabotage législatif par les lobbies de la tech, peu documentée dans la presse généraliste."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Espagne : Révolte massive pour le droit au logement",
+      "titre": "Procès Rohan Rane : l'horreur du néonazisme numérique",
       "rubrique": "societe",
-      "resume": "Entre 70 000 et 500 000 personnes ont manifesté à Madrid après le rejet d'un 'bouclier social' anti-expulsions par le Parlement (La Croix, France 24, franceinfo).",
+      "resume": "Ouverture à Paris du procès d'un 'gourou' de 29 ans accusé de tortures sexuelles sur mineures via Discord, sur fond d'idéologie masculiniste et fasciste.",
       "axes_concernes": [
-        "justice_sociale",
-        "equite_economique"
+        "antifascisme",
+        "droits_humains"
       ],
-      "analyse": "Cette mobilisation souligne l'urgence d'une régulation du marché immobilier face à la spéculation. Le droit au logement est un droit humain fondamental, ici menacé par des blocages politiques qui privilégient la propriété rentière sur la dignité des locataires.",
+      "analyse": "Ce procès met en lumière la convergence entre l'extrême droite radicale et les violences de genre organisées en ligne. Il interroge la responsabilité des plateformes (Discord) et la porosité des discours de haine qui mènent à des crimes physiques.",
       "sources": [
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/espagne-apres-le-rejet-des-mesures-du-gouvernement-des-manifestations-monstres-pour-le-droit-au-logement-20261003",
-          "type": "mainstream"
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/041026/proces-rohan-rane-masculiniste-et-neonazi-il-forcait-en-ligne-des-adolescentes-des-tortures-sexuelles",
+          "type": "investigation"
         },
         {
-          "nom": "La Moncloa",
-          "url": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/Paginas/2026/290926-rueda-prensa-ministros.aspx",
-          "type": "institutionnel"
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/societe/police-justice/extorsions-et-tortures-sexuelles-sur-discord-le-proces-du-gourou-neonazi-et-nihiliste-rohan-rane-souvre-a-paris-20261004_H7NUOA67QFBIPGGYJMP6JJNP5U/",
+          "type": "mainstream"
         }
       ]
     },
     {
-      "titre": "Disparition de Dafroza Gauthier, mémoire du Rwanda",
-      "rubrique": "societe",
-      "resume": "La traqueuse de génocidaires rwandais est décédée à 72 ans. Elle a permis la condamnation de sept responsables du génocide des Tutsi en France (RFI, Le Monde).",
+      "titre": "Égypte : le média Matsaddash décapité",
+      "rubrique": "international",
+      "resume": "Toute la rédaction de ce média indépendant de fact-checking a été arrêtée par le régime d'Al-Sissi sous des accusations de terrorisme.",
       "axes_concernes": [
-        "droit_international",
-        "antifascisme"
+        "liberte_expression",
+        "droits_humains"
       ],
-      "analyse": "Le travail de Dafroza Gauthier rappelle que la justice universelle est un combat de longue haleine. Son action contre l'impunité des bourreaux réfugiés sur le sol français est un pilier de la lutte contre le révisionnisme.",
+      "analyse": "L'arrestation d'une rédaction entière est une étape franchie dans la répression de la presse libre. Matsaddash ('Ne croyez pas') gênait par son travail de démontage de la propagande d'État.",
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20261004-g%C3%A9nocides-des-tutsis-au-rwanda-dafroza-gauthier-une-vie-consacr%C3%A9e-%C3%A0-la-traque-des-g%C3%A9nocidaires-rwandais",
-          "type": "mainstream"
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom",
+          "type": "etranger"
         },
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/disparitions/article/2026/10/03/dafroza-gauthier-apres-trente-ans-de-traque-des-genocidaires-rwandais-refugies-en-france-est-morte_6787817_3382.html",
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/medias/egypte/en-egypte-la-totalite-de-la-redaction-du-media-independant-matsaddash-a-ete-arretee",
           "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-10-04",
-  "genere_a": "2026-10-04T04:33:34.581Z",
+  "date": "2026-10-05",
+  "genere_a": "2026-10-05T04:34:12.971Z",
   "meta": {
-    "nb_articles_analyses": 492,
-    "nb_topics": 152,
+    "nb_articles_analyses": 524,
+    "nb_topics": 154,
     "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 40,
-    "sources_francaises": 354,
-    "sources_etrangeres": 138,
+    "nb_articles_dans_selection": 39,
+    "sources_francaises": 375,
+    "sources_etrangeres": 149,
     "rubriques_couvertes": [
-      "politique",
+      "international",
       "societe",
-      "tech",
-      "international"
+      "economie"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"
