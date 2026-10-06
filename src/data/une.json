@@ -1,25 +1,25 @@
 {
   "sujet_du_jour": {
-    "titre": "Brésil 2026 : Flávio Bolsonaro vire en tête, duel final contre Lula le 25 octobre",
+    "titre": "Espagne : Pedro Sánchez dissout le Parlement face à la crise du logement",
     "rubrique": "international",
-    "pourquoi_important": "Le premier tour confirme la résilience de l'extrême droite bolsonariste et place le président sortant Lula en difficulté pour le second tour.",
+    "pourquoi_important": "Le blocage politique sur le droit au logement fait tomber le gouvernement et précipite l'Espagne vers un nouveau scrutin incertain.",
     "faits": [
-      "Avec 99,99% des urnes dépouillées, Flávio Bolsonaro (PL) obtient 47,04% des voix contre 45,15% pour Luiz Inácio Lula da Silva (PT).",
-      "Le Tribunal Supérieur Électoral (TSE) a officiellement confirmé l'affiche du second tour prévu pour le 25 octobre 2026.",
-      "Flávio Bolsonaro a été désigné candidat par son père Jair Bolsonaro, ce dernier étant frappé d'une peine de 27 ans de prison.",
-      "L'écart de seulement deux points (environ 2,2 millions de voix) souligne une polarisation extrême du pays."
+      "Le Premier ministre Pedro Sánchez a convoqué des élections législatives anticipées pour le dimanche 29 novembre 2026.",
+      "Cette décision fait suite au rejet par le Congrès, le 2 octobre, de deux décrets-lois (26/2026 et 27/2026) visant à réguler le marché du logement .",
+      "Le Parti populaire (droite) et Vox (extrême droite) ont fait bloc contre ces mesures de régulation des loyers et de création de logements abordables (La Croix, Libération).",
+      "Le décret de dissolution doit être publié au Bulletin officiel de l'État (BOE) ce 6 octobre, enclenchant le calendrier électoral légal ."
     ],
-    "contexte": "Malgré des sondages qui le plaçaient en tête depuis des mois, Lula accuse un retard surprise face au fils de l'ancien président. Le camp conservateur aborde le second tour en position de force, espérant capter les voix des petits candidats. Ce scrutin est un test crucial pour la démocratie brésilienne, quatre ans après l'assaut du Capitole de Brasilia.",
+    "contexte": "Pedro Sánchez tente un nouveau coup de poker politique alors que sa majorité est fragilisée par des scandales et une contestation sociale croissante liée au coût de la vie. En avançant le scrutin initialement prévu mi-2027, il espère reprendre l'initiative face à une droite unie. La crise du logement, moteur de cette dissolution, est devenue le principal point de fracture sociale en Espagne (Le Monde, RFI).",
     "sources": [
       {
-        "nom": "Tribunal Superior Eleitoral",
-        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
+        "nom": "La Moncloa",
+        "url": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2026/051026-sanchez-convocatoria-elecciones.aspx",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
         "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/10/05/presidentielle-au-bresil-flavio-bolsonaro-fils-de-l-ancien-chef-d-etat-d-extreme-droite-devance-lula-et-l-affrontera-au-second-tour_6788432_3210.html",
+        "url": "https://www.lemonde.fr/international/article/2026/10/05/en-espagne-pedro-sanchez-fait-une-nouvelle-fois-le-pari-des-urnes-face-a-une-contestation-sociale-nourrie-par-la-crise-du-logement_6788569_3210.html",
         "type": "mainstream",
         "groupe_media": {
           "nom": "Groupe Le Monde",
@@ -29,49 +29,79 @@
         }
       },
       {
-        "nom": "France 24",
-        "url": "https://www.france24.com/fr/am%C3%A9riques/20261005-bresil-presidentielle-flavio-bolsonaro-surprise-lula-premier-tour",
-        "type": "mainstream",
-        "groupe_media": null
+        "nom": "Mediapart",
+        "url": "https://www.mediapart.fr/journal/international/051026/espagne-pedro-sanchez-convoque-des-elections-anticipees-le-29-novembre",
+        "type": "investigation",
+        "groupe_media": {
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
+          "orientation": "gauche"
+        }
       },
       {
-        "nom": "Senado Notícias",
-        "url": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
-        "type": "institutionnel",
-        "groupe_media": null
+        "nom": "Libération",
+        "url": "https://www.liberation.fr/international/europe/des-legislatives-anticipees-en-espagne-ultime-pari-de-pedro-sanchez-20261005_EPYCGEGSGJFC7L5FJ7O55I37QQ/",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
+        }
+      },
+      {
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/afrique/20261006-ebola-en-rdc-msf-s-inqui%C3%A8te-de-l-aggravation-de-la-situation-sanitaire-au-nord-kivu",
+        "type": "mainstream"
+      },
+      {
+        "nom": "La Croix",
+        "url": "https://www.la-croix.com/economie/whatsapp-teams-e-mails-quand-les-echanges-entre-collegues-derapent-aussi-en-numerique-20261005",
+        "type": "mainstream"
       }
     ],
-    "lien": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/flavio-e-lula-vao-disputar-2o-turno-para-presidente-da-republica"
+    "lien": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2026/051026-sanchez-convocatoria-elecciones.aspx"
   },
   "france": [
     {
-      "titre": "Blocages lycéens : 400 à 500 établissements perturbés ce lundi",
-      "rubrique": "societe",
-      "resume": "Le ministre de l'Éducation nationale, Édouard Geffray, a annoncé la suspension des cours dans près de 500 lycées pour des raisons de sécurité. Le gouvernement fait état de 24 établissements saccagés et 78 personnels blessés depuis le début du mouvement (20 Minutes, La Croix).",
+      "titre": "Facture climatique de l'été 2026 : 16 milliards d'euros",
+      "rubrique": "economie",
+      "resume": "Une mission parlementaire dirigée par Éric Coquerel chiffre à 16 milliards d'euros le coût des canicules et incendies de l'été dernier. Ce montant, équivalent au budget de la Santé, pèsera lourdement sur les débats du budget 2027.",
       "sources": [
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/societe/4251142-20261004-blocus-lycees-cours-suspendus-400-500-etablissements-lundi-24-saccages-incendies",
-          "type": "mainstream",
-          "groupe_media": null
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Canicules-incendies-Le-cout-de-l-ete-2026-evalue-a-16-milliards-d-euros",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Reporterre",
+            "proprietaire": "Association La Pile",
+            "type_proprietaire": "independant",
+            "orientation": "gauche"
+          }
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/blocage-des-lycees-400-a-500-etablissements-entierement-ou-en-partie-fermes-lundi-20261004",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/canicules-secheresse-incendies-l-ete-2026-a-coute-16-milliards-d-euros-selon-les-calculs-d-une-mission-parlementaire_8223526.html",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         }
       ],
-      "lien": "https://www.boursorama.com/actualite-economique/actualites-amp/france-lycees-entre-400-et-500-etablissements-encore-fermes-lundi-ministre-527fca4a53f287743065303084a5f603"
+      "lien": "https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/cout-de-la-canicule-presentation-d-une-communication-en-conclusion-des-travaux-de-la-mission-flash"
     },
     {
-      "titre": "Téléphone au volant : la suspension de permis généralisée",
+      "titre": "Appel à la grève nationale le 5 novembre",
       "rubrique": "societe",
-      "resume": "Le gouvernement a étendu à l'ensemble du territoire la possibilité de suspendre temporairement le permis de conduire en cas d'usage du téléphone au volant. Cette mesure, déjà testée localement, a été confirmée par la ministre Marie-Pierre Vedrenne (L'Humanité, La Croix).",
+      "resume": "L'intersyndicale (CGT, FO, FSU, Unsa appelle à une mobilisation générale pour les salaires et les services publics. Le mouvement vise directement le projet de budget 2027 jugé trop austère.",
       "sources": [
         {
           "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/societe/permis-de-conduire/telephone-au-volant-la-suspension-temporaire-du-permis-desormais-generalisee",
+          "url": "https://www.humanite.fr/social-et-economie/caroline-cheve/la-cfdt-la-cgt-fo-lunsa-et-la-fsu-appellent-a-la-greve-le-5-novembre-pour-les-salaires-les-services-publics-lemploi-et-lindustrie",
           "type": "mainstream",
           "groupe_media": {
             "nom": "L'Humanité",
@@ -82,78 +112,26 @@
         },
         {
           "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/telephone-au-volant-pourquoi-la-suspension-de-permis-est-desormais-generalisee-20261004",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Budget 2027 : Bercy et le Medef s'affrontent sur les chiffres",
-      "rubrique": "economie",
-      "resume": "Le ministre de l'Économie Roland Lescure évalue l'effort demandé aux entreprises à 10 milliards d'euros, contredisant le Medef qui avance un chiffre de 20 milliards. Le gouvernement rejette les prévisions patronales jugées 'inexactes' (franceinfo, BFM Business).",
-      "sources": [
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/economie/budget/bercy-evalue-a-10-milliards-d-euros-l-effort-des-entreprises-dans-le-cadre-du-budget-2027-soit-moitie-moins-que-les-previsions-du-medef_8222299.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/economie-social/finances-publiques/la-somme-avancee-par-le-medef-est-inexacte-le-ministre-de-l-economie-roland-lescure-evalue-a-10-milliards-d-euros-l-effort-des-entreprises-moitie-moins-que-l-organisation-patronale_AD-202610040132.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": null
-    }
-  ],
-  "monde": [
-    {
-      "titre": "Friedrich Merz à Kiev sous les bombes russes",
-      "pays": "Ukraine",
-      "resume": "Le chancelier allemand a effectué une visite surprise pour promettre une nouvelle aide financière, alors que la Russie intensifie ses frappes sur les infrastructures de la capitale (France 24, franceinfo).",
-      "sources": [
-        {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/europe/20261004-ukraine-la-russie-attaque-un-nouveau-pont-%C3%A0-kiev-le-jour-de-la-visite-du-chancelier-allemand",
+          "url": "https://www.la-croix.com/economie/pouvoir-d-achat-fiscalite-services-publics-lintersyndicale-appelle-a-la-greve-le-5-novembre-20261005",
           "type": "mainstream",
           "groupe_media": null
         },
         {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/le-chancelier-allemand-friedrich-merz-realise-une-visite-surprise-a-kiev_8221903.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
+          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/direct-blocages-des-lycees-des-manifestations-prevues-dans-une-trentaine-de-villes-pour-l-acte-iii-de-la-mobilisation_8224333.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Escalade meurtrière au Yémen : 70 morts à Taëz",
-      "pays": "Yémen",
-      "resume": "Les rebelles Houthis encerclent la ville stratégique de Taëz. Le gouvernement a lancé une offensive globale pour reprendre le contrôle du pays face à l'avancée rebelle (Le Monde, Sud-Ouest).",
+      "titre": "Violences sexuelles : création d'unités de police spécialisées",
+      "rubrique": "politique",
+      "resume": "Dans le cadre de la loi intégrale contre les VSS, les députés ont adopté la création d'unités dédiées dans la police, malgré les réticences du ministre de l'Intérieur Laurent Nuñez qui jugeait le texte peu opérationnel.",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/04/au-yemen-les-houthistes-coupent-un-axe-strategique-et-encerclent-taez-une-grande-ville-du-sud-ouest_6788266_3210.html",
+          "url": "https://www.lemonde.fr/societe/article/2026/10/06/loi-integrale-contre-les-violences-sexuelles-les-deputes-adoptent-la-creation-d-unites-speciales-au-sein-de-la-police_6788655_3224.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -163,8 +141,40 @@
           }
         },
         {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/international/moyen-orient/guerre-au-yemen-plus-de-70-morts-en-24-heures-le-bilan-d-une-escalade-meurtriere-30918754.php",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/societe/harcelement-sexuel/on-veut-pousser-les-deputes-a-ne-pas-denaturer-le-texte-des-centaines-de-manifestants-pour-soutenir-la-loi-integrale-contre-les-violences-sexistes-et-sexuelles_8223958.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    }
+  ],
+  "monde": [
+    {
+      "titre": "Brésil : Flávio Bolsonaro en tête du premier tour",
+      "pays": "Brésil",
+      "resume": "Le fils de l'ancien président a créé la surprise en obtenant 47 % des voix contre 45 % pour Lula. Un second tour polarisé est prévu le 25 octobre, confirmant l'ancrage de l'extrême droite dans le pays.",
+      "sources": [
+        {
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Au-Bresil-le-candidat-d-extreme-droite-Flavio-Bolsonaro-devance-Lula-au-premier-tour-de",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Reporterre",
+            "proprietaire": "Association La Pile",
+            "type_proprietaire": "independant",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261005-br%C3%A9sil-lula-peut-il-encore-gagner",
           "type": "mainstream",
           "groupe_media": null
         }
@@ -172,30 +182,30 @@
       "lien": null
     },
     {
-      "titre": "Victoire du nationaliste Milorad Dodik",
-      "pays": "Bosnie",
-      "resume": "Le leader pro-russe a revendiqué la victoire de son parti aux élections, exacerbant les tensions ethniques dans un pays déjà fracturé (The Guardian, Al Jazeera).",
+      "titre": "Québec : raz-de-marée indépendantiste",
+      "pays": "Canada",
+      "resume": "Le Parti québécois remporte les élections provinciales et promet un référendum sur l'indépendance. Paul St-Pierre Plamondon précise toutefois qu'il attendra la fin du mandat de Donald Trump aux USA pour agir.",
       "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/04/bosnian-serb-nationalist-dodik-declares-party-victory-in-bosnia-election",
-          "type": "etranger",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/10/06/au-quebec-les-independantistes-remportent-les-elections-provinciales-et-promettent-un-nouveau-referendum-sur-la-sortie-du-canada_6788755_3210.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/bosnian-serb-nationalist-claims-party-victory-in-bosnia-elections",
-          "type": "etranger",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261006-canada-au-qu%C3%A9bec-les-ind%C3%A9pendantistes-remportent-les-%C3%A9lections-provinciales-et-promettent-un-nouveau-r%C3%A9f%C3%A9rendum",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
             "type_proprietaire": "etat",
-            "orientation": "variable"
+            "orientation": "centre"
           }
         }
       ],
@@ -203,177 +213,174 @@
     }
   ],
   "regard_croise": {
-    "sujet": "Bataille médiatique autour des mobilisations lycéennes",
+    "sujet": "Violences policières : Eden, 14 ans, blessé au visage",
     "rubrique": "societe",
-    "contexte": "Le mouvement lycéen contre les réformes scolaires et la précarité fait l'objet de récits diamétralement opposés dans la presse française.",
+    "contexte": "Eden, lycéen de 14 ans, a été grièvement blessé par un tir de lance-grenade policier devant son lycée de Saint-Ouen-l’Aumône . Ses parents déposent plainte pour tentative d’homicide volontaire.",
     "couvertures": [
       {
-        "source": "Le Figaro",
-        "type": "mainstream",
-        "angle": "Dénonciation d'une instrumentalisation par l'ultragauche.",
+        "source": "Mediapart",
+        "type": "investigation",
+        "angle": "Focus sur le traumatisme familial et la qualification juridique de 'tentative d'homicide'.",
         "ton": "critique",
-        "url": "https://www.lefigaro.fr/actualite-france/guillaume-tabard-entre-la-gauche-radicale-et-l-executif-la-bataille-du-recit-sur-la-colere-lyceenne-20261004",
-        "citation_cle": "La gauche radicale dispose d’une base militante... qui travaille en permanence à mobiliser les insatisfaits chroniques.",
-        "auteur": "Guillaume Tabard",
-        "proprietaire_contexte": "Groupe Dassault",
-        "orientation_source": "Droite",
+        "url": "https://www.mediapart.fr/journal/france/051026/hold-camille-ca-fait-mal-d-envoyer-son-enfant-l-ecole-de-le-retrouver-dans-cet-etat-la-eden-14-ans-blesse",
+        "citation_cle": "Ça fait mal de retrouver son enfant dans cet état là.",
+        "auteur": "Samia Dechir, Mathieu Magnaudeix",
+        "proprietaire_contexte": "Indépendant (Fonds pour une presse libre)",
+        "orientation_source": "Gauche",
+        "groupe_media": {
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
+          "orientation": "gauche"
+        }
+      },
+      {
+        "source": "Bondy Blog",
+        "type": "investigation",
+        "angle": "Mise en avant de l'impact irréversible sur la vie de l'adolescent (mâchoire brisée).",
+        "ton": "engage",
+        "url": "https://www.bondyblog.fr/reportages/eden-14-ans-grievement-blesse-par-un-tir-policier-ils-ont-tue-ma-vie/",
+        "citation_cle": "Ils ont tué ma vie.",
+        "auteur": "Sofiane Zerouala",
+        "proprietaire_contexte": "Indépendant",
+        "orientation_source": "Gauche",
         "groupe_media": null
       },
       {
-        "source": "L'Humanité",
+        "source": "L'Obs",
         "type": "mainstream",
-        "angle": "Critique de la criminalisation du mouvement par les médias de droite.",
-        "ton": "engage",
-        "url": "https://www.humanite.fr/politique/extreme-droite/hordes-de-barbares-encagoulees-sans-culottes-de-melenchon-wokistan-les-perles-de-la-presse-dextreme-d",
-        "citation_cle": "Hordes de barbares encagoulées... les perles de la presse d'extrême droite.",
-        "auteur": "Maurice Ulrich",
-        "proprietaire_contexte": "Coopérative de lecteurs",
-        "orientation_source": "Gauche",
-        "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
-          "orientation": "gauche"
-        }
+        "angle": "Récit factuel du témoignage des parents en marge du mouvement lycéen.",
+        "ton": "factuel",
+        "url": "https://www.nouvelobs.com/justice/20261005.OBS118921/je-suis-en-colere-mon-c-ur-est-en-miettes-les-parents-du-lyceen-blesse-au-visage-par-un-tir-policier-dans-le-val-d-oise-temoignent.html",
+        "citation_cle": "Mon cœur est en miettes.",
+        "auteur": "Manon Bernard",
+        "proprietaire_contexte": "Groupe L'Obs",
+        "orientation_source": "Centre-gauche",
+        "groupe_media": null
       }
     ],
-    "analyse_coherence": "On observe une fracture nette dans le traitement médiatique. Le Figaro adopte une grille de lecture purement politique et sécuritaire, déléguant l'analyse à des chroniqueurs marqués comme Mathieu Bock-Côté pour dépeindre les lycéens comme des marionnettes de 'l'ultragauche'. À l'inverse, L'Humanité dénonce une sémantique guerrière ('barbares', 'wokistan') visant à occulter les revendications sociales. Les médias mainstream comme 20 Minutes ou La Croix se cantonnent aux chiffres fournis par le ministère, validant implicitement le cadrage gouvernemental de la 'sécurité' sans interroger les causes profondes de la colère. Ce double standard est flagrant : l'action lycéenne est soit une menace à l'ordre public, soit une manipulation politique, rarement un sujet politique autonome.",
+    "analyse_coherence": "La couverture de l'affaire Eden illustre une fracture persistante dans le traitement médiatique des violences policières. Alors que les médias d'investigation et de proximité (Mediapart, Bondy Blog) placent la parole des victimes et la remise en question des méthodes de maintien de l'ordre au centre du récit, la presse dite 'mainstream' (L'Obs) reste plus prudente, se concentrant sur l'émotion parentale plutôt que sur l'analyse systémique du tir. On note l'absence quasi totale de couverture par les médias de droite (Figaro) ou les chaînes d'information en continu à ce stade, un 'silence' qui contraste avec la rapidité de traitement lorsqu'un policier est blessé. Cette géométrie variable dans l'indignation médiatique souligne un double standard : la violence subie par un mineur de 14 ans devant son établissement scolaire semble nécessiter une 'validation' judiciaire plus longue pour devenir un sujet d'ampleur nationale, contrairement aux faits divers impliquant l'autorité.",
     "biais_detectes": [
-      "Criminalisation des mouvements sociaux",
-      "Instrumentalisation politique",
-      "Cadrage sécuritaire"
+      "Invisibilisation par la presse de droite",
+      "Focus émotionnel vs analyse systémique"
     ],
-    "ce_quil_faut_retenir": "La bataille se joue moins sur les faits (le nombre de lycées fermés) que sur la légitimité de la colère. Le lecteur doit distinguer les bilans matériels de la rhétorique de disqualification politique."
+    "ce_quil_faut_retenir": "Un mineur a été mutilé par une arme de guerre (lance-grenade) dans un cadre scolaire ; la plainte pour tentative d'homicide marque une escalade judiciaire rare."
   },
   "regard_etranger": [
     {
-      "source": "Al Jazeera",
-      "pays": "Qatar",
-      "titre": "Israël fustige les Verts britanniques",
-      "titre_original": "Israel lashes out as UK’s Green Party formally defines Zionism as ‘racism’",
-      "angle": "Le média souligne l'isolement diplomatique croissant d'Israël face aux mouvements progressistes européens.",
-      "url": "https://www.aljazeera.com/news/2026/10/4/israel-lashes-out-as-uks-green-party-formally-defines-zionism-as-racism",
+      "source": "The Guardian",
+      "pays": "Royaume-Uni",
+      "titre": "Jeffrey Archer, ancien politicien conservateur et romancier, meurt à 86 ans",
+      "titre_original": "Jeffrey Archer, former Conservative politician and novelist, dies aged 86",
+      "angle": "Hommage à une figure britannique mêlant succès littéraire mondial et disgrâce politique.",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86",
       "groupe_media": {
-        "nom": "Al Jazeera Media Network",
-        "proprietaire": "État du Qatar",
-        "type_proprietaire": "etat",
-        "orientation": "variable"
+        "nom": "Scott Trust",
+        "proprietaire": "Scott Trust Limited",
+        "type_proprietaire": "fondation",
+        "orientation": "centre-gauche"
+      }
+    },
+    {
+      "source": "NYT World",
+      "pays": "États-Unis",
+      "titre": "Cheikh Hamidou Kane, auteur du roman anticolonial séminal, meurt à 98 ans",
+      "titre_original": "Cheikh Hamidou Kane, Author of Seminal Anticolonial Novel, Dies at 98",
+      "angle": "Reconnaissance internationale d'un père fondateur de la littérature africaine moderne.",
+      "url": "https://www.nytimes.com/2026/10/05/obituaries/cheikh-hamidou-dead.html",
+      "groupe_media": {
+        "nom": "The New York Times Company",
+        "proprietaire": "Famille Ochs-Sulzberger",
+        "type_proprietaire": "famille",
+        "orientation": "centre"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "400 à 500",
-    "contexte": "Nombre de lycées français totalement ou partiellement fermés ce lundi 5 octobre 2026 par décision ministérielle.",
-    "source": "Ministère de l'Éducation nationale via Reuters",
-    "source_url": "https://www.boursorama.com/actualite-economique/actualites-amp/france-lycees-entre-400-et-500-etablissements-encore-fermes-lundi-ministre-527fca4a53f287743065303084a5f603"
+    "valeur": "16 milliards d'euros",
+    "contexte": "Coût estimé pour les finances publiques des catastrophes climatiques de l'été 2026 en France (canicule, sécheresse, incendies).",
+    "source": "Assemblée Nationale",
+    "source_url": "https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/cout-de-la-canicule-presentation-d-une-communication-en-conclusion-des-travaux-de-la-mission-flash"
   },
   "a_surveiller": [
     {
-      "date": "2026-10-06",
-      "evenement": "Appel national à la grève et manifestations lycéennes et étudiantes",
+      "date": "2026-11-05",
+      "evenement": "Grève nationale intersyndicale pour les salaires",
       "type": "manifestation",
       "lien": null
     },
     {
-      "date": "2026-10-25",
-      "evenement": "Second tour de l'élection présidentielle au Brésil",
+      "date": "2026-11-29",
+      "evenement": "Élections législatives anticipées en Espagne",
       "type": "vote",
-      "lien": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/flavio-e-lula-vao-disputar-2o-turno-para-presidente-da-republica"
-    },
-    {
-      "date": "2026-11-03",
-      "evenement": "Référendum en Californie sur la taxe des milliardaires (Proposition 40)",
-      "type": "vote",
-      "lien": "https://voterguide.sos.ca.gov/propositions/40/analysis.htm"
+      "lien": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2026/051026-sanchez-convocatoria-elecciones.aspx"
     }
   ],
   "signal_faible": [
     {
-      "titre": "RN et Identitaires : les liaisons dangereuses à Lyon",
-      "rubrique": "politique",
-      "resume": "Une enquête documente les liens entre l'eurodéputé RN Fabrice Leggeri (ex-patron de Frontex) et des militants de La Cocarde, organisation proche de la mouvance identitaire violente.",
-      "sources": [
-        {
-          "nom": "Rue89 Lyon",
-          "url": "https://www.rue89lyon.fr/2026/10/05/parlement-europeen-fabrice-leggeri-frontex-extreme-droite-identitaire/",
-          "type": "investigation"
-        }
-      ],
-      "pourquoi_signal": "Ce sujet révèle la persistance de réseaux radicaux derrière la 'dédiabolisation' de façade du Rassemblement National."
-    },
-    {
-      "titre": "Californie : la guerre secrète contre la taxe 'milliardaires'",
+      "titre": "Bilan social : 37 % de pauvres en plus en 10 ans",
       "rubrique": "economie",
-      "resume": "La Proposition 40 visant à taxer les ultra-riches à 5% fait l'objet d'une contre-offensive juridique via une proposition concurrente (Prop 42) destinée à la neutraliser.",
+      "resume": "L'enquête de Blast pointe une explosion de la pauvreté monétaire sous l'ère Macron. Si l'Insee confirme une hausse de 12% du nombre de pauvres (9,8 millions en 2024), l'analyse de Blast suggère un appauvrissement encore plus profond selon d'autres indicateurs de privation.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/international/041026/taxer-les-milliardaires-en-californie-une-bataille-couteaux-tires-avant-le-referendum",
+          "nom": "Blast",
+          "url": "https://www.blast-info.fr/articles/2026/10-ans-de-macron-37-de-pauvres-en-plus-wR3nNMckTxKFsxa5hpfhgw",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Une stratégie sophistiquée de sabotage législatif par les lobbies de la tech, peu documentée dans la presse généraliste."
+      "pourquoi_signal": "Le récit officiel vante le 'plein emploi' mais occulte la précarisation massive des travailleurs et l'augmentation du nombre réel de citoyens vivant sous le seuil de dignité."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Procès Rohan Rane : l'horreur du néonazisme numérique",
-      "rubrique": "societe",
-      "resume": "Ouverture à Paris du procès d'un 'gourou' de 29 ans accusé de tortures sexuelles sur mineures via Discord, sur fond d'idéologie masculiniste et fasciste.",
+      "titre": "CPI : Mandats d'arrêt contre les ministres talibans",
+      "rubrique": "international",
+      "resume": "La CPI poursuit Habibullah Agha (Éducation) pour crime contre l'humanité de persécution liée au genre. Une première historique dans la lutte contre l'apartheid de genre.",
       "axes_concernes": [
-        "antifascisme",
+        "droit_international",
         "droits_humains"
       ],
-      "analyse": "Ce procès met en lumière la convergence entre l'extrême droite radicale et les violences de genre organisées en ligne. Il interroge la responsabilité des plateformes (Discord) et la porosité des discours de haine qui mènent à des crimes physiques.",
+      "analyse": "Cette décision de la CPI est cruciale car elle qualifie juridiquement l'exclusion des femmes afghanes de l'éducation comme un crime contre l'humanité. C'est une application stricte du droit international qui refuse de normaliser le régime taliban au nom de la realpolitik.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/041026/proces-rohan-rane-masculiniste-et-neonazi-il-forcait-en-ligne-des-adolescentes-des-tortures-sexuelles",
-          "type": "investigation"
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/societe/police-justice/extorsions-et-tortures-sexuelles-sur-discord-le-proces-du-gourou-neonazi-et-nihiliste-rohan-rane-souvre-a-paris-20261004_H7NUOA67QFBIPGGYJMP6JJNP5U/",
-          "type": "mainstream"
+          "nom": "CPI",
+          "url": "https://icccpi-web.icccpi-prod.uniccloud.org/news/icc-pre-trial-chamber-ii-unseals-four-arrest-warrants-situation-afghanistan",
+          "type": "institutionnel"
         }
       ]
     },
     {
-      "titre": "Égypte : le média Matsaddash décapité",
-      "rubrique": "international",
-      "resume": "Toute la rédaction de ce média indépendant de fact-checking a été arrêtée par le régime d'Al-Sissi sous des accusations de terrorisme.",
+      "titre": "Mobilisation mondiale contre Syngenta",
+      "rubrique": "ecologie_sociale",
+      "resume": "Des manifestations ont visé le géant de l'agrochimie Syngenta, de la Normandie à l'Indonésie, dénonçant les ravages sanitaires des pesticides.",
       "axes_concernes": [
-        "liberte_expression",
-        "droits_humains"
+        "justice_sociale",
+        "souverainete_alimentaire"
       ],
-      "analyse": "L'arrestation d'une rédaction entière est une étape franchie dans la répression de la presse libre. Matsaddash ('Ne croyez pas') gênait par son travail de démontage de la propagande d'État.",
+      "analyse": "Le slogan 'Ni ici, ni ailleurs' souligne l'universalité de la lutte contre l'agrochimie. L'exportation vers les pays du Sud de pesticides interdits en Europe reste un double standard moral et sanitaire majeur que ces mouvements tentent de briser.",
       "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom",
-          "type": "etranger"
-        },
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/medias/egypte/en-egypte-la-totalite-de-la-redaction-du-media-independant-matsaddash-a-ete-arretee",
-          "type": "mainstream"
+          "nom": "Basta!",
+          "url": "https://basta.media/Reportage-stop-pesticides-images-manifestation-contre-syngenta-ravages-agrochimie-Cancer-Colere",
+          "type": "investigation"
         }
       ]
     }
   ],
-  "date": "2026-10-05",
-  "genere_a": "2026-10-05T04:34:12.971Z",
+  "date": "2026-10-06",
+  "genere_a": "2026-10-06T04:35:34.354Z",
   "meta": {
-    "nb_articles_analyses": 524,
-    "nb_topics": 154,
+    "nb_articles_analyses": 704,
+    "nb_topics": 203,
     "nb_topics_selectionnes": 15,
     "nb_articles_dans_selection": 39,
-    "sources_francaises": 375,
-    "sources_etrangeres": 149,
+    "sources_francaises": 467,
+    "sources_etrangeres": 237,
     "rubriques_couvertes": [
       "international",
+      "economie",
       "societe",
-      "economie"
+      "politique"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"
