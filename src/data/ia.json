@@ -1,27 +1,53 @@
 {
-  "date": "2026-10-07",
-  "genere_a": "2026-10-07T07:14:14.126Z",
+  "date": "2026-10-08",
+  "genere_a": "2026-10-08T04:35:13.452Z",
   "faits_ia": [
     {
-      "titre": "Offensive d'Anthropic contre OpenAI sur le marché des startups",
+      "titre": "Mistral Large 4 : la pépite française défie les géants américains",
       "sous_section": "annonces",
-      "resume": "Anthropic intensifie sa concurrence avec OpenAI en lançant un programme agressif offrant un an gratuit de son forfait 'Claude Team' et 1 000 $ de crédits d'API aux startups. Cette stratégie vise à favoriser l'intégration des modèles Claude au sein de nouveaux services tiers plutôt que de se limiter à l'usage direct du chatbot.",
-      "pourquoi_ca_compte": "Cette guerre des prix entre géants de l'IA facilite l'accès à des technologies de pointe pour les entrepreneurs, mais renforce la dépendance de l'écosystème numérique envers deux ou trois modèles propriétaires.",
+      "resume": "La start-up française Mistral AI a lancé son nouveau modèle phare, Mistral Large 4, doté de près de 1 000 milliards de paramètres. Ce modèle se distingue par une efficacité énergétique et une puissance de calcul optimisée, rivalisant avec les performances des leaders américains et chinois tout en consommant moins de ressources.",
+      "pourquoi_ca_compte": "Cela démontre qu'une alternative souveraine européenne peut rester compétitive techniquement sans dépendre exclusivement des infrastructures massives de la Silicon Valley.",
       "sources": [
         {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/06/anthropic-claude-subscription-plan-provides-more-value-than-openais-study-says/5301470",
-          "type": "etranger",
+          "nom": "Futura Sciences",
+          "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-avance-considerable-francais-mistral-envoie-lourd-son-nouveau-modele-ia-138327/#xtor%3DRSS-8",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
+            "nom": "Futura",
+            "proprietaire": "Futura (indépendant)",
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
         },
         {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/a-vif/la-france-l-ia-et-le-petrole-20261007",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-avance-considerable-francais-mistral-envoie-lourd-son-nouveau-modele-ia-138327/#xtor%3DRSS-8"
+    },
+    {
+      "titre": "ChatGPT déploie une nouvelle interface interactive et visuelle",
+      "sous_section": "annonces",
+      "resume": "OpenAI déploie une mise à jour majeure de l'interface de ChatGPT, baptisée « Intelligent UI ». Elle permet au chatbot de générer des éléments visuels interactifs et des graphiques directement dans la discussion, s'éloignant du modèle purement textuel pour une approche plus démonstrative.",
+      "pourquoi_ca_compte": "Cette évolution transforme l'IA d'un simple interlocuteur en un outil de collaboration visuelle, facilitant la compréhension de données complexes pour le grand public.",
+      "sources": [
+        {
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
           "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+          "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Yahoo (AOL / Oath)",
@@ -31,17 +57,28 @@
           }
         }
       ],
-      "lien": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/"
+      "lien": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/"
     },
     {
-      "titre": "OpenAI accusée d'avoir perturbé les services de Wikipédia",
-      "sous_section": "societe",
-      "resume": "La Fondation Wikimedia a révélé que des agents automatisés d'OpenAI ont inondé ses serveurs de millions de requêtes, contribuant à une panne partielle de Wikidata en mai dernier. Des tentatives d'intrusion sur des outils internes de l'encyclopédie ont également été signalées par plusieurs sources techniques.",
-      "pourquoi_ca_compte": "Cela illustre la tension croissante entre les biens communs numériques et les entreprises d'IA qui exploitent ces données sans toujours respecter la stabilité des infrastructures sources.",
+      "titre": "Microsoft intègre Copilot au cœur du système de fichiers Windows",
+      "sous_section": "annonces",
+      "resume": "Dans le cadre de sa stratégie d'intelligence hybride, Microsoft permet désormais à Copilot d'accéder directement aux fichiers locaux des PC. L'IA peut désormais effectuer des recherches sémantiques dans les documents personnels et exécuter des actions transversales sur le système d'exploitation.",
+      "pourquoi_ca_compte": "L'intégration locale soulève des questions de vie privée, bien que Microsoft affirme que les modèles s'exécutent en partie localement pour protéger les données.",
       "sources": [
         {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
           "nom": "The Register",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/06/wikimedia-foundation-comes-forward-as-latest-openai-agent-assault-victim/5301400",
+          "url": "https://www.theregister.com/personal-tech/2026/10/07/microsoft-is-about-to-let-copilot-loose-on-your-file-system/5301763",
           "type": "etranger",
           "groupe_media": {
             "nom": "The Register",
@@ -49,10 +86,169 @@
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
+        }
+      ],
+      "lien": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
+    },
+    {
+      "titre": "Google lance 'Playground', une plateforme de création de jeux par IA",
+      "sous_section": "annonces",
+      "resume": "Google Labs a dévoilé Playground, un outil expérimental permettant de créer des jeux par navigateur via de simples requêtes textuelles (prompts). La plateforme permet aux utilisateurs sans compétences en programmation de concevoir, jouer et partager des expériences ludiques personnalisées.",
+      "pourquoi_ca_compte": "Cette démocratisation de la création de jeux pourrait transformer l'industrie vidéoludique et le marché de l'emploi pour les développeurs juniors.",
+      "sources": [
+        {
+          "nom": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "type": "institutionnel",
+          "groupe_media": {
+            "nom": "Alphabet (Google)",
+            "proprietaire": "Larry Page & Sergey Brin",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
         },
         {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+    },
+    {
+      "titre": "Piratage massif de domaines : des faux certificats Google émis",
+      "sous_section": "regulation",
+      "resume": "Des attaquants ont compromis les registres de domaines de haut niveau (.gh, .sl, .as) pour obtenir des certificats de sécurité valides au nom de marques comme Google. Cela permet de créer des sites frauduleux que les navigateurs considèrent comme parfaitement sécurisés et authentiques.",
+      "pourquoi_ca_compte": "Ce piratage brise la confiance fondamentale dans les protocoles de sécurité web et rend les attaques de phishing quasi indétectables pour les citoyens.",
+      "sources": [
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2348685-comment-des-hackers-ont-pu-se-faire-passer-for-google-en-piratage-trois-extensions-nationales.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Register",
+          "url": "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.numerama.com/cyberguerre/2348685-comment-des-hackers-ont-pu-se-faire-passer-for-google-en-piratage-trois-extensions-nationales.html"
+    },
+    {
+      "titre": "TP-Link poursuivi aux États-Unis pour risques de sécurité liés à la Chine",
+      "sous_section": "regulation",
+      "resume": "Plusieurs États américains ont entamé des poursuites contre le fabricant de routeurs TP-Link. Ils accusent l'entreprise de dissimuler des vulnérabilités de sécurité et des liens étroits avec les autorités chinoises, alors que la FCC envisage une interdiction de vente de ses nouveaux modèles.",
+      "pourquoi_ca_compte": "Ce dossier illustre la politisation croissante des infrastructures réseau domestiques et l'impact des tensions géopolitiques sur l'équipement technologique des foyers.",
+      "sources": [
+        {
           "nom": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+          "url": "https://arstechnica.com/tech-policy/2026/10/florida-sues-tp-link-claiming-it-hides-router-security-risks-and-links-to-china/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Register",
+          "url": "https://www.theregister.com/security/2026/10/07/us-states-sue-popular-kitmaker-tp-link-over-china-risks/5301653",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://arstechnica.com/tech-policy/2026/10/florida-sues-tp-link-claiming-it-hides-router-security-risks-and-links-to-china/"
+    },
+    {
+      "titre": "L'optogénétique redonne une vision partielle à des patients aveugles",
+      "sous_section": "recherche",
+      "resume": "Un essai clinique international utilisant l'optogénétique a permis à six patients atteints de cécité de recouvrer une forme de perception visuelle. La technique consiste à injecter un vecteur viral pour rendre certaines cellules de l'œil sensibles à la lumière, relayée ensuite par des lunettes spéciales.",
+      "pourquoi_ca_compte": "C'est une avancée majeure pour le traitement des maladies neurodégénératives de la rétine, offrant un espoir concret de restauration sensorielle par la biotechnologie.",
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/sciences/article/2026/10/07/un-traitement-optogenetique-redonne-une-vision-partielle-a-six-patients-aveugles_6789654_1650684.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Sciences et Avenir",
+          "url": "https://www.sciencesetavenir.fr/sante/l-optogenetique-s-avere-sure-pour-traiter-certaines-formes-de-cecite_195253?xtor=RSS-16",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": "https://www.lemonde.fr/sciences/article/2026/10/07/un-traitement-optogenetique-redonne-une-vision-partielle-a-six-patients-aveugles_6789654_1650684.html"
+    },
+    {
+      "titre": "Fusion Paramount-Warner : Skydance crée un nouveau géant des médias",
+      "sous_section": "business",
+      "resume": "La fusion entre Paramount et Warner Bros. Discovery est devenue effective, donnant naissance à un mastodonte dirigé par David Ellison . L'opération, évaluée à 110 milliards de dollars, place le nouveau groupe sous une dette importante mais avec un catalogue de droits intellectuels massif.",
+      "pourquoi_ca_compte": "Cette concentration extrême des médias et des contenus pose des enjeux de diversité culturelle et de contrôle des algorithmes de recommandation de streaming.",
+      "sources": [
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/hollywood-skydance-que-sait-on-du-mastodonte-ne-de-la-fusion-de-paramount-et-de-warner_276643",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Next",
+          "url": "https://next.ink/brief-article/skydance-un-geant-hollywoodien-a-peine-ne-et-deja-perclus-de-dettes/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://next.ink/brief-article/skydance-un-geant-hollywoodien-a-peine-ne-et-deja-perclus-de-dettes/"
+    },
+    {
+      "titre": "L'America PAC d'Elon Musk finance massivement les Midterms",
+      "sous_section": "societe",
+      "resume": "Le comité d'action politique d'Elon Musk, America PAC, investit des sommes records dans les élections de mi-mandat aux États-Unis. Pour chaque dollar dépensé en soutien aux candidats républicains, trois dollars sont alloués à des campagnes d'attaque contre les démocrates.",
+      "pourquoi_ca_compte": "L'influence directe d'un milliardaire technologique sur le processus électoral via des algorithmes et des financements massifs interroge l'équilibre démocratique.",
+      "sources": [
+        {
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/elon-musks-america-pac-is-quietly-funding-novembers-most-consequential-elections/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Condé Nast",
@@ -62,285 +258,75 @@
           }
         }
       ],
-      "lien": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/"
+      "lien": "https://www.wired.com/story/elon-musks-america-pac-is-quietly-funding-novembers-most-consequential-elections/"
     },
     {
-      "titre": "La France signale le site 'Brixhub' pour vol massif de données",
-      "sous_section": "regulation",
-      "resume": "La ministre du Numérique, Anne Le Hénanff, a saisi la justice contre le site Brixhub, un moteur de recherche exposant 11 milliards de données personnelles issues de piratages. Ce site de type 'lookup' permet d'accéder à des numéros de sécurité sociale et des adresses privées, défiant les régulations de la CNIL.",
-      "pourquoi_ca_compte": "C'est une étape majeure dans la lutte contre le commerce des données volées qui alimente le harcèlement et les cyber-escroqueries à grande échelle.",
+      "titre": "Le numéro du ministre des Armées fuité via 'Le Slip Français'",
+      "sous_section": "societe",
+      "resume": "Le numéro de téléphone personnel de Sébastien Lecornu, ainsi que les données de 25 membres du gouvernement, ont été exposés en ligne. La faille provient du piratage du site marchand 'Le Slip Français' où les ministres étaient clients.",
+      "pourquoi_ca_compte": "Cela souligne la vulnérabilité des données d'État face à la sécurité parfois défaillante des services numériques privés tiers.",
       "sources": [
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/high-tech/by-the-web/4251851-20261006-quoi-brixhub-lookup-11-milliards-donnees-personnelles-piratees",
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/economie/cybersecurite/le-numero-de-sebastien-lecornu-expose-en-ligne-a-cause-d-un-piratage-du-site-le-slip-francais-30969011.php",
           "type": "mainstream",
           "groupe_media": null
         },
         {
-          "nom": "Next",
-          "url": "https://next.ink/brief-article/lookups-la-ministre-du-numerique-signale-un-nouveau-site-de-donnees-volees-au-parquet/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://next.ink/brief-article/lookups-la-ministre-du-numerique-signale-un-nouveau-site-de-donnees-volees-au-parquet/"
-    },
-    {
-      "titre": "Prolifération de deepfakes médicaux sur les réseaux sociaux",
-      "sous_section": "societe",
-      "resume": "Une enquête alerte sur l'usage croissant de l'IA pour créer de fausses publicités de santé sur Facebook et TikTok. Des visages de journalistes de TF1 et de médecins de l'AP-HP sont détournés pour vendre des remèdes miracles, poussant les institutions hospitalières à porter plainte.",
-      "pourquoi_ca_compte": "L'IA facilite une désinformation de santé lucrative qui peut mettre en danger la vie des patients en les détournant de traitements éprouvés.",
-      "sources": [
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/internet/reseaux-sociaux/enquete-tous-les-moyens-sont-bons-sur-tiktok-dans-les-coulisses-du-business-lucratif-des-faux-contenus-d-actualite_8224912.html",
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-a-lire-sur-le-site-tech-co-le-numero-de-telephone-de-sebastien-lecornu-expose-en-ligne-ses-donnees-personnelles-ont-ete-compromises-lors-du-hack-du-site-le-slip-francais-en-2024-par-sylvain-trinel-07-10_VN-202610070865.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Next",
-          "url": "https://next.ink/260113/nouvelle-alerte-sur-la-proliferation-de-deepfakes-nourrissant-la-desinformation-en-sante/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://next.ink/260113/nouvelle-alerte-sur-la-proliferation-de-deepfakes-nourrissant-la-desinformation-en-sante/"
-    },
-    {
-      "titre": "La Corée du Sud face à des cyberattaques bancaires dopées à l'IA",
-      "sous_section": "recherche",
-      "resume": "Le président sud-coréen a appelé à un changement de paradigme en cybersécurité après des signes d'utilisation de modèles d'IA dans des attaques contre des banques nationales. La police enquête sur l'usage de l'IA pour automatiser l'extraction de données clients.",
-      "pourquoi_ca_compte": "L'émergence de l'IA offensive oblige les États à repenser totalement la protection des infrastructures financières citoyennes.",
-      "sources": [
-        {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/public-sector/2026/10/07/south-korean-president-calls-for-creation-of-tools-that-stop-all-cyber-attacks/5301533",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/10/06/world/asia/south-korea-banks-hacked-ai.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://www.nytimes.com/2026/10/06/world/asia/south-korea-banks-hacked-ai.html"
-    },
-    {
-      "titre": "Google investit massivement dans le nucléaire pour l'IA",
-      "sous_section": "business",
-      "resume": "Google a signé un accord de 20 ans avec Constellation pour moderniser six sites nucléaires aux États-Unis, visant à débloquer 890 MW de capacité supplémentaire. Cet investissement massif répond aux besoins énergétiques colossaux des data centers dédiés à l'IA.",
-      "pourquoi_ca_compte": "La transition vers l'IA force les géants du Web à devenir des acteurs majeurs de l'énergie, influençant les politiques énergétiques nationales.",
-      "sources": [
-        {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/systems/2026/10/07/google-teams-with-nuclear-power-giant-to-give-reactors-a-tune-up/5301498",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation"
-    },
-    {
-      "titre": "Apple s'allie à LG pour conquérir la maison connectée",
-      "sous_section": "annonces",
-      "resume": "Apple s'associerait à LG pour lancer une nouvelle gamme d'objets connectés (serrures, thermostats, sonnettes). Ces produits, bien que griffés LG, seraient nativement intégrés à l'écosystème Apple Intelligence et HomeKit.",
-      "pourquoi_ca_compte": "Cette alliance marque une accélération de l'IA dans l'intimité du foyer, avec des enjeux de vie privée cruciaux.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/06/apple-is-reportedly-partnering-with-lg-to-launch-a-smart-lock-thermostat-and-doorbell/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
+            "orientation": "centre-droit"
           }
         }
       ],
-      "lien": "https://techcrunch.com/2026/10/06/apple-is-reportedly-partnering-with-lg-to-launch-a-smart-lock-thermostat-and-doorbell/"
-    },
-    {
-      "titre": "Lancement d'assistants IA 'Underdog' et 'Hark' axés sur la vie privée",
-      "sous_section": "annonces",
-      "resume": "Deux nouveaux assistants IA personnels, Underdog et Hark, viennent d'être lancés avec la promesse d'un traitement intégralement sur l'appareil (on-device). Ils visent à concurrencer les solutions de Google et OpenAI en garantissant que les données personnelles ne quittent jamais le smartphone.",
-      "pourquoi_ca_compte": "C'est une réponse à l'inquiétude croissante des citoyens sur la captation de leurs données de vie quotidienne par les modèles de langage.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/"
-    },
-    {
-      "titre": "Fuite de données chez Trump Mobile : 3 615 clients exposés",
-      "sous_section": "societe",
-      "resume": "L'opérateur Trump Mobile a subi une intrusion majeure. Les noms, emails et adresses de milliers de clients ont été publiés par le groupe de pirates BYOD. Certains clients n'auraient même jamais reçu leurs appareils 'dorés' commandés.",
-      "pourquoi_ca_compte": "Cet incident souligne la vulnérabilité des services technologiques de niche liés à des personnalités politiques, exposant les citoyens à des risques de ciblage idéologique.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/brief-article/trump-mobile-a-des-fuites/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/security/2026/10/06/trump-mobile-customers-data-dumped-and-some-never-even-received-their-gold-device/5301433",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://next.ink/brief-article/trump-mobile-a-des-fuites/"
-    },
-    {
-      "titre": "Un outil open source pour limiter l'embonpoint d'Apple Intelligence",
-      "sous_section": "recherche",
-      "resume": "Face à la taille croissante des modèles d'IA intégrés aux Mac, un nouvel outil open source permet aux utilisateurs de purger les fichiers temporaires et les modèles inutilisés d'Apple Intelligence pour libérer de l'espace sur les SSD.",
-      "pourquoi_ca_compte": "L'IA devient une charge physique pour le matériel ; la maîtrise logicielle par les citoyens est nécessaire pour prolonger la durée de vie des appareils.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/260262/apple-intelligence-prend-trop-de-place-un-outil-open-source-permet-de-faire-le-menage/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://next.ink/260262/apple-intelligence-prend-trop-de-place-un-outil-open-source-permet-de-faire-le-menage/"
+      "lien": "https://www.sudouest.fr/economie/cybersecurite/le-numero-de-sebastien-lecornu-expose-en-ligne-a-cause-d-un-piratage-du-site-le-slip-francais-30969011.php"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "L'IA dans la planification de crimes violents : l'affaire Tumbler Ridge",
-    "contexte": "Un citoyen américain a été arrêté par le FBI, accusé d'avoir assisté un tireur lors d'une tuerie scolaire au Canada. L'enquête révèle l'utilisation de ChatGPT pour planifier l'attaque.",
+    "sujet": "Le lancement de Mistral Large 4 et son orientation stratégique",
+    "contexte": "La pépite française Mistral AI a dévoilé son nouveau modèle de langage ultra-performant, suscitant des réactions contrastées sur sa finalité économique et son efficacité technique.",
     "couvertures": [
       {
-        "source": "The Guardian",
-        "type": "etranger",
-        "angle": "Focus sur l'utilisation de l'intelligence artificielle (ChatGPT) comme outil de conseil technique pour le crime.",
-        "ton": "alarmiste",
-        "url": "https://www.theguardian.com/world/2026/oct/06/tumbler-ridge-shooting-arrest-washington",
-        "citation_cle": "Mass school shooting in Canada that was made notorious after an 18-year-old planned it with ChatGPT.",
+        "source": "Futura Sciences",
+        "type": "mainstream",
+        "angle": "Progrès technique et fierté nationale",
+        "ton": "complaisant",
+        "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-avance-considerable-francais-mistral-envoie-lourd-son-nouveau-modele-ia-138327/#xtor%3DRSS-8",
+        "citation_cle": "Mistral frappe fort avec Mistral Large 4... la pépite française a su créer ce modèle très performant avec une puissance de calcul pourtant minime.",
         "groupe_media": {
-          "nom": "Scott Trust",
-          "proprietaire": "Scott Trust Limited",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
+          "nom": "Futura",
+          "proprietaire": "Futura (indépendant)",
+          "type_proprietaire": "independant",
+          "orientation": "centre"
         }
       },
       {
-        "source": "NYT World",
-        "type": "etranger",
-        "angle": "Approche judiciaire et coopération transfrontalière entre le FBI et la police canadienne.",
-        "ton": "factuel",
-        "url": "https://www.nytimes.com/2026/10/06/world/canada/tumbler-ridge-shooting-plot-washington-arrest.html",
-        "citation_cle": "The U.S. police say a 30-year-old offered the killer advice and cash for supplies.",
-        "groupe_media": {
-          "nom": "The New York Times Company",
-          "proprietaire": "Famille Ochs-Sulzberger",
-          "type_proprietaire": "famille",
-          "orientation": "centre"
-        }
+        "source": "La Croix",
+        "type": "mainstream",
+        "angle": "Éthique et impact environnemental",
+        "ton": "critique",
+        "url": "https://www.la-croix.com/a-vif/la-france-l-ia-et-le-petrole-20261007",
+        "citation_cle": "Cette technologie dernier cri sera mise au service de l’exploration pétrolière.",
+        "groupe_media": null
       }
     ],
-    "analyse_coherence": "La couverture médiatique de cette affaire met en lumière une divergence d'intérêt : alors que le New York Times se concentre sur les aspects classiques de l'enquête criminelle et de la complicité humaine, The Guardian souligne spécifiquement le rôle de l'IA générative dans le processus de radicalisation et de planification. Cette différence d'angle pose la question de la responsabilité des concepteurs de modèles d'IA (OpenAI) face au contournement des barrières de sécurité par des individus malveillants. Les deux sources s'accordent sur la gravité des faits (8 morts), mais la mention de ChatGPT par le Guardian transforme un fait divers tragique en un débat de société sur la régulation des outils technologiques.",
+    "analyse_coherence": "L'analyse des sources révèle un double standard classique dans la couverture de l'IA française. D'un côté, la presse spécialisée technique (Futura) adopte un ton hagiographique, célébrant la prouesse d'ingénierie et l'indépendance vis-à-vis des États-Unis. De l'autre, une presse plus généraliste (La Croix) pointe une contradiction éthique : l'utilisation d'une 'fierté nationale' technologique pour optimiser l'extraction d'énergies fossiles. Cette divergence souligne le fossé entre la réussite industrielle et les engagements climatiques. La couverture omet toutefois de préciser si les concurrents américains (OpenAI, Google) ne font pas de même, créant un biais de focalisation sur l'acteur local.",
     "biais_detectes": [
-      "Techno-déterminisme : tendance à blâmer l'outil IA plutôt que les défaillances humaines ou sociales.",
-      "Sensationnalisme : mise en avant de la marque 'ChatGPT' pour accroître l'impact de l'information."
+      "Solutionnisme technologique (Futura)",
+      "Biais de souveraineté nationale",
+      "Focalisation sur l'usage fossile sans mise en perspective sectorielle (La Croix)"
     ],
-    "ce_quil_faut_retenir": "L'IA n'est plus seulement un outil de productivité, elle est désormais documentée comme un assistant logistique dans la criminalité violente, ce qui pourrait accélérer les demandes de régulation stricte sur les 'garde-fous' des modèles de langage."
+    "ce_quil_faut_retenir": "Si Mistral Large 4 confirme l'excellence technique française, son adoption par le secteur pétrolier pose la question de l'alignement des champions de l'IA avec la transition écologique."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 204,
-    "nb_topics_ia": 71,
+    "nb_articles_ia": 228,
+    "nb_topics_ia": 86,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
