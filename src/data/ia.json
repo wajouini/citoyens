@@ -1,53 +1,27 @@
 {
-  "date": "2026-10-08",
-  "genere_a": "2026-10-08T04:35:13.452Z",
+  "date": "2026-10-09",
+  "genere_a": "2026-10-09T04:36:02.563Z",
   "faits_ia": [
     {
-      "titre": "Mistral Large 4 : la pépite française défie les géants américains",
-      "sous_section": "annonces",
-      "resume": "La start-up française Mistral AI a lancé son nouveau modèle phare, Mistral Large 4, doté de près de 1 000 milliards de paramètres. Ce modèle se distingue par une efficacité énergétique et une puissance de calcul optimisée, rivalisant avec les performances des leaders américains et chinois tout en consommant moins de ressources.",
-      "pourquoi_ca_compte": "Cela démontre qu'une alternative souveraine européenne peut rester compétitive techniquement sans dépendre exclusivement des infrastructures massives de la Silicon Valley.",
+      "titre": "OpenAI : un chiffre d'affaires inférieur de 20 milliards aux prévisions",
+      "sous_section": "business",
+      "resume": "Les récentes projections financières d'OpenAI suscitent l'inquiétude des investisseurs. Alors que des rapports tablaient sur un chiffre d'affaires annualisé de près de 70 milliards de dollars, les chiffres réels s'établiraient plutôt autour de 50 milliards. En conséquence, l'entreprise aurait reporté son introduction en Bourse à début 2027.",
+      "pourquoi_ca_compte": "Cette révision à la baisse interroge sur la viabilité économique des modèles de langage géants et pourrait freiner les investissements massifs nécessaires au développement des futures versions de ChatGPT.",
       "sources": [
         {
-          "nom": "Futura Sciences",
-          "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-avance-considerable-francais-mistral-envoie-lourd-son-nouveau-modele-ia-138327/#xtor%3DRSS-8",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/economie/article/2026/10/09/les-ambiguites-sur-le-chiffre-d-affaires-d-openai-effraient-wall-street_6790497_3234.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Futura",
-            "proprietaire": "Futura (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/a-vif/la-france-l-ia-et-le-petrole-20261007",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-avance-considerable-francais-mistral-envoie-lourd-son-nouveau-modele-ia-138327/#xtor%3DRSS-8"
-    },
-    {
-      "titre": "ChatGPT déploie une nouvelle interface interactive et visuelle",
-      "sous_section": "annonces",
-      "resume": "OpenAI déploie une mise à jour majeure de l'interface de ChatGPT, baptisée « Intelligent UI ». Elle permet au chatbot de générer des éléments visuels interactifs et des graphiques directement dans la discussion, s'éloignant du modèle purement textuel pour une approche plus démonstrative.",
-      "pourquoi_ca_compte": "Cette évolution transforme l'IA d'un simple interlocuteur en un outil de collaboration visuelle, facilitant la compréhension de données complexes pour le grand public.",
-      "sources": [
-        {
-          "nom": "Wired",
-          "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
           "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+          "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Yahoo (AOL / Oath)",
@@ -57,17 +31,28 @@
           }
         }
       ],
-      "lien": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/"
+      "lien": "https://www.lemonde.fr/economie/article/2026/10/09/les-ambiguites-sur-le-chiffre-d-affaires-d-openai-effraient-wall-street_6790497_3234.html"
     },
     {
-      "titre": "Microsoft intègre Copilot au cœur du système de fichiers Windows",
+      "titre": "Anthropic lance un scanner de sécurité gratuit pour l'open-source",
       "sous_section": "annonces",
-      "resume": "Dans le cadre de sa stratégie d'intelligence hybride, Microsoft permet désormais à Copilot d'accéder directement aux fichiers locaux des PC. L'IA peut désormais effectuer des recherches sémantiques dans les documents personnels et exécuter des actions transversales sur le système d'exploitation.",
-      "pourquoi_ca_compte": "L'intégration locale soulève des questions de vie privée, bien que Microsoft affirme que les modèles s'exécutent en partie localement pour protéger les données.",
+      "resume": "Anthropic a annoncé le lancement de 'OSS Scanner', un service gratuit destiné à détecter les vulnérabilités dans les projets open-source. L'entreprise estime que les attaquants auront l'avantage technologique sur les défenseurs pendant les deux prochaines années et propose ses modèles les plus puissants pour sécuriser les infrastructures critiques.",
+      "pourquoi_ca_compte": "La sécurisation des logiciels libres est un enjeu de souveraineté numérique, car une faille dans un projet open-source peut paralyser des millions de citoyens et d'entreprises.",
       "sources": [
         {
+          "nom": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/09/ai-company-moves-to-defend-critical-infrastructure-and-open-source-projects-from-ai/5302128",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
           "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
           "type": "etranger",
           "groupe_media": {
             "nom": "Vox Media",
@@ -75,10 +60,19 @@
             "type_proprietaire": "independant",
             "orientation": "centre-gauche"
           }
-        },
+        }
+      ],
+      "lien": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+    },
+    {
+      "titre": "Google transforme Gemini en agent autonome pour les entreprises",
+      "sous_section": "annonces",
+      "resume": "Google Cloud déploie de nouvelles capacités 'agentiques' pour Gemini. L'IA peut désormais planifier des tâches complexes, déléguer du travail à des sous-agents et possède sa propre identité professionnelle (incluant une adresse email) pour interagir avec les systèmes d'entreprise.",
+      "pourquoi_ca_compte": "Le passage d'une IA conversationnelle à une IA 'agente' capable d'agir de manière autonome marque une étape majeure vers l'automatisation complète de certains métiers de bureau.",
+      "sources": [
         {
           "nom": "The Register",
-          "url": "https://www.theregister.com/personal-tech/2026/10/07/microsoft-is-about-to-let-copilot-loose-on-your-file-system/5301763",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/08/there-can-be-only-one-google-cloud-casts-gemini-as-your-enterprise-ai-hero/5302086",
           "type": "etranger",
           "groupe_media": {
             "nom": "The Register",
@@ -86,30 +80,10 @@
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
-        }
-      ],
-      "lien": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
-    },
-    {
-      "titre": "Google lance 'Playground', une plateforme de création de jeux par IA",
-      "sous_section": "annonces",
-      "resume": "Google Labs a dévoilé Playground, un outil expérimental permettant de créer des jeux par navigateur via de simples requêtes textuelles (prompts). La plateforme permet aux utilisateurs sans compétences en programmation de concevoir, jouer et partager des expériences ludiques personnalisées.",
-      "pourquoi_ca_compte": "Cette démocratisation de la création de jeux pourrait transformer l'industrie vidéoludique et le marché de l'emploi pour les développeurs juniors.",
-      "sources": [
-        {
-          "nom": "Google AI Blog",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-          "type": "institutionnel",
-          "groupe_media": {
-            "nom": "Alphabet (Google)",
-            "proprietaire": "Larry Page & Sergey Brin",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
         },
         {
           "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Yahoo (AOL / Oath)",
@@ -119,116 +93,28 @@
           }
         }
       ],
-      "lien": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+      "lien": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
     },
     {
-      "titre": "Piratage massif de domaines : des faux certificats Google émis",
-      "sous_section": "regulation",
-      "resume": "Des attaquants ont compromis les registres de domaines de haut niveau (.gh, .sl, .as) pour obtenir des certificats de sécurité valides au nom de marques comme Google. Cela permet de créer des sites frauduleux que les navigateurs considèrent comme parfaitement sécurisés et authentiques.",
-      "pourquoi_ca_compte": "Ce piratage brise la confiance fondamentale dans les protocoles de sécurité web et rend les attaques de phishing quasi indétectables pour les citoyens.",
+      "titre": "Cybersécurité : la France face à une vulnérabilité chronique",
+      "sous_section": "societe",
+      "resume": "Les autorités françaises, dont Vincent Strubel de l'ANSSI, alertent sur une recrudescence des fuites de données massives. Le manque de moyens et de sensibilisation des dirigeants rend les infrastructures publiques et privées vulnérables à des attaquants souvent mieux informés que les victimes.",
+      "pourquoi_ca_compte": "La protection des données personnelles des citoyens français est menacée par un sous-investissement technologique, exposant la population à des risques accrus d'usurpation d'identité.",
       "sources": [
         {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2348685-comment-des-hackers-ont-pu-se-faire-passer-for-google-en-piratage-trois-extensions-nationales.html",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/l-attaquant-connait-souvent-mieux-le-systeme-que-sa-victime-pourquoi-la-france-semble-t-elle-si-vulnerable-en-matiere-de-cybersecurite_8153930.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
             "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://www.numerama.com/cyberguerre/2348685-comment-des-hackers-ont-pu-se-faire-passer-for-google-en-piratage-trois-extensions-nationales.html"
-    },
-    {
-      "titre": "TP-Link poursuivi aux États-Unis pour risques de sécurité liés à la Chine",
-      "sous_section": "regulation",
-      "resume": "Plusieurs États américains ont entamé des poursuites contre le fabricant de routeurs TP-Link. Ils accusent l'entreprise de dissimuler des vulnérabilités de sécurité et des liens étroits avec les autorités chinoises, alors que la FCC envisage une interdiction de vente de ses nouveaux modèles.",
-      "pourquoi_ca_compte": "Ce dossier illustre la politisation croissante des infrastructures réseau domestiques et l'impact des tensions géopolitiques sur l'équipement technologique des foyers.",
-      "sources": [
-        {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/10/florida-sues-tp-link-claiming-it-hides-router-security-risks-and-links-to-china/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/security/2026/10/07/us-states-sue-popular-kitmaker-tp-link-over-china-risks/5301653",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://arstechnica.com/tech-policy/2026/10/florida-sues-tp-link-claiming-it-hides-router-security-risks-and-links-to-china/"
-    },
-    {
-      "titre": "L'optogénétique redonne une vision partielle à des patients aveugles",
-      "sous_section": "recherche",
-      "resume": "Un essai clinique international utilisant l'optogénétique a permis à six patients atteints de cécité de recouvrer une forme de perception visuelle. La technique consiste à injecter un vecteur viral pour rendre certaines cellules de l'œil sensibles à la lumière, relayée ensuite par des lunettes spéciales.",
-      "pourquoi_ca_compte": "C'est une avancée majeure pour le traitement des maladies neurodégénératives de la rétine, offrant un espoir concret de restauration sensorielle par la biotechnologie.",
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/sciences/article/2026/10/07/un-traitement-optogenetique-redonne-une-vision-partielle-a-six-patients-aveugles_6789654_1650684.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Sciences et Avenir",
-          "url": "https://www.sciencesetavenir.fr/sante/l-optogenetique-s-avere-sure-pour-traiter-certaines-formes-de-cecite_195253?xtor=RSS-16",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": "https://www.lemonde.fr/sciences/article/2026/10/07/un-traitement-optogenetique-redonne-une-vision-partielle-a-six-patients-aveugles_6789654_1650684.html"
-    },
-    {
-      "titre": "Fusion Paramount-Warner : Skydance crée un nouveau géant des médias",
-      "sous_section": "business",
-      "resume": "La fusion entre Paramount et Warner Bros. Discovery est devenue effective, donnant naissance à un mastodonte dirigé par David Ellison . L'opération, évaluée à 110 milliards de dollars, place le nouveau groupe sous une dette importante mais avec un catalogue de droits intellectuels massif.",
-      "pourquoi_ca_compte": "Cette concentration extrême des médias et des contenus pose des enjeux de diversité culturelle et de contrôle des algorithmes de recommandation de streaming.",
-      "sources": [
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/hollywood-skydance-que-sait-on-du-mastodonte-ne-de-la-fusion-de-paramount-et-de-warner_276643",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
           }
         },
         {
           "nom": "Next",
-          "url": "https://next.ink/brief-article/skydance-un-geant-hollywoodien-a-peine-ne-et-deja-perclus-de-dettes/",
+          "url": "https://next.ink/260489/cyberattaques-et-fuites-de-donnees-on-na-pas-vu-le-pire-affirme-vincent-strubel/",
           "type": "investigation",
           "groupe_media": {
             "nom": "Next (ex-Next INpact)",
@@ -238,17 +124,74 @@
           }
         }
       ],
-      "lien": "https://next.ink/brief-article/skydance-un-geant-hollywoodien-a-peine-ne-et-deja-perclus-de-dettes/"
+      "lien": "https://next.ink/260489/cyberattaques-et-fuites-de-donnees-on-na-pas-vu-le-pire-affirme-vincent-strubel/"
     },
     {
-      "titre": "L'America PAC d'Elon Musk finance massivement les Midterms",
+      "titre": "Un data center de Yandex visé par une attaque de drones en Russie",
       "sous_section": "societe",
-      "resume": "Le comité d'action politique d'Elon Musk, America PAC, investit des sommes records dans les élections de mi-mandat aux États-Unis. Pour chaque dollar dépensé en soutien aux candidats républicains, trois dollars sont alloués à des campagnes d'attaque contre les démocrates.",
-      "pourquoi_ca_compte": "L'influence directe d'un milliardaire technologique sur le processus électoral via des algorithmes et des financements massifs interroge l'équilibre démocratique.",
+      "resume": "Le principal centre de données du géant numérique russe Yandex, situé à Sasovo, a été la cible d'une attaque de drones ukrainiens provoquant un incendie majeur. Cette frappe a entraîné des perturbations importantes sur le réseau cloud russe, remettant en cause la résilience de l'infrastructure numérique du pays.",
+      "pourquoi_ca_compte": "Cet événement illustre comment les infrastructures de données deviennent des cibles militaires stratégiques, affectant l'accès aux services numériques de millions de civils.",
       "sources": [
         {
-          "nom": "Wired",
-          "url": "https://www.wired.com/story/elon-musks-america-pac-is-quietly-funding-novembers-most-consequential-elections/",
+          "nom": "The Register",
+          "url": "https://www.theregister.com/off-prem/2026/10/09/ukrainian-drone-attack-takes-out-russian-datacenter/5302137",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2349533-perturbation-importante-du-reseau-en-russie-une-attaque-de-drones-presumee-vise-le-plus-grand-data-center-du-geant-yandex.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.numerama.com/cyberguerre/2349533-perturbation-importante-du-reseau-en-russie-une-attaque-de-drones-presumee-vise-le-plus-grand-data-center-du-geant-yandex.html"
+    },
+    {
+      "titre": "Donald Trump décore Elon Musk et Jensen Huang de la médaille de la science",
+      "sous_section": "societe",
+      "resume": "Le président américain a décerné la Médaille nationale de la science à Elon Musk et Jensen Huang . Qualifiant Musk de 'trésor national', cette cérémonie marque le retour en grâce politique des géants de la tech auprès de l'exécutif américain.",
+      "pourquoi_ca_compte": "Cette proximité croissante entre le pouvoir politique et les propriétaires des infrastructures d'IA et d'exploration spatiale pose des questions de régulation et d'influence démocratique.",
+      "sources": [
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/flash-actu/donald-trump-decore-elon-musk-d-une-medaille-pour-ses-contributions-a-la-science-et-le-qualifie-de-tresor-national-20261008",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/10/09/elon-musk-recoit-de-donald-trump-une-medaille-scientifique-confirmant-son-retour-en-grace-aupres-du-president-americain_6790488_3210.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": "https://www.lemonde.fr/international/article/2026/10/09/elon-musk-recoit-de-donald-trump-une-medaille-scientifique-confirmant-son-retour-en-grace-aupres-du-president-americain_6790488_3210.html"
+    },
+    {
+      "titre": "Décès de Margaret Hamilton, la pionnière qui a sauvé Apollo 11",
+      "sous_section": "societe",
+      "resume": "Margaret Hamilton, l'informaticienne qui a dirigé le développement du logiciel de navigation de la mission Apollo 11, est décédée à l'âge de 90 ans. On lui doit l'invention du terme 'software engineering' et la conception d'un code capable de gérer les surcharges système lors de l'alunissage.",
+      "pourquoi_ca_compte": "Hamilton a ouvert la voie aux femmes dans l'informatique et a établi les bases de la fiabilité logicielle, un héritage crucial pour les systèmes d'IA critiques d'aujourd'hui.",
+      "sources": [
+        {
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Condé Nast",
@@ -256,25 +199,123 @@
             "type_proprietaire": "famille",
             "orientation": "centre"
           }
-        }
-      ],
-      "lien": "https://www.wired.com/story/elon-musks-america-pac-is-quietly-funding-novembers-most-consequential-elections/"
-    },
-    {
-      "titre": "Le numéro du ministre des Armées fuité via 'Le Slip Français'",
-      "sous_section": "societe",
-      "resume": "Le numéro de téléphone personnel de Sébastien Lecornu, ainsi que les données de 25 membres du gouvernement, ont été exposés en ligne. La faille provient du piratage du site marchand 'Le Slip Français' où les ministres étaient clients.",
-      "pourquoi_ca_compte": "Cela souligne la vulnérabilité des données d'État face à la sécurité parfois défaillante des services numériques privés tiers.",
-      "sources": [
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/economie/cybersecurite/le-numero-de-sebastien-lecornu-expose-en-ligne-a-cause-d-un-piratage-du-site-le-slip-francais-30969011.php",
-          "type": "mainstream",
-          "groupe_media": null
         },
         {
+          "nom": "The Register",
+          "url": "https://www.theregister.com/software/2026/10/08/margaret-hamilton-software-pioneer-who-helped-put-humans-on-the-moon-dies-at-90/5301988",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo?at_medium=RSS&at_campaign=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/"
+    },
+    {
+      "titre": "Des banques sud-coréennes piratées à l'aide d'outils d'IA chinois",
+      "sous_section": "societe",
+      "resume": "CrowdStrike rapporte qu'un attaquant parlant chinois a utilisé des outils d'IA pour cibler des banques en Corée du Sud. Les logs d'IA exposés ont même permis de retrouver le CV du pirate présumé.",
+      "pourquoi_ca_compte": "L'utilisation de l'IA pour automatiser les tests d'intrusion (pentesting) abaisse la barrière technique pour les cybercriminels, augmentant la menace sur le système financier mondial.",
+      "sources": [
+        {
+          "nom": "The Register",
+          "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/10/08/world/australia/south-korea-bank-hack-china-us-ai.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908"
+    },
+    {
+      "titre": "Nvidia mise sur l'IA physique pour sécuriser les robots et taxis autonomes",
+      "sous_section": "recherche",
+      "resume": "Nvidia déploie des solutions de sécurité 'full-stack' pour l'IA physique. L'objectif est d'utiliser des modèles de fondation pour améliorer la perception et la réaction en temps réel des robots humanoïdes et des robotaxis dans des environnements industriels et urbains.",
+      "pourquoi_ca_compte": "La généralisation de l'IA dans l'espace public nécessite des garanties de sécurité physique absolues pour éviter des accidents tragiques impliquant des machines autonomes.",
+      "sources": [
+        {
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "MIT (Massachusetts Institute of Technology)",
+            "proprietaire": "MIT",
+            "type_proprietaire": "fondation",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://ars.to/physical-ai-safety"
+    },
+    {
+      "titre": "Robotique : les limites de l'IA tempèrent les espoirs de déploiement rapide",
+      "sous_section": "recherche",
+      "resume": "Malgré l'engouement médiatique, des chercheurs soulignent des obstacles majeurs dans l'IA appliquée à la robotique. Les modèles actuels peinent encore à gérer l'imprévisibilité du monde réel, suggérant que les robots humanoïdes ne changeront pas notre quotidien de sitôt.",
+      "pourquoi_ca_compte": "Comprendre les limites réelles de l'IA permet de mieux anticiper les transformations du marché du travail et d'éviter les bulles spéculatives sur la robotique de service.",
+      "sources": [
+        {
+          "nom": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "MIT (Massachusetts Institute of Technology)",
+            "proprietaire": "MIT",
+            "type_proprietaire": "fondation",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/"
+    },
+    {
+      "titre": "Nanoxplore et Dessia : l'ingénierie française au service de l'IA spatiale",
+      "sous_section": "business",
+      "resume": "Les pépites françaises Nanoxplore et Dessia collaborent sur des infrastructures pour l'IA agentique et des processeurs spécifiques aux satellites. Leur approche vise à intégrer l'IA directement dans les systèmes embarqués pour l'industrie spatiale.",
+      "pourquoi_ca_compte": "Le développement de composants matériels souverains est essentiel pour que l'Europe conserve son autonomie stratégique face aux géants américains et chinois.",
+      "sources": [
+        {
           "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-a-lire-sur-le-site-tech-co-le-numero-de-telephone-de-sebastien-lecornu-expose-en-ligne-ses-donnees-personnelles-ont-ete-compromises-lors-du-hack-du-site-le-slip-francais-en-2024-par-sylvain-trinel-07-10_VN-202610070865.html",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/01-business/nanoxplore-dessia-deux-pepites-de-l-ingenierie-francaise-08-10_EN-202610080960.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -284,49 +325,83 @@
           }
         }
       ],
-      "lien": "https://www.sudouest.fr/economie/cybersecurite/le-numero-de-sebastien-lecornu-expose-en-ligne-a-cause-d-un-piratage-du-site-le-slip-francais-30969011.php"
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/01-business/nanoxplore-dessia-deux-pepites-de-l-ingenierie-francaise-08-10_EN-202610080960.html"
+    },
+    {
+      "titre": "Le Nobel de chimie 2026 récompense la maîtrise du 'miroir' moléculaire",
+      "sous_section": "recherche",
+      "resume": "Le Français Henri Kagan et le Japonais Kensō Soai ont reçu le prix Nobel de chimie pour leurs travaux sur la chiralité et l'autocatalyse. Ils ont découvert comment favoriser une forme miroir d'une molécule plutôt qu'une autre, un principe vital en pharmacologie.",
+      "pourquoi_ca_compte": "Cette découverte permet de créer des médicaments plus sûrs en évitant les effets secondaires liés aux molécules 'reflets' indésirables, une avancée majeure pour la santé publique.",
+      "sources": [
+        {
+          "nom": "Futura Sciences",
+          "url": "https://www.futura-sciences.com/sciences/actualites/chimie-soigne-autre-peut-nuire-prix-nobel-chimie-2026-pourrait-aussi-vous-concerner-138329/#xtor%3DRSS-8",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Futura",
+            "proprietaire": "Futura (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Conversation FR",
+          "url": "https://theconversation.com/de-lautre-cote-du-miroir-le-nobel-de-chimie-recompense-des-travaux-sur-des-molecules-reflets-lune-de-lautre-293967",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "The Conversation",
+            "proprietaire": "Consortium d'universités",
+            "type_proprietaire": "fondation",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://theconversation.com/de-lautre-cote-du-miroir-le-nobel-de-chimie-recompense-des-travaux-sur-des-molecules-reflets-lune-de-lautre-293967"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "Le lancement de Mistral Large 4 et son orientation stratégique",
-    "contexte": "La pépite française Mistral AI a dévoilé son nouveau modèle de langage ultra-performant, suscitant des réactions contrastées sur sa finalité économique et son efficacité technique.",
+    "sujet": "La viabilité économique d'OpenAI et l'avenir des investissements en IA",
+    "contexte": "Plusieurs sources rapportent des écarts significatifs entre les prévisions de revenus d'OpenAI et la réalité comptable, entraînant un report de son entrée en Bourse.",
     "couvertures": [
       {
-        "source": "Futura Sciences",
+        "source": "Le Monde",
         "type": "mainstream",
-        "angle": "Progrès technique et fierté nationale",
-        "ton": "complaisant",
-        "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-avance-considerable-francais-mistral-envoie-lourd-son-nouveau-modele-ia-138327/#xtor%3DRSS-8",
-        "citation_cle": "Mistral frappe fort avec Mistral Large 4... la pépite française a su créer ce modèle très performant avec une puissance de calcul pourtant minime.",
+        "angle": "Analyse de l'inquiétude des marchés financiers de Wall Street.",
+        "ton": "neutre",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/09/les-ambiguites-sur-le-chiffre-d-affaires-d-openai-effraient-wall-street_6790497_3234.html",
+        "citation_cle": "Les projections attribuaient à la société créatrice de ChatGPT un chiffre d’affaires de 68 milliards de dollars, mais il s’établit en réalité à 50 milliards.",
         "groupe_media": {
-          "nom": "Futura",
-          "proprietaire": "Futura (indépendant)",
-          "type_proprietaire": "independant",
-          "orientation": "centre"
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       },
       {
-        "source": "La Croix",
-        "type": "mainstream",
-        "angle": "Éthique et impact environnemental",
+        "source": "TechCrunch",
+        "type": "etranger",
+        "angle": "Focus sur les détails techniques de la révision des revenus annualisés.",
         "ton": "critique",
-        "url": "https://www.la-croix.com/a-vif/la-france-l-ia-et-le-petrole-20261007",
-        "citation_cle": "Cette technologie dernier cri sera mise au service de l’exploration pétrolière.",
-        "groupe_media": null
+        "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+        "citation_cle": "OpenAI’s revenue is reportedly $20 billion less than previously projected.",
+        "groupe_media": {
+          "nom": "Yahoo (AOL / Oath)",
+          "proprietaire": "Apollo Global Management",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre"
+        }
       }
     ],
-    "analyse_coherence": "L'analyse des sources révèle un double standard classique dans la couverture de l'IA française. D'un côté, la presse spécialisée technique (Futura) adopte un ton hagiographique, célébrant la prouesse d'ingénierie et l'indépendance vis-à-vis des États-Unis. De l'autre, une presse plus généraliste (La Croix) pointe une contradiction éthique : l'utilisation d'une 'fierté nationale' technologique pour optimiser l'extraction d'énergies fossiles. Cette divergence souligne le fossé entre la réussite industrielle et les engagements climatiques. La couverture omet toutefois de préciser si les concurrents américains (OpenAI, Google) ne font pas de même, créant un biais de focalisation sur l'acteur local.",
+    "analyse_coherence": "Les deux sources s'accordent sur le chiffre crucial : un déficit de 20 milliards de dollars par rapport aux attentes de 70 milliards. Le Monde insiste davantage sur les conséquences boursières et la méfiance de Wall Street, tandis que TechCrunch adopte un ton plus direct sur l'échec des projections internes. Cette convergence indique un tournant dans la perception de l'IA par les marchés : la phase d'enthousiasme aveugle laisse place à une exigence de rentabilité concrète.",
     "biais_detectes": [
-      "Solutionnisme technologique (Futura)",
-      "Biais de souveraineté nationale",
-      "Focalisation sur l'usage fossile sans mise en perspective sectorielle (La Croix)"
+      "Focalisation sur les chiffres de revenus bruts sans détailler les coûts opérationnels massifs (calcul, électricité)."
     ],
-    "ce_quil_faut_retenir": "Si Mistral Large 4 confirme l'excellence technique française, son adoption par le secteur pétrolier pose la question de l'alignement des champions de l'IA avec la transition écologique."
+    "ce_quil_faut_retenir": "Le leader du secteur peine à transformer son avance technologique en succès financier à la hauteur des attentes, ce qui pourrait forcer une restructuration de l'industrie de l'IA vers des modèles plus économes."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 228,
-    "nb_topics_ia": 86,
+    "nb_articles_ia": 207,
+    "nb_topics_ia": 75,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
