@@ -1,52 +1,308 @@
 {
-  "date": "2026-10-09",
-  "genere_a": "2026-10-09T04:36:31.757Z",
+  "date": "2026-10-10",
+  "genere_a": "2026-10-10T04:35:15.895Z",
   "sujets_actifs": [
     {
-      "titre": "Mobilisation lycéenne : escalade des violences et réponse gouvernementale",
-      "slug": "mobilisation-lyceenne-violences-policieres-reponse-geffray",
-      "rubrique": "societe",
+      "titre": "Accord surprise Trump-Poutine sur le diesel russe et indignation de Kiev",
+      "slug": "accord-diesel-trump-poutine-sanctions-ukraine",
+      "rubrique": "international",
       "tldr": [
-        "71 500 manifestants recensés ce jeudi par le ministère de l'Intérieur.",
-        "Annonce du déploiement de 3 000 professeurs remplaçants pour apaiser les tensions.",
-        "Multiplication des enquêtes de l'IGPN après des signalements de violences policières."
+        "Donald Trump annonce l'importation de 5 millions de tonnes de diesel russe pour baisser les prix aux USA.",
+        "Volodymyr Zelensky dénonce un « investissement dans la guerre » et un cadeau fait au Kremlin.",
+        "L'accord intervient à trois semaines des élections de mi-mandat (midterms) américaines."
       ],
-      "resume": "Le mouvement lycéen, débuté fin septembre, a franchi un cap de violence et d'intensité médiatique ce jeudi 8 octobre. Alors que le ministère de l'Intérieur dénombre plus de 70 000 manifestants, les réseaux sociaux et les médias rapportent de nombreux incidents : un lycéen frappé d'un coup de genou au visage à la Bastille et des accusations d'agression sexuelle par un policier à la Nation (BFM TV. Face à cette crise, le ministre de l'Éducation, Édouard Geffray, a annoncé sur TF1 le déploiement immédiat de 3 000 remplaçants pour combler les pénuries chroniques, tout en dénonçant le saccage d'un lycée à Lormont (Sud-Ouest). Les syndicats lycéens maintiennent leurs revendications contre Parcoursup et le contrôle continu, malgré ces concessions d'urgence.",
-      "contexte_historique": "Ce mouvement rappelle les blocages de 2018 contre la réforme du baccalauréat et l'instauration de Parcoursup. Historiquement, les mobilisations lycéennes en France ont souvent été le prélude à des crises sociales plus larges, comme en 1990 (plan Jospin) ou 2006 (CPE), où le gouvernement avait dû reculer face à la rue (Le Monde).",
+      "resume": "À trois semaines des élections de mi-mandat, le président américain Donald Trump a annoncé un accord bilatéral avec Vladimir Poutine pour la livraison massive de diesel russe (5 millions de tonnes), levant de fait les sanctions sur les hydrocarbures de Moscou (BFM TV, RFI). Cette décision vise officiellement à réduire les prix à la pompe aux États-Unis, mais elle provoque une crise diplomatique majeure avec l'Ukraine et les alliés de l'OTAN. Volodymyr Zelensky a vivement critiqué cette mesure, la qualifiant de financement direct de l'effort de guerre russe alors que des négociations de paix trilatérales semblent au point mort selon le Kremlin (Al Jazeera, The Guardian).",
+      "contexte_historique": "Depuis l'invasion de l'Ukraine en 2022, les exportations d'hydrocarbures russes font l'objet d'un embargo de la part des pays occidentaux pour tarir les revenus de guerre de Moscou. En 2024, les États-Unis avaient pourtant renforcé ces sanctions via le décret 14068 avant ce revirement brutal justifié par l'inflation énergétique intérieure (Le Monde).",
       "implications": [
-        "Risque de report ou de perturbation des épreuves de l'internat de médecine prévues lundi (franceinfo).",
-        "Pression accrue sur le budget 2027 avec l'amendement annoncé pour financer les postes de remplaçants (Courrier International)."
+        "Affaiblissement du régime de sanctions internationales contre la Russie et risque de division au sein de l'OTAN.",
+        "Baisse potentielle des prix du carburant aux États-Unis avant le scrutin législatif de novembre."
       ],
       "chronologie": [
         {
+          "date": "2026-10-10",
+          "texte": "Incendie dans un terminal pétrolier à Rostov-sur-le-Don suite à des tensions persistantes.",
+          "source": "Ouest-France"
+        },
+        {
           "date": "2026-10-09",
-          "texte": "Écho du mouvement en Belgique avec des manifestations de lycéens à Bruxelles.",
-          "source": "RFI"
-        },
-        {
-          "date": "2026-10-08",
-          "texte": "Annonce par Édouard Geffray de l'affectation de 3 000 professeurs remplaçants.",
-          "source": "Courrier international"
-        },
-        {
-          "date": "2026-10-08",
-          "texte": "71 500 personnes manifestent en France ; incidents violents à Paris et Lormont.",
+          "texte": "Annonce officielle par Donald Trump de l'accord sur le diesel avec la Russie.",
           "source": "BFM TV"
         },
         {
-          "date": "2026-10-07",
-          "texte": "Ouverture de 18 enquêtes IGPN pour des soupçons de violences policières lors des blocages.",
-          "source": "Citoyens.ai"
+          "date": "2026-10-09",
+          "texte": "Volodymyr Zelensky exprime son indignation face à ce qu'il considère comme une trahison.",
+          "source": "The Guardian"
         }
       ],
       "couvertures": [
         {
+          "source": "The Guardian",
+          "type": "etranger",
+          "angle": "Focus sur la rupture diplomatique avec l'Ukraine et les alliés de l'OTAN.",
+          "ton": "critique",
+          "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+          "citation_cle": "Un investissement dans la guerre qui doit être arrêtée, pas prolongée.",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "Focus sur les violences urbaines et les agressions contre le personnel de direction.",
-          "ton": "alarmiste",
-          "url": "https://www.bfmtv.com/societe/video-colere-des-lyceens-le-ministere-de-l-interieur-pointe-une-forte-augmentation-des-violences-urbaines-ce-jeudi_VN-202610090077.html",
-          "citation_cle": "Le ministère de l'Intérieur pointe une forte augmentation des violences urbaines ce jeudi.",
+          "angle": "Analyse de la stratégie électorale de Trump avant les midterms.",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-prix-des-carburants-donald-trump-leve-les-sanctions-sur-les-hydrocarbures-russes-avant-les-midterms_VN-202610100062.html",
+          "citation_cle": "Vladimir Poutine s’est engagé à fournir plusieurs millions de tonnes de diesel.",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Courrier international",
+          "type": "etranger",
+          "angle": "Donald Trump annonce un accord surprise avec Vladimir Poutine sur le diesel, Volodymyr Zelensky s’indigne",
+          "ton": "factuel",
+          "url": "https://www.courrierinternational.com/article/donald-trump-annonce-un-accord-surprise-avec-vladimir-poutine-sur-le-diesel-volodymyr-zelensky-s-indigne_277467",
+          "citation_cle": "Selon le président américain, la Russie s’est engagée à “immédiatement fournir plus de 300 000 tonnes de diesel au march",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quelles contreparties politiques ont été accordées à Moscou en échange de ce diesel ?",
+        "Comment les pays européens vont-ils réagir face à cette rupture unilatérale de l'embargo ?"
+      ],
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-prix-des-carburants-donald-trump-leve-les-sanctions-sur-les-hydrocarbures-russes-avant-les-midterms_VN-202610100062.html",
+          "type": "TV",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261010-donald-trump-annonce-un-accord-avec-vladimir-poutine-pour-fournir-du-diesel-au-march%C3%A9-am%C3%A9ricain-et-mondial",
+          "type": "radio",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/10/10/un-accord-sur-le-gazole-entre-trump-et-poutine-au-grand-dam-de-l-ukraine-et-de-ses-allies_6790903_3210.html",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/10/india-deploys-police-and-restricts-transport-ahead-of-mass-protest-in-delhi?traffic_source=rss",
+          "type": "etranger"
+        }
+      ],
+      "premiere_apparition": "2026-10-09"
+    },
+    {
+      "titre": "Mobilisation lycéenne : plan d'urgence de 3 000 remplaçants et enquêtes sur les violences policières",
+      "slug": "mobilisation-lyceenne-remplacants-violences-policieres",
+      "rubrique": "education",
+      "tldr": [
+        "Le gouvernement déploie 3 000 professeurs remplaçants pour tenter de calmer la fronde.",
+        "L'IGPN a ouvert 24 enquêtes pour des tirs de LBD et des blessures graves sur des mineurs.",
+        "Le mouvement s'étend désormais à l'enseignement privé catholique.",
+        "L'ONU exprime son inquiétude face aux violences lors des manifestations."
+      ],
+      "resume": "Face à une mobilisation lycéenne qui dure depuis trois semaines et s'intensifie, le ministre de l'Éducation Édouard Geffray a annoncé le déploiement immédiat de 3 000 remplaçants dans les établissements les plus en tension (BFM TV, Ouest-France). Cette mesure, perçue comme une tentative de désamorçage, intervient alors que le climat se durcit : une adolescente de 14 ans a été percutée par une voiture de police à Dunkerque et un lycéen a eu la main arrachée à Lens par une grenade (20 Minutes). La Police des polices (IGPN) est saisie de 24 enquêtes, tandis que des observateurs pointent une disproportion de la réponse policière face à des mineurs (BFM TV.",
+      "contexte_historique": "Le mouvement actuel rappelle la fronde contre la loi Travail en 2016 ou les blocages de 2018 contre Parcoursup, mais se distingue par une extension inédite au secteur privé et une critique radicale du maintien de l'ordre, faisant écho aux recommandations de l'ONU sur l'usage de la force en France (RFI).",
+      "implications": [
+        "Risque de radicalisation du mouvement suite aux blessures graves infligées à des lycéens.",
+        "Pression accrue sur le ministre de l'Intérieur concernant les techniques de maintien de l'ordre sur mineurs."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-10-10",
+          "texte": "Annonce du déploiement de 3 000 professeurs remplaçants dès la semaine prochaine.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-10-09",
+          "texte": "Le parquet de Béthune juge « conforme » le tir de grenade ayant amputé un lycéen à Lens.",
+          "source": "20 Minutes"
+        },
+        {
+          "date": "2026-10-08",
+          "texte": "L'enseignement privé catholique rejoint officiellement le mouvement de contestation.",
+          "source": "Reddit"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "20 Minutes",
+          "type": "mainstream",
+          "angle": "Focus sur les blessures graves et le traitement judiciaire des plaintes contre la police.",
+          "ton": "factuel",
+          "url": "https://www.20minutes.fr/monde/etats-unis/4253028-20261010-etats-unis-commentatrice-maga-katie-zacharia-designee-porte-parole-trump?at_medium=display&at_campaign=149",
+          "citation_cle": "Le parquet a estimé que le tir de grenade était conforme aux procédures.",
+          "groupe_media": null
+        },
+        {
+          "source": "RFI",
+          "type": "mainstream",
+          "angle": "Analyse de la difficulté de la couverture médiatique de ce mouvement.",
+          "ton": "neutre",
+          "url": "https://www.rfi.fr/fr/podcasts/chronique-des-m%C3%A9dias/20261009-en-france-la-difficile-couverture-m%C3%A9diatique-des-manifestations-de-lyc%C3%A9ens",
+          "citation_cle": "La difficulté de sa couverture médiatique dans une nation divisée.",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Colère lycéenne: qui sont les 3.000 professeurs remplaçants déployés en urgence dans les lycées ?",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/societe/video-colere-lyceenne-qui-sont-les-3-000-professeurs-remplacants-deployes-en-urgence-dans-les-lycees_VN-202610100061.html",
+          "citation_cle": "3.000 professeurs remplaçants déployés dès la semaine prochaine dans les lycées qui en ont le plus besoin. C’est l’annon",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "D'où proviennent budgétairement et techniquement ces 3 000 remplaçants mobilisés en 48 heures ?",
+        "Le mouvement va-t-il converger avec l'appel à la grève nationale du 5 novembre ?"
+      ],
+      "sources": [
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/societe/video-colere-lyceenne-qui-sont-les-3-000-professeurs-remplacants-deployes-en-urgence-dans-les-lycees_VN-202610100061.html",
+          "type": "TV",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/monde/etats-unis/4253028-20261010-etats-unis-commentatrice-maga-katie-zacharia-designee-porte-parole-trump?at_medium=display&at_campaign=149",
+          "type": "journal",
+          "groupe_media": null
+        },
+        {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/sport/les-directs-sport-des-10-et-11-octobre-sur-ouest-france-lombardie-motogp-f1-rc-vannes-l1-marathon-de-chicago-f532fac8-c411-11f1-bba2-d026901fbfe4?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "type": "journal",
+          "groupe_media": null
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/podcasts/chronique-des-m%C3%A9dias/20261009-en-france-la-difficile-couverture-m%C3%A9diatique-des-manifestations-de-lyc%C3%A9ens",
+          "type": "radio",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-09-29"
+    },
+    {
+      "titre": "Le Nobel de la Paix 2026 décerné à la juriste Navi Pillay malgré la colère d'Israël",
+      "slug": "nobel-paix-2026-navi-pillay-israel-genocide",
+      "rubrique": "international",
+      "tldr": [
+        "Navanethem Pillay, juriste sud-africaine, est sacrée pour son combat contre les crimes de guerre.",
+        "Le choix est vivement contesté par Israël en raison de ses rapports sur Gaza.",
+        "Donald Trump dénonce une décision « honteuse » et affirme ne pas connaître la lauréate."
+      ],
+      "resume": "Le prix Nobel de la paix 2026 a été attribué à Navanethem (Navi) Pillay, figure majeure de la justice internationale originaire d'Afrique du Sud. Ancienne juge à la Cour pénale internationale et Haut-Commissaire de l'ONU aux droits de l'homme, elle a été récompensée pour sa défense constante des victimes de crimes de guerre (NYT World, BFM TV). Cependant, cette nomination suscite une polémique virulente : Israël condamne fermement ce choix, rappelant que Mme Pillay a dirigé une commission de l'ONU concluant à un génocide à Gaza (NYT World). Donald Trump a également critiqué la décision, la qualifiant de « honteuse et embarrassante » (BFM TV).",
+      "contexte_historique": "Navi Pillay a été la première femme non blanche à ouvrir un cabinet d'avocats dans la province du Natal sous l'apartheid. Elle a siégé au Tribunal pénal international pour le Rwanda (TPIR) où elle a contribué à faire reconnaître le viol comme un acte de génocide (Wikipedia, NYT).",
+      "implications": [
+        "Tensions diplomatiques accrues entre le comité Nobel et les gouvernements israélien et américain.",
+        "Légitimation internationale des rapports onusiens sur les conflits au Proche-Orient."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-10-10",
+          "texte": "Donald Trump s'indigne officiellement de ne pas avoir reçu le prix.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-10-09",
+          "texte": "Annonce officielle du prix Nobel de la Paix à Oslo.",
+          "source": "NYT World"
+        },
+        {
+          "date": "2026-10-09",
+          "texte": "Réaction immédiate de condamnation du gouvernement israélien.",
+          "source": "NYT World"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "NYT World",
+          "type": "etranger",
+          "angle": "Analyse du parcours de la lauréate et des implications de ses rapports sur Israël.",
+          "ton": "neutre",
+          "url": "https://www.nytimes.com/2026/10/09/world/europe/nobel-peace-prize-navi-pillay.html",
+          "citation_cle": "Le choix a attiré la condamnation d'Israël en raison de son rôle à l'ONU.",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Focus sur la réaction de Donald Trump et son ego blessé.",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/donald-trump-s-indigne-de-ne-pas-avoir-recu-le-prix-nobel-de-la-paix-et-denonce-une-decision-honteuse-et-embarrassante_AD-202610100060.html",
+          "citation_cle": "Trump souligne le manque de notoriété de la lauréate.",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -57,147 +313,38 @@
         {
           "source": "franceinfo",
           "type": "mainstream",
-          "angle": "Analyse du mal-être générationnel et de l'angoisse liée à l'orientation.",
+          "angle": "Le prix Nobel de la paix est décerné à la Sud-Africaine Navanethem \"Navi\" Pillay, \"pour ses efforts en faveur de la promotion de la paix et du droit international\"",
           "ton": "factuel",
-          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/info-franceinfo-le-mouvement-lyceen-risque-de-perturber-les-epreuves-du-concours-de-l-internat-medecine_8229064.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "Derrière les mobilisations, le mal-être de toute une génération née entre 2008 et 2011.",
+          "url": "https://www.franceinfo.fr/monde/prix-nobel/le-prix-nobel-de-la-paix-est-decerne-a-la-sud-africaine-navanethem-navi-pillay-pour-ses-efforts-en-faveur-de-la-promotion-de-la-paix-et-du-droit-international_8229787.html#xtor=RSS-3-[lestitres]",
+          "citation_cle": "Agée de 85 ans, Navi Pillay a notamment présidé la commission d'enquête indépendante de l'ONU qui a accusé Israël de com",
           "groupe_media": {
             "nom": "France Télévisions",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
-        },
-        {
-          "source": "Ouest-France",
-          "type": "mainstream",
-          "angle": "Le dessin de Chaunu : le ministre de l’Éducation Édouard Geffray et la mobilisation lycéenne",
-          "ton": "factuel",
-          "url": "https://www.ouest-france.fr/education/le-dessin-de-chaunu-le-ministre-de-leducation-edouard-geffray-et-la-mobilisation-lyceenne-709167e4-c346-11f1-9bb5-ef9e9805e82f?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "citation_cle": "Le dessinateur et caricaturiste Chaunu croque au quotidien l’actualité française et internationale pour Ouest-France. Au",
-          "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'efficacité réelle du déploiement de 3 000 remplaçants sur les 15 000 postes manquants estimés par les syndicats.",
-        "L'impact du mouvement sur la tenue des examens de médecine la semaine prochaine."
+        "Comment cette récompense influencera-t-elle les enquêtes en cours à la CPI sur Gaza ?",
+        "Navi Pillay pourra-t-elle se rendre à la cérémonie sans pressions diplomatiques majeures ?"
       ],
       "sources": [
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/10/09/world/europe/nobel-peace-prize-navi-pillay.html",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
         {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/societe/video-colere-des-lyceens-le-ministere-de-l-interieur-pointe-une-forte-augmentation-des-violences-urbaines-ce-jeudi_VN-202610090077.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/info-franceinfo-le-mouvement-lyceen-risque-de-perturber-les-epreuves-du-concours-de-l-internat-medecine_8229064.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/vu-de-l-etranger-pour-apaiser-la-colere-lyceenne-le-ministre-de-l-education-annonce-l-arrivee-de-3000-professeurs-remplacants_277005",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/europe/20261009-la-mobilisation-lyc%C3%A9enne-en-france-trouve-un-%C3%A9cho-en-belgique",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/international/russie/vladimir-poutine/moyen-orient-le-president-russe-vladimir-poutine-propose-son-aide-a-l-iran-pour-regler-le-conflit-30986936.php",
-          "type": "mainstream"
-        }
-      ],
-      "premiere_apparition": "2026-09-29"
-    },
-    {
-      "titre": "États-Unis : exécution publique par peloton au Texas",
-      "slug": "etats-unis-execution-publique-peloton-texas",
-      "rubrique": "international",
-      "tldr": [
-        "Première exécution par peloton diffusée en direct par l'armée américaine.",
-        "Le condamné est l'auteur de la tuerie de Fort Hood en 2009 (13 morts).",
-        "Décision critiquée par les experts juridiques comme étant sans précédent."
-      ],
-      "resume": "Le secrétaire à la Défense, Pete Hegseth, a annoncé que l'auteur de la fusillade de Fort Hood (2009) serait exécuté par un peloton de soldats et que l'événement serait diffusé en direct au public. Cette décision, qualifiée de « message de fermeté », rompt avec des décennies de discrétion autour de la peine de mort militaire (Le Figaro). L'annonce suscite une vive controverse aux États-Unis, intervenant dans un contexte de campagne pour les midterms. Les experts juridiques s'interrogent sur la constitutionnalité d'une telle mise en scène, tandis que Donald Trump soutient ouvertement cette approche radicale de la justice pénale (The Guardian).",
-      "contexte_historique": "L'exécution par peloton est extrêmement rare aux États-Unis, la dernière ayant eu lieu en Utah en 2010. Au niveau militaire, aucune exécution n'a été pratiquée depuis 1961 (BBC News). L'aspect public et télévisé rappelle les exécutions de masse historiques, une pratique abandonnée par les démocraties occidentales au XXe siècle.",
-      "implications": [
-        "Risque de recours judiciaires de dernière minute sur le fondement du 8ème amendement (peines cruelles et inhabituelles).",
-        "Tensions politiques accrues avant les élections de mi-mandat du 3 novembre."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-09",
-          "texte": "Hegseth accuse faussement l'administration Obama d'avoir qualifié l'attaque de 2009 de « violence au travail ».",
-          "source": "The Guardian"
-        },
-        {
-          "date": "2026-10-08",
-          "texte": "Annonce officielle de la diffusion en direct de l'exécution par le Pentagone.",
-          "source": "Le Figaro"
-        },
-        {
-          "date": "2009-11-05",
-          "texte": "Fusillade de Fort Hood : 13 morts et plus de 30 blessés sur une base militaire texane.",
-          "source": "BBC News"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Le Figaro",
-          "type": "mainstream",
-          "angle": "Mise en avant de la volonté de justice publique et du caractère militaire de la sentence.",
-          "ton": "factuel",
-          "url": "https://www.lefigaro.fr/international/etats-unis-la-mise-a-mort-par-peloton-d-execution-de-l-auteur-d-une-tuerie-sur-une-base-militaire-en-2009-sera-publique-et-diffusee-en-direct-20261008",
-          "citation_cle": "Il sera fusillé par des soldats, comme il se doit.",
-          "groupe_media": null
-        },
-        {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Analyse des doutes juridiques et du caractère sans précédent de la décision.",
-          "ton": "neutre",
-          "url": "https://www.bbc.co.uk/news/articles/c9e8ld448km8o?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Une décision sur un terrain juridique incertain.",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "La mise à mort par peloton d'exécution de l'auteur d'une tuerie sur une base militaire sera diffusée en direct",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/la-mise-a-mort-par-peloton-d-execution-de-l-auteur-d-une-tuerie-sur-une-base-militaire-sera-diffusee-en-direct_AD-202610090075.html",
-          "citation_cle": "L'armée américaine a annoncé la diffusion en direct de l'exécution de l'auteur d'une tuerie qui avait fait 13 morts au T",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/donald-trump-s-indigne-de-ne-pas-avoir-recu-le-prix-nobel-de-la-paix-et-denonce-une-decision-honteuse-et-embarrassante_AD-202610100060.html",
+          "type": "TV",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -206,173 +353,53 @@
           }
         }
       ],
-      "ce_quon_ne_sait_pas": [
-        "La date exacte de l'exécution et les modalités techniques de la diffusion en direct.",
-        "Si la Cour Suprême interviendra pour bloquer le caractère public de la mise à mort."
-      ],
-      "sources": [
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/etats-unis-la-mise-a-mort-par-peloton-d-execution-de-l-auteur-d-une-tuerie-sur-une-base-militaire-en-2009-sera-publique-et-diffusee-en-direct-20261008",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/oct/08/uss-lincoln-san-diego-donald-trump-republicans-democrats-us-politics-latest-news",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c9e8ld448km8o?at_medium=RSS&at_campaign=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-10-08"
-    },
-    {
-      "titre": "Primaire sociale-démocrate : un scrutin test pour la gauche française",
-      "slug": "primaire-gauche-sociale-democrate-votes-2026",
-      "rubrique": "politique",
-      "tldr": [
-        "Ouverture des votes pour 140 000 inscrits ce vendredi et samedi.",
-        "Cinq candidats en lice dont Olivier Faure, Raphaël Glucksmann et Ségolène Royal.",
-        "Un nombre d'inscrits jugé correct mais sans dynamique de masse."
-      ],
-      "resume": "Les électeurs de la gauche sociale-démocrate commencent à voter ce vendredi 9 octobre pour désigner leur candidat à la présidentielle de 2027. Avec 140 282 inscrits, le scrutin évite l'humiliation d'une désertion totale, mais reste loin des mobilisations records de 2011 (Le Monde). La compétition est marquée par des tensions, notamment les accusations de Ségolène Royal contre Raphaël Glucksmann sur son comportement lors des débats . Le duel s'annonce serré entre la ligne de rupture portée par Olivier Faure et celle, plus libérale, de Raphaël Glucksmann (La Croix).",
-      "contexte_historique": "Le PS a utilisé les primaires ouvertes en 2011 (2,8 millions de votants) et 2017 (2 millions). Le passage à un corps électoral plus restreint (140 000 inscrits) marque l'affaiblissement structurel des partis traditionnels face aux mouvements gazeux (Le Figaro).",
-      "implications": [
-        "Clarification de la ligne idéologique du futur candidat face à l'hégémonie de LFI à gauche.",
-        "Capacité ou non du vainqueur à rassembler au-delà de son camp pour 2027."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-09",
-          "texte": "Ouverture du premier tour de vote en ligne et physiquement.",
-          "source": "Le Monde"
-        },
-        {
-          "date": "2026-10-08",
-          "texte": "Clôture des inscriptions avec 140 282 votants potentiels.",
-          "source": "La Croix"
-        },
-        {
-          "date": "2026-10-07",
-          "texte": "Dernier débat télévisé marqué par des échanges tendus sur l'Europe.",
-          "source": "Citoyens.ai"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Analyse de l'incertitude du scrutin malgré le faible nombre d'inscrits.",
-          "ton": "neutre",
-          "url": "https://www.lemonde.fr/politique/article/2026/10/09/primaire-a-gauche-avec-plus-de-140-000-votants-pour-designer-leur-candidat-a-la-presidentielle-une-election-plus-incertaine-que-prevu_6790500_823448.html",
-          "citation_cle": "Une élection plus incertaine que prévu.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "La Croix",
-          "type": "mainstream",
-          "angle": "Focus sur le manque d'élan populaire malgré le soulagement des organisateurs.",
-          "ton": "critique",
-          "url": "https://www.la-croix.com/politique/primaire-de-la-gauche-un-nombre-d-inscrits-au-dela-des-attentes-mais-pas-de-veritable-elan-20261008",
-          "citation_cle": "Un chiffre qui ne peut cacher la désillusion d’une grande partie de l’électorat.",
-          "groupe_media": null
-        },
-        {
-          "source": "Ouest-France",
-          "type": "mainstream",
-          "angle": "Primaire sociale-démocrate : début des votes pour le premier tour",
-          "ton": "factuel",
-          "url": "https://www.ouest-france.fr/elections/presidentielle/primaire-gauche/primaire-sociale-democrate-debut-des-votes-pour-le-premier-tour-0a0d7342-c36d-11f1-a107-88e926908e5f?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "citation_cle": "Les 140 000 électeurs inscrits pour désigner le futur candidat social-démocrate à l’élection présidentielle vont commenc",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Le taux de participation réel parmi les inscrits.",
-        "La capacité du vainqueur à obtenir le ralliement immédiat des quatre autres candidats."
-      ],
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/politique/article/2026/10/09/primaire-a-gauche-avec-plus-de-140-000-votants-pour-designer-leur-candidat-a-la-presidentielle-une-election-plus-incertaine-que-prevu_6790500_823448.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/politique/primaire-de-la-gauche-un-nombre-d-inscrits-au-dela-des-attentes-mais-pas-de-veritable-elan-20261008",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/elections/presidentielles/primaires-gauche/depuis-1995-deux-primaires-ouvertes-et-trois-fermees-pour-choisir-le-candidat-ps-20261009",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "premiere_apparition": "2026-09-15"
+      "premiere_apparition": "2026-10-09"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Décès de Margaret Hamilton",
-      "slug": "deces-margaret-hamilton-apollo",
-      "rubrique": "science",
-      "resume": "L'hommage à l'informaticienne de la mission Apollo 11 se stabilise. Les réseaux sociaux continuent de partager sa photo iconique avec le code source, mais l'actualité chaude bascule vers les enjeux politiques et sociaux immédiats.",
+      "titre": "Primaire sociale-démocrate : vote prolongé après cyberattaque",
+      "slug": "primaire-gauche-cyberattaque-prolongation",
+      "rubrique": "politique",
+      "resume": "Le scrutin, initialement prévu pour se clore samedi soir, est prolongé jusqu'à dimanche 18h en raison d'une cyberattaque ayant ralenti les plateformes de vote en ligne.",
       "chronologie": [
         {
-          "date": "2026-10-08",
-          "texte": "Annonce du décès de l'informaticienne à l'âge de 90 ans.",
-          "source": "Citoyens.ai"
+          "date": "2026-10-10",
+          "texte": "Annonce de la prolongation du vote jusqu'à dimanche soir.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-10-09",
+          "texte": "Détection d'une cyberattaque perturbant le premier tour.",
+          "source": "BFM TV"
         }
       ],
       "couvertures": [
         {
-          "source": "Reddit",
+          "source": "BFM TV",
           "type": "mainstream",
-          "angle": "Hommage viral à la pionnière du génie logiciel.",
+          "angle": "Information factuelle sur les délais de vote.",
           "ton": "neutre",
-          "url": "https://www.reddit.com/r/france",
-          "citation_cle": "Elle pose ici avec le code de la mission apollo de 1969."
+          "url": "https://www.bfmtv.com/politique/video-le-vote-de-la-primaire-a-gauche-prolonge-jusqu-a-dimanche-18h-apres-une-cyberattaque_VN-202610100057.html",
+          "citation_cle": "Le vote est prolongé en raison d'une cyberattaque qui a ralenti le vote."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Les détails des cérémonies de commémoration prévues par la NASA."
+        "L'origine de la cyberattaque est-elle étatique ou militante ?"
       ],
-      "sources": [],
-      "derniere_mise_a_jour": "2026-10-09",
-      "statut": "Sujet mémoriel, sortie du cycle d'actualité chaude."
+      "sources": [
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/politique/video-le-vote-de-la-primaire-a-gauche-prolonge-jusqu-a-dimanche-18h-apres-une-cyberattaque_VN-202610100057.html",
+          "type": "TV"
+        }
+      ],
+      "derniere_mise_a_jour": "2026-10-10",
+      "statut": "Le sujet bascule en gestion technique de crise électorale."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 744,
+    "nb_articles_analyses": 731,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
