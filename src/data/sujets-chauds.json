@@ -1,103 +1,114 @@
 {
-  "date": "2026-10-10",
-  "genere_a": "2026-10-10T04:35:15.895Z",
+  "date": "2026-10-11",
+  "genere_a": "2026-10-11T04:34:54.791Z",
   "sujets_actifs": [
     {
-      "titre": "Accord surprise Trump-Poutine sur le diesel russe et indignation de Kiev",
-      "slug": "accord-diesel-trump-poutine-sanctions-ukraine",
+      "titre": "Rupture diplomatique entre Trump et Zelensky après l'accord sur le diesel russe",
+      "slug": "trump-zelensky-diesel-russe-rupture",
       "rubrique": "international",
       "tldr": [
-        "Donald Trump annonce l'importation de 5 millions de tonnes de diesel russe pour baisser les prix aux USA.",
-        "Volodymyr Zelensky dénonce un « investissement dans la guerre » et un cadeau fait au Kremlin.",
-        "L'accord intervient à trois semaines des élections de mi-mandat (midterms) américaines."
+        "Donald Trump appelle ouvertement au remplacement de Volodymyr Zelensky.",
+        "Accord USA-Russie pour lever les sanctions sur le diesel en échange d'une baisse des prix à la pompe.",
+        "Kiev dénonce une trahison finançant directement l'effort de guerre du Kremlin."
       ],
-      "resume": "À trois semaines des élections de mi-mandat, le président américain Donald Trump a annoncé un accord bilatéral avec Vladimir Poutine pour la livraison massive de diesel russe (5 millions de tonnes), levant de fait les sanctions sur les hydrocarbures de Moscou (BFM TV, RFI). Cette décision vise officiellement à réduire les prix à la pompe aux États-Unis, mais elle provoque une crise diplomatique majeure avec l'Ukraine et les alliés de l'OTAN. Volodymyr Zelensky a vivement critiqué cette mesure, la qualifiant de financement direct de l'effort de guerre russe alors que des négociations de paix trilatérales semblent au point mort selon le Kremlin (Al Jazeera, The Guardian).",
-      "contexte_historique": "Depuis l'invasion de l'Ukraine en 2022, les exportations d'hydrocarbures russes font l'objet d'un embargo de la part des pays occidentaux pour tarir les revenus de guerre de Moscou. En 2024, les États-Unis avaient pourtant renforcé ces sanctions via le décret 14068 avant ce revirement brutal justifié par l'inflation énergétique intérieure (Le Monde).",
+      "resume": "Le président américain Donald Trump a franchi un cap diplomatique majeur en affirmant qu'il était « temps pour l'Ukraine d'avoir un nouveau président ». Cette déclaration fait suite aux critiques virulentes de Volodymyr Zelensky contre un accord surprise entre Washington et Moscou levant les sanctions sur le diesel russe. Trump justifie ce deal par la nécessité de faire baisser les prix de l'énergie pour les électeurs américains avant les élections de mi-mandat. De son côté, l'Ukraine considère cet accord comme un « cadeau d'anniversaire pour Poutine » (BFM TV) qui permet à la Russie de renflouer ses caisses de guerre au moment même où les frappes sur les infrastructures ukrainiennes redoublent.",
+      "contexte_historique": "Depuis l'invasion de 2022, les sanctions énergétiques étaient le pilier de la stratégie occidentale. Le retour à une realpolitik transactionnelle rappelle les positions de Trump lors du sommet d'Helsinki en 2018, où il avait privilégié la parole de Poutine sur celle de ses propres services de renseignement. L'ingérence directe dans le choix d'un dirigeant étranger allié est sans précédent dans l'histoire moderne des relations américano-ukrainiennes.",
       "implications": [
-        "Affaiblissement du régime de sanctions internationales contre la Russie et risque de division au sein de l'OTAN.",
-        "Baisse potentielle des prix du carburant aux États-Unis avant le scrutin législatif de novembre."
+        "Affaiblissement de la cohésion de l'OTAN face à la Russie.",
+        "Risque de réduction drastique de l'aide militaire américaine à l'Ukraine si Zelensky reste au pouvoir."
       ],
       "chronologie": [
         {
+          "date": "2026-10-11",
+          "texte": "Trump affirme que Poutine veut un règlement mais que Zelensky bloque l'accord.",
+          "source": "Le Monde"
+        },
+        {
           "date": "2026-10-10",
-          "texte": "Incendie dans un terminal pétrolier à Rostov-sur-le-Don suite à des tensions persistantes.",
-          "source": "Ouest-France"
+          "texte": "Annonce officielle de la levée des sanctions US sur le diesel russe.",
+          "source": "Libération"
         },
         {
           "date": "2026-10-09",
-          "texte": "Annonce officielle par Donald Trump de l'accord sur le diesel avec la Russie.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-10-09",
-          "texte": "Volodymyr Zelensky exprime son indignation face à ce qu'il considère comme une trahison.",
-          "source": "The Guardian"
+          "texte": "Zelensky qualifie l'accord de trahison envers les alliés européens.",
+          "source": "Courrier international"
         }
       ],
       "couvertures": [
         {
-          "source": "The Guardian",
-          "type": "etranger",
-          "angle": "Focus sur la rupture diplomatique avec l'Ukraine et les alliés de l'OTAN.",
+          "source": "Libération",
+          "type": "mainstream",
+          "angle": "Analyse de l'accord comme un piège politique tendu par Vladimir Poutine à un Trump focalisé sur son électorat.",
           "ton": "critique",
-          "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-          "citation_cle": "Un investissement dans la guerre qui doit être arrêtée, pas prolongée.",
+          "url": "https://www.liberation.fr/international/amerique/accord-washington-moscou-sur-le-diesel-cest-un-piege-tendu-par-poutine-20261011_LDMVE5ZEMVEVHF7X4XOZ4L52SY/",
+          "citation_cle": "C’est un piège tendu par Poutine.",
           "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
         },
         {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Analyse de la stratégie électorale de Trump avant les midterms.",
+          "source": "BBC News",
+          "type": "etranger",
+          "angle": "Focus sur la demande de changement de régime formulée par Trump.",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-prix-des-carburants-donald-trump-leve-les-sanctions-sur-les-hydrocarbures-russes-avant-les-midterms_VN-202610100062.html",
-          "citation_cle": "Vladimir Poutine s’est engagé à fournir plusieurs millions de tonnes de diesel.",
+          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "Time for Ukraine to get new president.",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
-          "source": "Courrier international",
-          "type": "etranger",
-          "angle": "Donald Trump annonce un accord surprise avec Vladimir Poutine sur le diesel, Volodymyr Zelensky s’indigne",
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Guerre en Ukraine: Donald Trump affirme que Vladimir Poutine \"aimerait voir un règlement\" du conflit et s'en prend à Volodymyr Zelensky",
           "ton": "factuel",
-          "url": "https://www.courrierinternational.com/article/donald-trump-annonce-un-accord-surprise-avec-vladimir-poutine-sur-le-diesel-volodymyr-zelensky-s-indigne_277467",
-          "citation_cle": "Selon le président américain, la Russie s’est engagée à “immédiatement fournir plus de 300 000 tonnes de diesel au march",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/guerre-en-ukraine-donald-tump-affirme-que-vladimir-poutine-aimerait-voir-un-reglement-du-conflit-et-s-en-prend-a-volodymyr-zelensky_AD-202610110054.html",
+          "citation_cle": "Le président américain Donald Trump a affirmé, ce samedi 10 octobre, que son homologue russe Vladimir Poutine voudrait c",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Quelles contreparties politiques ont été accordées à Moscou en échange de ce diesel ?",
-        "Comment les pays européens vont-ils réagir face à cette rupture unilatérale de l'embargo ?"
+        "L'existence de clauses secrètes concernant les frontières de l'Ukraine dans l'accord Trump-Poutine.",
+        "La réaction officielle des capitales européennes qui restent pour l'instant dans la consternation."
       ],
       "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/international/amerique/accord-washington-moscou-sur-le-diesel-cest-un-piege-tendu-par-poutine-20261011_LDMVE5ZEMVEVHF7X4XOZ4L52SY/",
           "type": "journal",
           "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
         },
         {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/live/2026/10/11/en-direct-guerre-en-ukraine-donald-trump-affirme-que-vladimir-poutine-aimerait-voir-un-reglement-avec-kiev_6791198_3210.html",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-prix-des-carburants-donald-trump-leve-les-sanctions-sur-les-hydrocarbures-russes-avant-les-midterms_VN-202610100062.html",
-          "type": "TV",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/guerre-en-ukraine-donald-tump-affirme-que-vladimir-poutine-aimerait-voir-un-reglement-du-conflit-et-s-en-prend-a-volodymyr-zelensky_AD-202610110054.html",
+          "type": "journal",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -106,19 +117,98 @@
           }
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261010-donald-trump-annonce-un-accord-avec-vladimir-poutine-pour-fournir-du-diesel-au-march%C3%A9-am%C3%A9ricain-et-mondial",
-          "type": "radio",
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+          "type": "journal",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
+            "nom": "BBC",
+            "proprietaire": "État britannique",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
+        }
+      ],
+      "premiere_apparition": "2026-10-09"
+    },
+    {
+      "titre": "Attaque meurtrière des Houthis contre l'aéroport de Riyad",
+      "slug": "attaque-houthis-riyad-octobre-2026",
+      "rubrique": "international",
+      "tldr": [
+        "12 morts et plus de 300 blessés dans une frappe de missile sur l'aéroport King Khalid.",
+        "Plus lourde perte civile en Arabie saoudite depuis plus de dix ans.",
+        "Donald Trump menace d'engager les forces américaines contre les rebelles yéménites."
+      ],
+      "resume": "L'aéroport international King Khalid de Riyad a été la cible d'une attaque dévastatrice samedi 10 octobre, attribuée aux rebelles Houthis du Yémen. Le bilan provisoire fait état de 12 morts, dont un citoyen américain, et 309 blessés (Le Monde). Cette escalade majeure intervient alors que le blocus sur le Yémen s'est durci, menaçant les hôpitaux de Taïz de fermeture totale (Al Jazeera). En réponse, Washington a annoncé évaluer une participation directe aux frappes aériennes saoudiennes, marquant un tournant possible vers une implication militaire américaine ouverte dans le conflit yéménite.",
+      "contexte_historique": "Le conflit au Yémen oppose depuis 2015 une coalition dirigée par l'Arabie saoudite aux rebelles Houthis soutenus par l'Iran. Malgré plusieurs trêves fragiles sous l'égide de l'ONU (résolution 2216), les frappes transfrontalières n'avaient jamais atteint un tel niveau de létalité civile au cœur de la capitale saoudienne depuis le début de l'année 2024.",
+      "implications": [
+        "Déstabilisation immédiate du transport aérien dans le Golfe.",
+        "Risque d'embrasement régional impliquant directement les États-Unis et l'Iran."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-10-11",
+          "texte": "Trump condamne l'attaque et envisage de rejoindre les frappes saoudiennes.",
+          "source": "Al Jazeera"
         },
         {
+          "date": "2026-10-10",
+          "texte": "Impact d'un missile sur le terminal passagers de l'aéroport de Riyad à 15h.",
+          "source": "Le Figaro"
+        },
+        {
+          "date": "2026-10-09",
+          "texte": "Les Houthis durcissent le ton suite au blocus des fournitures médicales à Taïz.",
+          "source": "Al Jazeera"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Focus sur le bilan humain et l'impuissance des systèmes de défense antiaérienne.",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/international/article/2026/10/11/arabie-saoudite-douze-morts-et-plus-de-300-blesses-dans-une-attaque-contre-l-aeroport-de-riyad-imputee-aux-houthistes_6791016_3211.html",
+          "citation_cle": "La plus meurtrière qu'ait connue le royaume.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Mise en perspective avec la crise humanitaire au Yémen et le siège de Taïz.",
+          "ton": "engagé",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/ice-agent-in-new-york-shooting-also-involved-in-assault-of-pregnant-woman?traffic_source=rss",
+          "citation_cle": "Medical services in Taiz risk shutting down.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "source": "20 Minutes",
+          "type": "mainstream",
+          "angle": "EN DIRECT Guerre au Moyen-Orient : L’Arabie saoudite accuse les Houthis d'un « crime de guerre » à l’aéroport de Riyad…",
+          "ton": "factuel",
+          "url": "https://www.20minutes.fr/monde/etats-unis/4253175-20261011-direct-guerre-moyen-orient-arabie-saoudite-accuse-houthis-crime-guerre-aeroport-riyad?at_medium=display&at_campaign=149",
+          "citation_cle": "Suivez avec nous les informations sur les conflits au Moyen-Orient en ce dimanche 11 octobre",
+          "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Le type exact de missile ou de drone utilisé pour saturer les défenses saoudiennes.",
+        "Si l'Iran a fourni un appui tactique direct pour cette opération spécifique."
+      ],
+      "sources": [
+        {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/10/un-accord-sur-le-gazole-entre-trump-et-poutine-au-grand-dam-de-l-ukraine-et-de-ses-allies_6790903_3210.html",
+          "url": "https://www.lemonde.fr/international/article/2026/10/11/arabie-saoudite-douze-morts-et-plus-de-300-blesses-dans-une-attaque-contre-l-aeroport-de-riyad-imputee-aux-houthistes_6791016_3211.html",
           "type": "journal",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -129,93 +219,109 @@
         },
         {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/10/india-deploys-police-and-restricts-transport-ahead-of-mass-protest-in-delhi?traffic_source=rss",
-          "type": "etranger"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/ice-agent-in-new-york-shooting-also-involved-in-assault-of-pregnant-woman?traffic_source=rss",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/une-situation-d-urgence-grave-en-arabie-saoudite-des-dizaines-de-blesses-a-l-aeroport-de-ryad-dans-une-attaque-imputee-aux-houthis-20261010",
+          "type": "journal",
+          "groupe_media": null
         }
       ],
-      "premiere_apparition": "2026-10-09"
+      "premiere_apparition": "2026-10-10"
     },
     {
-      "titre": "Mobilisation lycéenne : plan d'urgence de 3 000 remplaçants et enquêtes sur les violences policières",
-      "slug": "mobilisation-lyceenne-remplacants-violences-policieres",
-      "rubrique": "education",
+      "titre": "Mobilisation lycéenne : contestation des versions officielles et enquêtes IGPN",
+      "slug": "mobilisation-lyceenne-enquetes-igpn-lens-paris",
+      "rubrique": "societe",
       "tldr": [
-        "Le gouvernement déploie 3 000 professeurs remplaçants pour tenter de calmer la fronde.",
-        "L'IGPN a ouvert 24 enquêtes pour des tirs de LBD et des blessures graves sur des mineurs.",
-        "Le mouvement s'étend désormais à l'enseignement privé catholique.",
-        "L'ONU exprime son inquiétude face aux violences lors des manifestations."
+        "18 enquêtes IGPN ouvertes suite aux violences policières lors des manifestations.",
+        "Le lycéen amputé à Lens dément avoir ramassé la grenade explosive.",
+        "Gabriel Attal lance un « pacte pour la jeunesse » pour tenter de calmer la fronde."
       ],
-      "resume": "Face à une mobilisation lycéenne qui dure depuis trois semaines et s'intensifie, le ministre de l'Éducation Édouard Geffray a annoncé le déploiement immédiat de 3 000 remplaçants dans les établissements les plus en tension (BFM TV, Ouest-France). Cette mesure, perçue comme une tentative de désamorçage, intervient alors que le climat se durcit : une adolescente de 14 ans a été percutée par une voiture de police à Dunkerque et un lycéen a eu la main arrachée à Lens par une grenade (20 Minutes). La Police des polices (IGPN) est saisie de 24 enquêtes, tandis que des observateurs pointent une disproportion de la réponse policière face à des mineurs (BFM TV.",
-      "contexte_historique": "Le mouvement actuel rappelle la fronde contre la loi Travail en 2016 ou les blocages de 2018 contre Parcoursup, mais se distingue par une extension inédite au secteur privé et une critique radicale du maintien de l'ordre, faisant écho aux recommandations de l'ONU sur l'usage de la force en France (RFI).",
+      "resume": "Le mouvement lycéen s'intensifie en France, soutenu par 54% de la population (BFM TV). La tension se cristallise sur les violences policières : à Lens, un lycéen amputé de la main conteste formellement la version policière selon laquelle il aurait ramassé une grenade . À Paris, une vidéo d'un policier assénant un coup de genou à un lycéen à terre à la Bastille a provoqué l'ouverture d'une enquête IGPN. Face à cette crise, le candidat Gabriel Attal a réajusté son programme présidentiel à Lyon, proposant un plan d'urgence, tandis que les syndicats appellent à une « semaine décisive » avec des mobilisations mardi et samedi prochains.",
+      "contexte_historique": "Ce mouvement rappelle les mobilisations contre la loi El Khomri en 2016 ou les blocages de 2018. L'usage de grenades de désencerclement (type GENL) en milieu scolaire est un point de crispation juridique récurrent, la France étant l'un des rares pays européens à utiliser ces munitions explosives pour le maintien de l'ordre public.",
       "implications": [
-        "Risque de radicalisation du mouvement suite aux blessures graves infligées à des lycéens.",
-        "Pression accrue sur le ministre de l'Intérieur concernant les techniques de maintien de l'ordre sur mineurs."
+        "Risque de radicalisation du mouvement suite aux blessures graves de manifestants mineurs.",
+        "Pression politique accrue sur le ministre de l'Intérieur concernant les doctrines de maintien de l'ordre."
       ],
       "chronologie": [
         {
-          "date": "2026-10-10",
-          "texte": "Annonce du déploiement de 3 000 professeurs remplaçants dès la semaine prochaine.",
+          "date": "2026-10-11",
+          "texte": "Sondage : 54% des Français soutiennent le mouvement lycéen.",
           "source": "BFM TV"
         },
         {
-          "date": "2026-10-09",
-          "texte": "Le parquet de Béthune juge « conforme » le tir de grenade ayant amputé un lycéen à Lens.",
-          "source": "20 Minutes"
+          "date": "2026-10-10",
+          "texte": "Gabriel Attal présente son « pacte pour la jeunesse » à Lyon.",
+          "source": "Le Monde"
         },
         {
           "date": "2026-10-08",
-          "texte": "L'enseignement privé catholique rejoint officiellement le mouvement de contestation.",
-          "source": "Reddit"
+          "texte": "Un lycéen a la main arrachée lors d'un rassemblement à Lens.",
+          "source": "r/france"
         }
       ],
       "couvertures": [
         {
-          "source": "20 Minutes",
+          "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Focus sur les blessures graves et le traitement judiciaire des plaintes contre la police.",
-          "ton": "factuel",
-          "url": "https://www.20minutes.fr/monde/etats-unis/4253028-20261010-etats-unis-commentatrice-maga-katie-zacharia-designee-porte-parole-trump?at_medium=display&at_campaign=149",
-          "citation_cle": "Le parquet a estimé que le tir de grenade était conforme aux procédures.",
-          "groupe_media": null
-        },
-        {
-          "source": "RFI",
-          "type": "mainstream",
-          "angle": "Analyse de la difficulté de la couverture médiatique de ce mouvement.",
+          "angle": "Analyse de la stratégie électorale de Gabriel Attal face à la perte de l'électorat jeune.",
           "ton": "neutre",
-          "url": "https://www.rfi.fr/fr/podcasts/chronique-des-m%C3%A9dias/20261009-en-france-la-difficile-couverture-m%C3%A9diatique-des-manifestations-de-lyc%C3%A9ens",
-          "citation_cle": "La difficulté de sa couverture médiatique dans une nation divisée.",
+          "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/10/11/presidentielle-2027-face-au-mouvement-lyceen-gabriel-attal-reajuste-son-programme-et-defend-un-pacte-pour-la-jeunesse_6791096_6205049.html",
+          "citation_cle": "Attal tente de reprendre la main face à Mélenchon chez les 18-24 ans.",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "Colère lycéenne: qui sont les 3.000 professeurs remplaçants déployés en urgence dans les lycées ?",
+          "angle": "Explication pédagogique sur le fonctionnement des enquêtes de l'IGPN.",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/societe/video-colere-lyceenne-qui-sont-les-3-000-professeurs-remplacants-deployes-en-urgence-dans-les-lycees_VN-202610100061.html",
-          "citation_cle": "3.000 professeurs remplaçants déployés dès la semaine prochaine dans les lycées qui en ont le plus besoin. C’est l’annon",
+          "url": "https://www.bfmtv.com/police-justice/video-lyceens-blesses-comment-enquete-l-igpn-la-police-des-polices_VN-202610110055.html",
+          "citation_cle": "18 enquêtes ouvertes pour usage disproportionné de la force.",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Libération",
+          "type": "mainstream",
+          "angle": "Mobilisation lycéenne : quand les images «améliorées» par l’IA génèrent des fausses pistes",
+          "ton": "factuel",
+          "url": "https://www.liberation.fr/checknews/mouvement-lyceen-quand-les-images-ameliorees-par-lia-generent-des-fausses-pistes-20261011_Z5BPXSWSDFFUVMBDFRQIYQ4AKA/",
+          "citation_cle": "Dans le cadre du mouvement lycéen, de nombreux internautes utilisent des outils d’intelligence artificielle pour «rendre",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "D'où proviennent budgétairement et techniquement ces 3 000 remplaçants mobilisés en 48 heures ?",
-        "Le mouvement va-t-il converger avec l'appel à la grève nationale du 5 novembre ?"
+        "L'origine exacte de la grenade ayant blessé le lycéen à Lens (dotation réglementaire ou non).",
+        "L'impact réel des annonces d'Attal sur la détermination des lycéens à bloquer les établissements."
       ],
       "sources": [
         {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/societe/video-colere-lyceenne-qui-sont-les-3-000-professeurs-remplacants-deployes-en-urgence-dans-les-lycees_VN-202610100061.html",
-          "type": "TV",
+          "url": "https://www.bfmtv.com/societe/manifestations/colere-des-lyceens-le-mouvement-est-approuve-par-54-des-francais-mais-leurs-revendications-ne-suscitent-pas-toutes-la-meme-adhesion-selon-un-sondage_AN-202610110059.html",
+          "type": "journal",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -224,182 +330,55 @@
           }
         },
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/monde/etats-unis/4253028-20261010-etats-unis-commentatrice-maga-katie-zacharia-designee-porte-parole-trump?at_medium=display&at_campaign=149",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/10/11/presidentielle-2027-face-au-mouvement-lyceen-gabriel-attal-reajuste-son-programme-et-defend-un-pacte-pour-la-jeunesse_6791096_6205049.html",
           "type": "journal",
-          "groupe_media": null
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/sport/les-directs-sport-des-10-et-11-octobre-sur-ouest-france-lombardie-motogp-f1-rc-vannes-l1-marathon-de-chicago-f532fac8-c411-11f1-bba2-d026901fbfe4?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "journal",
-          "groupe_media": null
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/podcasts/chronique-des-m%C3%A9dias/20261009-en-france-la-difficile-couverture-m%C3%A9diatique-des-manifestations-de-lyc%C3%A9ens",
-          "type": "radio",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/checknews/mouvement-lyceen-quand-les-images-ameliorees-par-lia-generent-des-fausses-pistes-20261011_Z5BPXSWSDFFUVMBDFRQIYQ4AKA/",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         }
       ],
       "premiere_apparition": "2026-09-29"
-    },
-    {
-      "titre": "Le Nobel de la Paix 2026 décerné à la juriste Navi Pillay malgré la colère d'Israël",
-      "slug": "nobel-paix-2026-navi-pillay-israel-genocide",
-      "rubrique": "international",
-      "tldr": [
-        "Navanethem Pillay, juriste sud-africaine, est sacrée pour son combat contre les crimes de guerre.",
-        "Le choix est vivement contesté par Israël en raison de ses rapports sur Gaza.",
-        "Donald Trump dénonce une décision « honteuse » et affirme ne pas connaître la lauréate."
-      ],
-      "resume": "Le prix Nobel de la paix 2026 a été attribué à Navanethem (Navi) Pillay, figure majeure de la justice internationale originaire d'Afrique du Sud. Ancienne juge à la Cour pénale internationale et Haut-Commissaire de l'ONU aux droits de l'homme, elle a été récompensée pour sa défense constante des victimes de crimes de guerre (NYT World, BFM TV). Cependant, cette nomination suscite une polémique virulente : Israël condamne fermement ce choix, rappelant que Mme Pillay a dirigé une commission de l'ONU concluant à un génocide à Gaza (NYT World). Donald Trump a également critiqué la décision, la qualifiant de « honteuse et embarrassante » (BFM TV).",
-      "contexte_historique": "Navi Pillay a été la première femme non blanche à ouvrir un cabinet d'avocats dans la province du Natal sous l'apartheid. Elle a siégé au Tribunal pénal international pour le Rwanda (TPIR) où elle a contribué à faire reconnaître le viol comme un acte de génocide (Wikipedia, NYT).",
-      "implications": [
-        "Tensions diplomatiques accrues entre le comité Nobel et les gouvernements israélien et américain.",
-        "Légitimation internationale des rapports onusiens sur les conflits au Proche-Orient."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-10",
-          "texte": "Donald Trump s'indigne officiellement de ne pas avoir reçu le prix.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-10-09",
-          "texte": "Annonce officielle du prix Nobel de la Paix à Oslo.",
-          "source": "NYT World"
-        },
-        {
-          "date": "2026-10-09",
-          "texte": "Réaction immédiate de condamnation du gouvernement israélien.",
-          "source": "NYT World"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "NYT World",
-          "type": "etranger",
-          "angle": "Analyse du parcours de la lauréate et des implications de ses rapports sur Israël.",
-          "ton": "neutre",
-          "url": "https://www.nytimes.com/2026/10/09/world/europe/nobel-peace-prize-navi-pillay.html",
-          "citation_cle": "Le choix a attiré la condamnation d'Israël en raison de son rôle à l'ONU.",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Focus sur la réaction de Donald Trump et son ego blessé.",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/donald-trump-s-indigne-de-ne-pas-avoir-recu-le-prix-nobel-de-la-paix-et-denonce-une-decision-honteuse-et-embarrassante_AD-202610100060.html",
-          "citation_cle": "Trump souligne le manque de notoriété de la lauréate.",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "franceinfo",
-          "type": "mainstream",
-          "angle": "Le prix Nobel de la paix est décerné à la Sud-Africaine Navanethem \"Navi\" Pillay, \"pour ses efforts en faveur de la promotion de la paix et du droit international\"",
-          "ton": "factuel",
-          "url": "https://www.franceinfo.fr/monde/prix-nobel/le-prix-nobel-de-la-paix-est-decerne-a-la-sud-africaine-navanethem-navi-pillay-pour-ses-efforts-en-faveur-de-la-promotion-de-la-paix-et-du-droit-international_8229787.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "Agée de 85 ans, Navi Pillay a notamment présidé la commission d'enquête indépendante de l'ONU qui a accusé Israël de com",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Comment cette récompense influencera-t-elle les enquêtes en cours à la CPI sur Gaza ?",
-        "Navi Pillay pourra-t-elle se rendre à la cérémonie sans pressions diplomatiques majeures ?"
-      ],
-      "sources": [
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/10/09/world/europe/nobel-peace-prize-navi-pillay.html",
-          "type": "journal",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/donald-trump-s-indigne-de-ne-pas-avoir-recu-le-prix-nobel-de-la-paix-et-denonce-une-decision-honteuse-et-embarrassante_AD-202610100060.html",
-          "type": "TV",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-10-09"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Primaire sociale-démocrate : vote prolongé après cyberattaque",
-      "slug": "primaire-gauche-cyberattaque-prolongation",
-      "rubrique": "politique",
-      "resume": "Le scrutin, initialement prévu pour se clore samedi soir, est prolongé jusqu'à dimanche 18h en raison d'une cyberattaque ayant ralenti les plateformes de vote en ligne.",
+      "titre": "Le Nobel de la Paix 2026 décerné à Navi Pillay",
+      "slug": "nobel-paix-2026-navi-pillay",
+      "rubrique": "international",
+      "resume": "Après l'annonce du 9 octobre, le sujet entre dans une phase de commentaires diplomatiques. Les critiques israéliennes persistent mais le débat se déplace vers les futurs travaux de la juriste.",
       "chronologie": [
         {
-          "date": "2026-10-10",
-          "texte": "Annonce de la prolongation du vote jusqu'à dimanche soir.",
-          "source": "BFM TV"
-        },
-        {
           "date": "2026-10-09",
-          "texte": "Détection d'une cyberattaque perturbant le premier tour.",
-          "source": "BFM TV"
+          "texte": "Navi Pillay officiellement lauréate du prix Nobel de la Paix.",
+          "source": "RFI"
         }
       ],
-      "couvertures": [
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Information factuelle sur les délais de vote.",
-          "ton": "neutre",
-          "url": "https://www.bfmtv.com/politique/video-le-vote-de-la-primaire-a-gauche-prolonge-jusqu-a-dimanche-18h-apres-une-cyberattaque_VN-202610100057.html",
-          "citation_cle": "Le vote est prolongé en raison d'une cyberattaque qui a ralenti le vote."
-        }
-      ],
+      "couvertures": [],
       "ce_quon_ne_sait_pas": [
-        "L'origine de la cyberattaque est-elle étatique ou militante ?"
+        "L'impact de ce prix sur les enquêtes en cours à la CPI."
       ],
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/politique/video-le-vote-de-la-primaire-a-gauche-prolonge-jusqu-a-dimanche-18h-apres-une-cyberattaque_VN-202610100057.html",
-          "type": "TV"
-        }
-      ],
-      "derniere_mise_a_jour": "2026-10-10",
-      "statut": "Le sujet bascule en gestion technique de crise électorale."
+      "sources": [],
+      "derniere_mise_a_jour": "2026-10-11",
+      "statut": "Sujet stabilisé, en attente de la cérémonie de remise des prix en décembre."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 731,
+    "nb_articles_analyses": 525,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
