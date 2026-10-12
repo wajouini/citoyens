@@ -1,19 +1,36 @@
 {
   "sujet_du_jour": {
-    "titre": "Accord Trump-Poutine sur le diesel : Zelensky dénonce une trahison",
-    "rubrique": "international",
-    "pourquoi_important": "Cet accord marque un tournant géopolitique majeur en levant partiellement les sanctions contre Moscou au profit du marché énergétique américain.",
+    "titre": "Raphaël Glucksmann s'impose dès le premier tour de la primaire sociale-démocrate",
+    "rubrique": "politique",
+    "pourquoi_important": "Cette victoire nette clarifie le leadership à la tête de la gauche non-insoumise en vue de la présidentielle 2027.",
     "faits": [
-      "Donald Trump a annoncé la livraison immédiate de 300 000 tonnes de diesel russe, visant 1 million de tonnes mensuelles à terme .",
-      "Le président ukrainien Volodymyr Zelensky qualifie l'accord de décision « injuste et malhonnête » (Mediapart.",
-      "L'accord prévoit une levée partielle des sanctions américaines contre la Russie pour stabiliser les prix à la pompe aux États-Unis (L'Humanité).",
-      "Au Congrès, l'élu républicain Brian Fitzpatrick a lancé une procédure pour tenter de bloquer l'achat de carburant russe ."
+      "Raphaël Glucksmann l'emporte avec environ 66,1% des suffrages (79 613 voix) dès le premier tour du scrutin en ligne.",
+      "Le Premier secrétaire du PS, Olivier Faure, arrive deuxième avec 14,5%, suivi de Ségolène Royal (7,6%) et Emmanuel Maurel (5,9%).",
+      "Le scrutin a été marqué par une cyberattaque contre la plateforme de vote, obligeant la commission d'organisation à prolonger le vote jusqu'au dimanche 18h.",
+      "Le candidat a immédiatement réaffirmé son refus de toute alliance avec La France Insoumise (LFI) pour le premier tour de 2027."
     ],
-    "contexte": "Alors que des discussions diplomatiques se tenaient à Miami, cet accord surprise entre Washington et Moscou court-circuite la stratégie européenne. Le G7 avait pourtant réaffirmé le 2 octobre son engagement à maintenir les sanctions tout en libérant des stocks stratégiques. Cette décision place l'Ukraine dans une position de vulnérabilité accrue, Zelensky dénonçant une « horrible » décision prise sans concertation réelle.",
+    "contexte": "Après des mois de tensions internes au Parti Socialiste sur la stratégie vis-à-vis de l'Union de la gauche, cette primaire visait à désigner une incarnation pour la ligne sociale-démocrate. Malgré une campagne tendue, marquée par un incident où le candidat a été enfariné, Glucksmann bénéficie d'une large avance qui lui donne une légitimité immédiate pour structurer son camp face au bloc central et à l'extrême droite.",
     "sources": [
       {
+        "nom": "LCP - Assemblée nationale",
+        "url": "https://lcp.fr/actualites/primaire-socialiste-vainqueur-des-le-1er-tour-raphael-glucksmann-sera-le-candidat-de-la",
+        "type": "institutionnel",
+        "groupe_media": null
+      },
+      {
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/election-presidentielle-2027/live/2026/10/12/en-direct-primaire-a-gauche-raphael-glucksmann-elu-des-le-premier-tour-promet-de-rassembler-la-gauche-pour-battre-l-extreme-droite-et-reaffirme-son-refus-de-s-allier-avec-lfi_6791926_6205049.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
+      },
+      {
         "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/international/101026/trump-scelle-un-accord-surprise-avec-poutine-sur-le-diesel-zelensky-s-indigne",
+        "url": "https://www.mediapart.fr/journal/politique/111026/raphael-glucksmann-candidat-par-defaut-du-camp-social-democrate-pour-2027",
         "type": "investigation",
         "groupe_media": {
           "nom": "Mediapart",
@@ -24,7 +41,7 @@
       },
       {
         "nom": "L'Humanité",
-        "url": "https://www.humanite.fr/monde/guerre-en-ukraine/trump-et-poutine-signent-un-accord-sur-le-diesel-zelensky-denonce-une-horrible-decision",
+        "url": "https://www.humanite.fr/politique/parti-socialiste/raphael-glucksmann-designe-candidat-social-democrate-des-le-premier-tour-avec-6669-des-voix",
         "type": "mainstream",
         "groupe_media": {
           "nom": "L'Humanité",
@@ -38,35 +55,54 @@
   },
   "france": [
     {
-      "titre": "Gabriel Attal lance son « pacte pour la jeunesse » à Lyon",
-      "rubrique": "politique",
-      "resume": "En meeting à Lyon, le candidat Renaissance a présenté un plan éducatif incluant le brevet obligatoire pour l'entrée au lycée et une revalorisation salariale des enseignants. L'objectif est de regagner du terrain face à Jean-Luc Mélenchon, dominant chez les 18-24 ans, dans un contexte de forte mobilisation lycéenne.",
+      "titre": "Dissolution engagée contre Égalité et Réconciliation",
+      "rubrique": "societe",
+      "resume": "Le ministère de l'Intérieur a notifié à l'association d'Alain Soral son intention d'engager une procédure de dissolution administrative. Il lui est reproché de propager des discours de haine, de provoquer à la violence contre les minorités et de faire référence au national-socialisme.",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/10/11/presidentielle-2027-face-au-mouvement-lyceen-gabriel-attal-reajuste-son-programme-et-defend-un-pacte-pour-la-jeunesse_6791096_6205049.html",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/justice-proces/le-ministere-de-l-interieur-a-lance-une-procedure-de-dissolution-contre-l-association-d-extreme-droite-egalite-et-reconciliation-de-l-essayiste-alain-soral_8232643.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/politique/elections/face-a-lfi-attal-degaine-son-pacte-pour-la-jeunesse-en-meeting-a-lyon-20261010_FQGI5VZKNZGHLJGLFGUEUIU5PI/",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20261012-france-proc%C3%A9dure-de-dissolution-engag%C3%A9e-contre-l-association-%C3%A9galit%C3%A9-et-r%C3%A9conciliation-d-alain-soral",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000025505187/2026-01-01/?anchor=LEGIARTI000043982161"
+    },
+    {
+      "titre": "Budget 2027 : La menace des ordonnances plane",
+      "rubrique": "politique",
+      "resume": "Le ministre de l'Économie Roland Lescure a évoqué l'usage possible d'ordonnances budgétaires comme 'glissière de sécurité' si les débats à l'Assemblée s'enlisaient. L'opposition dénonce un passage en force antidémocratique sur un budget visant 5% de déficit.",
+      "sources": [
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/politique/ordonnances/ultime-coup-de-force-de-la-macronie-sur-le-budget-2027-le-gouvernement-laisse-planer-la-menace-dun-recours-inedit-aux-ordonnances",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
           }
         },
         {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/politique/gabriel-attal/je-veux-etre-le-president-qui-parlera-a-la-jeunesse-parce-qu-il-la-comprend-en-meeting-a-lyon-gabriel-attal-tente-de-relancer-sa-campagne-en-pleine-mobilisation-lyceenne_8231377.html",
+          "url": "https://www.franceinfo.fr/economie/budget/je-prefererais-eviter-les-ordonnances-pour-faire-adopter-le-budget-2025-afin-de-favoriser-le-debat-parlementaire-assure-roland-lescure_8232691.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -79,79 +115,22 @@
       "lien": null
     },
     {
-      "titre": "Lycéen amputé à Lens : la version officielle contestée",
-      "rubrique": "societe",
-      "resume": "L'adolescent grièvement blessé lors d'une manifestation dément formellement avoir ramassé une grenade, contrairement aux premières affirmations du parquet. Son avocate dénonce une violence disproportionnée alors que l'enquête de l'IGPN se poursuit.",
-      "sources": [
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/actualite-france/le-lyceen-ampute-d-une-main-a-lens-dement-avoir-ramasse-la-grenade-selon-son-avocate-20261010",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/societe/greves-et-manifestations/lyceen-ampute-d-une-main-a-lens-l-adolescent-conteste-formellement-la-version-du-parquet-et-nie-avoir-ramasse-la-grenade-affirme-son-avocate-31014173.php",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Cyberattaque massive contre les CAF",
-      "rubrique": "tech",
-      "resume": "Un million de dossiers de bénéficiaires du dispositif Vacaf auraient été compromis suite à un incident de cybersécurité. La Cnaf a suspendu l'accès à la plateforme et activé une cellule de crise pour évaluer l'ampleur du vol de données.",
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/tech/un-site-relie-aux-caisses-d-allocations-familiales-victime-d-une-fuite-de-donnees-plus-d-un-million-de-dossiers-compromis_AD-202610100388.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/economie/cybersecurite/fuite-de-donnees-le-dispositif-d-aide-aux-vacances-des-caisses-d-allocations-familiales-victime-d-une-cyberattaque-une-cellule-de-crise-activee-31013005.php",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
+      "titre": "Citroën ressuscite la 2CV en version électrique",
+      "rubrique": "economie",
+      "resume": "Au Mondial de l'Auto, Citroën a présenté un prototype de 2CV 100% électrique prévu pour 2028. Avec un prix cible inférieur à 15 000 €, la marque mise sur le néo-rétro et la légèreté pour démocratiser la transition écologique automobile.",
+      "sources": [],
       "lien": null
     }
   ],
   "monde": [
     {
-      "titre": "Trump réclame le départ de Zelensky",
-      "pays": "États-Unis / Ukraine",
-      "resume": "Au lendemain de son accord sur le diesel, Donald Trump a affirmé qu'il était « temps pour l'Ukraine d'avoir un nouveau président » pour négocier avec Poutine. Il accuse Zelensky d'être responsable de la pénurie énergétique en frappant les raffineries russes.",
-      "sources": [
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/geopolitique-diesel-russe-apres-les-critiques-de-kiev-trump-suggere-aux-ukrainiens-de-remplacer-zelensky_277731",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Attaque meurtrière des Houthis à Riyad",
-      "pays": "Arabie Saoudite",
-      "resume": "Un tir de missile sur l'aéroport King Khalid a fait 12 morts et plus de 300 blessés. Il s'agit de l'attaque la plus sanglante dans le royaume depuis dix ans, provoquant une situation d'urgence grave dans les hôpitaux de la capitale.",
+      "titre": "Attaques houthistes sans précédent contre Riyad",
+      "pays": "Arabie saoudite",
+      "resume": "Les rebelles Houthis du Yémen ont frappé l'aéroport King Khalid de Riyad ainsi que des infrastructures énergétiques. Le bilan s'élève à au moins 13 morts et plus de 300 blessés. Riyad a riposté par des frappes aériennes, marquant une escalade majeure dans le conflit.",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/11/arabie-saoudite-douze-morts-et-plus-de-300-blesses-dans-une-attaque-contre-l-aeroport-de-riyad-imputee-aux-houthistes_6791016_3211.html",
+          "url": "https://www.lemonde.fr/international/article/2026/10/11/arabie-saoudite-les-houthistes-du-yemen-revendiquent-des-operations-d-envergure-contres-des-aeroports-et-des-infrastructures-energetiques_6791939_3211.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -162,105 +141,165 @@
         },
         {
           "nom": "France 24",
-          "url": "https://www.france24.com/fr/moyen-orient/20261010-nouvelle-attaque-imput%C3%A9e-aux-houthis-%C3%A0-l-a%C3%A9roport-de-riyad-plusieurs-bless%C3%A9s-arabie-saoudite",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261011-frappe-de-missile-des-houthis-contre-l-a%C3%A9roport-de-riyad-samedi-au-moins-12-morts-et-309-bless%C3%A9s",
           "type": "mainstream",
           "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Trump évoque un 'cessez-le-feu énergétique' en Ukraine",
+      "pays": "États-Unis / Ukraine",
+      "resume": "Donald Trump a affirmé que Moscou et Kiev auraient conclu un accord pour cesser les frappes sur les infrastructures énergétiques. Volodymyr Zelensky a tempéré ces propos, se disant prêt à l'accepter uniquement si la Russie l'applique réellement.",
+      "sources": [
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-dites-a-poutine-de-nous-accorder-60-jours-de-cessez-le-feu-total-et-nous-organiserons-des-elections-assure-volodymyr-zelensky-20261011",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/europe/20261011-donald-trump-annonce-que-la-russie-et-l-ukraine-ont-conclu-un-cessez-le-feu-%C3%A9nerg%C3%A9tique",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Mathilde Panot et le ruban Octobre rose",
-    "rubrique": "politique",
-    "contexte": "La présidente du groupe LFI a annoncé refuser de porter le ruban rose, dénonçant le « cynisme » d'une campagne de sensibilisation qui occulterait le démantèlement des services publics de santé.",
+    "sujet": "Mobilisation et répression des lycéens",
+    "rubrique": "societe",
+    "contexte": "Depuis la rentrée, des lycéens manifestent contre le manque d'enseignants et les conditions d'apprentissage. Ces mobilisations font face à une réponse institutionnelle et policière de plus en plus ferme.",
     "couvertures": [
       {
-        "source": "BFM TV",
-        "type": "mainstream",
-        "angle": "Mise en avant de la polémique et des réactions indignées de la majorité.",
-        "ton": "critique",
-        "url": "https://www.bfmtv.com/politique/la-france-insoumise/je-ne-porterai-pas-le-ruban-rose-mathilde-panot-critique-la-campagne-contre-le-cancer-du-sein-et-fait-polemique_AN-202610100397.html",
-        "citation_cle": "Mathilde Panot s'est attirée de vives critiques.",
-        "auteur": null,
-        "proprietaire_contexte": "CMA CGM (Rodolphe Saadé)",
-        "orientation_source": "Centre-droit",
+        "source": "Reporterre",
+        "type": "investigation",
+        "angle": "La jeunesse comme lanceuse d'alerte face à l'effondrement des services publics et du climat.",
+        "ton": "engage",
+        "url": "https://reporterre.net/Lyceens-Les-lance-grenades-ne-feront-pas-taire-les-lanceurs-d-alerte",
+        "citation_cle": "Les lance-grenades ne feront pas taire les lanceurs d'alerte.",
+        "auteur": "Mathieu Yon",
+        "proprietaire_contexte": "Association La Pile (indépendant)",
+        "orientation_source": "gauche écologiste",
         "groupe_media": {
-          "nom": "CMA CGM",
-          "proprietaire": "Rodolphe Saadé",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "Reporterre",
+          "proprietaire": "Association La Pile",
+          "type_proprietaire": "independant",
+          "orientation": "gauche"
         }
       },
       {
         "source": "20 Minutes",
         "type": "mainstream",
-        "angle": "Focus sur la réaction unanime des ministres et du Rassemblement National.",
+        "angle": "Le point de vue des présidents d'université qui dénoncent les dégradations.",
         "ton": "factuel",
-        "url": "https://www.20minutes.fr/politique/4253186-20261011-depistage-cancer-sein-mathilde-panot-refuse-porter-ruban-octobre-rose-colere-ministres-rn",
-        "citation_cle": "Colère de ministres et du RN.",
-        "auteur": "B.Ch. avec AFP",
-        "proprietaire_contexte": "Groupe Bayard / Ouest-France",
-        "orientation_source": "Neutre",
-        "groupe_media": null
-      },
-      {
-        "source": "Sud-Ouest",
-        "type": "mainstream",
-        "angle": "Relais des propos de Panot sur le 'cynisme' de la campagne.",
-        "ton": "neutre",
-        "url": "https://www.sudouest.fr/politique/je-ne-le-porterai-pas-mathilde-panot-suscite-une-vive-polemique-apres-son-refus-de-porter-le-ruban-d-octobre-rose-31015296.php",
-        "citation_cle": "La députée LFI s’attire les foudres de la majorité et de l’opposition.",
-        "auteur": null,
-        "proprietaire_contexte": "Groupe Sud Ouest",
-        "orientation_source": "Centre",
+        "url": "https://www.20minutes.fr/societe/4253451-20261012-colere-lyceens-acceptable-presidents-universite-denoncent-mise-cause",
+        "citation_cle": "Les présidents d’université dénoncent leur mise en cause systématique.",
+        "auteur": "Rédaction avec AFP",
+        "proprietaire_contexte": "Groupe Rossel / Sipa Ouest-France",
+        "orientation_source": "neutre",
         "groupe_media": null
       }
     ],
-    "analyse_coherence": "Le traitement médiatique de cette polémique illustre un clivage classique entre la forme (le symbole) et le fond (les moyens hospitaliers). Les médias mainstream (BFM TV, 20 Minutes) se focalisent quasi exclusivement sur la dimension symbolique et la « polémique » politique, présentant le refus de la députée comme une attaque contre la cause des femmes. Le ton est majoritairement réprobateur, soulignant l'indignation de la majorité et du RN sans interroger les arguments structurels avancés par l'élue. À l'inverse, l'analyse de Panot déplace le débat vers l'équité sociale et le financement des services publics, un axe cher à notre ligne éditoriale. Le double standard est ici flagrant : alors que le droit à la santé est un principe universel, la critique de l'insuffisance des moyens publics est réduite à un comportement « indigne » ou « cynique » par les médias dominants. Il y a une dépolitisation du sujet de santé publique au profit d'une mise en scène de la discorde politicienne, occultant la réalité de l'accès aux soins en France.",
+    "analyse_coherence": "L'analyse des couvertures révèle une fragmentation totale du récit médiatique. D'un côté, les médias d'investigation ou engagés comme Reporterre (indépendant) cadrent le mouvement comme une réaction légitime de 'lanceurs d'alerte' face à un État défaillant, mettant l'accent sur la violence de la répression (usage de lance-grenades). À l'opposé, les médias mainstream privilégient une lecture institutionnelle ou sécuritaire. 20 Minutes se fait le relais des présidents d'université qui dénoncent le 'harcèlement' et les dégradations, déplaçant le sujet des revendications vers les nuisances. Le Monde adopte un angle politique classique, réduisant la colère lycéenne à un levier électoral pour Jean-Luc Mélenchon. On observe ici un double standard flagrant : alors que le manque de professeurs est un fait documenté (notamment à Strasbourg), le traitement médiatique dominant tend à délégitimer la forme de la contestation plutôt qu'à analyser les causes de la colère, contrairement au traitement souvent plus empathique réservé à d'autres types de mobilisations professionnelles.",
     "biais_detectes": [
-      "Personnalisation du conflit",
-      "Occultation des arguments de fond sur la santé publique",
-      "Normalisation des réactions du RN"
+      "Criminalisation de la contestation",
+      "Réduction politicienne",
+      "Invisibilisation des causes structurelles"
     ],
-    "ce_quil_faut_retenir": "Au-delà du geste symbolique, le débat pose la question de la sincérité des campagnes de sensibilisation quand les moyens hospitaliers de dépistage et de soin sont en déclin."
+    "ce_quil_faut_retenir": "Le débat se déplace de la pénurie d'enseignants vers la gestion de l'ordre public, occultant le fond du problème scolaire."
   },
   "regard_etranger": [
     {
-      "source": "Le Temps",
-      "pays": "Suisse",
-      "titre": "L'affaire Thélyson Orélien révèle les biais raciaux de l'édition française",
-      "titre_original": "Affaire Thélyson Orélien : en France, la réception racisée des romans a toujours cours",
-      "angle": "Une analyse critique de la réception littéraire en France, vue comme persistante dans ses préjugés coloniaux.",
-      "url": "https://www.courrierinternational.com/article/litterature-affaire-thelyson-orelien-en-france-la-reception-racisee-des-romans-a-toujours-cours_276423",
+      "source": "Al Jazeera",
+      "pays": "Qatar",
+      "titre": "Au moins 139 morts après le naufrage d'un bateau de migrants entre Djibouti et le Yémen",
+      "titre_original": "At least 139 dead as migrant boat from Djibouti to Yemen capsizes",
+      "angle": "Un regard du Sud sur une tragédie migratoire majeure ignorée par les agendas européens.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/at-least-139-dead-as-migrant-boat-from-djibouti-to-yemen-capsizes",
+      "groupe_media": {
+        "nom": "Al Jazeera Media Network",
+        "proprietaire": "État du Qatar",
+        "type_proprietaire": "etat",
+        "orientation": "variable"
+      }
+    },
+    {
+      "source": "The New York Times",
+      "pays": "États-Unis",
+      "titre": "Les leaders de la 'Cockroach Janta Party' libérés après des manifestations à Delhi",
+      "titre_original": "India’s ‘Cockroach’ Leaders Released as Small Protests Go On in Delhi",
+      "angle": "Focus sur la répression des mouvements de jeunesse pour le droit de vote en Inde.",
+      "url": "https://www.nytimes.com/2026/10/11/world/asia/india-cockroach-dipke-new-delhi-protests.html",
       "groupe_media": null
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "15%",
-    "contexte": "C'est le niveau record d'impopularité atteint par Emmanuel Macron en octobre 2026, son plus bas historique depuis son élection en 2017.",
-    "source": "Ipsos / BFM TV",
-    "source_url": "https://www.bfmtv.com/politique/elysee/seulement-15-d-opinions-favorables-la-popularite-d-emmanuel-macron-au-plus-bas-depuis-2017-selon-un-sondage_AN-202610110052.html"
+    "valeur": "139",
+    "contexte": "Nombre de morts confirmés après le naufrage d'une embarcation de migrants au large de Djibouti, dont 15 enfants.",
+    "source": "Organisation internationale pour les migrations (OIM)",
+    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/at-least-139-dead-as-migrant-boat-from-djibouti-to-yemen-capsizes"
   },
   "a_surveiller": [
     {
-      "date": "2026-12-11",
-      "evenement": "Fin de la concertation préalable sur le prolongement de la ligne 1 du métro parisien",
-      "type": "echeance",
-      "lien": "https://www.tzen4.iledefrance-mobilites.fr/le-reseau/projets/metro1-valdefontenay/concertation-prealable-2026-m1"
+      "date": "2026-10-13",
+      "evenement": "Arrivée du projet de budget 2027 à l'Assemblée nationale",
+      "type": "vote",
+      "lien": null
     },
     {
-      "date": "2027-09-11",
-      "evenement": "Nouvelle date fixée pour les élections présidentielle et législatives palestiniennes",
-      "type": "vote",
-      "lien": "https://www.la-croix.com/international/autorite-palestinienne-mahmoud-abbas-reporte-les-elections-a-septembre-2027-20261010"
+      "date": "2026-10-12",
+      "evenement": "Ouverture du Mondial de l'Auto à Paris",
+      "type": "autre",
+      "lien": "https://www.la-croix.com/economie/mondial-de-l-auto-apres-le-phenomene-r5-la-2cv-de-citroen-renait-elle-aussi-en-100-electrique-20261011"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Air France filtre ses équipages selon les ordres d'Israël",
+      "titre": "Lycée Jean Monnet : l'abandon scolaire par manque de profs",
       "rubrique": "societe",
-      "resume": "Suite à une directive israélienne baptisée 'Security Directive 2026', Air France demande à ses personnels navigants de ne pas être citoyens ou binationaux d'États n'ayant pas de relations avec Israël (comme l'Iran ou le Liban) pour survoler son espace.",
+      "resume": "À Strasbourg, des élèves ont passé l'année 2025-2026 sans enseignants dans six matières fondamentales, parfois jusqu'aux épreuves du bac. Le rectorat manque de 300 remplaçants.",
+      "sources": [
+        {
+          "nom": "Rue89 Strasbourg",
+          "url": "https://www.rue89strasbourg.com/lycee-jean-monnet-eleves-sans-profs-398397",
+          "type": "investigation"
+        }
+      ],
+      "pourquoi_signal": "Ce cas local illustre l'effondrement silencieux du service public d'éducation, souvent réduit à des statistiques nationales lissées."
+    },
+    {
+      "titre": "L'autodestruction forcée d'une ferme palestinienne",
+      "rubrique": "international",
+      "resume": "Près de Tulkarem, un agriculteur a dû raser sa propre ferme sous la menace d'un ordre de démolition israélien imminent, une pratique visant à éviter les frais de démolition facturés par l'occupant.",
+      "sources": [
+        {
+          "nom": "Blast",
+          "url": "https://www.blast-info.fr/articles/2026/ils-ont-detruit-notre-avenir-un-agriculteur-palestinien-contraint-de-raser-sa-ferme-pAoHZ11HSxSDHCsY2aTOPw",
+          "type": "investigation"
+        }
+      ],
+      "pourquoi_signal": "Ce procédé d'autodestruction forcée est une forme de violence psychologique et économique peu documentée par les agences de presse classiques."
+    }
+  ],
+  "alerte_editoriale": [
+    {
+      "titre": "Filtrage discriminatoire chez Air France",
+      "rubrique": "societe",
+      "resume": "Air France applique une directive israélienne demandant d'écarter les personnels navigants de 31 nationalités (ou doubles nationalités) des vols vers Tel-Aviv.",
+      "axes_concernes": [
+        "droit_international",
+        "justice_sociale"
+      ],
+      "analyse": "L'acceptation par une compagnie nationale de critères de filtrage fondés sur la nationalité ou l'origine est une entorse grave au droit du travail français et aux principes d'égalité. En se pliant à une directive de sécurité étrangère discriminatoire sans contestation diplomatique, Air France crée un précédent dangereux où la souveraineté d'un État tiers s'impose au contrat social français.",
       "sources": [
         {
           "nom": "Mediapart",
@@ -268,52 +307,27 @@
           "type": "investigation"
         },
         {
-          "nom": "The Times of Israel",
-          "url": null,
-          "type": "etranger"
-        }
-      ],
-      "pourquoi_signal": "Ce filtrage basé sur la nationalité, révélé par une note interne, constitue une pratique discriminatoire majeure passée sous les radars des médias généralistes."
-    }
-  ],
-  "alerte_editoriale": [
-    {
-      "titre": "L'Europe vers une autorisation à vie des pesticides",
-      "rubrique": "science",
-      "resume": "Le projet législatif 'Omnibus X' propose de supprimer la réévaluation périodique des pesticides, permettant leur maintien permanent sur le marché.",
-      "axes_concernes": [
-        "justice_sociale",
-        "souverainete_alimentaire"
-      ],
-      "analyse": "Ce projet constitue une régression écologique et sanitaire sans précédent. En supprimant l'obligation de réévaluation scientifique, l'UE privilégie les intérêts de l'agro-industrie au détriment de la santé publique et de la biodiversité. C'est une remise en cause directe du principe de précaution et du droit des citoyens à un environnement sain.",
-      "sources": [
-        {
-          "nom": "L'Obs",
-          "url": null,
-          "type": "mainstream"
-        },
-        {
-          "nom": "Libération",
-          "url": null,
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/social-et-economie/air-france/israel-exige-de-filtrer-les-personnels-navigants-selon-leur-nationalite-une-exigence-particulierement-grave-et-inacceptable-denonce-la-cgt-air-france",
           "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-10-11",
-  "genere_a": "2026-10-11T04:34:06.532Z",
+  "date": "2026-10-12",
+  "genere_a": "2026-10-12T04:35:47.199Z",
   "meta": {
-    "nb_articles_analyses": 525,
-    "nb_topics": 157,
+    "nb_articles_analyses": 538,
+    "nb_topics": 158,
     "nb_topics_selectionnes": 15,
     "nb_articles_dans_selection": 53,
-    "sources_francaises": 380,
-    "sources_etrangeres": 145,
+    "sources_francaises": 385,
+    "sources_etrangeres": 153,
     "rubriques_couvertes": [
-      "international",
       "politique",
       "societe",
-      "tech"
+      "economie",
+      "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"
