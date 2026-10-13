@@ -1,36 +1,186 @@
 {
-  "date": "2026-10-12",
-  "genere_a": "2026-10-12T04:36:03.870Z",
+  "date": "2026-10-13",
+  "genere_a": "2026-10-13T04:35:14.334Z",
   "faits_ia": [
     {
-      "titre": "Percée d'OpenAI en mathématiques : 372 problèmes complexes résolus",
-      "sous_section": "recherche",
-      "resume": "OpenAI a annoncé avoir résolu 372 problèmes mathématiques de haut niveau grâce à un nouveau modèle d'IA non commercialisé. Cette performance, qualifiée de « 100 % IA », marque une étape majeure dans la capacité des machines à raisonner de manière abstraite et logique, dépassant les simples probabilités statistiques des modèles précédents.",
-      "pourquoi_ca_compte": "Cette avancée remet en question la spécificité du raisonnement humain dans les sciences fondamentales et pourrait accélérer la découverte scientifique, tout en déstabilisant la communauté des chercheurs.",
+      "titre": "Meta lance Muse Wonder pour défier OpenAI et Anthropic",
+      "sous_section": "annonces",
+      "resume": "Mark Zuckerberg a dévoilé Muse Wonder, un nouveau modèle d'IA de pointe issu de la division Superintelligence Labs. Ce modèle est présenté comme capable de rivaliser directement avec GPT-4 d'OpenAI et Claude d'Anthropic, marquant la fin d'une période de rattrapage pour le groupe (Le Monde, Courrier international, The Verge). Meta affirme que ce modèle intègre des mécanismes de sécurité renforcés pour éviter que les agents IA ne dévient de leurs instructions (Wired, Sud-Ouest).",
+      "pourquoi_ca_compte": "Cette accélération de Meta, qui refuse tout ralentissement du développement, intensifie la course aux armements technologiques, posant des questions sur la capacité des régulateurs à suivre le rythme de déploiement de modèles toujours plus puissants.",
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/j-en-ai-meme-pleure-pourquoi-les-progres-de-l-intelligence-artificielle-plongent-les-mathematiciens-dans-une-crise-existentielle_8232436.html#xtor=RSS-3-[lestitres]",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/pixels/article/2026/10/13/le-groupe-meta-devoile-son-nouveau-modele-d-ia-muse-wonder-cense-rivaliser-avec-chatgpt-et-claude_6792943_4408996.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/intelligence-artificielle-avec-son-modele-muse-wonder-meta-cherche-a-rattraper-le-temps-perdu-dans-la-course-a-l-ia_278061",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/sciences-et-technologie/intelligence-artificielle/intelligence-artificielle-avec-muse-wonder-meta-dit-avoir-rattrape-openai-et-anthropic-et-refuse-de-ralentir-31042294.php",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/international/ia-meta-devoile-un-nouveau-modele-qu-il-dit-au-niveau-dopenai-et-danthropic-20261012",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Victoire judiciaire des journalistes d'Infopro contre l'IA",
+      "sous_section": "societe",
+      "resume": "Les salariés du groupe de presse Infopro Digital ont obtenu une victoire juridique contre l'introduction d'un agent d'intelligence artificielle dans leurs rédactions (Blast). En s'appuyant sur le droit du travail, ils ont réussi à freiner un projet de la direction qui menaçait l'autonomie éditoriale et les conditions de travail des journalistes.",
+      "pourquoi_ca_compte": "Ce précédent montre que le droit du travail reste un rempart citoyen essentiel pour protéger la qualité de l'information et les métiers intellectuels face à l'automatisation forcée.",
+      "sources": [
+        {
+          "nom": "Blast",
+          "url": "https://www.blast-info.fr/articles/2026/medias-la-bataille-des-salaries-d-infopro-contre-l-agent-ia-de-la-direction-Y-ax9zFxQ2C5iu7uULmQyQ",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Blast",
+            "proprietaire": "Blast",
+            "type_proprietaire": "independant",
+            "orientation": "gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Amende de 8,6M€ pour Xandr suite à l'usage de données Grindr",
+      "sous_section": "regulation",
+      "resume": "L'autorité norvégienne de protection des données a infligé une amende de 8,6 millions d'euros à la régie publicitaire Xandr (Next). Il est reproché à l'entreprise d'avoir traité et partagé sans base légale valide des données personnelles sensibles provenant de l'application de rencontre LGBTQ+ Grindr.",
+      "pourquoi_ca_compte": "Cette sanction rappelle la vulnérabilité des données intimes dans l'écosystème publicitaire et l'importance de la souveraineté numérique européenne face aux courtiers de données.",
+      "sources": [],
+      "lien": null
+    },
+    {
+      "titre": "Elon Musk investit 276M$ pour influencer les Midterms US",
+      "sous_section": "societe",
+      "resume": "Elon Musk est devenu l'un des principaux soutiens financiers du Parti Républicain pour les élections de mi-mandat, avec des dons dépassant les 276 millions de dollars (The Verge, Al Jazeera). Ces fonds visent à soutenir les candidats conservateurs face aux préoccupations liées au coût de la vie et à la baisse de popularité de Donald Trump.",
+      "pourquoi_ca_compte": "L'utilisation d'une fortune issue de la tech pour influencer massivement un scrutin démocratique pose la question de la capture du débat politique par les milliardaires de la Silicon Valley.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/12/elon-musk-spends-366m-to-bolster-republican-party-in-us-midterm-elections?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
             "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Apple prépare l'événement « Welcome Home » sur la maison connectée",
+      "sous_section": "annonces",
+      "resume": "Apple organise une présentation centrée sur la domotique et l'Apple TV, qualifiée d'« expérience » plutôt que de keynote classique (Numerama). Un nouvel appareil central pour la maison intelligente, potentiellement doté d'un écran, est attendu pour relancer la stratégie de la marque dans ce secteur (Futura Sciences).",
+      "pourquoi_ca_compte": "L'entrée massive de l'IA et des capteurs Apple dans l'intimité du foyer soulève des enjeux persistants de vie privée et d'interopérabilité des objets du quotidien.",
+      "sources": [
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/tech/2351095-comment-suivre-la-conference-apple-du-13-octobre-sur-le-homeview-et-lapple-tv-en-direct.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Futura Sciences",
+          "url": "https://www.futura-sciences.com/tech/actualites/apple-apple-prepare-grosse-surprise-demain-ce-on-sait-nouveautes-tres-attendues-138470/#xtor%3DRSS-8",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Futura",
+            "proprietaire": "Futura (indépendant)",
+            "type_proprietaire": "independant",
             "orientation": "centre"
           }
         }
       ],
-      "lien": "https://www.franceinfo.fr/internet/intelligence-artificielle/j-en-ai-meme-pleure-pourquoi-les-progres-de-l-intelligence-artificielle-plongent-les-mathematiciens-dans-une-crise-existentielle_8232436.html"
+      "lien": null
     },
     {
-      "titre": "Apple prépare l'événement « Welcome Home » dédié à la domotique",
+      "titre": "L'UE lance AGILE : 115M€ pour l'innovation de défense rapide",
+      "sous_section": "business",
+      "resume": "La Commission européenne a adopté le programme AGILE, doté de 115 millions d'euros, pour accélérer le transfert des technologies de rupture du laboratoire vers le terrain militaire (Europa EU). Ce programme vise à soutenir la souveraineté technologique européenne dans un contexte de tensions géopolitiques accrues.",
+      "pourquoi_ca_compte": "Ce financement marque une étape vers une intégration plus forte de l'innovation technologique civile dans les capacités de défense, transformant l'écosystème des startups tech en Europe.",
+      "sources": [
+        {
+          "nom": "Europa EU",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2132",
+          "type": "institutionnel",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Google lance la Fitbit Edge, entre montre et traqueur",
       "sous_section": "annonces",
-      "resume": "Apple s'apprête à lancer le « HomeView », son premier hub domestique intelligent, accompagné de mises à jour pour l'Apple TV et le HomePod Mini. Les rumeurs indiquent également l'intégration de microphones directement dans l'Apple TV pour un contrôle Siri mains libres sans télécommande.",
-      "pourquoi_ca_compte": "C'est une tentative majeure d'Apple de s'imposer face à Amazon et Google dans la gestion de l'habitat privé, en misant sur une intégration matérielle poussée.",
+      "resume": "Positionnée entre le traqueur Fitbit Air et la Pixel Watch, la nouvelle Fitbit Edge propose un écran OLED et un design premium pour 179,99$ (TechCrunch). Bien que plus complète que les modèles de base, elle ne dispose pas de toutes les fonctionnalités d'une véritable smartwatch sous WearOS (Ars Technica).",
+      "pourquoi_ca_compte": "La multiplication des capteurs de santé connectés par les géants de la tech normalise la collecte permanente de données biométriques sous couvert de bien-être.",
       "sources": [
         {
           "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+          "url": "https://techcrunch.com/2026/10/12/fitbit-edge-is-googles-middle-ground-between-fitbit-air-and-pixel-watch/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Yahoo (AOL / Oath)",
@@ -40,8 +190,28 @@
           }
         },
         {
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/10/google-announces-the-fitbit-edge-a-middle-ground-between-pixel-watch-5-and-fitbit-air/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "No Man's Sky arrive sur iPhone et iPad le 28 octobre",
+      "sous_section": "annonces",
+      "resume": "Le jeu d'exploration spatiale procédurale No Man's Sky sera disponible sur iOS pour les appareils équipés de puces récentes le 28 octobre (The Verge). Ce portage illustre la puissance croissante des terminaux mobiles pour faire tourner des mondes virtuels complexes (Ars Technica).",
+      "pourquoi_ca_compte": "La convergence entre consoles et mobiles redéfinit l'accès aux loisirs numériques massifs, mais renforce également la dépendance aux écosystèmes fermés d'Apple.",
+      "sources": [
+        {
           "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home",
+          "url": "https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date",
           "type": "etranger",
           "groupe_media": {
             "nom": "Vox Media",
@@ -51,190 +221,59 @@
           }
         },
         {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1009397/apple-tv-refresh-built-in-mic-remote-speaker",
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/gaming/2026/10/after-a-10-year-redemption-arc-no-mans-sky-is-coming-to-the-iphone-and-ipad/",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/"
-    },
-    {
-      "titre": "Le Royaume-Uni renforce sa cybersécurité face aux risques de l'IA",
-      "sous_section": "regulation",
-      "resume": "Le ministre britannique de l'IA, Kanishka Narayan, a annoncé un renforcement des défenses cybernétiques du pays. Il appelle les entreprises développant des modèles d'IA avancés à accroître leurs efforts de sécurité, affirmant que l'État ne peut plus se reposer uniquement sur la bonne volonté des géants de la tech.",
-      "pourquoi_ca_compte": "Cela marque un tournant vers une régulation plus directive où la sécurité nationale prime sur l'autorégulation des entreprises technologiques.",
-      "sources": [
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/oct/12/uk-strengthen-cyber-defences-minister-ai-firms-safety",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theguardian.com/technology/2026/oct/12/uk-strengthen-cyber-defences-minister-ai-firms-safety"
-    },
-    {
-      "titre": "Silicon Valley : l'IA renommée « Super Intelligence » par Trump",
-      "sous_section": "business",
-      "resume": "Une partie de la Silicon Valley commence à adopter la terminologie de Donald Trump, qui souhaite rebaptiser l'intelligence artificielle « Super Intelligence ». Ce changement sémantique vise à souligner la supériorité technologique et les enjeux de puissance nationale.",
-      "pourquoi_ca_compte": "Le langage façonne la perception publique et législative ; ce glissement sémantique suggère une politisation croissante du développement technologique.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai"
-    },
-    {
-      "titre": "L'IA dans la presse : alerte sur la destruction massive d'emplois",
-      "sous_section": "societe",
-      "resume": "Carlos Tunon, secrétaire général de la Filpac-CGT, a profité du congrès du syndicat pour alerter sur l'impact de l'IA dans les industries du livre et des médias. Il craint que l'automatisation ne serve de prétexte à une « saignée » dans les effectifs professionnels.",
-      "pourquoi_ca_compte": "Au-delà de la technique, c'est la survie de métiers qualifiés et la diversité de l'information qui sont en jeu face à une automatisation pilotée par les coûts.",
-      "sources": [
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/medias/filpac-cgt/lia-va-tuer-des-metiers-dans-la-presse-alerte-carlos-tunon-secretaire-general-de-la-filpac-cgt",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
-        }
-      ],
-      "lien": "https://www.humanite.fr/medias/filpac-cgt/lia-va-tuer-des-metiers-dans-la-presse-alerte-carlos-tunon-secretaire-general-de-la-filpac-cgt"
-    },
-    {
-      "titre": "Risques existentiels : 5 scénarios de fin de l'humanité par l'IA",
-      "sous_section": "recherche",
-      "resume": "Des chercheurs alertent sur les dangers des essaims d'agents IA autonomes. Cinq scénarios sont étudiés, allant de la perte de contrôle sur des armes biologiques à l'émergence d'une superintelligence dont les objectifs divergeraient radicalement de ceux de l'humanité.",
-      "pourquoi_ca_compte": "Ces travaux visent à sortir la menace IA de la science-fiction pour en faire un sujet de sécurité publique immédiat et rigoureux.",
-      "sources": [
-        {
-          "nom": "Futura Sciences",
-          "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-ia-pourrait-elle-provoquer-fin-humanite-5-scenarios-plus-fou-plus-inquietant-138203/#xtor%3DRSS-8",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Futura",
-            "proprietaire": "Futura (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Futura Sciences",
-          "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-imagines-il-y-50-ans-agents-ia-deviennent-menace-leurs-propres-createurs-redoutent-137882/#xtor%3DRSS-8",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Futura",
-            "proprietaire": "Futura (indépendant)",
-            "type_proprietaire": "independant",
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
             "orientation": "centre"
           }
         }
       ],
-      "lien": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-ia-pourrait-elle-provoquer-fin-humanite-5-scenarios-plus-fou-plus-inquietant-138203/#xtor%3DRSS-8"
+      "lien": null
     },
     {
-      "titre": "Images « améliorées » par IA : le piège des fausses preuves",
+      "titre": "Enquête sur la radicalisation en ligne d'un pilote FlyDubai",
       "sous_section": "societe",
-      "resume": "Lors de récentes mobilisations lycéennes, des internautes ont utilisé l'IA pour augmenter la netteté de photos floues. Cette pratique génère des artefacts trompeurs et de fausses pistes, compliquant le travail de vérification de l'information.",
-      "pourquoi_ca_compte": "L'IA peut créer des détails inexistants dans une image originale, transformant un outil de clarté en usine à désinformation involontaire.",
+      "resume": "Les enquêteurs émiratis affirment qu'un co-pilote ayant tenté de diriger un avion vers un aéroport israélien avait été radicalisé en ligne et lors de ses études en Australie (NYT World). L'enquête souligne l'influence persistante des réseaux numériques dans la diffusion d'idéologies extrémistes.",
+      "pourquoi_ca_compte": "Ce fait divers tragique illustre le rôle critique de la surveillance des contenus en ligne et les limites de la détection algorithmique de la radicalisation.",
       "sources": [
         {
-          "nom": "CheckNews",
-          "url": "https://www.liberation.fr/checknews/mouvement-lyceen-quand-les-images-ameliorees-par-lia-generent-des-fausses-pistes-20261011_Z5BPXSWSDFFUVMBDFRQIYQ4AKA/",
-          "type": "fact-check",
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/10/12/world/asia/flydubai-attack-suspect-melbourne-mosque.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Below : la nouvelle série horrifique qui explore l'abysse sur Netflix",
+      "sous_section": "annonces",
+      "resume": "Netflix lance « Below », une mini-série canadienne mêlant thriller écologique et horreur côtière (Libération). La série utilise des effets visuels avancés pour dépeindre une communauté confrontée à des phénomènes inexpliqués et des créatures marines (Numerama).",
+      "pourquoi_ca_compte": "Le succès de ces productions souligne l'évolution des goûts culturels vers des récits d'angoisse climatique, servis par des technologies de production de plus en plus immersives.",
+      "sources": [
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/culture/series/below-mini-serie-de-netflix-un-bonbon-a-labysse-20261012_AAAOCQUVC5DHRLV4JABCUSIRHM/",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "Libération",
             "proprietaire": "Fonds de dotation",
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
-        }
-      ],
-      "lien": "https://www.liberation.fr/checknews/mouvement-lyceen-quand-les-images-ameliorees-par-lia-generent-des-fausses-pistes-20261011_Z5BPXSWSDFFUVMBDFRQIYQ4AKA/"
-    },
-    {
-      "titre": "Un collège de l'Illinois piégé par un contrat avec Flock Safety",
-      "sous_section": "business",
-      "resume": "Le Elgin Community College a tenté de résilier son contrat avec l'entreprise de caméras de surveillance Flock Safety, mais cette dernière a refusé la résiliation. Ce blocage contractuel met en lumière les difficultés de désengagement face aux fournisseurs de technologies de surveillance.",
-      "pourquoi_ca_compte": "Cela pose la question de la souveraineté des institutions publiques face aux contrats de services technologiques « verrouillés ».",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1009411/elgin-community-college-flock-safety-cameras",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/tech/1009411/elgin-community-college-flock-safety-cameras"
-    },
-    {
-      "titre": "NASA : 800 Go de données de la mission Artemis II mis en ligne",
-      "sous_section": "recherche",
-      "resume": "La NASA a publié une archive massive de 800 Go de données brutes concernant la mission Artemis II, incluant des images annotées par l'équipage montrant des flashs d'impact sur la face cachée de la Lune.",
-      "pourquoi_ca_compte": "L'ouverture de ces données permet à la communauté scientifique mondiale et aux passionnés d'analyser directement les résultats de l'exploration spatiale.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data"
-    },
-    {
-      "titre": "Peugeot mise sur l'électrique haute performance avec le concept E-T16",
-      "sous_section": "annonces",
-      "resume": "Peugeot a dévoilé deux concepts électriques radicaux : la E-T16 de 816 ch, ressuscitant l'icône des rallyes, et le RCZ Vision de 500 ch. Ces véhicules servent de vitrines technologiques pour les futurs cockpits et motorisations de la marque.",
-      "pourquoi_ca_compte": "Ces annonces montrent comment l'industrie automobile utilise l'électrification pour réinventer son patrimoine sportif et tester de nouvelles interfaces numériques.",
-      "sources": [
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/vroom/2350343-816-ch-et-un-0-a-100-km-h-en-25-s-peugeot-ressuscite-sa-sportive-la-plus-folle-en-electrique.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
         },
         {
           "nom": "Numerama",
-          "url": "https://www.numerama.com/vroom/2350075-le-peugeot-rcz-est-de-retour-dans-un-concept-de-500-ch-completement-fou-on-le-veut-en-serie.html",
+          "url": "https://www.numerama.com/tech/2351551-on-a-vu-below-la-meilleure-serie-horrifique-netflix-du-moment-pour-halloween-2026.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Humanoid",
@@ -244,39 +283,67 @@
           }
         }
       ],
-      "lien": "https://www.numerama.com/vroom/2350343-816-ch-et-un-0-a-100-km-h-en-25-s-peugeot-ressuscite-sa-sportive-la-plus-folle-en-electrique.html"
+      "lien": null
     }
   ],
   "regard_croise_ia": {
-    "sujet": "La crise existentielle des mathématiciens face aux progrès d'OpenAI",
-    "contexte": "Le 7 octobre 2026, OpenAI a publié la résolution par IA de 372 problèmes mathématiques complexes, provoquant une onde de choc dans la communauté scientifique.",
+    "sujet": "Lancement du modèle Muse Wonder de Meta",
+    "contexte": "Meta a dévoilé Muse Wonder, son modèle d'IA le plus puissant à ce jour, affirmant avoir comblé son retard sur OpenAI et Anthropic.",
     "couvertures": [
       {
-        "source": "franceinfo",
+        "source": "Le Monde",
         "type": "mainstream",
-        "angle": "Impact émotionnel et psychologique sur les chercheurs",
-        "ton": "critique",
-        "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/j-en-ai-meme-pleure-pourquoi-les-progres-de-l-intelligence-artificielle-plongent-les-mathematiciens-dans-une-crise-existentielle_8232436.html#xtor=RSS-3-[lestitres]",
-        "citation_cle": "J'en ai même pleuré",
+        "angle": "Positionnement stratégique et concurrence",
+        "ton": "factuel",
+        "url": "https://www.lemonde.fr/pixels/article/2026/10/13/le-groupe-meta-devoile-son-nouveau-modele-d-ia-muse-wonder-cense-rivaliser-avec-chatgpt-et-claude_6792943_4408996.html",
+        "citation_cle": "Mark Zuckerberg a affirmé que ce nouveau modèle plaçait Meta « à la pointe » de la technologie.",
         "groupe_media": {
-          "nom": "France Télévisions",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
+      },
+      {
+        "source": "Wired",
+        "type": "etranger",
+        "angle": "Capacités techniques et sécurité des agents",
+        "ton": "neutre",
+        "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+        "citation_cle": "Le modèle inclut de nouvelles fonctionnalités pour empêcher les agents de sortir des rails.",
+        "groupe_media": {
+          "nom": "Condé Nast",
+          "proprietaire": "Famille Newhouse (Advance Publications)",
+          "type_proprietaire": "famille",
           "orientation": "centre"
+        }
+      },
+      {
+        "source": "Courrier international",
+        "type": "etranger",
+        "angle": "Course à l'IA et investissements massifs",
+        "ton": "factuel",
+        "url": "https://www.courrierinternational.com/article/intelligence-artificielle-avec-son-modele-muse-wonder-meta-cherche-a-rattraper-le-temps-perdu-dans-la-course-a-l-ia_278061",
+        "citation_cle": "Mark Zuckerberg a investi une fortune en lançant le Superintelligence Labs.",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       }
     ],
-    "analyse_coherence": "Les deux sources s'accordent sur l'ampleur inédite du choc. Franceinfo privilégie le témoignage direct et l'émotion (« pleurs »), soulignant la vulnérabilité humaine face à la machine. La Croix adopte une perspective plus sociologique, se concentrant sur la « perte de sens » de la recherche si les résultats sont livrés sans que l'humain n'en comprenne le cheminement. L'absence de transparence sur les modèles utilisés par OpenAI est un point de tension commun : les chercheurs sont confrontés à une boîte noire qui résout des problèmes qu'ils ont mis des décennies à explorer.",
+    "analyse_coherence": "L'ensemble des sources s'accorde sur le fait que Meta a réussi un tour de force technologique en revenant au niveau des leaders du marché. Cependant, l'angle varie : les médias généralistes français (Le Monde, Sud-Ouest) insistent sur la rivalité commerciale et la volonté de Zuckerberg de ne pas ralentir malgré les appels à la prudence. À l'inverse, la presse spécialisée anglo-saxonne (Wired, The Verge) se concentre sur les spécificités techniques, notamment les garde-fous mis en place pour encadrer les 'agents' autonomes, une thématique peu abordée par les sources françaises. On note une cohérence sur l'origine du modèle et sur l'ambition de Meta de dominer l'IA générative grand public.",
     "biais_detectes": [
-      "Anthropocentrisme : focalisation sur la souffrance des chercheurs plutôt que sur le gain scientifique potentiel.",
-      "Dépendance aux sources : les deux articles s'appuient sur les revendications de performance d'OpenAI sans audit indépendant mentionné."
+      "Focalisation sur la performance brute au détriment de l'impact énergétique",
+      "Reprise quasi-unanime du storytelling de Meta sur le 'rattrapage'"
     ],
-    "ce_quil_faut_retenir": "L'IA n'est plus seulement un outil de calcul, elle devient un concurrent direct dans le domaine de l'abstraction pure, forçant les intellectuels à redéfinir leur valeur ajoutée."
+    "ce_quil_faut_retenir": "Meta n'est plus un suiveur mais un leader de l'IA. Pour le citoyen, cela signifie que les outils utilisés quotidiennement (Instagram vont intégrer des capacités d'IA massivement plus puissantes et autonomes dans les semaines à venir."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 115,
-    "nb_topics_ia": 42,
+    "nb_articles_ia": 176,
+    "nb_topics_ia": 72,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
