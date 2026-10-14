@@ -1,37 +1,38 @@
 {
   "sujet_du_jour": {
-    "titre": "Cyberattaque massive sur les systèmes frigorifiques des supermarchés français",
-    "rubrique": "societe",
-    "pourquoi_important": "Cette attaque inédite cible directement la chaîne d'approvisionnement alimentaire nationale, causant des millions d'euros de pertes de denrées.",
+    "titre": "Le pape Léon XIV opéré avec succès d'un cancer du poumon",
+    "rubrique": "international",
+    "pourquoi_important": "C'est le premier problème de santé majeur du pontificat de Léon XIV, soulevant des questions sur la gouvernance de l'Église à long terme.",
     "faits": [
-      "Dans la nuit du 11 au 12 octobre 2026, des centaines de supermarchés (Intermarché, Monoprix ont subi une dérégulation de leurs systèmes de froid (Le Figaro, Mediapart.",
-      "Le CERT-FR a identifié une compromission des contrôleurs Danfoss séries AK-SM et AK-SC, souvent due à une exposition directe sur Internet ou à des firmwares obsolètes (Cooling Post.",
-      "Les pirates ont modifié à distance les températures, faisant monter certains frigos jusqu'à 35°C, entraînant la destruction de stocks de produits frais et surgelés (Le Figaro, Reporterre).",
-      "Le parquet de Paris a ouvert une enquête pour cette cyberattaque d'ampleur nationale (L'Obs, ."
+      "L'opération de 90 minutes à l'hôpital Gemelli a consisté en l'ablation du lobe inférieur du poumon droit via une technique vidéo-assistée (Vatican News).",
+      "L'analyse histologique peropératoire a confirmé un adénocarcinome pulmonaire, une forme de cancer (La Croix, Le Figaro).",
+      "Le Saint-Siège affirme que l'intervention s'est déroulée sans complications et que le Pape s'est réveillé normalement (Franceinfo, BFM TV).",
+      "Une hospitalisation d'environ une semaine est prévue pour la convalescence du souverain pontife de 71 ans (RFI, 20 Minutes)."
     ],
-    "contexte": "L'incident met en lumière la vulnérabilité des infrastructures critiques face à l'obsolescence logicielle. Danfoss précise que les équipements touchés étaient pour la plupart en fin de vie ou non mis à jour, facilitant l'intrusion. Cette attaque souligne le risque de sabotage industriel visant la sécurité alimentaire, au-delà du simple vol de données.",
+    "contexte": "Le pape Léon XIV a été admis à la polyclinique Gemelli le 13 octobre 2026 après la découverte d'un nodule lors de contrôles de routine. Bien que le Vatican communique sur une opération « radicale » réussie, l'annonce d'un diagnostic cancéreux marque un tournant dans son règne. Cette hospitalisation intervient dans un contexte de forte activité diplomatique pour le Saint-Siège.",
     "sources": [
       {
-        "nom": "CERT-FR (ANSSI)",
-        "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012/",
+        "nom": "Vatican News",
+        "url": "https://www.vaticannews.va/fr/pape/news/2026-10/pape-hospitalisation-gemelli0.html",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/france/121026/des-supermarches-victimes-d-une-cyberattaque-visant-leurs-installations-frigorifiques",
-        "type": "investigation",
-        "groupe_media": {
-          "nom": "Mediapart",
-          "proprietaire": "Fonds pour une presse libre",
-          "type_proprietaire": "fondation",
-          "orientation": "gauche"
-        }
+        "nom": "La Croix",
+        "url": "https://www.la-croix.com/religion/sante-du-pape-leon-xiv-opere-avec-succes-d-un-nodule-au-poumon-20261013",
+        "type": "mainstream",
+        "groupe_media": null
       },
       {
-        "nom": "France 24 EN",
-        "url": "https://www.france24.com/en/france/20261012-french-supermarket-chains-say-cyberattack-shut-down-refrigerators",
-        "type": "etranger",
+        "nom": "Le Figaro",
+        "url": "https://www.lefigaro.fr/international/l-operation-du-pape-leon-xiv-pour-un-nodule-au-poumon-s-est-bien-deroulee-annonce-le-vatican-20261013",
+        "type": "mainstream",
+        "groupe_media": null
+      },
+      {
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/europe/20261013-l%C3%A9on-xiv-le-pape-a-subi-l-ablation-d-une-partie-du-poumon-un-nodule-retir%C3%A9-s-av%C3%A8re-canc%C3%A9reux",
+        "type": "mainstream",
         "groupe_media": {
           "nom": "France Médias Monde",
           "proprietaire": "État français",
@@ -40,101 +41,96 @@
         }
       },
       {
-        "nom": "Le Figaro",
-        "url": "https://www.lefigaro.fr/actualite-france/en-direct-mobilisation-des-lyceens-ils-ne-nous-ecoutent-pas-nouvelle-journee-de-manifestations-ce-mardi-lors-d-un-acte-v-sous-haute-tension-20261013",
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/monde/vatican/pape-leon-xiv/l-operation-au-poumon-du-pape-leon-xiv-s-est-bien-deroulee-annonce-le-vatican_8236060.html#xtor=RSS-3-[lestitres]",
         "type": "mainstream"
       },
       {
-        "nom": "Reporterre",
-        "url": "https://reporterre.net/Impots-favorables-aux-riches-Oxfam-attaque-l-Etat-en-justice",
-        "type": "investigation"
+        "nom": "BFM TV",
+        "url": "https://www.bfmtv.com/politique/parlement/budget-2027-les-debats-demarrent-a-l-assemblee-nationale-la-motion-de-rejet-du-ps-largement-repoussee_AD-202610140078.html",
+        "type": "mainstream"
       },
       {
-        "nom": "L'Obs",
-        "url": "https://www.nouvelobs.com/societe/20261013.OBS119156/a-2-ans-un-enfant-passe-53-minutes-par-jour-devant-un-ecran-a-cet-age-la-on-n-apprend-pas-sur-youtube.html",
+        "nom": "20 Minutes",
+        "url": "https://www.20minutes.fr/faits_divers/4254126-20261014-guyane-oublie-car-scolaire-enfant-7-ans-retrouve-mort?at_medium=display&at_campaign=149",
         "type": "mainstream"
       }
     ],
-    "lien": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012/"
+    "lien": null
   },
   "france": [
     {
-      "titre": "Fusillade dans un collège d'Aubagne : un élève de 14 ans interpellé",
-      "rubrique": "societe",
-      "resume": "Un collégien a ouvert le feu au fusil de chasse dans le collège Joseph-Lakanal, blessant le principal et une enseignante aux jambes avant d'être désarmé par un membre du personnel (RFI, France 24). Le parquet de Marseille a ouvert une enquête pour 'tentatives d'assassinat' tandis que les ministres de l'Intérieur et de l'Éducation se sont rendus sur place (Le Monde, franceinfo).",
+      "titre": "Rachida Dati : le CSM s'oppose à son retour dans la magistrature",
+      "rubrique": "politique",
+      "resume": "Le Conseil supérieur de la magistrature (CSM) a rendu un avis défavorable à la réintégration de l'ancienne ministre, jugeant que sa mise en examen pour corruption dans l'affaire Renault-Nissan fait « obstacle en l'état » à ses fonctions (Mediapart, L'Obs). Elle visait un poste de chargée de mission aux affaires européennes et internationales (La Croix, 20 Minutes).",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/10/12/maman-il-y-a-un-tueur-dans-le-college-a-aubagne-un-eleve-tire-sur-un-principal-et-une-professeure_6792800_3224.html",
-          "type": "mainstream",
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/131026/le-conseil-superieur-de-la-magistrature-rend-un-avis-defavorable-sur-la-nomination-de-rachida-dati",
+          "type": "investigation",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "Mediapart",
+            "proprietaire": "Fonds pour une presse libre",
+            "type_proprietaire": "fondation",
+            "orientation": "gauche"
           }
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261013-%C3%A9tats-unis-l-%C3%A9lue-d%C3%A9mocrate-ilhan-omar-vis%C3%A9e-par-une-perquisition-d%C3%A9nonce-une-intimidation-de-donald-trump",
-          "type": "mainstream"
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/europe/20261013-la-russie-a-livr%C3%A9-pour-320-milliards-de-dollars-d-hydrocarbures-%C3%A0-l-europe-depuis-2022",
-          "type": "mainstream"
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/au-mexique-la-tempete-rachel-et-l-ouragan-simon-ont-fait-cinq-morts-cinq-autres-personnes-toujours-portees-disparues_8234857.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream"
-        }
-      ],
-      "lien": "https://www.aubagne.fr/actualite/incidents-au-college-lakanal/"
-    },
-    {
-      "titre": "Pérennisation des tickets-restaurant pour les courses alimentaires",
-      "rubrique": "economie",
-      "resume": "L'Assemblée nationale a voté la systématisation de l'usage des titres-restaurant pour l'achat de produits alimentaires en supermarché au-delà de la dérogation actuelle (Le Monde, Sud-Ouest). Cette mesure, effective au 1er janvier 2028, est saluée par la grande distribution mais critiquée par les restaurateurs qui craignent une perte de chiffre d'affaires (BFM Business).",
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/13/les-deputes-perennisent-l-utilisation-des-tickets-restaurant-dans-les-supermarches_6793010_3234.html",
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/justice/20261013.OBS119174/avis-defavorable-pour-rachida-dati-le-conseil-superieur-de-la-magistrature-s-oppose-a-sa-reintegration.html",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
+          "groupe_media": null
         },
         {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/consommation/les-restaurateurs-reclamaient-une-reforme-les-deputes-votent-pour-l-utilisation-durable-des-tickets-restaurant-en-supermarche_AD-202610120852.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/culture/andrei-zviaguintsev-faire-un-film-sur-la-russie-aujourd-hui-exige-de-parler-de-la-guerre-20261013",
+          "type": "mainstream"
         },
         {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/redaction/ephemeride/video-le-saviez-vous-le-13-octobre-2016-bob-dylan-star-mondiale-americaine-du-rock-remportait-le-prix-nobel-de-la-litterature-devenant-ainsi-le-premier-musicien-a-obtenir-cette-recompense-30231552.php",
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/faits_divers/4254126-20261014-guyane-oublie-car-scolaire-enfant-7-ans-retrouve-mort?at_medium=display&at_campaign=149",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Baisse du prix du gazole confirmée pour le 1er novembre",
-      "rubrique": "economie",
-      "resume": "Le Premier ministre Sébastien Lecornu a annoncé une baisse de 12 à 18 centimes par litre à la pompe suite au déstockage de 10 millions de barils de gazole (Libération, 20 Minutes). Les distributeurs ont été reçus à Matignon pour garantir la répercussion immédiate de cette baisse sur les prix aux particuliers (Sud-Ouest).",
+      "titre": "Adoption unanime de la loi intégrale contre les violences sexuelles",
+      "rubrique": "societe",
+      "resume": "L'Assemblée nationale a voté à l'unanimité (503 voix) une proposition de loi ambitieuse couvrant le repérage et la réparation des violences sexistes et sexuelles (20 Minutes, RFI). Ce texte, né de la mobilisation après le meurtre de la jeune Lyhanna, doit maintenant être examiné par le Sénat (La Croix, France 24).",
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20261013-france-les-d%C3%A9put%C3%A9s-votent-pour-la-proposition-de-loi-int%C3%A9grale-contre-les-violences-sexistes-et-sexuelles",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/culture/andrei-zviaguintsev-faire-un-film-sur-la-russie-aujourd-hui-exige-de-parler-de-la-guerre-20261013",
+          "type": "mainstream"
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/moyen-orient/20261014-en-direct-moyen-orient-arabie-saoudite-yemen-houthis-iran-aramco",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Fusillade à Aubagne : la piste de la mouvance « True Crime »",
+      "rubrique": "societe",
+      "resume": "Le Parquet national antiterroriste s'est saisi de l'enquête après les tirs d'un collégien de 14 ans à Aubagne (Libération). L'adolescent semble adhérer à la « True Crime Community », un écosystème numérique glorifiant les tueries de masse (franceinfo, 20 Minutes).",
       "sources": [
         {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/economie/transports/prix-du-gazole-lecornu-assure-que-la-baisse-sera-visible-des-le-1er-novembre-20261012_4YWSH5SNOJBHXAZTAZBILCBLIU/",
+          "url": "https://www.liberation.fr/societe/police-justice/tirs-dans-un-college-a-aubagne-on-ne-connait-pas-le-mobile-de-ladolescent-en-garde-a-vue-selon-edouard-geffray-20261013_YWATOJWUVRFB7BAJYTT3JJA24A/",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Libération",
@@ -144,14 +140,19 @@
           }
         },
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/politique/4253745-20261012-prix-carburants-sebastien-lecornu-assure-gazole-baissera-1er-novembre",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/tirs-dans-un-college-a-aubagne-pourquoi-la-mouvance-true-crime-community-a-laquelle-l-adolescent-arrete-adherait-probablement-inquiete-en-france_8235574.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         },
         {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/redaction/ephemeride/video-le-saviez-vous-le-13-octobre-2016-bob-dylan-star-mondiale-americaine-du-rock-remportait-le-prix-nobel-de-la-litterature-devenant-ainsi-le-premier-musicien-a-obtenir-cette-recompense-30231552.php",
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/faits_divers/4254126-20261014-guyane-oublie-car-scolaire-enfant-7-ans-retrouve-mort?at_medium=display&at_campaign=149",
           "type": "mainstream"
         }
       ],
@@ -160,233 +161,238 @@
   ],
   "monde": [
     {
-      "titre": "Sabotage russe présumé contre Starlink en Pologne",
-      "pays": "Pologne",
-      "resume": "Deux ressortissants turcs ont été arrêtés en Allemagne, soupçonnés d'avoir incendié une station Starlink en Pologne pour le compte des services russes (Al Jazeera). Cette infrastructure est cruciale pour les communications de l'armée ukrainienne, ce qui fait qualifier l'acte de 'guerre hybride' par Varsovie (Sud-Ouest).",
+      "titre": "Joseph Kabila prend la tête d'une rébellion armée",
+      "pays": "RDC",
+      "resume": "L'ex-président Joseph Kabila a officialisé sa prise de contrôle du Front pour la refondation de la nation (FRN), englobant les rebelles du M23 (France 24). Ce mouvement dénonce la « tyrannie » de Félix Tshisekedi, faisant craindre une escalade vers une guerre totale dans l'est du pays (Le Monde, Libération).",
       "sources": [
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/12/poland-says-two-turks-arrested-over-russia-linked-starlink-station-fire",
-          "type": "etranger",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/afrique/article/2026/10/13/en-rdc-l-ancien-president-joseph-kabila-prend-la-tete-des-rebelles-de-l-est_6793174_3212.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/international/un-nouvel-acte-de-guerre-hybride-deux-turcs-arretes-en-allemagne-pour-avoir-incendie-une-station-starlink-en-pologne-31041380.php",
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/international/afrique/en-rdc-lancien-president-joseph-kabila-prend-officiellement-la-tete-de-la-rebellion-20261013_O6KLNFNJGZFHFK5TGDNHEJY6LU/",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/moyen-orient/20261014-en-direct-moyen-orient-arabie-saoudite-yemen-houthis-iran-aramco",
+          "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Alliance Kabila-M23 : nouveau front politico-militaire en RDC",
-      "pays": "République démocratique du Congo",
-      "resume": "L'ex-président Joseph Kabila a pris la tête du 'Front pour la refondation de la nation', s'alliant officiellement aux rebelles du M23 soutenus par le Rwanda (France 24 FR). Cette union intervient alors que Kabila a été condamné à mort par contumace pour trahison en 2025, aggravant l'instabilité sécuritaire dans l'est du pays (franceinfo).",
+      "titre": "Frappe russe sur une centrale électrique à Kiev",
+      "pays": "Ukraine",
+      "resume": "Une centrale de la capitale a été touchée mardi soir, faisant deux morts (Le Monde). Volodymyr Zelensky a déploré l'absence d'alerte précoce de la part des alliés occidentaux, dont le renseignement est crucial pour détecter les missiles russes (France 24).",
       "sources": [
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/europe/20261013-la-russie-a-livr%C3%A9-pour-320-milliards-de-dollars-d-hydrocarbures-%C3%A0-l-europe-depuis-2022",
-          "type": "mainstream"
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/live/2026/10/14/en-direct-guerre-en-ukraine-une-centrale-de-kiev-touchee-par-une-frappe-russe-sans-alerte-precoce-selon-volodymyr-zelensky_6791198_3210.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         },
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/au-mexique-la-tempete-rachel-et-l-ouragan-simon-ont-fait-cinq-morts-cinq-autres-personnes-toujours-portees-disparues_8234857.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream"
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/europe/20261013-ukraine-russie-centrale-kiev-touchee-frappe-russe-sans-alerte-prealable-allies-zelensky",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Recours d'Oxfam contre l'État pour injustice fiscale",
-    "rubrique": "economie",
-    "contexte": "L'ONG Oxfam France a déposé un recours en justice contre l'État pour 'rupture d'égalité face à l'impôt', dénonçant une fiscalité qui épargnerait les plus grandes fortunes au détriment de la progressivité de l'impôt.",
+    "sujet": "L'encadrement des loyers : un consensus social face à une menace législative",
+    "rubrique": "societe",
+    "contexte": "L'encadrement des loyers, dispositif expérimental dans plusieurs métropoles françaises, pourrait expirer le 26 novembre 2026 si le Sénat ne vote pas sa prolongation le 21 octobre.",
     "couvertures": [
       {
-        "source": "Le Monde",
+        "source": "L'Humanité",
         "type": "mainstream",
-        "angle": "Focus sur le privilège des ultra-riches qui échappent aux règles communes.",
-        "ton": "factuel",
-        "url": "https://www.lemonde.fr/politique/article/2026/10/13/les-plus-riches-s-achetent-le-privilege-de-ne-pas-etre-soumis-aux-memes-regles-oxfam-attaque-l-etat-en-justice-pour-rupture-d-egalite-face-a-l-impot_6792809_823448.html",
-        "citation_cle": "Les plus riches s’achètent le privilège de ne pas être soumis aux mêmes règles.",
-        "auteur": "Rédaction",
-        "proprietaire_contexte": "Groupe Le Monde (Niel, Kretinsky, Pigasse - milliardaires)",
-        "orientation_source": "Centre-droit",
-        "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
-      },
-      {
-        "source": "Reporterre",
-        "type": "investigation",
-        "angle": "Mise en avant des chiffres de l'imposition effective entre le top 0,0002% et la majorité des Français.",
-        "ton": "critique",
-        "url": "https://reporterre.net/Impots-favorables-aux-riches-Oxfam-attaque-l-Etat-en-justice",
-        "citation_cle": "Le top 0,0002 % des plus riches ne reverse que 25 % de ses revenus quand la majorité des Français reverse en moyenne plus de 50 %.",
-        "auteur": "Rédaction",
-        "proprietaire_contexte": "Association La Pile (Indépendant)",
+        "angle": "Défense du dispositif comme un outil de justice sociale plébiscité par une immense majorité de citoyens.",
+        "ton": "engage",
+        "url": "https://www.humanite.fr/societe/acces-au-logement/soutenu-par-83-des-francais-lencadrement-des-loyers-pourrait-disparaitre-des-le-26-novembre",
+        "citation_cle": "Soutenu par 83 % des Français, l’encadrement des loyers pourrait disparaître dès le 26 novembre.",
+        "auteur": "Pierre Cazemajor",
+        "proprietaire_contexte": "Société des lecteurs (Coopérative)",
         "orientation_source": "Gauche",
         "groupe_media": {
-          "nom": "Reporterre",
-          "proprietaire": "Association La Pile",
-          "type_proprietaire": "independant",
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
           "orientation": "gauche"
         }
       },
       {
-        "source": "Ouest-France",
+        "source": "BFM TV",
         "type": "mainstream",
-        "angle": "Analyse du recours comme un outil de pression politique pour la présidentielle 2027.",
-        "ton": "neutre",
-        "url": "https://www.ouest-france.fr/economie/impots-fiscalite/long-oxfam-france-denonce-une-injustice-fiscale-et-attaque-letat-en-justice-23750a1e-c68f-11f1-826d-36d87fa6fed4",
-        "citation_cle": "Un moyen selon l’association d’inscrire la justice fiscale à l’agenda politique.",
-        "auteur": "Rédaction",
-        "proprietaire_contexte": "Groupe Ouest-France",
-        "orientation_source": "Centre",
-        "groupe_media": null
+        "angle": "Analyse de l'adhésion surprenante des propriétaires au dispositif, traditionnellement perçu comme pro-locataire.",
+        "ton": "factuel",
+        "url": "https://www.bfmtv.com/immobilier/ils-sont-censes-etre-les-premiers-a-s-y-opposer-pourquoi-jusqu-a-81-des-proprietaires-sont-favorables-a-l-encadrement-des-loyers-et-88-des-locataires_AN-202610140040.html",
+        "citation_cle": "71% des bailleurs y sont favorables.",
+        "auteur": null,
+        "proprietaire_contexte": "Rodolphe Saadé (CMA CGM)",
+        "orientation_source": "Centre-droit",
+        "groupe_media": {
+          "nom": "CMA CGM",
+          "proprietaire": "Rodolphe Saadé",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
       }
     ],
-    "analyse_coherence": "La couverture médiatique du recours d'Oxfam révèle un consensus sur les faits (le dépôt de plainte pour rupture d'égalité), mais diverge sur la mise en perspective. Les médias de gauche et d'investigation comme Reporterre appuient sur l'écart flagrant des taux d'imposition effectifs (25% vs 50%), soulignant une injustice systémique. À l'inverse, des titres comme Le Monde, tout en rapportant les propos de Cécile Duflot, appartiennent à des groupes détenus par des milliardaires dont les intérêts sont directement visés par cette remise en cause des niches fiscales et des 'privilèges'. Ouest-France adopte une lecture plus stratégique et électorale, voyant dans cette action un positionnement politique pour 2027 plutôt qu'une simple bataille juridique. Le double standard est ici subtil : si la presse mainstream ne nie pas l'injustice, elle tend à la traiter comme un débat d'opinion ou une stratégie de communication d'ONG, là où la presse indépendante la traite comme un manquement matériel de l'État à ses principes constitutionnels d'égalité.",
+    "analyse_coherence": "Le traitement médiatique de l'encadrement des loyers révèle une convergence inédite entre les sources, malgré des orientations politiques opposées. L'Humanité (gauche) et BFM TV (centre-droit) s'appuient toutes deux sur le sondage « Que Choisir Ensemble » pour souligner un paradoxe majeur : alors que le gouvernement et une partie de la droite sénatoriale envisagent la fin du dispositif, celui-ci bénéficie d'un soutien massif non seulement chez les locataires (88%), mais aussi chez les propriétaires (jusqu'à 81% selon les segments). \n\nL'analyse montre toutefois une nuance de ton : là où L'Humanité alerte sur une menace de disparition imminente pour le pouvoir d'achat, BFM TV se concentre sur l'aspect pragmatique pour les bailleurs, suggérant que l'encadrement stabilise le marché et sécurise les paiements. L'absence de voix médiatique relayant les arguments classiques des lobbys immobiliers (frein à l'investissement) est notable, illustrant un décalage entre la réalité perçue par les usagers (propriétaires comme locataires) et l'agenda politique de dérégulation. La cohérence des chiffres rapportés par des médias aux actionnariats si différents (coopérative vs milliardaire) renforce la crédibilité du signal social.",
     "biais_detectes": [
-      "Biais de propriété (médias de milliardaires traitant de la taxation des riches)",
-      "Traitement électoraliste vs traitement systémique"
+      "Unanimisme inhabituel sur un sujet de régulation économique",
+      "Absence de mise en avant des arguments libéraux contre l'encadrement"
     ],
-    "ce_quil_faut_retenir": "Oxfam utilise le levier juridique pour contester la légalité des pratiques fiscales françaises, arguant que l'État faillit à son obligation de justice sociale. Le débat se déplace du terrain politique vers le terrain constitutionnel."
+    "ce_quil_faut_retenir": "Malgré son image de mesure clivante, l'encadrement des loyers fait l'objet d'un consensus social rare (plus de 80% de soutien). Sa possible disparition est une décision politique qui va à l'encontre de l'opinion majoritaire des bailleurs et des locataires."
   },
   "regard_etranger": [
     {
-      "source": "France 24 EN",
-      "pays": "France/International",
-      "titre": "Le feu détruit le plus vieux marché couvert de Paris",
-      "titre_original": "Fire destroys Paris's oldest covered food market",
-      "angle": "Focus sur la perte patrimoniale et l'émotion des locaux face à la destruction du Marché des Enfants Rouges.",
-      "url": "https://www.france24.com/en/france/20261012-fire-burns-down-paris-s-oldest-covered-food-market",
+      "source": "The Guardian",
+      "pays": "Royaume-Uni",
+      "titre": "Le Pape Léon diagnostiqué avec un cancer du poumon",
+      "titre_original": "Pope Leo diagnosed with lung cancer as growth removed during surgery",
+      "angle": "Accent mis sur la précision médicale et la réussite technique de l'opération à Rome.",
+      "url": "https://www.theguardian.com/world/2026/oct/13/pope-leo-hospital-operation-growth-lung",
       "groupe_media": {
-        "nom": "France Médias Monde",
-        "proprietaire": "État français",
-        "type_proprietaire": "etat",
-        "orientation": "centre"
+        "nom": "Scott Trust",
+        "proprietaire": "Scott Trust Limited",
+        "type_proprietaire": "fondation",
+        "orientation": "centre-gauche"
       }
     },
     {
-      "source": "Politico EU",
-      "pays": "Belgique/Europe",
-      "titre": "Crise à Ceuta : les Espagnols craignent un conflit armé avec le Maroc",
-      "titre_original": "Poll: Spaniards say Ceuta crisis could spark armed conflict with Morocco",
-      "angle": "Analyse des tensions territoriales croissantes entre l'Espagne et le Maroc vues sous l'angle de la sécurité européenne.",
-      "url": "https://www.politico.eu/article/poll-spaniards-say-ceuta-crisis-could-lead-to-armed-conflict-with-morocco/",
+      "source": "Courrier international",
+      "pays": "France",
+      "titre": "Perquisitionnée, la démocrate Ilhan Omar plus que jamais dans le collimateur de Donald Trump",
+      "titre_original": null,
+      "angle": "Analyse de l'instrumentalisation politique des enquêtes fédérales à l'approche des midterms américaines.",
+      "url": "https://www.courrierinternational.com/article/etats-unis-perquisitionnee-la-democrate-ilhan-omar-plus-que-jamais-dans-le-collimateur-de-donald-trump_278366",
       "groupe_media": {
-        "nom": "Axel Springer / KKR",
-        "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+        "nom": "Groupe Le Monde",
+        "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
         "type_proprietaire": "milliardaire",
         "orientation": "centre-droit"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "400 000 USD",
-    "contexte": "Montant de l'amende administrative infligée par l'Agence de Protection de l'Environnement (EPA) du Liberia à ArcelorMittal pour violations environnementales dans ses mines alimentant les aciéries françaises.",
-    "source": "Liberia Environmental Protection Agency",
-    "source_url": "https://epa.gov.lr/for-environmental-violations-epa-fines-arcelormittal-liberia-us400000-orders-additional-us100000-payment/"
+    "valeur": "783",
+    "contexte": "Nombre de salariés du privé décédés dans un accident du travail en France en 2025, un nouveau record (19 de plus qu'en 2024).",
+    "source": "Assurance Maladie",
+    "source_url": "https://www.humanite.fr/social-et-economie/morts-au-travail/record-de-morts-au-travail-en-2025-lassurance-maladie-devoile-le-chiffre-de-783-personnes"
   },
   "a_surveiller": [
     {
-      "date": "2026-10-13",
-      "evenement": "Acte V de la mobilisation lycéenne : manifestations et blocages prévus partout en France",
-      "type": "manifestation",
-      "lien": "https://www.bfmtv.com/societe/manifestations/video-colere-des-lyceens-de-nouveaux-blocages-prevus-pour-l-acte-v-de-la-mobilisation_VN-202610130068.html"
+      "date": "2026-10-21",
+      "evenement": "Vote au Sénat sur la prolongation de l'encadrement des loyers",
+      "type": "vote",
+      "lien": null
     },
     {
-      "date": "2026-10-15",
-      "evenement": "Fin du procès en appel de Mickaël Falou pour le féminicide de Sandra Pla",
+      "date": "2026-11-03",
+      "evenement": "Élections de mi-mandat (Midterms) aux États-Unis",
       "type": "echeance",
-      "lien": "https://www.humanite.fr/feminisme/feminicides/ma-fille-cest-trop-tard-mais-les-autres-condamne-pour-le-feminicide-de-sandra-pla-mickael-falou-a-nouveau-juge-en-appel"
+      "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Violences policières lors des blocus lycéens : des enquêtes ouvertes",
-      "rubrique": "societe",
-      "resume": "Des vidéos montrent des véhicules de police fonçant sur des rassemblements de lycéens à Dunkerque, tandis qu'une adolescente de 14 ans dénonce une interpellation violente et raciste à Tournefeuille (Médiacités, Politis). Le parquet a ouvert une enquête pour 'mise en danger d'autrui' à Dunkerque.",
+      "titre": "Elon Musk, premier financeur des Républicains pour les midterms",
+      "rubrique": "politique",
+      "resume": "Elon Musk a injecté plus de 276 millions de dollars depuis juillet 2026 dans des structures pro-GOP pour influencer les élections de novembre (Mediapart, Next). Ces fonds transitent notamment par son super PAC « America PAC » (FEC).",
       "sources": [
         {
-          "nom": "Médiacités",
-          "url": "https://www.mediacites.fr/education/toulouse/2026/10/12/je-voyais-ma-tete-passer-sous-la-roue-jai-pense-ils-vont-mecraser/",
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/international/131026/pour-eviter-la-defaite-des-republicains-aux-midterms-elon-musk-deverse-des-millions-de-dollars",
           "type": "investigation"
         },
         {
-          "nom": "Politis",
-          "url": "https://www.politis.fr/api/proxy/?articleID=514022",
+          "nom": "Next",
+          "url": "https://next.ink/261532/elon-musk-est-devenu-le-plus-gros-donateur-republicain-de-lhistoire-des-etats-unis/",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ces comportements dangereux des forces de l'ordre envers des mineurs sont peu relayés par les grands médias nationaux malgré la gravité des images."
+      "pourquoi_signal": "Ce financement massif et direct par un seul individu via des structures opaques redéfinit l'influence des plateformes tech sur les processus démocratiques."
     },
     {
-      "titre": "ArcelorMittal : l'acier français au prix de l'accaparement des terres au Liberia",
+      "titre": "Le FMI alerte sur une possible bulle de l'IA menaçant la finance mondiale",
       "rubrique": "economie",
-      "resume": "Une enquête révèle que le minerai de fer extrait par ArcelorMittal au Liberia pour ses sites de Dunkerque et Fos-sur-Mer est lié à des pollutions d'eau et des vols de terres agricoles (Disclose). L'entreprise a récemment été condamnée par les autorités libériennes pour violations environnementales.",
+      "resume": "Dans son rapport sur la stabilité financière, le FMI prévient qu'une correction brutale des actifs liés à l'IA pourrait amputer le PIB mondial de 1,1% d'ici 2028 (The Register, Next). L'institution pointe des vulnérabilités dans le secteur bancaire et cyber.",
       "sources": [
         {
-          "nom": "Disclose",
-          "url": "https://disclose.ngo/fr/article/arcelormittal-derriere-lacier-made-in-france-les-terres-volees-du-liberia",
-          "type": "investigation"
+          "nom": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/13/ai-bubble-could-burst-and-take-global-economy-with-it-imf-warns/5302781",
+          "type": "etranger"
         },
         {
-          "nom": "EPA Liberia",
-          "url": "https://epa.gov.lr/epa-of-liberia-launches-investigation-into-environmental-incident-at-arcelormittal-mining-area-in-nimba-county/",
+          "nom": "FMI",
+          "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026",
           "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "Il illustre le coût invisible et néocolonial de la transition industrielle européenne, souvent ignoré dans les discours sur le 'made in France'."
+      "pourquoi_signal": "C'est la première fois qu'une institution financière majeure place l'IA au même niveau de risque systémique que la dette souveraine ou les cyberattaques."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "L'inégalité scolaire gravée dans le marbre budgétaire",
+      "titre": "Greta Thunberg soutient les lycéens de Seine-Saint-Denis",
       "rubrique": "societe",
-      "resume": "En Hauts-de-France, la dotation de fonctionnement pour 2027 baisse dans les lycées les plus défavorisés de la métropole lilloise, contredisant les discours sur la mixité scolaire (Mediapart, Basta!).",
+      "resume": "La militante suédoise s'est rendue au lycée Paul-Éluard de Saint-Denis pour soutenir les blocages lycéens (Libération, Reporterre). Elle dénonce l'inaction climatique et lie désormais ce combat à la justice sociale et internationale.",
       "axes_concernes": [
         "justice_sociale",
-        "equite_economique"
+        "ecologie_sociale"
       ],
-      "analyse": "Cette situation illustre une rupture du principe d'égalité : alors que les élèves des quartiers populaires subissent déjà une ségrégation sociale documentée par la DEPP, les arbitrages budgétaires locaux renforcent ces inégalités matérielles. C'est un déni de la promesse républicaine d'égalité des chances par l'éducation.",
+      "analyse": "La présence de Thunberg en banlieue parisienne marque une jonction entre l'écologie radicale et les luttes sociales des quartiers populaires. Ce rapprochement est crucial : il sort l'écologie de sa bulle bourgeoise pour l'ancrer dans les territoires les plus précarisés, là où les enjeux de services publics et de dignité sont les plus criants.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/121026/dans-la-metropole-lilloise-la-region-donne-moins-aux-lycees-defavorises",
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Le-monde-entier-regarde-ce-que-vous-faites-Greta-Thunberg-rejoint-les-lyceens-de-Seine-Saint-Denis",
           "type": "investigation"
         },
         {
-          "nom": "Ministère de l'Éducation nationale",
-          "url": "https://www.education.gouv.fr/sites/default/files/document/depp-ni-2024-24-19-401634.pdf",
-          "type": "institutionnel"
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/societe/education/mouvement-des-lyceens-le-monde-entier-les-regarde-lance-greta-thunberg-depuis-le-lycee-paul-eluard-de-saint-denis-20261013_YPGHTY3TZFCSPEVPMYPY3WVKVY/",
+          "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-10-13",
-  "genere_a": "2026-10-13T04:34:48.198Z",
+  "date": "2026-10-14",
+  "genere_a": "2026-10-14T04:35:10.253Z",
   "meta": {
-    "nb_articles_analyses": 678,
-    "nb_topics": 201,
-    "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 51,
-    "sources_francaises": 470,
-    "sources_etrangeres": 208,
+    "nb_articles_analyses": 736,
+    "nb_topics": 216,
+    "nb_topics_selectionnes": 14,
+    "nb_articles_dans_selection": 47,
+    "sources_francaises": 479,
+    "sources_etrangeres": 257,
     "rubriques_couvertes": [
-      "societe",
-      "economie",
-      "international"
+      "international",
+      "politique",
+      "societe"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"
