@@ -1,177 +1,98 @@
 {
-  "date": "2026-10-14",
-  "genere_a": "2026-10-14T04:36:05.632Z",
+  "date": "2026-10-15",
+  "genere_a": "2026-10-15T04:35:43.448Z",
   "sujets_actifs": [
     {
-      "titre": "L'opération du pape Léon XIV révèle un nodule cancéreux au poumon",
-      "slug": "operation-pape-leon-xiv-cancer-poumon",
+      "titre": "Convalescence du pape Léon XIV après son opération d'un cancer du poumon",
+      "slug": "convalescence-pape-leon-xiv-cancer-poumon",
       "rubrique": "international",
       "tldr": [
-        "Ablation réussie du lobe inférieur du poumon droit à l'hôpital Gemelli de Rome.",
-        "Le Vatican confirme la nature cancéreuse (adénocarcinome) du nodule retiré.",
-        "Le souverain pontife a entamé sa convalescence après une intervention sans complication."
+        "Le pape Léon XIV est en convalescence après l'ablation d'un nodule cancéreux au poumon.",
+        "Le Vatican assure que la bureaucratie assure la continuité des affaires courantes.",
+        "Donald Trump a publiquement souhaité un bon rétablissement au souverain pontife."
       ],
-      "resume": "Le pape Léon XIV a subi une intervention chirurgicale majeure ce mardi 13 octobre à Rome pour retirer un nodule pulmonaire. Le Saint-Siège a officiellement confirmé que les analyses pathologiques ont révélé un adénocarcinome, une forme de cancer du poumon. Bien que l'opération se soit déroulée « positivement » et selon les modalités prévues, cette annonce médicale jette une incertitude sur la longévité de son pontificat, alors que de nombreux chefs d'État ont déjà exprimé leur soutien. Le pape est actuellement en convalescence dans sa chambre à l'hôpital Gemelli, établissement historique des soins pontificaux.",
-      "contexte_historique": "Le choix de l'hôpital Gemelli s'inscrit dans une tradition établie par Jean-Paul II, surnommé le « Vatican III » en raison de ses nombreux séjours. Léon XIV, bien que plus jeune que ses prédécesseurs lors de leur élection, fait face à une pathologie lourde qui rappelle les fragilités de santé ayant marqué la fin des règnes précédents (Le Figaro, NYT World).",
+      "resume": "Après une intervention chirurgicale réussie le 14 octobre pour retirer un nodule cancéreux au poumon, le pape Léon XIV entame sa période de convalescence. Le Saint-Siège communique sur un état de santé stable, tout en soulignant que l'administration vaticane fonctionne en mode \"pilote automatique\" grâce à une structure rodée depuis des siècles pour pallier l'incapacité temporaire du souverain (NYT World). Cette hospitalisation survient dans un contexte de tensions internationales où les messages de soutien affluent, notamment celui du président américain Donald Trump (BFM TV). Bien que l'opération soit qualifiée de succès, l'âge et la pathologie du pape soulèvent des interrogations sur sa capacité à reprendre l'intégralité de ses fonctions à court terme.",
+      "contexte_historique": "La santé des papes a historiquement oscillé entre secret absolu et transparence relative. Jean-Paul II avait inauguré une ère de communication plus ouverte sur ses hospitalisations répétées (1981-2005). Le droit canonique ne prévoit pas de procédure formelle d'intérim en cas d'incapacité temporaire, contrairement à la démission encadrée par l'article 332 § 2, utilisée par Benoît XVI en 2013.",
       "implications": [
-        "Ralentissement probable de l'agenda diplomatique et des réformes structurelles de l'Église.",
-        "Ouverture de discussions informelles sur la succession au sein du Collège des cardinaux si la convalescence se prolonge."
+        "Ralentissement des réformes curiales engagées par Léon XIV durant sa période de repos.",
+        "Réactivation des spéculations sur un éventuel conclave si la santé du pape venait à décliner rapidement."
       ],
       "chronologie": [
         {
+          "date": "2026-10-15",
+          "texte": "Le Vatican confirme que l'administration fonctionne normalement durant la convalescence.",
+          "source": "NYT World"
+        },
+        {
           "date": "2026-10-14",
-          "texte": "Le Vatican annonce officiellement que le nodule était cancéreux.",
+          "texte": "Opération réussie pour retirer un nodule cancéreux au poumon.",
           "source": "franceinfo"
         },
         {
           "date": "2026-10-13",
-          "texte": "Le pape subit une ablation du lobe inférieur du poumon droit.",
-          "source": "Le Figaro"
-        },
-        {
-          "date": "2026-10-12",
-          "texte": "Admission du souverain pontife à l'hôpital Gemelli de Rome.",
-          "source": "BFM TV"
+          "texte": "Annonce officielle de la découverte du nodule et de l'hospitalisation immédiate.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
-        {
-          "source": "Le Figaro",
-          "type": "mainstream",
-          "angle": "Récit détaillé de l'intervention chirurgicale et précisions médicales sur l'adénocarcinome.",
-          "ton": "factuel",
-          "url": "https://www.lefigaro.fr/actualite-france/a-rome-l-operation-du-pape-leon-xiv-suscite-emoi-et-speculations-20261013",
-          "citation_cle": "Le Saint-Père a dû subir ce mardi une ablation du lobe inférieur du poumon droit.",
-          "groupe_media": null
-        },
         {
           "source": "NYT World",
           "type": "etranger",
-          "angle": "Analyse de l'impact politique de ce diagnostic sur l'avenir du Vatican.",
-          "ton": "neutre",
-          "url": "https://www.nytimes.com/2026/10/13/world/europe/pope-leo-health-cancer.html",
-          "citation_cle": "Cancer has raised questions about his longevity and brought a new urgency to his plans.",
+          "angle": "Analyse de la résilience bureaucratique du Vatican face à l'absence du chef.",
+          "ton": "factuel",
+          "url": "https://www.nytimes.com/2026/10/15/world/europe/while-leo-recovers-from-lung-surgery-the-church-runs-on-autopilot.html",
+          "citation_cle": "La bureaucratie du Vatican a été perfectionnée au cours de centaines d'années pour fonctionner sans heurts, même lorsque le pape ne le peut pas.",
           "groupe_media": {
             "nom": "The New York Times Company",
             "proprietaire": "Famille Ochs-Sulzberger",
             "type_proprietaire": "famille",
             "orientation": "centre"
           }
-        },
-        {
-          "source": "franceinfo",
-          "type": "mainstream",
-          "angle": "L'opération au poumon du pape Léon XIV \"s'est bien déroulée\", le nodule cancéreux a été retiré, annonce le Vatican",
-          "ton": "factuel",
-          "url": "https://www.franceinfo.fr/monde/vatican/pape-leon-xiv/l-operation-au-poumon-du-pape-leon-xiv-s-est-bien-deroulee-annonce-le-vatican_8236060.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "Le pape entame sa convalescence à l'hôpital Gemelli de Rome, après y avoir subi une opération chirurgicale sans complica",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Le stade exact de la tumeur et la nécessité de traitements complémentaires (chimio/radiothérapie).",
-        "La durée réelle de l'incapacité du pape à assurer ses fonctions publiques."
-      ],
-      "sources": [
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/actualite-france/a-rome-l-operation-du-pape-leon-xiv-suscite-emoi-et-speculations-20261013",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/monde/vatican/pape-leon-xiv/l-operation-au-poumon-du-pape-leon-xiv-s-est-bien-deroulee-annonce-le-vatican_8236060.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/10/13/world/europe/pope-leo-health-cancer.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-10-13"
-    },
-    {
-      "titre": "Mobilisation lycéenne : vers une convergence avec les Gilets Jaunes le 17 octobre",
-      "slug": "mobilisation-lyceenne-convergence-17-octobre",
-      "rubrique": "societe",
-      "tldr": [
-        "Plus de 6 800 gardes à vue enregistrées depuis le début du mouvement en septembre.",
-        "Appels massifs à rejoindre les cortèges des 'Gilets Jaunes' samedi prochain.",
-        "Polémique sur l'usage de la force après des blessures graves de manifestants à Tours et Lens."
-      ],
-      "resume": "Le mouvement lycéen, baptisé 'Acte V', a rassemblé entre 161 000 et 480 000 manifestants selon les sources ce mardi. La contestation se durcit avec un nombre record d'interpellations (80% de mineurs) et des accusations de violences policières, notamment après qu'un lycéen a été éborgné à Tours. Parallèlement, des figures historiques des Gilets Jaunes appellent à une mobilisation nationale le 17 octobre pour soutenir la jeunesse, créant une crainte de 'convergence des luttes' au sommet de l'État. Le gouvernement tente de calmer le jeu avec des 'temps d'échange' en établissement, jugés improvisés par les syndicats.",
-      "contexte_historique": "Ce mouvement rappelle la mobilisation contre le CPE en 2006, mais avec une dimension numérique nouvelle (TikTok). La répression actuelle dépasse en volume d'interpellations les pics de 2018 (Franceinfo, Le Figaro).",
-      "implications": [
-        "Risque de paralysie des centres-villes samedi 17 octobre.",
-        "Fragilisation de la doctrine de maintien de l'ordre face à des mineurs."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-14",
-          "texte": "Le ministère de la Justice confirme 6 800 gardes à vue depuis mi-septembre.",
-          "source": "franceinfo"
-        },
-        {
-          "date": "2026-10-13",
-          "texte": "Manifestations nationales de l'Acte V avec la présence de Greta Thunberg.",
-          "source": "Sud-Ouest"
-        },
-        {
-          "date": "2026-10-12",
-          "texte": "Mise en examen d'un policier après qu'un lycéen a été éborgné à Tours.",
-          "source": "Reddit r/france"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "franceinfo",
-          "type": "mainstream",
-          "angle": "Analyse juridique et policière du nombre record de gardes à vue.",
-          "ton": "factuel",
-          "url": "https://www.franceinfo.fr/monde/vatican/pape-leon-xiv/l-operation-au-poumon-du-pape-leon-xiv-s-est-bien-deroulee-annonce-le-vatican_8236060.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "Plus de 6 800 personnes ont été placées en garde à vue, et plus de huit sur dix étaient mineures.",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "Le Figaro",
-          "type": "mainstream",
-          "angle": "Décryptage de la potentielle 'saison 2' des gilets jaunes via TikTok.",
-          "ton": "critique",
-          "url": "https://www.lefigaro.fr/actualite-france/mobilisation-du-17-octobre-gilets-jaunes-saison-2-veritable-revolution-ou-simple-mode-tiktok-a-quoi-s-attendre-20261014",
-          "citation_cle": "Le mouvement a pris un peu plus d’épaisseur ces derniers jours avec le ralliement de figures historiques.",
-          "groupe_media": null
         },
         {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "\"On a tous quelque part la même colère\": le mouvement étudiant prêt à rejoindre le mouvement des gilets jaunes le 17 octobre?",
+          "angle": "Focus sur les réactions diplomatiques internationales, notamment celle de Donald Trump.",
+          "ton": "neutre",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/remettez-vous-vite-donald-trump-souhaite-un-bon-retablissement-au-pape-leon-xiv_AD-202610150066.html",
+          "citation_cle": "Remettez-vous vite! : Donald Trump souhaite un bon rétablissement au pape Léon XIV",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Le Figaro",
+          "type": "mainstream",
+          "angle": "Convalescence et traitement anticancéreux : quelles seront les suites pour le pape Léon XIV après son opération d’un cancer du poumon ?",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/societe/video-on-a-tous-quelque-part-la-meme-colere-le-mouvement-etudiant-pret-a-rejoindre-le-mouvement-des-gilets-jaunes-le-17-octobre_VN-202610140072.html",
-          "citation_cle": "Ce mardi 13 octobre, entre 480.000 et 161.500 manifestants (chiffres respectifs de l'intersyndicale et du ministère de l",
+          "url": "https://sante.lefigaro.fr/medecine/convalescence-et-traitement-anticancereux-quelles-seront-les-suites-pour-le-pape-leon-xiv-apres-son-operation-d-un-cancer-du-poumon-20261014",
+          "citation_cle": "Le souverain pontife a été opéré mardi d’un adénocarcinome, l’une des tumeurs pulmonaires les plus fréquentes. Mais des ",
+          "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Le stade exact du cancer et la nécessité potentielle de traitements complémentaires (chimio/radiothérapie).",
+        "La durée réelle de l'indisponibilité du pape avant un retour aux audiences publiques."
+      ],
+      "sources": [
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/10/15/world/europe/while-leo-recovers-from-lung-surgery-the-church-runs-on-autopilot.html",
+          "type": "institutionnel",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/remettez-vous-vite-donald-trump-souhaite-un-bon-retablissement-au-pape-leon-xiv_AD-202610150066.html",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -180,31 +101,99 @@
           }
         }
       ],
+      "premiere_apparition": "2026-10-13"
+    },
+    {
+      "titre": "Mobilisation du 17 octobre : vers une convergence des luttes lycéennes et sociales",
+      "slug": "mobilisation-17-octobre-convergence-lyceens-gilets-jaunes",
+      "rubrique": "societe",
+      "tldr": [
+        "Appels massifs à manifester le samedi 17 octobre sur fond de vie chère.",
+        "Convergence attendue entre le mouvement lycéen et les collectifs de type Gilets Jaunes.",
+        "Tensions accrues après qu'un lycéen a été éborgné par la police à Tours."
+      ],
+      "resume": "Le mouvement lycéen, qui dure depuis deux semaines, semble muter vers une contestation sociale plus large à l'approche du samedi 17 octobre. Les réseaux sociaux voient fleurir des appels à la convergence avec des collectifs citoyens dénonçant la hausse des prix des carburants et la réforme des retraites (BFM TV). La tension est montée d'un cran suite à la mise en examen d'un policier pour « violences aggravées » après qu'un adolescent de 16 ans a perdu un œil lors d'une manifestation à Tours . Tandis que certains syndicats restent prudents, des collectifs plus radicaux comme « Le Poing levé » cherchent à transformer ces blocages en mouvement révolutionnaire (Le Figaro).",
+      "contexte_historique": "La France a connu plusieurs épisodes de convergence lycéens-salariés, notamment en 1968 et 2006 (contre le CPE). Le 17 octobre est également une date chargée symboliquement, marquant le massacre des Algériens à Paris en 1961, bien que les revendications actuelles soient principalement économiques et liées aux violences policières.",
+      "implications": [
+        "Risque de paralysie des centres-villes le samedi 17 octobre si la mobilisation dépasse le cadre lycéen.",
+        "Pression politique accrue sur le gouvernement concernant la gestion de l'ordre public et le pouvoir d'achat."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-10-15",
+          "texte": "Multiplication des appels à manifester sur les réseaux sociaux pour le 17 octobre.",
+          "source": "La Croix"
+        },
+        {
+          "date": "2026-10-14",
+          "texte": "Un policier mis en examen après qu'un lycéen a été éborgné à Tours.",
+          "source": "Reddit r/france"
+        },
+        {
+          "date": "2026-09-15",
+          "texte": "Début sporadique des blocages lycéens contre les réformes éducatives.",
+          "source": "Citoyens.ai"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Analyse de la possible jonction entre lycéens, Gilets Jaunes et opposants aux retraites.",
+          "ton": "alarmiste",
+          "url": "https://www.bfmtv.com/societe/manifestations/video-reforme-des-retraites-gilets-jaunes-mouvement-lyceen-vers-une-convergence-des-luttes-et-un-rassemblement-massif-le-17-octobre_VN-202610150065.html",
+          "citation_cle": "Vers une convergence des luttes et un rassemblement massif le 17 octobre ?",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Le Figaro",
+          "type": "mainstream",
+          "angle": "Focus sur les groupuscules d'extrême gauche qui tentent de politiser le mouvement.",
+          "ton": "critique",
+          "url": "https://www.lefigaro.fr/actualite-france/melenchon-est-dans-une-logique-de-compromis-bourgeois-le-poing-leve-ce-collectif-trotskiste-qui-veut-profiter-des-blocages-pour-renverser-la-table-20261015",
+          "citation_cle": "Le Poing levé, ce collectif trotskiste qui veut profiter des blocages pour renverser la table.",
+          "groupe_media": null
+        },
+        {
+          "source": "La Croix",
+          "type": "mainstream",
+          "angle": "Manifestation du 17 octobre : qui est derrière l’appel à la mobilisation qui agite les réseaux",
+          "ton": "factuel",
+          "url": "https://www.la-croix.com/societe/manifestation-du-17-octobre-qui-est-derriere-l-appel-a-la-mobilisation-qui-agite-les-reseaux-20261014",
+          "citation_cle": "Face à la hausse des prix, notamment des carburants, et en plein contexte de mobilisation lycéenne, les appels à manifes",
+          "groupe_media": null
+        }
+      ],
       "ce_quon_ne_sait_pas": [
-        "L'ampleur réelle de la participation des adultes le 17 octobre.",
-        "L'impact du mouvement sur les résultats scolaires du premier trimestre."
+        "L'ampleur réelle de la participation des travailleurs et des retraités aux côtés des jeunes.",
+        "La stratégie de maintien de l'ordre prévue par le ministère de l'Intérieur pour samedi."
       ],
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/monde/vatican/pape-leon-xiv/l-operation-au-poumon-du-pape-leon-xiv-s-est-bien-deroulee-annonce-le-vatican_8236060.html#xtor=RSS-3-[lestitres]",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/societe/manifestations/video-reforme-des-retraites-gilets-jaunes-mouvement-lyceen-vers-une-convergence-des-luttes-et-un-rassemblement-massif-le-17-octobre_VN-202610150065.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
           "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/actualite-france/mobilisation-du-17-octobre-gilets-jaunes-saison-2-veritable-revolution-ou-simple-mode-tiktok-a-quoi-s-attendre-20261014",
+          "url": "https://www.lefigaro.fr/actualite-france/melenchon-est-dans-une-logique-de-compromis-bourgeois-le-poing-leve-ce-collectif-trotskiste-qui-veut-profiter-des-blocages-pour-renverser-la-table-20261015",
           "type": "mainstream",
           "groupe_media": null
         },
         {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/politique/education/est-ce-qu-a-un-moment-ca-s-arrete-et-de-quelle-maniere-une-mere-rochelaise-veut-faire-entendre-la-voix-des-parents-opposes-aux-blocus-dans-les-lycees-31050707.php",
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/societe/manifestation-du-17-octobre-qui-est-derriere-l-appel-a-la-mobilisation-qui-agite-les-reseaux-20261014",
           "type": "mainstream",
           "groupe_media": null
         }
@@ -212,158 +201,225 @@
       "premiere_apparition": "2026-09-15"
     },
     {
-      "titre": "Escalade au Moyen-Orient : les Houthis frappent Riyadh et Dhahran",
-      "slug": "frappes-houthis-arabie-saoudite-aramco",
+      "titre": "Escalade au Moyen-Orient : les Houthis frappent le cœur de l'Arabie saoudite",
+      "slug": "escalade-moyen-orient-houthis-frappes-riyad",
       "rubrique": "international",
       "tldr": [
-        "Missiles interceptés au-dessus de Riyadh et Dhahran (site Saudi Aramco).",
-        "Attaque la plus meurtrière sur le sol saoudien depuis 10 ans.",
-        "Donald Trump temporise malgré les demandes d'aide de l'allié saoudien."
+        "Nouvelles frappes houthistes contre des infrastructures à Riyad et Dhahran.",
+        "Échec relatif des systèmes de défense saoudiens face aux drones low-cost.",
+        "Menaces sur le détroit d'Ormuz et le trafic pétrolier mondial."
       ],
-      "resume": "La milice yéménite des Houthis a lancé une série d'attaques de grande envergure contre l'Arabie saoudite, ciblant des zones résidentielles à Riyadh et des infrastructures pétrolières de Saudi Aramco à Dhahran. Si la défense antiaérienne saoudienne a intercepté plusieurs projectiles, des débris ont causé des blessés et un incendie a été signalé sur un site administratif pétrolier. Cette escalade place Donald Trump dans une position délicate : tiraillé entre son alliance historique avec Riyadh et sa volonté de ne pas engager les États-Unis dans un nouveau conflit direct, alors que les prix du pétrole menacent de s'envoler.",
-      "contexte_historique": "Le conflit au Yémen dure depuis 2015. L'utilisation croissante de drones et missiles balistiques par les Houthis montre une montée en gamme technologique, souvent attribuée à un soutien iranien (Al Jazeera, BFM TV).",
+      "resume": "Les rebelles Houthis du Yémen ont intensifié leurs attaques contre l'Arabie saoudite, ciblant des infrastructures stratégiques à Riyad et Dhahran. Malgré des investissements massifs dans l'armement occidental, l'armée saoudienne peine à intercepter ces drones et missiles de croisière, souvent plus lents et difficiles à détecter que des vecteurs classiques (NYT World). Cette escalade intervient alors que les Houthis menacent de bloquer le détroit d'Ormuz si la coalition menée par Riyad ne cesse pas son soutien aux forces gouvernementales yéménites (Ouest-France). La situation provoque une instabilité immédiate sur les marchés énergétiques, déjà sous tension.",
+      "contexte_historique": "Le conflit au Yémen dure depuis 2014, opposant les Houthis (soutenus par l'Iran) à une coalition arabe dirigée par l'Arabie saoudite. L'ONU qualifie régulièrement cette situation de « pire crise humanitaire au monde ». Les attaques contre les infrastructures pétrolières (comme celle d'Abqaiq en 2019) ont prouvé par le passé leur capacité à perturber 5 % de la production mondiale de brut.",
       "implications": [
-        "Instabilité des marchés pétroliers mondiaux en cas de dommages prolongés sur Aramco.",
-        "Risque de rupture diplomatique entre Washington et Riyadh si le soutien américain est jugé insuffisant."
+        "Hausse probable des prix du pétrole et du gaz en raison de l'insécurité dans le Golfe.",
+        "Risque d'implication directe de l'Iran ou des États-Unis si le détroit d'Ormuz est entravé."
       ],
       "chronologie": [
         {
-          "date": "2026-10-14",
-          "texte": "Un site d'Aramco touché à Dhahran, incendie maîtrisé.",
-          "source": "France 24 FR"
-        },
-        {
-          "date": "2026-10-13",
-          "texte": "Interception de missiles au-dessus de la capitale Riyadh.",
-          "source": "Al Jazeera"
+          "date": "2026-10-15",
+          "texte": "Les Houthis revendiquent de nouvelles frappes contre des sites pétroliers saoudiens.",
+          "source": "Ouest-France"
         },
         {
           "date": "2026-10-12",
-          "texte": "L'Arabie saoudite frappe un dépôt de carburant près de Sanaa en représailles.",
-          "source": "BBC News"
+          "texte": "Attaque sans précédent par drone contre des quartiers de Riyad.",
+          "source": "Citoyens.ai"
+        },
+        {
+          "date": "2026-10-11",
+          "texte": "Première série de frappes houthistes sur Dhahran.",
+          "source": "NYT World"
         }
       ],
       "couvertures": [
         {
-          "source": "Al Jazeera",
+          "source": "NYT World",
           "type": "etranger",
-          "angle": "Focus sur l'intensification des combats et les interceptions de missiles.",
+          "angle": "Analyse technique de l'inefficacité de la défense saoudienne face aux nouvelles technologies asymétriques.",
           "ton": "factuel",
-          "url": "https://www.aljazeera.com/news/2026/10/14/un-official-says-window-of-opportunity-for-peace-in-dr-congo?traffic_source=rss",
-          "citation_cle": "Saudi Arabia says it intercepted missiles targeting Riyadh and Dhahran.",
+          "url": "https://www.nytimes.com/2026/10/15/world/middleeast/saudi-arabia-defense-houthi-attacks-yemen.html",
+          "citation_cle": "L'armée saoudienne dispose d'équipements coûteux, mais les missiles et les drones utilisés par la milice yéménite sont difficiles à détecter et à arrêter.",
           "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Analyse de l'inaction de Donald Trump face à son allié saoudien.",
-          "ton": "critique",
-          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-l-edito-international-apres-la-serie-d-attaques-des-houthis-a-riyad-pourquoi-donald-trump-n-intervient-pas_VN-202610140076.html",
-          "citation_cle": "Pourquoi Donald Trump n’intervient pas ?",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'étendue réelle des dégâts sur les capacités de production pétrolière à Dhahran.",
-        "La position exacte de l'Iran dans cette nouvelle vague d'attaques."
-      ],
-      "sources": [
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/14/un-official-says-window-of-opportunity-for-peace-in-dr-congo?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/moyen-orient/20261014-en-direct-moyen-orient-arabie-saoudite-yemen-houthis-iran-aramco",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
             "orientation": "centre"
           }
         },
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-l-edito-international-apres-la-serie-d-attaques-des-houthis-a-riyad-pourquoi-donald-trump-n-intervient-pas_VN-202610140076.html",
+          "source": "Ouest-France",
           "type": "mainstream",
+          "angle": "Focus sur les conséquences globales de l'instabilité maritime à Ormuz.",
+          "ton": "neutre",
+          "url": "https://www.ouest-france.fr/monde/iran/guerre-au-moyen-orient-frappes-houthistes-contre-ryad-hausse-des-attaques-a-ormuz-les-dernieres-infos-4e67f68e-c787-11f1-9522-1f9ae0711c0a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "citation_cle": "Les rebelles yéménites menacent d’intensifier leurs actions si la coalition menée par Ryad maintient son soutien.",
+          "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Le degré exact de coordination entre Téhéran et les Houthis pour cette offensive spécifique.",
+        "La capacité de l'Arabie saoudite à riposter sans déclencher un conflit régional ouvert."
+      ],
+      "sources": [
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/10/15/world/middleeast/saudi-arabia-defense-houthi-attacks-yemen.html",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
           }
+        },
+        {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/region-guadeloupe/guadeloupe-cinq-hommes-ecroues-dont-un-mineur-apres-des-tirs-contre-les-forces-de-lordre-4f7884c4-c84c-11f1-9522-1f9ae0711c0a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
       "premiere_apparition": "2026-10-11"
-    }
-  ],
-  "sujets_refroidis": [
+    },
     {
-      "titre": "Cyberattaque frigorifique : 400 magasins impactés",
-      "slug": "cyberattaque-frigorifique-supermarches",
-      "rubrique": "tech",
-      "resume": "L'attaque a stabilisé ses effets. Les autorités se concentrent désormais sur l'identification des auteurs et la sécurisation des objets connectés industriels, jugés trop vulnérables.",
+      "titre": "Le Brésil réduit la semaine de travail à 40 heures sous l'impulsion de Lula",
+      "slug": "bresil-reduction-temps-travail-40-heures-lula",
+      "rubrique": "economie",
+      "tldr": [
+        "Le Parlement brésilien approuve le passage de 44h à 40h hebdomadaires.",
+        "La mesure vise 30 millions de travailleurs sans baisse de salaire.",
+        "Décision stratégique à l'approche du second tour de la présidentielle."
+      ],
+      "resume": "Le Sénat brésilien a validé un amendement constitutionnel historique réduisant la durée légale du travail de 44 à 40 heures par semaine, sans diminution de salaire (Le Monde). Cette réforme, promesse phare du président Lula da Silva, concerne environ 30 millions de salariés et interdit désormais la semaine de six jours travaillés (The Guardian). Si les syndicats saluent une avancée majeure pour la santé des travailleurs, les organisations patronales s'inquiètent d'une perte de compétitivité. Le timing est hautement politique, Lula cherchant à consolider son avance sur Flavio Bolsonaro à dix jours du second tour de l'élection présidentielle (Le Figaro).",
+      "contexte_historique": "La durée du travail au Brésil était fixée à 44 heures depuis la Constitution de 1988. Cette réduction place le pays dans la moyenne de l'OCDE, bien que la France reste une exception avec les 35 heures (loi Aubry, 2000). Des expériences similaires de réduction du temps de travail ont été menées récemment en Islande et au Royaume-Uni avec des résultats positifs sur la productivité.",
+      "implications": [
+        "Amélioration potentielle de la qualité de vie pour des millions de Brésiliens issus des classes populaires.",
+        "Tensions possibles avec les secteurs industriels et de services dépendant d'une main-d'œuvre intensive."
+      ],
       "chronologie": [
         {
-          "date": "2026-10-14",
-          "texte": "Les experts préviennent que les objets connectés restent une faille majeure.",
-          "source": "franceinfo"
+          "date": "2026-10-15",
+          "texte": "Approbation finale de l'amendement par le Sénat brésilien.",
+          "source": "Le Monde"
         },
         {
-          "date": "2026-10-12",
-          "texte": "Sabotage industriel via internet sur les frigos de 400 magasins.",
-          "source": "La Croix"
+          "date": "2026-10-14",
+          "texte": "Le projet de loi reçoit un large soutien à la Chambre des députés.",
+          "source": "The Guardian"
+        },
+        {
+          "date": "2026-08-01",
+          "texte": "Lula intègre la réduction du temps de travail à son programme de réélection.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
-          "source": "La Croix",
+          "source": "The Guardian",
+          "type": "etranger",
+          "angle": "Focus sur l'impact social pour les 30 millions de travailleurs concernés.",
+          "ton": "neutre",
+          "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
+          "citation_cle": "Le Congrès approuve un amendement constitutionnel qui interdit les semaines de travail de six jours.",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "source": "Le Figaro",
           "type": "mainstream",
-          "angle": "Analyse de la vulnérabilité des infrastructures critiques.",
-          "ton": "alarmiste",
-          "url": "https://www.la-croix.com/politique/cyberattaque-sur-les-frigos-nous-nous-attendons-a-des-attaques-plus-massives-20261013",
-          "citation_cle": "La France doit se préparer à des attaques plus massives."
+          "angle": "Analyse électorale de la mesure pour contrer Flavio Bolsonaro.",
+          "ton": "factuel",
+          "url": "https://www.lefigaro.fr/international/bresil-le-parlement-approuve-la-reduction-du-temps-de-travail-promise-par-lula-20261015",
+          "citation_cle": "Lula mise sur cette réforme pour combler son retard sur le sénateur conservateur Flavio Bolsonaro.",
+          "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'identité exacte des attaquants (étatique ou criminel)."
+        "Les modalités précises de mise en œuvre pour les petites et moyennes entreprises.",
+        "L'impact réel sur l'inflation brésilienne dans un contexte économique global fragile."
       ],
       "sources": [
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/politique/cyberattaque-sur-les-frigos-nous-nous-attendons-a-des-attaques-plus-massives-20261013",
-          "type": "mainstream"
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/10/15/au-bresil-le-parlement-adopte-la-reduction-du-temps-de-travail-promise-par-lula_6793931_3210.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         },
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/un-risque-que-beaucoup-d-entreprises-sous-estiment-pourquoi-les-frigos-de-supermarches-et-autres-objets-connectes-sont-ils-si-vulnerables-face-aux-cyberattaques_8235535.html",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/bresil-le-parlement-approuve-la-reduction-du-temps-de-travail-promise-par-lula-20261015",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "premiere_apparition": "2026-10-15"
+    }
+  ],
+  "sujets_refroidis": [
+    {
+      "titre": "Fusillade au collège d'Aubagne : la piste de la mouvance « True Crime »",
+      "slug": "fusillade-aubagne-true-crime-mouvance",
+      "rubrique": "societe",
+      "resume": "L'adolescent de 14 ans suspecté d'avoir blessé un principal et une enseignante a été placé en détention provisoire. Il a reconnu une volonté de vengeance suite à un sentiment de harcèlement scolaire et une influence des tueries de masse documentées en ligne.",
+      "chronologie": [
+        {
+          "date": "2026-10-15",
+          "texte": "Placement en détention provisoire après aveux devant le parquet.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-10-14",
+          "texte": "Révélation de l'influence de la mouvance 'True Crime'.",
+          "source": "20 Minutes"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Détails sur l'audition et le profil psychologique du suspect.",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/police-justice/video-tirs-dans-un-college-a-aubagne-l-adolescent-suspect-a-passe-la-nuit-en-prison-apres-avoir-admis-une-volonte-de-vengeance-parce-qu-il-se-sentait-harcele-par-ses-professeurs_VN-202610150074.html",
+          "citation_cle": "Il a admis une volonté de vengeance parce qu'il se sentait harcelé par ses professeurs."
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "L'origine exacte de l'arme utilisée."
+      ],
+      "sources": [
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/police-justice/video-tirs-dans-un-college-a-aubagne-l-adolescent-suspect-a-passe-la-nuit-en-prison-apres-avoir-admis-une-volonte-de-vengeance-parce-qu-il-se-sentait-harcele-par-ses-professeurs_VN-202610150074.html",
           "type": "mainstream"
         }
       ],
-      "derniere_mise_a_jour": "2026-10-14",
-      "statut": "Sujet en phase d'expertise technique et judiciaire."
+      "derniere_mise_a_jour": "2026-10-15",
+      "statut": "Le volet judiciaire est en cours avec l'incarcération du suspect."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 736,
+    "nb_articles_analyses": 739,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
