@@ -1,82 +1,62 @@
 {
   "sujet_du_jour": {
-    "titre": "Hausse record de la mortalité au travail en 2025",
-    "rubrique": "societe",
-    "pourquoi_important": "La France franchit un seuil historique avec 1 331 décès liés au travail, révélant une dégradation alarmante de la sécurité des salariés malgré les discours officiels.",
+    "titre": "Fusillade dans une école de l'Oregon : un civil armé abat le tireur",
+    "rubrique": "international",
+    "pourquoi_important": "Ce nouveau drame scolaire aux États-Unis illustre la persistance de la violence armée et relance le débat sur l'intervention de civils armés lors de tueries de masse.",
     "faits": [
-      "1 331 décès ont été reconnus en 2025 au titre des accidents du travail, de trajet ou des maladies professionnelles, soit 34 de plus qu'en 2024 .",
-      "Le secteur privé enregistre à lui seul 783 morts par accident du travail (+19 par rapport à l'année précédente).",
-      "Les malaises représentent plus de la moitié des décès pris en charge au titre des accidents du travail.",
-      "Le nombre d'accidents du travail avec arrêt s'établit à 551 225, avec une surreprésentation inquiétante des jeunes travailleurs."
+      "Le 15 octobre 2026 à 12h59, un adolescent de 16 ans a ouvert le feu à l'école primaire Silver Rail à Bend, dans l'Oregon .",
+      "Le bilan fait état de quatre morts : trois enfants et un professeur (Le Monde.",
+      "Le suspect a été abattu par un passant armé qui l'avait vu pénétrer dans l'établissement et l'a poursuivi à l'intérieur (Le Figaro, Franceinfo).",
+      "L'intervention de la police a eu lieu à 13h02, soit trois minutes après l'alerte initiale, mais le tireur était déjà décédé ."
     ],
-    "contexte": "Ces chiffres, publiés par l'Assurance Maladie le 13 octobre 2026, confirment une tendance haussière amorcée depuis plusieurs années. Alors que le gouvernement met en avant des politiques de prévention, la sinistralité réelle continue de croître, particulièrement dans les secteurs de la construction et de la logistique. La publication du rapport annuel complet est attendue pour la fin octobre 2026.",
+    "contexte": "Cette tuerie s'inscrit dans une série ininterrompue de fusillades en milieu scolaire aux États-Unis. La particularité de cet événement réside dans l'intervention d'un civil armé, une figure souvent mise en avant par les défenseurs du port d'arme (le concept du 'good guy with a gun'), bien que les autorités privilégient généralement le confinement et l'intervention professionnelle. Les élèves évacués ont été pris en charge à la Journey Church pour être rendus à leurs familles.",
     "sources": [
       {
-        "nom": "L’Assurance Maladie",
-        "url": "https://www.assurance-maladie.ameli.fr/presse/2026-10-13-cp-sinistralite-2025",
+        "nom": "Bend Police Dept. News",
+        "url": "https://www.flashalert.net/id/BendPolice?gsid=96c191d3-4620-41ef-964c-dc61aa533fb5",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "Blast",
-        "url": "https://www.blast-info.fr/articles/2026/morts-au-travail-1-331-deces-en-2025-un-nouveau-record-0UgcyGI7T_2wEJqxUvxtdg",
-        "type": "investigation",
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/10/16/aux-etats-unis-une-fusillade-fait-au-moins-quatre-morts-dans-une-ecole-primaire-de-l-oregon_6794831_3210.html",
+        "type": "mainstream",
         "groupe_media": {
-          "nom": "Blast",
-          "proprietaire": "Blast",
-          "type_proprietaire": "independant",
-          "orientation": "gauche"
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       },
       {
-        "nom": "Sciences et Avenir",
-        "url": "https://www.sciencesetavenir.fr/sante/le-record-d-accidents-du-travail-mortels-en-2025-confirme-par-l-assurance-maladie_195373?xtor=RSS-16",
+        "nom": "Le Figaro",
+        "url": "https://www.lefigaro.fr/international/etats-unis-un-tireur-fait-plusieurs-victimes-dans-une-ecole-primaire-de-l-oregon-20261015",
         "type": "mainstream",
         "groupe_media": null
+      },
+      {
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/faits-divers/accident/un-grave-accident-entre-un-bus-et-un-train-s-est-produit-a-l-entree-du-tunnel-sous-la-manche-pres-de-calais-et-a-fait-une-vingtaine-de-blesses_8239282.html#xtor=RSS-3-[lestitres]",
+        "type": "mainstream"
       }
     ],
-    "lien": "https://www.assurance-maladie.ameli.fr/presse/2026-10-13-cp-sinistralite-2025"
+    "lien": null
   },
   "france": [
     {
-      "titre": "Aubagne : le collégien tireur mis en examen pour terrorisme",
-      "rubrique": "politique",
-      "resume": "L'adolescent de 14 ans qui a blessé le principal et une enseignante a été écroué. Le Parquet national antiterroriste (PNAT) s'est saisi de l'affaire, suspectant une influence de la 'True Crime Community', une mouvance glorifiant les tueries de masse.",
+      "titre": "Accident au tunnel sous la Manche : 19 blessés",
+      "rubrique": "societe",
+      "resume": "Un minibus transportant des chauffeurs de poids lourds a percuté une navette ferroviaire à l'arrêt sur le site d'Eurotunnel à Coquelles. Bien que cinq personnes aient été initialement déclarées en urgence absolue, la préfecture assure qu'aucun pronostic vital n'est engagé (Franceinfo, Libération). Le trafic Eurostar n'a pas été impacté (20 Minutes).",
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/societe/justice/l-adolescent-de-14-ans-qui-a-blesse-par-balles-un-principal-et-une-enseignante-a-aubagne-place-en-detention-provisoire_8237785.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/marseille/fusillade-dans-un-college-a-aubagne-le-tireur-de-14-ans-place-en-detention-provisoire-20261014",
+          "nom": "Franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/accident/un-grave-accident-entre-un-bus-et-un-train-s-est-produit-a-l-entree-du-tunnel-sous-la-manche-pres-de-calais-et-a-fait-une-vingtaine-de-blesses_8239282.html",
           "type": "mainstream",
           "groupe_media": null
         },
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/societe/4254442-20261015-fusillade-college-aubagne-accuse-avoir-tire-collegien-14-ans-ecroue?at_medium=display&at_campaign=149",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Retraites complémentaires : hausse de 1,4 % au 1er novembre",
-      "rubrique": "economie",
-      "resume": "L'Agirc-Arrco a acté une revalorisation des pensions pour 14 millions de retraités du privé. Cet accord entre patronat et syndicats, inférieur à l'inflation, a provoqué le départ de la CGT qui dénonce un 'mépris' budgétaire.",
-      "sources": [
         {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/economie/social/les-retraites-complementaires-revalorisees-de-14-un-accord-entre-patronat-et-syndicats-sur-fond-de-pression-budgetaire-20261014_3ZU7NEMC4VCVZAXSU2FJTRTDZE/",
+          "url": "https://www.liberation.fr/international/europe/tunnel-de-la-manche-collision-entre-un-bus-et-un-train-19-blesses-dont-5-en-urgence-absolue-20261015_SCJJ6TEZ3NBZ5BW3RWLDHTDIH4/",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Libération",
@@ -84,38 +64,75 @@
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
-        },
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/economie-social/un-mepris-patronal-et-gouvernemental-les-retraites-complementaires-n-augmenteront-que-de-1-4-la-cgt-a-claque-la-porte-des-negociations-et-appelle-a-la-mobilisation_AN-202610140830.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
         }
       ],
       "lien": null
     },
     {
-      "titre": "Taxis parisiens : mobilisation contre les VTC aux aéroports",
-      "rubrique": "societe",
-      "resume": "Près de 2 000 chauffeurs de taxi manifestent contre la 'concurrence déloyale' des VTC à Orly et Roissy. Le mouvement dénonce un manque de contrôles de l'État et un 'chaos' persistant dans les zones de prise en charge.",
-      "sources": [],
+      "titre": "Tensions au lycée Paul-Éluard de Saint-Denis",
+      "rubrique": "politique",
+      "resume": "L'interpellation d'un élève de 16 ans par des policiers en civil au sein de l'établissement a déclenché la colère des enseignants et des élèves. Les personnels dénoncent une intervention « violente » demandée par le proviseur, tandis que les autorités font état de trois interpellations suite à des heurts (L'Obs, Franceinfo, Libération).",
+      "sources": [
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/societe/20261015.OBS119245/la-police-dans-le-lycee-paul-eluard-a-saint-denis-une-interpellation-violente-des-personnels-en-colere-ce-que-l-on-sait.html",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Franceinfo",
+          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/mobilisation-des-lyceens-ce-que-l-on-sait-de-l-intervention-de-la-police-au-lycee-paul-eluard-de-saint-denis_8239189.html",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/international/europe/tunnel-de-la-manche-collision-entre-un-bus-et-un-train-19-blesses-dont-5-en-urgence-absolue-20261015_SCJJ6TEZ3NBZ5BW3RWLDHTDIH4/",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Accord auto franco-allemand : le climat sacrifié ?",
+      "rubrique": "economie",
+      "resume": "Paris et Berlin ont conclu un accord provisoire assouplissant les objectifs d'émissions de CO2 pour les véhicules. En échange de cet abandon de l'ambition environnementale, l'Allemagne accepte une clause de « préférence européenne » renforcée pour protéger l'industrie face à la Chine (France 24, La Croix, RFI).",
+      "sources": [
+        {
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/europe/20261015-france-allemagne-accord-provisoire-avenir-industrie-automobile-made-in-europe",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/%C3%A9conomie/20261015-la-france-et-l-allemagne-s-entendent-sur-l-avenir-de-l-industrie-automobile",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/international/personne-ne-se-soucie-de-nous-un-an-apres-le-coup-d-etat-a-madagascar-les-desillusions-de-la-gen-z-20261015",
+          "type": "mainstream"
+        }
+      ],
       "lien": null
     }
   ],
   "monde": [
     {
-      "titre": "Le Brésil réduit le temps de travail hebdomadaire",
-      "pays": "Brésil",
-      "resume": "Le Parlement a approuvé le passage de 44 à 40 heures hebdomadaires sans réduction de salaire. Une réforme emblématique portée par Lula pour regagner du terrain face à la droite avant le second tour de la présidentielle.",
+      "titre": "Trump attaque Zelensky sur les frappes en Russie",
+      "pays": "États-Unis / Ukraine",
+      "resume": "Donald Trump a qualifié de « honte » la reprise des frappes ukrainiennes sur les raffineries russes, affirmant qu'il est « plus difficile de travailler avec Zelensky qu'avec Poutine » (Le Monde, Le Figaro). Ces déclarations interviennent alors que Kiev réclame un soutien accru des Européens.",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/15/au-bresil-le-parlement-adopte-la-reduction-du-temps-de-travail-promise-par-lula_6793931_3210.html",
+          "url": "https://www.lemonde.fr/international/live/2026/10/16/en-direct-guerre-en-ukraine-donald-trump-juge-que-la-reprise-par-l-ukraine-des-frappes-sur-les-raffineries-russes-est-une-honte_6791198_3210.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -125,207 +142,215 @@
           }
         },
         {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/monde/bresil/le-parlement-bresilien-approuve-la-reduction-du-temps-de-travail-promise-par-lula-8de0f7fa-c842-11f1-9522-1f9ae0711c0a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/europe/20261016-en-direct-ukraine-russie-reprise-frappes-raffineries-donald-trump-zelensky-poutine",
           "type": "mainstream",
           "groupe_media": null
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/automobile/tesla-roadster-elle-vole-elle-roule-elle-bondit-on-vous-raconte-la-folle-presentation-de-la-voiture-de-sport-d-elon-musk-20261016",
+          "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Incertitude en Mer Noire après des attaques de drones",
-      "pays": "Roumanie/Bulgarie",
-      "resume": "Plusieurs navires de commerce ont été endommagés ou coulés près des côtes roumaines et bulgares. L'OTAN envisage de redéployer des défenses anti-drones face à la menace croissante attribuée à la Russie.",
-      "sources": [],
+      "titre": "Les Houthis frappent le palais présidentiel d'Aden",
+      "pays": "Yémen",
+      "resume": "Cinq missiles ont visé le siège du gouvernement yéménite soutenu par l'Arabie saoudite, faisant au moins quatre morts. Le Premier ministre est sorti indemne de cette attaque revendiquée par les rebelles Houthis (France 24, RFI, La Croix).",
+      "sources": [
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/europe/20261016-en-direct-ukraine-russie-reprise-frappes-raffineries-donald-trump-zelensky-poutine",
+          "type": "mainstream"
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261015-%C3%A9tats-unis-quatre-morts-dont-trois-enfants-dans-une-fusillade-dans-une-%C3%A9cole-primaire-de-l-oregon",
+          "type": "mainstream"
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/international/personne-ne-se-soucie-de-nous-un-an-apres-le-coup-d-etat-a-madagascar-les-desillusions-de-la-gen-z-20261015",
+          "type": "mainstream"
+        }
+      ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Bilan des féminicides en France en 2025",
-    "rubrique": "societe",
-    "contexte": "Le ministère de l'Intérieur a publié son étude annuelle sur les morts violentes au sein du couple pour l'année 2025, affichant une hausse des chiffres officiels.",
+    "sujet": "Lutte contre les fuites de méthane : l'Europe recule",
+    "rubrique": "science",
+    "contexte": "Le 15 octobre 2026, les Vingt-Sept ont validé le report d'un an du règlement imposant aux importateurs de gaz et pétrole de surveiller leurs fuites de méthane.",
     "couvertures": [
       {
         "source": "La Croix",
         "type": "mainstream",
-        "angle": "Focus sur la hausse statistique de 4 % par rapport à 2024.",
-        "ton": "factuel",
-        "url": "https://www.la-croix.com/societe/feminicides-111-femmes-tuees-en-2025-dans-des-violences-conjugales-en-hausse-de-4-20261014",
-        "citation_cle": "En 2025, 111 femmes ont été tuées par leur partenaire.",
-        "auteur": "La Croix avec AFP",
+        "angle": "Une ambition climatique fragilisée par le pragmatisme énergétique.",
+        "ton": "neutre",
+        "url": "https://www.la-croix.com/planete/la-reduction-des-emissions-de-methane-ambition-plus-que-jamais-fragilisee-20261015",
+        "citation_cle": "La réduction des émissions de méthane, ambition plus que jamais fragilisée.",
+        "auteur": "Nathalie Birchem",
         "proprietaire_contexte": "Groupe Bayard",
-        "orientation_source": "Centre",
+        "orientation_source": "centre",
         "groupe_media": null
       },
       {
-        "source": "L'Humanité",
-        "type": "mainstream",
-        "angle": "Mise en avant du décalage entre les chiffres officiels et ceux des associations.",
+        "source": "Reporterre",
+        "type": "investigation",
+        "angle": "Dénonciation d'une capitulation face aux lobbies de l'énergie.",
         "ton": "critique",
-        "url": "https://www.humanite.fr/societe/droit-des-femmes/feminicides-111-dit-le-ministere-de-linterieur-beaucoup-plus-repond-nous-toutes",
-        "citation_cle": "Nous Toutes dénombre 171 féminicides, selon une définition plus large.",
-        "auteur": "Lisa Guillemin",
-        "proprietaire_contexte": "Société des lecteurs et salariés (indépendant)",
-        "orientation_source": "Gauche",
+        "url": "https://reporterre.net/Fuites-de-methane-l-Europe-cede-aux-lobbies-les-ONG-inquietes",
+        "citation_cle": "L'Europe cède aux lobbies de l'énergie.",
+        "auteur": null,
+        "proprietaire_contexte": "Association La Pile (indépendant)",
+        "orientation_source": "gauche",
         "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
+          "nom": "Reporterre",
+          "proprietaire": "Association La Pile",
+          "type_proprietaire": "independant",
           "orientation": "gauche"
         }
       }
     ],
-    "analyse_coherence": "L'analyse des couvertures révèle un double standard persistant dans la qualification des faits. Tandis que les médias institutionnels (La Croix) se cantonnent à la définition restrictive du ministère de l'Intérieur (111 victimes, uniquement les violences conjugales), les médias plus engagés (L'Humanité) soulignent l'invisibilisation des féminicides hors cadre conjugal. L'écart de 60 victimes entre le ministère et le collectif 'Nous Toutes' (171 victimes) illustre une divergence politique sur la définition même du féminicide. En refusant d'inclure les travailleuses du sexe, les femmes trans ou les meurtres commis par des hommes sans lien intime préalable, l'État applique un standard qui minimise l'ampleur systémique de la violence de genre. Cette bataille sémantique reflète un manque de cohérence nationale dans l'application des résolutions internationales sur la protection des femmes.",
+    "analyse_coherence": "L'analyse croisée révèle une tension majeure entre impératifs écologiques et pressions économiques. Alors que La Croix adopte un ton factuel et quasi-résigné sur la 'fragilisation' des ambitions, Reporterre met en lumière un double standard politique : l'argument de la crise des prix de l'énergie est utilisé par les lobbies pour bloquer une régulation qui, selon 50 ONG, n'a aucun lien avec les tarifs actuels. On observe ici une incohérence flagrante entre les discours officiels sur l'urgence climatique et les actes législatifs qui privilégient les intérêts des géants gaziers. Le report d'un an est présenté par les institutions comme une mesure technique de transition, tandis que les sources d'investigation y voient une victoire des intérêts privés sur le bien commun, soulignant que le méthane a un pouvoir réchauffant bien supérieur au CO2 à court terme.",
     "biais_detectes": [
-      "Biais institutionnel (reprise brute des chiffres officiels)",
-      "Divergence sémantique sur la définition du féminicide"
+      "Complaisance institutionnelle dans les médias mainstream",
+      "Focus exclusif sur les lobbies dans la presse engagée"
     ],
-    "ce_quil_faut_retenir": "Le chiffre officiel de 111 victimes est un plancher minimaliste ; la réalité documentée par la société civile est supérieure de 50 %, pointant l'insuffisance des outils de mesure de l'État."
+    "ce_quil_faut_retenir": "L'UE a cédé aux demandes des lobbies énergétiques en reportant la surveillance des fuites de méthane, un gaz hautement réchauffant, malgré les alertes des ONG sur l'absence de lien avec le prix de l'énergie."
   },
   "regard_etranger": [
     {
-      "source": "NYT World",
-      "pays": "États-Unis",
-      "titre": "Cette mine de cuivre a mené à la guerre civile. Sa réouverture peut-elle financer une nation ?",
-      "titre_original": "This Copper Mine Led to a Civil War. Can Reopening It Fund a New Nation?",
-      "angle": "Analyse du dilemme entre souveraineté économique et risques environnementaux/sécuritaires en Océanie.",
-      "url": "https://www.nytimes.com/2026/10/13/world/asia/bougainville-island-panguna-mine-pollution-reopening.html",
+      "source": "The Guardian",
+      "pays": "Royaume-Uni",
+      "titre": "Effondrement d'un toit d'école au Pakistan : 34 enfants tués",
+      "titre_original": "Pakistan school roof collapse kills at least 34 children and teacher",
+      "angle": "Focus sur la vétusté des infrastructures scolaires privées à Peshawar.",
+      "url": "https://www.theguardian.com/world/2026/oct/15/pakistan-peshawar-school-roof-collapse-leaves-students-dead",
       "groupe_media": {
-        "nom": "The New York Times Company",
-        "proprietaire": "Famille Ochs-Sulzberger",
-        "type_proprietaire": "famille",
-        "orientation": "centre"
+        "nom": "Scott Trust",
+        "proprietaire": "Scott Trust Limited",
+        "type_proprietaire": "fondation",
+        "orientation": "centre-gauche"
       }
     },
     {
-      "source": "France 24 EN",
-      "pays": "France/International",
-      "titre": "Les enquêteurs français explorent le lien entre la 'True Crime Community' et la fusillade",
-      "titre_original": "French anti-terror investigators probe True Crime Community link to school shooting",
-      "angle": "Regard international sur la mouvance nihiliste influençant la jeunesse française.",
-      "url": "https://www.france24.com/en/french-anti-terror-investigators-probe-true-crime-community-link-to-school-shooting",
+      "source": "Al Jazeera",
+      "pays": "Qatar",
+      "titre": "Inondations meurtrières à Istanbul",
+      "titre_original": "Several people dead or missing after Istanbul floods",
+      "angle": "Couverture des pluies les plus fortes depuis 84 ans en Turquie.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/several-people-dead-or-missing-after-istanbul-floods",
       "groupe_media": {
-        "nom": "France Médias Monde",
-        "proprietaire": "État français",
+        "nom": "Al Jazeera Media Network",
+        "proprietaire": "État du Qatar",
         "type_proprietaire": "etat",
-        "orientation": "centre"
+        "orientation": "variable"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "1 331",
-    "contexte": "Nombre record de décès liés au travail enregistrés en France en 2025 par l'Assurance Maladie.",
-    "source": "Assurance Maladie - Risques professionnels",
-    "source_url": "https://www.assurance-maladie.ameli.fr/presse/2026-10-13-cp-sinistralite-2025"
+    "valeur": "19",
+    "contexte": "Nombre de blessés dans la collision entre un minibus et une navette Le Shuttle à l'entrée du tunnel sous la Manche à Coquelles.",
+    "source": "Préfecture du Pas-de-Calais via Reuters",
+    "source_url": "https://www.boursorama.com/actualite-economique/actualites-amp/france-collision-entre-un-minibus-et-un-train-de-fret-sur-le-site-d-eurotunnel-19-blesses-dce32e1068b07660165ecf0d8df3c464"
   },
   "a_surveiller": [
     {
-      "date": "2026-10-25",
-      "evenement": "Second tour de l'élection présidentielle au Brésil (Duel Lula - Bolsonaro)",
-      "type": "vote",
-      "lien": null
+      "date": "2026-12-03",
+      "evenement": "Exécution de Nidal Hasan (tuerie de Fort Hood) au Texas",
+      "type": "autre",
+      "lien": "https://www.20minutes.fr/monde/4254682-20261015-etats-unis-trump-renonce-diffuser-direct-execution-condamne-mort"
     },
     {
-      "date": "2026-11-01",
-      "evenement": "Entrée en vigueur de la revalorisation des retraites Agirc-Arrco",
-      "type": "echeance_economique",
-      "lien": null
+      "date": "2027-05-15",
+      "evenement": "Élection présidentielle en Somalie",
+      "type": "vote",
+      "lien": "https://www.sudouest.fr/international/afrique/la-somalie-annonce-une-election-presidentielle-le-15-mai-2027-sur-fond-de-vives-tensions-politiques-31089821.php"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Guadeloupe : mobilisation lycéenne contre l'insalubrité climatique",
+      "titre": "Assas : la fin de l'hégémonie de l'extrême droite ?",
       "rubrique": "societe",
-      "resume": "En Guadeloupe, 21 établissements ont été touchés par des blocages. Les élèves dénoncent des salles de classe surchauffées et des coupures d'eau récurrentes empêchant une scolarité normale, sur fond de répression policière.",
+      "resume": "Pour la première fois, l'université Panthéon-Assas a été bloquée en solidarité avec le mouvement lycéen. Les étudiants dénoncent la pression de groupuscules se revendiquant 'Waffen Assas' (Blast, Bondy Blog).",
       "sources": [
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/En-Guadeloupe-les-lyceens-denoncent-des-classes-surchauffees-et-les-coupures-d-eau",
+          "nom": "Blast",
+          "url": "https://www.blast-info.fr/articles/2026/la-bataille-d-assas-les-etudiants-font-reculer-l-extreme-droite-EqNGkbrFQf6kFzKgQ_HNhA",
           "type": "investigation"
         },
         {
-          "nom": "RCI Guadeloupe",
-          "url": "https://rci.fm/guadeloupe/infos/Education/Mobilisation-lyceennes-en-Guadeloupe-21-etablissements-touches-par-le-mouvement-ce",
-          "type": "mainstream"
-        }
-      ],
-      "pourquoi_signal": "Ce mouvement lie directement justice sociale et adaptation climatique dans un territoire d'outre-mer, un sujet largement occulté par les médias hexagonaux."
-    },
-    {
-      "titre": "Erstein : le laboratoire sécuritaire d'un maire ex-RN",
-      "rubrique": "politique",
-      "resume": "Depuis son élection en mars 2026, Kévin Diebold multiplie les arrêtés répressifs et la mise en scène de la police municipale. Bien qu'il se dise indépendant, son application stricte d'un agenda sécuritaire interroge sur la persistance de son ADN politique.",
-      "sources": [
-        {
-          "nom": "Rue89 Strasbourg",
-          "url": "https://www.rue89strasbourg.com/erstein-maire-kevin-diebold-rn-mise-repression-municipale-399068",
+          "nom": "Bondy Blog",
+          "url": "https://www.bondyblog.fr/reportages/a-assas-melun-les-gueux-de-luniversite-entrent-en-rebellion/",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "L'expérimentation locale de politiques d'extrême-droite sous couvert de 'propreté' et d'incivilités est un indicateur de la normalisation de ces pratiques au niveau municipal."
+      "pourquoi_signal": "Ce blocage historique dans un bastion traditionnel de la droite radicale marque une bascule sociologique et politique majeure ignorée par les médias de masse."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Blocus pour Vassiriki : la dignité contre l'OQTF",
-      "rubrique": "societe",
-      "resume": "Un lycée agricole d'Ille-et-Vilaine se mobilise pour empêcher l'expulsion de Vassiriki Doumbia, élève exemplaire de 21 ans avec promesse d'embauche.",
+      "titre": "Dialogue technique avec les Talibans pour expulser des Afghans",
+      "rubrique": "politique",
+      "resume": "La France a reconnu l'ouverture d'un dialogue 'strictement technique' avec le régime taliban pour faciliter le renvoi de ressortissants afghans jugés dangereux.",
       "axes_concernes": [
-        "justice_sociale",
-        "droits_humains"
+        "droit_international",
+        "justice_sociale"
       ],
-      "analyse": "Ce cas illustre l'absurdité du droit des étrangers actuel : l'État dépense des fonds publics pour former des jeunes dans des secteurs en tension (paysagisme) pour ensuite tenter de les expulser au mépris de leur intégration et des besoins économiques locaux. La solidarité de la communauté éducative rappelle l'universalité du droit à l'éducation et au travail.",
+      "analyse": "Cette décision marque une rupture diplomatique majeure : discuter avec un régime non reconnu pour faciliter des expulsions pose un problème éthique et juridique grave au regard du principe de non-refoulement et de la reconnaissance de facto des Talibans.",
       "sources": [
         {
-          "nom": "Basta!",
-          "url": "https://basta.media/un-lycee-agricole-bloque-pour-proteger-Vassiriki-eleve-exemplaire-cible-par-une-OQTF",
+          "nom": "Mediapart",
+          "url": null,
           "type": "investigation"
         },
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/societe/immigration/en-ille-et-vilaine-professeurs-parents-et-eleves-dun-lycee-agricole-bloquent-leur-etablissement-pour-empecher-lexpulsion-de-vassiriki-vise-par-une-oqtf",
-          "type": "mainstream"
+          "nom": "Ministère des Affaires étrangères",
+          "url": null,
+          "type": "institutionnel"
         }
       ]
     },
     {
-      "titre": "Antisémitisme au RN : les démentis de Bardella contredits",
-      "rubrique": "politique",
-      "resume": "Des archives de RFI et des enquêtes confirment le militantisme actif de Jordan Bardella dès 2013, période où des propos antisémites lui sont attribués, contrairement à sa ligne de défense.",
+      "titre": "Mobilisation pour Vassiriki : l'école contre l'OQTF",
+      "rubrique": "societe",
+      "resume": "En Bretagne, le lycée agricole La Lande de la Rencontre est mobilisé pour empêcher l'expulsion de Vassiriki Doumbia, élève ivoirien en terminale (Libération, Blast).",
       "axes_concernes": [
-        "antifascisme",
-        "liberte_expression"
+        "justice_sociale",
+        "droits_humains"
       ],
-      "analyse": "L'enquête révèle la fragilité de la 'dédiabolisation' du RN. En documentant la persistance d'un héritage antisémite derrière la façade médiatique, ce travail souligne l'importance du fact-checking historique face à la réécriture des parcours politiques.",
+      "analyse": "Ce cas illustre la tension entre les politiques de fermeté migratoire et l'intégration réussie par le service public d'éducation. La solidarité des enseignants et élèves souligne l'absurdité de 'déraciner' ceux que l'école s'efforce de former.",
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20261014-jordan-bardella-au-fn-d%C3%A8s-2013-le-reportage-de-rfi-qui-contredit-sa-d%C3%A9fense-sur-ses-propos-antis%C3%A9mites",
+          "nom": "Libération",
+          "url": null,
           "type": "mainstream"
         },
         {
-          "nom": "Les Décodeurs",
-          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/12/des-brebis-galeuses-aux-accusations-contre-jordan-bardella-un-antisemitisme-persistant-dans-le-rassemblement-national-dediabolise_6792644_4355770.html",
-          "type": "fact-check"
+          "nom": "Blast",
+          "url": null,
+          "type": "investigation"
         }
       ]
     }
   ],
-  "date": "2026-10-15",
-  "genere_a": "2026-10-15T04:34:49.191Z",
+  "date": "2026-10-16",
+  "genere_a": "2026-10-16T04:34:21.513Z",
   "meta": {
-    "nb_articles_analyses": 739,
-    "nb_topics": 203,
+    "nb_articles_analyses": 721,
+    "nb_topics": 212,
     "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 33,
-    "sources_francaises": 490,
-    "sources_etrangeres": 249,
+    "nb_articles_dans_selection": 52,
+    "sources_francaises": 481,
+    "sources_etrangeres": 240,
     "rubriques_couvertes": [
+      "international",
       "societe",
       "politique",
-      "economie",
-      "international"
+      "economie"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"

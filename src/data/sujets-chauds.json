@@ -1,353 +1,159 @@
 {
-  "date": "2026-10-15",
-  "genere_a": "2026-10-15T04:35:43.448Z",
+  "date": "2026-10-16",
+  "genere_a": "2026-10-16T04:35:11.806Z",
   "sujets_actifs": [
     {
-      "titre": "Convalescence du pape Léon XIV après son opération d'un cancer du poumon",
-      "slug": "convalescence-pape-leon-xiv-cancer-poumon",
+      "titre": "Fusillade dans une école de l'Oregon : un civil armé abat le tireur",
+      "slug": "fusillade-ecole-oregon-civil-arme-tireur-abattu",
       "rubrique": "international",
       "tldr": [
-        "Le pape Léon XIV est en convalescence après l'ablation d'un nodule cancéreux au poumon.",
-        "Le Vatican assure que la bureaucratie assure la continuité des affaires courantes.",
-        "Donald Trump a publiquement souhaité un bon rétablissement au souverain pontife."
+        "Quatre morts, dont trois enfants et un enseignant, dans une école primaire à Bend, Oregon.",
+        "Le tireur, un adolescent de 16 ans, a été abattu par un membre de la communauté armé.",
+        "Le drame relance le débat sur la présence de civils armés pour sécuriser les établissements scolaires."
       ],
-      "resume": "Après une intervention chirurgicale réussie le 14 octobre pour retirer un nodule cancéreux au poumon, le pape Léon XIV entame sa période de convalescence. Le Saint-Siège communique sur un état de santé stable, tout en soulignant que l'administration vaticane fonctionne en mode \"pilote automatique\" grâce à une structure rodée depuis des siècles pour pallier l'incapacité temporaire du souverain (NYT World). Cette hospitalisation survient dans un contexte de tensions internationales où les messages de soutien affluent, notamment celui du président américain Donald Trump (BFM TV). Bien que l'opération soit qualifiée de succès, l'âge et la pathologie du pape soulèvent des interrogations sur sa capacité à reprendre l'intégralité de ses fonctions à court terme.",
-      "contexte_historique": "La santé des papes a historiquement oscillé entre secret absolu et transparence relative. Jean-Paul II avait inauguré une ère de communication plus ouverte sur ses hospitalisations répétées (1981-2005). Le droit canonique ne prévoit pas de procédure formelle d'intérim en cas d'incapacité temporaire, contrairement à la démission encadrée par l'article 332 § 2, utilisée par Benoît XVI en 2013.",
+      "resume": "Une nouvelle tragédie a frappé les États-Unis ce jeudi 15 octobre 2026, lorsqu'un adolescent de 16 ans a ouvert le feu dans une école primaire de Bend, dans l'Oregon. Le bilan provisoire fait état de quatre victimes : trois enfants âgés de 5, 8 et 11 ans, ainsi qu'un enseignant (BBC News, France 24). La particularité de cet événement réside dans l'intervention d'un passant armé qui, ayant aperçu le suspect pénétrer dans l'établissement, l'a poursuivi à l'intérieur et l'a abattu avant l'arrivée des forces de l'ordre (Le Figaro). Bien que l'intervention ait probablement limité le nombre de victimes, elle ravive les tensions partisanes sur l'efficacité des « bons samaritains » armés face aux fusillades de masse.",
+      "contexte_historique": "L'Oregon a durci ses lois sur les armes en 2022 (Mesure 114), mais l'application reste contestée devant les tribunaux. Ce type d'intervention civile rappelle la fusillade d'un centre commercial en Indiana en 2022, où un civil avait également abattu un tireur, un argument souvent utilisé par la NRA (National Rifle Association) pour promouvoir le port d'arme citoyen.",
       "implications": [
-        "Ralentissement des réformes curiales engagées par Léon XIV durant sa période de repos.",
-        "Réactivation des spéculations sur un éventuel conclave si la santé du pape venait à décliner rapidement."
+        "Intensification du débat législatif sur la sécurisation des écoles par des gardes armés ou des citoyens volontaires.",
+        "Risque de traumatismes accrus pour la communauté locale de Bend, jusqu'ici relativement épargnée par la violence armée scolaire."
       ],
       "chronologie": [
         {
+          "date": "2026-10-16",
+          "texte": "Identification des victimes : trois enfants et un enseignant tués.",
+          "source": "BBC News"
+        },
+        {
           "date": "2026-10-15",
-          "texte": "Le Vatican confirme que l'administration fonctionne normalement durant la convalescence.",
-          "source": "NYT World"
+          "texte": "Un tireur de 16 ans ouvre le feu dans une école primaire de Bend.",
+          "source": "France 24 FR"
         },
         {
-          "date": "2026-10-14",
-          "texte": "Opération réussie pour retirer un nodule cancéreux au poumon.",
-          "source": "franceinfo"
-        },
-        {
-          "date": "2026-10-13",
-          "texte": "Annonce officielle de la découverte du nodule et de l'hospitalisation immédiate.",
-          "source": "Citoyens.ai"
+          "date": "2026-10-15",
+          "texte": "Un passant armé poursuit le suspect dans l'école et l'abat.",
+          "source": "Le Figaro"
         }
       ],
       "couvertures": [
         {
-          "source": "NYT World",
+          "source": "BBC News",
           "type": "etranger",
-          "angle": "Analyse de la résilience bureaucratique du Vatican face à l'absence du chef.",
+          "angle": "Focus sur l'identité des jeunes victimes et le choc de la communauté locale.",
           "ton": "factuel",
-          "url": "https://www.nytimes.com/2026/10/15/world/europe/while-leo-recovers-from-lung-surgery-the-church-runs-on-autopilot.html",
-          "citation_cle": "La bureaucratie du Vatican a été perfectionnée au cours de centaines d'années pour fonctionner sans heurts, même lorsque le pape ne le peut pas.",
+          "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "The suspect was shot dead by a community member who followed him into the Oregon school.",
           "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
-          "source": "BFM TV",
+          "source": "Le Figaro",
           "type": "mainstream",
-          "angle": "Focus sur les réactions diplomatiques internationales, notamment celle de Donald Trump.",
+          "angle": "Mise en avant de l'intervention décisive du civil armé.",
           "ton": "neutre",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/remettez-vous-vite-donald-trump-souhaite-un-bon-retablissement-au-pape-leon-xiv_AD-202610150066.html",
-          "citation_cle": "Remettez-vous vite! : Donald Trump souhaite un bon rétablissement au pape Léon XIV",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
+          "url": "https://www.lefigaro.fr/international/etats-unis-un-tireur-fait-plusieurs-victimes-dans-une-ecole-primaire-de-l-oregon-20261015",
+          "citation_cle": "Le tireur présumé âgé de 16 ans a été abattu par un passant armé.",
+          "groupe_media": null
         },
         {
-          "source": "Le Figaro",
+          "source": "franceinfo",
           "type": "mainstream",
-          "angle": "Convalescence et traitement anticancéreux : quelles seront les suites pour le pape Léon XIV après son opération d’un cancer du poumon ?",
+          "angle": "Un tireur fait quatre morts, dont trois enfants, dans une école primaire de l'Oregon aux Etats-Unis",
           "ton": "factuel",
-          "url": "https://sante.lefigaro.fr/medecine/convalescence-et-traitement-anticancereux-quelles-seront-les-suites-pour-le-pape-leon-xiv-apres-son-operation-d-un-cancer-du-poumon-20261014",
-          "citation_cle": "Le souverain pontife a été opéré mardi d’un adénocarcinome, l’une des tumeurs pulmonaires les plus fréquentes. Mais des ",
-          "groupe_media": null
+          "url": "https://www.franceinfo.fr/monde/usa/un-tireur-fait-plusieurs-victimes-dans-une-ecole-primaire-de-l-oregon-aux-etats-unis_8239228.html#xtor=RSS-3-[lestitres]",
+          "citation_cle": "Lorsque les premiers policiers sont arrivés sur place, le tireur était déjà mort, abattu par un passant armé.",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Le stade exact du cancer et la nécessité potentielle de traitements complémentaires (chimio/radiothérapie).",
-        "La durée réelle de l'indisponibilité du pape avant un retour aux audiences publiques."
+        "Les motivations exactes de l'adolescent de 16 ans.",
+        "L'origine de l'arme utilisée par le suspect mineur."
       ],
       "sources": [
         {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/10/15/world/europe/while-leo-recovers-from-lung-surgery-the-church-runs-on-autopilot.html",
-          "type": "institutionnel",
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
+          "type": "etat",
           "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/remettez-vous-vite-donald-trump-souhaite-un-bon-retablissement-au-pape-leon-xiv_AD-202610150066.html",
-          "type": "mainstream",
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/am%C3%A9riques/20261015-etats-unis-fusillade-plusieurs-victimes-morts-ecole-oregon-bend-tireur-abattu",
+          "type": "etat",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-10-13"
-    },
-    {
-      "titre": "Mobilisation du 17 octobre : vers une convergence des luttes lycéennes et sociales",
-      "slug": "mobilisation-17-octobre-convergence-lyceens-gilets-jaunes",
-      "rubrique": "societe",
-      "tldr": [
-        "Appels massifs à manifester le samedi 17 octobre sur fond de vie chère.",
-        "Convergence attendue entre le mouvement lycéen et les collectifs de type Gilets Jaunes.",
-        "Tensions accrues après qu'un lycéen a été éborgné par la police à Tours."
-      ],
-      "resume": "Le mouvement lycéen, qui dure depuis deux semaines, semble muter vers une contestation sociale plus large à l'approche du samedi 17 octobre. Les réseaux sociaux voient fleurir des appels à la convergence avec des collectifs citoyens dénonçant la hausse des prix des carburants et la réforme des retraites (BFM TV). La tension est montée d'un cran suite à la mise en examen d'un policier pour « violences aggravées » après qu'un adolescent de 16 ans a perdu un œil lors d'une manifestation à Tours . Tandis que certains syndicats restent prudents, des collectifs plus radicaux comme « Le Poing levé » cherchent à transformer ces blocages en mouvement révolutionnaire (Le Figaro).",
-      "contexte_historique": "La France a connu plusieurs épisodes de convergence lycéens-salariés, notamment en 1968 et 2006 (contre le CPE). Le 17 octobre est également une date chargée symboliquement, marquant le massacre des Algériens à Paris en 1961, bien que les revendications actuelles soient principalement économiques et liées aux violences policières.",
-      "implications": [
-        "Risque de paralysie des centres-villes le samedi 17 octobre si la mobilisation dépasse le cadre lycéen.",
-        "Pression politique accrue sur le gouvernement concernant la gestion de l'ordre public et le pouvoir d'achat."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-15",
-          "texte": "Multiplication des appels à manifester sur les réseaux sociaux pour le 17 octobre.",
-          "source": "La Croix"
-        },
-        {
-          "date": "2026-10-14",
-          "texte": "Un policier mis en examen après qu'un lycéen a été éborgné à Tours.",
-          "source": "Reddit r/france"
-        },
-        {
-          "date": "2026-09-15",
-          "texte": "Début sporadique des blocages lycéens contre les réformes éducatives.",
-          "source": "Citoyens.ai"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Analyse de la possible jonction entre lycéens, Gilets Jaunes et opposants aux retraites.",
-          "ton": "alarmiste",
-          "url": "https://www.bfmtv.com/societe/manifestations/video-reforme-des-retraites-gilets-jaunes-mouvement-lyceen-vers-une-convergence-des-luttes-et-un-rassemblement-massif-le-17-octobre_VN-202610150065.html",
-          "citation_cle": "Vers une convergence des luttes et un rassemblement massif le 17 octobre ?",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "Le Figaro",
-          "type": "mainstream",
-          "angle": "Focus sur les groupuscules d'extrême gauche qui tentent de politiser le mouvement.",
-          "ton": "critique",
-          "url": "https://www.lefigaro.fr/actualite-france/melenchon-est-dans-une-logique-de-compromis-bourgeois-le-poing-leve-ce-collectif-trotskiste-qui-veut-profiter-des-blocages-pour-renverser-la-table-20261015",
-          "citation_cle": "Le Poing levé, ce collectif trotskiste qui veut profiter des blocages pour renverser la table.",
-          "groupe_media": null
-        },
-        {
-          "source": "La Croix",
-          "type": "mainstream",
-          "angle": "Manifestation du 17 octobre : qui est derrière l’appel à la mobilisation qui agite les réseaux",
-          "ton": "factuel",
-          "url": "https://www.la-croix.com/societe/manifestation-du-17-octobre-qui-est-derriere-l-appel-a-la-mobilisation-qui-agite-les-reseaux-20261014",
-          "citation_cle": "Face à la hausse des prix, notamment des carburants, et en plein contexte de mobilisation lycéenne, les appels à manifes",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'ampleur réelle de la participation des travailleurs et des retraités aux côtés des jeunes.",
-        "La stratégie de maintien de l'ordre prévue par le ministère de l'Intérieur pour samedi."
-      ],
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/societe/manifestations/video-reforme-des-retraites-gilets-jaunes-mouvement-lyceen-vers-une-convergence-des-luttes-et-un-rassemblement-massif-le-17-octobre_VN-202610150065.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
           "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/actualite-france/melenchon-est-dans-une-logique-de-compromis-bourgeois-le-poing-leve-ce-collectif-trotskiste-qui-veut-profiter-des-blocages-pour-renverser-la-table-20261015",
-          "type": "mainstream",
+          "url": "https://www.lefigaro.fr/international/etats-unis-un-tireur-fait-plusieurs-victimes-dans-une-ecole-primaire-de-l-oregon-20261015",
+          "type": "milliardaire",
           "groupe_media": null
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/manifestation-du-17-octobre-qui-est-derriere-l-appel-a-la-mobilisation-qui-agite-les-reseaux-20261014",
-          "type": "mainstream",
-          "groupe_media": null
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/europe/20261016-en-direct-ukraine-russie-reprise-frappes-raffineries-donald-trump-zelensky-poutine",
+          "type": "mainstream"
         }
       ],
-      "premiere_apparition": "2026-09-15"
+      "premiere_apparition": "2026-10-15"
     },
     {
-      "titre": "Escalade au Moyen-Orient : les Houthis frappent le cœur de l'Arabie saoudite",
-      "slug": "escalade-moyen-orient-houthis-frappes-riyad",
-      "rubrique": "international",
+      "titre": "Mobilisation du 17 octobre : vers une convergence des luttes sociales et lycéennes",
+      "slug": "mobilisation-17-octobre-convergence-lyceens-gilets-jaunes",
+      "rubrique": "societe",
       "tldr": [
-        "Nouvelles frappes houthistes contre des infrastructures à Riyad et Dhahran.",
-        "Échec relatif des systèmes de défense saoudiens face aux drones low-cost.",
-        "Menaces sur le détroit d'Ormuz et le trafic pétrolier mondial."
+        "Appels à manifester ce samedi 17 octobre pour le pouvoir d'achat et contre la répression policière.",
+        "Le gouvernement redoute des violences urbaines et une jonction avec les 'Gilets jaunes'.",
+        "Soutien inédit d'étudiants de grandes écoles (HEC) et de facultés de sciences au mouvement lycéen."
       ],
-      "resume": "Les rebelles Houthis du Yémen ont intensifié leurs attaques contre l'Arabie saoudite, ciblant des infrastructures stratégiques à Riyad et Dhahran. Malgré des investissements massifs dans l'armement occidental, l'armée saoudienne peine à intercepter ces drones et missiles de croisière, souvent plus lents et difficiles à détecter que des vecteurs classiques (NYT World). Cette escalade intervient alors que les Houthis menacent de bloquer le détroit d'Ormuz si la coalition menée par Riyad ne cesse pas son soutien aux forces gouvernementales yéménites (Ouest-France). La situation provoque une instabilité immédiate sur les marchés énergétiques, déjà sous tension.",
-      "contexte_historique": "Le conflit au Yémen dure depuis 2014, opposant les Houthis (soutenus par l'Iran) à une coalition arabe dirigée par l'Arabie saoudite. L'ONU qualifie régulièrement cette situation de « pire crise humanitaire au monde ». Les attaques contre les infrastructures pétrolières (comme celle d'Abqaiq en 2019) ont prouvé par le passé leur capacité à perturber 5 % de la production mondiale de brut.",
+      "resume": "À la veille du samedi 17 octobre, la tension monte en France. Initialement prévue contre l'inflation et les prix des carburants, cette journée d'action est devenue le point de convergence des colères lycéennes, étudiantes et sociales (franceinfo, Le Monde). Le mouvement lycéen, actif depuis un mois, a reçu des soutiens inattendus d'établissements prestigieux comme HEC Paris ou des facultés de sciences à Lyon, dénonçant un « système à bout de souffle » (Rue89 Lyon, . Le Premier ministre Sébastien Lecornu a toutefois durci le ton, qualifiant le mouvement de dérive vers des « violences urbaines » et redoutant des affrontements en fin de cortège (BFM TV).",
+      "contexte_historique": "Cette mobilisation intervient 65 ans jour pour jour après le massacre du 17 octobre 1961, une date symbolique dont plusieurs maires demandent aujourd'hui la reconnaissance comme crime d'État (Reddit). Elle rappelle également la convergence 'Jeunes-Jaunes' tentée en 2018 lors de la crise des Gilets jaunes.",
       "implications": [
-        "Hausse probable des prix du pétrole et du gaz en raison de l'insécurité dans le Golfe.",
-        "Risque d'implication directe de l'Iran ou des États-Unis si le détroit d'Ormuz est entravé."
+        "Risque de paralysie des centres-villes samedi avec des dispositifs policiers massifs.",
+        "Pression accrue sur le gouvernement concernant le budget 2027 et le pouvoir d'achat."
       ],
       "chronologie": [
         {
+          "date": "2026-10-16",
+          "texte": "Sébastien Lecornu dénonce des risques de 'violences épouvantables'.",
+          "source": "BFM TV"
+        },
+        {
           "date": "2026-10-15",
-          "texte": "Les Houthis revendiquent de nouvelles frappes contre des sites pétroliers saoudiens.",
-          "source": "Ouest-France"
+          "texte": "Des étudiants de HEC Paris se mobilisent en soutien aux lycéens.",
+          "source": "Reddit r/france"
         },
         {
-          "date": "2026-10-12",
-          "texte": "Attaque sans précédent par drone contre des quartiers de Riyad.",
-          "source": "Citoyens.ai"
-        },
-        {
-          "date": "2026-10-11",
-          "texte": "Première série de frappes houthistes sur Dhahran.",
-          "source": "NYT World"
+          "date": "2026-10-15",
+          "texte": "Incidents signalés au lycée Paul-Éluard de Saint-Denis.",
+          "source": "Reddit r/france"
         }
       ],
       "couvertures": [
         {
-          "source": "NYT World",
-          "type": "etranger",
-          "angle": "Analyse technique de l'inefficacité de la défense saoudienne face aux nouvelles technologies asymétriques.",
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Analyse de la stratégie de convergence entre la jeunesse et les mouvements sociaux.",
           "ton": "factuel",
-          "url": "https://www.nytimes.com/2026/10/15/world/middleeast/saudi-arabia-defense-houthi-attacks-yemen.html",
-          "citation_cle": "L'armée saoudienne dispose d'équipements coûteux, mais les missiles et les drones utilisés par la milice yéménite sont difficiles à détecter et à arrêter.",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "Ouest-France",
-          "type": "mainstream",
-          "angle": "Focus sur les conséquences globales de l'instabilité maritime à Ormuz.",
-          "ton": "neutre",
-          "url": "https://www.ouest-france.fr/monde/iran/guerre-au-moyen-orient-frappes-houthistes-contre-ryad-hausse-des-attaques-a-ormuz-les-dernieres-infos-4e67f68e-c787-11f1-9522-1f9ae0711c0a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "citation_cle": "Les rebelles yéménites menacent d’intensifier leurs actions si la coalition menée par Ryad maintient son soutien.",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Le degré exact de coordination entre Téhéran et les Houthis pour cette offensive spécifique.",
-        "La capacité de l'Arabie saoudite à riposter sans déclencher un conflit régional ouvert."
-      ],
-      "sources": [
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/10/15/world/middleeast/saudi-arabia-defense-houthi-attacks-yemen.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/region-guadeloupe/guadeloupe-cinq-hommes-ecroues-dont-un-mineur-apres-des-tirs-contre-les-forces-de-lordre-4f7884c4-c84c-11f1-9522-1f9ae0711c0a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "premiere_apparition": "2026-10-11"
-    },
-    {
-      "titre": "Le Brésil réduit la semaine de travail à 40 heures sous l'impulsion de Lula",
-      "slug": "bresil-reduction-temps-travail-40-heures-lula",
-      "rubrique": "economie",
-      "tldr": [
-        "Le Parlement brésilien approuve le passage de 44h à 40h hebdomadaires.",
-        "La mesure vise 30 millions de travailleurs sans baisse de salaire.",
-        "Décision stratégique à l'approche du second tour de la présidentielle."
-      ],
-      "resume": "Le Sénat brésilien a validé un amendement constitutionnel historique réduisant la durée légale du travail de 44 à 40 heures par semaine, sans diminution de salaire (Le Monde). Cette réforme, promesse phare du président Lula da Silva, concerne environ 30 millions de salariés et interdit désormais la semaine de six jours travaillés (The Guardian). Si les syndicats saluent une avancée majeure pour la santé des travailleurs, les organisations patronales s'inquiètent d'une perte de compétitivité. Le timing est hautement politique, Lula cherchant à consolider son avance sur Flavio Bolsonaro à dix jours du second tour de l'élection présidentielle (Le Figaro).",
-      "contexte_historique": "La durée du travail au Brésil était fixée à 44 heures depuis la Constitution de 1988. Cette réduction place le pays dans la moyenne de l'OCDE, bien que la France reste une exception avec les 35 heures (loi Aubry, 2000). Des expériences similaires de réduction du temps de travail ont été menées récemment en Islande et au Royaume-Uni avec des résultats positifs sur la productivité.",
-      "implications": [
-        "Amélioration potentielle de la qualité de vie pour des millions de Brésiliens issus des classes populaires.",
-        "Tensions possibles avec les secteurs industriels et de services dépendant d'une main-d'œuvre intensive."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-15",
-          "texte": "Approbation finale de l'amendement par le Sénat brésilien.",
-          "source": "Le Monde"
-        },
-        {
-          "date": "2026-10-14",
-          "texte": "Le projet de loi reçoit un large soutien à la Chambre des députés.",
-          "source": "The Guardian"
-        },
-        {
-          "date": "2026-08-01",
-          "texte": "Lula intègre la réduction du temps de travail à son programme de réélection.",
-          "source": "Citoyens.ai"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "The Guardian",
-          "type": "etranger",
-          "angle": "Focus sur l'impact social pour les 30 millions de travailleurs concernés.",
-          "ton": "neutre",
-          "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
-          "citation_cle": "Le Congrès approuve un amendement constitutionnel qui interdit les semaines de travail de six jours.",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "source": "Le Figaro",
-          "type": "mainstream",
-          "angle": "Analyse électorale de la mesure pour contrer Flavio Bolsonaro.",
-          "ton": "factuel",
-          "url": "https://www.lefigaro.fr/international/bresil-le-parlement-approuve-la-reduction-du-temps-de-travail-promise-par-lula-20261015",
-          "citation_cle": "Lula mise sur cette réforme pour combler son retard sur le sénateur conservateur Flavio Bolsonaro.",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Les modalités précises de mise en œuvre pour les petites et moyennes entreprises.",
-        "L'impact réel sur l'inflation brésilienne dans un contexte économique global fragile."
-      ],
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/15/au-bresil-le-parlement-adopte-la-reduction-du-temps-de-travail-promise-par-lula_6793931_3210.html",
-          "type": "mainstream",
+          "url": "https://www.lemonde.fr/societe/article/2026/10/16/mouvement-lyceen-un-mois-de-mobilisation-et-le-pari-de-la-convergence-jeunes-et-jaunes_6795111_3224.html",
+          "citation_cle": "Les lycéens mobilisés comptent sur la large journée d’action de samedi 17 octobre pour donner du souffle.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -356,21 +162,216 @@
           }
         },
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
-          "type": "etranger",
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Focus sur les risques sécuritaires et les déclarations de fermeté du gouvernement.",
+          "ton": "alarmiste",
+          "url": "https://www.bfmtv.com/police-justice/video-mobilisation-du-17-octobre-sebastien-lecornu-redoute-des-violences-epouvantables-en-fin-de-cortege_VN-202610160081.html",
+          "citation_cle": "Sébastien Lecornu redoute des violences épouvantables en fin de cortège.",
           "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "franceinfo",
+          "type": "mainstream",
+          "angle": "Avant le 17 octobre, des futurs manifestants motivés par des colères qui se rejoignent, de \"l'élan des mobilisations lycéennes\" à l'envie de \"vivre correctement\"",
+          "ton": "factuel",
+          "url": "https://www.franceinfo.fr/economie/greve/temoignages-avant-le-17-octobre-des-futurs-manifestants-motives-par-des-coleres-qui-se-rejoignent-de-l-elan-des-mobilisations-lyceennes-a-l-envie-de-vivre-correctement_8238379.html#xtor=RSS-3-[lestitres]",
+          "citation_cle": "Les appels à se rassembler samedi fleurissent en ligne depuis le mois de septembre, attisés par les prix à la pompe et l",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "L'ampleur réelle de la participation des Gilets jaunes samedi.",
+        "L'impact du début des vacances scolaires sur la pérennité du mouvement lycéen."
+      ],
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/societe/article/2026/10/16/mouvement-lyceen-un-mois-de-mobilisation-et-le-pari-de-la-convergence-jeunes-et-jaunes_6795111_3224.html",
+          "type": "milliardaire",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/police-justice/video-mobilisation-du-17-octobre-sebastien-lecornu-redoute-des-violences-epouvantables-en-fin-de-cortege_VN-202610160081.html",
+          "type": "milliardaire",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/economie/greve/temoignages-avant-le-17-octobre-des-futurs-manifestants-motives-par-des-coleres-qui-se-rejoignent-de-l-elan-des-mobilisations-lyceennes-a-l-envie-de-vivre-correctement_8238379.html#xtor=RSS-3-[lestitres]",
+          "type": "etat",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Rue89 Lyon",
+          "url": "https://www.rue89lyon.fr/2026/10/16/lyon-1-ecoles-ingenieurs-conservatoire-soutiens-inattendus-mouvement-lyceen/",
+          "type": "independant",
+          "groupe_media": null
+        }
+      ],
+      "premiere_apparition": "2026-09-15"
+    },
+    {
+      "titre": "Elon Musk dévoile le Tesla Roadster de série : une voiture qui « vole »",
+      "slug": "tesla-roadster-elon-musk-spacex-thrusters",
+      "rubrique": "tech",
+      "tldr": [
+        "Version de série du Tesla Roadster présentée au Texas après 9 ans d'attente.",
+        "Équipée de propulseurs à gaz froid SpaceX permettant de brefs décollages.",
+        "Performances annoncées : 0 à 100 km/h en moins d'une seconde."
+      ],
+      "resume": "Après près d'une décennie d'attente, Elon Musk a enfin dévoilé la version définitive du Tesla Roadster lors d'un événement spectaculaire à Waco, au Texas (Numerama, BFM TV). Le véhicule intègre des technologies issues de SpaceX, notamment des propulseurs à gaz froid (thrusters) permettant à la voiture de s'élever du sol ou de stabiliser sa trajectoire en virage haute vitesse (The Verge, TechCrunch). Si les performances techniques (0-60 mph en moins d'une seconde) impressionnent les observateurs, la faisabilité réglementaire d'un tel engin reste une question majeure pour les autorités de l'aviation et du transport (Wired).",
+      "contexte_historique": "Annoncé initialement en 2017, le Roadster a subi de multiples retards. L'utilisation de technologies aérospatiales sur une voiture de route n'a aucun précédent industriel de série, bien que des concepts de voitures volantes (VTOL) existent, ils ne sont pas destinés au marché automobile grand public traditionnel.",
+      "implications": [
+        "Défis réglementaires majeurs pour l'homologation routière d'un véhicule équipé de propulseurs.",
+        "Relance de l'image d'innovateur de Tesla après une période de stagnation sur les nouveaux modèles."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-10-16",
+          "texte": "Démonstration du Roadster effectuant des sauts au-dessus d'autres modèles Tesla.",
+          "source": "TechCrunch"
+        },
+        {
+          "date": "2026-10-15",
+          "texte": "Présentation officielle de la version de série à Waco, Texas.",
+          "source": "Numerama"
+        },
+        {
+          "date": "2017-11-16",
+          "texte": "Première présentation du prototype du Roadster 2.0.",
+          "source": "BFM TV"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "The Verge",
+          "type": "etranger",
+          "angle": "Focus sur les capacités techniques et les démonstrations spectaculaires de vol.",
+          "ton": "factuel",
+          "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
+          "citation_cle": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second.",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
             "orientation": "centre-gauche"
           }
         },
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/bresil-le-parlement-approuve-la-reduction-du-temps-de-travail-promise-par-lula-20261015",
+          "source": "Wired",
+          "type": "etranger",
+          "angle": "Scepticisme quant à l'approbation par la FAA (Federal Aviation Administration).",
+          "ton": "critique",
+          "url": "https://www.wired.com/story/tesla-flying-car-faa/",
+          "citation_cle": "The FAA will likely have thoughts about the Tesla Roadster 2’s ability to leave the ground.",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "BFM TV",
           "type": "mainstream",
-          "groupe_media": null
+          "angle": "Elon Musk dévoile son Tesla Roadster capable de \"voler\" grâce à des fusées de SpaceX",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/societe/video-elon-musk-devoile-son-tesla-roadster-capable-de-voler-grace-a-des-fusees-de-space-x_VN-202610160091.html",
+          "citation_cle": "Près de 9 ans après la présentation de son tout premier prototype, Elon Musk a dévoilé ce vendredi 16 octobre la version",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Le prix final et la date exacte des premières livraisons aux clients.",
+        "L'autonomie réelle de la batterie lorsque les propulseurs sont utilisés."
+      ],
+      "sources": [
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/vroom/2353449-tesla-roadster-comment-suivre-la-presentation-de-la-nouvelle-voiture-electrique.html",
+          "type": "independant",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/auto/mieux-qu-une-voiture-de-james-bond-elon-musk-devoile-son-tesla-roadster-capable-de-voler-grace-a-des-fusees-de-space-x_AN-202610160083.html",
+          "type": "milliardaire",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
+          "type": "independant",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/tesla-flying-car-faa/",
+          "type": "famille",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+          "type": "milliardaire",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
         }
       ],
       "premiere_apparition": "2026-10-15"
@@ -378,48 +379,28 @@
   ],
   "sujets_refroidis": [
     {
-      "titre": "Fusillade au collège d'Aubagne : la piste de la mouvance « True Crime »",
-      "slug": "fusillade-aubagne-true-crime-mouvance",
-      "rubrique": "societe",
-      "resume": "L'adolescent de 14 ans suspecté d'avoir blessé un principal et une enseignante a été placé en détention provisoire. Il a reconnu une volonté de vengeance suite à un sentiment de harcèlement scolaire et une influence des tueries de masse documentées en ligne.",
+      "titre": "Convalescence du pape Léon XIV",
+      "slug": "convalescence-pape-leon-xiv-operation",
+      "rubrique": "international",
+      "resume": "Le Vatican confirme que le pape Léon XIV se remet favorablement de son opération du poumon. Les activités publiques restent suspendues mais l'inquiétude immédiate s'est dissipée.",
       "chronologie": [
         {
-          "date": "2026-10-15",
-          "texte": "Placement en détention provisoire après aveux devant le parquet.",
-          "source": "BFM TV"
-        },
-        {
           "date": "2026-10-14",
-          "texte": "Révélation de l'influence de la mouvance 'True Crime'.",
-          "source": "20 Minutes"
+          "texte": "Annonce du succès de l'opération du cancer du poumon.",
+          "source": "RFI"
         }
       ],
-      "couvertures": [
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Détails sur l'audition et le profil psychologique du suspect.",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/police-justice/video-tirs-dans-un-college-a-aubagne-l-adolescent-suspect-a-passe-la-nuit-en-prison-apres-avoir-admis-une-volonte-de-vengeance-parce-qu-il-se-sentait-harcele-par-ses-professeurs_VN-202610150074.html",
-          "citation_cle": "Il a admis une volonté de vengeance parce qu'il se sentait harcelé par ses professeurs."
-        }
-      ],
+      "couvertures": [],
       "ce_quon_ne_sait_pas": [
-        "L'origine exacte de l'arme utilisée."
+        "La durée exacte de sa rééducation avant une reprise complète de ses fonctions."
       ],
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/police-justice/video-tirs-dans-un-college-a-aubagne-l-adolescent-suspect-a-passe-la-nuit-en-prison-apres-avoir-admis-une-volonte-de-vengeance-parce-qu-il-se-sentait-harcele-par-ses-professeurs_VN-202610150074.html",
-          "type": "mainstream"
-        }
-      ],
-      "derniere_mise_a_jour": "2026-10-15",
-      "statut": "Le volet judiciaire est en cours avec l'incarcération du suspect."
+      "sources": [],
+      "derniere_mise_a_jour": "2026-10-16",
+      "statut": "Le sujet entre dans une phase de suivi médical calme sans urgence médiatique."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 739,
+    "nb_articles_analyses": 721,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
