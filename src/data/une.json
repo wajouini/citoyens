@@ -1,42 +1,53 @@
 {
   "sujet_du_jour": {
-    "titre": "Fusillade dans une école de l'Oregon : un civil armé abat le tireur",
-    "rubrique": "international",
-    "pourquoi_important": "Ce nouveau drame scolaire aux États-Unis illustre la persistance de la violence armée et relance le débat sur l'intervention de civils armés lors de tueries de masse.",
+    "titre": "Mobilisations du 17 octobre : vers une convergence des colères",
+    "rubrique": "societe",
+    "pourquoi_important": "C'est le premier test majeur de cohésion pour une opposition sociale hétéroclite (syndicats, étudiants, agriculteurs et ex-Gilets jaunes) face au gouvernement.",
     "faits": [
-      "Le 15 octobre 2026 à 12h59, un adolescent de 16 ans a ouvert le feu à l'école primaire Silver Rail à Bend, dans l'Oregon .",
-      "Le bilan fait état de quatre morts : trois enfants et un professeur (Le Monde.",
-      "Le suspect a été abattu par un passant armé qui l'avait vu pénétrer dans l'établissement et l'a poursuivi à l'intérieur (Le Figaro, Franceinfo).",
-      "L'intervention de la police a eu lieu à 13h02, soit trois minutes après l'alerte initiale, mais le tireur était déjà décédé ."
+      "Entre 60 000 et 110 000 manifestants sont attendus hors de Paris selon le renseignement territorial (RTL).",
+      "La Confédération paysanne et la CGT appellent officiellement à rejoindre le mouvement pour défendre les services publics et le pouvoir d'achat (Confédération paysanne, .",
+      "À Paris, le parcours entre République et Clichy a été validé tardivement après des négociations tendues avec la préfecture (L'Obs, France 24).",
+      "Le mouvement agrège des revendications variées : précarité étudiante, crise agricole, justice fiscale et urgence climatique (Alternatives Économiques, BFM TV)."
     ],
-    "contexte": "Cette tuerie s'inscrit dans une série ininterrompue de fusillades en milieu scolaire aux États-Unis. La particularité de cet événement réside dans l'intervention d'un civil armé, une figure souvent mise en avant par les défenseurs du port d'arme (le concept du 'good guy with a gun'), bien que les autorités privilégient généralement le confinement et l'intervention professionnelle. Les élèves évacués ont été pris en charge à la Journey Church pour être rendus à leurs familles.",
+    "contexte": "Cette journée de mobilisation du 17 octobre 2026 s'inscrit dans un climat social électrique. Elle tente de ressusciter l'esprit de convergence des luttes en unissant des secteurs qui manifestent habituellement séparément. Le gouvernement, par la voix d'Emmanuel Macron, a appelé au calme alors que les dispositifs de maintien de l'ordre sont renforcés dans les grandes agglomérations.",
     "sources": [
       {
-        "nom": "Bend Police Dept. News",
-        "url": "https://www.flashalert.net/id/BendPolice?gsid=96c191d3-4620-41ef-964c-dc61aa533fb5",
+        "nom": "Confédération paysanne",
+        "url": "https://www.confederationpaysanne.fr/rp_article.php?id=16993",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/10/16/aux-etats-unis-une-fusillade-fait-au-moins-quatre-morts-dans-une-ecole-primaire-de-l-oregon_6794831_3210.html",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
-      },
-      {
-        "nom": "Le Figaro",
-        "url": "https://www.lefigaro.fr/international/etats-unis-un-tireur-fait-plusieurs-victimes-dans-une-ecole-primaire-de-l-oregon-20261015",
+        "nom": "RTL",
+        "url": "https://www.rtl.fr/actu/debats-societe/comme-une-marmite-prete-a-exploser-commercants-et-elus-sur-leurs-gardes-avant-le-17-octobre-7900685935",
         "type": "mainstream",
         "groupe_media": null
       },
       {
-        "nom": "franceinfo",
-        "url": "https://www.franceinfo.fr/faits-divers/accident/un-grave-accident-entre-un-bus-et-un-train-s-est-produit-a-l-entree-du-tunnel-sous-la-manche-pres-de-calais-et-a-fait-une-vingtaine-de-blesses_8239282.html#xtor=RSS-3-[lestitres]",
+        "nom": "Alternatives Économiques",
+        "url": "https://www.alternatives-economiques.fr/mobilisation-du-17-octobre-les-coleres-sont-declarees_16-10-2026",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Alternatives Économiques",
+          "proprietaire": "SCOP (coopérative de salariés)",
+          "type_proprietaire": "cooperative",
+          "orientation": "centre-gauche"
+        }
+      },
+      {
+        "nom": "L'Obs",
+        "url": "https://www.nouvelobs.com/social/20261016.OBS119276/a-quoi-faut-il-s-attendre-lors-de-la-mobilisation-de-ce-samedi-17-octobre-rassemblant-gilets-jaunes-et-lyceens.html",
+        "type": "mainstream",
+        "groupe_media": null
+      },
+      {
+        "nom": "France 24 FR",
+        "url": "https://www.france24.com/fr/%C3%A9missions/la-question-qui-f%C3%A2che/20261016-manifestations-lyc%C3%A9ennes-faut-il-supprimer-parcoursup",
+        "type": "mainstream"
+      },
+      {
+        "nom": "BFM TV",
+        "url": "https://www.bfmtv.com/police-justice/video-la-justice-alerte-sur-le-risque-d-engorgement-des-tribunaux-face-aux-nombreuses-requetes-redigees-par-l-intelligence-artificielle_VN-202610170058.html",
         "type": "mainstream"
       }
     ],
@@ -44,19 +55,68 @@
   },
   "france": [
     {
-      "titre": "Accident au tunnel sous la Manche : 19 blessés",
+      "titre": "Fusillade d'Aubagne : un deuxième mineur mis en examen",
       "rubrique": "societe",
-      "resume": "Un minibus transportant des chauffeurs de poids lourds a percuté une navette ferroviaire à l'arrêt sur le site d'Eurotunnel à Coquelles. Bien que cinq personnes aient été initialement déclarées en urgence absolue, la préfecture assure qu'aucun pronostic vital n'est engagé (Franceinfo, Libération). Le trafic Eurostar n'a pas été impacté (20 Minutes).",
+      "resume": "Un adolescent de 13 ans a été mis en examen pour complicité dans l'enquête sur les tirs au collège Joseph-Lakanal. Le Parquet national antiterroriste explore la piste de la 'True Crime Community', une mouvance en ligne fascinée par les tueries de masse (franceinfo, Le Figaro, L'Obs).",
       "sources": [
         {
-          "nom": "Franceinfo",
-          "url": "https://www.franceinfo.fr/faits-divers/accident/un-grave-accident-entre-un-bus-et-un-train-s-est-produit-a-l-entree-du-tunnel-sous-la-manche-pres-de-calais-et-a-fait-une-vingtaine-de-blesses_8239282.html",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/tirs-dans-un-college-d-aubagne-un-deuxieme-adolescent-mis-en-examen-et-place-en-detention-provisoire-soupconne-d-etre-en-lien-avec-le-suspect_8240983.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/marseille/fusillade-dans-un-college-a-aubagne-un-autre-adolescent-interpelle-et-place-en-garde-a-vue-20261015",
           "type": "mainstream",
           "groupe_media": null
         },
         {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/politique/20261016.OBS119249/le-pen-veut-sa-peau-le-conseil-constitutionnel-de-ferrand-resistera-t-il-a-la-pression.html",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Parcoursup : la sélection universitaire sous le feu des critiques",
+      "rubrique": "societe",
+      "resume": "Le ministre Philippe Baptiste est accusé de minimiser le nombre de candidats sans affectation. Des experts dénoncent une généralisation de la sélection qui accroît le tri social sans résoudre le manque de places (Les Décodeurs, La Croix).",
+      "sources": [
+        {
+          "nom": "Les Décodeurs",
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/16/parcoursup-le-gouvernement-minimise-t-il-le-nombre-de-candidats-sans-affectation_6795576_4355770.html",
+          "type": "fact-check",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/a-vif/universites-generaliser-la-selection-c-est-sexposer-a-des-desillusions-20261016",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Budget 2027 : alliance RN-Majorité sur les donations familiales",
+      "rubrique": "economie",
+      "resume": "Les députés ont validé une exonération fiscale accrue sur les dons d'argent intrafamiliaux. Cette mesure, soutenue par le bloc central et le RN, est critiquée par la gauche comme une faveur néolibérale favorisant la reproduction des richesses (Libération, 20 Minutes).",
+      "sources": [
+        {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/international/europe/tunnel-de-la-manche-collision-entre-un-bus-et-un-train-19-blesses-dont-5-en-urgence-absolue-20261015_SCJJ6TEZ3NBZ5BW3RWLDHTDIH4/",
+          "url": "https://www.liberation.fr/economie/budget-2027-le-rn-et-le-bloc-central-votent-ensemble-pour-baisser-la-fiscalite-des-donations-20261016_RHCL64UNT5GXVLELK2L5RV4W74/",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Libération",
@@ -64,49 +124,26 @@
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/politique/assemblee_nationale/4255089-20261016-budget-2027-deputes-valident-nouvelle-exoneration-dons-argent-intrafamiliaux",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
       "lien": null
-    },
+    }
+  ],
+  "monde": [
     {
-      "titre": "Tensions au lycée Paul-Éluard de Saint-Denis",
-      "rubrique": "politique",
-      "resume": "L'interpellation d'un élève de 16 ans par des policiers en civil au sein de l'établissement a déclenché la colère des enseignants et des élèves. Les personnels dénoncent une intervention « violente » demandée par le proviseur, tandis que les autorités font état de trois interpellations suite à des heurts (L'Obs, Franceinfo, Libération).",
+      "titre": "USA : la porte-parole de Trump évincée après 5 jours",
+      "pays": "États-Unis",
+      "resume": "Katie Zacharia devient la 'Press Secretary' la plus éphémère de l'histoire. Elle a été poussée vers la sortie par Donald Trump suite à des doutes sur ses qualifications et des bévues diplomatiques (RFI, France 24, Le Monde).",
       "sources": [
-        {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/societe/20261015.OBS119245/la-police-dans-le-lycee-paul-eluard-a-saint-denis-une-interpellation-violente-des-personnels-en-colere-ce-que-l-on-sait.html",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Franceinfo",
-          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/mobilisation-des-lyceens-ce-que-l-on-sait-de-l-intervention-de-la-police-au-lycee-paul-eluard-de-saint-denis_8239189.html",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/international/europe/tunnel-de-la-manche-collision-entre-un-bus-et-un-train-19-blesses-dont-5-en-urgence-absolue-20261015_SCJJ6TEZ3NBZ5BW3RWLDHTDIH4/",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Accord auto franco-allemand : le climat sacrifié ?",
-      "rubrique": "economie",
-      "resume": "Paris et Berlin ont conclu un accord provisoire assouplissant les objectifs d'émissions de CO2 pour les véhicules. En échange de cet abandon de l'ambition environnementale, l'Allemagne accepte une clause de « préférence européenne » renforcée pour protéger l'industrie face à la Chine (France 24, La Croix, RFI).",
-      "sources": [
-        {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/europe/20261015-france-allemagne-accord-provisoire-avenir-industrie-automobile-made-in-europe",
-          "type": "mainstream",
-          "groupe_media": null
-        },
         {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/%C3%A9conomie/20261015-la-france-et-l-allemagne-s-entendent-sur-l-avenir-de-l-industrie-automobile",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261016-%C3%A9tats-unis-katie-zacharia-la-nouvelle-porte-parole-de-trump-pouss%C3%A9e-vers-la-sortie-apr%C3%A8s-cinq-jours",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -116,23 +153,8 @@
           }
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/international/personne-ne-se-soucie-de-nous-un-an-apres-le-coup-d-etat-a-madagascar-les-desillusions-de-la-gen-z-20261015",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    }
-  ],
-  "monde": [
-    {
-      "titre": "Trump attaque Zelensky sur les frappes en Russie",
-      "pays": "États-Unis / Ukraine",
-      "resume": "Donald Trump a qualifié de « honte » la reprise des frappes ukrainiennes sur les raffineries russes, affirmant qu'il est « plus difficile de travailler avec Zelensky qu'avec Poutine » (Le Monde, Le Figaro). Ces déclarations interviennent alors que Kiev réclame un soutien accru des Européens.",
-      "sources": [
-        {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/live/2026/10/16/en-direct-guerre-en-ukraine-donald-trump-juge-que-la-reprise-par-l-ukraine-des-frappes-sur-les-raffineries-russes-est-une-honte_6791198_3210.html",
+          "url": "https://www.lemonde.fr/international/article/2026/10/17/aux-etats-unis-katie-zacharia-bat-un-record-de-brievete-comme-porte-parole-de-la-maison-blanche_6795675_3210.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -142,37 +164,26 @@
           }
         },
         {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/europe/20261016-en-direct-ukraine-russie-reprise-frappes-raffineries-donald-trump-zelensky-poutine",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/automobile/tesla-roadster-elle-vole-elle-roule-elle-bondit-on-vous-raconte-la-folle-presentation-de-la-voiture-de-sport-d-elon-musk-20261016",
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/%C3%A9missions/la-question-qui-f%C3%A2che/20261016-manifestations-lyc%C3%A9ennes-faut-il-supprimer-parcoursup",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Les Houthis frappent le palais présidentiel d'Aden",
-      "pays": "Yémen",
-      "resume": "Cinq missiles ont visé le siège du gouvernement yéménite soutenu par l'Arabie saoudite, faisant au moins quatre morts. Le Premier ministre est sorti indemne de cette attaque revendiquée par les rebelles Houthis (France 24, RFI, La Croix).",
+      "titre": "Extraction de nickel : les constructeurs auto accusés de déforestation",
+      "pays": "Indonésie",
+      "resume": "Une enquête révèle que Tesla, Ford et VW s'approvisionnent en nickel issu de mines indonésiennes détruisant des forêts primaires et menaçant les peuples autochtones Tolaki (The Guardian, L'Humanité).",
       "sources": [
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/europe/20261016-en-direct-ukraine-russie-reprise-frappes-raffineries-donald-trump-zelensky-poutine",
-          "type": "mainstream"
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/17/who-hacked-frances-supermarket-fridges",
+          "type": "etranger"
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261015-%C3%A9tats-unis-quatre-morts-dont-trois-enfants-dans-une-fusillade-dans-une-%C3%A9cole-primaire-de-l-oregon",
-          "type": "mainstream"
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/international/personne-ne-se-soucie-de-nous-un-an-apres-le-coup-d-etat-a-madagascar-les-desillusions-de-la-gen-z-20261015",
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/en-debat/alimentation/alimentation-signes-de-qualite-et-recul-du-pouvoir-dachat",
           "type": "mainstream"
         }
       ],
@@ -180,177 +191,189 @@
     }
   ],
   "regard_croise": {
-    "sujet": "Lutte contre les fuites de méthane : l'Europe recule",
-    "rubrique": "science",
-    "contexte": "Le 15 octobre 2026, les Vingt-Sept ont validé le report d'un an du règlement imposant aux importateurs de gaz et pétrole de surveiller leurs fuites de méthane.",
+    "sujet": "Accord franco-allemand sur l'industrie automobile",
+    "rubrique": "economie",
+    "contexte": "La France et l'Allemagne ont conclu un accord sur les subventions aux véhicules électriques, imposant un seuil de 70 % de composants européens pour bénéficier d'aides.",
     "couvertures": [
       {
-        "source": "La Croix",
+        "source": "Le Monde",
         "type": "mainstream",
-        "angle": "Une ambition climatique fragilisée par le pragmatisme énergétique.",
-        "ton": "neutre",
-        "url": "https://www.la-croix.com/planete/la-reduction-des-emissions-de-methane-ambition-plus-que-jamais-fragilisee-20261015",
-        "citation_cle": "La réduction des émissions de méthane, ambition plus que jamais fragilisée.",
-        "auteur": "Nathalie Birchem",
-        "proprietaire_contexte": "Groupe Bayard",
-        "orientation_source": "centre",
-        "groupe_media": null
+        "angle": "Analyse de l'impact industriel différencié entre les constructeurs français.",
+        "ton": "factuel",
+        "url": "https://www.lemonde.fr/economie/article/2026/10/16/l-accord-franco-allemand-sur-l-automobile-menage-stellantis-mais-n-epargne-pas-renault_6795636_3234.html",
+        "citation_cle": "L’accord ménage Stellantis mais n’épargne pas Renault.",
+        "auteur": "Service Économie",
+        "proprietaire_contexte": "Xavier Niel / Daniel Kretinsky (Milliardaires)",
+        "orientation_source": "Centre-droit",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
       },
       {
-        "source": "Reporterre",
-        "type": "investigation",
-        "angle": "Dénonciation d'une capitulation face aux lobbies de l'énergie.",
+        "source": "Numerama",
+        "type": "mainstream",
+        "angle": "Décryptage des clauses cachées sur le moteur thermique et l'échéance 2035.",
         "ton": "critique",
-        "url": "https://reporterre.net/Fuites-de-methane-l-Europe-cede-aux-lobbies-les-ONG-inquietes",
-        "citation_cle": "L'Europe cède aux lobbies de l'énergie.",
-        "auteur": null,
-        "proprietaire_contexte": "Association La Pile (indépendant)",
-        "orientation_source": "gauche",
+        "url": "https://www.numerama.com/vroom/2355407-fin-du-tout-electrique-en-2035-ce-que-cache-vraiment-laccord-franco-allemand-sur-la-voiture.html",
+        "citation_cle": "Un accord passé entre la France et l'Allemagne vient de modifier discrètement les règles du jeu.",
+        "auteur": "Raphaëlle Baut",
+        "proprietaire_contexte": "Humanoid (Indépendant)",
+        "orientation_source": "Centre",
         "groupe_media": {
-          "nom": "Reporterre",
-          "proprietaire": "Association La Pile",
+          "nom": "Humanoid",
+          "proprietaire": "Humanoid (indépendant)",
           "type_proprietaire": "independant",
-          "orientation": "gauche"
+          "orientation": "centre"
         }
       }
     ],
-    "analyse_coherence": "L'analyse croisée révèle une tension majeure entre impératifs écologiques et pressions économiques. Alors que La Croix adopte un ton factuel et quasi-résigné sur la 'fragilisation' des ambitions, Reporterre met en lumière un double standard politique : l'argument de la crise des prix de l'énergie est utilisé par les lobbies pour bloquer une régulation qui, selon 50 ONG, n'a aucun lien avec les tarifs actuels. On observe ici une incohérence flagrante entre les discours officiels sur l'urgence climatique et les actes législatifs qui privilégient les intérêts des géants gaziers. Le report d'un an est présenté par les institutions comme une mesure technique de transition, tandis que les sources d'investigation y voient une victoire des intérêts privés sur le bien commun, soulignant que le méthane a un pouvoir réchauffant bien supérieur au CO2 à court terme.",
+    "analyse_coherence": "L'analyse de cet accord révèle une divergence d'interprétation majeure. Tandis que la presse économique traditionnelle (Le Monde) se concentre sur la compétition interne entre Renault et Stellantis, les médias spécialisés (Numerama) pointent une remise en cause silencieuse de l'objectif climatique de 2035. On observe ici un angle mort médiatique : la plupart des titres mainstream présentent l'accord comme une victoire de la souveraineté industrielle européenne, omettant que l'abaissement des seuils de composants (passant de critères plus stricts à seulement 70 %) pourrait en réalité favoriser l'intégration de technologies étrangères sous label européen. De plus, le traitement occulte largement le coût social pour les travailleurs des usines Renault qui, contrairement à Stellantis, ont moins délocalisé leur chaîne de valeur et se retrouvent pénalisés par ces nouvelles règles de calcul. C'est un exemple typique où la 'souveraineté' affichée sert de paravent à une dérégulation de fait.",
     "biais_detectes": [
-      "Complaisance institutionnelle dans les médias mainstream",
-      "Focus exclusif sur les lobbies dans la presse engagée"
+      "Biais pro-business",
+      "Omission des enjeux climatiques à long terme",
+      "Cadrage nationaliste de la compétition industrielle"
     ],
-    "ce_quil_faut_retenir": "L'UE a cédé aux demandes des lobbies énergétiques en reportant la surveillance des fuites de méthane, un gaz hautement réchauffant, malgré les alertes des ONG sur l'absence de lien avec le prix de l'énergie."
+    "ce_quil_faut_retenir": "L'accord privilégie les constructeurs les plus mondialisés au détriment de ceux ayant conservé une base industrielle plus locale, tout en ouvrant une brèche dans l'interdiction des moteurs thermiques pour 2035."
   },
   "regard_etranger": [
     {
-      "source": "The Guardian",
-      "pays": "Royaume-Uni",
-      "titre": "Effondrement d'un toit d'école au Pakistan : 34 enfants tués",
-      "titre_original": "Pakistan school roof collapse kills at least 34 children and teacher",
-      "angle": "Focus sur la vétusté des infrastructures scolaires privées à Peshawar.",
-      "url": "https://www.theguardian.com/world/2026/oct/15/pakistan-peshawar-school-roof-collapse-leaves-students-dead",
+      "source": "France 24 EN",
+      "pays": "France/International",
+      "titre": "Finir ce que nous avons commencé : la France redoute le retour des Gilets jaunes",
+      "titre_original": "Finish what we started: After student protests, France braces for return of the Yellow Vests",
+      "angle": "Une vision focalisée sur le risque de déstabilisation politique et le parallèle avec 2018.",
+      "url": "https://www.france24.com/en/europe/20261016-finish-what-we-started-after-student-protests-france-braces-return-yellow-vests",
       "groupe_media": {
-        "nom": "Scott Trust",
-        "proprietaire": "Scott Trust Limited",
-        "type_proprietaire": "fondation",
-        "orientation": "centre-gauche"
+        "nom": "France Médias Monde",
+        "proprietaire": "État français",
+        "type_proprietaire": "etat",
+        "orientation": "centre"
       }
     },
     {
-      "source": "Al Jazeera",
-      "pays": "Qatar",
-      "titre": "Inondations meurtrières à Istanbul",
-      "titre_original": "Several people dead or missing after Istanbul floods",
-      "angle": "Couverture des pluies les plus fortes depuis 84 ans en Turquie.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/several-people-dead-or-missing-after-istanbul-floods",
+      "source": "Courrier international",
+      "pays": "Brésil",
+      "titre": "Brésil : la déforestation de l’Amazonie à son plus bas historique",
+      "titre_original": "N/A (Curation)",
+      "angle": "Souligne le succès politique de Lula à l'approche des élections.",
+      "url": "https://www.courrierinternational.com/article/environnement-bresil-la-deforestation-de-l-amazonie-a-son-plus-bas-historique_279481",
       "groupe_media": {
-        "nom": "Al Jazeera Media Network",
-        "proprietaire": "État du Qatar",
-        "type_proprietaire": "etat",
-        "orientation": "variable"
+        "nom": "Groupe Le Monde",
+        "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+        "type_proprietaire": "milliardaire",
+        "orientation": "centre-droit"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "19",
-    "contexte": "Nombre de blessés dans la collision entre un minibus et une navette Le Shuttle à l'entrée du tunnel sous la Manche à Coquelles.",
-    "source": "Préfecture du Pas-de-Calais via Reuters",
-    "source_url": "https://www.boursorama.com/actualite-economique/actualites-amp/france-collision-entre-un-minibus-et-un-train-de-fret-sur-le-site-d-eurotunnel-19-blesses-dce32e1068b07660165ecf0d8df3c464"
+    "valeur": "8,6 tonnes",
+    "contexte": "Quantité de drogue (cocaïne et marijuana) saisie par la Marine française aux Antilles début octobre 2026.",
+    "source": "Ministère des Armées",
+    "source_url": "https://www.lefigaro.fr/faits-divers/la-marine-francaise-a-saisi-plus-de-8-6-tonnes-de-drogue-aux-antilles-en-octobre-20261016"
   },
   "a_surveiller": [
     {
-      "date": "2026-12-03",
-      "evenement": "Exécution de Nidal Hasan (tuerie de Fort Hood) au Texas",
-      "type": "autre",
-      "lien": "https://www.20minutes.fr/monde/4254682-20261015-etats-unis-trump-renonce-diffuser-direct-execution-condamne-mort"
-    },
-    {
-      "date": "2027-05-15",
-      "evenement": "Élection présidentielle en Somalie",
-      "type": "vote",
-      "lien": "https://www.sudouest.fr/international/afrique/la-somalie-annonce-une-election-presidentielle-le-15-mai-2027-sur-fond-de-vives-tensions-politiques-31089821.php"
+      "date": "2026-10-17",
+      "evenement": "Manifestations nationales pour la convergence des luttes",
+      "type": "manifestation",
+      "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Assas : la fin de l'hégémonie de l'extrême droite ?",
-      "rubrique": "societe",
-      "resume": "Pour la première fois, l'université Panthéon-Assas a été bloquée en solidarité avec le mouvement lycéen. Les étudiants dénoncent la pression de groupuscules se revendiquant 'Waffen Assas' (Blast, Bondy Blog).",
+      "titre": "Hongrie : premier revers législatif pour l'héritage d'Orbán",
+      "rubrique": "international",
+      "resume": "Le nouveau gouvernement de Péter Magyar a abrogé les clauses anti-LGBT+ de 2021, suite à une condamnation de la CJUE. C'est le premier signe concret de dé-orbanisation du pays (Politis, Le Monde).",
       "sources": [
         {
-          "nom": "Blast",
-          "url": "https://www.blast-info.fr/articles/2026/la-bataille-d-assas-les-etudiants-font-reculer-l-extreme-droite-EqNGkbrFQf6kFzKgQ_HNhA",
+          "nom": "Politis",
+          "url": "https://www.politis.fr/api/proxy/?articleID=515108",
           "type": "investigation"
         },
         {
-          "nom": "Bondy Blog",
-          "url": "https://www.bondyblog.fr/reportages/a-assas-melun-les-gueux-de-luniversite-entrent-en-rebellion/",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/10/13/la-hongrie-abolit-les-dispositions-interdisant-l-evocation-de-l-homosexualite-devant-des-enfants_6793157_3210.html",
+          "type": "mainstream"
+        }
+      ],
+      "pourquoi_signal": "Ce revirement législatif est peu traité alors qu'il marque la fin d'un laboratoire idéologique illibéral au cœur de l'Europe."
+    },
+    {
+      "titre": "L'Argentine de Milei, laboratoire pour Peter Thiel",
+      "rubrique": "economie",
+      "resume": "Le gouvernement argentin multiplie les incitations fiscales (RIGI) pour attirer les investissements massifs de la Silicon Valley, suscitant des craintes sur la souveraineté numérique du pays (Blast, CELS).",
+      "sources": [
+        {
+          "nom": "Blast",
+          "url": null,
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce blocage historique dans un bastion traditionnel de la droite radicale marque une bascule sociologique et politique majeure ignorée par les médias de masse."
+      "pourquoi_signal": "L'alliance entre un État et des milliardaires de la tech pour créer une zone franche idéologique est un précédent majeur souvent ignoré."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Dialogue technique avec les Talibans pour expulser des Afghans",
-      "rubrique": "politique",
-      "resume": "La France a reconnu l'ouverture d'un dialogue 'strictement technique' avec le régime taliban pour faciliter le renvoi de ressortissants afghans jugés dangereux.",
+      "titre": "Cisjordanie : agression d'une journaliste par des colons",
+      "rubrique": "international",
+      "resume": "Heidi Levine (Washington Post) a été rouée de coups par des colons masqués alors qu'elle couvrait la récolte des olives. L'attaque s'est produite lors d'un raid violent contre des agriculteurs palestiniens.",
       "axes_concernes": [
         "droit_international",
-        "justice_sociale"
+        "liberte_expression",
+        "colonialisme"
       ],
-      "analyse": "Cette décision marque une rupture diplomatique majeure : discuter avec un régime non reconnu pour faciliter des expulsions pose un problème éthique et juridique grave au regard du principe de non-refoulement et de la reconnaissance de facto des Talibans.",
+      "analyse": "Cette agression illustre l'impunité totale des colons en Cisjordanie occupée, s'attaquant désormais ouvertement à la presse internationale. Le silence ou la modération des chancelleries occidentales face à une attaque directe contre une journaliste d'un média de référence souligne un double standard flagrant en matière de protection des libertés fondamentales.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": null,
-          "type": "investigation"
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/moyen-orient/20261016-cisjordanie-occup%C3%A9e-colons-isra%C3%A9liens-attaquent-oliveraie-journaliste-am%C3%A9ricaine-bless%C3%A9e-agriculteurs-paslestiniens",
+          "type": "mainstream"
         },
         {
-          "nom": "Ministère des Affaires étrangères",
-          "url": null,
-          "type": "institutionnel"
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/monde/cisjordanie/cisjordanie-occupee-violente-attaque-des-colons-contre-une-journaliste-americaine",
+          "type": "mainstream"
         }
       ]
     },
     {
-      "titre": "Mobilisation pour Vassiriki : l'école contre l'OQTF",
+      "titre": "Maltraitance animale : l'énucléation des crevettes",
       "rubrique": "societe",
-      "resume": "En Bretagne, le lycée agricole La Lande de la Rencontre est mobilisé pour empêcher l'expulsion de Vassiriki Doumbia, élève ivoirien en terminale (Libération, Blast).",
+      "resume": "Des ONG dénoncent l'épédonculation (arrachage des yeux à vif) pratiquée sur les crevettes d'élevage pour stimuler la reproduction, une pratique courante dans les produits vendus en grande distribution.",
       "axes_concernes": [
-        "justice_sociale",
-        "droits_humains"
+        "ecologie_sociale"
       ],
-      "analyse": "Ce cas illustre la tension entre les politiques de fermeté migratoire et l'intégration réussie par le service public d'éducation. La solidarité des enseignants et élèves souligne l'absurdité de 'déraciner' ceux que l'école s'efforce de former.",
+      "analyse": "Ce sujet met en lumière la déconnexion totale entre les standards éthiques affichés par la grande distribution et la réalité de la production de masse. C'est un impensé de notre système alimentaire mondialisé qui sacrifie le vivant au profit de la rentabilité.",
       "sources": [
         {
-          "nom": "Libération",
-          "url": null,
-          "type": "mainstream"
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Arrachage-des-yeux-des-crevettes-les-supermarches-sommes-d-arreter-une-pratique-cruelle",
+          "type": "investigation"
         },
         {
-          "nom": "Blast",
-          "url": null,
-          "type": "investigation"
+          "nom": "Sciences et Avenir",
+          "url": "https://www.sciencesetavenir.fr/nature-environnement/la-grande-distribution-appelee-a-s-engager-contre-la-maltraitance-des-crevettes-d-elevage_195423",
+          "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-10-16",
-  "genere_a": "2026-10-16T04:34:21.513Z",
+  "date": "2026-10-17",
+  "genere_a": "2026-10-17T04:34:53.833Z",
   "meta": {
-    "nb_articles_analyses": 721,
+    "nb_articles_analyses": 704,
     "nb_topics": 212,
-    "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 52,
-    "sources_francaises": 481,
-    "sources_etrangeres": 240,
+    "nb_topics_selectionnes": 16,
+    "nb_articles_dans_selection": 42,
+    "sources_francaises": 477,
+    "sources_etrangeres": 227,
     "rubriques_couvertes": [
-      "international",
       "societe",
-      "politique",
-      "economie"
+      "economie",
+      "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"

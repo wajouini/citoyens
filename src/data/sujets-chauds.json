@@ -1,98 +1,143 @@
 {
-  "date": "2026-10-16",
-  "genere_a": "2026-10-16T04:35:11.806Z",
+  "date": "2026-10-17",
+  "genere_a": "2026-10-17T04:35:37.661Z",
   "sujets_actifs": [
     {
-      "titre": "Fusillade dans une école de l'Oregon : un civil armé abat le tireur",
-      "slug": "fusillade-ecole-oregon-civil-arme-tireur-abattu",
-      "rubrique": "international",
+      "titre": "Mobilisation nationale du 17 octobre : convergence des luttes sociales et lycéennes",
+      "slug": "mobilisation-17-octobre-convergence-luttes-france",
+      "rubrique": "societe",
       "tldr": [
-        "Quatre morts, dont trois enfants et un enseignant, dans une école primaire à Bend, Oregon.",
-        "Le tireur, un adolescent de 16 ans, a été abattu par un membre de la communauté armé.",
-        "Le drame relance le débat sur la présence de civils armés pour sécuriser les établissements scolaires."
+        "110 000 manifestants attendus partout en France ce samedi.",
+        "Alliance inédite entre syndicats lycéens, étudiants, agriculteurs et ex-Gilets jaunes.",
+        "Le gouvernement appelle au calme face à un risque de débordements."
       ],
-      "resume": "Une nouvelle tragédie a frappé les États-Unis ce jeudi 15 octobre 2026, lorsqu'un adolescent de 16 ans a ouvert le feu dans une école primaire de Bend, dans l'Oregon. Le bilan provisoire fait état de quatre victimes : trois enfants âgés de 5, 8 et 11 ans, ainsi qu'un enseignant (BBC News, France 24). La particularité de cet événement réside dans l'intervention d'un passant armé qui, ayant aperçu le suspect pénétrer dans l'établissement, l'a poursuivi à l'intérieur et l'a abattu avant l'arrivée des forces de l'ordre (Le Figaro). Bien que l'intervention ait probablement limité le nombre de victimes, elle ravive les tensions partisanes sur l'efficacité des « bons samaritains » armés face aux fusillades de masse.",
-      "contexte_historique": "L'Oregon a durci ses lois sur les armes en 2022 (Mesure 114), mais l'application reste contestée devant les tribunaux. Ce type d'intervention civile rappelle la fusillade d'un centre commercial en Indiana en 2022, où un civil avait également abattu un tireur, un argument souvent utilisé par la NRA (National Rifle Association) pour promouvoir le port d'arme citoyen.",
+      "resume": "Une journée de mobilisation d'ampleur nationale se déroule ce samedi 17 octobre, marquant une tentative de « convergence des luttes » entre plusieurs secteurs de la société. Le mouvement, porté initialement par l'Union syndicale lycéenne, s'est élargi aux étudiants, aux retraités, aux militants du climat et à certains collectifs agricoles (BFM TV). Les revendications portent sur la précarité étudiante, les moyens alloués aux associations et la politique sociale du gouvernement. Emmanuel Macron a officiellement appelé au calme, tandis que la préfecture de police a interdit les rassemblements dans plusieurs secteurs sensibles de la capitale, notamment autour de l'Élysée et de Matignon (Le Monde, .",
+      "contexte_historique": "Ce mouvement rappelle les mobilisations de 2018 (Gilets jaunes) et les grèves lycéennes de 2005 contre le CPE. Le divorce entre l'exécutif et la jeunesse est au plus haut, exacerbé par les réformes successives de l'éducation et la précarité croissante (Le Monde).",
       "implications": [
-        "Intensification du débat législatif sur la sécurisation des écoles par des gardes armés ou des citoyens volontaires.",
-        "Risque de traumatismes accrus pour la communauté locale de Bend, jusqu'ici relativement épargnée par la violence armée scolaire."
+        "Risque de paralysie de certains centres-villes et tensions avec les forces de l'ordre.",
+        "Pression politique accrue sur le gouvernement à l'approche du budget 2027."
       ],
       "chronologie": [
         {
+          "date": "2026-10-17",
+          "texte": "Début des rassemblements dans les grandes villes françaises.",
+          "source": "BFM TV"
+        },
+        {
           "date": "2026-10-16",
-          "texte": "Identification des victimes : trois enfants et un enseignant tués.",
-          "source": "BBC News"
+          "texte": "Le préfet de police de Paris interdit les manifestations près des lieux de pouvoir.",
+          "source": "Le Monde"
         },
         {
           "date": "2026-10-15",
-          "texte": "Un tireur de 16 ans ouvre le feu dans une école primaire de Bend.",
-          "source": "France 24 FR"
-        },
-        {
-          "date": "2026-10-15",
-          "texte": "Un passant armé poursuit le suspect dans l'école et l'abat.",
+          "texte": "Appel officiel à la grève générale par l'Union syndicale lycéenne.",
           "source": "Le Figaro"
         }
       ],
       "couvertures": [
         {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Focus sur l'identité des jeunes victimes et le choc de la communauté locale.",
-          "ton": "factuel",
-          "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "The suspect was shot dead by a community member who followed him into the Oregon school.",
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Analyse du fossé grandissant entre Emmanuel Macron et la jeune génération.",
+          "ton": "critique",
+          "url": "https://www.lemonde.fr/politique/article/2026/10/17/entre-emmanuel-macron-et-la-jeunesse-un-divorce-consomme_6795811_823448.html",
+          "citation_cle": "Entre Emmanuel Macron et la jeunesse, un divorce consommé.",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Suivi logistique des manifestations et prévisions de participation.",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/societe/manifestations/video-manifestations-de-lyceens-etudiants-retraites-a-quoi-s-attendre-ce-samedi-17-octobre_VN-202610170051.html",
+          "citation_cle": "110.000 manifestants sont attendus ce samedi 17 octobre.",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
           "source": "Le Figaro",
           "type": "mainstream",
-          "angle": "Mise en avant de l'intervention décisive du civil armé.",
-          "ton": "neutre",
-          "url": "https://www.lefigaro.fr/international/etats-unis-un-tireur-fait-plusieurs-victimes-dans-une-ecole-primaire-de-l-oregon-20261015",
-          "citation_cle": "Le tireur présumé âgé de 16 ans a été abattu par un passant armé.",
-          "groupe_media": null
-        },
-        {
-          "source": "franceinfo",
-          "type": "mainstream",
-          "angle": "Un tireur fait quatre morts, dont trois enfants, dans une école primaire de l'Oregon aux Etats-Unis",
+          "angle": "Mobilisation du 17 octobre : les lycéens seront-ils au rendez-vous ?",
           "ton": "factuel",
-          "url": "https://www.franceinfo.fr/monde/usa/un-tireur-fait-plusieurs-victimes-dans-une-ecole-primaire-de-l-oregon-aux-etats-unis_8239228.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "Lorsque les premiers policiers sont arrivés sur place, le tireur était déjà mort, abattu par un passant armé.",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
+          "url": "https://etudiant.lefigaro.fr/article/lycee/mobilisation-du-17-octobre-les-lyceens-seront-ils-au-rendez-vous-20261016/",
+          "citation_cle": "L’Union syndicale lycéenne a appelé tous les lycéens à se mobiliser ce samedi pour «enfin faire vivre la convergence des",
+          "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Les motivations exactes de l'adolescent de 16 ans.",
-        "L'origine de l'arme utilisée par le suspect mineur."
+        "La capacité réelle du mouvement à se structurer durablement au-delà de cette journée.",
+        "L'ampleur des ralliements côté agricole et ouvrier."
       ],
       "sources": [
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
-          "type": "etat",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/politique/article/2026/10/17/entre-emmanuel-macron-et-la-jeunesse-un-divorce-consomme_6795811_823448.html",
+          "type": "journal",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/am%C3%A9riques/20261015-etats-unis-fusillade-plusieurs-victimes-morts-ecole-oregon-bend-tireur-abattu",
-          "type": "etat",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/societe/manifestations/video-manifestations-de-lyceens-etudiants-retraites-a-quoi-s-attendre-ce-samedi-17-octobre_VN-202610170051.html",
+          "type": "tv",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-09-15"
+    },
+    {
+      "titre": "Donald Trump suspend les sanctions contre la Russie au nom de l'intérêt national",
+      "slug": "trump-suspension-sanctions-russie-ukraine",
+      "rubrique": "international",
+      "tldr": [
+        "Trump exempte Moscou de nouvelles sanctions votées par le Congrès.",
+        "Le président américain invoque la préservation de l'intérêt national.",
+        "Colère de Kiev et critiques acerbes d'Emmanuel Macron."
+      ],
+      "resume": "Dans une décision qui provoque une onde de choc diplomatique, Donald Trump a suspendu l'application du 'Graham Act', un paquet de sanctions contre la Russie récemment adopté par le Congrès américain. Le président justifie cette mesure en affirmant que ces sanctions nuisent aux intérêts économiques des États-Unis (RFI, BBC News). Cette annonce intervient alors que Volodymyr Zelensky réclame une aide d'urgence de 70 milliards d'euros aux Européens. En réponse, Emmanuel Macron a fustigé un accord entre Washington et Moscou sur le diesel russe, le qualifiant d'inefficace et d'inapproprié (Le Monde).",
+      "contexte_historique": "Depuis son retour au pouvoir, Donald Trump multiplie les signaux de désengagement du conflit ukrainien, rompant avec la doctrine de l'administration précédente qui visait l'isolement total du Kremlin (BBC News).",
+      "implications": [
+        "Affaiblissement du front occidental uni contre l'invasion russe.",
+        "Possible accélération de la fin de l'aide militaire américaine à l'Ukraine."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-10-17",
+          "texte": "Trump officialise la levée des restrictions et droits de douane visant Moscou.",
+          "source": "RFI"
+        },
+        {
+          "date": "2026-10-16",
+          "texte": "Macron critique ouvertement la stratégie américaine lors d'un sommet européen.",
+          "source": "Le Monde"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "RFI",
+          "type": "mainstream",
+          "angle": "Analyse de la portée juridique et diplomatique de l'exemption des sanctions.",
+          "ton": "factuel",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261017-%C3%A9tats-unis-donald-trump-exempte-la-russie-de-nouvelles-sanctions-adopt%C3%A9es-par-le-congr%C3%A8s",
+          "citation_cle": "Trump exempte la Russie de nouvelles sanctions au nom de l'intérêt national.",
           "groupe_media": {
             "nom": "France Médias Monde",
             "proprietaire": "État français",
@@ -101,306 +146,183 @@
           }
         },
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/etats-unis-un-tireur-fait-plusieurs-victimes-dans-une-ecole-primaire-de-l-oregon-20261015",
-          "type": "milliardaire",
-          "groupe_media": null
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/europe/20261016-en-direct-ukraine-russie-reprise-frappes-raffineries-donald-trump-zelensky-poutine",
-          "type": "mainstream"
-        }
-      ],
-      "premiere_apparition": "2026-10-15"
-    },
-    {
-      "titre": "Mobilisation du 17 octobre : vers une convergence des luttes sociales et lycéennes",
-      "slug": "mobilisation-17-octobre-convergence-lyceens-gilets-jaunes",
-      "rubrique": "societe",
-      "tldr": [
-        "Appels à manifester ce samedi 17 octobre pour le pouvoir d'achat et contre la répression policière.",
-        "Le gouvernement redoute des violences urbaines et une jonction avec les 'Gilets jaunes'.",
-        "Soutien inédit d'étudiants de grandes écoles (HEC) et de facultés de sciences au mouvement lycéen."
-      ],
-      "resume": "À la veille du samedi 17 octobre, la tension monte en France. Initialement prévue contre l'inflation et les prix des carburants, cette journée d'action est devenue le point de convergence des colères lycéennes, étudiantes et sociales (franceinfo, Le Monde). Le mouvement lycéen, actif depuis un mois, a reçu des soutiens inattendus d'établissements prestigieux comme HEC Paris ou des facultés de sciences à Lyon, dénonçant un « système à bout de souffle » (Rue89 Lyon, . Le Premier ministre Sébastien Lecornu a toutefois durci le ton, qualifiant le mouvement de dérive vers des « violences urbaines » et redoutant des affrontements en fin de cortège (BFM TV).",
-      "contexte_historique": "Cette mobilisation intervient 65 ans jour pour jour après le massacre du 17 octobre 1961, une date symbolique dont plusieurs maires demandent aujourd'hui la reconnaissance comme crime d'État (Reddit). Elle rappelle également la convergence 'Jeunes-Jaunes' tentée en 2018 lors de la crise des Gilets jaunes.",
-      "implications": [
-        "Risque de paralysie des centres-villes samedi avec des dispositifs policiers massifs.",
-        "Pression accrue sur le gouvernement concernant le budget 2027 et le pouvoir d'achat."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-16",
-          "texte": "Sébastien Lecornu dénonce des risques de 'violences épouvantables'.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-10-15",
-          "texte": "Des étudiants de HEC Paris se mobilisent en soutien aux lycéens.",
-          "source": "Reddit r/france"
-        },
-        {
-          "date": "2026-10-15",
-          "texte": "Incidents signalés au lycée Paul-Éluard de Saint-Denis.",
-          "source": "Reddit r/france"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Analyse de la stratégie de convergence entre la jeunesse et les mouvements sociaux.",
-          "ton": "factuel",
-          "url": "https://www.lemonde.fr/societe/article/2026/10/16/mouvement-lyceen-un-mois-de-mobilisation-et-le-pari-de-la-convergence-jeunes-et-jaunes_6795111_3224.html",
-          "citation_cle": "Les lycéens mobilisés comptent sur la large journée d’action de samedi 17 octobre pour donner du souffle.",
+          "source": "BBC News",
+          "type": "etranger",
+          "angle": "Les réactions internationales et le risque de prolongation de l'invasion.",
+          "ton": "neutre",
+          "url": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "Le ministre italien de la Défense affirme que Trump a 'complètement tort'.",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "Focus sur les risques sécuritaires et les déclarations de fermeté du gouvernement.",
-          "ton": "alarmiste",
-          "url": "https://www.bfmtv.com/police-justice/video-mobilisation-du-17-octobre-sebastien-lecornu-redoute-des-violences-epouvantables-en-fin-de-cortege_VN-202610160081.html",
-          "citation_cle": "Sébastien Lecornu redoute des violences épouvantables en fin de cortège.",
+          "angle": "Guerre en Ukraine: en pleine crise avec Kiev, Donald Trump exempte la Russie de nouvelles sanctions au nom de \"l'intérêt national des États-Unis\"",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/guerre-en-ukraine-en-pleine-crise-avec-kiev-donald-trump-exempte-la-russie-de-nouvelles-sanctions-au-nom-de-l-interet-national-des-etats-unis_AD-202610170055.html",
+          "citation_cle": "Donald Trump a porté un coup au Graham Act, un texte à la grande portée symbolique, qui constituait la première action m",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
-        },
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "La réaction du Congrès américain face au contournement de sa loi.",
+        "L'existence d'éventuelles contreparties secrètes négociées par Moscou."
+      ],
+      "sources": [
         {
-          "source": "franceinfo",
-          "type": "mainstream",
-          "angle": "Avant le 17 octobre, des futurs manifestants motivés par des colères qui se rejoignent, de \"l'élan des mobilisations lycéennes\" à l'envie de \"vivre correctement\"",
-          "ton": "factuel",
-          "url": "https://www.franceinfo.fr/economie/greve/temoignages-avant-le-17-octobre-des-futurs-manifestants-motives-par-des-coleres-qui-se-rejoignent-de-l-elan-des-mobilisations-lyceennes-a-l-envie-de-vivre-correctement_8238379.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "Les appels à se rassembler samedi fleurissent en ligne depuis le mois de septembre, attisés par les prix à la pompe et l",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261017-%C3%A9tats-unis-donald-trump-exempte-la-russie-de-nouvelles-sanctions-adopt%C3%A9es-par-le-congr%C3%A8s",
+          "type": "radio",
           "groupe_media": {
-            "nom": "France Télévisions",
+            "nom": "France Médias Monde",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'ampleur réelle de la participation des Gilets jaunes samedi.",
-        "L'impact du début des vacances scolaires sur la pérennité du mouvement lycéen."
-      ],
-      "sources": [
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/10/16/mouvement-lyceen-un-mois-de-mobilisation-et-le-pari-de-la-convergence-jeunes-et-jaunes_6795111_3224.html",
-          "type": "milliardaire",
+          "url": "https://www.lemonde.fr/international/live/2026/10/17/en-direct-guerre-en-ukraine-emmanuel-macron-critique-l-accord-entre-moscou-et-washington-sur-le-diesel-russe-le-qualifiant-de-mesure-inappropriee-inefficace_6791198_3210.html",
+          "type": "journal",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/police-justice/video-mobilisation-du-17-octobre-sebastien-lecornu-redoute-des-violences-epouvantables-en-fin-de-cortege_VN-202610160081.html",
-          "type": "milliardaire",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/economie/greve/temoignages-avant-le-17-octobre-des-futurs-manifestants-motives-par-des-coleres-qui-se-rejoignent-de-l-elan-des-mobilisations-lyceennes-a-l-envie-de-vivre-correctement_8238379.html#xtor=RSS-3-[lestitres]",
-          "type": "etat",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Rue89 Lyon",
-          "url": "https://www.rue89lyon.fr/2026/10/16/lyon-1-ecoles-ingenieurs-conservatoire-soutiens-inattendus-mouvement-lyceen/",
-          "type": "independant",
-          "groupe_media": null
         }
       ],
-      "premiere_apparition": "2026-09-15"
+      "premiere_apparition": "2026-10-16"
     },
     {
-      "titre": "Elon Musk dévoile le Tesla Roadster de série : une voiture qui « vole »",
-      "slug": "tesla-roadster-elon-musk-spacex-thrusters",
-      "rubrique": "tech",
+      "titre": "Cyberattaque massive contre la chaîne du froid des supermarchés français",
+      "slug": "cyberattaque-supermarches-france-froid",
+      "rubrique": "societe",
       "tldr": [
-        "Version de série du Tesla Roadster présentée au Texas après 9 ans d'attente.",
-        "Équipée de propulseurs à gaz froid SpaceX permettant de brefs décollages.",
-        "Performances annoncées : 0 à 100 km/h en moins d'une seconde."
+        "Piratage des systèmes de gestion des frigos et congélateurs de plusieurs enseignes.",
+        "Des milliers de tonnes de denrées alimentaires jetées par précaution.",
+        "L'origine de l'attaque reste incertaine : sabotage étatique ou cybercriminalité."
       ],
-      "resume": "Après près d'une décennie d'attente, Elon Musk a enfin dévoilé la version définitive du Tesla Roadster lors d'un événement spectaculaire à Waco, au Texas (Numerama, BFM TV). Le véhicule intègre des technologies issues de SpaceX, notamment des propulseurs à gaz froid (thrusters) permettant à la voiture de s'élever du sol ou de stabiliser sa trajectoire en virage haute vitesse (The Verge, TechCrunch). Si les performances techniques (0-60 mph en moins d'une seconde) impressionnent les observateurs, la faisabilité réglementaire d'un tel engin reste une question majeure pour les autorités de l'aviation et du transport (Wired).",
-      "contexte_historique": "Annoncé initialement en 2017, le Roadster a subi de multiples retards. L'utilisation de technologies aérospatiales sur une voiture de route n'a aucun précédent industriel de série, bien que des concepts de voitures volantes (VTOL) existent, ils ne sont pas destinés au marché automobile grand public traditionnel.",
+      "resume": "Depuis le début de la semaine, les systèmes de réfrigération de nombreuses grandes surfaces françaises sont la cible d'une cyberattaque sophistiquée. Les pirates ont pris le contrôle des capteurs de température, provoquant des ruptures de la chaîne du froid en pleine nuit (The Guardian). Les pertes financières et matérielles sont colossales, avec des montagnes de déchets alimentaires signalées dans tout le pays. Bien que l'attaque ait été détectée tôt, le rétablissement complet des systèmes prend du temps, créant des pénuries localisées de produits frais.",
+      "contexte_historique": "La France est devenue l'une des cibles privilégiées des cyberattaques en Europe. Ce sabotage rappelle les attaques contre les infrastructures critiques (énergie, santé) observées ces dernières années, mais cible ici directement la sécurité alimentaire (The Guardian).",
       "implications": [
-        "Défis réglementaires majeurs pour l'homologation routière d'un véhicule équipé de propulseurs.",
-        "Relance de l'image d'innovateur de Tesla après une période de stagnation sur les nouveaux modèles."
+        "Hausse probable des prix alimentaires pour compenser les pertes.",
+        "Renforcement nécessaire de la cybersécurité des infrastructures critiques agroalimentaires."
       ],
       "chronologie": [
         {
-          "date": "2026-10-16",
-          "texte": "Démonstration du Roadster effectuant des sauts au-dessus d'autres modèles Tesla.",
-          "source": "TechCrunch"
+          "date": "2026-10-17",
+          "texte": "Les autorités enquêtent sur une possible implication étrangère.",
+          "source": "The Guardian"
         },
         {
-          "date": "2026-10-15",
-          "texte": "Présentation officielle de la version de série à Waco, Texas.",
-          "source": "Numerama"
-        },
-        {
-          "date": "2017-11-16",
-          "texte": "Première présentation du prototype du Roadster 2.0.",
-          "source": "BFM TV"
+          "date": "2026-10-13",
+          "texte": "Premiers signalements de dysfonctionnements massifs des frigos.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
-          "source": "The Verge",
+          "source": "The Guardian",
           "type": "etranger",
-          "angle": "Focus sur les capacités techniques et les démonstrations spectaculaires de vol.",
-          "ton": "factuel",
-          "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
-          "citation_cle": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second.",
+          "angle": "Enquête sur les responsables potentiels de ce sabotage alimentaire.",
+          "ton": "alarmiste",
+          "url": "https://www.theguardian.com/world/2026/oct/17/who-hacked-frances-supermarket-fridges",
+          "citation_cle": "La France, pays le plus piraté d'Europe, fait face à une montagne de déchets.",
           "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
-          }
-        },
-        {
-          "source": "Wired",
-          "type": "etranger",
-          "angle": "Scepticisme quant à l'approbation par la FAA (Federal Aviation Administration).",
-          "ton": "critique",
-          "url": "https://www.wired.com/story/tesla-flying-car-faa/",
-          "citation_cle": "The FAA will likely have thoughts about the Tesla Roadster 2’s ability to leave the ground.",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Elon Musk dévoile son Tesla Roadster capable de \"voler\" grâce à des fusées de SpaceX",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/societe/video-elon-musk-devoile-son-tesla-roadster-capable-de-voler-grace-a-des-fusees-de-space-x_VN-202610160091.html",
-          "citation_cle": "Près de 9 ans après la présentation de son tout premier prototype, Elon Musk a dévoilé ce vendredi 16 octobre la version",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
           }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Le prix final et la date exacte des premières livraisons aux clients.",
-        "L'autonomie réelle de la batterie lorsque les propulseurs sont utilisés."
+        "L'identité exacte des attaquants (groupes russes, activistes ou criminels isolés).",
+        "La durée totale nécessaire pour sécuriser l'ensemble du réseau national."
       ],
       "sources": [
         {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/vroom/2353449-tesla-roadster-comment-suivre-la-presentation-de-la-nouvelle-voiture-electrique.html",
-          "type": "independant",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/17/who-hacked-frances-supermarket-fridges",
+          "type": "journal",
           "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/auto/mieux-qu-une-voiture-de-james-bond-elon-musk-devoile-son-tesla-roadster-capable-de-voler-grace-a-des-fusees-de-space-x_AN-202610160083.html",
-          "type": "milliardaire",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
-          "type": "independant",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "Wired",
-          "url": "https://www.wired.com/story/tesla-flying-car-faa/",
-          "type": "famille",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
-          "type": "milliardaire",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
           }
         }
       ],
-      "premiere_apparition": "2026-10-15"
+      "premiere_apparition": "2026-10-13"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Convalescence du pape Léon XIV",
-      "slug": "convalescence-pape-leon-xiv-operation",
+      "titre": "Fusillade dans une école de l'Oregon",
+      "slug": "fusillade-oregon-civil-arme",
       "rubrique": "international",
-      "resume": "Le Vatican confirme que le pape Léon XIV se remet favorablement de son opération du poumon. Les activités publiques restent suspendues mais l'inquiétude immédiate s'est dissipée.",
+      "resume": "L'enquête progresse après la tuerie à l'école Silver Rail de Bend. Le tireur de 16 ans, un ancien élève en classe spécialisée, a été abattu par le père de deux élèves présent sur les lieux. Le bilan est de 4 morts (3 enfants et une enseignante).",
       "chronologie": [
         {
-          "date": "2026-10-14",
-          "texte": "Annonce du succès de l'opération du cancer du poumon.",
-          "source": "RFI"
+          "date": "2026-10-17",
+          "texte": "La police identifie le suspect comme un ancien élève de l'établissement.",
+          "source": "Al Jazeera"
+        },
+        {
+          "date": "2026-10-15",
+          "texte": "Fusillade à Bend, Oregon ; le tireur est neutralisé par un civil.",
+          "source": "BBC News"
         }
       ],
-      "couvertures": [],
-      "ce_quon_ne_sait_pas": [
-        "La durée exacte de sa rééducation avant une reprise complète de ses fonctions."
+      "couvertures": [
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Focus sur le profil du tireur et les failles de sécurité.",
+          "ton": "factuel",
+          "url": "https://www.aljazeera.com/news/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say",
+          "citation_cle": "Le tireur était un ancien élève en classe de besoins spécifiques."
+        }
       ],
-      "sources": [],
-      "derniere_mise_a_jour": "2026-10-16",
-      "statut": "Le sujet entre dans une phase de suivi médical calme sans urgence médiatique."
+      "ce_quon_ne_sait_pas": [
+        "Le mobile précis du passage à l'acte.",
+        "Comment l'adolescent s'est procuré l'arme."
+      ],
+      "sources": [
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say",
+          "type": "journal"
+        }
+      ],
+      "derniere_mise_a_jour": "2026-10-17",
+      "statut": "L'enquête est désormais entre les mains du procureur local."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 721,
+    "nb_articles_analyses": 704,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
