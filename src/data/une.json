@@ -1,53 +1,63 @@
 {
   "sujet_du_jour": {
-    "titre": "Mobilisations du 17 octobre : vers une convergence des colères",
+    "titre": "17 octobre : La mobilisation contre la vie chère bascule dans le chaos",
     "rubrique": "societe",
-    "pourquoi_important": "C'est le premier test majeur de cohésion pour une opposition sociale hétéroclite (syndicats, étudiants, agriculteurs et ex-Gilets jaunes) face au gouvernement.",
+    "pourquoi_important": "Une mobilisation sociale d'ampleur nationale a été occultée par des scènes de violences et de pillages d'une intensité rare, marquant un tournant sécuritaire.",
     "faits": [
-      "Entre 60 000 et 110 000 manifestants sont attendus hors de Paris selon le renseignement territorial (RTL).",
-      "La Confédération paysanne et la CGT appellent officiellement à rejoindre le mouvement pour défendre les services publics et le pouvoir d'achat (Confédération paysanne, .",
-      "À Paris, le parcours entre République et Clichy a été validé tardivement après des négociations tendues avec la préfecture (L'Obs, France 24).",
-      "Le mouvement agrège des revendications variées : précarité étudiante, crise agricole, justice fiscale et urgence climatique (Alternatives Économiques, BFM TV)."
+      "Entre 550 000 et 800 000 (organisateurs) manifestants ont défilé dans toute la France contre la vie chère (Le Monde, RFI).",
+      "Le bilan provisoire fait état de 1 200 interpellations au niveau national, dont 855 pour la seule agglomération parisienne (Le Monde, BFM TV).",
+      "150 membres des forces de l'ordre ont été blessés et un manifestant est décédé à Paris suite à un malaise (Le Monde, BFM TV).",
+      "Des scènes de pillages et de dégradations majeures ont été rapportées à Paris, Marseille et Limoges (L'Obs, La Croix)."
     ],
-    "contexte": "Cette journée de mobilisation du 17 octobre 2026 s'inscrit dans un climat social électrique. Elle tente de ressusciter l'esprit de convergence des luttes en unissant des secteurs qui manifestent habituellement séparément. Le gouvernement, par la voix d'Emmanuel Macron, a appelé au calme alors que les dispositifs de maintien de l'ordre sont renforcés dans les grandes agglomérations.",
+    "contexte": "Le samedi 17 octobre 2026, la France a connu une journée de contestation sociale massive portée par un collectif de gilets jaunes, syndicats et lycéens. Si les cortèges étaient majoritairement pacifiques, des groupes radicaux ont mené des actions violentes en fin de journée, dépassant les dispositifs de maintien de l'ordre. Le Premier ministre Sébastien Lecornu a dénoncé des 'violences d'une gravité inouïe', tandis que les organisateurs déplorent que le message social soit étouffé par le traitement sécuritaire.",
     "sources": [
       {
-        "nom": "Confédération paysanne",
-        "url": "https://www.confederationpaysanne.fr/rp_article.php?id=16993",
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/societe/article/2026/10/18/mobilisation-du-17-octobre-des-manifestations-d-ampleur-conclues-dans-le-chaos_6797034_3224.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
+      },
+      {
+        "nom": "BFM TV",
+        "url": "https://www.bfmtv.com/societe/manifestations/direct-manifestations-du-17-octobre-l-heure-est-au-bilan-apres-une-journee-sous-haute-tension_LN-202610180040.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "CMA CGM",
+          "proprietaire": "Rodolphe Saadé",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
+      },
+      {
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/france/20261017-la-france-tourne-mal-un-17-octobre-marqu%C3%A9-par-une-forte-mobilisation-sociale-et-des-violences",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
+      },
+      {
+        "nom": "Ville de Paris",
+        "url": "https://pressev2.paris.fr/communiques/la-ville-de-paris-condamne-avec-la-plus-grande-fermete-les-violences-et-les-pillages-commis-dans-la-capitale",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "RTL",
-        "url": "https://www.rtl.fr/actu/debats-societe/comme-une-marmite-prete-a-exploser-commercants-et-elus-sur-leurs-gardes-avant-le-17-octobre-7900685935",
-        "type": "mainstream",
-        "groupe_media": null
-      },
-      {
-        "nom": "Alternatives Économiques",
-        "url": "https://www.alternatives-economiques.fr/mobilisation-du-17-octobre-les-coleres-sont-declarees_16-10-2026",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "Alternatives Économiques",
-          "proprietaire": "SCOP (coopérative de salariés)",
-          "type_proprietaire": "cooperative",
-          "orientation": "centre-gauche"
-        }
-      },
-      {
         "nom": "L'Obs",
-        "url": "https://www.nouvelobs.com/social/20261016.OBS119276/a-quoi-faut-il-s-attendre-lors-de-la-mobilisation-de-ce-samedi-17-octobre-rassemblant-gilets-jaunes-et-lyceens.html",
-        "type": "mainstream",
-        "groupe_media": null
-      },
-      {
-        "nom": "France 24 FR",
-        "url": "https://www.france24.com/fr/%C3%A9missions/la-question-qui-f%C3%A2che/20261016-manifestations-lyc%C3%A9ennes-faut-il-supprimer-parcoursup",
+        "url": "https://www.nouvelobs.com/politique/20261018.OBS119308/barbecue-melenchon-tondelier-extraits-exclusifs-de-sandrine-rousseau-la-femme-que-tout-le-monde-adore-detester.html",
         "type": "mainstream"
       },
       {
-        "nom": "BFM TV",
-        "url": "https://www.bfmtv.com/police-justice/video-la-justice-alerte-sur-le-risque-d-engorgement-des-tribunaux-face-aux-nombreuses-requetes-redigees-par-l-intelligence-artificielle_VN-202610170058.html",
+        "nom": "La Croix",
+        "url": "https://www.la-croix.com/culture/il-n-y-a-pas-que-paris-dans-la-vie-culturelle-20261016",
         "type": "mainstream"
       }
     ],
@@ -55,13 +65,13 @@
   },
   "france": [
     {
-      "titre": "Fusillade d'Aubagne : un deuxième mineur mis en examen",
+      "titre": "L'hôtel de ville de Limoges ravagé par les flammes",
       "rubrique": "societe",
-      "resume": "Un adolescent de 13 ans a été mis en examen pour complicité dans l'enquête sur les tirs au collège Joseph-Lakanal. Le Parquet national antiterroriste explore la piste de la 'True Crime Community', une mouvance en ligne fascinée par les tueries de masse (franceinfo, Le Figaro, L'Obs).",
+      "resume": "L'édifice historique du XIXe siècle est 'en grande partie perdu' après un incendie déclenché en marge des manifestations (Le Monde, 20 Minutes). Le toit et le campanile se sont effondrés sous la violence des flammes (franceinfo, .",
       "sources": [
         {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/faits-divers/tirs-dans-un-college-d-aubagne-un-deuxieme-adolescent-mis-en-examen-et-place-en-detention-provisoire-soupconne-d-etre-en-lien-avec-le-suspect_8240983.html",
+          "url": "https://www.franceinfo.fr/economie/greve/video-un-incendie-ravage-l-hotel-de-ville-de-limoges-en-marge-de-la-mobilisation-du-17-octobre_8242054.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -71,65 +81,64 @@
           }
         },
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/marseille/fusillade-dans-un-college-a-aubagne-un-autre-adolescent-interpelle-et-place-en-garde-a-vue-20261015",
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/societe/4255257-20261018-mobilisation-17-octobre-toit-beffroi-effondres-mairie-limoges-incendiee-lors-violences",
           "type": "mainstream",
           "groupe_media": null
         },
         {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/politique/20261016.OBS119249/le-pen-veut-sa-peau-le-conseil-constitutionnel-de-ferrand-resistera-t-il-a-la-pression.html",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/culture/article/2026/10/18/celine-dion-clot-en-beaute-sa-premiere-serie-de-concerts-a-paris-je-m-ennuie-deja-de-vous_6797040_3246.html",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Parcoursup : la sélection universitaire sous le feu des critiques",
-      "rubrique": "societe",
-      "resume": "Le ministre Philippe Baptiste est accusé de minimiser le nombre de candidats sans affectation. Des experts dénoncent une généralisation de la sélection qui accroît le tri social sans résoudre le manque de places (Les Décodeurs, La Croix).",
+      "titre": "David Lisnard : une ascension à droite qui bouscule",
+      "rubrique": "politique",
+      "resume": "Le maire de Cannes, candidat à l'Élysée, gagne en notoriété et en dynamique dans l'opinion face à un Bruno Retailleau qui stagne (Sud-Ouest). Ses partisans dénoncent une sous-estimation dans les sondages classiques (franceinfo).",
       "sources": [
         {
-          "nom": "Les Décodeurs",
-          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/16/parcoursup-le-gouvernement-minimise-t-il-le-nombre-de-candidats-sans-affectation_6795576_4355770.html",
-          "type": "fact-check",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/a-vif/universites-generaliser-la-selection-c-est-sexposer-a-des-desillusions-20261016",
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/elections/presidentielle/presidentielle-a-droite-chasse-croise-entre-david-lisnard-et-bruno-retailleau-31109316.php",
           "type": "mainstream",
           "groupe_media": null
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/economie/greve/mobilisation-du-17-octobre-1-200-personnes-ont-ete-interpellees-selon-sebastien-lecornu-qui-deplore-des-degres-de-violence-inacceptables_8242513.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Budget 2027 : alliance RN-Majorité sur les donations familiales",
-      "rubrique": "economie",
-      "resume": "Les députés ont validé une exonération fiscale accrue sur les dons d'argent intrafamiliaux. Cette mesure, soutenue par le bloc central et le RN, est critiquée par la gauche comme une faveur néolibérale favorisant la reproduction des richesses (Libération, 20 Minutes).",
+      "titre": "Alerte sur l'exploitation minière des abysses",
+      "rubrique": "science",
+      "resume": "Des campagnes scientifiques dans le Pacifique ont révélé une biodiversité inconnue menacée par les projets miniers (Futura Sciences). Inquiétude supplémentaire : des roches remontées des fonds marins s'enflamment spontanément en laboratoire (Slate FR).",
       "sources": [
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/economie/budget-2027-le-rn-et-le-bloc-central-votent-ensemble-pour-baisser-la-fiscalite-des-donations-20261016_RHCL64UNT5GXVLELK2L5RV4W74/",
+          "nom": "Futura Sciences",
+          "url": "https://www.futura-sciences.com/planete/actualites/ocean-pacifique-ce-chercheurs-viennent-decouvrir-fond-pacifique-pourrait-bouleverser-avenir-exploitation-miniere-sous-marine-w2t8-138587/",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "Futura",
+            "proprietaire": "Futura (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/politique/assemblee_nationale/4255089-20261016-budget-2027-deputes-valident-nouvelle-exoneration-dons-argent-intrafamiliaux",
+          "nom": "Slate FR",
+          "url": "https://www.slate.fr/sciences/exploitation-miniere-abysses-roches-enflammees-fonds-marins-feu-industrie-oceans",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "Slate FR",
+            "proprietaire": "Slate.fr (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
         }
       ],
       "lien": null
@@ -137,13 +146,13 @@
   ],
   "monde": [
     {
-      "titre": "USA : la porte-parole de Trump évincée après 5 jours",
+      "titre": "Mouvement « No Kings » : mobilisation anti-Trump",
       "pays": "États-Unis",
-      "resume": "Katie Zacharia devient la 'Press Secretary' la plus éphémère de l'histoire. Elle a été poussée vers la sortie par Donald Trump suite à des doutes sur ses qualifications et des bévues diplomatiques (RFI, France 24, Le Monde).",
+      "resume": "À deux semaines des Midterms, des milliers de manifestants ont défilé aux États-Unis pour contrer l'influence de Donald Trump (RFI). Le mouvement exprime une crainte profonde pour la démocratie américaine face aux velléités autoritaires (Le Monde).",
       "sources": [
         {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261016-%C3%A9tats-unis-katie-zacharia-la-nouvelle-porte-parole-de-trump-pouss%C3%A9e-vers-la-sortie-apr%C3%A8s-cinq-jours",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261018-mouvement-no-kings-nouvelle-contestation-anti-trump-%C3%A0-l-approche-des-midterms-aux-enjeux-consid%C3%A9rables",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -154,7 +163,7 @@
         },
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/17/aux-etats-unis-katie-zacharia-bat-un-record-de-brievete-comme-porte-parole-de-la-maison-blanche_6795675_3210.html",
+          "url": "https://www.lemonde.fr/international/article/2026/10/18/aux-etats-unis-dans-les-manifestations-no-kings-les-opposants-a-donald-trump-entre-espoir-de-changement-et-inquietudes_6797035_3210.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -162,28 +171,23 @@
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/%C3%A9missions/la-question-qui-f%C3%A2che/20261016-manifestations-lyc%C3%A9ennes-faut-il-supprimer-parcoursup",
-          "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Extraction de nickel : les constructeurs auto accusés de déforestation",
-      "pays": "Indonésie",
-      "resume": "Une enquête révèle que Tesla, Ford et VW s'approvisionnent en nickel issu de mines indonésiennes détruisant des forêts primaires et menaçant les peuples autochtones Tolaki (The Guardian, L'Humanité).",
+      "titre": "Trump suspend les sanctions contre la Russie",
+      "pays": "États-Unis / Russie",
+      "resume": "Par décret, Donald Trump a exempté la Russie de nouvelles sanctions votées par le Congrès, invoquant l'intérêt national (La Croix). Kiev dénonce une 'récompense' offerte à Vladimir Poutine en plein conflit (Le Figaro).",
       "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/17/who-hacked-frances-supermarket-fridges",
-          "type": "etranger"
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/culture/il-n-y-a-pas-que-paris-dans-la-vie-culturelle-20261016",
+          "type": "mainstream"
         },
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/en-debat/alimentation/alimentation-signes-de-qualite-et-recul-du-pouvoir-dachat",
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/flash-actu/manifestations-en-france-jd-vance-tient-l-immigration-responsable-des-violences-20261018",
           "type": "mainstream"
         }
       ],
@@ -191,188 +195,151 @@
     }
   ],
   "regard_croise": {
-    "sujet": "Accord franco-allemand sur l'industrie automobile",
-    "rubrique": "economie",
-    "contexte": "La France et l'Allemagne ont conclu un accord sur les subventions aux véhicules électriques, imposant un seuil de 70 % de composants européens pour bénéficier d'aides.",
+    "sujet": "Grave blessure d'un manifestant à Saint-Étienne",
+    "rubrique": "societe",
+    "contexte": "Lors de la mobilisation du 17 octobre à Saint-Étienne, un jeune homme a eu la main arrachée par une grenade lancée par les forces de l'ordre.",
     "couvertures": [
       {
-        "source": "Le Monde",
+        "source": "L'Humanité",
         "type": "mainstream",
-        "angle": "Analyse de l'impact industriel différencié entre les constructeurs français.",
-        "ton": "factuel",
-        "url": "https://www.lemonde.fr/economie/article/2026/10/16/l-accord-franco-allemand-sur-l-automobile-menage-stellantis-mais-n-epargne-pas-renault_6795636_3234.html",
-        "citation_cle": "L’accord ménage Stellantis mais n’épargne pas Renault.",
-        "auteur": "Service Économie",
-        "proprietaire_contexte": "Xavier Niel / Daniel Kretinsky (Milliardaires)",
-        "orientation_source": "Centre-droit",
+        "angle": "Focus sur la violence de l'arme utilisée et le contexte social de la victime.",
+        "ton": "engage",
+        "url": "https://www.humanite.fr/-/-/la-main-dun-manifestant-arrachee-par-une-grenade-a-saint-etienne",
+        "citation_cle": "Un manifestant a eu la main arrachée ce samedi à Saint-Etienne par une grenade policière.",
+        "auteur": null,
+        "proprietaire_contexte": "Coopérative de lecteurs et salariés",
+        "orientation_source": "Gauche",
         "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
         }
       },
       {
-        "source": "Numerama",
+        "source": "20 Minutes",
         "type": "mainstream",
-        "angle": "Décryptage des clauses cachées sur le moteur thermique et l'échéance 2035.",
-        "ton": "critique",
-        "url": "https://www.numerama.com/vroom/2355407-fin-du-tout-electrique-en-2035-ce-que-cache-vraiment-laccord-franco-allemand-sur-la-voiture.html",
-        "citation_cle": "Un accord passé entre la France et l'Allemagne vient de modifier discrètement les règles du jeu.",
-        "auteur": "Raphaëlle Baut",
-        "proprietaire_contexte": "Humanoid (Indépendant)",
+        "angle": "Rapport factuel basé sur les dépêches AFP.",
+        "ton": "factuel",
+        "url": "https://www.20minutes.fr/societe/4255212-20261017-mobilisation-17-octobre-saint-etienne-main-manifestant-arrachee-grenade-policiere",
+        "citation_cle": "La main d’un manifestant arrachée par une grenade policière.",
+        "auteur": "20 Minutes avec AFP",
+        "proprietaire_contexte": "Groupe indépendant",
         "orientation_source": "Centre",
-        "groupe_media": {
-          "nom": "Humanoid",
-          "proprietaire": "Humanoid (indépendant)",
-          "type_proprietaire": "independant",
-          "orientation": "centre"
-        }
+        "groupe_media": null
       }
     ],
-    "analyse_coherence": "L'analyse de cet accord révèle une divergence d'interprétation majeure. Tandis que la presse économique traditionnelle (Le Monde) se concentre sur la compétition interne entre Renault et Stellantis, les médias spécialisés (Numerama) pointent une remise en cause silencieuse de l'objectif climatique de 2035. On observe ici un angle mort médiatique : la plupart des titres mainstream présentent l'accord comme une victoire de la souveraineté industrielle européenne, omettant que l'abaissement des seuils de composants (passant de critères plus stricts à seulement 70 %) pourrait en réalité favoriser l'intégration de technologies étrangères sous label européen. De plus, le traitement occulte largement le coût social pour les travailleurs des usines Renault qui, contrairement à Stellantis, ont moins délocalisé leur chaîne de valeur et se retrouvent pénalisés par ces nouvelles règles de calcul. C'est un exemple typique où la 'souveraineté' affichée sert de paravent à une dérégulation de fait.",
+    "analyse_coherence": "La couverture de cette mutilation révèle une divergence nette dans la hiérarchisation de l'information. L'Humanité place l'intégrité physique du manifestant au centre de son récit, questionnant implicitement l'usage de grenades explosives en maintien de l'ordre. À l'inverse, BFM TV et Le Monde tendent à noyer cet événement dans un 'bilan global' où les dégâts matériels (pillages, incendies) et les blessures des forces de l'ordre reçoivent un traitement équivalent, voire supérieur. On observe un double standard persistant : alors que les dégradations de commerces sont qualifiées de 'chaos' ou d''émeutes', la mutilation d'un citoyen est souvent rapportée sur un ton clinique, voire assortie d'une mention soulignant que la victime aurait 'ramassé' l'engin (L'Humanité, citant une source proche du dossier), ce qui tend à déplacer la responsabilité vers la victime plutôt que vers l'arme elle-même. Ce traitement médiatique asymétrique invisibilise la gravité des violences d'État au profit d'un récit axé sur la défense de l'ordre public et de la propriété privée.",
     "biais_detectes": [
-      "Biais pro-business",
-      "Omission des enjeux climatiques à long terme",
-      "Cadrage nationaliste de la compétition industrielle"
+      "Effet de dilution (mutilation noyée dans les bilans matériels)",
+      "Responsabilisation de la victime",
+      "Priorisation sécuritaire"
     ],
-    "ce_quil_faut_retenir": "L'accord privilégie les constructeurs les plus mondialisés au détriment de ceux ayant conservé une base industrielle plus locale, tout en ouvrant une brèche dans l'interdiction des moteurs thermiques pour 2035."
+    "ce_quil_faut_retenir": "Une mutilation grave a eu lieu, mais son impact médiatique est atténué par le récit dominant des pillages."
   },
-  "regard_etranger": [
-    {
-      "source": "France 24 EN",
-      "pays": "France/International",
-      "titre": "Finir ce que nous avons commencé : la France redoute le retour des Gilets jaunes",
-      "titre_original": "Finish what we started: After student protests, France braces for return of the Yellow Vests",
-      "angle": "Une vision focalisée sur le risque de déstabilisation politique et le parallèle avec 2018.",
-      "url": "https://www.france24.com/en/europe/20261016-finish-what-we-started-after-student-protests-france-braces-return-yellow-vests",
-      "groupe_media": {
-        "nom": "France Médias Monde",
-        "proprietaire": "État français",
-        "type_proprietaire": "etat",
-        "orientation": "centre"
-      }
-    },
-    {
-      "source": "Courrier international",
-      "pays": "Brésil",
-      "titre": "Brésil : la déforestation de l’Amazonie à son plus bas historique",
-      "titre_original": "N/A (Curation)",
-      "angle": "Souligne le succès politique de Lula à l'approche des élections.",
-      "url": "https://www.courrierinternational.com/article/environnement-bresil-la-deforestation-de-l-amazonie-a-son-plus-bas-historique_279481",
-      "groupe_media": {
-        "nom": "Groupe Le Monde",
-        "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-        "type_proprietaire": "milliardaire",
-        "orientation": "centre-droit"
-      }
-    }
-  ],
+  "regard_etranger": [],
   "chiffre_du_jour": {
-    "valeur": "8,6 tonnes",
-    "contexte": "Quantité de drogue (cocaïne et marijuana) saisie par la Marine française aux Antilles début octobre 2026.",
-    "source": "Ministère des Armées",
-    "source_url": "https://www.lefigaro.fr/faits-divers/la-marine-francaise-a-saisi-plus-de-8-6-tonnes-de-drogue-aux-antilles-en-octobre-20261016"
+    "valeur": "1 200",
+    "contexte": "Nombre total d'interpellations en France lors de la journée du 17 octobre, selon le bilan du Premier ministre.",
+    "source": "Le Monde",
+    "source_url": "https://www.lemonde.fr/societe/article/2026/10/18/mobilisation-du-17-octobre-des-manifestations-d-ampleur-conclues-dans-le-chaos_6797034_3224.html"
   },
   "a_surveiller": [
     {
-      "date": "2026-10-17",
-      "evenement": "Manifestations nationales pour la convergence des luttes",
-      "type": "manifestation",
+      "date": "2026-10-18",
+      "evenement": "Bilan définitif des blessés et dégâts par le ministère de l'Intérieur",
+      "type": "publication",
       "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Hongrie : premier revers législatif pour l'héritage d'Orbán",
-      "rubrique": "international",
-      "resume": "Le nouveau gouvernement de Péter Magyar a abrogé les clauses anti-LGBT+ de 2021, suite à une condamnation de la CJUE. C'est le premier signe concret de dé-orbanisation du pays (Politis, Le Monde).",
-      "sources": [
-        {
-          "nom": "Politis",
-          "url": "https://www.politis.fr/api/proxy/?articleID=515108",
-          "type": "investigation"
-        },
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/13/la-hongrie-abolit-les-dispositions-interdisant-l-evocation-de-l-homosexualite-devant-des-enfants_6793157_3210.html",
-          "type": "mainstream"
-        }
-      ],
-      "pourquoi_signal": "Ce revirement législatif est peu traité alors qu'il marque la fin d'un laboratoire idéologique illibéral au cœur de l'Europe."
-    },
-    {
-      "titre": "L'Argentine de Milei, laboratoire pour Peter Thiel",
-      "rubrique": "economie",
-      "resume": "Le gouvernement argentin multiplie les incitations fiscales (RIGI) pour attirer les investissements massifs de la Silicon Valley, suscitant des craintes sur la souveraineté numérique du pays (Blast, CELS).",
+      "titre": "Saisie illégale du matériel de protection des journalistes",
+      "rubrique": "societe",
+      "resume": "Le 17 octobre, des journalistes ont vu leur matériel (masques, sérum) confisqué par la police au nom d'arrêtés préfectoraux, malgré le cadre du Schéma National du Maintien de l'Ordre (Blast).",
       "sources": [
         {
           "nom": "Blast",
-          "url": null,
+          "url": "https://www.blast-info.fr/articles/2026/17-octobre-la-police-saisit-illegalement-le-materiel-de-protection-des-journalistes-ZqK5jXdoQ8224LYzlHs-JA",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "L'alliance entre un État et des milliardaires de la tech pour créer une zone franche idéologique est un précédent majeur souvent ignoré."
+      "pourquoi_signal": "Ce fait illustre une entrave directe à la liberté d'informer, souvent passée sous silence derrière le récit des violences globales."
+    },
+    {
+      "titre": "Bretagne : Victoire inédite contre les pesticides",
+      "rubrique": "ecologie",
+      "resume": "La Commission locale de l’eau de la Vilaine a adopté un texte limitant l’usage de certains pesticides pour protéger l'eau potable, malgré l’opposition de la FNSEA (Mediapart).",
+      "sources": [
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/ecologie/171026/pesticides-en-bretagne-une-petite-victoire-pour-la-democratie-de-l-eau",
+          "type": "investigation"
+        }
+      ],
+      "pourquoi_signal": "C'est une première en France qui expérimente une forme de démocratie territoriale face aux lobbies agro-industriels."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Cisjordanie : agression d'une journaliste par des colons",
+      "titre": "Attaques de colons en Cisjordanie : un maire français frappé",
       "rubrique": "international",
-      "resume": "Heidi Levine (Washington Post) a été rouée de coups par des colons masqués alors qu'elle couvrait la récolte des olives. L'attaque s'est produite lors d'un raid violent contre des agriculteurs palestiniens.",
+      "resume": "Bernard Baudoux, maire français de 78 ans, a été roué de coups par des colons israéliens lors d'une visite diplomatique européenne en Cisjordanie (France 24, Le Monde).",
       "axes_concernes": [
         "droit_international",
-        "liberte_expression",
-        "colonialisme"
+        "colonialisme",
+        "droits_humains"
       ],
-      "analyse": "Cette agression illustre l'impunité totale des colons en Cisjordanie occupée, s'attaquant désormais ouvertement à la presse internationale. Le silence ou la modération des chancelleries occidentales face à une attaque directe contre une journaliste d'un média de référence souligne un double standard flagrant en matière de protection des libertés fondamentales.",
+      "analyse": "Cette agression contre un élu français et un convoi diplomatique souligne l'impunité totale des colons en territoire occupé. Le silence ou la minimisation par les autorités israéliennes (invoquant un défaut de coordination) constitue une violation flagrante du droit international et une normalisation de la violence coloniale que nos principes ne peuvent ignorer.",
       "sources": [
         {
           "nom": "France 24",
-          "url": "https://www.france24.com/fr/moyen-orient/20261016-cisjordanie-occup%C3%A9e-colons-isra%C3%A9liens-attaquent-oliveraie-journaliste-am%C3%A9ricaine-bless%C3%A9e-agriculteurs-paslestiniens",
+          "url": null,
           "type": "mainstream"
         },
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/monde/cisjordanie/cisjordanie-occupee-violente-attaque-des-colons-contre-une-journaliste-americaine",
+          "nom": "Le Monde",
+          "url": null,
           "type": "mainstream"
         }
       ]
     },
     {
-      "titre": "Maltraitance animale : l'énucléation des crevettes",
+      "titre": "Ménopause : l'oublié du droit du travail",
       "rubrique": "societe",
-      "resume": "Des ONG dénoncent l'épédonculation (arrachage des yeux à vif) pratiquée sur les crevettes d'élevage pour stimuler la reproduction, une pratique courante dans les produits vendus en grande distribution.",
+      "resume": "À l'occasion de la Journée mondiale de la ménopause, des voix s'élèvent pour dénoncer le manque d'adaptation des entreprises face à une réalité biologique touchant des millions de travailleuses (L'Obs, Libération).",
       "axes_concernes": [
-        "ecologie_sociale"
+        "justice_sociale",
+        "droits_des_femmes"
       ],
-      "analyse": "Ce sujet met en lumière la déconnexion totale entre les standards éthiques affichés par la grande distribution et la réalité de la production de masse. C'est un impensé de notre système alimentaire mondialisé qui sacrifie le vivant au profit de la rentabilité.",
+      "analyse": "Le monde du travail reste structuré sur un modèle masculin neutre, ignorant les besoins spécifiques liés à la ménopause. Cette invisibilisation contribue à la précarisation des femmes seniors et constitue un enjeu de justice sociale majeur pour l'équité en entreprise.",
       "sources": [
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Arrachage-des-yeux-des-crevettes-les-supermarches-sommes-d-arreter-une-pratique-cruelle",
-          "type": "investigation"
+          "nom": "L'Obs",
+          "url": null,
+          "type": "mainstream"
         },
         {
-          "nom": "Sciences et Avenir",
-          "url": "https://www.sciencesetavenir.fr/nature-environnement/la-grande-distribution-appelee-a-s-engager-contre-la-maltraitance-des-crevettes-d-elevage_195423",
+          "nom": "Libération",
+          "url": null,
           "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-10-17",
-  "genere_a": "2026-10-17T04:34:53.833Z",
+  "date": "2026-10-18",
+  "genere_a": "2026-10-18T07:33:04.991Z",
   "meta": {
-    "nb_articles_analyses": 704,
-    "nb_topics": 212,
+    "nb_articles_analyses": 522,
+    "nb_topics": 156,
     "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 42,
-    "sources_francaises": 477,
-    "sources_etrangeres": 227,
+    "nb_articles_dans_selection": 39,
+    "sources_francaises": 374,
+    "sources_etrangeres": 148,
     "rubriques_couvertes": [
       "societe",
-      "economie",
+      "politique",
+      "science",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
