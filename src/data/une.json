@@ -1,53 +1,57 @@
 {
   "sujet_du_jour": {
-    "titre": "Blocus lycéens : 30 000 élèves privés de cours et des risques de décrochage",
-    "rubrique": "societe",
-    "pourquoi_important": "Le mouvement lycéen actuel entraîne des fermetures prolongées d'établissements qui fragilisent les élèves les plus précaires et saturent le débat sur la responsabilité parentale.",
+    "titre": "Les États-Unis bannissent l’IA chinoise DeepSeek de l'administration fédérale",
+    "rubrique": "tech",
+    "pourquoi_important": "C'est une étape majeure dans la guerre froide technologique, visant à exclure totalement une IA chinoise des infrastructures critiques américaines.",
     "faits": [
-      "Environ 30 000 lycéens sont privés de cours en présentiel pour plusieurs semaines en raison de blocus ou de dégradations (Assemblée nationale).",
-      "24 lycées ont été « incendiés ou saccagés » selon le ministre de l'Éducation nationale Édouard Geffray (TF1 Info, Assemblée nationale).",
-      "Le rectorat de Bordeaux a ordonné le passage à l'enseignement à distance pour 28 lycées afin d'assurer la continuité pédagogique .",
-      "Les chefs d'établissement s'inquiètent d'une rupture de scolarité irréversible pour les élèves déjà en difficulté (La Croix)."
+      "Le Department of Homeland Security a ordonné l'exclusion de tous les produits et services de Hangzhou DeepSeek AI des agences civiles fédérales (DHS, .",
+      "L'interdiction s'étend aux produits tiers développés à partir des implémentations de DeepSeek, créant un défi d'audit pour les fournisseurs (The Register, Next).",
+      "Le retrait doit être immédiat pour les systèmes de la communauté du renseignement via une base législative distincte, le IA Act FY2026 (Sénat US).",
+      "Le DHS a ouvert un canal spécifique (fascsa.orders@cisa.dhs.gov) pour gérer les demandes d'exception et les dépendances techniques (DHS)."
     ],
-    "contexte": "Depuis début octobre, une vague de contestation lycéenne touche la France, mêlant revendications sur les conditions de vie scolaire et solidarité avec les mouvements sociaux. Si le ministère tente d'organiser la continuité pédagogique via le distanciel, cette méthode est critiquée par les syndicats pour son inefficacité face au risque de décrochage. Parallèlement, une partie du champ médiatique déplace le débat vers la « démission » des parents, accusés de ne pas contenir la jeunesse (Arrêt sur images).",
+    "contexte": "Cette décision s'appuie sur le Federal Acquisition Supply Chain Security Act de 2018. Elle marque une accélération de la méfiance envers les modèles de langage chinois, perçus comme des risques pour la sécurité nationale. La formulation très large de l'ordre, incluant les services tiers 'utilisant' DeepSeek, pourrait forcer de nombreuses entreprises tech à revoir leur chaîne d'approvisionnement logicielle.",
     "sources": [
       {
-        "nom": "La Croix",
-        "url": "https://www.la-croix.com/societe/apres-les-blocages-des-lycees-la-crainte-d-un-decrochage-des-eleves-les-plus-fragiles-20261018",
-        "type": "mainstream",
-        "groupe_media": null
-      },
-      {
-        "nom": "Arrêt sur images",
-        "url": "https://www.arretsurimages.net/chroniques/une-famille-en-or/blocus-lyceens-les-parents-au-piquet",
-        "type": "investigation",
-        "groupe_media": null
-      },
-      {
-        "nom": "Assemblée nationale",
-        "url": "https://www.assemblee-nationale.fr/dyn/docs/CRCANR5L17S2027PO419604N003.raw",
+        "nom": "DHS / Federal Register",
+        "url": "https://public-inspection.federalregister.gov/2026-21447.pdf",
         "type": "institutionnel",
+        "groupe_media": null
+      },
+      {
+        "nom": "The Register",
+        "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
+        "type": "etranger",
         "groupe_media": {
-          "nom": "Institutions françaises",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "variable"
+          "nom": "The Register",
+          "proprietaire": "Situation Publishing",
+          "type_proprietaire": "independant",
+          "orientation": "centre"
         }
       },
       {
-        "nom": "TF1 Info",
-        "url": "https://www.tf1info.fr/societe/blocage-des-lycees-les-cours-assures-a-distance-si-l-accueil-des-eleves-en-toute-securite-est-empeche-annonce-edouard-geffray-2467473.html",
-        "type": "mainstream",
-        "groupe_media": null
+        "nom": "Next",
+        "url": "https://next.ink/brief-article/les-etats-unis-bannissent-lia-chinoise-deepseek-dans-ladministration-civile-federale/",
+        "type": "investigation",
+        "groupe_media": {
+          "nom": "Next (ex-Next INpact)",
+          "proprietaire": "Équipe fondatrice",
+          "type_proprietaire": "independant",
+          "orientation": "centre"
+        }
+      },
+      {
+        "nom": "Sénat",
+        "url": "http://www.senat.fr/leg/ppl26-052.html",
+        "type": "institutionnel"
       }
     ],
-    "lien": null
+    "lien": "https://public-inspection.federalregister.gov/2026-21447.pdf"
   },
   "france": [
     {
-      "titre": "Vigilance orange pluie-inondation dans le Gard et l'Hérault",
+      "titre": "Alerte aux inondations majeures dans le Sud-Est",
       "rubrique": "societe",
-      "resume": "Météo-France a placé le Gard et l'Hérault en vigilance orange pour pluie-inondation et orages à partir de 14h ce lundi. Un épisode méditerranéen intense est attendu avec des risques de crues sur le Lez et le Vidourle (Météo-France, Le Monde, franceinfo).",
+      "resume": "Sept départements sont en vigilance orange pour pluie-inondation et crues ce mardi. Météo-France prévoit des cumuls allant jusqu'à 300 mm localement, avec un décalage de l'épisode vers la Provence et la Corse durant l'après-midi.",
       "sources": [
         {
           "nom": "Météo-France",
@@ -56,67 +60,8 @@
           "groupe_media": null
         },
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/planete/article/2026/10/19/pluie-et-inondations-le-gard-et-l-herault-places-en-vigilance-orange-lundi-a-partir-de-14-heures_6797409_3244.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/sports/cyclisme/l-avenement-de-paul-seixas-le-crepuscule-de-julian-alaphilippe-2026-nouvelle-page-glorieuse-pour-le-cyclisme-francais_8237377.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Félix Lebrun sacré champion d'Europe de tennis de table",
-      "rubrique": "culture",
-      "resume": "À 20 ans, le numéro 2 mondial a remporté son premier titre européen en simple dimanche, succédant à son frère Alexis. Il avait déjà remporté le titre en double quelques jours plus tôt (L'Humanité, 20 Minutes, franceinfo).",
-      "sources": [
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/sports/equipe-de-france/tennis-de-table-felix-lebrun-champion-deurope-en-simple-entre-dans-lhistoire",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/sports/tennis-de-table/felix-lebrun-devient-champion-d-europe-de-tennis-de-table-pour-la-premiere-fois-et-succede-a-son-frere-alexis_8242897.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/monde/ukraine/4255526-20261019-direct-guerre-ukraine-zelensky-tente-succes-apaisement-trump?at_medium=display&at_campaign=149",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Guadeloupe : couvre-feu pour mineurs après des violences",
-      "rubrique": "politique",
-      "resume": "Le préfet a instauré un couvre-feu nocturne (20h-6h) pour les mineurs à Pointe-à-Pitre et aux Abymes après des pillages en marge des manifestations contre la vie chère. Emmanuel Macron a appelé les préfets à la fermeté (BFM TV, Ouest-France).",
-      "sources": [
-        {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/outre-mer/guadeloupe/un-couvre-feu-pour-les-mineurs-instaure-en-guadeloupe-apres-des-violences-urbaines-en-marge-de-la-manifestation-du-17-octobre_AD-202610190068.html",
+          "url": "https://www.bfmtv.com/meteo/intemperies/pluie-inondations-et-orages-le-gard-et-l-herault-en-vigilance-orange-ce-lundi-un-passage-en-vigilance-rouge-possible_AD-202610190100.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -126,8 +71,58 @@
           }
         },
         {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/meteo/intemperies/orages-pluies-et-inondations-5-departements-toujours-en-vigilance-orange-lherault-et-la-lozere-repassent-en-jaune-90b6fed6-cc37-11f1-bb5f-3dc5c0feacca",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": "https://vigilance.meteofrance.fr/fr/vigilance-accessible"
+    },
+    {
+      "titre": "Ouverture du procès de l'explosion de la rue de Trévise",
+      "rubrique": "societe",
+      "resume": "Huit ans après le drame qui a fait 4 morts et 200 blessés, la Ville de Paris et le syndic de l'immeuble comparaissent pour homicides et blessures involontaires. Le tribunal correctionnel doit déterminer les responsabilités dans la fuite de gaz initiale.",
+      "sources": [
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/actualite-france/explosion-de-la-rue-de-trevise-pres-de-huit-ans-apres-les-faits-le-proces-de-la-ville-de-paris-et-du-syndic-s-ouvre-ce-mardi-20261020",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/police-justice/explosion-de-la-rue-de-trevise-le-proces-de-la-ville-de-paris-s-ouvre-ce-mardi-au-tribunal-correctionnel-huit-ans-apres-le-drame_AD-202610200091.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Pillages du 17 octobre : Bercy traque les reventes en ligne",
+      "rubrique": "economie",
+      "resume": "Les plateformes Vinted, Leboncoin et eBay ont été convoquées par le gouvernement pour empêcher l'écoulement d'objets volés lors des récentes violences. Les sites assurent appliquer une 'tolérance zéro' pour identifier les receleurs.",
+      "sources": [
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/lifestyle/hightech/vinted-leboncoin-et-ebay-sommes-de-retirer-des-annonces-de-produits-possiblement-issus-des-pillages-du-17-octobre-20261019_VXJ3PW2OPRERJL6KG4TIBLVCJM/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
           "nom": "franceinfo",
-          "url": "https://la1ere.franceinfo.fr/guadeloupe/pillages-et-violences-en-agglomeration-pointoise-le-prefet-instaure-un-couvre-feu-pour-les-mineurs-1749363.html",
+          "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/des-objets-voles-lors-des-pillages-du-17-octobre-revendus-en-ligne-la-plateforme-vinted-assure-appliquer-une-tolerance-zero_8243857.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -135,11 +130,6 @@
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/sport/cyclisme/bernard-hinault/exclusif-jamais-je-ne-taurais-fait-un-enfant-dans-le-dos-sur-le-tour-1986-hinault-et-lemond-les-retrouvailles-72c40408-ca5e-11f1-b8bc-a46147b584ed?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream"
         }
       ],
       "lien": null
@@ -147,24 +137,24 @@
   ],
   "monde": [
     {
-      "titre": "Verdict attendu pour le pasteur Paul Mackenzie au Kenya",
-      "pays": "Kenya",
-      "resume": "La Haute Cour de Mombasa rend son verdict ce lundi contre le gourou accusé d'avoir ordonné à ses fidèles de s'affamer pour « rencontrer Jésus », causant plus de 530 morts dans la forêt de Shakahola (BBC News, RFI).",
+      "titre": "Macron en tournée énergétique dans le Golfe",
+      "pays": "Koweït, Émirats, Bahreïn, Qatar",
+      "resume": "Malgré la crise intérieure, Emmanuel Macron cherche à sécuriser les approvisionnements en hydrocarbures de la France. Les monarchies du Golfe restent toutefois prudentes face aux tensions entre les États-Unis et l'Iran qui bloquent le détroit d'Ormuz.",
       "sources": [
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo",
-          "type": "etranger",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/10/19/en-tournee-dans-le-golfe-persique-emmanuel-macron-cherche-une-issue-a-la-flambee-des-prix-du-carburant_6797585_3210.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20261019-kenya-verdict-attendu-ce-lundi-dans-le-proc%C3%A8s-de-paul-mackenzie-le-gourou-accus%C3%A9-du-massacre-de-shakahola",
+          "url": "https://www.rfi.fr/fr/moyen-orient/20261020-apr%C3%A8s-le-kowe%C3%AFt-et-les-%C3%A9mirats-emmanuel-macron-poursuit-sa-tourn%C3%A9e-dans-le-golfe-au-bahre%C3%AFn-et-au-qatar",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -177,30 +167,19 @@
       "lien": null
     },
     {
-      "titre": "L'opposition vénézuélienne s'unit derrière Maria Corina Machado",
-      "pays": "Venezuela",
-      "resume": "En exil au Panama, la Prix Nobel de la paix a été reconnue comme leader unique de l'opposition lors d'un « grand accord national » à Caracas, dix mois après la chute de Nicolas Maduro (Le Monde, Al Jazeera).",
+      "titre": "Hécatombe par drones au Soudan et en Ukraine",
+      "pays": "Soudan / Ukraine",
+      "resume": "Au Soudan, 160 personnes ont été tuées dans une escalade d'attaques de drones, dont 80 dans un marché. En Ukraine, une frappe russe sur un parc à Kharkiv a tué six personnes, dont trois enfants.",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/18/au-venezuela-la-prix-nobel-de-la-paix-maria-corina-machado-reconnue-leader-de-l-opposition-lors-d-un-grand-accord-national_6797230_3210.html",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/en-ukraine-six-morts-dont-trois-enfants-dans-une-frappe-russe-dans-un-parc-pres-de-kharkiv_8244463.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/18/venezuela-opposition-renews-support-for-maria-corina-machado-as-leader",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
             "type_proprietaire": "etat",
-            "orientation": "variable"
+            "orientation": "centre"
           }
         }
       ],
@@ -208,60 +187,61 @@
     }
   ],
   "regard_croise": {
-    "sujet": "Élections législatives israéliennes et tensions coloniales",
-    "rubrique": "international",
-    "contexte": "Israël se prépare à des législatives le 27 octobre dans un climat de violence accrue en Cisjordanie et une polarisation extrême de la scène politique intérieure.",
+    "sujet": "Accusations de l'exécutif contre l'ultra-gauche",
+    "rubrique": "politique",
+    "contexte": "Après un week-end de violences urbaines et de pillages, le Premier ministre Sébastien Lecornu accuse l'ultra-gauche de vouloir déstabiliser le pays avant la présidentielle.",
     "couvertures": [
       {
-        "source": "L'Humanité",
+        "source": "franceinfo",
         "type": "mainstream",
-        "angle": "Dénonciation de l'impunité des colons soutenus par le pouvoir pour consolider la base électorale de Netanyahou.",
-        "ton": "critique",
-        "url": "https://www.humanite.fr/monde/benyamin-netanyahou/journalistes-etrangers-elus-francais-les-colons-israeliens-multiplient-les-violences-avant-les-elections-legislatives",
-        "citation_cle": "Les colons multiplient les exactions, n’hésitant pas à viser des Occidentaux.",
-        "auteur": "Luis Reygada",
-        "proprietaire_contexte": "Coopérative de lecteurs et salariés",
-        "orientation_source": "Gauche",
+        "angle": "Relais institutionnel des propos du Premier ministre citant les services de renseignement.",
+        "ton": "factuel",
+        "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/video-le-premier-ministre-affirme-que-l-ultragauche-souhaite-organiser-un-desordre-profond-pour-remettre-en-cause-le-calendrier-de-l-election-presidentielle_8243908.html",
+        "citation_cle": "Cela nous a été dit clairement par les services de renseignements.",
+        "auteur": null,
+        "proprietaire_contexte": "État français",
+        "orientation_source": "Centre",
         "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
-          "orientation": "gauche"
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
         }
       },
       {
-        "source": "Libération",
-        "type": "mainstream",
-        "angle": "Analyse de l'effacement de la question palestinienne dans le programme de la gauche israélienne.",
-        "ton": "factuel",
-        "url": "https://www.liberation.fr/international/moyen-orient/legislatives-en-israel-a-gauche-le-tabou-de-la-question-palestinienne-20261018_YR3BMMS5URCNBPEH4CE24ZEJRU/",
-        "citation_cle": "Les militants de l’opposition ne font pas campagne sur un processus de paix.",
-        "auteur": "Luc Mathieu",
-        "proprietaire_contexte": "Fonds de dotation",
-        "orientation_source": "Centre-gauche",
+        "source": "France 24 EN",
+        "type": "etranger",
+        "angle": "Analyse de l'impact politique de ces déclarations sur la campagne présidentielle à venir.",
+        "ton": "neutre",
+        "url": "https://www.france24.com/en/video/20261019-french-pm-says-ultra-left-seeking-deep-unrest-ahead-of-election",
+        "citation_cle": "L'ultra-gauche cherche à orchestrer un désordre profond à travers le pays.",
+        "auteur": "Angela Diffley",
+        "proprietaire_contexte": "État français",
+        "orientation_source": "Centre",
         "groupe_media": {
-          "nom": "Libération",
-          "proprietaire": "Fonds de dotation",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
         }
       }
     ],
-    "analyse_coherence": "Le traitement médiatique des législatives israéliennes révèle une divergence profonde d'angles morts. D'un côté, L'Humanité met l'accent sur la violation systématique du droit international et la violence coloniale, soulignant une stratégie délibérée du gouvernement Netanyahou pour radicaliser son électorat. De l'autre, Libération documente une 'normalisation' du conflit au sein même de la gauche israélienne, où la question palestinienne est devenue un tabou électoral. On observe ici un double standard fréquent dans la couverture de la démocratie israélienne : alors que les exactions des colons sont documentées, elles sont rarement présentées par les médias mainstream comme une remise en cause de la légitimité du processus électoral lui-même, contrairement au traitement réservé à d'autres régimes sous tension. La focalisation sur le duel Nétanyahou/Opposition occulte souvent la réalité structurelle de l'occupation, pourtant moteur principal des tensions actuelles.",
+    "analyse_coherence": "On observe une divergence nette dans la qualification des événements. Tandis que les médias de service public (franceinfo, France 24) se font les relais quasi exclusifs de la parole gouvernementale, centrant le récit sur une menace 'ultra-gauche' documentée par le renseignement, la presse d'investigation (Mediapart) déplace le curseur sur la réponse policière. Un double standard apparaît : le gouvernement invoque le respect des institutions pour dénoncer les pillages, mais reste silencieux sur les agressions visant des élus (comme Landry Ngang à Saint-Denis), pourtant eux aussi représentants de l'institution démocratique. L'usage du terme 'ultra-gauche' par Sébastien Lecornu agit ici comme un outil de disqualification politique globale, englobant sans distinction casseurs et élus contestataires, une stratégie peu questionnée par les sources mainstream qui privilégient le cadre sécuritaire imposé par l'exécutif.",
     "biais_detectes": [
-      "Normalisation de l'occupation par l'omission",
-      "Focalisation électoraliste au détriment du droit international"
+      "Cadrage sécuritaire dominant",
+      "Invisibilisation des violences policières dans le discours officiel",
+      "Amalgame politique"
     ],
-    "ce_quil_faut_retenir": "L'enjeu des élections dépasse le simple maintien au pouvoir de Netanyahou ; il valide une accélération de la colonisation que même l'opposition n'ose plus contester frontalement."
+    "ce_quil_faut_retenir": "Le gouvernement durcit son discours sécuritaire en ciblant l'ultra-gauche, tandis que des incidents impliquant les forces de l'ordre contre des élus locaux émergent, illustrant une tension démocratique croissante."
   },
   "regard_etranger": [
     {
       "source": "France 24 EN",
       "pays": "France/International",
-      "titre": "Émeutes en France : un cadeau pour Le Pen ?",
-      "titre_original": "French Riots: A Gift for Le Pen?",
-      "angle": "Analyse de la récupération politique des violences urbaines par le RN en vue de la présidentielle.",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261018-french-riots-a-gift-for-le-pen",
+      "titre": "France : couvre-feux localisés annoncés après un week-end de violence",
+      "titre_original": "France: ‘localised’ curfews announced after weekend of violence",
+      "angle": "Focus sur les mesures d'exception et le possible état d'urgence.",
+      "url": "https://www.france24.com/en/france-localised-curfews-announced-after-weekend-scenes-of-violence",
       "groupe_media": {
         "nom": "France Médias Monde",
         "proprietaire": "État français",
@@ -270,110 +250,97 @@
       }
     },
     {
-      "source": "France 24 EN",
-      "pays": "France/International",
-      "titre": "« Comme si nous avions eu une guerre » : la France compte ses dégâts",
-      "titre_original": "'Like we had a war': France counts cost of violent protests",
-      "angle": "Constat alarmiste sur l'ampleur des destructions (1 500 commerces touchés) et le nombre d'arrestations.",
-      "url": "https://www.france24.com/en/video/20261018-like-we-had-a-war-france-counts-cost-of-violent-protests",
+      "source": "Courrier international",
+      "pays": "International",
+      "titre": "Les troubles en France inquiètent les investisseurs étrangers",
+      "titre_original": "Les troubles en France inquiètent les investisseurs étrangers",
+      "angle": "Inquiétude sur l'attractivité économique et l'écart de taux avec l'Allemagne.",
+      "url": "https://www.courrierinternational.com/article/economie-les-troubles-en-france-inquietent-les-investisseurs-etrangers_279826",
       "groupe_media": {
-        "nom": "France Médias Monde",
-        "proprietaire": "État français",
-        "type_proprietaire": "etat",
-        "orientation": "centre"
+        "nom": "Groupe Le Monde",
+        "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+        "type_proprietaire": "milliardaire",
+        "orientation": "centre-droit"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "5 %",
-    "contexte": "Part des parts d'Anthropic qui seront reversées à un fonds d'intérêt public pour la sécurité de l'IA.",
-    "source": "TechCrunch/BBC",
-    "source_url": "https://www.bbc.co.uk/news/technology"
+    "valeur": "160",
+    "contexte": "Nombre de personnes tuées dans une escalade d'attaques de drones au Soudan, touchant principalement des civils et des infrastructures.",
+    "source": "Al Jazeera",
+    "source_url": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan"
   },
   "a_surveiller": [
     {
-      "date": "2026-10-19",
-      "evenement": "Ouverture du procès de Rima Hassan pour apologie du terrorisme",
-      "type": "audition",
-      "lien": "https://www.bfmtv.com/police-justice/proces/l-eurodeputee-insoumise-rima-hassan-jugee-a-paris-pour-apologie-du-terrorisme_AD-202610190057.html"
+      "date": "2026-10-24",
+      "evenement": "Nouvelle manifestation à Marseille avec dispositif policier renforcé",
+      "type": "manifestation",
+      "lien": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/le-ministre-de-l-interieur-promet-un-dispositif-policier-plus-nombreux-a-marseille-pour-la-nouvelle-journee-de-manifestation-prevue-samedi_8244700.html"
     },
     {
-      "date": "2026-10-27",
-      "evenement": "Élections législatives en Israël",
-      "type": "vote",
-      "lien": null
+      "date": "2026-10-20",
+      "evenement": "Publication officielle de l'interdiction de DeepSeek au Federal Register US",
+      "type": "publication",
+      "lien": "https://public-inspection.federalregister.gov/2026-21447.pdf"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Mulhouse : une mineure perd un œil lors d'une manifestation",
+      "titre": "Vidéosurveillance algorithmique à Toulouse : le flou juridique",
       "rubrique": "societe",
-      "resume": "Maïssa, 17 ans, a définitivement perdu la vision de l'œil gauche après avoir été touchée par un projectile, probablement une grenade lacrymogène, le 17 octobre. L'IGPN a été saisie par le parquet de Mulhouse (Politis, Europe 1).",
+      "resume": "La mairie de Toulouse a expérimenté un logiciel d'analyse automatisée des images pour détecter des 'comportements anormaux'. Des juristes dénoncent une dérive illégale vers la reconnaissance faciale sous couvert d'expérimentation.",
       "sources": [
         {
-          "nom": "Politis",
-          "url": "https://www.politis.fr/api/proxy/?articleID=516148",
+          "nom": "Médiacités",
+          "url": "https://www.mediacites.fr/enquete/toulouse/2026/10/19/videosurveillance-algorithmique-toulouse-a-experimente-un-logiciel-de-controverse/",
           "type": "investigation"
         },
         {
-          "nom": "Europe 1",
-          "url": null,
-          "type": "mainstream"
+          "nom": "Marchés Publics Toulouse",
+          "url": "https://toulouse-metropole.marches-publics.info/avis/index.cfm?IDS=4490&fuseaction=pub.affPublication&refPub=MPI-pub-20252551185&serveur=MPI",
+          "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "Ce cas de mutilation d'une mineure est largement éclipsé par le récit médiatique dominant centré sur les dégâts matériels des émeutes."
-    },
-    {
-      "titre": "Jonction Gilets Jaunes et jeunesse dans le Pas-de-Calais",
-      "rubrique": "politique",
-      "resume": "À Calais et Boulogne, des barrages filtrants ont réapparu, mêlant anciens Gilets Jaunes et lycéens autour des thématiques du pouvoir d'achat et des violences policières (Politis, Delta FM).",
-      "sources": [
-        {
-          "nom": "Politis",
-          "url": "https://www.politis.fr/api/proxy/?articleID=516097",
-          "type": "investigation"
-        }
-      ],
-      "pourquoi_signal": "La résurgence de modes d'action de 2018 couplée à la jeunesse indique une hybridation des luttes ignorée par les analyses purement sécuritaires."
+      "pourquoi_signal": "Le sujet est masqué par le bilan des dégradations (500 000 €), mais l'installation pérenne de ces outils algorithmiques pose un précédent majeur pour les libertés publiques."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Procès de Rima Hassan : la liberté d'expression en question",
-      "rubrique": "politique",
-      "resume": "L'eurodéputée LFI est jugée pour un tweet supprimé évoquant un membre du commando de l'attentat de Lod en 1972. Elle risque 7 ans de prison.",
+      "titre": "Gaza : 500 000 personnes privées d'aide alimentaire",
+      "rubrique": "international",
+      "resume": "Faute de fonds, le PAM réduit d'un tiers son aide à Gaza. Le nombre de bénéficiaires chute de 1,6 à 1,1 million de personnes à l'approche de l'hiver.",
       "axes_concernes": [
-        "liberte_expression",
-        "droit_international"
+        "droit_international",
+        "justice_sociale"
       ],
-      "analyse": "Ce procès illustre l'usage croissant de la qualification d'apologie du terrorisme pour restreindre le discours politique sur le conflit israélo-palestinien. Nous alertons sur le risque d'une justice d'exception visant des élus d'opposition, alors que des appels à la violence coloniale restent souvent impunis.",
+      "analyse": "Cette coupe drastique dans l'aide vitale est une violation de fait du droit à l'alimentation. Alors que l'attention se porte sur les tournées diplomatiques, l'asphyxie financière des agences de l'ONU crée une famine organisée par l'inaction des donateurs internationaux. Le silence des grandes puissances sur ce désengagement est une faillite morale.",
       "sources": [
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/police-justice/proces/l-eurodeputee-insoumise-rima-hassan-jugee-a-paris-pour-apologie-du-terrorisme_AD-202610190057.html",
-          "type": "mainstream"
+          "nom": "WFP / PAM",
+          "url": "https://www.wfp.org/news/funding-cuts-force-wfp-drastically-reduce-lifesaving-assistance-gaza",
+          "type": "institutionnel"
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20261019-france-le-proc%C3%A8s-pour-apologie-du-terrorisme-de-l-eurod%C3%A9put%C3%A9e-insoumise-rima-hassan-s-ouvre-%C3%A0-paris",
-          "type": "mainstream"
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/19/cuts-world-food-programme-end-support-palestinians-gaza",
+          "type": "etranger"
         }
       ]
     }
   ],
-  "date": "2026-10-19",
-  "genere_a": "2026-10-19T04:34:11.791Z",
+  "date": "2026-10-20",
+  "genere_a": "2026-10-20T04:34:13.709Z",
   "meta": {
-    "nb_articles_analyses": 536,
-    "nb_topics": 154,
-    "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 34,
-    "sources_francaises": 374,
-    "sources_etrangeres": 162,
+    "nb_articles_analyses": 730,
+    "nb_topics": 219,
+    "nb_topics_selectionnes": 15,
+    "nb_articles_dans_selection": 36,
+    "sources_francaises": 472,
+    "sources_etrangeres": 258,
     "rubriques_couvertes": [
+      "tech",
       "societe",
-      "culture",
-      "politique",
+      "economie",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
