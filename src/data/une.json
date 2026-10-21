@@ -1,149 +1,82 @@
 {
   "sujet_du_jour": {
-    "titre": "Les États-Unis bannissent l’IA chinoise DeepSeek de l'administration fédérale",
-    "rubrique": "tech",
-    "pourquoi_important": "C'est une étape majeure dans la guerre froide technologique, visant à exclure totalement une IA chinoise des infrastructures critiques américaines.",
+    "titre": "Abrogation symbolique du Code noir : le Parlement solde un vestige de 1685",
+    "rubrique": "societe",
+    "pourquoi_important": "178 ans après l'abolition de l'esclavage, la France purge enfin formellement son corpus juridique de l'édit royal qui organisait la déshumanisation des esclaves.",
     "faits": [
-      "Le Department of Homeland Security a ordonné l'exclusion de tous les produits et services de Hangzhou DeepSeek AI des agences civiles fédérales (DHS, .",
-      "L'interdiction s'étend aux produits tiers développés à partir des implémentations de DeepSeek, créant un défi d'audit pour les fournisseurs (The Register, Next).",
-      "Le retrait doit être immédiat pour les systèmes de la communauté du renseignement via une base législative distincte, le IA Act FY2026 (Sénat US).",
-      "Le DHS a ouvert un canal spécifique (fascsa.orders@cisa.dhs.gov) pour gérer les demandes d'exception et les dépendances techniques (DHS)."
+      "Le Sénat a adopté à l'unanimité, ce 20 octobre 2026, la proposition de loi visant à abroger explicitement l'édit de mars 1685 et ses textes d'application (Sénat, franceinfo).",
+      "Le texte, porté par le député guadeloupéen Max Mathiasin (Liot), avait déjà été validé par l'Assemblée nationale le 28 mai 2026 (La Croix, .",
+      "Bien que l'esclavage ait été aboli en 1848, le 'Code noir' n'avait jamais été officiellement abrogé, restant un 'fantôme juridique' dans le droit français (L'Humanité, RFI).",
+      "Un amendement visant à introduire un article additionnel a été rejeté lors de l'examen au Sénat avant le vote final (Sénat)."
     ],
-    "contexte": "Cette décision s'appuie sur le Federal Acquisition Supply Chain Security Act de 2018. Elle marque une accélération de la méfiance envers les modèles de langage chinois, perçus comme des risques pour la sécurité nationale. La formulation très large de l'ordre, incluant les services tiers 'utilisant' DeepSeek, pourrait forcer de nombreuses entreprises tech à revoir leur chaîne d'approvisionnement logicielle.",
+    "contexte": "Le Code noir, préparé par Colbert sous Louis XIV, a régi pendant plus d'un siècle la vie des esclaves dans les colonies françaises, les définissant comme des 'biens meubles'. Si cette abrogation est qualifiée de symbolique par les juristes, elle répond à une demande mémorielle forte des territoires d'Outre-mer. Elle laisse toutefois ouverte la question complexe des réparations financières et morales liées à la période coloniale (20 Minutes, Libération).",
     "sources": [
       {
-        "nom": "DHS / Federal Register",
-        "url": "https://public-inspection.federalregister.gov/2026-21447.pdf",
+        "nom": "Sénat (Source primaire)",
+        "url": "https://www.senat.fr/leg/ppl25-672.html",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "The Register",
-        "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
-        "type": "etranger",
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/societe/racisme/le-parlement-abroge-definitivement-le-code-noir-qui-reglementait-l-esclavage-dans-les-colonies-francaises-apres-un-vote-a-l-unanimite-du-senat_8245921.html",
+        "type": "mainstream",
         "groupe_media": {
-          "nom": "The Register",
-          "proprietaire": "Situation Publishing",
-          "type_proprietaire": "independant",
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
           "orientation": "centre"
         }
       },
       {
-        "nom": "Next",
-        "url": "https://next.ink/brief-article/les-etats-unis-bannissent-lia-chinoise-deepseek-dans-ladministration-civile-federale/",
-        "type": "investigation",
+        "nom": "L'Humanité",
+        "url": "https://www.humanite.fr/politique/abolition-de-lesclavage/le-senat-abroge-le-code-noir-178-ans-apres-labolition-de-lesclavage",
+        "type": "mainstream",
         "groupe_media": {
-          "nom": "Next (ex-Next INpact)",
-          "proprietaire": "Équipe fondatrice",
-          "type_proprietaire": "independant",
-          "orientation": "centre"
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
+        }
+      },
+      {
+        "nom": "Libération",
+        "url": "https://www.liberation.fr/politique/abrogation-du-code-noir-sur-lesclavage-un-element-de-plus-a-la-lutte-pour-la-construction-de-notre-identite-20261020_DNDBUGJDR5DRZDSY7CHGR4Z74M/",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
         }
       },
       {
         "nom": "Sénat",
-        "url": "http://www.senat.fr/leg/ppl26-052.html",
+        "url": "http://www.senat.fr/leg/ppl26-024.html",
         "type": "institutionnel"
+      },
+      {
+        "nom": "La Croix",
+        "url": "https://www.la-croix.com/international/au-japon-la-remilitarisation-ebranle-les-totems-du-pacifisme-20261020",
+        "type": "mainstream"
+      },
+      {
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261021-midterms-2026-six-questions-sur-les-milliards-de-dollars-qui-financent-les-%C3%A9lections-am%C3%A9ricaines",
+        "type": "mainstream"
       }
     ],
-    "lien": "https://public-inspection.federalregister.gov/2026-21447.pdf"
+    "lien": "https://www.senat.fr/scrutin-public/scr2026.html"
   },
   "france": [
     {
-      "titre": "Alerte aux inondations majeures dans le Sud-Est",
-      "rubrique": "societe",
-      "resume": "Sept départements sont en vigilance orange pour pluie-inondation et crues ce mardi. Météo-France prévoit des cumuls allant jusqu'à 300 mm localement, avec un décalage de l'épisode vers la Provence et la Corse durant l'après-midi.",
-      "sources": [
-        {
-          "nom": "Météo-France",
-          "url": "https://vigilance.meteofrance.fr/fr/vigilance-accessible",
-          "type": "institutionnel",
-          "groupe_media": null
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/meteo/intemperies/pluie-inondations-et-orages-le-gard-et-l-herault-en-vigilance-orange-ce-lundi-un-passage-en-vigilance-rouge-possible_AD-202610190100.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/meteo/intemperies/orages-pluies-et-inondations-5-departements-toujours-en-vigilance-orange-lherault-et-la-lozere-repassent-en-jaune-90b6fed6-cc37-11f1-bb5f-3dc5c0feacca",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": "https://vigilance.meteofrance.fr/fr/vigilance-accessible"
-    },
-    {
-      "titre": "Ouverture du procès de l'explosion de la rue de Trévise",
-      "rubrique": "societe",
-      "resume": "Huit ans après le drame qui a fait 4 morts et 200 blessés, la Ville de Paris et le syndic de l'immeuble comparaissent pour homicides et blessures involontaires. Le tribunal correctionnel doit déterminer les responsabilités dans la fuite de gaz initiale.",
-      "sources": [
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/actualite-france/explosion-de-la-rue-de-trevise-pres-de-huit-ans-apres-les-faits-le-proces-de-la-ville-de-paris-et-du-syndic-s-ouvre-ce-mardi-20261020",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/police-justice/explosion-de-la-rue-de-trevise-le-proces-de-la-ville-de-paris-s-ouvre-ce-mardi-au-tribunal-correctionnel-huit-ans-apres-le-drame_AD-202610200091.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Pillages du 17 octobre : Bercy traque les reventes en ligne",
-      "rubrique": "economie",
-      "resume": "Les plateformes Vinted, Leboncoin et eBay ont été convoquées par le gouvernement pour empêcher l'écoulement d'objets volés lors des récentes violences. Les sites assurent appliquer une 'tolérance zéro' pour identifier les receleurs.",
-      "sources": [
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/lifestyle/hightech/vinted-leboncoin-et-ebay-sommes-de-retirer-des-annonces-de-produits-possiblement-issus-des-pillages-du-17-octobre-20261019_VXJ3PW2OPRERJL6KG4TIBLVCJM/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/des-objets-voles-lors-des-pillages-du-17-octobre-revendus-en-ligne-la-plateforme-vinted-assure-appliquer-une-tolerance-zero_8243857.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    }
-  ],
-  "monde": [
-    {
-      "titre": "Macron en tournée énergétique dans le Golfe",
-      "pays": "Koweït, Émirats, Bahreïn, Qatar",
-      "resume": "Malgré la crise intérieure, Emmanuel Macron cherche à sécuriser les approvisionnements en hydrocarbures de la France. Les monarchies du Golfe restent toutefois prudentes face aux tensions entre les États-Unis et l'Iran qui bloquent le détroit d'Ormuz.",
+      "titre": "Procès Rima Hassan : 10 mois de sursis requis",
+      "rubrique": "politique",
+      "resume": "Le parquet a requis 10 mois de prison avec sursis et 2 ans d'inéligibilité contre l'eurodéputée LFI pour 'apologie du terrorisme' suite à un post sur X citant un auteur de l'attentat de Tel-Aviv en 1972. La défense dénonce un procès politique, tandis que le jugement a été mis en délibéré au 30 novembre (Le Monde, Libération, France 24).",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/19/en-tournee-dans-le-golfe-persique-emmanuel-macron-cherche-une-issue-a-la-flambee-des-prix-du-carburant_6797585_3210.html",
+          "url": "https://www.lemonde.fr/societe/article/2026/10/21/au-proces-de-rima-hassan-pour-apologie-du-terrorisme-la-defense-tres-politique-de-l-eurodeputee-lfi_6798050_3224.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -153,27 +86,8 @@
           }
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/moyen-orient/20261020-apr%C3%A8s-le-kowe%C3%AFt-et-les-%C3%A9mirats-emmanuel-macron-poursuit-sa-tourn%C3%A9e-dans-le-golfe-au-bahre%C3%AFn-et-au-qatar",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Hécatombe par drones au Soudan et en Ukraine",
-      "pays": "Soudan / Ukraine",
-      "resume": "Au Soudan, 160 personnes ont été tuées dans une escalade d'attaques de drones, dont 80 dans un marché. En Ukraine, une frappe russe sur un parc à Kharkiv a tué six personnes, dont trois enfants.",
-      "sources": [
-        {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/en-ukraine-six-morts-dont-trois-enfants-dans-une-frappe-russe-dans-un-parc-pres-de-kharkiv_8244463.html",
+          "url": "https://www.franceinfo.fr/politique/la-france-insoumise/proces-de-rima-hassan-le-parquet-reclame-deux-ans-d-ineligibilite-et-dix-mois-de-prison-avec-sursis-contre-l-eurodeputee-jugee-pour-apologie-du-terrorisme_8245720.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -181,165 +95,255 @@
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
+        },
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/environnement/climat/episode-mediterraneen-sept-departements-en-vigilance-orange-mardi-20261020_3DIT5U3CSJDUVIHGNLOULKOMJU/",
+          "type": "mainstream"
+        },
+        {
+          "nom": "France 24 EN",
+          "url": "https://www.france24.com/en/europe/20261021-live-french-pm-lecornu-to-meet-with-unions-ahead-of-new-protests",
+          "type": "etranger"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Budget : l'exécutif sous pression à l'Assemblée",
+      "rubrique": "economie",
+      "resume": "Après les mobilisations du 17 octobre, le gouvernement fait face à une séance de questions tendue, critiqué jusque dans son propre camp pour sa gestion budgétaire. Mediapart décrit un pouvoir tentant de 'survivre au crash' politique (Mediapart, Libération).",
+      "sources": [
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/politique/201026/de-l-elysee-l-assemblee-le-pouvoir-tente-de-survivre-au-crash-du-17-octobre",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Mediapart",
+            "proprietaire": "Fonds pour une presse libre",
+            "type_proprietaire": "fondation",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/politique/fiasco-du-17-octobre-a-lassemblee-lexecutif-vivement-secoue-20261020_JY5SNNYSFFDWLPHCP35PAPGJO4/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Gifi demande son placement en redressement judiciaire",
+      "rubrique": "economie",
+      "resume": "L'enseigne de distribution à petit prix, qui emploie 6 000 salariés en France, a annoncé son intention de solliciter un redressement judiciaire suite à d'importantes difficultés financières. La direction assure qu'aucune suppression d'emploi n'est prévue immédiatement (20 Minutes, franceinfo).",
+      "sources": [],
+      "lien": null
+    }
+  ],
+  "monde": [
+    {
+      "titre": "Italie : 500 militaires déployés à Milan",
+      "pays": "Italie",
+      "resume": "Giorgia Meloni a ordonné le déploiement de l'armée à Milan suite à un week-end de heurts et de pillages. Le président Mattarella a toutefois limité leurs pouvoirs pour éviter qu'ils n'exercent des fonctions de police (France 24, Courrier International).",
+      "sources": [
+        {
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/europe/20261020-italie-heurts-weekend-militaires-deployes-milan-giorgia-meloni",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Courrier International",
+          "url": "https://www.courrierinternational.com/article/italie-routiers-mobilises-armee-envoyee-a-milan-une-meloni-de-fer-face-aux-mouvements-sociaux_279953",
+          "type": "etranger",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Nigeria : Premier cas d'Ebola détecté à Abuja",
+      "pays": "Nigeria",
+      "resume": "Une patiente en provenance d'Ouganda a été diagnostiquée porteuse du virus Ebola dans la capitale nigériane. Les autorités ont identifié 44 cas contacts pour freiner une éventuelle propagation (RFI, La Croix).",
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/afrique/20261021-un-premier-cas-d-ebola-bundibugyo-d%C3%A9tect%C3%A9-au-nigeria",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/international/epidemie-d-ebola-le-nigeria-detecte-son-premier-cas-a-abuja-20261020",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Accusations de l'exécutif contre l'ultra-gauche",
+    "sujet": "Tensions entre Jean-Luc Mélenchon et le gouvernement",
     "rubrique": "politique",
-    "contexte": "Après un week-end de violences urbaines et de pillages, le Premier ministre Sébastien Lecornu accuse l'ultra-gauche de vouloir déstabiliser le pays avant la présidentielle.",
+    "contexte": "Après un week-end de violences urbaines, le Premier ministre a invité les chefs de partis à Matignon. Jean-Luc Mélenchon a vivement réagi en promettant de 'pourrir la réunion'.",
     "couvertures": [
       {
-        "source": "franceinfo",
+        "source": "Le Figaro",
         "type": "mainstream",
-        "angle": "Relais institutionnel des propos du Premier ministre citant les services de renseignement.",
-        "ton": "factuel",
-        "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/video-le-premier-ministre-affirme-que-l-ultragauche-souhaite-organiser-un-desordre-profond-pour-remettre-en-cause-le-calendrier-de-l-election-presidentielle_8243908.html",
-        "citation_cle": "Cela nous a été dit clairement par les services de renseignements.",
+        "angle": "Focus sur l'agressivité verbale du leader de LFI et la responsabilité du parti dans le chaos.",
+        "ton": "critique",
+        "url": "https://www.lefigaro.fr/elections/presidentielles/candidats/partis-politiques-invites-a-matignon-apres-les-violences-on-va-y-aller-on-va-te-pourrir-la-reunion-dit-melenchon-a-lecornu-20261020",
+        "citation_cle": "On va y aller, on va te pourrir la réunion.",
         "auteur": null,
-        "proprietaire_contexte": "État français",
-        "orientation_source": "Centre",
-        "groupe_media": {
-          "nom": "France Télévisions",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
-        }
+        "proprietaire_contexte": "Groupe Dassault",
+        "orientation_source": "Droite",
+        "groupe_media": null
       },
       {
-        "source": "France 24 EN",
-        "type": "etranger",
-        "angle": "Analyse de l'impact politique de ces déclarations sur la campagne présidentielle à venir.",
-        "ton": "neutre",
-        "url": "https://www.france24.com/en/video/20261019-french-pm-says-ultra-left-seeking-deep-unrest-ahead-of-election",
-        "citation_cle": "L'ultra-gauche cherche à orchestrer un désordre profond à travers le pays.",
-        "auteur": "Angela Diffley",
-        "proprietaire_contexte": "État français",
-        "orientation_source": "Centre",
+        "source": "Libération",
+        "type": "mainstream",
+        "angle": "Analyse du rapport de force et des 'tirs croisés' entre l'exécutif et les Insoumis.",
+        "ton": "factuel",
+        "url": "https://www.liberation.fr/societe/police-justice/en-direct-violences-la-nuit-a-ete-calme-dans-les-villes-qui-ont-instaure-un-couvre-feu-partiel-20261020_VKFVMZ23E5FPDAHO7X7FO6BG74/",
+        "citation_cle": "L'exécutif et son parti se renvoient la responsabilité des scènes de chaos.",
+        "auteur": "Service Photo, AFP",
+        "proprietaire_contexte": "Fonds de dotation (Indépendant)",
+        "orientation_source": "Centre-gauche",
         "groupe_media": {
-          "nom": "France Médias Monde",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
         }
       }
     ],
-    "analyse_coherence": "On observe une divergence nette dans la qualification des événements. Tandis que les médias de service public (franceinfo, France 24) se font les relais quasi exclusifs de la parole gouvernementale, centrant le récit sur une menace 'ultra-gauche' documentée par le renseignement, la presse d'investigation (Mediapart) déplace le curseur sur la réponse policière. Un double standard apparaît : le gouvernement invoque le respect des institutions pour dénoncer les pillages, mais reste silencieux sur les agressions visant des élus (comme Landry Ngang à Saint-Denis), pourtant eux aussi représentants de l'institution démocratique. L'usage du terme 'ultra-gauche' par Sébastien Lecornu agit ici comme un outil de disqualification politique globale, englobant sans distinction casseurs et élus contestataires, une stratégie peu questionnée par les sources mainstream qui privilégient le cadre sécuritaire imposé par l'exécutif.",
+    "analyse_coherence": "La couverture médiatique de cette crise révèle une polarisation extrême. D'un côté, les médias de droite comme Le Figaro (propriété du groupe Dassault) se concentrent quasi exclusivement sur la rhétorique belliqueuse de Jean-Luc Mélenchon, le présentant comme l'instigateur du désordre. À l'opposé, les médias internationaux comme France 24 ou Al Jazeera mettent en perspective les causes sociales (coût de la vie) et la réponse sécuritaire jugée 'massive' par l'exécutif. On observe un double standard flagrant : alors que le gouvernement qualifie les actions de LFI d'incitation à l'insurrection, la presse étrangère souligne que ces émeutes touchent des milliers de commerces et reflètent une crise de gouvernance plus profonde à six mois des élections. L'usage du terme 'ultra-gauche' par le Premier ministre Lecornu (cité par France 24 EN) est repris sans critique par une partie de la presse nationale, tandis que les sociologues cités par L'Obs ou Alternatives Économiques rappellent que c'est le 'sentiment d'avenir confisqué' qui alimente la colère des jeunes, une dimension souvent occultée par le prisme sécuritaire dominant.",
     "biais_detectes": [
-      "Cadrage sécuritaire dominant",
-      "Invisibilisation des violences policières dans le discours officiel",
-      "Amalgame politique"
+      "Criminalisation de l'opposition politique",
+      "Sur-représentation de l'angle sécuritaire au détriment de l'analyse sociale",
+      "Usage de termes disqualifiants (insurrection, ultra-gauche) sans mise en perspective"
     ],
-    "ce_quil_faut_retenir": "Le gouvernement durcit son discours sécuritaire en ciblant l'ultra-gauche, tandis que des incidents impliquant les forces de l'ordre contre des élus locaux émergent, illustrant une tension démocratique croissante."
+    "ce_quil_faut_retenir": "Le débat politique se déplace de la rue vers Matignon dans un climat de défiance totale. L'exécutif mise sur la fermeté sécuritaire tandis que l'opposition insoumise utilise la provocation pour maintenir la pression."
   },
   "regard_etranger": [
     {
+      "source": "Al Jazeera",
+      "pays": "Qatar",
+      "titre": "Les émeutes en France laissent des milliers de commerces endommagés",
+      "titre_original": "France riots leave thousands of businesses damaged",
+      "angle": "Focus sur les pertes économiques dévastatrices pour les petits commerçants.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/france-riots-leave-thousands-of-businesses-damaged",
+      "groupe_media": {
+        "nom": "Al Jazeera Media Network",
+        "proprietaire": "État du Qatar",
+        "type_proprietaire": "etat",
+        "orientation": "variable"
+      }
+    },
+    {
       "source": "France 24 EN",
       "pays": "France/International",
-      "titre": "France : couvre-feux localisés annoncés après un week-end de violence",
-      "titre_original": "France: ‘localised’ curfews announced after weekend of violence",
-      "angle": "Focus sur les mesures d'exception et le possible état d'urgence.",
-      "url": "https://www.france24.com/en/france-localised-curfews-announced-after-weekend-scenes-of-violence",
+      "titre": "Le Premier ministre français promet un déploiement policier 'massif'",
+      "titre_original": "French PM vows 'massive' police deployment for new demonstrations",
+      "angle": "Vision d'une France sous tension sécuritaire maximale avant de nouvelles manifestations.",
+      "url": "https://www.france24.com/en/french-pm-vows-massive-police-deployment-for-new-demonstrations",
       "groupe_media": {
         "nom": "France Médias Monde",
         "proprietaire": "État français",
         "type_proprietaire": "etat",
         "orientation": "centre"
       }
-    },
-    {
-      "source": "Courrier international",
-      "pays": "International",
-      "titre": "Les troubles en France inquiètent les investisseurs étrangers",
-      "titre_original": "Les troubles en France inquiètent les investisseurs étrangers",
-      "angle": "Inquiétude sur l'attractivité économique et l'écart de taux avec l'Allemagne.",
-      "url": "https://www.courrierinternational.com/article/economie-les-troubles-en-france-inquietent-les-investisseurs-etrangers_279826",
-      "groupe_media": {
-        "nom": "Groupe Le Monde",
-        "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-        "type_proprietaire": "milliardaire",
-        "orientation": "centre-droit"
-      }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "160",
-    "contexte": "Nombre de personnes tuées dans une escalade d'attaques de drones au Soudan, touchant principalement des civils et des infrastructures.",
-    "source": "Al Jazeera",
-    "source_url": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan"
+    "valeur": "178 ans",
+    "contexte": "Le délai entre l'abolition de l'esclavage en 1848 et l'abrogation officielle du Code noir par le Parlement ce 20 octobre 2026.",
+    "source": "franceinfo",
+    "source_url": "https://www.franceinfo.fr/societe/racisme/le-parlement-abroge-definitivement-le-code-noir-qui-reglementait-l-esclavage-dans-les-colonies-francaises-apres-un-vote-a-l-unanimite-du-senat_8245921.html"
   },
   "a_surveiller": [
     {
-      "date": "2026-10-24",
-      "evenement": "Nouvelle manifestation à Marseille avec dispositif policier renforcé",
-      "type": "manifestation",
-      "lien": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/le-ministre-de-l-interieur-promet-un-dispositif-policier-plus-nombreux-a-marseille-pour-la-nouvelle-journee-de-manifestation-prevue-samedi_8244700.html"
+      "date": "2026-10-22",
+      "evenement": "Vote des dotations globales de fonctionnement des lycées en Auvergne-Rhône-Alpes",
+      "type": "vote",
+      "lien": "https://www.mediacites.fr/enquete/lyon/2026/10/20/financement-des-lycees-par-la-region-auvergne-rhone-alpes-les-gagnants-et-les-perdants-de-2027/"
     },
     {
-      "date": "2026-10-20",
-      "evenement": "Publication officielle de l'interdiction de DeepSeek au Federal Register US",
-      "type": "publication",
-      "lien": "https://public-inspection.federalregister.gov/2026-21447.pdf"
+      "date": "2026-11-30",
+      "evenement": "Délibéré du jugement de Rima Hassan pour apologie du terrorisme",
+      "type": "echeance",
+      "lien": "https://www.liberation.fr/societe/police-justice/proces-de-rima-hassan-pour-apologie-du-terrorisme-10-mois-de-prison-avec-sursis-requis-contre-lelue-lfi-20261020_NJREW6N4K5A7DGS6BRDN672A4E/"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Vidéosurveillance algorithmique à Toulouse : le flou juridique",
+      "titre": "Strasbourg : Les quartiers périphériques 'punis' par les transports",
       "rubrique": "societe",
-      "resume": "La mairie de Toulouse a expérimenté un logiciel d'analyse automatisée des images pour détecter des 'comportements anormaux'. Des juristes dénoncent une dérive illégale vers la reconnaissance faciale sous couvert d'expérimentation.",
+      "resume": "Suite à l'agression d'un chauffeur, la CTS interrompt les bus dès 17h et les trams dès 20h dans certains quartiers. Rue89 Strasbourg dénonce une 'punition collective' pour des milliers d'habitants déjà précaires.",
       "sources": [
         {
-          "nom": "Médiacités",
-          "url": "https://www.mediacites.fr/enquete/toulouse/2026/10/19/videosurveillance-algorithmique-toulouse-a-experimente-un-logiciel-de-controverse/",
+          "nom": "Rue89 Strasbourg",
+          "url": null,
           "type": "investigation"
         },
         {
-          "nom": "Marchés Publics Toulouse",
-          "url": "https://toulouse-metropole.marches-publics.info/avis/index.cfm?IDS=4490&fuseaction=pub.affPublication&refPub=MPI-pub-20252551185&serveur=MPI",
+          "nom": "CTS (Source primaire)",
+          "url": null,
           "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "Le sujet est masqué par le bilan des dégradations (500 000 €), mais l'installation pérenne de ces outils algorithmiques pose un précédent majeur pour les libertés publiques."
+      "pourquoi_signal": "Cette gestion sécuritaire des transports publics crée une ségrégation spatiale nocturne ignorée par les médias nationaux."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Gaza : 500 000 personnes privées d'aide alimentaire",
+      "titre": "Cisjordanie : La récolte des olives sous la terreur des colons",
       "rubrique": "international",
-      "resume": "Faute de fonds, le PAM réduit d'un tiers son aide à Gaza. Le nombre de bénéficiaires chute de 1,6 à 1,1 million de personnes à l'approche de l'hiver.",
+      "resume": "Depuis le 15 octobre, les attaques de colons contre les agriculteurs palestiniens se multiplient, incluant des agressions contre des diplomates européens.",
       "axes_concernes": [
+        "colonialisme",
         "droit_international",
-        "justice_sociale"
+        "droits_humains"
       ],
-      "analyse": "Cette coupe drastique dans l'aide vitale est une violation de fait du droit à l'alimentation. Alors que l'attention se porte sur les tournées diplomatiques, l'asphyxie financière des agences de l'ONU crée une famine organisée par l'inaction des donateurs internationaux. Le silence des grandes puissances sur ce désengagement est une faillite morale.",
+      "analyse": "L'expansion coloniale utilise la violence physique pour entraver une ressource vitale (l'olive). Le silence ou l'impuissance de la communauté internationale face à des attaques visant même des diplomates (Associated Press) marque une rupture inquiétante avec le droit international. Cette situation documentée par l'OCHA et France 24 montre une accélération de l'annexion de fait de la Cisjordanie.",
       "sources": [
         {
-          "nom": "WFP / PAM",
-          "url": "https://www.wfp.org/news/funding-cuts-force-wfp-drastically-reduce-lifesaving-assistance-gaza",
-          "type": "institutionnel"
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/moyen-orient/20261020-oliveraies-cisjordanie-colons-attaques-armee-israel",
+          "type": "mainstream"
         },
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/19/cuts-world-food-programme-end-support-palestinians-gaza",
-          "type": "etranger"
+          "nom": "OCHA (Nations Unies)",
+          "url": "https://www.ochaopt.org/content/humanitarian-situation-report-15-october-2026",
+          "type": "institutionnel"
         }
       ]
     }
   ],
-  "date": "2026-10-20",
-  "genere_a": "2026-10-20T04:34:13.709Z",
+  "date": "2026-10-21",
+  "genere_a": "2026-10-21T04:34:32.416Z",
   "meta": {
-    "nb_articles_analyses": 730,
-    "nb_topics": 219,
+    "nb_articles_analyses": 764,
+    "nb_topics": 222,
     "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 36,
-    "sources_francaises": 472,
-    "sources_etrangeres": 258,
+    "nb_articles_dans_selection": 42,
+    "sources_francaises": 498,
+    "sources_etrangeres": 266,
     "rubriques_couvertes": [
-      "tech",
       "societe",
+      "politique",
       "economie",
       "international"
     ],
