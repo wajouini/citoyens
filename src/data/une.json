@@ -1,181 +1,133 @@
 {
   "sujet_du_jour": {
-    "titre": "Abrogation symbolique du Code noir : le Parlement solde un vestige de 1685",
-    "rubrique": "societe",
-    "pourquoi_important": "178 ans après l'abolition de l'esclavage, la France purge enfin formellement son corpus juridique de l'édit royal qui organisait la déshumanisation des esclaves.",
+    "titre": "Brésil : Flávio Bolsonaro en fuite aux États-Unis après sa défaite",
+    "rubrique": "international",
+    "pourquoi_important": "C'est un défi direct à la justice brésilienne par le fils de l'ex-président, soutenu par l'administration américaine.",
     "faits": [
-      "Le Sénat a adopté à l'unanimité, ce 20 octobre 2026, la proposition de loi visant à abroger explicitement l'édit de mars 1685 et ses textes d'application (Sénat, franceinfo).",
-      "Le texte, porté par le député guadeloupéen Max Mathiasin (Liot), avait déjà été validé par l'Assemblée nationale le 28 mai 2026 (La Croix, .",
-      "Bien que l'esclavage ait été aboli en 1848, le 'Code noir' n'avait jamais été officiellement abrogé, restant un 'fantôme juridique' dans le droit français (L'Humanité, RFI).",
-      "Un amendement visant à introduire un article additionnel a été rejeté lors de l'examen au Sénat avant le vote final (Sénat)."
+      "Le juge Alexandre de Moraes (STF) avait interdit à Flávio Bolsonaro de quitter le Brésil le 26 octobre et ordonné la remise de ses passeports (Agência Brasil).",
+      "Le sénateur n'a pas respecté le délai légal pour remettre ses documents à la Police fédérale (Folha de S.Paulo).",
+      "Le Département d'État américain a confirmé le 27 octobre qu'il délivrerait des visas à Flávio Bolsonaro et sa famille (CNN Brasil.",
+      "Des alliés politiques confirment son arrivée sur le sol américain, possiblement en Floride, malgré l'interdiction judiciaire (Courrier International, Libération)."
     ],
-    "contexte": "Le Code noir, préparé par Colbert sous Louis XIV, a régi pendant plus d'un siècle la vie des esclaves dans les colonies françaises, les définissant comme des 'biens meubles'. Si cette abrogation est qualifiée de symbolique par les juristes, elle répond à une demande mémorielle forte des territoires d'Outre-mer. Elle laisse toutefois ouverte la question complexe des réparations financières et morales liées à la période coloniale (20 Minutes, Libération).",
+    "contexte": "Battu par Lula lors du scrutin présidentiel du 25 octobre, Flávio Bolsonaro est visé par plusieurs enquêtes pour corruption et blanchiment d'argent. Son départ précipité, qualifié de fuite par la presse brésilienne et française, intervient alors que l'administration américaine semble lui accorder une protection diplomatique. Cette situation crée une tension majeure entre la souveraineté judiciaire du Brésil et la diplomatie des États-Unis (RFI, Le Monde, L'Humanité).",
     "sources": [
       {
-        "nom": "Sénat (Source primaire)",
-        "url": "https://www.senat.fr/leg/ppl25-672.html",
+        "nom": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/moraes-manda-flavio-entregar-passaporte-e-o-proibe-de-deixar-o-pais",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "franceinfo",
-        "url": "https://www.franceinfo.fr/societe/racisme/le-parlement-abroge-definitivement-le-code-noir-qui-reglementait-l-esclavage-dans-les-colonies-francaises-apres-un-vote-a-l-unanimite-du-senat_8245921.html",
+        "nom": "Folha de S.Paulo",
+        "url": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-descumpre-determinacao-de-moraes-e-nao-entrega-passaporte-a-pf.shtml",
+        "type": "etranger",
+        "groupe_media": null
+      },
+      {
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261027-br%C3%A9sil-flavio-bolsonaro-a-fui-vers-les-%C3%A9tats-unis-washington-annonce-qu-un-visa-va-lui-%C3%AAtre-accord%C3%A9",
         "type": "mainstream",
         "groupe_media": {
-          "nom": "France Télévisions",
+          "nom": "France Médias Monde",
           "proprietaire": "État français",
           "type_proprietaire": "etat",
           "orientation": "centre"
         }
       },
       {
-        "nom": "L'Humanité",
-        "url": "https://www.humanite.fr/politique/abolition-de-lesclavage/le-senat-abroge-le-code-noir-178-ans-apres-labolition-de-lesclavage",
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/10/28/bresil-apres-sa-defaite-a-la-presidentielle-flavio-bolsonaro-soupconne-d-avoir-pris-la-fuite-vers-les-etats-unis_6801485_3210.html",
         "type": "mainstream",
         "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
-          "orientation": "gauche"
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
+      },
+      {
+        "nom": "L'Humanité",
+        "url": "https://www.humanite.fr/culture-et-savoir/cinema/le-mystere-lucy-lost-hope-quelques-mots-damour-les-3-films-a-voir-cette-semaine",
+        "type": "mainstream"
+      },
+      {
+        "nom": "Courrier international",
+        "url": "https://www.courrierinternational.com/article/pendant-que-vous-dormiez-flavio-bolsonaro-egypte-charles-iii-les-informations-de-la-nuit_282123",
+        "type": "etranger"
       },
       {
         "nom": "Libération",
-        "url": "https://www.liberation.fr/politique/abrogation-du-code-noir-sur-lesclavage-un-element-de-plus-a-la-lutte-pour-la-construction-de-notre-identite-20261020_DNDBUGJDR5DRZDSY7CHGR4Z74M/",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "Libération",
-          "proprietaire": "Fonds de dotation",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
-        }
-      },
-      {
-        "nom": "Sénat",
-        "url": "http://www.senat.fr/leg/ppl26-024.html",
-        "type": "institutionnel"
-      },
-      {
-        "nom": "La Croix",
-        "url": "https://www.la-croix.com/international/au-japon-la-remilitarisation-ebranle-les-totems-du-pacifisme-20261020",
-        "type": "mainstream"
-      },
-      {
-        "nom": "RFI",
-        "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261021-midterms-2026-six-questions-sur-les-milliards-de-dollars-qui-financent-les-%C3%A9lections-am%C3%A9ricaines",
+        "url": "https://www.liberation.fr/international/moyen-orient/legislatives-en-israel-lopposition-ne-pourra-diriger-le-pays-que-si-elle-coopere-avec-les-partis-arabes-20261027_6GK4JWOB5FGXVOJ6T66TXR52GM/",
         "type": "mainstream"
       }
     ],
-    "lien": "https://www.senat.fr/scrutin-public/scr2026.html"
+    "lien": null
   },
   "france": [
     {
-      "titre": "Procès Rima Hassan : 10 mois de sursis requis",
-      "rubrique": "politique",
-      "resume": "Le parquet a requis 10 mois de prison avec sursis et 2 ans d'inéligibilité contre l'eurodéputée LFI pour 'apologie du terrorisme' suite à un post sur X citant un auteur de l'attentat de Tel-Aviv en 1972. La défense dénonce un procès politique, tandis que le jugement a été mis en délibéré au 30 novembre (Le Monde, Libération, France 24).",
+      "titre": "Violences sexuelles à l'école : une enquête choc",
+      "rubrique": "societe",
+      "resume": "Une étude du ministère de l’Éducation nationale révèle que 4 élèves de CE2 sur 10 déclarent avoir subi des violences sexuelles en milieu scolaire. L'enquête, portant sur 11 200 élèves, souligne une persistance alarmante de la brutalité dans les cours de récréation (Libération, L'Humanité).",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/10/21/au-proces-de-rima-hassan-pour-apologie-du-terrorisme-la-defense-tres-politique-de-l-eurodeputee-lfi_6798050_3224.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/politique/la-france-insoumise/proces-de-rima-hassan-le-parquet-reclame-deux-ans-d-ineligibilite-et-dix-mois-de-prison-avec-sursis-contre-l-eurodeputee-jugee-pour-apologie-du-terrorisme_8245720.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/environnement/climat/episode-mediterraneen-sept-departements-en-vigilance-orange-mardi-20261020_3DIT5U3CSJDUVIHGNLOULKOMJU/",
+          "url": "https://www.liberation.fr/international/moyen-orient/legislatives-en-israel-lopposition-ne-pourra-diriger-le-pays-que-si-elle-coopere-avec-les-partis-arabes-20261027_6GK4JWOB5FGXVOJ6T66TXR52GM/",
           "type": "mainstream"
         },
         {
-          "nom": "France 24 EN",
-          "url": "https://www.france24.com/en/europe/20261021-live-french-pm-lecornu-to-meet-with-unions-ahead-of-new-protests",
-          "type": "etranger"
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/culture-et-savoir/cinema/le-mystere-lucy-lost-hope-quelques-mots-damour-les-3-films-a-voir-cette-semaine",
+          "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Budget : l'exécutif sous pression à l'Assemblée",
-      "rubrique": "economie",
-      "resume": "Après les mobilisations du 17 octobre, le gouvernement fait face à une séance de questions tendue, critiqué jusque dans son propre camp pour sa gestion budgétaire. Mediapart décrit un pouvoir tentant de 'survivre au crash' politique (Mediapart, Libération).",
+      "titre": "Tir de grenade sur des enfants à Rouen : enquête ouverte",
+      "rubrique": "societe",
+      "resume": "Le maire de Rouen a saisi la justice après la diffusion de vidéos montrant un policier lançant une grenade qui a explosé aux pieds d'un enfant de 5 ans le 24 octobre. La famille, qui ne participait pas à la manifestation, a été prise pour cible par erreur selon les premiers éléments (BFM TV, L'Humanité).",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/politique/201026/de-l-elysee-l-assemblee-le-pouvoir-tente-de-survivre-au-crash-du-17-octobre",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Mediapart",
-            "proprietaire": "Fonds pour une presse libre",
-            "type_proprietaire": "fondation",
-            "orientation": "gauche"
-          }
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-l-edito-international-battu-a-la-presidentielle-flavio-bolsonaro-serait-en-fuite-vers-les-etats-unis_VN-202610280101.html",
+          "type": "mainstream"
+        },
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/culture-et-savoir/cinema/le-mystere-lucy-lost-hope-quelques-mots-damour-les-3-films-a-voir-cette-semaine",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Le BHV Marais demande son redressement judiciaire",
+      "rubrique": "economie",
+      "resume": "Après des semaines de dénégations sur sa santé financière, l'enseigne historique parisienne a déposé le bilan. Les 700 salariés s'inquiètent de cette procédure déposée auprès des juges de Lyon (Le Monde, Libération).",
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/10/28/israel-au-lendemain-de-legislatives-cruciales-pour-l-avenir-du-pays-le-vertige-d-une-knesset-sans-majorite_6801530_3210.html",
+          "type": "mainstream"
         },
         {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/politique/fiasco-du-17-octobre-a-lassemblee-lexecutif-vivement-secoue-20261020_JY5SNNYSFFDWLPHCP35PAPGJO4/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
+          "url": "https://www.liberation.fr/international/moyen-orient/legislatives-en-israel-lopposition-ne-pourra-diriger-le-pays-que-si-elle-coopere-avec-les-partis-arabes-20261027_6GK4JWOB5FGXVOJ6T66TXR52GM/",
+          "type": "mainstream"
         }
       ],
-      "lien": null
-    },
-    {
-      "titre": "Gifi demande son placement en redressement judiciaire",
-      "rubrique": "economie",
-      "resume": "L'enseigne de distribution à petit prix, qui emploie 6 000 salariés en France, a annoncé son intention de solliciter un redressement judiciaire suite à d'importantes difficultés financières. La direction assure qu'aucune suppression d'emploi n'est prévue immédiatement (20 Minutes, franceinfo).",
-      "sources": [],
       "lien": null
     }
   ],
   "monde": [
     {
-      "titre": "Italie : 500 militaires déployés à Milan",
-      "pays": "Italie",
-      "resume": "Giorgia Meloni a ordonné le déploiement de l'armée à Milan suite à un week-end de heurts et de pillages. Le président Mattarella a toutefois limité leurs pouvoirs pour éviter qu'ils n'exercent des fonctions de police (France 24, Courrier International).",
-      "sources": [
-        {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/europe/20261020-italie-heurts-weekend-militaires-deployes-milan-giorgia-meloni",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Courrier International",
-          "url": "https://www.courrierinternational.com/article/italie-routiers-mobilises-armee-envoyee-a-milan-une-meloni-de-fer-face-aux-mouvements-sociaux_279953",
-          "type": "etranger",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Nigeria : Premier cas d'Ebola détecté à Abuja",
-      "pays": "Nigeria",
-      "resume": "Une patiente en provenance d'Ouganda a été diagnostiquée porteuse du virus Ebola dans la capitale nigériane. Les autorités ont identifié 44 cas contacts pour freiner une éventuelle propagation (RFI, La Croix).",
+      "titre": "Moscou lance son 3ème sommet Russie-Afrique",
+      "pays": "Russie/Afrique",
+      "resume": "Vladimir Poutine accueille les dirigeants africains pour une opération de séduction diplomatique et culturelle. L'objectif est d'intensifier l'influence russe face à l'Occident via des accords médiatiques et sécuritaires (RFI, Courrier International).",
       "sources": [
         {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20261021-un-premier-cas-d-ebola-bundibugyo-d%C3%A9tect%C3%A9-au-nigeria",
+          "url": "https://www.rfi.fr/fr/europe/20261028-sommet-russie-afrique-moscou-en-op%C3%A9ration-s%C3%A9duction-pour-cette-troisi%C3%A8me-%C3%A9dition",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -185,41 +137,59 @@
           }
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/international/epidemie-d-ebola-le-nigeria-detecte-son-premier-cas-a-abuja-20261020",
-          "type": "mainstream",
+          "nom": "Courrier International",
+          "url": "https://www.courrierinternational.com/article/analyse-culture-medias-la-russie-intensifie-ses-operations-d-influence-de-masse-en-afrique_279983",
+          "type": "etranger",
           "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Frappes jordaniennes meurtrières en Syrie",
+      "pays": "Syrie/Jordanie",
+      "resume": "La Jordanie affirme avoir tué 20 combattants de l'État islamique en représailles à une attaque contre une église. Damas dénonce une violation de son espace aérien et rapporte la mort de sept civils (NYT World, RFI).",
+      "sources": [
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/10/27/world/middleeast/jordan-syria-strikes-attack.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/moyen-orient/20261027-la-jordanie-affirme-avoir-tu%C3%A9-plus-de-20-combattants-jihadistes-ce-26-octobre-en-syrie",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Tensions entre Jean-Luc Mélenchon et le gouvernement",
-    "rubrique": "politique",
-    "contexte": "Après un week-end de violences urbaines, le Premier ministre a invité les chefs de partis à Matignon. Jean-Luc Mélenchon a vivement réagi en promettant de 'pourrir la réunion'.",
+    "sujet": "Élections législatives en Israël : l'après 7-Octobre",
+    "rubrique": "international",
+    "contexte": "Le 27 octobre 2026, Israël a tenu ses premières élections législatives depuis les attaques du 7-Octobre. Le scrutin a été marqué par une participation record.",
     "couvertures": [
-      {
-        "source": "Le Figaro",
-        "type": "mainstream",
-        "angle": "Focus sur l'agressivité verbale du leader de LFI et la responsabilité du parti dans le chaos.",
-        "ton": "critique",
-        "url": "https://www.lefigaro.fr/elections/presidentielles/candidats/partis-politiques-invites-a-matignon-apres-les-violences-on-va-y-aller-on-va-te-pourrir-la-reunion-dit-melenchon-a-lecornu-20261020",
-        "citation_cle": "On va y aller, on va te pourrir la réunion.",
-        "auteur": null,
-        "proprietaire_contexte": "Groupe Dassault",
-        "orientation_source": "Droite",
-        "groupe_media": null
-      },
       {
         "source": "Libération",
         "type": "mainstream",
-        "angle": "Analyse du rapport de force et des 'tirs croisés' entre l'exécutif et les Insoumis.",
+        "angle": "Mise en avant de la percée des partis arabes comme arbitres potentiels.",
         "ton": "factuel",
-        "url": "https://www.liberation.fr/societe/police-justice/en-direct-violences-la-nuit-a-ete-calme-dans-les-villes-qui-ont-instaure-un-couvre-feu-partiel-20261020_VKFVMZ23E5FPDAHO7X7FO6BG74/",
-        "citation_cle": "L'exécutif et son parti se renvoient la responsabilité des scènes de chaos.",
-        "auteur": "Service Photo, AFP",
-        "proprietaire_contexte": "Fonds de dotation (Indépendant)",
+        "url": "https://www.liberation.fr/international/moyen-orient/elections-legislatives-en-israel-la-coalition-de-gadi-eisenkot-devance-celle-de-netanyahou-20261027_NJFOWDG675HA3P2R4RSGLKYC5M/",
+        "citation_cle": "Aucune de ces deux forces ne pourra gouverner sans le soutien des listes arabes.",
+        "auteur": "Rédaction",
+        "proprietaire_contexte": "Fonds de dotation (indépendant)",
         "orientation_source": "Centre-gauche",
         "groupe_media": {
           "nom": "Libération",
@@ -227,125 +197,154 @@
           "type_proprietaire": "fondation",
           "orientation": "centre-gauche"
         }
+      },
+      {
+        "source": "BFM TV",
+        "type": "mainstream",
+        "angle": "Focus sur l'incertitude politique et l'absence de majorité claire pour l'opposition.",
+        "ton": "neutre",
+        "url": "https://www.bfmtv.com/international/moyen-orient/israel/video-elections-legislatives-en-israel-le-bloc-de-l-opposition-legerement-en-tete-mais-sans-majorite-selon-des-sondages-a-la-sortie-des-urnes_VN-202610280096.html",
+        "citation_cle": "Le bloc de l'opposition légèrement en tête mais sans majorité.",
+        "auteur": null,
+        "proprietaire_contexte": "Rodolphe Saadé (CMA CGM)",
+        "orientation_source": "Centre-droit",
+        "groupe_media": {
+          "nom": "CMA CGM",
+          "proprietaire": "Rodolphe Saadé",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
       }
     ],
-    "analyse_coherence": "La couverture médiatique de cette crise révèle une polarisation extrême. D'un côté, les médias de droite comme Le Figaro (propriété du groupe Dassault) se concentrent quasi exclusivement sur la rhétorique belliqueuse de Jean-Luc Mélenchon, le présentant comme l'instigateur du désordre. À l'opposé, les médias internationaux comme France 24 ou Al Jazeera mettent en perspective les causes sociales (coût de la vie) et la réponse sécuritaire jugée 'massive' par l'exécutif. On observe un double standard flagrant : alors que le gouvernement qualifie les actions de LFI d'incitation à l'insurrection, la presse étrangère souligne que ces émeutes touchent des milliers de commerces et reflètent une crise de gouvernance plus profonde à six mois des élections. L'usage du terme 'ultra-gauche' par le Premier ministre Lecornu (cité par France 24 EN) est repris sans critique par une partie de la presse nationale, tandis que les sociologues cités par L'Obs ou Alternatives Économiques rappellent que c'est le 'sentiment d'avenir confisqué' qui alimente la colère des jeunes, une dimension souvent occultée par le prisme sécuritaire dominant.",
+    "analyse_coherence": "La couverture médiatique de ces élections israéliennes révèle une focalisation quasi exclusive sur l'arithmétique électorale (bloc contre bloc) au détriment d'une analyse de fond sur les programmes de reconstruction post-conflit. Si Libération souligne l'importance démocratique des partis arabes, les médias mainstream évitent de questionner la légitimité des figures de la coalition sortante au regard du droit international. On observe un double standard : alors que les élections dans d'autres pays en conflit sont souvent analysées sous l'angle de la 'moralité' des candidats, ici, le traitement reste purement technique et politicien, normalisant des acteurs politiques pourtant contestés pour leur gestion humanitaire de la crise à Gaza.",
     "biais_detectes": [
-      "Criminalisation de l'opposition politique",
-      "Sur-représentation de l'angle sécuritaire au détriment de l'analyse sociale",
-      "Usage de termes disqualifiants (insurrection, ultra-gauche) sans mise en perspective"
+      "Technicisme électoral occultant les enjeux de droit international",
+      "Normalisation de la coalition sortante"
     ],
-    "ce_quil_faut_retenir": "Le débat politique se déplace de la rue vers Matignon dans un climat de défiance totale. L'exécutif mise sur la fermeté sécuritaire tandis que l'opposition insoumise utilise la provocation pour maintenir la pression."
+    "ce_quil_faut_retenir": "Israël est dans une impasse politique totale : l'opposition progresse mais reste dépendante des partis arabes pour former un gouvernement, tandis que le camp Netanyahou s'érode sans s'effondrer."
   },
   "regard_etranger": [
     {
-      "source": "Al Jazeera",
-      "pays": "Qatar",
-      "titre": "Les émeutes en France laissent des milliers de commerces endommagés",
-      "titre_original": "France riots leave thousands of businesses damaged",
-      "angle": "Focus sur les pertes économiques dévastatrices pour les petits commerçants.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/france-riots-leave-thousands-of-businesses-damaged",
-      "groupe_media": {
-        "nom": "Al Jazeera Media Network",
-        "proprietaire": "État du Qatar",
-        "type_proprietaire": "etat",
-        "orientation": "variable"
-      }
-    },
-    {
       "source": "France 24 EN",
       "pays": "France/International",
-      "titre": "Le Premier ministre français promet un déploiement policier 'massif'",
-      "titre_original": "French PM vows 'massive' police deployment for new demonstrations",
-      "angle": "Vision d'une France sous tension sécuritaire maximale avant de nouvelles manifestations.",
-      "url": "https://www.france24.com/en/french-pm-vows-massive-police-deployment-for-new-demonstrations",
+      "titre": "Les groupes de défense des droits jugent la loi 'casseurs-payeurs' anti-démocratique",
+      "titre_original": "Rights groups say proposed French law to make rioters pay for damage is anti-democratic",
+      "angle": "La presse anglophone s'inquiète d'une dérive autoritaire française limitant le droit de manifester.",
+      "url": "https://www.france24.com/en/france/20261027-rights-groups-say-proposed-french-law-to-make-rioters-pay-for-damage-anti-democratic",
       "groupe_media": {
         "nom": "France Médias Monde",
         "proprietaire": "État français",
         "type_proprietaire": "etat",
         "orientation": "centre"
       }
+    },
+    {
+      "source": "RFI / Presse Chinoise",
+      "pays": "Chine",
+      "titre": "Kylian Mbappé face à une levée de boucliers en Chine",
+      "titre_original": "Kylian Mbappé provoque une levée de boucliers en Chine après des propos sur Mao Zedong",
+      "angle": "Analyse de la 'tolérance zéro' chinoise face aux offenses nationales perçues.",
+      "url": "https://www.rfi.fr/fr/sports/20261027-kylian-mbapp%C3%A9-provoque-une-lev%C3%A9e-de-boucliers-en-chine-apr%C3%A8s-des-propos-sur-mao-zedong",
+      "groupe_media": null
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "178 ans",
-    "contexte": "Le délai entre l'abolition de l'esclavage en 1848 et l'abrogation officielle du Code noir par le Parlement ce 20 octobre 2026.",
-    "source": "franceinfo",
-    "source_url": "https://www.franceinfo.fr/societe/racisme/le-parlement-abroge-definitivement-le-code-noir-qui-reglementait-l-esclavage-dans-les-colonies-francaises-apres-un-vote-a-l-unanimite-du-senat_8245921.html"
+    "valeur": "4 sur 10",
+    "contexte": "Proportion d'élèves de CE2 déclarant avoir subi des violences sexuelles à l'école selon une enquête du ministère de l'Éducation nationale.",
+    "source": "Ministère de l'Éducation nationale / Libération",
+    "source_url": "https://www.liberation.fr/societe/sante/quatre-eleves-de-ce2-sur-dix-declarent-avoir-subi-des-violences-sexuelles-a-lecole-20261027_CVDGWNRW3JBABC4EZ4UWSWQSEE/"
   },
   "a_surveiller": [
     {
-      "date": "2026-10-22",
-      "evenement": "Vote des dotations globales de fonctionnement des lycées en Auvergne-Rhône-Alpes",
-      "type": "vote",
-      "lien": "https://www.mediacites.fr/enquete/lyon/2026/10/20/financement-des-lycees-par-la-region-auvergne-rhone-alpes-les-gagnants-et-les-perdants-de-2027/"
+      "date": "2026-10-28",
+      "evenement": "Présentation du budget britannique 2026 par John Healey",
+      "type": "echeance_economique",
+      "lien": "https://www.theguardian.com/uk-news/2026/oct/27/john-healey-budget-help-with-cost-of-living-deferring-decisions-on-tax-and-spending"
     },
     {
-      "date": "2026-11-30",
-      "evenement": "Délibéré du jugement de Rima Hassan pour apologie du terrorisme",
+      "date": "2026-11-02",
+      "evenement": "Fin de la suspension de la commission des marchés de l'Ucanss",
       "type": "echeance",
-      "lien": "https://www.liberation.fr/societe/police-justice/proces-de-rima-hassan-pour-apologie-du-terrorisme-10-mois-de-prison-avec-sursis-requis-contre-lelue-lfi-20261020_NJREW6N4K5A7DGS6BRDN672A4E/"
+      "lien": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054999454"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Strasbourg : Les quartiers périphériques 'punis' par les transports",
-      "rubrique": "societe",
-      "resume": "Suite à l'agression d'un chauffeur, la CTS interrompt les bus dès 17h et les trams dès 20h dans certains quartiers. Rue89 Strasbourg dénonce une 'punition collective' pour des milliers d'habitants déjà précaires.",
+      "titre": "Complémentaire santé : un marché public 'sur mesure' pour Alan",
+      "rubrique": "politique",
+      "resume": "Le gouvernement a suspendu par arrêté la commission paritaire de l'Ucanss pour confier à une administratrice provisoire l'attribution du marché de santé des agents de la Sécu au néo-assureur Alan, dirigé par un proche d'Emmanuel Macron.",
       "sources": [
         {
-          "nom": "Rue89 Strasbourg",
-          "url": null,
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/271026/complementaire-sante-la-drole-de-procedure-qui-beneficie-un-proche-d-emmanuel-macron",
           "type": "investigation"
-        },
-        {
-          "nom": "CTS (Source primaire)",
-          "url": null,
-          "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "Cette gestion sécuritaire des transports publics crée une ségrégation spatiale nocturne ignorée par les médias nationaux."
+      "pourquoi_signal": "L'utilisation d'un arrêté de suspension pour contourner un processus paritaire au profit d'un acteur privé proche du pouvoir est un procédé d'exception passé inaperçu."
+    },
+    {
+      "titre": "Scale AI poursuivie pour surveillance illégale des travailleurs",
+      "rubrique": "tech",
+      "resume": "L'ONG noyb a déposé 5 plaintes RGPD contre Scale AI. La plateforme Outlier est accusée de tracer massivement ses travailleurs et d'imposer des collectes de données biométriques sans base légale.",
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/264263/travail-du-clic-scale-ai-poursuivie-en-justice-dans-quatre-pays-europeens/",
+          "type": "investigation"
+        }
+      ],
+      "pourquoi_signal": "Le coût humain et juridique caché de l'entraînement des IA est un angle mort des débats technologiques actuels."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Cisjordanie : La récolte des olives sous la terreur des colons",
-      "rubrique": "international",
-      "resume": "Depuis le 15 octobre, les attaques de colons contre les agriculteurs palestiniens se multiplient, incluant des agressions contre des diplomates européens.",
+      "titre": "Climat : l'appel à décréter l'urgence sanitaire mondiale",
+      "rubrique": "science",
+      "resume": "Le 10e rapport du Lancet Countdown alerte sur l'aggravation rapide des décès liés à la chaleur et demande une réponse coordonnée de type 'crise sanitaire' globale.",
       "axes_concernes": [
-        "colonialisme",
         "droit_international",
-        "droits_humains"
+        "justice_sociale"
       ],
-      "analyse": "L'expansion coloniale utilise la violence physique pour entraver une ressource vitale (l'olive). Le silence ou l'impuissance de la communauté internationale face à des attaques visant même des diplomates (Associated Press) marque une rupture inquiétante avec le droit international. Cette situation documentée par l'OCHA et France 24 montre une accélération de l'annexion de fait de la Cisjordanie.",
+      "analyse": "Ce sujet est crucial car il déplace le climat du champ environnemental vers celui des droits humains fondamentaux. L'inaction climatique devient une violation du droit à la santé. Nous soutenons cet angle qui impose une redevabilité juridique aux États pollueurs face aux populations victimes.",
       "sources": [
         {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/moyen-orient/20261020-oliveraies-cisjordanie-colons-attaques-armee-israel",
+          "nom": "Le Monde",
+          "url": null,
           "type": "mainstream"
-        },
+        }
+      ]
+    },
+    {
+      "titre": "Explosion des violences d'extrême droite contre les LGBTQIA+",
+      "rubrique": "societe",
+      "resume": "StreetPress documente 79 attaques violentes en 2026, alimentées par la rhétorique d'élus d'extrême droite.",
+      "axes_concernes": [
+        "antifascisme",
+        "justice_sociale"
+      ],
+      "analyse": "Il ne s'agit plus de faits divers isolés mais d'une stratégie de terreur politique. Le lien direct entre les discours institutionnels de l'extrême droite et le passage à l'acte violent doit être dénoncé systématiquement pour protéger la démocratie sociale.",
+      "sources": [
         {
-          "nom": "OCHA (Nations Unies)",
-          "url": "https://www.ochaopt.org/content/humanitarian-situation-report-15-october-2026",
-          "type": "institutionnel"
+          "nom": "StreetPress",
+          "url": "https://www.streetpress.com/1793021329-79-attaques-extreme-droite-contre-lgbtqia-2026-homophobie-degradations-harcelement-elections-presidentielles/",
+          "type": "investigation"
         }
       ]
     }
   ],
-  "date": "2026-10-21",
-  "genere_a": "2026-10-21T04:34:32.416Z",
+  "date": "2026-10-28",
+  "genere_a": "2026-10-28T05:35:25.888Z",
   "meta": {
-    "nb_articles_analyses": 764,
-    "nb_topics": 222,
+    "nb_articles_analyses": 441,
+    "nb_topics": 136,
     "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 42,
-    "sources_francaises": 498,
-    "sources_etrangeres": 266,
+    "nb_articles_dans_selection": 32,
+    "sources_francaises": 227,
+    "sources_etrangeres": 214,
     "rubriques_couvertes": [
+      "international",
       "societe",
-      "politique",
-      "economie",
-      "international"
+      "economie"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"

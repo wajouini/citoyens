@@ -1,304 +1,47 @@
 {
-  "date": "2026-10-21",
-  "genere_a": "2026-10-21T04:35:17.449Z",
+  "date": "2026-10-28",
+  "genere_a": "2026-10-28T05:36:17.807Z",
   "sujets_actifs": [
     {
-      "titre": "Maintien des couvre-feux en France et polémiques sur la gestion policière du 17 octobre",
-      "slug": "couvre-feu-france-violences-17-octobre-polemiques",
-      "rubrique": "societe",
-      "tldr": [
-        "Couvre-feux reconduits dans 12 grandes villes dont Paris, Lyon et Marseille.",
-        "Le gouvernement et LFI s'affrontent sur la responsabilité des débordements.",
-        "Facture estimée à 1,2 milliard d'euros pour les assureurs (Morningstar DBRS)."
-      ],
-      "resume": "La France reste sous haute tension après les violences ayant émaillé la mobilisation contre la vie chère du 17 octobre. Le Premier ministre Sébastien Lecornu a annoncé la reconduction des couvre-feux nocturnes dans plusieurs métropoles pour prévenir de nouveaux pillages avant l'acte II prévu le 24 octobre. Parallèlement, une vive polémique éclate suite à des révélations du Canard Enchaîné et de Mediapart suggérant que 14 compagnies de CRS auraient été laissées au repos lors des émeutes, tandis qu'un syndicat dénonce la mobilisation de forces devant la chocolaterie de la famille de Brigitte Macron. La France Insoumise accuse l'exécutif de stratégie délibérée pour discréditer le mouvement, alors que le gouvernement pointe du doigt l'irresponsabilité de l'extrême gauche.",
-      "contexte_historique": "Le régime du couvre-feu et de l'état d'urgence en France remonte à la loi de 1955, créée durant la guerre d'Algérie. Plus récemment, les émeutes de 2023 avaient entraîné des dommages de 730 millions d'euros, un record alors dépassé par les prévisions actuelles de 1,2 milliard d'euros (BFM TV).",
-      "implications": [
-        "Risque de radicalisation des commerçants vers l'autodéfense face aux pillages (Le Figaro).",
-        "Fragilisation de la doctrine de maintien de l'ordre face à des tactiques de type 'black bloc' mobiles."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-21",
-          "texte": "Sébastien Lecornu reçoit les organisations syndicales pour discuter de la sécurité.",
-          "source": "Ouest-France"
-        },
-        {
-          "date": "2026-10-20",
-          "texte": "Entrée en vigueur du couvre-feu pour les mineurs à Marseille de 22h à 5h.",
-          "source": "RFI"
-        },
-        {
-          "date": "2026-10-19",
-          "texte": "La DGSI dément la présence d'armes de guerre parmi les émeutiers, contrairement à certaines annonces médiatiques.",
-          "source": "Reddit r/france"
-        },
-        {
-          "date": "2026-10-17",
-          "texte": "Manifestations nationales contre la vie chère basculant en émeutes urbaines.",
-          "source": "franceinfo"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Focus sur l'impact économique pour les assureurs et les commerçants.",
-          "ton": "alarmiste",
-          "url": "https://www.bfmtv.com/economie/les-emeutes-deviennent-comme-des-catastrophes-naturelles-la-facture-pour-2-jours-pourrait-flamber-a-1-2-milliard-d-euros-pour-les-assureurs-bien-plus-qu-en-2023_AV-202610210065.html",
-          "citation_cle": "Les émeutes deviennent comme des catastrophes naturelles.",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Analyse de la polarisation politique entre LFI et le bloc central.",
-          "ton": "neutre",
-          "url": "https://www.lemonde.fr/politique/article/2026/10/21/manifestation-du-17-octobre-entre-la-france-insoumise-et-le-gouvernement-un-face-a-face-de-plus-en-plus-virulent_6798122_823448.html",
-          "citation_cle": "L’exécutif accuse les « insoumis » d’attiser les violences.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Regard extérieur sur les divisions profondes de la société française.",
-          "ton": "factuel",
-          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Disaccord général sur ce qui a mené aux pires troubles urbains de l'histoire moderne française.",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'ordre de laisser les compagnies de CRS au repos était-il une erreur tactique ou une décision politique ?",
-        "Le mouvement du 24 octobre parviendra-t-il à rester pacifique malgré les appels au blocage ?"
-      ],
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/economie/les-emeutes-deviennent-comme-des-catastrophes-naturelles-la-facture-pour-2-jours-pourrait-flamber-a-1-2-milliard-d-euros-pour-les-assureurs-bien-plus-qu-en-2023_AV-202610210065.html",
-          "type": "media",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/politique/article/2026/10/21/manifestation-du-17-octobre-entre-la-france-insoumise-et-le-gouvernement-un-face-a-face-de-plus-en-plus-virulent_6798122_823448.html",
-          "type": "media",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/monde/proche-orient/guerre-au-moyen-orient-70-morts-au-yemen-apres-lattaque-houtiste-israel-tue-sept-gazaouis-le-point-sur-la-nuit-d6cc7acc-b7c4-11f1-ad16-43b274a58389?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "media",
-          "groupe_media": null
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20261021-on-ne-fait-que-d%C3%A9placer-le-probl%C3%A8me-%C3%A0-marseille-apr%C3%A8s-les-violences-urbaines-le-couvre-feu-divise",
-          "type": "media",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-          "type": "media",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-10-17"
-    },
-    {
-      "titre": "Pression diplomatique de Donald Trump sur le conflit Ukraine-Russie",
-      "slug": "trump-pression-ukraine-russie-witkoff",
+      "titre": "Élections en Israël : impasse politique malgré une percée historique des partis arabes",
+      "slug": "elections-israel-knesset-impasse-partis-arabes",
       "rubrique": "international",
       "tldr": [
-        "L'émissaire Steve Witkoff rencontre Zelensky à Oslo avant de voir Poutine à Moscou.",
-        "Trump menace de suspendre l'aide financière si Kiev refuse de négocier.",
-        "L'UE cherche 70 milliards d'euros pour compenser un éventuel désengagement US."
+        "Blocs de Nétanyahou et Eisenkot au coude-à-coude sans majorité claire (61 sièges).",
+        "Participation record des citoyens palestiniens d'Israël (80%) offrant 18 sièges aux partis arabes.",
+        "Le président Isaac Herzog devra nommer un Premier ministre dans un paysage politique fragmenté."
       ],
-      "resume": "Donald Trump intensifie sa diplomatie parallèle pour mettre fin à la guerre en Ukraine. Son émissaire spécial, Steve Witkoff, a qualifié les discussions avec Volodymyr Zelensky de « productives » à Oslo, bien que Kiev exprime en coulisses son inquiétude face à la pression américaine pour un gel du conflit sur les lignes de front actuelles. Witkoff est attendu ce mercredi à Moscou pour rencontrer Vladimir Poutine. En réaction, Bruxelles tente de mobiliser ses alliés (Royaume-Uni pour lever 70 milliards d'euros afin de garantir la survie financière de l'Ukraine sans le soutien de Washington.",
-      "contexte_historique": "Depuis le mémorandum de Budapest en 1994, la sécurité de l'Ukraine était liée à des garanties internationales. Le virage isolationniste de l'administration Trump marque une rupture majeure avec la politique étrangère américaine post-1945 de soutien aux alliés européens (Politico EU).",
+      "resume": "Les premières estimations des législatives du 27 octobre 2026 placent le camp du Premier ministre sortant Benyamin Nétanyahou et celui de l'opposant centriste Gadi Eisenkot dans une impasse quasi totale, aucun n'atteignant le seuil de 61 députés. La surprise majeure vient de la mobilisation massive des électeurs arabes israéliens, dont les partis pourraient obtenir un record de 18 sièges, devenant ainsi les arbitres potentiels du scrutin (The Guardian, Al Jazeera). Tandis qu'Eisenkot appelle au changement, Nétanyahou rejette toute coalition avec les partis arabes, qualifiant cette perspective de « honteuse » (Al Jazeera). Le pays s'apprête à des semaines de tractations complexes sous l'égide du président Herzog.",
+      "contexte_historique": "Il s'agit du premier scrutin national depuis les attaques du 7 octobre 2023. Le système proportionnel intégral israélien favorise l'émiettement politique, rendant les coalitions indispensables. Historiquement, les partis arabes ont été exclus des coalitions de gouvernement, à l'exception notable de la période 2021-2022 sous Naftali Bennett (Le Monde).",
       "implications": [
-        "Risque d'un accord de paix imposé entraînant une instabilité durable en Europe de l'Est.",
-        "Accélération de l'autonomie stratégique européenne en matière de défense et de financement."
+        "Instabilité gouvernementale prolongée si aucun bloc ne parvient à rallier les partis arabes ou les ultra-orthodoxes.",
+        "Influence accrue des représentants de la minorité arabe sur les futures politiques intérieures israéliennes."
       ],
       "chronologie": [
         {
-          "date": "2026-10-21",
-          "texte": "Steve Witkoff est attendu à Moscou pour s'entretenir avec Vladimir Poutine.",
-          "source": "Sud-Ouest"
+          "date": "2026-10-28",
+          "texte": "Résultats provisoires confirmant l'absence de majorité pour les deux blocs principaux.",
+          "source": "Le Monde"
         },
         {
-          "date": "2026-10-20",
-          "texte": "Rencontre Witkoff-Zelensky en Norvège ; Trump se plaint du coût de l'aide à Washington.",
-          "source": "Courrier international"
-        },
-        {
-          "date": "2026-10-18",
-          "texte": "Trump annonce la suspension de certaines sanctions contre la Russie pour 'faciliter le dialogue'.",
-          "source": "Archives Citoyens.ai"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Politico EU",
-          "type": "etranger",
-          "angle": "La course contre la montre de Bruxelles pour financer l'Ukraine.",
-          "ton": "factuel",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/brussels-goes-looking-for-billions-to-fund-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "citation_cle": "Bruxelles cherche des partenaires pour couvrir les coûts croissants de Kiev.",
-          "groupe_media": {
-            "nom": "Axel Springer / KKR",
-            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "L'espoir ténu de Zelensky d'être encore écouté par Washington.",
-          "ton": "neutre",
-          "url": "https://www.lemonde.fr/international/article/2026/10/21/guerre-en-ukraine-a-oslo-zelensky-entretient-sans-y-croire-l-espoir-d-etre-a-nouveau-entendu-par-les-etats-unis_6798157_3210.html",
-          "citation_cle": "Zelensky entretient, sans y croire, l’espoir d’être à nouveau entendu.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Donald Trump voit dans Marine Le Pen la \"voix conservatrice\" en France, après les violences du 17 octobre qu'il impute à l'immigration",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/donald-trump-voit-dans-marine-le-pen-la-voix-conservatrice-en-france-apres-les-violences-du-17-octobre-qu-il-impute-a-l-immigration_AD-202610210071.html",
-          "citation_cle": "Donald Trump a estimé que Marine Le Pen était la \"voix conservatrice\" en France, et qu'elle était la grande favorite ava",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Quelles sont les concessions territoriales exactes que Trump demande à l'Ukraine ?",
-        "Poutine acceptera-t-il une médiation américaine sans retrait total de l'OTAN de la région ?"
-      ],
-      "sources": [
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/international/europe/ukraine/apres-des-discussions-tres-productives-et-constructives-avec-l-ukraine-l-emissaire-de-trump-attendu-en-russie-pour-rencontrer-poutine-31167260.php",
-          "type": "media",
-          "groupe_media": null
-        },
-        {
-          "nom": "Politico EU",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/brussels-goes-looking-for-billions-to-fund-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "type": "media",
-          "groupe_media": {
-            "nom": "Axel Springer / KKR",
-            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/21/guerre-en-ukraine-a-oslo-zelensky-entretient-sans-y-croire-l-espoir-d-etre-a-nouveau-entendu-par-les-etats-unis_6798157_3210.html",
-          "type": "media",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/diplomatie-a-oslo-zelensky-rencontre-l-envoye-de-trump-qui-lui-met-la-pression-depuis-la-maison-blanche_280008",
-          "type": "media",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-10-16"
-    },
-    {
-      "titre": "Elon Musk envisage une fusion historique entre SpaceX et Tesla",
-      "slug": "fusion-spacex-tesla-elon-musk",
-      "rubrique": "tech",
-      "tldr": [
-        "Musk confirme explorer une fusion pour créer un géant de 3 500 milliards de dollars.",
-        "L'objectif est de mutualiser les ressources en IA et puissance de calcul.",
-        "Le projet suscite des interrogations sur la gouvernance et les régulations antitrust."
-      ],
-      "resume": "Elon Musk a confirmé que SpaceX et Tesla exploraient la possibilité d'une fusion, ce qui constituerait l'opération financière la plus importante de l'histoire. Selon le dirigeant, ce rapprochement est justifié par la complémentarité des travaux des deux entreprises en matière d'intelligence artificielle (systèmes autonomes de Tesla et navigation spatiale de SpaceX). L'entité fusionnée pourrait atteindre une valorisation de 3 500 milliards de dollars. Cependant, les analystes pointent des risques de conflits d'intérêts et des obstacles réglementaires majeurs, notamment aux États-Unis.",
-      "contexte_historique": "Tesla et SpaceX collaborent déjà de manière informelle (utilisation d'acier inoxydable commun, échanges d'ingénieurs). Cette fusion rappellerait les conglomérats industriels du XXe siècle, mais centrée sur l'IA souveraine (Al Jazeera).",
-      "implications": [
-        "Création d'un monopole technologique sans précédent couvrant transport terrestre, spatial et IA.",
-        "Risque de contagion financière si l'une des deux branches subit un revers majeur."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-21",
-          "texte": "Elon Musk officialise la réflexion sur la fusion lors d'une conférence.",
+          "date": "2026-10-27",
+          "texte": "Scrutin législatif marqué par une forte participation dans les villes arabes comme Lod et Tayibe.",
           "source": "Al Jazeera"
         },
         {
-          "date": "2026-10-21",
-          "texte": "Analyse des impacts sur le marché de l'IA par les experts financiers.",
-          "source": "Le Monde"
+          "date": "2026-10-27",
+          "texte": "Sortie des urnes indiquant un recul du parti Otzma Yehudit d'Itamar Ben Gvir.",
+          "source": "Al Jazeera"
         }
       ],
       "couvertures": [
         {
           "source": "Al Jazeera",
           "type": "etranger",
-          "angle": "Les synergies technologiques au cœur de la stratégie de Musk.",
-          "ton": "factuel",
-          "url": "https://www.aljazeera.com/economy/2026/10/21/elon-musk-says-spacex-and-tesla-exploring-largest-merger-in?traffic_source=rss",
-          "citation_cle": "La fusion a beaucoup de mérite étant donné le travail complémentaire sur l'IA.",
+          "angle": "Focus sur la percée historique des partis arabes et la célébration dans les villes palestiniennes d'Israël.",
+          "ton": "engage",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/mbappe-faces-backlash-in-china-for-meme-fiasco?traffic_source=rss",
+          "citation_cle": "Record-breaking voter turnout among Palestinian citizens of Israel hits around 80 percent.",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
             "proprietaire": "État du Qatar",
@@ -309,10 +52,10 @@
         {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "L'aspect pharaonique des investissements requis.",
-          "ton": "critique",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/21/elon-musk-prepare-la-fusion-de-spacex-et-de-tesla-qui-creerait-l-une-des-societes-les-plus-valorisees-au-monde_6798156_3234.html",
-          "citation_cle": "Des projets pharaoniques gourmands en investissements.",
+          "angle": "Analyse du vertige d'une Knesset sans majorité et de l'affaiblissement relatif du Likoud.",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/international/article/2026/10/28/israel-au-lendemain-de-legislatives-cruciales-pour-l-avenir-du-pays-le-vertige-d-une-knesset-sans-majorite_6801530_3210.html",
+          "citation_cle": "Le camp Nétanyahou est en net recul mais l’opposition échoue à détrôner le Likoud.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -321,29 +64,29 @@
           }
         },
         {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Elon Musk says Tesla-SpaceX merger being considered",
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Élections législatives en Israël: le bloc de l'opposition légèrement en tête mais sans majorité selon des sondages à la sortie des urnes",
           "ton": "factuel",
-          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+          "url": "https://www.bfmtv.com/international/moyen-orient/israel/video-elections-legislatives-en-israel-le-bloc-de-l-opposition-legerement-en-tete-mais-sans-majorite-selon-des-sondages-a-la-sortie-des-urnes_VN-202610280096.html",
+          "citation_cle": "Les Israéliens ont voté ce mardi 27 octobre pour les élections législatives, premier scrutin organisé dans le pays depui",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Comment les actionnaires de Tesla, société cotée, réagiront-ils à une fusion avec SpaceX, société privée ?",
-        "La FTC autorisera-t-elle une telle concentration de pouvoir ?"
+        "Gadi Eisenkot franchira-t-il le tabou d'une alliance formelle avec les partis arabes ?",
+        "Y aura-t-il une défection au sein du bloc de droite pour débloquer la situation ?"
       ],
       "sources": [
         {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/10/21/elon-musk-says-spacex-and-tesla-exploring-largest-merger-in?traffic_source=rss",
-          "type": "media",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/mbappe-faces-backlash-in-china-for-meme-fiasco?traffic_source=rss",
+          "type": "site web",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
             "proprietaire": "État du Qatar",
@@ -353,8 +96,97 @@
         },
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/21/elon-musk-prepare-la-fusion-de-spacex-et-de-tesla-qui-creerait-l-une-des-societes-les-plus-valorisees-au-monde_6798156_3234.html",
-          "type": "media",
+          "url": "https://www.lemonde.fr/international/article/2026/10/28/israel-au-lendemain-de-legislatives-cruciales-pour-l-avenir-du-pays-le-vertige-d-une-knesset-sans-majorite_6801530_3210.html",
+          "type": "site web",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
+          "type": "site web",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-10-27"
+    },
+    {
+      "titre": "Brésil : Flávio Bolsonaro en fuite aux États-Unis après sa défaite électorale",
+      "slug": "flavio-bolsonaro-fuite-etats-unis-echeance-electorale",
+      "rubrique": "international",
+      "tldr": [
+        "Le sénateur Flávio Bolsonaro a quitté le Brésil pour les États-Unis malgré une interdiction judiciaire.",
+        "Soupçons de corruption et de blanchiment d'argent pesant sur le fils de l'ex-président.",
+        "Lula dénonce une fuite « honteuse » facilitée par des visas américains."
+      ],
+      "resume": "Après la défaite de son camp à la présidentielle face à Lula, le sénateur Flávio Bolsonaro aurait fui le Brésil pour rejoindre les États-Unis. Des sources américaines (indiquent qu'il aurait obtenu des visas pour lui et sa famille avec le soutien de l'administration Trump, alors même qu'il faisait l'objet d'une enquête pour corruption et d'une interdiction de sortie de territoire (Le Monde, BFM TV. Cette fuite intervient alors que la police brésilienne s'apprêtait à exiger la remise de ses passeports. Le président Lula a vivement critiqué ce départ, le qualifiant de signe de culpabilité face aux institutions brésiliennes (Al Jazeera).",
+      "contexte_historique": "Le clan Bolsonaro est visé par de multiples enquêtes depuis 2018, notamment l'affaire des 'rachadinhas' (détournement de salaires de collaborateurs). Cette fuite rappelle celle de Jair Bolsonaro en Floride fin 2022, juste avant l'investiture de Lula et les émeutes de Brasilia du 8 janvier 2023 (Courrier International).",
+      "implications": [
+        "Tensions diplomatiques potentielles entre le Brésil et les États-Unis sur l'extradition de ressortissants politiques.",
+        "Affaiblissement de l'opposition d'extrême droite brésilienne par l'exil de ses figures de proue."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-10-28",
+          "texte": "Confirmation par des officiels américains de l'arrivée de Flávio Bolsonaro sur le sol US.",
+          "source": "NYT World"
+        },
+        {
+          "date": "2026-10-27",
+          "texte": "Le président Lula qualifie la fuite de « honteuse » lors d'une allocution.",
+          "source": "Al Jazeera"
+        },
+        {
+          "date": "2026-10-26",
+          "texte": "Défaite électorale du camp Bolsonaro face à la coalition de Luiz Inácio Lula da Silva.",
+          "source": "NYT World"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Focus sur les enjeux judiciaires et la violation de l'interdiction de quitter le territoire.",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/international/article/2026/10/28/israel-au-lendemain-de-legislatives-cruciales-pour-l-avenir-du-pays-le-vertige-d-une-knesset-sans-majorite_6801530_3210.html",
+          "citation_cle": "Candidat d’extrême droite aurait violé son interdiction de quitter le pays.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Analyse de l'édito international sur les conséquences politiques de l'exil.",
+          "ton": "neutre",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-l-edito-international-battu-a-la-presidentielle-flavio-bolsonaro-serait-en-fuite-vers-les-etats-unis_VN-202610280101.html",
+          "citation_cle": "Flavio Bolsonaro a fui le Brésil pour les États-Unis après avoir perdu les élections.",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Courrier international",
+          "type": "etranger",
+          "angle": "Flávio Bolsonaro, Égypte, Charles III : les informations de la nuit",
+          "ton": "factuel",
+          "url": "https://www.courrierinternational.com/article/pendant-que-vous-dormiez-flavio-bolsonaro-egypte-charles-iii-les-informations-de-la-nuit_282123",
+          "citation_cle": null,
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -363,33 +195,209 @@
           }
         }
       ],
-      "premiere_apparition": "2026-10-21"
+      "ce_quon_ne_sait_pas": [
+        "L'administration Trump a-t-elle activement coordonné l'extraction du sénateur ?",
+        "Le Brésil va-t-il émettre un mandat d'arrêt international via Interpol ?"
+      ],
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/10/28/israel-au-lendemain-de-legislatives-cruciales-pour-l-avenir-du-pays-le-vertige-d-une-knesset-sans-majorite_6801530_3210.html",
+          "type": "site web",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/10/27/world/americas/brazil-flavio-bolsonaro-flees-election.html",
+          "type": "site web",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/mbappe-faces-backlash-in-china-for-meme-fiasco?traffic_source=rss",
+          "type": "site web",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-10-27"
+    },
+    {
+      "titre": "France : Le Sénat adopte la loi « casseurs-payeurs » après les violences du 17 octobre",
+      "slug": "loi-casseurs-payeurs-senat-violences-17-octobre",
+      "rubrique": "politique",
+      "tldr": [
+        "Adoption au Sénat (229 voix contre 105) d'un texte renforçant la responsabilité financière des manifestants.",
+        "Création d'une 'taxe émeutes' et de mesures de chômage partiel pour les commerces vandalisés.",
+        "Vive opposition de la gauche qui dénonce une atteinte au droit de manifester."
+      ],
+      "resume": "En réaction aux pillages et violences ayant émaillé les mobilisations contre la vie chère le 17 octobre dernier, le Sénat a adopté et durci le projet de loi « casseurs-payeurs ». Le texte prévoit d'engager la responsabilité collective des groupes en cas de dégradations et d'instaurer des fonds de soutien allant jusqu'à 10 000 euros pour les commerçants touchés (Le Monde, BFM TV). Parallèlement, le gouvernement a annoncé l'extension des aides aux 'grands rouleurs' face à la hausse des prix du carburant pour tenter de calmer la contestation sociale. À l'Assemblée, l'ambiance reste électrique, exacerbée par les suites de l'attentat raciste de Trappes (RFI).",
+      "contexte_historique": "Ce texte s'inscrit dans une lignée législative sécuritaire débutée avec la loi 'anti-casseurs' de 2019 (sous les Gilets Jaunes), dont certaines dispositions avaient été censurées par le Conseil constitutionnel. Le principe de responsabilité collective est juridiquement complexe à appliquer au regard de l'individualisation des peines (Le Monde).",
+      "implications": [
+        "Risque de judiciarisation accrue des mouvements sociaux et de dissuasion de la participation aux cortèges.",
+        "Soulagement financier pour les commerces de centre-ville mais débat sur le coût pour les finances publiques."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-10-28",
+          "texte": "Le texte est transmis à l'Assemblée nationale pour examen.",
+          "source": "Le Monde"
+        },
+        {
+          "date": "2026-10-27",
+          "texte": "Adoption par le Sénat après un élargissement des sanctions prévues.",
+          "source": "Le Monde"
+        },
+        {
+          "date": "2026-10-17",
+          "texte": "Violences et pillages majeurs lors de la mobilisation nationale contre la vie chère.",
+          "source": "BFM TV"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Analyse juridique du texte et des critiques de la gauche parlementaire.",
+          "ton": "critique",
+          "url": "https://www.lemonde.fr/politique/article/2026/10/28/mobilisations-sociales-le-projet-de-loi-casseurs-payeurs-approuve-et-elargi-par-le-senat-apres-les-violences-du-17-octobre_6801416_823448.html",
+          "citation_cle": "Le texte, très critiqué à gauche, a été adopté à 229 voix contre 105.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Focus sur les aides économiques d'urgence pour les commerçants et les rouleurs.",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/politique/video-le-gouvernement-promet-des-aides-allant-jusqu-a-10-000-euros-pour-les-commerces-vandalises-en-marge-des-manifestations_VN-202610280092.html",
+          "citation_cle": "Le gouvernement va lancer un fonds de soutien proposant des aides allant jusqu'à 10.000 euros.",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "RFI",
+          "type": "mainstream",
+          "angle": "France: mission sauvetage des œuvres d'art de l'Hôtel de ville de Limoges après l'incendie",
+          "ton": "factuel",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-france/20261027-france-mission-sauvetage-des-%C5%93uvres-d-art-de-l-h%C3%B4tel-de-ville-de-limoges-apr%C3%A8s-l-incendie",
+          "citation_cle": "Une semaine après l'incendie de l'Hôtel de ville de Limoges, le 17 octobre, en marge des manifestations lycéennes et des",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Le Conseil constitutionnel validera-t-il la notion de responsabilité collective ?",
+        "Ces mesures suffiront-elles à stopper la mobilisation lycéenne et étudiante ?"
+      ],
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/politique/article/2026/10/28/mobilisations-sociales-le-projet-de-loi-casseurs-payeurs-approuve-et-elargi-par-le-senat-apres-les-violences-du-17-octobre_6801416_823448.html",
+          "type": "site web",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/politique/video-le-gouvernement-promet-des-aides-allant-jusqu-a-10-000-euros-pour-les-commerces-vandalises-en-marge-des-manifestations_VN-202610280092.html",
+          "type": "site web",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20261028-attentat-raciste-en-france-vives-tensions-entre-la-gauche-et-l-extr%C3%AAme-droite-%C3%A0-l-assembl%C3%A9e-nationale",
+          "type": "site web",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-10-18"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Procès de l'explosion de la rue de Trévise",
-      "slug": "proces-explosion-rue-trevise",
+      "titre": "L'hôtel de ville de Limoges ravagé par les flammes",
+      "slug": "incendie-hotel-de-ville-limoges",
       "rubrique": "societe",
-      "resume": "Le procès suit son cours technique avec l'audition des experts en ingénierie gazière. L'émotion des premiers jours a laissé place aux débats juridiques sur les responsabilités de la Ville de Paris et de GRDF.",
+      "resume": "Après l'incendie criminel du 17 octobre, le Premier ministre s'est rendu sur place pour coordonner le sauvetage des œuvres d'art. L'enquête judiciaire se poursuit.",
       "chronologie": [
         {
-          "date": "2026-10-20",
-          "texte": "Ouverture solennelle du procès à Paris.",
-          "source": "Le Figaro"
+          "date": "2026-10-27",
+          "texte": "Visite du Premier ministre à la mairie de Limoges pour soutenir les élus.",
+          "source": "RFI"
+        },
+        {
+          "date": "2026-10-17",
+          "texte": "Incendie du bâtiment en marge des manifestations.",
+          "source": "RFI"
         }
       ],
-      "couvertures": [],
-      "ce_quon_ne_sait_pas": [
-        "La part de responsabilité respective entre la voirie et le distributeur de gaz."
+      "couvertures": [
+        {
+          "source": "RFI",
+          "type": "mainstream",
+          "angle": "Reportage sur la mission de sauvegarde du patrimoine artistique rescapé.",
+          "ton": "factuel",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-france/20261027-france-mission-sauvetage-des-%C5%93uvres-d-art-de-l-h%C3%B4tel-de-ville-de-limoges-apr%C3%A8s-l-incendie",
+          "citation_cle": "Une semaine après l'incendie, le Premier ministre est venu au chevet de la mairie ravagée."
+        }
       ],
-      "sources": [],
-      "derniere_mise_a_jour": "2026-10-21",
-      "statut": "Phase d'instruction technique à la barre."
+      "ce_quon_ne_sait_pas": [
+        "L'identité exacte des auteurs de l'incendie reste à confirmer par l'enquête."
+      ],
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-france/20261027-france-mission-sauvetage-des-%C5%93uvres-d-art-de-l-h%C3%B4tel-de-ville-de-limoges-apr%C3%A8s-l-incendie",
+          "type": "site web"
+        }
+      ],
+      "derniere_mise_a_jour": "2026-10-28",
+      "statut": "Sujet stabilisé, phase de reconstruction et d'enquête judiciaire."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 764,
+    "nb_articles_analyses": 441,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
