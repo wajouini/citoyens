@@ -1,350 +1,265 @@
 {
   "sujet_du_jour": {
-    "titre": "Brésil : Flávio Bolsonaro en fuite aux États-Unis après sa défaite",
-    "rubrique": "international",
-    "pourquoi_important": "C'est un défi direct à la justice brésilienne par le fils de l'ex-président, soutenu par l'administration américaine.",
+    "titre": "Datacenters : l'envers du décor des chantiers de la tech en Europe",
+    "rubrique": "economie",
+    "pourquoi_important": "Une enquête transfrontalière révèle des conditions de travail indignes et dangereuses sur les chantiers des géants du numérique en Europe.",
     "faits": [
-      "Le juge Alexandre de Moraes (STF) avait interdit à Flávio Bolsonaro de quitter le Brésil le 26 octobre et ordonné la remise de ses passeports (Agência Brasil).",
-      "Le sénateur n'a pas respecté le délai légal pour remettre ses documents à la Police fédérale (Folha de S.Paulo).",
-      "Le Département d'État américain a confirmé le 27 octobre qu'il délivrerait des visas à Flávio Bolsonaro et sa famille (CNN Brasil.",
-      "Des alliés politiques confirment son arrivée sur le sol américain, possiblement en Floride, malgré l'interdiction judiciaire (Courrier International, Libération)."
+      "Des cas d'électrocutions, de logements insalubres et de salaires impayés documentés sur des sites Google et Microsoft .",
+      "L'inspection du travail belge a conclu à une absence de faute après une électrocution à Saint-Ghislain, malgré des témoignages de pressions (The Guardian).",
+      "Le syndicat suédois Solidariska Byggare a dû négocier en urgence le versement d'arriérés de salaires sur un chantier à Gävle .",
+      "La Commission européenne prépare une législation pour 2027, mais centrée sur la performance énergétique plutôt que sur le droit social."
     ],
-    "contexte": "Battu par Lula lors du scrutin présidentiel du 25 octobre, Flávio Bolsonaro est visé par plusieurs enquêtes pour corruption et blanchiment d'argent. Son départ précipité, qualifié de fuite par la presse brésilienne et française, intervient alors que l'administration américaine semble lui accorder une protection diplomatique. Cette situation crée une tension majeure entre la souveraineté judiciaire du Brésil et la diplomatie des États-Unis (RFI, Le Monde, L'Humanité).",
+    "contexte": "Alors que la construction de datacenters explose pour répondre aux besoins de l'IA, les chaînes de sous-traitance opaques favorisent l'exploitation de travailleurs migrants. Une enquête menée dans neuf pays pointe un climat de « terreur » et un manque de contrôle effectif des autorités locales. Le Parlement européen a pourtant alerté dès février 2026 sur la nécessité de protéger les travailleurs dans ces chaînes d'intermédiaires.",
     "sources": [
       {
-        "nom": "Agência Brasil",
-        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/moraes-manda-flavio-entregar-passaporte-e-o-proibe-de-deixar-o-pais",
+        "nom": "The Guardian",
+        "url": "https://www.theguardian.com/global-development/2026/oct/30/electrocutions-disease-and-no-pay-how-workers-risk-exploitation-in-europes-datacentres",
+        "type": "etranger",
+        "groupe_media": {
+          "nom": "Scott Trust",
+          "proprietaire": "Scott Trust Limited",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
+        }
+      },
+      {
+        "nom": "Les Décodeurs (Le Monde)",
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/30/centres-de-donnees-sur-les-chantiers-de-construction-europeens-des-travailleurs-exploites-dans-un-climat-de-terreur_6802772_4355770.html",
+        "type": "fact-check",
+        "groupe_media": null
+      },
+      {
+        "nom": "Commission européenne",
+        "url": "https://energy.ec.europa.eu/topics/energy-efficiency/energy-efficiency-targets-directive-and-rules/energy-efficiency-directive/energy-performance-data-centres_en",
         "type": "institutionnel",
         "groupe_media": null
-      },
-      {
-        "nom": "Folha de S.Paulo",
-        "url": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-descumpre-determinacao-de-moraes-e-nao-entrega-passaporte-a-pf.shtml",
-        "type": "etranger",
-        "groupe_media": null
-      },
-      {
-        "nom": "RFI",
-        "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261027-br%C3%A9sil-flavio-bolsonaro-a-fui-vers-les-%C3%A9tats-unis-washington-annonce-qu-un-visa-va-lui-%C3%AAtre-accord%C3%A9",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "France Médias Monde",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
-        }
-      },
-      {
-        "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/10/28/bresil-apres-sa-defaite-a-la-presidentielle-flavio-bolsonaro-soupconne-d-avoir-pris-la-fuite-vers-les-etats-unis_6801485_3210.html",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
-      },
-      {
-        "nom": "L'Humanité",
-        "url": "https://www.humanite.fr/culture-et-savoir/cinema/le-mystere-lucy-lost-hope-quelques-mots-damour-les-3-films-a-voir-cette-semaine",
-        "type": "mainstream"
-      },
-      {
-        "nom": "Courrier international",
-        "url": "https://www.courrierinternational.com/article/pendant-que-vous-dormiez-flavio-bolsonaro-egypte-charles-iii-les-informations-de-la-nuit_282123",
-        "type": "etranger"
-      },
-      {
-        "nom": "Libération",
-        "url": "https://www.liberation.fr/international/moyen-orient/legislatives-en-israel-lopposition-ne-pourra-diriger-le-pays-que-si-elle-coopere-avec-les-partis-arabes-20261027_6GK4JWOB5FGXVOJ6T66TXR52GM/",
-        "type": "mainstream"
       }
     ],
-    "lien": null
+    "lien": "https://www.theguardian.com/global-development/2026/oct/30/electrocutions-disease-and-no-pay-how-workers-risk-exploitation-in-europes-datacentres"
   },
   "france": [
     {
-      "titre": "Violences sexuelles à l'école : une enquête choc",
-      "rubrique": "societe",
-      "resume": "Une étude du ministère de l’Éducation nationale révèle que 4 élèves de CE2 sur 10 déclarent avoir subi des violences sexuelles en milieu scolaire. L'enquête, portant sur 11 200 élèves, souligne une persistance alarmante de la brutalité dans les cours de récréation (Libération, L'Humanité).",
+      "titre": "Édouard Philippe témoin assisté pour détournement de fonds publics",
+      "rubrique": "politique",
+      "resume": "L'ancien Premier ministre a été entendu par des juges financiers concernant la gestion de la Cité numérique du Havre. Son avocat se félicite d'un statut de témoin assisté, moins incriminant qu'une mise en examen, bien que l'enquête pour favoritisme et harcèlement moral se poursuive.",
       "sources": [
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/international/moyen-orient/legislatives-en-israel-lopposition-ne-pourra-diriger-le-pays-que-si-elle-coopere-avec-les-partis-arabes-20261027_6GK4JWOB5FGXVOJ6T66TXR52GM/",
-          "type": "mainstream"
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/france/20261029-soup%C3%A7ons-de-d%C3%A9tournement-de-fonds-publics-%C3%A9douard-philippe-plac%C3%A9-sous-le-statut-de-t%C3%A9moin-assist%C3%A9",
+          "type": "mainstream",
+          "groupe_media": null
         },
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/culture-et-savoir/cinema/le-mystere-lucy-lost-hope-quelques-mots-damour-les-3-films-a-voir-cette-semaine",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Tir de grenade sur des enfants à Rouen : enquête ouverte",
-      "rubrique": "societe",
-      "resume": "Le maire de Rouen a saisi la justice après la diffusion de vidéos montrant un policier lançant une grenade qui a explosé aux pieds d'un enfant de 5 ans le 24 octobre. La famille, qui ne participait pas à la manifestation, a été prise pour cible par erreur selon les premiers éléments (BFM TV, L'Humanité).",
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-l-edito-international-battu-a-la-presidentielle-flavio-bolsonaro-serait-en-fuite-vers-les-etats-unis_VN-202610280101.html",
-          "type": "mainstream"
-        },
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/culture-et-savoir/cinema/le-mystere-lucy-lost-hope-quelques-mots-damour-les-3-films-a-voir-cette-semaine",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Le BHV Marais demande son redressement judiciaire",
-      "rubrique": "economie",
-      "resume": "Après des semaines de dénégations sur sa santé financière, l'enseigne historique parisienne a déposé le bilan. Les 700 salariés s'inquiètent de cette procédure déposée auprès des juges de Lyon (Le Monde, Libération).",
-      "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/28/israel-au-lendemain-de-legislatives-cruciales-pour-l-avenir-du-pays-le-vertige-d-une-knesset-sans-majorite_6801530_3210.html",
-          "type": "mainstream"
+          "url": "https://www.lemonde.fr/societe/article/2026/10/29/edouard-philippe-place-sous-le-statut-de-temoin-assiste-dans-une-enquete-ouverte-notamment-pour-detournement-de-fonds-publics_6802392_3224.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         },
         {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/international/moyen-orient/legislatives-en-israel-lopposition-ne-pourra-diriger-le-pays-que-si-elle-coopere-avec-les-partis-arabes-20261027_6GK4JWOB5FGXVOJ6T66TXR52GM/",
-          "type": "mainstream"
+          "url": "https://www.liberation.fr/politique/elections/accusations-de-detournement-de-fonds-publics-edouard-philippe-place-sous-le-statut-de-temoin-assiste-20261029_UWFAVBEB3JFJTOXIU74AZIPC6I/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
         }
       ],
+      "lien": null
+    },
+    {
+      "titre": "Carburants : libération des stocks stratégiques en Europe",
+      "rubrique": "economie",
+      "resume": "Pour stabiliser les prix avant l'hiver, onze pays de l'UE vont libérer 42,6 millions de barils de pétrole. En France, cette mesure devrait entraîner une baisse de 12 à 18 centimes par litre de gazole dès le 1er novembre.",
+      "sources": [],
+      "lien": null
+    },
+    {
+      "titre": "Mistral Large 4 : le champion français de l'IA publie ses poids",
+      "rubrique": "tech",
+      "resume": "Mistral AI a rendu disponible son nouveau modèle de frontière, surnommé « Le Chonk ». Avec 1 000 milliards de paramètres, ce modèle en poids ouverts vise à concurrencer les leaders américains en mettant l'accent sur le code et la cybersécurité.",
+      "sources": [],
       "lien": null
     }
   ],
   "monde": [
     {
-      "titre": "Moscou lance son 3ème sommet Russie-Afrique",
-      "pays": "Russie/Afrique",
-      "resume": "Vladimir Poutine accueille les dirigeants africains pour une opération de séduction diplomatique et culturelle. L'objectif est d'intensifier l'influence russe face à l'Occident via des accords médiatiques et sécuritaires (RFI, Courrier International).",
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/europe/20261028-sommet-russie-afrique-moscou-en-op%C3%A9ration-s%C3%A9duction-pour-cette-troisi%C3%A8me-%C3%A9dition",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Courrier International",
-          "url": "https://www.courrierinternational.com/article/analyse-culture-medias-la-russie-intensifie-ses-operations-d-influence-de-masse-en-afrique_279983",
-          "type": "etranger",
-          "groupe_media": null
-        }
-      ],
+      "titre": "Israël : Netanyahu en tête mais sans majorité claire",
+      "pays": "Israël",
+      "resume": "Les résultats officiels des législatives placent la coalition de Benjamin Netanyahu en tête avec 53 sièges sur 120. Sans majorité absolue, le pays s'enfonce dans l'incertitude politique, les listes arabes (19 sièges) devenant potentiellement arbitres du prochain gouvernement.",
+      "sources": [],
       "lien": null
     },
     {
-      "titre": "Frappes jordaniennes meurtrières en Syrie",
-      "pays": "Syrie/Jordanie",
-      "resume": "La Jordanie affirme avoir tué 20 combattants de l'État islamique en représailles à une attaque contre une église. Damas dénonce une violation de son espace aérien et rapporte la mort de sept civils (NYT World, RFI).",
+      "titre": "Frappe meurtrière sur la gare de Dnipro",
+      "pays": "Ukraine",
+      "resume": "Une attaque de drone russe sur un quai bondé de la gare de Dnipro a fait au moins 14 morts et autant de blessés. Volodymyr Zelensky a dénoncé une campagne d'intensification ciblant les infrastructures civiles et appelle l'Occident à des actions résolues.",
       "sources": [
         {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/10/27/world/middleeast/jordan-syria-strikes-attack.html",
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/guerre-une-attaque-russe-sur-la-gare-ukrainienne-de-dnipro-fait-14-morts_282887",
           "type": "etranger",
           "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/moyen-orient/20261027-la-jordanie-affirme-avoir-tu%C3%A9-plus-de-20-combattants-jihadistes-ce-26-octobre-en-syrie",
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261029-guerre-en-ukraine-une-frappe-russe-tue-13-personnes-%C3%A0-la-gare-centrale-de-dnipro",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
+          "groupe_media": null
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Élections législatives en Israël : l'après 7-Octobre",
-    "rubrique": "international",
-    "contexte": "Le 27 octobre 2026, Israël a tenu ses premières élections législatives depuis les attaques du 7-Octobre. Le scrutin a été marqué par une participation record.",
+    "sujet": "Restauration des écosystèmes : l'ONU tire la sonnette d'alarme",
+    "rubrique": "science",
+    "contexte": "À la fin de la COP17 sur la biodiversité à Erevan, l'ONU publie un rapport évaluant les efforts mondiaux de restauration de la nature.",
     "couvertures": [
       {
-        "source": "Libération",
-        "type": "mainstream",
-        "angle": "Mise en avant de la percée des partis arabes comme arbitres potentiels.",
-        "ton": "factuel",
-        "url": "https://www.liberation.fr/international/moyen-orient/elections-legislatives-en-israel-la-coalition-de-gadi-eisenkot-devance-celle-de-netanyahou-20261027_NJFOWDG675HA3P2R4RSGLKYC5M/",
-        "citation_cle": "Aucune de ces deux forces ne pourra gouverner sans le soutien des listes arabes.",
-        "auteur": "Rédaction",
-        "proprietaire_contexte": "Fonds de dotation (indépendant)",
-        "orientation_source": "Centre-gauche",
+        "source": "Reporterre",
+        "type": "investigation",
+        "angle": "Nécessité de tripler les investissements pour atteindre les objectifs internationaux.",
+        "ton": "critique",
+        "url": "https://reporterre.net/Restauration-des-ecosystemes-le-monde-doit-tripler-ses-efforts",
+        "citation_cle": "252 millions d'hectares font l'objet d'actions, soit la surface de l'Algérie, mais c'est encore trop peu.",
+        "auteur": null,
+        "proprietaire_contexte": "Indépendant (Association La Pile)",
+        "orientation_source": "Ecologie sociale / Gauche",
         "groupe_media": {
-          "nom": "Libération",
-          "proprietaire": "Fonds de dotation",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
+          "nom": "Reporterre",
+          "proprietaire": "Association La Pile",
+          "type_proprietaire": "independant",
+          "orientation": "gauche"
         }
       },
       {
-        "source": "BFM TV",
+        "source": "France 24",
         "type": "mainstream",
-        "angle": "Focus sur l'incertitude politique et l'absence de majorité claire pour l'opposition.",
-        "ton": "neutre",
-        "url": "https://www.bfmtv.com/international/moyen-orient/israel/video-elections-legislatives-en-israel-le-bloc-de-l-opposition-legerement-en-tete-mais-sans-majorite-selon-des-sondages-a-la-sortie-des-urnes_VN-202610280096.html",
-        "citation_cle": "Le bloc de l'opposition légèrement en tête mais sans majorité.",
-        "auteur": null,
-        "proprietaire_contexte": "Rodolphe Saadé (CMA CGM)",
-        "orientation_source": "Centre-droit",
-        "groupe_media": {
-          "nom": "CMA CGM",
-          "proprietaire": "Rodolphe Saadé",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
+        "angle": "Appel à l'accélération de la cadence face à l'urgence climatique.",
+        "ton": "factuel",
+        "url": "https://www.france24.com/fr/%C3%A9missions/%C3%A9l%C3%A9ment-terre-la-quotidienne/20261029-restauration-de-la-nature-l-onu-appelle-le-monde-%C3%A0-acc%C3%A9l%C3%A9rer-les-efforts",
+        "citation_cle": "Une restauration sans précédent est à l’œuvre, mais elle ne va pas assez vite.",
+        "auteur": "Noémie ROCHE",
+        "proprietaire_contexte": "État français",
+        "orientation_source": "Centre",
+        "groupe_media": null
       }
     ],
-    "analyse_coherence": "La couverture médiatique de ces élections israéliennes révèle une focalisation quasi exclusive sur l'arithmétique électorale (bloc contre bloc) au détriment d'une analyse de fond sur les programmes de reconstruction post-conflit. Si Libération souligne l'importance démocratique des partis arabes, les médias mainstream évitent de questionner la légitimité des figures de la coalition sortante au regard du droit international. On observe un double standard : alors que les élections dans d'autres pays en conflit sont souvent analysées sous l'angle de la 'moralité' des candidats, ici, le traitement reste purement technique et politicien, normalisant des acteurs politiques pourtant contestés pour leur gestion humanitaire de la crise à Gaza.",
+    "analyse_coherence": "L'analyse des couvertures montre un consensus sur l'insuffisance des efforts actuels, mais des nuances significatives dans l'approche. Tandis que France 24 adopte un ton institutionnel relayant l'appel à 'accélérer la cadence', Reporterre souligne le gouffre financier et structurel, précisant que les efforts doivent tripler. On observe ici un traitement médiatique qui, bien que factuel, peine à mettre en perspective la responsabilité des pays du Nord dans le financement de cette restauration globale. Le double standard réside souvent dans l'omission des causes systémiques (extractivisme, commerce mondial) au profit d'une injonction universelle à 'faire plus'. Les sources s'accordent néanmoins sur le chiffre de 252 millions d'hectares restaurés, un signal positif mais dérisoire face à la dégradation accélérée des sols mondiaux.",
     "biais_detectes": [
-      "Technicisme électoral occultant les enjeux de droit international",
-      "Normalisation de la coalition sortante"
+      "Manque de perspective sur la dette écologique des pays développés",
+      "Focalisation sur les chiffres globaux sans distinction des types de restauration (monocultures vs écosystèmes complexes)"
     ],
-    "ce_quil_faut_retenir": "Israël est dans une impasse politique totale : l'opposition progresse mais reste dépendante des partis arabes pour former un gouvernement, tandis que le camp Netanyahou s'érode sans s'effondrer."
+    "ce_quil_faut_retenir": "La restauration progresse mais reste largement sous-financée. L'objectif de 2030 ne sera atteint que si les investissements sont multipliés par trois, passant d'une logique de petits projets à une transformation systémique des sols."
   },
   "regard_etranger": [
     {
       "source": "France 24 EN",
       "pays": "France/International",
-      "titre": "Les groupes de défense des droits jugent la loi 'casseurs-payeurs' anti-démocratique",
-      "titre_original": "Rights groups say proposed French law to make rioters pay for damage is anti-democratic",
-      "angle": "La presse anglophone s'inquiète d'une dérive autoritaire française limitant le droit de manifester.",
-      "url": "https://www.france24.com/en/france/20261027-rights-groups-say-proposed-french-law-to-make-rioters-pay-for-damage-anti-democratic",
+      "titre": "Détails troublants : le suspect de Trappes admet avoir ciblé les victimes par race et religion",
+      "titre_original": "'Very disturbing details': Trappes shooting suspect admits targeting victims by race, religion",
+      "angle": "Focus sur la dimension terroriste et raciste de l'attaque.",
+      "url": "https://www.france24.com/en/video/20261029-very-disturbing-details-trappes-shooting-suspect-admits-targeting-victims-by-race-religion",
       "groupe_media": {
         "nom": "France Médias Monde",
         "proprietaire": "État français",
         "type_proprietaire": "etat",
         "orientation": "centre"
       }
-    },
-    {
-      "source": "RFI / Presse Chinoise",
-      "pays": "Chine",
-      "titre": "Kylian Mbappé face à une levée de boucliers en Chine",
-      "titre_original": "Kylian Mbappé provoque une levée de boucliers en Chine après des propos sur Mao Zedong",
-      "angle": "Analyse de la 'tolérance zéro' chinoise face aux offenses nationales perçues.",
-      "url": "https://www.rfi.fr/fr/sports/20261027-kylian-mbapp%C3%A9-provoque-une-lev%C3%A9e-de-boucliers-en-chine-apr%C3%A8s-des-propos-sur-mao-zedong",
-      "groupe_media": null
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "4 sur 10",
-    "contexte": "Proportion d'élèves de CE2 déclarant avoir subi des violences sexuelles à l'école selon une enquête du ministère de l'Éducation nationale.",
-    "source": "Ministère de l'Éducation nationale / Libération",
-    "source_url": "https://www.liberation.fr/societe/sante/quatre-eleves-de-ce2-sur-dix-declarent-avoir-subi-des-violences-sexuelles-a-lecole-20261027_CVDGWNRW3JBABC4EZ4UWSWQSEE/"
+    "valeur": "70 000",
+    "contexte": "Nombre de policiers et gendarmes mobilisés pour le dispositif de sécurité des mobilisations du 31 octobre en France.",
+    "source": "Le Monde / Préfecture de Police",
+    "source_url": "https://www.lemonde.fr/politique/article/2026/10/29/mobilisations-du-31-octobre-laurent-nunez-prevoit-un-dispositif-de-70-000-policiers-et-gendarmes-et-confirme-l-interdiction-des-rassemblements-dans-les-centres-villes_6802369_823448.html"
   },
   "a_surveiller": [
     {
-      "date": "2026-10-28",
-      "evenement": "Présentation du budget britannique 2026 par John Healey",
-      "type": "echeance_economique",
-      "lien": "https://www.theguardian.com/uk-news/2026/oct/27/john-healey-budget-help-with-cost-of-living-deferring-decisions-on-tax-and-spending"
+      "date": "2026-10-31",
+      "evenement": "Mobilisations sociales partout en France et interdiction des rassemblements en centre-ville",
+      "type": "manifestation",
+      "lien": "https://www.bfmtv.com/replay-emissions/premiere-edition-6h-8h30/video-mobilisation-du-31-octobre-70-000-policiers-et-gendarmes-mobilises-partout-en-france_VN-202610300104.html"
     },
     {
-      "date": "2026-11-02",
-      "evenement": "Fin de la suspension de la commission des marchés de l'Ucanss",
-      "type": "echeance",
-      "lien": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054999454"
+      "date": "2026-11-01",
+      "evenement": "Baisse attendue du prix du gazole à la pompe (12-18 centimes)",
+      "type": "echeance_economique",
+      "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Complémentaire santé : un marché public 'sur mesure' pour Alan",
+      "titre": "Bolloré financerait l'agence de presse de Xenia Fedorova",
       "rubrique": "politique",
-      "resume": "Le gouvernement a suspendu par arrêté la commission paritaire de l'Ucanss pour confier à une administratrice provisoire l'attribution du marché de santé des agents de la Sécu au néo-assureur Alan, dirigé par un proche d'Emmanuel Macron.",
+      "resume": "Selon Blast, Vincent Bolloré aurait versé des dizaines de milliers d'euros à l'ex-dirigeante de RT France, Xenia Fedorova, pour lancer une agence concurrente de l'AFP. Fedorova est pourtant sous le coup d'un gel d'avoirs pour 'ingérence informationnelle' russe.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/271026/complementaire-sante-la-drole-de-procedure-qui-beneficie-un-proche-d-emmanuel-macron",
+          "nom": "Blast",
+          "url": "https://www.blast-info.fr/articles/2026/info-blast-ingerence-etrangere-vincent-bollore-finance-la-future-agence-de-presse-de-xenia-fedorova-jLOs0l1WQSKduEFXGuS2xg",
           "type": "investigation"
-        }
-      ],
-      "pourquoi_signal": "L'utilisation d'un arrêté de suspension pour contourner un processus paritaire au profit d'un acteur privé proche du pouvoir est un procédé d'exception passé inaperçu."
-    },
-    {
-      "titre": "Scale AI poursuivie pour surveillance illégale des travailleurs",
-      "rubrique": "tech",
-      "resume": "L'ONG noyb a déposé 5 plaintes RGPD contre Scale AI. La plateforme Outlier est accusée de tracer massivement ses travailleurs et d'imposer des collectes de données biométriques sans base légale.",
-      "sources": [
+        },
         {
-          "nom": "Next",
-          "url": "https://next.ink/264263/travail-du-clic-scale-ai-poursuivie-en-justice-dans-quatre-pays-europeens/",
-          "type": "investigation"
+          "nom": "Légifrance",
+          "url": null,
+          "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "Le coût humain et juridique caché de l'entraînement des IA est un angle mort des débats technologiques actuels."
+      "pourquoi_signal": "Ce sujet révèle une possible alliance financière occulte entre un empire médiatique français et des agents d'influence étrangère sanctionnés, largement ignorée par la presse mainstream."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Climat : l'appel à décréter l'urgence sanitaire mondiale",
-      "rubrique": "science",
-      "resume": "Le 10e rapport du Lancet Countdown alerte sur l'aggravation rapide des décès liés à la chaleur et demande une réponse coordonnée de type 'crise sanitaire' globale.",
-      "axes_concernes": [
-        "droit_international",
-        "justice_sociale"
-      ],
-      "analyse": "Ce sujet est crucial car il déplace le climat du champ environnemental vers celui des droits humains fondamentaux. L'inaction climatique devient une violation du droit à la santé. Nous soutenons cet angle qui impose une redevabilité juridique aux États pollueurs face aux populations victimes.",
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": null,
-          "type": "mainstream"
-        }
-      ]
-    },
-    {
-      "titre": "Explosion des violences d'extrême droite contre les LGBTQIA+",
+      "titre": "Interdiction de la « remigration » : victoire ou précédent ?",
       "rubrique": "societe",
-      "resume": "StreetPress documente 79 attaques violentes en 2026, alimentées par la rhétorique d'élus d'extrême droite.",
+      "resume": "Le préfet des Hauts-de-Seine a interdit un colloque sur la « remigration » prévu au Plessis-Robinson, tandis que la Préfecture de Police de Paris interdisait une manifestation liée. Les autorités invoquent des risques de troubles à l'ordre public et d'incitation à la haine.",
       "axes_concernes": [
         "antifascisme",
+        "liberte_expression",
         "justice_sociale"
       ],
-      "analyse": "Il ne s'agit plus de faits divers isolés mais d'une stratégie de terreur politique. Le lien direct entre les discours institutionnels de l'extrême droite et le passage à l'acte violent doit être dénoncé systématiquement pour protéger la démocratie sociale.",
+      "analyse": "Si l'interdiction protège les valeurs républicaines contre un concept raciste et déshumanisant, elle pose la question de la réponse de l'État face à l'extrême droite. Nos principes imposent de condamner fermement ces idéologies coloniales résurgentes, tout en surveillant que ces outils administratifs ne soient pas utilisés demain contre des mouvements sociaux légitimes.",
       "sources": [
         {
-          "nom": "StreetPress",
-          "url": "https://www.streetpress.com/1793021329-79-attaques-extreme-droite-contre-lgbtqia-2026-homophobie-degradations-harcelement-elections-presidentielles/",
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/politique/291026/ni-colloque-ni-manifestation-sur-la-remigration-une-victoire-de-la-republique-face-des-tentations-delet",
+          "type": "investigation"
+        },
+        {
+          "nom": "Basta!",
+          "url": "https://basta.media/Qui-sont-les-partisans-du-concept-raciste-remigration-et-leurs-allies-Zemmour-Vox-AfD-RN-Bardella",
           "type": "investigation"
         }
       ]
     }
   ],
-  "date": "2026-10-28",
-  "genere_a": "2026-10-28T05:35:25.888Z",
+  "date": "2026-10-30",
+  "genere_a": "2026-10-30T05:34:59.656Z",
   "meta": {
-    "nb_articles_analyses": 441,
-    "nb_topics": 136,
-    "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 32,
-    "sources_francaises": 227,
-    "sources_etrangeres": 214,
+    "nb_articles_analyses": 440,
+    "nb_topics": 144,
+    "nb_topics_selectionnes": 16,
+    "nb_articles_dans_selection": 38,
+    "sources_francaises": 235,
+    "sources_etrangeres": 205,
     "rubriques_couvertes": [
-      "international",
-      "societe",
-      "economie"
+      "economie",
+      "politique",
+      "tech",
+      "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"

@@ -1,153 +1,36 @@
 {
-  "date": "2026-10-28",
-  "genere_a": "2026-10-28T05:36:17.807Z",
+  "date": "2026-10-30",
+  "genere_a": "2026-10-30T05:35:41.821Z",
   "sujets_actifs": [
     {
-      "titre": "Élections en Israël : impasse politique malgré une percée historique des partis arabes",
-      "slug": "elections-israel-knesset-impasse-partis-arabes",
+      "titre": "Israël : Résultats définitifs des législatives sans majorité claire",
+      "slug": "israel-elections-legislatives-2026-impasse",
       "rubrique": "international",
       "tldr": [
-        "Blocs de Nétanyahou et Eisenkot au coude-à-coude sans majorité claire (61 sièges).",
-        "Participation record des citoyens palestiniens d'Israël (80%) offrant 18 sièges aux partis arabes.",
-        "Le président Isaac Herzog devra nommer un Premier ministre dans un paysage politique fragmenté."
+        "Le camp de Benjamin Netanyahu obtient 53 sièges, loin de la majorité de 61 requise.",
+        "Percée historique des partis arabes qui deviennent des arbitres potentiels du scrutin.",
+        "Le président Isaac Herzog doit entamer des consultations pour former un gouvernement d'union."
       ],
-      "resume": "Les premières estimations des législatives du 27 octobre 2026 placent le camp du Premier ministre sortant Benyamin Nétanyahou et celui de l'opposant centriste Gadi Eisenkot dans une impasse quasi totale, aucun n'atteignant le seuil de 61 députés. La surprise majeure vient de la mobilisation massive des électeurs arabes israéliens, dont les partis pourraient obtenir un record de 18 sièges, devenant ainsi les arbitres potentiels du scrutin (The Guardian, Al Jazeera). Tandis qu'Eisenkot appelle au changement, Nétanyahou rejette toute coalition avec les partis arabes, qualifiant cette perspective de « honteuse » (Al Jazeera). Le pays s'apprête à des semaines de tractations complexes sous l'égide du président Herzog.",
-      "contexte_historique": "Il s'agit du premier scrutin national depuis les attaques du 7 octobre 2023. Le système proportionnel intégral israélien favorise l'émiettement politique, rendant les coalitions indispensables. Historiquement, les partis arabes ont été exclus des coalitions de gouvernement, à l'exception notable de la période 2021-2022 sous Naftali Bennett (Le Monde).",
+      "resume": "Les résultats définitifs des élections législatives israéliennes confirment une impasse politique majeure. Bien que le bloc de Benjamin Netanyahu arrive en tête avec 53 sièges sur 120, il échoue à sécuriser une majorité gouvernementale (BFM TV). À l'inverse, les partis arabes ont réalisé un score historique, électrisant des villes comme Taibe, tout en restant sceptiques sur leur intégration réelle dans une future coalition (NYT World). Le président Isaac Herzog se retrouve dans une position d'arbitre délicate, rappelant la situation vécue par son père quarante-deux ans plus tôt, et pourrait être contraint de pousser vers un gouvernement d'union nationale pour éviter un nouveau scrutin (Le Monde).",
+      "contexte_historique": "Israël traverse une instabilité chronique avec six élections en moins de sept ans. Le système proportionnel intégral favorise l'émiettement politique, rendant les coalitions dépendantes de petits partis pivots. En 1984, une situation similaire avait conduit à un gouvernement d'unité nationale avec une rotation au poste de Premier ministre (Le Monde).",
       "implications": [
-        "Instabilité gouvernementale prolongée si aucun bloc ne parvient à rallier les partis arabes ou les ultra-orthodoxes.",
-        "Influence accrue des représentants de la minorité arabe sur les futures politiques intérieures israéliennes."
+        "Risque prolongé d'instabilité législative paralysant les révisions budgétaires et la politique de défense.",
+        "Augmentation de l'influence des partis minoritaires arabes et d'extrême droite dans les négociations de coalition."
       ],
       "chronologie": [
         {
-          "date": "2026-10-28",
-          "texte": "Résultats provisoires confirmant l'absence de majorité pour les deux blocs principaux.",
-          "source": "Le Monde"
+          "date": "2026-10-30",
+          "texte": "Annonce des résultats définitifs : 53 sièges pour le bloc Netanyahu.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-10-29",
+          "texte": "Fin du dépouillement des bulletins 'doubles' (soldats, diplomates).",
+          "source": "France 24 FR"
         },
         {
           "date": "2026-10-27",
-          "texte": "Scrutin législatif marqué par une forte participation dans les villes arabes comme Lod et Tayibe.",
-          "source": "Al Jazeera"
-        },
-        {
-          "date": "2026-10-27",
-          "texte": "Sortie des urnes indiquant un recul du parti Otzma Yehudit d'Itamar Ben Gvir.",
-          "source": "Al Jazeera"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Focus sur la percée historique des partis arabes et la célébration dans les villes palestiniennes d'Israël.",
-          "ton": "engage",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/mbappe-faces-backlash-in-china-for-meme-fiasco?traffic_source=rss",
-          "citation_cle": "Record-breaking voter turnout among Palestinian citizens of Israel hits around 80 percent.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Analyse du vertige d'une Knesset sans majorité et de l'affaiblissement relatif du Likoud.",
-          "ton": "factuel",
-          "url": "https://www.lemonde.fr/international/article/2026/10/28/israel-au-lendemain-de-legislatives-cruciales-pour-l-avenir-du-pays-le-vertige-d-une-knesset-sans-majorite_6801530_3210.html",
-          "citation_cle": "Le camp Nétanyahou est en net recul mais l’opposition échoue à détrôner le Likoud.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Élections législatives en Israël: le bloc de l'opposition légèrement en tête mais sans majorité selon des sondages à la sortie des urnes",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/moyen-orient/israel/video-elections-legislatives-en-israel-le-bloc-de-l-opposition-legerement-en-tete-mais-sans-majorite-selon-des-sondages-a-la-sortie-des-urnes_VN-202610280096.html",
-          "citation_cle": "Les Israéliens ont voté ce mardi 27 octobre pour les élections législatives, premier scrutin organisé dans le pays depui",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Gadi Eisenkot franchira-t-il le tabou d'une alliance formelle avec les partis arabes ?",
-        "Y aura-t-il une défection au sein du bloc de droite pour débloquer la situation ?"
-      ],
-      "sources": [
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/mbappe-faces-backlash-in-china-for-meme-fiasco?traffic_source=rss",
-          "type": "site web",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/28/israel-au-lendemain-de-legislatives-cruciales-pour-l-avenir-du-pays-le-vertige-d-une-knesset-sans-majorite_6801530_3210.html",
-          "type": "site web",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
-          "type": "site web",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-10-27"
-    },
-    {
-      "titre": "Brésil : Flávio Bolsonaro en fuite aux États-Unis après sa défaite électorale",
-      "slug": "flavio-bolsonaro-fuite-etats-unis-echeance-electorale",
-      "rubrique": "international",
-      "tldr": [
-        "Le sénateur Flávio Bolsonaro a quitté le Brésil pour les États-Unis malgré une interdiction judiciaire.",
-        "Soupçons de corruption et de blanchiment d'argent pesant sur le fils de l'ex-président.",
-        "Lula dénonce une fuite « honteuse » facilitée par des visas américains."
-      ],
-      "resume": "Après la défaite de son camp à la présidentielle face à Lula, le sénateur Flávio Bolsonaro aurait fui le Brésil pour rejoindre les États-Unis. Des sources américaines (indiquent qu'il aurait obtenu des visas pour lui et sa famille avec le soutien de l'administration Trump, alors même qu'il faisait l'objet d'une enquête pour corruption et d'une interdiction de sortie de territoire (Le Monde, BFM TV. Cette fuite intervient alors que la police brésilienne s'apprêtait à exiger la remise de ses passeports. Le président Lula a vivement critiqué ce départ, le qualifiant de signe de culpabilité face aux institutions brésiliennes (Al Jazeera).",
-      "contexte_historique": "Le clan Bolsonaro est visé par de multiples enquêtes depuis 2018, notamment l'affaire des 'rachadinhas' (détournement de salaires de collaborateurs). Cette fuite rappelle celle de Jair Bolsonaro en Floride fin 2022, juste avant l'investiture de Lula et les émeutes de Brasilia du 8 janvier 2023 (Courrier International).",
-      "implications": [
-        "Tensions diplomatiques potentielles entre le Brésil et les États-Unis sur l'extradition de ressortissants politiques.",
-        "Affaiblissement de l'opposition d'extrême droite brésilienne par l'exil de ses figures de proue."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-10-28",
-          "texte": "Confirmation par des officiels américains de l'arrivée de Flávio Bolsonaro sur le sol US.",
-          "source": "NYT World"
-        },
-        {
-          "date": "2026-10-27",
-          "texte": "Le président Lula qualifie la fuite de « honteuse » lors d'une allocution.",
-          "source": "Al Jazeera"
-        },
-        {
-          "date": "2026-10-26",
-          "texte": "Défaite électorale du camp Bolsonaro face à la coalition de Luiz Inácio Lula da Silva.",
+          "texte": "Jour du scrutin marqué par une forte participation dans les secteurs arabes.",
           "source": "NYT World"
         }
       ],
@@ -155,24 +38,55 @@
         {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Focus sur les enjeux judiciaires et la violation de l'interdiction de quitter le territoire.",
-          "ton": "factuel",
-          "url": "https://www.lemonde.fr/international/article/2026/10/28/israel-au-lendemain-de-legislatives-cruciales-pour-l-avenir-du-pays-le-vertige-d-une-knesset-sans-majorite_6801530_3210.html",
-          "citation_cle": "Candidat d’extrême droite aurait violé son interdiction de quitter le pays.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Analyse de l'édito international sur les conséquences politiques de l'exil.",
+          "angle": "Analyse du rôle pivot du président Isaac Herzog et du précédent historique de son père.",
           "ton": "neutre",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-l-edito-international-battu-a-la-presidentielle-flavio-bolsonaro-serait-en-fuite-vers-les-etats-unis_VN-202610280101.html",
-          "citation_cle": "Flavio Bolsonaro a fui le Brésil pour les États-Unis après avoir perdu les élections.",
+          "url": "https://www.lemonde.fr/international/article/2026/10/30/en-israel-isaac-herzog-le-president-honorifique-devenu-arbitre-d-une-knesset-sans-majorite_6802757_3210.html",
+          "citation_cle": "Le président pourrait pousser à un gouvernement d’union, comme Chaim Herzog, son père, quarante-deux ans plus tôt.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "NYT World",
+          "type": "etranger",
+          "angle": "Focus sur l'enthousiasme et les doutes des électeurs arabes israéliens après leur percée.",
+          "ton": "factuel",
+          "url": "https://www.nytimes.com/2026/10/30/world/middleeast/arab-voters-israel-election-taibe.html",
+          "citation_cle": "Gains for Arab-led parties have electrified Taibe... even as voters elsewhere say they have no place in any future government.",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Le camp de Benjamin Netanyahu en tête des élections législatives israéliennes, mais loin de la majorité",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/international/moyen-orient/israel/le-camp-de-benjamin-netanyahu-en-tete-des-elections-legislatives-israeliennes-mais-loin-de-la-majorite_AD-202610300113.html",
+          "citation_cle": "Les résultats définitifs des élections législatives en Israël sont tombés: la coalition sortante de Benjamin Netanyahu e",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Netanyahu acceptera-t-il une rotation du pouvoir ou préférera-t-il de nouvelles élections ?",
+        "Les partis arabes franchiront-ils le pas historique d'entrer officiellement dans une coalition de gouvernement ?"
+      ],
+      "sources": [
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/moyen-orient/israel/le-camp-de-benjamin-netanyahu-en-tete-des-elections-legislatives-israeliennes-mais-loin-de-la-majorite_AD-202610300113.html",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -181,29 +95,9 @@
           }
         },
         {
-          "source": "Courrier international",
-          "type": "etranger",
-          "angle": "Flávio Bolsonaro, Égypte, Charles III : les informations de la nuit",
-          "ton": "factuel",
-          "url": "https://www.courrierinternational.com/article/pendant-que-vous-dormiez-flavio-bolsonaro-egypte-charles-iii-les-informations-de-la-nuit_282123",
-          "citation_cle": null,
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'administration Trump a-t-elle activement coordonné l'extraction du sénateur ?",
-        "Le Brésil va-t-il émettre un mandat d'arrêt international via Interpol ?"
-      ],
-      "sources": [
-        {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/10/28/israel-au-lendemain-de-legislatives-cruciales-pour-l-avenir-du-pays-le-vertige-d-une-knesset-sans-majorite_6801530_3210.html",
-          "type": "site web",
+          "url": "https://www.lemonde.fr/international/article/2026/10/30/en-israel-isaac-herzog-le-president-honorifique-devenu-arbitre-d-une-knesset-sans-majorite_6802757_3210.html",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -213,8 +107,8 @@
         },
         {
           "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/10/27/world/americas/brazil-flavio-bolsonaro-flees-election.html",
-          "type": "site web",
+          "url": "https://www.nytimes.com/2026/10/30/world/middleeast/arab-voters-israel-election-taibe.html",
+          "type": "etranger",
           "groupe_media": {
             "nom": "The New York Times Company",
             "proprietaire": "Famille Ochs-Sulzberger",
@@ -223,9 +117,137 @@
           }
         },
         {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/moyen-orient/20261030-israel-legislatives-netanyahu-tete-sans-majorite-resultats-officiels-eisenkot-partis-arabes",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-10-27"
+    },
+    {
+      "titre": "Binance : Cyberattaque record estimée à 6,3 milliards de dollars",
+      "slug": "binance-cyberattaque-record-6-milliards",
+      "rubrique": "cybersec",
+      "tldr": [
+        "Piratage massif de la plateforme Binance avec un préjudice de 6,3 milliards de dollars.",
+        "Les soupçons se portent sur des hackers d'État nord-coréens.",
+        "La plateforme a gelé les fonds et promet de couvrir l'intégralité des pertes."
+      ],
+      "resume": "La plateforme d'échange de cryptomonnaies Binance a été la cible d'une intrusion majeure, qualifiée de plus grand piratage de l'histoire du secteur avec un préjudice estimé à 6,3 milliards de dollars (BFM TV). L'attaque aurait débuté par le piratage de l'ordinateur portable d'un ingénieur de la firme (The Guardian). En réponse, Binance a temporairement suspendu les dépôts et retraits, tout en gelant environ 2,5 milliards de dollars pour limiter la casse (France 24 FR). Des firmes d'intelligence blockchain attribuent l'opération à des groupes soutenus par la Corée du Nord (Al Jazeera).",
+      "contexte_historique": "Ce vol surpasse le record précédent du réseau Ronin (625 millions de dollars en 2022). La Corée du Nord est régulièrement accusée par l'ONU d'utiliser les cyberattaques contre les cryptomonnaies pour financer ses programmes d'armement, contournant ainsi les sanctions internationales.",
+      "implications": [
+        "Déstabilisation potentielle du marché des crypto-actifs et durcissement prévisible de la régulation mondiale.",
+        "Preuve de la vulnérabilité persistante des plateformes centralisées face à l'ingénierie sociale."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-10-30",
+          "texte": "Le préjudice final est réévalué à 6,3 milliards de dollars.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-10-29",
+          "texte": "Binance annonce le gel préventif de 2,5 milliards de dollars.",
+          "source": "France 24 FR"
+        },
+        {
+          "date": "2026-10-29",
+          "texte": "Détection de l'intrusion via un compte employé compromis.",
+          "source": "The Guardian"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "The Guardian",
+          "type": "etranger",
+          "angle": "Analyse technique de la faille humaine (ordinateur d'ingénieur) à l'origine du hack.",
+          "ton": "factuel",
+          "url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+          "citation_cle": "Breach may have started with a hacked laptop belonging to engineer.",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Attribution de l'attaque à des hackers parrainés par l'État nord-coréen.",
+          "ton": "critique",
+          "url": "https://www.aljazeera.com/news/2026/10/30/machado-lauds-trump-for-freedom-floodgate-urges-2027-elections?traffic_source=rss",
+          "citation_cle": "A blockchain intelligence firm attributes the attack to North Korean state-sponsored hackers.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "L'ÉDITO INTERNATIONAL - Plus de 11 milliards de dollars dépensés pour la campagne des midterms",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-l-edito-international-plus-de-11-milliards-de-dollars-depenses-pour-la-campagne-des-midterms_VN-202610300114.html",
+          "citation_cle": "Le 3 novembre prochain, près de 250 millions d’électeurs aux États-Unis seront appelés à décider de la prochaine majorit",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quelle proportion des fonds volés a déjà été blanchie via des 'mixers' ?",
+        "Binance dispose-t-elle réellement des liquidités propres pour couvrir 6 milliards de dollars de pertes sans aide extérieure ?"
+      ],
+      "sources": [
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/crypto/la-plateforme-promet-de-couvrir-toutes-les-pertes-binance-victime-d-une-cyberattaque-massive-le-prejudice-est-estime-a-6-3-milliards-de-dollars_AD-202610300105.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/%C3%A9co-tech/20261030-cryptomonnaies-binance-cyberattaque-massive-gel-2-5-milliards-de-dollars-bitcoin-ether",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/mbappe-faces-backlash-in-china-for-meme-fiasco?traffic_source=rss",
-          "type": "site web",
+          "url": "https://www.aljazeera.com/news/2026/10/30/machado-lauds-trump-for-freedom-floodgate-urges-2027-elections?traffic_source=rss",
+          "type": "etranger",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
             "proprietaire": "État du Qatar",
@@ -234,170 +256,159 @@
           }
         }
       ],
-      "premiere_apparition": "2026-10-27"
+      "premiere_apparition": "2026-10-29"
     },
     {
-      "titre": "France : Le Sénat adopte la loi « casseurs-payeurs » après les violences du 17 octobre",
-      "slug": "loi-casseurs-payeurs-senat-violences-17-octobre",
-      "rubrique": "politique",
+      "titre": "France : Mobilisation sécuritaire exceptionnelle pour le 31 octobre",
+      "slug": "france-manifestations-31-octobre-securite",
+      "rubrique": "societe",
       "tldr": [
-        "Adoption au Sénat (229 voix contre 105) d'un texte renforçant la responsabilité financière des manifestants.",
-        "Création d'une 'taxe émeutes' et de mesures de chômage partiel pour les commerces vandalisés.",
-        "Vive opposition de la gauche qui dénonce une atteinte au droit de manifester."
+        "70 000 policiers et gendarmes mobilisés pour les manifestations du 31 octobre.",
+        "Le gouvernement craint des violences en raison de la convergence des mouvements sociaux et d'Halloween.",
+        "Interdiction des rassemblements dans plusieurs centres-villes."
       ],
-      "resume": "En réaction aux pillages et violences ayant émaillé les mobilisations contre la vie chère le 17 octobre dernier, le Sénat a adopté et durci le projet de loi « casseurs-payeurs ». Le texte prévoit d'engager la responsabilité collective des groupes en cas de dégradations et d'instaurer des fonds de soutien allant jusqu'à 10 000 euros pour les commerçants touchés (Le Monde, BFM TV). Parallèlement, le gouvernement a annoncé l'extension des aides aux 'grands rouleurs' face à la hausse des prix du carburant pour tenter de calmer la contestation sociale. À l'Assemblée, l'ambiance reste électrique, exacerbée par les suites de l'attentat raciste de Trappes (RFI).",
-      "contexte_historique": "Ce texte s'inscrit dans une lignée législative sécuritaire débutée avec la loi 'anti-casseurs' de 2019 (sous les Gilets Jaunes), dont certaines dispositions avaient été censurées par le Conseil constitutionnel. Le principe de responsabilité collective est juridiquement complexe à appliquer au regard de l'individualisation des peines (Le Monde).",
+      "resume": "Le ministre de l'Intérieur Laurent Nuñez a annoncé un dispositif de sécurité 'exceptionnel' de 70 000 agents pour la journée du 31 octobre, qualifiée de 'risque très élevé' (BFM TV). Cette mobilisation fait suite aux violences du 17 et du 24 octobre. Les autorités redoutent que des manifestants utilisent des déguisements d'Halloween pour masquer leur identité, une pratique fermement mise en garde par la préfecture (BFM TV). Parallèlement, des syndicats ont déposé des référés pour contester l'interdiction de certains parcours de manifestation à Paris .",
+      "contexte_historique": "Le déploiement de 70 000 hommes correspond au niveau de mobilisation des crises majeures comme les 'Gilets Jaunes' en 2018. Le cadre légal a été durci par la récente loi 'casseurs-payeurs' adoptée au Sénat, visant à faire porter la responsabilité financière des dégradations aux auteurs identifiés.",
       "implications": [
-        "Risque de judiciarisation accrue des mouvements sociaux et de dissuasion de la participation aux cortèges.",
-        "Soulagement financier pour les commerces de centre-ville mais débat sur le coût pour les finances publiques."
+        "Risque de tensions accrues entre forces de l'ordre et manifestants masqués.",
+        "Paralysie commerciale dans les centres-villes où les magasins se barricadent préventivement."
       ],
       "chronologie": [
         {
-          "date": "2026-10-28",
-          "texte": "Le texte est transmis à l'Assemblée nationale pour examen.",
-          "source": "Le Monde"
-        },
-        {
-          "date": "2026-10-27",
-          "texte": "Adoption par le Sénat après un élargissement des sanctions prévues.",
-          "source": "Le Monde"
-        },
-        {
-          "date": "2026-10-17",
-          "texte": "Violences et pillages majeurs lors de la mobilisation nationale contre la vie chère.",
+          "date": "2026-10-30",
+          "texte": "Annonce officielle du déploiement de 70 000 effectifs.",
           "source": "BFM TV"
+        },
+        {
+          "date": "2026-10-29",
+          "texte": "Les syndicats attaquent les interdictions de parcours en référé.",
+          "source": "Reddit r/france"
+        },
+        {
+          "date": "2026-10-28",
+          "texte": "Le ministre de l'Intérieur évoque une menace de 'bordélisation' liée à Halloween.",
+          "source": "BFM TV"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Focus sur les préparatifs des commerçants qui barricadent leurs vitrines.",
+          "ton": "alarmiste",
+          "url": "https://www.bfmtv.com/replay-emissions/premiere-edition-6h-8h30/video-avant-les-nouvelles-manifestations-de-ce-samedi-certains-magasins-se-barricadent_VN-202610300102.html",
+          "citation_cle": "Le dispositif policier prévu sera exceptionnel et comprendra 70.000 effectifs.",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Analyse de la convergence entre mouvements étudiants et 'Gilets Jaunes'.",
+          "ton": "neutre",
+          "url": "https://www.aljazeera.com/news/2026/10/30/machado-lauds-trump-for-freedom-floodgate-urges-2027-elections?traffic_source=rss",
+          "citation_cle": "Authorities vow firm action against violence as yellow vest and student movements announce widespread demonstrations.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Mobilisations du 31 octobre : Laurent Nuñez prévoit un dispositif de 70 000 policiers et gendarmes, et confirme l’interdiction des rassemblements dans les centres-villes",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/politique/article/2026/10/29/mobilisations-du-31-octobre-laurent-nunez-prevoit-un-dispositif-de-70-000-policiers-et-gendarmes-et-confirme-l-interdiction-des-rassemblements-dans-les-centres-villes_6802369_823448.html",
+          "citation_cle": "« C’est un dispositif exceptionnel, c’est le même volume que pour le 24 octobre », a expliqué le ministre de l’intérieur",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quelle sera l'ampleur réelle de la mobilisation citoyenne face à l'interdiction des centres-villes ?",
+        "Les services de renseignement ont-ils identifié des groupes spécifiques prévoyant des actions violentes ?"
+      ],
+      "sources": [
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/politique/video-manifestations-du-31-octobre-le-ministre-de-l-interieur-evoque-une-journee-a-risque-tres-eleve_VN-202610300112.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/30/machado-lauds-trump-for-freedom-floodgate-urges-2027-elections?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-10-28"
+    }
+  ],
+  "sujets_refroidis": [
+    {
+      "titre": "Brésil : Fuite de Flávio Bolsonaro",
+      "slug": "bresil-flavio-bolsonaro-fuite-etats-unis",
+      "rubrique": "international",
+      "resume": "Le sénateur Flávio Bolsonaro est arrivé en Floride après sa défaite électorale. Les dernières révélations indiquent que le jet privé utilisé aurait été financé via un compte américain avec une possible assistance logistique.",
+      "chronologie": [
+        {
+          "date": "2026-10-30",
+          "texte": "Révélations sur le financement américain du jet privé.",
+          "source": "Le Monde"
+        },
+        {
+          "date": "2026-10-28",
+          "texte": "Arrivée confirmée en Floride et autoproclamation d'exilé politique.",
+          "source": "Courrier international"
         }
       ],
       "couvertures": [
         {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse juridique du texte et des critiques de la gauche parlementaire.",
-          "ton": "critique",
-          "url": "https://www.lemonde.fr/politique/article/2026/10/28/mobilisations-sociales-le-projet-de-loi-casseurs-payeurs-approuve-et-elargi-par-le-senat-apres-les-violences-du-17-octobre_6801416_823448.html",
-          "citation_cle": "Le texte, très critiqué à gauche, a été adopté à 229 voix contre 105.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Focus sur les aides économiques d'urgence pour les commerçants et les rouleurs.",
+          "angle": "Enquête sur les circuits financiers ayant permis la fuite.",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/politique/video-le-gouvernement-promet-des-aides-allant-jusqu-a-10-000-euros-pour-les-commerces-vandalises-en-marge-des-manifestations_VN-202610280092.html",
-          "citation_cle": "Le gouvernement va lancer un fonds de soutien proposant des aides allant jusqu'à 10.000 euros.",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "RFI",
-          "type": "mainstream",
-          "angle": "France: mission sauvetage des œuvres d'art de l'Hôtel de ville de Limoges après l'incendie",
-          "ton": "factuel",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-france/20261027-france-mission-sauvetage-des-%C5%93uvres-d-art-de-l-h%C3%B4tel-de-ville-de-limoges-apr%C3%A8s-l-incendie",
-          "citation_cle": "Une semaine après l'incendie de l'Hôtel de ville de Limoges, le 17 octobre, en marge des manifestations lycéennes et des",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
+          "url": "https://www.lemonde.fr/international/article/2026/10/30/flavio-bolsonaro-aurait-fui-le-bresil-a-bord-d-un-avion-paye-depuis-les-etats-unis_6802658_3210.html",
+          "citation_cle": "Le jet aurait été réglé par un intermédiaire à partir d’un compte bancaire américain."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Le Conseil constitutionnel validera-t-il la notion de responsabilité collective ?",
-        "Ces mesures suffiront-elles à stopper la mobilisation lycéenne et étudiante ?"
+        "Le gouvernement brésilien va-t-il émettre une notice rouge d'Interpol ?"
       ],
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/politique/article/2026/10/28/mobilisations-sociales-le-projet-de-loi-casseurs-payeurs-approuve-et-elargi-par-le-senat-apres-les-violences-du-17-octobre_6801416_823448.html",
-          "type": "site web",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/politique/video-le-gouvernement-promet-des-aides-allant-jusqu-a-10-000-euros-pour-les-commerces-vandalises-en-marge-des-manifestations_VN-202610280092.html",
-          "type": "site web",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20261028-attentat-raciste-en-france-vives-tensions-entre-la-gauche-et-l-extr%C3%AAme-droite-%C3%A0-l-assembl%C3%A9e-nationale",
-          "type": "site web",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
+          "url": "https://www.lemonde.fr/international/article/2026/10/30/flavio-bolsonaro-aurait-fui-le-bresil-a-bord-d-un-avion-paye-depuis-les-etats-unis_6802658_3210.html",
+          "type": "mainstream"
         }
       ],
-      "premiere_apparition": "2026-10-18"
-    }
-  ],
-  "sujets_refroidis": [
-    {
-      "titre": "L'hôtel de ville de Limoges ravagé par les flammes",
-      "slug": "incendie-hotel-de-ville-limoges",
-      "rubrique": "societe",
-      "resume": "Après l'incendie criminel du 17 octobre, le Premier ministre s'est rendu sur place pour coordonner le sauvetage des œuvres d'art. L'enquête judiciaire se poursuit.",
-      "chronologie": [
-        {
-          "date": "2026-10-27",
-          "texte": "Visite du Premier ministre à la mairie de Limoges pour soutenir les élus.",
-          "source": "RFI"
-        },
-        {
-          "date": "2026-10-17",
-          "texte": "Incendie du bâtiment en marge des manifestations.",
-          "source": "RFI"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "RFI",
-          "type": "mainstream",
-          "angle": "Reportage sur la mission de sauvegarde du patrimoine artistique rescapé.",
-          "ton": "factuel",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-france/20261027-france-mission-sauvetage-des-%C5%93uvres-d-art-de-l-h%C3%B4tel-de-ville-de-limoges-apr%C3%A8s-l-incendie",
-          "citation_cle": "Une semaine après l'incendie, le Premier ministre est venu au chevet de la mairie ravagée."
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'identité exacte des auteurs de l'incendie reste à confirmer par l'enquête."
-      ],
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-france/20261027-france-mission-sauvetage-des-%C5%93uvres-d-art-de-l-h%C3%B4tel-de-ville-de-limoges-apr%C3%A8s-l-incendie",
-          "type": "site web"
-        }
-      ],
-      "derniere_mise_a_jour": "2026-10-28",
-      "statut": "Sujet stabilisé, phase de reconstruction et d'enquête judiciaire."
+      "derniere_mise_a_jour": "2026-10-30",
+      "statut": "Le sujet passe en phase judiciaire avec l'enquête sur le financement de la fuite."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 441,
+    "nb_articles_analyses": 440,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

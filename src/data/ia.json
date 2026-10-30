@@ -1,149 +1,16 @@
 {
-  "date": "2026-10-28",
-  "genere_a": "2026-10-28T05:35:44.241Z",
+  "date": "2026-10-30",
+  "genere_a": "2026-10-30T05:35:12.376Z",
   "faits_ia": [
     {
-      "titre": "OpenAI lance GPT-6.1 Terra : un nouveau standard de performance-prix",
+      "titre": "Mistral AI lance Large 4 : le modèle « Le Chonk » passe en poids ouverts",
       "sous_section": "annonces",
-      "resume": "OpenAI restructure sa gamme de modèles autour de quatre piliers célestes, introduisant GPT-6.1 Terra comme son modèle polyvalent phare. Cette version vise à optimiser le rapport entre puissance de calcul et coût d'utilisation, se positionnant entre Luna (vitesse) et Sol (complexité).",
-      "pourquoi_ca_compte": "Cette segmentation marque la maturité industrielle de l'IA, où l'accessibilité financière devient aussi cruciale que la puissance brute pour l'adoption massive par les citoyens.",
+      "resume": "La start-up française Mistral AI a publié les poids de son modèle frontalier Mistral Large 4, surnommé « Le Chonk ». Ce modèle massif de 1 000 milliards de paramètres a été optimisé pour le code et le raisonnement complexe durant sa phase de préversion de trois semaines.",
+      "pourquoi_ca_compte": "L'accès aux poids ouverts permet aux entreprises et chercheurs d'auditer et de déployer localement un modèle de classe mondiale, réduisant la dépendance aux infrastructures fermées américaines.",
       "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/brief-article/openai-lance-gpt-6-1-terra-a-lassaut-du-rapport-performances-prix/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://next.ink/brief-article/openai-lance-gpt-6-1-terra-a-lassaut-du-rapport-performances-prix/"
-    },
-    {
-      "titre": "DeepMind dévoile Genie 4 : des mondes virtuels avec physique et audio",
-      "sous_section": "recherche",
-      "resume": "Google DeepMind a présenté Genie 4, un modèle de monde capable de générer des simulations interactives plus réalistes. Les améliorations incluent l'intégration native de l'audio, une cohérence de scène doublée (jusqu'à deux minutes) et une physique des personnages plus humaine.",
-      "pourquoi_ca_compte": "Ces avancées facilitent la création d'environnements d'entraînement ultra-réalistes pour les robots et posent des questions sur la frontière entre réel et simulation pour le grand public.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Scale AI poursuivie en Europe pour surveillance abusive des travailleurs",
-      "sous_section": "regulation",
-      "resume": "Cinq plaintes ont été déposées dans quatre pays européens contre Scale AI et sa plateforme Outlier. L'entreprise est accusée d'utiliser une quinzaine de traceurs pour surveiller de manière excessive les annotateurs de données, piliers invisibles de l'industrie de l'IA.",
-      "pourquoi_ca_compte": "Ce dossier souligne la précarité et les violations des droits numériques des 'travailleurs du clic' dont dépendent les géants de la tech.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/264263/travail-du-clic-scale-ai-poursuivie-en-justice-dans-quatre-pays-europeens/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://next.ink/264263/travail-du-clic-scale-ai-poursuivie-en-justice-dans-quatre-pays-europeens/"
-    },
-    {
-      "titre": "Anthropic vise la bourse avec des besoins de financement records",
-      "sous_section": "business",
-      "resume": "En préparation de son introduction en bourse, Anthropic a révélé une trajectoire financière vertigineuse, prévoyant jusqu'à 800 milliards de dollars de dépenses futures. Malgré une croissance forte, l'entreprise reste dépendante d'investissements massifs pour maintenir sa course technologique.",
-      "pourquoi_ca_compte": "Ces chiffres illustrent la bulle potentielle ou l'investissement colossal nécessaire pour que l'IA atteigne son plein potentiel économique.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/263960/en-route-pour-la-bourse-anthropic-liste-800-milliards-de-dollars-de-depenses/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://next.ink/263960/en-route-pour-la-bourse-anthropic-liste-800-milliards-de-dollars-de-depenses/"
-    },
-    {
-      "titre": "L'IA pour remplacer Parcoursup : la réponse de l'exécutif aux lycéens",
-      "sous_section": "societe",
-      "resume": "Face à la mobilisation lycéenne, le gouvernement français a annoncé le remplacement de Parcoursup par un nouvel outil d'orientation enrichi par l'intelligence artificielle. Ce système promet un meilleur accompagnement personnalisé des élèves dans leurs choix de carrière.",
-      "pourquoi_ca_compte": "Confier l'orientation scolaire à des algorithmes d'IA soulève des enjeux majeurs de transparence, de déterminisme social et de droit à l'erreur pour la jeunesse.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/264015/le-gouvernement-annonce-remplacer-parcoursup-et-un-outil-dorientation-enrichi-par-lia/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/politique/271026/les-concessions-du-pouvoir-au-mouvement-lyceen-miroir-de-son-extreme-faiblesse",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Mediapart",
-            "proprietaire": "Fonds pour une presse libre",
-            "type_proprietaire": "fondation",
-            "orientation": "gauche"
-          }
-        }
-      ],
-      "lien": "https://next.ink/264015/le-gouvernement-annonce-remplacer-parcoursup-et-un-outil-dorientation-enrichi-par-lia/"
-    },
-    {
-      "titre": "Apple généralise la puce M6 sur ses iMac et MacBook Pro",
-      "sous_section": "annonces",
-      "resume": "Apple a rafraîchi ses gammes iMac et MacBook Pro 14 pouces avec la nouvelle puce M6. Outre le gain de puissance, ces machines intègrent désormais le Wi-Fi 7 et le Bluetooth 6 via la puce N1, tout en augmentant l'autonomie des portables à 24 heures.",
-      "pourquoi_ca_compte": "Cette mise à jour matérielle prépare le terrain pour des capacités d'IA générative locales (on-device) de plus en plus gourmandes en ressources.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/brief-article/apple-met-du-m6-dans-limac-et-le-macbook-pro/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
         {
           "nom": "Numerama",
-          "url": "https://www.numerama.com/tech/2361025-en-attendant-le-premier-mac-tactile-apple-met-a-jour-les-macbook-pro-et-imac-avec-la-puce-m6.html",
+          "url": "https://www.numerama.com/tech/2363685-mistral-large-4-est-disponible-en-poids-ouverts-ce-qui-a-change-depuis-sa-presentation.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Humanoid",
@@ -153,39 +20,95 @@
           }
         },
         {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+          "nom": "Next",
+          "url": "https://next.ink/260208/mistral-lance-une-preversion-de-son-llm-frontiere-mistrale-large-surnomme-le-chonk/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Google présente Carbon pour succéder à Argon en un temps record",
+      "sous_section": "annonces",
+      "resume": "Un mois seulement après la présentation d'Argon, Google dévoile Carbon, son nouveau modèle de pointe. Bien que les détails techniques restent flous, Carbon prend la tête de la hiérarchie des modèles de l'entreprise.",
+      "pourquoi_ca_compte": "Cette accélération montre une course effrénée au leadership technique, posant des questions sur la stabilité des outils pour les développeurs et le temps nécessaire à l'évaluation de la sécurité de chaque version.",
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/264762/ia-chez-google-carbon-supplante-deja-argon/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Généralisation de la publicité dans le mode IA de Google",
+      "sous_section": "business",
+      "resume": "Pour rentabiliser ses investissements massifs dans les infrastructures, Google commence à intégrer des annonces publicitaires directement dans les réponses générées par son IA. Le géant cherche à amortir des coûts de calcul bien supérieurs à ceux d'une recherche classique.",
+      "pourquoi_ca_compte": "Le mélange entre information générée par IA et contenu sponsorisé pourrait biaiser la neutralité perçue des réponses et transformer l'assistance numérique en un simple canal de vente.",
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/264850/face-au-mur-des-depenses-google-va-afficher-de-la-publicite-dans-le-mode-ia/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "GM condamné à 220 millions de dollars pour vente de données de conduite",
+      "sous_section": "regulation",
+      "resume": "General Motors a conclu un accord de 220 millions de dollars avec 36 procureurs généraux américains. Le constructeur était accusé d'avoir vendu les habitudes de conduite et de localisation de ses clients à des courtiers en données sans consentement explicite.",
+      "pourquoi_ca_compte": "C'est un signal fort pour l'industrie automobile connectée : les données de déplacement sont des données privées protégées, et non un actif commercial par défaut.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
             "orientation": "centre"
           }
         },
         {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/transportation/1022555/gm-data-privacy-attorneys-general-lawsuit",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
           }
         }
-      ],
-      "lien": null
+      ]
     },
     {
-      "titre": "Épuisement des contributeurs Open Source face à la déferlante IA",
-      "sous_section": "recherche",
-      "resume": "Un rapport de la Linux Foundation alerte sur la fatigue croissante des développeurs open source. Si l'IA aide à produire du code, elle impose une charge de relecture et de validation humaine insoutenable, menaçant la pérennité de certains projets critiques.",
-      "pourquoi_ca_compte": "Si les fondations du logiciel libre s'effritent sous le poids du code généré par IA, c'est toute la sécurité et l'indépendance de l'infrastructure numérique mondiale qui est en péril.",
+      "titre": "Fnac Darty sanctionné par la CNIL pour non-respect du refus de tracking",
+      "sous_section": "regulation",
+      "resume": "La CNIL a infligé une amende de 7 millions d'euros à Fnac Darty. Le groupe collectait des données personnelles même lorsque les utilisateurs cliquaient sur « Continuer sans accepter », justifiant abusivement un usage « strictement nécessaire ».",
+      "pourquoi_ca_compte": "Cette sanction rappelle que le droit de refuser le traçage publicitaire doit être effectif et que les entreprises ne peuvent pas contourner le consentement par des artifices techniques.",
       "sources": [
         {
           "nom": "Next",
-          "url": "https://next.ink/264168/ia-et-logiciel-libre-la-linux-foundation-fait-le-point/",
+          "url": "https://next.ink/264650/continuer-sans-accepter-fnac-darty-vous-tracait-quand-meme-7-millions-deuros-damende/",
           "type": "investigation",
           "groupe_media": {
             "nom": "Next (ex-Next INpact)",
@@ -194,18 +117,17 @@
             "orientation": "centre"
           }
         }
-      ],
-      "lien": "https://next.ink/264168/ia-et-logiciel-libre-la-linux-foundation-fait-le-point/"
+      ]
     },
     {
-      "titre": "Cybersécurité : Fuites de données massives chez les partis politiques français",
+      "titre": "Meta aurait tenté de discréditer un chercheur critique sur l'addiction",
       "sous_section": "societe",
-      "resume": "Un pirate prétend avoir dérobé les données du PCF, de LFI et de Renaissance en plein climat de campagne présidentielle. Si certains partis démentent, la menace souligne la vulnérabilité des organisations politiques face aux cyberattaques ciblées.",
-      "pourquoi_ca_compte": "La protection des données des militants et des électeurs est un enjeu démocratique majeur pour éviter les manipulations de masse ou le harcèlement ciblé.",
+      "resume": "Des documents judiciaires révèlent que Meta a élaboré un plan pour discréditer le psychologue Jonathan Haidt. Ce dernier est l'un des critiques les plus virulents de l'impact des réseaux sociaux sur la santé mentale des adolescents.",
+      "pourquoi_ca_compte": "L'utilisation de méthodes de dénigrement contre la recherche scientifique indépendante menace la transparence nécessaire pour réguler les effets nocifs du numérique sur la jeunesse.",
       "sources": [
         {
           "nom": "Next",
-          "url": "https://next.ink/264085/un-pirate-affirme-avoir-recupere-donnees-de-trois-partis-politiques/",
+          "url": "https://next.ink/264621/addiction-aux-reseaux-sociaux-meta-a-voulu-monter-les-chercheurs-contre-lun-dentre-eux/",
           "type": "investigation",
           "groupe_media": {
             "nom": "Next (ex-Next INpact)",
@@ -214,38 +136,36 @@
             "orientation": "centre"
           }
         }
-      ],
-      "lien": "https://next.ink/264085/un-pirate-affirme-avoir-recupere-donnees-de-trois-partis-politiques/"
+      ]
     },
     {
-      "titre": "Ford Fathom : L'électrique abordable pour alimenter son domicile",
+      "titre": "L'IA comme outil de réappropriation des Smart TV",
+      "sous_section": "recherche",
+      "resume": "Une tendance émergente voit des utilisateurs utiliser l'IA pour modifier le logiciel interne de leurs téléviseurs connectés. L'objectif est de supprimer les publicités intrusives et de reprendre le contrôle sur des interfaces de plus en plus fermées.",
+      "pourquoi_ca_compte": "Cela illustre un paradoxe : si l'IA est souvent un outil de contrôle pour les plateformes, elle peut aussi devenir un levier d'émancipation technique pour les citoyens avertis.",
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/264547/smart-tv-de-lintelligence-artificielle-contre-la-betise-reelle/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Amazon renouvelle sa gamme Alexa malgré les doutes sur la rentabilité",
       "sous_section": "annonces",
-      "resume": "Ford lance le Fathom, un pick-up électrique à 30 000 dollars doté de la recharge bidirectionnelle native (V2X). Ce véhicule permet d'alimenter une maison en électricité sans onduleur mural coûteux, démocratisant l'usage de la voiture comme batterie domestique.",
-      "pourquoi_ca_compte": "Cette technologie renforce la résilience énergétique des foyers face aux pannes de réseau et optimise l'usage des énergies renouvelables.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/27/ford-fathom-will-be-the-cheapest-american-ev-capable-of-powering-a-house/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Microsoft lance un plan de départs volontaires pour 60 000 salariés",
-      "sous_section": "business",
-      "resume": "Après des coupes sombres dans sa division Xbox, Microsoft étend sa réduction d'effectifs avec un plan de départs volontaires massif touchant les États-Unis, le Canada et l'Inde. Cette restructuration vise à réallouer les ressources vers les priorités liées à l'IA.",
-      "pourquoi_ca_compte": "La transition vers l'économie de l'IA provoque des séismes sociaux majeurs, même chez les acteurs les plus rentables du secteur.",
+      "resume": "Amazon a lancé de nouveaux appareils domotiques, dont un cadre photo Alexa et le réveil Echo Time. Cette mise à jour intervient alors que le secteur des assistants vocaux cherche son second souffle via l'intégration de l'IA générative.",
+      "pourquoi_ca_compte": "La présence accrue de microphones et d'écrans connectés dans l'intimité du foyer soulève des enjeux persistants de vie privée et de dépendance aux écosystèmes propriétaires.",
       "sources": [
         {
           "nom": "Next",
-          "url": "https://next.ink/brief-article/microsoft-ouvre-un-plan-de-departs-volontaires-a-60-000-salaries/",
+          "url": "https://next.ink/264658/reveil-cadre-photo-nouvelles-enceintes-amazon-complete-son-offre-domotique/",
           "type": "investigation",
           "groupe_media": {
             "nom": "Next (ex-Next INpact)",
@@ -254,35 +174,58 @@
             "orientation": "centre"
           }
         }
-      ],
-      "lien": "https://next.ink/brief-article/microsoft-ouvre-un-plan-de-departs-volontaires-a-60-000-salaries/"
+      ]
+    },
+    {
+      "titre": "IPv6 : un refuge contre le « bruit de fond » malveillant d'Internet",
+      "sous_section": "recherche",
+      "resume": "Des analyses montrent que les serveurs configurés uniquement en IPv6 subissent nettement moins de tentatives d'intrusion et de scans automatisés que ceux en IPv4. Ce « silence » s'explique par l'immensité de l'espace d'adressage IPv6, rendant le balayage aléatoire inefficace.",
+      "pourquoi_ca_compte": "La migration vers l'IPv6 n'est pas seulement une nécessité technique pour l'extension du réseau, mais devient un avantage de sécurité passive pour les infrastructures citoyennes.",
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/264553/attaques-et-scans-sur-internet-en-ipv6-le-silence-est-assourdissant/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Canonical relance le projet Ubuntu Core Desktop immuable",
+      "sous_section": "annonces",
+      "resume": "L'éditeur d'Ubuntu accélère le développement de sa version « Core Desktop ». Ce système se veut immuable et atomique, garantissant que le système d'exploitation reste sain et vérifiable, même après des modifications utilisateur.",
+      "pourquoi_ca_compte": "Pour l'utilisateur, l'immuabilité réduit drastiquement les risques de pannes logicielles après une mise à jour, offrant une fiabilité proche de celle des smartphones sur ordinateur.",
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/264855/canonical-se-relance-serieusement-dans-son-ubuntu-core-desktop-immuable/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ]
     }
   ],
   "regard_croise_ia": {
-    "sujet": "Le renouvellement de la gamme Mac (M6) et l'évolution vers l'IA locale",
-    "contexte": "Apple a annoncé par voie de presse la mise à jour de ses iMac et MacBook Pro 14 pouces avec la puce M6, mettant l'accent sur les performances et la connectivité sans fil de nouvelle génération.",
+    "sujet": "Lancement de Mistral Large 4 (« Le Chonk »)",
+    "contexte": "Mistral AI a publié les poids ouverts de son dernier modèle phare, revendiquant des performances de pointe dans le raisonnement et le code, après une période de discrétion médiatique.",
     "couvertures": [
-      {
-        "source": "Next",
-        "type": "investigation",
-        "angle": "Factuel et technique, focus sur le cycle de renouvellement rapide.",
-        "ton": "neutre",
-        "url": "https://next.ink/brief-article/apple-met-du-m6-dans-limac-et-le-macbook-pro/",
-        "citation_cle": "Apple continue de rafraîchir ses gammes : après l’iPad mini hier lundi, voici venir le tour de l’iMac et du MacBook Pro.",
-        "groupe_media": {
-          "nom": "Next (ex-Next INpact)",
-          "proprietaire": "Équipe fondatrice",
-          "type_proprietaire": "independant",
-          "orientation": "centre"
-        }
-      },
       {
         "source": "Numerama",
         "type": "mainstream",
-        "angle": "Analyse de la stratégie produit et anticipation du futur Mac tactile.",
+        "angle": "Évolution technique et améliorations depuis la préversion",
         "ton": "factuel",
-        "url": "https://www.numerama.com/tech/2361025-en-attendant-le-premier-mac-tactile-apple-met-a-jour-les-macbook-pro-et-imac-avec-la-puce-m6.html",
-        "citation_cle": "Le très attendu MacBook Pro à écran tactile n'est pas encore là : il devrait être dévoilé mercredi à Los Angeles.",
+        "url": "https://www.numerama.com/tech/2363685-mistral-large-4-est-disponible-en-poids-ouverts-ce-qui-a-change-depuis-sa-presentation.html",
+        "citation_cle": "La start-up a profité des trois semaines écoulées depuis la préversion pour l'améliorer nettement en code et raisonnement.",
         "groupe_media": {
           "nom": "Humanoid",
           "proprietaire": "Humanoid (indépendant)",
@@ -291,31 +234,30 @@
         }
       },
       {
-        "source": "TechCrunch",
-        "type": "etranger",
-        "angle": "Focus sur l'autonomie record et les nouvelles normes de connectivité.",
+        "source": "Next",
+        "type": "investigation",
+        "angle": "Positionnement stratégique et retour dans la course",
         "ton": "neutre",
-        "url": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
-        "citation_cle": "The new MacBook Pro comes with 24 hours of battery life, and now features support for Wi-Fi 7.",
+        "url": "https://next.ink/260208/mistral-lance-une-preversion-de-son-llm-frontiere-mistrale-large-surnomme-le-chonk/",
+        "citation_cle": "Il doit remettre l’entreprise française dans la course, après de longs mois de quasi-silence sur les grands modèles.",
         "groupe_media": {
-          "nom": "Yahoo (AOL / Oath)",
-          "proprietaire": "Apollo Global Management",
-          "type_proprietaire": "milliardaire",
+          "nom": "Next (ex-Next INpact)",
+          "proprietaire": "Équipe fondatrice",
+          "type_proprietaire": "independant",
           "orientation": "centre"
         }
       }
     ],
-    "analyse_coherence": "La couverture est globalement cohérente sur les spécifications techniques (. Cependant, on observe une divergence d'intérêt : la presse française (Next, Numerama replace cette annonce dans un contexte de 'rafraîchissement' de gamme et de calendrier marketing serré, tandis que la presse américaine (TechCrunch, Ars Technica) insiste davantage sur les prouesses de l'autonomie (24h) et les nouvelles normes Bluetooth/Wi-Fi. Numerama est le seul à introduire une dimension prospective forte en liant cette annonce à l'attente d'un modèle tactile. Aucun média ne questionne ici l'obsolescence accélérée des modèles M4/M5, préférant souligner l'évolution technologique continue.",
+    "analyse_coherence": "La couverture est globalement cohérente et se concentre sur l'aspect technique et stratégique. Numerama met l'accent sur les progrès réalisés durant la phase de test (benchmarks de code), tandis que Next souligne l'enjeu commercial pour Mistral AI qui devait prouver sa capacité à suivre le rythme imposé par OpenAI et Google. L'appellation familière « Le Chonk » est reprise par les deux sources, illustrant une stratégie de communication plus décontractée de la pépite française pour séduire la communauté des développeurs.",
     "biais_detectes": [
-      "Biais de nouveauté : focalisation sur les specs sans analyse critique du prix ou de la nécessité du renouvellement.",
-      "Optimisme technologique sur l'autonomie."
+      "Biais de souveraineté : une tendance à présenter le succès de Mistral comme un enjeu national nécessaire face aux géants américains."
     ],
-    "ce_quil_faut_retenir": "Apple accélère ses cycles de mise à jour matérielle pour imposer sa puce M6, préparant une infrastructure capable de supporter des modèles d'IA de plus en plus lourds directement sur les appareils des utilisateurs."
+    "ce_quil_faut_retenir": "Mistral Large 4 marque le retour de l'Europe dans le très haut de gamme de l'IA générative avec un modèle accessible en poids ouverts, favorisant l'innovation locale."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 132,
-    "nb_topics_ia": 56,
+    "nb_articles_ia": 128,
+    "nb_topics_ia": 48,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
