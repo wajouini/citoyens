@@ -1,57 +1,105 @@
 {
   "sujet_du_jour": {
-    "titre": "Datacenters : l'envers du décor des chantiers de la tech en Europe",
+    "titre": "Fraude fiscale : ouverture du procès fleuve des « Dubaï Papers » à Paris",
     "rubrique": "economie",
-    "pourquoi_important": "Une enquête transfrontalière révèle des conditions de travail indignes et dangereuses sur les chantiers des géants du numérique en Europe.",
+    "pourquoi_important": "C'est l'un des plus vastes réseaux de dissimulation fiscale internationale jamais jugés en France, impliquant des centaines de contribuables et des millions d'euros.",
     "faits": [
-      "Des cas d'électrocutions, de logements insalubres et de salaires impayés documentés sur des sites Google et Microsoft .",
-      "L'inspection du travail belge a conclu à une absence de faute après une électrocution à Saint-Ghislain, malgré des témoignages de pressions (The Guardian).",
-      "Le syndicat suédois Solidariska Byggare a dû négocier en urgence le versement d'arriérés de salaires sur un chantier à Gävle .",
-      "La Commission européenne prépare une législation pour 2027, mais centrée sur la performance énergétique plutôt que sur le droit social."
+      "Ouverture ce lundi 2 novembre 2026 du procès de 14 personnes physiques, dont un prince belge, et 3 sociétés pour fraude fiscale en bande organisée et blanchiment.",
+      "Le dispositif, orchestré par le cabinet Hélin International, aurait permis à 322 contribuables français de dissimuler au moins 200 millions d'euros d'avoirs entre 2007 et 2018.",
+      "L'enquête du Parquet national financier (PNF) a nécessité 71 perquisitions et a déjà abouti à plusieurs condamnations de 'petites mains' du système.",
+      "Le procès doit durer jusqu'au 3 décembre 2026 devant le tribunal correctionnel de Paris."
     ],
-    "contexte": "Alors que la construction de datacenters explose pour répondre aux besoins de l'IA, les chaînes de sous-traitance opaques favorisent l'exploitation de travailleurs migrants. Une enquête menée dans neuf pays pointe un climat de « terreur » et un manque de contrôle effectif des autorités locales. Le Parlement européen a pourtant alerté dès février 2026 sur la nécessité de protéger les travailleurs dans ces chaînes d'intermédiaires.",
+    "contexte": "L'affaire a éclaté en 2018 suite à des fuites de documents révélant une ingénierie financière sophistiquée (sociétés offshore, structures écrans) basée aux Émirats arabes unis et à l'île Maurice. Ce procès met en lumière la persistance de circuits d'évasion fiscale malgré le renforcement de la coopération internationale. Le PNF cherche ici à sanctionner non seulement les fraudeurs, mais surtout les architectes du système : avocats, experts-comptables et gestionnaires de fortune.",
     "sources": [
       {
-        "nom": "The Guardian",
-        "url": "https://www.theguardian.com/global-development/2026/oct/30/electrocutions-disease-and-no-pay-how-workers-risk-exploitation-in-europes-datacentres",
-        "type": "etranger",
-        "groupe_media": {
-          "nom": "Scott Trust",
-          "proprietaire": "Scott Trust Limited",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
-        }
-      },
-      {
         "nom": "Les Décodeurs (Le Monde)",
-        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/10/30/centres-de-donnees-sur-les-chantiers-de-construction-europeens-des-travailleurs-exploites-dans-un-climat-de-terreur_6802772_4355770.html",
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/02/dubai-papers-l-heure-du-proces-pour-une-officine-de-fraude-fiscale-a-grande-echelle_6804884_4355770.html",
         "type": "fact-check",
         "groupe_media": null
       },
       {
-        "nom": "Commission européenne",
-        "url": "https://energy.ec.europa.eu/topics/energy-efficiency/energy-efficiency-targets-directive-and-rules/energy-efficiency-directive/energy-performance-data-centres_en",
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/france/20261101-proc%C3%A8s-des-duba%C3%AF-papers-trois-soci%C3%A9t%C3%A9s-et-14-personnes-dont-un-prince-belge-seront-jug%C3%A9es-%C3%A0-paris",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
+      },
+      {
+        "nom": "Parquet National Financier",
+        "url": "https://www.tribunal-de-paris.justice.fr/sites/default/files/2023-01/230118_CP%20Duba%C3%AF%20papers.pdf",
         "type": "institutionnel",
         "groupe_media": null
       }
     ],
-    "lien": "https://www.theguardian.com/global-development/2026/oct/30/electrocutions-disease-and-no-pay-how-workers-risk-exploitation-in-europes-datacentres"
+    "lien": null
   },
   "france": [
     {
-      "titre": "Édouard Philippe témoin assisté pour détournement de fonds publics",
-      "rubrique": "politique",
-      "resume": "L'ancien Premier ministre a été entendu par des juges financiers concernant la gestion de la Cité numérique du Havre. Son avocat se félicite d'un statut de témoin assisté, moins incriminant qu'une mise en examen, bien que l'enquête pour favoritisme et harcèlement moral se poursuive.",
+      "titre": "Procès de la « petite martyre de l'A10 » : 39 ans après, l'heure de vérité",
+      "rubrique": "societe",
+      "resume": "Les parents d'Inass Touloub, retrouvée morte en 1987 sur le bord de l'autoroute, sont jugés à Blois pour torture et actes de barbarie. L'identification de l'enfant en 2018 grâce à l'ADN a permis de clore l'un des plus célèbres cold cases français (franceinfo, BFM TV, La Croix).",
       "sources": [
         {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/france/20261029-soup%C3%A7ons-de-d%C3%A9tournement-de-fonds-publics-%C3%A9douard-philippe-plac%C3%A9-sous-le-statut-de-t%C3%A9moin-assist%C3%A9",
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/justice/4252634-20261101-martyre-a10-fait-31-ans-attends-veniez-comment-parents-fini-etre-identifies",
           "type": "mainstream",
           "groupe_media": null
         },
         {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/environnement/crise-climatique/la-planete-s-approche-du-seuil-de-1-5-c-de-rechauffement-un-niveau-critique-pour-les-banquises-et-les-glaciers_8263031.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream"
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-route-du-rhum-2026-je-suis-trop-triste-reagit-violette-dorange-apres-sa-collision-avec-romain-pilliard-seulement-quelques-heures-apres-le-depart_VN-202611020097.html",
+          "type": "mainstream"
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/societe/mouvement-lyceen-les-specialites-du-bac-au-menu-des-reflexions-20261101",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Rue d’Aubagne : ouverture du procès en appel à Marseille",
+      "rubrique": "societe",
+      "resume": "Huit ans après l'effondrement de deux immeubles ayant fait huit morts, 15 prévenus sont de nouveau jugés. Le procès s'ouvre dans un climat de tension, alors que l'habitat indigne reste un fléau majeur dans la cité phocéenne (Ouest-France, L'Humanité).",
+      "sources": [
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/societe/aubagne/a-marseille-lhabitat-indigne-tue-toujours-8-ans-apres-les-effondrements-de-la-rue-daubagne-le-proces-en-appel-souvre-entre-colere-et-espoirs",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/provence-alpes-cote-dazur/marseille-13000/effondrements-de-la-rue-daubagne-nouveau-proces-a-marseille-ce-lundi-8fc3c612-d66e-11f1-84f3-5611f158a658",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Santé : le Wegovy arrive en comprimés dans les pharmacies",
+      "rubrique": "science",
+      "resume": "Le médicament anti-obésité vedette de Novo Nordisk est désormais disponible sous forme orale en France. Bien que plus simple d'usage que les injections, ces pilules ne sont pas remboursées par la Sécurité sociale (Le Monde, Libération).",
+      "sources": [
+        {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/10/29/edouard-philippe-place-sous-le-statut-de-temoin-assiste-dans-une-enquete-ouverte-notamment-pour-detournement-de-fonds-publics_6802392_3224.html",
+          "url": "https://www.lemonde.fr/sante/article/2026/11/02/marche-des-medicaments-antiobesite-le-wegovy-arrive-en-comprime-dans-les-pharmacies-francaises_6804738_1651302.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -62,7 +110,7 @@
         },
         {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/politique/elections/accusations-de-detournement-de-fonds-publics-edouard-philippe-place-sous-le-statut-de-temoin-assiste-20261029_UWFAVBEB3JFJTOXIU74AZIPC6I/",
+          "url": "https://www.liberation.fr/societe/sante/medicament-anti-obesite-le-wegovy-version-comprime-arrive-en-france-20261101_ZQWJVASHSRB4DKFDBP5XECSVOQ/",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Libération",
@@ -73,39 +121,18 @@
         }
       ],
       "lien": null
-    },
-    {
-      "titre": "Carburants : libération des stocks stratégiques en Europe",
-      "rubrique": "economie",
-      "resume": "Pour stabiliser les prix avant l'hiver, onze pays de l'UE vont libérer 42,6 millions de barils de pétrole. En France, cette mesure devrait entraîner une baisse de 12 à 18 centimes par litre de gazole dès le 1er novembre.",
-      "sources": [],
-      "lien": null
-    },
-    {
-      "titre": "Mistral Large 4 : le champion français de l'IA publie ses poids",
-      "rubrique": "tech",
-      "resume": "Mistral AI a rendu disponible son nouveau modèle de frontière, surnommé « Le Chonk ». Avec 1 000 milliards de paramètres, ce modèle en poids ouverts vise à concurrencer les leaders américains en mettant l'accent sur le code et la cybersécurité.",
-      "sources": [],
-      "lien": null
     }
   ],
   "monde": [
     {
-      "titre": "Israël : Netanyahu en tête mais sans majorité claire",
-      "pays": "Israël",
-      "resume": "Les résultats officiels des législatives placent la coalition de Benjamin Netanyahu en tête avec 53 sièges sur 120. Sans majorité absolue, le pays s'enfonce dans l'incertitude politique, les listes arabes (19 sièges) devenant potentiellement arbitres du prochain gouvernement.",
-      "sources": [],
-      "lien": null
-    },
-    {
-      "titre": "Frappe meurtrière sur la gare de Dnipro",
-      "pays": "Ukraine",
-      "resume": "Une attaque de drone russe sur un quai bondé de la gare de Dnipro a fait au moins 14 morts et autant de blessés. Volodymyr Zelensky a dénoncé une campagne d'intensification ciblant les infrastructures civiles et appelle l'Occident à des actions résolues.",
+      "titre": "Iliana Iotova élue présidente en Bulgarie",
+      "pays": "Bulgarie",
+      "resume": "La présidente sortante, partisane déclarée d'un dialogue avec Moscou pour mettre fin au conflit ukrainien, a remporté le second tour avec environ 55% des voix. Elle devient la première femme élue à la tête de l'État bulgare (RFI, Le Monde, 20 Minutes).",
       "sources": [
         {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/guerre-une-attaque-russe-sur-la-gare-ukrainienne-de-dnipro-fait-14-morts_282887",
-          "type": "etranger",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/11/01/presidentielle-en-bulgarie-iliana-iotova-remporte-l-election-selon-plusieurs-sondages-a-la-sortie-des-urnes_6804603_3210.html",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -114,151 +141,193 @@
           }
         },
         {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20261029-guerre-en-ukraine-une-frappe-russe-tue-13-personnes-%C3%A0-la-gare-centrale-de-dnipro",
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/monde/ukraine/4259403-20261102-favorable-dialogue-moscou-iliana-iotova-elue-presidente-bulgarie",
           "type": "mainstream",
           "groupe_media": null
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261102-midterms-2026-dans-l-ohio-ultimes-sessions-de-porte-%C3%A0-porte-pour-convaincre-les-%C3%A9lecteurs",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Fin de la mission de l'ONU au Sahara occidental",
+      "pays": "Sahara occidental",
+      "resume": "L'ONU a officialisé la liquidation de la Minurso après 35 ans de présence. Cette décision fait suite à un veto russe sur une résolution américaine favorable au plan d'autonomie marocain, laissant le conflit territorial dans l'impasse (France 24, RFI).",
+      "sources": [
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261101-pr%C3%A9sidentielle-2027-la-primaire-de-la-droite-et-du-centre-n-aura-pas-lieu-1",
+          "type": "mainstream"
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261102-midterms-2026-dans-l-ohio-ultimes-sessions-de-porte-%C3%A0-porte-pour-convaincre-les-%C3%A9lecteurs",
+          "type": "mainstream"
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Restauration des écosystèmes : l'ONU tire la sonnette d'alarme",
-    "rubrique": "science",
-    "contexte": "À la fin de la COP17 sur la biodiversité à Erevan, l'ONU publie un rapport évaluant les efforts mondiaux de restauration de la nature.",
+    "sujet": "Colloque du collectif identitaire Objectif Remigration",
+    "rubrique": "societe",
+    "contexte": "Malgré l'interdiction préfectorale à Paris et dans les Hauts-de-Seine, le collectif identitaire a organisé une réunion dans une brasserie parisienne ce dimanche 1er novembre.",
     "couvertures": [
       {
-        "source": "Reporterre",
+        "source": "Blast",
         "type": "investigation",
-        "angle": "Nécessité de tripler les investissements pour atteindre les objectifs internationaux.",
-        "ton": "critique",
-        "url": "https://reporterre.net/Restauration-des-ecosystemes-le-monde-doit-tripler-ses-efforts",
-        "citation_cle": "252 millions d'hectares font l'objet d'actions, soit la surface de l'Algérie, mais c'est encore trop peu.",
-        "auteur": null,
-        "proprietaire_contexte": "Indépendant (Association La Pile)",
-        "orientation_source": "Ecologie sociale / Gauche",
+        "angle": "Dénonciation d'un défi à l'autorité de l'État et de la complaisance des lieux d'accueil.",
+        "ton": "engage",
+        "url": "https://www.blast-info.fr/articles/2026/colloque-sur-la-remigration-les-identitaires-defient-linterdiction-et-palabrent-dans-une-brasserie-et-en-ligne-Hu7tP23oRLi51v9Nk-sIkw",
+        "citation_cle": "Les identitaires défient l’interdiction et palabrent dans une brasserie.",
+        "auteur": "Rédaction Blast",
+        "proprietaire_contexte": "Blast (Indépendant)",
+        "orientation_source": "Gauche radicale",
         "groupe_media": {
-          "nom": "Reporterre",
-          "proprietaire": "Association La Pile",
+          "nom": "Blast",
+          "proprietaire": "Blast",
           "type_proprietaire": "independant",
           "orientation": "gauche"
         }
       },
       {
-        "source": "France 24",
+        "source": "Libération",
         "type": "mainstream",
-        "angle": "Appel à l'accélération de la cadence face à l'urgence climatique.",
-        "ton": "factuel",
-        "url": "https://www.france24.com/fr/%C3%A9missions/%C3%A9l%C3%A9ment-terre-la-quotidienne/20261029-restauration-de-la-nature-l-onu-appelle-le-monde-%C3%A0-acc%C3%A9l%C3%A9rer-les-efforts",
-        "citation_cle": "Une restauration sans précédent est à l’œuvre, mais elle ne va pas assez vite.",
-        "auteur": "Noémie ROCHE",
-        "proprietaire_contexte": "État français",
-        "orientation_source": "Centre",
-        "groupe_media": null
+        "angle": "Focus sur le contournement des interdictions juridiques et le repli vers des lieux privés.",
+        "ton": "critique",
+        "url": "https://www.liberation.fr/economie/interdit-de-colloque-et-de-manifestation-le-collectif-objectif-remigration-se-rabat-sur-un-bistrot-parisien-20261101_YIQDAIHH7ZBFDFXMI2B2F436HY/",
+        "citation_cle": "Au menu : expulsion des immigrés et théorie du grand remplacement.",
+        "auteur": "Franck Bouaziz",
+        "proprietaire_contexte": "Fonds de dotation (Fondation)",
+        "orientation_source": "Centre-gauche",
+        "groupe_media": {
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
+        }
       }
     ],
-    "analyse_coherence": "L'analyse des couvertures montre un consensus sur l'insuffisance des efforts actuels, mais des nuances significatives dans l'approche. Tandis que France 24 adopte un ton institutionnel relayant l'appel à 'accélérer la cadence', Reporterre souligne le gouffre financier et structurel, précisant que les efforts doivent tripler. On observe ici un traitement médiatique qui, bien que factuel, peine à mettre en perspective la responsabilité des pays du Nord dans le financement de cette restauration globale. Le double standard réside souvent dans l'omission des causes systémiques (extractivisme, commerce mondial) au profit d'une injonction universelle à 'faire plus'. Les sources s'accordent néanmoins sur le chiffre de 252 millions d'hectares restaurés, un signal positif mais dérisoire face à la dégradation accélérée des sols mondiaux.",
+    "analyse_coherence": "Le traitement médiatique de cet événement révèle une divergence dans l'appréhension de la menace représentée par l'ultra-droite. Alors que les sources d'investigation comme Blast soulignent l'impunité apparente de ces groupes qui bafouent ouvertement des arrêtés préfectoraux, la presse mainstream se concentre sur l'aspect factuel du repli vers des espaces privés. On observe un double standard par rapport à d'autres mouvements sociaux (écologistes ou syndicaux) où les interdictions de manifester sont souvent suivies de dispositifs policiers préventifs massifs et de verbalisations systématiques. Ici, la tenue effective du colloque dans un établissement public, malgré l'interdiction officielle, pose la question de l'efficacité réelle des outils administratifs face aux réseaux identitaires. L'absence de réaction immédiate des forces de l'ordre pour faire respecter l'interdiction préfectorale contraste avec la sévérité appliquée lors des récentes mobilisations contre la réforme des retraites ou les mégabassines, suggérant une asymétrie dans la gestion de l'ordre public.",
     "biais_detectes": [
-      "Manque de perspective sur la dette écologique des pays développés",
-      "Focalisation sur les chiffres globaux sans distinction des types de restauration (monocultures vs écosystèmes complexes)"
+      "Asymétrie de traitement sécuritaire",
+      "Normalisation sémantique des termes identitaires dans certains titres"
     ],
-    "ce_quil_faut_retenir": "La restauration progresse mais reste largement sous-financée. L'objectif de 2030 ne sera atteint que si les investissements sont multipliés par trois, passant d'une logique de petits projets à une transformation systémique des sols."
+    "ce_quil_faut_retenir": "L'interdiction administrative n'a pas empêché la tenue de l'événement, illustrant la capacité des réseaux d'extrême droite à contourner la loi par l'usage d'espaces privés."
   },
-  "regard_etranger": [
-    {
-      "source": "France 24 EN",
-      "pays": "France/International",
-      "titre": "Détails troublants : le suspect de Trappes admet avoir ciblé les victimes par race et religion",
-      "titre_original": "'Very disturbing details': Trappes shooting suspect admits targeting victims by race, religion",
-      "angle": "Focus sur la dimension terroriste et raciste de l'attaque.",
-      "url": "https://www.france24.com/en/video/20261029-very-disturbing-details-trappes-shooting-suspect-admits-targeting-victims-by-race-religion",
-      "groupe_media": {
-        "nom": "France Médias Monde",
-        "proprietaire": "État français",
-        "type_proprietaire": "etat",
-        "orientation": "centre"
-      }
-    }
-  ],
+  "regard_etranger": [],
   "chiffre_du_jour": {
-    "valeur": "70 000",
-    "contexte": "Nombre de policiers et gendarmes mobilisés pour le dispositif de sécurité des mobilisations du 31 octobre en France.",
-    "source": "Le Monde / Préfecture de Police",
-    "source_url": "https://www.lemonde.fr/politique/article/2026/10/29/mobilisations-du-31-octobre-laurent-nunez-prevoit-un-dispositif-de-70-000-policiers-et-gendarmes-et-confirme-l-interdiction-des-rassemblements-dans-les-centres-villes_6802369_823448.html"
+    "valeur": "10h51",
+    "contexte": "L'heure à partir de laquelle les femmes travailleront « gratuitement » à compter du 19 novembre 2026 en raison des inégalités salariales persistantes.",
+    "source": "Les Glorieuses / Ouest-France",
+    "source_url": "https://www.ouest-france.fr/societe/egalite-hommes-femmes/egalite-salariale-le-19-novembre-a-partir-de-10-h-51-les-femmes-travailleront-gratuitement-selon-des-feministes-b9c39262-d673-11f1-84f3-5611f158a658"
   },
   "a_surveiller": [
     {
-      "date": "2026-10-31",
-      "evenement": "Mobilisations sociales partout en France et interdiction des rassemblements en centre-ville",
-      "type": "manifestation",
-      "lien": "https://www.bfmtv.com/replay-emissions/premiere-edition-6h-8h30/video-mobilisation-du-31-octobre-70-000-policiers-et-gendarmes-mobilises-partout-en-france_VN-202610300104.html"
+      "date": "2026-11-02",
+      "evenement": "Ouverture du procès des parents d'Inass Touloub à Blois",
+      "type": "audition",
+      "lien": "https://pressejudiciaire.fr/evenement/proces-des-parents-dinas-pour-des-actes-de-tortures-ayant-entraine-sa-mort-en-1987-cour-dassises-blois/"
     },
     {
-      "date": "2026-11-01",
-      "evenement": "Baisse attendue du prix du gazole à la pompe (12-18 centimes)",
-      "type": "echeance_economique",
+      "date": "2026-11-18",
+      "evenement": "Verdict attendu pour le procès de la petite martyre de l'A10",
+      "type": "echeance",
       "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Bolloré financerait l'agence de presse de Xenia Fedorova",
+      "titre": "Horus : le logiciel qui fiche les Indonésiens pour Eramet",
+      "rubrique": "tech",
+      "resume": "Une enquête de Reporterre révèle l'existence d'un logiciel de renseignement nommé Horus utilisé par le géant minier français Eramet pour profiler des populations locales en Indonésie sans leur consentement.",
+      "sources": [
+        {
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Horus-le-logiciel-de-renseignement-qui-fiche-des-Indonesiens-pour-un-geant-minier-francais",
+          "type": "investigation"
+        }
+      ],
+      "pourquoi_signal": "Ce cas illustre la dérive de la surveillance privée par des multinationales européennes dans les pays du Sud, souvent ignorée par la presse économique généraliste."
+    },
+    {
+      "titre": "Saisine de la justice sur les liens police/milices à Rouen",
       "rubrique": "politique",
-      "resume": "Selon Blast, Vincent Bolloré aurait versé des dizaines de milliers d'euros à l'ex-dirigeante de RT France, Xenia Fedorova, pour lancer une agence concurrente de l'AFP. Fedorova est pourtant sous le coup d'un gel d'avoirs pour 'ingérence informationnelle' russe.",
+      "resume": "La députée Alma Dufour a saisi le procureur après des vidéos de Blast montrant des militants d'extrême droite agresser des manifestants le 24 octobre avant de se replier derrière les cordons de police.",
       "sources": [
         {
           "nom": "Blast",
-          "url": "https://www.blast-info.fr/articles/2026/info-blast-ingerence-etrangere-vincent-bollore-finance-la-future-agence-de-presse-de-xenia-fedorova-jLOs0l1WQSKduEFXGuS2xg",
+          "url": "https://www.blast-info.fr/articles/2026/liens-entre-la-police-et-des-milices-dextreme-droite-une-deputee-saisit-la-justice-suite-aux-videos-de-blast-aHK97n91RfWO_ZTdRnQYsA",
           "type": "investigation"
-        },
-        {
-          "nom": "Légifrance",
-          "url": null,
-          "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "Ce sujet révèle une possible alliance financière occulte entre un empire médiatique français et des agents d'influence étrangère sanctionnés, largement ignorée par la presse mainstream."
+      "pourquoi_signal": "L'incident suggère une porosité inquiétante entre forces de l'ordre et activistes radicaux sur le terrain, un sujet tabou dans les médias institutionnels."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Interdiction de la « remigration » : victoire ou précédent ?",
+      "titre": "Impunité de l'ultra-droite à Lyon",
       "rubrique": "societe",
-      "resume": "Le préfet des Hauts-de-Seine a interdit un colloque sur la « remigration » prévu au Plessis-Robinson, tandis que la Préfecture de Police de Paris interdisait une manifestation liée. Les autorités invoquent des risques de troubles à l'ordre public et d'incitation à la haine.",
+      "resume": "Des militants néofascistes encagoulés ont manifesté devant la mairie du 8e arrondissement. Des enquêtes pointent également des liens persistants entre ultras de l'OL et mouvances radicales.",
       "axes_concernes": [
         "antifascisme",
-        "liberte_expression",
         "justice_sociale"
       ],
-      "analyse": "Si l'interdiction protège les valeurs républicaines contre un concept raciste et déshumanisant, elle pose la question de la réponse de l'État face à l'extrême droite. Nos principes imposent de condamner fermement ces idéologies coloniales résurgentes, tout en surveillant que ces outils administratifs ne soient pas utilisés demain contre des mouvements sociaux légitimes.",
+      "analyse": "L'action nocturne à Lyon, non déclarée et menée en toute impunité, témoigne d'une radicalisation décomplexée de l'ultra-droite. Le contraste entre la faiblesse de la réponse policière immédiate et la sévérité habituelle contre les mouvements sociaux pose un problème d'équité démocratique et de respect de l'État de droit.",
       "sources": [
         {
           "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/politique/291026/ni-colloque-ni-manifestation-sur-la-remigration-une-victoire-de-la-republique-face-des-tentations-delet",
+          "url": "https://www.mediapart.fr/journal/france/011126/lyon-les-liaisons-dangereuses-des-ultras-de-l-ol-avec-l-extreme-droite",
           "type": "investigation"
         },
         {
-          "nom": "Basta!",
-          "url": "https://basta.media/Qui-sont-les-partisans-du-concept-raciste-remigration-et-leurs-allies-Zemmour-Vox-AfD-RN-Bardella",
-          "type": "investigation"
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/politique/ils-ont-agi-en-toute-impunite-a-lyon-des-habitants-sideres-apres-un-rassemblement-dultra-droite-20261101_N7KDEM74HRGFBOE7TQI6SEA7DM/",
+          "type": "mainstream"
+        }
+      ]
+    },
+    {
+      "titre": "Purge électorale massive en Inde",
+      "rubrique": "international",
+      "resume": "Le gouvernement Modi est accusé d'avoir radié 135 millions d'électeurs des listes électorales, provoquant des manifestations massives à New Delhi.",
+      "axes_concernes": [
+        "droit_international",
+        "antifascisme"
+      ],
+      "analyse": "Cette radiation massive constitue une attaque directe contre les fondements de la démocratie indienne. L'utilisation de leviers administratifs pour exclure des pans entiers de la population (souvent des minorités ou des opposants) marque une étape inquiétante vers un régime autoritaire ethnocentré.",
+      "sources": [
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/monde/asie/135-millions-delecteurs-radies-des-listes-repression-des-mobilisations-en-inde-la-fuite-en-avant-fasciste-du-gouvernement-modi",
+          "type": "mainstream"
+        },
+        {
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261101-inde-des-milliers-de-manifestants-contre-la-r%C3%A9vision-des-listes-%C3%A9lectorales",
+          "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-10-30",
-  "genere_a": "2026-10-30T05:34:59.656Z",
+  "date": "2026-11-02",
+  "genere_a": "2026-11-02T05:34:37.879Z",
   "meta": {
-    "nb_articles_analyses": 440,
-    "nb_topics": 144,
+    "nb_articles_analyses": 531,
+    "nb_topics": 169,
     "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 38,
-    "sources_francaises": 235,
-    "sources_etrangeres": 205,
+    "nb_articles_dans_selection": 35,
+    "sources_francaises": 383,
+    "sources_etrangeres": 148,
     "rubriques_couvertes": [
       "economie",
-      "politique",
-      "tech",
+      "societe",
+      "science",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",

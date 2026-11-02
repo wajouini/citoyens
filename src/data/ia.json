@@ -1,95 +1,107 @@
 {
-  "date": "2026-10-30",
-  "genere_a": "2026-10-30T05:35:12.376Z",
+  "date": "2026-11-02",
+  "genere_a": "2026-11-02T05:34:54.075Z",
   "faits_ia": [
     {
-      "titre": "Mistral AI lance Large 4 : le modèle « Le Chonk » passe en poids ouverts",
-      "sous_section": "annonces",
-      "resume": "La start-up française Mistral AI a publié les poids de son modèle frontalier Mistral Large 4, surnommé « Le Chonk ». Ce modèle massif de 1 000 milliards de paramètres a été optimisé pour le code et le raisonnement complexe durant sa phase de préversion de trois semaines.",
-      "pourquoi_ca_compte": "L'accès aux poids ouverts permet aux entreprises et chercheurs d'auditer et de déployer localement un modèle de classe mondiale, réduisant la dépendance aux infrastructures fermées américaines.",
-      "sources": [
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/tech/2363685-mistral-large-4-est-disponible-en-poids-ouverts-ce-qui-a-change-depuis-sa-presentation.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Next",
-          "url": "https://next.ink/260208/mistral-lance-une-preversion-de-son-llm-frontiere-mistrale-large-surnomme-le-chonk/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ]
-    },
-    {
-      "titre": "Google présente Carbon pour succéder à Argon en un temps record",
-      "sous_section": "annonces",
-      "resume": "Un mois seulement après la présentation d'Argon, Google dévoile Carbon, son nouveau modèle de pointe. Bien que les détails techniques restent flous, Carbon prend la tête de la hiérarchie des modèles de l'entreprise.",
-      "pourquoi_ca_compte": "Cette accélération montre une course effrénée au leadership technique, posant des questions sur la stabilité des outils pour les développeurs et le temps nécessaire à l'évaluation de la sécurité de chaque version.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/264762/ia-chez-google-carbon-supplante-deja-argon/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ]
-    },
-    {
-      "titre": "Généralisation de la publicité dans le mode IA de Google",
-      "sous_section": "business",
-      "resume": "Pour rentabiliser ses investissements massifs dans les infrastructures, Google commence à intégrer des annonces publicitaires directement dans les réponses générées par son IA. Le géant cherche à amortir des coûts de calcul bien supérieurs à ceux d'une recherche classique.",
-      "pourquoi_ca_compte": "Le mélange entre information générée par IA et contenu sponsorisé pourrait biaiser la neutralité perçue des réponses et transformer l'assistance numérique en un simple canal de vente.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/264850/face-au-mur-des-depenses-google-va-afficher-de-la-publicite-dans-le-mode-ia/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ]
-    },
-    {
-      "titre": "GM condamné à 220 millions de dollars pour vente de données de conduite",
+      "titre": "OpenAI poursuivi après le décès d'une femme suite à un conseil médical",
       "sous_section": "regulation",
-      "resume": "General Motors a conclu un accord de 220 millions de dollars avec 36 procureurs généraux américains. Le constructeur était accusé d'avoir vendu les habitudes de conduite et de localisation de ses clients à des courtiers en données sans consentement explicite.",
-      "pourquoi_ca_compte": "C'est un signal fort pour l'industrie automobile connectée : les données de déplacement sont des données privées protégées, et non un actif commercial par défaut.",
+      "resume": "Les parents de Bowen Wan ont déposé une plainte contre OpenAI après que leur fille, sous traitement anti-épileptique, a succombé à une crise. Le chatbot lui aurait fourni un calendrier de sevrage pour réduire son dosage, une recommandation médicale dangereuse ayant entraîné une issue fatale.",
+      "pourquoi_ca_compte": "Cette affaire pose la question cruciale de la responsabilité juridique des concepteurs d'IA face à des conseils de santé erronés et les limites de la protection des utilisateurs.",
       "sources": [
         {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/29/gm-reaches-220m-settlement-over-selling-drivers-private-data/",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/01/chatgpt-woman-seizure-lawsuit-openai",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theguardian.com/us-news/2026/nov/01/chatgpt-woman-seizure-lawsuit-openai"
+    },
+    {
+      "titre": "Cyberattaques massives contre les apps d'alerte aérienne en Ukraine et Russie",
+      "sous_section": "societe",
+      "resume": "Les applications mobiles signalant les raids aériens en Ukraine ont été piratées pour diffuser de fausses alertes à la menace nucléaire. En représailles ou simultanément, les autorités russes ont rapporté des piratages similaires sur leurs propres systèmes d'alerte intérieure.",
+      "pourquoi_ca_compte": "L'utilisation de l'IA et du hacking pour semer la panique civile marque une escalade dans la guerre psychologique numérique, touchant directement la sécurité des populations.",
+      "sources": [
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Le géant minier Eramet accusé de ficher des civils via le logiciel Horus",
+      "sous_section": "societe",
+      "resume": "Une enquête révèle que l'entreprise française Eramet utiliserait un logiciel de renseignement nommé Horus pour collecter les données personnelles d'habitants indonésiens sans leur consentement. Ce système viserait à surveiller les opposants aux projets miniers du groupe.",
+      "pourquoi_ca_compte": "C'est un cas emblématique de surveillance privée à l'étranger par une entreprise européenne, soulignant les risques de dérives éthiques des technologies de profilage.",
+      "sources": [
+        {
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Horus-le-logiciel-de-renseignement-qui-fiche-des-Indonesiens-pour-un-geant-minier-francais",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Reporterre",
+            "proprietaire": "Association La Pile",
+            "type_proprietaire": "independant",
+            "orientation": "gauche"
+          }
+        }
+      ],
+      "lien": "https://reporterre.net/Horus-le-logiciel-de-renseignement-qui-fiche-des-Indonesiens-pour-un-geant-minier-francais"
+    },
+    {
+      "titre": "National Grid prévoit un méga-poste électrique pour l'IA sur Teesside",
+      "sous_section": "business",
+      "resume": "National Grid a lancé le projet de construction de la plus grande sous-station électrique du Royaume-Uni. Cette infrastructure est spécifiquement conçue pour alimenter les futurs centres de données géants dédiés à l'intelligence artificielle dans le nord-est de l'Angleterre.",
+      "pourquoi_ca_compte": "L'expansion de l'IA nécessite des investissements massifs dans les infrastructures énergétiques, posant des défis de souveraineté et d'aménagement du territoire.",
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre"
+    },
+    {
+      "titre": "Difficultés de résiliation pour les contrats de surveillance Flock Safety",
+      "sous_section": "business",
+      "resume": "Plusieurs municipalités américaines, dont Plymouth, font face à des obstacles contractuels majeurs pour mettre fin à leurs accords avec Flock Safety, une entreprise de caméras de surveillance automatisées. Malgré des votes officiels, l'entreprise ignorerait les demandes de résiliation.",
+      "pourquoi_ca_compte": "Cela illustre la dépendance technologique et contractuelle croissante des services publics envers des acteurs privés de la tech.",
+      "sources": [
+        {
           "nom": "The Verge",
-          "url": "https://www.theverge.com/transportation/1022555/gm-data-privacy-attorneys-general-lawsuit",
+          "url": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts",
           "type": "etranger",
           "groupe_media": {
             "nom": "Vox Media",
@@ -98,166 +110,171 @@
             "orientation": "centre-gauche"
           }
         }
-      ]
+      ],
+      "lien": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts"
     },
     {
-      "titre": "Fnac Darty sanctionné par la CNIL pour non-respect du refus de tracking",
-      "sous_section": "regulation",
-      "resume": "La CNIL a infligé une amende de 7 millions d'euros à Fnac Darty. Le groupe collectait des données personnelles même lorsque les utilisateurs cliquaient sur « Continuer sans accepter », justifiant abusivement un usage « strictement nécessaire ».",
-      "pourquoi_ca_compte": "Cette sanction rappelle que le droit de refuser le traçage publicitaire doit être effectif et que les entreprises ne peuvent pas contourner le consentement par des artifices techniques.",
+      "titre": "NASA : Le secteur spatial privé sollicité pour sauver le télescope Hubble",
+      "sous_section": "recherche",
+      "resume": "Face à la dégradation de l'orbite de Hubble, la NASA espère que des entreprises commerciales pourront intervenir pour prolonger sa mission jusqu'en 2030. Sans intervention, le télescope risque de brûler dans l'atmosphère d'ici une décennie.",
+      "pourquoi_ca_compte": "Le transfert de maintenance d'outils scientifiques majeurs vers le privé redéfinit la gestion du patrimoine scientifique mondial.",
       "sources": [
         {
-          "nom": "Next",
-          "url": "https://next.ink/264650/continuer-sans-accepter-fnac-darty-vous-tracait-quand-meme-7-millions-deuros-damende/",
-          "type": "investigation",
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
             "type_proprietaire": "independant",
-            "orientation": "centre"
+            "orientation": "centre-gauche"
           }
         }
-      ]
+      ],
+      "lien": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble"
     },
     {
-      "titre": "Meta aurait tenté de discréditer un chercheur critique sur l'addiction",
+      "titre": "Lancement de stations électriques portables à batteries LFP par Jackery",
+      "sous_section": "annonces",
+      "resume": "Jackery a dévoilé l'Explorer 100D, sa plus petite station électrique utilisant la technologie lithium fer phosphate (LFP). Ces batteries sont réputées plus sûres et offrent une durée de vie plus longue que les modèles lithium-ion classiques.",
+      "pourquoi_ca_compte": "L'innovation dans le stockage d'énergie portable favorise l'autonomie énergétique des citoyens et la résilience face aux pannes de réseau.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate"
+    },
+    {
+      "titre": "Pétition massive contre CNews : l'impact des réseaux sociaux",
       "sous_section": "societe",
-      "resume": "Des documents judiciaires révèlent que Meta a élaboré un plan pour discréditer le psychologue Jonathan Haidt. Ce dernier est l'un des critiques les plus virulents de l'impact des réseaux sociaux sur la santé mentale des adolescents.",
-      "pourquoi_ca_compte": "L'utilisation de méthodes de dénigrement contre la recherche scientifique indépendante menace la transparence nécessaire pour réguler les effets nocifs du numérique sur la jeunesse.",
+      "resume": "Une pétition demandant la suppression de la chaîne CNews, qualifiée de « machine de propagande », a franchi les 400 000 signatures sur le site de l'Assemblée nationale. Le mouvement a été amplifié par une viralité numérique suite à l'attentat de Trappes.",
+      "pourquoi_ca_compte": "Ce phénomène montre comment les outils numériques citoyens peuvent influencer le débat sur la régulation des médias et la pluralité de l'information.",
       "sources": [
         {
-          "nom": "Next",
-          "url": "https://next.ink/264621/addiction-aux-reseaux-sociaux-meta-a-voulu-monter-les-chercheurs-contre-lun-dentre-eux/",
-          "type": "investigation",
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/economie/20261101.OBS119767/cnews-est-une-machine-de-propagande-la-petition-demandant-la-suppression-de-la-chaine-se-rapproche-des-500-000-signatures.html",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/economie/medias/cnews-nest-pas-une-chaine-dinformation-une-petition-reclamant-la-suppression-du-media-dextreme-droite-cartonne-sur-le-site-de-lassemblee-20261101_TMYHVXPZ75H6BM5G6OSMBX2HUM/",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         }
-      ]
+      ],
+      "lien": null
     },
     {
-      "titre": "L'IA comme outil de réappropriation des Smart TV",
-      "sous_section": "recherche",
-      "resume": "Une tendance émergente voit des utilisateurs utiliser l'IA pour modifier le logiciel interne de leurs téléviseurs connectés. L'objectif est de supprimer les publicités intrusives et de reprendre le contrôle sur des interfaces de plus en plus fermées.",
-      "pourquoi_ca_compte": "Cela illustre un paradoxe : si l'IA est souvent un outil de contrôle pour les plateformes, elle peut aussi devenir un levier d'émancipation technique pour les citoyens avertis.",
+      "titre": "Dubaï Papers : un procès historique pour fraude fiscale numérique",
+      "sous_section": "regulation",
+      "resume": "Le procès de l'affaire « Dubaï Papers » s'ouvre à Paris, impliquant 14 personnes et 3 sociétés accusées d'avoir organisé une fraude fiscale complexe pour plus de 300 contribuables. L'enquête repose sur l'analyse de vastes volumes de données numériques.",
+      "pourquoi_ca_compte": "La lutte contre l'évasion fiscale internationale s'appuie désormais sur la capacité des États à traiter des bases de données massives issues de fuites numériques.",
       "sources": [
         {
-          "nom": "Next",
-          "url": "https://next.ink/264547/smart-tv-de-lintelligence-artificielle-contre-la-betise-reelle/",
-          "type": "investigation",
+          "nom": "Les Décodeurs",
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/02/dubai-papers-l-heure-du-proces-pour-une-officine-de-fraude-fiscale-a-grande-echelle_6804884_4355770.html",
+          "type": "fact-check",
           "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20261101-proc%C3%A8s-des-duba%C3%AF-papers-trois-soci%C3%A9t%C3%A9s-et-14-personnes-dont-un-prince-belge-seront-jug%C3%A9es-%C3%A0-paris",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         }
-      ]
+      ],
+      "lien": null
     },
     {
-      "titre": "Amazon renouvelle sa gamme Alexa malgré les doutes sur la rentabilité",
-      "sous_section": "annonces",
-      "resume": "Amazon a lancé de nouveaux appareils domotiques, dont un cadre photo Alexa et le réveil Echo Time. Cette mise à jour intervient alors que le secteur des assistants vocaux cherche son second souffle via l'intégration de l'IA générative.",
-      "pourquoi_ca_compte": "La présence accrue de microphones et d'écrans connectés dans l'intimité du foyer soulève des enjeux persistants de vie privée et de dépendance aux écosystèmes propriétaires.",
+      "titre": "Fact-check : Désinformation vidéo sur les manifestations à Berlin",
+      "sous_section": "societe",
+      "resume": "Une vidéo virale prétendant montrer Berlin en flammes après des manifestations lycéennes a été identifiée comme étant une scène filmée à Chypre en 2024. Les manifestations en Allemagne, bien que réelles, n'ont pas atteint le niveau de chaos suggéré.",
+      "pourquoi_ca_compte": "La manipulation d'images anciennes pour illustrer des faits d'actualité est une technique de désinformation majeure qui altère la perception des mouvements sociaux.",
       "sources": [
         {
-          "nom": "Next",
-          "url": "https://next.ink/264658/reveil-cadre-photo-nouvelles-enceintes-amazon-complete-son-offre-domotique/",
-          "type": "investigation",
+          "nom": "CheckNews",
+          "url": "https://www.liberation.fr/checknews/non-la-situation-a-berlin-nest-pas-totalement-folle-apres-les-manifestations-de-samedi-20261101_L4VFI5CTKZHS7ON5NH3VAX5BGM/",
+          "type": "fact-check",
           "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         }
-      ]
-    },
-    {
-      "titre": "IPv6 : un refuge contre le « bruit de fond » malveillant d'Internet",
-      "sous_section": "recherche",
-      "resume": "Des analyses montrent que les serveurs configurés uniquement en IPv6 subissent nettement moins de tentatives d'intrusion et de scans automatisés que ceux en IPv4. Ce « silence » s'explique par l'immensité de l'espace d'adressage IPv6, rendant le balayage aléatoire inefficace.",
-      "pourquoi_ca_compte": "La migration vers l'IPv6 n'est pas seulement une nécessité technique pour l'extension du réseau, mais devient un avantage de sécurité passive pour les infrastructures citoyennes.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/264553/attaques-et-scans-sur-internet-en-ipv6-le-silence-est-assourdissant/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ]
-    },
-    {
-      "titre": "Canonical relance le projet Ubuntu Core Desktop immuable",
-      "sous_section": "annonces",
-      "resume": "L'éditeur d'Ubuntu accélère le développement de sa version « Core Desktop ». Ce système se veut immuable et atomique, garantissant que le système d'exploitation reste sain et vérifiable, même après des modifications utilisateur.",
-      "pourquoi_ca_compte": "Pour l'utilisateur, l'immuabilité réduit drastiquement les risques de pannes logicielles après une mise à jour, offrant une fiabilité proche de celle des smartphones sur ordinateur.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/264855/canonical-se-relance-serieusement-dans-son-ubuntu-core-desktop-immuable/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ]
+      ],
+      "lien": "https://www.liberation.fr/checknews/non-la-situation-a-berlin-nest-pas-totalement-folle-apres-les-manifestations-de-samedi-20261101_L4VFI5CTKZHS7ON5NH3VAX5BGM/"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "Lancement de Mistral Large 4 (« Le Chonk »)",
-    "contexte": "Mistral AI a publié les poids ouverts de son dernier modèle phare, revendiquant des performances de pointe dans le raisonnement et le code, après une période de discrétion médiatique.",
+    "sujet": "L'attaque cyber contre les applications d'alerte en zone de conflit",
+    "contexte": "Le 1er et 2 novembre 2026, les applications mobiles d'alerte aérienne en Ukraine et en Russie ont été compromises, diffusant de fausses informations sur des menaces nucléaires et radiologiques.",
     "couvertures": [
       {
-        "source": "Numerama",
-        "type": "mainstream",
-        "angle": "Évolution technique et améliorations depuis la préversion",
+        "source": "BBC News",
+        "type": "institutionnel",
+        "angle": "Impact sur la sécurité civile et confirmation par l'Air Force ukrainienne",
         "ton": "factuel",
-        "url": "https://www.numerama.com/tech/2363685-mistral-large-4-est-disponible-en-poids-ouverts-ce-qui-a-change-depuis-sa-presentation.html",
-        "citation_cle": "La start-up a profité des trois semaines écoulées depuis la préversion pour l'améliorer nettement en code et raisonnement.",
+        "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+        "citation_cle": "Ukraine air raid app apparently hacked as users receive false radiation threat",
         "groupe_media": {
-          "nom": "Humanoid",
-          "proprietaire": "Humanoid (indépendant)",
-          "type_proprietaire": "independant",
+          "nom": "BBC",
+          "proprietaire": "État britannique",
+          "type_proprietaire": "etat",
           "orientation": "centre"
         }
       },
       {
-        "source": "Next",
-        "type": "investigation",
-        "angle": "Positionnement stratégique et retour dans la course",
+        "source": "Al Jazeera",
+        "type": "etranger",
+        "angle": "Réciprocité des attaques et fin de la trêve humanitaire",
         "ton": "neutre",
-        "url": "https://next.ink/260208/mistral-lance-une-preversion-de-son-llm-frontiere-mistrale-large-surnomme-le-chonk/",
-        "citation_cle": "Il doit remettre l’entreprise française dans la course, après de longs mois de quasi-silence sur les grands modèles.",
+        "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
+        "citation_cle": "Ukrainian users receive fake warnings of nuclear threats, while Moscow reports 'false information' on its app",
         "groupe_media": {
-          "nom": "Next (ex-Next INpact)",
-          "proprietaire": "Équipe fondatrice",
-          "type_proprietaire": "independant",
-          "orientation": "centre"
+          "nom": "Al Jazeera Media Network",
+          "proprietaire": "État du Qatar",
+          "type_proprietaire": "etat",
+          "orientation": "variable"
         }
       }
     ],
-    "analyse_coherence": "La couverture est globalement cohérente et se concentre sur l'aspect technique et stratégique. Numerama met l'accent sur les progrès réalisés durant la phase de test (benchmarks de code), tandis que Next souligne l'enjeu commercial pour Mistral AI qui devait prouver sa capacité à suivre le rythme imposé par OpenAI et Google. L'appellation familière « Le Chonk » est reprise par les deux sources, illustrant une stratégie de communication plus décontractée de la pépite française pour séduire la communauté des développeurs.",
+    "analyse_coherence": "Les deux sources s'accordent sur la nature technique de l'incident : un piratage des notifications push pour diffuser des messages anxiogènes. BBC News se concentre sur la validation officielle par les autorités militaires ukrainiennes, tandis qu'Al Jazeera apporte une dimension supplémentaire en soulignant que des systèmes russes ont également été touchés, suggérant une cyberguerre symétrique. L'usage de termes comme 'menace nucléaire' montre une volonté délibérée de provoquer un choc psychologique massif chez les civils, transformant un outil de protection en arme de terreur.",
     "biais_detectes": [
-      "Biais de souveraineté : une tendance à présenter le succès de Mistral comme un enjeu national nécessaire face aux géants américains."
+      "BBC se focalise davantage sur la vulnérabilité ukrainienne",
+      "Al Jazeera souligne la fin de la trêve comme contexte déclencheur"
     ],
-    "ce_quil_faut_retenir": "Mistral Large 4 marque le retour de l'Europe dans le très haut de gamme de l'IA générative avec un modèle accessible en poids ouverts, favorisant l'innovation locale."
+    "ce_quil_faut_retenir": "La dépendance aux applications mobiles pour la sécurité civile crée une nouvelle vulnérabilité critique. En temps de guerre, l'intégrité des données de notification est aussi vitale que la défense physique."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 128,
-    "nb_topics_ia": 48,
+    "nb_articles_ia": 117,
+    "nb_topics_ia": 45,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
