@@ -1,67 +1,211 @@
 {
-  "date": "2026-11-02",
-  "genere_a": "2026-11-02T05:34:54.075Z",
+  "date": "2026-11-03",
+  "genere_a": "2026-11-03T05:35:40.257Z",
   "faits_ia": [
     {
-      "titre": "OpenAI poursuivi après le décès d'une femme suite à un conseil médical",
-      "sous_section": "regulation",
-      "resume": "Les parents de Bowen Wan ont déposé une plainte contre OpenAI après que leur fille, sous traitement anti-épileptique, a succombé à une crise. Le chatbot lui aurait fourni un calendrier de sevrage pour réduire son dosage, une recommandation médicale dangereuse ayant entraîné une issue fatale.",
-      "pourquoi_ca_compte": "Cette affaire pose la question cruciale de la responsabilité juridique des concepteurs d'IA face à des conseils de santé erronés et les limites de la protection des utilisateurs.",
+      "titre": "Marvell acquiert Lumentum pour 115 milliards de dollars",
+      "sous_section": "business",
+      "resume": "Le géant des puces Marvell a conclu un accord historique pour racheter son concurrent Lumentum, spécialiste des technologies photoniques et des liaisons optiques. Cette transaction, réalisée par échange d'actions, est l'une des plus importantes de l'histoire de la tech et souligne l'importance stratégique de l'infrastructure physique pour l'IA.",
+      "pourquoi_ca_compte": "Cette consolidation majeure montre que la bataille pour l'IA se joue désormais sur le matériel (hardware) capable de transporter les données à une vitesse photonique, impactant directement la puissance de calcul mondiale disponible.",
       "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/01/chatgpt-woman-seizure-lawsuit-openai",
-          "type": "etranger",
+          "nom": "Next",
+          "url": "https://next.ink/265207/marvell-veut-soffrir-lumentum-et-ses-puces-optiques-pour-115-milliards-de-dollars/",
+          "type": "investigation",
           "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theguardian.com/us-news/2026/nov/01/chatgpt-woman-seizure-lawsuit-openai"
-    },
-    {
-      "titre": "Cyberattaques massives contre les apps d'alerte aérienne en Ukraine et Russie",
-      "sous_section": "societe",
-      "resume": "Les applications mobiles signalant les raids aériens en Ukraine ont été piratées pour diffuser de fausses alertes à la menace nucléaire. En représailles ou simultanément, les autorités russes ont rapporté des piratages similaires sur leurs propres systèmes d'alerte intérieure.",
-      "pourquoi_ca_compte": "L'utilisation de l'IA et du hacking pour semer la panique civile marque une escalade dans la guerre psychologique numérique, touchant directement la sécurité des populations.",
-      "sources": [
-        {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
             "orientation": "centre"
           }
         },
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
           }
         }
       ],
-      "lien": null
+      "lien": "https://next.ink/265207/marvell-veut-soffrir-lumentum-et-ses-puces-optiques-pour-115-milliards-de-dollars/"
     },
     {
-      "titre": "Le géant minier Eramet accusé de ficher des civils via le logiciel Horus",
+      "titre": "La France adopte une taxe sur les données numériques au gigaoctet",
+      "sous_section": "regulation",
+      "resume": "L'Assemblée nationale a voté un amendement au budget 2027 instaurant une taxe de 5,5 centimes d'euro par gigaoctet sur le transit internet. Portée par le Parti socialiste, cette mesure suscite une vive opposition de la part des acteurs du numérique comme OVHcloud ou les créateurs de VLC.",
+      "pourquoi_ca_compte": "Pour le citoyen, cela fait peser un risque direct de hausse du prix des abonnements internet et cloud, tout en posant la question de la souveraineté numérique face à une fiscalité perçue comme punitive pour les acteurs locaux.",
+      "sources": [
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/politique/ces-fous-vont-nous-mettre-au-fond-du-ravin-apres-le-vote-dune-taxe-sur-les-donnees-numeriques-la-colere-dutilisateurs-et-de-patrons-20261102_I2BBRYQFHFDIBFPK344MVWZHVI/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "Next",
+          "url": "https://next.ink/265082/la-taxe-ps-au-gigaoctet-votee-a-lassemblee-nationale-fait-reagir-de-vlc-a-ovhcloud/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.liberation.fr/politique/ces-fous-vont-nous-mettre-au-fond-du-ravin-apres-le-vote-dune-taxe-sur-les-donnees-numeriques-la-colere-dutilisateurs-et-de-patrons-20261102_I2BBRYQFHFDIBFPK344MVWZHVI/"
+    },
+    {
+      "titre": "OpenAI lance un programme pour sécuriser le réseau électrique",
       "sous_section": "societe",
-      "resume": "Une enquête révèle que l'entreprise française Eramet utiliserait un logiciel de renseignement nommé Horus pour collecter les données personnelles d'habitants indonésiens sans leur consentement. Ce système viserait à surveiller les opposants aux projets miniers du groupe.",
-      "pourquoi_ca_compte": "C'est un cas emblématique de surveillance privée à l'étranger par une entreprise européenne, soulignant les risques de dérives éthiques des technologies de profilage.",
+      "resume": "OpenAI pilote le 'Grid Protectors Program' en Géorgie, visant à utiliser la flexibilité énergétique des data centers pour soutenir le réseau public. En cas de tempête ou d'urgence, l'entreprise promet de libérer jusqu'à 1 000 mégawatts pour éviter les coupures chez les particuliers.",
+      "pourquoi_ca_compte": "C'est une tentative de légitimer la consommation gargantuesque d'énergie de l'IA en la présentant comme une réserve de secours pour les citoyens en période de crise climatique.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/index/grid-protectors-program",
+          "type": "institutionnel",
+          "groupe_media": {
+            "nom": "OpenAI",
+            "proprietaire": "OpenAI Inc. (for-profit transition)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://openai.com/index/grid-protectors-program"
+    },
+    {
+      "titre": "Anthropic interdit le clonage de jeux vidéo par son IA Claude",
+      "sous_section": "regulation",
+      "resume": "Anthropic a mis à jour les règles d'utilisation de Claude Code pour empêcher les développeurs de recréer des jeux vidéo existants. Cette décision intervient alors que le secteur du rétrogaming est saturé de ports et de clones générés par IA, posant des problèmes de propriété intellectuelle.",
+      "pourquoi_ca_compte": "Cette mesure illustre la difficulté de protéger le droit d'auteur à l'ère de l'IA générative capable de coder des logiciels entiers en quelques secondes.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+    },
+    {
+      "titre": "Démantèlement d'un botnet mondial de boîtiers Android TV",
+      "sous_section": "societe",
+      "resume": "Google et les autorités ont neutralisé un réseau de 1,3 million de boîtiers Android TV infectés par une porte dérobée (backdoor) installée en usine par le fabricant Videostrong. Ces appareils étaient utilisés pour des cyberattaques à l'insu de leurs propriétaires.",
+      "pourquoi_ca_compte": "Cela souligne les risques de sécurité majeurs liés aux objets connectés à bas coût et la nécessité d'une régulation stricte de la chaîne d'approvisionnement technologique.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/"
+    },
+    {
+      "titre": "L'émergence de l'Agentic Web : l'IA qui agit à notre place",
+      "sous_section": "recherche",
+      "resume": "Vingt-cinq ans après la vision du 'Web Sémantique' de Tim Berners-Lee, l'Agentic Web devient une réalité. Il s'agit d'une évolution où les agents IA ne se contentent plus de répondre à des questions mais naviguent et effectuent des transactions complexes de manière autonome.",
+      "pourquoi_ca_compte": "Ce changement de paradigme pourrait transformer radicalement notre rapport à l'économie numérique, déléguant nos décisions d'achat et de gestion à des algorithmes.",
+      "sources": [
+        {
+          "nom": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "MIT (Massachusetts Institute of Technology)",
+            "proprietaire": "MIT",
+            "type_proprietaire": "fondation",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "MIT (Massachusetts Institute of Technology)",
+            "proprietaire": "MIT",
+            "type_proprietaire": "fondation",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
+    },
+    {
+      "titre": "OVHcloud défie Mistral AI sur le terrain de l'IA souveraine",
+      "sous_section": "business",
+      "resume": "Une nouvelle concurrence s'installe entre deux champions français : le fournisseur cloud OVHcloud et la pépite Mistral AI. L'enjeu est de proposer des solutions d'IA générative respectant strictement la confidentialité des données européennes face aux géants américains.",
+      "pourquoi_ca_compte": "La réussite de ces acteurs détermine si l'Europe pourra garder le contrôle sur ses données sensibles (santé, défense, industrie) ou restera dépendante des infrastructures étrangères.",
+      "sources": [
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/ia-souveraine-ov-hcloud-defie-mistral-ai-02-11_EN-202611020859.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-ia-souveraine-ov-hcloud-defie-mistral-ai-02-11_VN-202611020872.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/ia-souveraine-ov-hcloud-defie-mistral-ai-02-11_EN-202611020859.html"
+    },
+    {
+      "titre": "L'Anses mise sur l'IA pour réduire ses coûts de fonctionnement",
+      "sous_section": "societe",
+      "resume": "Le gouvernement français a adressé une lettre de mission à l'Anses préconisant une 'rationalisation' budgétaire passant notamment par un recours accru à l'intelligence artificielle. Cette annonce inquiète quant à la qualité des évaluations de sécurité sanitaire.",
+      "pourquoi_ca_compte": "L'automatisation des contrôles sanitaires par l'IA pose la question de la rigueur scientifique face aux impératifs d'économies budgétaires dans des secteurs vitaux (alimentation, environnement).",
       "sources": [
         {
           "nom": "Reporterre",
-          "url": "https://reporterre.net/Horus-le-logiciel-de-renseignement-qui-fiche-des-Indonesiens-pour-un-geant-minier-francais",
+          "url": "https://reporterre.net/Rationalisation-recours-a-l-IA-Le-gouvernement-veut-reduire-les-couts-de-l-Anses",
           "type": "investigation",
           "groupe_media": {
             "nom": "Reporterre",
@@ -71,17 +215,37 @@
           }
         }
       ],
-      "lien": "https://reporterre.net/Horus-le-logiciel-de-renseignement-qui-fiche-des-Indonesiens-pour-un-geant-minier-francais"
+      "lien": "https://reporterre.net/Rationalisation-recours-a-l-IA-Le-gouvernement-veut-reduire-les-couts-de-l-Anses"
     },
     {
-      "titre": "National Grid prévoit un méga-poste électrique pour l'IA sur Teesside",
-      "sous_section": "business",
-      "resume": "National Grid a lancé le projet de construction de la plus grande sous-station électrique du Royaume-Uni. Cette infrastructure est spécifiquement conçue pour alimenter les futurs centres de données géants dédiés à l'intelligence artificielle dans le nord-est de l'Angleterre.",
-      "pourquoi_ca_compte": "L'expansion de l'IA nécessite des investissements massifs dans les infrastructures énergétiques, posant des défis de souveraineté et d'aménagement du territoire.",
+      "titre": "Record mondial de rétractations d'articles scientifiques bidons",
+      "sous_section": "recherche",
+      "resume": "L'éditeur scientifique IEEE a rétracté plus de 1 400 articles en seulement 24 heures. Ces publications faisaient partie d'un vaste réseau de conférences frauduleuses où les signatures étaient achetées, une pratique dénoncée il y a six mois par des chercheurs.",
+      "pourquoi_ca_compte": "L'intégrité de la science est menacée par des 'usines à papier' qui polluent les benchmarks de l'IA et de la tech, rendant la distinction entre vraie innovation et fraude de plus en plus difficile.",
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/265139/1-400-articles-scientifiques-retractes-en-24h-un-record-6-mois-apres-le-signalement/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://next.ink/265139/1-400-articles-scientifiques-retractes-en-24h-un-record-6-mois-apres-le-signalement/"
+    },
+    {
+      "titre": "L'Australie face au défi judiciaire de l'interdiction des réseaux sociaux",
+      "sous_section": "regulation",
+      "resume": "Reddit et plusieurs groupes de défense des droits contestent devant la Haute Cour australienne l'interdiction des réseaux sociaux aux moins de 16 ans. Ils arguent que cette loi, votée dans l'urgence, entrave la liberté de communication politique des jeunes.",
+      "pourquoi_ca_compte": "Cette bataille juridique est scrutée mondialement car elle définit les limites de l'intervention de l'État dans la vie numérique des mineurs et la responsabilité des plateformes.",
       "sources": [
         {
           "nom": "The Guardian",
-          "url": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/03/reddit-under-16s-social-media-ban-australia-high-court",
           "type": "etranger",
           "groupe_media": {
             "nom": "Scott Trust",
@@ -89,192 +253,128 @@
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
-        }
-      ],
-      "lien": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre"
-    },
-    {
-      "titre": "Difficultés de résiliation pour les contrats de surveillance Flock Safety",
-      "sous_section": "business",
-      "resume": "Plusieurs municipalités américaines, dont Plymouth, font face à des obstacles contractuels majeurs pour mettre fin à leurs accords avec Flock Safety, une entreprise de caméras de surveillance automatisées. Malgré des votes officiels, l'entreprise ignorerait les demandes de résiliation.",
-      "pourquoi_ca_compte": "Cela illustre la dépendance technologique et contractuelle croissante des services publics envers des acteurs privés de la tech.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts"
-    },
-    {
-      "titre": "NASA : Le secteur spatial privé sollicité pour sauver le télescope Hubble",
-      "sous_section": "recherche",
-      "resume": "Face à la dégradation de l'orbite de Hubble, la NASA espère que des entreprises commerciales pourront intervenir pour prolonger sa mission jusqu'en 2030. Sans intervention, le télescope risque de brûler dans l'atmosphère d'ici une décennie.",
-      "pourquoi_ca_compte": "Le transfert de maintenance d'outils scientifiques majeurs vers le privé redéfinit la gestion du patrimoine scientifique mondial.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble"
-    },
-    {
-      "titre": "Lancement de stations électriques portables à batteries LFP par Jackery",
-      "sous_section": "annonces",
-      "resume": "Jackery a dévoilé l'Explorer 100D, sa plus petite station électrique utilisant la technologie lithium fer phosphate (LFP). Ces batteries sont réputées plus sûres et offrent une durée de vie plus longue que les modèles lithium-ion classiques.",
-      "pourquoi_ca_compte": "L'innovation dans le stockage d'énergie portable favorise l'autonomie énergétique des citoyens et la résilience face aux pannes de réseau.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate"
-    },
-    {
-      "titre": "Pétition massive contre CNews : l'impact des réseaux sociaux",
-      "sous_section": "societe",
-      "resume": "Une pétition demandant la suppression de la chaîne CNews, qualifiée de « machine de propagande », a franchi les 400 000 signatures sur le site de l'Assemblée nationale. Le mouvement a été amplifié par une viralité numérique suite à l'attentat de Trappes.",
-      "pourquoi_ca_compte": "Ce phénomène montre comment les outils numériques citoyens peuvent influencer le débat sur la régulation des médias et la pluralité de l'information.",
-      "sources": [
-        {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/economie/20261101.OBS119767/cnews-est-une-machine-de-propagande-la-petition-demandant-la-suppression-de-la-chaine-se-rapproche-des-500-000-signatures.html",
-          "type": "mainstream",
-          "groupe_media": null
         },
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/economie/medias/cnews-nest-pas-une-chaine-dinformation-une-petition-reclamant-la-suppression-du-media-dextreme-droite-cartonne-sur-le-site-de-lassemblee-20261101_TMYHVXPZ75H6BM5G6OSMBX2HUM/",
-          "type": "mainstream",
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Dubaï Papers : un procès historique pour fraude fiscale numérique",
-      "sous_section": "regulation",
-      "resume": "Le procès de l'affaire « Dubaï Papers » s'ouvre à Paris, impliquant 14 personnes et 3 sociétés accusées d'avoir organisé une fraude fiscale complexe pour plus de 300 contribuables. L'enquête repose sur l'analyse de vastes volumes de données numériques.",
-      "pourquoi_ca_compte": "La lutte contre l'évasion fiscale internationale s'appuie désormais sur la capacité des États à traiter des bases de données massives issues de fuites numériques.",
-      "sources": [
-        {
-          "nom": "Les Décodeurs",
-          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/02/dubai-papers-l-heure-du-proces-pour-une-officine-de-fraude-fiscale-a-grande-echelle_6804884_4355770.html",
-          "type": "fact-check",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20261101-proc%C3%A8s-des-duba%C3%AF-papers-trois-soci%C3%A9t%C3%A9s-et-14-personnes-dont-un-prince-belge-seront-jug%C3%A9es-%C3%A0-paris",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
+            "nom": "BBC",
+            "proprietaire": "État britannique",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         }
       ],
-      "lien": null
+      "lien": "https://www.theguardian.com/australia-news/2026/nov/03/reddit-under-16s-social-media-ban-australia-high-court"
     },
     {
-      "titre": "Fact-check : Désinformation vidéo sur les manifestations à Berlin",
-      "sous_section": "societe",
-      "resume": "Une vidéo virale prétendant montrer Berlin en flammes après des manifestations lycéennes a été identifiée comme étant une scène filmée à Chypre en 2024. Les manifestations en Allemagne, bien que réelles, n'ont pas atteint le niveau de chaos suggéré.",
-      "pourquoi_ca_compte": "La manipulation d'images anciennes pour illustrer des faits d'actualité est une technique de désinformation majeure qui altère la perception des mouvements sociaux.",
+      "titre": "L'IA transforme la téléconsultation médicale chez Medadom",
+      "sous_section": "annonces",
+      "resume": "Le PDG de Medadom a présenté les nouvelles intégrations d'IA dans ses bornes de téléconsultation. L'objectif est d'aider au diagnostic et de fluidifier le parcours patient, transformant la manière dont les soins de proximité sont délivrés.",
+      "pourquoi_ca_compte": "L'IA devient un assistant médical concret pour pallier les déserts médicaux, mais soulève des questions sur la place de l'humain dans le diagnostic final.",
       "sources": [
         {
-          "nom": "CheckNews",
-          "url": "https://www.liberation.fr/checknews/non-la-situation-a-berlin-nest-pas-totalement-folle-apres-les-manifestations-de-samedi-20261101_L4VFI5CTKZHS7ON5NH3VAX5BGM/",
-          "type": "fact-check",
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/elie-dan-mimouni-pdg-de-medadom-02-11_EN-202611020944.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-elie-dan-mimouni-medadom-medadom-l-ia-transfrome-la-consultation-02-11_VN-202611020946.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/elie-dan-mimouni-pdg-de-medadom-02-11_EN-202611020944.html"
+    },
+    {
+      "titre": "Apple peine à produire l'iPhone Duo face à la demande",
+      "sous_section": "annonces",
+      "resume": "Le PDG John Ternus a admis qu'Apple est incapable de prédire quand les stocks d'iPhone Duo seront suffisants. Malgré une montée en puissance de la production, les délais de livraison s'étirent jusqu'à l'année prochaine en raison de tensions sur la chaîne logistique.",
+      "pourquoi_ca_compte": "La pénurie persistante de composants critiques montre la fragilité persistante de la tech mondiale, même pour les entreprises les plus puissantes, impactant la consommation de masse.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
             "orientation": "centre-gauche"
           }
         }
       ],
-      "lien": "https://www.liberation.fr/checknews/non-la-situation-a-berlin-nest-pas-totalement-folle-apres-les-manifestations-de-samedi-20261101_L4VFI5CTKZHS7ON5NH3VAX5BGM/"
+      "lien": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "L'attaque cyber contre les applications d'alerte en zone de conflit",
-    "contexte": "Le 1er et 2 novembre 2026, les applications mobiles d'alerte aérienne en Ukraine et en Russie ont été compromises, diffusant de fausses informations sur des menaces nucléaires et radiologiques.",
+    "sujet": "La taxe sur les données numériques au gigaoctet en France",
+    "contexte": "Votée par l'Assemblée nationale dans le cadre du budget 2027, cette taxe de 5,5 centimes par Go vise à financer les services publics par le transit internet.",
     "couvertures": [
       {
-        "source": "BBC News",
-        "type": "institutionnel",
-        "angle": "Impact sur la sécurité civile et confirmation par l'Air Force ukrainienne",
-        "ton": "factuel",
-        "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
-        "citation_cle": "Ukraine air raid app apparently hacked as users receive false radiation threat",
+        "source": "Libération",
+        "type": "mainstream",
+        "angle": "Impact sur les usagers et colère des patrons",
+        "ton": "critique",
+        "url": "https://www.liberation.fr/politique/ces-fous-vont-nous-mettre-au-fond-du-ravin-apres-le-vote-dune-taxe-sur-les-donnees-numeriques-la-colere-dutilisateurs-et-de-patrons-20261102_I2BBRYQFHFDIBFPK344MVWZHVI/",
+        "citation_cle": "«Ces fous vont nous mettre au fond du ravin»",
         "groupe_media": {
-          "nom": "BBC",
-          "proprietaire": "État britannique",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
         }
       },
       {
-        "source": "Al Jazeera",
-        "type": "etranger",
-        "angle": "Réciprocité des attaques et fin de la trêve humanitaire",
-        "ton": "neutre",
-        "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
-        "citation_cle": "Ukrainian users receive fake warnings of nuclear threats, while Moscow reports 'false information' on its app",
+        "source": "Next",
+        "type": "investigation",
+        "angle": "Réactions techniques et industrielles (OVH, VLC)",
+        "ton": "factuel",
+        "url": "https://next.ink/265082/la-taxe-ps-au-gigaoctet-votee-a-lassemblee-nationale-fait-reagir-de-vlc-a-ovhcloud/",
+        "citation_cle": "Ce projet de taxe [...] a fait réagir dans le milieu du logiciel libre et de l’hébergement.",
         "groupe_media": {
-          "nom": "Al Jazeera Media Network",
-          "proprietaire": "État du Qatar",
-          "type_proprietaire": "etat",
-          "orientation": "variable"
+          "nom": "Next (ex-Next INpact)",
+          "proprietaire": "Équipe fondatrice",
+          "type_proprietaire": "independant",
+          "orientation": "centre"
         }
       }
     ],
-    "analyse_coherence": "Les deux sources s'accordent sur la nature technique de l'incident : un piratage des notifications push pour diffuser des messages anxiogènes. BBC News se concentre sur la validation officielle par les autorités militaires ukrainiennes, tandis qu'Al Jazeera apporte une dimension supplémentaire en soulignant que des systèmes russes ont également été touchés, suggérant une cyberguerre symétrique. L'usage de termes comme 'menace nucléaire' montre une volonté délibérée de provoquer un choc psychologique massif chez les civils, transformant un outil de protection en arme de terreur.",
+    "analyse_coherence": "La couverture médiatique montre une opposition unanime entre les médias généralistes et spécialisés. Libération met l'accent sur la dimension politique et le choc social ('colère d'utilisateurs'), tandis que Next adopte une approche plus technique, soulignant l'impact sur l'écosystème du logiciel libre et des hébergeurs souverains. Les deux sources s'accordent sur le risque de répercussion financière finale sur le citoyen, mais divergent sur le ton : émotionnel et politique pour Libération, analytique et industriel pour Next. On note une absence de défense de la mesure dans les sources citées, illustrant un front uni de la tech contre cette fiscalité.",
     "biais_detectes": [
-      "BBC se focalise davantage sur la vulnérabilité ukrainienne",
-      "Al Jazeera souligne la fin de la trêve comme contexte déclencheur"
+      "Biais de sélection : les sources privilégient les opposants à la taxe.",
+      "Ton alarmiste dans les titres pour souligner l'urgence budgétaire."
     ],
-    "ce_quil_faut_retenir": "La dépendance aux applications mobiles pour la sécurité civile crée une nouvelle vulnérabilité critique. En temps de guerre, l'intégrité des données de notification est aussi vitale que la défense physique."
+    "ce_quil_faut_retenir": "La taxe au gigaoctet est perçue comme une menace pour le pouvoir d'achat numérique et la compétitivité des entreprises françaises, sans que ses bénéfices publics ne soient pour l'instant mis en avant par la presse."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 117,
-    "nb_topics_ia": 45,
+    "nb_articles_ia": 180,
+    "nb_topics_ia": 58,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
