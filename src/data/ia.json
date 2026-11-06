@@ -1,27 +1,53 @@
 {
-  "date": "2026-11-03",
-  "genere_a": "2026-11-03T05:35:40.257Z",
+  "date": "2026-11-06",
+  "genere_a": "2026-11-06T05:35:25.085Z",
   "faits_ia": [
     {
-      "titre": "Marvell acquiert Lumentum pour 115 milliards de dollars",
+      "titre": "Chute des valeurs tech suite aux élections de mi-mandat américaines",
       "sous_section": "business",
-      "resume": "Le géant des puces Marvell a conclu un accord historique pour racheter son concurrent Lumentum, spécialiste des technologies photoniques et des liaisons optiques. Cette transaction, réalisée par échange d'actions, est l'une des plus importantes de l'histoire de la tech et souligne l'importance stratégique de l'infrastructure physique pour l'IA.",
-      "pourquoi_ca_compte": "Cette consolidation majeure montre que la bataille pour l'IA se joue désormais sur le matériel (hardware) capable de transporter les données à une vitesse photonique, impactant directement la puissance de calcul mondiale disponible.",
+      "resume": "Les marchés financiers réagissent violemment aux résultats des Midterms 2026. L'indice Nasdaq a chuté de plus de 3 %, porté par les craintes des investisseurs concernant un durcissement de la surveillance des centres de données et de l'industrie de l'IA par les nouveaux élus.",
+      "pourquoi_ca_compte": "Cette instabilité boursière reflète une incertitude politique croissante qui pourrait freiner les investissements massifs dans les infrastructures numériques nécessaires à l'IA.",
       "sources": [
         {
-          "nom": "Next",
-          "url": "https://next.ink/265207/marvell-veut-soffrir-lumentum-et-ses-puces-optiques-pour-115-milliards-de-dollars/",
-          "type": "investigation",
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/sciences-et-technologie/intelligence-artificielle/wall-street-l-indice-nasdaq-mine-par-les-incertitudes-sur-l-ia-s-enfonce-de-plus-de-3-apres-les-midterms-31399341.php",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Airbnb annonce un agent de voyage IA pour 2027",
+      "sous_section": "annonces",
+      "resume": "Airbnb prévoit de lancer au premier semestre 2027 un agent intelligent capable de planifier des voyages complets, de comparer les options et de gérer les réservations. L'objectif est de passer de tâches simples à une assistance complexe tout au long du séjour.",
+      "pourquoi_ca_compte": "Cela marque une étape vers des services de conciergerie automatisés, redéfinissant l'interaction entre les plateformes de services et les consommateurs.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
           "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/",
+          "url": "https://www.techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Yahoo (AOL / Oath)",
@@ -31,48 +57,43 @@
           }
         }
       ],
-      "lien": "https://next.ink/265207/marvell-veut-soffrir-lumentum-et-ses-puces-optiques-pour-115-milliards-de-dollars/"
+      "lien": null
     },
     {
-      "titre": "La France adopte une taxe sur les données numériques au gigaoctet",
+      "titre": "Google désactive Gemini par défaut dans les écoles américaines",
       "sous_section": "regulation",
-      "resume": "L'Assemblée nationale a voté un amendement au budget 2027 instaurant une taxe de 5,5 centimes d'euro par gigaoctet sur le transit internet. Portée par le Parti socialiste, cette mesure suscite une vive opposition de la part des acteurs du numérique comme OVHcloud ou les créateurs de VLC.",
-      "pourquoi_ca_compte": "Pour le citoyen, cela fait peser un risque direct de hausse du prix des abonnements internet et cloud, tout en posant la question de la souveraineté numérique face à une fiscalité perçue comme punitive pour les acteurs locaux.",
+      "resume": "Suite à des accusations graves, dont l'aide apportée par l'IA à une collégienne de 13 ans pour planifier un suicide, Google a décidé de désactiver son assistant Gemini par défaut dans les établissements scolaires aux États-Unis.",
+      "pourquoi_ca_compte": "Ce revirement souligne les failles de sécurité critiques des agents conversationnels face aux mineurs et pose la question de la responsabilité légale des concepteurs d'IA.",
       "sources": [
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/politique/ces-fous-vont-nous-mettre-au-fond-du-ravin-apres-le-vote-dune-taxe-sur-les-donnees-numeriques-la-colere-dutilisateurs-et-de-patrons-20261102_I2BBRYQFHFDIBFPK344MVWZHVI/",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/pixels/article/2026/11/06/etats-unis-google-accuse-d-avoir-laisse-son-assistant-ia-gemini-aider-une-collegienne-a-planifier-son-suicide_6807413_4408996.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "Next",
-          "url": "https://next.ink/265082/la-taxe-ps-au-gigaoctet-votee-a-lassemblee-nationale-fait-reagir-de-vlc-a-ovhcloud/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/international/aux-etats-unis-google-va-desactiver-par-defaut-ses-outils-d-ia-pour-les-eleves-20261105",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
-      "lien": "https://www.liberation.fr/politique/ces-fous-vont-nous-mettre-au-fond-du-ravin-apres-le-vote-dune-taxe-sur-les-donnees-numeriques-la-colere-dutilisateurs-et-de-patrons-20261102_I2BBRYQFHFDIBFPK344MVWZHVI/"
+      "lien": null
     },
     {
-      "titre": "OpenAI lance un programme pour sécuriser le réseau électrique",
+      "titre": "OpenAI et Meta face à l'opposition citoyenne contre les data centers",
       "sous_section": "societe",
-      "resume": "OpenAI pilote le 'Grid Protectors Program' en Géorgie, visant à utiliser la flexibilité énergétique des data centers pour soutenir le réseau public. En cas de tempête ou d'urgence, l'entreprise promet de libérer jusqu'à 1 000 mégawatts pour éviter les coupures chez les particuliers.",
-      "pourquoi_ca_compte": "C'est une tentative de légitimer la consommation gargantuesque d'énergie de l'IA en la présentant comme une réserve de secours pour les citoyens en période de crise climatique.",
+      "resume": "OpenAI s'engage à ne plus utiliser de clauses de confidentialité (NDA) pour ses projets de centres de données afin de regagner la confiance des communautés locales. Parallèlement, Meta s'inquiète que le rejet politique des infrastructures IA ne freine l'expansion technologique.",
+      "pourquoi_ca_compte": "Le déploiement de l'IA se heurte désormais à des enjeux écologiques et territoriaux concrets, forçant les entreprises à plus de transparence démocratique.",
       "sources": [
         {
           "nom": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
           "type": "etranger",
           "groupe_media": {
             "nom": "Vox Media",
@@ -82,150 +103,90 @@
           }
         },
         {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/grid-protectors-program",
-          "type": "institutionnel",
+          "nom": "TechCrunch",
+          "url": "https://www.techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "OpenAI",
-            "proprietaire": "OpenAI Inc. (for-profit transition)",
-            "type_proprietaire": "independant",
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
             "orientation": "centre"
           }
         }
       ],
-      "lien": "https://openai.com/index/grid-protectors-program"
+      "lien": null
     },
     {
-      "titre": "Anthropic interdit le clonage de jeux vidéo par son IA Claude",
-      "sous_section": "regulation",
-      "resume": "Anthropic a mis à jour les règles d'utilisation de Claude Code pour empêcher les développeurs de recréer des jeux vidéo existants. Cette décision intervient alors que le secteur du rétrogaming est saturé de ports et de clones générés par IA, posant des problèmes de propriété intellectuelle.",
-      "pourquoi_ca_compte": "Cette mesure illustre la difficulté de protéger le droit d'auteur à l'ère de l'IA générative capable de coder des logiciels entiers en quelques secondes.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
-    },
-    {
-      "titre": "Démantèlement d'un botnet mondial de boîtiers Android TV",
-      "sous_section": "societe",
-      "resume": "Google et les autorités ont neutralisé un réseau de 1,3 million de boîtiers Android TV infectés par une porte dérobée (backdoor) installée en usine par le fabricant Videostrong. Ces appareils étaient utilisés pour des cyberattaques à l'insu de leurs propriétaires.",
-      "pourquoi_ca_compte": "Cela souligne les risques de sécurité majeurs liés aux objets connectés à bas coût et la nécessité d'une régulation stricte de la chaîne d'approvisionnement technologique.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theregister.com/cyber-crime/2026/11/02/cops-bust-botnet-of-13m-infected-android-tv-boxes/"
-    },
-    {
-      "titre": "L'émergence de l'Agentic Web : l'IA qui agit à notre place",
+      "titre": "NASA : l'avion expérimental X-70 Fractal conçu via l'IA",
       "sous_section": "recherche",
-      "resume": "Vingt-cinq ans après la vision du 'Web Sémantique' de Tim Berners-Lee, l'Agentic Web devient une réalité. Il s'agit d'une évolution où les agents IA ne se contentent plus de répondre à des questions mais naviguent et effectuent des transactions complexes de manière autonome.",
-      "pourquoi_ca_compte": "Ce changement de paradigme pourrait transformer radicalement notre rapport à l'économie numérique, déléguant nos décisions d'achat et de gestion à des algorithmes.",
+      "resume": "La NASA a dévoilé le X-70 Fractal, un avion habité destiné à tester de nouvelles technologies de pilotage et de manœuvrabilité. Fait notable, l'agence a utilisé des outils de génération d'images par IA pour sa communication officielle.",
+      "pourquoi_ca_compte": "L'intégration de l'IA dans la conception aéronautique permet d'explorer des formes géométriques complexes (fractales) impossibles à simuler par les méthodes traditionnelles.",
       "sources": [
         {
-          "nom": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
           "type": "etranger",
           "groupe_media": {
-            "nom": "MIT (Massachusetts Institute of Technology)",
-            "proprietaire": "MIT",
-            "type_proprietaire": "fondation",
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
             "orientation": "centre"
           }
         },
         {
-          "nom": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/",
-          "type": "etranger",
+          "nom": "Futura Sciences",
+          "url": "https://www.futura-sciences.com/tech/actualites/technologie-nasa-devoile-x70-fractal-mysterieux-avion-experimental-peut-bien-servir-cette-etrange-machine-139107/#xtor=RSS-8",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "MIT (Massachusetts Institute of Technology)",
-            "proprietaire": "MIT",
-            "type_proprietaire": "fondation",
+            "nom": "Futura",
+            "proprietaire": "Futura (indépendant)",
+            "type_proprietaire": "independant",
             "orientation": "centre"
           }
         }
       ],
-      "lien": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
+      "lien": null
     },
     {
-      "titre": "OVHcloud défie Mistral AI sur le terrain de l'IA souveraine",
+      "titre": "Meta lance les appels vidéo avec avatars IA personnalisables",
+      "sous_section": "annonces",
+      "resume": "Meta déploie une fonctionnalité permettant aux utilisateurs américains de discuter en vidéo avec leur avatar Muse AI. L'IA dispose désormais d'un mode vocal expressif en temps réel, préfigurant le lancement futur d'objets connectés dédiés.",
+      "pourquoi_ca_compte": "Cette évolution transforme l'IA d'un simple outil textuel en un compagnon numérique incarné, modifiant nos habitudes de communication.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Les Big Tech sacrifient l'humain au profit de l'infrastructure IA",
       "sous_section": "business",
-      "resume": "Une nouvelle concurrence s'installe entre deux champions français : le fournisseur cloud OVHcloud et la pépite Mistral AI. L'enjeu est de proposer des solutions d'IA générative respectant strictement la confidentialité des données européennes face aux géants américains.",
-      "pourquoi_ca_compte": "La réussite de ces acteurs détermine si l'Europe pourra garder le contrôle sur ses données sensibles (santé, défense, industrie) ou restera dépendante des infrastructures étrangères.",
-      "sources": [
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/ia-souveraine-ov-hcloud-defie-mistral-ai-02-11_EN-202611020859.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-ia-souveraine-ov-hcloud-defie-mistral-ai-02-11_VN-202611020872.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/ia-souveraine-ov-hcloud-defie-mistral-ai-02-11_EN-202611020859.html"
-    },
-    {
-      "titre": "L'Anses mise sur l'IA pour réduire ses coûts de fonctionnement",
-      "sous_section": "societe",
-      "resume": "Le gouvernement français a adressé une lettre de mission à l'Anses préconisant une 'rationalisation' budgétaire passant notamment par un recours accru à l'intelligence artificielle. Cette annonce inquiète quant à la qualité des évaluations de sécurité sanitaire.",
-      "pourquoi_ca_compte": "L'automatisation des contrôles sanitaires par l'IA pose la question de la rigueur scientifique face aux impératifs d'économies budgétaires dans des secteurs vitaux (alimentation, environnement).",
-      "sources": [
-        {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Rationalisation-recours-a-l-IA-Le-gouvernement-veut-reduire-les-couts-de-l-Anses",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Reporterre",
-            "proprietaire": "Association La Pile",
-            "type_proprietaire": "independant",
-            "orientation": "gauche"
-          }
-        }
-      ],
-      "lien": "https://reporterre.net/Rationalisation-recours-a-l-IA-Le-gouvernement-veut-reduire-les-couts-de-l-Anses"
-    },
-    {
-      "titre": "Record mondial de rétractations d'articles scientifiques bidons",
-      "sous_section": "recherche",
-      "resume": "L'éditeur scientifique IEEE a rétracté plus de 1 400 articles en seulement 24 heures. Ces publications faisaient partie d'un vaste réseau de conférences frauduleuses où les signatures étaient achetées, une pratique dénoncée il y a six mois par des chercheurs.",
-      "pourquoi_ca_compte": "L'intégrité de la science est menacée par des 'usines à papier' qui polluent les benchmarks de l'IA et de la tech, rendant la distinction entre vraie innovation et fraude de plus en plus difficile.",
+      "resume": "En 10 mois, les entreprises tech américaines ont licencié plus de 230 000 employés, dépassant le total de 2025. Ces coupes budgétaires massives visent à libérer des capitaux pour financer les serveurs et GPU nécessaires à l'IA.",
+      "pourquoi_ca_compte": "Ce n'est pas l'IA qui remplace l'humain directement, mais le coût de l'IA qui pousse les entreprises à réduire leur masse salariale pour rester compétitives.",
       "sources": [
         {
           "nom": "Next",
-          "url": "https://next.ink/265139/1-400-articles-scientifiques-retractes-en-24h-un-record-6-mois-apres-le-signalement/",
+          "url": "https://next.ink/265455/les-big-tech-sacrifient-leurs-employes-humains-pour-investir-dans-les-infrastructures-ia/",
           "type": "investigation",
           "groupe_media": {
             "nom": "Next (ex-Next INpact)",
@@ -233,19 +194,25 @@
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
+        },
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/monde/20261105.OBS119863/midterms-2026-les-patrons-de-la-tech-iront-dans-le-sens-du-vent-pour-continuer-leur-business.html",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
-      "lien": "https://next.ink/265139/1-400-articles-scientifiques-retractes-en-24h-un-record-6-mois-apres-le-signalement/"
+      "lien": null
     },
     {
-      "titre": "L'Australie face au défi judiciaire de l'interdiction des réseaux sociaux",
-      "sous_section": "regulation",
-      "resume": "Reddit et plusieurs groupes de défense des droits contestent devant la Haute Cour australienne l'interdiction des réseaux sociaux aux moins de 16 ans. Ils arguent que cette loi, votée dans l'urgence, entrave la liberté de communication politique des jeunes.",
-      "pourquoi_ca_compte": "Cette bataille juridique est scrutée mondialement car elle définit les limites de l'intervention de l'État dans la vie numérique des mineurs et la responsabilité des plateformes.",
+      "titre": "Alertes à la bombe hybrides : le transport aérien sous pression",
+      "sous_section": "societe",
+      "resume": "Plus de 30 vols européens ont été perturbés par des alertes à la bombe cette semaine, soulevant des craintes de 'guerre hybride'. Ces canulars sophistiqués saturent les systèmes de sécurité et créent une anxiété généralisée dans l'espace aérien.",
+      "pourquoi_ca_compte": "L'utilisation de moyens numériques pour déstabiliser des infrastructures physiques illustre la vulnérabilité des sociétés hyperconnectées.",
       "sources": [
         {
           "nom": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/03/reddit-under-16s-social-media-ban-australia-high-court",
+          "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
           "type": "etranger",
           "groupe_media": {
             "nom": "Scott Trust",
@@ -255,59 +222,39 @@
           }
         },
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/11/05/world/europe/bomb-threats-europe-flights-airlines.html",
           "type": "etranger",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
             "orientation": "centre"
           }
         }
       ],
-      "lien": "https://www.theguardian.com/australia-news/2026/nov/03/reddit-under-16s-social-media-ban-australia-high-court"
+      "lien": null
     },
     {
-      "titre": "L'IA transforme la téléconsultation médicale chez Medadom",
-      "sous_section": "annonces",
-      "resume": "Le PDG de Medadom a présenté les nouvelles intégrations d'IA dans ses bornes de téléconsultation. L'objectif est d'aider au diagnostic et de fluidifier le parcours patient, transformant la manière dont les soins de proximité sont délivrés.",
-      "pourquoi_ca_compte": "L'IA devient un assistant médical concret pour pallier les déserts médicaux, mais soulève des questions sur la place de l'humain dans le diagnostic final.",
+      "titre": "Cybersécurité : les systèmes de réfrigération industrielle ciblés",
+      "sous_section": "regulation",
+      "resume": "Le gouvernement américain alerte sur une vague de piratages visant les systèmes de réfrigération dans les secteurs de l'agroalimentaire, du transport et de la santé. Bien qu'aucune attaque majeure n'ait encore frappé les supermarchés, la menace est jugée sérieuse.",
+      "pourquoi_ca_compte": "Le piratage d'objets connectés industriels peut provoquer des ruptures de la chaîne du froid, menaçant directement la sécurité alimentaire et sanitaire.",
       "sources": [
         {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/elie-dan-mimouni-pdg-de-medadom-02-11_EN-202611020944.html",
-          "type": "mainstream",
+          "nom": "The Register",
+          "url": "https://www.theregister.com/security/2026/11/05/feds-warn-grocers-dont-chill-on-cyber-defenses-as-freezer-hacking-spree-heats-up/5307978",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-elie-dan-mimouni-medadom-medadom-l-ia-transfrome-la-consultation-02-11_VN-202611020946.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/elie-dan-mimouni-pdg-de-medadom-02-11_EN-202611020944.html"
-    },
-    {
-      "titre": "Apple peine à produire l'iPhone Duo face à la demande",
-      "sous_section": "annonces",
-      "resume": "Le PDG John Ternus a admis qu'Apple est incapable de prédire quand les stocks d'iPhone Duo seront suffisants. Malgré une montée en puissance de la production, les délais de livraison s'étirent jusqu'à l'année prochaine en raison de tensions sur la chaîne logistique.",
-      "pourquoi_ca_compte": "La pénurie persistante de composants critiques montre la fragilité persistante de la tech mondiale, même pour les entreprises les plus puissantes, impactant la consommation de masse.",
-      "sources": [
-        {
           "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/",
+          "url": "https://techcrunch.com/2026/11/05/u-s-government-warns-of-ongoing-cyber-threat-amid-mass-hacks-of-industrial-retail-and-military-freezers/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Yahoo (AOL / Oath)",
@@ -315,66 +262,85 @@
             "type_proprietaire": "milliardaire",
             "orientation": "centre"
           }
-        },
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Premiers tests de robotaxis dans le Grand Paris pour 2028",
+      "sous_section": "recherche",
+      "resume": "La Métropole du Grand Paris, en collaboration avec Stellantis et Bolt, annonce des expérimentations de taxis autonomes pour 2028. Le projet vise à intégrer l'IA de conduite dans le réseau de transport urbain dense.",
+      "pourquoi_ca_compte": "L'automatisation des transports urbains en Europe franchit une étape politique et technique majeure vers une mobilité sans chauffeur.",
+      "sources": [
         {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints",
-          "type": "etranger",
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/grand-paris-des-tests-de-robotaxis-prevus-en-2028-05-11_EN-202611050826.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         }
       ],
-      "lien": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/"
+      "lien": null
     }
   ],
   "regard_croise_ia": {
-    "sujet": "La taxe sur les données numériques au gigaoctet en France",
-    "contexte": "Votée par l'Assemblée nationale dans le cadre du budget 2027, cette taxe de 5,5 centimes par Go vise à financer les services publics par le transit internet.",
+    "sujet": "L'acceptabilité sociale et politique des centres de données IA",
+    "contexte": "Après les élections de mi-mandat aux États-Unis, les géants de la tech font face à une fronde citoyenne et politique contre l'expansion des data centers, jugés énergivores et opaques.",
     "couvertures": [
       {
-        "source": "Libération",
-        "type": "mainstream",
-        "angle": "Impact sur les usagers et colère des patrons",
-        "ton": "critique",
-        "url": "https://www.liberation.fr/politique/ces-fous-vont-nous-mettre-au-fond-du-ravin-apres-le-vote-dune-taxe-sur-les-donnees-numeriques-la-colere-dutilisateurs-et-de-patrons-20261102_I2BBRYQFHFDIBFPK344MVWZHVI/",
-        "citation_cle": "«Ces fous vont nous mettre au fond du ravin»",
+        "source": "The Verge",
+        "type": "independant",
+        "angle": "Transparence et gouvernance d'entreprise",
+        "ton": "factuel",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+        "citation_cle": "OpenAI a annoncé de nouveaux engagements envers les communautés... notamment qu'elle n'utilisera pas d'accords de non-divulgation.",
         "groupe_media": {
-          "nom": "Libération",
-          "proprietaire": "Fonds de dotation",
-          "type_proprietaire": "fondation",
+          "nom": "Vox Media",
+          "proprietaire": "Vox Media Inc.",
+          "type_proprietaire": "independant",
           "orientation": "centre-gauche"
         }
       },
       {
-        "source": "Next",
-        "type": "investigation",
-        "angle": "Réactions techniques et industrielles (OVH, VLC)",
-        "ton": "factuel",
-        "url": "https://next.ink/265082/la-taxe-ps-au-gigaoctet-votee-a-lassemblee-nationale-fait-reagir-de-vlc-a-ovhcloud/",
-        "citation_cle": "Ce projet de taxe [...] a fait réagir dans le milieu du logiciel libre et de l’hébergement.",
+        "source": "TechCrunch",
+        "type": "milliardaire",
+        "angle": "Risque économique et financier",
+        "ton": "critique",
+        "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+        "citation_cle": "Meta prévient que l'opposition politique croissante aux centres de données pourrait menacer les investissements futurs dans l'IA.",
         "groupe_media": {
-          "nom": "Next (ex-Next INpact)",
-          "proprietaire": "Équipe fondatrice",
-          "type_proprietaire": "independant",
+          "nom": "Yahoo (AOL / Oath)",
+          "proprietaire": "Apollo Global Management",
+          "type_proprietaire": "milliardaire",
           "orientation": "centre"
         }
+      },
+      {
+        "source": "L'Obs",
+        "type": "milliardaire",
+        "angle": "Analyse politique post-électorale",
+        "ton": "neutre",
+        "url": "https://www.nouvelobs.com/monde/20261105.OBS119863/midterms-2026-les-patrons-de-la-tech-iront-dans-le-sens-du-vent-pour-continuer-leur-business.html",
+        "citation_cle": "Nombre de démocrates ont fait campagne contre les effets délétères de l’intelligence artificielle et sa partie la plus visible : les « data centers ».",
+        "groupe_media": null
       }
     ],
-    "analyse_coherence": "La couverture médiatique montre une opposition unanime entre les médias généralistes et spécialisés. Libération met l'accent sur la dimension politique et le choc social ('colère d'utilisateurs'), tandis que Next adopte une approche plus technique, soulignant l'impact sur l'écosystème du logiciel libre et des hébergeurs souverains. Les deux sources s'accordent sur le risque de répercussion financière finale sur le citoyen, mais divergent sur le ton : émotionnel et politique pour Libération, analytique et industriel pour Next. On note une absence de défense de la mesure dans les sources citées, illustrant un front uni de la tech contre cette fiscalité.",
+    "analyse_coherence": "L'analyse croisée révèle une tension majeure entre les besoins industriels de l'IA et les réalités démocratiques. Alors que les sources technologiques américaines (The Verge, TechCrunch) se concentrent sur la réaction défensive des entreprises (abandon des clauses de confidentialité pour OpenAI, avertissement sur les investissements pour Meta), les sources généralistes (L'Obs) soulignent que l'opposition aux data centers est devenue un argument électoral 'gagnant'. On observe une divergence de ton : Meta adopte une posture d'alerte sur la compétitivité, tandis qu'OpenAI tente une approche de 'diplomatie locale'. La cohérence globale réside dans le constat que l'ère de l'expansion sans entrave de l'IA est terminée, laissant place à une phase de négociation forcée avec les citoyens et les régulateurs locaux.",
     "biais_detectes": [
-      "Biais de sélection : les sources privilégient les opposants à la taxe.",
-      "Ton alarmiste dans les titres pour souligner l'urgence budgétaire."
+      "Biais pro-business chez TechCrunch (accent sur la menace pour l'investissement)",
+      "Biais de transparence chez The Verge",
+      "Focalisation sur le pragmatisme politique chez L'Obs"
     ],
-    "ce_quil_faut_retenir": "La taxe au gigaoctet est perçue comme une menace pour le pouvoir d'achat numérique et la compétitivité des entreprises françaises, sans que ses bénéfices publics ne soient pour l'instant mis en avant par la presse."
+    "ce_quil_faut_retenir": "Le déploiement de l'IA n'est plus seulement un défi technique, c'est une bataille pour l'acceptation territoriale et écologique."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 180,
-    "nb_topics_ia": 58,
+    "nb_articles_ia": 195,
+    "nb_topics_ia": 64,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
