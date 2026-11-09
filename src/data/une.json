@@ -1,138 +1,61 @@
 {
   "sujet_du_jour": {
-    "titre": "Grèves du 5 novembre : entre 575 000 et 1,6 million de manifestants en France",
+    "titre": "Affaire Michel Zecler : le procès de l'omerta et de la preuve par l'image",
     "rubrique": "societe",
-    "pourquoi_important": "C'est la plus forte mobilisation sociale de l'automne, forçant le gouvernement à annoncer une conférence sociale d'urgence.",
+    "pourquoi_important": "C'est un dossier pivot qui interroge la responsabilité policière et la valeur des preuves vidéo face aux procès-verbaux officiels.",
     "faits": [
-      "Écart massif des chiffres : 575 000 manifestants selon le ministère de l'Intérieur contre 1,57 million selon la CGT (Libération, BFM TV).",
-      "Le gouvernement a annoncé la tenue d'une « conférence sociale » à Matignon le lundi 9 novembre centrée sur les salaires (info.gouv.fr).",
-      "Un dispositif de sécurité d'ampleur avec 70 000 policiers mobilisés et un bilan de 448 interpellations au niveau national (Le Figaro, Le Monde).",
-      "Les cortèges ont réuni un large spectre : salariés, fonctionnaires, étudiants et retraités réclamant une hausse du pouvoir d'achat (Le Figaro)."
+      "Ouverture ce 9 novembre 2026 du procès de trois policiers devant la cour criminelle départementale de Paris (salle Rivero).",
+      "Les agents sont poursuivis pour 'violences volontaires' et 'faux en écriture publique' commis le 21 novembre 2020.",
+      "L'accusation de faux porte sur la rédaction de procès-verbaux mensongers visant initialement à incriminer Michel Zecler.",
+      "Le Défenseur des droits a officiellement demandé des procédures disciplinaires suite à cette interpellation violente."
     ],
-    "contexte": "Cette journée de grève s'inscrit dans un climat de forte tension sociale liée à l'inflation et au blocage des salaires. Malgré des cortèges jugés calmes par les autorités, le nombre d'interpellations témoigne d'une doctrine de maintien de l'ordre qui reste très ferme. La réponse rapide de Matignon avec la conférence sociale du 9 novembre tente de désamorcer la poursuite du mouvement appelée par plusieurs syndicats.",
+    "contexte": "Il y a six ans, les images du passage à tabac du producteur Michel Zecler dans son studio du 17e arrondissement avaient provoqué une onde de choc nationale. Sans la vidéosurveillance, la version des policiers aurait prévalu, menant Michel Zecler en prison. Ce procès, prévu jusqu'au 20 novembre, est devenu le symbole de la lutte contre l'impunité et des dérives sécuritaires documentées par l'image.",
     "sources": [
       {
-        "nom": "Libération",
-        "url": "https://www.liberation.fr/societe/en-direct-greve-du-5-novembre-entre-500-000-et-700-000-manifestants-attendus-en-france-ce-jeudi-hors-paris-20261105_AWBY5H2M7RH6ZK55KSXPMVIZ2I/",
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/societe/article/2026/11/08/l-affaire-michel-zecler-emblematique-des-violences-policieres-devant-la-justice_6808454_3224.html",
         "type": "mainstream",
         "groupe_media": {
-          "nom": "Libération",
-          "proprietaire": "Fonds de dotation",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       },
       {
-        "nom": "Le Figaro",
-        "url": "https://www.lefigaro.fr/actualite-france/en-direct-greve-du-5-novembre-la-grogne-sociale-monte-d-un-cran-jusqu-a-700-000-manifestants-attendus-dans-les-rues-20261105",
+        "nom": "Mediapart",
+        "url": "https://www.mediapart.fr/journal/france/081126/six-ans-apres-les-policiers-qui-ont-tabasse-michel-zecler-juges-devant-une-cour-criminelle",
+        "type": "investigation",
+        "groupe_media": {
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
+          "orientation": "gauche"
+        }
+      },
+      {
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/faits-divers/producteur-passe-a-tabac-par-des-policiers/j-aimerais-que-la-justice-passe-michel-zecler-reclame-un-proces-a-la-hauteur-de-la-gravite-des-faits-pour-les-policiers-accuses-de-l-avoir-roue-de-coups_8263784.html#xtor=RSS-3-[lestitres]",
         "type": "mainstream",
-        "groupe_media": null
-      },
-      {
-        "nom": "CGT",
-        "url": "https://www.cgt.fr/comm-de-presse/nous-etions-pres-d16-million-en-greve-et-dans-les-manifestations-un-nouveau-cap-franchi-pour-gagner",
-        "type": "institutionnel",
-        "groupe_media": null
-      },
-      {
-        "nom": "BFM TV",
-        "url": "https://www.bfmtv.com/international/asie/russie/video-vols-perturbes-par-de-fausses-alertes-a-la-bombe-des-menaces-visant-certains-d-entre-eux-et-envoyees-aux-aeroports-de-rome-et-de-sofia-provenaient-des-combattants-de-l-etat-masculin_VN-202611060128.html",
-        "type": "mainstream"
-      },
-      {
-        "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/11/06/a-macao-l-ancien-parlementaire-au-kam-san-premiere-personne-condamnee-au-nom-de-la-loi-de-securite-nationale_6807718_3210.html",
-        "type": "mainstream"
+        "groupe_media": {
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
       }
     ],
     "lien": null
   },
   "france": [
     {
-      "titre": "Interpellations massives à Strasbourg : un bus réquisitionné",
-      "rubrique": "societe",
-      "resume": "En marge des manifestations, une soixante de personnes ont été interpellées rue de Zurich et évacuées vers l'Hôtel de police à bord d'un bus de la CTS réquisitionné (Rue89 Strasbourg, . Le député LFI Emmanuel Fernandes a dénoncé une dérive autoritaire alors que la police justifie l'action par un « attroupement illégal » (L'Humanité).",
-      "sources": [
-        {
-          "nom": "Rue89 Strasbourg",
-          "url": "https://www.rue89strasbourg.com/rafle-manifestants-strasbourg-401658",
-          "type": "investigation",
-          "groupe_media": null
-        },
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/-/-/une-cinquantaine-dinterpellations-a-strasbourg-un-bus-de-la-ville-requisitionne",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "L'autoroute A69 entre en service malgré la polémique tarifaire",
-      "rubrique": "economie",
-      "resume": "L'axe Toulouse-Castres ouvre ce vendredi avec des tarifs parmi les plus élevés de France : plus de 20 euros pour un aller-retour (BFM TV). Les élus locaux et les collectifs écologistes maintiennent leur opposition face à ce coût jugé prohibitif pour les usagers quotidiens (Sud-Ouest).",
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/asie/russie/video-vols-perturbes-par-de-fausses-alertes-a-la-bombe-des-menaces-visant-certains-d-entre-eux-et-envoyees-aux-aeroports-de-rome-et-de-sofia-provenaient-des-combattants-de-l-etat-masculin_VN-202611060128.html",
-          "type": "mainstream"
-        },
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/sante/bien-etre/bien-bouger/menopause-et-prise-de-poids-les-regles-nutritionnelles-a-suivre-pour-prevenir-le-diabete-et-l-hypertension-31393569.php",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Cyberattaque record contre le Crédit Mutuel Arkéa",
-      "rubrique": "tech",
-      "resume": "La banque a subi un vol numérique de plus de 100 millions d'euros lors d'une attaque sophistiquée (La Croix). Bien que l'établissement assure que les comptes clients n'ont pas été impactés, l'ampleur du butin inquiète sur la vulnérabilité des systèmes bancaires (franceinfo).",
-      "sources": [
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/banques-alimentaires-une-collecte-nationale-cruciale-face-a-la-flambee-des-prix-du-carburant-20261105",
-          "type": "mainstream"
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/un-nombre-de-procedures-en-croissance-pourquoi-le-parquet-national-antiterroriste-se-saisit-de-plus-en-plus-d-affaires-liees-a-l-ultradroite-radicale-violente_8267705.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    }
-  ],
-  "monde": [
-    {
-      "titre": "Trump promet un « grand accord » sur l'Ukraine",
-      "pays": "États-Unis / Ukraine",
-      "resume": "Donald Trump affirme pouvoir conclure un accord avec Vladimir Poutine englobant « toute l'Europe » (Le Figaro). Ces déclarations interviennent alors que des pourparlers sont prévus à Abou Dhabi les 10 et 11 novembre, suscitant l'inquiétude sur une possible remise en cause de la souveraineté ukrainienne (20 Minutes, franceinfo).",
-      "sources": [
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-trump-predit-un-tres-grand-accord-avec-la-russie-qui-pourrait-englober-toute-l-europe-20261105",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Démission du président Peña sur fond de faillite bancaire",
-      "pays": "Paraguay",
-      "resume": "Le président Santiago Peña a annoncé sa démission suite à la mise sous tutelle d'Ueno Bank, gelant les avoirs de 3 millions de clients (Le Monde). Il fait face à un procès en destitution pour « mauvais exercice de ses fonctions » et conflit d'intérêts (France 24, La Croix).",
+      "titre": "CNews : un million de signatures pour sa fermeture",
+      "rubrique": "politique",
+      "resume": "Une pétition citoyenne sur le site de l'Assemblée nationale réclame le retrait de la fréquence de CNews. La commission des Affaires culturelles doit voter ce mardi 10 novembre sur l'ouverture d'un débat parlementaire ou le classement sans suite de cette initiative record (Le Monde, Le Figaro).",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/11/05/paraguay-le-president-santiago-pena-annonce-sa-demission_6807257_3210.html",
+          "url": "https://www.lemonde.fr/actualite-medias/article/2026/11/08/cnews-une-petition-pour-fermer-la-chaine-depasse-le-million-de-signatures-les-deputes-doivent-decider-mardi-d-un-eventuel-debat-a-l-assemblee_6808472_3236.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -142,146 +65,305 @@
           }
         },
         {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/am%C3%A9riques/20261105-paraguay-le-pr%C3%A9sident-santiago-pe%C3%B1a-d%C3%A9missionne-sur-fond-de-scandale-bancaire-national",
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/medias/une-petition-appelant-a-fermer-cnews-atteint-un-million-de-signatures-sur-le-site-de-l-assemblee-nationale-20261108",
           "type": "mainstream",
           "groupe_media": null
+        }
+      ],
+      "lien": "https://petitions.assemblee-nationale.fr/initiatives/i-5820"
+    },
+    {
+      "titre": "Mobilisation au lycée Paul-Éluard de Saint-Denis",
+      "rubrique": "societe",
+      "resume": "Des centaines de manifestants, soutenus par des élus locaux, dénoncent une 'répression incessante' au sein de l'établissement. Ils réclament le départ du proviseur et l'arrêt des enquêtes administratives visant des enseignants mobilisés (Libération, Le Monde).",
+      "sources": [
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/societe/education/ma-place-est-devant-letablissement-pour-assurer-la-securite-des-eleves-a-saint-denis-une-mobilisation-contre-la-repression-incessante-au-lycee-paul-eluard-20261108_QHUM2LLA3FGNBGWYOLE7VRNHTY/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/banques-alimentaires-une-collecte-nationale-cruciale-face-a-la-flambee-des-prix-du-carburant-20261105",
-          "type": "mainstream"
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/societe/article/2026/11/08/saint-denis-rassemblement-contre-la-repression-au-lycee-paul-eluard-epicentre-de-la-mobilisation-lyceenne_6808470_3224.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Accident de car dans l'Ain : le chauffeur mis en examen",
+      "rubrique": "societe",
+      "resume": "Le conducteur de 26 ans a été mis en examen pour 'homicide involontaire' après l'accident qui a coûté la vie à une fillette de 7 ans et un jeune de 18 ans. Il a reconnu s'être assoupi au volant (franceinfo, Le Figaro).",
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/apres-l-accident-de-car-ayant-cause-la-mort-de-deux-personnes-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-annonce-le-parquet_8273654.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/faits-divers/accident-de-car-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-20261108",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    }
+  ],
+  "monde": [
+    {
+      "titre": "Dana White, patron de l'UFC, nommé porte-parole de Trump",
+      "pays": "États-Unis",
+      "resume": "Donald Trump a choisi le patron de la principale ligue de MMA pour diriger sa communication. Il cherche un 'combattant féroce' pour affronter la presse, après le départ prématuré de sa précédente porte-parole (RFI, Courrier International).",
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261108-%C3%A9tats-unis-donald-trump-veut-dana-white-f%C3%A9roce-patron-de-l-ufc-comme-porte-parole-de-la-maison-blanche",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/politique-trump-propose-a-dana-white-l-influent-patron-de-l-ufc-de-devenir-le-porte-parole-de-la-maison-blanche_285684",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Escalade meurtrière au Yémen",
+      "pays": "Yémen",
+      "resume": "Plus de 50 morts ont été recensés en 24 heures lors de frappes intenses entre les rebelles Houthis et la coalition menée par l'Arabie saoudite. Sanaa et Riyad ont été visées, marquant une reprise brutale des hostilités (NYT World, France 24).",
+      "sources": [
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/11/07/world/middleeast/more-than-50-killed-in-yemen.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261108-frappes-intenses-entre-les-houthis-et-l-arabie-saoudite-sanaa-et-riyad-touch%C3%A9s",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "France 24 EN",
+          "url": "https://www.france24.com/en/france/20261109-europa-us-ukraine-peace-iran-paris-g7-ministers",
+          "type": "etranger"
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Conséquences politiques et idéologiques de l'attentat de Trappes",
+    "sujet": "Analyse de la stratégie politique de Donald Trump",
     "rubrique": "politique",
-    "contexte": "Kevin T., l'auteur présumé de l'attaque raciste de Trappes (1 mort, 7 blessés), était porteur de badges du Rassemblement National. Cet événement relance le débat sur la responsabilité des discours politiques dans le passage à l'acte violent.",
+    "contexte": "Après des résultats mitigés aux élections de mi-mandat, Donald Trump opère une radicalisation de son entourage politique et de son discours.",
     "couvertures": [
       {
-        "source": "The Conversation",
+        "source": "Le Figaro",
         "type": "mainstream",
-        "angle": "Analyse sociologique du lien entre progression institutionnelle du RN et passage à l'acte criminel.",
+        "angle": "Une posture de force nécessaire face à l'adversité démocrate.",
         "ton": "neutre",
-        "url": "https://theconversation.com/attentat-de-trappes-ces-mutations-de-lespace-politique-qui-conditionnent-le-passage-a-lacte-raciste-295635",
-        "citation_cle": "La progression institutionnelle du RN est passée par la promotion d’un racisme dissimulé, plus acceptable dans le champ médiatique.",
-        "auteur": "Collectif universitaire",
-        "proprietaire_contexte": "Consortium d'universités",
-        "orientation_source": "Centre",
+        "url": "https://www.lefigaro.fr/vox/monde/l-editorial-de-philippe-gelie-donald-trump-m-muscle-a-la-maison-blanche-20261108",
+        "citation_cle": "Donald Trump, M. Muscle à la Maison-Blanche",
+        "auteur": "Philippe Gélie",
+        "proprietaire_contexte": "Groupe Dassault",
+        "orientation_source": "Droite",
         "groupe_media": null
       },
       {
-        "source": "Mediapart",
-        "type": "investigation",
-        "angle": "Critique de la théorie du « grand remplacement » et de l'absence d'examen de conscience des leaders d'extrême-droite.",
+        "source": "L'Humanité",
+        "type": "mainstream",
+        "angle": "Une dérive vers l'extrême droite et le suprémacisme blanc.",
         "ton": "critique",
-        "url": "https://www.mediapart.fr/journal/politique/051126/apres-l-attentat-de-trappes-les-colporteurs-du-grand-remplacement-refusent-tout-examen-de-conscience",
-        "citation_cle": "La tuerie raciste... met en lumière la responsabilité de celles et ceux qui ont diffusé la théorie complotiste du grand remplacement.",
-        "auteur": "Alexandre Berteau, Mathieu Dejean",
-        "proprietaire_contexte": "Fonds pour une presse libre",
+        "url": "https://www.humanite.fr/monde/donald-trump/defait-dans-les-grandes-largeurs-donald-trump-choisit-lescalade",
+        "citation_cle": "Défait dans les grandes largeurs, Donald Trump choisit l’escalade",
+        "auteur": "Christophe Deroubaix",
+        "proprietaire_contexte": "Société des lecteurs (Coopérative)",
         "orientation_source": "Gauche",
         "groupe_media": {
-          "nom": "Mediapart",
-          "proprietaire": "Fonds pour une presse libre",
-          "type_proprietaire": "fondation",
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
           "orientation": "gauche"
         }
       }
     ],
-    "analyse_coherence": "L'analyse des couvertures révèle une fracture nette dans le traitement de la responsabilité politique. Alors que les médias d'investigation et universitaires (Mediapart, The Conversation) établissent un lien direct entre la banalisation des théories raciales (comme le 'grand remplacement') et la violence physique, les médias plus institutionnels ou de droite tendent à isoler l'acte comme celui d'un déséquilibré. On observe un double standard flagrant : alors que le terrorisme islamiste est systématiquement lié à une idéologie globale, le terrorisme d'extrême-droite est souvent traité sous l'angle de la dérive individuelle. Mediapart souligne l'absence d'examen de conscience des promoteurs de ces thèses, tandis que The Conversation pointe la 'respectabilisation' médiatique du RN comme un facteur facilitateur. Cette divergence souligne l'incapacité du champ médiatique mainstream à appliquer les mêmes grilles d'analyse aux différentes formes de radicalisation politique.",
+    "analyse_coherence": "Le traitement de la stratégie de Donald Trump révèle une fracture nette entre la presse conservatrice et la presse progressiste. Le Figaro analyse la situation sous l'angle du rapport de force politique classique, qualifiant Trump de 'M. Muscle' engagé dans une confrontation stratégique avec les démocrates. À l'inverse, L'Humanité pointe une 'escalade' idéologique inquiétante, soulignant la promotion de figures suprémacistes et masculinistes . Là où le premier voit un jeu de 'piège' politique, le second y voit une menace pour les valeurs démocratiques. Cette divergence illustre un double standard : une partie de la presse traite la radicalisation trumpiste comme une simple tactique électorale ('M. Muscle'), tandis que l'autre l'analyse comme une rupture fondamentale avec le pacte républicain américain. La nomination de Dana White (UFC) cristallise cette opposition : symbole de vigueur pour les uns, de virilisme autoritaire pour les autres.",
     "biais_detectes": [
-      "Double standard sur la responsabilité idéologique",
-      "Individualisation de la violence d'extrême-droite"
+      "Normalisation de la radicalité par la métaphore sportive/physique",
+      "Focus sur l'idéologie vs focus sur la tactique"
     ],
-    "ce_quil_faut_retenir": "L'attentat de Trappes n'est pas traité comme un fait divers, mais comme le symptôme d'une mutation idéologique où des théories complotistes jadis marginales infiltrent le débat public légitime."
+    "ce_quil_faut_retenir": "La stratégie de Trump ne change pas de nature mais d'intensité : il délaisse la politique institutionnelle pour une communication de combat, s'entourant de figures issues de la culture de la force plutôt que de la diplomatie."
   },
   "regard_etranger": [
     {
-      "source": "Al Jazeera",
-      "pays": "Qatar",
-      "titre": "Le choc des midterms américaines façonne la course au poste de Premier ministre en Israël",
-      "titre_original": "The blame game: How the US midterm shock is shaping Israel’s race for PM",
-      "angle": "Analyse de la toxicité croissante des liens de Netanyahu avec les Républicains après leur déroute électorale.",
-      "url": "https://www.aljazeera.com/news/2026/11/5/the-blame-game-how-the-us-midterm-shock-is-shaping-israels-race-for-pm",
+      "source": "The Guardian",
+      "pays": "Royaume-Uni",
+      "titre": "Nvidia ouvre une enquête après des soupçons d'espionnage étranger visant son PDG",
+      "titre_original": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+      "angle": "Focus sur les enjeux de sécurité nationale et les relations avec la Chine.",
+      "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
       "groupe_media": {
-        "nom": "Al Jazeera Media Network",
-        "proprietaire": "État du Qatar",
-        "type_proprietaire": "etat",
-        "orientation": "variable"
+        "nom": "Scott Trust",
+        "proprietaire": "Scott Trust Limited",
+        "type_proprietaire": "fondation",
+        "orientation": "centre-gauche"
+      }
+    },
+    {
+      "source": "Politico EU",
+      "pays": "Belgique",
+      "titre": "L'Europe sera représentée aux pourparlers d'Abou Dhabi sur l'Ukraine",
+      "titre_original": "Europe will be represented in Abu Dhabi talks on Ukraine",
+      "angle": "Analyse de la position diplomatique européenne sous médiation américaine.",
+      "url": "https://www.politico.eu/article/europe-will-be-represented-in-abu-dhabi-talks-on-ukraine-french-foreign-minister-jean-noel-barrot-says/",
+      "groupe_media": {
+        "nom": "Axel Springer / KKR",
+        "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+        "type_proprietaire": "milliardaire",
+        "orientation": "centre-droit"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "3 000 000 000 €",
-    "contexte": "Valeur maximale du marché de complémentaire santé des agents de la Sécurité sociale sur 6 ans, remporté par le tandem Alan/Allianz.",
-    "source": "BOAMP (Bulletin officiel des annonces des marchés publics)",
-    "source_url": "https://www.boamp.fr/telechargements/FILES/PDF/2026/04/26-41189.pdf"
+    "valeur": "1 000 000",
+    "contexte": "Nombre de signatures recueillies par la pétition demandant la suppression de CNews de l'audiovisuel français sur le site de l'Assemblée nationale.",
+    "source": "Assemblée Nationale",
+    "source_url": "https://petitions.assemblee-nationale.fr/initiatives/i-5820"
   },
   "a_surveiller": [
     {
-      "date": "2026-11-09",
-      "evenement": "Conférence sociale à Matignon sur les salaires et le pouvoir d'achat",
+      "date": "2026-11-10",
+      "evenement": "Vote de la commission des Affaires culturelles sur la pétition CNews",
       "type": "commission",
-      "lien": "https://www.info.gouv.fr/public/index.php/communique/conference-sociale"
+      "lien": "https://questions.assemblee-nationale.fr/dyn/17/organes/commissions-permanentes/affaires-culturelles"
     },
     {
       "date": "2026-11-10",
-      "evenement": "Pourparlers Russie-Ukraine à Abou Dhabi",
+      "evenement": "Début des pourparlers sur l'Ukraine à Abou Dhabi",
       "type": "conference",
       "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Les dessous du marché géant remporté par Alan",
-      "rubrique": "economie",
-      "resume": "L'attribution du marché de 3 milliards d'euros pour la santé des agents de la Sécu à la start-up Alan, proche d'Emmanuel Macron, soulève des doutes sur l'impartialité de la procédure après la suspension de la commission des marchés (Mediapart).",
+      "titre": "Omerta sur les violences sexuelles au lycée Stanislas",
+      "rubrique": "societe",
+      "resume": "Une enquête de Mediapart révèle des années de silence institutionnel face à des signalements de violences sexuelles sur mineurs au sein du prestigieux lycée catholique parisien. Un ancien responsable d'internat est notamment mis en cause.",
       "sources": [
         {
           "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/economie-et-social/051126/securite-sociale-les-dessous-du-marche-geant-remporte-par-le-groupe-alan-proche-de-macron",
+          "url": "https://www.mediapart.fr/journal/france/081126/au-lycee-catholique-stanislas-des-violences-sexuelles-sur-mineurs-et-des-annees-d-omerta",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce sujet révèle l'influence des réseaux 'Macron-compatibles' dans l'attribution de marchés publics stratégiques, souvent ignorée par la presse économique classique."
+      "pourquoi_signal": "Ce sujet d'investigation documente la persistance de systèmes de protection internes dans les institutions d'élite, souvent ignorés par les grands médias nationaux."
+    },
+    {
+      "titre": "Intrusion policière sur le campus de Caen",
+      "rubrique": "societe",
+      "resume": "Le 7 novembre, des CRS ont pénétré dans l'enceinte de l'université de Caen sans autorisation préalable de la présidence, utilisant des gaz lacrymogènes. La présidence a demandé des explications au préfet.",
+      "sources": [
+        {
+          "nom": "Blast",
+          "url": "https://www.blast-info.fr/articles/2026/manifestation-du-7-novembre-des-crs-sintroduisent-illegalement-dans-luniversite-de-caen-7c3MBg6bQEq00tIQqZUYqg",
+          "type": "investigation"
+        }
+      ],
+      "pourquoi_signal": "L'atteinte à la franchise universitaire est un acte grave rarement médiatisé en dehors de la presse indépendante."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Accélération des démolitions et saisies en Cisjordanie",
+      "titre": "Léon XIV en Argentine : le Pape face à l'ultralibéralisme",
       "rubrique": "international",
-      "resume": "En 48 heures, des colons ont saisi 8 maisons à Jéricho et l'armée a démoli des logements à Biddu, déplaçant plus de 100 Palestiniens (Al Jazeera, WAFA).",
+      "resume": "Dès son arrivée à Buenos Aires, le Pape a critiqué une économie qui 'sacrifie les personnes', ciblant directement la politique de Javier Milei.",
       "axes_concernes": [
-        "droit_international",
-        "colonialisme",
-        "droits_humains"
+        "justice_sociale",
+        "equite_economique"
       ],
-      "analyse": "Ces actions violent ouvertement les résolutions de l'ONU et constituent des crimes de guerre au regard du droit international. Le silence relatif des capitales occidentales sur ces déplacements forcés, alors qu'elles condamnent des agressions territoriales ailleurs, illustre un double standard moral intenable qui fragilise l'ordre juridique mondial.",
+      "analyse": "Cette visite illustre une opposition frontale entre la doctrine sociale de l'Église et le libertarianisme radical. Le Pape se positionne comme le principal contre-pouvoir moral face à une austérité qui fragilise les plus démunis, un angle que nous privilégions pour son universalisme social.",
       "sources": [
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/6/israeli-settlers-seize-8-palestinian-homes-in-jericho-displacing-dozens",
-          "type": "etranger"
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/religion/leon-xiv-en-argentine-democratie-corruption-limites-du-pouvoir-la-lecon-du-pape-a-milei-20261109",
+          "type": "mainstream"
+        }
+      ]
+    },
+    {
+      "titre": "Gaz lacrymogènes : une crise sanitaire occultée",
+      "rubrique": "societe",
+      "resume": "Plus de 10 000 témoignages font état de troubles menstruels graves et de fausses couches suite à l'exposition aux gaz lacrymogènes lors des manifestations.",
+      "axes_concernes": [
+        "droits_humains",
+        "justice_sociale"
+      ],
+      "analyse": "L'absence d'études toxicologiques sur l'impact de ces armes chimiques sur le corps des femmes est un angle mort de santé publique. Nous alertons sur ce silence qui touche directement l'intégrité physique des citoyennes.",
+      "sources": [
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/societe/cycles-menstruels/plus-de-10-000-temoignages-les-effets-du-gaz-lacrymogene-sur-le-cycle-menstruel",
+          "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-11-06",
-  "genere_a": "2026-11-06T05:35:08.329Z",
+  "date": "2026-11-09",
+  "genere_a": "2026-11-09T05:35:17.281Z",
   "meta": {
-    "nb_articles_analyses": 712,
-    "nb_topics": 222,
+    "nb_articles_analyses": 524,
+    "nb_topics": 163,
     "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 35,
-    "sources_francaises": 464,
-    "sources_etrangeres": 248,
+    "nb_articles_dans_selection": 48,
+    "sources_francaises": 373,
+    "sources_etrangeres": 151,
     "rubriques_couvertes": [
       "societe",
-      "economie",
-      "tech",
+      "politique",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
