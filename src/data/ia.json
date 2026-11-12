@@ -1,17 +1,28 @@
 {
-  "date": "2026-11-09",
-  "genere_a": "2026-11-09T05:35:34.888Z",
+  "date": "2026-11-12",
+  "genere_a": "2026-11-12T05:36:51.502Z",
   "faits_ia": [
     {
-      "titre": "Nvidia enquête sur Jensen Huang pour des liens avec une espionne présumée",
+      "titre": "Crise majeure chez Nvidia : le PDG Jensen Huang menacé d'éviction",
       "sous_section": "business",
-      "resume": "Le conseil d'administration de Nvidia a ouvert une enquête indépendante sur son PDG, Jensen Huang. Ce dernier a admis avoir entretenu une liaison avec Alice Huang, une dirigeante de Megaspeed soupçonnée d'avoir été recrutée par le ministère chinois de la Sécurité d'État pour obtenir des informations stratégiques et faciliter l'achat massif de processeurs graphiques (GPU).",
-      "pourquoi_ca_compte": "Cette affaire touche au cœur de la souveraineté technologique mondiale, Nvidia étant le moteur de la révolution IA actuelle. Une faille de sécurité au sommet de l'entreprise pourrait compromettre des secrets industriels majeurs pour la démocratie occidentale.",
+      "resume": "Le conseil d'administration de Nvidia s'est réuni en urgence pour décider du sort de son cofondateur et PDG, Jensen Huang. Cette crise de gouvernance sans précédent est alimentée par des révélations sur une liaison avec une femme soupçonnée d'espionnage pour le compte de la Chine, ainsi qu'une seconde affaire sentimentale avec une salariée (The Guardian, TechCrunch, Le Monde). Ces turbulences surviennent alors que Nvidia pèse près de 4 000 milliards de dollars au cœur de la révolution de l'IA.",
+      "pourquoi_ca_compte": "Nvidia est le fournisseur quasi exclusif des puces nécessaires à l'IA mondiale. Une déstabilisation de sa direction pourrait freiner l'innovation technologique et impacter l'économie globale ainsi que la sécurité nationale américaine.",
       "sources": [
         {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
           "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-          "type": "etranger",
+          "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "Yahoo (AOL / Oath)",
             "proprietaire": "Apollo Global Management",
@@ -20,30 +31,8 @@
           }
         },
         {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/legal/2026/11/09/nvidia-ceo-jensen-huang-starring-in-possible-remake-of-the-spy-who-shagged-me/5308327",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair",
+          "url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future?traffic_source=rss",
           "type": "etranger",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
@@ -53,28 +42,8 @@
           }
         },
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Montée des contestations citoyennes contre les data centers en Europe",
-      "sous_section": "societe",
-      "resume": "Une coalition d'associations environnementales a organisé des manifestations dans une quinzaine de pays européens pour réclamer un moratoire sur la construction de centres de données. À Rantigny (Oise), des riverains et élus se sont mobilisés contre un projet local, dénonçant l'accaparement des ressources énergétiques et foncières par l'industrie de l'IA.",
-      "pourquoi_ca_compte": "Cela illustre le conflit croissant entre les ambitions technologiques de l'IA et les limites écologiques locales, posant la question du consentement démocratique face à l'infrastructure du numérique.",
-      "sources": [
-        {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/08/la-contestation-contre-les-data-centers-monte-en-europe_6808448_3234.html",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/12/le-patron-de-nvidia-mis-en-cause-pour-une-liaison-avec-une-chinoise-soupconnee-d-espionnage-accuse-d-avoir-eu-une-seconde-affaire-sentimentale-avec-une-salariee_6809035_3234.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -85,7 +54,7 @@
         },
         {
           "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20261108-non-au-data-center-de-rantigny-manifestation-contre-le-d%C3%A9veloppement-de-l-ia",
+          "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261111-nvidia-espionnage-ou-affaire-d-%C3%A9tat",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -98,38 +67,60 @@
       "lien": null
     },
     {
-      "titre": "Apple accélère le développement d'un Siri « agentique »",
-      "sous_section": "annonces",
-      "resume": "Sous la pression de la direction, les équipes d'Apple travaillent à transformer Siri en un véritable agent capable d'exécuter des tâches complexes de manière autonome. L'objectif est de rattraper le retard face aux modèles concurrents comme Dots d'OpenAI ou Muse de Meta, en intégrant des capacités d'action directe sur les applications.",
-      "pourquoi_ca_compte": "Le passage d'un assistant vocal à un agent autonome change la relation de l'utilisateur à ses données personnelles et à l'automatisation de sa vie quotidienne.",
+      "titre": "Chute boursière de Nvidia suite aux rumeurs de départ de Jensen Huang",
+      "sous_section": "business",
+      "resume": "L'action du géant des puces Nvidia a plongé de plus de 8 % lors des échanges après-bourse ce mercredi (TechCrunch, Al Jazeera). Les investisseurs réagissent massivement aux rumeurs d'éviction de Jensen Huang, figure emblématique de l'entreprise depuis 33 ans, dans un contexte de tensions géopolitiques liées à l'infrastructure IA avancée.",
+      "pourquoi_ca_compte": "La volatilité de Nvidia affecte directement les marchés financiers mondiaux et les fonds de pension, illustrant la dépendance de l'économie moderne à une seule entreprise technologique.",
       "sources": [
         {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future?traffic_source=rss",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
           }
         }
       ],
       "lien": null
     },
     {
-      "titre": "Le paradoxe de l'IA : accélération de la recherche sans percées majeures",
+      "titre": "Google DeepMind utilise l'IA pour vérifier la sécurité de Signal",
       "sous_section": "recherche",
-      "resume": "Malgré l'utilisation massive des grands modèles de langage, les découvertes scientifiques fondamentales ne progressent pas à un rythme exponentiel. Si l'IA permet de traiter les données plus rapidement, elle semble pour l'instant plafonner dans sa capacité à générer des ruptures conceptuelles réelles.",
-      "pourquoi_ca_compte": "Ce constat interroge les investissements massifs dans l'IA comme solution miracle aux défis mondiaux (santé, climat) si l'outil ne produit qu'une optimisation et non de l'innovation.",
+      "resume": "Les chercheurs de Google DeepMind ont déployé 80 agents d'IA pour réaliser une vérification mathématique formelle du code de chiffrement de la messagerie Signal (Ars Technica, Numerama). Ce projet de quatre semaines a démontré que le code respecte ses garanties de sécurité fondamentales, marquant une avancée majeure dans la sécurisation automatisée des logiciels.",
+      "pourquoi_ca_compte": "Cette méthode pourrait démocratiser la 'preuve parfaite' en cybersécurité, protégeant mieux la vie privée des citoyens contre les interceptions de données.",
       "sources": [
         {
-          "nom": "Futura Sciences",
-          "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-ia-accelere-recherche-mais-pas-forcement-decouvertes-paradoxe-devrait-nous-faire-reflechir-139149/#xtor%3DRSS-8",
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2372071-a-la-recherche-de-la-preuve-parfaite-google-a-lache-80-agents-ia-sur-le-code-de-signal-pour-prouver-quil-etait-sur.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Futura",
-            "proprietaire": "Futura (indépendant)",
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
@@ -138,69 +129,14 @@
       "lien": null
     },
     {
-      "titre": "L'IA absente des débats officiels de la COP 31 malgré son poids écologique",
+      "titre": "L'UE prépare le Digital Fairness Act contre les algorithmes addictifs",
       "sous_section": "regulation",
-      "resume": "Alors que la COP 31 s'ouvre en Turquie, l'intelligence artificielle est quasi absente du programme officiel. Pourtant, son expansion nécessite une consommation électrique colossale qui inquiète les experts du climat, créant un décalage entre les politiques climatiques et la réalité industrielle de la tech.",
-      "pourquoi_ca_compte": "L'absence de régulation climatique spécifique à l'IA lors des sommets internationaux risque de rendre caducs les objectifs de réduction des émissions de gaz à effet de serre.",
-      "sources": [
-        {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/ecologie/20261109.OBS119972/a-la-cop-31-l-ia-est-presente-dans-toutes-les-tetes-mais-bien-peu-dans-le-programme-officiel.html",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Le réalisateur Sylvain Chomet dément l'usage massif de l'IA pour Dior",
-      "sous_section": "societe",
-      "resume": "Accusé d'avoir utilisé l'IA générative pour un film publicitaire, Sylvain Chomet affirme avoir tout dessiné à la main. Il admet toutefois avoir eu recours à l'interpolation automatisée pour fluidifier l'animation, soulevant la question de la frontière entre outils techniques et création algorithmique.",
-      "pourquoi_ca_compte": "Le débat illustre la méfiance croissante des créateurs et du public face à l'IA, perçue comme une menace pour l'authenticité artistique et le travail humain.",
-      "sources": [
-        {
-          "nom": "CheckNews",
-          "url": "https://www.liberation.fr/checknews/ce-film-de-sylvain-chomet-pour-dior-a-t-il-ete-realise-avec-lia-20261107_QURVF5TQIJC7LCFJ6JA2TS5WFQ/",
-          "type": "fact-check",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "La productivité américaine décolle, mais l'IA n'y est pour rien",
-      "sous_section": "business",
-      "resume": "Contrairement aux prévisions, la hausse spectaculaire de la productivité aux États-Unis ne serait pas encore due à l'intégration de l'IA, mais plutôt à des investissements structurels passés. L'impact réel de l'IA sur les chiffres macroéconomiques reste, pour l'heure, invisible.",
-      "pourquoi_ca_compte": "Cela suggère que le retour sur investissement de l'IA pour l'économie globale pourrait prendre beaucoup plus de temps que ne l'espèrent les marchés financiers.",
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/economie/je-n-aurais-jamais-imagine-qu-elle-soit-aussi-elevee-contrairement-a-l-europe-la-productivite-redecolle-aux-etats-unis-mais-pas-encore-grace-a-l-ia_AV-202611090085.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Guerre des prix sur les MacBook M5 avant l'arrivée du M6",
-      "sous_section": "annonces",
-      "resume": "Les prix des MacBook Air et Pro équipés de la puce M5 chutent drastiquement chez les revendeurs américains. Cette baisse stratégique intervient alors qu'Apple prépare la transition vers la puce M6, optimisée pour des tâches d'IA encore plus gourmandes.",
-      "pourquoi_ca_compte": "L'obsolescence accélérée du matériel face aux besoins de l'IA locale force les consommateurs à un cycle de renouvellement plus rapide pour rester compatibles avec les nouveaux agents intelligents.",
+      "resume": "La Commission européenne a publié une proposition pour le Digital Fairness Act (DFA), visant à durcir les règles contre les 'dark patterns' et les fonctionnalités addictives sur les réseaux sociaux et les jeux vidéo (The Verge, Wired). Des plateformes comme TikTok, Duolingo ou Strava sont dans le viseur pour leurs mécanismes incitatifs (streaks, loot boxes).",
+      "pourquoi_ca_compte": "Ce texte renforce les droits des consommateurs face à des interfaces conçues pour manipuler leur comportement et leur temps d'attention.",
       "sources": [
         {
           "nom": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale",
+          "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
           "type": "etranger",
           "groupe_media": {
             "nom": "Vox Media",
@@ -211,7 +147,7 @@
         },
         {
           "nom": "Wired",
-          "url": "https://www.wired.com/story/macbook-pro-m5-deal-11-6-2026/",
+          "url": "https://www.wired.com/story/duolingo-strava-and-ticketmaster-are-all-caught-up-in-eus-new-digital-fairness-rules/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Condé Nast",
@@ -224,14 +160,14 @@
       "lien": null
     },
     {
-      "titre": "Epic Games Launcher s'ouvre à SteamOS",
-      "sous_section": "business",
-      "resume": "Epic Games a confirmé le portage de son lanceur sur SteamOS . Cette décision, qui pourrait inclure une compatibilité pour Fortnite, marque une étape importante dans l'interopérabilité des plateformes de jeux et la fin de certains écosystèmes fermés.",
-      "pourquoi_ca_compte": "Pour les citoyens numériques, c'est une victoire en faveur de la liberté de choix du matériel et du système d'exploitation face aux monopoles des boutiques d'applications.",
+      "titre": "Google Labs lance Tabletop AI, un outil de collaboration personnalisable",
+      "sous_section": "annonces",
+      "resume": "Google a dévoilé Tabletop, une nouvelle expérience expérimentale permettant de générer des hubs collaboratifs personnalisés (itineraires, sondages, tableaux) grâce à l'IA (The Verge, Google AI Blog). L'outil vise à simplifier la coordination de groupe sans nécessiter de compétences en développement.",
+      "pourquoi_ca_compte": "Il illustre la tendance de l'IA générative à devenir un assistant personnel d'organisation pour les tâches quotidiennes des citoyens.",
       "sources": [
         {
           "nom": "The Verge",
-          "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos",
+          "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
           "type": "etranger",
           "groupe_media": {
             "nom": "Vox Media",
@@ -239,19 +175,30 @@
             "type_proprietaire": "independant",
             "orientation": "centre-gauche"
           }
+        },
+        {
+          "nom": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+          "type": "institutionnel",
+          "groupe_media": {
+            "nom": "Alphabet (Google)",
+            "proprietaire": "Larry Page & Sergey Brin",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
         }
       ],
       "lien": null
     },
     {
-      "titre": "L'IA face à la crise des matières premières agricoles",
-      "sous_section": "societe",
-      "resume": "Alors que les producteurs de bananes en Amérique latine subissent de plein fouet El Niño, l'industrie se tourne vers des outils prédictifs pour tenter de sauver les récoltes. Cependant, la hausse des coûts de production et le changement climatique menacent de rendre ces technologies inaccessibles aux petits exploitants.",
-      "pourquoi_ca_compte": "Le risque est de voir apparaître une fracture technologique agricole où seuls les grands groupes pourront s'adapter au climat grâce à l'IA, au détriment de l'agriculture paysanne.",
+      "titre": "Anthropic : vers une introduction en bourse historique",
+      "sous_section": "business",
+      "resume": "La start-up Anthropic, principale concurrente d'OpenAI, prépare son introduction en bourse (IPO), ce qui pourrait constituer l'un des paris financiers les plus importants de l'année (BFM Business). L'entreprise cherche à consolider sa position sur le marché des modèles de langage éthiques.",
+      "pourquoi_ca_compte": "L'ouverture du capital d'un acteur majeur de l'IA au grand public change la structure de pouvoir dans la Silicon Valley.",
       "sources": [
         {
           "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/agriculture/ils-alertent-sur-une-chute colossale-des-recoltes-en-amerique-latine-les-producteurs-de-bananes-etrangles-par-el-nino-et-la-flambee-des-couts_AN-202611080331.html",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/bfm-bourse/video-theme-d-avenir-ipo-d-anthropic-le-pari-boursier-de-l-annee-11-11_VN-202611110578.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -259,16 +206,135 @@
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Vague de cyber-alertes à la bombe dans les écoles italiennes",
+      "sous_section": "societe",
+      "resume": "Des milliers d'écoles en Italie ont été évacuées suite à des fausses alertes à la bombe envoyées par email sous le pseudonyme 'Mikhail Andropov' (France 24, La Croix, BFM TV). Bien que les recherches n'aient rien donné, le gouvernement de Giorgia Meloni s'inquiète de cette attaque coordonnée qui s'est étendue au Royaume-Uni.",
+      "pourquoi_ca_compte": "Cet événement souligne la vulnérabilité des institutions publiques face à des campagnes de harcèlement numérique de masse automatisables.",
+      "sources": [
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261111-italie-des-centaines-d-%C3%A9coles-%C3%A9vacu%C3%A9es-apr%C3%A8s-des-fausses-alertes-%C3%A0-la-bombe",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         },
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/europe/italie/ecoles-italiennes-visees-par-des-alertes-a-la-bombe-giorgia-meloni-a-indique-que-rien-n-a-ete-trouve-dans-les-etablissements_AD-202611110821.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Apple ferme ses forums d'entraide historiques après 28 ans",
+      "sous_section": "annonces",
+      "resume": "Apple a annoncé la fermeture définitive de son forum 'Apple Support Community' le 20 novembre, passant déjà le site en mode 'lecture seule' (Ars Technica, The Register). Cet espace permettait aux utilisateurs de s'entraider sur les problèmes techniques depuis près de trois décennies.",
+      "pourquoi_ca_compte": "La disparition de ces archives communautaires limite le droit à la réparation et l'accès à une base de connaissances indépendante pour les utilisateurs de produits Apple.",
+      "sources": [
+        {
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/apple-is-shuttering-its-28-year-old-online-community-forum/",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Register",
+          "url": "https://www.theregister.com/personal-tech/2026/11/11/apple-tells-its-support-community-to-stfu/5309090",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Singles Day 2026 : l'IA au service du commerce en ligne",
+      "sous_section": "societe",
+      "resume": "Le 11 novembre a vu une explosion d'offres promotionnelles sur des plateformes comme AliExpress et Amazon, avec un recours massif à l'IA pour le ciblage publicitaire (Numerama). Les marchands utilisent cet événement pour anticiper le Black Friday.",
+      "pourquoi_ca_compte": "L'automatisation des promotions soulève des questions sur la protection des données et la surconsommation encouragée par des algorithmes prédictifs.",
+      "sources": [
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/tech/2372107-11-11-les-plus-grosses-promos-du-singles-day-tombent-aujourdhui-notre-selection-aliexpress-et-joybuy-en-direct.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/tech/2363357-black-friday-2026-les-meilleures-offres-de-ce-11-novembre-denichees-en-direct.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "La Russie restreint l'accès à son territoire pour des journalistes",
+      "sous_section": "regulation",
+      "resume": "En représailles à l'expulsion de la chroniqueuse Xenia Fedorova de France, Moscou a interdit l'entrée sur son territoire à deux députés et deux journalistes français, dont Ariane Chemin du Monde et Paul Gogo (L'Obs, Le Monde, RFI).",
+      "pourquoi_ca_compte": "Cette mesure illustre l'usage des restrictions de circulation comme arme diplomatique contre la liberté de la presse et l'enquête journalistique.",
+      "sources": [
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/monde/20261111.OBS120052/deux-deputes-et-deux-journalistes-francais-interdits-d-entree-en-russie-en-reponse-a-l-expulsion-de-xenia-fedorova-selon-moscou.html",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/11/11/quatre-journalistes-et-deputes-francais-interdits-de-sejour-en-russie-une-nouvelle-etape-dans-la-degradation-des-relations-entre-paris-et-moscou_6809033_3210.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/europe/20261111-expulsion-de-xenia-fedorova-la-russie-interdit-d-entr%C3%A9e-deux-d%C3%A9put%C3%A9s-et-deux-journalistes-fran%C3%A7ais",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         }
       ],
@@ -276,16 +342,16 @@
     }
   ],
   "regard_croise_ia": {
-    "sujet": "L'enquête pour espionnage visant le PDG de Nvidia",
-    "contexte": "Jensen Huang, fondateur de Nvidia, est sous le coup d'une enquête interne après avoir reconnu une liaison avec une femme soupçonnée d'être un agent chinois. Cette situation survient dans un climat de tension extrême sur le marché des semi-conducteurs.",
+    "sujet": "La chute de Jensen Huang et l'avenir de Nvidia",
+    "contexte": "Le PDG de Nvidia, Jensen Huang, est au cœur d'un scandale mêlant liaisons personnelles et soupçons d'espionnage chinois, provoquant une réunion de crise du conseil d'administration et une chute du titre en bourse.",
     "couvertures": [
       {
         "source": "TechCrunch",
-        "type": "Spécialisé Tech",
-        "angle": "Gouvernance d'entreprise et aveux du PDG",
+        "type": "etranger",
+        "angle": "Focus sur les conséquences boursières et la chronologie des faits",
         "ton": "factuel",
-        "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-        "citation_cle": "Huang a admis dans un mémo interne avoir eu une liaison.",
+        "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+        "citation_cle": "Dès mercredi soir, le conseil d'administration de Nvidia pourrait décider d'évincer son fondateur et PDG depuis 33 ans.",
         "groupe_media": {
           "nom": "Yahoo (AOL / Oath)",
           "proprietaire": "Apollo Global Management",
@@ -294,26 +360,26 @@
         }
       },
       {
-        "source": "The Register",
-        "type": "Tech impertinent",
-        "angle": "Sécurité nationale et détournement de GPU",
-        "ton": "critique",
-        "url": "https://theregister.com/legal/2026/11/09/nvidia-ceo-jensen-huangs-starring-in-possible-remake-of-the-spy-who-shagged-me/5308327",
-        "citation_cle": "Le conseil d'administration enquête sur des contacts avec un actif chinois ayant acheté des GPU en vrac.",
+        "source": "France 24 FR",
+        "type": "mainstream",
+        "angle": "Analyse géopolitique et sécurité nationale",
+        "ton": "engage",
+        "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261111-nvidia-espionnage-ou-affaire-d-%C3%A9tat",
+        "citation_cle": "C'est une affaire d’espionnage qui défraie la chronique aux États-Unis et sur les réseaux sociaux en Chine.",
         "groupe_media": {
-          "nom": "The Register",
-          "proprietaire": "Situation Publishing",
-          "type_proprietaire": "independant",
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
           "orientation": "centre"
         }
       },
       {
         "source": "The Guardian",
-        "type": "Généraliste",
-        "angle": "Renseignement étranger et géopolitique",
-        "ton": "neutre",
-        "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
-        "citation_cle": "Huang a été la cible d'une opération de renseignement étranger.",
+        "type": "etranger",
+        "angle": "Impact sur le leadership et le vide de pouvoir potentiel",
+        "ton": "critique",
+        "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+        "citation_cle": "Le départ potentiel de Huang laisserait un vide de leadership chez le fabricant de puces de 4 000 milliards de dollars.",
         "groupe_media": {
           "nom": "Scott Trust",
           "proprietaire": "Scott Trust Limited",
@@ -322,17 +388,17 @@
         }
       }
     ],
-    "analyse_coherence": "La couverture est globalement cohérente sur les faits bruts : l'existence d'une liaison, l'ouverture d'une enquête et le profil de la femme impliquée . Cependant, les angles divergent sur les conséquences. Alors que TechCrunch se concentre sur la communication interne de l'entreprise, The Register adopte un ton beaucoup plus incisif, pointant du doigt la faille de sécurité majeure que représente l'achat massif de GPU par une entité liée à Pékin via cette relation. Al Jazeera et The Guardian replacent l'événement dans un contexte de guerre froide technologique, soulignant que le PDG n'est plus seulement un chef d'entreprise mais une cible stratégique d'État. On note une absence de commentaires officiels de la part des autorités américaines pour l'instant, les médias se reposant sur des sources internes à Nvidia.",
+    "analyse_coherence": "La couverture médiatique est unanime sur la gravité de la situation pour Nvidia, mais les angles divergent selon la proximité géographique des médias. TechCrunch et The Guardian adoptent une approche centrée sur la gouvernance d'entreprise et la réaction des marchés financiers, soulignant la chute de 8 % de l'action. En revanche, les médias français comme France 24 ou Le Monde insistent davantage sur la dimension 'espionnage' et le risque de transfert de technologies sensibles vers la Chine via la liaison prêtée à Jensen Huang. On observe un ton plus alarmiste dans la presse technologique américaine (TechCrunch) qui s'interroge sur la complaisance de l'industrie face à de tels comportements, tandis que la presse généraliste européenne souligne la dégradation des relations sino-américaines à travers ce fait divers industriel.",
     "biais_detectes": [
-      "Sensationnalisme dans certains titres (The Register)",
-      "Focalisation sur la vie privée au détriment de l'analyse des failles de cybersécurité industrielle"
+      "Personnalisation excessive du débat autour de Jensen Huang au détriment de l'analyse structurelle de Nvidia",
+      "Biais de sécurité nationale prédominant dans les sources gouvernementales/mainstream françaises"
     ],
-    "ce_quil_faut_retenir": "Le leader mondial de l'IA est déstabilisé par une affaire d'espionnage au plus haut niveau, ce qui pourrait entraîner des régulations beaucoup plus strictes sur la vie privée des dirigeants de la tech stratégique."
+    "ce_quil_faut_retenir": "Le leader mondial de l'IA vacille non pas sur une innovation technique, mais sur une crise d'éthique et de sécurité, prouvant que les 'géants' technologiques restent vulnérables aux facteurs humains et géopolitiques."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 135,
-    "nb_topics_ia": 43,
+    "nb_articles_ia": 178,
+    "nb_topics_ia": 55,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
