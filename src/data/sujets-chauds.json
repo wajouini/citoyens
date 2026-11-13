@@ -1,36 +1,36 @@
 {
-  "date": "2026-11-12",
-  "genere_a": "2026-11-12T05:37:21.606Z",
+  "date": "2026-11-13",
+  "genere_a": "2026-11-13T05:36:15.621Z",
   "sujets_actifs": [
     {
-      "titre": "Crise de gouvernance chez Nvidia : Jensen Huang sur la sellette",
-      "slug": "nvidia-jensen-huang-crise-gouvernance-espionnage",
+      "titre": "Démission de Jensen Huang et scandale d'espionnage chez Nvidia",
+      "slug": "demission-jensen-huang-nvidia-espionnage",
       "rubrique": "tech",
       "tldr": [
-        "Le CA de Nvidia se réunit pour décider du maintien de Jensen Huang après des accusations de relations inappropriées et d'espionnage.",
-        "L'action Nvidia a chuté de 8% suite aux révélations sur une enquête interne.",
-        "Les États-Unis soupçonnent que le dirigeant ait été la cible de services de renseignement chinois."
+        "Jensen Huang démissionne de la direction de Nvidia après la révélation de liaisons extra-conjugales.",
+        "Une de ses relations est soupçonnée par les services américains d'être une espionne chinoise.",
+        "Le Congrès américain a convoqué l'ex-PDG pour témoigner sur les risques de sécurité nationale."
       ],
-      "resume": "Le géant mondial des puces électroniques Nvidia traverse une tempête sans précédent. Son cofondateur et PDG emblématique, Jensen Huang, est visé par une enquête interne concernant une relation non déclarée avec une cadre de l'entreprise, mais surtout par des soupçons d'espionnage au profit de la Chine (The Guardian, France 24). Le conseil d'administration s'est réuni en urgence ce mercredi pour statuer sur son avenir alors que la capitalisation boursière de l'entreprise, pilier de la révolution IA, vacille avec une chute de 8% de l'action en après-bourse (The Guardian). Les sources divergent sur la nature exacte de la menace, mais le New York Times souligne que cette affaire cristallise la méfiance extrême entre Washington et Pékin sur le contrôle des technologies stratégiques.",
-      "contexte_historique": "Nvidia, valorisée à environ 4 000 milliards de dollars, est devenue en 2024 l'entreprise la plus influente du secteur de l'IA. Historiquement, les États-Unis imposent des restrictions strictes sur l'exportation de puces haut de gamme vers la Chine (décret de 2022) pour freiner ses capacités militaires et technologiques (NYT World).",
+      "resume": "Le fondateur emblématique de Nvidia, Jensen Huang, a quitté ses fonctions de PDG de manière brutale suite à des révélations sur sa vie privée impliquant des enjeux de sécurité nationale. Les autorités américaines soupçonnent l'une de ses relations d'être un agent de renseignement chinois, faisant craindre un transfert illégal de technologies sensibles vers Pékin. Colette Kress, actuelle directrice financière, assure l'intérim alors que l'entreprise, pilier du secteur de l'IA, voit sa gouvernance déstabilisée. En parallèle, la Malaisie a ouvert une enquête sur une filiale locale soupçonnée d'avoir facilité le détournement de puces Nvidia vers des destinations interdites.",
+      "contexte_historique": "Nvidia est devenue en 2024 l'entreprise la plus valorisée au monde grâce à ses puces H100 essentielles à l'IA générative. Les États-Unis imposent des restrictions strictes sur l'exportation de ces composants vers la Chine depuis octobre 2022 (Bureau of Industry and Security). Ce scandale rappelle l'affaire Eric Fang en 2020, qui avait ciblé des élus américains via des relations intimes pour obtenir des informations politiques.",
       "implications": [
-        "Instabilité majeure du marché boursier technologique mondial en cas de destitution du PDG.",
-        "Renforcement des contrôles de sécurité nationale sur les dirigeants de la tech américaine ayant des liens avec l'Asie."
+        "Instabilité boursière majeure pour le secteur des semi-conducteurs et de l'intelligence artificielle.",
+        "Durcissement probable des contrôles à l'exportation et de la surveillance des dirigeants de la tech par le FBI."
       ],
       "chronologie": [
         {
-          "date": "2026-11-12",
-          "texte": "Le conseil d'administration se réunit pour décider du sort de Jensen Huang.",
-          "source": "France 24 FR"
-        },
-        {
-          "date": "2026-11-11",
-          "texte": "Révélations sur une relation inappropriée et des soupçons d'espionnage.",
+          "date": "2026-11-13",
+          "texte": "Jensen Huang est convoqué pour témoigner devant le Congrès américain.",
           "source": "The Guardian"
         },
         {
-          "date": "2026-11-08",
-          "texte": "Début des rumeurs d'une enquête interne sur la sécurité des données.",
+          "date": "2026-11-12",
+          "texte": "Démission officielle de Jensen Huang ; Colette Kress nommée PDG par intérim.",
+          "source": "BBC News"
+        },
+        {
+          "date": "2026-11-12",
+          "texte": "Révélation par le renseignement US de la liaison de Huang avec une espionne présumée.",
           "source": "NYT World"
         }
       ],
@@ -38,10 +38,10 @@
         {
           "source": "The Guardian",
           "type": "etranger",
-          "angle": "Focus sur la chute boursière et le vide de leadership potentiel chez un géant de 4000 milliards.",
+          "angle": "Focus sur les répercussions politiques et l'audition imminente devant le Congrès.",
           "ton": "alarmiste",
-          "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
-          "citation_cle": "Le départ potentiel de Huang laisserait un vide de leadership chez le fabricant de puces qu'il a cofondé.",
+          "url": "https://www.theguardian.com/technology/live/2026/nov/13/nvidia-jensen-huang-to-testify-before-congress-live-latest-updates",
+          "citation_cle": "La démission de Huang a envoyé des ondes de choc à travers l'industrie de l'IA.",
           "groupe_media": {
             "nom": "Scott Trust",
             "proprietaire": "Scott Trust Limited",
@@ -50,43 +50,33 @@
           }
         },
         {
-          "source": "NYT World",
-          "type": "investigation",
-          "angle": "Analyse géopolitique sur la guerre de l'espionnage entre les États-Unis et la Chine via les entreprises privées.",
+          "source": "Le Figaro",
+          "type": "mainstream",
+          "angle": "Analyse des ramifications internationales, notamment l'enquête en Malaisie sur le détournement de puces.",
           "ton": "factuel",
-          "url": "https://www.nytimes.com/2026/11/11/world/asia/china-us-nvidia.html",
-          "citation_cle": "Le soupçon que le leader de Nvidia soit une cible de l'espionnage chinois souligne la méfiance profonde entre les deux puissances.",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
+          "url": "https://www.lefigaro.fr/secteur/high-tech/affaire-nvidia-la-malaisie-annonce-enqueter-sur-une-filiale-de-megaspeed-concernant-un-eventuel-detournement-de-puces-d-ia-20261113",
+          "citation_cle": "Déterminer si des puces destinées à l’IA ont été réexportées illégalement.",
+          "groupe_media": null
         },
         {
-          "source": "TechCrunch",
-          "type": "etranger",
-          "angle": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+          "source": "Ouest-France",
+          "type": "mainstream",
+          "angle": "Le dessin de Chaunu : la démission du patron de Nvidia après sa liaison avec une Chinoise soupçonnée d’espionnage",
           "ton": "factuel",
-          "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-          "citation_cle": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
+          "url": "https://www.ouest-france.fr/medias/ouest-france/chaunu/le-dessin-de-chaunu-la-demission-du-patron-de-nvidia-apres-sa-liaison-avec-une-chinoise-soupconnee-despionnage-aa3e58b0-ded7-11f1-86b6-0a2fbb1d8ed9?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "citation_cle": "Le dessinateur et caricaturiste Chaunu croque au quotidien l’actualité française et internationale pour Ouest-France. Au",
+          "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'existence de preuves matérielles de transfert de données vers la Chine.",
-        "L'identité exacte de la cadre impliquée dans la relation avec Huang."
+        "L'étendue réelle des informations technologiques potentiellement compromises.",
+        "Si le conseil d'administration de Nvidia était au courant de ces liaisons avant les révélations publiques."
       ],
       "sources": [
         {
           "nom": "The Guardian",
-          "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
-          "type": "mainstream",
+          "url": "https://www.theguardian.com/technology/live/2026/nov/13/nvidia-jensen-huang-to-testify-before-congress-live-latest-updates",
+          "type": "site",
           "groupe_media": {
             "nom": "Scott Trust",
             "proprietaire": "Scott Trust Limited",
@@ -95,121 +85,188 @@
           }
         },
         {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/secteur/high-tech/affaire-nvidia-la-malaisie-annonce-enqueter-sur-une-filiale-de-megaspeed-concernant-un-eventuel-detournement-de-puces-d-ia-20261113",
+          "type": "site",
+          "groupe_media": null
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+          "type": "site",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
           "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/11/11/world/asia/china-us-nvidia.html",
-          "type": "mainstream",
+          "url": "https://www.nytimes.com/2026/11/12/world/asia/china-spy-espionage-romance.html",
+          "type": "site",
           "groupe_media": {
             "nom": "The New York Times Company",
             "proprietaire": "Famille Ochs-Sulzberger",
             "type_proprietaire": "famille",
             "orientation": "centre"
           }
+        }
+      ],
+      "premiere_apparition": "2026-11-08"
+    },
+    {
+      "titre": "Panne mondiale des services Microsoft 365 et Outlook",
+      "slug": "panne-mondiale-microsoft-outlook-365",
+      "rubrique": "tech",
+      "tldr": [
+        "Une panne majeure paralyse Outlook, Teams et Microsoft 365 depuis plus de 8 heures.",
+        "Microsoft admet que les premières mesures de correction n'ont pas fonctionné.",
+        "Des milliers d'entreprises et d'administrations sont impactées, notamment en Australie et en Europe."
+      ],
+      "resume": "Depuis le 12 novembre au soir, une interruption massive de service frappe les outils de productivité de Microsoft à l'échelle mondiale. Les utilisateurs signalent une impossibilité d'accéder à leurs courriels via Outlook ou de se connecter à Teams. Bien que Microsoft ait écarté l'hypothèse d'une cyberattaque, le groupe reconnaît que ses tentatives de déploiement de correctifs n'ont pas produit les résultats escomptés. La panne affecte également par ricochet certains services d'IA dépendants de l'infrastructure Azure, comme ceux d'OpenAI et Anthropic.",
+      "contexte_historique": "Cet incident survient deux ans après la panne géante liée à CrowdStrike en juillet 2024, qui avait paralysé des aéroports et des hôpitaux. Il souligne la fragilité des infrastructures cloud centralisées sur lesquelles repose l'économie mondiale. En France, le passage au 'Cloud au centre' pour les administrations rend ces interruptions particulièrement critiques.",
+      "implications": [
+        "Paralysie opérationnelle pour les services publics et les entreprises dépendantes de la suite 365.",
+        "Relance du débat sur la souveraineté numérique et la dépendance aux fournisseurs de cloud américains."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-11-13",
+          "texte": "Microsoft confirme que les mesures de résolution ne fonctionnent pas comme prévu.",
+          "source": "franceinfo"
         },
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/%C3%A9co-tech/20261112-le-conseil-d-administration-de-nvidia-doit-d%C3%A9cider-de-l-avenir-de-son-patron-jensen-huang",
+          "date": "2026-11-13",
+          "texte": "La panne dépasse les 8 heures de durée continue.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-11-12",
+          "texte": "Premiers signalements massifs d'interruptions sur Outlook et Teams.",
+          "source": "The Guardian"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "franceinfo",
           "type": "mainstream",
+          "angle": "Focus sur l'échec des solutions techniques proposées par Microsoft.",
+          "ton": "factuel",
+          "url": "https://www.franceinfo.fr/internet/microsoft/une-panne-mondiale-touche-la-messagerie-outlook-de-microsoft-les-mesures-pour-la-resoudre-ne-fonctionnent-pas-comme-prevu_8280422.html#xtor=RSS-3-[lestitres]",
+          "citation_cle": "Le géant américain affirme travailler sans relâche pour régler la situation.",
           "groupe_media": {
-            "nom": "France Médias Monde",
+            "nom": "France Télévisions",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-          "type": "tech",
+          "source": "The Guardian",
+          "type": "etranger",
+          "angle": "Impact spécifique sur les services gouvernementaux et les écoles en Australie.",
+          "ton": "critique",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/major-microsoft-outage-impacts-australian-government-services-and-schools",
+          "citation_cle": "On dirait que nous allons devoir reparler aux gens : l'Australie renvoyée à l'ère pré-email.",
           "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "source": "Le Figaro",
+          "type": "mainstream",
+          "angle": "Les réparations «ne fonctionnent pas comme prévu» : ce qu’il faut savoir de la panne géante d’Outlook et des outils Microsoft",
+          "ton": "factuel",
+          "url": "https://www.lefigaro.fr/secteur/high-tech/microsoft-dit-que-les-mesures-pour-resoudre-la-panne-mondiale-d-outlook-ne-fonctionnent-pas-comme-prevu-20261113",
+          "citation_cle": "Cette perturbation, qui dure depuis environ huit heures, empêche des dizaines de milliers d’utilisateurs dans le monde d",
+          "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "La cause technique précise de l'échec des premiers correctifs.",
+        "Le montant des compensations financières que Microsoft devra verser via ses contrats de niveau de service (SLA)."
+      ],
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/internet/microsoft/une-panne-mondiale-touche-la-messagerie-outlook-de-microsoft-les-mesures-pour-la-resoudre-ne-fonctionnent-pas-comme-prevu_8280422.html#xtor=RSS-3-[lestitres]",
+          "type": "site",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/%C3%A9co-tech/20261112-le-conseil-d-administration-de-nvidia-doit-d%C3%A9cider-de-l-avenir-de-son-patron-jensen-huang",
-          "type": "mainstream"
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/major-microsoft-outage-impacts-australian-government-services-and-schools",
+          "type": "site",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/economie/entreprises/une-panne-qui-dure-depuis-plus-de-huit-heures-windows-n-arrive-pas-a-resoudre-le-bug-mondial-d-outlook_AD-202611130123.html",
+          "type": "site",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         }
       ],
-      "premiere_apparition": "2026-11-08"
+      "premiere_apparition": "2026-11-12"
     },
     {
-      "titre": "Attentat raciste de Trappes : Kévin Tessier avoue et cite ses cibles",
-      "slug": "attentat-trappes-kevin-tessier-aveux-cibles",
-      "rubrique": "societe",
+      "titre": "Offensive de Teddy Riner pour la présidentielle 2027",
+      "slug": "teddy-riner-campagne-presidentielle-2027",
+      "rubrique": "elections",
       "tldr": [
-        "Kévin Tessier, auteur de l'attentat du 23 octobre, a reconnu ses actes et visait des personnalités de gauche.",
-        "Une liste incluant Sandrine Rousseau, Aymeric Caron et Assa Traoré a été retrouvée chez lui.",
-        "Le suspect affirme vouloir devenir un « exemple pour les Français »."
+        "Le judoka Teddy Riner lance officiellement sa campagne ce samedi au salon du Made in France.",
+        "Les sondages le testent comme une alternative crédible face aux blocs extrêmes.",
+        "La stratégie vise à séduire l'électorat centriste et déçu de la politique traditionnelle."
       ],
-      "resume": "En garde à vue, Kévin Tessier, mis en examen pour l'attentat raciste perpétré le 23 octobre à Trappes et La Verrière, a livré des déclarations qualifiées de « glaçantes » par les enquêteurs de la SDAT (BFM TV). Le suspect assume totalement son parcours meurtrier et a révélé l'existence d'une liste de cibles potentielles comprenant des élus de La France Insoumise (LFI), des écologistes et des militants des droits civiques comme Assa Traoré (BFM TV). L'enquête souligne un profil radicalisé cherchant à déclencher un mouvement d'émulation violente. Ces révélations interviennent alors qu'une députée LFI, Farida Amrani, a été récemment blessée par un tir de mortier, illustrant un climat de tension extrême.",
-      "contexte_historique": "Cet événement s'inscrit dans une recrudescence des menaces et passages à l'acte de l'ultra-droite en France, avec une augmentation des procédures terroristes liées à cette mouvance depuis 2017 (Rapport annuel de la DGSI 2023).",
+      "resume": "Après des mois de spéculation, le champion olympique Teddy Riner passe à l'offensive politique. Il effectue son premier déplacement de campagne ce samedi 14 novembre au salon du Made in France, marquant son entrée officielle dans l'arène pour 2027. Cette candidature atypique est scrutée de près par les centristes qui cherchent une figure capable de briser le duel annoncé entre Marine Le Pen et Jean-Luc Mélenchon. Si sa légitimité politique reste à construire, sa popularité et son image de 'rassembleur' en font un perturbateur majeur de l'échiquier politique actuel.",
+      "contexte_historique": "La France a une tradition de sportifs s'engageant en politique (David Douillet, Guy Drut), mais aucun n'a visé l'Élysée avec une telle structure de campagne. Ce phénomène rappelle les candidatures 'hors système' réussies à l'étranger, comme celle de Volodymyr Zelensky en Ukraine (2019) ou de George Weah au Liberia (2017).",
       "implications": [
-        "Renforcement probable de la protection policière pour les personnalités politiques citées.",
-        "Débat renouvelé sur la surveillance des forums de discussion radicaux en ligne."
+        "Éclatement potentiel des voix au centre, au détriment des héritiers du macronisme comme Édouard Philippe.",
+        "Transformation de la campagne en une bataille de personnalités plutôt que de programmes traditionnels."
       ],
       "chronologie": [
         {
+          "date": "2026-11-13",
+          "texte": "Annonce de son premier déplacement de campagne au salon du Made in France.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-11-13",
+          "texte": "Analyse du New York Times sur l'intérêt des centristes pour sa candidature.",
+          "source": "NYT World"
+        },
+        {
           "date": "2026-11-12",
-          "texte": "Révélation de la liste des personnalités visées par le suspect.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-11-11",
-          "texte": "Le suspect déclare assumer ses actes lors de ses auditions.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-10-23",
-          "texte": "Attentat à l'arme blanche et incendies à Trappes et La Verrière.",
-          "source": "RMC"
+          "texte": "Marine Tondelier et Bruno Retailleau réagissent à la montée des candidatures hors-partis.",
+          "source": "Le Figaro"
         }
       ],
       "couvertures": [
         {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "Détails sur les noms figurant sur la liste de cibles retrouvée chez le suspect.",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/police-justice/video-info-rmc-bfmtv-aymeric-caron-sandrine-rousseau-david-guiraud-assa-traore-les-personnalites-listees-par-kevin-tessier-suspect-de-l-attentat-raciste-de-trappes_VN-202611120116.html",
-          "citation_cle": "Les noms de Sandrine Rousseau et Aymeric Caron ont été inscrits sur un post-it par le suspect.",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "La Croix",
-          "type": "mainstream",
-          "angle": "Analyse de l'usage détourné des engins pyrotechniques dans les agressions politiques.",
+          "angle": "Exclusivité sur l'agenda de campagne et le choix symbolique du 'Made in France'.",
           "ton": "neutre",
-          "url": "https://www.la-croix.com/societe/mortiers-d-artifices-comment-la-loi-tente-de-limiter-lusage-detourne-de-ces-engins-20261111",
-          "citation_cle": "Détournés en projectiles, les tirs d’engins pyrotechniques se multiplient.",
-          "groupe_media": null
-        },
-        {
-          "source": "L'Obs",
-          "type": "mainstream",
-          "angle": "Attentat raciste de Trappes : les aveux glaçants du tueur qui se veut « un exemple pour les Français » : « Ce projet, ça fait des années que j’y pensais »",
-          "ton": "factuel",
-          "url": "https://www.nouvelobs.com/justice/20261111.OBS120056/attentat-raciste-de-trappes-les-aveux-glacants-du-tueur-qui-se-veut-un-exemple-pour-les-francais-ce-projet-ca-fait-des-annees-que-j-y-pensais.html",
-          "citation_cle": "Lors de sa garde à vue, Kévin Tessier a mis en avant sa démarche raciste et sa volonté de partir en guerre contre l’immi",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'existence de complicités ou d'un réseau organisé derrière l'acte isolé.",
-        "Le lien direct entre les discours de haine en ligne et le passage à l'acte spécifique de Tessier."
-      ],
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/police-justice/terrorisme/video-attentat-de-trappes-les-declarations-glacantes-de-kevin-t_VN-202611120115.html",
-          "type": "mainstream",
+          "url": "https://www.bfmtv.com/politique/elections/presidentielle/info-bfmtv-presidentielle-2027-teddy-riner-fera-son-premier-deplacement-de-campagne-samedi-au-salon-du-made-in-france_AN-202611130109.html",
+          "citation_cle": "Le judoka fera son premier déplacement de campagne samedi 14 novembre.",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -218,85 +275,43 @@
           }
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/mortiers-d-artifices-comment-la-loi-tente-de-limiter-lusage-detourne-de-ces-engins-20261111",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "premiere_apparition": "2026-10-23"
-    },
-    {
-      "titre": "Négociations de paix Ukraine-Russie : émissaires US à Moscou et Dublin",
-      "slug": "ukraine-russie-negociations-emissaires-trump",
-      "rubrique": "international",
-      "tldr": [
-        "Jared Kushner et Steve Witkoff rencontrent Vladimir Poutine à Moscou ce jeudi.",
-        "Une rencontre parallèle est prévue avec Volodymyr Zelensky à Dublin.",
-        "Les pourparlers d'Abou Dhabi se sont conclus par un accord sur l'échange de prisonniers."
-      ],
-      "resume": "Une intense activité diplomatique sous l'égide des États-Unis est en cours pour tenter de mettre fin au conflit en Ukraine. Les émissaires Jared Kushner et Steve Witkoff sont arrivés à Moscou pour rencontrer Vladimir Poutine (BFM TV). Cette mission fait suite à des pourparlers à Abou Dhabi qui, bien que n'ayant pas abouti à un cessez-le-feu, ont permis d'avancer sur un échange massif de prisonniers (Courrier international). Parallèlement, le sommet de la Communauté politique européenne à Dublin sert de cadre à des échanges avec le président ukrainien Zelensky (Politico EU). Malgré ces signaux, la situation sur le terrain reste violente avec des frappes russes sur Kiev et des attaques ukrainiennes sur des raffineries russes durant la nuit (Ouest-France).",
-      "contexte_historique": "Depuis l'invasion de février 2022, plusieurs tentatives de médiation (Turquie, Chine, Arabie Saoudite) ont échoué. L'implication directe de proches de Donald Trump marque un changement de stratégie américaine vers une diplomatie transactionnelle (NYT World).",
-      "implications": [
-        "Possible gel du front si un accord sur les prisonniers est suivi d'une trêve humanitaire.",
-        "Tensions accrues au sein de l'UE sur les concessions territoriales éventuelles demandées à l'Ukraine."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-11-12",
-          "texte": "Arrivée de Kushner et Witkoff à Moscou.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-11-11",
-          "texte": "Fin des discussions d'Abou Dhabi sans cessez-le-feu.",
-          "source": "Courrier international"
-        },
-        {
-          "date": "2026-11-06",
-          "texte": "Trump promet un « grand accord » sur l'Ukraine.",
-          "source": "Citoyens.ai"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Courrier international",
+          "source": "NYT World",
           "type": "etranger",
-          "angle": "Bilan mitigé des pourparlers d'Abou Dhabi : humanitaire ok, politique au point mort.",
-          "ton": "neutre",
-          "url": "https://www.courrierinternational.com/article/ukraine-pourparlers-d-abou-dhabi-une-promesse-d-echange-de-prisonniers-mais-pas-d-avancee-sur-un-cessez-le-feu_286575",
-          "citation_cle": "Peu de progrès ont émergé des discussions russo-ukrainiennes organisées sous l’égide des États-Unis.",
+          "angle": "Analyse de la recherche d'alternatives par les centristes français.",
+          "ton": "factuel",
+          "url": "https://www.nytimes.com/2026/11/13/world/europe/france-riner-judo-lagarde-election.html",
+          "citation_cle": "Les centristes veulent des alternatives au duel entre l'extrême droite et l'extrême gauche.",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
           }
         },
         {
-          "source": "BFM TV",
+          "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Suivi en direct de la mission diplomatique des émissaires américains.",
+          "angle": "Présidentielle 2027 : l’offensive illibérale de Marine Le Pen",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/guerre-en-ukraine-les-emissaires-americains-sont-arrives-en-russie-pour-une-rencontre-avec-vladimir-poutine_AD-202611120135.html",
-          "citation_cle": "Steve Witkoff et Jared Kushner sont arrivés à Moscou ce jeudi pour rencontrer Vladimir Poutine.",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/13/presidentielle-2027-l-offensive-illiberale-de-marine-le-pen_6809272_823448.html",
+          "citation_cle": "Associations, syndicats, magistrats, journalistes : les dirigeants du Rassemblement national multiplient les attaques pu",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Le contenu exact du plan de paix proposé par l'administration Trump.",
-        "La position de Kiev sur d'éventuelles cessions territoriales en échange de garanties de sécurité."
+        "Le contenu réel de son programme économique et social.",
+        "Le soutien financier et logistique dont il dispose pour tenir une campagne de longue durée."
       ],
       "sources": [
         {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/guerre-en-ukraine-les-emissaires-americains-sont-arrives-en-russie-pour-une-rencontre-avec-vladimir-poutine_AD-202611120135.html",
-          "type": "mainstream",
+          "url": "https://www.bfmtv.com/politique/elections/presidentielle/info-bfmtv-presidentielle-2027-teddy-riner-fera-son-premier-deplacement-de-campagne-samedi-au-salon-du-made-in-france_AN-202611130109.html",
+          "type": "site",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -305,75 +320,75 @@
           }
         },
         {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/ukraine-pourparlers-d-abou-dhabi-une-promesse-d-echange-de-prisonniers-mais-pas-d-avancee-sur-un-cessez-le-feu_286575",
-          "type": "mainstream",
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/11/13/world/europe/france-riner-judo-lagarde-election.html",
+          "type": "site",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/sport/natation/natation-on-cherche-la-qualite-dans-le-fait-de-durer-le-cn-brest-est-devenue-la-reference-du-demi-fond-feminin-abcc97f0-dc3e-11f1-a45f-49114163a350?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream",
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-teddy-riner-jean-luc-melenchon-primaire-christine-lagarde-edouard-philippe-20261112",
+          "type": "site",
           "groupe_media": null
-        },
-        {
-          "nom": "Politico EU",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-summit-europe-loves-to-hate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "type": "etranger"
         }
       ],
-      "premiere_apparition": "2026-11-03"
+      "premiere_apparition": "2026-11-10"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Procès Michel Zecler",
-      "slug": "proces-michel-zecler-lynchage-policier",
-      "rubrique": "societe",
-      "resume": "Le procès des quatre policiers pour l'agression du producteur Michel Zecler se poursuit. Les témoignages décrivent un « lynchage » et une violence disproportionnée, largement documentée par les images de vidéosurveillance.",
+      "titre": "Négociations de paix Ukraine-Russie",
+      "slug": "negociations-paix-ukraine-russie-dublin-moscou",
+      "rubrique": "international",
+      "resume": "Les émissaires américains Jared Kushner et Witkoff poursuivent leurs navettes diplomatiques entre Moscou et Dublin. Si l'Europe est désormais officiellement admise à la table des discussions, les divergences sur les garanties de sécurité restent profondes malgré l'optimisme affiché par Kushner.",
       "chronologie": [
         {
-          "date": "2026-11-12",
-          "texte": "Récit des témoins sur la scène de violence au tribunal.",
-          "source": "Citoyens.ai"
+          "date": "2026-11-13",
+          "texte": "Zelensky confirme la participation européenne au prochain cycle de discussions.",
+          "source": "France 24 FR"
         },
         {
-          "date": "2026-11-09",
-          "texte": "Ouverture du procès à Paris.",
-          "source": "France 24"
+          "date": "2026-11-13",
+          "texte": "Kushner se dit optimiste malgré d'importantes divergences.",
+          "source": "20 Minutes"
         }
       ],
       "couvertures": [
         {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Focus sur l'importance des images dans la remise en cause de la version policière.",
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Focus sur les navettes diplomatiques des émissaires US.",
           "ton": "factuel",
-          "url": "https://www.lemonde.fr/societe/article/2026/11/12/proces-zecler-le-recit-d-un-lynchage-policier",
-          "citation_cle": "Un récit qui contredit point par point les procès-verbaux initiaux."
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_us-envoys-shuttle-between-putin-and-zelenskyy-121126?traffic_source=rss",
+          "citation_cle": "Les émissaires US font la navette entre Dublin et Moscou."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'issue du délibéré et la sévérité des peines qui seront requises."
+        "La nature exacte des concessions territoriales discutées en coulisses."
       ],
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/11/12/proces-zecler-le-recit-d-un-lynchage-policier",
-          "type": "mainstream"
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/europe/20261113-en-direct-ukraine-russie-europeens-presents-prochaines-negociations-zelensky-poutine",
+          "type": "site"
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_us-envoys-shuttle-between-putin-and-zelenskyy-121126?traffic_source=rss",
+          "type": "site"
         }
       ],
-      "derniere_mise_a_jour": "2026-11-12",
-      "statut": "Le sujet entre dans une phase de longs témoignages techniques avant les réquisitions."
+      "derniere_mise_a_jour": "2026-11-13",
+      "statut": "Le sujet entre dans une phase de diplomatie de coulisses moins médiatisée après l'annonce de l'inclusion de l'UE."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 631,
+    "nb_articles_analyses": 735,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

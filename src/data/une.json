@@ -1,92 +1,168 @@
 {
   "sujet_du_jour": {
-    "titre": "Attentat raciste de Trappes : les aveux glaçants de Kévin Tessier",
-    "rubrique": "societe",
-    "pourquoi_important": "Le passage à l'acte terroriste d'extrême droite franchit un nouveau palier avec un suspect revendiquant une volonté d'« inspirer » d'autres Français.",
+    "titre": "Nvidia : Démission choc de Jensen Huang sur fond de scandale d'espionnage",
+    "rubrique": "tech",
+    "pourquoi_important": "La chute du dirigeant emblématique du leader mondial des puces IA menace la stabilité des marchés financiers et de la course mondiale à l'intelligence artificielle.",
     "faits": [
-      "Kévin Tessier, 39 ans, a reconnu avoir ciblé des personnes de type « musulman ou africain » lors de son attaque armée du 23 octobre 2026 à Trappes et La Verrière.",
-      "Le Parquet national antiterroriste (PNAT) a identifié 30 victimes dans cette procédure ouverte pour assassinats et tentatives d’assassinats terroristes.",
-      "Lors de ses auditions, le suspect a affirmé avoir agi « pour la France » et vouloir devenir un « exemple » contre l'immigration.",
-      "Le suspect nie tout projet visant quatre personnalités politiques dont les noms figuraient sur une liste retrouvée par les enquêteurs."
+      "Le conseil d’administration de NVIDIA a officialisé la démission immédiate de Jensen Huang de ses fonctions de président, CEO et administrateur ce 12 novembre 2026 .",
+      "La démission fait suite à des révélations sur deux relations extraconjugales, dont une avec une entrepreneuse chinoise soupçonnée d'espionnage pour le compte de Pékin (Next, Le Figaro).",
+      "Colette Kress, actuelle directrice financière, est nommée CEO par intérim tandis que Harvey C. Jones prend la présidence du conseil (SEC, Numerama).",
+      "L'action Nvidia a chuté de plus de 11 % à l'annonce du départ de son cofondateur historique (La Croix, RFI)."
     ],
-    "contexte": "Le 23 octobre 2026, une fusillade a éclaté dans les Yvelines, marquant un tournant sécuritaire majeur. Mis en examen le 29 octobre, Kévin Tessier assume un mobile explicitement raciste. Cette affaire remet au centre du débat public la menace du terrorisme d'ultra-droite, qualifiée par Emmanuel Macron d'« attentat terroriste raciste ».",
+    "contexte": "Jensen Huang, figure tutélaire de la Silicon Valley, était perçu comme l'architecte indispensable du boom de l'IA. Son éviction survient après l'ouverture d'une enquête indépendante le 8 novembre portant sur un possible ciblage par un renseignement étranger. Bien que le conseil affirme n'avoir aucune preuve de compromission de secrets industriels, cette affaire mêlant vie privée et sécurité nationale ébranle la confiance des investisseurs dans le 'syndrome de l'homme providentiel' qui caractérise les géants de la tech.",
     "sources": [
       {
-        "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/societe/article/2026/10/29/attentat-raciste-de-trappes-kevin-t-mis-en-examen-pour-assassinat-et-tentatives-d-assassinat-terroriste-a-reconnu-avoir-cible-des-personnes-de-type-musulman-ou-africain_6802354_3224.html",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
-      },
-      {
-        "nom": "L'Obs",
-        "url": "https://www.nouvelobs.com/justice/20261111.OBS120056/attentat-raciste-de-trappes-les-aveux-glacants-du-tueur-qui-se-veut-un-exemple-pour-les-francais-ce-projet-ca-fait-des-annees-que-j-y-pensais.html",
-        "type": "mainstream",
+        "nom": "SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+        "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "BFM TV",
-        "url": "https://www.bfmtv.com/police-justice/terrorisme/video-attentat-de-trappes-les-declarations-glacantes-de-kevin-t_VN-202611120115.html",
+        "nom": "Next",
+        "url": "https://next.ink/266926/nvidia-se-prepare-a-pousser-son-ceo-jensen-huang-vers-la-sortie/",
+        "type": "investigation",
+        "groupe_media": {
+          "nom": "Next (ex-Next INpact)",
+          "proprietaire": "Équipe fondatrice",
+          "type_proprietaire": "independant",
+          "orientation": "centre"
+        }
+      },
+      {
+        "nom": "Libération",
+        "url": "https://www.liberation.fr/economie/economie-numerique/rendez-vous-galants-montages-financiers-rumeurs-despionnage-le-recit-de-la-chute-de-jensen-huang-patron-de-nvidia-20261112_53WXP7SCP5GKBGOGDHZT46LPIM/",
         "type": "mainstream",
         "groupe_media": {
-          "nom": "CMA CGM",
-          "proprietaire": "Rodolphe Saadé",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
         }
+      },
+      {
+        "nom": "Le Figaro",
+        "url": "https://www.lefigaro.fr/secteur/high-tech/microsoft-dit-que-les-mesures-pour-resoudre-la-panne-mondiale-d-outlook-ne-fonctionnent-pas-comme-prevu-20261113",
+        "type": "mainstream"
+      },
+      {
+        "nom": "Numerama",
+        "url": "https://www.numerama.com/vroom/2371605-jai-essaye-la-nouvelle-dacia-spring-simple-twingo-au-rabais-ou-vraie-bonne-affaire.html",
+        "type": "mainstream"
+      },
+      {
+        "nom": "La Croix",
+        "url": "https://www.la-croix.com/a-vif/les-couvercles-des-boites-20261112",
+        "type": "mainstream"
+      },
+      {
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/afrique/20261113-mali-que-reproche-t-on-aux-4-militants-pass%C3%A9s-de-la-s%C3%A9curit%C3%A9-d-%C3%A9tat-%C3%A0-la-prison",
+        "type": "mainstream"
       }
     ],
-    "lien": null
+    "lien": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx"
   },
   "france": [
     {
-      "titre": "Procès Zecler : le récit d'un « lynchage » policier",
+      "titre": "Affaire Lyhanna : Darmanin saisit le CSM contre une magistrate",
       "rubrique": "politique",
-      "resume": "Six ans après les faits, trois policiers comparaissent devant la cour criminelle de Paris pour les violences contre Michel Zecler. La projection des vidéos a confronté les agents à la violence de l'interpellation, tandis que la victime a témoigné de l'impact durable de cette agression sur sa vie.",
+      "resume": "Le garde des Sceaux a saisi le Conseil supérieur de la magistrature pour examiner la responsabilité disciplinaire d'une substitut du procureur d'Auch. Il lui est reproché de ne pas avoir vérifié les antécédents de Jérôme Barella, suspecté du meurtre et du viol de la jeune Lyhanna, lors d'une plainte antérieure (Ministère de la Justice, BFM TV, La Croix).",
       "sources": [
         {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/justice/20261111.OBS120042/ils-sont-entres-et-m-ont-lynche-michel-zecler-exemplaire-au-proces-des-policiers-qui-l-ont-agresse.html",
+          "nom": "Le Parisien",
+          "url": "https://www.leparisien.fr/faits-divers/affaire-lyhanna-darmanin-saisit-le-csm-contre-la-magistrate-qui-na-pas-verifie-les-antecedents-du-suspect-12-11-2026-A4BTCSO5KREGTDC7IHHNXFPEOI.php",
           "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Blast",
-          "url": "https://www.blast-info.fr/articles/2026/au-proces-de-michel-zecler-accuse-de-s-etre-fait-frapper-par-trois-policiers-H7uUyUopSgaflnuw4playA",
-          "type": "investigation",
           "groupe_media": {
-            "nom": "Blast",
-            "proprietaire": "Blast",
-            "type_proprietaire": "independant",
-            "orientation": "gauche"
+            "nom": "Groupe Les Echos - Le Parisien (LVMH)",
+            "proprietaire": "Bernard Arnault",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         }
       ],
-      "lien": "https://pressejudiciaire.fr/evenement/proces-de-trois-policiers-pour-des-violences-en-reunion-et-faux-en-ecriture-a-lencontre-de-michel-zeckler-cour-criminelle-paris/"
+      "lien": null
     },
     {
-      "titre": "Présidentielle 2027 : Christine Lagarde testée à 14%",
-      "rubrique": "politique",
-      "resume": "Un premier sondage crédite Christine Lagarde de 14% d'intentions de vote, dépassant Édouard Philippe. La présidente sortante de la BCE, qui quittera ses fonctions en février, s'installe dans le paysage politique sans être officiellement candidate.",
+      "titre": "Procès Michel Zecler : le traumatisme au cœur des débats",
+      "rubrique": "societe",
+      "resume": "Au troisième jour du procès des trois policiers accusés d'avoir passé à tabac le producteur de musique en 2020, les témoignages ont souligné les séquelles psychologiques durables de la victime et des jeunes témoins présents. La défense des policiers est confrontée à la projection des vidéos de l'agression, qualifiée de 'lynchage' par la victime (Le Monde, L'Obs, Libération).",
       "sources": [
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-presidentielle-2027-sans-etre-candidate-christine-lagarde-creditee-de-14-des-intentions-de-vote-au-premier-de-tour_VN-202611120117.html",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/societe/article/2026/11/13/proces-de-l-interpellation-violente-de-michel-zecler-par-des-policiers-depuis-l-agression-il-a-perdu-cette-lumiere-cette-faculte-a-aller-de-l-avant_6809266_3224.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         },
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-christine-lagarde-creditee-de-14-au-premier-tour-si-elle-est-candidate-20261111",
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/societe/police-justice/au-proces-de-lagression-de-michel-zecler-de-jeunes-temoins-sexpriment-je-me-suis-dit-que-la-moindre-erreur-aurait-pu-nous-tuer-20261112_JOLRHZPWJREXLEC2KO3EOFTL4I/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/immobilier/20261113.OBS120087/essonne-val-de-marne-les-prix-et-les-opportunites-ville-par-ville-en-region-parisienne.html",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Agriculture : 725 millions d'euros pour l'adaptation climatique",
+      "rubrique": "economie",
+      "resume": "Le gouvernement a annoncé un plan de relance de 725 millions d'euros destiné à la souveraineté alimentaire et à l'adaptation des filières agricoles face au dérèglement climatique. Cette enveloppe, supérieure aux prévisions, vise à soutenir des projets d'avenir pour les filières prioritaires (L'Humanité, La Croix).",
+      "sources": [
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/environnement/agriculture/agriculture-le-gouvernement-annonce-un-plan-de-relance-a-725-millions-deuros-pour-ladaptation-au-changement-climatique",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/le-plan-de-relance-agricole-s-elevera-a-725-millions-d-euros-genevard-20261112",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    }
+  ],
+  "monde": [
+    {
+      "titre": "Ukraine : l'Europe enfin admise à la table des négociations",
+      "pays": "Ukraine",
+      "resume": "Volodymyr Zelensky et les émissaires américains de Donald Trump ont confirmé que l'Europe participera au prochain cycle de négociations de paix. Cette annonce intervient après des entretiens à Moscou avec Vladimir Poutine, qui maintient toutefois ses exigences territoriales (Le Monde, France 24 FR, franceinfo).",
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/live/2026/11/13/en-direct-guerre-en-ukraine-la-presence-des-europeens-dans-les-prochaines-negociations-de-paix-annoncee-par-volodymyr-zelensky-et-les-emissaires-americains_6808609_3210.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/europe/20261113-en-direct-ukraine-russie-europeens-presents-prochaines-negociations-zelensky-poutine",
           "type": "mainstream",
           "groupe_media": null
         }
@@ -94,19 +170,24 @@
       "lien": null
     },
     {
-      "titre": "Éducation : 5000 places créées en licence",
-      "rubrique": "societe",
-      "resume": "Face à la pression lycéenne, le Premier ministre Sébastien Lecornu a officialisé la création de 5000 places supplémentaires à l'université. Cette mesure vise à apaiser les tensions dans les établissements scolaires en offrant davantage de perspectives d'orientation.",
+      "titre": "Israël interdit l'entrée à Mélenchon et Panot",
+      "pays": "Israël",
+      "resume": "Le ministère israélien des Affaires étrangères a interdit l'accès au territoire au leader de LFI et à la députée Mathilde Panot, invoquant une position 'extrêmement hostile'. Paris a dénoncé une 'décision démagogique' tandis que Jean-Luc Mélenchon assure que cela ne changera pas son discours (RFI, La Croix, France 24 FR).",
       "sources": [
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/politique/colere-lyceenne-sebastien-lecornu-formalise-la-creation-de-5000-places-supplementaires-en-licence-20261111",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20261112-france-le-leader-insoumis-jean-luc-m%C3%A9lenchon-et-la-d%C3%A9put%C3%A9e-mathilde-panot-interdits-d-entr%C3%A9e-en-isra%C3%ABl",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         },
         {
           "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/sebastien-lecornu-formalise-la-creation-de-5-000-places-supplementaires-en-licence_8278265.html",
+          "url": "https://www.franceinfo.fr/politique/la-france-insoumise/israel-interdit-a-jean-luc-melenchon-et-mathilde-panot-l-entree-sur-son-territoire-denoncant-la-position-extremement-anti-israelienne-de-la-france-insoumise_8279801.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Télévisions",
@@ -119,182 +200,201 @@
       "lien": null
     }
   ],
-  "monde": [
-    {
-      "titre": "Mississippi : Scott Colom, premier sénateur noir depuis 150 ans",
-      "pays": "États-Unis",
-      "resume": "Le démocrate Scott Colom a remporté une victoire historique dans le Mississippi, devenant le premier Afro-Américain élu au Sénat par cet État du Sud depuis la période de la Reconstruction. Ce succès permet aux démocrates de faire basculer un huitième siège au Sénat.",
-      "sources": [
-        {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261112-%C3%A9tats-unis-le-d%C3%A9mocrate-scott-colom-devient-le-premier-s%C3%A9nateur-noir-du-mississippi-depuis-150-ans",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "RDC : Félix Tshisekedi s'ouvre la voie d'un 3e mandat",
-      "pays": "République démocratique du Congo",
-      "resume": "Le président Tshisekedi a promulgué une loi permettant de modifier la Constitution par référendum. L'opposition dénonce une manœuvre autoritaire visant à se maintenir au pouvoir au-delà de 2028, malgré les tensions politiques croissantes dans le pays.",
-      "sources": [],
-      "lien": null
-    }
-  ],
   "regard_croise": {
-    "sujet": "Interdiction d'entrée en Russie pour des personnalités françaises",
-    "rubrique": "international",
-    "contexte": "Moscou a déclaré persona non grata deux députés (Sacha Houlié,  et deux journalistes (Paul Gogo français le 11 novembre 2026.",
+    "sujet": "Réforme du logement et décret Maricarmen en Espagne",
+    "rubrique": "politique",
+    "contexte": "À trois semaines des législatives anticipées, le gouvernement socialiste de Pedro Sánchez a fait valider un décret-loi limitant les expulsions et renforçant les droits des locataires.",
     "couvertures": [
       {
-        "source": "Le Monde",
-        "type": "mainstream",
-        "angle": "Une nouvelle étape dans la dégradation des relations diplomatiques entre Paris et Moscou.",
-        "ton": "factuel",
-        "url": "https://www.lemonde.fr/international/article/2026/11/11/quatre-journalistes-et-deputes-francais-interdits-de-sejour-en-russie-une-nouvelle-etape-dans-la-degradation-des-relations-entre-paris-et-moscou_6809031_3210.html",
-        "citation_cle": "Ciblés en raison de leur participation au harcèlement de Xenia Fedorova.",
-        "auteur": null,
-        "proprietaire_contexte": "Xavier Niel / Daniel Kretinsky",
-        "orientation_source": "Centre-droit",
+        "source": "Mediapart",
+        "type": "investigation",
+        "angle": "L'opportunité politique d'utiliser l'élan de la grève générale pour le logement afin de mobiliser l'électorat de gauche.",
+        "ton": "engage",
+        "url": "https://www.mediapart.fr/journal/international/121126/espagne-le-socialiste-sanchez-espere-profiter-de-l-elan-de-la-greve-pour-le-logement",
+        "citation_cle": "Le socialiste Sánchez espère profiter de l’élan de la grève pour le logement.",
+        "auteur": "Ludovic Lamant",
+        "proprietaire_contexte": "Fonds pour une presse libre (indépendant)",
+        "orientation_source": "Gauche",
         "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
+          "orientation": "gauche"
         }
       },
       {
-        "source": "L'Humanité",
+        "source": "RFI",
         "type": "mainstream",
-        "angle": "Focus sur les représailles liées à l'expulsion de Xenia Fedorova, chroniqueuse pro-Kremlin chez Bolloré.",
-        "ton": "engage",
-        "url": "https://www.humanite.fr/medias/arthur-delaporte/pourquoi-la-russie-interdit-de-territoire-deux-journalistes-et-deux-deputes-francais",
-        "citation_cle": "Une mesure prise en réponse à l’expulsion de Xenia Fedorova, l’ancienne chroniqueuse pro-Kremlin sur les médias Bolloré.",
-        "auteur": null,
-        "proprietaire_contexte": "Coopérative de lecteurs et salariés",
-        "orientation_source": "Gauche",
+        "angle": "Analyse du contenu législatif et du rejet frontal par l'opposition de droite.",
+        "ton": "factuel",
+        "url": "https://www.rfi.fr/fr/europe/20261112-logement-en-espagne-le-premier-ministre-pedro-sanchez-fait-valider-le-d%C3%A9cret-loi-maricarmen",
+        "citation_cle": "Une initiative qui provoque le rejet de l’opposition de droite favorite des législatives.",
+        "auteur": "RFI",
+        "proprietaire_contexte": "État français",
+        "orientation_source": "Centre",
         "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
-          "orientation": "gauche"
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
         }
       }
     ],
-    "analyse_coherence": "La couverture médiatique de cette décision russe révèle un consensus sur le caractère arbitraire de la mesure, mais diverge sur le cadrage de la 'victime' russe à l'origine du contentieux. Alors que les médias de service public (franceinfo, RFI) et Le Monde rapportent sobrement l'argument du Kremlin concernant le 'harcèlement' de Xenia Fedorova, L'Humanité et L'Obs soulignent avec force le profil de cette dernière, ancienne chroniqueuse pro-Kremlin sur les médias du groupe Bolloré . On observe ici un double standard dans la qualification des faits : Moscou invoque la protection d'une journaliste contre le harcèlement, tandis que Paris y voit une entrave à la liberté de la presse. L'analyse de cohérence montre que la Russie utilise des outils de droit international (réciprocité) pour justifier une pratique de censure. La presse française, de son côté, lie quasi-systématiquement cette affaire à l'influence de Vincent Bolloré, suggérant une collusion entre les intérêts de la propagande russe et certains médias privés français, un angle que les sources institutionnelles russes omettent délibérément.",
+    "analyse_coherence": "Le traitement médiatique de la réforme 'Maricarmen' illustre une tension classique entre droit social et stabilité économique. Mediapart met l'accent sur la dimension populaire et militante, voyant dans cette loi l'aboutissement d'une pression syndicale massive, tandis que RFI adopte une lecture plus institutionnelle, soulignant la polarisation politique à l'approche du scrutin. On observe un double standard potentiel dans la presse conservatrice espagnole (citée indirectement) qui qualifie la protection des vulnérables d'« anomalie démocratique », une rhétorique qui occulte le droit constitutionnel au logement au profit de la sécurité juridique des propriétaires. La couverture française reste globalement équilibrée, mais souligne que cette mesure, bien que sociale, est aussi une arme électorale tactique pour un gouvernement Sánchez en difficulté dans les sondages.",
     "biais_detectes": [
-      "Cadrage asymétrique de la liberté de la presse",
-      "Utilisation de la réciprocité diplomatique comme paravent à la censure"
+      "Polarisation électorale",
+      "Opposition droit de propriété vs droit au logement"
     ],
-    "ce_quil_faut_retenir": "Moscou durcit le ton en ciblant directement des élus et des enquêteurs de médias de référence, utilisant l'expulsion d'une propagandiste comme prétexte pour entraver le travail d'investigation sur le régime de Poutine."
+    "ce_quil_faut_retenir": "Le décret Maricarmen sanctuarise le logement pour les plus précaires jusqu'en 2031, faisant de l'urgence sociale un enjeu central du vote du 29 novembre."
   },
-  "regard_etranger": [],
+  "regard_etranger": [
+    {
+      "source": "Al Jazeera",
+      "pays": "Qatar",
+      "titre": "Le Mississippi élit son premier sénateur noir en près de 150 ans",
+      "titre_original": "Mississippi elects first black senator in nearly 150 years",
+      "angle": "Une perspective historique sur la fin d'une anomalie démocratique dans un État marqué par la ségrégation.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/mississippi-elects-first-black-senator-in-nearly-150-years?traffic_source=rss",
+      "groupe_media": {
+        "nom": "Al Jazeera Media Network",
+        "proprietaire": "État du Qatar",
+        "type_proprietaire": "etat",
+        "orientation": "variable"
+      }
+    },
+    {
+      "source": "The Guardian",
+      "pays": "Royaume-Uni",
+      "titre": "La Norvège emboîte le pas à la Finlande en interdisant les athlètes russes",
+      "titre_original": "Norway follows Finland in barring Russian athletes from entering country over Ukraine war",
+      "angle": "Le sport comme prolongement de la diplomatie de guerre dans les pays nordiques.",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/finland-bars-russian-athletes-ukraine",
+      "groupe_media": {
+        "nom": "Scott Trust",
+        "proprietaire": "Scott Trust Limited",
+        "type_proprietaire": "fondation",
+        "orientation": "centre-gauche"
+      }
+    }
+  ],
   "chiffre_du_jour": {
-    "valeur": "500 jours",
-    "contexte": "Durée de détention du journaliste français Christophe Gleizes en Algérie, symbole des entraves à la liberté de la presse.",
-    "source": "Citoyens.ai (Donnée contextuelle)",
-    "source_url": "https://www.rsf.org"
+    "valeur": "239 millions d'euros",
+    "contexte": "Déficit prévisionnel du CNRS pour l'exercice 2026, entraînant un plan de redressement imposé par Bercy.",
+    "source": "RogueESR / CNRS",
+    "source_url": "https://rogueesr.fr/wp-content/uploads/2026/03/DotationCNRS.pdf"
   },
   "a_surveiller": [
     {
-      "date": "2026-11-20",
-      "evenement": "Fin du procès des policiers dans l'affaire Michel Zecler",
-      "type": "commission",
-      "lien": "https://pressejudiciaire.fr/evenement/proces-de-trois-policiers-pour-des-violences-en-reunion-et-faux-en-ecriture-a-lencontre-de-michel-zeckler-cour-criminelle-paris/"
+      "date": "2026-11-15",
+      "evenement": "95e Salon Icube immobilier à Paris (sous réserve de décision judiciaire)",
+      "type": "manifestation",
+      "lien": "https://icube.co.il/pages/faq.php"
     },
     {
-      "date": "2027-01-29",
-      "evenement": "Délibéré du procès du militant Kéziah Nuissier",
-      "type": "publication",
-      "lien": "https://rci.fm/deuxiles/infos/Justice/Proces-Keziah-Nuissier-la-decision-mise-en-delibere-au-29-janvier-2027"
+      "date": "2026-11-20",
+      "evenement": "Clôture de la COP31 à Antalya",
+      "type": "conference",
+      "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Répression judiciaire contre les militants anti-chlordécone",
-      "rubrique": "justice",
-      "resume": "Le militant martiniquais Kéziah Nuissier a comparu à Paris pour 'rébellion' après avoir été blessé lors d'une interpellation en 2020. Le parquet a requis 6 mois de sursis, alors que ses soutiens dénoncent une inversion de la charge pénale visant à étouffer le combat contre ce pesticide toxique.",
+      "titre": "Le CNRS sous la tutelle directe de Bercy",
+      "rubrique": "science",
+      "resume": "Confronté à un déficit de 239 M€, le CNRS se voit imposer un 'pilotage tripartite' avec le ministère du Budget. Ce plan de redressement inclut des coupes de 13,5 M€ dans les crédits des laboratoires et un gel des prolongations de CDD (Next, Mediapart).",
       "sources": [
         {
-          "nom": "Blast",
-          "url": "https://www.blast-info.fr/articles/2026/affaire-keziah-nuissier-la-justice-coloniale-en-proces-une-justice-a-geographie-variable-MX-q2XoyT6CWW6_O6-OAMA",
+          "nom": "Next",
+          "url": "https://next.ink/266998/cnrs-apres-avoir-siphonne-sa-tresorerie-le-gouvernement-impose-un-plan-de-redressement/",
           "type": "investigation"
         },
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Pour-peu-qu-on-leve-la-tete-pour-denoncer-une-injustice-on-vous-la-fracasse-6-mois-de-prison-avec-sursis-requis-contre-un-militant-antichlordecone",
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/121126/asphyxie-par-l-etat-le-cnrs-place-sous-la-surveillance-de-bercy",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce procès illustre le traitement judiciaire spécifique des luttes environnementales dans les territoires d'Outre-mer, souvent ignoré par les grands médias hexagonaux."
+      "pourquoi_signal": "Ce passage sous tutelle de Bercy marque une perte d'autonomie inédite pour la recherche fondamentale française, largement éclipsée par l'actualité politique."
     },
     {
-      "titre": "Racisme débridé au sein de la police municipale de Carcassonne",
-      "rubrique": "societe",
-      "resume": "De nouveaux enregistrements de caméras-piétons révèlent des propos haineux et racistes tenus par un brigadier-chef, par ailleurs membre du service d'ordre du RN. Malgré des alertes dès avril, la mairie a tardé à réagir.",
+      "titre": "La cryosphère dépasse les 'limites planétaires sûres'",
+      "rubrique": "science",
+      "resume": "Une étude de 30 chercheurs publiée dans Science alerte sur le fait que la fonte des glaces et du pergélisol a franchi un seuil d'instabilité irréversible, menaçant la régulation climatique globale (Reporterre, Stockholm Resilience Centre).",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/111126/de-nouvelles-videos-montrent-le-dechainement-raciste-de-policiers-municipaux-carcassonne",
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Fonte-des-glaces-une-nouvelle-limite-planetaire-est-depassee",
           "type": "investigation"
+        },
+        {
+          "nom": "Stockholm Resilience Centre",
+          "url": "https://www.stockholmresilience.org/research/research-stories/2026-11-12-earths-frozen-landscapes-have-been-pushed-beyond-safe-planetary-limits.html",
+          "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "L'utilisation d'enregistrements internes pour documenter le racisme systémique dans une police municipale gérée par l'extrême droite est un précédent majeur."
+      "pourquoi_signal": "L'intégration de la cryosphère comme nouvelle limite planétaire franchie est un saut conceptuel majeur pour la gouvernance écologique mondiale."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "COP31 : Le déficit d'ambition des pays riches",
-      "rubrique": "science",
-      "resume": "L'ouverture de la COP31 à Antalya est marquée par l'absence de dirigeants de grandes puissances émettrices, dont la France. L'ONU alerte sur le coût de la dépendance aux fossiles alors que les financements stagnent.",
+      "titre": "Vente de colonies israéliennes en plein Paris",
+      "rubrique": "international",
+      "resume": "La justice administrative a été saisie pour interdire le salon immobilier Icube, accusé de commercialiser des biens situés dans des colonies illégales en Cisjordanie occupée.",
       "axes_concernes": [
-        "justice_sociale",
-        "ecologie_sociale"
+        "droit_international",
+        "colonialisme"
       ],
-      "analyse": "L'absence de la France et d'autres nations européennes à Antalya envoie un signal de désengagement climatique alarmant. Alors que le Brésil propose une feuille de route de sortie des fossiles, le Nord global semble privilégier ses intérêts économiques immédiats au détriment de l'urgence planétaire, illustrant une démission face au droit international climatique.",
+      "analyse": "L'organisation d'un tel événement sur le sol français interroge la cohérence de la diplomatie française qui condamne officiellement la colonisation tout en laissant s'opérer des transactions commerciales liées à l'occupation. Le respect des résolutions de l'ONU exige une vigilance accrue sur ces manifestations.",
       "sources": [
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/L-avenir-de-la-planete-peut-attendre-les-chefs-d-Etat-brillent-par-leur-manque-d-ambition-a-la-COP31",
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/monde/cisjordanie/le-salon-de-limmobilier-israelien-face-a-la-justice-pour-mise-en-vente-illegale-de-biens-en-cisjordanie-occupee",
+          "type": "mainstream"
+        },
+        {
+          "nom": "UJFP",
+          "url": "https://ujfp.org/salon-icube-la-promotion-de-la-colonisation-en-palestine-depuis-paris-doit-etre-interdite-audience-le-12-novembre-2026/",
+          "type": "fact-check"
+        }
+      ]
+    },
+    {
+      "titre": "500 jours de détention pour Christophe Gleizes en Algérie",
+      "rubrique": "societe",
+      "resume": "Le journaliste français Christophe Gleizes reste emprisonné en Algérie, condamné à sept ans de prison. Sa famille et RSF dénoncent une situation d'otage d'État.",
+      "axes_concernes": [
+        "liberte_expression",
+        "droits_humains"
+      ],
+      "analyse": "Le silence relatif des autorités françaises sur ce dossier souligne les ambiguïtés de la relation bilatérale. La protection des journalistes et de la liberté de la presse ne doit pas être sacrifiée sur l'autel des intérêts gaziers ou diplomatiques.",
+      "sources": [
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/international/121126/christophe-gleizes-est-un-otage-d-etat",
           "type": "investigation"
         },
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/environnement/antonio-guterres/comme-les-dinosaures-les-energies-fossiles-doivent-disparaitre-ce-quil-faut-retenir-des-premieres-declarations-de-la-cop-31",
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/a-vif/algerie-christophe-gleizes-le-temps-additionnel-20261112",
           "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-11-12",
-  "genere_a": "2026-11-12T05:36:31.946Z",
+  "date": "2026-11-13",
+  "genere_a": "2026-11-13T05:35:30.588Z",
   "meta": {
-    "nb_articles_analyses": 631,
-    "nb_topics": 166,
+    "nb_articles_analyses": 735,
+    "nb_topics": 222,
     "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 38,
-    "sources_francaises": 396,
-    "sources_etrangeres": 235,
+    "nb_articles_dans_selection": 50,
+    "sources_francaises": 484,
+    "sources_etrangeres": 251,
     "rubriques_couvertes": [
-      "societe",
+      "tech",
       "politique",
+      "societe",
+      "economie",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
