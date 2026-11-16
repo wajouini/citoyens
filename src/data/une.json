@@ -1,80 +1,102 @@
 {
   "sujet_du_jour": {
-    "titre": "Nvidia : Démission choc de Jensen Huang sur fond de scandale d'espionnage",
-    "rubrique": "tech",
-    "pourquoi_important": "La chute du dirigeant emblématique du leader mondial des puces IA menace la stabilité des marchés financiers et de la course mondiale à l'intelligence artificielle.",
+    "titre": "L’Estonie ferme sa frontière avec la Russie après un sabotage du GRU",
+    "rubrique": "international",
+    "pourquoi_important": "C'est une rupture physique majeure entre l'UE et la Russie, déclenchée par une escalade des opérations hybrides russes sur le sol européen.",
     "faits": [
-      "Le conseil d’administration de NVIDIA a officialisé la démission immédiate de Jensen Huang de ses fonctions de président, CEO et administrateur ce 12 novembre 2026 .",
-      "La démission fait suite à des révélations sur deux relations extraconjugales, dont une avec une entrepreneuse chinoise soupçonnée d'espionnage pour le compte de Pékin (Next, Le Figaro).",
-      "Colette Kress, actuelle directrice financière, est nommée CEO par intérim tandis que Harvey C. Jones prend la présidence du conseil (SEC, Numerama).",
-      "L'action Nvidia a chuté de plus de 11 % à l'annonce du départ de son cofondateur historique (La Croix, RFI)."
+      "Fermeture totale des points de passage routiers avec la Russie à compter du 1er décembre 2026 .",
+      "Riposte directe à une tentative de sabotage contre l'entreprise de drones Threod Systems à Viimsi, attribuée au renseignement militaire russe (GRU).",
+      "Arrestation de huit résidents lettons soupçonnés d'avoir voulu incendier le site pour le compte de Moscou (VDD letton.",
+      "Le Premier ministre Kristen Michal affirme que l'attaque visait à provoquer une explosion massive sans impacter la production."
     ],
-    "contexte": "Jensen Huang, figure tutélaire de la Silicon Valley, était perçu comme l'architecte indispensable du boom de l'IA. Son éviction survient après l'ouverture d'une enquête indépendante le 8 novembre portant sur un possible ciblage par un renseignement étranger. Bien que le conseil affirme n'avoir aucune preuve de compromission de secrets industriels, cette affaire mêlant vie privée et sécurité nationale ébranle la confiance des investisseurs dans le 'syndrome de l'homme providentiel' qui caractérise les géants de la tech.",
+    "contexte": "Depuis le début de l'invasion de l'Ukraine, les pays baltes sont en première ligne face aux menaces hybrides. Cette décision estonienne suit celle de la Finlande, qui a déjà clos ses frontières terrestres. Tallinn dénonce des « preuves claires » d'ingérence et refuse de se laisser intimider par des tactiques de déstabilisation visant son industrie de défense.",
     "sources": [
       {
-        "nom": "SEC",
-        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+        "nom": "Ministry of Foreign Affairs of Estonia",
+        "url": "https://vm.ee/en/news/foreign-minister-tsahkna-estonia-close-road-border-crossings-russia",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "Next",
-        "url": "https://next.ink/266926/nvidia-se-prepare-a-pousser-son-ceo-jensen-huang-vers-la-sortie/",
-        "type": "investigation",
-        "groupe_media": {
-          "nom": "Next (ex-Next INpact)",
-          "proprietaire": "Équipe fondatrice",
-          "type_proprietaire": "independant",
-          "orientation": "centre"
-        }
-      },
-      {
-        "nom": "Libération",
-        "url": "https://www.liberation.fr/economie/economie-numerique/rendez-vous-galants-montages-financiers-rumeurs-despionnage-le-recit-de-la-chute-de-jensen-huang-patron-de-nvidia-20261112_53WXP7SCP5GKBGOGDHZT46LPIM/",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "Libération",
-          "proprietaire": "Fonds de dotation",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
-        }
-      },
-      {
         "nom": "Le Figaro",
-        "url": "https://www.lefigaro.fr/secteur/high-tech/microsoft-dit-que-les-mesures-pour-resoudre-la-panne-mondiale-d-outlook-ne-fonctionnent-pas-comme-prevu-20261113",
-        "type": "mainstream"
+        "url": "https://www.lefigaro.fr/international/l-estonie-va-fermer-sa-frontiere-avec-la-russie-apres-une-nouvelle-tentative-de-sabotage-20261115",
+        "type": "mainstream",
+        "groupe_media": null
       },
       {
-        "nom": "Numerama",
-        "url": "https://www.numerama.com/vroom/2371605-jai-essaye-la-nouvelle-dacia-spring-simple-twingo-au-rabais-ou-vraie-bonne-affaire.html",
-        "type": "mainstream"
+        "nom": "France 24",
+        "url": "https://www.france24.com/fr/europe/20261115-estonie-accuse-russie-tentative-sabotage-et-d%C3%A9cide-de-fermer-fronti%C3%A8re",
+        "type": "mainstream",
+        "groupe_media": null
       },
       {
-        "nom": "La Croix",
-        "url": "https://www.la-croix.com/a-vif/les-couvercles-des-boites-20261112",
-        "type": "mainstream"
-      },
-      {
-        "nom": "RFI",
-        "url": "https://www.rfi.fr/fr/afrique/20261113-mali-que-reproche-t-on-aux-4-militants-pass%C3%A9s-de-la-s%C3%A9curit%C3%A9-d-%C3%A9tat-%C3%A0-la-prison",
-        "type": "mainstream"
+        "nom": "Courrier international",
+        "url": "https://www.courrierinternational.com/article/geopolitique-l-estonie-va-fermer-sa-frontiere-avec-la-russie-apres-une-tentative-de-sabotage_287433",
+        "type": "etranger",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
       }
     ],
-    "lien": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx"
+    "lien": "https://vm.ee/en/news/foreign-minister-tsahkna-estonia-close-road-border-crossings-russia"
   },
   "france": [
     {
-      "titre": "Affaire Lyhanna : Darmanin saisit le CSM contre une magistrate",
-      "rubrique": "politique",
-      "resume": "Le garde des Sceaux a saisi le Conseil supérieur de la magistrature pour examiner la responsabilité disciplinaire d'une substitut du procureur d'Auch. Il lui est reproché de ne pas avoir vérifié les antécédents de Jérôme Barella, suspecté du meurtre et du viol de la jeune Lyhanna, lors d'une plainte antérieure (Ministère de la Justice, BFM TV, La Croix).",
+      "titre": "Cyberattaque Maileva : 22 millions de données dérobées",
+      "rubrique": "societe",
+      "resume": "Une filiale de La Poste a été victime d'un vol massif de données d'identification (noms, adresses). La Brigade de lutte contre la cybercriminalité (BL2C) a été saisie par le parquet de Paris (franceinfo, BFM TV).",
       "sources": [
         {
-          "nom": "Le Parisien",
-          "url": "https://www.leparisien.fr/faits-divers/affaire-lyhanna-darmanin-saisit-le-csm-contre-la-magistrate-qui-na-pas-verifie-les-antecedents-du-suspect-12-11-2026-A4BTCSO5KREGTDC7IHHNXFPEOI.php",
+          "nom": "La Poste Groupe",
+          "url": "https://www.lapostegroupe.com/fr/actualite/cyberattaque-de-maileva-ce-quil-faut-savoir",
+          "type": "institutionnel",
+          "groupe_media": null
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/une-filiale-de-la-poste-victime-d-un-vol-de-donnees-massif-22-millions-de-personnes-concernees-20261114",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/justice-proces/guerre-de-territoire-barbarie-aveux-surprises-ce-que-l-on-a-appris-au-proces-de-l-assassinat-du-frere-d-amine-kessaci_8278823.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream"
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/le-monde-qui-bouge/video-le-monde-qui-bouge-la-revue-de-presse-etats-unis-une-suspension-massive-du-trafic-aerien-16-11_VN-202611160117.html",
+          "type": "mainstream"
+        }
+      ],
+      "lien": "https://www.lapostegroupe.com/fr/actualite/cyberattaque-de-maileva-ce-quil-faut-savoir"
+    },
+    {
+      "titre": "Réouverture sous tension du lycée Nelson-Mandela à Nantes",
+      "rubrique": "societe",
+      "resume": "L'établissement, symbole des débordements lors des mouvements lycéens d'octobre, rouvre ce lundi en présence du ministre de l'Éducation. Les travaux de réparation du hall incendié dureront encore plusieurs mois (BFM TV, franceinfo).",
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/le-ministre-de-l-education-nationale-se-rend-a-nantes-lundi-pour-la-reouverture-du-lycee-nelson-mandela-en-partie-incendie-le-1er-octobre_8283644.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Les Echos - Le Parisien (LVMH)",
-            "proprietaire": "Bernard Arnault",
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-colere-lyceenne-le-lycee-nelson-mandela-de-nantes-incendie-debut-octobre-va-rouvrir-ses-portes_VN-202611160102.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
@@ -83,24 +105,19 @@
       "lien": null
     },
     {
-      "titre": "Procès Michel Zecler : le traumatisme au cœur des débats",
-      "rubrique": "societe",
-      "resume": "Au troisième jour du procès des trois policiers accusés d'avoir passé à tabac le producteur de musique en 2020, les témoignages ont souligné les séquelles psychologiques durables de la victime et des jeunes témoins présents. La défense des policiers est confrontée à la projection des vidéos de l'agression, qualifiée de 'lynchage' par la victime (Le Monde, L'Obs, Libération).",
+      "titre": "Édouard Philippe lance son plan logement pour 2027",
+      "rubrique": "politique",
+      "resume": "Le candidat Horizons promet la construction de 4 millions de logements en dix ans. Il prône une simplification des normes et une fiscalité avantageuse pour relancer le secteur (Le Figaro, Libération).",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/11/13/proces-de-l-interpellation-violente-de-michel-zecler-par-des-policiers-depuis-l-agression-il-a-perdu-cette-lumiere-cette-faculte-a-aller-de-l-avant_6809266_3224.html",
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/elections/presidentielles/programmes/presidentielle-2027-edouard-philippe-promet-de-construire-4-millions-de-logements-en-dix-ans-pour-faire-baisser-les-prix-20261115",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
+          "groupe_media": null
         },
         {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/societe/police-justice/au-proces-de-lagression-de-michel-zecler-de-jeunes-temoins-sexpriment-je-me-suis-dit-que-la-moindre-erreur-aurait-pu-nous-tuer-20261112_JOLRHZPWJREXLEC2KO3EOFTL4I/",
+          "url": "https://www.liberation.fr/politique/elections/edouard-philippe-veut-batir-quatre-millions-de-logements-en-dix-ans-20261115_TJLSGMJ45VDJZJ5ZGOYMWCTI3E/",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Libération",
@@ -108,36 +125,6 @@
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
-        },
-        {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/immobilier/20261113.OBS120087/essonne-val-de-marne-les-prix-et-les-opportunites-ville-par-ville-en-region-parisienne.html",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Agriculture : 725 millions d'euros pour l'adaptation climatique",
-      "rubrique": "economie",
-      "resume": "Le gouvernement a annoncé un plan de relance de 725 millions d'euros destiné à la souveraineté alimentaire et à l'adaptation des filières agricoles face au dérèglement climatique. Cette enveloppe, supérieure aux prévisions, vise à soutenir des projets d'avenir pour les filières prioritaires (L'Humanité, La Croix).",
-      "sources": [
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/environnement/agriculture/agriculture-le-gouvernement-annonce-un-plan-de-relance-a-725-millions-deuros-pour-ladaptation-au-changement-climatique",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/le-plan-de-relance-agricole-s-elevera-a-725-millions-d-euros-genevard-20261112",
-          "type": "mainstream",
-          "groupe_media": null
         }
       ],
       "lien": null
@@ -145,13 +132,42 @@
   ],
   "monde": [
     {
-      "titre": "Ukraine : l'Europe enfin admise à la table des négociations",
-      "pays": "Ukraine",
-      "resume": "Volodymyr Zelensky et les émissaires américains de Donald Trump ont confirmé que l'Europe participera au prochain cycle de négociations de paix. Cette annonce intervient après des entretiens à Moscou avec Vladimir Poutine, qui maintient toutefois ses exigences territoriales (Le Monde, France 24 FR, franceinfo).",
+      "titre": "Marée humaine à Prague pour l'audiovisuel public",
+      "pays": "République tchèque",
+      "resume": "Jusqu'à 400 000 personnes ont manifesté contre la réforme du gouvernement d'Andrej Babis. Le projet vise à supprimer la redevance pour un financement direct par l'État, menaçant l'indépendance des médias (RFI, France 24, Libération).",
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/europe/20261115-r%C3%A9publique-tch%C3%A8que-400-000-manifestants-%C3%A0-prague-contre-la-r%C3%A9forme-de-l-audiovisuel-public",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/moyen-orient/20261116-israel-gadi-eisenkot-estime-benjamin-netanyahu-ne-peut-pas-rester-tete-du-gouvernement-legislatives-reportage-partis-arabes-police-plainte-enquete",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/sports/football/ligues-des-nations-les-bleus-par-une-toute-petite-porte-20261115_NZVH5XN6VNAH7ENH33T7CWP5DQ/",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "José Maria Neves réélu au Cap-Vert",
+      "pays": "Cap-Vert",
+      "resume": "Le président sortant l'emporte dès le premier tour avec plus de 63 % des suffrages. Ce scrutin confirme la stabilité démocratique exceptionnelle de l'archipel lusophone (Le Monde, Ouest-France).",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/live/2026/11/13/en-direct-guerre-en-ukraine-la-presence-des-europeens-dans-les-prochaines-negociations-de-paix-annoncee-par-volodymyr-zelensky-et-les-emissaires-americains_6808609_3210.html",
+          "url": "https://www.lemonde.fr/afrique/article/2026/11/16/au-cap-vert-jose-maria-neves-reelu-president-des-le-premier-tour_6811072_3212.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -162,36 +178,41 @@
         },
         {
           "nom": "France 24",
-          "url": "https://www.france24.com/fr/europe/20261113-en-direct-ukraine-russie-europeens-presents-prochaines-negociations-zelensky-poutine",
+          "url": "https://www.france24.com/fr/afrique/20261115-pr%C3%A9sidentielle-au-cap-vert-d%C3%A9but-du-d%C3%A9pouillement-apr%C3%A8s-une-journ%C3%A9e-%C3%A9lectorale-calme",
           "type": "mainstream",
           "groupe_media": null
+        },
+        {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/sport/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-suivre-le-match-entre-lallemagne-et-les-pays-bas-9c92bc68-e136-11f1-b029-43a761592972?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Israël interdit l'entrée à Mélenchon et Panot",
-      "pays": "Israël",
-      "resume": "Le ministère israélien des Affaires étrangères a interdit l'accès au territoire au leader de LFI et à la députée Mathilde Panot, invoquant une position 'extrêmement hostile'. Paris a dénoncé une 'décision démagogique' tandis que Jean-Luc Mélenchon assure que cela ne changera pas son discours (RFI, La Croix, France 24 FR).",
+      "titre": "Les Houthis prennent le contrôle du détroit de Bab al-Mandab",
+      "pays": "Yémen",
+      "resume": "Le retrait des forces soutenues par l'Arabie saoudite laisse le contrôle de ce verrou stratégique de la mer Rouge aux rebelles Houthis, accentuant la menace sur le commerce mondial (NYT World, BBC News).",
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20261112-france-le-leader-insoumis-jean-luc-m%C3%A9lenchon-et-la-d%C3%A9put%C3%A9e-mathilde-panot-interdits-d-entr%C3%A9e-en-isra%C3%ABl",
-          "type": "mainstream",
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
             "orientation": "centre"
           }
         },
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/politique/la-france-insoumise/israel-interdit-a-jean-luc-melenchon-et-mathilde-panot-l-entree-sur-son-territoire-denoncant-la-position-extremement-anti-israelienne-de-la-france-insoumise_8279801.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream",
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
+            "nom": "BBC",
+            "proprietaire": "État britannique",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
@@ -201,201 +222,167 @@
     }
   ],
   "regard_croise": {
-    "sujet": "Réforme du logement et décret Maricarmen en Espagne",
-    "rubrique": "politique",
-    "contexte": "À trois semaines des législatives anticipées, le gouvernement socialiste de Pedro Sánchez a fait valider un décret-loi limitant les expulsions et renforçant les droits des locataires.",
+    "sujet": "Revalorisation du Smic : un coup de pouce ou un mirage ?",
+    "rubrique": "economie",
+    "contexte": "Le gouvernement a annoncé une hausse du Smic au 1er décembre 2026. Cette mesure concerne 12 % des salariés du privé dans un contexte de forte inflation.",
     "couvertures": [
       {
-        "source": "Mediapart",
-        "type": "investigation",
-        "angle": "L'opportunité politique d'utiliser l'élan de la grève générale pour le logement afin de mobiliser l'électorat de gauche.",
-        "ton": "engage",
-        "url": "https://www.mediapart.fr/journal/international/121126/espagne-le-socialiste-sanchez-espere-profiter-de-l-elan-de-la-greve-pour-le-logement",
-        "citation_cle": "Le socialiste Sánchez espère profiter de l’élan de la grève pour le logement.",
-        "auteur": "Ludovic Lamant",
-        "proprietaire_contexte": "Fonds pour une presse libre (indépendant)",
-        "orientation_source": "Gauche",
-        "groupe_media": {
-          "nom": "Mediapart",
-          "proprietaire": "Fonds pour une presse libre",
-          "type_proprietaire": "fondation",
-          "orientation": "gauche"
-        }
+        "source": "Les Décodeurs (Le Monde)",
+        "type": "fact-check",
+        "angle": "Explication pédagogique des mécanismes de calcul et des impacts sur la compétitivité.",
+        "ton": "factuel",
+        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/13/tout-comprendre-au-smic-le-salaire-minimum-que-le-gouvernement-va-revaloriser_6809379_4355770.html",
+        "citation_cle": "Les variations de leur rémunération ne sont pas sans effet sur la compétitivité des entreprises.",
+        "auteur": "Les Décodeurs",
+        "proprietaire_contexte": "Groupe Le Monde (Niel/Kretinsky/Pigasse)",
+        "orientation_source": "centre-droit",
+        "groupe_media": null
       },
       {
-        "source": "RFI",
+        "source": "Alternatives Économiques",
         "type": "mainstream",
-        "angle": "Analyse du contenu législatif et du rejet frontal par l'opposition de droite.",
-        "ton": "factuel",
-        "url": "https://www.rfi.fr/fr/europe/20261112-logement-en-espagne-le-premier-ministre-pedro-sanchez-fait-valider-le-d%C3%A9cret-loi-maricarmen",
-        "citation_cle": "Une initiative qui provoque le rejet de l’opposition de droite favorite des législatives.",
-        "auteur": "RFI",
-        "proprietaire_contexte": "État français",
-        "orientation_source": "Centre",
+        "angle": "Critique de l'insuffisance de la hausse face à l'inflation automnale.",
+        "ton": "critique",
+        "url": "https://www.alternatives-economiques.fr/pourquoi-le-coup-de-pouce-au-smic-risque-de-disparaitre-avant-meme-d-entrer-en-vigueur_16-11-2026",
+        "citation_cle": "Le coup de pouce est si faible que la hausse des prix de cet automne est déjà en train de l'effacer.",
+        "auteur": "Vincent Grimault",
+        "proprietaire_contexte": "SCOP (Coopérative de salariés)",
+        "orientation_source": "centre-gauche",
         "groupe_media": {
-          "nom": "France Médias Monde",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
+          "nom": "Alternatives Économiques",
+          "proprietaire": "SCOP (coopérative de salariés)",
+          "type_proprietaire": "cooperative",
+          "orientation": "centre-gauche"
         }
       }
     ],
-    "analyse_coherence": "Le traitement médiatique de la réforme 'Maricarmen' illustre une tension classique entre droit social et stabilité économique. Mediapart met l'accent sur la dimension populaire et militante, voyant dans cette loi l'aboutissement d'une pression syndicale massive, tandis que RFI adopte une lecture plus institutionnelle, soulignant la polarisation politique à l'approche du scrutin. On observe un double standard potentiel dans la presse conservatrice espagnole (citée indirectement) qui qualifie la protection des vulnérables d'« anomalie démocratique », une rhétorique qui occulte le droit constitutionnel au logement au profit de la sécurité juridique des propriétaires. La couverture française reste globalement équilibrée, mais souligne que cette mesure, bien que sociale, est aussi une arme électorale tactique pour un gouvernement Sánchez en difficulté dans les sondages.",
+    "analyse_coherence": "Le traitement médiatique de la revalorisation du Smic révèle une fracture classique entre l'approche macro-économique libérale et l'approche par le pouvoir d'achat social. Les sources mainstream liées à de grands groupes industriels (comme Le Monde) insistent sur le coût pour les entreprises et la 'compétitivité', présentant la hausse comme une variable d'ajustement technique. À l'inverse, une source coopérative comme Alternatives Économiques dénonce une mesure en trompe-l'œil : si le geste politique existe (première hausse supérieure à l'inflation légale depuis 14 ans), sa faiblesse réelle le rend caduc face à la réalité des prix. On observe ici un double standard d'analyse : là où les aides aux entreprises sont souvent traitées comme des 'investissements nécessaires', la revalorisation du salaire minimum est quasi systématiquement cadrée comme un 'risque' pour l'économie dans la presse dominante.",
     "biais_detectes": [
-      "Polarisation électorale",
-      "Opposition droit de propriété vs droit au logement"
+      "Cadrage par le risque économique (compétitivité)",
+      "Invisibilisation de la perte de pouvoir d'achat réelle"
     ],
-    "ce_quil_faut_retenir": "Le décret Maricarmen sanctuarise le logement pour les plus précaires jusqu'en 2031, faisant de l'urgence sociale un enjeu central du vote du 29 novembre."
+    "ce_quil_faut_retenir": "La hausse du Smic au 1er décembre est historiquement inédite par son calcul, mais restera imperceptible pour les salariés en raison de l'inflation."
   },
   "regard_etranger": [
     {
-      "source": "Al Jazeera",
-      "pays": "Qatar",
-      "titre": "Le Mississippi élit son premier sénateur noir en près de 150 ans",
-      "titre_original": "Mississippi elects first black senator in nearly 150 years",
-      "angle": "Une perspective historique sur la fin d'une anomalie démocratique dans un État marqué par la ségrégation.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/mississippi-elects-first-black-senator-in-nearly-150-years?traffic_source=rss",
-      "groupe_media": {
-        "nom": "Al Jazeera Media Network",
-        "proprietaire": "État du Qatar",
-        "type_proprietaire": "etat",
-        "orientation": "variable"
-      }
-    },
-    {
       "source": "The Guardian",
       "pays": "Royaume-Uni",
-      "titre": "La Norvège emboîte le pas à la Finlande en interdisant les athlètes russes",
-      "titre_original": "Norway follows Finland in barring Russian athletes from entering country over Ukraine war",
-      "angle": "Le sport comme prolongement de la diplomatie de guerre dans les pays nordiques.",
-      "url": "https://www.theguardian.com/sport/2026/nov/12/finland-bars-russian-athletes-ukraine",
+      "titre": "La députée Helen Haines sort de l'hôpital après son amputation",
+      "titre_original": "MP Helen Haines’s first words since leaving hospital",
+      "angle": "Focus sur la résilience d'une figure politique victime d'une agression violente en Australie.",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/16/mp-helen-haines-out-of-hospital-after-attack-leg-amputation-ntwnfb",
       "groupe_media": {
         "nom": "Scott Trust",
         "proprietaire": "Scott Trust Limited",
         "type_proprietaire": "fondation",
         "orientation": "centre-gauche"
       }
+    },
+    {
+      "source": "Al Jazeera",
+      "pays": "Qatar",
+      "titre": "Le Pape Léo en hélicoptère militaire au Pérou",
+      "titre_original": "Pope Leo flies to mass in the Papacoptero",
+      "angle": "Étonnement devant l'usage de moyens militaires pour un déplacement papal en Amérique Latine.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/pope-leo-flies-to-mass-in-the-papacoptero",
+      "groupe_media": {
+        "nom": "Al Jazeera Media Network",
+        "proprietaire": "État du Qatar",
+        "type_proprietaire": "etat",
+        "orientation": "variable"
+      }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "239 millions d'euros",
-    "contexte": "Déficit prévisionnel du CNRS pour l'exercice 2026, entraînant un plan de redressement imposé par Bercy.",
-    "source": "RogueESR / CNRS",
-    "source_url": "https://rogueesr.fr/wp-content/uploads/2026/03/DotationCNRS.pdf"
+    "valeur": "22 millions",
+    "contexte": "Nombre de personnes dont les données personnelles (nom, adresse) ont été compromises lors de la cyberattaque contre Maileva, filiale de La Poste.",
+    "source": "La Poste Groupe",
+    "source_url": "https://www.lapostegroupe.com/fr/actualite/cyberattaque-de-maileva-ce-quil-faut-savoir"
   },
   "a_surveiller": [
     {
-      "date": "2026-11-15",
-      "evenement": "95e Salon Icube immobilier à Paris (sous réserve de décision judiciaire)",
-      "type": "manifestation",
-      "lien": "https://icube.co.il/pages/faq.php"
+      "date": "2026-12-01",
+      "evenement": "Fermeture effective de la frontière Estonie-Russie",
+      "type": "autre",
+      "lien": "https://vm.ee/en/news/foreign-minister-tsahkna-estonia-close-road-border-crossings-russia"
     },
     {
-      "date": "2026-11-20",
-      "evenement": "Clôture de la COP31 à Antalya",
-      "type": "conference",
+      "date": "2026-12-01",
+      "evenement": "Entrée en vigueur de la revalorisation du Smic",
+      "type": "echeance_economique",
       "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Le CNRS sous la tutelle directe de Bercy",
-      "rubrique": "science",
-      "resume": "Confronté à un déficit de 239 M€, le CNRS se voit imposer un 'pilotage tripartite' avec le ministère du Budget. Ce plan de redressement inclut des coupes de 13,5 M€ dans les crédits des laboratoires et un gel des prolongations de CDD (Next, Mediapart).",
+      "titre": "Suisse : le secret bancaire utilisé contre la presse",
+      "rubrique": "ia",
+      "resume": "Le journaliste d'investigation Lukas Hässig a été inculpé à Zurich pour violation du secret bancaire après avoir révélé un scandale financier majeur. Cette procédure est jugée inédite par les observateurs de la liberté de la presse (Les Décodeurs, SRF).",
       "sources": [
         {
-          "nom": "Next",
-          "url": "https://next.ink/266998/cnrs-apres-avoir-siphonne-sa-tresorerie-le-gouvernement-impose-un-plan-de-redressement/",
-          "type": "investigation"
+          "nom": "Les Décodeurs",
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/16/en-suisse-l-inculpation-inedite-d-un-journaliste-via-la-loi-sur-les-banques-nourrit-des-inquietudes_6811403_4355770.html",
+          "type": "fact-check"
         },
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/121126/asphyxie-par-l-etat-le-cnrs-place-sous-la-surveillance-de-bercy",
-          "type": "investigation"
-        }
-      ],
-      "pourquoi_signal": "Ce passage sous tutelle de Bercy marque une perte d'autonomie inédite pour la recherche fondamentale française, largement éclipsée par l'actualité politique."
-    },
-    {
-      "titre": "La cryosphère dépasse les 'limites planétaires sûres'",
-      "rubrique": "science",
-      "resume": "Une étude de 30 chercheurs publiée dans Science alerte sur le fait que la fonte des glaces et du pergélisol a franchi un seuil d'instabilité irréversible, menaçant la régulation climatique globale (Reporterre, Stockholm Resilience Centre).",
-      "sources": [
-        {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Fonte-des-glaces-une-nouvelle-limite-planetaire-est-depassee",
-          "type": "investigation"
-        },
-        {
-          "nom": "Stockholm Resilience Centre",
-          "url": "https://www.stockholmresilience.org/research/research-stories/2026-11-12-earths-frozen-landscapes-have-been-pushed-beyond-safe-planetary-limits.html",
+          "nom": "Tribunal fédéral suisse",
+          "url": null,
           "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "L'intégration de la cryosphère comme nouvelle limite planétaire franchie est un saut conceptuel majeur pour la gouvernance écologique mondiale."
+      "pourquoi_signal": "C'est un précédent dangereux où une loi commerciale (secret bancaire) est détournée pour criminaliser le journalisme d'intérêt public."
+    },
+    {
+      "titre": "Les dérives des 'Écoles de production'",
+      "rubrique": "societe",
+      "resume": "Une enquête pointe les zones d'ombre de ces établissements privés reconnus par l'État : travail gratuit des élèves sous couvert de pédagogie, failles de sécurité et financement public opaque (Mediapart).",
+      "sources": [
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/151126/travail-gratuit-securite-des-eleves-cout-pour-l-etat-les-ecoles-de-production-collectionnent-les-mauvais-p",
+          "type": "investigation"
+        }
+      ],
+      "pourquoi_signal": "Le modèle est vanté par le gouvernement comme solution au décrochage, mais masque une forme d'exploitation de main-d'œuvre mineure non rémunérée."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Vente de colonies israéliennes en plein Paris",
+      "titre": "États-Unis : la fin du 'chèque en blanc' à Israël ?",
       "rubrique": "international",
-      "resume": "La justice administrative a été saisie pour interdire le salon immobilier Icube, accusé de commercialiser des biens situés dans des colonies illégales en Cisjordanie occupée.",
+      "resume": "Après les midterms, une nouvelle majorité au Congrès remet en cause le soutien militaire inconditionnel à Tel-Aviv, exigeant des contrôles sur l'utilisation des 3,8 milliards de dollars d'aide annuelle.",
       "axes_concernes": [
         "droit_international",
-        "colonialisme"
+        "imperialisme"
       ],
-      "analyse": "L'organisation d'un tel événement sur le sol français interroge la cohérence de la diplomatie française qui condamne officiellement la colonisation tout en laissant s'opérer des transactions commerciales liées à l'occupation. Le respect des résolutions de l'ONU exige une vigilance accrue sur ces manifestations.",
+      "analyse": "Cette évolution est cruciale. Pendant des décennies, l'aide américaine a été un totem intouchable. Que le débat s'ouvre au sein même de l'allié principal d'Israël montre que l'isolement diplomatique de l'État hébreu, lié à sa politique de colonisation et de guerre, atteint un point de rupture systémique aux USA.",
       "sources": [
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/monde/cisjordanie/le-salon-de-limmobilier-israelien-face-a-la-justice-pour-mise-en-vente-illegale-de-biens-en-cisjordanie-occupee",
-          "type": "mainstream"
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/geopolitique-a-washington-les-midterms-signent-la-fin-du-soutien-total-a-israel_286223",
+          "type": "etranger"
         },
-        {
-          "nom": "UJFP",
-          "url": "https://ujfp.org/salon-icube-la-promotion-de-la-colonisation-en-palestine-depuis-paris-doit-etre-interdite-audience-le-12-novembre-2026/",
-          "type": "fact-check"
-        }
-      ]
-    },
-    {
-      "titre": "500 jours de détention pour Christophe Gleizes en Algérie",
-      "rubrique": "societe",
-      "resume": "Le journaliste français Christophe Gleizes reste emprisonné en Algérie, condamné à sept ans de prison. Sa famille et RSF dénoncent une situation d'otage d'État.",
-      "axes_concernes": [
-        "liberte_expression",
-        "droits_humains"
-      ],
-      "analyse": "Le silence relatif des autorités françaises sur ce dossier souligne les ambiguïtés de la relation bilatérale. La protection des journalistes et de la liberté de la presse ne doit pas être sacrifiée sur l'autel des intérêts gaziers ou diplomatiques.",
-      "sources": [
         {
           "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/international/121126/christophe-gleizes-est-un-otage-d-etat",
+          "url": "https://www.mediapart.fr/journal/international/151126/aide-militaire-israel-les-lignes-bougent-aux-etats-unis",
           "type": "investigation"
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/a-vif/algerie-christophe-gleizes-le-temps-additionnel-20261112",
-          "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-11-13",
-  "genere_a": "2026-11-13T05:35:30.588Z",
+  "date": "2026-11-16",
+  "genere_a": "2026-11-16T05:35:23.256Z",
   "meta": {
-    "nb_articles_analyses": 735,
-    "nb_topics": 222,
+    "nb_articles_analyses": 504,
+    "nb_topics": 150,
     "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 50,
-    "sources_francaises": 484,
-    "sources_etrangeres": 251,
+    "nb_articles_dans_selection": 44,
+    "sources_francaises": 360,
+    "sources_etrangeres": 144,
     "rubriques_couvertes": [
-      "tech",
-      "politique",
+      "international",
       "societe",
-      "economie",
-      "international"
+      "politique"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"

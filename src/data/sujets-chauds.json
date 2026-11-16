@@ -1,300 +1,328 @@
 {
-  "date": "2026-11-13",
-  "genere_a": "2026-11-13T05:36:15.621Z",
+  "date": "2026-11-16",
+  "genere_a": "2026-11-16T05:36:09.325Z",
   "sujets_actifs": [
     {
       "titre": "Démission de Jensen Huang et scandale d'espionnage chez Nvidia",
-      "slug": "demission-jensen-huang-nvidia-espionnage",
+      "slug": "nvidia-jensen-huang-demission-espionnage",
       "rubrique": "tech",
       "tldr": [
-        "Jensen Huang démissionne de la direction de Nvidia après la révélation de liaisons extra-conjugales.",
-        "Une de ses relations est soupçonnée par les services américains d'être une espionne chinoise.",
-        "Le Congrès américain a convoqué l'ex-PDG pour témoigner sur les risques de sécurité nationale."
+        "Jensen Huang démissionne suite à des révélations sur des relations extra-conjugales et des soupçons d'espionnage.",
+        "Plus de 150 000 signataires, dont Elon Musk, demandent son retour via une lettre ouverte.",
+        "L'action Nvidia et l'économie américaine font face à une incertitude majeure due à cette vacance de pouvoir."
       ],
-      "resume": "Le fondateur emblématique de Nvidia, Jensen Huang, a quitté ses fonctions de PDG de manière brutale suite à des révélations sur sa vie privée impliquant des enjeux de sécurité nationale. Les autorités américaines soupçonnent l'une de ses relations d'être un agent de renseignement chinois, faisant craindre un transfert illégal de technologies sensibles vers Pékin. Colette Kress, actuelle directrice financière, assure l'intérim alors que l'entreprise, pilier du secteur de l'IA, voit sa gouvernance déstabilisée. En parallèle, la Malaisie a ouvert une enquête sur une filiale locale soupçonnée d'avoir facilité le détournement de puces Nvidia vers des destinations interdites.",
-      "contexte_historique": "Nvidia est devenue en 2024 l'entreprise la plus valorisée au monde grâce à ses puces H100 essentielles à l'IA générative. Les États-Unis imposent des restrictions strictes sur l'exportation de ces composants vers la Chine depuis octobre 2022 (Bureau of Industry and Security). Ce scandale rappelle l'affaire Eric Fang en 2020, qui avait ciblé des élus américains via des relations intimes pour obtenir des informations politiques.",
+      "resume": "Le géant des puces IA, Nvidia, traverse une crise de gouvernance sans précédent après la démission de son cofondateur emblématique, Jensen Huang. Le départ a été précipité par la révélation de relations extra-conjugales avec une cadre chinoise de la firme Megaspeed, Alice Huang, soulevant des craintes d'espionnage industriel au profit de Pékin (Al Jazeera). Alors que le NYT souligne que l'économie américaine est désormais structurellement dépendante de Nvidia, un mouvement de soutien massif s'organise. Environ 18% des salariés du groupe et des figures comme Elon Musk réclament une 'procédure équitable' et le retour du dirigeant (BFM TV). Cette instabilité survient alors que les États-Unis tentent de durcir les règles d'exportation de puces vers la Chine.",
+      "contexte_historique": "Nvidia, fondée en 1993, est passée du statut de fabricant de cartes graphiques pour joueurs à celui de pilier de la révolution IA, dépassant les 3000 milliards de dollars de capitalisation en 2024. Ce type de crise rappelle l'éviction de Steve Jobs d'Apple en 1985 ou, plus récemment, le limogeage temporaire de Sam Altman d'OpenAI en 2023, illustrant la fragilité des géants technologiques ultra-dépendants d'un fondateur charismatique.",
       "implications": [
-        "Instabilité boursière majeure pour le secteur des semi-conducteurs et de l'intelligence artificielle.",
-        "Durcissement probable des contrôles à l'exportation et de la surveillance des dirigeants de la tech par le FBI."
+        "Risque de volatilité extrême sur les marchés financiers mondiaux, Nvidia étant un moteur du S&P 500.",
+        "Possible durcissement des enquêtes de sécurité nationale sur les liens entre les dirigeants de la Silicon Valley et les entreprises technologiques chinoises."
       ],
       "chronologie": [
         {
-          "date": "2026-11-13",
-          "texte": "Jensen Huang est convoqué pour témoigner devant le Congrès américain.",
-          "source": "The Guardian"
+          "date": "2026-11-16",
+          "texte": "Megaspeed confirme qu'Alice Huang a quitté l'entreprise en août 2025.",
+          "source": "Al Jazeera"
         },
         {
-          "date": "2026-11-12",
-          "texte": "Démission officielle de Jensen Huang ; Colette Kress nommée PDG par intérim.",
-          "source": "BBC News"
+          "date": "2026-11-16",
+          "texte": "Lancement d'une pétition de 150 000 signatures pour le retour de Huang.",
+          "source": "BFM TV"
         },
         {
-          "date": "2026-11-12",
-          "texte": "Révélation par le renseignement US de la liaison de Huang avec une espionne présumée.",
+          "date": "2026-11-08",
+          "texte": "Annonce officielle de la démission de Jensen Huang.",
           "source": "NYT World"
         }
       ],
       "couvertures": [
         {
-          "source": "The Guardian",
+          "source": "NYT World",
           "type": "etranger",
-          "angle": "Focus sur les répercussions politiques et l'audition imminente devant le Congrès.",
-          "ton": "alarmiste",
-          "url": "https://www.theguardian.com/technology/live/2026/nov/13/nvidia-jensen-huang-to-testify-before-congress-live-latest-updates",
-          "citation_cle": "La démission de Huang a envoyé des ondes de choc à travers l'industrie de l'IA.",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "source": "Le Figaro",
-          "type": "mainstream",
-          "angle": "Analyse des ramifications internationales, notamment l'enquête en Malaisie sur le détournement de puces.",
+          "angle": "Analyse de la dépendance systémique de l'économie américaine envers une seule entreprise et son leader.",
           "ton": "factuel",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/affaire-nvidia-la-malaisie-annonce-enqueter-sur-une-filiale-de-megaspeed-concernant-un-eventuel-detournement-de-puces-d-ia-20261113",
-          "citation_cle": "Déterminer si des puces destinées à l’IA ont été réexportées illégalement.",
-          "groupe_media": null
-        },
-        {
-          "source": "Ouest-France",
-          "type": "mainstream",
-          "angle": "Le dessin de Chaunu : la démission du patron de Nvidia après sa liaison avec une Chinoise soupçonnée d’espionnage",
-          "ton": "factuel",
-          "url": "https://www.ouest-france.fr/medias/ouest-france/chaunu/le-dessin-de-chaunu-la-demission-du-patron-de-nvidia-apres-sa-liaison-avec-une-chinoise-soupconnee-despionnage-aa3e58b0-ded7-11f1-86b6-0a2fbb1d8ed9?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "citation_cle": "Le dessinateur et caricaturiste Chaunu croque au quotidien l’actualité française et internationale pour Ouest-France. Au",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'étendue réelle des informations technologiques potentiellement compromises.",
-        "Si le conseil d'administration de Nvidia était au courant de ces liaisons avant les révélations publiques."
-      ],
-      "sources": [
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/technology/live/2026/nov/13/nvidia-jensen-huang-to-testify-before-congress-live-latest-updates",
-          "type": "site",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/affaire-nvidia-la-malaisie-annonce-enqueter-sur-une-filiale-de-megaspeed-concernant-un-eventuel-detournement-de-puces-d-ia-20261113",
-          "type": "site",
-          "groupe_media": null
-        },
-        {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-          "type": "site",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/11/12/world/asia/china-spy-espionage-romance.html",
-          "type": "site",
+          "url": "https://www.nytimes.com/2026/11/15/world/nvidia-jensen-huang-ai-chips.html",
+          "citation_cle": "L'économie américaine a accroché son wagon à Nvidia et Jensen Huang.",
           "groupe_media": {
             "nom": "The New York Times Company",
             "proprietaire": "Famille Ochs-Sulzberger",
             "type_proprietaire": "famille",
             "orientation": "centre"
+          }
+        },
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Focus sur les connexions chinoises et les implications de sécurité nationale.",
+          "ton": "neutre",
+          "url": "https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss",
+          "citation_cle": "L'exécutif technologique chinois lié romantiquement à l'ex-PDG a quitté son poste en 2025.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "\"Jensen Huang mérite une procédure équitable\": Elon Musk et le fondateur d'Uber figurent parmi plus de 150.000 signataires pour le retour du directeur général de Nvidia",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/economie/entreprises/jensen-huang-merite-une-procedure-equitable-elon-musk-et-le-fondateur-d-uber-figurent-parmi-plus-de-150-000-signataires-pour-le-retour-du-directeur-general-de-nvidia_AD-202611160110.html",
+          "citation_cle": "Parmi les signataires de cette lettre ouverte, 7.500 se déclarent salariés de Nvidia, soit 18% des effectifs du groupe, ",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Des données stratégiques sur les puces Blackwell ont-elles été effectivement transférées ?",
+        "Qui sera nommé pour assurer l'intérim de façon permanente ?"
+      ],
+      "sources": [
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/11/15/world/nvidia-jensen-huang-ai-chips.html",
+          "type": "presse",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss",
+          "type": "presse",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/economie/entreprises/jensen-huang-merite-une-procedure-equitable-elon-musk-et-le-fondateur-d-uber-figurent-parmi-plus-de-150-000-signataires-pour-le-retour-du-directeur-general-de-nvidia_AD-202611160110.html",
+          "type": "presse",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         }
       ],
       "premiere_apparition": "2026-11-08"
     },
     {
-      "titre": "Panne mondiale des services Microsoft 365 et Outlook",
-      "slug": "panne-mondiale-microsoft-outlook-365",
-      "rubrique": "tech",
+      "titre": "L'Estonie ferme sa frontière avec la Russie après un sabotage du GRU",
+      "slug": "estonie-frontiere-russie-sabotage-gru",
+      "rubrique": "international",
       "tldr": [
-        "Une panne majeure paralyse Outlook, Teams et Microsoft 365 depuis plus de 8 heures.",
-        "Microsoft admet que les premières mesures de correction n'ont pas fonctionné.",
-        "Des milliers d'entreprises et d'administrations sont impactées, notamment en Australie et en Europe."
+        "Fermeture totale des postes-frontières estoniens suite à une tentative d'incendie criminel.",
+        "Huit suspects liés au renseignement militaire russe (GRU) ont été interpellés près de Tallinn.",
+        "L'Estonie active un plan de 'gouvernement numérique' délocalisé en cas d'invasion."
       ],
-      "resume": "Depuis le 12 novembre au soir, une interruption massive de service frappe les outils de productivité de Microsoft à l'échelle mondiale. Les utilisateurs signalent une impossibilité d'accéder à leurs courriels via Outlook ou de se connecter à Teams. Bien que Microsoft ait écarté l'hypothèse d'une cyberattaque, le groupe reconnaît que ses tentatives de déploiement de correctifs n'ont pas produit les résultats escomptés. La panne affecte également par ricochet certains services d'IA dépendants de l'infrastructure Azure, comme ceux d'OpenAI et Anthropic.",
-      "contexte_historique": "Cet incident survient deux ans après la panne géante liée à CrowdStrike en juillet 2024, qui avait paralysé des aéroports et des hôpitaux. Il souligne la fragilité des infrastructures cloud centralisées sur lesquelles repose l'économie mondiale. En France, le passage au 'Cloud au centre' pour les administrations rend ces interruptions particulièrement critiques.",
+      "resume": "Tallinn a annoncé la fermeture immédiate de tous ses postes-frontières avec la Russie après l'interpellation de huit individus soupçonnés de préparer un sabotage pour le compte du GRU. La cible était un fabricant local de drones essentiels à l'effort de guerre ukrainien (Courrier international). Cette escalade s'inscrit dans une série d'actions hybrides russes en Europe. En réponse, l'Estonie a finalisé un dispositif permettant de faire fonctionner l'intégralité de ses services d'État depuis le 'cloud' à l'étranger, garantissant la continuité démocratique même en cas d'occupation physique du territoire (Politico EU).",
+      "contexte_historique": "L'Estonie est le pays le plus numérisé au monde (e-Estonia). Depuis les cyberattaques massives de 2007 attribuées à la Russie, le pays a développé des 'ambassades de données' (notamment au Luxembourg) pour protéger ses registres nationaux. La fermeture de la frontière rappelle les mesures similaires prises par la Finlande en 2023-2024 face à l'instrumentalisation des flux migratoires par Moscou.",
       "implications": [
-        "Paralysie opérationnelle pour les services publics et les entreprises dépendantes de la suite 365.",
-        "Relance du débat sur la souveraineté numérique et la dépendance aux fournisseurs de cloud américains."
+        "Rupture totale des échanges terrestres entre l'UE et la Russie via la voie balte.",
+        "Augmentation du niveau d'alerte de l'OTAN sur le flanc est face aux opérations de sabotage."
       ],
       "chronologie": [
         {
-          "date": "2026-11-13",
-          "texte": "Microsoft confirme que les mesures de résolution ne fonctionnent pas comme prévu.",
-          "source": "franceinfo"
+          "date": "2026-11-16",
+          "texte": "Annonce de la fermeture de tous les postes-frontières.",
+          "source": "Ouest-France"
         },
         {
-          "date": "2026-11-13",
-          "texte": "La panne dépasse les 8 heures de durée continue.",
-          "source": "BFM TV"
+          "date": "2026-11-14",
+          "texte": "Interpellation de huit résidents lettons soupçonnés de sabotage près de Tallinn.",
+          "source": "Courrier international"
         },
         {
-          "date": "2026-11-12",
-          "texte": "Premiers signalements massifs d'interruptions sur Outlook et Teams.",
-          "source": "The Guardian"
+          "date": "2026-11-16",
+          "texte": "Présentation du plan de gouvernement numérique délocalisé.",
+          "source": "Politico EU"
         }
       ],
       "couvertures": [
         {
-          "source": "franceinfo",
-          "type": "mainstream",
-          "angle": "Focus sur l'échec des solutions techniques proposées par Microsoft.",
-          "ton": "factuel",
-          "url": "https://www.franceinfo.fr/internet/microsoft/une-panne-mondiale-touche-la-messagerie-outlook-de-microsoft-les-mesures-pour-la-resoudre-ne-fonctionnent-pas-comme-prevu_8280422.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "Le géant américain affirme travailler sans relâche pour régler la situation.",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "The Guardian",
+          "source": "Courrier international",
           "type": "etranger",
-          "angle": "Impact spécifique sur les services gouvernementaux et les écoles en Australie.",
-          "ton": "critique",
-          "url": "https://www.theguardian.com/technology/2026/nov/13/major-microsoft-outage-impacts-australian-government-services-and-schools",
-          "citation_cle": "On dirait que nous allons devoir reparler aux gens : l'Australie renvoyée à l'ère pré-email.",
+          "angle": "Focus sur les détails de l'enquête de sabotage et le lien avec le renseignement russe.",
+          "ton": "factuel",
+          "url": "https://www.courrierinternational.com/article/geopolitique-l-estonie-va-fermer-sa-frontiere-avec-la-russie-apres-une-tentative-de-sabotage_287433",
+          "citation_cle": "Ils sont soupçonnés d’avoir voulu incendier les locaux d’un fabricant de drones.",
           "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "source": "Le Figaro",
-          "type": "mainstream",
-          "angle": "Les réparations «ne fonctionnent pas comme prévu» : ce qu’il faut savoir de la panne géante d’Outlook et des outils Microsoft",
+          "source": "Politico EU",
+          "type": "etranger",
+          "angle": "Analyse technique et politique de la résilience numérique estonienne.",
           "ton": "factuel",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/microsoft-dit-que-les-mesures-pour-resoudre-la-panne-mondiale-d-outlook-ne-fonctionnent-pas-comme-prevu-20261113",
-          "citation_cle": "Cette perturbation, qui dure depuis environ huit heures, empêche des dizaines de milliers d’utilisateurs dans le monde d",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-brussels-is-learning-to-spot-a-spy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "citation_cle": "Tallinn prépare son gouvernement numérique pour être géré depuis l'étranger.",
+          "groupe_media": {
+            "nom": "Axel Springer / KKR",
+            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Ouest-France",
+          "type": "mainstream",
+          "angle": "Guerre en Ukraine : une centaine de drones interceptés à Moscou, fermeture de postes-frontières… Le point sur la nuit",
+          "ton": "factuel",
+          "url": "https://www.ouest-france.fr/europe/ukraine/guerre-en-ukraine-une-centaine-de-drones-interceptes-a-moscou-fermeture-de-postes-frontieres-le-point-sur-la-nuit-069427aa-e146-11f1-9a29-f4bab172af08?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "citation_cle": "La défense aérienne russe a intercepté une centaine de drones qui visaient Moscou dans la nuit, a déclaré lundi le maire",
           "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "La cause technique précise de l'échec des premiers correctifs.",
-        "Le montant des compensations financières que Microsoft devra verser via ses contrats de niveau de service (SLA)."
+        "La durée de la fermeture de la frontière est-elle indéterminée ?",
+        "D'autres cellules de sabotage sont-elles actives dans les pays baltes ?"
       ],
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/internet/microsoft/une-panne-mondiale-touche-la-messagerie-outlook-de-microsoft-les-mesures-pour-la-resoudre-ne-fonctionnent-pas-comme-prevu_8280422.html#xtor=RSS-3-[lestitres]",
-          "type": "site",
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/geopolitique-l-estonie-va-fermer-sa-frontiere-avec-la-russie-apres-une-tentative-de-sabotage_287433",
+          "type": "presse",
           "groupe_media": {
-            "nom": "France Télévisions",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Politico EU",
+          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-brussels-is-learning-to-spot-a-spy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "type": "presse",
+          "groupe_media": {
+            "nom": "Axel Springer / KKR",
+            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/sport/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-suivre-le-match-entre-lallemagne-et-les-pays-bas-9c92bc68-e136-11f1-b029-43a761592972?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "type": "presse",
+          "groupe_media": null
+        }
+      ],
+      "premiere_apparition": "2026-11-16"
+    },
+    {
+      "titre": "Débat présidentiel 2027 : Premier affrontement sans Édouard Philippe",
+      "slug": "debat-presidentiel-2027-restos-du-coeur",
+      "rubrique": "politique",
+      "tldr": [
+        "Cinq candidats majeurs débattent ce lundi sur TF1/LCI au profit des Restos du Cœur.",
+        "Édouard Philippe est le grand absent, refusant la logique de 'primaire' de la droite et du centre.",
+        "Le débat oppose Marine Le Pen, Jean-Luc Mélenchon, Raphaël Glucksmann, Bruno Retailleau et Gabriel Attal."
+      ],
+      "resume": "La campagne présidentielle de 2027 franchit une étape symbolique ce lundi avec un débat télévisé inédit organisé dans un entrepôt des Restos du Cœur. Si l'affiche réunit les poids lourds des principaux blocs (l'absence d'Édouard Philippe cristallise les tensions au centre-droit. Le maire du Havre, bien qu'acceptant de 'discuter' avec ses partenaires, refuse catégoriquement toute forme de primaire ou de sélection préalable (RFI. Pendant ce temps, Marine Le Pen fait face aux limites de sa stratégie de 'dédiabolisation', avec des sondages montrant un enrayement de sa progression dans l'opinion (Le Monde.",
+      "contexte_historique": "L'organisation d'un débat si tôt (plus de 16 mois avant l'échéance) rappelle la précocité de la campagne de 2017. Le refus d'Édouard Philippe de se plier à une sélection collective évoque la posture de rupture de Macron en 2016, s'affranchissant des primaires socialistes. Le rôle des Restos du Cœur comme médiateur souligne l'importance de la thématique de la précarité alimentaire dans le débat actuel.",
+      "implications": [
+        "Risque de fragmentation définitive de la majorité sortante entre les partisans d'Attal et ceux de Philippe.",
+        "Recentrage du débat sur les questions sociales (pouvoir d'achat, logement) imposé par le cadre caritatif."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-11-16",
+          "texte": "Tenue du débat présidentiel sur TF1/LCI.",
+          "source": "Ouest-France"
+        },
+        {
+          "date": "2026-11-16",
+          "texte": "Édouard Philippe réaffirme son refus d'une primaire.",
+          "source": "RFI"
+        },
+        {
+          "date": "2026-11-14",
+          "texte": "Gérard Larcher propose de réunir les candidats de la droite et du centre.",
+          "source": "RFI"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Ouest-France",
+          "type": "mainstream",
+          "angle": "Coulisses de l'organisation du débat solidaire et profils des participants.",
+          "ton": "neutre",
+          "url": "https://www.ouest-france.fr/sport/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-suivre-le-match-entre-lallemagne-et-les-pays-bas-9c92bc68-e136-11f1-b029-43a761592972?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "citation_cle": "Cinq candidats à la présidentielle débattront ce lundi.",
+          "groupe_media": null
+        },
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Analyse de la stagnation de l'image de Marine Le Pen malgré ses efforts de normalisation.",
+          "ton": "critique",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/16/la-vente-aux-encheres-des-hospices-de-beaunes-recolte-pres-de-14-millions-d-euros-malgre-de-maigres-vendanges_6811402_3234.html",
+          "citation_cle": "Le mouvement de normalisation de l’image du RN semble s’enrayer.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "RFI",
+          "type": "mainstream",
+          "angle": "Présidentielle en France: Édouard Philippe accepte de discuter avec la droite et le centre mais refuse toujours une primaire",
+          "ton": "factuel",
+          "url": "https://www.rfi.fr/fr/france/20261116-pr%C3%A9sidentielle-en-france-%C3%A9douard-philippe-accepte-de-discuter-avec-la-droite-et-le-centre-mais-refuse-toujours-une-primaire",
+          "citation_cle": "Si le candidat Horizons accepte la proposition faite par le président du Sénat, Gérard Larcher, samedi 14 novembre, de r",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Édouard Philippe finira-t-il par rejoindre une coalition de centre-droit ?",
+        "Quel sera l'impact de ce débat sur les intentions de vote immédiates ?"
+      ],
+      "sources": [
+        {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/sport/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-suivre-le-match-entre-lallemagne-et-les-pays-bas-9c92bc68-e136-11f1-b029-43a761592972?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "type": "presse",
+          "groupe_media": null
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20261116-pr%C3%A9sidentielle-en-france-%C3%A9douard-philippe-accepte-de-discuter-avec-la-droite-et-le-centre-mais-refuse-toujours-une-primaire",
+          "type": "presse",
+          "groupe_media": {
+            "nom": "France Médias Monde",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/nov/13/major-microsoft-outage-impacts-australian-government-services-and-schools",
-          "type": "site",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/economie/entreprises/une-panne-qui-dure-depuis-plus-de-huit-heures-windows-n-arrive-pas-a-resoudre-le-bug-mondial-d-outlook_AD-202611130123.html",
-          "type": "site",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-11-12"
-    },
-    {
-      "titre": "Offensive de Teddy Riner pour la présidentielle 2027",
-      "slug": "teddy-riner-campagne-presidentielle-2027",
-      "rubrique": "elections",
-      "tldr": [
-        "Le judoka Teddy Riner lance officiellement sa campagne ce samedi au salon du Made in France.",
-        "Les sondages le testent comme une alternative crédible face aux blocs extrêmes.",
-        "La stratégie vise à séduire l'électorat centriste et déçu de la politique traditionnelle."
-      ],
-      "resume": "Après des mois de spéculation, le champion olympique Teddy Riner passe à l'offensive politique. Il effectue son premier déplacement de campagne ce samedi 14 novembre au salon du Made in France, marquant son entrée officielle dans l'arène pour 2027. Cette candidature atypique est scrutée de près par les centristes qui cherchent une figure capable de briser le duel annoncé entre Marine Le Pen et Jean-Luc Mélenchon. Si sa légitimité politique reste à construire, sa popularité et son image de 'rassembleur' en font un perturbateur majeur de l'échiquier politique actuel.",
-      "contexte_historique": "La France a une tradition de sportifs s'engageant en politique (David Douillet, Guy Drut), mais aucun n'a visé l'Élysée avec une telle structure de campagne. Ce phénomène rappelle les candidatures 'hors système' réussies à l'étranger, comme celle de Volodymyr Zelensky en Ukraine (2019) ou de George Weah au Liberia (2017).",
-      "implications": [
-        "Éclatement potentiel des voix au centre, au détriment des héritiers du macronisme comme Édouard Philippe.",
-        "Transformation de la campagne en une bataille de personnalités plutôt que de programmes traditionnels."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-11-13",
-          "texte": "Annonce de son premier déplacement de campagne au salon du Made in France.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-11-13",
-          "texte": "Analyse du New York Times sur l'intérêt des centristes pour sa candidature.",
-          "source": "NYT World"
-        },
-        {
-          "date": "2026-11-12",
-          "texte": "Marine Tondelier et Bruno Retailleau réagissent à la montée des candidatures hors-partis.",
-          "source": "Le Figaro"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Exclusivité sur l'agenda de campagne et le choix symbolique du 'Made in France'.",
-          "ton": "neutre",
-          "url": "https://www.bfmtv.com/politique/elections/presidentielle/info-bfmtv-presidentielle-2027-teddy-riner-fera-son-premier-deplacement-de-campagne-samedi-au-salon-du-made-in-france_AN-202611130109.html",
-          "citation_cle": "Le judoka fera son premier déplacement de campagne samedi 14 novembre.",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "NYT World",
-          "type": "etranger",
-          "angle": "Analyse de la recherche d'alternatives par les centristes français.",
-          "ton": "factuel",
-          "url": "https://www.nytimes.com/2026/11/13/world/europe/france-riner-judo-lagarde-election.html",
-          "citation_cle": "Les centristes veulent des alternatives au duel entre l'extrême droite et l'extrême gauche.",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Présidentielle 2027 : l’offensive illibérale de Marine Le Pen",
-          "ton": "factuel",
-          "url": "https://www.lemonde.fr/politique/article/2026/11/13/presidentielle-2027-l-offensive-illiberale-de-marine-le-pen_6809272_823448.html",
-          "citation_cle": "Associations, syndicats, magistrats, journalistes : les dirigeants du Rassemblement national multiplient les attaques pu",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/16/la-vente-aux-encheres-des-hospices-de-beaunes-recolte-pres-de-14-millions-d-euros-malgre-de-maigres-vendanges_6811402_3234.html",
+          "type": "presse",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -303,92 +331,53 @@
           }
         }
       ],
-      "ce_quon_ne_sait_pas": [
-        "Le contenu réel de son programme économique et social.",
-        "Le soutien financier et logistique dont il dispose pour tenir une campagne de longue durée."
-      ],
-      "sources": [
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/politique/elections/presidentielle/info-bfmtv-presidentielle-2027-teddy-riner-fera-son-premier-deplacement-de-campagne-samedi-au-salon-du-made-in-france_AN-202611130109.html",
-          "type": "site",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/11/13/world/europe/france-riner-judo-lagarde-election.html",
-          "type": "site",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-teddy-riner-jean-luc-melenchon-primaire-christine-lagarde-edouard-philippe-20261112",
-          "type": "site",
-          "groupe_media": null
-        }
-      ],
-      "premiere_apparition": "2026-11-10"
+      "premiere_apparition": "2026-11-14"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Négociations de paix Ukraine-Russie",
-      "slug": "negociations-paix-ukraine-russie-dublin-moscou",
-      "rubrique": "international",
-      "resume": "Les émissaires américains Jared Kushner et Witkoff poursuivent leurs navettes diplomatiques entre Moscou et Dublin. Si l'Europe est désormais officiellement admise à la table des discussions, les divergences sur les garanties de sécurité restent profondes malgré l'optimisme affiché par Kushner.",
+      "titre": "Panne mondiale des services Microsoft 365",
+      "slug": "panne-microsoft-365-novembre-2026",
+      "rubrique": "tech",
+      "resume": "Après un week-end de perturbations majeures affectant Outlook et Teams, les services sont rétablis. La panne a eu des conséquences inattendues, notamment sur la logistique aéroportuaire américaine.",
       "chronologie": [
         {
-          "date": "2026-11-13",
-          "texte": "Zelensky confirme la participation européenne au prochain cycle de discussions.",
-          "source": "France 24 FR"
+          "date": "2026-11-16",
+          "texte": "Retour à la normale prévu dans le ciel américain ce lundi.",
+          "source": "BFM TV"
         },
         {
-          "date": "2026-11-13",
-          "texte": "Kushner se dit optimiste malgré d'importantes divergences.",
-          "source": "20 Minutes"
+          "date": "2026-11-15",
+          "texte": "Persistance de difficultés résiduelles dans certains aéroports.",
+          "source": "BFM TV"
         }
       ],
       "couvertures": [
         {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Focus sur les navettes diplomatiques des émissaires US.",
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Focus sur la reprise du trafic aérien après la paralysie.",
           "ton": "factuel",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_us-envoys-shuttle-between-putin-and-zelenskyy-121126?traffic_source=rss",
-          "citation_cle": "Les émissaires US font la navette entre Dublin et Moscou."
+          "url": "https://www.bfmtv.com/economie/entreprises/transports/retour-a-la-normale-dans-le-ciel-americain-prevu-ce-lundi-apres-la-panne-qui-a-paralyse-le-trafic-aerien-ce-week-end_AD-202611160099.html",
+          "citation_cle": "Le trafic aérien doit revenir à la normale ce lundi."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "La nature exacte des concessions territoriales discutées en coulisses."
+        "La cause technique exacte de la panne n'a pas été détaillée par Microsoft."
       ],
       "sources": [
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/europe/20261113-en-direct-ukraine-russie-europeens-presents-prochaines-negociations-zelensky-poutine",
-          "type": "site"
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_us-envoys-shuttle-between-putin-and-zelenskyy-121126?traffic_source=rss",
-          "type": "site"
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/economie/entreprises/transports/retour-a-la-normale-dans-le-ciel-americain-prevu-ce-lundi-apres-la-panne-qui-a-paralyse-le-trafic-aerien-ce-week-end_AD-202611160099.html",
+          "type": "presse"
         }
       ],
-      "derniere_mise_a_jour": "2026-11-13",
-      "statut": "Le sujet entre dans une phase de diplomatie de coulisses moins médiatisée après l'annonce de l'inclusion de l'UE."
+      "derniere_mise_a_jour": "2026-11-16",
+      "statut": "Sujet en phase de résolution technique, l'attention se déplace vers les responsabilités juridiques."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 735,
+    "nb_articles_analyses": 504,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
