@@ -1,37 +1,42 @@
 {
   "sujet_du_jour": {
-    "titre": "L’Estonie ferme sa frontière avec la Russie après un sabotage du GRU",
+    "titre": "L'UE et le Rwanda négocient la création de « hubs de retour » pour migrants",
     "rubrique": "international",
-    "pourquoi_important": "C'est une rupture physique majeure entre l'UE et la Russie, déclenchée par une escalade des opérations hybrides russes sur le sol européen.",
+    "pourquoi_important": "C'est une bascule historique de la politique migratoire européenne vers une externalisation radicale des expulsions hors du territoire de l'Union.",
     "faits": [
-      "Fermeture totale des points de passage routiers avec la Russie à compter du 1er décembre 2026 .",
-      "Riposte directe à une tentative de sabotage contre l'entreprise de drones Threod Systems à Viimsi, attribuée au renseignement militaire russe (GRU).",
-      "Arrestation de huit résidents lettons soupçonnés d'avoir voulu incendier le site pour le compte de Moscou (VDD letton.",
-      "Le Premier ministre Kristen Michal affirme que l'attaque visait à provoquer une explosion massive sans impacter la production."
+      "Cinq États membres (Autriche, Danemark, Grèce, Pays-Bas ont annoncé le 16 novembre l'ouverture de négociations avec Kigali pour créer des centres de rétention au Rwanda.",
+      "Le projet vise à transférer des personnes déboutées du droit d'asile et sous le coup d'une décision d'expulsion exécutoire vers ces plateformes extra-européennes.",
+      "Le Danemark prévoit déjà la signature d'un partenariat bilatéral spécifique avec le Rwanda dès le 23 novembre 2026.",
+      "L'objectif affiché par les gouvernements néerlandais et autrichien est une mise en œuvre opérationnelle à l'horizon 2027."
     ],
-    "contexte": "Depuis le début de l'invasion de l'Ukraine, les pays baltes sont en première ligne face aux menaces hybrides. Cette décision estonienne suit celle de la Finlande, qui a déjà clos ses frontières terrestres. Tallinn dénonce des « preuves claires » d'ingérence et refuse de se laisser intimider par des tactiques de déstabilisation visant son industrie de défense.",
+    "contexte": "Cette initiative s'inspire du modèle britannique (abandonné par les travaillistes) et du récent accord Italie-Albanie. Elle marque un durcissement sans précédent de l'UE, où des pays traditionnellement libéraux comme l'Allemagne rejoignent désormais des positions autrefois jugées marginales. Le projet soulève d'immenses questions sur le respect du droit international et la sécurité des personnes déportées vers un pays tiers.",
     "sources": [
       {
-        "nom": "Ministry of Foreign Affairs of Estonia",
-        "url": "https://vm.ee/en/news/foreign-minister-tsahkna-estonia-close-road-border-crossings-russia",
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/international/article/2026/11/16/le-projet-de-cinq-pays-europeens-d-ouvrir-un-centre-de-retour-au-rwanda-traduit-la-bascule-de-la-politique-europeenne-en-matiere-d-immigration_6812426_3210.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
+      },
+      {
+        "nom": "Gouvernement des Pays-Bas",
+        "url": "https://www.government.nl/latest/news/2026/11/16/the-netherlands-and-european-partners-working-with-rwanda-to-establish-a-return-hub",
         "type": "institutionnel",
         "groupe_media": null
       },
       {
-        "nom": "Le Figaro",
-        "url": "https://www.lefigaro.fr/international/l-estonie-va-fermer-sa-frontiere-avec-la-russie-apres-une-nouvelle-tentative-de-sabotage-20261115",
-        "type": "mainstream",
-        "groupe_media": null
-      },
-      {
-        "nom": "France 24",
-        "url": "https://www.france24.com/fr/europe/20261115-estonie-accuse-russie-tentative-sabotage-et-d%C3%A9cide-de-fermer-fronti%C3%A8re",
-        "type": "mainstream",
+        "nom": "Ministère de l'Immigration du Danemark",
+        "url": "https://uim.dk/nyhedsarkiv/2026/november/rwanda-and-five-eu-member-states-are-jointly-exploring-the-possibility-of-establishing-a-return-hub-in-rwanda-based-on-an-equal-and-mutually-beneficial-partnership/",
+        "type": "institutionnel",
         "groupe_media": null
       },
       {
         "nom": "Courrier international",
-        "url": "https://www.courrierinternational.com/article/geopolitique-l-estonie-va-fermer-sa-frontiere-avec-la-russie-apres-une-tentative-de-sabotage_287433",
+        "url": "https://www.courrierinternational.com/article/politique-cinq-pays-de-l-ue-vont-envoyer-au-rwanda-les-migrants-deboutes-de-leur-demande-d-asile_287541",
         "type": "etranger",
         "groupe_media": {
           "nom": "Groupe Le Monde",
@@ -41,348 +46,257 @@
         }
       }
     ],
-    "lien": "https://vm.ee/en/news/foreign-minister-tsahkna-estonia-close-road-border-crossings-russia"
+    "lien": null
   },
   "france": [
     {
-      "titre": "Cyberattaque Maileva : 22 millions de données dérobées",
+      "titre": "Condamnation définitive pour Gérard Depardieu",
       "rubrique": "societe",
-      "resume": "Une filiale de La Poste a été victime d'un vol massif de données d'identification (noms, adresses). La Brigade de lutte contre la cybercriminalité (BL2C) a été saisie par le parquet de Paris (franceinfo, BFM TV).",
+      "resume": "L'acteur a renoncé à son procès en appel pour les agressions sexuelles commises sur le tournage des « Volets verts ». Sa peine de 18 mois de prison avec sursis est désormais définitive et s'accompagne d'une inscription au fichier des auteurs d'infractions sexuelles .",
       "sources": [
         {
-          "nom": "La Poste Groupe",
-          "url": "https://www.lapostegroupe.com/fr/actualite/cyberattaque-de-maileva-ce-quil-faut-savoir",
-          "type": "institutionnel",
-          "groupe_media": null
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/161126/gerard-depardieu-definitivement-condamne-pour-agressions-sexuelles",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Mediapart",
+            "proprietaire": "Fonds pour une presse libre",
+            "type_proprietaire": "fondation",
+            "orientation": "gauche"
+          }
         },
         {
           "nom": "La Croix",
-          "url": "https://www.la-croix.com/une-filiale-de-la-poste-victime-d-un-vol-de-donnees-massif-22-millions-de-personnes-concernees-20261114",
+          "url": "https://www.la-croix.com/condamne-pour-agressions-sexuelles-gerard-depardieu-renonce-a-etre-rejuge-20261115",
           "type": "mainstream",
           "groupe_media": null
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/faits-divers/justice-proces/guerre-de-territoire-barbarie-aveux-surprises-ce-que-l-on-a-appris-au-proces-de-l-assassinat-du-frere-d-amine-kessaci_8278823.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream"
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/le-monde-qui-bouge/video-le-monde-qui-bouge-la-revue-de-presse-etats-unis-une-suspension-massive-du-trafic-aerien-16-11_VN-202611160117.html",
-          "type": "mainstream"
-        }
-      ],
-      "lien": "https://www.lapostegroupe.com/fr/actualite/cyberattaque-de-maileva-ce-quil-faut-savoir"
-    },
-    {
-      "titre": "Réouverture sous tension du lycée Nelson-Mandela à Nantes",
-      "rubrique": "societe",
-      "resume": "L'établissement, symbole des débordements lors des mouvements lycéens d'octobre, rouvre ce lundi en présence du ministre de l'Éducation. Les travaux de réparation du hall incendié dureront encore plusieurs mois (BFM TV, franceinfo).",
-      "sources": [
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/le-ministre-de-l-education-nationale-se-rend-a-nantes-lundi-pour-la-reouverture-du-lycee-nelson-mandela-en-partie-incendie-le-1er-octobre_8283644.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-colere-lyceenne-le-lycee-nelson-mandela-de-nantes-incendie-debut-octobre-va-rouvrir-ses-portes_VN-202611160102.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
         }
       ],
       "lien": null
     },
     {
-      "titre": "Édouard Philippe lance son plan logement pour 2027",
+      "titre": "Mobilisation nationale du 17 novembre",
       "rubrique": "politique",
-      "resume": "Le candidat Horizons promet la construction de 4 millions de logements en dix ans. Il prône une simplification des normes et une fiscalité avantageuse pour relancer le secteur (Le Figaro, Libération).",
-      "sources": [
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/elections/presidentielles/programmes/presidentielle-2027-edouard-philippe-promet-de-construire-4-millions-de-logements-en-dix-ans-pour-faire-baisser-les-prix-20261115",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/politique/elections/edouard-philippe-veut-batir-quatre-millions-de-logements-en-dix-ans-20261115_TJLSGMJ45VDJZJ5ZGOYMWCTI3E/",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
+      "resume": "Une journée de grève et de manifestations touche la fonction publique, l'Éducation nationale et les transports. Les syndicats (CFDT, UNSA réclament des hausses de salaires face à l'inflation et rejettent les dernières propositions budgétaires du gouvernement.",
+      "sources": [],
+      "lien": null
+    },
+    {
+      "titre": "Renault : 1 000 suppressions de postes de « cols blancs »",
+      "rubrique": "economie",
+      "resume": "Le constructeur automobile annonce une restructuration majeure pour affronter la concurrence chinoise. Si 2 000 recrutements sont prévus en usine (souvent via la pérennisation d'intérimaires), 1 000 postes administratifs et d'ingénierie seront supprimés via des départs volontaires.",
+      "sources": [],
       "lien": null
     }
   ],
   "monde": [
     {
-      "titre": "Marée humaine à Prague pour l'audiovisuel public",
-      "pays": "République tchèque",
-      "resume": "Jusqu'à 400 000 personnes ont manifesté contre la réforme du gouvernement d'Andrej Babis. Le projet vise à supprimer la redevance pour un financement direct par l'État, menaçant l'indépendance des médias (RFI, France 24, Libération).",
+      "titre": "Crise ouverte à la Francophonie",
+      "pays": "Cambodge / RDC / Rwanda",
+      "resume": "L'élection du secrétaire général de l'OIF a été reportée d'un an à Phnom Penh, faute de consensus. Le blocage résulte des tensions extrêmes entre la RDC et le Rwanda, Kinshasa ayant menacé de quitter le sommet si la candidate rwandaise était reconduite.",
       "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/europe/20261115-r%C3%A9publique-tch%C3%A8que-400-000-manifestants-%C3%A0-prague-contre-la-r%C3%A9forme-de-l-audiovisuel-public",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/moyen-orient/20261116-israel-gadi-eisenkot-estime-benjamin-netanyahu-ne-peut-pas-rester-tete-du-gouvernement-legislatives-reportage-partis-arabes-police-plainte-enquete",
-          "type": "mainstream"
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/sports/football/ligues-des-nations-les-bleus-par-une-toute-petite-porte-20261115_NZVH5XN6VNAH7ENH33T7CWP5DQ/",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "José Maria Neves réélu au Cap-Vert",
-      "pays": "Cap-Vert",
-      "resume": "Le président sortant l'emporte dès le premier tour avec plus de 63 % des suffrages. Ce scrutin confirme la stabilité démocratique exceptionnelle de l'archipel lusophone (Le Monde, Ouest-France).",
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/afrique/article/2026/11/16/au-cap-vert-jose-maria-neves-reelu-president-des-le-premier-tour_6811072_3212.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
         {
           "nom": "France 24",
-          "url": "https://www.france24.com/fr/afrique/20261115-pr%C3%A9sidentielle-au-cap-vert-d%C3%A9but-du-d%C3%A9pouillement-apr%C3%A8s-une-journ%C3%A9e-%C3%A9lectorale-calme",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261116-francophonie-face-%C3%A0-l-impasse-l-%C3%A9lection-du-secr%C3%A9taire-g%C3%A9n%C3%A9ral-repouss%C3%A9e-d-un-an",
           "type": "mainstream",
           "groupe_media": null
         },
         {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/sport/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-suivre-le-match-entre-lallemagne-et-les-pays-bas-9c92bc68-e136-11f1-b029-43a761592972?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream"
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/international/la-francophonie-rattrapee-par-les-tensions-entre-le-rwanda-et-la-republique-democratique-du-congo-20261116",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
       "lien": null
     },
     {
-      "titre": "Les Houthis prennent le contrôle du détroit de Bab al-Mandab",
-      "pays": "Yémen",
-      "resume": "Le retrait des forces soutenues par l'Arabie saoudite laisse le contrôle de ce verrou stratégique de la mer Rouge aux rebelles Houthis, accentuant la menace sur le commerce mondial (NYT World, BBC News).",
-      "sources": [
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
+      "titre": "L'Estonie ferme sa frontière avec la Russie",
+      "pays": "Estonie",
+      "resume": "Tallinn fermera tous ses points de passage frontaliers avec la Russie au 1er décembre. Cette décision fait suite à une tentative de sabotage contre une usine de drones, attribuée par les services estoniens au renseignement militaire russe (GRU).",
+      "sources": [],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Revalorisation du Smic : un coup de pouce ou un mirage ?",
-    "rubrique": "economie",
-    "contexte": "Le gouvernement a annoncé une hausse du Smic au 1er décembre 2026. Cette mesure concerne 12 % des salariés du privé dans un contexte de forte inflation.",
+    "sujet": "Débat présidentiel 2027 sur la vie chère",
+    "rubrique": "politique",
+    "contexte": "Le 16 novembre, les principaux candidats déclarés ou pressentis pour 2027 (Attal, Le Pen, Mélenchon, Glucksmann, Retailleau) se sont affrontés lors d'un débat télévisé sur le pouvoir d'achat organisé aux Restos du Cœur.",
     "couvertures": [
       {
-        "source": "Les Décodeurs (Le Monde)",
-        "type": "fact-check",
-        "angle": "Explication pédagogique des mécanismes de calcul et des impacts sur la compétitivité.",
+        "source": "Le Figaro",
+        "type": "mainstream",
+        "angle": "Focus sur les divergences fiscales et le coût des programmes.",
         "ton": "factuel",
-        "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/13/tout-comprendre-au-smic-le-salaire-minimum-que-le-gouvernement-va-revaloriser_6809379_4355770.html",
-        "citation_cle": "Les variations de leur rémunération ne sont pas sans effet sur la compétitivité des entreprises.",
-        "auteur": "Les Décodeurs",
-        "proprietaire_contexte": "Groupe Le Monde (Niel/Kretinsky/Pigasse)",
-        "orientation_source": "centre-droit",
+        "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-impots-logement-associations-ce-qu-il-faut-retenir-du-grand-debat-entre-cinq-candidats-sur-la-vie-chere-20261116",
+        "citation_cle": "Jean-Luc Mélenchon, Raphaël Glucksmann, Gabriel Attal, Bruno Retailleau et Marine Le Pen ont croisé le fer sur les enjeux de solidarité.",
+        "auteur": "Rédaction",
+        "proprietaire_contexte": "Groupe Dassault",
+        "orientation_source": "Droite",
         "groupe_media": null
       },
       {
-        "source": "Alternatives Économiques",
+        "source": "Le Monde",
         "type": "mainstream",
-        "angle": "Critique de l'insuffisance de la hausse face à l'inflation automnale.",
-        "ton": "critique",
-        "url": "https://www.alternatives-economiques.fr/pourquoi-le-coup-de-pouce-au-smic-risque-de-disparaitre-avant-meme-d-entrer-en-vigueur_16-11-2026",
-        "citation_cle": "Le coup de pouce est si faible que la hausse des prix de cet automne est déjà en train de l'effacer.",
-        "auteur": "Vincent Grimault",
-        "proprietaire_contexte": "SCOP (Coopérative de salariés)",
-        "orientation_source": "centre-gauche",
+        "angle": "Analyse des propositions techniques sur le SMIC et le logement.",
+        "ton": "neutre",
+        "url": "https://www.lemonde.fr/politique/article/2026/11/17/impots-logement-smic-ce-qu-il-faut-retenir-du-debat-entre-candidats-a-la-presidentielle_6812895_823448.html",
+        "citation_cle": "La vie chère et le pouvoir d’achat, préoccupation majeure des Françaises et Français.",
+        "auteur": "Rédaction",
+        "proprietaire_contexte": "Niel / Kretinsky / Pigasse",
+        "orientation_source": "Centre-droit libéral",
         "groupe_media": {
-          "nom": "Alternatives Économiques",
-          "proprietaire": "SCOP (coopérative de salariés)",
-          "type_proprietaire": "cooperative",
-          "orientation": "centre-gauche"
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
+      },
+      {
+        "source": "France 24",
+        "type": "mainstream",
+        "angle": "Mise en avant du lieu symbolique (Restos du Cœur) et de l'absence d'Édouard Philippe.",
+        "ton": "factuel",
+        "url": "https://www.france24.com/fr/france/20261116-imp%C3%B4ts-logement-smic-les-candidats-%C3%A0-la-pr%C3%A9sidentielle-d%C3%A9battent-de-leurs-propositions",
+        "citation_cle": "Les candidats ont débattu sur les inégalités, le pouvoir d’achat et la solidarité.",
+        "auteur": "Rédaction",
+        "proprietaire_contexte": "État français",
+        "orientation_source": "Institutionnel",
+        "groupe_media": null
       }
     ],
-    "analyse_coherence": "Le traitement médiatique de la revalorisation du Smic révèle une fracture classique entre l'approche macro-économique libérale et l'approche par le pouvoir d'achat social. Les sources mainstream liées à de grands groupes industriels (comme Le Monde) insistent sur le coût pour les entreprises et la 'compétitivité', présentant la hausse comme une variable d'ajustement technique. À l'inverse, une source coopérative comme Alternatives Économiques dénonce une mesure en trompe-l'œil : si le geste politique existe (première hausse supérieure à l'inflation légale depuis 14 ans), sa faiblesse réelle le rend caduc face à la réalité des prix. On observe ici un double standard d'analyse : là où les aides aux entreprises sont souvent traitées comme des 'investissements nécessaires', la revalorisation du salaire minimum est quasi systématiquement cadrée comme un 'risque' pour l'économie dans la presse dominante.",
+    "analyse_coherence": "L'analyse des couvertures révèle un consensus sur le diagnostic : la « vie chère » est le pivot de la campagne 2027. Cependant, on observe une divergence de traitement sur les solutions. Le Figaro insiste sur le clivage fiscal, présentant implicitement les propositions de gauche comme des menaces budgétaires. Le Monde adopte une approche plus technocratique, se focalisant sur les leviers économiques (sans trancher la viabilité politique. France 24 souligne la dimension symbolique du lieu, rappelant l'urgence sociale. Le double standard est ici subtil : alors que la pauvreté est le thème central, les médias mainstream (Le Figaro, Le Monde tendent à transformer un enjeu de survie sociale en un pur débat de gestion comptable, évacuant parfois la violence de la précarité vécue par les bénéficiaires des Restos du Cœur, pourtant hôtes du débat.",
     "biais_detectes": [
-      "Cadrage par le risque économique (compétitivité)",
-      "Invisibilisation de la perte de pouvoir d'achat réelle"
+      "Technocratisation des enjeux sociaux",
+      "Focalisation sur les équilibres budgétaires au détriment de l'urgence sociale"
     ],
-    "ce_quil_faut_retenir": "La hausse du Smic au 1er décembre est historiquement inédite par son calcul, mais restera imperceptible pour les salariés en raison de l'inflation."
+    "ce_quil_faut_retenir": "Le débat fige les positions : blocage des prix et hausse du SMIC à gauche, baisse des charges et réduction des dépenses publiques à droite/centre. La pauvreté devient le premier terrain de bataille électoral."
   },
-  "regard_etranger": [
-    {
-      "source": "The Guardian",
-      "pays": "Royaume-Uni",
-      "titre": "La députée Helen Haines sort de l'hôpital après son amputation",
-      "titre_original": "MP Helen Haines’s first words since leaving hospital",
-      "angle": "Focus sur la résilience d'une figure politique victime d'une agression violente en Australie.",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/16/mp-helen-haines-out-of-hospital-after-attack-leg-amputation-ntwnfb",
-      "groupe_media": {
-        "nom": "Scott Trust",
-        "proprietaire": "Scott Trust Limited",
-        "type_proprietaire": "fondation",
-        "orientation": "centre-gauche"
-      }
-    },
-    {
-      "source": "Al Jazeera",
-      "pays": "Qatar",
-      "titre": "Le Pape Léo en hélicoptère militaire au Pérou",
-      "titre_original": "Pope Leo flies to mass in the Papacoptero",
-      "angle": "Étonnement devant l'usage de moyens militaires pour un déplacement papal en Amérique Latine.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/pope-leo-flies-to-mass-in-the-papacoptero",
-      "groupe_media": {
-        "nom": "Al Jazeera Media Network",
-        "proprietaire": "État du Qatar",
-        "type_proprietaire": "etat",
-        "orientation": "variable"
-      }
-    }
-  ],
+  "regard_etranger": [],
   "chiffre_du_jour": {
     "valeur": "22 millions",
-    "contexte": "Nombre de personnes dont les données personnelles (nom, adresse) ont été compromises lors de la cyberattaque contre Maileva, filiale de La Poste.",
-    "source": "La Poste Groupe",
-    "source_url": "https://www.lapostegroupe.com/fr/actualite/cyberattaque-de-maileva-ce-quil-faut-savoir"
+    "contexte": "Nombre de Français dont les données personnelles (nom, prénom, adresse) ont été exposées suite à la cyberattaque contre Maileva, filiale de La Poste.",
+    "source": "Next",
+    "source_url": "https://next.ink/267710/cyberattaque-sur-maileva-filiale-de-la-poste-22-millions-de-personnes-exposees/"
   },
   "a_surveiller": [
     {
-      "date": "2026-12-01",
-      "evenement": "Fermeture effective de la frontière Estonie-Russie",
-      "type": "autre",
-      "lien": "https://vm.ee/en/news/foreign-minister-tsahkna-estonia-close-road-border-crossings-russia"
+      "date": "2026-11-20",
+      "evenement": "Fin du procès des policiers dans l'affaire Michel Zecler",
+      "type": "audition",
+      "lien": "https://pressejudiciaire.fr/evenement/proces-de-trois-policiers-pour-des-violences-en-reunion-et-faux-en-ecriture-a-lencontre-de-michel-zeckler-cour-criminelle-paris/"
     },
     {
-      "date": "2026-12-01",
-      "evenement": "Entrée en vigueur de la revalorisation du Smic",
-      "type": "echeance_economique",
-      "lien": null
+      "date": "2026-11-23",
+      "evenement": "Signature de l'accord Danemark-Rwanda sur les hubs de retour",
+      "type": "echeance",
+      "lien": "https://uim.dk/nyhedsarkiv/2026/november/rwanda-and-five-eu-member-states-are-jointly-exploring-the-possibility-of-establishing-a-return-hub-in-rwanda-based-on-an-equal-and-mutually-beneficial-partnership/"
+    },
+    {
+      "date": "2026-11-26",
+      "evenement": "Recours de Gérard Depardieu dans l'affaire Charlotte Arnould",
+      "type": "audition",
+      "lien": "https://pressejudiciaire.fr/evenement/examen-du-recours-de-gerard-depardieu-contre-son-renvoi-en-proces-pour-les-viols-de-charlotte-arnould-cour-criminelle-paris/"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Suisse : le secret bancaire utilisé contre la presse",
-      "rubrique": "ia",
-      "resume": "Le journaliste d'investigation Lukas Hässig a été inculpé à Zurich pour violation du secret bancaire après avoir révélé un scandale financier majeur. Cette procédure est jugée inédite par les observateurs de la liberté de la presse (Les Décodeurs, SRF).",
+      "titre": "Brest : la police réquisitionne les trombinoscopes des lycées",
+      "rubrique": "societe",
+      "resume": "Dans le cadre d'enquêtes sur des violences urbaines, la police de Brest a obtenu les photos de 4 200 élèves de la cité scolaire de Kérichen. Le procureur nie tout fichage, mais les familles s'inquiètent d'une dérive de surveillance des mineurs.",
       "sources": [
         {
-          "nom": "Les Décodeurs",
-          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/16/en-suisse-l-inculpation-inedite-d-un-journaliste-via-la-loi-sur-les-banques-nourrit-des-inquietudes_6811403_4355770.html",
-          "type": "fact-check"
+          "nom": "Politis",
+          "url": "https://www.politis.fr/articles/2026/11/info-politis-derriere-le-scandale-des-trombinoscopes-a-brest-la-collaboration-a-bas-bruit-entre-les-chefs-detablissement-et-forces-de-lordre/",
+          "type": "investigation"
         },
         {
-          "nom": "Tribunal fédéral suisse",
+          "nom": "UNSA Éducation",
+          "url": "https://www.unsa-education.com/articles-regional-/communique-unsa-education-bretagne-sur-la-situation-des-lycees-brestois/",
+          "type": "institutionnel"
+        }
+      ],
+      "pourquoi_signal": "Ce cas révèle une collaboration institutionnelle croissante entre l'Éducation nationale et la police, transformant les outils pédagogiques en outils de fichage policier."
+    },
+    {
+      "titre": "Offensive des fast-foods en zone rurale",
+      "rubrique": "economie",
+      "resume": "En Ardèche, des projets d'implantation de McDonald's et Burger King (Rosières, Ruoms) provoquent la fronde d'agriculteurs et d'apiculteurs qui dénoncent l'artificialisation des sols et la malbouffe.",
+      "sources": [
+        {
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/C-est-ca-le-progres-McDonald-s-et-Burger-King-a-l-assaut-des-campagnes",
+          "type": "investigation"
+        },
+        {
+          "nom": "Confédération Paysanne Ardèche",
           "url": null,
           "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "C'est un précédent dangereux où une loi commerciale (secret bancaire) est détournée pour criminaliser le journalisme d'intérêt public."
-    },
-    {
-      "titre": "Les dérives des 'Écoles de production'",
-      "rubrique": "societe",
-      "resume": "Une enquête pointe les zones d'ombre de ces établissements privés reconnus par l'État : travail gratuit des élèves sous couvert de pédagogie, failles de sécurité et financement public opaque (Mediapart).",
-      "sources": [
-        {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/151126/travail-gratuit-securite-des-eleves-cout-pour-l-etat-les-ecoles-de-production-collectionnent-les-mauvais-p",
-          "type": "investigation"
-        }
-      ],
-      "pourquoi_signal": "Le modèle est vanté par le gouvernement comme solution au décrochage, mais masque une forme d'exploitation de main-d'œuvre mineure non rémunérée."
+      "pourquoi_signal": "L'expansion agressive des géants du fast-food dans les campagnes est un signal de la fragilisation des commerces locaux et des terres agricoles, souvent occulté par l'argument de l'emploi."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "États-Unis : la fin du 'chèque en blanc' à Israël ?",
-      "rubrique": "international",
-      "resume": "Après les midterms, une nouvelle majorité au Congrès remet en cause le soutien militaire inconditionnel à Tel-Aviv, exigeant des contrôles sur l'utilisation des 3,8 milliards de dollars d'aide annuelle.",
+      "titre": "L'omerta policière au cœur du procès Zecler",
+      "rubrique": "societe",
+      "resume": "Le procès des policiers ayant frappé Michel Zecler met en lumière un système de solidarité interne confinant à l'omerta. Des collègues témoins disent n'avoir « rien vu » malgré les vidéos accablantes.",
       "axes_concernes": [
-        "droit_international",
-        "imperialisme"
+        "justice_sociale",
+        "liberte_expression"
       ],
-      "analyse": "Cette évolution est cruciale. Pendant des décennies, l'aide américaine a été un totem intouchable. Que le débat s'ouvre au sein même de l'allié principal d'Israël montre que l'isolement diplomatique de l'État hébreu, lié à sa politique de colonisation et de guerre, atteint un point de rupture systémique aux USA.",
+      "analyse": "Ce procès est crucial car il ne juge pas seulement des violences individuelles, mais la capacité de l'institution policière à s'auto-critiquer. La persistance de l'omerta, relevée par Mediapart et Libération, interroge la loyauté des agents envers la loi plutôt qu'envers leur corps, une menace directe pour l'État de droit.",
       "sources": [
         {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/geopolitique-a-washington-les-midterms-signent-la-fin-du-soutien-total-a-israel_286223",
-          "type": "etranger"
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/161126/au-proces-des-policiers-qui-ont-tabasse-michel-zecler-des-collegues-amnesiques-sans-regrets-ni-compassion",
+          "type": "investigation"
         },
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/international/151126/aide-militaire-israel-les-lignes-bougent-aux-etats-unis",
-          "type": "investigation"
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/societe/police-justice/lidee-cest-detre-solidaire-a-tout-prix-au-proces-de-lagression-de-michel-zecler-lancien-brigadier-chef-denonce-lomerta-dans-la-police-20261116_NNXM7MCDMNBKJFRKNCRORR5RAY/",
+          "type": "mainstream"
+        }
+      ]
+    },
+    {
+      "titre": "Lobbying massif pour sauver les PFAS",
+      "rubrique": "science",
+      "resume": "Le lobby des fluoropolymères manœuvre intensément auprès de la Commission européenne pour exempter les « polluants éternels » de toute interdiction, malgré les risques cancérogènes avérés.",
+      "axes_concernes": [
+        "ecologie_sociale",
+        "droit_international"
+      ],
+      "analyse": "La possible capitulation de la Commission européenne face aux lobbies industriels sur les PFAS est un signal d'alarme pour la santé publique. Quand le profit industriel prime sur le principe de précaution sanitaire (risque de cancer du sein accru de 93%), l'équité sociale est bafouée : les citoyens subissent la pollution tandis que les entreprises conservent leurs marges.",
+      "sources": [
+        {
+          "nom": "Les Décodeurs",
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/17/polluants-eternels-comment-le-lobby-des-fluoropolymeres-man-uvre-pour-sauver-ses-pfas-d-une-interdiction-europeenne_6812892_4355770.html",
+          "type": "fact-check"
+        },
+        {
+          "nom": "Futura Sciences",
+          "url": "https://www.futura-sciences.com/sante/actualites/cancer-sein-pfas-deux-polluants-eternels-associes-hausse-risque-cancer-sein-agressif-pouvant-atteindre-93-139374/#xtor%3DRSS-8",
+          "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-11-16",
-  "genere_a": "2026-11-16T05:35:23.256Z",
+  "date": "2026-11-17",
+  "genere_a": "2026-11-17T05:36:04.663Z",
   "meta": {
-    "nb_articles_analyses": 504,
-    "nb_topics": 150,
-    "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 44,
-    "sources_francaises": 360,
-    "sources_etrangeres": 144,
+    "nb_articles_analyses": 688,
+    "nb_topics": 220,
+    "nb_topics_selectionnes": 16,
+    "nb_articles_dans_selection": 53,
+    "sources_francaises": 462,
+    "sources_etrangeres": 226,
     "rubriques_couvertes": [
       "international",
       "societe",
-      "politique"
+      "politique",
+      "economie"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"

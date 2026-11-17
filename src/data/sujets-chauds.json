@@ -1,280 +1,47 @@
 {
-  "date": "2026-11-16",
-  "genere_a": "2026-11-16T05:36:09.325Z",
+  "date": "2026-11-17",
+  "genere_a": "2026-11-17T05:36:48.720Z",
   "sujets_actifs": [
     {
-      "titre": "Démission de Jensen Huang et scandale d'espionnage chez Nvidia",
-      "slug": "nvidia-jensen-huang-demission-espionnage",
-      "rubrique": "tech",
+      "titre": "Débat présidentiel 2027 : affrontement sur le pouvoir d'achat et la solidarité",
+      "slug": "debat-presidentiel-2027-pouvoir-achat-solidarite",
+      "rubrique": "politique",
       "tldr": [
-        "Jensen Huang démissionne suite à des révélations sur des relations extra-conjugales et des soupçons d'espionnage.",
-        "Plus de 150 000 signataires, dont Elon Musk, demandent son retour via une lettre ouverte.",
-        "L'action Nvidia et l'économie américaine font face à une incertitude majeure due à cette vacance de pouvoir."
+        "Premier grand débat télévisé opposant Attal, Le Pen, Mélenchon, Glucksmann et Retailleau.",
+        "Marine Le Pen confirme l'arrêt de l'aide financière à l'Ukraine en cas d'élection.",
+        "Divergences majeures sur la hausse du SMIC et la taxation des héritages."
       ],
-      "resume": "Le géant des puces IA, Nvidia, traverse une crise de gouvernance sans précédent après la démission de son cofondateur emblématique, Jensen Huang. Le départ a été précipité par la révélation de relations extra-conjugales avec une cadre chinoise de la firme Megaspeed, Alice Huang, soulevant des craintes d'espionnage industriel au profit de Pékin (Al Jazeera). Alors que le NYT souligne que l'économie américaine est désormais structurellement dépendante de Nvidia, un mouvement de soutien massif s'organise. Environ 18% des salariés du groupe et des figures comme Elon Musk réclament une 'procédure équitable' et le retour du dirigeant (BFM TV). Cette instabilité survient alors que les États-Unis tentent de durcir les règles d'exportation de puces vers la Chine.",
-      "contexte_historique": "Nvidia, fondée en 1993, est passée du statut de fabricant de cartes graphiques pour joueurs à celui de pilier de la révolution IA, dépassant les 3000 milliards de dollars de capitalisation en 2024. Ce type de crise rappelle l'éviction de Steve Jobs d'Apple en 1985 ou, plus récemment, le limogeage temporaire de Sam Altman d'OpenAI en 2023, illustrant la fragilité des géants technologiques ultra-dépendants d'un fondateur charismatique.",
+      "resume": "Le premier grand débat de la campagne présidentielle 2027 a réuni cinq candidats (Gabriel Attal, Marine Le Pen, Jean-Luc Mélenchon, Raphaël Glucksmann et Bruno Retailleau) sur LCI et TF1. Les échanges, d'une durée de trois heures, se sont cristallisés sur la « vie chère », le logement et la précarité étudiante. Marine Le Pen a provoqué une vive polémique en assumant sa volonté de cesser l'aide financière à l'Ukraine, invoquant l'état des finances publiques (20 Minutes). Jean-Luc Mélenchon et Marine Le Pen se sont durement opposés sur la hausse du SMIC, tandis que Gabriel Attal a défendu le bilan actuel face aux propositions de blocage des marges de la gauche (Le Monde).",
+      "contexte_historique": "Ce débat intervient dix ans jour pour jour après l'annonce de la première candidature d'Emmanuel Macron en 2016 (BFM TV). Il marque la fin de l'ère Philippe après son retrait de la course, rappelant les recompositions politiques de 1995 après le retrait de Jacques Delors. Le droit français impose une équité de temps de parole, bien que la campagne officielle ne commence qu'en 2027.",
       "implications": [
-        "Risque de volatilité extrême sur les marchés financiers mondiaux, Nvidia étant un moteur du S&P 500.",
-        "Possible durcissement des enquêtes de sécurité nationale sur les liens entre les dirigeants de la Silicon Valley et les entreprises technologiques chinoises."
+        "Clarification des lignes diplomatiques : rupture actée du RN avec le consensus européen sur le soutien à Kiev.",
+        "Fracture à gauche : tensions visibles entre la ligne LFI et celle de Raphaël Glucksmann sur la taxation des 'méga-héritages'."
       ],
       "chronologie": [
         {
-          "date": "2026-11-16",
-          "texte": "Megaspeed confirme qu'Alice Huang a quitté l'entreprise en août 2025.",
-          "source": "Al Jazeera"
-        },
-        {
-          "date": "2026-11-16",
-          "texte": "Lancement d'une pétition de 150 000 signatures pour le retour de Huang.",
+          "date": "2026-11-17",
+          "texte": "Marine Le Pen détaille sa réforme des retraites et confirme le retrait de l'aide à l'Ukraine.",
           "source": "BFM TV"
         },
         {
-          "date": "2026-11-08",
-          "texte": "Annonce officielle de la démission de Jensen Huang.",
-          "source": "NYT World"
+          "date": "2026-11-16",
+          "texte": "Premier débat télévisé à cinq sur LCI/TF1.",
+          "source": "Le Figaro"
+        },
+        {
+          "date": "2026-11-16",
+          "texte": "Emmanuel Macron publie un message de bilan pour les 10 ans de son engagement.",
+          "source": "BFM TV"
         }
       ],
       "couvertures": [
-        {
-          "source": "NYT World",
-          "type": "etranger",
-          "angle": "Analyse de la dépendance systémique de l'économie américaine envers une seule entreprise et son leader.",
-          "ton": "factuel",
-          "url": "https://www.nytimes.com/2026/11/15/world/nvidia-jensen-huang-ai-chips.html",
-          "citation_cle": "L'économie américaine a accroché son wagon à Nvidia et Jensen Huang.",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Focus sur les connexions chinoises et les implications de sécurité nationale.",
-          "ton": "neutre",
-          "url": "https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss",
-          "citation_cle": "L'exécutif technologique chinois lié romantiquement à l'ex-PDG a quitté son poste en 2025.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "\"Jensen Huang mérite une procédure équitable\": Elon Musk et le fondateur d'Uber figurent parmi plus de 150.000 signataires pour le retour du directeur général de Nvidia",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/economie/entreprises/jensen-huang-merite-une-procedure-equitable-elon-musk-et-le-fondateur-d-uber-figurent-parmi-plus-de-150-000-signataires-pour-le-retour-du-directeur-general-de-nvidia_AD-202611160110.html",
-          "citation_cle": "Parmi les signataires de cette lettre ouverte, 7.500 se déclarent salariés de Nvidia, soit 18% des effectifs du groupe, ",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Des données stratégiques sur les puces Blackwell ont-elles été effectivement transférées ?",
-        "Qui sera nommé pour assurer l'intérim de façon permanente ?"
-      ],
-      "sources": [
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/11/15/world/nvidia-jensen-huang-ai-chips.html",
-          "type": "presse",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss",
-          "type": "presse",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/economie/entreprises/jensen-huang-merite-une-procedure-equitable-elon-musk-et-le-fondateur-d-uber-figurent-parmi-plus-de-150-000-signataires-pour-le-retour-du-directeur-general-de-nvidia_AD-202611160110.html",
-          "type": "presse",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-11-08"
-    },
-    {
-      "titre": "L'Estonie ferme sa frontière avec la Russie après un sabotage du GRU",
-      "slug": "estonie-frontiere-russie-sabotage-gru",
-      "rubrique": "international",
-      "tldr": [
-        "Fermeture totale des postes-frontières estoniens suite à une tentative d'incendie criminel.",
-        "Huit suspects liés au renseignement militaire russe (GRU) ont été interpellés près de Tallinn.",
-        "L'Estonie active un plan de 'gouvernement numérique' délocalisé en cas d'invasion."
-      ],
-      "resume": "Tallinn a annoncé la fermeture immédiate de tous ses postes-frontières avec la Russie après l'interpellation de huit individus soupçonnés de préparer un sabotage pour le compte du GRU. La cible était un fabricant local de drones essentiels à l'effort de guerre ukrainien (Courrier international). Cette escalade s'inscrit dans une série d'actions hybrides russes en Europe. En réponse, l'Estonie a finalisé un dispositif permettant de faire fonctionner l'intégralité de ses services d'État depuis le 'cloud' à l'étranger, garantissant la continuité démocratique même en cas d'occupation physique du territoire (Politico EU).",
-      "contexte_historique": "L'Estonie est le pays le plus numérisé au monde (e-Estonia). Depuis les cyberattaques massives de 2007 attribuées à la Russie, le pays a développé des 'ambassades de données' (notamment au Luxembourg) pour protéger ses registres nationaux. La fermeture de la frontière rappelle les mesures similaires prises par la Finlande en 2023-2024 face à l'instrumentalisation des flux migratoires par Moscou.",
-      "implications": [
-        "Rupture totale des échanges terrestres entre l'UE et la Russie via la voie balte.",
-        "Augmentation du niveau d'alerte de l'OTAN sur le flanc est face aux opérations de sabotage."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-11-16",
-          "texte": "Annonce de la fermeture de tous les postes-frontières.",
-          "source": "Ouest-France"
-        },
-        {
-          "date": "2026-11-14",
-          "texte": "Interpellation de huit résidents lettons soupçonnés de sabotage près de Tallinn.",
-          "source": "Courrier international"
-        },
-        {
-          "date": "2026-11-16",
-          "texte": "Présentation du plan de gouvernement numérique délocalisé.",
-          "source": "Politico EU"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Courrier international",
-          "type": "etranger",
-          "angle": "Focus sur les détails de l'enquête de sabotage et le lien avec le renseignement russe.",
-          "ton": "factuel",
-          "url": "https://www.courrierinternational.com/article/geopolitique-l-estonie-va-fermer-sa-frontiere-avec-la-russie-apres-une-tentative-de-sabotage_287433",
-          "citation_cle": "Ils sont soupçonnés d’avoir voulu incendier les locaux d’un fabricant de drones.",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "Politico EU",
-          "type": "etranger",
-          "angle": "Analyse technique et politique de la résilience numérique estonienne.",
-          "ton": "factuel",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-brussels-is-learning-to-spot-a-spy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "citation_cle": "Tallinn prépare son gouvernement numérique pour être géré depuis l'étranger.",
-          "groupe_media": {
-            "nom": "Axel Springer / KKR",
-            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "source": "Ouest-France",
-          "type": "mainstream",
-          "angle": "Guerre en Ukraine : une centaine de drones interceptés à Moscou, fermeture de postes-frontières… Le point sur la nuit",
-          "ton": "factuel",
-          "url": "https://www.ouest-france.fr/europe/ukraine/guerre-en-ukraine-une-centaine-de-drones-interceptes-a-moscou-fermeture-de-postes-frontieres-le-point-sur-la-nuit-069427aa-e146-11f1-9a29-f4bab172af08?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "citation_cle": "La défense aérienne russe a intercepté une centaine de drones qui visaient Moscou dans la nuit, a déclaré lundi le maire",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "La durée de la fermeture de la frontière est-elle indéterminée ?",
-        "D'autres cellules de sabotage sont-elles actives dans les pays baltes ?"
-      ],
-      "sources": [
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/geopolitique-l-estonie-va-fermer-sa-frontiere-avec-la-russie-apres-une-tentative-de-sabotage_287433",
-          "type": "presse",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Politico EU",
-          "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-brussels-is-learning-to-spot-a-spy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "type": "presse",
-          "groupe_media": {
-            "nom": "Axel Springer / KKR",
-            "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/sport/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-suivre-le-match-entre-lallemagne-et-les-pays-bas-9c92bc68-e136-11f1-b029-43a761592972?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "presse",
-          "groupe_media": null
-        }
-      ],
-      "premiere_apparition": "2026-11-16"
-    },
-    {
-      "titre": "Débat présidentiel 2027 : Premier affrontement sans Édouard Philippe",
-      "slug": "debat-presidentiel-2027-restos-du-coeur",
-      "rubrique": "politique",
-      "tldr": [
-        "Cinq candidats majeurs débattent ce lundi sur TF1/LCI au profit des Restos du Cœur.",
-        "Édouard Philippe est le grand absent, refusant la logique de 'primaire' de la droite et du centre.",
-        "Le débat oppose Marine Le Pen, Jean-Luc Mélenchon, Raphaël Glucksmann, Bruno Retailleau et Gabriel Attal."
-      ],
-      "resume": "La campagne présidentielle de 2027 franchit une étape symbolique ce lundi avec un débat télévisé inédit organisé dans un entrepôt des Restos du Cœur. Si l'affiche réunit les poids lourds des principaux blocs (l'absence d'Édouard Philippe cristallise les tensions au centre-droit. Le maire du Havre, bien qu'acceptant de 'discuter' avec ses partenaires, refuse catégoriquement toute forme de primaire ou de sélection préalable (RFI. Pendant ce temps, Marine Le Pen fait face aux limites de sa stratégie de 'dédiabolisation', avec des sondages montrant un enrayement de sa progression dans l'opinion (Le Monde.",
-      "contexte_historique": "L'organisation d'un débat si tôt (plus de 16 mois avant l'échéance) rappelle la précocité de la campagne de 2017. Le refus d'Édouard Philippe de se plier à une sélection collective évoque la posture de rupture de Macron en 2016, s'affranchissant des primaires socialistes. Le rôle des Restos du Cœur comme médiateur souligne l'importance de la thématique de la précarité alimentaire dans le débat actuel.",
-      "implications": [
-        "Risque de fragmentation définitive de la majorité sortante entre les partisans d'Attal et ceux de Philippe.",
-        "Recentrage du débat sur les questions sociales (pouvoir d'achat, logement) imposé par le cadre caritatif."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-11-16",
-          "texte": "Tenue du débat présidentiel sur TF1/LCI.",
-          "source": "Ouest-France"
-        },
-        {
-          "date": "2026-11-16",
-          "texte": "Édouard Philippe réaffirme son refus d'une primaire.",
-          "source": "RFI"
-        },
-        {
-          "date": "2026-11-14",
-          "texte": "Gérard Larcher propose de réunir les candidats de la droite et du centre.",
-          "source": "RFI"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Ouest-France",
-          "type": "mainstream",
-          "angle": "Coulisses de l'organisation du débat solidaire et profils des participants.",
-          "ton": "neutre",
-          "url": "https://www.ouest-france.fr/sport/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-suivre-le-match-entre-lallemagne-et-les-pays-bas-9c92bc68-e136-11f1-b029-43a761592972?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "citation_cle": "Cinq candidats à la présidentielle débattront ce lundi.",
-          "groupe_media": null
-        },
         {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse de la stagnation de l'image de Marine Le Pen malgré ses efforts de normalisation.",
-          "ton": "critique",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/16/la-vente-aux-encheres-des-hospices-de-beaunes-recolte-pres-de-14-millions-d-euros-malgre-de-maigres-vendanges_6811402_3234.html",
-          "citation_cle": "Le mouvement de normalisation de l’image du RN semble s’enrayer.",
+          "angle": "Analyse technique des propositions économiques et du clivage sur le pouvoir d'achat.",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/17/impots-logement-smic-ce-qu-il-faut-retenir-du-debat-entre-candidats-a-la-presidentielle_6812895_823448.html",
+          "citation_cle": "La vie chère et le pouvoir d’achat, préoccupation numéro un des Français.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -283,101 +50,320 @@
           }
         },
         {
-          "source": "RFI",
+          "source": "20 Minutes",
           "type": "mainstream",
-          "angle": "Présidentielle en France: Édouard Philippe accepte de discuter avec la droite et le centre mais refuse toujours une primaire",
-          "ton": "factuel",
-          "url": "https://www.rfi.fr/fr/france/20261116-pr%C3%A9sidentielle-en-france-%C3%A9douard-philippe-accepte-de-discuter-avec-la-droite-et-le-centre-mais-refuse-toujours-une-primaire",
-          "citation_cle": "Si le candidat Horizons accepte la proposition faite par le président du Sénat, Gérard Larcher, samedi 14 novembre, de r",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Édouard Philippe finira-t-il par rejoindre une coalition de centre-droit ?",
-        "Quel sera l'impact de ce débat sur les intentions de vote immédiates ?"
-      ],
-      "sources": [
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/sport/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-suivre-le-match-entre-lallemagne-et-les-pays-bas-9c92bc68-e136-11f1-b029-43a761592972?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "presse",
+          "angle": "Focus sur la déclaration de rupture de Marine Le Pen concernant l'Ukraine.",
+          "ton": "engage",
+          "url": "https://www.20minutes.fr/politique/4263434-20261117-direct-presidentielle-2027-pen-melenchon-echarpent-hausse-smic?at_medium=display&at_campaign=149",
+          "citation_cle": "L’état des finances publiques de la France ne permettrait plus d’aider financièrement l’Ukraine.",
           "groupe_media": null
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20261116-pr%C3%A9sidentielle-en-france-%C3%A9douard-philippe-accepte-de-discuter-avec-la-droite-et-le-centre-mais-refuse-toujours-une-primaire",
-          "type": "presse",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
+          "source": "Le Figaro",
+          "type": "mainstream",
+          "angle": "Présidentielle 2027 : impôts, logement, associations… Ce qu’il faut retenir du grand débat entre cinq candidats sur la vie chère",
+          "ton": "factuel",
+          "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-impots-logement-associations-ce-qu-il-faut-retenir-du-grand-debat-entre-cinq-candidats-sur-la-vie-chere-20261116",
+          "citation_cle": "Pendant près de trois heures, Jean-Luc Mélenchon, Raphaël Glucksmann, Gabriel Attal, Bruno Retailleau et Marine Le Pen o",
+          "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "L'impact réel de ce premier débat sur les intentions de vote à long terme.",
+        "La capacité des Écologistes à rejoindre la 'dynamique' LFI après les provocations de Sandrine Rousseau."
+      ],
+      "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/16/la-vente-aux-encheres-des-hospices-de-beaunes-recolte-pres-de-14-millions-d-euros-malgre-de-maigres-vendanges_6811402_3234.html",
-          "type": "presse",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/17/impots-logement-smic-ce-qu-il-faut-retenir-du-debat-entre-candidats-a-la-presidentielle_6812895_823448.html",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/politique/4263434-20261117-direct-presidentielle-2027-pen-melenchon-echarpent-hausse-smic?at_medium=display&at_campaign=149",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-j-ai-fait-de-mon-mieux-le-message-crepusculaire-d-emmanuel-macron-sur-x_VN-202611170133.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         }
       ],
       "premiere_apparition": "2026-11-14"
+    },
+    {
+      "titre": "Mobilisation nationale du 17 novembre : grèves massives dans la fonction publique",
+      "slug": "mobilisation-nationale-17-novembre-greves",
+      "rubrique": "societe",
+      "tldr": [
+        "Intersyndicale mobilisée pour des hausses de salaires et contre la précarité.",
+        "Entre 250 000 et 360 000 manifestants attendus dans toute la France.",
+        "Convergence des luttes entre fonctionnaires, soignants et lycéens."
+      ],
+      "resume": "Une nouvelle journée d'action nationale paralyse la France ce mardi 17 novembre. À l'appel de l'intersyndicale (CGT, FO, les agents de la fonction publique réclament des revalorisations salariales face à l'inflation. Le mouvement, initié par les lycéens mi-septembre, s'est étendu aux universités et désormais au secteur public (Le Monde). Sophie Binet appelle à un « maximum de grèves » pour répondre aux annonces gouvernementales jugées insuffisantes (BFM TV). Les autorités craignent des débordements avec la présence de 200 à 400 militants radicaux à Paris.",
+      "contexte_historique": "Cette mobilisation rappelle le mouvement de 1995 par son ampleur et sa durée. Elle s'inscrit dans un contexte de crise d'attractivité de la fonction publique, où de nombreux postes restent vacants faute de candidats (Ouest-France). Le droit de grève est constitutionnel en France depuis 1946, mais les réquisitions de soignants et l'usage de cours en distanciel pour contrer les blocus lycéens créent de nouvelles tensions juridiques.",
+      "implications": [
+        "Risque de blocage prolongé des lycées et universités avec un impact sur les examens de fin d'année.",
+        "Pression accrue sur le budget 2027 pour intégrer des revalorisations salariales d'urgence."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-11-17",
+          "texte": "Début des manifestations dans les grandes agglomérations (Lyon, Lille.",
+          "source": "Le Monde"
+        },
+        {
+          "date": "2026-11-16",
+          "texte": "La CFDT confirme son ralliement à la mobilisation.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-11-05",
+          "texte": "Violences policières dénoncées lors d'un précédent blocus lycéen à Strasbourg.",
+          "source": "Rue89 Strasbourg"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Analyse de l'ancrage territorial de la révolte sociale au fil des semaines.",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/17/a-lyon-toulouse-lille-ou-rennes-les-ressorts-d-une-revolte-sociale-qui-s-est-ancree-au-fil-des-semaines_6812893_823448.html",
+          "citation_cle": "Une révolte sociale qui s’est ancrée au fil des semaines.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Suivi en direct des chiffres de mobilisation et des risques de débordements.",
+          "ton": "alarmiste",
+          "url": "https://www.bfmtv.com/societe/manifestations/direct-colere-sociale-entre-250-000-et-360-000-manifestants-attendus-partout-en-france-sophie-binet-apelle-a-un-maximum-de-greves_LN-202611170129.html",
+          "citation_cle": "Sophie Binet appelle à un maximum de grèves.",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "Ouest-France",
+          "type": "mainstream",
+          "angle": "Éditorial. La fonction publique ne fait plus recette",
+          "ton": "factuel",
+          "url": "https://www.ouest-france.fr/economie/pouvoir-d-achat/editorial-la-fonction-publique-ne-fait-plus-recette-d91972d6-e1bc-11f1-b029-43a761592972?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "citation_cle": "Certains postes dans la fonction publique ne sont pas pourvus faute de candidats. Un défaut d’attractivité qui souligne ",
+          "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Le chiffre réel de participation face aux accusations de minimisation par le ministère (20 Minutes).",
+        "La tenue ou non d'une nouvelle journée d'action avant les vacances de fin d'année."
+      ],
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/17/a-lyon-toulouse-lille-ou-rennes-les-ressorts-d-une-revolte-sociale-qui-s-est-ancree-au-fil-des-semaines_6812893_823448.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/societe/manifestations/direct-colere-sociale-entre-250-000-et-360-000-manifestants-attendus-partout-en-france-sophie-binet-apelle-a-un-maximum-de-greves_LN-202611170129.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/politique/4263434-20261117-direct-presidentielle-2027-pen-melenchon-echarpent-hausse-smic?at_medium=display&at_campaign=149",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/justice-proces/proces-de-l-assassinat-du-frere-d-amine-kessaci-deux-figures-du-narcobanditisme-marseillais-condamnees-a-la-perpetuite_8285081.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Rue89 Lyon",
+          "url": "https://www.rue89lyon.fr/2026/11/16/nouvelle-manifestation-prevue-lyon-mardi-17-novembre/",
+          "type": "investigation"
+        }
+      ],
+      "premiere_apparition": "2026-11-17"
+    },
+    {
+      "titre": "Scandale Nvidia : les États-Unis bloquent l'accès de la Chine aux puces IA",
+      "slug": "scandale-nvidia-blocage-puces-ia-chine",
+      "rubrique": "tech",
+      "tldr": [
+        "Washington impose des licences d'exportation strictes pour l'Asie du Sud-Est.",
+        "Le scandale d'espionnage chez Nvidia accélère les restrictions technologiques.",
+        "Campagne 'Bring Jensen Back' soutenue par Donald Trump et Elon Musk."
+      ],
+      "resume": "Dans le sillage de la démission de Jensen Huang, l'administration américaine a durci les règles d'exportation des puces d'IA vers la Malaisie, la Thaïlande et Singapour pour empêcher la Chine d'y accéder à distance (Al Jazeera). Ce tour de vis intervient alors qu'un scandale d'espionnage ébranle Nvidia. Parallèlement, un mouvement de soutien massif, baptisé 'Bring Jensen Back' et appuyé par Donald Trump et Elon Musk, demande la réintégration de l'ex-PDG (BBC News, The Guardian). Nvidia rejette pour l'instant ces appels alors que le titre boursier reste sous pression.",
+      "contexte_historique": "Ces restrictions s'inscrivent dans le 'CHIPS and Science Act' de 2022, visant à freiner l'ascension technologique de la Chine. Nvidia, qui domine 80% du marché des puces IA, est devenu un enjeu de sécurité nationale pour les États-Unis, rappelant les tensions autour de Huawei en 2019.",
+      "implications": [
+        "Guerre froide technologique : isolement accru des centres de données chinois dépendant de l'architecture CUDA.",
+        "Déstabilisation de la Silicon Valley : le possible retour de Huang sous pression politique pourrait créer un précédent de gestion gouvernementale des entreprises privées."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-11-17",
+          "texte": "L'administration Trump introduit des licences d'exportation pour 5 pays d'Asie et le Brésil.",
+          "source": "Al Jazeera"
+        },
+        {
+          "date": "2026-11-17",
+          "texte": "Donald Trump soutient publiquement le retour de Jensen Huang chez Nvidia.",
+          "source": "BBC News"
+        },
+        {
+          "date": "2026-11-08",
+          "texte": "Démission choc de Jensen Huang suite à des soupçons d'espionnage industriel.",
+          "source": "Radar"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Analyse de l'impact économique des restrictions sur les pays d'Asie du Sud-Est.",
+          "ton": "factuel",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/the-red-crabs-of-christmas-island?traffic_source=rss",
+          "citation_cle": "Washington cherche à fermer les 'portes dérobées' de l'accès au cloud pour la Chine.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "source": "BBC News",
+          "type": "etranger",
+          "angle": "Focus sur la campagne de réintégration de Huang et le soutien des figures de la tech.",
+          "ton": "neutre",
+          "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "Nvidia rejette la campagne 'Bring Jensen Back' malgré le soutien de Trump.",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "L'étendue réelle des données compromises lors du scandale d'espionnage.",
+        "Si le conseil d'administration de Nvidia cédera à la pression politique des alliés de Trump."
+      ],
+      "sources": [
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/the-red-crabs-of-christmas-island?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-11-08"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Panne mondiale des services Microsoft 365",
-      "slug": "panne-microsoft-365-novembre-2026",
-      "rubrique": "tech",
-      "resume": "Après un week-end de perturbations majeures affectant Outlook et Teams, les services sont rétablis. La panne a eu des conséquences inattendues, notamment sur la logistique aéroportuaire américaine.",
+      "titre": "L'Estonie ferme sa frontière avec la Russie",
+      "slug": "estonie-frontiere-russie-fermeture",
+      "rubrique": "international",
+      "resume": "Après les sabotages attribués au GRU, la frontière reste fermée. L'OTAN a renforcé sa présence mais aucune escalade directe n'est signalée ce jour.",
       "chronologie": [
         {
           "date": "2026-11-16",
-          "texte": "Retour à la normale prévu dans le ciel américain ce lundi.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-11-15",
-          "texte": "Persistance de difficultés résiduelles dans certains aéroports.",
-          "source": "BFM TV"
+          "texte": "Fermeture totale des points de passage estoniens.",
+          "source": "Radar"
         }
       ],
       "couvertures": [
         {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "Focus sur la reprise du trafic aérien après la paralysie.",
+          "angle": "Focus sur les tensions diplomatiques avec Moscou.",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/economie/entreprises/transports/retour-a-la-normale-dans-le-ciel-americain-prevu-ce-lundi-apres-la-panne-qui-a-paralyse-le-trafic-aerien-ce-week-end_AD-202611160099.html",
-          "citation_cle": "Le trafic aérien doit revenir à la normale ce lundi."
+          "url": "https://www.bfmtv.com/international/europe/estonie-fermeture-frontiere-russie_AN-202611160001.html",
+          "citation_cle": "Une mesure de sécurité nationale face aux menaces hybrides."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "La cause technique exacte de la panne n'a pas été détaillée par Microsoft."
+        "La durée de cette fermeture exceptionnelle."
       ],
       "sources": [
         {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/economie/entreprises/transports/retour-a-la-normale-dans-le-ciel-americain-prevu-ce-lundi-apres-la-panne-qui-a-paralyse-le-trafic-aerien-ce-week-end_AD-202611160099.html",
-          "type": "presse"
+          "url": "https://www.bfmtv.com/international/europe/estonie-fermeture-frontiere-russie_AN-202611160001.html",
+          "type": "mainstream"
         }
       ],
-      "derniere_mise_a_jour": "2026-11-16",
-      "statut": "Sujet en phase de résolution technique, l'attention se déplace vers les responsabilités juridiques."
+      "derniere_mise_a_jour": "2026-11-17",
+      "statut": "Sujet stabilisé, en attente de réponse diplomatique russe."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 504,
+    "nb_articles_analyses": 688,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
