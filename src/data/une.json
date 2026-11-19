@@ -1,19 +1,19 @@
 {
   "sujet_du_jour": {
-    "titre": "L'UE et le Rwanda négocient la création de « hubs de retour » pour migrants",
-    "rubrique": "international",
-    "pourquoi_important": "C'est une bascule historique de la politique migratoire européenne vers une externalisation radicale des expulsions hors du territoire de l'Union.",
+    "titre": "Procès requis contre Philippe Caubère pour viols et proxénétisme",
+    "rubrique": "societe",
+    "pourquoi_important": "Cette affaire marque un tournant majeur de l'ère #MeToo en France, mettant en cause une figure du théâtre et une avocate renommée.",
     "faits": [
-      "Cinq États membres (Autriche, Danemark, Grèce, Pays-Bas ont annoncé le 16 novembre l'ouverture de négociations avec Kigali pour créer des centres de rétention au Rwanda.",
-      "Le projet vise à transférer des personnes déboutées du droit d'asile et sous le coup d'une décision d'expulsion exécutoire vers ces plateformes extra-européennes.",
-      "Le Danemark prévoit déjà la signature d'un partenariat bilatéral spécifique avec le Rwanda dès le 23 novembre 2026.",
-      "L'objectif affiché par les gouvernements néerlandais et autrichien est une mise en œuvre opérationnelle à l'horizon 2027."
+      "Le parquet de Créteil a requis le renvoi de Philippe Caubère devant la cour criminelle départementale pour viols aggravés, agressions sexuelles, proxénétisme et corruption de mineure (Le Monde, Mediapart).",
+      "Le ministère public demande également le procès de son ex-avocate, Marie Dosé, pour complicité de soustraction ou altération de preuve (Le Figaro, L'Humanité).",
+      "Trois plaignantes, mineures au moment des faits, accusent le comédien ; l'une d'elles, Agathe Pujol, dénonce des faits de prostitution forcée via des annonces internet (franceinfo).",
+      "Les deux mis en cause contestent fermement les faits, Marie Dosé étant soupçonnée d'avoir aidé à dissimuler un ordinateur compromettant (Le Monde)."
     ],
-    "contexte": "Cette initiative s'inspire du modèle britannique (abandonné par les travaillistes) et du récent accord Italie-Albanie. Elle marque un durcissement sans précédent de l'UE, où des pays traditionnellement libéraux comme l'Allemagne rejoignent désormais des positions autrefois jugées marginales. Le projet soulève d'immenses questions sur le respect du droit international et la sécurité des personnes déportées vers un pays tiers.",
+    "contexte": "Le réquisitoire définitif, daté du 12 novembre 2026, fait suite à plusieurs années d'instruction. L'affaire est particulièrement sensible car elle implique non seulement un artiste majeur, mais aussi une avocate célèbre pour sa défense des libertés publiques et sa critique de certains aspects du mouvement #MeToo. La décision finale de renvoi devant une cour criminelle appartient désormais au juge d'instruction.",
     "sources": [
       {
         "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/international/article/2026/11/16/le-projet-de-cinq-pays-europeens-d-ouvrir-un-centre-de-retour-au-rwanda-traduit-la-bascule-de-la-politique-europeenne-en-matiere-d-immigration_6812426_3210.html",
+        "url": "https://www.lemonde.fr/societe/article/2026/11/18/affaire-philippe-caubere-le-ministere-public-demande-le-renvoi-en-cour-criminelle-du-comedien-et-de-l-avocate-marie-dose_6813169_3224.html",
         "type": "mainstream",
         "groupe_media": {
           "nom": "Groupe Le Monde",
@@ -23,280 +23,386 @@
         }
       },
       {
-        "nom": "Gouvernement des Pays-Bas",
-        "url": "https://www.government.nl/latest/news/2026/11/16/the-netherlands-and-european-partners-working-with-rwanda-to-establish-a-return-hub",
-        "type": "institutionnel",
-        "groupe_media": null
-      },
-      {
-        "nom": "Ministère de l'Immigration du Danemark",
-        "url": "https://uim.dk/nyhedsarkiv/2026/november/rwanda-and-five-eu-member-states-are-jointly-exploring-the-possibility-of-establishing-a-return-hub-in-rwanda-based-on-an-equal-and-mutually-beneficial-partnership/",
-        "type": "institutionnel",
-        "groupe_media": null
-      },
-      {
-        "nom": "Courrier international",
-        "url": "https://www.courrierinternational.com/article/politique-cinq-pays-de-l-ue-vont-envoyer-au-rwanda-les-migrants-deboutes-de-leur-demande-d-asile_287541",
-        "type": "etranger",
+        "nom": "Mediapart",
+        "url": "https://www.mediapart.fr/journal/france/181126/le-parquet-demande-un-proces-pour-le-comedien-philippe-caubere-et-son-ancienne-avocate-marie-dose",
+        "type": "investigation",
         "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
+          "orientation": "gauche"
         }
+      },
+      {
+        "nom": "L'Humanité",
+        "url": "https://www.humanite.fr/societe/antifeminisme/ce-qui-lexcitait-cetait-de-me-louer-proces-requis-pour-viols-et-proxenetisme-contre-le-comedien-philippe-caubere",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
+        }
+      },
+      {
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/societe/harcelement-sexuel/un-proces-requis-a-l-encontre-du-comedien-philippe-caubere-pour-viols-et-agressions-sexuelles-aggraves-proxenetisme-et-corruption-de-mineure_8288639.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
+      },
+      {
+        "nom": "Le Figaro",
+        "url": "https://www.lefigaro.fr/international/ukraine-nvidia-elon-musk-regle-ses-comptes-avec-zelensky-et-defend-son-vieil-ami-jensen-huang-20261119",
+        "type": "mainstream"
       }
     ],
     "lien": null
   },
   "france": [
     {
-      "titre": "Condamnation définitive pour Gérard Depardieu",
-      "rubrique": "societe",
-      "resume": "L'acteur a renoncé à son procès en appel pour les agressions sexuelles commises sur le tournage des « Volets verts ». Sa peine de 18 mois de prison avec sursis est désormais définitive et s'accompagne d'une inscription au fichier des auteurs d'infractions sexuelles .",
+      "titre": "Marine Tondelier propose une coalition avec Mélenchon pour 2027",
+      "rubrique": "politique",
+      "resume": "Invitée sur France 2, la secrétaire nationale des Écologistes s'est dite prête à travailler à une coalition autour de Jean-Luc Mélenchon, sous réserve d'un accord programmatique et législatif global (TV5MONDE, Le Monde). Cette main tendue vise à débloquer l'union à gauche, bien que Tondelier soit créditée de scores faibles dans les sondages face à la dynamique de l'Insoumis (France 24, Le Figaro).",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/161126/gerard-depardieu-definitivement-condamne-pour-agressions-sexuelles",
-          "type": "investigation",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/19/presidentielle-2027-marine-tondelier-tente-de-forcer-la-main-des-ecologistes-en-se-disant-prete-a-rallier-jean-luc-melenchon_6813213_823448.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Mediapart",
-            "proprietaire": "Fonds pour une presse libre",
-            "type_proprietaire": "fondation",
-            "orientation": "gauche"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/condamne-pour-agressions-sexuelles-gerard-depardieu-renonce-a-etre-rejuge-20261115",
+          "nom": "TV5MONDE",
+          "url": "https://information.tv5monde.com/france/presidentielle-tondelier-se-dit-prete-travailler-une-coalition-autour-de-la-candidature-melenchon-2846278",
           "type": "mainstream",
           "groupe_media": null
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/asie-pacifique/20261119-sommet-apec-en-direct-rencontres-diplomatiques-attendues-shenzhen-trump-poutine-xi-jinping",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/ukraine-nvidia-elon-musk-regle-ses-comptes-avec-zelensky-et-defend-son-vieil-ami-jensen-huang-20261119",
+          "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Mobilisation nationale du 17 novembre",
-      "rubrique": "politique",
-      "resume": "Une journée de grève et de manifestations touche la fonction publique, l'Éducation nationale et les transports. Les syndicats (CFDT, UNSA réclament des hausses de salaires face à l'inflation et rejettent les dernières propositions budgétaires du gouvernement.",
-      "sources": [],
+      "titre": "Affaire Michel Zecler : les policiers reconnaissent des mensonges",
+      "rubrique": "societe",
+      "resume": "Au procès du passage à tabac du producteur Michel Zecler, les policiers ont admis que le procès-verbal d'interpellation était « faux de A à Z » (L'Humanité, L'Obs). Ils reconnaissent avoir falsifié la réalité pour se protéger, invalidant leur version initiale qui accusait la victime de violences (franceinfo).",
+      "sources": [
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/justice/20261118.OBS120255/dans-ce-pv-tout-est-faux-de-a-a-z-a-la-barre-les-policiers-qui-ont-agresse-michel-zecler-face-a-leur-proces-verbal-falsifie.html",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/producteur-passe-a-tabac-par-des-policiers/une-volonte-de-se-proteger-au-proces-du-tabassage-de-michel-zecler-un-policier-reconnait-des-mensonges-les-autres-des-erreurs-dans-le-proces-verbal-d-interpellation_8288621.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/monde/cisjordanie/cisjordanie-la-colonisation-israelienne-enfin-reconnue-comme-une-persecution",
+          "type": "mainstream"
+        }
+      ],
       "lien": null
     },
     {
-      "titre": "Renault : 1 000 suppressions de postes de « cols blancs »",
-      "rubrique": "economie",
-      "resume": "Le constructeur automobile annonce une restructuration majeure pour affronter la concurrence chinoise. Si 2 000 recrutements sont prévus en usine (souvent via la pérennisation d'intérimaires), 1 000 postes administratifs et d'ingénierie seront supprimés via des départs volontaires.",
-      "sources": [],
+      "titre": "Meurtre d'Olivio Gomes : 8 ans de prison pour le policier en appel",
+      "rubrique": "societe",
+      "resume": "La cour d'assises des Hauts-de-Seine a condamné Gilles Guilbert à huit ans de prison ferme pour le meurtre d'Olivio Gomes en 2020 (La Croix, 20 Minutes). Le jury a rejeté la thèse de la légitime défense, estimant que l'usage de l'arme n'était pas nécessaire lors de cette filature à Poissy (franceinfo, Sud-Ouest).",
+      "sources": [
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/societe/meurtre-d-olivio-gomes-un-policier-condamne-en-appel-a-huit-ans-de-prison-20261118",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/police/violences-policieres/un-policier-condamne-en-appel-a-huit-ans-de-prison-pour-le-meurtre-d-olivio-gomes-en-2020_8288852.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/politique/4264007-20261119-direct-presidentielle-2027-lisnard-veut-ouvrir-primaire-zemmour?at_medium=display&at_campaign=149",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/international/chine/sommet-en-chine-xi-jinping-donald-trump-et-vladimir-poutine-reunis-ce-jeudi-pour-une-rencontre-inedite-31582207.php",
+          "type": "mainstream"
+        }
+      ],
       "lien": null
     }
   ],
   "monde": [
     {
-      "titre": "Crise ouverte à la Francophonie",
-      "pays": "Cambodge / RDC / Rwanda",
-      "resume": "L'élection du secrétaire général de l'OIF a été reportée d'un an à Phnom Penh, faute de consensus. Le blocage résulte des tensions extrêmes entre la RDC et le Rwanda, Kinshasa ayant menacé de quitter le sommet si la candidate rwandaise était reconduite.",
+      "titre": "Sommet historique Trump-Xi-Poutine à Shenzhen",
+      "pays": "Chine",
+      "resume": "Les dirigeants des trois premières puissances mondiales se réunissent en marge du sommet de l'Apec pour discuter de l'Ukraine, de l'Iran et de l'IA (RFI, L'Humanité). Cette rencontre trilatérale inédite interroge à Washington sur les possibles réalignements diplomatiques (BFM TV, Le Figaro).",
       "sources": [
         {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261116-francophonie-face-%C3%A0-l-impasse-l-%C3%A9lection-du-secr%C3%A9taire-g%C3%A9n%C3%A9ral-repouss%C3%A9e-d-un-an",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/asie-pacifique/20261119-sommet-apec-pourquoi-rencontre-trump-xi-poutine-interroge-%C3%A0-washington",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/international/la-francophonie-rattrapee-par-les-tensions-entre-le-rwanda-et-la-republique-democratique-du-congo-20261116",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-xi-poutine-trump-le-sommet-historique_VN-202611181051.html",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/monde/cisjordanie/cisjordanie-la-colonisation-israelienne-enfin-reconnue-comme-une-persecution",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/ukraine-nvidia-elon-musk-regle-ses-comptes-avec-zelensky-et-defend-son-vieil-ami-jensen-huang-20261119",
+          "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "L'Estonie ferme sa frontière avec la Russie",
-      "pays": "Estonie",
-      "resume": "Tallinn fermera tous ses points de passage frontaliers avec la Russie au 1er décembre. Cette décision fait suite à une tentative de sabotage contre une usine de drones, attribuée par les services estoniens au renseignement militaire russe (GRU).",
-      "sources": [],
+      "titre": "Hakeem Jeffries, premier président noir de la Chambre",
+      "pays": "États-Unis",
+      "resume": "Adoubé par le groupe démocrate, l'élu de New York Hakeem Jeffries devrait devenir en janvier le premier Noir à présider la Chambre des représentants (Courrier international, L'Obs). Il succède à l'ère Pelosi tout en restant sous la pression de l'aile gauche de son parti (France 24, 20 Minutes).",
+      "sources": [
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/politique-hakeem-jeffries-devrait-devenir-le-premier-president-noir-de-la-chambre-des-representants-aux-etats-unis_288489",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261118-%C3%A9tats-unis-jeffries-bient%C3%B4t-le-premier-pr%C3%A9sident-noir-de-la-chambre-des-repr%C3%A9sentants",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/monde/20261119.OBS120257/trump-en-quete-de-reconfort-aupres-de-ses-guides-spirituels-xi-et-poutine-a-ses-risques-et-perils.html",
+          "type": "mainstream"
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/politique/4264007-20261119-direct-presidentielle-2027-lisnard-veut-ouvrir-primaire-zemmour?at_medium=display&at_campaign=149",
+          "type": "mainstream"
+        }
+      ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Débat présidentiel 2027 sur la vie chère",
-    "rubrique": "politique",
-    "contexte": "Le 16 novembre, les principaux candidats déclarés ou pressentis pour 2027 (Attal, Le Pen, Mélenchon, Glucksmann, Retailleau) se sont affrontés lors d'un débat télévisé sur le pouvoir d'achat organisé aux Restos du Cœur.",
+    "sujet": "Débat sur la location des passoires thermiques",
+    "rubrique": "societe",
+    "contexte": "Dans le cadre du projet de loi logement, un amendement visant à supprimer l'interdiction de louer les logements les plus énergivores (classes G et F) a été adopté à l'Assemblée nationale.",
     "couvertures": [
       {
-        "source": "Le Figaro",
-        "type": "mainstream",
-        "angle": "Focus sur les divergences fiscales et le coût des programmes.",
-        "ton": "factuel",
-        "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-impots-logement-associations-ce-qu-il-faut-retenir-du-grand-debat-entre-cinq-candidats-sur-la-vie-chere-20261116",
-        "citation_cle": "Jean-Luc Mélenchon, Raphaël Glucksmann, Gabriel Attal, Bruno Retailleau et Marine Le Pen ont croisé le fer sur les enjeux de solidarité.",
-        "auteur": "Rédaction",
-        "proprietaire_contexte": "Groupe Dassault",
-        "orientation_source": "Droite",
-        "groupe_media": null
+        "source": "Reporterre",
+        "type": "investigation",
+        "angle": "Dénonciation d'un recul écologique et social majeur porté par le Rassemblement national.",
+        "ton": "critique",
+        "url": "https://reporterre.net/Un-amendement-du-RN-reautorise-la-location-de-passoires-thermiques",
+        "citation_cle": "Il sera bientôt de nouveau possible de louer des passoires thermiques.",
+        "auteur": "Rédaction Reporterre",
+        "proprietaire_contexte": "Association indépendante",
+        "orientation_source": "Ecologiste de gauche",
+        "groupe_media": {
+          "nom": "Reporterre",
+          "proprietaire": "Association La Pile",
+          "type_proprietaire": "independant",
+          "orientation": "gauche"
+        }
       },
       {
         "source": "Le Monde",
         "type": "mainstream",
-        "angle": "Analyse des propositions techniques sur le SMIC et le logement.",
-        "ton": "neutre",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/17/impots-logement-smic-ce-qu-il-faut-retenir-du-debat-entre-candidats-a-la-presidentielle_6812895_823448.html",
-        "citation_cle": "La vie chère et le pouvoir d’achat, préoccupation majeure des Françaises et Français.",
-        "auteur": "Rédaction",
-        "proprietaire_contexte": "Niel / Kretinsky / Pigasse",
-        "orientation_source": "Centre-droit libéral",
+        "angle": "Analyse des tensions politiques et du risque de blocage du texte gouvernemental.",
+        "ton": "factuel",
+        "url": "https://www.lemonde.fr/societe/article/2026/11/18/suppression-de-l-interdiction-de-louer-les-passoires-thermiques-a-l-assemblee-fortes-tensions-sur-la-crise-du-logement_6813194_3224.html",
+        "citation_cle": "Des députés de droite ont ajouté leurs voix à celles du RN et permis l’adoption d’un amendement au projet de loi logement.",
+        "auteur": "Rédaction Le Monde",
+        "proprietaire_contexte": "Niel, Kretinsky, Pigasse (milliardaires)",
+        "orientation_source": "Centre-droit",
         "groupe_media": {
           "nom": "Groupe Le Monde",
           "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
           "type_proprietaire": "milliardaire",
           "orientation": "centre-droit"
         }
-      },
-      {
-        "source": "France 24",
-        "type": "mainstream",
-        "angle": "Mise en avant du lieu symbolique (Restos du Cœur) et de l'absence d'Édouard Philippe.",
-        "ton": "factuel",
-        "url": "https://www.france24.com/fr/france/20261116-imp%C3%B4ts-logement-smic-les-candidats-%C3%A0-la-pr%C3%A9sidentielle-d%C3%A9battent-de-leurs-propositions",
-        "citation_cle": "Les candidats ont débattu sur les inégalités, le pouvoir d’achat et la solidarité.",
-        "auteur": "Rédaction",
-        "proprietaire_contexte": "État français",
-        "orientation_source": "Institutionnel",
-        "groupe_media": null
       }
     ],
-    "analyse_coherence": "L'analyse des couvertures révèle un consensus sur le diagnostic : la « vie chère » est le pivot de la campagne 2027. Cependant, on observe une divergence de traitement sur les solutions. Le Figaro insiste sur le clivage fiscal, présentant implicitement les propositions de gauche comme des menaces budgétaires. Le Monde adopte une approche plus technocratique, se focalisant sur les leviers économiques (sans trancher la viabilité politique. France 24 souligne la dimension symbolique du lieu, rappelant l'urgence sociale. Le double standard est ici subtil : alors que la pauvreté est le thème central, les médias mainstream (Le Figaro, Le Monde tendent à transformer un enjeu de survie sociale en un pur débat de gestion comptable, évacuant parfois la violence de la précarité vécue par les bénéficiaires des Restos du Cœur, pourtant hôtes du débat.",
+    "analyse_coherence": "Le traitement médiatique de cet amendement révèle une fracture nette entre la lecture institutionnelle et l'analyse d'impact social. Alors que 'Le Monde' se concentre sur la mécanique parlementaire et les 'fortes tensions' au sein de l'hémicycle, 'Reporterre' pointe directement la responsabilité du Rassemblement national et les conséquences concrètes pour les locataires. On observe un double standard dans l'appellation du recul : là où la presse mainstream parle d'un 'amendement au projet de loi', les médias engagés soulignent le démantèlement d'une mesure de justice climatique. L'absence de mention systématique du coût énergétique pour les ménages les plus précaires dans certains titres mainstream occulte la dimension sociale de la crise du logement au profit d'une simple péripétie législative. La cohérence éditoriale de Citoyens.ai impose de rappeler que ce vote contrevient directement aux objectifs de transition écologique et de protection des droits des travailleurs (droit à un logement décent).",
     "biais_detectes": [
-      "Technocratisation des enjeux sociaux",
-      "Focalisation sur les équilibres budgétaires au détriment de l'urgence sociale"
+      "Biais institutionnel (focus sur le jeu politique)",
+      "Biais de normalisation des reculs écologiques"
     ],
-    "ce_quil_faut_retenir": "Le débat fige les positions : blocage des prix et hausse du SMIC à gauche, baisse des charges et réduction des dépenses publiques à droite/centre. La pauvreté devient le premier terrain de bataille électoral."
+    "ce_quil_faut_retenir": "Une alliance entre le RN et une partie de la droite a voté la fin de l'interdiction de louer des passoires thermiques, menaçant les objectifs climatiques et la protection des locataires précaires."
   },
-  "regard_etranger": [],
+  "regard_etranger": [
+    {
+      "source": "France 24 EN",
+      "pays": "France",
+      "titre": "Le Comté de 24 mois sacré meilleur fromage du monde",
+      "titre_original": "24-month matured Comté crowned world’s best cheese",
+      "angle": "Célébration de l'excellence gastronomique française à l'international.",
+      "url": "https://www.france24.com/en/video/20261118-24-month-matured-comt%C3%A9-crowned-world-s-best-cheese",
+      "groupe_media": {
+        "nom": "France Médias Monde",
+        "proprietaire": "État français",
+        "type_proprietaire": "etat",
+        "orientation": "centre"
+      }
+    },
+    {
+      "source": "Der Spiegel",
+      "pays": "Allemagne",
+      "titre": "Comment Donald Trump est devenu un client toxique pour la Deutsche Bank",
+      "titre_original": "Internal Documents: How Donald Trump Became a Toxic Client for Deutsche Bank",
+      "angle": "Enquête sur les risques financiers et politiques liés aux relations Trump-Deutsche Bank.",
+      "url": "https://www.spiegel.de/international/business/internal-documents-how-donald-trump-became-a-toxic-client-for-deutsche-bank-a-ce301689-7536-471b-b84e-6324ec4edd9f#ref=rss",
+      "groupe_media": {
+        "nom": "Der Spiegel",
+        "proprietaire": "Employés et famille Augstein",
+        "type_proprietaire": "employes",
+        "orientation": "centre-gauche"
+      }
+    }
+  ],
   "chiffre_du_jour": {
-    "valeur": "22 millions",
-    "contexte": "Nombre de Français dont les données personnelles (nom, prénom, adresse) ont été exposées suite à la cyberattaque contre Maileva, filiale de La Poste.",
-    "source": "Next",
-    "source_url": "https://next.ink/267710/cyberattaque-sur-maileva-filiale-de-la-poste-22-millions-de-personnes-exposees/"
+    "valeur": "15 millions",
+    "contexte": "Nombre de documents confidentiels ayant fuité dans l'enquête 'Inside Deutsche Bank', révélant des failles massives dans la lutte contre le blanchiment.",
+    "source": "Le Monde / Project Barracuda",
+    "source_url": "https://www.lemonde.fr/en/les-decodeurs/article/2026/11/17/inside-deutsche-bank-banking-giant-s-secrets-revealed-by-15-million-confidential-documents_6782704_8.html"
   },
   "a_surveiller": [
     {
-      "date": "2026-11-20",
-      "evenement": "Fin du procès des policiers dans l'affaire Michel Zecler",
-      "type": "audition",
-      "lien": "https://pressejudiciaire.fr/evenement/proces-de-trois-policiers-pour-des-violences-en-reunion-et-faux-en-ecriture-a-lencontre-de-michel-zeckler-cour-criminelle-paris/"
+      "date": "2026-11-19",
+      "evenement": "Débat à l'Assemblée sur l'interdiction du commerce avec les colonies israéliennes",
+      "type": "vote",
+      "lien": "https://www.assemblee-nationale.fr/dyn/docs/PIONANR5L17B3088.raw"
     },
     {
-      "date": "2026-11-23",
-      "evenement": "Signature de l'accord Danemark-Rwanda sur les hubs de retour",
-      "type": "echeance",
-      "lien": "https://uim.dk/nyhedsarkiv/2026/november/rwanda-and-five-eu-member-states-are-jointly-exploring-the-possibility-of-establishing-a-return-hub-in-rwanda-based-on-an-equal-and-mutually-beneficial-partnership/"
-    },
-    {
-      "date": "2026-11-26",
-      "evenement": "Recours de Gérard Depardieu dans l'affaire Charlotte Arnould",
-      "type": "audition",
-      "lien": "https://pressejudiciaire.fr/evenement/examen-du-recours-de-gerard-depardieu-contre-son-renvoi-en-proces-pour-les-viols-de-charlotte-arnould-cour-criminelle-paris/"
+      "date": "2026-11-19",
+      "evenement": "Sommet trilatéral Trump-Xi-Poutine à Shenzhen",
+      "type": "conference",
+      "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Brest : la police réquisitionne les trombinoscopes des lycées",
-      "rubrique": "societe",
-      "resume": "Dans le cadre d'enquêtes sur des violences urbaines, la police de Brest a obtenu les photos de 4 200 élèves de la cité scolaire de Kérichen. Le procureur nie tout fichage, mais les familles s'inquiètent d'une dérive de surveillance des mineurs.",
-      "sources": [
-        {
-          "nom": "Politis",
-          "url": "https://www.politis.fr/articles/2026/11/info-politis-derriere-le-scandale-des-trombinoscopes-a-brest-la-collaboration-a-bas-bruit-entre-les-chefs-detablissement-et-forces-de-lordre/",
-          "type": "investigation"
-        },
-        {
-          "nom": "UNSA Éducation",
-          "url": "https://www.unsa-education.com/articles-regional-/communique-unsa-education-bretagne-sur-la-situation-des-lycees-brestois/",
-          "type": "institutionnel"
-        }
-      ],
-      "pourquoi_signal": "Ce cas révèle une collaboration institutionnelle croissante entre l'Éducation nationale et la police, transformant les outils pédagogiques en outils de fichage policier."
-    },
-    {
-      "titre": "Offensive des fast-foods en zone rurale",
-      "rubrique": "economie",
-      "resume": "En Ardèche, des projets d'implantation de McDonald's et Burger King (Rosières, Ruoms) provoquent la fronde d'agriculteurs et d'apiculteurs qui dénoncent l'artificialisation des sols et la malbouffe.",
+      "titre": "Surexposition aux PFAS des salariés de la chimie",
+      "rubrique": "science",
+      "resume": "Une étude indépendante menée sur 126 travailleurs des sites d'Arkema et Daikin révèle une présence omniprésente de 'polluants éternels' dans leur sang (Reporterre). Les résultats officiels de l'étude d'État PERFAO ne sont attendus qu'en 2027.",
       "sources": [
         {
           "nom": "Reporterre",
-          "url": "https://reporterre.net/C-est-ca-le-progres-McDonald-s-et-Burger-King-a-l-assaut-des-campagnes",
+          "url": "https://reporterre.net/J-ai-beaucoup-de-regrets-j-aurais-du-changer-d-emploi-les-PFAS-omnipresents-dans-le-sang",
           "type": "investigation"
-        },
-        {
-          "nom": "Confédération Paysanne Ardèche",
-          "url": null,
-          "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "L'expansion agressive des géants du fast-food dans les campagnes est un signal de la fragilisation des commerces locaux et des terres agricoles, souvent occulté par l'argument de l'emploi."
+      "pourquoi_signal": "Ce sujet d'une gravité sanitaire majeure pour les travailleurs est largement occulté par la communication institutionnelle qui temporise les résultats."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "L'omerta policière au cœur du procès Zecler",
-      "rubrique": "societe",
-      "resume": "Le procès des policiers ayant frappé Michel Zecler met en lumière un système de solidarité interne confinant à l'omerta. Des collègues témoins disent n'avoir « rien vu » malgré les vidéos accablantes.",
+      "titre": "Interdiction du commerce avec les colonies israéliennes",
+      "rubrique": "international",
+      "resume": "L'Assemblée nationale examine une loi pour interdire tout lien économique avec les colonies illégales en Palestine et au Golan (Le Monde, Libération).",
       "axes_concernes": [
-        "justice_sociale",
-        "liberte_expression"
+        "droit_international",
+        "colonialisme"
       ],
-      "analyse": "Ce procès est crucial car il ne juge pas seulement des violences individuelles, mais la capacité de l'institution policière à s'auto-critiquer. La persistance de l'omerta, relevée par Mediapart et Libération, interroge la loyauté des agents envers la loi plutôt qu'envers leur corps, une menace directe pour l'État de droit.",
+      "analyse": "Ce texte place la France face à ses obligations internationales. Condamner la colonisation sans cesser de la financer constitue un double standard intenable. Le respect des résolutions de l'ONU exige une cohérence entre la parole diplomatique et la réalité des flux financiers et commerciaux.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/161126/au-proces-des-policiers-qui-ont-tabasse-michel-zecler-des-collegues-amnesiques-sans-regrets-ni-compassion",
-          "type": "investigation"
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/societe/police-justice/lidee-cest-detre-solidaire-a-tout-prix-au-proces-de-lagression-de-michel-zecler-lancien-brigadier-chef-denonce-lomerta-dans-la-police-20261116_NNXM7MCDMNBKJFRKNCRORR5RAY/",
+          "nom": "Le Monde",
+          "url": null,
           "type": "mainstream"
         }
       ]
     },
     {
-      "titre": "Lobbying massif pour sauver les PFAS",
+      "titre": "Dette écologique et sanitaire des incendies en Indonésie",
       "rubrique": "science",
-      "resume": "Le lobby des fluoropolymères manœuvre intensément auprès de la Commission européenne pour exempter les « polluants éternels » de toute interdiction, malgré les risques cancérogènes avérés.",
+      "resume": "Les fumées des incendies ont causé plus de 5 000 décès prématurés cette année en Indonésie (Reporterre). Les émissions de carbone atteignent des sommets historiques (Copernicus).",
       "axes_concernes": [
-        "ecologie_sociale",
-        "droit_international"
+        "justice_sociale",
+        "ecologie_sociale"
       ],
-      "analyse": "La possible capitulation de la Commission européenne face aux lobbies industriels sur les PFAS est un signal d'alarme pour la santé publique. Quand le profit industriel prime sur le principe de précaution sanitaire (risque de cancer du sein accru de 93%), l'équité sociale est bafouée : les citoyens subissent la pollution tandis que les entreprises conservent leurs marges.",
+      "analyse": "La destruction des tourbières indonésiennes est une catastrophe climatique mondiale dont le coût humain est supporté par les populations locales. Cette 'dette écologique' nécessite une réponse internationale immédiate sur la préservation des puits de carbone et la protection des droits humains face aux intérêts agro-industriels.",
       "sources": [
         {
-          "nom": "Les Décodeurs",
-          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/17/polluants-eternels-comment-le-lobby-des-fluoropolymeres-man-uvre-pour-sauver-ses-pfas-d-une-interdiction-europeenne_6812892_4355770.html",
-          "type": "fact-check"
-        },
-        {
-          "nom": "Futura Sciences",
-          "url": "https://www.futura-sciences.com/sante/actualites/cancer-sein-pfas-deux-polluants-eternels-associes-hausse-risque-cancer-sein-agressif-pouvant-atteindre-93-139374/#xtor%3DRSS-8",
-          "type": "mainstream"
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/SOUS-EMBARGO-JEUDI-19-NOVEMBRE-4-H-CET-EN-BREF-Indonesie-les-fumees-des-incendies-ont-tue",
+          "type": "investigation"
         }
       ]
     }
   ],
-  "date": "2026-11-17",
-  "genere_a": "2026-11-17T05:36:04.663Z",
+  "date": "2026-11-19",
+  "genere_a": "2026-11-19T05:36:10.310Z",
   "meta": {
-    "nb_articles_analyses": 688,
-    "nb_topics": 220,
+    "nb_articles_analyses": 779,
+    "nb_topics": 231,
     "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 53,
-    "sources_francaises": 462,
-    "sources_etrangeres": 226,
+    "nb_articles_dans_selection": 52,
+    "sources_francaises": 498,
+    "sources_etrangeres": 281,
     "rubriques_couvertes": [
-      "international",
       "societe",
       "politique",
-      "economie"
+      "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"

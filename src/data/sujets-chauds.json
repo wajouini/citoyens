@@ -1,98 +1,125 @@
 {
-  "date": "2026-11-17",
-  "genere_a": "2026-11-17T05:36:48.720Z",
+  "date": "2026-11-19",
+  "genere_a": "2026-11-19T05:36:57.818Z",
   "sujets_actifs": [
     {
-      "titre": "Débat présidentiel 2027 : affrontement sur le pouvoir d'achat et la solidarité",
-      "slug": "debat-presidentiel-2027-pouvoir-achat-solidarite",
-      "rubrique": "politique",
+      "titre": "Sommet historique Trump-Xi-Poutine à Shenzhen",
+      "slug": "sommet-shenzhen-trump-xi-poutine-2026",
+      "rubrique": "international",
       "tldr": [
-        "Premier grand débat télévisé opposant Attal, Le Pen, Mélenchon, Glucksmann et Retailleau.",
-        "Marine Le Pen confirme l'arrêt de l'aide financière à l'Ukraine en cas d'élection.",
-        "Divergences majeures sur la hausse du SMIC et la taxation des héritages."
+        "Rencontre trilatérale inédite en Chine entre les présidents américain, chinois et russe.",
+        "Discussions centrées sur la dénucléarisation et les crises internationales (Ukraine, Iran).",
+        "Climat de tension malgré une mise en scène diplomatique soignée (accolade Xi-Trump)."
       ],
-      "resume": "Le premier grand débat de la campagne présidentielle 2027 a réuni cinq candidats (Gabriel Attal, Marine Le Pen, Jean-Luc Mélenchon, Raphaël Glucksmann et Bruno Retailleau) sur LCI et TF1. Les échanges, d'une durée de trois heures, se sont cristallisés sur la « vie chère », le logement et la précarité étudiante. Marine Le Pen a provoqué une vive polémique en assumant sa volonté de cesser l'aide financière à l'Ukraine, invoquant l'état des finances publiques (20 Minutes). Jean-Luc Mélenchon et Marine Le Pen se sont durement opposés sur la hausse du SMIC, tandis que Gabriel Attal a défendu le bilan actuel face aux propositions de blocage des marges de la gauche (Le Monde).",
-      "contexte_historique": "Ce débat intervient dix ans jour pour jour après l'annonce de la première candidature d'Emmanuel Macron en 2016 (BFM TV). Il marque la fin de l'ère Philippe après son retrait de la course, rappelant les recompositions politiques de 1995 après le retrait de Jacques Delors. Le droit français impose une équité de temps de parole, bien que la campagne officielle ne commence qu'en 2027.",
+      "resume": "Les dirigeants des trois premières puissances mondiales se sont réunis ce jeudi 19 novembre à Shenzhen pour un sommet tripartite historique. Donald Trump, Xi Jinping et Vladimir Poutine cherchent à redéfinir l'ordre mondial alors que le traité de dénucléarisation New Start a expiré et que les conflits en Ukraine et au Moyen-Orient s'enlisent. Si la photo de groupe symbolise une tentative de stabilisation, les divergences de fond sur les rivalités technologiques et la défense de l'Ukraine par l'Europe (réunie parallèlement à Berlin) restent profondes. Les États-Unis affichent une volonté de dialogue nucléaire tandis que la Chine tente de s'imposer comme le médiateur central de cette nouvelle ère géopolitique.",
+      "contexte_historique": "Ce sommet intervient après l'expiration du traité New Start en 2026, dernier pilier du contrôle des armements nucléaires entre les États-Unis et la Russie (RFI). Historiquement, aucune rencontre n'avait réuni simultanément ces trois puissances depuis la fin de la Guerre froide, rappelant les équilibres précaires de la conférence de Yalta en 1945.",
       "implications": [
-        "Clarification des lignes diplomatiques : rupture actée du RN avec le consensus européen sur le soutien à Kiev.",
-        "Fracture à gauche : tensions visibles entre la ligne LFI et celle de Raphaël Glucksmann sur la taxation des 'méga-héritages'."
+        "Risque d'isolement diplomatique de l'Union européenne sur le dossier ukrainien.",
+        "Accélération possible d'un nouvel accord de non-prolifération nucléaire incluant la Chine.",
+        "Reconfiguration des marchés de l'énergie suite aux discussions sur le conflit iranien."
       ],
       "chronologie": [
         {
-          "date": "2026-11-17",
-          "texte": "Marine Le Pen détaille sa réforme des retraites et confirme le retrait de l'aide à l'Ukraine.",
+          "date": "2026-11-19",
+          "texte": "Début de l'entretien bilatéral entre Donald Trump et Vladimir Poutine à Shenzhen.",
+          "source": "France 24 FR"
+        },
+        {
+          "date": "2026-11-19",
+          "texte": "Photo officielle des dirigeants de l'APEC incluant le trio Trump-Xi-Poutine.",
           "source": "BFM TV"
         },
         {
-          "date": "2026-11-16",
-          "texte": "Premier débat télévisé à cinq sur LCI/TF1.",
-          "source": "Le Figaro"
-        },
-        {
-          "date": "2026-11-16",
-          "texte": "Emmanuel Macron publie un message de bilan pour les 10 ans de son engagement.",
-          "source": "BFM TV"
+          "date": "2026-11-18",
+          "texte": "Arrivée de Donald Trump en Chine et accueil chaleureux par Xi Jinping.",
+          "source": "NYT World"
         }
       ],
       "couvertures": [
         {
-          "source": "Le Monde",
+          "source": "RFI",
           "type": "mainstream",
-          "angle": "Analyse technique des propositions économiques et du clivage sur le pouvoir d'achat.",
+          "angle": "Analyse des enjeux de la dénucléarisation après la fin du traité New Start.",
           "ton": "factuel",
-          "url": "https://www.lemonde.fr/politique/article/2026/11/17/impots-logement-smic-ce-qu-il-faut-retenir-du-debat-entre-candidats-a-la-presidentielle_6812895_823448.html",
-          "citation_cle": "La vie chère et le pouvoir d’achat, préoccupation numéro un des Français.",
+          "url": "https://www.rfi.fr/fr/asie-pacifique/20261119-sommet-apec-pourquoi-rencontre-trump-xi-poutine-interroge-%C3%A0-washington",
+          "citation_cle": "Cette rencontre trilatérale inédite interroge à Washington sur les concessions possibles de Trump.",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
-          "source": "20 Minutes",
-          "type": "mainstream",
-          "angle": "Focus sur la déclaration de rupture de Marine Le Pen concernant l'Ukraine.",
-          "ton": "engage",
-          "url": "https://www.20minutes.fr/politique/4263434-20261117-direct-presidentielle-2027-pen-melenchon-echarpent-hausse-smic?at_medium=display&at_campaign=149",
-          "citation_cle": "L’état des finances publiques de la France ne permettrait plus d’aider financièrement l’Ukraine.",
-          "groupe_media": null
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Focus sur l'exclusion de l'Europe des discussions majeures sur la défense.",
+          "ton": "neutre",
+          "url": "https://www.aljazeera.com/news/2026/11/19/far-from-trump-putin-meeting-europe-to-count-cost-of-ukraines-defence?traffic_source=rss",
+          "citation_cle": "Pendant que le trio se réunit, les leaders européens se retrouvent à Berlin pour chiffrer le coût de la défense ukrainienne.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
         },
         {
-          "source": "Le Figaro",
+          "source": "France 24 FR",
           "type": "mainstream",
-          "angle": "Présidentielle 2027 : impôts, logement, associations… Ce qu’il faut retenir du grand débat entre cinq candidats sur la vie chère",
+          "angle": "🔴 Sommet de Shenzhen en direct : la rencontre bilatérale entre Donald Trump et Vladimir Poutine a débuté",
           "ton": "factuel",
-          "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-impots-logement-associations-ce-qu-il-faut-retenir-du-grand-debat-entre-cinq-candidats-sur-la-vie-chere-20261116",
-          "citation_cle": "Pendant près de trois heures, Jean-Luc Mélenchon, Raphaël Glucksmann, Gabriel Attal, Bruno Retailleau et Marine Le Pen o",
-          "groupe_media": null
+          "url": "https://www.france24.com/fr/asie-pacifique/20261119-sommet-apec-en-direct-rencontres-diplomatiques-attendues-shenzhen-trump-poutine-xi-jinping",
+          "citation_cle": null,
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'impact réel de ce premier débat sur les intentions de vote à long terme.",
-        "La capacité des Écologistes à rejoindre la 'dynamique' LFI après les provocations de Sandrine Rousseau."
+        "L'existence d'accords secrets sur le tracé des frontières en Ukraine.",
+        "La position réelle de la Chine face aux velléités nucléaires russes."
       ],
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/politique/article/2026/11/17/impots-logement-smic-ce-qu-il-faut-retenir-du-debat-entre-candidats-a-la-presidentielle_6812895_823448.html",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/asie-pacifique/20261119-sommet-apec-pourquoi-rencontre-trump-xi-poutine-interroge-%C3%A0-washington",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/politique/4263434-20261117-direct-presidentielle-2027-pen-melenchon-echarpent-hausse-smic?at_medium=display&at_campaign=149",
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/asie-pacifique/20261119-sommet-apec-en-direct-rencontres-diplomatiques-attendues-shenzhen-trump-poutine-xi-jinping",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/far-from-trump-putin-meeting-europe-to-count-cost-of-ukraines-defence?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
         },
         {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-j-ai-fait-de-mon-mieux-le-message-crepusculaire-d-emmanuel-macron-sur-x_VN-202611170133.html",
+          "url": "https://www.bfmtv.com/international/asie/chine/xi-jinping-donald-trump-et-vladimir-poutine-posent-ensemble-sur-la-photo-de-groupe-des-dirigeants-de-la-cooperation-economique-asie-pacifique_AD-202611190145.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -102,48 +129,49 @@
           }
         }
       ],
-      "premiere_apparition": "2026-11-14"
+      "premiere_apparition": "2026-11-18"
     },
     {
-      "titre": "Mobilisation nationale du 17 novembre : grèves massives dans la fonction publique",
-      "slug": "mobilisation-nationale-17-novembre-greves",
-      "rubrique": "societe",
+      "titre": "Lancement mondial de Grand Theft Auto VI (GTA VI)",
+      "slug": "sortie-mondiale-gta-vi-2026",
+      "rubrique": "culture",
       "tldr": [
-        "Intersyndicale mobilisée pour des hausses de salaires et contre la précarité.",
-        "Entre 250 000 et 360 000 manifestants attendus dans toute la France.",
-        "Convergence des luttes entre fonctionnaires, soignants et lycéens."
+        "Sortie officielle du jeu vidéo le plus attendu de la décennie ce 19 novembre.",
+        "Impact économique massif sur l'industrie du divertissement et le marché du travail.",
+        "Récupération politique du phénomène par les candidats à la présidentielle 2027."
       ],
-      "resume": "Une nouvelle journée d'action nationale paralyse la France ce mardi 17 novembre. À l'appel de l'intersyndicale (CGT, FO, les agents de la fonction publique réclament des revalorisations salariales face à l'inflation. Le mouvement, initié par les lycéens mi-septembre, s'est étendu aux universités et désormais au secteur public (Le Monde). Sophie Binet appelle à un « maximum de grèves » pour répondre aux annonces gouvernementales jugées insuffisantes (BFM TV). Les autorités craignent des débordements avec la présence de 200 à 400 militants radicaux à Paris.",
-      "contexte_historique": "Cette mobilisation rappelle le mouvement de 1995 par son ampleur et sa durée. Elle s'inscrit dans un contexte de crise d'attractivité de la fonction publique, où de nombreux postes restent vacants faute de candidats (Ouest-France). Le droit de grève est constitutionnel en France depuis 1946, mais les réquisitions de soignants et l'usage de cours en distanciel pour contrer les blocus lycéens créent de nouvelles tensions juridiques.",
+      "resume": "Treize ans après le précédent opus, Rockstar Games publie ce jeudi GTA VI, un événement qui dépasse le cadre du jeu vidéo pour devenir un phénomène de société. En France, les entreprises signalent une explosion des demandes de congés, certains salariés posant jusqu'à dix jours pour le lancement (BFM TV). L'industrie prévoit des revenus records, tandis que la classe politique tente de s'approprier les codes du jeu pour séduire l'électorat jeune. Cependant, cette sortie ravive également les débats sur la représentation de la violence et la satire sociale acerbe propre à la franchise, dans un contexte de surveillance accrue des contenus numériques.",
+      "contexte_historique": "La franchise GTA est l'une des plus rentables de l'histoire, GTA V ayant généré plus de 8 milliards de dollars depuis 2013. C'est un pilier de la culture populaire qui a souvent servi de laboratoire pour les technologies de monde ouvert (Alternatives Économiques).",
       "implications": [
-        "Risque de blocage prolongé des lycées et universités avec un impact sur les examens de fin d'année.",
-        "Pression accrue sur le budget 2027 pour intégrer des revalorisations salariales d'urgence."
+        "Pic de consommation sur les plateformes de téléchargement et les services cloud.",
+        "Perturbation temporaire de la productivité dans certains secteurs tertiaires.",
+        "Utilisation accrue de l'esthétique du jeu dans la communication politique numérique."
       ],
       "chronologie": [
         {
-          "date": "2026-11-17",
-          "texte": "Début des manifestations dans les grandes agglomérations (Lyon, Lille.",
+          "date": "2026-11-19",
+          "texte": "Disponibilité mondiale du jeu sur PS5 et Xbox Series.",
+          "source": "Ouest-France"
+        },
+        {
+          "date": "2026-11-18",
+          "texte": "Multiplication des clins d'œil des candidats à la présidentielle française sur les réseaux sociaux.",
           "source": "Le Monde"
         },
         {
-          "date": "2026-11-16",
-          "texte": "La CFDT confirme son ralliement à la mobilisation.",
-          "source": "BFM TV"
-        },
-        {
-          "date": "2026-11-05",
-          "texte": "Violences policières dénoncées lors d'un précédent blocus lycéen à Strasbourg.",
-          "source": "Rue89 Strasbourg"
+          "date": "2023-12-04",
+          "texte": "Publication de la première bande-annonce officielle par Rockstar Games.",
+          "source": "Rockstar"
         }
       ],
       "couvertures": [
         {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse de l'ancrage territorial de la révolte sociale au fil des semaines.",
-          "ton": "factuel",
-          "url": "https://www.lemonde.fr/politique/article/2026/11/17/a-lyon-toulouse-lille-ou-rennes-les-ressorts-d-une-revolte-sociale-qui-s-est-ancree-au-fil-des-semaines_6812893_823448.html",
-          "citation_cle": "Une révolte sociale qui s’est ancrée au fil des semaines.",
+          "angle": "Analyse de la récupération politique du jeu par les partis français.",
+          "ton": "critique",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/19/gta-vi-le-sixieme-episode-du-jeu-video-phenomene-une-matiere-sensible-pour-le-monde-politique_6813235_823448.html",
+          "citation_cle": "A gauche comme à droite, candidats et partis ont multiplié les clins d’œil, oubliant parfois les rapports contrariés avec la saga.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -154,10 +182,10 @@
         {
           "source": "BFM TV",
           "type": "mainstream",
-          "angle": "Suivi en direct des chiffres de mobilisation et des risques de débordements.",
-          "ton": "alarmiste",
-          "url": "https://www.bfmtv.com/societe/manifestations/direct-colere-sociale-entre-250-000-et-360-000-manifestants-attendus-partout-en-france-sophie-binet-apelle-a-un-maximum-de-greves_LN-202611170129.html",
-          "citation_cle": "Sophie Binet appelle à un maximum de grèves.",
+          "angle": "Conséquences RH avec l'explosion des demandes de congés en entreprise.",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/economie/emploi/vie-de-bureau/on-a-des-collaborateurs-qui-vont-poser-jusqu-a-10-jours-cette-drh-n-avait-jamais-vu-ca-la-sortie-de-gta-6-provoque-une-explosion-des-demandes-de-vacances-dans-les-entreprises_AV-202611190119.html",
+          "citation_cle": "Des milliers de salariés ont posé des jours de congé pour ne rien manquer de la sortie.",
           "groupe_media": {
             "nom": "CMA CGM",
             "proprietaire": "Rodolphe Saadé",
@@ -168,21 +196,21 @@
         {
           "source": "Ouest-France",
           "type": "mainstream",
-          "angle": "Éditorial. La fonction publique ne fait plus recette",
+          "angle": "Pourquoi la sortie du jeu vidéo « Grand Theft Auto VI », dit « GTA VI », est-elle aussi attendue ce jeudi ?",
           "ton": "factuel",
-          "url": "https://www.ouest-france.fr/economie/pouvoir-d-achat/editorial-la-fonction-publique-ne-fait-plus-recette-d91972d6-e1bc-11f1-b029-43a761592972?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "citation_cle": "Certains postes dans la fonction publique ne sont pas pourvus faute de candidats. Un défaut d’attractivité qui souligne ",
+          "url": "https://www.ouest-france.fr/gaming/jeux-video/pourquoi-la-sortie-du-jeu-video-grand-theft-auto-vi-dit-gta-vi-est-elle-aussi-attendue-ce-jeudi-fe07d97e-dde9-11f1-86b6-0a2fbb1d8ed9?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "citation_cle": "C’est une sortie évènement, celle d’un jeu vidéo, « Grand Theft Auto VI », jeudi 19 novembre 2026, sur Xbox Series et PS",
           "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Le chiffre réel de participation face aux accusations de minimisation par le ministère (20 Minutes).",
-        "La tenue ou non d'une nouvelle journée d'action avant les vacances de fin d'année."
+        "Le chiffre d'affaires exact réalisé lors des premières 24 heures.",
+        "La date de sortie de la version PC, traditionnellement décalée."
       ],
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/politique/article/2026/11/17/a-lyon-toulouse-lille-ou-rennes-les-ressorts-d-une-revolte-sociale-qui-s-est-ancree-au-fil-des-semaines_6812893_823448.html",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/19/gta-vi-le-sixieme-episode-du-jeu-video-phenomene-une-matiere-sensible-pour-le-monde-politique_6813235_823448.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -193,7 +221,7 @@
         },
         {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/societe/manifestations/direct-colere-sociale-entre-250-000-et-360-000-manifestants-attendus-partout-en-france-sophie-binet-apelle-a-un-maximum-de-greves_LN-202611170129.html",
+          "url": "https://www.bfmtv.com/economie/emploi/vie-de-bureau/on-a-des-collaborateurs-qui-vont-poser-jusqu-a-10-jours-cette-drh-n-avait-jamais-vu-ca-la-sortie-de-gta-6-provoque-une-explosion-des-demandes-de-vacances-dans-les-entreprises_AV-202611190119.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -203,117 +231,74 @@
           }
         },
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/politique/4263434-20261117-direct-presidentielle-2027-pen-melenchon-echarpent-hausse-smic?at_medium=display&at_campaign=149",
+          "nom": "Alternatives Économiques",
+          "url": "https://www.alternatives-economiques.fr/gta-vi-sur-le-point-de-braquer-l-industrie-du-jeu-video_19-11-2026",
           "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/faits-divers/justice-proces/proces-de-l-assassinat-du-frere-d-amine-kessaci-deux-figures-du-narcobanditisme-marseillais-condamnees-a-la-perpetuite_8285081.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream"
-        },
-        {
-          "nom": "Rue89 Lyon",
-          "url": "https://www.rue89lyon.fr/2026/11/16/nouvelle-manifestation-prevue-lyon-mardi-17-novembre/",
-          "type": "investigation"
+          "groupe_media": {
+            "nom": "Alternatives Économiques",
+            "proprietaire": "SCOP (coopérative de salariés)",
+            "type_proprietaire": "cooperative",
+            "orientation": "centre-gauche"
+          }
         }
       ],
-      "premiere_apparition": "2026-11-17"
+      "premiere_apparition": "2026-11-19"
     },
     {
-      "titre": "Scandale Nvidia : les États-Unis bloquent l'accès de la Chine aux puces IA",
-      "slug": "scandale-nvidia-blocage-puces-ia-chine",
-      "rubrique": "tech",
+      "titre": "Introduction en Bourse d'Anthropic et fin de l'euphorie IA",
+      "slug": "anthropic-ipo-wall-street-ia-2026",
+      "rubrique": "ia",
       "tldr": [
-        "Washington impose des licences d'exportation strictes pour l'Asie du Sud-Est.",
-        "Le scandale d'espionnage chez Nvidia accélère les restrictions technologiques.",
-        "Campagne 'Bring Jensen Back' soutenue par Donald Trump et Elon Musk."
+        "Entrée en Bourse d'Anthropic ce 19 novembre, défiant OpenAI.",
+        "Wall Street durcit ses critères face aux coûts énergétiques et au manque de rentabilité.",
+        "Nvidia chute lourdement, signalant une correction du secteur technologique."
       ],
-      "resume": "Dans le sillage de la démission de Jensen Huang, l'administration américaine a durci les règles d'exportation des puces d'IA vers la Malaisie, la Thaïlande et Singapour pour empêcher la Chine d'y accéder à distance (Al Jazeera). Ce tour de vis intervient alors qu'un scandale d'espionnage ébranle Nvidia. Parallèlement, un mouvement de soutien massif, baptisé 'Bring Jensen Back' et appuyé par Donald Trump et Elon Musk, demande la réintégration de l'ex-PDG (BBC News, The Guardian). Nvidia rejette pour l'instant ces appels alors que le titre boursier reste sous pression.",
-      "contexte_historique": "Ces restrictions s'inscrivent dans le 'CHIPS and Science Act' de 2022, visant à freiner l'ascension technologique de la Chine. Nvidia, qui domine 80% du marché des puces IA, est devenu un enjeu de sécurité nationale pour les États-Unis, rappelant les tensions autour de Huawei en 2019.",
+      "resume": "L'introduction en Bourse d'Anthropic, le créateur de l'IA Claude, marque un tournant pour le secteur de l'intelligence artificielle. Si l'opération devrait battre des records, elle intervient au moment où Wall Street met fin à l'euphorie généralisée. Les investisseurs exigent désormais des modèles économiques viables face à l'explosion des coûts de maintenance des centres de données et aux alertes climatiques (The Guardian). La chute de Nvidia en Bourse illustre cette méfiance croissante : le marché cherche désormais à distinguer les réels bénéficiaires de la révolution IA des simples effets d'annonce.",
+      "contexte_historique": "Anthropic a été fondé par d'anciens cadres d'OpenAI prônant une approche plus sécurisée et éthique de l'IA (La Croix). Cette IPO survient alors que l'AIE prévoit une hausse de 70% des émissions de carbone liées aux datacenters d'ici 2030 (The Guardian).",
       "implications": [
-        "Guerre froide technologique : isolement accru des centres de données chinois dépendant de l'architecture CUDA.",
-        "Déstabilisation de la Silicon Valley : le possible retour de Huang sous pression politique pourrait créer un précédent de gestion gouvernementale des entreprises privées."
+        "Pression accrue sur OpenAI pour accélérer sa propre introduction en Bourse.",
+        "Durcissement des conditions de financement pour les startups IA moins matures.",
+        "Renforcement des régulations environnementales sur les infrastructures de calcul."
       ],
       "chronologie": [
         {
-          "date": "2026-11-17",
-          "texte": "L'administration Trump introduit des licences d'exportation pour 5 pays d'Asie et le Brésil.",
-          "source": "Al Jazeera"
+          "date": "2026-11-19",
+          "texte": "Première cotation de l'action Anthropic sur le Nasdaq.",
+          "source": "Courrier international"
         },
         {
-          "date": "2026-11-17",
-          "texte": "Donald Trump soutient publiquement le retour de Jensen Huang chez Nvidia.",
-          "source": "BBC News"
+          "date": "2026-11-19",
+          "texte": "Publication du rapport de l'AIE sur l'empreinte carbone des datacenters.",
+          "source": "The Guardian"
         },
         {
-          "date": "2026-11-08",
-          "texte": "Démission choc de Jensen Huang suite à des soupçons d'espionnage industriel.",
-          "source": "Radar"
+          "date": "2026-11-18",
+          "texte": "Baisse significative du titre Nvidia suite aux doutes sur la rentabilité à long terme de l'IA.",
+          "source": "Le Monde"
         }
       ],
       "couvertures": [
         {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Analyse de l'impact économique des restrictions sur les pays d'Asie du Sud-Est.",
-          "ton": "factuel",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/the-red-crabs-of-christmas-island?traffic_source=rss",
-          "citation_cle": "Washington cherche à fermer les 'portes dérobées' de l'accès au cloud pour la Chine.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Focus sur la campagne de réintégration de Huang et le soutien des figures de la tech.",
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Analyse de la fin de la bulle spéculative sur l'IA à Wall Street.",
           "ton": "neutre",
-          "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Nvidia rejette la campagne 'Bring Jensen Back' malgré le soutien de Trump.",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/19/aux-etats-unis-wall-street-met-fin-a-l-euphorie-generalisee-sur-l-ia-et-cherche-a-trier-les-gagnants-et-les-perdants-de-cette-revolution_6813232_3234.html",
+          "citation_cle": "Wall Street met fin à l’euphorie généralisée et cherche à trier les gagnants et les perdants.",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'étendue réelle des données compromises lors du scandale d'espionnage.",
-        "Si le conseil d'administration de Nvidia cédera à la pression politique des alliés de Trump."
-      ],
-      "sources": [
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/the-red-crabs-of-christmas-island?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+          "source": "The Guardian",
           "type": "etranger",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
-          "type": "etranger",
+          "angle": "Alerte sur l'impact climatique colossal du développement de l'IA.",
+          "ton": "alarmiste",
+          "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
+          "citation_cle": "Les centres de données créeront 70 % d'émissions de carbone supplémentaires d'ici 2030.",
           "groupe_media": {
             "nom": "Scott Trust",
             "proprietaire": "Scott Trust Limited",
@@ -322,48 +307,98 @@
           }
         }
       ],
-      "premiere_apparition": "2026-11-08"
+      "ce_quon_ne_sait_pas": [
+        "La capacité d'Anthropic à atteindre la rentabilité avant l'épuisement de ses fonds.",
+        "L'impact réel de la loi Darcos sur le coût d'entraînement des modèles en France."
+      ],
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/19/aux-etats-unis-wall-street-met-fin-a-l-euphorie-generalisee-sur-l-ia-et-cherche-a-trier-les-gagnants-et-les-perdants-de-cette-revolution_6813232_3234.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/intelligence-artificielle-avec-son-introduction-en-bourse-anthropic-prend-de-l-avance-sur-openai_288258",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/economie/son-rapport-a-l-ia-releve-de-la-croyance-la-foi-dans-la-machine-de-dario-amodei-pdg-danthropic-20261118",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "premiere_apparition": "2026-11-18"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "L'Estonie ferme sa frontière avec la Russie",
-      "slug": "estonie-frontiere-russie-fermeture",
-      "rubrique": "international",
-      "resume": "Après les sabotages attribués au GRU, la frontière reste fermée. L'OTAN a renforcé sa présence mais aucune escalade directe n'est signalée ce jour.",
+      "titre": "Mobilisation nationale du 17 novembre",
+      "slug": "mobilisation-nationale-17-novembre-2026",
+      "rubrique": "societe",
+      "resume": "Les grèves massives dans la fonction publique s'essoufflent après trois jours de mobilisation. Les syndicats attendent désormais les réponses du gouvernement sur le pouvoir d'achat, tandis que les regards se tournent vers les alliances politiques pour 2027.",
       "chronologie": [
         {
-          "date": "2026-11-16",
-          "texte": "Fermeture totale des points de passage estoniens.",
-          "source": "Radar"
+          "date": "2026-11-19",
+          "texte": "Reprise progressive du trafic dans les transports et réouverture des écoles.",
+          "source": "franceinfo"
+        },
+        {
+          "date": "2026-11-17",
+          "texte": "Journée de mobilisation nationale avec des cortèges importants dans les grandes villes.",
+          "source": "Le Monde"
         }
       ],
       "couvertures": [
         {
-          "source": "BFM TV",
+          "source": "franceinfo",
           "type": "mainstream",
-          "angle": "Focus sur les tensions diplomatiques avec Moscou.",
+          "angle": "Bilan de la mobilisation et retour à la normale.",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/international/europe/estonie-fermeture-frontiere-russie_AN-202611160001.html",
-          "citation_cle": "Une mesure de sécurité nationale face aux menaces hybrides."
+          "url": "https://www.franceinfo.fr",
+          "citation_cle": "La mobilisation marque le pas, les syndicats appellent à des négociations sectorielles."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "La durée de cette fermeture exceptionnelle."
+        "Le montant exact des enveloppes budgétaires que le gouvernement est prêt à débloquer."
       ],
       "sources": [
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/europe/estonie-fermeture-frontiere-russie_AN-202611160001.html",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr",
           "type": "mainstream"
         }
       ],
-      "derniere_mise_a_jour": "2026-11-17",
-      "statut": "Sujet stabilisé, en attente de réponse diplomatique russe."
+      "derniere_mise_a_jour": "2026-11-19",
+      "statut": "Le mouvement entre dans une phase de négociation en coulisses."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 688,
+    "nb_articles_analyses": 779,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }
