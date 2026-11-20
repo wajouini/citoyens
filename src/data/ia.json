@@ -1,84 +1,27 @@
 {
-  "date": "2026-11-19",
-  "genere_a": "2026-11-19T05:36:30.131Z",
+  "date": "2026-11-20",
+  "genere_a": "2026-11-20T05:35:42.340Z",
   "faits_ia": [
     {
-      "titre": "Anthropic entre en Bourse et défie la domination d'OpenAI",
+      "titre": "Anthropic réussit l'introduction en Bourse la plus importante de l'histoire",
       "sous_section": "business",
-      "resume": "L'entreprise Anthropic prévoit une introduction en Bourse historique ce jeudi 19 novembre, visant une levée de fonds de 90 milliards de dollars. Cette stratégie diverge de celle d'OpenAI, qui reste pour l'instant une structure privée en transition, et place Anthropic dans une position de force financière pour accélérer le développement de ses modèles Claude.",
-      "pourquoi_ca_compte": "Cette IPO teste l'appétit réel des marchés pour l'IA et pourrait redéfinir la hiérarchie des géants du secteur face aux investissements massifs requis.",
+      "resume": "Le créateur de l'IA Claude a fait des débuts fracassants au Nasdaq, levant 81 milliards de dollars et atteignant une valorisation proche des 2 000 milliards de dollars. L'action a bondi de 17% à 34% dès les premières heures, dépassant les records précédemment établis par des géants comme SpaceX.",
+      "pourquoi_ca_compte": "Cette IPO historique marque un tournant pour l'économie de l'IA, prouvant que l'appétit des investisseurs reste massif malgré les doutes récents sur la rentabilité du secteur.",
       "sources": [
         {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/intelligence-artificielle-avec-son-introduction-en-bourse-anthropic-prend-de-l-avance-sur-openai_288258",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/economie/son-rapport-a-l-ia-releve-de-la-croyance-la-foi-dans-la-machine-de-dario-amodei-pdg-danthropic-20261118",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-le-tech-flash-nvidia-arrete-de-vendre-ses-puces-ia-en-chine-par-lea-benaim-18-11_VN-202611180923.html",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/economie/bourse/l-entreprise-americaine-d-intelligence-artificielle-anthropic-signe-une-entree-en-bourse-historique-en-detronant-spacex_8290763.html#xtor=RSS-3-[lestitres]",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": "https://www.courrierinternational.com/article/intelligence-artificielle-avec-son-introduction-en-bourse-anthropic-prend-de-l-avance-sur-openai_288258"
-    },
-    {
-      "titre": "La CNIL sanctionne Macif Vie pour des mots de passe stockés en clair",
-      "sous_section": "regulation",
-      "resume": "L'autorité française de protection des données (CNIL) a infligé une amende de 5 millions d'euros à l'assureur Macif Vie pour des manquements graves au RGPD. La société conservait les mots de passe de ses clients sans aucun chiffrement. Bien que la CNIL n'ait pas initialement nommé l'entreprise, l'IA Grok de X a révélé l'identité de la structure sanctionnée.",
-      "pourquoi_ca_compte": "Ce fait illustre la persistance de failles de sécurité élémentaires chez des acteurs financiers majeurs et pose la question de l'anonymisation des sanctions administratives à l'ère de l'IA.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/268231/la-cnil-sanctionne-macif-vie-a-hauteur-de-5-millions-deuros-pour-des-mots-de-passe-en-clair/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2377761-la-cnil-cache-le-nom-dune-entreprise-qui-stockait-des-mots-de-passe-clients-en-clair-grok-se-charge-de-la-balancer.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://next.ink/268231/la-cnil-sanctionne-macif-vie-a-hauteur-de-5-millions-deuros-pour-des-mots-de-passe-en-clair/"
-    },
-    {
-      "titre": "Triche par IA : la Corée du Sud place ses examens sous haute surveillance",
-      "sous_section": "societe",
-      "resume": "Lors de l'examen national du Suneung, les autorités sud-coréennes ont déployé des mesures d'urgence extrêmes, incluant des alertes sur tous les smartphones du pays, pour contrer l'usage de lunettes connectées dotées d'IA. Ces dispositifs permettent d'afficher les réponses directement sur les verres, menaçant l'intégrité du concours le plus important de la vie des lycéens.",
-      "pourquoi_ca_compte": "L'IA transforme radicalement les méthodes de fraude, forçant les États à des mesures de surveillance numérique de masse pour garantir l'équité des diplômes.",
-      "sources": [
         {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/asie-pacifique/20261119-cor%C3%A9e-du-sud-la-triche-via-les-lunettes-connect%C3%A9es-perturbe-l-examen-d-entr%C3%A9e-%C3%A0-l-universit%C3%A9",
+          "url": "https://www.rfi.fr/fr/%C3%A9conomie/20261119-anthropic-entr%C3%A9e-bourse-r%C3%A9alisant-la-plus-importante-lev%C3%A9e-de-fonds-de-l-histoire",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -88,13 +31,90 @@
           }
         },
         {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/personal-tech/2026/11/19/south-korea-tries-to-out-exam-cheats-with-extreme-emergency-smartphone-alert/5310942",
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/direct-la-plus-grande-introduction-en-bourse-de-l-histoire-suivez-les-debuts-a-new-york-d-anthropic-le-createur-de-l-ia-claude_LN-202611190598.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/economie/ia-anthropic-s-envole-en-bourse-et-atteint-une-valorisation-de-2-000-milliards-de-dollars-20261119",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": "https://www.bfmtv.com/economie/entreprises/direct-la-plus-grande-introduction-en-bourse-de-l-histoire-suivez-les-debuts-a-new-york-d-anthropic-le-createur-de-l-ia-claude_LN-202611190598.html"
+    },
+    {
+      "titre": "Meta revoit ses ambitions climatiques à la baisse à cause de l'IA",
+      "sous_section": "societe",
+      "resume": "En raison de l'explosion des besoins énergétiques de ses centres de données dédiés à l'IA, Meta (maison mère de Facebook) a annoncé réévaluer son objectif de neutralité carbone pour 2030. Ses émissions nettes ont bondi de 45 % en un an.",
+      "pourquoi_ca_compte": "Cela illustre le conflit croissant entre les promesses écologiques des Big Tech et la réalité physique, extrêmement énergivore, de la course à l'intelligence artificielle.",
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/environnement/face-au-developpement-de-l-intelligence-artificielle-meta-reevalue-son-objectif-de-zero-emission-nette-a-l-horizon-2030_8290646.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Apple développe son propre agent IA pour automatiser les Mac",
+      "sous_section": "annonces",
+      "resume": "Apple recrute activement des ingénieurs pour concevoir un agent IA capable de naviguer sur le web, d'utiliser diverses applications et d'écrire du code de manière autonome sur macOS. Ce projet vise à concurrencer les solutions de Meta et OpenAI.",
+      "pourquoi_ca_compte": "Le passage de l'IA conversationnelle à l'IA 'agente' (capable d'agir à la place de l'utilisateur) marque une nouvelle étape dans l'automatisation du travail sur ordinateur.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
           "type": "etranger",
           "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
             "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+    },
+    {
+      "titre": "Scandale de triche à l'IA lors du grand examen national en Corée du Sud",
+      "sous_section": "societe",
+      "resume": "Le 'Suneung', examen d'entrée à l'université ultra-compétitif, s'est déroulé sous haute tension après la découverte d'un réseau de triche utilisant l'IA. Le gouvernement a envoyé des alertes d'urgence nationales pour prévenir toute tentative de fraude.",
+      "pourquoi_ca_compte": "La pression sociale liée aux diplômes pousse les citoyens vers des usages détournés de l'IA, forçant l'État à des mesures de surveillance sans précédent.",
+      "sources": [
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261119-cor%C3%A9e-du-sud-un-examen-crucial-en-plein-scandale-de-triche-%C3%A0-l-ia",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
@@ -108,36 +128,19 @@
             "type_proprietaire": "famille",
             "orientation": "centre"
           }
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/international/coree-du-sud-apres-un-cas-de-triche-par-ia-le-baccalaureat-sous-haute-surveillance-20261118",
-          "type": "mainstream",
-          "groupe_media": null
         }
       ],
-      "lien": "https://www.rfi.fr/fr/asie-pacifique/20261119-cor%C3%A9e-du-sud-la-triche-via-les-lunettes-connect%C3%A9es-perturbe-l-examen-d-entr%C3%A9e-%C3%A0-l-universit%C3%A9"
+      "lien": "https://www.france24.com/fr/vid%C3%A9o/20261119-cor%C3%A9e-du-sud-un-examen-crucial-en-plein-scandale-de-triche-%C3%A0-l-ia"
     },
     {
-      "titre": "Nvidia stoppe ses ventes de puces IA en Chine sur fond de tensions",
-      "sous_section": "business",
-      "resume": "Nvidia a annoncé l'arrêt de la commercialisation de ses puces dédiées à l'intelligence artificielle sur le marché chinois. Cette décision intervient alors que Wall Street commence à s'interroger sur la pérennité de l'euphorie boursière liée à l'IA, cherchant désormais à identifier les modèles économiques réellement rentables au-delà des promesses technologiques.",
-      "pourquoi_ca_compte": "La fragmentation du marché mondial de l'IA entre blocs géopolitiques s'accélère, limitant l'accès aux capacités de calcul pour certains pays.",
+      "titre": "OVHcloud lance sa propre famille de modèles d'IA souverains",
+      "sous_section": "annonces",
+      "resume": "Octave Klaba a annoncé le lancement de modèles d'IA propriétaires hébergés sur les infrastructures d'OVHcloud. L'objectif est de proposer une alternative européenne garantissant la confidentialité des données face aux géants américains.",
+      "pourquoi_ca_compte": "C'est un enjeu de souveraineté numérique majeur pour les entreprises françaises qui souhaitent utiliser l'IA sans exposer leurs secrets industriels.",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/19/aux-etats-unis-wall-street-met-fin-a-l-euphorie-generalisee-sur-l-ia-et-cherche-a-trier-les-gagnants-et-les-perdants-de-cette-revolution_6813232_3234.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
           "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-le-tech-flash-nvidia-arrete-de-vendre-ses-puces-ia-en-chine-par-lea-benaim-18-11_VN-202611180923.html",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-octave-klaba-ov-hcloud-ov-hcloud-lance-sa-propre-famille-de-modeles-ia-19-11_VN-202611190924.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -147,231 +150,206 @@
           }
         }
       ],
-      "lien": "https://www.lemonde.fr/economie/article/2026/11/19/aux-etats-unis-wall-street-met-fin-a-l-euphorie-generalisee-sur-l-ia-et-cherche-a-trier-les-gagnants-et-les-perdants-de-cette-revolution_6813232_3234.html"
+      "lien": null
     },
     {
-      "titre": "Les cyberattaques par IA dépassent les capacités de défense actuelles",
-      "sous_section": "societe",
-      "resume": "Palmer Luckey, cofondateur d'Anduril, alerte sur le fait que les attaques automatisées par IA évoluent plus vite que les systèmes de protection. Cette nouvelle vague de menaces exploite des technologies obsolètes encore présentes dans des infrastructures critiques, rendant les correctifs traditionnels inefficaces face à la vitesse de l'IA.",
-      "pourquoi_ca_compte": "La sécurité des données citoyennes et des services publics est menacée par un déséquilibre technologique croissant entre attaquants et défenseurs.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec/heres-the-latest",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/"
-    },
-    {
-      "titre": "Sam Altman met en garde contre une perte de contrôle humain sur l'IA",
-      "sous_section": "annonces",
-      "resume": "Le PDG d'OpenAI, Sam Altman, a exprimé ses inquiétudes concernant un futur où l'IA pourrait prendre des décisions autonomes sans supervision humaine. En parallèle, OpenAI publie des réflexions sur la manière dont les sociétés peuvent conserver le contrôle de leurs institutions face à des modèles de plus en plus capables de remodeler les structures sociales.",
-      "pourquoi_ca_compte": "Ce discours souligne une tension interne chez les leaders de l'IA : la poursuite de l'innovation tout en plaidant pour une régulation stricte du contrôle humain.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/the-silent-consensus",
-          "type": "institutionnel",
-          "groupe_media": {
-            "nom": "OpenAI",
-            "proprietaire": "OpenAI Inc. (for-profit transition)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://openai.com/index/the-silent-consensus"
-    },
-    {
-      "titre": "L'IA olfactive : des nez artificiels aussi performants que l'humain",
+      "titre": "L'Ukraine contourne Starlink via des drones-modems pour ses frappes",
       "sous_section": "recherche",
-      "resume": "La startup Osmo développe une IA capable de numériser et de reproduire des odeurs. En croisant des analyses chimiques avec les descriptions de « renifleurs » humains, les chercheurs ont créé une base de données permettant à une machine de reconnaître des senteurs complexes comme le 'fruité' ou le 'nutty' avec une précision humaine.",
-      "pourquoi_ca_compte": "L'extension des sens de l'IA à l'odorat ouvre des perspectives majeures dans le diagnostic médical précoce et l'industrie agroalimentaire.",
+      "resume": "Pour pallier les restrictions imposées par SpaceX sur l'utilisation de Starlink à haute vitesse, l'Ukraine a développé un réseau de drones relais. Cette innovation technique a permis de guider les missiles ayant frappé le pont de Crimée.",
+      "pourquoi_ca_compte": "Cela démontre comment l'ingénierie 'de terrain' peut contourner les limites imposées par un prestataire privé dans un conflit de haute intensité.",
       "sources": [
         {
-          "nom": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "MIT (Massachusetts Institute of Technology)",
-            "proprietaire": "MIT",
-            "type_proprietaire": "fondation",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
-    },
-    {
-      "titre": "Windows Server 2028 : la sécurité avant la compatibilité",
-      "sous_section": "annonces",
-      "resume": "Microsoft a dévoilé une version préliminaire de Windows Server 2028 qui privilégie une sécurité maximale par défaut, quitte à rompre la compatibilité avec certains logiciels existants. Ces paramètres s'alignent sur les standards de défense américains (DoD), imposant un défi technique aux administrateurs systèmes.",
-      "pourquoi_ca_compte": "Ce changement de paradigme montre que la cybersécurité devient la priorité absolue des infrastructures numériques professionnelles, devant la continuité opérationnelle classique.",
-      "sources": [
-        {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/os-platforms/2026/11/18/windows-server-2028-wont-be-compatible-by-default/5310766",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/"
-    },
-    {
-      "titre": "Trump et Xi Jinping : duel pour la domination de l'IA au sommet de l'Apec",
-      "sous_section": "regulation",
-      "resume": "Le sommet de l'Apec à Shenzhen est devenu le théâtre d'une rivalité technologique frontale entre les États-Unis et la Chine. Les deux puissances cherchent à imposer leurs standards de gouvernance et leurs infrastructures pour l'IA, dans une course qui définit désormais les relations internationales.",
-      "pourquoi_ca_compte": "La domination de l'IA est perçue comme le levier de puissance économique et militaire du XXIe siècle, influençant les alliances mondiales.",
-      "sources": [
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261118-trump-ou-xi-qui-dominera-l-ia",
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/tech/2378957-starlink-bride-pont-de-crimee-detruit-lukraine-a-trouve-un-moyen-ingenieux-de-bien-diriger-ses-missiles.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261118-trump-ou-xi-qui-dominera-l-ia"
-    },
-    {
-      "titre": "Échec du lanceur Vulcan : Amazon et ULA enquêtent",
-      "sous_section": "business",
-      "resume": "Le lanceur Vulcan de United Launch Alliance (ULA) n'a pas réussi à placer correctement les satellites d'Amazon en orbite. Les premières conclusions pointent un défaut d'alimentation en carburant des moteurs du premier étage. Cet incident ralentit le déploiement de la constellation Kuiper d'Amazon, concurrente de Starlink.",
-      "pourquoi_ca_compte": "Les pannes techniques dans le secteur spatial freinent l'expansion de l'internet par satellite, crucial pour la connectivité des zones isolées.",
-      "sources": [
-        {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/space/2026/11/vulcan-failure-caused-by-inadequate-fuel-supply-to-engines-ula-says/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
             "orientation": "centre"
           }
         },
         {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/science/2026/11/18/ula-says-vulcan-lacked-the-oomph-to-get-amazon-satellites-to-orbit/5310712",
-          "type": "etranger",
+          "nom": "Futura Sciences",
+          "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-drones-transformes-modems-volants-ukraine-passee-starlink-frapper-pont-crimee-139475/#xtor%3DRSS-8",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
+            "nom": "Futura",
+            "proprietaire": "Futura (indépendant)",
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
         }
       ],
-      "lien": "https://arstechnica.com/space/2026/11/vulcan-failure-caused-by-inadequate-fuel-supply-to-engines-ula-says/"
+      "lien": "https://www.numerama.com/tech/2378957-starlink-bride-pont-de-crimee-detruit-lukraine-a-trouve-un-moyen-ingenieux-de-bien-diriger-ses-missiles.html"
+    },
+    {
+      "titre": "Meta prépare le 'Muse Charm', un wearable IA à 300 dollars",
+      "sous_section": "annonces",
+      "resume": "Meta s'apprête à lancer un petit appareil doté d'un écran permettant d'interagir en permanence avec son agent IA 'Muse'. Le prix de vente pressenti serait de 300 dollars, s'inscrivant dans la nouvelle vague du matériel dédié à l'IA.",
+      "pourquoi_ca_compte": "Après les smartphones, l'IA cherche à s'incarner dans de nouveaux objets du quotidien, posant des questions de vie privée et de dépendance technologique.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/"
+    },
+    {
+      "titre": "Alertes critiques sur PHP : un mois après PHP2Shell, de nouvelles failles",
+      "sous_section": "regulation",
+      "resume": "L'équipe de développement de PHP a publié des correctifs d'urgence pour plusieurs failles critiques affectant toutes les versions maintenues (8.1, 8.2, 8.3). Ces vulnérabilités pourraient permettre l'exécution de code à distance.",
+      "pourquoi_ca_compte": "PHP propulsant une immense partie du web mondial, ces failles constituent une menace directe pour la sécurité des données de millions d'utilisateurs.",
+      "sources": [
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2378991-un-mois-apres-le-chaos-php2shell-que-vaut-vraiment-la-nouvelle-alerte critique-de-php.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Next",
+          "url": "https://next.ink/268437/lequipe-php-previent-de-nouveaux-correctifs-critiques-pour-ce-19-novembre/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://next.ink/268437/lequipe-php-previent-de-nouveaux-correctifs-critiques-pour-ce-19-novembre/"
+    },
+    {
+      "titre": "30 ans de l'April : le combat pour le logiciel libre reste politique",
+      "sous_section": "societe",
+      "resume": "L'association April fête ses 30 ans en rappelant que la libération des usages numériques est freinée par un manque de volonté politique. Elle dénonce la dépendance croissante aux solutions propriétaires, notamment dans l'IA.",
+      "pourquoi_ca_compte": "Le logiciel libre est un pilier de la démocratie numérique, garantissant que les citoyens gardent le contrôle sur les outils qu'ils utilisent.",
+      "sources": [
+        {
+          "nom": "Next",
+          "url": "https://next.ink/267582/30-ans-dapril-notre-ennemi-le-manque-de-volonte-politique-de-liberer-la-population/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "GTA V utilisé par des chercheurs pour simuler la montée des eaux",
+      "sous_section": "recherche",
+      "resume": "Des scientifiques ont détourné le moteur de jeu de Grand Theft Auto V pour modéliser l'impact du réchauffement climatique sur Los Angeles. Les simulations montrent une ville partiellement submergée dans les scénarios les plus pessimistes.",
+      "pourquoi_ca_compte": "L'utilisation de moteurs de jeux vidéo pour la vulgarisation scientifique permet de rendre tangibles les conséquences de la crise climatique pour le grand public.",
+      "sources": [
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/sciences/2379021-sans-laide-de-rockstar-des-scientifiques-ont-reussi-a-noyer-une-ville-de-gta.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Futura Sciences",
+          "url": "https://www.futura-sciences.com/tech/actualites/gta-vi-scientifiques-ont-utilise-gta-simuler-montee-eaux-voici-ce-arriverait-los-angeles-139468/#xtor%3DRSS-8",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Futura",
+            "proprietaire": "Futura (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.futura-sciences.com/tech/actualites/gta-vi-scientifiques-ont-utilise-gta-simuler-montee-eaux-voici-ce-arriverait-los-angeles-139468/#xtor%3DRSS-8"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "La surveillance technologique face à la triche par IA lors du Suneung en Corée du Sud",
-    "contexte": "Le 19 novembre 2026, plus de 550 000 lycéens sud-coréens passent l'examen d'entrée à l'université, un événement national qui paralyse le pays. Cette édition est marquée par l'apparition de lunettes connectées utilisant l'IA pour tricher.",
+    "sujet": "L'introduction en Bourse (IPO) d'Anthropic",
+    "contexte": "Le 19 novembre 2026, Anthropic, concurrent majeur d'OpenAI, est entré au Nasdaq. Cette opération financière est la plus importante jamais enregistrée pour une entreprise technologique.",
     "couvertures": [
       {
-        "source": "RFI",
+        "source": "franceinfo",
         "type": "mainstream",
-        "angle": "Impact technique sur l'examen et description des gadgets utilisés (lunettes IA).",
+        "angle": "Impact sur la confiance des investisseurs après une période de doute sur l'IA.",
         "ton": "factuel",
-        "url": "https://www.rfi.fr/fr/asie-pacifique/20261119-cor%C3%A9e-du-sud-la-triche-via-les-lunettes-connect%C3%A9es-perturbe-l-examen-d-entr%C3%A9e-%C3%A0-l-universit%C3%A9",
-        "citation_cle": "Des lunettes connectées dotées d'intelligence artificielle, capables d'afficher sur les verres les réponses du test.",
+        "url": "https://www.franceinfo.fr/economie/bourse/l-entreprise-americaine-d-intelligence-artificielle-anthropic-signe-une-entree-en-bourse-historique-en-detronant-spacex_8290763.html#xtor=RSS-3-[lestitres]",
+        "citation_cle": "Les débuts d'Anthropic pourraient redonner confiance aux investisseurs dans l'IA.",
         "groupe_media": {
-          "nom": "France Médias Monde",
+          "nom": "France Télévisions",
           "proprietaire": "État français",
           "type_proprietaire": "etat",
           "orientation": "centre"
         }
       },
       {
-        "source": "NYT World",
-        "type": "etranger",
-        "angle": "Dimension sociétale et pression psychologique de l'examen dans la culture coréenne.",
+        "source": "BFM Business",
+        "type": "mainstream",
+        "angle": "Performance boursière pure et détails de la cotation minute par minute.",
         "ton": "neutre",
-        "url": "https://www.nytimes.com/2026/11/18/world/asia/south-korea-cheating-college-exam-suneung.html",
-        "citation_cle": "South Korea is sending emergency alerts to every phone in the country as part of a campaign to keep students honest.",
+        "url": "https://www.bfmtv.com/economie/entreprises/direct-la-plus-grande-introduction-en-bourse-de-l-history-suivez-les-debuts-a-new-york-d-anthropic-le-createur-de-l-ia-claude_LN-202611190598.html",
+        "citation_cle": "Anthropic s'est imposé comme la plus grosse IPO de tous les temps.",
         "groupe_media": {
-          "nom": "The New York Times Company",
-          "proprietaire": "Famille Ochs-Sulzberger",
-          "type_proprietaire": "famille",
-          "orientation": "centre"
+          "nom": "CMA CGM",
+          "proprietaire": "Rodolphe Saadé",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       },
       {
-        "source": "The Register",
-        "type": "etranger",
-        "angle": "Focus sur les mesures de cybersécurité et l'usage des alertes smartphone extrêmes.",
-        "ton": "critique",
-        "url": "https://www.theregister.com/personal-tech/2026/11/19/south-korea-tries-to-out-exam-cheats-with-extreme-emergency-smartphone-alert/5310942",
-        "citation_cle": "At least it’s less disruptive than an internet shutdown.",
-        "groupe_media": {
-          "nom": "The Register",
-          "proprietaire": "Situation Publishing",
-          "type_proprietaire": "independant",
-          "orientation": "centre"
-        }
+        "source": "La Croix",
+        "type": "mainstream",
+        "angle": "Valorisation record malgré un contexte économique global difficile.",
+        "ton": "factuel",
+        "url": "https://www.la-croix.com/economie/ia-anthropic-s-envole-en-bourse-et-atteint-une-valorisation-de-2-000-milliards-de-dollars-20261119",
+        "citation_cle": "La valorisation de l’entreprise d’IA a atteint environ 1 820 milliards d’euros.",
+        "groupe_media": null
       }
     ],
-    "analyse_coherence": "La couverture médiatique est unanime sur l'ampleur du dispositif mis en place par Séoul, mais les angles divergent sur la portée de ces mesures. RFI et La Croix se concentrent sur la prouesse technologique des fraudeurs (lunettes IA), tandis que le New York Times souligne le caractère quasi-sacré de cet examen qui justifie, selon le gouvernement, des alertes d'urgence nationales. The Register apporte une touche plus ironique, comparant ces alertes à des méthodes encore plus radicales comme les coupures d'internet pratiquées dans d'autres pays. La cohérence est forte sur les faits (550 000 étudiants, alertes mobiles), montrant que l'IA n'est plus un outil futuriste mais une menace immédiate pour les systèmes de méritocratie classique.",
+    "analyse_coherence": "L'ensemble des médias s'accorde sur le caractère historique de l'événement, soulignant que le montant levé (81 milliards $) et la valorisation finale (près de 2000 milliards $) pulvérisent les records précédents. Franceinfo et La Croix insistent sur le fait que ce succès intervient après une période de scepticisme boursier vis-à-vis de l'IA, suggérant que le marché a trouvé en Anthropic un modèle jugé plus solide ou plus 'sûr' que ses concurrents. BFM Business adopte un ton plus technique, focalisé sur la dynamique de Wall Street. On note une cohérence totale sur les chiffres, ce qui est rare pour des valorisations d'une telle ampleur, signe d'une communication financière très maîtrisée par Anthropic.",
     "biais_detectes": [
-      "Normalisation de la surveillance de masse par les médias institutionnels face à la triche.",
-      "Focalisation sur l'aspect spectaculaire des gadgets au détriment d'une réflexion sur la pression scolaire."
+      "Optimisme technophile : peu de mentions des risques de bulle financière.",
+      "Focalisation sur les chiffres au détriment des enjeux éthiques de l'entreprise."
     ],
-    "ce_quil_faut_retenir": "L'IA force les États à transformer des examens scolaires en opérations de sécurité nationale, utilisant des outils de communication de crise pour dissuader une fraude technologique de pointe."
+    "ce_quil_faut_retenir": "L'IA n'est plus seulement une promesse technologique mais le moteur financier dominant de l'économie mondiale, capable de lever des fonds supérieurs à ceux de l'industrie spatiale ou automobile."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 232,
-    "nb_topics_ia": 75,
+    "nb_articles_ia": 227,
+    "nb_topics_ia": 74,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
