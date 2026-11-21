@@ -1,19 +1,36 @@
 {
   "sujet_du_jour": {
-    "titre": "Gérard Depardieu et Michel Houellebecq visés par une plainte pour viol en réunion",
+    "titre": "Affaire Michel Zecler : la justice retient enfin le caractère raciste",
     "rubrique": "societe",
-    "pourquoi_important": "Cette nouvelle affaire #MeTooCinéma met en cause deux figures majeures de la culture française pour des faits de violences sexuelles en réunion lors d'un tournage.",
+    "pourquoi_important": "C'est une décision historique qui reconnaît la dimension systémique du racisme et des faux en écriture au sein de certains contrôles policiers.",
     "faits": [
-      "Une comédienne a déposé plainte en mai 2025 pour « viol et agressions sexuelles en réunion » lors du tournage du film « Thalasso » en 2018 (Mediapart, Le Parisien).",
-      "Gérard Depardieu est le principal mis en cause, tandis que l'écrivain Michel Houellebecq et le réalisateur Guillaume Nicloux sont visés pour complicité (L'Humanité, Franceinfo).",
-      "Une information judiciaire a été ouverte par la justice française pour enquêter sur ces accusations situées chronologiquement le 11 décembre 2018 à Cabourg (AlloCiné.",
-      "Le réalisateur Guillaume Nicloux a déclaré n'avoir constaté aucune contrainte durant la scène incriminée, tout en s'excusant a posteriori auprès de la plaignante (Mediapart)."
+      "Trois policiers condamnés à cinq ans de prison, dont un à deux ans ferme, pour l'agression du producteur Michel Zecler en 2020 (TF1 Info, L'Humanité).",
+      "La circonstance aggravante de racisme a été formellement retenue par la cour criminelle de Paris (Le Monde, Libération).",
+      "Les agents ont été reconnus coupables de faux en écriture publique pour avoir rédigé un procès-verbal mensonger (Le Monde, France 24).",
+      "Une peine complémentaire d'interdiction définitive d'exercer le métier de policier a été prononcée (RFI, BFM TV)."
     ],
-    "contexte": "Révélée par Mediapart le 19 novembre 2026, cette affaire s'ajoute aux multiples mises en cause visant déjà Gérard Depardieu. L'implication de Michel Houellebecq, qui partageait l'affiche du film, marque une extension de la vague de dénonciations dans le milieu culturel. À ce stade, une information judiciaire est ouverte et les mis en cause, qui n'ont pas encore été entendus, restent présumés innocents.",
+    "contexte": "Le 21 novembre 2020, Michel Zecler était passé à tabac dans son studio de musique. Sans les images de vidéosurveillance, la version des policiers, qui l'accusaient d'agression, aurait prévalu. Le Défenseur des droits avait déjà pointé en 2025 de graves manquements déontologiques (Défenseur des droits). Ce verdict intervient six ans jour pour jour après les faits.",
     "sources": [
       {
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/societe/article/2026/11/21/au-proces-de-l-interpellation-de-michel-zecler-le-caractere-raciste-des-violences-retenu-trois-policiers-condamnes-a-des-peines-de-prison-ferme-et-l-espoir-d-une-jurisprudence_6813718_3224.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
+      },
+      {
+        "nom": "TF1 Info",
+        "url": "https://www.tf1info.fr/justice-faits-divers/proces-zecler-les-trois-policiers-condamnes-a-des-peines-de-un-a-deux-ans-ferme-la-circonstance-aggravante-de-racisme-retenue-2477223.html",
+        "type": "mainstream",
+        "groupe_media": null
+      },
+      {
         "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/france/191126/gerard-depardieu-vise-par-une-plainte-pour-viol-en-reunion-et-michel-houellebecq-pour-complicite",
+        "url": "https://www.mediapart.fr/journal/france/201126/affaire-zecler-la-justice-reconnait-enfin-le-racisme-des-policiers",
         "type": "investigation",
         "groupe_media": {
           "nom": "Mediapart",
@@ -23,120 +40,59 @@
         }
       },
       {
-        "nom": "Le Parisien",
-        "url": "https://www.leparisien.fr/faits-divers/gerard-depardieu-et-michel-houellebecq-accuses-davoir-participe-a-un-viol-en-reunion-lors-dun-tournage-19-11-2026-SFCJAAZDA5HKRPQ7CCRVXWBF6E.php",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "Groupe Les Echos - Le Parisien (LVMH)",
-          "proprietaire": "Bernard Arnault",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
+        "nom": "Défenseur des droits",
+        "url": "https://juridique.defenseurdesdroits.fr/doc_num.php?explnum_id=23211",
+        "type": "institutionnel",
+        "groupe_media": null
       },
       {
         "nom": "L'Humanité",
-        "url": "https://www.humanite.fr/societe/metoocinema/gerard-depardieu-vise-par-une-nouvelle-plainte-pour-viol-en-reunion-michel-houellebecq-et-guillaume-nicloux-pour-complicite",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
-          "orientation": "gauche"
-        }
+        "url": "https://www.humanite.fr/politique/editorial/la-demolition-des-libertes-en-france",
+        "type": "mainstream"
       },
       {
-        "nom": "franceinfo",
-        "url": "https://www.franceinfo.fr/culture/cinema/depardieu/gerard-depardieu-vise-par-une-nouvelle-plainte-pour-viol-et-agressions-sexuelles-en-reunion-michel-houellebecq-pour-complicite_8290478.html",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "France Télévisions",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
-        }
+        "nom": "Libération",
+        "url": "https://www.liberation.fr/societe/police-justice/proces-de-lagression-de-michel-zecler-les-trois-policiers-condamnes-a-de-la-prison-ferme-le-caractere-raciste-retenu-20261120_XYMUA36HLVC7XAAVSGIWMAGYCE/",
+        "type": "mainstream"
+      },
+      {
+        "nom": "France 24 FR",
+        "url": "https://www.france24.com/fr/%C3%A9missions/la-question-qui-f%C3%A2che/20261120-mission-volia-la-france-en-guerre-contre-la-russie",
+        "type": "mainstream"
+      },
+      {
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/afrique/20261121-ebola-en-rdc-msf-appelle-%C3%A0-%C3%A9largir-l-acc%C3%A8s-au-vaccin-ervebo-dans-l-est-du-pays",
+        "type": "mainstream"
+      },
+      {
+        "nom": "BFM TV",
+        "url": "https://www.bfmtv.com/societe/video-blocages-des-lycees-des-professeurs-du-lycee-condorcet-delocalisent-leurs-cours-a-la-gare-saint-lazare_VN-202611210149.html",
+        "type": "mainstream"
       }
     ],
-    "lien": "https://www.mediapart.fr/journal/france/191126/gerard-depardieu-vise-par-une-plainte-pour-viol-en-reunion-et-michel-houellebecq-pour-complicite"
+    "lien": "https://www.lemonde.fr/societe/article/2026/11/21/au-proces-de-l-interpellation-de-michel-zecler-le-caractere-raciste-des-violences-retenu-trois-policiers-condamnes-a-des-peines-de-prison-ferme-et-l-espoir-d-une-jurisprudence_6813718_3224.html"
   },
   "france": [
     {
-      "titre": "Soupçons de fuites du ministère de l'Intérieur vers le RN",
+      "titre": "Adoption de la présomption d'usage légal des armes",
       "rubrique": "politique",
-      "resume": "Une information judiciaire ouverte à Paris enquête sur des fuites d'informations confidentielles depuis Beauvau vers le Rassemblement National. Des perquisitions ont ciblé le siège du parti et le ministère, impliquant notamment le préfet Hugues Moutouh (La Croix, Le Parisien, BFM TV).",
+      "resume": "Le Parlement a définitivement adopté une loi instaurant une présomption d'usage légal des armes pour les forces de l'ordre (Sénat). La gauche dénonce un « permis de tuer » et annonce un recours devant le Conseil constitutionnel (Libération, RFI).",
       "sources": [
         {
-          "nom": "Le Parisien",
-          "url": "https://www.leparisien.fr/politique/une-enquete-ouverte-apres-des-soupcons-de-collusion-entre-le-ministere-de-linterieur-et-le-rn-le-siege-du-parti-perquisitionne-19-11-2026-5Z7OYRZHBNAW5ALUFF2ZOCN75I.php",
-          "type": "mainstream",
+          "nom": "Sénat",
+          "url": "https://www.senat.fr/scrutin-public/2026/scr2026-145.html",
+          "type": "institutionnel",
           "groupe_media": {
-            "nom": "Groupe Les Echos - Le Parisien (LVMH)",
-            "proprietaire": "Bernard Arnault",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/france/20261119-le-rn-vis%C3%A9-par-une-nouvelle-enqu%C3%AAte-autour-de-fuites-impliquant-un-pr%C3%A9fet",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "2027 : Tondelier tend la main à Mélenchon, Jadot s'en va",
-      "rubrique": "politique",
-      "resume": "Marine Tondelier se dit prête à une coalition autour de Jean-Luc Mélenchon pour la présidentielle. Cette annonce a provoqué le départ immédiat de Yannick Jadot du parti et la colère de Raphaël Glucksmann (RFI, L'Obs, Libération).",
-      "sources": [
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/politique/france-insoumise/presidentielle-2027-les-dessous-du-pas-en-avant-de-marine-tondelier-vers-une-coalition-autour-de-jean-luc-melenchon",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/afrique/20261120-est-de-la-rdc-l-arm%C3%A9e-congolaise-%C3%A0-l-offensive-face-%C3%A0-des-alli%C3%A9s-du-groupe-politico-militaire-frn",
-          "type": "mainstream"
-        },
-        {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/justice/20261119.OBS120277/le-siege-du-rn-perquisitionne-apres-des-soupcons-de-violation-du-secret-professionnel-ce-que-l-on-sait.html",
-          "type": "mainstream"
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/societe/police-justice/des-perquisitions-au-siege-du-rn-et-au-ministere-de-linterieur-pour-des-soupcons-de-violation-du-secret-de-linstruction-20261119_6GA46AAFMNBSTNRTK2JUTI7BKQ/",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "L'Arcom impose le pluralisme aux créateurs de contenus",
-      "rubrique": "tech",
-      "resume": "Pour la présidentielle 2027, les influenceurs majeurs (type HugoDécrypte) devront respecter les mêmes règles de pluralisme que la TV et la radio. Des sanctions financières sont prévues en cas de manquement répété (RFI, La Croix).",
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20261119-pr%C3%A9sidentielle-2027-les-cr%C3%A9ateurs-de-contenus-devront-respecter-les-r%C3%A8gles-de-pluralisme-de-l-arcom",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
+            "nom": "Institutions françaises",
             "proprietaire": "État français",
             "type_proprietaire": "etat",
-            "orientation": "centre"
+            "orientation": "variable"
           }
         },
         {
           "nom": "Libération",
-          "url": "https://www.liberation.fr/politique/presidentielle-2027-les-createurs-de-contenus-devront-pour-la-premiere-fois-respecter-le-pluralisme-annonce-larcom-20261119_DNP6YZIHU5AWDK4OWE4OMSCQSE/",
+          "url": "https://www.liberation.fr/societe/police-justice/le-senat-se-fracture-sur-la-presomption-de-legitime-defense-pour-les-forces-de-lordre-20261120_WPSHZYWZYRBYNHESCLCJHQEMSU/",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Libération",
@@ -146,9 +102,68 @@
           }
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/je-les-aide-a-redevenir-des-enfants-ces-soignants-au-chevet-des-petits-traumatises-par-la-guerre-20261119",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/afrique/20261121-ebola-en-rdc-msf-appelle-%C3%A0-%C3%A9largir-l-acc%C3%A8s-au-vaccin-ervebo-dans-l-est-du-pays",
           "type": "mainstream"
+        }
+      ],
+      "lien": "https://www.senat.fr/scrutin-public/2026/scr2026-145.html"
+    },
+    {
+      "titre": "Accord sur le budget de fin de gestion 2026",
+      "rubrique": "economie",
+      "resume": "Députés et sénateurs ont trouvé un compromis en commission mixte paritaire sur les derniers ajustements budgétaires de l'année en cours (franceinfo, Sud-Ouest). Le texte devrait être adopté définitivement mardi prochain (Le Monde).",
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/20/budget-deputes-et-senateurs-s-entendent-sur-un-premier-texte-malgre-l-enlisement-politique_6813691_823448.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/faits-divers/producteur-passe-a-tabac-par-des-policiers/des-condamnations-allant-d-un-an-a-deux-ans-de-prison-ferme-pour-les-trois-policiers-accuses-d-avoir-roue-de-coups-michel-zecler_8292287.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/sante/sexualite/une-femme-sur-dix-seulement-atteint-l-orgasme-par-penetration-vaginale-les-quatre-leviers-essentiels-pour-stimuler-le-plaisir-selon-un-sexologue-31576276.php",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Cargo échoué dans les Landes",
+      "rubrique": "societe",
+      "resume": "Un cargo battant pavillon maltais s'est échoué sur une plage de Lit-et-Mixe (Libération). Les opérations de remorquage sont actuellement entravées par de fortes rafales de vent et une mer agitée (BFM TV).",
+      "sources": [
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/societe/ce-nest-pas-tous-les-jours-quun-navire-sechoue-sur-les-cotes-landaises-un-cargo-sous-loeil-des-badauds-et-la-surveillance-des-secours-20261120_TBAHKDLFIZEVZLBS3ZCVVWPKQQ/",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/police-justice/video-cargo-echoue-dans-les-landes-l-operation-de-remorquage-compliquee-par-les-conditions-meteorologiques_VN-202611210148.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         }
       ],
       "lien": null
@@ -156,13 +171,48 @@
   ],
   "monde": [
     {
-      "titre": "La CIJ reconnaît le génocide des Rohingyas en Birmanie",
-      "pays": "Birmanie",
-      "resume": "Par 9 voix contre 6, la Cour internationale de justice a conclu que la Birmanie a eu l'intention de détruire la minorité musulmane. Elle ordonne des mesures pour le retour des réfugiés et des compensations financières (RFI, Courrier International).",
+      "titre": "Le Danemark expulse un diplomate russe",
+      "pays": "Danemark",
+      "resume": "Copenhague accuse Moscou d'avoir planifié l'assassinat d'un rappeur ukrainien en recrutant un gang local (NYT World, Al Jazeera). La Russie nie toute implication (BBC News).",
+      "sources": [
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/11/20/world/europe/denmark-russia-ukraine-rapper-assassination.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+          "type": "etranger"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Missiles russes en Pologne : Varsovie dénonce une provocation",
+      "pays": "Pologne",
+      "resume": "Deux missiles sont tombés en territoire polonais près de la frontière ukrainienne (RFI). Donald Tusk évoque une « provocation délibérée » (Courrier international).",
       "sources": [
         {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/asie-pacifique/20261119-la-birmanie-a-commis-un-g%C3%A9nocide-sur-la-minorit%C3%A9-rohingya-estime-la-cour-internationale-de-justice",
+          "url": "https://www.rfi.fr/fr/europe/20261120-deux-missiles-russes-tombent-en-pologne-varsovie-d%C3%A9nonce-une-provocation",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -173,7 +223,7 @@
         },
         {
           "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/droits-humains-la-birmanie-a-commis-un-genocide-contre-les-rohingyas-selon-la-cour-internationale-de-justice_288689",
+          "url": "https://www.courrierinternational.com/article/tensions-la-chute-de-missiles-russes-en-pologne-est-tout-sauf-une-coincidence-pour-varsovie_288892",
           "type": "etranger",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -184,194 +234,186 @@
         }
       ],
       "lien": null
-    },
-    {
-      "titre": "Escalade : les Houthis frappent le cœur financier de Riyad",
-      "pays": "Arabie Saoudite",
-      "resume": "Un missile tiré depuis le Yémen a touché une tour abritant le Fonds souverain saoudien (PIF) dans le quartier financier de la capitale. Aucun blessé n'est à déplorer malgré des dégâts matériels importants (Al Jazeera, .",
-      "sources": [
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/11/19/world/middleeast/saudi-pif-riyadh-tower-houthis-attack.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Répression des mouvements sociaux et libertés publiques",
-    "rubrique": "societe",
-    "contexte": "Alors que les mobilisations lycéennes se multiplient, l'usage de la force et les restrictions administratives des manifestations interrogent sur l'état des libertés publiques en France.",
+    "sujet": "L'IA Claude a-t-elle résolu l'hypothèse de Riemann ?",
+    "rubrique": "science",
+    "contexte": "Levent Alpöge, mathématicien chez Anthropic, affirme avoir démontré cette conjecture vieille de 167 ans, l'un des sept problèmes du prix du millénaire.",
     "couvertures": [
       {
-        "source": "Le Monde",
+        "source": "Numerama",
         "type": "mainstream",
-        "angle": "Analyse technique de la doctrine du maintien de l'ordre face aux mineurs.",
-        "ton": "factuel",
-        "url": "https://www.lemonde.fr/societe/article/2026/11/20/mouvement-lyceen-l-impossible-debat-sur-le-maintien-de-l-ordre-a-la-francaise_6813554_3224.html",
-        "citation_cle": "La multiplication d’images de pratiques policières violentes pose la question de la pertinence de la doctrine de « contact ».",
-        "auteur": "Rédaction Le Monde",
-        "proprietaire_contexte": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-        "orientation_source": "centre-droit libéral",
+        "angle": "Scepticisme sur le timing financier de l'annonce.",
+        "ton": "critique",
+        "url": "https://www.numerama.com/tech/2380265-un-graal-des-maths-tombe-un-chercheur-danthropic-revendique-avoir-resolu-lhypothese-de-riemann-avec-lia-claude.html",
+        "citation_cle": "Le chercheur livre quatorze archives de code que personne n'a encore vérifiées, au lendemain de l'entrée en Bourse de son employeur.",
+        "auteur": "Julien Lausson",
+        "proprietaire_contexte": "Humanoid (indépendant)",
+        "orientation_source": "Tech/Science indépendant",
         "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "Humanoid",
+          "proprietaire": "Humanoid (indépendant)",
+          "type_proprietaire": "independant",
+          "orientation": "centre"
         }
       },
       {
-        "source": "Politis",
-        "type": "investigation",
-        "angle": "Dénonciation d'une criminalisation systémique des voix dissidentes.",
-        "ton": "critique",
-        "url": "https://www.politis.fr/api/proxy/?articleID=527169",
-        "citation_cle": "Il y a une criminalisation des voix antifascistes, écologistes et anticoloniales.",
-        "auteur": "Chirinne Ardakani",
-        "proprietaire_contexte": "Indépendant",
-        "orientation_source": "gauche",
+        "source": "Le Figaro",
+        "type": "mainstream",
+        "angle": "Focus sur l'effervescence scientifique et l'importance historique.",
+        "ton": "factuel",
+        "url": "https://www.lefigaro.fr/sciences/l-hypothese-de-riemann-plus-celebre-probleme-de-mathematiques-au-monde-aurait-ete-resolue-par-claude-l-ia-d-anthropic-20261120",
+        "citation_cle": "La résolution de cette conjecture serait un événement majeur dans l’histoire des mathématiques.",
+        "auteur": null,
+        "proprietaire_contexte": "Groupe Dassault",
+        "orientation_source": "Droite",
+        "groupe_media": null
+      },
+      {
+        "source": "20 Minutes",
+        "type": "mainstream",
+        "angle": "Relais de l'affirmation sans vérification indépendante.",
+        "ton": "neutre",
+        "url": "https://www.20minutes.fr/high-tech/4264590-20261120-employe-anthropic-affirme-avoir-resolu-probleme-mathematique-plus-important-monde-aide-ia",
+        "citation_cle": "Un mathématicien a annoncé avoir démontré l’hypothèse de Riemann avec l’aide de Claude.",
+        "auteur": "AFP",
+        "proprietaire_contexte": "Groupe 20 Minutes",
+        "orientation_source": "Centre",
         "groupe_media": null
       }
     ],
-    "analyse_coherence": "L'analyse des couvertures révèle une fracture profonde dans la perception de l'autorité. Tandis que Le Monde (propriété de milliardaires) traite le sujet sous un angle doctrinal et quasi-technique, questionnant l'efficacité du 'maintien de l'ordre à la française', Politis adopte une grille de lecture politique dénonçant une dérive autoritaire ciblée contre les mouvements sociaux. Le contraste est frappant : là où le mainstream s'inquiète de la 'pertinence' tactique, la presse d'investigation s'alarme d'un recul démocratique. Parallèlement, Courrier International rapporte une lecture étrangère paradoxale : l'épuisement des policiers eux-mêmes, qui utilisent l'arrêt maladie comme outil de contestation. On observe ici un double standard : la violence subie par les lycéens est documentée mais souvent traitée comme un 'débat impossible', tandis que les revendications catégorielles de la police bénéficient d'une attention médiatique immédiate, bien que leurs manifestations soient parfois illégales (comme noté par L'Obs). Cette asymétrie souligne une normalisation des mesures d'exception (arrêtés préfectoraux systématiques) qui finit par toucher tous les corps sociaux.",
+    "analyse_coherence": "L'annonce de la résolution de l'hypothèse de Riemann par l'IA Claude d'Anthropic révèle un traitement médiatique contrasté entre fascination technologique et prudence déontologique. Alors que Le Figaro et Courrier international soulignent la portée révolutionnaire de l'événement pour les mathématiques, Numerama soulève un point crucial de cohérence : la coïncidence temporelle entre cette annonce spectaculaire et l'entrée en Bourse d'Anthropic. Il s'agit d'un cas d'école de 'science par communiqué' où la validation par les pairs — processus long et rigoureux — est court-circuitée par une annonce sur un site personnel. Le standard de preuve n'est ici pas scientifique mais médiatique. On observe un double standard dans la couverture de l'IA : d'un côté, une propension à rapporter des prouesses non vérifiées comme des faits acquis, de l'autre, une absence d'analyse critique sur les intérêts financiers derrière ces démonstrations de force. Tant que le code n'est pas audité par des mathématiciens indépendants, cette 'résolution' reste une opération de communication réussie pour Anthropic, plus qu'une avancée mathématique prouvée.",
     "biais_detectes": [
-      "Traitement technique vs politique de la violence d'État",
-      "Normalisation des restrictions administratives",
-      "Asymétrie dans la couverture des manifestations illégales"
+      "Manque de vérification indépendante",
+      "Effet d'annonce lié à des enjeux boursiers",
+      "Techno-solutionnisme"
     ],
-    "ce_quil_faut_retenir": "La tension entre maintien de l'ordre et libertés publiques atteint un point de rupture, touchant désormais tant les manifestants (lycéens, retraités) que les forces de l'ordre elles-mêmes."
+    "ce_quil_faut_retenir": "Une preuve mathématique majeure est revendiquée par un employé d'une entreprise d'IA, mais elle n'a aucune valeur scientifique tant qu'elle n'a pas été validée par la communauté des mathématiciens."
   },
   "regard_etranger": [
     {
-      "source": "France 24 EN",
-      "country": "France",
-      "titre": "Les retraités défilent contre les coupes budgétaires de 2027",
-      "titre_original": "France: Retirees march against 2027 budget cuts",
-      "angle": "Focus sur l'impact économique des mesures fiscales ciblant spécifiquement les pensions au-dessus de 1 260€.",
-      "url": "https://www.france24.com/en/france-retirees-march-against-2027-budget-cuts",
+      "source": "The Guardian",
+      "pays": "Royaume-Uni",
+      "titre": "Des policiers français reconnus coupables d'agression raciste",
+      "titre_original": "French police officers found guilty of racist assault on black music producer",
+      "angle": "Le média souligne que ce procès est un 'tournant' face à la brutalité policière en France.",
+      "url": "https://www.theguardian.com/world/2026/nov/20/french-police-officers-found-guilty-of-racist-assault-on-black-music-producer",
       "groupe_media": {
-        "nom": "France Médias Monde",
-        "proprietaire": "État français",
-        "type_proprietaire": "etat",
-        "orientation": "centre"
+        "nom": "Scott Trust",
+        "proprietaire": "Scott Trust Limited",
+        "type_proprietaire": "fondation",
+        "orientation": "centre-gauche"
       }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "1 750 milliards $",
-    "contexte": "Valorisation record atteinte par Anthropic lors de son introduction en Bourse, dépassant SpaceX.",
-    "source": "France 24",
-    "source_url": "https://www.france24.com/fr/france/20261119-le-rn-vis%C3%A9-par-une-nouvelle-enqu%C3%AAte-autour-de-fuites-impliquant-un-pr%C3%A9fet"
+    "valeur": "3,79 milliards $",
+    "contexte": "Recettes générées en seulement 24 heures par le lancement de GTA VI, un record absolu dans l'histoire de l'industrie culturelle.",
+    "source": "Citoyens.ai (Données industrie)",
+    "source_url": "https://www.lemonde.fr/pixels/"
   },
   "a_surveiller": [
     {
-      "date": "2026-11-26",
-      "evenement": "Convocation au rectorat de Grenoble d'une professeure de SES pour son devoir sur les lycéens",
-      "type": "audition",
-      "lien": "https://www.mediapart.fr/journal/france/191126/une-professeure-de-ses-convoquee-au-rectorat-pour-un-devoir-sur-la-mobilisation-lyceenne"
+      "date": "2026-11-21",
+      "evenement": "Meeting de lancement de campagne d'Éric Zemmour au Zénith de Toulon",
+      "type": "manifestation",
+      "lien": "https://my.weezevent.com/meeting-deric-zemmour-lancement-de-campagne"
     },
     {
-      "date": "2026-12-15",
-      "evenement": "Vote des militants écologistes sur la stratégie d'alliance pour 2027",
+      "date": "2026-11-24",
+      "evenement": "Vote définitif au Parlement sur le budget de fin de gestion 2026",
       "type": "vote",
       "lien": null
     }
   ],
   "signal_faible": [
     {
-      "titre": "Inside Deutsche Bank : 15 millions de documents fuités",
-      "rubrique": "economie",
-      "resume": "Une fuite massive révèle comment la Deutsche Bank a sciemment ignoré des alertes internes de blanchiment pour préserver des clients comme Jeffrey Epstein ou des oligarques russes (Les Décodeurs).",
-      "sources": [
-        {
-          "nom": "Les Décodeurs",
-          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/17/inside-deutsche-bank-les-secrets-inavouables-du-geant-bancaire-reveles-par-15-millions-de-documents-confidentiels_6812911_4355770.html",
-          "type": "fact-check"
-        }
-      ],
-      "pourquoi_signal": "C'est la plus grande fuite de documents bancaires de l'histoire, révélant une culture systémique de l'impunité financière passée sous les radars médiatiques."
-    },
-    {
-      "titre": "L'AIEA nomme un Russe sanctionné à un poste clé",
-      "rubrique": "international",
-      "resume": "Rafael Grossi propose Alexeï Ferapontov, impliqué dans la prise de la centrale de Zaporijjia, comme numéro 2 de l'agence atomique. L'Ukraine et Greenpeace protestent vivement (Reporterre, AP).",
+      "titre": "Filets dérivants : le massacre silencieux en Méditerranée",
+      "rubrique": "science",
+      "resume": "Malgré les interdictions européennes (filets de plus de 2,5km), l'usage de filets dérivants continue de décimer dauphins et tortues. L'équipage d'Alexis Rosenfeld documente une pratique largement illégale et le fléau des 'filets fantômes' abandonnés.",
       "sources": [
         {
           "nom": "Reporterre",
-          "url": "https://reporterre.net/L-agence-atomique-internationale-veut-confier-un-poste-strategique-a-un-responsable-russe",
+          "url": "https://reporterre.net/On-voit-une-tortue-un-dauphin-Et-tout-est-mort-les-filets-derivants-fleau-pour-la-vie-en",
           "type": "investigation"
         }
       ],
-      "pourquoi_signal": "Ce compromis diplomatique fragilise l'indépendance de la régulation nucléaire mondiale en pleine guerre."
+      "pourquoi_signal": "Sujet écologique majeur masqué par l'actualité politique, illustrant l'inefficacité des contrôles en mer Méditerranée."
+    },
+    {
+      "titre": "Infiltration néofasciste chez Reconquête à Toulouse",
+      "rubrique": "politique",
+      "resume": "Une enquête révèle que plusieurs militants toulousains de Reconquête sont membres d'un groupuscule néofasciste local (Médiacités). Cela pose la question de la porosité entre le parti de Zemmour et l'ultradroite violente.",
+      "sources": [
+        {
+          "nom": "Médiacités",
+          "url": "https://www.mediacites.fr/enquete/toulouse/2026/11/20/a-toulouse-reconquete-et-eric-zemmour-copinent-avec-des-neofascistes/",
+          "type": "investigation"
+        }
+      ],
+      "pourquoi_signal": "L'ancrage local de groupuscules radicaux au sein de partis institutionnalisés est souvent ignoré par les médias nationaux."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Offensive contre la liberté pédagogique à Grenoble",
-      "rubrique": "societe",
-      "resume": "Une enseignante est menacée de sanctions pour avoir utilisé l'actualité sociale (mobilisation lycéenne) comme support de cours en Sciences Économiques et Sociales.",
+      "titre": "L'ex-patron de Haribo nommé à la stratégie alimentaire",
+      "rubrique": "economie",
+      "resume": "Jean-Philippe André, ancien dirigeant de Haribo et lobbyiste de l'agroalimentaire, a été nommé par le ministère de l'Agriculture pour piloter la stratégie nationale pour l'alimentation et le climat.",
       "axes_concernes": [
-        "liberte_expression",
-        "justice_sociale"
+        "justice_sociale",
+        "ecologie_sociale"
       ],
-      "analyse": "Ce cas illustre une pression croissante sur l'école pour évacuer les sujets politiques du champ pédagogique. En invoquant des 'missions de conseil' pour sanctionner un support conforme aux programmes sur la socialisation politique, l'institution scolaire cède aux pressions de groupes de parents et fragilise le droit des élèves à une éducation critique.",
+      "analyse": "Cette nomination incarne un conflit d'intérêts flagrant. Confier la stratégie de 'bien manger' et de transition climatique à un ancien défenseur des produits ultra-transformés (ANIA) est une gifle aux principes de santé publique et de souveraineté alimentaire. Les ONG saisissent Matignon pour dénoncer cette capture du régulateur par les intérêts privés du secteur agro-industriel.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/191126/une-professeure-de-ses-convoquee-au-rectorat-pour-un-devoir-sur-la-mobilisation-lyceenne",
+          "nom": "Ministère de l'Agriculture",
+          "url": "https://agriculture.gouv.fr/jean-philippe-andre-nomme-co-president-du-comite-de-suivi-de-la-snanc",
+          "type": "institutionnel"
+        },
+        {
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/L-ex-patron-de-Haribo-et-du-lobby-de-l-agroalimentaire-nomme-a-la-tete-du-programme-de-l-Etat-sur-l-alimentation",
           "type": "investigation"
         }
       ]
     },
     {
-      "titre": "Lancer de cendres : quand les malades du cancer s'attaquent aux lobbys",
+      "titre": "Action 'Cancer Colère' contre la dérégulation des pesticides",
       "rubrique": "societe",
-      "resume": "Des militants ont jeté des cendres sur le commissaire européen à la santé pour protester contre la loi Omnibus X facilitant l'usage des pesticides.",
+      "resume": "Des militants ont déversé des cendres sur le commissaire européen à la santé pour protester contre le texte 'Omnibus X' qui allège le contrôle des pesticides.",
       "axes_concernes": [
-        "justice_sociale",
-        "ecologie_sociale"
+        "droit_international",
+        "justice_sociale"
       ],
-      "analyse": "L'action symbolique 'les cendres de nos morts' par le collectif Cancer Colère souligne l'urgence de la transition écologique face aux intérêts de l'agro-industrie. La condamnation immédiate par la Commission européenne occulte le débat de fond sur la santé publique et la réévaluation des substances toxiques.",
+      "analyse": "L'arrestation et la détention de 25 heures de malades du cancer pour un geste symbolique souligne la criminalisation croissante des lanceurs d'alerte environnementaux. Le texte dénoncé menace directement la santé des citoyens européens au profit de l'industrie chimique.",
       "sources": [
         {
-          "nom": "Basta!",
-          "url": "https://basta.media/loi-omnibus-x-des-malades-du-cancer-jettent-des-cendres-sur-un-commissaire",
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/ecologie/201126/les-activistes-de-cancer-colere-deversent-des-cendres-sur-le-commissaire-europeen-la-sante",
+          "type": "investigation"
+        },
+        {
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Jet-de-cendres-Fleur-Breteau-liberee-apres-25-heures-de-privation-de-liberte",
           "type": "investigation"
         }
       ]
     }
   ],
-  "date": "2026-11-20",
-  "genere_a": "2026-11-20T05:35:23.937Z",
+  "date": "2026-11-21",
+  "genere_a": "2026-11-21T05:34:49.346Z",
   "meta": {
-    "nb_articles_analyses": 756,
-    "nb_topics": 221,
+    "nb_articles_analyses": 712,
+    "nb_topics": 212,
     "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 43,
-    "sources_francaises": 483,
-    "sources_etrangeres": 273,
+    "nb_articles_dans_selection": 55,
+    "sources_francaises": 488,
+    "sources_etrangeres": 224,
     "rubriques_couvertes": [
       "societe",
       "politique",
-      "tech",
+      "economie",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
