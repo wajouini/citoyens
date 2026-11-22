@@ -1,121 +1,16 @@
 {
-  "date": "2026-11-21",
-  "genere_a": "2026-11-21T05:35:09.480Z",
+  "date": "2026-11-22",
+  "genere_a": "2026-11-22T05:34:45.265Z",
   "faits_ia": [
     {
-      "titre": "L'hypothèse de Riemann potentiellement résolue par l'IA Claude d'Anthropic",
+      "titre": "L'IA Claude d'Anthropic aide à résoudre l'hypothèse de Riemann",
       "sous_section": "recherche",
-      "resume": "Levent Alpöge, mathématicien chez Anthropic, affirme avoir démontré l'hypothèse de Riemann, un problème mathématique non résolu depuis 1859, en s'appuyant sur l'IA Claude. Bien que la preuve de quatorze pages n'ait pas encore été validée par les pairs, elle suscite une effervescence majeure dans la communauté scientifique (Le Figaro, Courrier international). L'annonce suggère que les modèles de langage atteignent un nouveau palier dans le raisonnement complexe et la démonstration formelle (20 Minutes, Numerama).",
-      "pourquoi_ca_compte": "Si elle est confirmée, cette découverte marquerait un tournant historique : une machine aiderait à résoudre l'un des sept problèmes du prix du millénaire, impactant potentiellement la cryptographie moderne.",
-      "sources": [
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/high-tech/4264590-20261120-employe-anthropic-affirme-avoir-resolu-probleme-mathematique-plus-important-monde-aide-ia?at_medium=display&at_campaign=149",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/tech/2380265-un-graal-des-maths-tombe-un-chercheur-danthropic-revendique-avoir-resolu-lhypothese-de-riemann-avec-lia-claude.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/sciences-l-ia-pourrait-avoir-resolu-le-probleme-le-plus-celebres-des-mathematiques-l-hypothese-de-riemann_288984",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/sciences/l-hypothese-de-riemann-plus-celebre-probleme-de-mathematiques-au-monde-aurait-ete-resolue-par-claude-l-ia-d-anthropic-20261120",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "lien": "https://www.numerama.com/tech/2380265-un-graal-des-maths-tombe-un-chercheur-danthropic-revendique-avoir-resolu-lhypothese-de-riemann-avec-lia-claude.html"
-    },
-    {
-      "titre": "Meta réévalue ses objectifs climatiques face à l'explosion énergétique de l'IA",
-      "sous_section": "societe",
-      "resume": "Le groupe Meta (annonce reconsidérer son objectif de neutralité carbone pour 2030 suite à une hausse de 45 % de ses émissions de gaz à effet de serre en un an (L'Humanité. Cette dérive écologique est directement imputée à la construction massive de centres de données nécessaires au fonctionnement de l'intelligence artificielle générative (Ars Technica).",
-      "pourquoi_ca_compte": "Cela révèle un conflit majeur entre la course à l'IA et les impératifs de transition écologique, posant la question du coût environnemental réel du progrès numérique.",
-      "sources": [
-        {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/environnement/intelligence-artificielle/neutralite-carbone-apres-le-boom-de-ses-emissions-en-2025-meta-invoque-lia-pour-reevaluer-son-objectif",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
-        }
-      ],
-      "lien": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
-    },
-    {
-      "titre": "Trump menace de taxer lourdement les data centers IA construits hors des USA",
-      "sous_section": "regulation",
-      "resume": "Le président Donald Trump a averti les entreprises technologiques américaines qu'elles feraient face à une « taxe énorme » si elles choisissaient de construire leurs infrastructures IA à l'étranger (Al Jazeera, The Verge). Cette menace vise à forcer la relocalisation des centres de données sur le sol américain, malgré les contraintes locales de construction et de ressources énergétiques.",
-      "pourquoi_ca_compte": "Cette politique de protectionnisme numérique pourrait redéfinir la géopolitique du cloud et forcer les géants de la tech à choisir entre souveraineté américaine et expansion internationale.",
-      "sources": [
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_trump-tax-us-tech-firms-ai-data-centres-abroad-201126?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
-    },
-    {
-      "titre": "Nvidia sous enquête en Californie pour des exportations suspectes vers la Chine",
-      "sous_section": "business",
-      "resume": "Le procureur général de Californie a émis une citation à comparaître contre Nvidia pour déterminer si l'entreprise a trompé les investisseurs concernant l'exportation de puces vers la Chine (The Guardian). L'enquête intervient dans un climat de tension après la démission du PDG Jensen Huang, impliqué dans un scandale personnel et professionnel (TechCrunch).",
-      "pourquoi_ca_compte": "En tant qu'acteur hégémonique de l'IA, toute fragilité juridique ou éthique de Nvidia impacte l'ensemble de la chaîne de valeur technologique mondiale.",
+      "resume": "Un chercheur d'Anthropic, Levent Alpöge, affirme avoir utilisé l'IA Claude pour résoudre l'hypothèse de Riemann, un problème mathématique du XIXe siècle resté sans réponse. Deux groupes de recherche ont validé la démonstration, bien qu'un chercheur indépendant de l'American Mathematical Society revendique une preuve concurrente publiée quelques heures plus tôt.",
+      "pourquoi_ca_compte": "C'est une étape historique : l'IA ne se contente plus de générer du texte, mais devient un partenaire de raisonnement capable de s'attaquer aux plus grands mystères scientifiques de l'humanité.",
       "sources": [
         {
           "nom": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+          "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
           "type": "etranger",
           "groupe_media": {
             "nom": "Scott Trust",
@@ -125,105 +20,8 @@
           }
         },
         {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/"
-    },
-    {
-      "titre": "Le retour de Jensen Huang chez Nvidia ? Trump s'en mêle",
-      "sous_section": "business",
-      "resume": "Donald Trump a publiquement exhorté Nvidia à donner une « deuxième chance » à son fondateur Jensen Huang, démissionnaire suite à un scandale (Sud-Ouest). Le président américain affirme en avoir discuté avec Xi Jinping, qualifiant Huang d'esprit brillant indispensable au secteur (BFM Business).",
-      "pourquoi_ca_compte": "Cette intervention politique directe dans la gouvernance d'une entreprise privée souligne l'importance stratégique cruciale des leaders de l'IA pour la puissance étatique.",
-      "sources": [
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/international/nvidia-donald-trump-exhorte-l-entreprise-a-donner-une-deuxieme-chance-a-son-ex-patron-jensen-huang-31600546.php",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/international/donald-trump-assure-en-avoir-parle-avec-xi-jinping-le-president-americain-exhorte-nvidia-a-accorder-une-deuxieme-chance-a-son-ex-patron-jensen-huang-apres-le-scandale-qui-l-a-pousse-a-demissionner_AD-202611200894.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": "https://www.bfmtv.com/economie/international/donald-trump-assure-en-avoir-parle-avec-xi-jinping-le-president-americain-exhorte-nvidia-a-accorder-une-deuxieme-chance-a-son-ex-patron-jensen-huang-apres-le-scandale-qui-l-a-pousse-a-demissionner_AD-202611200894.html"
-    },
-    {
-      "titre": "L'Arcom impose le pluralisme politique aux influenceurs pour 2027",
-      "sous_section": "regulation",
-      "resume": "Dès le 1er janvier, les créateurs de contenus et influenceurs devront respecter les règles de pluralisme politique imposées par l'Arcom en vue de la présidentielle 2027 (RFI). Cette mesure vise à aligner le web sur les obligations des médias audiovisuels traditionnels, malgré les protestations de certains acteurs du secteur (Next).",
-      "pourquoi_ca_compte": "C'est une étape majeure dans la régulation de l'espace public numérique, cherchant à limiter les bulles de filtres et les déséquilibres d'opinion sur les réseaux sociaux.",
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/podcasts/chronique-des-m%C3%A9dias/20261120-pr%C3%A9sidentielle-2027-contraints-par-l-arcom-de-respecter-le-pluralisme-des-cr%C3%A9ateurs-de-contenus-s-insurgent",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Next",
-          "url": "https://next.ink/268809/presidentielle-2027-larcom-simpose-aupres-des-createurs-de-contenus-et-influenceurs/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://next.ink/268809/presidentielle-2027-larcom-simpose-aupres-des-createurs-de-contenus-et-influenceurs/"
-    },
-    {
-      "titre": "Menace des IA « offensives » : la Commission européenne et le FBI alertent",
-      "sous_section": "societe",
-      "resume": "Des rapports de Microsoft, Google et du FBI mettent en garde contre l'émergence de « hordes d'IA offensives » (capables de mener des cyberattaques d'envergure sans intervention humaine (Le Figaro. En parallèle, des initiatives tentent de bâtir une IA européenne plus protectrice des données (La Croix).",
-      "pourquoi_ca_compte": "L'automatisation de la cybercriminalité par l'IA menace la sécurité des infrastructures critiques et la vie privée des citoyens à une échelle inédite.",
-      "sources": [
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/economie/les-defis-d-une-intelligence-artificielle-europeenne-20261120",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/perou-seisme-de-magnitude-6-7-dans-le-centre-du-pays-20261121",
-          "type": "mainstream"
-        }
-      ],
-      "lien": "https://www.lefigaro.fr/secteur/high-tech/artex-cairn-pentagi-ces-hordes-d-ia-offensives-qui-font-trembler-la-commission-europeenne-le-fbi-et-leconomie-mondiale-20261120"
-    },
-    {
-      "titre": "Windows 11 déploie une nouvelle protection contre les logiciels non sécurisés",
-      "sous_section": "annonces",
-      "resume": "Microsoft lance « Windows Baseline Protection », une fonctionnalité permettant aux applications de vérifier si le PC respecte huit critères de sécurité essentiels (Numerama). Si le test échoue, certaines applications pourraient être bloquées pour protéger l'intégrité du système (Next).",
-      "pourquoi_ca_compte": "Cette mesure renforce la sécurité mais pose des questions sur l'obsolescence logicielle et le contrôle de l'utilisateur sur sa propre machine.",
-      "sources": [
-        {
           "nom": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2379689-votre-pc-passera-t-il-le-test-windows-11-pourra-bientot-bloquer-vos-applications-sil-est-juge-mal-protege-voici-les-conditions.html",
+          "url": "https://www.numerama.com/sciences/2380525-lhumain-contre-attaque-sur-lhypothese-de-riemann-un-chercheur-aurait-craque-lenigme-avant-lia-claude.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Humanoid",
@@ -231,10 +29,99 @@
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
-        },
+        }
+      ],
+      "lien": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+    },
+    {
+      "titre": "Démission du ministre de l'Éducation sud-coréen suite à un scandale de triche IA",
+      "sous_section": "societe",
+      "resume": "Choi Kyo-jin a démissionné après la découverte d'un système de triche généralisé aux examens universitaires utilisant des dispositifs d'IA dissimulés. Malgré l'interdiction des téléphones, des caméras cachées dans les vêtements et des outils de traitement assistés par IA ont compromis l'intégrité des épreuves.",
+      "pourquoi_ca_compte": "L'incident souligne la fragilité des systèmes éducatifs traditionnels face à la miniaturisation des technologies d'IA et la pression sociale extrême liée aux diplômes.",
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Google déréférence massivement des sites d'actualité abusant de l'IA",
+      "sous_section": "business",
+      "resume": "Le géant californien a opéré un « coup de balai » majeur dans son moteur de recherche en supprimant plusieurs sites d'actualité français comme « Marie France », « Pleine Vie » ou des sous-domaines de « Ouest-France ». Cette action vise les contenus générés automatiquement par IA sans valeur ajoutée éditoriale.",
+      "pourquoi_ca_compte": "C'est une bataille pour la qualité de l'information : Google tente de freiner la pollution du web par des usines à contenus IA qui menacent la survie du journalisme humain.",
+      "sources": [
+        {
+          "nom": "CheckNews",
+          "url": "https://www.liberation.fr/checknews/contenus-ia-google-supprime-de-son-moteur-de-recherche-plusieurs-sites-dactu-dont-marie-france-20261120_DBIDSLMBOZHRZBZV4YCAZWWKGI/",
+          "type": "fact-check",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Anthropic entre en bourse sur le Nasdaq : la sécurité face au profit",
+      "sous_section": "business",
+      "resume": "L'entreprise Anthropic, créatrice de Claude, a fait ses débuts sur le Nasdaq jeudi dernier. Le débat s'intensifie sur la capacité du laboratoire à maintenir ses engagements de sécurité (« safety first ») tout en répondant aux exigences de rentabilité des investisseurs boursiers.",
+      "pourquoi_ca_compte": "Le passage d'un laboratoire de recherche à une entreprise publique change radicalement les incitations : la sécurité de l'IA pourrait être sacrifiée sur l'autel de la croissance trimestrielle.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Amazon lance son premier cadre photo numérique avec Alexa",
+      "sous_section": "annonces",
+      "resume": "Amazon a dévoilé son premier cadre photo numérique intégré à l'écosystème Alexa. À l'approche du Black Friday, l'appareil bénéficie déjà de remises importantes, marquant une nouvelle étape dans l'omniprésence des écrans connectés dans le foyer.",
+      "pourquoi_ca_compte": "Ce produit renforce la collecte de données visuelles et l'intégration de l'IA dans l'intimité domestique sous couvert de fonctions décoratives.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Critique du progrès technologique : le « nouveau monde immonde »",
+      "sous_section": "societe",
+      "resume": "Une tribune critique dénonce l'avidité des acteurs technologiques qui dénaturent les innovations initialement prometteuses. L'auteur pointe du doigt une dérive mercantile qui privilégie le profit immédiat au détriment de l'utilité sociale et de l'éthique.",
+      "pourquoi_ca_compte": "Cela reflète un sentiment croissant de technolassitude et de méfiance citoyenne envers un progrès qui semble échapper à tout contrôle démocratique.",
+      "sources": [
         {
           "nom": "Next",
-          "url": "https://next.ink/268739/ce-que-la-future-baseline-protection-de-windows-11-signifie-pour-les-applications/",
+          "url": "https://next.ink/268952/flock-le-nouveau-monde-immonde-inonde/",
           "type": "investigation",
           "groupe_media": {
             "nom": "Next (ex-Next INpact)",
@@ -244,28 +131,48 @@
           }
         }
       ],
-      "lien": "https://www.numerama.com/cyberguerre/2379689-votre-pc-passera-t-il-le-test-windows-11-pourra-bientot-bloquer-vos-applications-sil-est-juge-mal-protege-voici-les-conditions.html"
+      "lien": null
     },
     {
-      "titre": "Financement spatial : les banques s'inquiètent de l'envoi de puces en orbite",
-      "sous_section": "business",
-      "resume": "Les prêteurs de SpaceX et d'autres entreprises spatiales expriment des réserves sur l'utilisation de processeurs haute performance comme garanties, car leur récupération est impossible une fois lancés (Ars Technica, TechCrunch). Ce dilemme financier freine le développement des data centers spatiaux.",
-      "pourquoi_ca_compte": "Le financement de la tech spatiale repose sur des actifs physiques ; si ces derniers sont inaccessibles, le modèle économique de l'infrastructure orbitale doit être réinventé.",
+      "titre": "Amazon utilise les étiquettes de colis pour critiquer la législation de NYC",
+      "sous_section": "regulation",
+      "resume": "Dans son combat contre le « Delivery Protection Act » du conseil municipal de New York, Amazon a commencé à utiliser les étiquettes de livraison pour diffuser des messages d'opposition. L'entreprise s'oppose fermement aux mesures visant à protéger davantage les livreurs.",
+      "pourquoi_ca_compte": "L'utilisation de l'infrastructure logistique comme canal de propagande politique pose des questions majeures sur le pouvoir d'influence des plateformes sur les citoyens-consommateurs.",
       "sources": [
         {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Offres massives sur l'hébergement web : la consolidation du cloud continue",
+      "sous_section": "business",
+      "resume": "Les géants de l'hébergement comme Hostinger et HostGator affichent des réductions allant jusqu'à 85% pour novembre 2026. Cette guerre des prix s'accompagne d'une intégration croissante d'outils de création de sites par IA.",
+      "pourquoi_ca_compte": "La baisse des coûts d'entrée facilite l'accès au web, mais renforce la dépendance des petites entreprises à quelques infrastructures centralisées.",
+      "sources": [
+        {
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/hostinger-coupon-code/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
             "orientation": "centre"
           }
         },
         {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/hostgator-coupon/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Condé Nast",
@@ -275,82 +182,94 @@
           }
         }
       ],
-      "lien": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/"
+      "lien": null
     },
     {
-      "titre": "Faille de sécurité Windows 11 via le Narrateur vocal",
-      "sous_section": "regulation",
-      "resume": "Une faille nommée FastUnlock permet de contourner l'écran de verrouillage de Windows 11 en utilisant l'outil d'accessibilité Narrateur (Next). Elle permet d'exécuter du code sans mot de passe, soulignant la fragilité des interfaces d'assistance.",
-      "pourquoi_ca_compte": "Cette vulnérabilité physique rappelle que les outils d'inclusion peuvent devenir des vecteurs d'attaque s'ils ne sont pas isolés du noyau sécurisé.",
+      "titre": "La démocratie face au défi du refus de dialogue",
+      "sous_section": "societe",
+      "resume": "Des analyses soulignent une tendance croissante chez les politiques et syndicats à sélectionner leurs interlocuteurs médiatiques ou à fuir le débat. Des politologues proposent des pistes pour éviter que cette crise de la communication ne mène à l'autoritarisme.",
+      "pourquoi_ca_compte": "Sans un espace de débat médiatique partagé et transparent, les algorithmes et l'IA de recommandation risquent de fragmenter définitivement l'opinion publique.",
       "sources": [
         {
-          "nom": "Next",
-          "url": "https://next.ink/268851/windows-11-une-faille-permet-de-contourner-lecran-de-connexion-grace-au-narrateur/",
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/a-vif/faut-il-cesser-de-parler-avec-ceux-qui-fragilisent-les-fondements-du-debat-democratique-20261121",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/culture/l-avantage-democratique-les-pistes-de-deux-politologues-pour-ne-pas-deriver-vers-lautoritarisme-20261120",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "L'adaptation millénaire du vivant face à l'invasion plastique",
+      "sous_section": "recherche",
+      "resume": "Une étude scientifique révèle que la biosphère commence à intégrer les déchets plastiques, de l'Antarctique aux abysses. Si une adaptation biologique est envisagée, elle pourrait prendre des millénaires, bouleversant durablement les écosystèmes actuels.",
+      "pourquoi_ca_compte": "Cette recherche montre que l'impact technologique humain (le plastique étant un polymère synthétique) modifie désormais l'évolution même de la vie sur Terre.",
+      "sources": [
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/ecologie/211126/le-plastique-partout-ce-nouvel-ecosysteme-qui-bouleverse-le-vivant",
           "type": "investigation",
           "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
+            "nom": "Mediapart",
+            "proprietaire": "Fonds pour une presse libre",
+            "type_proprietaire": "fondation",
+            "orientation": "gauche"
           }
         }
       ],
-      "lien": "https://next.ink/268851/windows-11-une-faille-permet-de-contourner-lecran-de-connexion-grace-au-narrateur/"
+      "lien": null
     }
   ],
   "regard_croise_ia": {
-    "sujet": "L'hypothèse de Riemann et l'IA Claude",
-    "contexte": "Un chercheur d'Anthropic revendique la résolution d'une conjecture mathématique majeure vieille de 167 ans grâce à l'IA Claude.",
+    "sujet": "La résolution de l'hypothèse de Riemann par l'IA Claude",
+    "contexte": "Le 20 novembre 2026, Anthropic annonce que son IA Claude a aidé à prouver l'hypothèse de Riemann, un défi mathématique vieux de 160 ans. Dans la foulée, un mathématicien humain revendique également la découverte.",
     "couvertures": [
+      {
+        "source": "The Guardian",
+        "type": "etranger",
+        "angle": "Validation technologique et scientifique",
+        "ton": "factuel",
+        "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+        "citation_cle": "Il a fallu six semaines à Levent Alpöge en utilisant l'outil d'IA pour résoudre l'hypothèse de Riemann du XIXe siècle.",
+        "groupe_media": {
+          "nom": "Scott Trust",
+          "proprietaire": "Scott Trust Limited",
+          "type_proprietaire": "fondation",
+          "orientation": "centre-gauche"
+        }
+      },
       {
         "source": "Numerama",
         "type": "mainstream",
-        "angle": "Exploration de la rupture technologique et du prestige du problème (prix d'un million de dollars).",
-        "ton": "factuel",
-        "url": "https://www.numerama.com/tech/2380265-un-graal-des-maths-tombe-un-chercheur-danthropic-revendique-avoir-resolu-lhypothese-de-riemann-avec-lia-claude.html",
-        "citation_cle": "Un problème à un million de dollars, ouvert depuis 1859, résolu avec une IA ?",
+        "angle": "Compétition entre l'homme et la machine",
+        "ton": "neutre",
+        "url": "https://www.numerama.com/sciences/2380525-lhumain-contre-attaque-sur-lhypothese-de-riemann-un-chercheur-aurait-craque-lenigme-avant-lia-claude.html",
+        "citation_cle": "L’humain contre-attaque : un chercheur aurait craqué l’énigme avant l’IA Claude.",
         "groupe_media": {
           "nom": "Humanoid",
           "proprietaire": "Humanoid (indépendant)",
           "type_proprietaire": "independant",
           "orientation": "centre"
         }
-      },
-      {
-        "source": "Le Figaro",
-        "type": "mainstream",
-        "angle": "Focus sur l'effervescence au sein de la communauté scientifique et la discrétion de l'annonce initiale.",
-        "ton": "neutre",
-        "url": "https://www.lefigaro.fr/sciences/l-hypothese-de-riemann-plus-celebre-probleme-de-mathematiques-au-monde-aurait-ete-resolue-par-claude-l-ia-d-anthropic-20261120",
-        "citation_cle": "La résolution de cette conjecture serait un événement majeur dans l’histoire.",
-        "groupe_media": null
-      },
-      {
-        "source": "Courrier international",
-        "type": "etranger",
-        "angle": "Perspective internationale citant Scientific American sur le caractère 'hors de portée' de la conjecture.",
-        "ton": "engage",
-        "url": "https://www.courrierinternational.com/article/sciences-l-ia-pourrait-avoir-resolu-le-probleme-le-plus-celebres-des-mathematiques-l-hypothese-de-riemann_288984",
-        "citation_cle": "Une révolution, si cela est vérifié.",
-        "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
       }
     ],
-    "analyse_coherence": "La couverture médiatique est globalement prudente mais enthousiaste. Tous les médias s'accordent sur l'aspect historique potentiel de la nouvelle tout en soulignant l'absence actuelle de validation par les pairs. Numerama et 20 Minutes insistent sur le rôle d'Anthropic et de son modèle Claude, tandis que Le Figaro et Courrier International se concentrent sur l'impact pour la science fondamentale. On observe une cohérence sur les faits (auteur Levent Alpöge, 14 pages de preuve), mais une légère divergence dans l'interprétation du rôle de l'IA : simple outil d'assistance ou véritable co-auteur de la découverte.",
+    "analyse_coherence": "La couverture de cet événement montre un basculement symbolique : alors que The Guardian se concentre sur la prouesse technologique d'Anthropic et le processus de vérification, Numerama adopte un angle plus narratif de confrontation entre l'intelligence biologique et artificielle. La simultanéité des deux annonces crée une tension médiatique inédite. Il est frappant de constater que la source britannique accorde une légitimité immédiate à l'IA, là où la source française souligne la réactivité de la communauté académique humaine (l'American Mathematical Society) pour ne pas se laisser distancer. Ce double récit illustre parfaitement le malaise actuel : l'IA n'est plus seulement un outil, mais un concurrent de prestige dans les domaines les plus abstraits de l'esprit humain.",
     "biais_detectes": [
-      "Biais de nouveauté : l'annonce est traitée avant toute vérification scientifique formelle.",
-      "Techno-optimisme : tendance à attribuer le succès à l'IA plutôt qu'au chercheur humain."
+      "Biais de fascination technologique (The Guardian)",
+      "Biais de protectionnisme anthropocentrique (Numerama)"
     ],
-    "ce_quil_faut_retenir": "L'IA passe du stade de générateur de texte à celui d'outil de recherche fondamentale de pointe, capable de s'attaquer aux plus grands mystères de la science."
+    "ce_quil_faut_retenir": "Au-delà de la validité mathématique qui sera tranchée par les pairs, cet épisode marque l'entrée de l'IA dans la 'Big Science' : la recherche fondamentale ne pourra plus se passer de ces outils, au risque de voir la paternité des découvertes devenir un enjeu de communication pour les firmes de la Silicon Valley."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 188,
-    "nb_topics_ia": 63,
+    "nb_articles_ia": 120,
+    "nb_topics_ia": 44,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
