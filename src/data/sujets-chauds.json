@@ -1,70 +1,70 @@
 {
-  "date": "2026-11-22",
-  "genere_a": "2026-11-22T05:35:10.393Z",
+  "date": "2026-11-23",
+  "genere_a": "2026-11-23T05:35:14.904Z",
   "sujets_actifs": [
     {
-      "titre": "Soupçons de fuites vers le RN : le préfet Hugues Moutouh demande son retrait",
-      "slug": "soupcons-fuites-rn-prefet-hugues-moutouh-retrait",
-      "rubrique": "politique",
+      "titre": "Échec des négociations de la COP31 à Antalya sur la sortie des énergies fossiles",
+      "slug": "echec-cop31-antalya-energies-fossiles",
+      "rubrique": "international",
       "tldr": [
-        "Le préfet du Loiret demande à être relevé de ses fonctions après des soupçons de fuites vers le RN.",
-        "Il est suspecté d'avoir agi comme une 'taupe' en transmettant des informations sensibles.",
-        "Le ministre de l'Intérieur a diligenté une enquête administrative de l'IGP."
+        "Clôture de la COP31 sans accord final ni consensus après deux semaines de débats.",
+        "Blocage majeur mené par l'Arabie Saoudite contre toute mention des énergies fossiles.",
+        "L'Union européenne et les pays vulnérables ont refusé un texte jugé trop faible."
       ],
-      "resume": "Le préfet du Loiret et de la région Centre-Val de Loire, Hugues Moutouh, a demandé ce samedi 21 novembre 2026 à être relevé de ses fonctions. Cette décision intervient suite à des révélations de presse le soupçonnant d'avoir transmis des informations confidentielles issues du ministère de l'Intérieur à des cadres du Rassemblement National (RN). L'intéressé dénonce une « campagne de déstabilisation » et une « chasse à l'homme », qualifiant les accusations de « taupe » d'immondes (BFM TV). Le ministre de l'Intérieur a pris acte de cette demande de retrait tout en maintenant les procédures de vérification interne pour déterminer l'ampleur des éventuelles compromissions de données de sécurité nationale.",
-      "contexte_historique": "Le corps préfectoral est soumis à un strict devoir de réserve et de neutralité, piliers de l'administration française depuis la création de l'institution par Napoléon en 1800. Des précédents de sanctions pour manquement à la neutralité existent, comme l'éviction de préfets ayant affiché des positions politiques trop marquées, mais une suspicion de transmission délibérée d'informations à un parti d'opposition est une première sous la Ve République (Ministère de l'Intérieur).",
+      "resume": "La 31e Conférence de l'ONU sur le climat s'est achevée à Antalya, en Turquie, sur un échec diplomatique retentissant. Aucun consensus n'a été trouvé, les pays participants ne parvenant pas à s'accorder sur une déclaration finale. Le point de rupture cristallise l'opposition entre les nations productrices de pétrole, menées par l'Arabie Saoudite, qui ont systématiquement bloqué l'inclusion d'un calendrier de sortie du charbon, de l'huile et du gaz, et une coalition incluant l'UE et les pays les plus exposés au changement climatique. L'Australie, co-organisatrice, a déploré un climat géopolitique difficile, tandis que les ONG dénoncent un recul par rapport aux engagements de la COP28 à Dubaï.",
+      "contexte_historique": "Cet échec marque une rupture avec la dynamique de la COP28 (2023), où les pays s'étaient accordés pour la première fois sur une 'transition hors des énergies fossiles'. Historiquement, les sommets de l'ONU fonctionnent par consensus, ce qui donne un droit de veto de fait aux puissances pétrolières (Accord de Paris, 2015).",
       "implications": [
-        "Fragilisation de la doctrine de neutralité de la haute fonction publique.",
-        "Possible ouverture d'une information judiciaire pour violation du secret professionnel."
+        "Affaiblissement de la crédibilité du processus onusien de lutte contre le réchauffement climatique.",
+        "Retard dans la mise en œuvre des engagements financiers pour l'adaptation des pays du Sud."
       ],
       "chronologie": [
         {
+          "date": "2026-11-23",
+          "texte": "Clôture officielle du sommet sans déclaration finale commune.",
+          "source": "Courrier international"
+        },
+        {
           "date": "2026-11-22",
-          "texte": "Hugues Moutouh s'exprime publiquement pour dénoncer une campagne de déstabilisation.",
-          "source": "BFM TV"
+          "texte": "L'UE rejette formellement un projet de texte omettant la sortie des fossiles.",
+          "source": "France 24 FR"
         },
         {
           "date": "2026-11-21",
-          "texte": "Le préfet demande officiellement à être relevé de ses fonctions.",
-          "source": "20 Minutes"
-        },
-        {
-          "date": "2026-11-20",
-          "texte": "Premières révélations sur des soupçons de fuites de Beauvau vers le RN.",
-          "source": "Citoyens.ai"
+          "texte": "L'Arabie Saoudite et ses alliés bloquent toute référence au charbon et au gaz.",
+          "source": "NYT World"
         }
       ],
       "couvertures": [
         {
-          "source": "BFM TV",
-          "type": "mainstream",
-          "angle": "Focus sur la défense du préfet qui dénonce une 'chasse à l'homme' et une 'ignominie'.",
-          "ton": "factuel",
-          "url": "https://www.bfmtv.com/politique/me-designer-comme-etant-une-taupe-est-immonde-le-prefet-hugues-moutouh-vise-par-des-soupcons-de-fuites-du-ministere-de-l-interieur-vers-le-rn-denonce-une-chasse-a-l-homme_AN-202611210483.html",
-          "citation_cle": "Me désigner comme étant une taupe est immonde.",
+          "source": "BBC News",
+          "type": "etranger",
+          "angle": "Focus sur la responsabilité partagée et l'impact de la géopolitique actuelle.",
+          "ton": "neutre",
+          "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "Le Premier ministre australien a attribué l'échec à des 'temps géopolitiques difficiles'.",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
           "source": "20 Minutes",
           "type": "mainstream",
-          "angle": "Mise en avant des conséquences administratives immédiates et du départ de ses fonctions.",
-          "ton": "neutre",
-          "url": "https://www.20minutes.fr/monde/etats-unis/4264735-20261122-guerre-moyen-orient-nature-britannique-nage-detroit-ormuz-plein-conflit?at_medium=display&at_campaign=149",
-          "citation_cle": "Convoqué au ministère de l’Intérieur, il a demandé à être relevé de ses fonctions.",
+          "angle": "Relais de la colère des militants écologistes face à l'urgence climatique ignorée.",
+          "ton": "alarmiste",
+          "url": "https://www.20minutes.fr/monde/ukraine/4264971-20261123-direct-guerre-ukraine-reunion-otan-parler-repercussions-conflit-europe?at_medium=display&at_campaign=149",
+          "citation_cle": "Scandaleux... Colère après l’échec de la COP31 sur les énergies fossiles.",
           "groupe_media": null
         },
         {
-          "source": "Le Monde",
-          "type": "mainstream",
-          "angle": "Fuites de Beauvau vers le RN : d’un email trouvé au domicile d’un ami de Marine Le Pen aux suspicions visant le préfet Hugues Moutouh, itinéraire d’une enquête sensible",
+          "source": "Courrier international",
+          "type": "etranger",
+          "angle": "La COP31 sévèrement critiquée après l’échec des négociations",
           "ton": "factuel",
-          "url": "https://www.lemonde.fr/societe/article/2026/11/21/fuites-de-beauvau-vers-le-rn-d-un-email-trouve-au-domicile-d-un-ami-de-marine-le-pen-aux-suspicions-visant-le-prefet-moutouh-itineraire-d-une-enquete-sensible_6814067_3224.html",
-          "citation_cle": "Le préfet de la région Centre-Val de Loire a demandé sa mise en retrait après la révélation de soupçons le visant dans l",
+          "url": "https://www.courrierinternational.com/article/climat-la-cop31-severement-critiquee-apres-l-echec-des-negociations_289248",
+          "citation_cle": "La 31e Conférence de l’ONU sur le climat s’est achevée dimanche en Turquie sans consensus ni déclaration finale entre le",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -74,13 +74,224 @@
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Quelle est la nature exacte et le volume des documents prétendument transmis ?",
-        "D'autres hauts fonctionnaires sont-ils impliqués dans ce réseau de fuites ?"
+        "Quelle sera la date et le lieu d'une éventuelle session de rattrapage ?",
+        "Comment les pays prévoient-ils de tenir leurs objectifs de 1.5°C sans cadre multilatéral ?"
       ],
       "sources": [
         {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/climat-la-cop31-severement-critiquee-apres-l-echec-des-negociations_289248",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261123-turquie-la-cop31-se-termine-sans-accord",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-11-21"
+    },
+    {
+      "titre": "Saisie de la justice pour des dérives racistes à l'École nationale supérieure de la police",
+      "slug": "racisme-salut-nazi-ecole-officiers-police",
+      "rubrique": "societe",
+      "tldr": [
+        "Signalement au parquet pour des propos racistes et des saluts nazis au sein de l'ENSP.",
+        "Les faits concernent des élèves officiers de la 31e promotion.",
+        "Le patron de la police nationale, Frédéric Veaux, a saisi la justice."
+      ],
+      "resume": "Une enquête judiciaire est ouverte après la révélation d'échanges à caractère raciste et antisémite au sein de l'École nationale supérieure de la police (ENSP) de Cannes-Écluse. Des élèves officiers de la 31e promotion auraient partagé des caricatures racistes et effectué des saluts nazis dans des groupes de discussion privés. Le directeur général de la police nationale (DGPN) a saisi le procureur de Fontainebleau sur la base de l'article 40 du code de procédure pénale. Ces révélations interviennent dans un climat de tension sur le pluralisme et l'éthique au sein des forces de l'ordre.",
+      "contexte_historique": "L'ENSP forme les cadres de la police nationale. Ce scandale fait écho à l'affaire Michel Zecler (2020) et aux débats récurrents sur le racisme systémique ou individuel dans la police française, encadré par le Code de déontologie de la Police et de la Gendarmerie (2014).",
+      "implications": [
+        "Risque de sanctions disciplinaires lourdes et d'exclusion pour les futurs officiers impliqués.",
+        "Renforcement probable des modules de formation sur l'éthique et la lutte contre les discriminations."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-11-23",
+          "texte": "La DGPN confirme la saisie du parquet de Fontainebleau.",
+          "source": "La Croix"
+        },
+        {
+          "date": "2026-11-22",
+          "texte": "Le Parisien révèle l'existence de boucles privées haineuses entre élèves officiers.",
+          "source": "Le Figaro"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "RFI",
+          "type": "mainstream",
+          "angle": "Mise en avant de la réaction institutionnelle immédiate du patron de la police.",
+          "ton": "factuel",
+          "url": "https://www.rfi.fr/fr/france/20261123-france-la-justice-saisie-pour-des-propos-racistes-et-un-salut-nazi-dans-une-%C3%A9cole-de-police",
+          "citation_cle": "Le patron de la police nationale a saisi la justice au sujet de contenus racistes échangés entre élèves.",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "Le Figaro",
+          "type": "mainstream",
+          "angle": "Détails sur la promotion concernée et les échéances de diplôme.",
+          "ton": "neutre",
+          "url": "https://www.lefigaro.fr/actualite-france/diffusion-de-caricatures-propos-racistes-et-salut-nazi-le-patron-de-la-police-saisit-la-justice-dans-une-ecole-de-police-20261122",
+          "citation_cle": "Des échanges inappropriés dans des boucles privées entre des élèves de la 31e promotion.",
+          "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Combien d'élèves sont précisément impliqués dans ces échanges ?",
+        "L'encadrement de l'école était-il au courant avant les révélations de presse ?"
+      ],
+      "sources": [
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/societe/salut-nazi-et-racisme-a-l-ecole-des-officiers-le-patron-de-la-police-saisit-la-justice-20261123",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/actualite-france/diffusion-de-caricatures-propos-racistes-et-salut-nazi-le-patron-de-la-police-saisit-la-justice-dans-une-ecole-de-police-20261122",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20261123-france-la-justice-saisie-pour-des-propos-racistes-et-un-salut-nazi-dans-une-%C3%A9cole-de-police",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-11-22"
+    },
+    {
+      "titre": "Déferlante de frappes russes sur Kiev et attaques de navires russes en Libye",
+      "slug": "escalade-frappes-kiev-attaques-navires-libye",
+      "rubrique": "international",
+      "tldr": [
+        "Au moins 14 morts dans la région de Kiev après d'intenses bombardements russes.",
+        "Deux navires, dont un russe, attaqués dans le port de Benghazi en Libye.",
+        "Réunion d'urgence de l'Otan prévue ce lundi pour discuter des répercussions."
+      ],
+      "resume": "L'escalade du conflit russo-ukrainien prend une dimension internationale avec des frappes russes meurtrières sur des zones résidentielles près de Kiev, faisant au moins 14 victimes, dont dix dans l'effondrement d'un immeuble à Dymer. Parallèlement, une corvette russe a été attaquée et incendiée dans le port libyen de Benghazi, une zone sous contrôle de l'homme fort de l'Est, Khalifa Haftar. L'ONU a réclamé une enquête sur cet incident qui pourrait être lié à l'intensification des frappes ukrainiennes à longue portée. L'Otan se réunit ce jour pour évaluer les risques de déstabilisation en Europe et en Méditerranée.",
+      "contexte_historique": "La Russie utilise Benghazi comme hub logistique pour ses opérations en Afrique (ex-groupe Wagner). L'attaque de navires russes hors du théâtre ukrainien rappelle les précédents de sabotage en Mer Noire et souligne l'extension géographique du conflit (RFI, 2024).",
+      "implications": [
+        "Risque de tensions accrues en Libye entre les factions soutenues par Moscou et les puissances occidentales.",
+        "Pression sur les infrastructures énergétiques ukrainiennes à l'approche du plein hiver."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-11-23",
+          "texte": "L'ONU demande une enquête sur les attaques de navires en Libye.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-11-23",
+          "texte": "Bilan de 14 morts confirmé après les frappes russes sur la région de Kiev.",
+          "source": "Le Monde"
+        },
+        {
+          "date": "2026-11-22",
+          "texte": "Une corvette russe est signalée en feu dans le port de Benghazi.",
+          "source": "France 24 FR"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "Le Monde",
+          "type": "mainstream",
+          "angle": "Suivi en direct des victimes civiles en Ukraine et des tensions maritimes.",
+          "ton": "factuel",
+          "url": "https://www.lemonde.fr/international/live/2026/11/23/en-direct-guerre-en-ukraine-des-frappes-russes-dans-la-region-de-kiev-font-au-moins-14-morts-deux-navires-dont-au-moins-un-russe-attaques-en-lybie_6814183_3210.html",
+          "citation_cle": "Dix personnes ont été tuées dans une frappe russe ayant touché un immeuble résidentiel à Dymer.",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "source": "BBC News",
+          "type": "etranger",
+          "angle": "Focus sur le sauvetage d'un enfant de 7 ans des décombres.",
+          "ton": "engagé",
+          "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "Un garçon de 7 ans sorti vivant des décombres des heures après une frappe russe.",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "BFM Business",
+          "type": "mainstream",
+          "angle": "Le Monde qui bouge : la revue de presse : Des navires russes attaqués au large de la Lybie - 23/11",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/le-monde-qui-bouge-la-revue-de-presse-des-navires-russes-attaques-au-large-de-la-lybie-23-11_EN-202611230116.html",
+          "citation_cle": "Ce lundi 23 novembre, réécoutez en podcast le replay du Monde qui bouge : la revue de presse présentée par Mathilde Cham",
+          "groupe_media": {
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "L'Ukraine est-elle directement responsable de l'attaque en Libye via des drones ou des forces spéciales ?",
+        "Quel était le chargement exact du navire russe attaqué à Benghazi ?"
+      ],
+      "sources": [
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/live/2026/11/23/en-direct-guerre-en-ukraine-des-frappes-russes-dans-la-region-de-kiev-font-au-moins-14-morts-deux-navires-dont-au-moins-un-russe-attaques-en-lybie_6814183_3210.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
           "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/politique/me-designer-comme-etant-une-taupe-est-immonde-le-prefet-hugues-moutouh-vise-par-des-soupcons-de-fuites-du-ministere-de-l-interieur-vers-le-rn-denonce-une-chasse-a-l-homme_AN-202611210483.html",
+          "url": "https://www.bfmtv.com/international/afrique/libye/deux-navires-dont-un-russe-attaques-dans-un-port-de-libye-l-onu-demande-une-enquete_AD-202611230112.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "CMA CGM",
@@ -90,79 +301,8 @@
           }
         },
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/monde/etats-unis/4264735-20261122-guerre-moyen-orient-nature-britannique-nage-detroit-ormuz-plein-conflit?at_medium=display&at_campaign=149",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "premiere_apparition": "2026-11-20"
-    },
-    {
-      "titre": "Blocage à la COP31 : les énergies fossiles absentes du texte final",
-      "slug": "cop31-blocage-energies-fossiles-absence-texte",
-      "rubrique": "international",
-      "tldr": [
-        "La COP31 entre dans sa deuxième nuit de prolongation sans accord global.",
-        "Le nouveau projet de texte final omet toute mention explicite de sortie des énergies fossiles.",
-        "Les pays en développement dénoncent un manque d'ambition sur le financement climatique."
-      ],
-      "resume": "La conférence sur le climat tenue en Turquie piétine malgré 48 heures de prolongation. Le dernier projet de décision finale, présenté par les présidences turque et australienne, évite soigneusement de mentionner la sortie du charbon, du pétrole et du gaz, pourtant identifiés comme les causes majeures du réchauffement (RFI, Le Figaro). Si le texte propose un appel à l'électrification, il est jugé insuffisant par les nations les plus vulnérables et les ONG environnementales. Les négociations butent également sur le montant de l'aide financière des pays riches vers les pays du Sud pour la transition énergétique (Al Jazeera).",
-      "contexte_historique": "L'accord de la COP28 à Dubaï en 2023 avait pour la première fois mentionné une 'transition hors des énergies fossiles'. Revenir sur cette formulation à la COP31 marquerait un recul historique dans la diplomatie climatique mondiale depuis les accords de Paris en 2015 (Courrier International).",
-      "implications": [
-        "Risque de rupture de confiance entre le Nord et le Sud sur les financements climatiques.",
-        "Retard potentiel dans la mise en œuvre des objectifs de limitation à 1,5°C."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-11-22",
-          "texte": "Publication d'un troisième projet de texte final sans mention des fossiles.",
-          "source": "Ouest-France"
-        },
-        {
-          "date": "2026-11-21",
-          "texte": "Entrée officielle dans la phase de prolongation des négociations.",
-          "source": "RFI"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "RFI",
-          "type": "mainstream",
-          "angle": "Focus sur l'absence de référence aux énergies fossiles qui braque les délégations.",
-          "ton": "critique",
-          "url": "https://www.rfi.fr/fr/environnement/20261122-cop31-une-nuit-de-n%C3%A9gociations-un-nouveau-texte-mais-toujours-pas-de-mention-des-%C3%A9nergies-fossiles",
-          "citation_cle": "L'absence de référence aux énergies fossiles pourrait braquer une partie des participants.",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Analyse de l'impasse financière et du rôle des pays producteurs d'énergies fossiles.",
-          "ton": "factuel",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/ice-agents-detain-two-people-at-seattle-airport?traffic_source=rss",
-          "citation_cle": "L'impasse sur les combustibles fossiles pousse les pourparlers dans leur deuxième jour supplémentaire.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Quel pays bloque spécifiquement l'inclusion du terme 'énergies fossiles' dans le texte ?",
-        "Un compromis de dernière minute sur le financement peut-il sauver l'accord ?"
-      ],
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/environnement/20261122-cop31-une-nuit-de-n%C3%A9gociations-un-nouveau-texte-mais-toujours-pas-de-mention-des-%C3%A9nergies-fossiles",
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/moyen-orient/20261123-israel-partis-gadi-eisenkot-benjamin-netanyahu-achevent-discussions-sans-parvenir-accord-likoud-coalition",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -170,114 +310,55 @@
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
-        },
-        {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/ice-agents-detain-two-people-at-seattle-airport?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/cop31-nouveau-projet-de-decision-finale-toujours-sans-mention-des-energies-fossiles-20261122",
-          "type": "mainstream",
-          "groupe_media": null
         }
       ],
-      "premiere_apparition": "2026-11-21"
-    },
-    {
-      "titre": "Hypothèse de Riemann : la communauté scientifique en ébullition après une annonce de preuve",
-      "slug": "hypothese-riemann-preuve-ia-anthropic",
-      "rubrique": "science",
-      "tldr": [
-        "Le mathématicien Levent Alpöge affirme avoir prouvé l'Hypothèse de Riemann généralisée.",
-        "L'IA d'Anthropic aurait été utilisée pour vérifier certaines étapes de la démonstration.",
-        "Le sujet domine les échanges sur HackerNews et les recherches Wikipedia."
-      ],
-      "resume": "L'un des plus grands mystères des mathématiques, l'Hypothèse de Riemann, pourrait avoir été résolu. Le mathématicien Levent Alpöge a publié des travaux prétendant fournir une preuve de l'Hypothèse de Riemann généralisée . Cette annonce suscite un intérêt massif car elle s'appuie sur des outils de vérification formelle (Lean) et aurait bénéficié de l'assistance de modèles d'IA avancés. Si elle est confirmée par les pairs, cette découverte bouleverserait notre compréhension de la répartition des nombres premiers et débloquerait des milliers de théorèmes qui reposent sur cette hypothèse .",
-      "contexte_historique": "Énoncée en 1859 par Bernhard Riemann, cette conjecture est l'un des sept 'Problèmes du prix du millénaire' de l'Institut Clay, avec une récompense d'un million de dollars. Elle concerne les zéros de la fonction zêta de Riemann et leur alignement sur une 'droite critique' (Wikipedia).",
-      "implications": [
-        "Validation de milliers de résultats mathématiques dépendants de l'hypothèse.",
-        "Impact potentiel sur la cryptographie moderne basée sur les nombres premiers."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-11-22",
-          "texte": "Le sujet devient viral sur HackerNews avec plus de 2800 votes.",
-          "source": "HackerNews"
-        },
-        {
-          "date": "2026-11-20",
-          "texte": "Premières rumeurs sur l'utilisation d'Inkling 2 Mini pour la vérification.",
-          "source": "Ars Technica"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Ars Technica",
-          "type": "etranger",
-          "angle": "Lien entre les capacités de raisonnement de l'IA et les avancées en mathématiques fondamentales.",
-          "ton": "factuel",
-          "url": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
-          "citation_cle": "L'utilisation de Lean pour vérifier la conjecture change la donne.",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "La preuve résistera-t-elle à l'examen détaillé des experts mathématiciens ?",
-        "Quelle est la part réelle de l'IA dans la découverte par rapport au travail humain ?"
-      ],
-      "sources": [
-        {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
-          "type": "tech",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-11-20"
+      "premiere_apparition": "2026-11-22"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Lancement de Grand Theft Auto VI",
-      "slug": "lancement-gta-vi-records",
-      "rubrique": "culture",
-      "resume": "Après un lancement record à 3,8 milliards de dollars, l'intérêt médiatique se déplace vers les performances techniques et les mises à jour du mode online.",
+      "titre": "Hypothèse de Riemann : vérification en cours",
+      "slug": "hypothese-riemann-annonce-preuve",
+      "rubrique": "science",
+      "resume": "Après l'effervescence initiale suite à l'annonce d'une preuve par Levent Alpöge, la communauté scientifique entre dans une phase de vérification par les pairs. L'utilisation d'outils de vérification formelle comme Lean est mentionnée pour valider les étapes mathématiques.",
       "chronologie": [
         {
-          "date": "2023-12-04",
-          "texte": "Premier trailer officiel publié par Rockstar Games.",
-          "source": "YouTube"
+          "date": "2026-11-23",
+          "texte": "Débat sur la méthode de vérification dans les revues spécialisées.",
+          "source": "franceinfo"
+        },
+        {
+          "date": "2026-11-20",
+          "texte": "Publication du PDF revendiquant la preuve de l'Hypothèse de Riemann généralisée.",
+          "source": "HackerNews"
         }
       ],
-      "couvertures": [],
-      "ce_quon_ne_sait_pas": [
-        "Date de sortie de la version PC."
+      "couvertures": [
+        {
+          "source": "franceinfo",
+          "type": "mainstream",
+          "angle": "Explication sur le délai de deux ans nécessaire pour valider une telle découverte.",
+          "ton": "neutre",
+          "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/quels-sont-les-grands-problemes-mathematiques-que-les-geants-de-l-ia-anthropic-et-openai-disent-avoir-resolu-ces-derniers-mois_8293859.html",
+          "citation_cle": "L'examen d'une méthode ne peut se faire que deux ans après publication."
+        }
       ],
-      "sources": [],
-      "derniere_mise_a_jour": "2026-11-22",
-      "statut": "Le jeu est désormais un produit de consommation courante, les records de vente sont établis."
+      "ce_quon_ne_sait_pas": [
+        "La preuve résistera-t-elle à l'analyse détaillée des experts internationaux ?"
+      ],
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/quels-sont-les-grands-problemes-mathematiques-que-les-geants-de-l-ia-anthropic-et-openai-disent-avoir-resolu-ces-derniers-mois_8293859.html",
+          "type": "mainstream"
+        }
+      ],
+      "derniere_mise_a_jour": "2026-11-23",
+      "statut": "En attente de validation académique longue (2 ans minimum)."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 541,
+    "nb_articles_analyses": 494,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

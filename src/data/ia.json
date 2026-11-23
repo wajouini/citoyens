@@ -1,43 +1,38 @@
 {
-  "date": "2026-11-22",
-  "genere_a": "2026-11-22T05:34:45.265Z",
+  "date": "2026-11-23",
+  "genere_a": "2026-11-23T05:34:47.822Z",
   "faits_ia": [
     {
-      "titre": "L'IA Claude d'Anthropic aide à résoudre l'hypothèse de Riemann",
-      "sous_section": "recherche",
-      "resume": "Un chercheur d'Anthropic, Levent Alpöge, affirme avoir utilisé l'IA Claude pour résoudre l'hypothèse de Riemann, un problème mathématique du XIXe siècle resté sans réponse. Deux groupes de recherche ont validé la démonstration, bien qu'un chercheur indépendant de l'American Mathematical Society revendique une preuve concurrente publiée quelques heures plus tôt.",
-      "pourquoi_ca_compte": "C'est une étape historique : l'IA ne se contente plus de générer du texte, mais devient un partenaire de raisonnement capable de s'attaquer aux plus grands mystères scientifiques de l'humanité.",
+      "titre": "Chute des bourses asiatiques : la bulle de l'IA suscite l'inquiétude",
+      "sous_section": "business",
+      "resume": "Les marchés financiers en Corée du Sud, en Chine et à Hong Kong subissent des baisses significatives, portées par un désengagement massif du secteur technologique. Les investisseurs expriment des doutes croissants sur la rentabilité réelle des investissements colossaux en IA et l'endettement croissant des entreprises du secteur.",
+      "pourquoi_ca_compte": "Une correction boursière majeure pourrait freiner les investissements dans les infrastructures technologiques et impacter l'épargne mondiale ainsi que le financement des startups.",
       "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/economie/les-bourses-d-asie-continuent-de-chuter-face-aux-inquietudes-sur-l-ia-seoul-en-tete-20261123",
+          "type": "mainstream",
+          "groupe_media": null
         },
         {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/sciences/2380525-lhumain-contre-attaque-sur-lhypothese-de-riemann-un-chercheur-aurait-craque-lenigme-avant-lia-claude.html",
-          "type": "mainstream",
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount?traffic_source=rss",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
           }
         }
       ],
-      "lien": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+      "lien": "https://www.lefigaro.fr/economie/les-bourses-d-asie-continuent-de-chuter-face-aux-inquietudes-sur-l-ia-seoul-en-tete-20261123"
     },
     {
-      "titre": "Démission du ministre de l'Éducation sud-coréen suite à un scandale de triche IA",
+      "titre": "Démission du ministre sud-coréen de l'Éducation après un scandale de triche",
       "sous_section": "societe",
-      "resume": "Choi Kyo-jin a démissionné après la découverte d'un système de triche généralisé aux examens universitaires utilisant des dispositifs d'IA dissimulés. Malgré l'interdiction des téléphones, des caméras cachées dans les vêtements et des outils de traitement assistés par IA ont compromis l'intégrité des épreuves.",
-      "pourquoi_ca_compte": "L'incident souligne la fragilité des systèmes éducatifs traditionnels face à la miniaturisation des technologies d'IA et la pression sociale extrême liée aux diplômes.",
+      "resume": "Choi Kyo-jin a démissionné après la découverte d'une fraude massive assistée par IA lors des examens d'entrée à l'université. Le ministre a admis avoir échoué à anticiper et à sécuriser les épreuves face aux nouvelles capacités technologiques des étudiants.",
+      "pourquoi_ca_compte": "Cela pose la question de l'intégrité des diplômes et de la nécessité de repenser totalement les méthodes d'évaluation académique à l'ère de l'IA générative.",
       "sources": [
         {
           "nom": "The Guardian",
@@ -49,15 +44,26 @@
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         }
       ],
-      "lien": null
+      "lien": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams"
     },
     {
-      "titre": "Google déréférence massivement des sites d'actualité abusant de l'IA",
-      "sous_section": "business",
-      "resume": "Le géant californien a opéré un « coup de balai » majeur dans son moteur de recherche en supprimant plusieurs sites d'actualité français comme « Marie France », « Pleine Vie » ou des sous-domaines de « Ouest-France ». Cette action vise les contenus générés automatiquement par IA sans valeur ajoutée éditoriale.",
-      "pourquoi_ca_compte": "C'est une bataille pour la qualité de l'information : Google tente de freiner la pollution du web par des usines à contenus IA qui menacent la survie du journalisme humain.",
+      "titre": "Google déréférence les sites d'actualités saturés de contenus IA",
+      "sous_section": "regulation",
+      "resume": "Google a procédé à une suppression massive de plusieurs sites d'actualité de ses résultats de recherche, dont Marie France et des sections de Ouest-France. Cette mesure vise les plateformes utilisant l'IA pour produire du contenu à faible valeur ajoutée ou trompeur afin de manipuler le référencement.",
+      "pourquoi_ca_compte": "Cette décision illustre le pouvoir arbitraire des plateformes sur la visibilité de l'information et la lutte contre la pollution du web par des contenus automatisés.",
       "sources": [
         {
           "nom": "CheckNews",
@@ -71,205 +77,225 @@
           }
         }
       ],
-      "lien": null
+      "lien": "https://www.liberation.fr/checknews/contenus-ia-google-supprime-de-son-moteur-de-recherche-plusieurs-sites-dactu-dont-marie-france-20261120_DBIDSLMBOZHRZBZV4YCAZWWKGI/"
     },
     {
-      "titre": "Anthropic entre en bourse sur le Nasdaq : la sécurité face au profit",
+      "titre": "Anthropic prépare son entrée en bourse (IPO)",
       "sous_section": "business",
-      "resume": "L'entreprise Anthropic, créatrice de Claude, a fait ses débuts sur le Nasdaq jeudi dernier. Le débat s'intensifie sur la capacité du laboratoire à maintenir ses engagements de sécurité (« safety first ») tout en répondant aux exigences de rentabilité des investisseurs boursiers.",
-      "pourquoi_ca_compte": "Le passage d'un laboratoire de recherche à une entreprise publique change radicalement les incitations : la sécurité de l'IA pourrait être sacrifiée sur l'autel de la croissance trimestrielle.",
+      "resume": "Anthropic, principal concurrent d'OpenAI, prépare son introduction en bourse. Cette annonce intervient dans un contexte de forte volatilité des valeurs technologiques et marque une étape clé pour la commercialisation des modèles Claude.",
+      "pourquoi_ca_compte": "L'IPO d'un géant de l'IA définit la valorisation réelle du secteur et influence les futures régulations boursières spécifiques à la tech.",
       "sources": [
         {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Amazon lance son premier cadre photo numérique avec Alexa",
-      "sous_section": "annonces",
-      "resume": "Amazon a dévoilé son premier cadre photo numérique intégré à l'écosystème Alexa. À l'approche du Black Friday, l'appareil bénéficie déjà de remises importantes, marquant une nouvelle étape dans l'omniprésence des écrans connectés dans le foyer.",
-      "pourquoi_ca_compte": "Ce produit renforce la collecte de données visuelles et l'intégration de l'IA dans l'intimité domestique sous couvert de fonctions décoratives.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Critique du progrès technologique : le « nouveau monde immonde »",
-      "sous_section": "societe",
-      "resume": "Une tribune critique dénonce l'avidité des acteurs technologiques qui dénaturent les innovations initialement prometteuses. L'auteur pointe du doigt une dérive mercantile qui privilégie le profit immédiat au détriment de l'utilité sociale et de l'éthique.",
-      "pourquoi_ca_compte": "Cela reflète un sentiment croissant de technolassitude et de méfiance citoyenne envers un progrès qui semble échapper à tout contrôle démocratique.",
-      "sources": [
-        {
-          "nom": "Next",
-          "url": "https://next.ink/268952/flock-le-nouveau-monde-immonde-inonde/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Amazon utilise les étiquettes de colis pour critiquer la législation de NYC",
-      "sous_section": "regulation",
-      "resume": "Dans son combat contre le « Delivery Protection Act » du conseil municipal de New York, Amazon a commencé à utiliser les étiquettes de livraison pour diffuser des messages d'opposition. L'entreprise s'oppose fermement aux mesures visant à protéger davantage les livreurs.",
-      "pourquoi_ca_compte": "L'utilisation de l'infrastructure logistique comme canal de propagande politique pose des questions majeures sur le pouvoir d'influence des plateformes sur les citoyens-consommateurs.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Offres massives sur l'hébergement web : la consolidation du cloud continue",
-      "sous_section": "business",
-      "resume": "Les géants de l'hébergement comme Hostinger et HostGator affichent des réductions allant jusqu'à 85% pour novembre 2026. Cette guerre des prix s'accompagne d'une intégration croissante d'outils de création de sites par IA.",
-      "pourquoi_ca_compte": "La baisse des coûts d'entrée facilite l'accès au web, mais renforce la dépendance des petites entreprises à quelques infrastructures centralisées.",
-      "sources": [
-        {
-          "nom": "Wired",
-          "url": "https://www.wired.com/story/hostinger-coupon-code/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Wired",
-          "url": "https://www.wired.com/story/hostgator-coupon/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "La démocratie face au défi du refus de dialogue",
-      "sous_section": "societe",
-      "resume": "Des analyses soulignent une tendance croissante chez les politiques et syndicats à sélectionner leurs interlocuteurs médiatiques ou à fuir le débat. Des politologues proposent des pistes pour éviter que cette crise de la communication ne mène à l'autoritarisme.",
-      "pourquoi_ca_compte": "Sans un espace de débat médiatique partagé et transparent, les algorithmes et l'IA de recommandation risquent de fragmenter définitivement l'opinion publique.",
-      "sources": [
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/a-vif/faut-il-cesser-de-parler-avec-ceux-qui-fragilisent-les-fondements-du-debat-democratique-20261121",
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/pop-culture/2380403-piratage-de-gta-6-ipo-danthropic-et-face-unlock-sur-iphone-duo-le-recap-tech-de-la-semaine.html",
           "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/culture/l-avantage-democratique-les-pistes-de-deux-politologues-pour-ne-pas-deriver-vers-lautoritarisme-20261120",
-          "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
         }
       ],
-      "lien": null
+      "lien": "https://www.numerama.com/pop-culture/2380403-piratage-de-gta-6-ipo-danthropic-et-face-unlock-sur-iphone-duo-le-recap-tech-de-la-semaine.html"
     },
     {
-      "titre": "L'adaptation millénaire du vivant face à l'invasion plastique",
+      "titre": "L'IA au cœur de la rivalité nucléaire sino-américaine",
       "sous_section": "recherche",
-      "resume": "Une étude scientifique révèle que la biosphère commence à intégrer les déchets plastiques, de l'Antarctique aux abysses. Si une adaptation biologique est envisagée, elle pourrait prendre des millénaires, bouleversant durablement les écosystèmes actuels.",
-      "pourquoi_ca_compte": "Cette recherche montre que l'impact technologique humain (le plastique étant un polymère synthétique) modifie désormais l'évolution même de la vie sur Terre.",
+      "resume": "Des chercheurs militaires chinois s'inquiètent du fait que l'IA pourrait donner un avantage décisif aux États-Unis, rendant les forces nucléaires chinoises plus vulnérables. Parallèlement, des agences d'espionnage chinoises auraient mené des campagnes pour acquérir des puces IA avancées malgré les sanctions.",
+      "pourquoi_ca_compte": "L'intégration de l'IA dans les systèmes de défense stratégique augmente les risques d'escalade involontaire et redéfinit la géopolitique mondiale.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/ecologie/211126/le-plastique-partout-ce-nouvel-ecosysteme-qui-bouleverse-le-vivant",
-          "type": "investigation",
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/11/23/world/asia/china-us-nuclear-ai.html",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Mediapart",
-            "proprietaire": "Fonds pour une presse libre",
-            "type_proprietaire": "fondation",
-            "orientation": "gauche"
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "NYT World",
+          "url": "https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The New York Times Company",
+            "proprietaire": "Famille Ochs-Sulzberger",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
           }
         }
       ],
-      "lien": null
+      "lien": "https://www.nytimes.com/2026/11/23/world/asia/china-us-nuclear-ai.html"
+    },
+    {
+      "titre": "Manifestations violentes contre Meta en Inde",
+      "sous_section": "societe",
+      "resume": "Des membres du parti d'opposition Congress ont pris d'assaut les bureaux de Meta à Delhi pour protester contre la suppression de comptes politiques. Des affrontements avec la police ont eu lieu, les manifestants accusant la plateforme de censure partisane.",
+      "pourquoi_ca_compte": "Le contrôle des algorithmes sur le discours politique est un enjeu démocratique majeur, particulièrement dans les pays où les réseaux sociaux sont le principal canal d'information.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/22/india-congress-meta-protests-police-hyderabad",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india"
+    },
+    {
+      "titre": "Régulation de l'Arcom : les créateurs web sous surveillance",
+      "sous_section": "regulation",
+      "resume": "L'Arcom s'apprête à imposer des obligations de pluralisme à une sélection de vidéastes et médias en ligne (Legend, Blast. Seule une dizaine d'acteurs dépassant certains seuils d'audience seraient concernés par ces nouvelles contraintes.",
+      "pourquoi_ca_compte": "C'est une étape historique dans l'alignement des règles du web sur celles de l'audiovisuel classique, impactant la liberté éditoriale des nouveaux médias.",
+      "sources": [
+        {
+          "nom": "CheckNews",
+          "url": "https://www.liberation.fr/checknews/legend-hugodecrypte-ou-blast-quels-createurs-de-contenus-et-medias-en-ligne-sont-vraiment-concernes-par-la-regulation-de-larcom-20261121_DVECUULTW5BTNH232B2IBVLBT4/",
+          "type": "fact-check",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "Blast",
+          "url": "https://www.blast-info.fr/articles/2026/universite-avec-la-hausse-des-frais-d-inscription-le-tri-social-et-racial-eEq4IUKSQu2pZ_M27DERwQ",
+          "type": "investigation"
+        }
+      ],
+      "lien": "https://www.liberation.fr/checknews/legend-hugodecrypte-ou-blast-quels-createurs-de-contenus-et-medias-en-ligne-sont-vraiment-concernes-par-la-regulation-de-larcom-20261121_DVECUULTW5BTNH232B2IBVLBT4/"
+    },
+    {
+      "titre": "Pannes technologiques majeures : une tendance durable ?",
+      "sous_section": "annonces",
+      "resume": "Après une série de pannes touchant la FAA, Outlook et JPMorgan Chase, les experts avertissent que la complexité croissante des infrastructures cloud et IA rend ces interruptions plus probables. La centralisation des services est pointée du doigt.",
+      "pourquoi_ca_compte": "La dépendance totale des services publics et financiers à quelques fournisseurs tech crée une vulnérabilité systémique pour les citoyens.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theverge.com/tech/1039851/major-tech-outages"
+    },
+    {
+      "titre": "Trump et le mélange des genres : galas pour sa cryptomonnaie",
+      "sous_section": "business",
+      "resume": "Donald Trump a organisé son troisième gala privé pour les détenteurs de son 'meme coin' $Trump. Les démocrates dénoncent un conflit d'intérêts majeur alors que le président élu continue de promouvoir ses actifs numériques personnels.",
+      "pourquoi_ca_compte": "L'usage de la fonction politique pour valoriser des actifs technologiques privés pose des questions éthiques sans précédent sur la régulation des marchés crypto.",
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/22/trump-cryptocurrency-gala-meme-coin",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/22/trump-to-host-private-dinner-for-largest-owners-of-his-meme-coin?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        }
+      ],
+      "lien": "https://www.theguardian.com/us-news/2026/nov/22/trump-cryptocurrency-gala-meme-coin"
+    },
+    {
+      "titre": "Kodak lance un cadre photo numérique faisant office de tracker",
+      "sous_section": "annonces",
+      "resume": "Kodak diversifie sa gamme avec le 'SlideTag', un mini cadre photo numérique intégrant une puce de localisation compatible avec les réseaux Apple et Google. L'objet mise sur la nostalgie et la sécurité.",
+      "pourquoi_ca_compte": "L'intégration de technologies de surveillance (tracking) dans des objets du quotidien devient la norme, soulevant des questions sur la vie privée.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ],
+      "lien": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "La résolution de l'hypothèse de Riemann par l'IA Claude",
-    "contexte": "Le 20 novembre 2026, Anthropic annonce que son IA Claude a aidé à prouver l'hypothèse de Riemann, un défi mathématique vieux de 160 ans. Dans la foulée, un mathématicien humain revendique également la découverte.",
+    "sujet": "La crainte d'une bulle financière de l'IA en Asie",
+    "contexte": "Les bourses de Séoul, Hong Kong et Shanghai ont chuté lourdement le 23 novembre 2026. Ce mouvement est alimenté par des doutes sur le retour sur investissement des infrastructures d'IA et l'explosion de la dette des entreprises tech.",
     "couvertures": [
       {
-        "source": "The Guardian",
-        "type": "etranger",
-        "angle": "Validation technologique et scientifique",
-        "ton": "factuel",
-        "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-        "citation_cle": "Il a fallu six semaines à Levent Alpöge en utilisant l'outil d'IA pour résoudre l'hypothèse de Riemann du XIXe siècle.",
-        "groupe_media": {
-          "nom": "Scott Trust",
-          "proprietaire": "Scott Trust Limited",
-          "type_proprietaire": "fondation",
-          "orientation": "centre-gauche"
-        }
+        "source": "Le Figaro",
+        "type": "mainstream",
+        "angle": "Analyse économique centrée sur la dette",
+        "ton": "neutre",
+        "url": "https://www.lefigaro.fr/economie/les-bourses-d-asie-continuent-de-chuter-face-aux-inquietudes-sur-l-ia-seoul-en-tete-20261123",
+        "citation_cle": "Le secteur de l’IA souffre depuis plusieurs semaines des doutes concernant la rentabilité future des dépenses massives.",
+        "groupe_media": null
       },
       {
-        "source": "Numerama",
-        "type": "mainstream",
-        "angle": "Compétition entre l'homme et la machine",
-        "ton": "neutre",
-        "url": "https://www.numerama.com/sciences/2380525-lhumain-contre-attaque-sur-lhypothese-de-riemann-un-chercheur-aurait-craque-lenigme-avant-lia-claude.html",
-        "citation_cle": "L’humain contre-attaque : un chercheur aurait craqué l’énigme avant l’IA Claude.",
+        "source": "Al Jazeera",
+        "type": "etranger",
+        "angle": "Risque systémique global",
+        "ton": "alarmiste",
+        "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount?traffic_source=rss",
+        "citation_cle": "Asian stock markets tumble as AI bubble fears mount.",
         "groupe_media": {
-          "nom": "Humanoid",
-          "proprietaire": "Humanoid (indépendant)",
-          "type_proprietaire": "independant",
-          "orientation": "centre"
+          "nom": "Al Jazeera Media Network",
+          "proprietaire": "État du Qatar",
+          "type_proprietaire": "etat",
+          "orientation": "variable"
         }
       }
     ],
-    "analyse_coherence": "La couverture de cet événement montre un basculement symbolique : alors que The Guardian se concentre sur la prouesse technologique d'Anthropic et le processus de vérification, Numerama adopte un angle plus narratif de confrontation entre l'intelligence biologique et artificielle. La simultanéité des deux annonces crée une tension médiatique inédite. Il est frappant de constater que la source britannique accorde une légitimité immédiate à l'IA, là où la source française souligne la réactivité de la communauté académique humaine (l'American Mathematical Society) pour ne pas se laisser distancer. Ce double récit illustre parfaitement le malaise actuel : l'IA n'est plus seulement un outil, mais un concurrent de prestige dans les domaines les plus abstraits de l'esprit humain.",
+    "analyse_coherence": "Les deux sources s'accordent sur le diagnostic : nous assistons à une phase de désillusion après l'euphorie initiale pour l'IA générative. Le Figaro adopte une approche technique en pointant spécifiquement le recours à la dette, alors qu'Al Jazeera utilise un vocabulaire plus fort ('bulle', 'effondrement') pour souligner l'impact sur l'ensemble de la zone Asie-Pacifique. Les deux médias notent que Séoul est en première ligne, probablement en raison de sa forte dépendance aux semi-conducteurs de nouvelle génération.",
     "biais_detectes": [
-      "Biais de fascination technologique (The Guardian)",
-      "Biais de protectionnisme anthropocentrique (Numerama)"
+      "Focalisation sur les marchés asiatiques en omettant l'interdépendance avec les valeurs américaines ."
     ],
-    "ce_quil_faut_retenir": "Au-delà de la validité mathématique qui sera tranchée par les pairs, cet épisode marque l'entrée de l'IA dans la 'Big Science' : la recherche fondamentale ne pourra plus se passer de ces outils, au risque de voir la paternité des découvertes devenir un enjeu de communication pour les firmes de la Silicon Valley."
+    "ce_quil_faut_retenir": "Le marché demande désormais des preuves concrètes de rentabilité pour l'IA, marquant la fin de la période 'chèque en blanc' pour les géants technologiques."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 120,
-    "nb_topics_ia": 44,
+    "nb_articles_ia": 108,
+    "nb_topics_ia": 45,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
