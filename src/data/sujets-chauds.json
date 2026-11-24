@@ -1,242 +1,47 @@
 {
-  "date": "2026-11-23",
-  "genere_a": "2026-11-23T05:35:14.904Z",
+  "date": "2026-11-24",
+  "genere_a": "2026-11-24T05:36:23.748Z",
   "sujets_actifs": [
     {
-      "titre": "Échec des négociations de la COP31 à Antalya sur la sortie des énergies fossiles",
-      "slug": "echec-cop31-antalya-energies-fossiles",
-      "rubrique": "international",
+      "titre": "Nvidia : Jensen Huang réintégré après 11 jours de séisme boursier et politique",
+      "slug": "nvidia-jensen-huang-reintegration-scandale",
+      "rubrique": "tech",
       "tldr": [
-        "Clôture de la COP31 sans accord final ni consensus après deux semaines de débats.",
-        "Blocage majeur mené par l'Arabie Saoudite contre toute mention des énergies fossiles.",
-        "L'Union européenne et les pays vulnérables ont refusé un texte jugé trop faible."
+        "Réintégration de Jensen Huang comme CEO de Nvidia suite à une pression massive des marchés et de Donald Trump.",
+        "Huang avait démissionné après des révélations sur une liaison avec une espionne présumée chinoise.",
+        "L'entreprise singapourienne au cœur du scandale de transfert de puces a été placée sur liste noire par Washington."
       ],
-      "resume": "La 31e Conférence de l'ONU sur le climat s'est achevée à Antalya, en Turquie, sur un échec diplomatique retentissant. Aucun consensus n'a été trouvé, les pays participants ne parvenant pas à s'accorder sur une déclaration finale. Le point de rupture cristallise l'opposition entre les nations productrices de pétrole, menées par l'Arabie Saoudite, qui ont systématiquement bloqué l'inclusion d'un calendrier de sortie du charbon, de l'huile et du gaz, et une coalition incluant l'UE et les pays les plus exposés au changement climatique. L'Australie, co-organisatrice, a déploré un climat géopolitique difficile, tandis que les ONG dénoncent un recul par rapport aux engagements de la COP28 à Dubaï.",
-      "contexte_historique": "Cet échec marque une rupture avec la dynamique de la COP28 (2023), où les pays s'étaient accordés pour la première fois sur une 'transition hors des énergies fossiles'. Historiquement, les sommets de l'ONU fonctionnent par consensus, ce qui donne un droit de veto de fait aux puissances pétrolières (Accord de Paris, 2015).",
+      "resume": "Après seulement onze jours d'absence, le cofondateur de Nvidia, Jensen Huang, reprend les rênes du géant des semi-conducteurs. Sa démission initiale faisait suite à la révélation d'une relation extraconjugale avec une femme soupçonnée d'intelligence avec les services secrets chinois (Le Monde). Ce retour, qualifié de « triomphe de l'argent sur la morale » par certains critiques, a été largement impulsé par une chute brutale de la valorisation boursière et une intervention directe de Donald Trump (Courrier International, BBC News). Parallèlement, les États-Unis ont durci le ton en plaçant sur liste noire l'entreprise singapourienne impliquée dans le contournement des sanctions vers la Chine (Le Figaro).",
+      "contexte_historique": "Nvidia domine environ 80 % du marché mondial des puces pour l'IA. Historiquement, les États-Unis imposent des restrictions d'exportation vers la Chine depuis 2022 pour freiner ses capacités militaires, un cadre que Huang est accusé d'avoir fragilisé par ses liens personnels (The Guardian).",
       "implications": [
-        "Affaiblissement de la crédibilité du processus onusien de lutte contre le réchauffement climatique.",
-        "Retard dans la mise en œuvre des engagements financiers pour l'adaptation des pays du Sud."
+        "Remontée immédiate de la capitalisation boursière de Nvidia de près de 1 000 milliards de dollars.",
+        "Tensions accrues entre le Congrès américain et la Maison Blanche sur la gestion de la sécurité nationale face aux intérêts privés."
       ],
       "chronologie": [
         {
           "date": "2026-11-23",
-          "texte": "Clôture officielle du sommet sans déclaration finale commune.",
-          "source": "Courrier international"
-        },
-        {
-          "date": "2026-11-22",
-          "texte": "L'UE rejette formellement un projet de texte omettant la sortie des fossiles.",
-          "source": "France 24 FR"
-        },
-        {
-          "date": "2026-11-21",
-          "texte": "L'Arabie Saoudite et ses alliés bloquent toute référence au charbon et au gaz.",
-          "source": "NYT World"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Focus sur la responsabilité partagée et l'impact de la géopolitique actuelle.",
-          "ton": "neutre",
-          "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Le Premier ministre australien a attribué l'échec à des 'temps géopolitiques difficiles'.",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "20 Minutes",
-          "type": "mainstream",
-          "angle": "Relais de la colère des militants écologistes face à l'urgence climatique ignorée.",
-          "ton": "alarmiste",
-          "url": "https://www.20minutes.fr/monde/ukraine/4264971-20261123-direct-guerre-ukraine-reunion-otan-parler-repercussions-conflit-europe?at_medium=display&at_campaign=149",
-          "citation_cle": "Scandaleux... Colère après l’échec de la COP31 sur les énergies fossiles.",
-          "groupe_media": null
-        },
-        {
-          "source": "Courrier international",
-          "type": "etranger",
-          "angle": "La COP31 sévèrement critiquée après l’échec des négociations",
-          "ton": "factuel",
-          "url": "https://www.courrierinternational.com/article/climat-la-cop31-severement-critiquee-apres-l-echec-des-negociations_289248",
-          "citation_cle": "La 31e Conférence de l’ONU sur le climat s’est achevée dimanche en Turquie sans consensus ni déclaration finale entre le",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Quelle sera la date et le lieu d'une éventuelle session de rattrapage ?",
-        "Comment les pays prévoient-ils de tenir leurs objectifs de 1.5°C sans cadre multilatéral ?"
-      ],
-      "sources": [
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/climat-la-cop31-severement-critiquee-apres-l-echec-des-negociations_289248",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20261123-turquie-la-cop31-se-termine-sans-accord",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-11-21"
-    },
-    {
-      "titre": "Saisie de la justice pour des dérives racistes à l'École nationale supérieure de la police",
-      "slug": "racisme-salut-nazi-ecole-officiers-police",
-      "rubrique": "societe",
-      "tldr": [
-        "Signalement au parquet pour des propos racistes et des saluts nazis au sein de l'ENSP.",
-        "Les faits concernent des élèves officiers de la 31e promotion.",
-        "Le patron de la police nationale, Frédéric Veaux, a saisi la justice."
-      ],
-      "resume": "Une enquête judiciaire est ouverte après la révélation d'échanges à caractère raciste et antisémite au sein de l'École nationale supérieure de la police (ENSP) de Cannes-Écluse. Des élèves officiers de la 31e promotion auraient partagé des caricatures racistes et effectué des saluts nazis dans des groupes de discussion privés. Le directeur général de la police nationale (DGPN) a saisi le procureur de Fontainebleau sur la base de l'article 40 du code de procédure pénale. Ces révélations interviennent dans un climat de tension sur le pluralisme et l'éthique au sein des forces de l'ordre.",
-      "contexte_historique": "L'ENSP forme les cadres de la police nationale. Ce scandale fait écho à l'affaire Michel Zecler (2020) et aux débats récurrents sur le racisme systémique ou individuel dans la police française, encadré par le Code de déontologie de la Police et de la Gendarmerie (2014).",
-      "implications": [
-        "Risque de sanctions disciplinaires lourdes et d'exclusion pour les futurs officiers impliqués.",
-        "Renforcement probable des modules de formation sur l'éthique et la lutte contre les discriminations."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-11-23",
-          "texte": "La DGPN confirme la saisie du parquet de Fontainebleau.",
-          "source": "La Croix"
-        },
-        {
-          "date": "2026-11-22",
-          "texte": "Le Parisien révèle l'existence de boucles privées haineuses entre élèves officiers.",
+          "texte": "Le conseil d'administration annonce la réintégration officielle de Jensen Huang.",
           "source": "Le Figaro"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "RFI",
-          "type": "mainstream",
-          "angle": "Mise en avant de la réaction institutionnelle immédiate du patron de la police.",
-          "ton": "factuel",
-          "url": "https://www.rfi.fr/fr/france/20261123-france-la-justice-saisie-pour-des-propos-racistes-et-un-salut-nazi-dans-une-%C3%A9cole-de-police",
-          "citation_cle": "Le patron de la police nationale a saisi la justice au sujet de contenus racistes échangés entre élèves.",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "Le Figaro",
-          "type": "mainstream",
-          "angle": "Détails sur la promotion concernée et les échéances de diplôme.",
-          "ton": "neutre",
-          "url": "https://www.lefigaro.fr/actualite-france/diffusion-de-caricatures-propos-racistes-et-salut-nazi-le-patron-de-la-police-saisit-la-justice-dans-une-ecole-de-police-20261122",
-          "citation_cle": "Des échanges inappropriés dans des boucles privées entre des élèves de la 31e promotion.",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Combien d'élèves sont précisément impliqués dans ces échanges ?",
-        "L'encadrement de l'école était-il au courant avant les révélations de presse ?"
-      ],
-      "sources": [
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/salut-nazi-et-racisme-a-l-ecole-des-officiers-le-patron-de-la-police-saisit-la-justice-20261123",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/actualite-france/diffusion-de-caricatures-propos-racistes-et-salut-nazi-le-patron-de-la-police-saisit-la-justice-dans-une-ecole-de-police-20261122",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20261123-france-la-justice-saisie-pour-des-propos-racistes-et-un-salut-nazi-dans-une-%C3%A9cole-de-police",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "premiere_apparition": "2026-11-22"
-    },
-    {
-      "titre": "Déferlante de frappes russes sur Kiev et attaques de navires russes en Libye",
-      "slug": "escalade-frappes-kiev-attaques-navires-libye",
-      "rubrique": "international",
-      "tldr": [
-        "Au moins 14 morts dans la région de Kiev après d'intenses bombardements russes.",
-        "Deux navires, dont un russe, attaqués dans le port de Benghazi en Libye.",
-        "Réunion d'urgence de l'Otan prévue ce lundi pour discuter des répercussions."
-      ],
-      "resume": "L'escalade du conflit russo-ukrainien prend une dimension internationale avec des frappes russes meurtrières sur des zones résidentielles près de Kiev, faisant au moins 14 victimes, dont dix dans l'effondrement d'un immeuble à Dymer. Parallèlement, une corvette russe a été attaquée et incendiée dans le port libyen de Benghazi, une zone sous contrôle de l'homme fort de l'Est, Khalifa Haftar. L'ONU a réclamé une enquête sur cet incident qui pourrait être lié à l'intensification des frappes ukrainiennes à longue portée. L'Otan se réunit ce jour pour évaluer les risques de déstabilisation en Europe et en Méditerranée.",
-      "contexte_historique": "La Russie utilise Benghazi comme hub logistique pour ses opérations en Afrique (ex-groupe Wagner). L'attaque de navires russes hors du théâtre ukrainien rappelle les précédents de sabotage en Mer Noire et souligne l'extension géographique du conflit (RFI, 2024).",
-      "implications": [
-        "Risque de tensions accrues en Libye entre les factions soutenues par Moscou et les puissances occidentales.",
-        "Pression sur les infrastructures énergétiques ukrainiennes à l'approche du plein hiver."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-11-23",
-          "texte": "L'ONU demande une enquête sur les attaques de navires en Libye.",
-          "source": "BFM TV"
         },
         {
           "date": "2026-11-23",
-          "texte": "Bilan de 14 morts confirmé après les frappes russes sur la région de Kiev.",
+          "texte": "Washington place l'entreprise singapourienne intermédiaire sur liste noire.",
           "source": "Le Monde"
         },
         {
-          "date": "2026-11-22",
-          "texte": "Une corvette russe est signalée en feu dans le port de Benghazi.",
-          "source": "France 24 FR"
+          "date": "2026-11-12",
+          "texte": "Démission surprise de Jensen Huang suite aux accusations de fuites d'informations.",
+          "source": "BBC News"
         }
       ],
       "couvertures": [
         {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Suivi en direct des victimes civiles en Ukraine et des tensions maritimes.",
+          "angle": "Analyse du dilemme entre sécurité nationale et domination technologique américaine.",
           "ton": "factuel",
-          "url": "https://www.lemonde.fr/international/live/2026/11/23/en-direct-guerre-en-ukraine-des-frappes-russes-dans-la-region-de-kiev-font-au-moins-14-morts-deux-navires-dont-au-moins-un-russe-attaques-en-lybie_6814183_3210.html",
-          "citation_cle": "Dix personnes ont été tuées dans une frappe russe ayant touché un immeuble résidentiel à Dymer.",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-come-back-spectaculaire-de-jensen-huang-a-la-tete-de-nvidia-sous-la-pression-de-donald-trump-et-des-marches-financiers_6814669_3234.html",
+          "citation_cle": "Ecarté il y a onze jours après la révélation de sa relation extraconjugale avec une femme soupçonnée de transmettre des informations aux services secrets chinois.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -247,10 +52,10 @@
         {
           "source": "BBC News",
           "type": "etranger",
-          "angle": "Focus sur le sauvetage d'un enfant de 7 ans des décombres.",
-          "ton": "engagé",
-          "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Un garçon de 7 ans sorti vivant des décombres des heures après une frappe russe.",
+          "angle": "Focus sur l'influence politique de Donald Trump dans cette décision d'entreprise.",
+          "ton": "critique",
+          "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "Nvidia had come under pressure from President Trump to reappoint Huang.",
           "groupe_media": {
             "nom": "BBC",
             "proprietaire": "État britannique",
@@ -259,28 +64,28 @@
           }
         },
         {
-          "source": "BFM Business",
-          "type": "mainstream",
-          "angle": "Le Monde qui bouge : la revue de presse : Des navires russes attaqués au large de la Lybie - 23/11",
+          "source": "Courrier international",
+          "type": "etranger",
+          "angle": "\"Un triomphe de l’argent sur la morale” : le retour de Jensen Huang à Nvidia ne fait pas l’unanimité",
           "ton": "factuel",
-          "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/le-monde-qui-bouge-la-revue-de-presse-des-navires-russes-attaques-au-large-de-la-lybie-23-11_EN-202611230116.html",
-          "citation_cle": "Ce lundi 23 novembre, réécoutez en podcast le replay du Monde qui bouge : la revue de presse présentée par Mathilde Cham",
+          "url": "https://www.courrierinternational.com/article/comeback-un-triomphe-de-l-argent-sur-la-morale-le-retour-de-jensen-huang-a-nvidia-ne-fait-pas-l-unanimite_289710",
+          "citation_cle": "Si les employés de Nvidia, les marchés financiers, Donald Trump et la Silicon Valley se réjouissent du retour du cofonda",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'Ukraine est-elle directement responsable de l'attaque en Libye via des drones ou des forces spéciales ?",
-        "Quel était le chargement exact du navire russe attaqué à Benghazi ?"
+        "L'étendue réelle des informations sensibles potentiellement transmises à la Chine.",
+        "La réaction à long terme des régulateurs de la sécurité nationale face à ce précédent."
       ],
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/live/2026/11/23/en-direct-guerre-en-ukraine-des-frappes-russes-dans-la-region-de-kiev-font-au-moins-14-morts-deux-navires-dont-au-moins-un-russe-attaques-en-lybie_6814183_3210.html",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-come-back-spectaculaire-de-jensen-huang-a-la-tete-de-nvidia-sous-la-pression-de-donald-trump-et-des-marches-financiers_6814669_3234.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -290,19 +95,186 @@
           }
         },
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/afrique/libye/deux-navires-dont-un-russe-attaques-dans-un-port-de-libye-l-onu-demande-une-enquete_AD-202611230112.html",
-          "type": "mainstream",
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+          "type": "institutionnel",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/moyen-orient/20261123-israel-partis-gadi-eisenkot-benjamin-netanyahu-achevent-discussions-sans-parvenir-accord-likoud-coalition",
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/secteur/high-tech/en-direct-nvidia-jensen-huang-presse-de-reprendre-le-travail-apres-sa-reintegration-surprise-a-la-tete-de-l-entreprise-20261123",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "premiere_apparition": "2026-11-12"
+    },
+    {
+      "titre": "Macron propose une « règle d'or » budgétaire à l'approche de la présidentielle",
+      "slug": "macron-regle-or-constitution-budget",
+      "rubrique": "politique",
+      "tldr": [
+        "Projet d'inscription de l'équilibre budgétaire dans la Constitution.",
+        "Reprise d'une réforme de 2011 initiée sous Nicolas Sarkozy.",
+        "L'opposition dénonce une manœuvre électorale à cinq mois du scrutin."
+      ],
+      "resume": "Emmanuel Macron a surpris la classe politique en proposant d'inscrire une « règle d'or » budgétaire dans la Constitution, visant à limiter le déficit public. Cette initiative ressuscite un projet de loi constitutionnelle de 2011 qui n'avait jamais abouti faute de consensus (franceinfo). Alors que la France fait face à une surveillance accrue de ses comptes par l'UE, le président tente de reprendre l'initiative sur le terrain de la responsabilité financière. Cependant, les oppositions y voient un « affichage politique » tardif et un piège tendu pour diviser la gauche et la droite avant l'élection (Sud-Ouest, Le Monde).",
+      "contexte_historique": "La règle d'or a été introduite par le traité budgétaire européen de 2012 (TSCG). En France, Nicolas Sarkozy avait tenté de la constitutionnaliser en 2011, mais s'était heurté au refus du Sénat alors dominé par la gauche (Archives Assemblée Nationale).",
+      "implications": [
+        "Nécessité de réunir une majorité des 3/5e au Congrès, ce qui semble improbable dans le climat actuel.",
+        "Pression accrue sur les futurs candidats à la présidentielle pour se positionner sur la trajectoire de la dette."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-11-24",
+          "texte": "Emmanuel Macron détaille sa proposition lors de ses échanges avec les maires.",
+          "source": "franceinfo"
+        },
+        {
+          "date": "2026-11-23",
+          "texte": "L'Élysée confirme l'intention d'exhumer la réforme de 2011.",
+          "source": "Le Monde"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "franceinfo",
+          "type": "mainstream",
+          "angle": "Analyse des motivations politiques derrière ce timing électoral.",
+          "ton": "neutre",
+          "url": "https://www.franceinfo.fr/economie/votre-argent/livret-a/depuis-janvier-les-francais-ont-retire-pres-de-10-milliards-d-euros-de-leurs-livrets-a-qui-connait-sa-pire-annee-depuis-2008_8297058.html#xtor=RSS-3-[lestitres]",
+          "citation_cle": "Une sorte de règle d'or budgétaire en faisant adopter une réforme de 2011 qui n'a jamais abouti.",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "Sud-Ouest",
+          "type": "mainstream",
+          "angle": "Regard satirique et politique sur la cohérence du bilan présidentiel.",
+          "ton": "engage",
+          "url": "https://www.sudouest.fr/redaction/le-dessin-du-jour/le-dessin-du-mardi-24-novembre-macron-propose-la-regle-d-or-budgetaire-31629234.php",
+          "citation_cle": "Macron propose la règle d'or budgétaire.",
+          "groupe_media": null
+        },
+        {
+          "source": "La Croix",
+          "type": "mainstream",
+          "angle": "« Règle d’or » budgétaire : Emmanuel Macron mise sur un Congrès pour parfaire son inventaire",
+          "ton": "factuel",
+          "url": "https://www.la-croix.com/politique/regle-d-or-budgetaire-emmanuel-macron-mise-sur-un-congres-pour-parfaire-son-inventaire-20261123",
+          "citation_cle": "Lundi 23 novembre 2026, le président Emmanuel Macron a confirmé qu’il réfléchissait à faire inscrire une « règle d’or » ",
+          "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Si cette règle comportera des clauses d'exception pour les investissements de transition écologique.",
+        "Le soutien réel du Rassemblement National, qui pourrait arbitrer le vote au Congrès."
+      ],
+      "sources": [
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/economie/votre-argent/livret-a/depuis-janvier-les-francais-ont-retire-pres-de-10-milliards-d-euros-de-leurs-livrets-a-qui-connait-sa-pire-annee-depuis-2008_8297058.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/24/inflation-pourquoi-la-hausse-des-cours-de-l-energie-tarde-a-se-repercuter-sur-l-ensemble-des-prix-en-france_6814604_3234.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-11-23"
+    },
+    {
+      "titre": "Colombie : regain de violence narcoterroriste dix ans après les accords de paix",
+      "slug": "colombie-attentat-meta-accord-paix-farc",
+      "rubrique": "international",
+      "tldr": [
+        "Attentat à la voiture piégée contre le siège du gouvernement dans la région du Meta.",
+        "Le président dénonce le narcoterrorisme visant à déstabiliser l'État.",
+        "L'anniversaire des 10 ans de l'accord de paix avec les FARC marqué par une insécurité croissante."
+      ],
+      "resume": "Un attentat à la voiture piégée a frappé Villavicencio, détruisant des bâtiments officiels et faisant plusieurs blessés. Le président Abelardo de la Espriella a immédiatement pointé la responsabilité des groupes narcoterroristes (Al Jazeera, Ouest-France). Cette attaque survient jour pour jour dix ans après la signature de l'accord de paix historique avec les FARC en 2016. Si certains ex-guérilleros ont réussi leur réinsertion, le pays fait face à une prolifération de groupes dissidents et de cartels qui profitent des zones délaissées par l'État pour intensifier le trafic de cocaïne (RFI, La Croix).",
+      "contexte_historique": "L'accord de 2016 a mis fin à 52 ans de conflit armé. Cependant, l'ONU estime que plus de 400 ex-combattants ont été assassinés depuis la signature, illustrant les failles de la mise en œuvre du volet sécuritaire de l'accord (ONU, RFI).",
+      "implications": [
+        "Risque de rupture des négociations en cours avec d'autres groupes armés comme l'ELN.",
+        "Pression migratoire interne accrue suite aux déplacements forcés dans les zones rurales."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-11-24",
+          "texte": "Explosion d'une voiture piégée à Villavicencio.",
+          "source": "Al Jazeera"
+        },
+        {
+          "date": "2026-11-24",
+          "texte": "Célébration amère du 10e anniversaire de l'accord de paix.",
+          "source": "RFI"
+        },
+        {
+          "date": "2016-11-24",
+          "texte": "Signature de l'accord de paix définitif au théâtre Colon de Bogota.",
+          "source": "La Croix"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "RFI",
+          "type": "mainstream",
+          "angle": "Bilan contrasté de la paix, entre espoir de réinsertion et réalité de la violence.",
+          "ton": "factuel",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261124-colombie-dix-ans-apr%C3%A8s-sa-signature-l-accord-de-paix-avec-les-farc-menac%C3%A9",
+          "citation_cle": "Bien au-delà de la fin de la guerre, l'accord est aujourd'hui menacé.",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "Al Jazeera",
+          "type": "etranger",
+          "angle": "Focus sur l'impact immédiat de l'attentat et la réponse sécuritaire du gouvernement.",
+          "ton": "alarmiste",
+          "url": "https://www.aljazeera.com/news/2026/11/24/pennsylvania-reports-ninth-measles-death-in-ongoing-state-outbreak?traffic_source=rss",
+          "citation_cle": "A car bomb exploded in the city of Villavicencio in Colombia’s Meta Department.",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "L'identité exacte du groupe responsable de l'attentat (dissidents des FARC ou Clan del Golfo).",
+        "La capacité du gouvernement actuel à maintenir le dialogue de paix face à la pression de l'opinion publique pour une réponse militaire."
+      ],
+      "sources": [
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261124-colombie-dix-ans-apr%C3%A8s-sa-signature-l-accord-de-paix-avec-les-farc-menac%C3%A9",
           "type": "mainstream",
           "groupe_media": {
             "nom": "France Médias Monde",
@@ -310,55 +282,72 @@
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
+        },
+        {
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/pennsylvania-reports-ninth-measles-death-in-ongoing-state-outbreak?traffic_source=rss",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/international/colombie-a-agua-bonita-le-pari-de-la-paix-des-anciens-guerilleros-des-farc-20261123",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/monde/colombie/colombie-des-batiments-officiels-detruits-dans-lexplosion-dune-voiture-piegee-e999221a-e7bf-11f1-86c1-70195b4d2e52?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "type": "mainstream"
         }
       ],
-      "premiere_apparition": "2026-11-22"
+      "premiere_apparition": "2026-11-24"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Hypothèse de Riemann : vérification en cours",
-      "slug": "hypothese-riemann-annonce-preuve",
-      "rubrique": "science",
-      "resume": "Après l'effervescence initiale suite à l'annonce d'une preuve par Levent Alpöge, la communauté scientifique entre dans une phase de vérification par les pairs. L'utilisation d'outils de vérification formelle comme Lean est mentionnée pour valider les étapes mathématiques.",
+      "titre": "Échec des négociations de la COP31 à Antalya",
+      "slug": "echec-cop31-antalya-fossiles",
+      "rubrique": "international",
+      "resume": "Les pays n'ont pas réussi à s'entendre sur un calendrier de sortie des énergies fossiles, bloqués par les intérêts économiques des pays producteurs. Le sujet passe désormais au second plan médiatique derrière les crises sécuritaires.",
       "chronologie": [
         {
           "date": "2026-11-23",
-          "texte": "Débat sur la méthode de vérification dans les revues spécialisées.",
-          "source": "franceinfo"
-        },
-        {
-          "date": "2026-11-20",
-          "texte": "Publication du PDF revendiquant la preuve de l'Hypothèse de Riemann généralisée.",
-          "source": "HackerNews"
+          "texte": "Fin officielle du sommet sans accord contraignant.",
+          "source": "Courrier international"
         }
       ],
       "couvertures": [
         {
-          "source": "franceinfo",
-          "type": "mainstream",
-          "angle": "Explication sur le délai de deux ans nécessaire pour valider une telle découverte.",
-          "ton": "neutre",
-          "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/quels-sont-les-grands-problemes-mathematiques-que-les-geants-de-l-ia-anthropic-et-openai-disent-avoir-resolu-ces-derniers-mois_8293859.html",
-          "citation_cle": "L'examen d'une méthode ne peut se faire que deux ans après publication."
+          "source": "Courrier international",
+          "type": "etranger",
+          "angle": "Incapacité à s'attaquer aux intérêts politiques dominants.",
+          "ton": "critique",
+          "url": "https://www.courrierinternational.com/article/vu-de-turquie-derriere-l-echec-de-la-cop31-l-incapacite-a-s-attaquer-aux-interets-economiques-et-politiques_289512",
+          "citation_cle": "Certains dirigeants incapables de s'attaquer aux intérêts économiques."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "La preuve résistera-t-elle à l'analyse détaillée des experts internationaux ?"
+        "La date et le lieu d'une éventuelle session de rattrapage intermédiaire."
       ],
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/quels-sont-les-grands-problemes-mathematiques-que-les-geants-de-l-ia-anthropic-et-openai-disent-avoir-resolu-ces-derniers-mois_8293859.html",
-          "type": "mainstream"
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/vu-de-turquie-derriere-l-echec-de-la-cop31-l-incapacite-a-s-attaquer-aux-interets-economiques-et-politiques_289512",
+          "type": "etranger"
         }
       ],
-      "derniere_mise_a_jour": "2026-11-23",
-      "statut": "En attente de validation académique longue (2 ans minimum)."
+      "derniere_mise_a_jour": "2026-11-24",
+      "statut": "Les délégations ont quitté la Turquie, le débat est clos jusqu'au prochain sommet technique."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 494,
+    "nb_articles_analyses": 701,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

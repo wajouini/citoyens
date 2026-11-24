@@ -1,75 +1,101 @@
 {
   "sujet_du_jour": {
-    "titre": "Climat : Échec historique de la COP31 à Antalya",
-    "rubrique": "international",
-    "pourquoi_important": "C'est la première fois qu'une COP se termine sans aucun accord politique global (cover decision), laissant un vide diplomatique total sur la sortie des énergies fossiles.",
+    "titre": "Nvidia : Jensen Huang réintégré après 11 jours de séisme boursier et politique",
+    "rubrique": "tech",
+    "pourquoi_important": "C'est un retour inédit pour le patron de la plus grosse capitalisation mondiale, mêlant espionnage industriel, pressions de Donald Trump et enjeux de sécurité nationale.",
     "faits": [
-      "La conférence s'est achevée le 22 novembre 2026 sans consensus sur l'Antalya Pact .",
-      "L'Union européenne et plusieurs délégations ont rejeté le texte final car il omettait toute mention explicite de la sortie des énergies fossiles (France 24, Ouest-France).",
-      "Le secrétaire exécutif de l'ONU, Simon Stiell, a dû acter l'absence de décision chapeau lors de la plénière de clôture .",
-      "Malgré l'impasse politique, quelques décisions sectorielles techniques ont pu être adoptées in extremis (RFI)."
+      "Le conseil d’administration de Nvidia a réintégré Jensen Huang comme PDG le 23 novembre 2026, annulant sa démission du 12 novembre (SEC.",
+      "Le retrait initial faisait suite à une liaison extraconjugale avec une femme soupçonnée d'espionnage pour la Chine (RFI, Le Monde).",
+      "Le titre Nvidia a bondi de 30 % à l'annonce du retour, illustrant la dépendance des marchés à son fondateur (Mediapart, L'Obs).",
+      "Le conseil affirme avoir reçu des garanties de hauts responsables américains sur l'absence de risque pour la sécurité nationale ."
     ],
-    "contexte": "La COP31, qui s'est tenue en Turquie, restera comme la plus longue de l'histoire mais aussi l'une des plus stériles. La présidence turque a été critiquée pour avoir proposé un texte jugé trop complaisant envers les pays producteurs d'hydrocarbures. Ce blocage intervient dans un climat de tension croissante entre les ambitions climatiques de l'UE et les résistances de pays émergents et pétroliers, alors que l'Éthiopie doit reprendre le flambeau pour la COP32.",
+    "contexte": "En seulement onze jours, Nvidia a traversé une crise de gouvernance majeure. Écarté pour des soupçons de fuites d'informations vers Pékin via une relation intime, Huang revient sous la pression directe de Donald Trump et de figures de la Silicon Valley comme Elon Musk. Ce dénouement souligne la place stratégique de Nvidia dans la guerre froide technologique entre les États-Unis et la Chine.",
     "sources": [
       {
-        "nom": "France 24",
-        "url": "https://www.france24.com/fr/vid%C3%A9o/20261122-cop31-%C3%A0-antalya-la-plus-longue-cop-de-l-histoire-s-ach%C3%A8ve-sur-un-%C3%A9chec",
-        "type": "mainstream",
+        "nom": "SEC (EDGAR)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+        "type": "institutionnel",
         "groupe_media": null
+      },
+      {
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-come-back-spectaculaire-de-jensen-huang-a-la-tete-de-nvidia-sous-la-pression-de-donald-trump-et-des-marches-financiers_6814669_3234.html",
+        "type": "mainstream",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
+      },
+      {
+        "nom": "Mediapart",
+        "url": "https://www.mediapart.fr/journal/international/231126/jensen-huang-de-retour-la-tete-de-nvidia-les-marches-euphoriques",
+        "type": "investigation",
+        "groupe_media": {
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
+          "orientation": "gauche"
+        }
       },
       {
         "nom": "RFI",
-        "url": "https://www.rfi.fr/fr/environnement/20261122-climat-quelles-suites-entrevoir-apr%C3%A8s-l-%C3%A9chec-de-la-cop31-%C3%A0-antalya",
-        "type": "mainstream",
-        "groupe_media": {
-          "nom": "France Médias Monde",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
-        }
+        "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261124-colombie-dix-ans-apr%C3%A8s-sa-signature-l-accord-de-paix-avec-les-farc-menac%C3%A9",
+        "type": "mainstream"
       },
       {
         "nom": "L'Obs",
-        "url": "https://www.nouvelobs.com/monde/20261122.OBS120344/la-presidence-de-la-cop31-sur-le-climat-propose-un-texte-sans-mention-des-energies-fossiles-un-accord-incertain.html",
-        "type": "mainstream",
-        "groupe_media": null
-      },
-      {
-        "nom": "Ouest-France",
-        "url": "https://www.ouest-france.fr/elections/presidentielle/editorial-les-maires-parrains-cles-pour-2027-a7903a6c-e68d-11f1-afa7-9a0bb82a33d1?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+        "url": "https://www.nouvelobs.com/tendances/20261123.OBS120395/palmares-du-fooding-2027-la-meilleure-table-revient-a-paris-apres-huit-ans-d-absence.html",
         "type": "mainstream"
       }
     ],
-    "lien": "https://docs.unfccc.int/documents/10000419"
+    "lien": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx"
   },
   "france": [
     {
-      "titre": "Cyberattaque majeure au CHU de Guadeloupe",
-      "rubrique": "societe",
-      "resume": "Le CHU de Guadeloupe a déclenché le 'plan blanc' suite à une attaque informatique de grande ampleur survenue le 21 novembre. Le système d'information et la téléphonie sont paralysés, forçant le personnel à revenir au papier et au crayon pour assurer la continuité des soins (20 Minutes, Le Monde). L'ANSSI est mobilisée alors que les interventions non-urgentes sont déprogrammées jusqu'au 27 novembre (franceinfo).",
+      "titre": "Macron exhume la « règle d'or » budgétaire de Sarkozy",
+      "rubrique": "politique",
+      "resume": "Emmanuel Macron envisage d'inscrire dans la Constitution un mécanisme d'équilibre des finances publiques, reprenant un projet de 2011 resté inabouti. L'objectif est de rassurer les marchés financiers face au dérapage de la dette, malgré les critiques de l'opposition dénonçant un verrouillage libéral (L'Obs, La Croix, Libération).",
       "sources": [
         {
-          "nom": "franceinfo",
-          "url": "https://la1ere.franceinfo.fr/guadeloupe/cyberattaque-au-chu-de-guadeloupe-plusieurs-jours-de-perturbations-a-prevoir-l-hopital-s-organise-1760535.html",
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/politique/20261122.OBS120348/qu-est-ce-que-la-regle-d-or-budgetaire-que-macron-envisage-d-inscrire-dans-la-constitution.html",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/politique/bilan-macron/regle-dor-budgetaire-pour-verrouiller-les-budgets-emmanuel-macron-pourrait-sappuyer-sur-le-rn",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
           }
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/economie/industrie-la-france-va-se-doter-de-stocks-strategiques-de-minerais-critiques-20261123",
+          "type": "mainstream"
+        },
+        {
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/politique/elections/les-ecolos-pro-glucksmann-fondent-ecologistes-et-democrates-un-nouveau-parti-20261123_MLJLZCW7TFETBE4P665OQHQB5Y/",
+          "type": "mainstream"
         }
       ],
-      "lien": "https://www.tf1info.fr/justice-faits-divers/une-cyberattaque-de-grande-ampleur-touche-le-chu-de-la-guadeloupe-2477494.html"
+      "lien": null
     },
     {
-      "titre": "Macron veut inscrire une 'règle d'or' budgétaire dans la Constitution",
-      "rubrique": "politique",
-      "resume": "Face au dérapage des finances publiques, Emmanuel Macron envisage de convoquer le Congrès en janvier pour graver l'équilibre budgétaire dans la Constitution (Le Monde). Cette mesure, historiquement défendue par la droite et l'extrême droite, placerait le Rassemblement National en position d'arbitre pour l'adoption de ce mécanisme contraignant (L'Obs, BFM Business).",
+      "titre": "Stocks stratégiques : la France sécurise ses métaux critiques",
+      "rubrique": "economie",
+      "resume": "L'Élysée a annoncé la création de stocks de terres rares et métaux prioritaires d'ici 2027 pour réduire la dépendance industrielle, notamment vis-à-vis de la Chine. Le projet, calqué sur les réserves pétrolières, sera piloté par la Caisse des dépôts (RFI, franceinfo, Le Monde).",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/politique/article/2026/11/22/emmanuel-macron-envisage-de-reunir-le-congres-a-versailles-pour-faire-adopter-une-regle-d-or-budgetaire-une-procedure-inedite-a-plus-d-un-titre_6814241_823448.html",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/23/la-france-va-creer-des-stocks-strategiques-de-terres-rares-et-de-metaux-prioritaires-pour-reduire-sa-dependance-a-la-chine-d-ici-a-2027_6814452_3234.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -79,37 +105,54 @@
           }
         },
         {
-          "nom": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/economie-social/finances-publiques/qu-est-ce-que-la-regle-d-or-budgetaire-qu-emmanuel-macron-et-plusieurs-candidats-a-l-election-presidentielle-souhaite-faire-inscrire-dans-la-constitution_AV-202611220292.html",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/economie/industrie/la-france-va-se-doter-de-stocks-strategiques-de-terres-rares-et-metaux-prioritaires-annonce-l-elysee_8296749.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "CMA CGM",
-            "proprietaire": "Rodolphe Saadé",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/monde/20261122.OBS120363/projets-d-assassinat-d-operation-sous-faux-drapeau-missiles-acceleration-des-attaques-russes-en-europe.html",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261124-colombie-dix-ans-apr%C3%A8s-sa-signature-l-accord-de-paix-avec-les-farc-menac%C3%A9",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "François Ruffin se retire de la présidentielle 2027",
-      "rubrique": "politique",
-      "resume": "Le député de la Somme a annoncé renoncer à sa candidature, évoquant une 'impasse' et l'échec de sa tentative de réconciliation de la gauche (BFM TV). En rupture avec LFI, il justifie son retrait par la volonté de ne pas diviser davantage le camp progressiste face au risque d'une victoire du RN (Libération).",
+      "titre": "Plainte de six députés LFI pour menaces de mort",
+      "rubrique": "societe",
+      "resume": "Six élus de la France Insoumise déposent plainte ce mardi après avoir reçu des courriers anonymes contenant des menaces de mort et des croix gammées. Ils dénoncent une inaction des autorités face à la multiplication des intimidations contre l'opposition (Le Monde, Sud-Ouest, franceinfo).",
       "sources": [
         {
-          "nom": "BFM TV",
-          "url": "https://www.bfmtv.com/international/afrique/libye/deux-navires-dont-un-russe-attaques-dans-un-port-de-libye-l-onu-demande-une-enquete_AD-202611230112.html",
-          "type": "mainstream"
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/societe/article/2026/11/24/six-deputes-lfi-portent-plainte-pour-des-menaces-de-mort-anonymes_6814471_3224.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         },
         {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/environnement/climat/cop31-la-france-denonce-un-projet-de-texte-qui-nous-ramenerait-en-arriere-sans-sortie-des-energies-fossiles-20261122_OLT6XUDZDFFKNBW754OHFUAAOU/",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/societe/justice/six-deputes-de-la-france-insoumise-vont-porter-plainte-pour-des-menaces-de-mort-anonymes_8296824.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/faits-divers/mort-de-nahel/mort-de-nahel-le-policier-a-l-origine-du-tir-va-t-il-etre-juge-pour-meurtre-la-cour-d-appel-de-versailles-se-prononce-ce-mardi-31645738.php",
           "type": "mainstream"
         }
       ],
@@ -118,61 +161,87 @@
   ],
   "monde": [
     {
-      "titre": "Répression des médias en Turquie : Istanbul manifeste",
-      "pays": "Turquie",
-      "resume": "Des milliers de personnes ont défilé à Istanbul à l'appel du Nouveau Parti pour dénoncer la mise sous tutelle de Sözcü TV par le gouvernement (Le Monde). Cette mobilisation fait suite à une descente de police au siège du groupe de presse d'opposition, illustrant un durcissement du pouvoir contre la liberté de la presse (franceinfo, France 24).",
+      "titre": "L'Ukraine frappe des navires russes en Libye",
+      "pays": "Libye",
+      "resume": "Volodymyr Zelensky a revendiqué une attaque de drones navals contre une corvette et un cargo russes au large de Benghazi. Cette opération marque une extension géographique inédite du conflit, visant la logistique russe en Méditerranée (Le Monde, France 24, Le Figaro).",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/live/2026/11/23/en-direct-guerre-en-ukraine-des-frappes-russes-dans-la-region-de-kiev-font-au-moins-14-morts-deux-navires-dont-au-moins-un-russe-attaques-en-lybie_6814183_3210.html",
-          "type": "mainstream"
+          "url": "https://www.lemonde.fr/afrique/article/2026/11/23/deux-navires-russes-attaques-dans-les-eaux-libyennes-une-extension-inedite-de-la-guerre-russo-ukrainienne_6814397_3212.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         },
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-des-frappes-russes-font-au-moins-14-morts-dans-la-region-de-kiev_8295389.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream"
-        },
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/moyen-orient/20261123-israel-partis-gadi-eisenkot-benjamin-netanyahu-achevent-discussions-sans-parvenir-accord-likoud-coalition",
-          "type": "mainstream"
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/europe/20261123-navires-russes-cibl%C3%A9s-libye-face-moscou-ukraine-%C3%A9tend-domaine-lutte",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
       "lien": null
     },
     {
-      "titre": "Majorité démocrate historique aux États-Unis",
-      "pays": "États-Unis",
-      "resume": "Les Démocrates ont remporté leur plus large majorité à la Chambre des représentants depuis 1992, atteignant 258 sièges après avoir fait basculer une circonscription en Caroline du Nord (BBC News). Ce résultat offre une marge de manœuvre inédite au parti face à des Républicains qui stagnent à 173 sièges (Al Jazeera).",
+      "titre": "L'UE propose d'interdire les sportifs russes sur son sol",
+      "pays": "Russie / UE",
+      "resume": "Dans son 22e paquet de sanctions, la Commission européenne envisage d'interdire aux athlètes russes toute participation à des compétitions dans l'Union. La mesure vise également à freiner les financements en cryptomonnaies du Kremlin (Al Jazeera, L'Humanité).",
       "sources": [
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-          "type": "etranger"
+          "nom": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Al Jazeera Media Network",
+            "proprietaire": "État du Qatar",
+            "type_proprietaire": "etat",
+            "orientation": "variable"
+          }
         },
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss",
-          "type": "etranger"
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/monde/bielorussie/la-commission-europeenne-veut-interdire-aux-sportifs-russes-de-participer-aux-competitions-dans-lue",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Rassemblements antagonistes à Angers",
-    "rubrique": "societe",
-    "contexte": "Le 22 novembre, un rassemblement d'ultradroite contre le 'racisme anti-blancs' et une contre-manifestation antifasciste se sont tenus à Angers malgré une interdiction préfectorale.",
+    "sujet": "Le retour de Jensen Huang chez Nvidia",
+    "rubrique": "tech",
+    "contexte": "Après une démission forcée par un scandale d'adultère et de soupçons d'espionnage chinois, Jensen Huang est réintégré à la tête de Nvidia en 11 jours.",
     "couvertures": [
       {
-        "source": "Le Monde",
+        "source": "Le Figaro",
         "type": "mainstream",
-        "angle": "Focalisation sur la confrontation de rue et le profil identitaire des militants.",
+        "angle": "Récit des coulisses et de l'influence déterminante de Washington.",
         "ton": "factuel",
-        "url": "https://www.lemonde.fr/politique/article/2026/11/22/a-angers-militants-identitaires-et-antifascistes-se-toisent-en-marge-d-un-rassemblement-interdit-contre-le-racisme-anti-blancs_6814249_823448.html",
-        "citation_cle": "Militants identitaires et antifascistes se toisent en marge d’un rassemblement interdit.",
+        "url": "https://www.lefigaro.fr/secteur/high-tech/j-ai-hate-de-me-remettre-au-travail-les-coulisses-de-l-invraisemblable-retour-de-jensen-huang-chez-nvidia-20261123",
+        "citation_cle": "Une décision marquée par l’influence de Washington et dictée par des motifs économiques.",
         "auteur": null,
-        "proprietaire_contexte": "Groupe Le Monde (Niel, Kretinsky, Pigasse)",
+        "proprietaire_contexte": "Groupe Dassault",
+        "orientation_source": "Droite",
+        "groupe_media": null
+      },
+      {
+        "source": "Courrier international",
+        "type": "etranger",
+        "angle": "Synthèse des critiques internationales sur le manque d'éthique de la décision.",
+        "ton": "critique",
+        "url": "https://www.courrierinternational.com/article/comeback-un-triomphe-de-l-argent-sur-la-morale-le-retour-de-jensen-huang-a-nvidia-ne-fait-pas-l-unanimite_289710",
+        "citation_cle": "Un triomphe de l’argent sur la morale.",
+        "auteur": null,
+        "proprietaire_contexte": "Groupe Le Monde",
         "orientation_source": "Centre-droit",
         "groupe_media": {
           "nom": "Groupe Le Monde",
@@ -180,176 +249,130 @@
           "type_proprietaire": "milliardaire",
           "orientation": "centre-droit"
         }
-      },
-      {
-        "source": "L'Humanité",
-        "type": "mainstream",
-        "angle": "Dénonciation de la tenue effective d'un rassemblement néofasciste malgré l'interdiction.",
-        "ton": "engage",
-        "url": "https://www.humanite.fr/politique/angers/manifestation-contre-le-racisme-anti-blancs-a-angers-en-depit-de-linterdiction-les-neofascistes-deroulent-leur-haine",
-        "citation_cle": "En dépit de l’interdiction, les néofascistes déversent leur haine.",
-        "auteur": "Lionel Venturini",
-        "proprietaire_contexte": "Coopérative de lecteurs et salariés",
-        "orientation_source": "Gauche",
-        "groupe_media": {
-          "nom": "L'Humanité",
-          "proprietaire": "Société des lecteurs et salariés",
-          "type_proprietaire": "cooperative",
-          "orientation": "gauche"
-        }
       }
     ],
-    "analyse_coherence": "Le traitement médiatique de cet événement révèle une divergence sémantique profonde qui reflète les clivages politiques français. 'Le Monde' adopte une posture de neutralité apparente en utilisant le terme de 'militants identitaires' et en renvoyant dos à dos les deux camps ('se toisent'), ce qui tend à normaliser le motif de la manifestation initiale. À l'inverse, 'L'Humanité' utilise un vocabulaire de combat ('néofascistes', 'haine'), soulignant que l'interdiction préfectorale a été bafouée par l'extrême droite. Le double standard réside ici dans la qualification du motif : alors que la notion de 'racisme anti-blancs' est un concept sociologiquement contesté et politiquement marqué à l'extrême droite, les médias d'agence et 'Le Monde' le rapportent sans toujours en souligner la charge idéologique, là où 'L'Humanité' y voit l'essence même d'une provocation fasciste. Cette différence de ton illustre la difficulté des médias 'mainstream' à nommer l'extrême droite radicale sans tomber dans une forme de fausse équivalence entre activistes identitaires et contre-manifestants antifascistes.",
+    "analyse_coherence": "La couverture du retour de Jensen Huang révèle une fracture nette entre la realpolitik économique et les standards éthiques de gouvernance. Alors que les médias mainstream (Le Figaro, France 24) se concentrent sur l'aspect spectaculaire du 'come-back' et l'intervention de Donald Trump, la presse d'investigation et internationale (Mediapart, Courrier International) pointe du doigt un double standard flagrant. Si un dirigeant de moindre importance avait été soupçonné de relations avec une espionne étrangère, sa carrière serait définitivement brisée. Ici, l'importance systémique de Nvidia pour l'économie américaine et la course à l'IA semble avoir suspendu les principes de précaution et de moralité. Les sources divergent peu sur les faits, mais radicalement sur leur interprétation : là où les marchés voient une 'rassurance', les critiques y voient la capitulation de l'éthique devant le profit. Le rôle de Donald Trump, revendiquant avoir poussé pour ce retour, souligne une porosité croissante entre les intérêts privés des géants de la tech et le pouvoir politique, au détriment des procédures de sécurité nationale classiques.",
     "biais_detectes": [
-      "Both-sidesism (Le Monde)",
-      "Engagement sémantique (L'Humanité)"
+      "Complaisance envers les 'Too big to fail'",
+      "Priorisation du profit sur la sécurité nationale",
+      "Héroïsation du dirigeant providentiel"
     ],
-    "ce_quil_faut_retenir": "Une manifestation interdite de l'ultradroite a pu se tenir statiquement, illustrant la difficulté de l'État à faire respecter ses interdictions face à des groupes radicaux organisés."
+    "ce_quil_faut_retenir": "Le retour de Huang prouve que dans la tech mondiale, la puissance de marché peut neutraliser des scandales d'État."
   },
-  "regard_etranger": [
-    {
-      "source": "Al Jazeera",
-      "pays": "Qatar",
-      "titre": "Les bourses asiatiques chutent face à la bulle de l'IA",
-      "titre_original": "Asian stock markets tumble as AI bubble fears mount",
-      "angle": "Analyse de la fragilité des marchés technologiques mondiaux face à la dette.",
-      "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount",
-      "groupe_media": {
-        "nom": "Al Jazeera Media Network",
-        "proprietaire": "État du Qatar",
-        "type_proprietaire": "etat",
-        "orientation": "variable"
-      }
-    },
-    {
-      "source": "NYT World",
-      "pays": "États-Unis",
-      "titre": "Qui est le baron de la drogue El Chapo Isidro ?",
-      "titre_original": "Who Is the Mexican Drug Kingpin Known as El Chapo Isidro?",
-      "angle": "Regard sur la coopération sécuritaire Mexique-USA après une arrestation sanglante.",
-      "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-drug-kingpin.html",
-      "groupe_media": {
-        "nom": "The New York Times Company",
-        "proprietaire": "Famille Ochs-Sulzberger",
-        "type_proprietaire": "famille",
-        "orientation": "centre"
-      }
-    }
-  ],
+  "regard_etranger": [],
   "chiffre_du_jour": {
-    "valeur": "14,9 milliards d'euros",
-    "contexte": "Montant des 81 projets d'investissements étrangers inédits annoncés lors du sommet Choose France.",
-    "source": "Élysée / BFM Business",
-    "source_url": "https://www.bfmtv.com/economie/plus-de-273-projets-industriels-dans-22-regions-a-la-veille-du-sommet-choose-france-l-elysee-annonce-pres-de-15-milliards-d-euros-d-investissements-nouveaux_AD-202611220368.html"
+    "valeur": "44 milliards $",
+    "contexte": "Le montant historique du rachat de Zscaler par CrowdStrike, marquant une consolidation sans précédent dans le secteur de la cybersécurité.",
+    "source": "TechCrunch",
+    "source_url": "https://techcrunch.com"
   },
   "a_surveiller": [
     {
-      "date": "2026-11-23",
-      "evenement": "Ouverture du sommet Choose France à Versailles",
-      "type": "conference",
-      "lien": null
-    },
-    {
-      "date": "2026-11-27",
-      "evenement": "Fin prévue de la déprogrammation des soins au CHU de Guadeloupe",
-      "type": "echeance",
-      "lien": null
+      "date": "2026-11-24",
+      "evenement": "Décision de la cour d'appel de Versailles sur le renvoi pour meurtre du policier ayant tué Nahel",
+      "type": "justice_sociale",
+      "lien": "https://www.sudouest.fr/faits-divers/mort-de-nahel/mort-de-nahel-le-policier-a-l-origine-du-tir-va-t-il-etre-juge-pour-meurtre-la-cour-d-appel-de-versailles-se-prononce-ce-mardi-31645738.php"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Enquête 'Inside Deutsche Bank' : 15 millions de documents fuités",
-      "rubrique": "economie",
-      "resume": "Un consortium de 60 médias révèle que la Deutsche Bank a maintenu des pratiques de conformité défaillantes malgré ses promesses de réforme. Les documents montrent une culture du profit persistant au détriment de la lutte contre le blanchiment (Mediapart, Les Décodeurs).",
-      "sources": [
-        {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/international/221126/l-enquete-inside-deutsche-bank-demontre-les-mauvaises-pratiques-persistantes-de-l-institution-allem",
-          "type": "investigation"
-        },
-        {
-          "nom": "Les Décodeurs",
-          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/20/inside-deutsche-bank-le-gouvernement-allemand-reclame-de-la-transparence-sur-les-revelations-de-l-enquete-journalistique_6813660_4355770.html",
-          "type": "fact-check"
-        }
-      ],
-      "pourquoi_signal": "Cette fuite massive, bien que minimisée par la banque comme traitant de 'faits anciens', révèle l'incapacité systémique des régulateurs à transformer les géants bancaires."
-    },
-    {
-      "titre": "Le 'Décret Baptiste' et le tri racial à l'université",
-      "rubrique": "societe",
-      "resume": "Le décret n°2026-385 durcit les frais d'inscription pour les étudiants extra-européens, multipliant les coûts par 16. Les universités perdent leur pouvoir d'exonération, touchant principalement les étudiants issus des anciennes colonies françaises (Blast).",
+      "titre": "Marseille : un câble sous-marin vers Israël sous tension",
+      "rubrique": "international",
+      "resume": "À Marseille, les travaux d'atterrage du câble 'EMC West' reliant la France à Ashkelon (Israël) font l'objet d'une contestation locale. Des militants dénoncent une collaboration technologique en plein conflit à Gaza, alors que le navire câblier Île d’Yeu opère sous haute surveillance préfectorale (Blast, Préfecture maritime).",
       "sources": [
         {
           "nom": "Blast",
-          "url": "https://www.blast-info.fr/articles/2026/universite-avec-la-hausse-des-frais-d-inscription-le-tri-social-et-racial-eEq4IUKSQu2pZ_M27DERwQ",
+          "url": "https://www.blast-info.fr/articles/2026/a-marseille-un-cable-sous-marin-vers-israel-conteste-au-nom-de-la-solidarite-avec-la-palestine-UMdxrr5WRCaUjG-8UjKhIw",
           "type": "investigation"
+        },
+        {
+          "nom": "Préfecture maritime",
+          "url": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/fd9abe7fdf1e4efc9d5111f1d004fe43.pdf",
+          "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "Ce sujet est largement ignoré par les médias mainstream qui se focalisent sur le budget global sans analyser l'impact colonial et social de cette barrière financière."
+      "pourquoi_signal": "Ce sujet illustre comment les infrastructures physiques d'Internet deviennent des terrains de lutte géopolitique locale, souvent ignorés par les médias nationaux."
+    },
+    {
+      "titre": "Le business opaque des grenades lacrymogènes à Toulouse",
+      "rubrique": "economie",
+      "resume": "L'entreprise Étienne Lacroix, via sa filiale Alsetex, engrange des bénéfices records grâce aux marchés publics de 'maintien de l’ordre'. L'enquête révèle un secret industriel bien gardé sur la fabrication de ces armes intermédiaires (Médiacités, BOAMP).",
+      "sources": [
+        {
+          "nom": "Médiacités",
+          "url": "https://www.mediacites.fr/economie/toulouse/2026/11/23/grenades-lacrymo-et-lance-grenades-le-juteux-et-discret-business-dune-entreprise-toulousaine/",
+          "type": "investigation"
+        },
+        {
+          "nom": "BOAMP",
+          "url": "https://www.boamp.fr/telechargements/FILES/PDF/2026/05/26-52002.pdf",
+          "type": "institutionnel"
+        }
+      ],
+      "pourquoi_signal": "Il pointe la dépendance de l'État envers des fournisseurs privés pour ses outils de répression, un sujet rarement traité sous l'angle financier."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Gaza : 99% du territoire contaminé durablement",
+      "titre": "Cisjordanie : les secouristes palestiniens pris pour cible",
       "rubrique": "international",
-      "resume": "Un rapport d'Oxfam et du CEOBS révèle une contamination quasi-totale de la bande de Gaza par des métaux lourds, des résidus explosifs et de l'amiante, rendant la zone potentiellement invivable pour des générations.",
+      "resume": "L'ONG Physicians for Human Rights–Israel documente une hausse de 350 % des attaques contre les ambulances et secouristes palestiniens en quatre ans. Ces entraves systématiques par l'armée et les colons constituent une violation grave du droit international humanitaire.",
       "axes_concernes": [
         "droit_international",
-        "justice_sociale",
-        "ecologie_sociale"
+        "droits_humains"
       ],
-      "analyse": "Cette alerte souligne le concept d'écocide de guerre. Au-delà du bilan humain immédiat, la destruction systématique des infrastructures sanitaires et environnementales constitue une violation flagrante du droit international. Le silence relatif des institutions sur cette 'bombe à retardement' sanitaire est une forme de double standard face aux crimes environnementaux commis dans d'autres conflits.",
+      "analyse": "Cette situation est alarmante car elle dénote une érosion totale des protections accordées aux personnels de santé en zone de conflit. L'impunité des attaques documentées par une ONG israélienne elle-même souligne l'urgence d'une intervention internationale pour faire respecter les conventions de Genève.",
       "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
-          "type": "etranger"
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/international/231126/en-cisjordanie-soldats-et-colons-ciblent-les-secouristes-palestiniens",
+          "type": "investigation"
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/moyen-orient/20261123-99-du-territoire-de-gaza-contamin%C3%A9-par-la-guerre-selon-un-rapport-d-oxfam",
-          "type": "mainstream"
+          "nom": "PHRI",
+          "url": null,
+          "type": "institutionnel"
         }
       ]
     },
     {
-      "titre": "Terrorisme juif en Cisjordanie occupée",
+      "titre": "Gaza : un territoire contaminé à 99 %",
       "rubrique": "international",
-      "resume": "Des colons israéliens ont mené des raids violents contre des villages palestiniens, incendiant des maisons et des véhicules. Des leaders politiques israéliens d'opposition qualifient désormais ces actes de 'terrorisme juif'.",
+      "resume": "Un rapport d'Oxfam et du CEOBS affirme que la quasi-totalité de la bande de Gaza est devenue une 'zone toxique'. La destruction des infrastructures et l'usage massif d'explosifs ont pollué les sols et l'eau pour des décennies.",
       "axes_concernes": [
-        "colonialisme",
-        "droit_international",
+        "ecologie_sociale",
         "droits_humains"
       ],
-      "analyse": "Il est crucial de nommer ces actes pour ce qu'ils sont : du terrorisme. L'application de ce terme, souvent réservé aux agressions palestiniennes dans les médias occidentaux, doit être universelle. L'impunité dont bénéficient souvent les colons sous le gouvernement actuel souligne une rupture majeure avec le droit international et les résolutions de l'ONU.",
+      "analyse": "Il s'agit d'un écocide aux conséquences sanitaires incalculables. Cette contamination toxique rendra le territoire inhabitable bien après la fin des combats, posant la question de la responsabilité d'Israël dans la destruction durable des conditions de vie d'une population civile.",
       "sources": [
         {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/11/22/world/middleeast/israeli-political-leaders-decry-jewish-terrorism-after-west-bank-attacks.html",
-          "type": "etranger"
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/international/gaza-un-territoire-contamine-a-plus-de-99-apres-trois-ans-de-guerre-selon-oxfam-20261123",
+          "type": "mainstream"
         },
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank",
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o",
           "type": "etranger"
         }
       ]
     }
   ],
-  "date": "2026-11-23",
-  "genere_a": "2026-11-23T05:34:32.369Z",
+  "date": "2026-11-24",
+  "genere_a": "2026-11-24T05:35:35.573Z",
   "meta": {
-    "nb_articles_analyses": 494,
-    "nb_topics": 153,
-    "nb_topics_selectionnes": 15,
-    "nb_articles_dans_selection": 37,
-    "sources_francaises": 353,
-    "sources_etrangeres": 141,
+    "nb_articles_analyses": 701,
+    "nb_topics": 211,
+    "nb_topics_selectionnes": 16,
+    "nb_articles_dans_selection": 58,
+    "sources_francaises": 479,
+    "sources_etrangeres": 222,
     "rubriques_couvertes": [
-      "international",
+      "tech",
+      "politique",
+      "economie",
       "societe",
-      "politique"
+      "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
     "version_pipeline": "4.1.0-gpt-search"

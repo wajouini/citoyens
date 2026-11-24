@@ -1,22 +1,69 @@
 {
-  "date": "2026-11-23",
-  "genere_a": "2026-11-23T05:34:47.822Z",
+  "date": "2026-11-24",
+  "genere_a": "2026-11-24T05:35:55.344Z",
   "faits_ia": [
     {
-      "titre": "Chute des bourses asiatiques : la bulle de l'IA suscite l'inquiétude",
+      "titre": "Jensen Huang réintégré à la tête de Nvidia après un scandale d'espionnage",
       "sous_section": "business",
-      "resume": "Les marchés financiers en Corée du Sud, en Chine et à Hong Kong subissent des baisses significatives, portées par un désengagement massif du secteur technologique. Les investisseurs expriment des doutes croissants sur la rentabilité réelle des investissements colossaux en IA et l'endettement croissant des entreprises du secteur.",
-      "pourquoi_ca_compte": "Une correction boursière majeure pourrait freiner les investissements dans les infrastructures technologiques et impacter l'épargne mondiale ainsi que le financement des startups.",
+      "resume": "Dix jours après sa démission fracassante, Jensen Huang retrouve son poste de PDG de Nvidia. Son départ initial faisait suite à une liaison extraconjugale avec une cadre de l'entreprise singapourienne Megaspeed, soupçonnée d'espionnage pour la Chine. Le conseil d'administration a voté son retour à l'unanimité, invoquant la nécessité de stabiliser le leader mondial des puces IA.",
+      "pourquoi_ca_compte": "Ce retour souligne l'influence politique sur la tech : Donald Trump aurait directement fait pression pour cette réintégration, privilégiant la domination économique américaine sur les enjeux de gouvernance éthique.",
       "sources": [
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/economie/les-bourses-d-asie-continuent-de-chuter-face-aux-inquietudes-sur-l-ia-seoul-en-tete-20261123",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-come-back-spectaculaire-de-jensen-huang-a-la-tete-de-nvidia-sous-la-pression-de-donald-trump-et-des-marches-financiers_6814669_3234.html",
           "type": "mainstream",
-          "groupe_media": null
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
         },
         {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20261123-jensen-huang-de-retour-%C3%A0-la-t%C3%AAte-de-nvidia-dans-un-volte-face-inattendu",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/international/231126/jensen-huang-de-retour-la-tete-de-nvidia-les-marches-euphoriques",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Mediapart",
+            "proprietaire": "Fonds pour une presse libre",
+            "type_proprietaire": "fondation",
+            "orientation": "gauche"
+          }
+        },
+        {
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.lemonde.fr/economie/article/2026/11/24/le-come-back-spectaculaire-de-jensen-huang-a-la-tete-de-nvidia-sous-la-pression-de-donald-trump-et-des-marches-financiers_6814669_3234.html"
+    },
+    {
+      "titre": "L'ONU appelle à un cadre mondial de gestion des risques de l'IA d'ici un an",
+      "sous_section": "regulation",
+      "resume": "Le Secrétaire général de l'ONU, Antonio Guterres, exhorte la communauté internationale à s'accorder sur un mécanisme de surveillance de l'IA d'ici 2027. Il plaide pour des mesures de sécurité communes afin de limiter les risques existentiels et les dérives autoritaires liées à ces technologies.",
+      "pourquoi_ca_compte": "Face à une course aux armements technologiques, l'ONU tente de reprendre la main pour garantir que l'IA ne creuse pas davantage les inégalités mondiales et respecte les droits humains.",
+      "sources": [
+        {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount?traffic_source=rss",
+          "url": "https://www.aljazeera.com/news/2026/11/24/un-chief-calls-for-world-to-agree-on-ai-oversight-within-a-year",
           "type": "etranger",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
@@ -24,70 +71,103 @@
             "type_proprietaire": "etat",
             "orientation": "variable"
           }
-        }
-      ],
-      "lien": "https://www.lefigaro.fr/economie/les-bourses-d-asie-continuent-de-chuter-face-aux-inquietudes-sur-l-ia-seoul-en-tete-20261123"
-    },
-    {
-      "titre": "Démission du ministre sud-coréen de l'Éducation après un scandale de triche",
-      "sous_section": "societe",
-      "resume": "Choi Kyo-jin a démissionné après la découverte d'une fraude massive assistée par IA lors des examens d'entrée à l'université. Le ministre a admis avoir échoué à anticiper et à sécuriser les épreuves face aux nouvelles capacités technologiques des étudiants.",
-      "pourquoi_ca_compte": "Cela pose la question de l'intégrité des diplômes et de la nécessité de repenser totalement les méthodes d'évaluation académique à l'ère de l'IA générative.",
-      "sources": [
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
         },
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
-          "type": "etranger",
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/%C3%A9co-tech/20261123-intelligence-artificielle-chef-onu-guterres-espere-voir-d-ici-un-an-mecanisme-pour-limiter-risques-ia",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         }
       ],
-      "lien": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams"
+      "lien": "https://www.france24.com/fr/%C3%A9co-tech/20261123-intelligence-artificielle-chef-onu-guterres-espere-voir-d-ici-un-an-mecanisme-pour-limiter-risques-ia"
     },
     {
-      "titre": "Google déréférence les sites d'actualités saturés de contenus IA",
-      "sous_section": "regulation",
-      "resume": "Google a procédé à une suppression massive de plusieurs sites d'actualité de ses résultats de recherche, dont Marie France et des sections de Ouest-France. Cette mesure vise les plateformes utilisant l'IA pour produire du contenu à faible valeur ajoutée ou trompeur afin de manipuler le référencement.",
-      "pourquoi_ca_compte": "Cette décision illustre le pouvoir arbitraire des plateformes sur la visibilité de l'information et la lutte contre la pollution du web par des contenus automatisés.",
-      "sources": [
-        {
-          "nom": "CheckNews",
-          "url": "https://www.liberation.fr/checknews/contenus-ia-google-supprime-de-son-moteur-de-recherche-plusieurs-sites-dactu-dont-marie-france-20261120_DBIDSLMBOZHRZBZV4YCAZWWKGI/",
-          "type": "fact-check",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.liberation.fr/checknews/contenus-ia-google-supprime-de-son-moteur-de-recherche-plusieurs-sites-dactu-dont-marie-france-20261120_DBIDSLMBOZHRZBZV4YCAZWWKGI/"
-    },
-    {
-      "titre": "Anthropic prépare son entrée en bourse (IPO)",
-      "sous_section": "business",
-      "resume": "Anthropic, principal concurrent d'OpenAI, prépare son introduction en bourse. Cette annonce intervient dans un contexte de forte volatilité des valeurs technologiques et marque une étape clé pour la commercialisation des modèles Claude.",
-      "pourquoi_ca_compte": "L'IPO d'un géant de l'IA définit la valorisation réelle du secteur et influence les futures régulations boursières spécifiques à la tech.",
+      "titre": "L'IA s'attaque aux plus grandes énigmes mathématiques (Riemann, P vs NP)",
+      "sous_section": "recherche",
+      "resume": "Après l'annonce par un chercheur d'Anthropic d'une démonstration de l'hypothèse de Riemann assistée par le modèle Claude, la communauté scientifique s'interroge sur l'utilité des preuves générées par IA. Les regards se tournent désormais vers le problème 'P vs NP', un autre pilier de l'informatique théorique.",
+      "pourquoi_ca_compte": "Si l'IA résout ces conjectures, elle pourrait révolutionner la cryptographie et la sécurité informatique mondiale, rendant obsolètes les systèmes de protection actuels.",
       "sources": [
         {
           "nom": "Numerama",
-          "url": "https://www.numerama.com/pop-culture/2380403-piratage-de-gta-6-ipo-danthropic-et-face-unlock-sur-iphone-duo-le-recap-tech-de-la-semaine.html",
+          "url": "https://www.numerama.com/tech/2382757-les-regards-se-tournent-vers-p-vs-np-apres-riemann-lia-sattaque-a-une-autre-enigme-a-un-million-de-dollars.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Next",
+          "url": "https://next.ink/269118/hypothese-de-riemann-une-preuve-generee-par-ia-est-elle-utile-aux-mathematiciens/",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Next (ex-Next INpact)",
+            "proprietaire": "Équipe fondatrice",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.numerama.com/tech/2382757-les-regards-se-tournent-vers-p-vs-np-apres-riemann-lia-sattaque-a-une-autre-enigme-a-un-million-de-dollars.html"
+    },
+    {
+      "titre": "SpaceX poursuivi en justice pour les deepfakes pédopornographiques de Grok",
+      "sous_section": "regulation",
+      "resume": "Les procureurs généraux de l'Oregon et de la Virginie poursuivent SpaceX et les entreprises d'Elon Musk. Ils accusent l'IA Grok de permettre la génération d'images à caractère sexuel impliquant des mineurs (CSAM) et du 'revenge porn', malgré les filtres de sécurité revendiqués par X.",
+      "pourquoi_ca_compte": "Ce procès pose la question de la responsabilité pénale des développeurs d'IA face aux contenus illégaux générés par leurs outils, un enjeu majeur pour la protection de l'enfance.",
+      "sources": [
+        {
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/"
+    },
+    {
+      "titre": "Anthropic lance Claude Ship pour automatiser la validation de code",
+      "sous_section": "annonces",
+      "resume": "Anthropic déploie Claude Ship, un outil capable de relire, corriger et approuver des modifications de code informatique de manière autonome. L'objectif est de supprimer le goulot d'étranglement de la revue humaine dans le développement logiciel.",
+      "pourquoi_ca_compte": "Cette automatisation pourrait accélérer la production de logiciels mais soulève des inquiétudes sur la perte de contrôle humain et la responsabilité en cas de bugs critiques introduits par l'IA.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/tech/2382945-anthropic-lance-claude-ship-un-outil-qui-veut-valider-votre-code-a-la-place-de-vos-collegues.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Humanoid",
@@ -97,124 +177,37 @@
           }
         }
       ],
-      "lien": "https://www.numerama.com/pop-culture/2380403-piratage-de-gta-6-ipo-danthropic-et-face-unlock-sur-iphone-duo-le-recap-tech-de-la-semaine.html"
+      "lien": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
     },
     {
-      "titre": "L'IA au cœur de la rivalité nucléaire sino-américaine",
-      "sous_section": "recherche",
-      "resume": "Des chercheurs militaires chinois s'inquiètent du fait que l'IA pourrait donner un avantage décisif aux États-Unis, rendant les forces nucléaires chinoises plus vulnérables. Parallèlement, des agences d'espionnage chinoises auraient mené des campagnes pour acquérir des puces IA avancées malgré les sanctions.",
-      "pourquoi_ca_compte": "L'intégration de l'IA dans les systèmes de défense stratégique augmente les risques d'escalade involontaire et redéfinit la géopolitique mondiale.",
-      "sources": [
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/11/23/world/asia/china-us-nuclear-ai.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "NYT World",
-          "url": "https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The New York Times Company",
-            "proprietaire": "Famille Ochs-Sulzberger",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://www.nytimes.com/2026/11/23/world/asia/china-us-nuclear-ai.html"
-    },
-    {
-      "titre": "Manifestations violentes contre Meta en Inde",
-      "sous_section": "societe",
-      "resume": "Des membres du parti d'opposition Congress ont pris d'assaut les bureaux de Meta à Delhi pour protester contre la suppression de comptes politiques. Des affrontements avec la police ont eu lieu, les manifestants accusant la plateforme de censure partisane.",
-      "pourquoi_ca_compte": "Le contrôle des algorithmes sur le discours politique est un enjeu démocratique majeur, particulièrement dans les pays où les réseaux sociaux sont le principal canal d'information.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/22/india-congress-meta-protests-police-hyderabad",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india"
-    },
-    {
-      "titre": "Régulation de l'Arcom : les créateurs web sous surveillance",
-      "sous_section": "regulation",
-      "resume": "L'Arcom s'apprête à imposer des obligations de pluralisme à une sélection de vidéastes et médias en ligne (Legend, Blast. Seule une dizaine d'acteurs dépassant certains seuils d'audience seraient concernés par ces nouvelles contraintes.",
-      "pourquoi_ca_compte": "C'est une étape historique dans l'alignement des règles du web sur celles de l'audiovisuel classique, impactant la liberté éditoriale des nouveaux médias.",
-      "sources": [
-        {
-          "nom": "CheckNews",
-          "url": "https://www.liberation.fr/checknews/legend-hugodecrypte-ou-blast-quels-createurs-de-contenus-et-medias-en-ligne-sont-vraiment-concernes-par-la-regulation-de-larcom-20261121_DVECUULTW5BTNH232B2IBVLBT4/",
-          "type": "fact-check",
-          "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "nom": "Blast",
-          "url": "https://www.blast-info.fr/articles/2026/universite-avec-la-hausse-des-frais-d-inscription-le-tri-social-et-racial-eEq4IUKSQu2pZ_M27DERwQ",
-          "type": "investigation"
-        }
-      ],
-      "lien": "https://www.liberation.fr/checknews/legend-hugodecrypte-ou-blast-quels-createurs-de-contenus-et-medias-en-ligne-sont-vraiment-concernes-par-la-regulation-de-larcom-20261121_DVECUULTW5BTNH232B2IBVLBT4/"
-    },
-    {
-      "titre": "Pannes technologiques majeures : une tendance durable ?",
-      "sous_section": "annonces",
-      "resume": "Après une série de pannes touchant la FAA, Outlook et JPMorgan Chase, les experts avertissent que la complexité croissante des infrastructures cloud et IA rend ces interruptions plus probables. La centralisation des services est pointée du doigt.",
-      "pourquoi_ca_compte": "La dépendance totale des services publics et financiers à quelques fournisseurs tech crée une vulnérabilité systémique pour les citoyens.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ],
-      "lien": "https://www.theverge.com/tech/1039851/major-tech-outages"
-    },
-    {
-      "titre": "Trump et le mélange des genres : galas pour sa cryptomonnaie",
+      "titre": "CrowdStrike rachète Zscaler pour 44 milliards de dollars",
       "sous_section": "business",
-      "resume": "Donald Trump a organisé son troisième gala privé pour les détenteurs de son 'meme coin' $Trump. Les démocrates dénoncent un conflit d'intérêts majeur alors que le président élu continue de promouvoir ses actifs numériques personnels.",
-      "pourquoi_ca_compte": "L'usage de la fonction politique pour valoriser des actifs technologiques privés pose des questions éthiques sans précédent sur la régulation des marchés crypto.",
+      "resume": "Le géant de la cybersécurité CrowdStrike annonce l'acquisition de Zscaler, spécialiste du 'Zero Trust', pour 44 milliards de dollars. Cette fusion vise à créer une plateforme unifiée capable de protéger les infrastructures d'IA contre les attaques sophistiquées.",
+      "pourquoi_ca_compte": "Il s'agit d'une consolidation majeure du marché qui montre que la sécurité des agents IA devient le nouveau champ de bataille financier de la tech.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
+    },
+    {
+      "titre": "Les États-Unis placent la firme singapourienne Megaspeed sur liste noire",
+      "sous_section": "regulation",
+      "resume": "Le département du Commerce américain a banni Megaspeed de tout échange commercial. L'entreprise est accusée d'avoir servi de façade pour détourner des puces Nvidia vers la Chine, une affaire révélée suite au scandale impliquant Jensen Huang.",
+      "pourquoi_ca_compte": "Cette sanction illustre la sévérité de la guerre froide technologique entre les USA et la Chine sur le contrôle des semi-conducteurs.",
       "sources": [
         {
           "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/22/trump-cryptocurrency-gala-meme-coin",
+          "url": "https://www.theguardian.com/us-news/2026/nov/23/megaspeed-us-trade-blacklist-nvidia",
           "type": "etranger",
           "groupe_media": {
             "nom": "Scott Trust",
@@ -225,7 +218,7 @@
         },
         {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/22/trump-to-host-private-dinner-for-largest-owners-of-his-meme-coin?traffic_source=rss",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list",
           "type": "etranger",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
@@ -233,69 +226,152 @@
             "type_proprietaire": "etat",
             "orientation": "variable"
           }
-        }
-      ],
-      "lien": "https://www.theguardian.com/us-news/2026/nov/22/trump-cryptocurrency-gala-meme-coin"
-    },
-    {
-      "titre": "Kodak lance un cadre photo numérique faisant office de tracker",
-      "sous_section": "annonces",
-      "resume": "Kodak diversifie sa gamme avec le 'SlideTag', un mini cadre photo numérique intégrant une puce de localisation compatible avec les réseaux Apple et Google. L'objet mise sur la nostalgie et la sécurité.",
-      "pourquoi_ca_compte": "L'intégration de technologies de surveillance (tracking) dans des objets du quotidien devient la norme, soulevant des questions sur la vie privée.",
-      "sources": [
+        },
         {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
           }
         }
       ],
-      "lien": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink"
+      "lien": "https://www.theguardian.com/us-news/2026/nov/23/megaspeed-us-trade-blacklist-nvidia"
+    },
+    {
+      "titre": "Amazon acquiert la technologie de Decart pour optimiser ses puces IA",
+      "sous_section": "business",
+      "resume": "Amazon a racheté pour 7,5 milliards de dollars les actifs et l'équipe de recherche de la start-up Decart. L'objectif est d'optimiser l'efficacité de ses puces Trainium pour concurrencer Nvidia sur le marché du cloud.",
+      "pourquoi_ca_compte": "Amazon cherche à réduire sa dépendance envers Nvidia en développant ses propres capacités matérielles et logicielles d'accélération d'IA.",
+      "sources": [
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+    },
+    {
+      "titre": "Cisco et OpenAI lancent 'Shirudo' pour la sécurité des systèmes Linux",
+      "sous_section": "annonces",
+      "resume": "OpenAI et Cisco ont dévoilé 'Shirudo', un runtime open-source basé sur eBPF. Ce projet permet de protéger les systèmes en temps réel pendant le déploiement de correctifs de sécurité critiques.",
+      "pourquoi_ca_compte": "Cette collaboration montre que les acteurs de l'IA s'impliquent désormais directement dans la sécurisation des infrastructures de bas niveau (noyau Linux).",
+      "sources": [
+        {
+          "nom": "The Register",
+          "url": "https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "type": "institutionnel",
+          "groupe_media": {
+            "nom": "OpenAI",
+            "proprietaire": "OpenAI Inc. (for-profit transition)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://openai.com/index/introducing-shirudo"
+    },
+    {
+      "titre": "Cyberattaque majeure au CHU de Guadeloupe : le 'plan blanc' activé",
+      "sous_section": "societe",
+      "resume": "Le CHU de Guadeloupe est paralysé depuis samedi par une cyberattaque identifiée. Les systèmes de téléphonie et d'information sont hors service, forçant l'établissement à fonctionner en mode dégradé sous le protocole de crise 'plan blanc'.",
+      "pourquoi_ca_compte": "Cet incident rappelle la vulnérabilité critique des infrastructures de santé publiques face au cyber-rançonnage, mettant directement en danger la vie des patients.",
+      "sources": [
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/societe/20261123.OBS120374/ce-que-l-on-sait-de-la-cyberattaque-survenue-au-chu-de-guadeloupe-a-pointe-a-pitre.html",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": "https://next.ink/brief-article/le-chu-de-guadeloupe-is-paralyse-par-une-cyberattaque/"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "La crainte d'une bulle financière de l'IA en Asie",
-    "contexte": "Les bourses de Séoul, Hong Kong et Shanghai ont chuté lourdement le 23 novembre 2026. Ce mouvement est alimenté par des doutes sur le retour sur investissement des infrastructures d'IA et l'explosion de la dette des entreprises tech.",
+    "sujet": "Le retour de Jensen Huang chez Nvidia sous pression politique",
+    "contexte": "Le PDG de Nvidia, Jensen Huang, a été réintégré par son conseil d'administration seulement 11 jours après avoir démissionné suite à un scandale mêlant adultère et soupçons d'espionnage industriel au profit de la Chine via la société Megaspeed.",
     "couvertures": [
+      {
+        "source": "L'Humanité",
+        "type": "mainstream",
+        "angle": "Impact de la pression des marchés et de Donald Trump sur la décision.",
+        "ton": "critique",
+        "url": "https://www.humanite.fr/social-et-economie/intelligence-artificielle/sous-la-pression-de-la-bourse-et-de-trump-jensen-huang-replace-a-la-tete-de-nvidia",
+        "citation_cle": "Le conseil d’administration de Nvidia, sous la pression des marchés, de Donald Trump et de personnalités de la Tech menées par Elon Musk, a fini par rappeler l’ancien PDG.",
+        "groupe_media": {
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
+        }
+      },
       {
         "source": "Le Figaro",
         "type": "mainstream",
-        "angle": "Analyse économique centrée sur la dette",
+        "angle": "Analyse des coulisses et de l'influence de Washington.",
         "ton": "neutre",
-        "url": "https://www.lefigaro.fr/economie/les-bourses-d-asie-continuent-de-chuter-face-aux-inquietudes-sur-l-ia-seoul-en-tete-20261123",
-        "citation_cle": "Le secteur de l’IA souffre depuis plusieurs semaines des doutes concernant la rentabilité future des dépenses massives.",
+        "url": "https://www.lefigaro.fr/secteur/high-tech/j-ai-hate-de-me-remettre-au-travail-les-coulisses-de-l-invraisemblable-retour-de-jensen-huang-chez-nvidia-20261123",
+        "citation_cle": "Une décision marquée par l’influence de Washington et dictée par des motifs économiques.",
         "groupe_media": null
       },
       {
-        "source": "Al Jazeera",
+        "source": "Courrier international",
         "type": "etranger",
-        "angle": "Risque systémique global",
-        "ton": "alarmiste",
-        "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount?traffic_source=rss",
-        "citation_cle": "Asian stock markets tumble as AI bubble fears mount.",
+        "angle": "Le dilemme moral face aux enjeux financiers colossaux.",
+        "ton": "critique",
+        "url": "https://www.courrierinternational.com/article/comeback-un-triomphe-de-l-argent-sur-la-morale-le-retour-de-jensen-huang-a-nvidia-ne-fait-pas-l-unanimite_289710",
+        "citation_cle": "Un triomphe de l’argent sur la morale : le retour de Jensen Huang à Nvidia ne fait pas l’unanimité.",
         "groupe_media": {
-          "nom": "Al Jazeera Media Network",
-          "proprietaire": "État du Qatar",
-          "type_proprietaire": "etat",
-          "orientation": "variable"
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
         }
       }
     ],
-    "analyse_coherence": "Les deux sources s'accordent sur le diagnostic : nous assistons à une phase de désillusion après l'euphorie initiale pour l'IA générative. Le Figaro adopte une approche technique en pointant spécifiquement le recours à la dette, alors qu'Al Jazeera utilise un vocabulaire plus fort ('bulle', 'effondrement') pour souligner l'impact sur l'ensemble de la zone Asie-Pacifique. Les deux médias notent que Séoul est en première ligne, probablement en raison de sa forte dépendance aux semi-conducteurs de nouvelle génération.",
+    "analyse_coherence": "La presse internationale et française s'accorde sur le caractère exceptionnel et 'invraisemblable' de ce retour. Cependant, les angles divergent : alors que les médias économiques (Le Figaro, RFI) insistent sur la 'rassurance' des marchés financiers, les médias plus engagés (L'Humanité, Courrier International) pointent du doigt un effondrement des standards éthiques face à la puissance de Nvidia. L'intervention directe de Donald Trump est confirmée par toutes les sources, mais diversement interprétée : comme un acte de pragmatisme nationaliste pour les uns, ou comme une ingérence politique dangereuse dans la gouvernance d'une entreprise privée pour les autres. Le rôle de Megaspeed et les soupçons d'espionnage passent au second plan derrière la figure de Huang, devenu 'trop grand pour tomber'.",
     "biais_detectes": [
-      "Focalisation sur les marchés asiatiques en omettant l'interdépendance avec les valeurs américaines ."
+      "Focalisation sur la personnalité de Huang (culte du chef) au détriment des failles de sécurité nationales.",
+      "Normalisation de l'ingérence politique dans les conseils d'administration sous prétexte de stabilité économique."
     ],
-    "ce_quil_faut_retenir": "Le marché demande désormais des preuves concrètes de rentabilité pour l'IA, marquant la fin de la période 'chèque en blanc' pour les géants technologiques."
+    "ce_quil_faut_retenir": "Le retour de Jensen Huang acte la fin de l'autonomie des géants de la tech face au pouvoir politique américain : Nvidia n'est plus seulement une entreprise, c'est un actif stratégique d'État."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 108,
-    "nb_topics_ia": 45,
+    "nb_articles_ia": 227,
+    "nb_topics_ia": 77,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
