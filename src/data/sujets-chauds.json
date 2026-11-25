@@ -1,61 +1,235 @@
 {
-  "date": "2026-11-24",
-  "genere_a": "2026-11-24T05:36:23.748Z",
+  "date": "2026-11-25",
+  "genere_a": "2026-11-25T05:36:22.857Z",
   "sujets_actifs": [
     {
-      "titre": "Nvidia : Jensen Huang réintégré après 11 jours de séisme boursier et politique",
-      "slug": "nvidia-jensen-huang-reintegration-scandale",
+      "titre": "Nvidia : Jensen Huang réintégré sous haute tension politique et judiciaire",
+      "slug": "nvidia-jensen-huang-reintegration-enquete-trump",
       "rubrique": "tech",
       "tldr": [
-        "Réintégration de Jensen Huang comme CEO de Nvidia suite à une pression massive des marchés et de Donald Trump.",
-        "Huang avait démissionné après des révélations sur une liaison avec une espionne présumée chinoise.",
-        "L'entreprise singapourienne au cœur du scandale de transfert de puces a été placée sur liste noire par Washington."
+        "Jensen Huang réintégré comme PDG de Nvidia après 11 jours d'éviction.",
+        "Le titre Nvidia chute de 7% suite à des soupçons d'ingérence de Donald Trump.",
+        "Le Sénat américain ouvre une enquête sur des violations présumées des contrôles d'exportation vers la Chine."
       ],
-      "resume": "Après seulement onze jours d'absence, le cofondateur de Nvidia, Jensen Huang, reprend les rênes du géant des semi-conducteurs. Sa démission initiale faisait suite à la révélation d'une relation extraconjugale avec une femme soupçonnée d'intelligence avec les services secrets chinois (Le Monde). Ce retour, qualifié de « triomphe de l'argent sur la morale » par certains critiques, a été largement impulsé par une chute brutale de la valorisation boursière et une intervention directe de Donald Trump (Courrier International, BBC News). Parallèlement, les États-Unis ont durci le ton en plaçant sur liste noire l'entreprise singapourienne impliquée dans le contournement des sanctions vers la Chine (Le Figaro).",
-      "contexte_historique": "Nvidia domine environ 80 % du marché mondial des puces pour l'IA. Historiquement, les États-Unis imposent des restrictions d'exportation vers la Chine depuis 2022 pour freiner ses capacités militaires, un cadre que Huang est accusé d'avoir fragilisé par ses liens personnels (The Guardian).",
+      "resume": "Onze jours après son éviction surprise, Jensen Huang retrouve son poste de PDG chez Nvidia, mais ce retour s'accompagne d'une violente secousse boursière (-7%). Le procureur général des États-Unis est sommé de s'expliquer sur l'implication directe de Donald Trump dans cette réintégration, alors que le président se dit prêt à gracier Huang (The Guardian). Parallèlement, le sénateur Chuck Schumer accuse le dirigeant d'avoir contourné les lois américaines en livrant des puces stratégiques à la Chine (BBC News). Cette crise souligne la porosité croissante entre les géants de l'IA et le pouvoir politique exécutif américain.",
+      "contexte_historique": "Nvidia fait face à des restrictions d'exportation vers la Chine depuis 2022, le département du Commerce cherchant à freiner les capacités militaires de Pékin (Reuters, 2022). L'ingérence présidentielle directe dans la gouvernance d'une entreprise privée cotée rappelle les pressions exercées sur TikTok en 2020, mais à une échelle systémique pour l'économie mondiale.",
       "implications": [
-        "Remontée immédiate de la capitalisation boursière de Nvidia de près de 1 000 milliards de dollars.",
-        "Tensions accrues entre le Congrès américain et la Maison Blanche sur la gestion de la sécurité nationale face aux intérêts privés."
+        "Instabilité accrue du secteur des semi-conducteurs face aux décisions politiques imprévisibles.",
+        "Durcissement probable des contrôles parlementaires sur les transferts technologiques vers l'Asie."
       ],
       "chronologie": [
         {
-          "date": "2026-11-23",
-          "texte": "Le conseil d'administration annonce la réintégration officielle de Jensen Huang.",
-          "source": "Le Figaro"
+          "date": "2026-11-25",
+          "texte": "Chute de 7% de l'action Nvidia après les déclarations de Trump sur une possible grâce.",
+          "source": "BBC News"
         },
         {
-          "date": "2026-11-23",
-          "texte": "Washington place l'entreprise singapourienne intermédiaire sur liste noire.",
-          "source": "Le Monde"
+          "date": "2026-11-24",
+          "texte": "Le Sénat américain demande des comptes sur l'implication de la Maison Blanche.",
+          "source": "The Guardian"
         },
         {
           "date": "2026-11-12",
-          "texte": "Démission surprise de Jensen Huang suite aux accusations de fuites d'informations.",
-          "source": "BBC News"
+          "texte": "Éviction initiale de Jensen Huang provoquant un séisme boursier.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
+          "source": "The Guardian",
+          "type": "etranger",
+          "angle": "Focus sur l'ingérence politique de Trump et les accusations de violation des lois d'exportation.",
+          "ton": "critique",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
+          "citation_cle": "Schumer accuse Huang de violer les lois américaines sur le contrôle des exportations via des expéditions de puces vers la Chine.",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "source": "BBC News",
+          "type": "mainstream",
+          "angle": "Analyse de la réaction des marchés et du mutisme du procureur général.",
+          "ton": "factuel",
+          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "Les législateurs exigent des réponses sur l'implication du président Donald Trump dans la réintégration de Huang.",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "source": "TechCrunch",
+          "type": "etranger",
+          "angle": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+          "ton": "factuel",
+          "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
+          "citation_cle": "Huang faces ongoing questions about his relationship with Alice Huang, an executive with alleged ties to Chinese intelli",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quelles contreparties exactes ont été négociées entre Huang et l'administration Trump ?",
+        "L'enquête du Sénat débouchera-t-elle sur des sanctions pénales ?"
+      ],
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "BBC",
+            "proprietaire": "État britannique",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-11-12"
+    },
+    {
+      "titre": "Colombie : Prise d'otages massive à Carthagène sur fond de crise sécuritaire",
+      "slug": "colombie-prise-otages-carthagene-supermarche",
+      "rubrique": "international",
+      "tldr": [
+        "Au moins 20 personnes retenues en otage dans un supermarché à Carthagène.",
+        "Le président Abelardo de la Espriella est sur place pour superviser l'assaut.",
+        "Le gouvernement privilégie la piste du banditisme de droit commun."
+      ],
+      "resume": "Une prise d'otages spectaculaire paralyse un supermarché de Carthagène, ville touristique majeure de Colombie. Le président Abelardo de la Espriella a dépêché des dizaines de membres des forces de sécurité et s'est rendu personnellement sur les lieux pour diriger les opérations (The Guardian). Bien que le pays traverse un regain de violence lié aux groupes armés, l'exécutif affirme que cet acte relève de la criminalité commune et non du terrorisme politique (Le Monde). Cette situation intervient dans un climat de dégradation sécuritaire dix ans après les accords de paix historiques.",
+      "contexte_historique": "Depuis la fin des accords de paix de 2016 avec les FARC, la Colombie fait face à une fragmentation des groupes criminels. Carthagène, bien que protégée par son statut touristique, subit une hausse de 15% des homicides liés au contrôle territorial urbain en 2025 (Indepaz, 2025).",
+      "implications": [
+        "Risque de déstabilisation du secteur touristique, pilier de l'économie colombienne.",
+        "Pression politique accrue sur le président de la Espriella pour durcir la politique sécuritaire."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-11-25",
+          "texte": "Le président arrive sur les lieux alors que le siège dure depuis plusieurs heures.",
+          "source": "The Guardian"
+        },
+        {
+          "date": "2026-11-24",
+          "texte": "Début de l'attaque du supermarché par un groupe armé non identifié.",
+          "source": "Le Monde"
+        }
+      ],
+      "couvertures": [
+        {
+          "source": "The Guardian",
+          "type": "etranger",
+          "angle": "Détails opérationnels sur le siège et l'implication directe du président.",
+          "ton": "neutre",
+          "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+          "citation_cle": "Abelardo de la Espriella prend le contrôle d'une opération impliquant des dizaines de membres du personnel de sécurité.",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse du dilemme entre sécurité nationale et domination technologique américaine.",
+          "angle": "Analyse de la distinction faite par le gouvernement entre banditisme et guérilla.",
           "ton": "factuel",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-come-back-spectaculaire-de-jensen-huang-a-la-tete-de-nvidia-sous-la-pression-de-donald-trump-et-des-marches-financiers_6814669_3234.html",
-          "citation_cle": "Ecarté il y a onze jours après la révélation de sa relation extraconjugale avec une femme soupçonnée de transmettre des informations aux services secrets chinois.",
+          "url": "https://www.lemonde.fr/international/article/2026/11/25/en-colombie-le-president-et-l-armee-a-carthagenes-pour-une-prise-d-otages-en-cours-dans-un-supermarche_6814815_3211.html",
+          "citation_cle": "Le chef de l’Etat a affirmé que cette prise d’otages relevait de la criminalité de droit commun.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quelles sont les revendications exactes des preneurs d'otages ?",
+        "Y a-t-il des liens réels entre ces criminels et les structures paramilitaires régionales ?"
+      ],
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
         },
+        {
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/11/25/en-colombie-le-president-et-l-armee-a-carthagenes-pour-une-prise-d-otages-en-cours-dans-un-supermarche_6814815_3211.html",
+          "type": "journal",
+          "groupe_media": {
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        }
+      ],
+      "premiere_apparition": "2026-11-24"
+    },
+    {
+      "titre": "Huawei condamné pour vol de secrets industriels aux États-Unis",
+      "slug": "huawei-condamnation-secrets-industriels-usa",
+      "rubrique": "international",
+      "tldr": [
+        "Un jury new-yorkais reconnaît Huawei coupable de vol de secrets commerciaux.",
+        "Le groupe est également condamné pour avoir trompé des banques sur ses activités en Iran.",
+        "Acquittement sur le chef d'accusation de racket (racketeering)."
+      ],
+      "resume": "Après huit ans de procédure, le géant chinois Huawei a été reconnu coupable par un tribunal de New York de fraude bancaire et de vol de secrets industriels (Courrier international). Le procès a démontré que l'entreprise avait systématiquement cherché à s'approprier des technologies américaines tout en dissimulant ses transactions avec l'Iran (Ouest-France). Toutefois, le jury a acquitté Huawei des charges de racket, une victoire partielle pour la défense. Ce verdict marque une étape cruciale dans la guerre technologique sino-américaine, confirmant l'usage de l'appareil judiciaire comme outil de régulation géopolitique.",
+      "contexte_historique": "Depuis 2019, Huawei est placé sur une 'liste noire' par Washington, empêchant ses fournisseurs américains de commercer avec lui sans licence. Les États-Unis accusent régulièrement l'entreprise d'être un bras armé du renseignement chinois, ce que Pékin a toujours nié (DoJ, 2019).",
+      "implications": [
+        "Durcissement probable des sanctions économiques contre Huawei et ses filiales.",
+        "Risque de mesures de rétorsion chinoises contre des entreprises tech américaines en Chine."
+      ],
+      "chronologie": [
+        {
+          "date": "2026-11-25",
+          "texte": "Verdict du jury à New York après 11 semaines de procès.",
+          "source": "BBC News"
+        },
+        {
+          "date": "2019-05-15",
+          "texte": "Huawei est placé sur la liste noire commerciale des États-Unis.",
+          "source": "Courrier international"
+        }
+      ],
+      "couvertures": [
         {
           "source": "BBC News",
           "type": "etranger",
-          "angle": "Focus sur l'influence politique de Donald Trump dans cette décision d'entreprise.",
-          "ton": "critique",
-          "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Nvidia had come under pressure from President Trump to reappoint Huang.",
+          "angle": "Focus sur l'acquittement pour racket malgré la culpabilité sur le vol de secrets.",
+          "ton": "factuel",
+          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+          "citation_cle": "Huawei reconnu coupable d'avoir volé des secrets commerciaux mais acquitté de racket.",
           "groupe_media": {
             "nom": "BBC",
             "proprietaire": "État britannique",
@@ -66,27 +240,10 @@
         {
           "source": "Courrier international",
           "type": "etranger",
-          "angle": "\"Un triomphe de l’argent sur la morale” : le retour de Jensen Huang à Nvidia ne fait pas l’unanimité",
-          "ton": "factuel",
-          "url": "https://www.courrierinternational.com/article/comeback-un-triomphe-de-l-argent-sur-la-morale-le-retour-de-jensen-huang-a-nvidia-ne-fait-pas-l-unanimite_289710",
-          "citation_cle": "Si les employés de Nvidia, les marchés financiers, Donald Trump et la Silicon Valley se réjouissent du retour du cofonda",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "L'étendue réelle des informations sensibles potentiellement transmises à la Chine.",
-        "La réaction à long terme des régulateurs de la sécurité nationale face à ce précédent."
-      ],
-      "sources": [
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-come-back-spectaculaire-de-jensen-huang-a-la-tete-de-nvidia-sous-la-pression-de-donald-trump-et-des-marches-financiers_6814669_3234.html",
-          "type": "mainstream",
+          "angle": "Synthèse de la presse internationale sur l'issue de huit ans de procédure.",
+          "ton": "neutre",
+          "url": "https://www.courrierinternational.com/article/justice-le-geant-chinois-des-telecoms-huawei-reconnu-coupable-de-vol-de-secrets-industriels-aux-etats-unis_290073",
+          "citation_cle": "Huawei a été reconnu coupable de fraude bancaire et de vol de secrets industriels, mardi à New York.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
@@ -95,9 +252,24 @@
           }
         },
         {
+          "source": "Ouest-France",
+          "type": "mainstream",
+          "angle": "Le géant chinois Huawei reconnu coupable de vol de secrets industriels aux États-Unis",
+          "ton": "factuel",
+          "url": "https://www.ouest-france.fr/high-tech/huawei/le-geant-chinois-huawei-reconnu-coupable-de-vol-de-secrets-industriels-aux-etats-unis-21daffb2-e889-11f1-9b33-2f81462d3339?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "citation_cle": "La société chinoise de télécommunications Huawei a été reconnue coupable par un jury new-yorkais d’avoir trompé les banq",
+          "groupe_media": null
+        }
+      ],
+      "ce_quon_ne_sait_pas": [
+        "Quel sera le montant exact des amendes infligées lors du prononcé de la peine ?",
+        "Comment Huawei compte-t-il maintenir ses activités aux États-Unis après ce verdict ?"
+      ],
+      "sources": [
+        {
           "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-          "type": "institutionnel",
+          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+          "type": "journal",
           "groupe_media": {
             "nom": "BBC",
             "proprietaire": "État britannique",
@@ -106,248 +278,75 @@
           }
         },
         {
-          "nom": "Le Figaro",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/en-direct-nvidia-jensen-huang-presse-de-reprendre-le-travail-apres-sa-reintegration-surprise-a-la-tete-de-l-entreprise-20261123",
-          "type": "mainstream",
-          "groupe_media": null
-        }
-      ],
-      "premiere_apparition": "2026-11-12"
-    },
-    {
-      "titre": "Macron propose une « règle d'or » budgétaire à l'approche de la présidentielle",
-      "slug": "macron-regle-or-constitution-budget",
-      "rubrique": "politique",
-      "tldr": [
-        "Projet d'inscription de l'équilibre budgétaire dans la Constitution.",
-        "Reprise d'une réforme de 2011 initiée sous Nicolas Sarkozy.",
-        "L'opposition dénonce une manœuvre électorale à cinq mois du scrutin."
-      ],
-      "resume": "Emmanuel Macron a surpris la classe politique en proposant d'inscrire une « règle d'or » budgétaire dans la Constitution, visant à limiter le déficit public. Cette initiative ressuscite un projet de loi constitutionnelle de 2011 qui n'avait jamais abouti faute de consensus (franceinfo). Alors que la France fait face à une surveillance accrue de ses comptes par l'UE, le président tente de reprendre l'initiative sur le terrain de la responsabilité financière. Cependant, les oppositions y voient un « affichage politique » tardif et un piège tendu pour diviser la gauche et la droite avant l'élection (Sud-Ouest, Le Monde).",
-      "contexte_historique": "La règle d'or a été introduite par le traité budgétaire européen de 2012 (TSCG). En France, Nicolas Sarkozy avait tenté de la constitutionnaliser en 2011, mais s'était heurté au refus du Sénat alors dominé par la gauche (Archives Assemblée Nationale).",
-      "implications": [
-        "Nécessité de réunir une majorité des 3/5e au Congrès, ce qui semble improbable dans le climat actuel.",
-        "Pression accrue sur les futurs candidats à la présidentielle pour se positionner sur la trajectoire de la dette."
-      ],
-      "chronologie": [
-        {
-          "date": "2026-11-24",
-          "texte": "Emmanuel Macron détaille sa proposition lors de ses échanges avec les maires.",
-          "source": "franceinfo"
-        },
-        {
-          "date": "2026-11-23",
-          "texte": "L'Élysée confirme l'intention d'exhumer la réforme de 2011.",
-          "source": "Le Monde"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "franceinfo",
-          "type": "mainstream",
-          "angle": "Analyse des motivations politiques derrière ce timing électoral.",
-          "ton": "neutre",
-          "url": "https://www.franceinfo.fr/economie/votre-argent/livret-a/depuis-janvier-les-francais-ont-retire-pres-de-10-milliards-d-euros-de-leurs-livrets-a-qui-connait-sa-pire-annee-depuis-2008_8297058.html#xtor=RSS-3-[lestitres]",
-          "citation_cle": "Une sorte de règle d'or budgétaire en faisant adopter une réforme de 2011 qui n'a jamais abouti.",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "Sud-Ouest",
-          "type": "mainstream",
-          "angle": "Regard satirique et politique sur la cohérence du bilan présidentiel.",
-          "ton": "engage",
-          "url": "https://www.sudouest.fr/redaction/le-dessin-du-jour/le-dessin-du-mardi-24-novembre-macron-propose-la-regle-d-or-budgetaire-31629234.php",
-          "citation_cle": "Macron propose la règle d'or budgétaire.",
-          "groupe_media": null
-        },
-        {
-          "source": "La Croix",
-          "type": "mainstream",
-          "angle": "« Règle d’or » budgétaire : Emmanuel Macron mise sur un Congrès pour parfaire son inventaire",
-          "ton": "factuel",
-          "url": "https://www.la-croix.com/politique/regle-d-or-budgetaire-emmanuel-macron-mise-sur-un-congres-pour-parfaire-son-inventaire-20261123",
-          "citation_cle": "Lundi 23 novembre 2026, le président Emmanuel Macron a confirmé qu’il réfléchissait à faire inscrire une « règle d’or » ",
-          "groupe_media": null
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "Si cette règle comportera des clauses d'exception pour les investissements de transition écologique.",
-        "Le soutien réel du Rassemblement National, qui pourrait arbitrer le vote au Congrès."
-      ],
-      "sources": [
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/economie/votre-argent/livret-a/depuis-janvier-les-francais-ont-retire-pres-de-10-milliards-d-euros-de-leurs-livrets-a-qui-connait-sa-pire-annee-depuis-2008_8297058.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/24/inflation-pourquoi-la-hausse-des-cours-de-l-energie-tarde-a-se-repercuter-sur-l-ensemble-des-prix-en-france_6814604_3234.html",
-          "type": "mainstream",
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/justice-le-geant-chinois-des-telecoms-huawei-reconnu-coupable-de-vol-de-secrets-industriels-aux-etats-unis_290073",
+          "type": "journal",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
+        },
+        {
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/pays-de-la-loire/la-menitre-49250/rosiers-gazon-arbres-fruitiers-dans-ce-jardin-on-teste-les-vegetaux-haut-de-gamme-que-vous-plantez-chez-vous-940533c2-e7e0-11f1-9b33-2f81462d3339?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "type": "journal",
+          "groupe_media": null
         }
       ],
-      "premiere_apparition": "2026-11-23"
-    },
+      "premiere_apparition": "2018-12-01"
+    }
+  ],
+  "sujets_refroidis": [
     {
-      "titre": "Colombie : regain de violence narcoterroriste dix ans après les accords de paix",
-      "slug": "colombie-attentat-meta-accord-paix-farc",
-      "rubrique": "international",
-      "tldr": [
-        "Attentat à la voiture piégée contre le siège du gouvernement dans la région du Meta.",
-        "Le président dénonce le narcoterrorisme visant à déstabiliser l'État.",
-        "L'anniversaire des 10 ans de l'accord de paix avec les FARC marqué par une insécurité croissante."
-      ],
-      "resume": "Un attentat à la voiture piégée a frappé Villavicencio, détruisant des bâtiments officiels et faisant plusieurs blessés. Le président Abelardo de la Espriella a immédiatement pointé la responsabilité des groupes narcoterroristes (Al Jazeera, Ouest-France). Cette attaque survient jour pour jour dix ans après la signature de l'accord de paix historique avec les FARC en 2016. Si certains ex-guérilleros ont réussi leur réinsertion, le pays fait face à une prolifération de groupes dissidents et de cartels qui profitent des zones délaissées par l'État pour intensifier le trafic de cocaïne (RFI, La Croix).",
-      "contexte_historique": "L'accord de 2016 a mis fin à 52 ans de conflit armé. Cependant, l'ONU estime que plus de 400 ex-combattants ont été assassinés depuis la signature, illustrant les failles de la mise en œuvre du volet sécuritaire de l'accord (ONU, RFI).",
-      "implications": [
-        "Risque de rupture des négociations en cours avec d'autres groupes armés comme l'ELN.",
-        "Pression migratoire interne accrue suite aux déplacements forcés dans les zones rurales."
-      ],
+      "titre": "Macron propose une « règle d'or » budgétaire",
+      "slug": "macron-regle-or-budgetaire-constitution",
+      "rubrique": "politique",
+      "resume": "Le débat s'est déplacé vers le Salon des maires où les candidats à la présidentielle 2027, comme Édouard Philippe et David Lisnard, s'affrontent désormais sur la mise en œuvre pratique de cette rigueur budgétaire.",
       "chronologie": [
         {
-          "date": "2026-11-24",
-          "texte": "Explosion d'une voiture piégée à Villavicencio.",
-          "source": "Al Jazeera"
+          "date": "2026-11-25",
+          "texte": "Édouard Philippe propose un débat télévisé à David Lisnard sur les finances publiques.",
+          "source": "20 Minutes"
         },
         {
-          "date": "2026-11-24",
-          "texte": "Célébration amère du 10e anniversaire de l'accord de paix.",
-          "source": "RFI"
-        },
-        {
-          "date": "2016-11-24",
-          "texte": "Signature de l'accord de paix définitif au théâtre Colon de Bogota.",
-          "source": "La Croix"
+          "date": "2026-11-23",
+          "texte": "Annonce initiale de la proposition de règle d'or constitutionnelle.",
+          "source": "franceinfo"
         }
       ],
       "couvertures": [
         {
           "source": "RFI",
           "type": "mainstream",
-          "angle": "Bilan contrasté de la paix, entre espoir de réinsertion et réalité de la violence.",
+          "angle": "Le positionnement des candidats de droite et du centre au Salon des maires.",
           "ton": "factuel",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261124-colombie-dix-ans-apr%C3%A8s-sa-signature-l-accord-de-paix-avec-les-farc-menac%C3%A9",
-          "citation_cle": "Bien au-delà de la fin de la guerre, l'accord est aujourd'hui menacé.",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "source": "Al Jazeera",
-          "type": "etranger",
-          "angle": "Focus sur l'impact immédiat de l'attentat et la réponse sécuritaire du gouvernement.",
-          "ton": "alarmiste",
-          "url": "https://www.aljazeera.com/news/2026/11/24/pennsylvania-reports-ninth-measles-death-in-ongoing-state-outbreak?traffic_source=rss",
-          "citation_cle": "A car bomb exploded in the city of Villavicencio in Colombia’s Meta Department.",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
+          "url": "https://www.rfi.fr/fr/france/20261125-pr%C3%A9sidentielle-2027-%C3%A9douard-philippe-marque-ses-diff%C3%A9rences-avec-david-lisnard",
+          "citation_cle": "Édouard Philippe entend afficher son intérêt pour les élus locaux face à la proposition présidentielle."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "L'identité exacte du groupe responsable de l'attentat (dissidents des FARC ou Clan del Golfo).",
-        "La capacité du gouvernement actuel à maintenir le dialogue de paix face à la pression de l'opinion publique pour une réponse militaire."
+        "La probabilité réelle d'un vote du Congrès pour cette révision constitutionnelle avant 2027."
       ],
       "sources": [
         {
           "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261124-colombie-dix-ans-apr%C3%A8s-sa-signature-l-accord-de-paix-avec-les-farc-menac%C3%A9",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
+          "url": "https://www.rfi.fr/fr/france/20261125-pr%C3%A9sidentielle-2027-%C3%A9douard-philippe-marque-ses-diff%C3%A9rences-avec-david-lisnard",
+          "type": "journal"
         },
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/24/pennsylvania-reports-ninth-measles-death-in-ongoing-state-outbreak?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/international/colombie-a-agua-bonita-le-pari-de-la-paix-des-anciens-guerilleros-des-farc-20261123",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/monde/colombie/colombie-des-batiments-officiels-detruits-dans-lexplosion-dune-voiture-piegee-e999221a-e7bf-11f1-86c1-70195b4d2e52?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "mainstream"
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/politique/4265545-20261125-direct-presidentielle-2027-edouard-philippe-propose-david-lisnard-debat-televise",
+          "type": "journal"
         }
       ],
-      "premiere_apparition": "2026-11-24"
-    }
-  ],
-  "sujets_refroidis": [
-    {
-      "titre": "Échec des négociations de la COP31 à Antalya",
-      "slug": "echec-cop31-antalya-fossiles",
-      "rubrique": "international",
-      "resume": "Les pays n'ont pas réussi à s'entendre sur un calendrier de sortie des énergies fossiles, bloqués par les intérêts économiques des pays producteurs. Le sujet passe désormais au second plan médiatique derrière les crises sécuritaires.",
-      "chronologie": [
-        {
-          "date": "2026-11-23",
-          "texte": "Fin officielle du sommet sans accord contraignant.",
-          "source": "Courrier international"
-        }
-      ],
-      "couvertures": [
-        {
-          "source": "Courrier international",
-          "type": "etranger",
-          "angle": "Incapacité à s'attaquer aux intérêts politiques dominants.",
-          "ton": "critique",
-          "url": "https://www.courrierinternational.com/article/vu-de-turquie-derriere-l-echec-de-la-cop31-l-incapacite-a-s-attaquer-aux-interets-economiques-et-politiques_289512",
-          "citation_cle": "Certains dirigeants incapables de s'attaquer aux intérêts économiques."
-        }
-      ],
-      "ce_quon_ne_sait_pas": [
-        "La date et le lieu d'une éventuelle session de rattrapage intermédiaire."
-      ],
-      "sources": [
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/vu-de-turquie-derriere-l-echec-de-la-cop31-l-incapacite-a-s-attaquer-aux-interets-economiques-et-politiques_289512",
-          "type": "etranger"
-        }
-      ],
-      "derniere_mise_a_jour": "2026-11-24",
-      "statut": "Les délégations ont quitté la Turquie, le débat est clos jusqu'au prochain sommet technique."
+      "derniere_mise_a_jour": "2026-11-25",
+      "statut": "Le sujet est devenu un argument de campagne électorale plutôt qu'une actualité institutionnelle immédiate."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 701,
+    "nb_articles_analyses": 725,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

@@ -1,136 +1,105 @@
 {
   "sujet_du_jour": {
-    "titre": "Nvidia : Jensen Huang réintégré après 11 jours de séisme boursier et politique",
-    "rubrique": "tech",
-    "pourquoi_important": "C'est un retour inédit pour le patron de la plus grosse capitalisation mondiale, mêlant espionnage industriel, pressions de Donald Trump et enjeux de sécurité nationale.",
+    "titre": "Mort de Nahel : le policier sera jugé pour meurtre aux assises",
+    "rubrique": "societe",
+    "pourquoi_important": "Trois ans après le drame qui a embrasé la France, la justice retient la qualification criminelle la plus lourde, transformant ce dossier en un procès historique sur l'usage de la force policière.",
     "faits": [
-      "Le conseil d’administration de Nvidia a réintégré Jensen Huang comme PDG le 23 novembre 2026, annulant sa démission du 12 novembre (SEC.",
-      "Le retrait initial faisait suite à une liaison extraconjugale avec une femme soupçonnée d'espionnage pour la Chine (RFI, Le Monde).",
-      "Le titre Nvidia a bondi de 30 % à l'annonce du retour, illustrant la dépendance des marchés à son fondateur (Mediapart, L'Obs).",
-      "Le conseil affirme avoir reçu des garanties de hauts responsables américains sur l'absence de risque pour la sécurité nationale ."
+      "La chambre de l’instruction de la cour d’appel de Versailles a ordonné, le 24 novembre 2026, le renvoi du policier Florian Menesplier devant la cour d’assises des Hauts-de-Seine.",
+      "Le fonctionnaire est poursuivi pour 'meurtre' (homicide volontaire) et non pour de simples violences ayant entraîné la mort, comme l'avait initialement envisagé une précédente décision en mars 2026.",
+      "La défense du policier a immédiatement annoncé un pourvoi en cassation pour contester cette qualification, ce qui pourrait différer l'ouverture du procès.",
+      "Nahel Merzouk, 17 ans, avait été tué à bout portant lors d'un contrôle routier à Nanterre le 27 juin 2023."
     ],
-    "contexte": "En seulement onze jours, Nvidia a traversé une crise de gouvernance majeure. Écarté pour des soupçons de fuites d'informations vers Pékin via une relation intime, Huang revient sous la pression directe de Donald Trump et de figures de la Silicon Valley comme Elon Musk. Ce dénouement souligne la place stratégique de Nvidia dans la guerre froide technologique entre les États-Unis et la Chine.",
+    "contexte": "Cette décision marque un tournant majeur. En mars 2026, la qualification de meurtre avait été écartée au profit de 'violences volontaires ayant entraîné la mort sans intention de la donner', provoquant la colère de la famille. Ce retour aux assises pour 'meurtre' souligne la sévérité de l'analyse judiciaire sur l'absence de danger immédiat justifiant le tir mortel.",
     "sources": [
       {
-        "nom": "SEC (EDGAR)",
-        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
-        "type": "institutionnel",
+        "nom": "Bondy Blog",
+        "url": "https://www.bondyblog.fr/societe/mort-de-nahel-le-policier-sera-bien-juge-pour-meurtre/",
+        "type": "investigation",
         "groupe_media": null
       },
       {
-        "nom": "Le Monde",
-        "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-come-back-spectaculaire-de-jensen-huang-a-la-tete-de-nvidia-sous-la-pression-de-donald-trump-et-des-marches-financiers_6814669_3234.html",
+        "nom": "TV5MONDE",
+        "url": "https://information.tv5monde.com/france/mort-de-nahel-la-justice-confirme-en-appel-le-renvoi-du-policier-pour-meurtre-2846832",
+        "type": "mainstream",
+        "groupe_media": null
+      },
+      {
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/faits-divers/adolescent-tue-par-un-policier-a-nanterre/mort-de-nahel-merzouk-en-2023-quatre-questions-apres-la-decision-de-juger-le-policier-auteur-du-tir-pour-meurtre_8297382.html",
         "type": "mainstream",
         "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "France Télévisions",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
         }
-      },
-      {
-        "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/international/231126/jensen-huang-de-retour-la-tete-de-nvidia-les-marches-euphoriques",
-        "type": "investigation",
-        "groupe_media": {
-          "nom": "Mediapart",
-          "proprietaire": "Fonds pour une presse libre",
-          "type_proprietaire": "fondation",
-          "orientation": "gauche"
-        }
-      },
-      {
-        "nom": "RFI",
-        "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261124-colombie-dix-ans-apr%C3%A8s-sa-signature-l-accord-de-paix-avec-les-farc-menac%C3%A9",
-        "type": "mainstream"
       },
       {
         "nom": "L'Obs",
-        "url": "https://www.nouvelobs.com/tendances/20261123.OBS120395/palmares-du-fooding-2027-la-meilleure-table-revient-a-paris-apres-huit-ans-d-absence.html",
-        "type": "mainstream"
+        "url": "https://www.nouvelobs.com/societe/20261124.OBS120401/mort-de-nahel-merzouk-la-justice-ordonne-un-proces-pour-meurtre-a-l-encontre-du-policier.html",
+        "type": "mainstream",
+        "groupe_media": null
       }
     ],
-    "lien": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx"
+    "lien": null
   },
   "france": [
     {
-      "titre": "Macron exhume la « règle d'or » budgétaire de Sarkozy",
-      "rubrique": "politique",
-      "resume": "Emmanuel Macron envisage d'inscrire dans la Constitution un mécanisme d'équilibre des finances publiques, reprenant un projet de 2011 resté inabouti. L'objectif est de rassurer les marchés financiers face au dérapage de la dette, malgré les critiques de l'opposition dénonçant un verrouillage libéral (L'Obs, La Croix, Libération).",
+      "titre": "Enquête pour tentative de meurtre d'un mineur lors du 17 octobre",
+      "rubrique": "societe",
+      "resume": "Le parquet de Paris a ouvert une enquête après qu'un adolescent de 15 ans a eu le poumon perforé par une balle de plomb lors de la manifestation du 17 octobre 2026. Le tir, probablement effectué depuis un point en hauteur selon Mediapart, a entraîné 21 jours d'ITT pour la victime (Mediapart, franceinfo).",
       "sources": [
         {
-          "nom": "L'Obs",
-          "url": "https://www.nouvelobs.com/politique/20261122.OBS120348/qu-est-ce-que-la-regle-d-or-budgetaire-que-macron-envisage-d-inscrire-dans-la-constitution.html",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/politique/bilan-macron/regle-dor-budgetaire-pour-verrouiller-les-budgets-emmanuel-macron-pourrait-sappuyer-sur-le-rn",
-          "type": "mainstream",
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/241126/manifestation-du-17-octobre-un-adolescent-blesse-par-balle-place-de-la-nation-une-enquete-ouverte-pour-ten",
+          "type": "investigation",
           "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
+            "nom": "Mediapart",
+            "proprietaire": "Fonds pour une presse libre",
+            "type_proprietaire": "fondation",
             "orientation": "gauche"
           }
         },
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/economie/industrie-la-france-va-se-doter-de-stocks-strategiques-de-minerais-critiques-20261123",
-          "type": "mainstream"
-        },
-        {
-          "nom": "Libération",
-          "url": "https://www.liberation.fr/politique/elections/les-ecolos-pro-glucksmann-fondent-ecologistes-et-democrates-un-nouveau-parti-20261123_MLJLZCW7TFETBE4P665OQHQB5Y/",
-          "type": "mainstream"
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/une-enquete-ouverte-pour-tentative-de-meurtre-sur-un-adolescent-a-paris-lors-de-la-manifestation-du-17-octobre_8298381.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
         }
       ],
       "lien": null
     },
     {
-      "titre": "Stocks stratégiques : la France sécurise ses métaux critiques",
+      "titre": "Stellantis Sochaux : 500 à 1000 postes menacés par l'arrêt de la nuit",
       "rubrique": "economie",
-      "resume": "L'Élysée a annoncé la création de stocks de terres rares et métaux prioritaires d'ici 2027 pour réduire la dépendance industrielle, notamment vis-à-vis de la Chine. Le projet, calqué sur les réserves pétrolières, sera piloté par la Caisse des dépôts (RFI, franceinfo, Le Monde).",
+      "resume": "La direction de Stellantis a annoncé la suppression de l'équipe de nuit à l'usine de Sochaux dès janvier 2027. Si la direction parle de 500 salariés et intérimaires touchés, les syndicats cités par L'Humanité évoquent jusqu'à 1 000 licenciements, dénonçant le sacrifice des intérimaires face à la baisse des commandes (L'Humanité, La Croix).",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/23/la-france-va-creer-des-stocks-strategiques-de-terres-rares-et-de-metaux-prioritaires-pour-reduire-sa-dependance-a-la-chine-d-ici-a-2027_6814452_3234.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/societe/extreme-droite/saluts-nazis-caricatures-references-a-hitler-dans-une-ecole-police-le-racisme-decomplexe-de-futurs-officiers",
+          "type": "mainstream"
         },
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/economie/industrie/la-france-va-se-doter-de-stocks-strategiques-de-terres-rares-et-metaux-prioritaires-annonce-l-elysee_8296749.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261124-colombie-dix-ans-apr%C3%A8s-sa-signature-l-accord-de-paix-avec-les-farc-menac%C3%A9",
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/societe/antisemitisme-laurent-nunez-renforce-les-mesures-de-securite-pour-hanoukka-20261125",
           "type": "mainstream"
         }
       ],
       "lien": null
     },
     {
-      "titre": "Plainte de six députés LFI pour menaces de mort",
-      "rubrique": "societe",
-      "resume": "Six élus de la France Insoumise déposent plainte ce mardi après avoir reçu des courriers anonymes contenant des menaces de mort et des croix gammées. Ils dénoncent une inaction des autorités face à la multiplication des intimidations contre l'opposition (Le Monde, Sud-Ouest, franceinfo).",
+      "titre": "Le géant chinois BYD s'installe en Moselle",
+      "rubrique": "economie",
+      "resume": "Le constructeur automobile BYD est entré en négociations exclusives pour racheter l'usine Ineos Automotive d'Hambach. Ce projet vise à contourner les droits de douane européens en produisant des véhicules électriques directement sur le sol français (Le Monde, Numerama).",
       "sources": [
         {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/11/24/six-deputes-lfi-portent-plainte-pour-des-menaces-de-mort-anonymes_6814471_3224.html",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-constructeur-automobile-chinois-byd-va-s-implanter-en-france_6814850_3234.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
@@ -140,19 +109,8 @@
           }
         },
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/societe/justice/six-deputes-de-la-france-insoumise-vont-porter-plainte-pour-des-menaces-de-mort-anonymes_8296824.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/faits-divers/mort-de-nahel/mort-de-nahel-le-policier-a-l-origine-du-tir-va-t-il-etre-juge-pour-meurtre-la-cour-d-appel-de-versailles-se-prononce-ce-mardi-31645738.php",
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/pop-culture/2383635-6-bonnes-raisons-de-donner-sa-chance-a-blade-runner-2099-au-meme-niveau-que-les-films.html",
           "type": "mainstream"
         }
       ],
@@ -161,217 +119,219 @@
   ],
   "monde": [
     {
-      "titre": "L'Ukraine frappe des navires russes en Libye",
-      "pays": "Libye",
-      "resume": "Volodymyr Zelensky a revendiqué une attaque de drones navals contre une corvette et un cargo russes au large de Benghazi. Cette opération marque une extension géographique inédite du conflit, visant la logistique russe en Méditerranée (Le Monde, France 24, Le Figaro).",
+      "titre": "Nvidia : le retour de Jensen Huang sous influence politique",
+      "pays": "États-Unis",
+      "resume": "Ecarté pour des soupçons d'espionnage, le patron de Nvidia retrouve son poste grâce à une intervention directe de Donald Trump. Ce retour a fait bondir l'action de 30%, soulevant des questions sur les conflits d'intérêts financiers du président-élu (RFI, Courrier international).",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/afrique/article/2026/11/23/deux-navires-russes-attaques-dans-les-eaux-libyennes-une-extension-inedite-de-la-guerre-russo-ukrainienne_6814397_3212.html",
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-international/20261124-retour-de-jensen-huang-%C3%A0-la-t%C3%AAte-de-nvidia-il-y-a-une-relation-d-int%C3%A9r%C3%AAts-crois%C3%A9s-avec-donald-trump",
           "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/opinion-le-retour-de-jensen-huang-a-la-tete-de-nvidia-est-la-preuve-que-l-economie-est-prise-en-otage-par-l-ia_289853",
+          "type": "etranger",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
-        },
-        {
-          "nom": "France 24",
-          "url": "https://www.france24.com/fr/europe/20261123-navires-russes-cibl%C3%A9s-libye-face-moscou-ukraine-%C3%A9tend-domaine-lutte",
-          "type": "mainstream",
-          "groupe_media": null
         }
       ],
       "lien": null
     },
     {
-      "titre": "L'UE propose d'interdire les sportifs russes sur son sol",
-      "pays": "Russie / UE",
-      "resume": "Dans son 22e paquet de sanctions, la Commission européenne envisage d'interdire aux athlètes russes toute participation à des compétitions dans l'Union. La mesure vise également à freiner les financements en cryptomonnaies du Kremlin (Al Jazeera, L'Humanité).",
+      "titre": "Chute historique de l'espérance de vie à Cuba",
+      "pays": "Cuba",
+      "resume": "L'OMS alerte sur une baisse inédite de l'espérance de vie sur l'île, passée de 78,8 ans en 2020 à 74,4 ans en 2025. Cette dégradation est la conséquence directe d'une crise économique sévère et du blocus énergétique (The Guardian, Sud-Ouest).",
       "sources": [
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal",
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
           }
         },
         {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/monde/bielorussie/la-commission-europeenne-veut-interdire-aux-sportifs-russes-de-participer-aux-competitions-dans-lue",
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/international/cuba-l-esperance-de-vie-diminue-pour-la-premiere-fois-depuis-1950-alerte-l-oms-31657747.php",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "L'Humanité",
-            "proprietaire": "Société des lecteurs et salariés",
-            "type_proprietaire": "cooperative",
-            "orientation": "gauche"
-          }
+          "groupe_media": null
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Le retour de Jensen Huang chez Nvidia",
-    "rubrique": "tech",
-    "contexte": "Après une démission forcée par un scandale d'adultère et de soupçons d'espionnage chinois, Jensen Huang est réintégré à la tête de Nvidia en 11 jours.",
+    "sujet": "Politiques de lutte contre les violences faites aux femmes",
+    "rubrique": "societe",
+    "contexte": "À l'occasion du 25 novembre, le gouvernement affiche son bilan tandis que les associations dénoncent un manque de moyens concrets sur le terrain, notamment en zone rurale.",
     "couvertures": [
       {
-        "source": "Le Figaro",
+        "source": "La Croix",
         "type": "mainstream",
-        "angle": "Récit des coulisses et de l'influence déterminante de Washington.",
-        "ton": "factuel",
-        "url": "https://www.lefigaro.fr/secteur/high-tech/j-ai-hate-de-me-remettre-au-travail-les-coulisses-de-l-invraisemblable-retour-de-jensen-huang-chez-nvidia-20261123",
-        "citation_cle": "Une décision marquée par l’influence de Washington et dictée par des motifs économiques.",
-        "auteur": null,
-        "proprietaire_contexte": "Groupe Dassault",
-        "orientation_source": "Droite",
+        "angle": "Entretien exclusif valorisant la 'révolution' engagée par le gouvernement depuis le Grenelle.",
+        "ton": "complaisant",
+        "url": "https://www.la-croix.com/societe/aurore-berge-nous-avons-engage-une-revolution-dans-la-lutte-contre-les-violences-faites-aux-femmes-20261124",
+        "citation_cle": "Nous avons engagé une révolution dans la lutte contre les violences faites aux femmes.",
+        "auteur": "Paula Pinto Gomes",
+        "proprietaire_contexte": "Groupe Bayard",
+        "orientation_source": "Centre",
         "groupe_media": null
       },
       {
-        "source": "Courrier international",
-        "type": "etranger",
-        "angle": "Synthèse des critiques internationales sur le manque d'éthique de la décision.",
+        "source": "Blast",
+        "type": "investigation",
+        "angle": "Critique de la communication gouvernementale jugée déconnectée de la réalité rurale.",
         "ton": "critique",
-        "url": "https://www.courrierinternational.com/article/comeback-un-triomphe-de-l-argent-sur-la-morale-le-retour-de-jensen-huang-a-nvidia-ne-fait-pas-l-unanimite_289710",
-        "citation_cle": "Un triomphe de l’argent sur la morale.",
-        "auteur": null,
-        "proprietaire_contexte": "Groupe Le Monde",
-        "orientation_source": "Centre-droit",
+        "url": "https://www.blast-info.fr/articles/2026/la-lutte-contre-les-violences-patriarcales-le-gouvernement-sassoit-dessus-le-banc-rouge-et-le-numero-vert-N4O3gzCITnGNWfnVplfaeA",
+        "citation_cle": "La lutte contre les violences patriarcales, le gouvernement s’assoit dessus.",
+        "auteur": "Rédaction Blast",
+        "proprietaire_contexte": "Indépendant",
+        "orientation_source": "Gauche",
         "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
+          "nom": "Blast",
+          "proprietaire": "Blast",
+          "type_proprietaire": "independant",
+          "orientation": "gauche"
         }
       }
     ],
-    "analyse_coherence": "La couverture du retour de Jensen Huang révèle une fracture nette entre la realpolitik économique et les standards éthiques de gouvernance. Alors que les médias mainstream (Le Figaro, France 24) se concentrent sur l'aspect spectaculaire du 'come-back' et l'intervention de Donald Trump, la presse d'investigation et internationale (Mediapart, Courrier International) pointe du doigt un double standard flagrant. Si un dirigeant de moindre importance avait été soupçonné de relations avec une espionne étrangère, sa carrière serait définitivement brisée. Ici, l'importance systémique de Nvidia pour l'économie américaine et la course à l'IA semble avoir suspendu les principes de précaution et de moralité. Les sources divergent peu sur les faits, mais radicalement sur leur interprétation : là où les marchés voient une 'rassurance', les critiques y voient la capitulation de l'éthique devant le profit. Le rôle de Donald Trump, revendiquant avoir poussé pour ce retour, souligne une porosité croissante entre les intérêts privés des géants de la tech et le pouvoir politique, au détriment des procédures de sécurité nationale classiques.",
+    "analyse_coherence": "Le traitement médiatique des violences faites aux femmes révèle une fracture profonde entre la communication institutionnelle et la réalité socio-économique. D'un côté, les médias mainstream comme La Croix offrent une tribune sans filtre à la ministre Aurore Bergé, qui utilise un lexique hégémonique ('révolution', 'bilan historique'). De l'autre, des médias d'investigation ou engagés (Blast, L'Humanité) opposent des faits matériels : le manque de structures en milieu rural et l'obstacle financier majeur que représente le départ du domicile conjugal. On observe un double standard dans l'évaluation de l'efficacité publique : là où le gouvernement met en avant des symboles (bancs rouges, numéros verts), les sources indépendantes pointent l'absence de redistribution de richesses vers les structures d'accueil. La focalisation sur la 'révolution' administrative occulte le fait que la justice sociale et l'autonomie financière restent les parents pauvres de cette politique, alors que le coût de la mise en sécurité (16 800€) est largement supérieur aux aides actuelles.",
     "biais_detectes": [
-      "Complaisance envers les 'Too big to fail'",
-      "Priorisation du profit sur la sécurité nationale",
-      "Héroïsation du dirigeant providentiel"
+      "Complaisance institutionnelle",
+      "Invisibilisation des obstacles financiers",
+      "Déconnexion territoriale"
     ],
-    "ce_quil_faut_retenir": "Le retour de Huang prouve que dans la tech mondiale, la puissance de marché peut neutraliser des scandales d'État."
+    "ce_quil_faut_retenir": "Si la parole se libère et que les dispositifs d'alerte se multiplient, l'absence de moyens financiers massifs pour l'autonomie des femmes reste le principal verrou à leur protection réelle."
   },
-  "regard_etranger": [],
+  "regard_etranger": [
+    {
+      "source": "Courrier international",
+      "pays": "France/Monde",
+      "titre": "Macron et la règle d'or budgétaire : l'analyse de la presse étrangère",
+      "titre_original": "Pourquoi Emmanuel Macron a-t-il déterré le projet de règle d’or budgétaire ?",
+      "angle": "Synthèse des doutes étrangers sur la sincérité d'une rigueur constitutionnelle proposée en fin de mandat.",
+      "url": "https://www.courrierinternational.com/article/vu-de-l-etranger-pourquoi-emmanuel-macron-a-t-il-deterre-le-projet-de-regle-d-or-budgetaire_289847",
+      "groupe_media": {
+        "nom": "Groupe Le Monde",
+        "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+        "type_proprietaire": "milliardaire",
+        "orientation": "centre-droit"
+      }
+    }
+  ],
   "chiffre_du_jour": {
-    "valeur": "44 milliards $",
-    "contexte": "Le montant historique du rachat de Zscaler par CrowdStrike, marquant une consolidation sans précédent dans le secteur de la cybersécurité.",
-    "source": "TechCrunch",
-    "source_url": "https://techcrunch.com"
+    "valeur": "10 TWh",
+    "contexte": "Consommation annuelle estimée des data centers en France en 2026, soit environ 2 % de la consommation totale d'électricité du pays.",
+    "source": "RTE",
+    "source_url": "https://www.rte-france.com/bases-electricite/consommation-electricite/essor-data-centers-france"
   },
   "a_surveiller": [
     {
-      "date": "2026-11-24",
-      "evenement": "Décision de la cour d'appel de Versailles sur le renvoi pour meurtre du policier ayant tué Nahel",
-      "type": "justice_sociale",
-      "lien": "https://www.sudouest.fr/faits-divers/mort-de-nahel/mort-de-nahel-le-policier-a-l-origine-du-tir-va-t-il-etre-juge-pour-meurtre-la-cour-d-appel-de-versailles-se-prononce-ce-mardi-31645738.php"
+      "date": "2027-01-01",
+      "evenement": "Suppression de l'équipe de nuit chez Stellantis Sochaux",
+      "type": "echeance_economique",
+      "lien": "https://www.la-croix.com/economie/stellantis-stoppe-l-equipe-de-nuit-a-sochaux-500-emplois-concernes-20261124"
+    },
+    {
+      "date": "2027-03-03",
+      "evenement": "Ouverture du procès Sarkozy/Bruni (Affaire Takieddine)",
+      "type": "audition",
+      "lien": "https://www.rfi.fr/fr/france/20261124-fausse-r%C3%A9tractation-de-ziad-takieddine-nicolas-sarkozy-et-carla-bruni-renvoy%C3%A9s-en-proc%C3%A8s"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Marseille : un câble sous-marin vers Israël sous tension",
-      "rubrique": "international",
-      "resume": "À Marseille, les travaux d'atterrage du câble 'EMC West' reliant la France à Ashkelon (Israël) font l'objet d'une contestation locale. Des militants dénoncent une collaboration technologique en plein conflit à Gaza, alors que le navire câblier Île d’Yeu opère sous haute surveillance préfectorale (Blast, Préfecture maritime).",
+      "titre": "Data centers : le 'mécénat' pour acheter le silence des maires",
+      "rubrique": "ecologie",
+      "resume": "À Bouc-Bel-Air, le constructeur Digital Realty a versé 170 000 euros de 'mécénat' à la commune juste après l'obtention d'un permis de construire contesté. Cette pratique de financement privé des communes par les géants du numérique interroge sur l'indépendance des décisions d'urbanisme (Reporterre, Slate).",
       "sources": [
         {
-          "nom": "Blast",
-          "url": "https://www.blast-info.fr/articles/2026/a-marseille-un-cable-sous-marin-vers-israel-conteste-au-nom-de-la-solidarite-avec-la-palestine-UMdxrr5WRCaUjG-8UjKhIw",
+          "nom": "Reporterre",
+          "url": "https://reporterre.net/Ils-achetent-le-silence-pour-faire-accepter-ses-data-centers-un-constructeur-sort-le",
           "type": "investigation"
         },
         {
-          "nom": "Préfecture maritime",
-          "url": "https://www.premar-mediterranee.gouv.fr/uploads/mediterranee/arretes/fd9abe7fdf1e4efc9d5111f1d004fe43.pdf",
-          "type": "institutionnel"
+          "nom": "Slate FR",
+          "url": "https://www.slate.fr/societe/data-centers-france-citoyens-revolte-riverains-contestation-pollution-environnement-le-bourget-seine-saint-denis",
+          "type": "mainstream"
         }
       ],
-      "pourquoi_signal": "Ce sujet illustre comment les infrastructures physiques d'Internet deviennent des terrains de lutte géopolitique locale, souvent ignorés par les médias nationaux."
-    },
-    {
-      "titre": "Le business opaque des grenades lacrymogènes à Toulouse",
-      "rubrique": "economie",
-      "resume": "L'entreprise Étienne Lacroix, via sa filiale Alsetex, engrange des bénéfices records grâce aux marchés publics de 'maintien de l’ordre'. L'enquête révèle un secret industriel bien gardé sur la fabrication de ces armes intermédiaires (Médiacités, BOAMP).",
-      "sources": [
-        {
-          "nom": "Médiacités",
-          "url": "https://www.mediacites.fr/economie/toulouse/2026/11/23/grenades-lacrymo-et-lance-grenades-le-juteux-et-discret-business-dune-entreprise-toulousaine/",
-          "type": "investigation"
-        },
-        {
-          "nom": "BOAMP",
-          "url": "https://www.boamp.fr/telechargements/FILES/PDF/2026/05/26-52002.pdf",
-          "type": "institutionnel"
-        }
-      ],
-      "pourquoi_signal": "Il pointe la dépendance de l'État envers des fournisseurs privés pour ses outils de répression, un sujet rarement traité sous l'angle financier."
+      "pourquoi_signal": "Elle révèle une nouvelle forme de pression financière des Big Tech sur les collectivités locales pour contourner les résistances écologiques."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Cisjordanie : les secouristes palestiniens pris pour cible",
+      "titre": "Cisjordanie : la terreur coloniale cible les écoles",
       "rubrique": "international",
-      "resume": "L'ONG Physicians for Human Rights–Israel documente une hausse de 350 % des attaques contre les ambulances et secouristes palestiniens en quatre ans. Ces entraves systématiques par l'armée et les colons constituent une violation grave du droit international humanitaire.",
+      "resume": "En Cisjordanie occupée, les écoles comme celle d'Al-Mughayyir vivent sous la menace constante des colons. En 2026, les incidents violents touchant l'éducation ont doublé, avec plusieurs élèves tués devant leurs établissements (RFI, Mediapart).",
       "axes_concernes": [
         "droit_international",
+        "colonialisme",
         "droits_humains"
       ],
-      "analyse": "Cette situation est alarmante car elle dénote une érosion totale des protections accordées aux personnels de santé en zone de conflit. L'impunité des attaques documentées par une ONG israélienne elle-même souligne l'urgence d'une intervention internationale pour faire respecter les conventions de Genève.",
+      "analyse": "La situation en Cisjordanie dépasse le cadre du simple conflit territorial pour devenir une entreprise systématique de harcèlement des populations civiles. Le ciblage des écoles, documenté par l'ONU, constitue une violation flagrante du droit international et une entrave au droit fondamental à l'éducation. L'impunité dont bénéficient les colons, malgré les condamnations de façade de certains responsables israéliens comme Gadi Eisenkot, témoigne d'une complicité structurelle de l'État occupant.",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/international/231126/en-cisjordanie-soldats-et-colons-ciblent-les-secouristes-palestiniens",
-          "type": "investigation"
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-international/20261124-cisjordanie-occup%C3%A9e-les-%C3%A9coles-en-%C3%A9tat-d-alerte-face-%C3%A0-la-violence-des-colons-isra%C3%A9liens",
+          "type": "mainstream"
         },
         {
-          "nom": "PHRI",
-          "url": null,
-          "type": "institutionnel"
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/international/241126/en-cisjordanie-occupee-une-systematique-politique-israelienne-de-terreur-coloniale",
+          "type": "investigation"
         }
       ]
     },
     {
-      "titre": "Gaza : un territoire contaminé à 99 %",
-      "rubrique": "international",
-      "resume": "Un rapport d'Oxfam et du CEOBS affirme que la quasi-totalité de la bande de Gaza est devenue une 'zone toxique'. La destruction des infrastructures et l'usage massif d'explosifs ont pollué les sols et l'eau pour des décennies.",
+      "titre": "Mayotte : l'échec sécuritaire du 101e département",
+      "rubrique": "societe",
+      "resume": "Malgré les opérations 'chocs' à répétition, Mayotte s'enfonce dans une crise sécuritaire et sociale sans précédent. Le viol d'une automobiliste et la mort de deux adolescents soulignent l'inefficacité des méthodes répressives actuelles (Mediapart, RFI).",
       "axes_concernes": [
-        "ecologie_sociale",
+        "justice_sociale",
         "droits_humains"
       ],
-      "analyse": "Il s'agit d'un écocide aux conséquences sanitaires incalculables. Cette contamination toxique rendra le territoire inhabitable bien après la fin des combats, posant la question de la responsabilité d'Israël dans la destruction durable des conditions de vie d'une population civile.",
+      "analyse": "L'obstination de l'État français à traiter la crise mahoraise uniquement sous l'angle policier et migratoire est une impasse. Le décalage entre les bilans officiels et le vécu des habitants montre que sans investissement massif dans les services publics et la justice sociale, la spirale de violence ne fera que s'accentuer, laissant une population française dans un abandon citoyen inadmissible.",
       "sources": [
         {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/international/gaza-un-territoire-contamine-a-plus-de-99-apres-trois-ans-de-guerre-selon-oxfam-20261123",
-          "type": "mainstream"
+          "nom": "Mediapart",
+          "url": "https://www.mediapart.fr/journal/france/241126/mayotte-les-chocs-de-securite-de-l-etat-ne-font-plus-illusion",
+          "type": "investigation"
         },
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o",
-          "type": "etranger"
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20261124-on-vit-dans-la-peur-de-sortir-%C3%A0-mayotte-la-population-s-inqui%C3%A8te-d-une-flamb%C3%A9e-des-violences",
+          "type": "mainstream"
         }
       ]
     }
   ],
-  "date": "2026-11-24",
-  "genere_a": "2026-11-24T05:35:35.573Z",
+  "date": "2026-11-25",
+  "genere_a": "2026-11-25T05:35:34.703Z",
   "meta": {
-    "nb_articles_analyses": 701,
-    "nb_topics": 211,
+    "nb_articles_analyses": 725,
+    "nb_topics": 213,
     "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 58,
-    "sources_francaises": 479,
-    "sources_etrangeres": 222,
+    "nb_articles_dans_selection": 44,
+    "sources_francaises": 467,
+    "sources_etrangeres": 258,
     "rubriques_couvertes": [
-      "tech",
-      "politique",
-      "economie",
       "societe",
+      "economie",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
