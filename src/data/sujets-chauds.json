@@ -1,252 +1,244 @@
 {
-  "date": "2026-11-25",
-  "genere_a": "2026-11-25T05:36:22.857Z",
+  "date": "2026-11-26",
+  "genere_a": "2026-11-26T05:36:36.545Z",
   "sujets_actifs": [
     {
-      "titre": "Nvidia : Jensen Huang réintégré sous haute tension politique et judiciaire",
-      "slug": "nvidia-jensen-huang-reintegration-enquete-trump",
-      "rubrique": "tech",
+      "titre": "Reporters sans frontières demande la suspension de CNews pour défaut de pluralisme",
+      "slug": "rsf-demande-suspension-cnews-arcom",
+      "rubrique": "societe",
       "tldr": [
-        "Jensen Huang réintégré comme PDG de Nvidia après 11 jours d'éviction.",
-        "Le titre Nvidia chute de 7% suite à des soupçons d'ingérence de Donald Trump.",
-        "Le Sénat américain ouvre une enquête sur des violations présumées des contrôles d'exportation vers la Chine."
+        "RSF saisit l'Arcom pour demander une suspension d'un mois de la chaîne CNews.",
+        "L'ONG dénonce un non-respect répété du pluralisme après l'analyse de 61 heures de programmes.",
+        "Accusation d'une ligne éditoriale quasi-exclusivement tournée vers l'extrême droite."
       ],
-      "resume": "Onze jours après son éviction surprise, Jensen Huang retrouve son poste de PDG chez Nvidia, mais ce retour s'accompagne d'une violente secousse boursière (-7%). Le procureur général des États-Unis est sommé de s'expliquer sur l'implication directe de Donald Trump dans cette réintégration, alors que le président se dit prêt à gracier Huang (The Guardian). Parallèlement, le sénateur Chuck Schumer accuse le dirigeant d'avoir contourné les lois américaines en livrant des puces stratégiques à la Chine (BBC News). Cette crise souligne la porosité croissante entre les géants de l'IA et le pouvoir politique exécutif américain.",
-      "contexte_historique": "Nvidia fait face à des restrictions d'exportation vers la Chine depuis 2022, le département du Commerce cherchant à freiner les capacités militaires de Pékin (Reuters, 2022). L'ingérence présidentielle directe dans la gouvernance d'une entreprise privée cotée rappelle les pressions exercées sur TikTok en 2020, mais à une échelle systémique pour l'économie mondiale.",
+      "resume": "L'organisation Reporters sans frontières (RSF) a annoncé le 26 novembre 2026 sa décision de saisir l'Arcom pour réclamer la suspension de CNews durant un mois. Cette action fait suite à une étude minutieuse des programmes diffusés en septembre, où l'ONG affirme avoir identifié une absence de diversité des points de vue, favorisant systématiquement les thèses de l'extrême droite (Le Monde, franceinfo). RSF souligne que la chaîne, contrôlée par le groupe Bolloré, multiplie les manquements malgré les précédentes mises en garde du régulateur. De son côté, la chaîne n'a pas encore officiellement réagi, mais ses soutiens dénoncent régulièrement une tentative de censure visant la liberté d'expression.",
+      "contexte_historique": "En février 2024, le Conseil d'État, saisi par RSF, avait déjà contraint l'Arcom à renforcer son contrôle sur le pluralisme des chaînes, non plus seulement en comptant le temps de parole des politiques, mais en évaluant l'équilibre global des intervenants (Conseil d'État, 2024). CNews a déjà fait l'objet de multiples amendes, dont une de 200 000 euros en 2021 pour provocation à la haine.",
       "implications": [
-        "Instabilité accrue du secteur des semi-conducteurs face aux décisions politiques imprévisibles.",
-        "Durcissement probable des contrôles parlementaires sur les transferts technologiques vers l'Asie."
+        "Augmentation de la pression réglementaire sur les chaînes d'opinion en France.",
+        "Débat renouvelé sur les critères de renouvellement des fréquences TNT prévu pour 2025-2026."
       ],
       "chronologie": [
         {
-          "date": "2026-11-25",
-          "texte": "Chute de 7% de l'action Nvidia après les déclarations de Trump sur une possible grâce.",
-          "source": "BBC News"
+          "date": "2026-11-26",
+          "texte": "RSF dépose officiellement sa demande de suspension auprès de l'Arcom.",
+          "source": "Ouest-France"
         },
         {
-          "date": "2026-11-24",
-          "texte": "Le Sénat américain demande des comptes sur l'implication de la Maison Blanche.",
-          "source": "The Guardian"
+          "date": "2026-09-01",
+          "texte": "Début de la période d'observation des programmes par les experts de RSF.",
+          "source": "Le Monde"
         },
         {
-          "date": "2026-11-12",
-          "texte": "Éviction initiale de Jensen Huang provoquant un séisme boursier.",
-          "source": "Citoyens.ai"
+          "date": "2024-02-13",
+          "texte": "Le Conseil d'État impose à l'Arcom de veiller au pluralisme des courants de pensée.",
+          "source": "franceinfo"
         }
       ],
       "couvertures": [
         {
-          "source": "The Guardian",
-          "type": "etranger",
-          "angle": "Focus sur l'ingérence politique de Trump et les accusations de violation des lois d'exportation.",
-          "ton": "critique",
-          "url": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
-          "citation_cle": "Schumer accuse Huang de violer les lois américaines sur le contrôle des exportations via des expéditions de puces vers la Chine.",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
-          "source": "BBC News",
+          "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse de la réaction des marchés et du mutisme du procureur général.",
+          "angle": "Analyse juridique de la persistance des manquements au pluralisme malgré les rappels à l'ordre.",
           "ton": "factuel",
-          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Les législateurs exigent des réponses sur l'implication du président Donald Trump dans la réintégration de Huang.",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/26/reporters-sans-frontieres-demande-la-suspension-de-cnews-pour-une-duree-d-un-mois_6815475_3234.html",
+          "citation_cle": "L’ONG dénonce de nouveau un « défaut de pluralisme » et saisit une nouvelle fois le régulateur.",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "source": "TechCrunch",
-          "type": "etranger",
-          "angle": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
-          "ton": "factuel",
-          "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
-          "citation_cle": "Huang faces ongoing questions about his relationship with Alice Huang, an executive with alleged ties to Chinese intelli",
+          "source": "L'Humanité",
+          "type": "mainstream",
+          "angle": "Focus sur la nécessité de durcir les sanctions face à une chaîne récidiviste.",
+          "ton": "engage",
+          "url": "https://www.humanite.fr/medias/arcom/il-faut-monter-dans-lechelle-des-sanctions-reporters-sans-frontieres-saisit-larcom-pour-une-suspension-de-cnews",
+          "citation_cle": "Il faut monter dans l’échelle des sanctions.",
           "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
           }
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Quelles contreparties exactes ont été négociées entre Huang et l'administration Trump ?",
-        "L'enquête du Sénat débouchera-t-elle sur des sanctions pénales ?"
+        "Quelle sera la célérité de l'Arcom à traiter ce dossier sensible en période pré-électorale ?",
+        "La suspension, si elle est actée, s'appliquera-t-elle également aux services de replay ?"
       ],
       "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
-          "type": "journal",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/26/reporters-sans-frontieres-demande-la-suspension-de-cnews-pour-une-duree-d-un-mois_6815475_3234.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
           }
         },
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
-          "type": "journal",
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/economie/medias/l-ong-reporters-sans-frontieres-saisit-l-arcom-pour-demander-de-suspendre-cnews-pendant-un-mois_8300685.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
+        },
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/medias/arcom/il-faut-monter-dans-lechelle-des-sanctions-reporters-sans-frontieres-saisit-larcom-pour-une-suspension-de-cnews",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
+          }
         }
       ],
-      "premiere_apparition": "2026-11-12"
+      "premiere_apparition": "2026-11-26"
     },
     {
-      "titre": "Colombie : Prise d'otages massive à Carthagène sur fond de crise sécuritaire",
-      "slug": "colombie-prise-otages-carthagene-supermarche",
-      "rubrique": "international",
+      "titre": "Détection de polluants éternels (PFAS) dans les laits infantiles en France",
+      "slug": "pfas-laits-infantiles-france-contamination",
+      "rubrique": "science",
       "tldr": [
-        "Au moins 20 personnes retenues en otage dans un supermarché à Carthagène.",
-        "Le président Abelardo de la Espriella est sur place pour superviser l'assaut.",
-        "Le gouvernement privilégie la piste du banditisme de droit commun."
+        "L'ONG Générations futures révèle la présence de PFAS dans des laits infantiles vendus en France.",
+        "Certains échantillons dépassent les seuils de sécurité sanitaire hebdomadaires pour les nourrissons.",
+        "Appel à un renforcement urgent de la réglementation européenne sur les substances cancérogènes."
       ],
-      "resume": "Une prise d'otages spectaculaire paralyse un supermarché de Carthagène, ville touristique majeure de Colombie. Le président Abelardo de la Espriella a dépêché des dizaines de membres des forces de sécurité et s'est rendu personnellement sur les lieux pour diriger les opérations (The Guardian). Bien que le pays traverse un regain de violence lié aux groupes armés, l'exécutif affirme que cet acte relève de la criminalité commune et non du terrorisme politique (Le Monde). Cette situation intervient dans un climat de dégradation sécuritaire dix ans après les accords de paix historiques.",
-      "contexte_historique": "Depuis la fin des accords de paix de 2016 avec les FARC, la Colombie fait face à une fragmentation des groupes criminels. Carthagène, bien que protégée par son statut touristique, subit une hausse de 15% des homicides liés au contrôle territorial urbain en 2025 (Indepaz, 2025).",
+      "resume": "Un rapport de l'ONG Générations futures, publié le 26 novembre 2026, jette l'alarme sur la présence de substances per- et polyfluoroalkylées (PFAS) dans des laits infantiles commercialisés en France. L'étude montre que 21 % des échantillons analysés sont contaminés par ces 'polluants éternels', dont certains sont classés comme cancérogènes (La Croix, Le Monde). L'exposition est particulièrement critique pour les nourrissons, dont l'organisme en développement est plus vulnérable. L'ONG pointe des lacunes majeures dans les contrôles actuels et demande une interdiction totale de ces substances dans les produits destinés à l'alimentation humaine, conformément aux principes de précaution.",
+      "contexte_historique": "Les PFAS sont utilisés depuis les années 1940 pour leurs propriétés antiadhésives et imperméabilisantes. En 2023, une enquête européenne (Forever Pollution Project) avait déjà révélé la contamination massive des sols et des eaux en Europe, mais c'est la première fois qu'une étude cible spécifiquement les laits infantiles en France avec un tel niveau de détail.",
       "implications": [
-        "Risque de déstabilisation du secteur touristique, pilier de l'économie colombienne.",
-        "Pression politique accrue sur le président de la Espriella pour durcir la politique sécuritaire."
+        "Risque de crise de confiance des consommateurs envers les géants de l'agroalimentaire infantile.",
+        "Accélération possible de la législation européenne 'REACH' sur la restriction des substances chimiques."
       ],
       "chronologie": [
         {
-          "date": "2026-11-25",
-          "texte": "Le président arrive sur les lieux alors que le siège dure depuis plusieurs heures.",
-          "source": "The Guardian"
+          "date": "2026-11-26",
+          "texte": "Publication du rapport de Générations futures sur la contamination des laits infantiles.",
+          "source": "La Croix"
         },
         {
-          "date": "2026-11-24",
-          "texte": "Début de l'attaque du supermarché par un groupe armé non identifié.",
+          "date": "2026-04-10",
+          "texte": "L'Assemblée nationale française adopte une loi visant à restreindre la fabrication des PFAS.",
           "source": "Le Monde"
         }
       ],
       "couvertures": [
         {
-          "source": "The Guardian",
-          "type": "etranger",
-          "angle": "Détails opérationnels sur le siège et l'implication directe du président.",
-          "ton": "neutre",
-          "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
-          "citation_cle": "Abelardo de la Espriella prend le contrôle d'une opération impliquant des dizaines de membres du personnel de sécurité.",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
           "source": "Le Monde",
           "type": "mainstream",
-          "angle": "Analyse de la distinction faite par le gouvernement entre banditisme et guérilla.",
+          "angle": "Focus sur les risques sanitaires pour les nourrissons et les niveaux d'exposition hebdomadaires.",
           "ton": "factuel",
-          "url": "https://www.lemonde.fr/international/article/2026/11/25/en-colombie-le-president-et-l-armee-a-carthagenes-pour-une-prise-d-otages-en-cours-dans-un-supermarche_6814815_3211.html",
-          "citation_cle": "Le chef de l’Etat a affirmé que cette prise d’otages relevait de la criminalité de droit commun.",
+          "url": "https://www.lemonde.fr/planete/article/2026/11/26/des-laits-infantiles-vendus-en-france-sont-contamines-par-des-pfas-interdits-et-cancerogenes_6815474_3244.html",
+          "citation_cle": "Des niveaux qui exposent les nourrissons à des dépassements de la dose hebdomadaire.",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
+        },
+        {
+          "source": "La Croix",
+          "type": "mainstream",
+          "angle": "Analyse des failles de la réglementation européenne actuelle dénoncées par l'ONG.",
+          "ton": "neutre",
+          "url": "https://www.la-croix.com/sante/pfas-dans-les-aliments-generations-futures-pointe-des-failles-dans-la-reglementation-europeenne-20261126",
+          "citation_cle": "Générations futures pointe des lacunes majeures dans la réglementation européenne.",
+          "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Quelles sont les revendications exactes des preneurs d'otages ?",
-        "Y a-t-il des liens réels entre ces criminels et les structures paramilitaires régionales ?"
+        "Quelles sont les marques spécifiques concernées par les prélèvements les plus contaminés ?",
+        "Comment les PFAS migrent-ils précisément dans le produit (emballage ou chaîne de production) ?"
       ],
       "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
-          "type": "journal",
-          "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
-            "type_proprietaire": "fondation",
-            "orientation": "centre-gauche"
-          }
-        },
-        {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/international/article/2026/11/25/en-colombie-le-president-et-l-armee-a-carthagenes-pour-une-prise-d-otages-en-cours-dans-un-supermarche_6814815_3211.html",
-          "type": "journal",
+          "url": "https://www.lemonde.fr/planete/article/2026/11/26/des-laits-infantiles-vendus-en-france-sont-contamines-par-des-pfas-interdits-et-cancerogenes_6815474_3244.html",
+          "type": "mainstream",
           "groupe_media": {
             "nom": "Groupe Le Monde",
             "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
+        },
+        {
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/sante/pfas-dans-les-aliments-generations-futures-pointe-des-failles-dans-la-reglementation-europeenne-20261126",
+          "type": "mainstream",
+          "groupe_media": null
         }
       ],
-      "premiere_apparition": "2026-11-24"
+      "premiere_apparition": "2026-11-26"
     },
     {
-      "titre": "Huawei condamné pour vol de secrets industriels aux États-Unis",
-      "slug": "huawei-condamnation-secrets-industriels-usa",
+      "titre": "Donald Trump et l'Otan tentent de freiner l'escalade russe en Ukraine",
+      "slug": "trump-rutte-otan-escalade-russie",
       "rubrique": "international",
       "tldr": [
-        "Un jury new-yorkais reconnaît Huawei coupable de vol de secrets commerciaux.",
-        "Le groupe est également condamné pour avoir trompé des banques sur ses activités en Iran.",
-        "Acquittement sur le chef d'accusation de racket (racketeering)."
+        "Rencontre entre Donald Trump et Mark Rutte (Otan) en Floride.",
+        "Appel conjoint à la Russie pour ne pas « étendre la guerre ».",
+        "Volonté affichée d'obtenir une résolution pacifique rapide du conflit."
       ],
-      "resume": "Après huit ans de procédure, le géant chinois Huawei a été reconnu coupable par un tribunal de New York de fraude bancaire et de vol de secrets industriels (Courrier international). Le procès a démontré que l'entreprise avait systématiquement cherché à s'approprier des technologies américaines tout en dissimulant ses transactions avec l'Iran (Ouest-France). Toutefois, le jury a acquitté Huawei des charges de racket, une victoire partielle pour la défense. Ce verdict marque une étape cruciale dans la guerre technologique sino-américaine, confirmant l'usage de l'appareil judiciaire comme outil de régulation géopolitique.",
-      "contexte_historique": "Depuis 2019, Huawei est placé sur une 'liste noire' par Washington, empêchant ses fournisseurs américains de commercer avec lui sans licence. Les États-Unis accusent régulièrement l'entreprise d'être un bras armé du renseignement chinois, ce que Pékin a toujours nié (DoJ, 2019).",
+      "resume": "Le président élu Donald Trump a reçu le secrétaire général de l'Otan, Mark Rutte, dans sa résidence de Mar-a-Lago le 25 novembre 2026. Dans une déclaration commune publiée le lendemain, les deux hommes ont exhorté Vladimir Poutine à ne pas étendre le conflit ukrainien, soulignant les risques d'une escalade globale (BFM TV, France 24). Cette rencontre marque un tournant diplomatique, Trump affichant une volonté de collaboration avec l'Otan pour forcer une négociation, tandis que Mark Rutte cherche à sécuriser l'engagement américain avant l'investiture officielle. Parallèlement, l'Ukraine continue de frapper des bases russes en profondeur, augmentant la tension sur le terrain (Ouest-France).",
+      "contexte_historique": "Depuis le début de l'invasion en 2022, les relations entre Trump et l'Otan ont été marquées par des critiques sur le financement européen. Le retour de Trump au pouvoir coïncide avec une utilisation accrue de missiles de longue portée par Kiev et des menaces nucléaires répétées de Moscou (Mémorandum de Budapest, 1994).",
       "implications": [
-        "Durcissement probable des sanctions économiques contre Huawei et ses filiales.",
-        "Risque de mesures de rétorsion chinoises contre des entreprises tech américaines en Chine."
+        "Possible gel du conflit sur les lignes de front actuelles si les négociations s'accélèrent.",
+        "Réorganisation de la défense européenne face à une possible réduction de l'aide directe américaine."
       ],
       "chronologie": [
         {
-          "date": "2026-11-25",
-          "texte": "Verdict du jury à New York après 11 semaines de procès.",
-          "source": "BBC News"
+          "date": "2026-11-26",
+          "texte": "Déclaration conjointe Trump-Rutte appelant à la désescalade.",
+          "source": "France 24"
         },
         {
-          "date": "2019-05-15",
-          "texte": "Huawei est placé sur la liste noire commerciale des États-Unis.",
-          "source": "Courrier international"
+          "date": "2026-11-25",
+          "texte": "Rencontre diplomatique à Mar-a-Lago, Floride.",
+          "source": "BFM TV"
+        },
+        {
+          "date": "2026-11-24",
+          "texte": "L'Ukraine frappe des navires russes en Libye, montrant l'extension géographique du conflit.",
+          "source": "L'Humanité"
         }
       ],
       "couvertures": [
         {
-          "source": "BBC News",
-          "type": "etranger",
-          "angle": "Focus sur l'acquittement pour racket malgré la culpabilité sur le vol de secrets.",
-          "ton": "factuel",
-          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
-          "citation_cle": "Huawei reconnu coupable d'avoir volé des secrets commerciaux mais acquitté de racket.",
+          "source": "France 24 FR",
+          "type": "mainstream",
+          "angle": "Focus sur l'unité de façade entre Trump et l'Otan face aux provocations de Moscou.",
+          "ton": "neutre",
+          "url": "https://www.france24.com/fr/europe/20261126-en-direct-ukraine-russie-ue-sommet-aide-zelensky-poutine",
+          "citation_cle": "Trump et le chef de l'Otan exhortent Moscou à ne pas étendre la guerre.",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
         },
         {
-          "source": "Courrier international",
-          "type": "etranger",
-          "angle": "Synthèse de la presse internationale sur l'issue de huit ans de procédure.",
-          "ton": "neutre",
-          "url": "https://www.courrierinternational.com/article/justice-le-geant-chinois-des-telecoms-huawei-reconnu-coupable-de-vol-de-secrets-industriels-aux-etats-unis_290073",
-          "citation_cle": "Huawei a été reconnu coupable de fraude bancaire et de vol de secrets industriels, mardi à New York.",
+          "source": "BFM TV",
+          "type": "mainstream",
+          "angle": "Analyse de la stratégie de Trump pour se positionner en faiseur de paix avant sa prise de fonction.",
+          "ton": "factuel",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/donald-trump-et-le-secretaire-general-de-l-otan-exhortent-la-russie-a-ne-pas-etendre-la-guerre-avec-l-ukraine_AD-202611260171.html",
+          "citation_cle": "Obtenir une résolution rapide et pacifique du conflit.",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
@@ -254,99 +246,89 @@
         {
           "source": "Ouest-France",
           "type": "mainstream",
-          "angle": "Le géant chinois Huawei reconnu coupable de vol de secrets industriels aux États-Unis",
+          "angle": "Guerre en Ukraine. Base militaire russe bombardée, des missiles balistiques frappent Kiev… Le point sur la nuit",
           "ton": "factuel",
-          "url": "https://www.ouest-france.fr/high-tech/huawei/le-geant-chinois-huawei-reconnu-coupable-de-vol-de-secrets-industriels-aux-etats-unis-21daffb2-e889-11f1-9b33-2f81462d3339?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "citation_cle": "La société chinoise de télécommunications Huawei a été reconnue coupable par un jury new-yorkais d’avoir trompé les banq",
+          "url": "https://www.ouest-france.fr/europe/ukraine/guerre-en-ukraine-base-militaire-russe-bombardee-des-missiles-balistiques-frappent-kiev-le-point-sur-la-nuit-42fe3d44-e893-11f1-9b33-2f81462d3339?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "citation_cle": "Les forces spéciales ukrainiennes ont mené une opération contre une base aérienne militaire russe située à plus de mille",
           "groupe_media": null
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "Quel sera le montant exact des amendes infligées lors du prononcé de la peine ?",
-        "Comment Huawei compte-t-il maintenir ses activités aux États-Unis après ce verdict ?"
+        "Quelles concessions territoriales Trump est-il prêt à accepter pour obtenir la paix ?",
+        "Comment les pays d'Europe centrale réagiront-ils si l'aide à l'Ukraine est intégrée au budget européen ?"
       ],
       "sources": [
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
-          "type": "journal",
-          "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/europe/20261126-en-direct-ukraine-russie-ue-sommet-aide-zelensky-poutine",
+          "type": "mainstream",
+          "groupe_media": null
         },
         {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/justice-le-geant-chinois-des-telecoms-huawei-reconnu-coupable-de-vol-de-secrets-industriels-aux-etats-unis_290073",
-          "type": "journal",
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/donald-trump-et-le-secretaire-general-de-l-otan-exhortent-la-russie-a-ne-pas-etendre-la-guerre-avec-l-ukraine_AD-202611260171.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
         },
         {
           "nom": "Ouest-France",
-          "url": "https://www.ouest-france.fr/pays-de-la-loire/la-menitre-49250/rosiers-gazon-arbres-fruitiers-dans-ce-jardin-on-teste-les-vegetaux-haut-de-gamme-que-vous-plantez-chez-vous-940533c2-e7e0-11f1-9b33-2f81462d3339?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
-          "type": "journal",
+          "url": "https://programmetv.ouest-france.fr/chaines/programme-tv-cnews-226/rsf-demande-la-suspension-de-cnews-denoncant-un-peril-democratique-3165c1f4-e958-11f1-86c1-70195b4d2e52?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "type": "mainstream",
           "groupe_media": null
         }
       ],
-      "premiere_apparition": "2018-12-01"
+      "premiere_apparition": "2026-11-25"
     }
   ],
   "sujets_refroidis": [
     {
-      "titre": "Macron propose une « règle d'or » budgétaire",
-      "slug": "macron-regle-or-budgetaire-constitution",
-      "rubrique": "politique",
-      "resume": "Le débat s'est déplacé vers le Salon des maires où les candidats à la présidentielle 2027, comme Édouard Philippe et David Lisnard, s'affrontent désormais sur la mise en œuvre pratique de cette rigueur budgétaire.",
+      "titre": "Nvidia : Jensen Huang réintégré sous haute tension",
+      "slug": "nvidia-jensen-huang-reintegration",
+      "rubrique": "tech",
+      "resume": "Après 11 jours de séisme boursier, Jensen Huang a été réintégré à la tête de Nvidia grâce à une intervention directe de Donald Trump. La situation se stabilise en bourse mais reste sous surveillance judiciaire.",
       "chronologie": [
         {
-          "date": "2026-11-25",
-          "texte": "Édouard Philippe propose un débat télévisé à David Lisnard sur les finances publiques.",
-          "source": "20 Minutes"
+          "date": "2026-11-26",
+          "texte": "Critiques dans la presse internationale sur l'ingérence politique de Trump dans la gouvernance de Nvidia.",
+          "source": "Courrier international"
         },
         {
-          "date": "2026-11-23",
-          "texte": "Annonce initiale de la proposition de règle d'or constitutionnelle.",
-          "source": "franceinfo"
+          "date": "2026-11-24",
+          "texte": "Réintégration officielle de Jensen Huang.",
+          "source": "Citoyens.ai"
         }
       ],
       "couvertures": [
         {
-          "source": "RFI",
-          "type": "mainstream",
-          "angle": "Le positionnement des candidats de droite et du centre au Salon des maires.",
-          "ton": "factuel",
-          "url": "https://www.rfi.fr/fr/france/20261125-pr%C3%A9sidentielle-2027-%C3%A9douard-philippe-marque-ses-diff%C3%A9rences-avec-david-lisnard",
-          "citation_cle": "Édouard Philippe entend afficher son intérêt pour les élus locaux face à la proposition présidentielle."
+          "source": "Courrier international",
+          "type": "etranger",
+          "angle": "L'intervention de Trump est vue comme une erreur stratégique à long terme.",
+          "ton": "critique",
+          "url": "https://www.courrierinternational.com/article/opinion-l-intervention-de-trump-en-faveur-du-patron-de-nvidia-est-une-erreur-qui-reviendra-le-hanter_290239",
+          "citation_cle": "Une erreur qui reviendra le hanter."
         }
       ],
       "ce_quon_ne_sait_pas": [
-        "La probabilité réelle d'un vote du Congrès pour cette révision constitutionnelle avant 2027."
+        "L'impact réel de cette ingérence sur l'indépendance future du conseil d'administration."
       ],
       "sources": [
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20261125-pr%C3%A9sidentielle-2027-%C3%A9douard-philippe-marque-ses-diff%C3%A9rences-avec-david-lisnard",
-          "type": "journal"
-        },
-        {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/politique/4265545-20261125-direct-presidentielle-2027-edouard-philippe-propose-david-lisnard-debat-televise",
-          "type": "journal"
+          "nom": "Courrier international",
+          "url": "https://www.courrierinternational.com/article/opinion-l-intervention-de-trump-en-faveur-du-patron-de-nvidia-est-une-erreur-qui-reviendra-le-hanter_290239",
+          "type": "etranger"
         }
       ],
-      "derniere_mise_a_jour": "2026-11-25",
-      "statut": "Le sujet est devenu un argument de campagne électorale plutôt qu'une actualité institutionnelle immédiate."
+      "derniere_mise_a_jour": "2026-11-26",
+      "statut": "Le sujet bascule d'une crise de gouvernance à un débat sur l'ingérence politique."
     }
   ],
   "meta": {
-    "nb_articles_analyses": 725,
+    "nb_articles_analyses": 698,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "3.0.0"
   }

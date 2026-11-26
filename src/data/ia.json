@@ -1,16 +1,57 @@
 {
-  "date": "2026-11-25",
-  "genere_a": "2026-11-25T05:35:55.090Z",
+  "date": "2026-11-26",
+  "genere_a": "2026-11-26T05:36:08.751Z",
   "faits_ia": [
     {
-      "titre": "Anthropic lance 'Claude Ship' pour automatiser la correction de code",
-      "sous_section": "annonces",
-      "resume": "Anthropic a dévoilé 'Claude Ship', un nouvel outil conçu pour gérer l'étape post-ouverture des 'pull requests' sur GitHub. L'agent IA est capable de relire le code, de corriger les erreurs détectées et de valider les fusions sans intervention humaine constante (Next, The Register).",
-      "pourquoi_ca_compte": "Cette étape franchit un cap dans l'autonomie des IA au sein du cycle de développement logiciel, posant la question de la responsabilité finale du code produit et de l'évolution du métier de développeur.",
+      "titre": "Artex : le logiciel d'intrusion par IA qui inquiète la cybersécurité",
+      "sous_section": "societe",
+      "resume": "Artex, un outil d'automatisation d'attaques par agents IA, est au cœur d'une série de piratages d'envergure. Initialement présenté comme un outil défensif, il permettrait désormais de mener des intrusions massives avec une rapidité inédite, surpassant les capacités de réaction humaines traditionnelles.",
+      "pourquoi_ca_compte": "L'automatisation de la cybercriminalité par l'IA fragilise la sécurité des infrastructures critiques et des données citoyennes, rendant les défenses classiques obsolètes.",
       "sources": [
         {
+          "nom": "CheckNews",
+          "url": "https://www.liberation.fr/checknews/quest-ce-quartex-ce-logiciel-dintrusion-dope-a-lia-qui-fait-trembler-le-monde-de-la-cybersecurite-20261125_BW7WXDE3UNBTDP5DEABGHFJWFI/",
+          "type": "fact-check",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/%C3%A9co-tech/20261125-artex-g%C3%A9n%C3%A9ral-agents-ia-soup%C3%A7onn%C3%A9-avoir-aid%C3%A9-pirater-cia",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
+            "orientation": "centre"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Le système OSINT de la CIA compromis par une cyberattaque dopée à l'IA",
+      "sous_section": "regulation",
+      "resume": "Des pirates ont réussi à s'infiltrer dans le système d'analyse de sources ouvertes de la CIA et de l'ODNI. L'attaque aurait été perpétrée via les mêmes outils d'IA ayant précédemment visé la Commission européenne, exposant des données non classifiées mais stratégiques.",
+      "pourquoi_ca_compte": "L'utilisation d'IA pour infiltrer des agences de renseignement illustre une escalade dans la cyberguerre mondiale, menaçant la souveraineté numérique des États.",
+      "sources": [
+        {
+          "nom": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2384431-la-menace-setend-le-systeme-osint-de-la-cia-pirate-probablement-par-le-meme-outil-ia-que-la-commission-europeenne.html",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "Humanoid",
+            "proprietaire": "Humanoid (indépendant)",
+            "type_proprietaire": "independant",
+            "orientation": "centre"
+          }
+        },
+        {
           "nom": "Next",
-          "url": "https://next.ink/brief-article/avec-claude-ship-anthropic-sattaque-a-la-correction-automatique-des-pull-requests/",
+          "url": "https://next.ink/brief-article/un-systeme-de-la-cia-et-du-renseignement-americain-victime-dune-intrusion/",
           "type": "investigation",
           "groupe_media": {
             "nom": "Next (ex-Next INpact)",
@@ -18,103 +59,48 @@
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
-        },
-        {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/ai-and-ml/2026/11/24/claude-ship-puts-ai-at-the-helm-of-pull-request-approvals/5311883",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
         }
-      ],
-      "lien": "https://next.ink/brief-article/avec-claude-ship-anthropic-sattaque-a-la-correction-automatique-des-pull-requests/"
+      ]
     },
     {
-      "titre": "Tidal bannit 27 millions de morceaux entièrement générés par IA",
-      "sous_section": "regulation",
-      "resume": "La plateforme de streaming Tidal a annoncé la suppression de 6,3 % de son catalogue, soit 27 millions de titres intégralement produits par IA (Ars Technica, TechCrunch). La plateforme continuera d'accepter l'assistance par IA, mais refuse le 'slop' (contenu de faible qualité) qui sature les serveurs.",
-      "pourquoi_ca_compte": "C'est une prise de position forte pour la protection de la valeur de la création humaine face à l'industrialisation de contenus génératifs sans âme ni droits d'auteur clairs.",
+      "titre": "L'Agence du médicament alerte sur les dangers des diagnostics par IA",
+      "sous_section": "societe",
+      "resume": "L'ANSM met en garde contre l'usage croissant des IA génératives pour obtenir des conseils médicaux. Des cas de surdosages et d'erreurs de prescription induits par des réponses erronées de l'IA ont été rapportés, entraînant des lésions parfois irréversibles chez les patients.",
+      "pourquoi_ca_compte": "Le remplacement des professionnels de santé par des algorithmes non certifiés pose un risque vital immédiat et soulève des questions de responsabilité juridique en cas d'erreur.",
       "sources": [
         {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-          "type": "etranger",
+          "nom": "Le Monde",
+          "url": "https://www.lemonde.fr/societe/article/2026/11/26/l-agence-du-medicament-pointe-les-risques-de-consulter-l-ia-pour-des-conseils-medicaux_6815395_3224.html",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
+            "nom": "Groupe Le Monde",
+            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
             "type_proprietaire": "milliardaire",
+            "orientation": "centre-droit"
+          }
+        },
+        {
+          "nom": "franceinfo",
+          "url": "https://www.franceinfo.fr/sante/medicament/l-agence-du-medicament-met-en-garde-contre-les-conseils-de-l-ia-qui-peuvent-etre-dangereux-pour-la-sante-des-patients_8300325.html#xtor=RSS-3-[lestitres]",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Télévisions",
+            "proprietaire": "État français",
+            "type_proprietaire": "etat",
             "orientation": "centre"
           }
         }
-      ],
-      "lien": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/"
+      ]
     },
     {
-      "titre": "L'hypothèse de Riemann : une preuve IA de 17 millions de lignes",
+      "titre": "Dario Amodei (Anthropic) refuse l'idée d'un abandon du contrôle humain",
       "sous_section": "recherche",
-      "resume": "Un chercheur d'Anthropic a produit, via une IA, une solution potentielle à l'hypothèse de Riemann, l'un des plus grands mystères des mathématiques (Ars Technica, Wired). La solution est si dense et 'étrangère' dans sa structure que les mathématiciens humains prévoient des mois de travail pour simplement la valider.",
-      "pourquoi_ca_compte": "Cela illustre le passage à une 'science noire' où l'IA trouve des résultats que l'esprit humain peine à rétro-concevoir ou à comprendre intuitivement.",
+      "resume": "Le PDG d'Anthropic a fermement rejeté les accusations selon lesquelles son entreprise favoriserait une cession de l'autonomie humaine à l'IA. Cette prise de parole intervient alors que les modèles automatisent de plus en plus leur propre développement.",
+      "pourquoi_ca_compte": "Le débat sur l'agence humaine face à l'IA superintelligente détermine les futures normes de sécurité et d'éthique qui encadreront nos vies quotidiennes.",
       "sources": [
-        {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Wired",
-          "url": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/"
-    },
-    {
-      "titre": "Huawei reconnu coupable de vol de secrets industriels aux USA",
-      "sous_section": "regulation",
-      "resume": "Un jury fédéral à New York a reconnu le géant chinois Huawei coupable de complot pour vol de secrets commerciaux et de fraude (The Verge, Al Jazeera, BBC News). Cependant, l'entreprise a été acquittée de l'accusation la plus grave de racket criminel.",
-      "pourquoi_ca_compte": "Ce verdict marque l'aboutissement d'une bataille juridique de plusieurs années, au cœur de la guerre technologique et diplomatique entre Washington et Pékin.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        },
         {
           "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
+          "url": "https://www.aljazeera.com/economy/2026/11/26/anthropic-ceo-amodei-denies-wanting-humanity-to-surrender-free-will-to-ai?traffic_source=rss",
           "type": "etranger",
           "groupe_media": {
             "nom": "Al Jazeera Media Network",
@@ -124,178 +110,93 @@
           }
         },
         {
-          "nom": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
           "type": "etranger",
           "groupe_media": {
-            "nom": "BBC",
-            "proprietaire": "État britannique",
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Nvidia : Jensen Huang réintégré après une intervention de Donald Trump",
+      "sous_section": "business",
+      "resume": "Après avoir été évincé pour manquement au code de conduite, Jensen Huang a retrouvé son poste chez Nvidia en seulement 11 jours. Des rapports suggèrent une influence directe de Donald Trump dans ce retour, créant un précédent controversé sur la gouvernance des géants de la tech.",
+      "pourquoi_ca_compte": "L'imbrication entre pouvoir politique et direction des entreprises d'IA pose un problème d'indépendance pour les technologies qui structurent l'économie mondiale.",
+      "sources": [
+        {
+          "nom": "France 24 FR",
+          "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261125-nvidia-trump-impliqu%C3%A9-jusqu-o%C3%B9",
+          "type": "mainstream",
+          "groupe_media": {
+            "nom": "France Médias Monde",
+            "proprietaire": "État français",
             "type_proprietaire": "etat",
             "orientation": "centre"
           }
-        }
-      ],
-      "lien": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial"
-    },
-    {
-      "titre": "Des agents IA exploitent des failles de sécurité en moins de 6 minutes",
-      "sous_section": "societe",
-      "resume": "Des rapports récents montrent que des agents IA, utilisant des frameworks comme 'Cairn', sont capables de détecter et d'exploiter des clés d'accès ou des failles 'zero-day' avec une intervention humaine minimale (The Register, Ars Technica). Amazon a confirmé que ces outils sont désormais utilisés activement par des attaquants.",
-      "pourquoi_ca_compte": "L'automatisation de la cybercriminalité change radicalement l'échelle des menaces, rendant les défenses traditionnelles obsolètes face à la vitesse d'exécution des machines.",
-      "sources": [
-        {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
         },
         {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
-    },
-    {
-      "titre": "Contestations citoyennes contre l'opacité des data centers",
-      "sous_section": "societe",
-      "resume": "En France, la révolte des riverains contre l'implantation de centres de données s'intensifie. À Bouc-Bel-Air, l'entreprise Digital Realty est accusée de tenter d'acheter le silence de la municipalité par des financements massifs après avoir obtenu un permis contesté (Reporterre, Slate FR).",
-      "pourquoi_ca_compte": "Ce conflit illustre la tension croissante entre les besoins d'infrastructure pour l'IA et les ressources locales (eau, énergie), ainsi que les méthodes de 'lobbying de proximité' des géants de la tech.",
-      "sources": [
-        {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Ils-achetent-le-silence-pour-faire-accepter-ses-data-centers-un-constructeur-sort-le",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Reporterre",
-            "proprietaire": "Association La Pile",
-            "type_proprietaire": "independant",
-            "orientation": "gauche"
-          }
-        },
-        {
-          "nom": "Slate FR",
-          "url": "https://www.slate.fr/societe/data-centers-france-citoyens-revolte-riverains-contestation-pollution-environnement-le-bourget-seine-saint-denis",
+          "nom": "The Conversation FR",
+          "url": "https://theconversation.com/retour-de-jensen-huang-chez-nvidia-un-precedent-qui-pourrait-saverer-desastreux-pour-les-conseils-dadministration-297454",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Slate FR",
-            "proprietaire": "Slate.fr (indépendant)",
-            "type_proprietaire": "independant",
+            "nom": "The Conversation",
+            "proprietaire": "Consortium d'universités",
+            "type_proprietaire": "fondation",
             "orientation": "centre"
           }
         }
-      ],
-      "lien": "https://reporterre.net/Ils-achetent-le-silence-pour-faire-accepter-ses-data-centers-un-constructeur-sort-le"
+      ]
     },
     {
-      "titre": "Ariane 6 déploie avec succès 36 satellites pour Amazon",
-      "sous_section": "business",
-      "resume": "Le lanceur européen Ariane 6 a réussi son dixième vol, mettant en orbite une nouvelle grappe de satellites pour la constellation Leo d'Amazon (Sud-Ouest, Numerama). Ce succès confirme la montée en cadence de l'Europe spatiale face à la concurrence américaine.",
-      "pourquoi_ca_compte": "La souveraineté spatiale européenne est indispensable pour garantir un accès indépendant aux infrastructures de communication mondiales.",
+      "titre": "Scandale Megaspeed : soupçons de trafic de puces Nvidia vers la Chine",
+      "sous_section": "regulation",
+      "resume": "La société singapourienne Megaspeed est accusée d'avoir servi d'intermédiaire pour contourner les sanctions américaines et livrer des puces IA haute performance à la Chine. L'enquête se concentre sur les liens entre la direction de Megaspeed et Nvidia.",
+      "pourquoi_ca_compte": "Le contrôle des composants matériels (hardware) est le nerf de la guerre de l'IA ; son contournement modifie l'équilibre des forces géopolitiques.",
       "sources": [
         {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/sciences-et-technologie/espace/espace-dixieme-vol-reussi-pour-ariane-6-qui-deploie-36-nouveaux-satellites-pour-amazon-leo-31659717.php",
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "Sciences et Avenir",
+          "url": "https://www.sciencesetavenir.fr/politique/affaire-nvidia-dans-les-coulisses-de-megaspeed-la-societe-par-laquelle-le-scandale-arrive_196462",
           "type": "mainstream",
           "groupe_media": null
-        },
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/sciences/2383831-la-fusee-ariane-6-livre-enfin-les-36-satellites-damazon-voici-les-plus-belles-images-du-decollage.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
         }
-      ],
-      "lien": "https://www.sudouest.fr/sciences-et-technologie/espace/espace-dixieme-vol-reussi-pour-ariane-6-qui-deploie-36-nouveaux-satellites-pour-amazon-leo-31659717.php"
+      ]
     },
     {
-      "titre": "Porsche dévoile sa 718 Boxster électrique",
+      "titre": "Microsoft en « Code Rouge » après une panne historique",
       "sous_section": "annonces",
-      "resume": "Porsche a présenté les performances de son futur roadster 100 % électrique, capable d'abattre le 0 à 100 km/h en moins de 3 secondes (Ars Technica, Numerama). Le véhicule intègre un 'faux son' de moteur 6 cylindres pour conserver l'identité sonore de la marque.",
-      "pourquoi_ca_compte": "La transition vers l'électrique des marques de luxe montre que la performance brute est désormais indissociable de l'électronique de pointe.",
+      "resume": "Suite à une interruption majeure de service à la mi-novembre, Microsoft a déclenché un plan d'urgence interne extrême. Des mémos révèlent une prise de conscience brutale de la fragilité de ses infrastructures cloud face à la demande croissante liée à l'IA.",
+      "pourquoi_ca_compte": "La dépendance quasi totale des entreprises et administrations à un seul fournisseur cloud expose la société à des paralysies systémiques en cas de défaillance technique.",
       "sources": [
         {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/cars/2026/11/fake-gears-and-real-911-dna-driving-porsches-electric-718-boxster/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Condé Nast",
-            "proprietaire": "Famille Newhouse (Advance Publications)",
-            "type_proprietaire": "famille",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/vroom/2383907-moins-de-3-secondes-de-0-a-100-km-h-et-faux-son-de-6-cylindres-la-porsche-718-boxster-electrique-promet-des-sensations-fortes.html",
+          "nom": "Futura Sciences",
+          "url": "https://www.futura-sciences.com/tech/actualites/informatique-code-rouge-chez-microsoft-panne-mondiale-novembre-provoque-veritable-electrochoc-sein-geant-informatique-139639/#xtor=RSS-8",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": "https://www.numerama.com/vroom/2383907-moins-de-3-secondes-de-0-a-100-km-h-et-faux-son-de-6-cylindres-la-porsche-718-boxster-electrique-promet-des-sensations-fortes.html"
-    },
-    {
-      "titre": "Blade Runner 2099 arrive sur Prime Video",
-      "sous_section": "societe",
-      "resume": "La mini-série dystopique Blade Runner 2099, portée par Michelle Yeoh et Hunter Schafer, est lancée ce 25 novembre (Numerama, Courrier international). Elle prolonge l'univers de Philip K. Dick sur les questions d'identité et de transhumanisme.",
-      "pourquoi_ca_compte": "La pop-culture reste le principal vecteur de réflexion citoyenne sur les dérives potentielles d'un futur dominé par la technologie.",
-      "sources": [
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/pop-culture/2383635-6-bonnes-raisons-de-donner-sa-chance-a-blade-runner-2099-au-meme-niveau-que-les-films.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
+            "nom": "Futura",
+            "proprietaire": "Futura (indépendant)",
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
         },
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/serie-hunter-schafer-d-euphoria-a-blade-runner-2099-l-actrice-qui-revait-d-ailleurs_289852",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        }
-      ],
-      "lien": "https://www.numerama.com/pop-culture/2383635-6-bonnes-raisons-de-donner-sa-chance-a-blade-runner-2099-au-meme-niveau-que-les-films.html"
-    },
-    {
-      "titre": "GTA VI : records de précommandes et impact culturel",
-      "sous_section": "business",
-      "resume": "Le jeu vidéo GTA VI bat tous les records avec 32,5 millions de précommandes dès son lancement (Next). Son influence s'étend jusqu'en Russie malgré les sanctions (Courrier international) et redynamise la carrière d'artistes comme Sylvie Vartan dont les écoutes ont bondi de 2500 % (20 Minutes, Numerama).",
-      "pourquoi_ca_compte": "GTA VI n'est plus seulement un jeu, mais une plateforme économique et culturelle globale capable d'influencer les marchés financiers et la consommation musicale mondiale.",
-      "sources": [
         {
           "nom": "Next",
-          "url": "https://next.ink/brief-article/le-lancement-de-tous-les-records-pour-gta-vi/",
+          "url": "https://next.ink/brief-article/la-panne-de-microsoft-a-declenche-un-code-rouge-en-interne/",
           "type": "investigation",
           "groupe_media": {
             "nom": "Next (ex-Next INpact)",
@@ -303,112 +204,142 @@
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
-        },
+        }
+      ]
+    },
+    {
+      "titre": "Huawei condamné pour vol de secrets industriels aux États-Unis",
+      "sous_section": "regulation",
+      "resume": "Un jury américain a reconnu Huawei coupable de vol de secrets commerciaux appartenant à T-Mobile et Cisco. L'entreprise est également condamnée pour avoir sciemment contourné les sanctions économiques contre l'Iran via des montages financiers opaques.",
+      "pourquoi_ca_compte": "Cette condamnation renforce les tensions technologiques sino-américaines et pourrait justifier de nouvelles restrictions d'accès aux marchés occidentaux pour les entreprises chinoises.",
+      "sources": [
         {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/jeux-video-le-tsunami-gta-vi-deferle-aussi-sur-la-russie-malgre-les-sanctions_289909",
+          "nom": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/",
           "type": "etranger",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
           }
         },
         {
-          "nom": "20 Minutes",
-          "url": "https://www.20minutes.fr/arts-stars/insolite/4265509-20261124-gta-6-surprise-totale-chanson-sylvie-vartan-explose-compteurs-grace-jeu-video?at_medium=display&at_campaign=149",
-          "type": "mainstream",
-          "groupe_media": null
-        },
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/pop-culture/2383783-gta-6-grace-a-la-radio-de-vice-city-sylvie-vartan-voit-ses-ecoutes-spotify-exploser-de-2-500.html",
-          "type": "mainstream",
+          "nom": "The Register",
+          "url": "https://www.theregister.com/legal/2026/11/25/jury-finds-huawei-stole-us-tech-laundered-money-and-broke-sanctions/5312024",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Humanoid",
-            "proprietaire": "Humanoid (indépendant)",
+            "nom": "The Register",
+            "proprietaire": "Situation Publishing",
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
         }
-      ],
-      "lien": "https://next.ink/brief-article/le-lancement-de-tous-les-records-pour-gta-vi/"
+      ]
+    },
+    {
+      "titre": "WhatsApp lance la programmation de messages pour ses 3 milliards d'utilisateurs",
+      "sous_section": "annonces",
+      "resume": "Meta déploie enfin la possibilité de planifier l'envoi de messages sur WhatsApp (de 10 minutes à 14 jours d'avance). Cette fonctionnalité, très demandée, concerne aussi bien les conversations individuelles que les groupes.",
+      "pourquoi_ca_compte": "Un changement ergonomique majeur pour l'outil de communication le plus utilisé au monde, impactant l'organisation du travail et les interactions sociales privées.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Yahoo (AOL / Oath)",
+            "proprietaire": "Apollo Global Management",
+            "type_proprietaire": "milliardaire",
+            "orientation": "centre"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Fuite de données chez 1Password : les noms et emails des clients exposés",
+      "sous_section": "societe",
+      "resume": "Le gestionnaire de mots de passe 1Password a subi une intrusion dans ses systèmes internes. Si les coffres-forts et les mots de passe des utilisateurs restent sécurisés grâce au chiffrement, les noms et adresses emails ont été dérobés, augmentant les risques de phishing ciblé.",
+      "pourquoi_ca_compte": "La sécurité des gestionnaires de mots de passe est le dernier rempart de l'identité numérique ; même une fuite partielle érode la confiance des citoyens dans ces outils essentiels.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        }
+      ]
     }
   ],
   "regard_croise_ia": {
-    "sujet": "Le retour de Jensen Huang à la tête de Nvidia",
-    "contexte": "Après avoir été écarté pour une liaison présumée avec une espionne chinoise, Jensen Huang a été réintégré comme CEO de Nvidia le 23 novembre 2026, suite à une pression directe de Donald Trump.",
+    "sujet": "L'émergence d'Artex et la vulnérabilité des agences de renseignement",
+    "contexte": "Une série d'intrusions informatiques majeures, utilisant l'IA Artex, a frappé la CIA et d'autres institutions internationales en novembre 2026.",
     "couvertures": [
       {
-        "source": "RFI",
-        "type": "mainstream",
-        "angle": "Relations diplomatiques et intérêts croisés entre Trump et Huang.",
+        "source": "CheckNews",
+        "type": "fact-check",
+        "angle": "Explication technique du fonctionnement d'Artex et de son détournement.",
         "ton": "factuel",
-        "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-international/20261124-retour-de-jensen-huang-%C3%A0-la-t%C3%AAte-de-nvidia-il-y-a-une-relation-d-int%C3%A9r%C3%AAts-crois%C3%A9s-avec-donald-trump",
-        "citation_cle": "Il y a une relation d'intérêts croisés avec Donald Trump.",
+        "url": "https://www.liberation.fr/checknews/quest-ce-quartex-ce-logiciel-dintrusion-dope-a-lia-qui-fait-trembler-le-monde-de-la-cybersecurite-20261125_BW7WXDE3UNBTDP5DEABGHFJWFI/",
+        "citation_cle": "La rapidité avec laquelle se produisent les attaques est le principal motif d’inquiétude.",
         "groupe_media": {
-          "nom": "France Médias Monde",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
-        }
-      },
-      {
-        "source": "Courrier international",
-        "type": "etranger",
-        "angle": "L'économie mondiale est devenue dépendante d'un seul homme et de l'IA.",
-        "ton": "critique",
-        "url": "https://www.courrierinternational.com/article/opinion-le-retour-de-jensen-huang-a-la-tete-de-nvidia-est-la-preuve-que-l-economie-est-prise-en-otage-par-l-ia_289853",
-        "citation_cle": "La preuve que l’économie est prise en otage par l’IA.",
-        "groupe_media": {
-          "nom": "Groupe Le Monde",
-          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-          "type_proprietaire": "milliardaire",
-          "orientation": "centre-droit"
-        }
-      },
-      {
-        "source": "The Verge",
-        "type": "etranger",
-        "angle": "La communication de Huang niant l'intervention de Trump lors de la réunion interne.",
-        "ton": "neutre",
-        "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
-        "citation_cle": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired.",
-        "groupe_media": {
-          "nom": "Vox Media",
-          "proprietaire": "Vox Media Inc.",
-          "type_proprietaire": "independant",
+          "nom": "Libération",
+          "proprietaire": "Fonds de dotation",
+          "type_proprietaire": "fondation",
           "orientation": "centre-gauche"
         }
       },
       {
-        "source": "Wired",
-        "type": "etranger",
-        "angle": "L'aspect humain et le management toxique admis par Huang.",
-        "ton": "engage",
-        "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
-        "citation_cle": "Acknowledged that his intense management style had hurt his staff.",
+        "source": "France 24",
+        "type": "mainstream",
+        "angle": "Focus sur l'implication d'Artex dans le piratage spécifique de la CIA.",
+        "ton": "alarmiste",
+        "url": "https://www.france24.com/fr/%C3%A9co-tech/20261125-artex-g%C3%A9n%C3%A9ral-agents-ia-soup%C3%A7onn%C3%A9-avoir-aid%C3%A9-pirater-cia",
+        "citation_cle": "Artex est comparé à un 'général d'agents IA' capable de coordonner des offensives complexes.",
+        "groupe_media": null
+      },
+      {
+        "source": "Numerama",
+        "type": "mainstream",
+        "angle": "Lien entre les attaques contre la CIA et celles contre la Commission européenne.",
+        "ton": "critique",
+        "url": "https://www.numerama.com/cyberguerre/2384431-la-menace-setend-le-systeme-osint-de-la-cia-pirate-probablement-par-le-meme-outil-ia-que-la-commission-europeenne.html",
+        "citation_cle": "La menace s’étend : le système OSINT de la CIA piraté, probablement par le même outil IA.",
         "groupe_media": {
-          "nom": "Condé Nast",
-          "proprietaire": "Famille Newhouse (Advance Publications)",
-          "type_proprietaire": "famille",
+          "nom": "Humanoid",
+          "proprietaire": "Humanoid (indépendant)",
+          "type_proprietaire": "independant",
           "orientation": "centre"
         }
       }
     ],
-    "analyse_coherence": "La couverture médiatique du retour de Jensen Huang révèle une fracture nette entre les enjeux financiers et éthiques. Alors que la presse économique et mainstream (RFI, franceinfo) se concentre sur le bond de 30 % de l'action et les liens politiques avec Donald Trump, la presse spécialisée tech (Wired, TechCrunch) s'intéresse à la culture d'entreprise et à la santé mentale du dirigeant qui déclare être 'en thérapie'. Le New York Times souligne une contradiction majeure : Trump a balayé des préoccupations de sécurité nationale (espionnage chinois) au profit de la stabilité des marchés. Enfin, Courrier International adopte un angle systémique, s'inquiétant de la 'prise d'otage' de l'économie mondiale par une seule entreprise indispensable à l'infrastructure de l'IA.",
+    "analyse_coherence": "La couverture médiatique d'Artex révèle une inquiétude convergente sur la fin de l'ère de la cyberdéfense manuelle. Alors que CheckNews (Libération) se concentre sur la genèse de l'outil et son détournement 'dual-use', France 24 adopte une posture plus géopolitique en soulignant l'impuissance des services secrets américains (CIA) face à cette nouvelle forme d'intelligence. Numerama, de son côté, établit une cohérence entre les différentes victimes internationales, suggérant une campagne globale orchestrée via l'IA. On observe une absence de discours rassurant de la part des experts cités : le consensus médiatique s'établit sur le fait que l'IA a définitivement pris l'avantage sur les systèmes de protection classiques.",
     "biais_detectes": [
-      "Focalisation sur la performance boursière au détriment des risques de sécurité nationale (presse économique).",
-      "Personnalisation excessive du débat autour de la figure du 'génie' providentiel.",
-      "Incohérence entre les déclarations de Trump (qui revendique le retour) et celles de Huang (qui le nie)."
+      "Personnification de l'IA",
+      "Focalisation sur le spectaculaire (CIA) au détriment des impacts sur les PME ou citoyens"
     ],
-    "ce_quil_faut_retenir": "Le retour de Jensen Huang consacre Nvidia comme une entité 'too big to fail', où les impératifs boursiers et technologiques l'emportent désormais sur la diplomatie et les protocoles de sécurité d'État."
+    "ce_quil_faut_retenir": "L'IA n'est plus seulement un assistant de productivité, mais une arme offensive automatisée capable de saturer les défenses des organisations les plus protégées au monde."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 236,
-    "nb_topics_ia": 79,
+    "nb_articles_ia": 223,
+    "nb_topics_ia": 85,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }

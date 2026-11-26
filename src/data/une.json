@@ -1,337 +1,347 @@
 {
   "sujet_du_jour": {
-    "titre": "Mort de Nahel : le policier sera jugé pour meurtre aux assises",
-    "rubrique": "societe",
-    "pourquoi_important": "Trois ans après le drame qui a embrasé la France, la justice retient la qualification criminelle la plus lourde, transformant ce dossier en un procès historique sur l'usage de la force policière.",
+    "titre": "Éviction du préfet Hugues Moutouh : soupçons de fuites vers le RN",
+    "rubrique": "politique",
+    "pourquoi_important": "C'est une mise en cause inédite de la neutralité de l'État et de la haute fonction publique au profit de l'extrême droite.",
     "faits": [
-      "La chambre de l’instruction de la cour d’appel de Versailles a ordonné, le 24 novembre 2026, le renvoi du policier Florian Menesplier devant la cour d’assises des Hauts-de-Seine.",
-      "Le fonctionnaire est poursuivi pour 'meurtre' (homicide volontaire) et non pour de simples violences ayant entraîné la mort, comme l'avait initialement envisagé une précédente décision en mars 2026.",
-      "La défense du policier a immédiatement annoncé un pourvoi en cassation pour contester cette qualification, ce qui pourrait différer l'ouverture du procès.",
-      "Nahel Merzouk, 17 ans, avait été tué à bout portant lors d'un contrôle routier à Nanterre le 27 juin 2023."
+      "Le préfet du Loiret, Hugues Moutouh, a été relevé de ses fonctions lors du Conseil des ministres du 25 novembre 2026 (Élysée).",
+      "Il est soupçonné d'avoir transmis des informations confidentielles au Rassemblement National lorsqu'il dirigeait le secrétariat général du ministère de l'Intérieur (Mediapart, L'Humanité).",
+      "Pierre Ory a été nommé pour lui succéder à compter du 30 novembre 2026 (France Info, Élysée).",
+      "Parallèlement, une enquête administrative vise le procureur adjoint de Paris, Christian de Rocquigny, aperçu au siège du RN lors d'une perquisition (LCP, La Croix)."
     ],
-    "contexte": "Cette décision marque un tournant majeur. En mars 2026, la qualification de meurtre avait été écartée au profit de 'violences volontaires ayant entraîné la mort sans intention de la donner', provoquant la colère de la famille. Ce retour aux assises pour 'meurtre' souligne la sévérité de l'analyse judiciaire sur l'absence de danger immédiat justifiant le tir mortel.",
+    "contexte": "Cette affaire éclate dans un climat de tension sur l'influence de l'extrême droite au sein des institutions régaliennes. Hugues Moutouh, connu pour ses positions fermes, aurait alerté le parti de Marine Le Pen de perquisitions à venir. L'exécutif tente de reprendre la main en saisissant l'Inspection générale de la justice pour le volet judiciaire, tout en actant le départ immédiat du préfet (RFI, Le Monde).",
     "sources": [
       {
-        "nom": "Bondy Blog",
-        "url": "https://www.bondyblog.fr/societe/mort-de-nahel-le-policier-sera-bien-juge-pour-meurtre/",
+        "nom": "Élysée",
+        "url": "https://www.elysee.fr/emmanuel-macron/2026/11/25/compte-rendu-du-conseil-des-ministres-du-25-novembre-2026",
+        "type": "institutionnel",
+        "groupe_media": null
+      },
+      {
+        "nom": "Mediapart",
+        "url": "https://www.mediapart.fr/journal/france/251126/liens-caches-avec-le-rn-un-prefet-debarque-un-magistrat-sous-enquete",
         "type": "investigation",
-        "groupe_media": null
-      },
-      {
-        "nom": "TV5MONDE",
-        "url": "https://information.tv5monde.com/france/mort-de-nahel-la-justice-confirme-en-appel-le-renvoi-du-policier-pour-meurtre-2846832",
-        "type": "mainstream",
-        "groupe_media": null
-      },
-      {
-        "nom": "franceinfo",
-        "url": "https://www.franceinfo.fr/faits-divers/adolescent-tue-par-un-policier-a-nanterre/mort-de-nahel-merzouk-en-2023-quatre-questions-apres-la-decision-de-juger-le-policier-auteur-du-tir-pour-meurtre_8297382.html",
-        "type": "mainstream",
         "groupe_media": {
-          "nom": "France Télévisions",
-          "proprietaire": "État français",
-          "type_proprietaire": "etat",
-          "orientation": "centre"
+          "nom": "Mediapart",
+          "proprietaire": "Fonds pour une presse libre",
+          "type_proprietaire": "fondation",
+          "orientation": "gauche"
         }
       },
       {
-        "nom": "L'Obs",
-        "url": "https://www.nouvelobs.com/societe/20261124.OBS120401/mort-de-nahel-merzouk-la-justice-ordonne-un-proces-pour-meurtre-a-l-encontre-du-policier.html",
+        "nom": "Le Monde",
+        "url": "https://www.lemonde.fr/societe/article/2026/11/25/le-prefet-du-loiret-hugues-moutouh-demis-de-ses-fonctions-apres-la-revelation-de-soupcons-de-fuites-emanant-du-ministere-de-l-interieur-vers-le-rn_6815167_3224.html",
         "type": "mainstream",
+        "groupe_media": {
+          "nom": "Groupe Le Monde",
+          "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
+      },
+      {
+        "nom": "LCP",
+        "url": "https://lcp.fr/actualites/procureur-present-au-siege-du-rn-lors-d-une-perquisition-gerald-darmanin-saisit-l",
+        "type": "institutionnel",
         "groupe_media": null
+      },
+      {
+        "nom": "RFI",
+        "url": "https://www.rfi.fr/fr/france/20261126-france-le-proc%C3%A8s-d-%C3%A9milie-k%C3%B6nig-%C3%A9g%C3%A9rie-du-jihad-commence-aux-assises-%C3%A0-paris",
+        "type": "mainstream"
+      },
+      {
+        "nom": "L'Humanité",
+        "url": "https://www.humanite.fr/culture-et-savoir/belgique/jaimerais-que-mes-chansons-restent-au-plus-pres-de-la-colere-qui-monte-le-nouvel-album-de-lartiste-belge-noe-preszow-fait-entendre-la-voix-du-peup",
+        "type": "mainstream"
+      },
+      {
+        "nom": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/medias/l-ong-reporters-sans-frontieres-saisit-l-arcom-pour-demander-de-suspendre-cnews-pendant-un-mois_8300685.html#xtor=RSS-3-[lestitres]",
+        "type": "mainstream"
+      },
+      {
+        "nom": "La Croix",
+        "url": "https://www.la-croix.com/sante/pfas-dans-les-aliments-generations-futures-pointe-des-failles-dans-la-reglementation-europeenne-20261126",
+        "type": "mainstream"
       }
     ],
-    "lien": null
+    "lien": "https://www.elysee.fr/emmanuel-macron/2026/11/25/compte-rendu-du-conseil-des-ministres-du-25-novembre-2026"
   },
   "france": [
     {
-      "titre": "Enquête pour tentative de meurtre d'un mineur lors du 17 octobre",
+      "titre": "RSF demande la suspension de CNews",
       "rubrique": "societe",
-      "resume": "Le parquet de Paris a ouvert une enquête après qu'un adolescent de 15 ans a eu le poumon perforé par une balle de plomb lors de la manifestation du 17 octobre 2026. Le tir, probablement effectué depuis un point en hauteur selon Mediapart, a entraîné 21 jours d'ITT pour la victime (Mediapart, franceinfo).",
+      "resume": "Reporters sans frontières a saisi l'Arcom le 26 novembre pour demander une suspension d'un mois de la chaîne CNews. L'ONG dénonce un « péril démocratique » et des manquements répétés au pluralisme, documentés par l'analyse de 61 heures de programmes (Ouest-France, Le Monde, L'Humanité).",
       "sources": [
         {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/241126/manifestation-du-17-octobre-un-adolescent-blesse-par-balle-place-de-la-nation-une-enquete-ouverte-pour-ten",
-          "type": "investigation",
+          "nom": "Ouest-France",
+          "url": "https://programmetv.ouest-france.fr/chaines/programme-tv-cnews-226/rsf-demande-la-suspension-de-cnews-denoncant-un-peril-democratique-3165c1f4-e958-11f1-86c1-70195b4d2e52",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/medias/arcom/il-faut-monter-dans-lechelle-des-sanctions-reporters-sans-frontieres-saisit-larcom-pour-une-suspension-de-cnews",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Mediapart",
-            "proprietaire": "Fonds pour une presse libre",
-            "type_proprietaire": "fondation",
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
             "orientation": "gauche"
           }
         },
         {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/une-enquete-ouverte-pour-tentative-de-meurtre-sur-un-adolescent-a-paris-lors-de-la-manifestation-du-17-octobre_8298381.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Stellantis Sochaux : 500 à 1000 postes menacés par l'arrêt de la nuit",
-      "rubrique": "economie",
-      "resume": "La direction de Stellantis a annoncé la suppression de l'équipe de nuit à l'usine de Sochaux dès janvier 2027. Si la direction parle de 500 salariés et intérimaires touchés, les syndicats cités par L'Humanité évoquent jusqu'à 1 000 licenciements, dénonçant le sacrifice des intérimaires face à la baisse des commandes (L'Humanité, La Croix).",
-      "sources": [
-        {
-          "nom": "L'Humanité",
-          "url": "https://www.humanite.fr/societe/extreme-droite/saluts-nazis-caricatures-references-a-hitler-dans-une-ecole-police-le-racisme-decomplexe-de-futurs-officiers",
-          "type": "mainstream"
-        },
-        {
-          "nom": "La Croix",
-          "url": "https://www.la-croix.com/societe/antisemitisme-laurent-nunez-renforce-les-mesures-de-securite-pour-hanoukka-20261125",
-          "type": "mainstream"
-        }
-      ],
-      "lien": null
-    },
-    {
-      "titre": "Le géant chinois BYD s'installe en Moselle",
-      "rubrique": "economie",
-      "resume": "Le constructeur automobile BYD est entré en négociations exclusives pour racheter l'usine Ineos Automotive d'Hambach. Ce projet vise à contourner les droits de douane européens en produisant des véhicules électriques directement sur le sol français (Le Monde, Numerama).",
-      "sources": [
-        {
           "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-constructeur-automobile-chinois-byd-va-s-implanter-en-france_6814850_3234.html",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
-        },
-        {
-          "nom": "Numerama",
-          "url": "https://www.numerama.com/pop-culture/2383635-6-bonnes-raisons-de-donner-sa-chance-a-blade-runner-2099-au-meme-niveau-que-les-films.html",
+          "url": "https://www.lemonde.fr/societe/article/2026/11/26/derriere-la-mort-de-migrants-dans-la-manche-un-vendeur-allemand-de-pneumatiques-enquete-sur-une-filiere-mise-en-cause-pour-homicides-involontaires_6815477_3224.html",
           "type": "mainstream"
-        }
-      ],
-      "lien": null
-    }
-  ],
-  "monde": [
-    {
-      "titre": "Nvidia : le retour de Jensen Huang sous influence politique",
-      "pays": "États-Unis",
-      "resume": "Ecarté pour des soupçons d'espionnage, le patron de Nvidia retrouve son poste grâce à une intervention directe de Donald Trump. Ce retour a fait bondir l'action de 30%, soulevant des questions sur les conflits d'intérêts financiers du président-élu (RFI, Courrier international).",
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-international/20261124-retour-de-jensen-huang-%C3%A0-la-t%C3%AAte-de-nvidia-il-y-a-une-relation-d-int%C3%A9r%C3%AAts-crois%C3%A9s-avec-donald-trump",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Courrier international",
-          "url": "https://www.courrierinternational.com/article/opinion-le-retour-de-jensen-huang-a-la-tete-de-nvidia-est-la-preuve-que-l-economie-est-prise-en-otage-par-l-ia_289853",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre-droit"
-          }
         }
       ],
       "lien": null
     },
     {
-      "titre": "Chute historique de l'espérance de vie à Cuba",
-      "pays": "Cuba",
-      "resume": "L'OMS alerte sur une baisse inédite de l'espérance de vie sur l'île, passée de 78,8 ans en 2020 à 74,4 ans en 2025. Cette dégradation est la conséquence directe d'une crise économique sévère et du blocus énergétique (The Guardian, Sud-Ouest).",
+      "titre": "Grève des écoutantes du 3919",
+      "rubrique": "societe",
+      "resume": "Près de la moitié des effectifs du numéro d'urgence pour les femmes victimes de violences sont en grève. Elles dénoncent des salaires proches du SMIC, une pression à la performance et un management épuisant (Libération, Blast).",
       "sources": [
         {
-          "nom": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
-          "type": "etranger",
+          "nom": "Libération",
+          "url": "https://www.liberation.fr/societe/droits-des-femmes/greve-des-ecoutantes-du-numero-39-19-destine-aux-femmes-victimes-de-violences-comment-peut-on-etre-disponible-pour-ecouter-pendant-trente-cinq-heures-20261125_6DRIR4HBUFC6FEXXRUXV6PFEXY/",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "Scott Trust",
-            "proprietaire": "Scott Trust Limited",
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
         },
         {
-          "nom": "Sud-Ouest",
-          "url": "https://www.sudouest.fr/international/cuba-l-esperance-de-vie-diminue-pour-la-premiere-fois-depuis-1950-alerte-l-oms-31657747.php",
+          "nom": "Blast",
+          "url": "https://www.blast-info.fr/articles/2026/violences-faites-aux-femmes-au-3919-les-ecoutantes-en-greve-denoncent-un-management-qui-les-epuise-bW1pM0LKRaqfZTEbPskDXw",
+          "type": "investigation",
+          "groupe_media": {
+            "nom": "Blast",
+            "proprietaire": "Blast",
+            "type_proprietaire": "independant",
+            "orientation": "gauche"
+          }
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Marseille : ordres de « relâcher » des casseurs ?",
+      "rubrique": "politique",
+      "resume": "Le maire Benoît Payan affirme, vidéos à l'appui, que des ordres ont été donnés par un officier de police judiciaire pour relâcher des pillards interpellés lors des violences du 17 octobre (20 Minutes, France 24, Le Monde).",
+      "sources": [],
+      "lien": null
+    }
+  ],
+  "monde": [
+    {
+      "titre": "Pertes russes massives en Ukraine",
+      "pays": "Russie/Ukraine",
+      "resume": "Des données piratées des services statistiques russes suggèrent un bilan de 470 000 à 700 000 soldats tués ou blessés. Le Kremlin refuse de commenter ces chiffres qualifiés d'astronomiques par les analystes (CheckNews, France 24, L'Obs).",
+      "sources": [
+        {
+          "nom": "CheckNews",
+          "url": "https://www.liberation.fr/checknews/guerre-en-ukraine-pourquoi-les-pertes-russes-pourraient-selever-a-700-000-soldats-tues-20261124_Z3QV66Z26RFPZDQZSVADZFWJEY/",
+          "type": "fact-check",
+          "groupe_media": {
+            "nom": "Libération",
+            "proprietaire": "Fonds de dotation",
+            "type_proprietaire": "fondation",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "France 24",
+          "url": "https://www.france24.com/fr/europe/20261125-guerre-ukraine-nombre-pertes-russes-estim%C3%A9-700-000-hackers-kremlin-refuse-commenter-moscou-soldats",
           "type": "mainstream",
           "groupe_media": null
+        },
+        {
+          "nom": "L'Obs",
+          "url": "https://www.nouvelobs.com/monde/20261125.OBS120449/guerre-en-ukraine-700-000-morts-pour-la-russie-le-chiffre-qui-embarrasse-le-kremlin.html",
+          "type": "mainstream"
+        }
+      ],
+      "lien": null
+    },
+    {
+      "titre": "Trump et l'Otan contre l'escalade",
+      "pays": "États-Unis",
+      "resume": "Donald Trump et Mark Rutte (Otan) ont exhorté la Russie à ne pas étendre le conflit ukrainien lors d'une rencontre en Floride. Parallèlement, l'administration Trump annonce de nouveaux droits de douane contre la Chine et l'UE (Le Figaro, BFM TV, RFI).",
+      "sources": [
+        {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-trump-et-le-secretaire-general-de-l-otan-exhortent-la-russie-a-ne-pas-etendre-la-guerre-avec-kiev-20261126",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "BFM TV",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/le-monde-qui-bouge/video-le-monde-qui-bouge-la-revue-de-presse-espagne-des-elections-legislatives-decisives-dimanche-26-11_VN-202611260183.html",
+          "type": "mainstream"
+        },
+        {
+          "nom": "RFI",
+          "url": "https://www.rfi.fr/fr/france/20261126-france-le-proc%C3%A8s-d-%C3%A9milie-k%C3%B6nig-%C3%A9g%C3%A9rie-du-jihad-commence-aux-assises-%C3%A0-paris",
+          "type": "mainstream"
         }
       ],
       "lien": null
     }
   ],
   "regard_croise": {
-    "sujet": "Politiques de lutte contre les violences faites aux femmes",
-    "rubrique": "societe",
-    "contexte": "À l'occasion du 25 novembre, le gouvernement affiche son bilan tandis que les associations dénoncent un manque de moyens concrets sur le terrain, notamment en zone rurale.",
+    "sujet": "Échec de la COP31 à Antalya : un processus à bout de souffle ?",
+    "rubrique": "international",
+    "contexte": "La conférence climatique d'Antalya s'est achevée le 22 novembre sur une impasse majeure concernant le financement de l'adaptation pour les pays du Sud.",
     "couvertures": [
       {
-        "source": "La Croix",
-        "type": "mainstream",
-        "angle": "Entretien exclusif valorisant la 'révolution' engagée par le gouvernement depuis le Grenelle.",
-        "ton": "complaisant",
-        "url": "https://www.la-croix.com/societe/aurore-berge-nous-avons-engage-une-revolution-dans-la-lutte-contre-les-violences-faites-aux-femmes-20261124",
-        "citation_cle": "Nous avons engagé une révolution dans la lutte contre les violences faites aux femmes.",
-        "auteur": "Paula Pinto Gomes",
-        "proprietaire_contexte": "Groupe Bayard",
-        "orientation_source": "Centre",
-        "groupe_media": null
+        "source": "Politico EU",
+        "type": "etranger",
+        "angle": "Remise en question globale de l'utilité des sommets onusiens.",
+        "ton": "critique",
+        "url": "https://www.politico.eu/article/les-cop-cest-une-blague-les-critiques-enflent-contre-les-sommets-climatiques-apres-lechec-a-antalya/",
+        "citation_cle": "Les COP, c’est une blague.",
+        "auteur": "Zack Colman",
+        "proprietaire_contexte": "Axel Springer / KKR (Milliardaires)",
+        "orientation_source": "Centre-droit pro-business",
+        "groupe_media": {
+          "nom": "Axel Springer / KKR",
+          "proprietaire": "KKR (fonds d'investissement), Mathias Döpfner",
+          "type_proprietaire": "milliardaire",
+          "orientation": "centre-droit"
+        }
       },
       {
-        "source": "Blast",
+        "source": "Basta!",
         "type": "investigation",
-        "angle": "Critique de la communication gouvernementale jugée déconnectée de la réalité rurale.",
-        "ton": "critique",
-        "url": "https://www.blast-info.fr/articles/2026/la-lutte-contre-les-violences-patriarcales-le-gouvernement-sassoit-dessus-le-banc-rouge-et-le-numero-vert-N4O3gzCITnGNWfnVplfaeA",
-        "citation_cle": "La lutte contre les violences patriarcales, le gouvernement s’assoit dessus.",
-        "auteur": "Rédaction Blast",
-        "proprietaire_contexte": "Indépendant",
-        "orientation_source": "Gauche",
+        "angle": "Responsabilité des pays développés dans le blocage des négociations.",
+        "ton": "engage",
+        "url": "https://basta.media/COP31-echec-pays-developpes-ont-bloque-negociations-financement-adaptation-Sud",
+        "citation_cle": "Les pays développés ont bloqué les négociations sur des sujets essentiels pour les États du Sud.",
+        "auteur": "Rachel Knaebel",
+        "proprietaire_contexte": "Association Basta! (Indépendant)",
+        "orientation_source": "Gauche écologique",
         "groupe_media": {
-          "nom": "Blast",
-          "proprietaire": "Blast",
+          "nom": "Basta!",
+          "proprietaire": "Association Basta!",
           "type_proprietaire": "independant",
           "orientation": "gauche"
         }
       }
     ],
-    "analyse_coherence": "Le traitement médiatique des violences faites aux femmes révèle une fracture profonde entre la communication institutionnelle et la réalité socio-économique. D'un côté, les médias mainstream comme La Croix offrent une tribune sans filtre à la ministre Aurore Bergé, qui utilise un lexique hégémonique ('révolution', 'bilan historique'). De l'autre, des médias d'investigation ou engagés (Blast, L'Humanité) opposent des faits matériels : le manque de structures en milieu rural et l'obstacle financier majeur que représente le départ du domicile conjugal. On observe un double standard dans l'évaluation de l'efficacité publique : là où le gouvernement met en avant des symboles (bancs rouges, numéros verts), les sources indépendantes pointent l'absence de redistribution de richesses vers les structures d'accueil. La focalisation sur la 'révolution' administrative occulte le fait que la justice sociale et l'autonomie financière restent les parents pauvres de cette politique, alors que le coût de la mise en sécurité (16 800€) est largement supérieur aux aides actuelles.",
+    "analyse_coherence": "L'analyse croisée révèle une fracture profonde dans la perception de l'échec de la COP31. Politico EU (propriété de KKR/Axel Springer) adopte un ton désabusé, voire cynique, en relayant l'idée que le processus lui-même est devenu obsolète, ce qui peut servir un agenda de dérégulation ou de sortie du cadre contraignant de l'ONU. À l'inverse, Basta! pointe une responsabilité politique précise : celle des pays du Nord qui refusent d'assumer la dette climatique envers le Sud Global. Il y a un double standard flagrant dans la couverture médiatique mainstream : on déplore l'échec technique tout en occultant souvent les rapports de force post-coloniaux qui le sous-tendent. Tandis que les médias liés aux intérêts financiers soulignent l'inefficacité bureaucratique, la presse indépendante souligne que l'échec est un choix délibéré des puissances dominantes pour préserver leurs intérêts économiques face à l'urgence climatique des pays les plus vulnérables.",
     "biais_detectes": [
-      "Complaisance institutionnelle",
-      "Invisibilisation des obstacles financiers",
-      "Déconnexion territoriale"
+      "Cynisme institutionnel",
+      "Occultation des rapports de force Nord-Sud",
+      "Biais pro-business"
     ],
-    "ce_quil_faut_retenir": "Si la parole se libère et que les dispositifs d'alerte se multiplient, l'absence de moyens financiers massifs pour l'autonomie des femmes reste le principal verrou à leur protection réelle."
+    "ce_quil_faut_retenir": "L'échec d'Antalya n'est pas qu'une panne diplomatique, c'est le refus des pays développés de financer la transition du Sud, menaçant la survie du cadre de coopération internationale."
   },
   "regard_etranger": [
     {
       "source": "Courrier international",
-      "pays": "France/Monde",
-      "titre": "Macron et la règle d'or budgétaire : l'analyse de la presse étrangère",
-      "titre_original": "Pourquoi Emmanuel Macron a-t-il déterré le projet de règle d’or budgétaire ?",
-      "angle": "Synthèse des doutes étrangers sur la sincérité d'une rigueur constitutionnelle proposée en fin de mandat.",
-      "url": "https://www.courrierinternational.com/article/vu-de-l-etranger-pourquoi-emmanuel-macron-a-t-il-deterre-le-projet-de-regle-d-or-budgetaire_289847",
+      "pays": "France/Allemagne",
+      "titre": "Mélenchon joue avec des peurs anciennes",
+      "titre_original": "Interview sur le réarmement de l’Allemagne",
+      "angle": "La presse allemande (FAZ) s'inquiète de la vision des relations internationales du leader insoumis.",
+      "url": "https://www.courrierinternational.com/article/interview-sur-le-rearmement-de-l-allemagne-melenchon-joue-avec-des-peurs-tres-anciennes_288654",
       "groupe_media": {
         "nom": "Groupe Le Monde",
         "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
         "type_proprietaire": "milliardaire",
         "orientation": "centre-droit"
       }
+    },
+    {
+      "source": "NYT World",
+      "pays": "États-Unis",
+      "titre": "La Corée du Nord expulse des diplomates suisses",
+      "titre_original": "North Korea Kicks Out Swiss Diplomats in Spat Linked to Ukraine War",
+      "angle": "L'expulsion est liée aux sanctions suisses contre un camp accusé d'endoctrinement d'enfants ukrainiens.",
+      "url": "https://www.nytimes.com/2026/11/25/world/asia/north-korea-switzerland-diplomats.html",
+      "groupe_media": {
+        "nom": "The New York Times Company",
+        "proprietaire": "Famille Ochs-Sulzberger",
+        "type_proprietaire": "famille",
+        "orientation": "centre"
+      }
     }
   ],
   "chiffre_du_jour": {
-    "valeur": "10 TWh",
-    "contexte": "Consommation annuelle estimée des data centers en France en 2026, soit environ 2 % de la consommation totale d'électricité du pays.",
-    "source": "RTE",
-    "source_url": "https://www.rte-france.com/bases-electricite/consommation-electricite/essor-data-centers-france"
+    "valeur": "700 000",
+    "contexte": "Estimation haute du nombre de soldats russes morts ou blessés en Ukraine selon des données piratées de l'agence nationale des statistiques.",
+    "source": "France 24",
+    "source_url": "https://www.france24.com/fr/europe/20261125-guerre-ukraine-nombre-pertes-russes-estim%C3%A9-700-000-hackers-kremlin-refuse-commenter-moscou-soldats"
   },
   "a_surveiller": [
     {
-      "date": "2027-01-01",
-      "evenement": "Suppression de l'équipe de nuit chez Stellantis Sochaux",
-      "type": "echeance_economique",
-      "lien": "https://www.la-croix.com/economie/stellantis-stoppe-l-equipe-de-nuit-a-sochaux-500-emplois-concernes-20261124"
-    },
-    {
-      "date": "2027-03-03",
-      "evenement": "Ouverture du procès Sarkozy/Bruni (Affaire Takieddine)",
-      "type": "audition",
-      "lien": "https://www.rfi.fr/fr/france/20261124-fausse-r%C3%A9tractation-de-ziad-takieddine-nicolas-sarkozy-et-carla-bruni-renvoy%C3%A9s-en-proc%C3%A8s"
+      "date": "2026-12-01",
+      "evenement": "Examen en séance publique de la loi d'indemnisation des victimes des essais nucléaires",
+      "type": "vote",
+      "lien": "https://www.assemblee-nationale.fr/dyn/static/17/seance/discussion_generale.pdf"
     }
   ],
   "signal_faible": [
     {
-      "titre": "Data centers : le 'mécénat' pour acheter le silence des maires",
-      "rubrique": "ecologie",
-      "resume": "À Bouc-Bel-Air, le constructeur Digital Realty a versé 170 000 euros de 'mécénat' à la commune juste après l'obtention d'un permis de construire contesté. Cette pratique de financement privé des communes par les géants du numérique interroge sur l'indépendance des décisions d'urbanisme (Reporterre, Slate).",
+      "titre": "Artex : l'IA d'intrusion qui inquiète le FBI",
+      "rubrique": "tech",
+      "resume": "Artex, un framework d'IA conçu pour le test d'intrusion, est détourné par des hackers pour mener des attaques ultra-rapides. Le FBI et le CERT-EU ont émis des alertes suite à des intrusions suspectées contre la CIA et la Commission européenne (CheckNews, France 24).",
       "sources": [
         {
-          "nom": "Reporterre",
-          "url": "https://reporterre.net/Ils-achetent-le-silence-pour-faire-accepter-ses-data-centers-un-constructeur-sort-le",
-          "type": "investigation"
+          "nom": "CheckNews",
+          "url": "https://www.liberation.fr/checknews/quest-ce-quartex-ce-logiciel-dintrusion-dope-a-lia-qui-fait-trembler-le-monde-de-la-cybersecurite-20261125_BW7WXDE3UNBTDP5DEABGHFJWFI/",
+          "type": "fact-check"
         },
         {
-          "nom": "Slate FR",
-          "url": "https://www.slate.fr/societe/data-centers-france-citoyens-revolte-riverains-contestation-pollution-environnement-le-bourget-seine-saint-denis",
-          "type": "mainstream"
+          "nom": "FBI IC3",
+          "url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+          "type": "institutionnel"
         }
       ],
-      "pourquoi_signal": "Elle révèle une nouvelle forme de pression financière des Big Tech sur les collectivités locales pour contourner les résistances écologiques."
+      "pourquoi_signal": "Il marque le passage à une cybercriminalité automatisée par IA, capable de saturer les défenses classiques en quelques minutes."
     }
   ],
   "alerte_editoriale": [
     {
-      "titre": "Cisjordanie : la terreur coloniale cible les écoles",
-      "rubrique": "international",
-      "resume": "En Cisjordanie occupée, les écoles comme celle d'Al-Mughayyir vivent sous la menace constante des colons. En 2026, les incidents violents touchant l'éducation ont doublé, avec plusieurs élèves tués devant leurs établissements (RFI, Mediapart).",
+      "titre": "Essais nucléaires : le revirement de l'État",
+      "rubrique": "politique",
+      "resume": "Le gouvernement refuse désormais de soutenir en l'état la proposition de loi visant à mieux indemniser les victimes des essais nucléaires en Polynésie et Algérie, malgré un consensus parlementaire initial (Mediapart, 20 Minutes).",
       "axes_concernes": [
-        "droit_international",
         "colonialisme",
-        "droits_humains"
-      ],
-      "analyse": "La situation en Cisjordanie dépasse le cadre du simple conflit territorial pour devenir une entreprise systématique de harcèlement des populations civiles. Le ciblage des écoles, documenté par l'ONU, constitue une violation flagrante du droit international et une entrave au droit fondamental à l'éducation. L'impunité dont bénéficient les colons, malgré les condamnations de façade de certains responsables israéliens comme Gadi Eisenkot, témoigne d'une complicité structurelle de l'État occupant.",
-      "sources": [
-        {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-international/20261124-cisjordanie-occup%C3%A9e-les-%C3%A9coles-en-%C3%A9tat-d-alerte-face-%C3%A0-la-violence-des-colons-isra%C3%A9liens",
-          "type": "mainstream"
-        },
-        {
-          "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/international/241126/en-cisjordanie-occupee-une-systematique-politique-israelienne-de-terreur-coloniale",
-          "type": "investigation"
-        }
-      ]
-    },
-    {
-      "titre": "Mayotte : l'échec sécuritaire du 101e département",
-      "rubrique": "societe",
-      "resume": "Malgré les opérations 'chocs' à répétition, Mayotte s'enfonce dans une crise sécuritaire et sociale sans précédent. Le viol d'une automobiliste et la mort de deux adolescents soulignent l'inefficacité des méthodes répressives actuelles (Mediapart, RFI).",
-      "axes_concernes": [
         "justice_sociale",
         "droits_humains"
       ],
-      "analyse": "L'obstination de l'État français à traiter la crise mahoraise uniquement sous l'angle policier et migratoire est une impasse. Le décalage entre les bilans officiels et le vécu des habitants montre que sans investissement massif dans les services publics et la justice sociale, la spirale de violence ne fera que s'accentuer, laissant une population française dans un abandon citoyen inadmissible.",
+      "analyse": "Ce revirement est une trahison envers les populations polynésiennes et algériennes qui subissent encore les conséquences sanitaires de la force de frappe française. En invoquant des raisons budgétaires ou techniques, l'État perpétue une forme de déni colonial sur sa responsabilité historique.",
       "sources": [
         {
           "nom": "Mediapart",
-          "url": "https://www.mediapart.fr/journal/france/241126/mayotte-les-chocs-de-securite-de-l-etat-ne-font-plus-illusion",
+          "url": "https://www.mediapart.fr/journal/ecologie/251126/victimes-des-tirs-nucleaires-le-revirement-du-gouvernement",
           "type": "investigation"
         },
         {
-          "nom": "RFI",
-          "url": "https://www.rfi.fr/fr/france/20261124-on-vit-dans-la-peur-de-sortir-%C3%A0-mayotte-la-population-s-inqui%C3%A8te-d-une-flamb%C3%A9e-des-violences",
-          "type": "mainstream"
+          "nom": "Assemblée Nationale",
+          "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3532_texte-adopte-commission",
+          "type": "institutionnel"
         }
       ]
     }
   ],
-  "date": "2026-11-25",
-  "genere_a": "2026-11-25T05:35:34.703Z",
+  "date": "2026-11-26",
+  "genere_a": "2026-11-26T05:35:50.872Z",
   "meta": {
-    "nb_articles_analyses": 725,
-    "nb_topics": 213,
+    "nb_articles_analyses": 698,
+    "nb_topics": 221,
     "nb_topics_selectionnes": 16,
-    "nb_articles_dans_selection": 44,
-    "sources_francaises": 467,
-    "sources_etrangeres": 258,
+    "nb_articles_dans_selection": 41,
+    "sources_francaises": 470,
+    "sources_etrangeres": 228,
     "rubriques_couvertes": [
+      "politique",
       "societe",
-      "economie",
       "international"
     ],
     "modele": "openai/gpt-5.2+web-search (rédaction: gemini/gemini-3-flash-preview)",
