@@ -1,46 +1,80 @@
 {
-  "date": "2026-11-26",
-  "genere_a": "2026-11-26T05:36:08.751Z",
+  "date": "2026-11-28",
+  "genere_a": "2026-11-28T05:34:59.324Z",
   "faits_ia": [
     {
-      "titre": "Artex : le logiciel d'intrusion par IA qui inquiète la cybersécurité",
-      "sous_section": "societe",
-      "resume": "Artex, un outil d'automatisation d'attaques par agents IA, est au cœur d'une série de piratages d'envergure. Initialement présenté comme un outil défensif, il permettrait désormais de mener des intrusions massives avec une rapidité inédite, surpassant les capacités de réaction humaines traditionnelles.",
-      "pourquoi_ca_compte": "L'automatisation de la cybercriminalité par l'IA fragilise la sécurité des infrastructures critiques et des données citoyennes, rendant les défenses classiques obsolètes.",
+      "titre": "OpenAI et Apple s'affrontent en justice pour vol de secrets industriels",
+      "sous_section": "regulation",
+      "resume": "OpenAI a déposé une contre-plainte contre Apple, l'accusant d'avoir dérobé des secrets industriels et d'exercer des pressions illégales sur leurs fournisseurs communs. Ce conflit juridique fait suite à une première offensive d'Apple et s'inscrit dans une lutte acharnée pour la domination du marché des objets connectés dopés à l'IA.",
+      "pourquoi_ca_compte": "Cette bataille entre deux géants montre que la propriété intellectuelle sur les algorithmes devient le champ de bataille majeur de l'économie numérique, risquant de limiter l'interopérabilité pour les utilisateurs.",
       "sources": [
         {
-          "nom": "CheckNews",
-          "url": "https://www.liberation.fr/checknews/quest-ce-quartex-ce-logiciel-dintrusion-dope-a-lia-qui-fait-trembler-le-monde-de-la-cybersecurite-20261125_BW7WXDE3UNBTDP5DEABGHFJWFI/",
-          "type": "fact-check",
+          "nom": "Ouest-France",
+          "url": "https://www.ouest-france.fr/high-tech/apple/openai-le-createur-de-chatgpt-et-son-concurrent-apple-saccusent-mutuellement-de-vol-sur-fond-de-course-aux-objets-connectes-d22853e6-eabf-11f1-bb2d-c71dc7920c2a?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/sciences-et-technologie/le-createur-de-chatgpt-accuse-apple-de-vol-de-secrets-et-de-pressions-sur-ses-fournisseurs-31700584.php",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/high-tech/4266439-20261128-accusee-apple-vol-secrets-industriels-openai-contre-attaque-justice?at_medium=display&at_campaign=149",
+          "type": "mainstream",
+          "groupe_media": null
+        }
+      ],
+      "lien": "https://www.20minutes.fr/high-tech/4266439-20261128-accusee-apple-vol-secrets-industriels-openai-contre-attaque-justice"
+    },
+    {
+      "titre": "Google sommé de suspendre le chantier d'un data center en Belgique",
+      "sous_section": "regulation",
+      "resume": "Les autorités wallonnes ont ordonné l'arrêt immédiat de la construction d'un méga centre de données Google sur les rives de la Sambre. Cette décision fait suite à des recours citoyens et de Greenpeace révélant que le géant américain poursuivait les travaux malgré l'absence de permis d'urbanisme définitif.",
+      "pourquoi_ca_compte": "C'est un signal fort envoyé aux Big Tech : l'urgence du déploiement de l'IA ne justifie pas de s'affranchir des règles démocratiques et environnementales locales.",
+      "sources": [
+        {
+          "nom": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits",
+          "type": "etranger",
           "groupe_media": {
-            "nom": "Libération",
-            "proprietaire": "Fonds de dotation",
+            "nom": "Scott Trust",
+            "proprietaire": "Scott Trust Limited",
             "type_proprietaire": "fondation",
             "orientation": "centre-gauche"
           }
         },
         {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/%C3%A9co-tech/20261125-artex-g%C3%A9n%C3%A9ral-agents-ia-soup%C3%A7onn%C3%A9-avoir-aid%C3%A9-pirater-cia",
+          "nom": "L'Humanité",
+          "url": "https://www.humanite.fr/social-et-economie/data-center/data-centers-google-contraint-de-suspendre-un-mega-chantier-de-construction-en-belgique-faute-de-permis",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
+            "nom": "L'Humanité",
+            "proprietaire": "Société des lecteurs et salariés",
+            "type_proprietaire": "cooperative",
+            "orientation": "gauche"
           }
         }
-      ]
+      ],
+      "lien": "https://www.humanite.fr/social-et-economie/data-center/data-centers-google-contraint-de-suspendre-un-mega-chantier-de-construction-en-belgique-faute-de-permis"
     },
     {
-      "titre": "Le système OSINT de la CIA compromis par une cyberattaque dopée à l'IA",
-      "sous_section": "regulation",
-      "resume": "Des pirates ont réussi à s'infiltrer dans le système d'analyse de sources ouvertes de la CIA et de l'ODNI. L'attaque aurait été perpétrée via les mêmes outils d'IA ayant précédemment visé la Commission européenne, exposant des données non classifiées mais stratégiques.",
-      "pourquoi_ca_compte": "L'utilisation d'IA pour infiltrer des agences de renseignement illustre une escalade dans la cyberguerre mondiale, menaçant la souveraineté numérique des États.",
+      "titre": "Cyberattaque massive contre Cloud One, la plateforme de l'US Air Force",
+      "sous_section": "societe",
+      "resume": "Des pirates informatiques ont réussi à s'infiltrer dans 'Cloud One', l'infrastructure cloud stratégique de l'armée de l'air américaine. Les attaquants auraient atteint la couche d'administration, accédant potentiellement à des données tactiques, logistiques et au registre du personnel.",
+      "pourquoi_ca_compte": "La vulnérabilité des infrastructures militaires critiques face au cyber-espionnage pose une menace directe pour la sécurité nationale et la stabilité géopolitique globale.",
       "sources": [
         {
+          "nom": "Le Figaro",
+          "url": "https://www.lefigaro.fr/international/armee-de-l-air-fbi-cia-aux-etats-unis-les-cyberattaques-s-accumulent-contre-les-secteurs-strategiques-20261128",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
           "nom": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2384431-la-menace-setend-le-systeme-osint-de-la-cia-pirate-probablement-par-le-meme-outil-ia-que-la-commission-europeenne.html",
+          "url": "https://www.numerama.com/cyberguerre/2386483-serie-noire-aux-etats-unis-des-pirates-se-sont-infiltres-dans-cloud-one-la-plateforme-cloud-geante-de-lus-air-force.html",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Humanoid",
@@ -48,144 +82,123 @@
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
-        },
-        {
-          "nom": "Next",
-          "url": "https://next.ink/brief-article/un-systeme-de-la-cia-et-du-renseignement-americain-victime-dune-intrusion/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
         }
-      ]
+      ],
+      "lien": "https://www.numerama.com/cyberguerre/2386483-serie-noire-aux-etats-unis-des-pirates-se-sont-infiltres-dans-cloud-one-la-plateforme-cloud-geante-de-lus-air-force.html"
     },
     {
-      "titre": "L'Agence du médicament alerte sur les dangers des diagnostics par IA",
-      "sous_section": "societe",
-      "resume": "L'ANSM met en garde contre l'usage croissant des IA génératives pour obtenir des conseils médicaux. Des cas de surdosages et d'erreurs de prescription induits par des réponses erronées de l'IA ont été rapportés, entraînant des lésions parfois irréversibles chez les patients.",
-      "pourquoi_ca_compte": "Le remplacement des professionnels de santé par des algorithmes non certifiés pose un risque vital immédiat et soulève des questions de responsabilité juridique en cas d'erreur.",
+      "titre": "Nvidia : le retour de Jensen Huang sous pression politique",
+      "sous_section": "business",
+      "resume": "Jensen Huang a repris la tête de Nvidia seulement onze jours après sa démission liée à une liaison personnelle. Ce retour aurait été précipité par des pressions de Donald Trump, alors qu'une enquête pointe l'utilisation de puces Blackwell par des entités chinoises malgré les restrictions d'exportation.",
+      "pourquoi_ca_compte": "L'imbrication entre les intérêts d'une entreprise privée et la diplomatie d'État souligne la dépendance critique des nations envers les fournisseurs de puces IA.",
       "sources": [
         {
-          "nom": "Le Monde",
-          "url": "https://www.lemonde.fr/societe/article/2026/11/26/l-agence-du-medicament-pointe-les-risques-de-consulter-l-ia-pour-des-conseils-medicaux_6815395_3224.html",
+          "nom": "La Croix",
+          "url": "https://www.la-croix.com/economie/ia-bourse-epargne-retraite-nvidia-le-geant-dont-les-etats-unis-ne-peuvent-plus-se-passer-20261127",
+          "type": "mainstream",
+          "groupe_media": null
+        },
+        {
+          "nom": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/replay-emissions/usa-today/video-nvidia-le-seisme-qui-secoue-la-tech_VN-202611270775.html",
           "type": "mainstream",
           "groupe_media": {
-            "nom": "Groupe Le Monde",
-            "proprietaire": "Xavier Niel, Daniel Kretinsky, Matthieu Pigasse",
+            "nom": "CMA CGM",
+            "proprietaire": "Rodolphe Saadé",
             "type_proprietaire": "milliardaire",
             "orientation": "centre-droit"
           }
-        },
-        {
-          "nom": "franceinfo",
-          "url": "https://www.franceinfo.fr/sante/medicament/l-agence-du-medicament-met-en-garde-contre-les-conseils-de-l-ia-qui-peuvent-etre-dangereux-pour-la-sante-des-patients_8300325.html#xtor=RSS-3-[lestitres]",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Télévisions",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
         }
-      ]
+      ],
+      "lien": "https://www.la-croix.com/economie/ia-bourse-epargne-retraite-nvidia-le-geant-dont-les-etats-unis-ne-peuvent-plus-se-passer-20261127"
     },
     {
-      "titre": "Dario Amodei (Anthropic) refuse l'idée d'un abandon du contrôle humain",
+      "titre": "L'Ukraine utilise pour la première fois un laser contre un drone",
       "sous_section": "recherche",
-      "resume": "Le PDG d'Anthropic a fermement rejeté les accusations selon lesquelles son entreprise favoriserait une cession de l'autonomie humaine à l'IA. Cette prise de parole intervient alors que les modèles automatisent de plus en plus leur propre développement.",
-      "pourquoi_ca_compte": "Le débat sur l'agence humaine face à l'IA superintelligente détermine les futures normes de sécurité et d'éthique qui encadreront nos vies quotidiennes.",
+      "resume": "Kiev a annoncé avoir abattu un drone à réaction russe de type Geran en utilisant son nouveau système laser expérimental baptisé 'Blysk'. Ce dispositif a été déployé pour protéger une infrastructure critique, marquant une avancée technologique majeure dans la défense antiaérienne.",
+      "pourquoi_ca_compte": "Le passage des armes à énergie dirigée du laboratoire au champ de bataille change la donne économique de la guerre, le coût d'un tir laser étant dérisoire face aux missiles traditionnels.",
       "sources": [
         {
-          "nom": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/26/anthropic-ceo-amodei-denies-wanting-humanity-to-surrender-free-will-to-ai?traffic_source=rss",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Al Jazeera Media Network",
-            "proprietaire": "État du Qatar",
-            "type_proprietaire": "etat",
-            "orientation": "variable"
-          }
-        },
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        }
-      ]
-    },
-    {
-      "titre": "Nvidia : Jensen Huang réintégré après une intervention de Donald Trump",
-      "sous_section": "business",
-      "resume": "Après avoir été évincé pour manquement au code de conduite, Jensen Huang a retrouvé son poste chez Nvidia en seulement 11 jours. Des rapports suggèrent une influence directe de Donald Trump dans ce retour, créant un précédent controversé sur la gouvernance des géants de la tech.",
-      "pourquoi_ca_compte": "L'imbrication entre pouvoir politique et direction des entreprises d'IA pose un problème d'indépendance pour les technologies qui structurent l'économie mondiale.",
-      "sources": [
-        {
-          "nom": "France 24 FR",
-          "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261125-nvidia-trump-impliqu%C3%A9-jusqu-o%C3%B9",
+          "nom": "Sud-Ouest",
+          "url": "https://www.sudouest.fr/international/europe/ukraine/guerre-en-ukraine-kiev-affirme-avoir-utilise-un-laser-pour-abattre-un-drone-a-reaction-russe-une-premiere-31700385.php",
           "type": "mainstream",
-          "groupe_media": {
-            "nom": "France Médias Monde",
-            "proprietaire": "État français",
-            "type_proprietaire": "etat",
-            "orientation": "centre"
-          }
+          "groupe_media": null
         },
         {
-          "nom": "The Conversation FR",
-          "url": "https://theconversation.com/retour-de-jensen-huang-chez-nvidia-un-precedent-qui-pourrait-saverer-desastreux-pour-les-conseils-dadministration-297454",
-          "type": "mainstream",
-          "groupe_media": {
-            "nom": "The Conversation",
-            "proprietaire": "Consortium d'universités",
-            "type_proprietaire": "fondation",
-            "orientation": "centre"
-          }
-        }
-      ]
-    },
-    {
-      "titre": "Scandale Megaspeed : soupçons de trafic de puces Nvidia vers la Chine",
-      "sous_section": "regulation",
-      "resume": "La société singapourienne Megaspeed est accusée d'avoir servi d'intermédiaire pour contourner les sanctions américaines et livrer des puces IA haute performance à la Chine. L'enquête se concentre sur les liens entre la direction de Megaspeed et Nvidia.",
-      "pourquoi_ca_compte": "Le contrôle des composants matériels (hardware) est le nerf de la guerre de l'IA ; son contournement modifie l'équilibre des forces géopolitiques.",
-      "sources": [
-        {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
-        },
-        {
-          "nom": "Sciences et Avenir",
-          "url": "https://www.sciencesetavenir.fr/politique/affaire-nvidia-dans-les-coulisses-de-megaspeed-la-societe-par-laquelle-le-scandale-arrive_196462",
+          "nom": "20 Minutes",
+          "url": "https://www.20minutes.fr/monde/ukraine/4266424-20261127-guerre-ukraine-kiev-affirme-avoir-utilise-laser-abattre-drone-russe?at_medium=display&at_campaign=149",
           "type": "mainstream",
           "groupe_media": null
         }
-      ]
+      ],
+      "lien": "https://www.sudouest.fr/international/europe/ukraine/guerre-en-ukraine-kiev-affirme-avoir-utilise-un-laser-pour-abattre-un-drone-a-reaction-russe-une-premiere-31700385.php"
     },
     {
-      "titre": "Microsoft en « Code Rouge » après une panne historique",
+      "titre": "Black Friday : l'iPad Mini 2026 connaît sa première baisse de prix",
       "sous_section": "annonces",
-      "resume": "Suite à une interruption majeure de service à la mi-novembre, Microsoft a déclenché un plan d'urgence interne extrême. Des mémos révèlent une prise de conscience brutale de la fragilité de ses infrastructures cloud face à la demande croissante liée à l'IA.",
-      "pourquoi_ca_compte": "La dépendance quasi totale des entreprises et administrations à un seul fournisseur cloud expose la société à des paralysies systémiques en cas de défaillance technique.",
+      "resume": "À peine quelques semaines après son lancement, le nouvel iPad Mini bénéficie de réductions allant jusqu'à 100 dollars. Cette promotion agressive intervient dans un contexte de forte concurrence sur le marché des tablettes compactes.",
+      "pourquoi_ca_compte": "Ces baisses de prix rapides dès le lancement suggèrent une saturation du marché du matériel haut de gamme et une pression accrue sur Apple pour maintenir ses volumes de vente.",
+      "sources": [
+        {
+          "nom": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Vox Media",
+            "proprietaire": "Vox Media Inc.",
+            "type_proprietaire": "independant",
+            "orientation": "centre-gauche"
+          }
+        },
+        {
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/best-black-friday-ipad-deals-11-27-2026/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "Condé Nast",
+            "proprietaire": "Famille Newhouse (Advance Publications)",
+            "type_proprietaire": "famille",
+            "orientation": "centre"
+          }
+        }
+      ],
+      "lien": "https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026"
+    },
+    {
+      "titre": "Lancement du concours 'Innovators Under 35' par le MIT",
+      "sous_section": "recherche",
+      "resume": "La MIT Technology Review a officiellement ouvert les nominations pour son édition 2027. Ce prix prestigieux distingue chaque année 35 jeunes chercheurs et entrepreneurs dont les travaux, notamment en IA et biotechnologies, pourraient transformer la société.",
+      "pourquoi_ca_compte": "Ce concours est un baromètre des futures ruptures technologiques qui façonneront le travail et la santé des citoyens de demain.",
+      "sources": [
+        {
+          "nom": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/",
+          "type": "etranger",
+          "groupe_media": {
+            "nom": "MIT (Massachusetts Institute of Technology)",
+            "proprietaire": "MIT",
+            "type_proprietaire": "fondation",
+            "orientation": "centre"
+          }
+        },
+        {
+          "nom": "MIT Technology Review (Newsletter)",
+          "url": "https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/",
+          "type": "etranger",
+          "groupe_media": null
+        }
+      ],
+      "lien": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/"
+    },
+    {
+      "titre": "James-Webb : nouvelles découvertes sur l'origine des trous noirs",
+      "sous_section": "recherche",
+      "resume": "Le télescope spatial a détecté un objet mystérieux datant de 450 millions d'années après le Big Bang. Parallèlement, il a fourni des images inédites de restes de supernovas, éclairant le processus de création des poussières d'étoiles constitutives de la vie.",
+      "pourquoi_ca_compte": "Au-delà de la science pure, ces avancées financées par des fonds publics redéfinissent notre compréhension de la place de l'humanité dans l'univers grâce à l'imagerie de pointe.",
       "sources": [
         {
           "nom": "Futura Sciences",
-          "url": "https://www.futura-sciences.com/tech/actualites/informatique-code-rouge-chez-microsoft-panne-mondiale-novembre-provoque-veritable-electrochoc-sein-geant-informatique-139639/#xtor=RSS-8",
+          "url": "https://www.futura-sciences.com/sciences/actualites/supernova-restes-cette-etoile-brillent-notre-ciel-depuis-xviie-siecle-telescope-james-webb-y-retrouve-indices-dernieres-heures-139614/#xtor%3DRSS-8",
           "type": "mainstream",
           "groupe_media": {
             "nom": "Futura",
@@ -195,27 +208,23 @@
           }
         },
         {
-          "nom": "Next",
-          "url": "https://next.ink/brief-article/la-panne-de-microsoft-a-declenche-un-code-rouge-en-interne/",
-          "type": "investigation",
-          "groupe_media": {
-            "nom": "Next (ex-Next INpact)",
-            "proprietaire": "Équipe fondatrice",
-            "type_proprietaire": "independant",
-            "orientation": "centre"
-          }
+          "nom": "Futura Sciences (Trous noirs)",
+          "url": "https://www.futura-sciences.com/sciences/actualites/petit-point-rouge-telescope-james-webb-decouvert-mysterieux-objet-cosmique-pourrait-eclairer-origine-trous-noirs-geants-139676/#xtor%3DRSS-8",
+          "type": "mainstream",
+          "groupe_media": null
         }
-      ]
+      ],
+      "lien": "https://www.futura-sciences.com/sciences/actualites/petit-point-rouge-telescope-james-webb-decouvert-mysterieux-objet-cosmique-pourrait-eclairer-origine-trous-noirs-geants-139676/#xtor%3DRSS-8"
     },
     {
-      "titre": "Huawei condamné pour vol de secrets industriels aux États-Unis",
-      "sous_section": "regulation",
-      "resume": "Un jury américain a reconnu Huawei coupable de vol de secrets commerciaux appartenant à T-Mobile et Cisco. L'entreprise est également condamnée pour avoir sciemment contourné les sanctions économiques contre l'Iran via des montages financiers opaques.",
-      "pourquoi_ca_compte": "Cette condamnation renforce les tensions technologiques sino-américaines et pourrait justifier de nouvelles restrictions d'accès aux marchés occidentaux pour les entreprises chinoises.",
+      "titre": "Nintendo Switch 2 : Premières promotions pour le Black Friday",
+      "sous_section": "annonces",
+      "resume": "Disponible seulement depuis septembre 2026, la Nintendo Switch 2 fait déjà l'objet de remises sur des packs incluant des jeux comme 'Zelda: Ocarina of Time'. Cette stratégie agressive vise à dominer le marché du divertissement familial pour les fêtes.",
+      "pourquoi_ca_compte": "L'accélération du cycle promotionnel pour les nouveaux matériels témoigne d'une lutte féroce pour l'attention numérique des ménages.",
       "sources": [
         {
-          "nom": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/",
+          "nom": "Wired",
+          "url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-27-2026/",
           "type": "etranger",
           "groupe_media": {
             "nom": "Condé Nast",
@@ -225,121 +234,99 @@
           }
         },
         {
-          "nom": "The Register",
-          "url": "https://www.theregister.com/legal/2026/11/25/jury-finds-huawei-stole-us-tech-laundered-money-and-broke-sanctions/5312024",
-          "type": "etranger",
+          "nom": "Futura Sciences",
+          "url": "https://www.futura-sciences.com/conso/bons-plans/guides-gaming-black-friday-cdiscount-casse-prix-pack-nintendo-switch-2-legend-zelda-ocarina-time-11975/#xtor%3DRSS-8",
+          "type": "mainstream",
           "groupe_media": {
-            "nom": "The Register",
-            "proprietaire": "Situation Publishing",
+            "nom": "Futura",
+            "proprietaire": "Futura (indépendant)",
             "type_proprietaire": "independant",
             "orientation": "centre"
           }
         }
-      ]
+      ],
+      "lien": "https://www.futura-sciences.com/conso/bons-plans/guides-gaming-black-friday-cdiscount-casse-prix-pack-nintendo-switch-2-legend-zelda-ocarina-time-11975/#xtor%3DRSS-8"
     },
     {
-      "titre": "WhatsApp lance la programmation de messages pour ses 3 milliards d'utilisateurs",
-      "sous_section": "annonces",
-      "resume": "Meta déploie enfin la possibilité de planifier l'envoi de messages sur WhatsApp (de 10 minutes à 14 jours d'avance). Cette fonctionnalité, très demandée, concerne aussi bien les conversations individuelles que les groupes.",
-      "pourquoi_ca_compte": "Un changement ergonomique majeur pour l'outil de communication le plus utilisé au monde, impactant l'organisation du travail et les interactions sociales privées.",
+      "titre": "Amazon casse les prix sur ses liseuses et enceintes Echo",
+      "sous_section": "business",
+      "resume": "Dans le cadre du Black Friday, Amazon propose des réductions allant jusqu'à 180 dollars sur ses liseuses Kindle et ses enceintes intelligentes. L'objectif est de verrouiller les consommateurs dans son écosystème de services et d'IA domestique.",
+      "pourquoi_ca_compte": "La domination des terminaux Amazon dans les foyers pose des questions sur la protection de la vie privée et la souveraineté des données personnelles face aux assistants vocaux.",
       "sources": [
         {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
+          "nom": "Wired (Kindle)",
+          "url": "https://www.wired.com/story/best-kindle-ereader-black-friday-deals-11-2026/",
           "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
+          "groupe_media": null
         },
         {
-          "nom": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
+          "nom": "Wired (Echo)",
+          "url": "https://www.wired.com/story/best-amazon-device-black-friday-deals-11-27-2026/",
           "type": "etranger",
-          "groupe_media": {
-            "nom": "Yahoo (AOL / Oath)",
-            "proprietaire": "Apollo Global Management",
-            "type_proprietaire": "milliardaire",
-            "orientation": "centre"
-          }
+          "groupe_media": null
         }
-      ]
-    },
-    {
-      "titre": "Fuite de données chez 1Password : les noms et emails des clients exposés",
-      "sous_section": "societe",
-      "resume": "Le gestionnaire de mots de passe 1Password a subi une intrusion dans ses systèmes internes. Si les coffres-forts et les mots de passe des utilisateurs restent sécurisés grâce au chiffrement, les noms et adresses emails ont été dérobés, augmentant les risques de phishing ciblé.",
-      "pourquoi_ca_compte": "La sécurité des gestionnaires de mots de passe est le dernier rempart de l'identité numérique ; même une fuite partielle érode la confiance des citoyens dans ces outils essentiels.",
-      "sources": [
-        {
-          "nom": "The Verge",
-          "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
-          "type": "etranger",
-          "groupe_media": {
-            "nom": "Vox Media",
-            "proprietaire": "Vox Media Inc.",
-            "type_proprietaire": "independant",
-            "orientation": "centre-gauche"
-          }
-        }
-      ]
+      ],
+      "lien": "https://www.wired.com/story/best-kindle-ereader-black-friday-deals-11-2026/"
     }
   ],
   "regard_croise_ia": {
-    "sujet": "L'émergence d'Artex et la vulnérabilité des agences de renseignement",
-    "contexte": "Une série d'intrusions informatiques majeures, utilisant l'IA Artex, a frappé la CIA et d'autres institutions internationales en novembre 2026.",
+    "sujet": "L'expansion effrénée des data centers et ses conséquences",
+    "contexte": "Alors que Google est contraint de stopper un chantier en Belgique, Elon Musk obtient l'autorisation d'envoyer des serveurs dans l'espace, illustrant une course technologique qui se heurte aux limites géographiques et environnementales.",
     "couvertures": [
       {
-        "source": "CheckNews",
-        "type": "fact-check",
-        "angle": "Explication technique du fonctionnement d'Artex et de son détournement.",
-        "ton": "factuel",
-        "url": "https://www.liberation.fr/checknews/quest-ce-quartex-ce-logiciel-dintrusion-dope-a-lia-qui-fait-trembler-le-monde-de-la-cybersecurite-20261125_BW7WXDE3UNBTDP5DEABGHFJWFI/",
-        "citation_cle": "La rapidité avec laquelle se produisent les attaques est le principal motif d’inquiétude.",
+        "source": "France 24 FR",
+        "type": "mainstream",
+        "angle": "Impact environnemental et énergétique en Europe",
+        "ton": "critique",
+        "url": "https://www.france24.com/fr/%C3%A9missions/la-question-qui-f%C3%A2che/20261127-essor-des-data-centers-faut-il-d%C3%A9brancher-l-ia",
+        "citation_cle": "La logique actuelle est plutôt une logique de 'jusqu'où ira la course à l'IA' sans regarder les ressources.",
         "groupe_media": {
-          "nom": "Libération",
-          "proprietaire": "Fonds de dotation",
+          "nom": "France Médias Monde",
+          "proprietaire": "État français",
+          "type_proprietaire": "etat",
+          "orientation": "centre"
+        }
+      },
+      {
+        "source": "L'Humanité",
+        "type": "mainstream",
+        "angle": "Lutte citoyenne et respect des procédures légales",
+        "ton": "engagé",
+        "url": "https://www.humanite.fr/social-et-economie/data-center/data-centers-google-contraint-de-suspendre-un-mega-chantier-de-construction-en-belgique-faute-de-permis",
+        "citation_cle": "Un méga chantier suspendu après une alerte lancée par des citoyens et Greenpeace sur un défaut de permis.",
+        "groupe_media": {
+          "nom": "L'Humanité",
+          "proprietaire": "Société des lecteurs et salariés",
+          "type_proprietaire": "cooperative",
+          "orientation": "gauche"
+        }
+      },
+      {
+        "source": "The Guardian",
+        "type": "etranger",
+        "angle": "Conflit entre régulation locale et expansion des Big Tech",
+        "ton": "factuel",
+        "url": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits",
+        "citation_cle": "Belgian authorities have ordered Google to halt construction work over lack of planning permit.",
+        "groupe_media": {
+          "nom": "Scott Trust",
+          "proprietaire": "Scott Trust Limited",
           "type_proprietaire": "fondation",
           "orientation": "centre-gauche"
         }
-      },
-      {
-        "source": "France 24",
-        "type": "mainstream",
-        "angle": "Focus sur l'implication d'Artex dans le piratage spécifique de la CIA.",
-        "ton": "alarmiste",
-        "url": "https://www.france24.com/fr/%C3%A9co-tech/20261125-artex-g%C3%A9n%C3%A9ral-agents-ia-soup%C3%A7onn%C3%A9-avoir-aid%C3%A9-pirater-cia",
-        "citation_cle": "Artex est comparé à un 'général d'agents IA' capable de coordonner des offensives complexes.",
-        "groupe_media": null
-      },
-      {
-        "source": "Numerama",
-        "type": "mainstream",
-        "angle": "Lien entre les attaques contre la CIA et celles contre la Commission européenne.",
-        "ton": "critique",
-        "url": "https://www.numerama.com/cyberguerre/2384431-la-menace-setend-le-systeme-osint-de-la-cia-pirate-probablement-par-le-meme-outil-ia-que-la-commission-europeenne.html",
-        "citation_cle": "La menace s’étend : le système OSINT de la CIA piraté, probablement par le même outil IA.",
-        "groupe_media": {
-          "nom": "Humanoid",
-          "proprietaire": "Humanoid (indépendant)",
-          "type_proprietaire": "independant",
-          "orientation": "centre"
-        }
       }
     ],
-    "analyse_coherence": "La couverture médiatique d'Artex révèle une inquiétude convergente sur la fin de l'ère de la cyberdéfense manuelle. Alors que CheckNews (Libération) se concentre sur la genèse de l'outil et son détournement 'dual-use', France 24 adopte une posture plus géopolitique en soulignant l'impuissance des services secrets américains (CIA) face à cette nouvelle forme d'intelligence. Numerama, de son côté, établit une cohérence entre les différentes victimes internationales, suggérant une campagne globale orchestrée via l'IA. On observe une absence de discours rassurant de la part des experts cités : le consensus médiatique s'établit sur le fait que l'IA a définitivement pris l'avantage sur les systèmes de protection classiques.",
+    "analyse_coherence": "La couverture médiatique révèle une tension croissante entre l'impératif industriel de l'IA et l'acceptabilité sociale. Alors que les médias généralistes comme France 24 interrogent la durabilité du modèle ('faut-il débrancher l'IA ?'), la presse étrangère et engagée (The Guardian, L'Humanité) se focalise sur les moyens d'action juridique des citoyens pour freiner des projets imposés. On observe une convergence sur le constat : les Big Tech tentent de passer en force (chantier sans permis) pour gagner la course à la puissance de calcul. Le ton varie de la neutralité factuelle à une critique structurelle du modèle énergétique de l'IA, mais l'unanimité se fait sur la nécessité d'un contrôle démocratique plus strict des infrastructures physiques de la tech.",
     "biais_detectes": [
-      "Personnification de l'IA",
-      "Focalisation sur le spectaculaire (CIA) au détriment des impacts sur les PME ou citoyens"
+      "Focalisation sur les aspects négatifs (consommation) au détriment des bénéfices économiques potentiels dans la source engagée.",
+      "Tendance à l'alarmisme sur la 'course à l'espace' d'Elon Musk sans analyse technique approfondie de la faisabilité."
     ],
-    "ce_quil_faut_retenir": "L'IA n'est plus seulement un assistant de productivité, mais une arme offensive automatisée capable de saturer les défenses des organisations les plus protégées au monde."
+    "ce_quil_faut_retenir": "L'IA n'est plus seulement un débat sur le code, mais un conflit territorial majeur où les citoyens utilisent le droit de l'urbanisme pour contester la puissance des géants du numérique."
   },
   "dernier_decryptage_slug": null,
   "meta": {
-    "nb_articles_ia": 223,
-    "nb_topics_ia": 85,
+    "nb_articles_ia": 182,
+    "nb_topics_ia": 78,
     "modele": "gemini/gemini-3-flash-preview",
     "version_pipeline": "5.0.0"
   }
